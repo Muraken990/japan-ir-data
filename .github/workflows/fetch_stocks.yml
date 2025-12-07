@@ -1,5 +1,4 @@
 name: Fetch Stock Data
-
 on:
   # 手動実行
   workflow_dispatch:
@@ -7,6 +6,9 @@ on:
   # 定期実行（毎日日本時間9時 = UTC 0時）
   # schedule:
   #   - cron: '0 0 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
@@ -42,5 +44,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add output/ || true
-          git commit -m "Update stock data $(date +'%Y-%m-%d')" || true
+          git diff --staged --quiet || git commit -m "Update stock data $(date +'%Y-%m-%d')"
           git push || true
