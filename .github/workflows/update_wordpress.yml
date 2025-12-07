@@ -1,0 +1,31 @@
+name: Update WordPress Companies
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install pandas requests
+
+      - name: Download latest CSV from artifacts
+        uses: dawidd6/action-download-artifact@v3
+        with:
+          workflow: fetch_all_fields.yml
+          name: all-fields-data
+          path: output/
+
+      - name: Update WordPress
+        env:
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+        run: python scripts/update_wordpress_companies.py
