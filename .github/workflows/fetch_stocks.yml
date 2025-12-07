@@ -1,0 +1,46 @@
+name: Fetch Stock Data
+
+on:
+  # 手動実行
+  workflow_dispatch:
+  
+  # 定期実行（毎日日本時間9時 = UTC 0時）
+  # schedule:
+  #   - cron: '0 0 * * *'
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180  # 3時間タイムアウト
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install yfinance pandas
+      
+      - name: Run yfinance fetch
+        run: |
+          python scripts/yfinance_fetch.py
+      
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: stock-data-${{ github.run_number }}
+          path: output/
+          retention-days: 30
+      
+      - name: Commit results to repository
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/ || true
+          git commit -m "Update stock data $(date +'%Y-%m-%d')" || true
+          git push || true
