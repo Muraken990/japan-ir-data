@@ -16,7 +16,7 @@ from datetime import datetime
 
 # 入力ファイル（GitHub Actions環境で動的に指定可能）
 YAHOO_JP_CSV = os.getenv('YAHOO_JP_CSV', 'data/japan_companies_latest.csv')
-YFINANCE_CSV = os.getenv('YFINANCE_CSV', 'output/yfinance_all_fields_2025-12-07.csv')
+YFINANCE_CSV = os.getenv('YFINANCE_CSV', 'output/yfinance_all_fields_latest.csv')
 
 # 出力ファイル
 OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'data')
