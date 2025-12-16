@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 WordPress企業データ スマート更新スクリプト
-条件分岐 + 段階的実行対応 + Dry Run機能 + Update Only機能
+条件分岐 + 段階的実行対応 + Dry Run機能 + Update Only機能 + 上場廃止候補レポート
 
 条件1: Yahoo○ + yfinance○ + WordPress× → 新規作成
 条件2: Yahoo○ + yfinance○ + WordPress○ → 更新
 条件3: Yahoo○ + yfinance× + WordPress× → スルー
 条件4: Yahoo○ + yfinance× + WordPress○ → 下書き化（手動確認推奨）
+条件5: Yahoo× + WordPress○           → レポート出力（上場廃止候補）
 """
 
 import pandas as pd
@@ -520,6 +521,72 @@ def process_companies(integrated_csv, errors_csv, existing_companies,
         # 待機（Dry Runでは待機しない）
         if not dry_run:
             time.sleep(REQUEST_DELAY)
+    
+    # ===== 条件5: WordPress にあるが integrated に無い企業をレポート =====
+    print("\n" + "=" * 60)
+    print("🔍 上場廃止候補チェック")
+    print("=" * 60)
+    
+    # WordPress に存在する企業コード
+    wordpress_codes = set(existing_companies.keys())
+    
+    # integrated_company_data.csv に存在する企業コード (元のdf、limit/skip適用前)
+    df_full = pd.read_csv(integrated_csv, encoding='utf-8-sig')
+    df_full['code'] = df_full['code'].astype(str)
+    integrated_codes = set(df_full['code'].tolist())
+    
+    # 差分を計算
+    missing_from_data = wordpress_codes - integrated_codes
+    
+    if missing_from_data:
+        print(f"\n⚠️  データソースに見つからない企業: {len(missing_from_data)}社")
+        print("   (上場廃止の可能性があります)")
+        print()
+        
+        # 詳細リスト表示
+        for code in sorted(missing_from_data):
+            company_info = existing_companies[code]
+            print(f"   証券コード: {code}")
+            print(f"   WordPress ID: {company_info['id']}")
+            print(f"   スラッグ: {company_info['slug']}")
+            print(f"   URL: {WP_SITE_URL}/company/{company_info['slug']}/")
+            print()
+        
+        # CSVファイルに保存
+        delisted_data = []
+        for code in sorted(missing_from_data):
+            company_info = existing_companies[code]
+            delisted_data.append({
+                'code': code,
+                'wordpress_id': company_info['id'],
+                'slug': company_info['slug'],
+                'url': f"{WP_SITE_URL}/company/{company_info['slug']}/"
+            })
+        
+        df_delisted = pd.DataFrame(delisted_data)
+        output_file = 'output/wordpress_only_companies.csv'
+        
+        # output ディレクトリ作成
+        os.makedirs('output', exist_ok=True)
+        
+        df_delisted.to_csv(output_file, index=False, encoding='utf-8-sig')
+        
+        print(f"📄 詳細リスト: {output_file}")
+        
+        # GitHub Actions Summary に追加
+        if os.environ.get('GITHUB_STEP_SUMMARY'):
+            with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+                f.write("\n## ⚠️ 上場廃止候補\n\n")
+                f.write(f"**{len(missing_from_data)}社** がWordPressに存在しますが、データソースに見つかりませんでした:\n\n")
+                
+                for code in sorted(missing_from_data):
+                    company_info = existing_companies[code]
+                    f.write(f"- **{code}** - [WordPress]({WP_SITE_URL}/company/{company_info['slug']}/)\n")
+        
+        print("=" * 60)
+    else:
+        print("✅ すべての企業がデータソースに存在します")
+        print("=" * 60)
     
     # 結果表示
     print("\n" + "=" * 60)
