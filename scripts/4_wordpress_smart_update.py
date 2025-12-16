@@ -3,11 +3,11 @@
 WordPress企業データ スマート更新スクリプト
 条件分岐 + 段階的実行対応 + Dry Run機能 + Update Only機能 + 上場廃止候補レポート
 
-条件1: Yahoo○ + yfinance○ + WordPress× → 新規作成
-条件2: Yahoo○ + yfinance○ + WordPress○ → 更新
-条件3: Yahoo○ + yfinance× + WordPress× → スルー
-条件4: Yahoo○ + yfinance× + WordPress○ → 下書き化（手動確認推奨）
-条件5: Yahoo× + WordPress○           → レポート出力（上場廃止候補）
+条件1: Yahoo○ + yfinance ○ + WordPress × → 新規作成
+条件2: Yahoo○ + yfinance ○ + WordPress ○ → 更新
+条件3: Yahoo○ + yfinance × + WordPress × → スルー
+条件4: Yahoo○ + yfinance × + WordPress ○ → 下書き化（手動確認推奨）
+条件5: Yahoo× + WordPress ○           → レポート出力（上場廃止候補）
 """
 
 import pandas as pd
