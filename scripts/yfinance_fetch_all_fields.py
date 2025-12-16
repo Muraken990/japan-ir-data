@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 import os
 
-INPUT_CSV = "japan_ir_all_20251207.csv"
+INPUT_CSV = "japan_companies_latest.csv"
 OUTPUT_DIR = "output"
 REQUEST_DELAY = 2.0
 MAX_RETRIES = 2
