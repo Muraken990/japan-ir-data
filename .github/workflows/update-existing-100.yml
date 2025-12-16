@@ -1,0 +1,104 @@
+name: Update Existing 100 Companies (Mon-Fri)
+
+on:
+  # 月曜〜金曜 JST 9:00 (UTC 0:00) に自動実行
+  schedule:
+    - cron: '0 0 * * 1-5'
+  
+  # 手動実行を許可
+  workflow_dispatch:
+
+jobs:
+  update-existing-100:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests
+      
+      - name: Download latest integrated data
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          workflow: fetch_all_fields.yml
+          name: all-fields-data
+          path: output/
+          if_no_artifact_found: warn
+        continue-on-error: true
+      
+      - name: Find and prepare CSV
+        id: prepare-csv
+        run: |
+          echo "=== CSVファイルを探しています ==="
+          
+          # output/ディレクトリの内容を表示
+          ls -lh output/ 2>/dev/null || echo "output/ディレクトリなし"
+          
+          # integrated_company_data.csvを探す
+          if [ -f "output/integrated_company_data.csv" ]; then
+            CSV_PATH="output/integrated_company_data.csv"
+          elif [ -f "data/integrated_company_data.csv" ]; then
+            CSV_PATH="data/integrated_company_data.csv"
+          else
+            # yfinance_all_fields_*.csvから最新を探す
+            CSV_PATH=$(ls -t output/yfinance_all_fields_*.csv 2>/dev/null | head -n1)
+          fi
+          
+          if [ -z "$CSV_PATH" ] || [ ! -f "$CSV_PATH" ]; then
+            echo "csv_found=false" >> $GITHUB_OUTPUT
+            echo "❌ CSVファイルが見つかりません"
+            exit 1
+          fi
+          
+          # data/ディレクトリを作成してコピー
+          mkdir -p data
+          cp "$CSV_PATH" data/integrated_company_data.csv
+          
+          echo "csv_found=true" >> $GITHUB_OUTPUT
+          echo "✅ CSVファイル準備完了: $CSV_PATH"
+          echo "📊 行数: $(wc -l < data/integrated_company_data.csv)"
+      
+      - name: Update WordPress (Existing 100 companies only)
+        if: steps.prepare-csv.outputs.csv_found == 'true'
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+          REQUEST_DELAY: '0.5'
+        run: |
+          echo "=========================================="
+          echo "既存100社のWordPress更新を開始"
+          echo "=========================================="
+          python scripts/4_wordpress_smart_update.py --update-only
+      
+      - name: Generate summary
+        if: always()
+        run: |
+          echo "## 📊 実行サマリー" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**実行日時:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**対象:** 既存100社のみ更新" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.prepare-csv.outputs.csv_found }}" == "true" ]; then
+            echo "✅ CSV準備: 成功" >> $GITHUB_STEP_SUMMARY
+            echo "✅ WordPress更新: 完了" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ CSV準備: 失敗" >> $GITHUB_STEP_SUMMARY
+          fi
+      
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ 既存100社の更新に失敗しました"
+          echo "詳細: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
