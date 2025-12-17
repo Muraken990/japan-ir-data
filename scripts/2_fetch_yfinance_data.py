@@ -1,5 +1,8 @@
 """
-Japan IR - yfinance 全項目取得スクリプト（68項目版）
+Japan IR - yfinance 全項目取得スクリプト（改善版）
+- shortName バリデーション追加
+- エラー時も取得できたデータを保存
+- エラー理由の詳細化
 """
 
 import yfinance as yf
@@ -8,7 +11,7 @@ import time
 from datetime import datetime
 import os
 
-INPUT_CSV = "japan_companies_latest.csv"
+INPUT_CSV = "data/japan_companies_latest.csv"
 OUTPUT_DIR = "output"
 REQUEST_DELAY = 2.0
 MAX_RETRIES = 2
@@ -56,9 +59,19 @@ def fetch_stock_data(code):
             if not info or len(info) <= 1:
                 raise Exception("Empty response")
             
+            # データを取得
             data = {"code": code, "ticker": ticker_symbol}
             for field in INFO_FIELDS:
                 data[field] = info.get(field)
+            
+            # バリデーション: shortName が空白の場合はエラー扱い
+            short_name = data.get("shortName")
+            if not short_name or str(short_name).strip() == "":
+                # shortNameが空白だが、他のデータは取得できている
+                data["status"] = "error: Incomplete data (shortName missing)"
+                return data
+            
+            # すべて正常
             data["status"] = "success"
             return data
             
@@ -67,9 +80,17 @@ def fetch_stock_data(code):
                 time.sleep(RETRY_DELAY)
                 continue
             
+            # エラー時も取得できたデータは保存
             data = {"code": code, "ticker": ticker_symbol}
-            for field in INFO_FIELDS:
-                data[field] = None
+            if 'info' in locals() and info:
+                # infoが取得できていれば、取得できたフィールドを保存
+                for field in INFO_FIELDS:
+                    data[field] = info.get(field)
+            else:
+                # infoが取得できていなければ全てNone
+                for field in INFO_FIELDS:
+                    data[field] = None
+            
             data["status"] = f"error: {str(e)}"
             return data
     
@@ -77,7 +98,7 @@ def fetch_stock_data(code):
 
 def main():
     print("=" * 60)
-    print("Japan IR - yfinance 全項目取得（68項目）")
+    print("Japan IR - yfinance 全項目取得（改善版）")
     print("=" * 60)
     start_time = datetime.now()
     print(f"開始: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
@@ -133,6 +154,15 @@ def main():
     if len(df_errors) > 0:
         error_file = f"{OUTPUT_DIR}/yfinance_errors_{scrape_date}.csv"
         df_errors.to_csv(error_file, index=False, encoding="utf-8-sig")
+        
+        # エラー内訳を表示
+        print()
+        print("=" * 60)
+        print("エラー内訳:")
+        print("=" * 60)
+        error_types = df_errors['status'].value_counts()
+        for error_type, count in error_types.items():
+            print(f"  {error_type}: {count}社")
     
     end_time = datetime.now()
     elapsed = (end_time - start_time).total_seconds()
