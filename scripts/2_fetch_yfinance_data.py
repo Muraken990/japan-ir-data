@@ -65,13 +65,19 @@ def fetch_stock_data(code):
                 data[field] = info.get(field)
             
             # バリデーション: shortName が空白の場合はエラー扱い
-            short_name = data.get("shortName")
-            if not short_name or str(short_name).strip() == "":
-                # shortNameが空白だが、他のデータは取得できている
-                data["status"] = "error: Incomplete data (shortName missing)"
+            # 株価・時価総額チェック
+            current_price = data.get("currentPrice")
+            market_cap = data.get("marketCap")
+            
+            # 株価と時価総額の両方がない、または0の場合はエラー
+            has_valid_price = current_price and current_price > 0
+            has_valid_market_cap = market_cap and market_cap > 0
+            
+            if not has_valid_price and not has_valid_market_cap:
+                data["status"] = "error: No valid price or market cap data"
                 return data
             
-            # すべて正常
+            # データ正常
             data["status"] = "success"
             return data
             
