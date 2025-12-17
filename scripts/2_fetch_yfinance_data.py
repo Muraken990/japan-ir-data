@@ -106,7 +106,7 @@ def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
     df_input = pd.read_csv(INPUT_CSV)
-    stock_codes = df_input['code'].tolist()
+    stock_codes = df_input['code'].tolist()[:10]
     total = len(stock_codes)
     
     print(f"対象: {total}社")
