@@ -1,0 +1,43 @@
+name: Fetch yfinance Data (Test)
+
+on:
+  workflow_dispatch:  # 手動実行
+
+jobs:
+  fetch-yfinance:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install yfinance pandas
+      
+      - name: Run yfinance script
+        run: |
+          cd $GITHUB_WORKSPACE
+          python scripts/2_fetch_yfinance_data.py
+      
+      - name: Upload output files
+        uses: actions/upload-artifact@v4
+        with:
+          name: yfinance-output
+          path: output/*.csv
+          retention-days: 7
+      
+      - name: Display results
+        run: |
+          echo "===== Results ====="
+          if [ -f output/yfinance_errors_*.csv ]; then
+            echo "Error file found:"
+            head -20 output/yfinance_errors_*.csv
+          else
+            echo "No error file found"
+          fi
