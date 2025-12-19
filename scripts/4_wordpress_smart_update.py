@@ -55,53 +55,47 @@ def get_auth_headers():
 # ============================================================
 
 def get_all_existing_companies(wp_url):
-    """WordPressから既存の全企業を取得"""
-    headers = get_auth_headers()  # 認証ヘッダー追加
+    """WordPressから既存の全企業を取得（offsetベース）"""
+    headers = get_auth_headers()
     existing_companies = {}
-    page = 1
+    offset = 0
     per_page = 100
-    previous_first_id = None  # 前ページの最初のIDを記録
+    
+    print("\n📥 WordPressから既存企業を取得中...")
     
     while True:
         params = {
             'per_page': per_page,
-            'page': page,
-            'context': 'edit'  # _fields ではなく context を使用
+            'offset': offset,
+            'context': 'edit'
         }
         
         response = requests.get(
             f"{wp_url}/wp-json/wp/v2/company", 
             params=params,
-            headers=headers  # headers 追加
+            headers=headers,
+            timeout=30
         )
         
         if response.status_code != 200:
+            print(f"   ⚠️  REST API エラー: ステータスコード {response.status_code}")
             break
             
         companies = response.json()
         
         # 空配列チェック
-        if not companies:
+        if not companies or len(companies) == 0:
             break
         
-        # 重複チェック: 前ページと同じIDなら終了
-        current_first_id = companies[0].get('id')
-        if previous_first_id == current_first_id:
-            print(f"   ⚠️  ページ{page}: 前ページと同じデータ検出 → 終了")
-            break
-        
-        previous_first_id = current_first_id
+        # デバッグ: 最初の1社だけ
+        if offset == 0 and len(existing_companies) == 0:
+            print(f"\n   🔍 デバッグ（最初の1社）:")
+            print(f"      ID: {companies[0].get('id')}")
+            print(f"      stock_code: '{companies[0].get('stock_code', '')}'")
+            print()
         
         for company in companies:
-            # stock_code フィールドから取得（トップレベル）
             code = company.get('stock_code', '')
-            
-            # デバッグ: 最初の1社だけ
-            if page == 1 and len(existing_companies) == 0:
-                print(f"\n   🔍 デバッグ（最初の1社）:")
-                print(f"      ID: {company.get('id')}")
-                print(f"      stock_code: '{code}'")
-                print()
             
             if code:
                 # .T を除去
@@ -111,18 +105,17 @@ def get_all_existing_companies(wp_url):
                     'slug': company.get('slug', clean_code)
                 }
         
-        # forループの後に移動
-        print(f"   ページ {page}: {len(companies)}社取得 (累計: {len(existing_companies)}社)")
+        print(f"   取得済み: {len(existing_companies)}社（このバッチ: {len(companies)}社, offset: {offset}）")
         
         # 100未満で終了
         if len(companies) < per_page:
             break
-            
-        page += 1
         
-        # 安全装置（最大10ページ）
-        if page > 50:
-            print(f"   ⚠️  安全装置: 50ページで停止")
+        offset += per_page
+        
+        # 安全装置（最大5,000社）
+        if offset >= 5000:
+            print(f"   ⚠️  安全装置: 5,000社で停止")
             break
     
     print(f"   ✅ 既存企業取得完了: {len(existing_companies)}社\n")
