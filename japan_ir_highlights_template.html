@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan IR Highlights - {{ date }}</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a237e;
+            --primary-light: #534bae;
+            --primary-dark: #051938;
+            --secondary: #0066cc;
+            --accent: #e63946;
+            --warning: #f59f00;
+            --success: #28a745;
+            --text-primary: #212121;
+            --text-secondary: #757575;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+            background: #f5f7fa;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tweet-card {
+            width: 1200px;
+            height: 675px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+
+        .header {
+            background: #1a237e;
+            padding: 16px 35px;
+            flex-shrink: 0;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 34px;
+            font-weight: 900;
+            margin-bottom: 4px;
+            letter-spacing: -0.5px;
+        }
+
+        .header .subtitle {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .header .date {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 3px;
+        }
+
+        .header {
+            background: #1a237e;
+            padding: 20px 35px;
+            flex-shrink: 0;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 36px;
+            font-weight: 900;
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+        }
+
+        .header .date {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            overflow: hidden;
+            gap: 12px;
+        }
+
+        .ir-item {
+            padding: 15px 0;
+        }
+
+        .company-line {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 0;
+            gap: 15px;
+        }
+
+        .company-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .company-name {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text-primary);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .stock-code {
+            background: var(--primary-color);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Roboto', monospace;
+        }
+
+        .category {
+            font-size: 16px;
+            font-weight: 600;
+            padding: 6px 16px;
+            border-radius: 5px;
+            white-space: nowrap;
+        }
+
+        .category.tender_offer {
+            background: #f59f00;
+            color: white;
+        }
+
+        .category.m_and_a_alliance {
+            background: #0066cc;
+            color: white;
+        }
+
+        .category.share_buyback {
+            background: #f59f00;
+            color: white;
+        }
+
+        .category.dividend {
+            background: #28a745;
+            color: white;
+        }
+
+        .category.financial_summary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .category.executive_change {
+            background: #8e24aa;
+            color: white;
+        }
+
+        .category.corporate_restructuring {
+            background: #dc3545;
+            color: white;
+        }
+
+        .category.product_announcement {
+            background: #17a2b8;
+            color: white;
+        }
+
+        .category.other {
+            background: #6c757d;
+            color: white;
+        }
+
+        .description {
+            color: var(--text-primary);
+            line-height: 1.35;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .bold {
+            font-weight: 700;
+        }
+
+        .footer {
+            background: #1a237e;
+            padding: 14px 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .footer-logo {
+            color: white;
+            font-size: 22px;
+            font-weight: 900;
+            letter-spacing: -0.5px;
+        }
+
+        .footer-logo .ir {
+            color: var(--accent);
+        }
+
+        .footer-link {
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tweet-card">
+        <div class="header">
+            <h1>Japan<span style="color: #e63946;">IR</span> Alert</h1>
+            <div class="date">{{ date }} • 20:00 JST</div>
+        </div>
+
+        <div class="content" style="padding: 25px 35px; background: white;">
+            {% for ir in ir_list %}
+            <!-- IR項目{{ loop.index }}: {{ ir.company_name }} -->
+            <div class="ir-item">
+                <div class="company-line">
+                    <div class="company-info">
+                        <div class="company-name">{{ ir.company_name }}</div>
+                        <div class="stock-code">{{ ir.stock_code }}</div>
+                    </div>
+                    <div class="category {{ ir.ir_type }}">{{ ir.category_display }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="footer">
+            <div class="footer-logo">Japan <span class="ir">IR</span></div>
+            <div class="footer-link">📊 japanir.jp/en</div>
+        </div>
+    </div>
+</body>
+
+</html>
