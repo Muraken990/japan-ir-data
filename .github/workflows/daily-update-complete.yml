@@ -56,7 +56,27 @@ jobs:
           echo "Step 1: yfinanceデータ取得開始"
           echo "=========================================="
           python scripts/2_fetch_yfinance_data.py
-      
+
+      # ============================================================
+      # Step 1.5: 株価履歴データ取得・更新
+      # ============================================================
+
+      - name: Fetch stock price history
+        if: steps.check-list.outputs.list_exists == 'true'
+        run: |
+          echo "=========================================="
+          echo "Step 1.5: 株価履歴データ取得・更新"
+          echo "=========================================="
+          python scripts/fetch_stock_history.py
+
+      - name: Commit stock history data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/stock_history/*.json || true
+          git diff --staged --quiet || git commit -m "Update stock price history $(date +'%Y-%m-%d')"
+          git push || true
+
       # ============================================================
       # Step 2: データ統合
       # ============================================================
@@ -128,6 +148,7 @@ jobs:
           name: daily-update-data
           path: |
             data/integrated_company_data*.csv
+            data/stock_history/*.json
             output/yfinance_all_fields_*.csv
             output/yfinance_errors_*.csv
             output/yfinance_success_*.csv
@@ -161,6 +182,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**処理フロー:**" >> $GITHUB_STEP_SUMMARY
           echo "1. ✅ yfinanceデータ取得" >> $GITHUB_STEP_SUMMARY
+          echo "1.5. ✅ 株価履歴データ更新" >> $GITHUB_STEP_SUMMARY
           echo "2. ✅ データ統合 (Yahoo + yfinance)" >> $GITHUB_STEP_SUMMARY
           echo "3. ✅ WordPress更新 (既存100社)" >> $GITHUB_STEP_SUMMARY
       
