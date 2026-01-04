@@ -483,8 +483,8 @@ def process_companies(integrated_csv, errors_csv, existing_companies,
         ticker = row['code']
         company_name = row.get('company_name_ja', ticker)
         
-        # yfinanceデータの有無
-        has_yfinance_data = pd.notna(row.get('company_name_en'))
+        # yfinanceデータの有無（株価または時価総額があればOK）
+        has_yfinance_data = pd.notna(row.get('currentPrice')) or pd.notna(row.get('marketCap'))
         
         # WordPress登録済みか
         is_in_wordpress = ticker in existing_companies
