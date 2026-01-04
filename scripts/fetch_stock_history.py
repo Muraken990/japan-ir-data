@@ -14,7 +14,8 @@ from datetime import datetime
 from pathlib import Path
 
 # 設定
-INPUT_CSV = "data/japan_companies_latest.csv"
+INPUT_CSV_WORDPRESS = "data/wordpress_companies.csv"  # WordPress登録企業（優先）
+INPUT_CSV_FALLBACK = "data/japan_companies_latest.csv"  # 全企業（フォールバック）
 OUTPUT_DIR = "data/stock_history"
 REQUEST_DELAY = 2.0  # レート制限対策
 HISTORY_PERIOD = "5y"  # 5年分
@@ -103,15 +104,29 @@ def main():
     # 出力ディレクトリ作成
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
-    # 企業リスト読み込み
-    if not os.path.exists(INPUT_CSV):
-        print(f"❌ エラー: {INPUT_CSV} が見つかりません")
+    # 企業リスト読み込み（WordPress優先）
+    input_csv = None
+    source_type = None
+
+    if os.path.exists(INPUT_CSV_WORDPRESS):
+        input_csv = INPUT_CSV_WORDPRESS
+        source_type = "WordPress登録企業"
+        print(f"✅ WordPress登録企業リストを使用: {INPUT_CSV_WORDPRESS}")
+    elif os.path.exists(INPUT_CSV_FALLBACK):
+        input_csv = INPUT_CSV_FALLBACK
+        source_type = "全企業（フォールバック）"
+        print(f"⚠️  WordPress企業リストが見つからないため、全企業リストを使用: {INPUT_CSV_FALLBACK}")
+    else:
+        print(f"❌ エラー: 企業リストが見つかりません")
+        print(f"  - {INPUT_CSV_WORDPRESS}")
+        print(f"  - {INPUT_CSV_FALLBACK}")
         return
 
-    df = pd.read_csv(INPUT_CSV)
+    df = pd.read_csv(input_csv)
     stock_codes = df['code'].tolist()
     total = len(stock_codes)
 
+    print(f"データソース: {source_type}")
     print(f"対象企業数: {total}社")
     print()
 
