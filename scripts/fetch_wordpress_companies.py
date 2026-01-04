@@ -53,15 +53,17 @@ def fetch_wordpress_companies():
     print()
 
     all_companies = []
-    page = 1
-    per_page = 100  # 1ページあたりの取得数
+    offset = 0
+    per_page = 100  # 1回あたりの取得数
+    max_companies = MAX_PAGES * per_page  # 最大5000社
 
-    while page <= MAX_PAGES:
-        print(f"📥 ページ {page}/{MAX_PAGES} を取得中...")
+    while offset < max_companies:
+        batch_num = (offset // per_page) + 1
+        print(f"📥 バッチ {batch_num} を取得中（offset: {offset}）...")
 
         params = {
             "per_page": per_page,
-            "page": page,
+            "offset": offset,  # pageの代わりにoffsetを使用
             "_fields": "id,title,stock_code",  # 必要なフィールドのみ取得
             "status": "publish"  # 公開済みのみ
         }
@@ -79,7 +81,7 @@ def fetch_wordpress_companies():
                     companies = response.json()
 
                     if not companies:
-                        print(f"✅ 全ページ取得完了（ページ {page - 1} まで）")
+                        print(f"✅ 全データ取得完了（offset {offset} まで、バッチ {batch_num - 1} 完了）")
                         return all_companies
 
                     # データを抽出
@@ -90,8 +92,8 @@ def fetch_wordpress_companies():
 
                             # stock_codeが存在する場合のみ追加
                             if code:
-                                # 数字4桁のみ許可
-                                if isinstance(code, str) and code.isdigit() and len(code) == 4:
+                                # 4桁の英数字を許可（例: 7203, 446A）
+                                if isinstance(code, str) and len(code) == 4 and code.isalnum():
                                     all_companies.append({
                                         'code': code,
                                         'name': company.get('title', {}).get('rendered', ''),
@@ -104,13 +106,13 @@ def fetch_wordpress_companies():
                             continue
 
                     print(f"  ✅ {len(companies)}件取得（累計: {len(all_companies)}社）")
-                    page += 1
+                    offset += per_page
                     time.sleep(0.5)  # レート制限対策
                     break
 
                 elif response.status_code == 400:
-                    # ページ範囲外（最終ページ到達）
-                    print(f"✅ 全ページ取得完了（ページ {page - 1} まで）")
+                    # データ範囲外（最終データ到達）
+                    print(f"✅ 全データ取得完了（バッチ {batch_num} まで）")
                     return all_companies
 
                 else:
@@ -140,10 +142,10 @@ def fetch_wordpress_companies():
                     print(f"  ❌ {MAX_RETRIES}回リトライ失敗")
                     return all_companies
 
-    # 最大ページ数に到達
-    if page > MAX_PAGES:
+    # 最大取得数に到達
+    if offset >= max_companies:
         print()
-        print(f"⚠️  最大ページ数 ({MAX_PAGES}ページ) に到達しました")
+        print(f"⚠️  最大取得数 ({max_companies}社) に到達しました")
         print(f"📊 取得企業数: {len(all_companies)}社")
 
     return all_companies
