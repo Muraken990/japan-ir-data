@@ -211,7 +211,12 @@ def create_company(company_data, status='publish', dry_run=False):
     # セクター・業種
     sector = company_data.get('sector', '')
     industry = company_data.get('industry', '')
-    
+
+    # 財務指標
+    trailing_pe = company_data.get('trailingPE', 0)
+    price_to_book = company_data.get('priceToBook', 0)
+    dividend_yield = company_data.get('dividendYield', 0)
+
     # NaN対策
     if pd.isna(sector):
         sector = ''
@@ -221,7 +226,19 @@ def create_company(company_data, status='publish', dry_run=False):
         company_name_ja = ''
     if pd.isna(company_name_en):
         company_name_en = ''
-    
+    if pd.isna(trailing_pe):
+        trailing_pe = 0
+    else:
+        trailing_pe = float(trailing_pe)
+    if pd.isna(price_to_book):
+        price_to_book = 0
+    else:
+        price_to_book = float(price_to_book)
+    if pd.isna(dividend_yield):
+        dividend_yield = 0
+    else:
+        dividend_yield = float(dividend_yield)
+
     # 投稿データ
     data = {
         'title': str(company_name_ja),
@@ -236,6 +253,9 @@ def create_company(company_data, status='publish', dry_run=False):
             'longName': str(company_name_en),
             'sector': str(sector),
             'industry': str(industry),
+            'trailingPE': trailing_pe,
+            'priceToBook': price_to_book,
+            'dividendYield': dividend_yield,
         }
     }
     
@@ -278,7 +298,12 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     # セクター・業種
     sector = company_data.get('sector', '')
     industry = company_data.get('industry', '')
-    
+
+    # 財務指標
+    trailing_pe = company_data.get('trailingPE', 0)
+    price_to_book = company_data.get('priceToBook', 0)
+    dividend_yield = company_data.get('dividendYield', 0)
+
     # NaN対策
     if pd.isna(sector):
         sector = ''
@@ -288,7 +313,19 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
         company_name_ja = ''
     if pd.isna(company_name_en):
         company_name_en = ''
-    
+    if pd.isna(trailing_pe):
+        trailing_pe = 0
+    else:
+        trailing_pe = float(trailing_pe)
+    if pd.isna(price_to_book):
+        price_to_book = 0
+    else:
+        price_to_book = float(price_to_book)
+    if pd.isna(dividend_yield):
+        dividend_yield = 0
+    else:
+        dividend_yield = float(dividend_yield)
+
     # 更新データ
     data = {
         'meta': {
@@ -299,6 +336,9 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
             'longName': str(company_name_en),
             'sector': str(sector),
             'industry': str(industry),
+            'trailingPE': trailing_pe,
+            'priceToBook': price_to_book,
+            'dividendYield': dividend_yield,
         }
     }
     
