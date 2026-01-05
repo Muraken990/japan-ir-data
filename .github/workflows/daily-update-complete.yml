@@ -141,10 +141,10 @@ jobs:
           fi
       
       # ============================================================
-      # Step 3: WordPress更新 (既存100社のみ)
+      # Step 3: WordPress更新 (既存企業のみ)
       # ============================================================
-      
-      - name: Update WordPress (Existing 100 companies only)
+
+      - name: Update WordPress (Existing companies only)
         if: steps.merge.outputs.merge_success == 'true'
         env:
           WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
@@ -153,7 +153,7 @@ jobs:
           REQUEST_DELAY: '0.5'
         run: |
           echo "=========================================="
-          echo "Step 3: WordPress更新開始 (既存100社のみ)"
+          echo "Step 3: WordPress更新開始 (既存企業のみ)"
           echo "=========================================="
           python scripts/4_wordpress_smart_update.py --update-only
       
@@ -204,7 +204,7 @@ jobs:
           echo "1. ✅ yfinanceデータ取得" >> $GITHUB_STEP_SUMMARY
           echo "1.5. ✅ 株価履歴データ更新" >> $GITHUB_STEP_SUMMARY
           echo "2. ✅ データ統合 (Yahoo + yfinance)" >> $GITHUB_STEP_SUMMARY
-          echo "3. ✅ WordPress更新 (既存100社)" >> $GITHUB_STEP_SUMMARY
+          echo "3. ✅ WordPress更新 (既存企業)" >> $GITHUB_STEP_SUMMARY
       
       - name: Notify on failure
         if: failure()
