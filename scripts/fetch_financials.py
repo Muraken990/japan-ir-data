@@ -28,10 +28,12 @@ import threading
 INPUT_CSV_WORDPRESS = "data/wordpress_companies.csv"
 INPUT_CSV_FALLBACK = "data/japan_companies_latest.csv"
 OUTPUT_DIR = "data/financials"
-MAX_WORKERS = 20  # 並列数
+MAX_WORKERS = 10  # 並列数（yfinance API制限対策）
 MAX_RETRIES = 3
 RETRY_DELAY = 5
 PROGRESS_INTERVAL = 20
+BATCH_SIZE = 50  # バッチサイズ
+BATCH_DELAY = 15  # バッチ間の待機秒数
 
 # スレッドセーフなカウンター
 lock = threading.Lock()
@@ -393,35 +395,53 @@ def main():
         print(f"📊 処理対象: {len(stock_codes)}社（limit: {args.limit}）")
 
     total = len(stock_codes)
+    num_batches = (total + BATCH_SIZE - 1) // BATCH_SIZE
+    batch_wait_time = (num_batches - 1) * BATCH_DELAY
+    processing_time = total / args.workers * 3
+    estimated_time = (processing_time + batch_wait_time) / 60
     print(f"対象企業数: {total}社")
-    print(f"予想時間: 約{total / args.workers * 3 / 60:.0f}分")
+    print(f"予想時間: 約{estimated_time:.0f}分（バッチ待機含む）")
     print()
 
     last_progress_print = 0
     workers = args.workers
 
-    # 並列処理
-    with ThreadPoolExecutor(max_workers=workers) as executor:
-        future_to_code = {executor.submit(process_company, code): code for code in stock_codes}
+    # バッチ処理（API制限対策）
+    batches = [stock_codes[i:i + BATCH_SIZE] for i in range(0, len(stock_codes), BATCH_SIZE)]
+    total_batches = len(batches)
+    print(f"バッチ数: {total_batches}（{BATCH_SIZE}社/バッチ、{BATCH_DELAY}秒間隔）")
+    print()
 
-        for future in as_completed(future_to_code):
-            try:
-                future.result()
-            except Exception as e:
-                with lock:
-                    progress_counter["total"] += 1
-                    progress_counter["error"] += 1
+    for batch_idx, batch in enumerate(batches, 1):
+        print(f"--- バッチ {batch_idx}/{total_batches} ({len(batch)}社) ---")
 
-            # 進捗表示
-            current_total = progress_counter["total"]
-            if current_total - last_progress_print >= PROGRESS_INTERVAL or current_total == total:
-                elapsed = (datetime.now() - start_time).total_seconds()
-                if current_total > 0:
-                    eta = (elapsed / current_total) * (total - current_total) / 60
-                else:
-                    eta = 0
-                print(f"[{current_total:4}/{total}] ✅ {progress_counter['success']} / ❌ {progress_counter['error']} | 経過: {elapsed/60:.1f}分 | ETA: {eta:.0f}分")
-                last_progress_print = current_total
+        # 並列処理
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            future_to_code = {executor.submit(process_company, code): code for code in batch}
+
+            for future in as_completed(future_to_code):
+                try:
+                    future.result()
+                except Exception as e:
+                    with lock:
+                        progress_counter["total"] += 1
+                        progress_counter["error"] += 1
+
+                # 進捗表示
+                current_total = progress_counter["total"]
+                if current_total - last_progress_print >= PROGRESS_INTERVAL or current_total == total:
+                    elapsed = (datetime.now() - start_time).total_seconds()
+                    if current_total > 0:
+                        eta = (elapsed / current_total) * (total - current_total) / 60
+                    else:
+                        eta = 0
+                    print(f"[{current_total:4}/{total}] ✅ {progress_counter['success']} / ❌ {progress_counter['error']} | 経過: {elapsed/60:.1f}分 | ETA: {eta:.0f}分")
+                    last_progress_print = current_total
+
+        # バッチ間の待機（最後のバッチ以外）
+        if batch_idx < total_batches:
+            print(f"    💤 {BATCH_DELAY}秒待機...")
+            time.sleep(BATCH_DELAY)
 
     # 完了サマリー
     end_time = datetime.now()
