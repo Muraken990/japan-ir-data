@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-08T18:01:49.212700",
+  "fetched_at": "2026-01-08T18:30:16.389532",
   "ticker": "8331",
   "ticker_full": "8331.T",
   "company_name": "CHIBA BANK",
@@ -180,8 +180,29 @@
     "has_data": true
   },
   "dividends": {
-    "history": [],
-    "has_data": false,
-    "error": "Too Many Requests. Rate limited. Try after a while."
+    "history": [
+      {
+        "year": 2021,
+        "amount": 20.0
+      },
+      {
+        "year": 2022,
+        "amount": 26.0
+      },
+      {
+        "year": 2023,
+        "amount": 30.0
+      },
+      {
+        "year": 2024,
+        "amount": 35.0
+      },
+      {
+        "year": 2025,
+        "amount": 46.0
+      }
+    ],
+    "latest": 24.0,
+    "has_data": true
   }
 }
