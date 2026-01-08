@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-08T17:37:26.369826",
+  "fetched_at": "2026-01-08T17:59:29.436189",
   "ticker": "1721",
   "ticker_full": "1721.T",
   "company_name": "COMSYS HOLDINGS CORP",
@@ -53,14 +53,14 @@
         "equity_ratio": 69.5,
         "de_ratio": 0.01,
         "current_ratio": 2.38,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 16625000000.0,
+        "operating_cf_fmt": "¥166億",
+        "investing_cf": -10215000000.0,
+        "investing_cf_fmt": "-¥102億",
+        "financing_cf": -20217000000.0,
+        "financing_cf_fmt": "-¥202億",
+        "free_cf": 6143000000.0,
+        "free_cf_fmt": "¥61億",
         "net_margin": 4.89,
         "roe": 8.02,
         "roa": 5.57
@@ -90,14 +90,14 @@
         "equity_ratio": 70.53,
         "de_ratio": 0.01,
         "current_ratio": 2.43,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 44275000000.0,
+        "operating_cf_fmt": "¥443億",
+        "investing_cf": -15941000000.0,
+        "investing_cf_fmt": "-¥159億",
+        "financing_cf": -17214000000.0,
+        "financing_cf_fmt": "-¥172億",
+        "free_cf": 25548000000.0,
+        "free_cf_fmt": "¥255億",
         "net_margin": 4.81,
         "roe": 7.56,
         "roa": 5.33
@@ -127,14 +127,14 @@
         "equity_ratio": 68.12,
         "de_ratio": 0.01,
         "current_ratio": 2.26,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 61781000000.0,
+        "operating_cf_fmt": "¥618億",
+        "investing_cf": -6843000000.0,
+        "investing_cf_fmt": "-¥68億",
+        "financing_cf": -48233000000.0,
+        "financing_cf_fmt": "-¥482億",
+        "free_cf": 53099000000.0,
+        "free_cf_fmt": "¥531億",
         "net_margin": 3.43,
         "roe": 5.65,
         "roa": 3.85
@@ -164,14 +164,14 @@
         "equity_ratio": 64.65,
         "de_ratio": 0.1,
         "current_ratio": 2.03,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 5244000000.0,
+        "operating_cf_fmt": "¥52億",
+        "investing_cf": -11109000000.0,
+        "investing_cf_fmt": "-¥111億",
+        "financing_cf": 6171000000.0,
+        "financing_cf_fmt": "¥62億",
+        "free_cf": -5576000000.0,
+        "free_cf_fmt": "-¥56億",
         "net_margin": 4.96,
         "roe": 8.62,
         "roa": 5.57
@@ -180,8 +180,29 @@
     "has_data": true
   },
   "dividends": {
-    "history": [],
-    "has_data": false,
-    "error": "Too Many Requests. Rate limited. Try after a while."
+    "history": [
+      {
+        "year": 2021,
+        "amount": 90.0
+      },
+      {
+        "year": 2022,
+        "amount": 100.0
+      },
+      {
+        "year": 2023,
+        "amount": 100.0
+      },
+      {
+        "year": 2024,
+        "amount": 110.0
+      },
+      {
+        "year": 2025,
+        "amount": 120.0
+      }
+    ],
+    "latest": 60.0,
+    "has_data": true
   }
 }

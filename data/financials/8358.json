@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-08T17:35:33.425838",
+  "fetched_at": "2026-01-08T17:57:11.708111",
   "ticker": "8358",
   "ticker_full": "8358.T",
   "company_name": "SURUGA BANK",
@@ -180,8 +180,29 @@
     "has_data": true
   },
   "dividends": {
-    "history": [],
-    "has_data": false,
-    "error": "Too Many Requests. Rate limited. Try after a while."
+    "history": [
+      {
+        "year": 2021,
+        "amount": 5.0
+      },
+      {
+        "year": 2022,
+        "amount": 6.0
+      },
+      {
+        "year": 2023,
+        "amount": 16.0
+      },
+      {
+        "year": 2024,
+        "amount": 28.5
+      },
+      {
+        "year": 2025,
+        "amount": 36.5
+      }
+    ],
+    "latest": 22.0,
+    "has_data": true
   }
 }
