@@ -20,7 +20,7 @@ WP_USER = os.getenv('WP_USER')
 WP_PASSWORD = os.getenv('WP_PASSWORD')
 
 INPUT_DIR = "data/financials"
-REQUEST_DELAY = 0.5
+REQUEST_DELAY = 0.3
 PROGRESS_INTERVAL = 10
 
 
@@ -37,20 +37,22 @@ def get_auth_headers():
     }
 
 
-def get_existing_companies():
-    """WordPressから既存の全企業を取得"""
+def get_all_companies(lang='ja'):
+    """WordPressから指定言語の全企業を取得"""
     headers = get_auth_headers()
-    existing_companies = {}
+    companies = {}
     offset = 0
     per_page = 100
 
-    print("\n📥 WordPressから既存企業を取得中...")
+    lang_name = "日本語" if lang == 'ja' else "英語"
+    print(f"\n📥 WordPress {lang_name}版企業を取得中...")
 
     while True:
         params = {
             'per_page': per_page,
             'offset': offset,
-            'context': 'edit'
+            'context': 'edit',
+            'lang': lang
         }
 
         try:
@@ -65,24 +67,24 @@ def get_existing_companies():
                 print(f"   ⚠️  REST API エラー: ステータスコード {response.status_code}")
                 break
 
-            companies = response.json()
+            result = response.json()
 
-            if not companies or len(companies) == 0:
+            if not result or len(result) == 0:
                 break
 
-            for company in companies:
+            for company in result:
                 code = company.get('stock_code', '')
                 if code:
                     clean_code = str(code).replace('.T', '')
-                    existing_companies[clean_code] = {
+                    companies[clean_code] = {
                         'id': company['id'],
                         'title': company.get('title', {}).get('rendered', ''),
                         'slug': company.get('slug', clean_code)
                     }
 
-            print(f"   取得済み: {len(existing_companies)}社（offset: {offset}）")
+            print(f"   取得済み: {len(companies)}社（offset: {offset}）")
 
-            if len(companies) < per_page:
+            if len(result) < per_page:
                 break
 
             offset += per_page
@@ -95,33 +97,8 @@ def get_existing_companies():
             print(f"   ❌ エラー: {str(e)}")
             break
 
-    print(f"   ✅ 既存企業取得完了: {len(existing_companies)}社\n")
-    return existing_companies
-
-
-def get_translation_by_ticker(ticker, target_lang='en'):
-    """証券コードから翻訳投稿を検索"""
-    url = f"{WP_SITE_URL}/wp-json/wp/v2/company"
-    params = {
-        'lang': target_lang,
-        'stock_code': ticker,
-        'per_page': 100
-    }
-
-    try:
-        response = requests.get(url, params=params, headers=get_auth_headers())
-        if response.status_code != 200:
-            return None
-
-        companies = response.json()
-
-        for company in companies:
-            if company.get('stock_code') == ticker:
-                return company['id']
-    except:
-        pass
-
-    return None
+    print(f"   ✅ {lang_name}版企業取得完了: {len(companies)}社")
+    return companies
 
 
 def update_financials(post_id, financial_data, dry_run=False):
@@ -194,8 +171,9 @@ def main():
     total = len(json_files)
     print(f"対象ファイル数: {total}")
 
-    # 既存企業取得
-    existing_companies = get_existing_companies()
+    # 日本語版・英語版の全企業を取得
+    ja_companies = get_all_companies('ja')
+    en_companies = get_all_companies('en')
 
     success_count = 0
     skipped_count = 0
@@ -227,33 +205,37 @@ def main():
             skipped_count += 1
             continue
 
-        # WordPress登録済みか確認
-        if code not in existing_companies:
+        # WordPress登録済みか確認（日本語版）
+        if code not in ja_companies:
             print(f"   ⏭️  スキップ（WordPress未登録）")
             skipped_count += 1
             continue
 
-        company_info = existing_companies[code]
-        post_id = company_info['id']
+        ja_info = ja_companies[code]
+        ja_post_id = ja_info['id']
 
-        print(f"   ID: {post_id} - {company_info.get('title', code)}")
+        print(f"   ID: {ja_post_id} - {ja_info.get('title', code)}")
 
         if args.dry_run:
             print(f"   📋 財務データ年数: {len(data.get('financials', {}).get('years', []))}年分")
+            if code in en_companies:
+                print(f"   📋 英語版あり (ID: {en_companies[code]['id']})")
             success_count += 1
             continue
 
         # 日本語版を更新
-        if update_financials(post_id, data):
+        if update_financials(ja_post_id, data):
             print(f"   ✅ 日本語版更新成功")
 
             # 英語版も更新
-            en_post_id = get_translation_by_ticker(code, 'en')
-            if en_post_id:
+            if code in en_companies:
+                en_post_id = en_companies[code]['id']
                 if update_financials(en_post_id, data):
                     print(f"   ✅ 英語版更新成功 (ID: {en_post_id})")
                 else:
                     print(f"   ⚠️  英語版更新失敗 (ID: {en_post_id})")
+            else:
+                print(f"   ⚠️  英語版なし")
 
             success_count += 1
         else:
@@ -284,6 +266,8 @@ def main():
     print(f"成功: {success_count}社")
     print(f"スキップ: {skipped_count}社")
     print(f"失敗: {error_count}社")
+    print(f"日本語版企業数: {len(ja_companies)}社")
+    print(f"英語版企業数: {len(en_companies)}社")
     print("=" * 70)
 
 
