@@ -28,12 +28,12 @@ import threading
 INPUT_CSV_WORDPRESS = "data/wordpress_companies.csv"
 INPUT_CSV_FALLBACK = "data/japan_companies_latest.csv"
 OUTPUT_DIR = "data/financials"
-MAX_WORKERS = 5  # 並列数（yfinance API制限対策）
+MAX_WORKERS = 3  # 並列数（yfinance API制限対策）
 MAX_RETRIES = 3
 RETRY_DELAY = 5
 PROGRESS_INTERVAL = 20
 BATCH_SIZE = 50  # バッチサイズ
-BATCH_DELAY = 30  # バッチ間の待機秒数
+BATCH_DELAY = 45  # バッチ間の待機秒数
 
 # スレッドセーフなカウンター
 lock = threading.Lock()
