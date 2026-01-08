@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-08T17:08:09.940668",
+  "fetched_at": "2026-01-08T17:41:00.375562",
   "ticker": "6594",
   "ticker_full": "6594.T",
   "company_name": "NIDEC CORPORATION",
@@ -53,14 +53,14 @@
         "equity_ratio": 51.7,
         "de_ratio": 0.37,
         "current_ratio": 1.53,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 284428000000.0,
+        "operating_cf_fmt": "¥2844億",
+        "investing_cf": -147255000000.0,
+        "investing_cf_fmt": "-¥1473億",
+        "financing_cf": -80193000000.0,
+        "financing_cf_fmt": "-¥802億",
+        "free_cf": 135599000000.0,
+        "free_cf_fmt": "¥1356億",
         "net_margin": 6.3,
         "roe": 9.56,
         "roa": 4.94
@@ -90,14 +90,14 @@
         "equity_ratio": 51.63,
         "de_ratio": 0.37,
         "current_ratio": 1.61,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 320766000000.0,
+        "operating_cf_fmt": "¥3208億",
+        "investing_cf": -153553000000.0,
+        "investing_cf_fmt": "-¥1536億",
+        "financing_cf": -181557000000.0,
+        "financing_cf_fmt": "-¥1816億",
+        "free_cf": 192326000000.0,
+        "free_cf_fmt": "¥1923億",
         "net_margin": 5.3,
         "roe": 7.63,
         "roa": 3.94
@@ -127,14 +127,14 @@
         "equity_ratio": 47.15,
         "de_ratio": 0.52,
         "current_ratio": 1.54,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 143485000000.0,
+        "operating_cf_fmt": "¥1435億",
+        "investing_cf": -164943000000.0,
+        "investing_cf_fmt": "-¥1649億",
+        "financing_cf": -19238000000.0,
+        "financing_cf_fmt": "-¥192億",
+        "free_cf": -10253000000.0,
+        "free_cf_fmt": "-¥103億",
         "net_margin": 2.0,
         "roe": 3.32,
         "roa": 1.57
@@ -164,14 +164,14 @@
         "equity_ratio": 48.25,
         "de_ratio": 0.46,
         "current_ratio": 1.38,
-        "operating_cf": 0,
-        "operating_cf_fmt": "N/A",
-        "investing_cf": 0,
-        "investing_cf_fmt": "N/A",
-        "financing_cf": 0,
-        "financing_cf_fmt": "N/A",
-        "free_cf": 0,
-        "free_cf_fmt": "N/A",
+        "operating_cf": 94994000000.0,
+        "operating_cf_fmt": "¥950億",
+        "investing_cf": -112597000000.0,
+        "investing_cf_fmt": "-¥1126億",
+        "financing_cf": -64393000000.0,
+        "financing_cf_fmt": "-¥644億",
+        "free_cf": -20227000000.0,
+        "free_cf_fmt": "-¥202億",
         "net_margin": 7.08,
         "roe": 10.51,
         "roa": 5.07
@@ -217,8 +217,29 @@
     "has_data": true
   },
   "dividends": {
-    "history": [],
-    "has_data": false,
-    "error": "Too Many Requests. Rate limited. Try after a while."
+    "history": [
+      {
+        "year": 2021,
+        "amount": 30.0
+      },
+      {
+        "year": 2022,
+        "amount": 35.0
+      },
+      {
+        "year": 2023,
+        "amount": 35.0
+      },
+      {
+        "year": 2024,
+        "amount": 40.0
+      },
+      {
+        "year": 2025,
+        "amount": 20.0
+      }
+    ],
+    "latest": 20.0,
+    "has_data": true
   }
 }
