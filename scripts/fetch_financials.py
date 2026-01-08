@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Japan IR - 財務データ取得スクリプト
+Japan IR - 財務データ取得スクリプト（並列処理版）
 5年分の財務諸表データをyfinanceから取得してJSON形式で保存
+20並列処理で高速化
 
 取得項目:
 - 損益計算書: 売上高、売上総利益、営業利益、経常利益、純利益、EPS、営業利益率
@@ -20,21 +21,27 @@ import time
 import argparse
 from datetime import datetime
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 # 設定
 INPUT_CSV_WORDPRESS = "data/wordpress_companies.csv"
 INPUT_CSV_FALLBACK = "data/japan_companies_latest.csv"
 OUTPUT_DIR = "data/financials"
-REQUEST_DELAY = 2.0
+MAX_WORKERS = 20  # 並列数
 MAX_RETRIES = 3
-RETRY_DELAY = 10
-PROGRESS_INTERVAL = 10
+RETRY_DELAY = 5
+PROGRESS_INTERVAL = 20
+
+# スレッドセーフなカウンター
+lock = threading.Lock()
+progress_counter = {"success": 0, "error": 0, "total": 0}
 
 
 class FinancialDataFetcher:
     """財務データ取得クラス"""
 
-    def __init__(self, ticker_code, verbose=True):
+    def __init__(self, ticker_code, verbose=False):
         self.ticker_code = str(ticker_code).replace('.T', '')
         self.ticker_full = f"{self.ticker_code}.T"
         self.ticker = yf.Ticker(self.ticker_full)
@@ -51,7 +58,6 @@ class FinancialDataFetcher:
                     raise Exception("Empty response from yfinance")
 
                 # 履歴データ取得（MA計算用）
-                time.sleep(REQUEST_DELAY)
                 hist_1y = self.ticker.history(period="1y", interval="1d")
 
                 result = {
@@ -73,8 +79,6 @@ class FinancialDataFetcher:
                     print(f"    Attempt {attempt + 1}/{MAX_RETRIES} failed: {error_msg}")
 
                 if attempt < MAX_RETRIES - 1:
-                    if self.verbose:
-                        print(f"    Retrying in {RETRY_DELAY} seconds...")
                     time.sleep(RETRY_DELAY)
                     continue
 
@@ -307,30 +311,51 @@ def save_to_json(data, code, output_dir):
             json.dump(data, f, ensure_ascii=False, indent=2)
         return True
     except Exception as e:
-        print(f"  ❌ 保存エラー: {code} - {str(e)}")
         return False
 
 
+def process_company(code):
+    """並列処理用のラッパー関数"""
+    fetcher = FinancialDataFetcher(code, verbose=False)
+    data = fetcher.fetch()
+    success = False
+
+    if data.get("success"):
+        success = save_to_json(data, code, OUTPUT_DIR)
+
+    # スレッドセーフにカウンターを更新
+    with lock:
+        progress_counter["total"] += 1
+        if success:
+            progress_counter["success"] += 1
+        else:
+            progress_counter["error"] += 1
+
+    return {"code": code, "success": success, "data": data}
+
+
 def main():
-    parser = argparse.ArgumentParser(description='Japan IR - 財務データ取得スクリプト')
+    parser = argparse.ArgumentParser(description='Japan IR - 財務データ取得スクリプト（並列処理版）')
     parser.add_argument('--limit', type=int, help='処理する企業数を制限')
     parser.add_argument('--skip', type=int, default=0, help='スキップする企業数')
     parser.add_argument('--ticker', type=str, help='特定の銘柄のみ取得')
+    parser.add_argument('--workers', type=int, default=MAX_WORKERS, help=f'並列数（デフォルト: {MAX_WORKERS}）')
     args = parser.parse_args()
 
     print("=" * 70)
-    print("Japan IR - 財務データ取得")
+    print("Japan IR - 財務データ取得（並列処理版）")
     print("=" * 70)
     start_time = datetime.now()
     print(f"開始: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"並列数: {args.workers}")
 
     # 出力ディレクトリ作成
     Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
 
-    # 特定銘柄のみ取得
+    # 特定銘柄のみ取得（順次処理）
     if args.ticker:
         print(f"\n対象: {args.ticker}")
-        fetcher = FinancialDataFetcher(args.ticker)
+        fetcher = FinancialDataFetcher(args.ticker, verbose=True)
         data = fetcher.fetch()
 
         if data.get("success"):
@@ -369,42 +394,41 @@ def main():
 
     total = len(stock_codes)
     print(f"対象企業数: {total}社")
+    print(f"予想時間: 約{total / args.workers * 3 / 60:.0f}分")
     print()
 
-    success_count = 0
-    error_count = 0
+    last_progress_print = 0
+    workers = args.workers
 
-    for i, code in enumerate(stock_codes, 1):
-        print(f"[{i}/{total}] {code}")
+    # 並列処理
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_to_code = {executor.submit(process_company, code): code for code in stock_codes}
 
-        fetcher = FinancialDataFetcher(code)
-        data = fetcher.fetch()
+        for future in as_completed(future_to_code):
+            try:
+                future.result()
+            except Exception as e:
+                with lock:
+                    progress_counter["total"] += 1
+                    progress_counter["error"] += 1
 
-        if data.get("success"):
-            if save_to_json(data, code, OUTPUT_DIR):
-                success_count += 1
-                print(f"  ✅ 成功")
-            else:
-                error_count += 1
-        else:
-            error_count += 1
-            print(f"  ❌ 失敗: {data.get('error', 'Unknown error')}")
-
-        # 進捗表示
-        if i % PROGRESS_INTERVAL == 0 or i == total:
-            elapsed = (datetime.now() - start_time).total_seconds()
-            eta = (elapsed / i) * (total - i) / 60
-            print()
-            print(f"進捗: {i}/{total} | 成功: {success_count} | 失敗: {error_count} | 残り時間: {eta:.1f}分")
-            print()
-
-        # レート制限対策
-        if i < total:
-            time.sleep(REQUEST_DELAY)
+            # 進捗表示
+            current_total = progress_counter["total"]
+            if current_total - last_progress_print >= PROGRESS_INTERVAL or current_total == total:
+                elapsed = (datetime.now() - start_time).total_seconds()
+                if current_total > 0:
+                    eta = (elapsed / current_total) * (total - current_total) / 60
+                else:
+                    eta = 0
+                print(f"[{current_total:4}/{total}] ✅ {progress_counter['success']} / ❌ {progress_counter['error']} | 経過: {elapsed/60:.1f}分 | ETA: {eta:.0f}分")
+                last_progress_print = current_total
 
     # 完了サマリー
     end_time = datetime.now()
     elapsed = (end_time - start_time).total_seconds()
+
+    success_count = progress_counter["success"]
+    error_count = progress_counter["error"]
 
     print()
     print("=" * 70)
@@ -412,6 +436,7 @@ def main():
     print(f"所要時間: {elapsed/60:.1f}分 ({elapsed:.0f}秒)")
     print(f"成功: {success_count}社 ({success_count/total*100:.1f}%)")
     print(f"失敗: {error_count}社")
+    print(f"並列数: {workers}")
     print(f"出力先: {OUTPUT_DIR}/")
     print("=" * 70)
 
