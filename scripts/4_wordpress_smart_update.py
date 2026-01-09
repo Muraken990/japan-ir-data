@@ -217,6 +217,34 @@ def create_company(company_data, status='publish', dry_run=False):
     price_to_book = company_data.get('priceToBook', 0)
     dividend_yield = company_data.get('dividendYield', 0)
 
+    # 追加財務指標
+    forward_pe = company_data.get('forwardPE', 0)
+    return_on_equity = company_data.get('returnOnEquity', 0)
+    return_on_assets = company_data.get('returnOnAssets', 0)
+    profit_margins = company_data.get('profitMargins', 0)
+    previous_close = company_data.get('previousClose', 0)
+    fifty_two_week_high = company_data.get('fiftyTwoWeekHigh', 0)
+    fifty_two_week_low = company_data.get('fiftyTwoWeekLow', 0)
+
+    # 会社基本情報
+    website = company_data.get('website', '')
+    city = company_data.get('city', '')
+    full_time_employees = company_data.get('fullTimeEmployees', 0)
+
+    # Price Trend (MA乖離率)
+    ma_5_value = company_data.get('ma_5_value', 0)
+    ma_5_deviation = company_data.get('ma_5_deviation', 0)
+    ma_5_trend = company_data.get('ma_5_trend', 'neutral')
+    ma_25_value = company_data.get('ma_25_value', 0)
+    ma_25_deviation = company_data.get('ma_25_deviation', 0)
+    ma_25_trend = company_data.get('ma_25_trend', 'neutral')
+    ma_75_value = company_data.get('ma_75_value', 0)
+    ma_75_deviation = company_data.get('ma_75_deviation', 0)
+    ma_75_trend = company_data.get('ma_75_trend', 'neutral')
+    ma_200_value = company_data.get('ma_200_value', 0)
+    ma_200_deviation = company_data.get('ma_200_deviation', 0)
+    ma_200_trend = company_data.get('ma_200_trend', 'neutral')
+
     # NaN対策
     if pd.isna(sector):
         sector = ''
@@ -238,6 +266,86 @@ def create_company(company_data, status='publish', dry_run=False):
         dividend_yield = 0
     else:
         dividend_yield = float(dividend_yield)
+
+    # 追加項目のNaN対策
+    if pd.isna(forward_pe):
+        forward_pe = 0
+    else:
+        forward_pe = float(forward_pe)
+    if pd.isna(return_on_equity):
+        return_on_equity = 0
+    else:
+        return_on_equity = float(return_on_equity)
+    if pd.isna(return_on_assets):
+        return_on_assets = 0
+    else:
+        return_on_assets = float(return_on_assets)
+    if pd.isna(profit_margins):
+        profit_margins = 0
+    else:
+        profit_margins = float(profit_margins)
+    if pd.isna(previous_close):
+        previous_close = 0
+    else:
+        previous_close = float(previous_close)
+    if pd.isna(fifty_two_week_high):
+        fifty_two_week_high = 0
+    else:
+        fifty_two_week_high = float(fifty_two_week_high)
+    if pd.isna(fifty_two_week_low):
+        fifty_two_week_low = 0
+    else:
+        fifty_two_week_low = float(fifty_two_week_low)
+    if pd.isna(website):
+        website = ''
+    if pd.isna(city):
+        city = ''
+    if pd.isna(full_time_employees):
+        full_time_employees = 0
+    else:
+        full_time_employees = int(full_time_employees)
+
+    # Price TrendのNaN対策
+    if pd.isna(ma_5_value):
+        ma_5_value = 0
+    else:
+        ma_5_value = float(ma_5_value)
+    if pd.isna(ma_5_deviation):
+        ma_5_deviation = 0
+    else:
+        ma_5_deviation = float(ma_5_deviation)
+    if pd.isna(ma_5_trend):
+        ma_5_trend = 'neutral'
+    if pd.isna(ma_25_value):
+        ma_25_value = 0
+    else:
+        ma_25_value = float(ma_25_value)
+    if pd.isna(ma_25_deviation):
+        ma_25_deviation = 0
+    else:
+        ma_25_deviation = float(ma_25_deviation)
+    if pd.isna(ma_25_trend):
+        ma_25_trend = 'neutral'
+    if pd.isna(ma_75_value):
+        ma_75_value = 0
+    else:
+        ma_75_value = float(ma_75_value)
+    if pd.isna(ma_75_deviation):
+        ma_75_deviation = 0
+    else:
+        ma_75_deviation = float(ma_75_deviation)
+    if pd.isna(ma_75_trend):
+        ma_75_trend = 'neutral'
+    if pd.isna(ma_200_value):
+        ma_200_value = 0
+    else:
+        ma_200_value = float(ma_200_value)
+    if pd.isna(ma_200_deviation):
+        ma_200_deviation = 0
+    else:
+        ma_200_deviation = float(ma_200_deviation)
+    if pd.isna(ma_200_trend):
+        ma_200_trend = 'neutral'
 
     # 投稿データ
     data = {
@@ -256,9 +364,33 @@ def create_company(company_data, status='publish', dry_run=False):
             'trailingPE': trailing_pe,
             'priceToBook': price_to_book,
             'dividendYield': dividend_yield,
+            # 追加項目
+            'forwardPE': forward_pe,
+            'returnOnEquity': return_on_equity,
+            'returnOnAssets': return_on_assets,
+            'profitMargins': profit_margins,
+            'previousClose': previous_close,
+            'fiftyTwoWeekHigh': fifty_two_week_high,
+            'fiftyTwoWeekLow': fifty_two_week_low,
+            'website': str(website),
+            'city': str(city),
+            'fullTimeEmployees': full_time_employees,
+            # Price Trend (MA乖離率)
+            'ma_5_value': ma_5_value,
+            'ma_5_deviation': ma_5_deviation,
+            'ma_5_trend': str(ma_5_trend),
+            'ma_25_value': ma_25_value,
+            'ma_25_deviation': ma_25_deviation,
+            'ma_25_trend': str(ma_25_trend),
+            'ma_75_value': ma_75_value,
+            'ma_75_deviation': ma_75_deviation,
+            'ma_75_trend': str(ma_75_trend),
+            'ma_200_value': ma_200_value,
+            'ma_200_deviation': ma_200_deviation,
+            'ma_200_trend': str(ma_200_trend),
         }
     }
-    
+
     try:
         response = requests.post(url, headers=headers, json=data, timeout=30)
         return response.status_code == 201
@@ -273,28 +405,28 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     """単一投稿を更新（言語指定可能）"""
     headers = get_auth_headers()
     url = f"{WP_SITE_URL}/wp-json/wp/v2/company/{post_id}"
-    
+
     # 時価総額（百万円単位に変換）
     market_cap = company_data.get('marketCap', 0)
     if pd.notna(market_cap) and market_cap > 0:
         market_cap_million = int(market_cap / 1000000)
     else:
         market_cap_million = 0
-    
+
     # 株価
     stock_price = company_data.get('currentPrice', 0)
     if pd.isna(stock_price):
         stock_price = 0
     else:
         stock_price = float(stock_price)
-    
+
     # 企業名
     company_name_ja = company_data.get('company_name_ja', '')
     company_name_en = company_data.get('company_name_en', '')
-    
+
     # 日付
     date = company_data.get('scrape_date', datetime.now().strftime('%Y-%m-%d'))
-    
+
     # セクター・業種
     sector = company_data.get('sector', '')
     industry = company_data.get('industry', '')
@@ -303,6 +435,34 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     trailing_pe = company_data.get('trailingPE', 0)
     price_to_book = company_data.get('priceToBook', 0)
     dividend_yield = company_data.get('dividendYield', 0)
+
+    # 追加財務指標
+    forward_pe = company_data.get('forwardPE', 0)
+    return_on_equity = company_data.get('returnOnEquity', 0)
+    return_on_assets = company_data.get('returnOnAssets', 0)
+    profit_margins = company_data.get('profitMargins', 0)
+    previous_close = company_data.get('previousClose', 0)
+    fifty_two_week_high = company_data.get('fiftyTwoWeekHigh', 0)
+    fifty_two_week_low = company_data.get('fiftyTwoWeekLow', 0)
+
+    # 会社基本情報
+    website = company_data.get('website', '')
+    city = company_data.get('city', '')
+    full_time_employees = company_data.get('fullTimeEmployees', 0)
+
+    # Price Trend (MA乖離率)
+    ma_5_value = company_data.get('ma_5_value', 0)
+    ma_5_deviation = company_data.get('ma_5_deviation', 0)
+    ma_5_trend = company_data.get('ma_5_trend', 'neutral')
+    ma_25_value = company_data.get('ma_25_value', 0)
+    ma_25_deviation = company_data.get('ma_25_deviation', 0)
+    ma_25_trend = company_data.get('ma_25_trend', 'neutral')
+    ma_75_value = company_data.get('ma_75_value', 0)
+    ma_75_deviation = company_data.get('ma_75_deviation', 0)
+    ma_75_trend = company_data.get('ma_75_trend', 'neutral')
+    ma_200_value = company_data.get('ma_200_value', 0)
+    ma_200_deviation = company_data.get('ma_200_deviation', 0)
+    ma_200_trend = company_data.get('ma_200_trend', 'neutral')
 
     # NaN対策
     if pd.isna(sector):
@@ -326,6 +486,86 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     else:
         dividend_yield = float(dividend_yield)
 
+    # 追加項目のNaN対策
+    if pd.isna(forward_pe):
+        forward_pe = 0
+    else:
+        forward_pe = float(forward_pe)
+    if pd.isna(return_on_equity):
+        return_on_equity = 0
+    else:
+        return_on_equity = float(return_on_equity)
+    if pd.isna(return_on_assets):
+        return_on_assets = 0
+    else:
+        return_on_assets = float(return_on_assets)
+    if pd.isna(profit_margins):
+        profit_margins = 0
+    else:
+        profit_margins = float(profit_margins)
+    if pd.isna(previous_close):
+        previous_close = 0
+    else:
+        previous_close = float(previous_close)
+    if pd.isna(fifty_two_week_high):
+        fifty_two_week_high = 0
+    else:
+        fifty_two_week_high = float(fifty_two_week_high)
+    if pd.isna(fifty_two_week_low):
+        fifty_two_week_low = 0
+    else:
+        fifty_two_week_low = float(fifty_two_week_low)
+    if pd.isna(website):
+        website = ''
+    if pd.isna(city):
+        city = ''
+    if pd.isna(full_time_employees):
+        full_time_employees = 0
+    else:
+        full_time_employees = int(full_time_employees)
+
+    # Price TrendのNaN対策
+    if pd.isna(ma_5_value):
+        ma_5_value = 0
+    else:
+        ma_5_value = float(ma_5_value)
+    if pd.isna(ma_5_deviation):
+        ma_5_deviation = 0
+    else:
+        ma_5_deviation = float(ma_5_deviation)
+    if pd.isna(ma_5_trend):
+        ma_5_trend = 'neutral'
+    if pd.isna(ma_25_value):
+        ma_25_value = 0
+    else:
+        ma_25_value = float(ma_25_value)
+    if pd.isna(ma_25_deviation):
+        ma_25_deviation = 0
+    else:
+        ma_25_deviation = float(ma_25_deviation)
+    if pd.isna(ma_25_trend):
+        ma_25_trend = 'neutral'
+    if pd.isna(ma_75_value):
+        ma_75_value = 0
+    else:
+        ma_75_value = float(ma_75_value)
+    if pd.isna(ma_75_deviation):
+        ma_75_deviation = 0
+    else:
+        ma_75_deviation = float(ma_75_deviation)
+    if pd.isna(ma_75_trend):
+        ma_75_trend = 'neutral'
+    if pd.isna(ma_200_value):
+        ma_200_value = 0
+    else:
+        ma_200_value = float(ma_200_value)
+    if pd.isna(ma_200_deviation):
+        ma_200_deviation = 0
+    else:
+        ma_200_deviation = float(ma_200_deviation)
+    if pd.isna(ma_200_trend):
+        ma_200_trend = 'neutral'
+
     # 更新データ
     data = {
         'meta': {
@@ -339,9 +579,33 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
             'trailingPE': trailing_pe,
             'priceToBook': price_to_book,
             'dividendYield': dividend_yield,
+            # 追加項目
+            'forwardPE': forward_pe,
+            'returnOnEquity': return_on_equity,
+            'returnOnAssets': return_on_assets,
+            'profitMargins': profit_margins,
+            'previousClose': previous_close,
+            'fiftyTwoWeekHigh': fifty_two_week_high,
+            'fiftyTwoWeekLow': fifty_two_week_low,
+            'website': str(website),
+            'city': str(city),
+            'fullTimeEmployees': full_time_employees,
+            # Price Trend (MA乖離率)
+            'ma_5_value': ma_5_value,
+            'ma_5_deviation': ma_5_deviation,
+            'ma_5_trend': str(ma_5_trend),
+            'ma_25_value': ma_25_value,
+            'ma_25_deviation': ma_25_deviation,
+            'ma_25_trend': str(ma_25_trend),
+            'ma_75_value': ma_75_value,
+            'ma_75_deviation': ma_75_deviation,
+            'ma_75_trend': str(ma_75_trend),
+            'ma_200_value': ma_200_value,
+            'ma_200_deviation': ma_200_deviation,
+            'ma_200_trend': str(ma_200_trend),
         }
     }
-    
+
     try:
         response = requests.post(url, headers=headers, json=data, timeout=30)
         return response.status_code == 200
@@ -352,24 +616,24 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
 def update_company(post_id, company_data, existing_slug='', dry_run=False):
     """既存企業ページ更新（多言語対応）"""
     code = company_data.get('code', '')
-    
+
     # Dry Run表示
     if dry_run:
         company_name_ja = company_data.get('company_name_ja', '')
         company_name_en = company_data.get('company_name_en', '')
         stock_price = company_data.get('currentPrice', 0)
         market_cap = company_data.get('marketCap', 0)
-        
+
         if pd.notna(market_cap) and market_cap > 0:
             market_cap_million = int(market_cap / 1000000)
         else:
             market_cap_million = 0
-        
+
         print(f"   📍 日本語版:")
         print(f"      ID: {post_id}")
         print(f"      スラッグ: {existing_slug}")
         print(f"      URL: {WP_SITE_URL}/company/{existing_slug}/")
-        
+
         # 英語版も確認
         en_post_id = get_translation_by_ticker(code, 'en')
         if en_post_id:
@@ -378,25 +642,25 @@ def update_company(post_id, company_data, existing_slug='', dry_run=False):
             print(f"      URL: {WP_SITE_URL}/en/company/{existing_slug}/")
         else:
             print(f"   ⚠️  英語版: 見つかりません")
-        
+
         print(f"   企業名（日）: {company_name_ja}")
         print(f"   企業名（英）: {company_name_en}")
         print(f"   株価: {stock_price:,.0f}円 (更新)" if pd.notna(stock_price) else "   株価: データなし")
         print(f"   時価総額: {market_cap_million:,}百万円 (更新)")
-        
+
         return True
-    
+
     # 実際の更新処理
     # 1. 日本語版を更新
     success_ja = update_single_post(post_id, company_data, 'ja', dry_run)
-    
+
     # 2. 英語版を更新
     en_post_id = get_translation_by_ticker(code, 'en')
     success_en = True
-    
+
     if en_post_id:
         success_en = update_single_post(en_post_id, company_data, 'en', dry_run)
-    
+
     return success_ja and success_en
 
 # ============================================================
@@ -516,7 +780,7 @@ def process_companies(integrated_csv, errors_csv, existing_companies,
             existing_slug = existing_companies[ticker].get('slug', '')
             prefix = "[Dry Run] 更新予定" if dry_run else "[更新]"
             print(f"\n{prefix}: {company_name} ({ticker})")
-            
+
             if update_company(post_id, row, existing_slug=existing_slug, dry_run=dry_run):
                 stats['updated'] += 1
                 if not dry_run:

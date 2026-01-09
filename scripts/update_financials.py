@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
 Japan IR - 財務データ WordPress更新スクリプト
-data/financials/{code}.json をWordPressの yfinance_financials メタフィールドに保存
+data/financials/{code}.json をWordPressに保存:
+  - detailed_financial_data: JSON全体（チャート・テーブル表示用）
+  - 個別フィールド: 最新年の値を抽出（スクリーニング用）
 """
 
 import json
@@ -101,6 +103,73 @@ def get_all_companies(lang='ja'):
     return companies
 
 
+def extract_individual_fields(financial_data):
+    """JSONから個別フィールド用の値を抽出"""
+    fields = {}
+
+    # 財務データから最新年を取得
+    financials = financial_data.get('financials', {})
+    years_data = financials.get('years', [])
+
+    if years_data:
+        # 最新年のデータ（リストの先頭）
+        latest = years_data[0]
+
+        # 財務指標フィールド
+        if latest.get('revenue') is not None:
+            fields['totalRevenue'] = latest['revenue']
+        if latest.get('operating_income') is not None:
+            fields['OperatingIncome'] = latest['operating_income']
+        if latest.get('net_income') is not None:
+            fields['NetIncome'] = latest['net_income']
+        if latest.get('operating_margin') is not None:
+            fields['operatingMargins'] = latest['operating_margin']
+        if latest.get('net_margin') is not None:
+            fields['profitMargins'] = latest['net_margin']
+        if latest.get('roe') is not None:
+            fields['returnOnEquity'] = latest['roe']
+        if latest.get('eps') is not None:
+            fields['epsTrailingTwelveMonths'] = latest['eps']
+
+    # 配当履歴
+    dividends = financial_data.get('dividends', {})
+    dividend_history = dividends.get('history', [])
+
+    # 配当履歴を年度順にソート（新しい順）してフィールドに割り当て
+    if dividend_history:
+        sorted_dividends = sorted(dividend_history, key=lambda x: x.get('year', 0), reverse=True)
+        for i, div in enumerate(sorted_dividends[:10], 1):
+            field_name = f'get_dividend_history_year{i}'
+            if div.get('amount') is not None:
+                fields[field_name] = div['amount']
+
+    # Company Information
+    company_info = financial_data.get('company_info', {})
+    if company_info:
+        if company_info.get('name_en'):
+            fields['company_name_en'] = company_info['name_en']
+        if company_info.get('long_name'):
+            fields['longName'] = company_info['long_name']
+        if company_info.get('sector'):
+            fields['sector'] = company_info['sector']
+        if company_info.get('industry'):
+            fields['industry'] = company_info['industry']
+        if company_info.get('website'):
+            fields['website'] = company_info['website']
+        if company_info.get('employees') is not None:
+            fields['fullTimeEmployees'] = company_info['employees']
+        if company_info.get('country'):
+            fields['country'] = company_info['country']
+        if company_info.get('city'):
+            fields['city'] = company_info['city']
+        if company_info.get('address'):
+            fields['address1'] = company_info['address']
+        if company_info.get('description'):
+            fields['longBusinessSummary'] = company_info['description']
+
+    return fields
+
+
 def update_financials(post_id, financial_data, dry_run=False):
     """財務データをWordPressに更新"""
     if dry_run:
@@ -109,12 +178,19 @@ def update_financials(post_id, financial_data, dry_run=False):
     headers = get_auth_headers()
     url = f"{WP_SITE_URL}/wp-json/wp/v2/company/{post_id}"
 
-    # 財務データをJSON文字列として保存
-    data = {
-        'meta': {
-            'yfinance_financials': json.dumps(financial_data, ensure_ascii=False)
-        }
+    # 個別フィールドを抽出
+    individual_fields = extract_individual_fields(financial_data)
+
+    # メタデータ構築
+    meta = {
+        # JSON全体（チャート・テーブル表示用）
+        'detailed_financial_data': json.dumps(financial_data, ensure_ascii=False),
     }
+
+    # 個別フィールドを追加（スクリーニング用）
+    meta.update(individual_fields)
+
+    data = {'meta': meta}
 
     try:
         response = requests.post(url, headers=headers, json=data, timeout=30)

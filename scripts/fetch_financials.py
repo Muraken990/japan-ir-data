@@ -68,6 +68,7 @@ class FinancialDataFetcher:
                     "ticker": self.ticker_code,
                     "ticker_full": self.ticker_full,
                     "company_name": self.info.get("shortName", ""),
+                    "company_info": self._get_company_info(),
                     "price_trend": self._calculate_ma_deviation(hist_1y),
                     "financials": self._get_financials(),
                     "dividends": self._get_dividends(),
@@ -134,6 +135,36 @@ class FinancialDataFetcher:
             "ma_75": empty.copy(),
             "ma_200": empty.copy(),
         }
+
+    def _get_company_info(self):
+        """企業基本情報を取得"""
+        try:
+            return {
+                "name_en": self.info.get("shortName", ""),
+                "long_name": self.info.get("longName", ""),
+                "sector": self.info.get("sector", ""),
+                "industry": self.info.get("industry", ""),
+                "website": self.info.get("website", ""),
+                "employees": self.info.get("fullTimeEmployees"),
+                "country": self.info.get("country", ""),
+                "city": self.info.get("city", ""),
+                "address": self.info.get("address1", ""),
+                "description": self.info.get("longBusinessSummary", ""),
+            }
+        except Exception as e:
+            return {
+                "name_en": "",
+                "long_name": "",
+                "sector": "",
+                "industry": "",
+                "website": "",
+                "employees": None,
+                "country": "",
+                "city": "",
+                "address": "",
+                "description": "",
+                "error": str(e)
+            }
 
     def _get_financials(self):
         """財務データ（5年分）"""

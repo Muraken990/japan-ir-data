@@ -4,6 +4,7 @@ Japan IR - yfinance 全項目取得スクリプト（並列処理版）
 - shortName バリデーション追加
 - エラー時も取得できたデータを保存
 - エラー理由の詳細化
+- Price Trend (MA乖離率) 計算追加
 """
 
 import yfinance as yf
@@ -57,6 +58,53 @@ INFO_FIELDS = [
     "heldPercentInsiders", "heldPercentInstitutions",
 ]
 
+# Price Trend (MA乖離率) フィールド
+MA_FIELDS = [
+    "ma_5_value", "ma_5_deviation", "ma_5_trend",
+    "ma_25_value", "ma_25_deviation", "ma_25_trend",
+    "ma_75_value", "ma_75_deviation", "ma_75_trend",
+    "ma_200_value", "ma_200_deviation", "ma_200_trend",
+]
+
+
+def calculate_ma_deviation(ticker, info):
+    """移動平均乖離率を計算"""
+    result = {}
+
+    # デフォルト値（計算できない場合）
+    for period in [5, 25, 75, 200]:
+        result[f"ma_{period}_value"] = None
+        result[f"ma_{period}_deviation"] = None
+        result[f"ma_{period}_trend"] = "neutral"
+
+    try:
+        # 1年分の株価履歴を取得
+        hist = ticker.history(period="1y", interval="1d")
+
+        if hist is None or hist.empty:
+            return result
+
+        current_price = info.get("currentPrice") or info.get("regularMarketPrice", 0)
+        if not current_price:
+            return result
+
+        close_prices = hist['Close']
+
+        for period in [5, 25, 75, 200]:
+            if len(close_prices) >= period:
+                ma = close_prices.tail(period).mean()
+                deviation = ((current_price - ma) / ma) * 100
+                result[f"ma_{period}_value"] = round(float(ma), 2)
+                result[f"ma_{period}_deviation"] = round(float(deviation), 2)
+                result[f"ma_{period}_trend"] = "up" if deviation > 0 else "down"
+
+    except Exception as e:
+        # エラーが発生してもデフォルト値を返す
+        pass
+
+    return result
+
+
 def fetch_stock_data(code):
     """単一企業のデータを取得"""
     ticker_symbol = f"{code}.T"
@@ -73,6 +121,10 @@ def fetch_stock_data(code):
             data = {"code": code, "ticker": ticker_symbol}
             for field in INFO_FIELDS:
                 data[field] = info.get(field)
+
+            # Price Trend (MA乖離率) 計算
+            ma_data = calculate_ma_deviation(ticker, info)
+            data.update(ma_data)
 
             # バリデーション: 株価・時価総額チェック
             current_price = data.get("currentPrice")
@@ -102,10 +154,24 @@ def fetch_stock_data(code):
                 for field in INFO_FIELDS:
                     data[field] = None
 
+            # MAフィールドもNullで初期化
+            for period in [5, 25, 75, 200]:
+                data[f"ma_{period}_value"] = None
+                data[f"ma_{period}_deviation"] = None
+                data[f"ma_{period}_trend"] = "neutral"
+
             data["status"] = f"error: {str(e)}"
             return data
 
-    return {"code": code, "ticker": ticker_symbol, "status": "error: Max retries"}
+    # 最終エラー時もMAフィールドを含める
+    error_data = {"code": code, "ticker": ticker_symbol, "status": "error: Max retries"}
+    for field in INFO_FIELDS:
+        error_data[field] = None
+    for period in [5, 25, 75, 200]:
+        error_data[f"ma_{period}_value"] = None
+        error_data[f"ma_{period}_deviation"] = None
+        error_data[f"ma_{period}_trend"] = "neutral"
+    return error_data
 
 def process_company(code):
     """並列処理用のラッパー関数"""
