@@ -223,6 +223,11 @@ def create_company(company_data, status='publish', dry_run=False):
     return_on_assets = company_data.get('returnOnAssets', 0)
     profit_margins = company_data.get('profitMargins', 0)
     previous_close = company_data.get('previousClose', 0)
+    open_price = company_data.get('open', 0)
+    day_high = company_data.get('dayHigh', 0)
+    day_low = company_data.get('dayLow', 0)
+    volume = company_data.get('volume', 0)
+    average_volume = company_data.get('averageVolume', 0)
     fifty_two_week_high = company_data.get('fiftyTwoWeekHigh', 0)
     fifty_two_week_low = company_data.get('fiftyTwoWeekLow', 0)
 
@@ -288,6 +293,26 @@ def create_company(company_data, status='publish', dry_run=False):
         previous_close = 0
     else:
         previous_close = float(previous_close)
+    if pd.isna(open_price):
+        open_price = 0
+    else:
+        open_price = float(open_price)
+    if pd.isna(day_high):
+        day_high = 0
+    else:
+        day_high = float(day_high)
+    if pd.isna(day_low):
+        day_low = 0
+    else:
+        day_low = float(day_low)
+    if pd.isna(volume):
+        volume = 0
+    else:
+        volume = int(volume)
+    if pd.isna(average_volume):
+        average_volume = 0
+    else:
+        average_volume = int(average_volume)
     if pd.isna(fifty_two_week_high):
         fifty_two_week_high = 0
     else:
@@ -370,6 +395,11 @@ def create_company(company_data, status='publish', dry_run=False):
             'returnOnAssets': return_on_assets,
             'profitMargins': profit_margins,
             'previousClose': previous_close,
+            'open': open_price,
+            'dayHigh': day_high,
+            'dayLow': day_low,
+            'volume': volume,
+            'averageVolume': average_volume,
             'fiftyTwoWeekHigh': fifty_two_week_high,
             'fiftyTwoWeekLow': fifty_two_week_low,
             'website': str(website),
@@ -442,6 +472,11 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     return_on_assets = company_data.get('returnOnAssets', 0)
     profit_margins = company_data.get('profitMargins', 0)
     previous_close = company_data.get('previousClose', 0)
+    open_price = company_data.get('open', 0)
+    day_high = company_data.get('dayHigh', 0)
+    day_low = company_data.get('dayLow', 0)
+    volume = company_data.get('volume', 0)
+    average_volume = company_data.get('averageVolume', 0)
     fifty_two_week_high = company_data.get('fiftyTwoWeekHigh', 0)
     fifty_two_week_low = company_data.get('fiftyTwoWeekLow', 0)
 
@@ -507,6 +542,26 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
         previous_close = 0
     else:
         previous_close = float(previous_close)
+    if pd.isna(open_price):
+        open_price = 0
+    else:
+        open_price = float(open_price)
+    if pd.isna(day_high):
+        day_high = 0
+    else:
+        day_high = float(day_high)
+    if pd.isna(day_low):
+        day_low = 0
+    else:
+        day_low = float(day_low)
+    if pd.isna(volume):
+        volume = 0
+    else:
+        volume = int(volume)
+    if pd.isna(average_volume):
+        average_volume = 0
+    else:
+        average_volume = int(average_volume)
     if pd.isna(fifty_two_week_high):
         fifty_two_week_high = 0
     else:
@@ -585,6 +640,11 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
             'returnOnAssets': return_on_assets,
             'profitMargins': profit_margins,
             'previousClose': previous_close,
+            'open': open_price,
+            'dayHigh': day_high,
+            'dayLow': day_low,
+            'volume': volume,
+            'averageVolume': average_volume,
             'fiftyTwoWeekHigh': fifty_two_week_high,
             'fiftyTwoWeekLow': fifty_two_week_low,
             'website': str(website),
