@@ -167,7 +167,21 @@ def create_integrated_dataframe(merged_df):
         # 配当
         'dividendRate': merged_df.get('dividendRate', None),
         'dividendYield': merged_df.get('dividendYield', None),
-        
+
+        # Price Trend (MA乖離率)
+        'ma_5_value': merged_df.get('ma_5_value', None),
+        'ma_5_deviation': merged_df.get('ma_5_deviation', None),
+        'ma_5_trend': merged_df.get('ma_5_trend', ''),
+        'ma_25_value': merged_df.get('ma_25_value', None),
+        'ma_25_deviation': merged_df.get('ma_25_deviation', None),
+        'ma_25_trend': merged_df.get('ma_25_trend', ''),
+        'ma_75_value': merged_df.get('ma_75_value', None),
+        'ma_75_deviation': merged_df.get('ma_75_deviation', None),
+        'ma_75_trend': merged_df.get('ma_75_trend', ''),
+        'ma_200_value': merged_df.get('ma_200_value', None),
+        'ma_200_deviation': merged_df.get('ma_200_deviation', None),
+        'ma_200_trend': merged_df.get('ma_200_trend', ''),
+
         # メタ情報
         'currency': merged_df.get('currency', 'JPY'),
         'exchange': merged_df.get('exchange', 'JPX'),
