@@ -4,13 +4,13 @@
 
 ---
 
-## 実行頻度
+## 実行頻度と取得データ
 
-| スクリプト | 頻度 | GitHub Actions | 説明 |
-|-----------|------|----------------|------|
-| `fetch_wordpress_companies.py` | 月-金 + 日曜 | daily-update-complete, weekly-financials | WordPress登録企業リスト取得 |
-| `fetch_stock_history.py` | 月-金 | daily-update-complete | 株価履歴データ取得 |
-| `fetch_financials.py` | 日曜 | weekly-financials | 財務データ取得 |
+| スクリプト | 頻度 | 取得データ |
+|-----------|------|-----------|
+| `fetch_wordpress_companies.py` | 月-金 + 日曜 | 企業リスト（code, name, ticker） |
+| `fetch_stock_history.py` | 月-金 | 株価履歴 5年分（open, high, low, close, volume） |
+| `fetch_financials.py` | 日曜 | 財務データ 5年分（revenue, net_income, ROE, ROA, 配当履歴 等） |
 
 ---
 
