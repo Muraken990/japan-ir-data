@@ -8,9 +8,9 @@
 
 | スクリプト | 頻度 | GitHub Actions | 説明 |
 |-----------|------|----------------|------|
-| `fetch_wordpress_companies.py` | 毎日 + 週1 | daily-update-complete, weekly-financials | WordPress登録企業リスト取得 |
-| `fetch_stock_history.py` | 毎日 (月-金) | daily-update-complete | 株価履歴データ取得 |
-| `fetch_financials.py` | 週1 (日曜) | weekly-financials | 財務データ取得 |
+| `fetch_wordpress_companies.py` | 月-金 + 日曜 | daily-update-complete, weekly-financials | WordPress登録企業リスト取得 |
+| `fetch_stock_history.py` | 月-金 | daily-update-complete | 株価履歴データ取得 |
+| `fetch_financials.py` | 日曜 | weekly-financials | 財務データ取得 |
 
 ---
 
