@@ -43,6 +43,89 @@ yfinanceから株価履歴（5年分）を取得。
 
 ---
 
+### 2_fetch_yfinance_data.py（月-金）
+
+yfinanceから株価・財務・アナリスト情報等を取得。
+
+- **入力**: `data/japan_companies_latest.csv`
+- **出力**: `output/yfinance_all_fields_*.csv`
+
+#### 株価情報
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `currentPrice` | `currentPrice` | 現在株価 |
+| `previousClose` | `previousClose` | 前日終値 |
+| `open` | `open` | 始値 |
+| `dayHigh` | `dayHigh` | 高値 |
+| `dayLow` | `dayLow` | 安値 |
+| `volume` | `volume` | 出来高 |
+| `averageVolume` | `averageVolume` | 平均出来高 |
+| `fiftyTwoWeekHigh` | `fiftyTwoWeekHigh` | 52週高値 |
+| `fiftyTwoWeekLow` | `fiftyTwoWeekLow` | 52週安値 |
+| `marketCap` | `marketCap` | 時価総額 |
+
+#### 企業情報
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `shortName` | `shortName` | 英語社名（短縮） |
+| `longName` | `longName` | 英語社名（正式） |
+| `sector` | `sector` | セクター |
+| `industry` | `industry` | 業種 |
+| `website` | `website` | 企業サイトURL |
+| `fullTimeEmployees` | `fullTimeEmployees` | 従業員数 |
+| `country` | `country` | 国 |
+| `city` | `city` | 都市 |
+
+#### バリュエーション
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `trailingPE` | `trailingPE` | PER（実績） |
+| `forwardPE` | `forwardPE` | PER（予想） |
+| `priceToBook` | `priceToBook` | PBR |
+| `enterpriseValue` | `enterpriseValue` | 企業価値 |
+
+#### 収益性
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `profitMargins` | `profitMargins` | 利益率 |
+| `operatingMargins` | `operatingMargins` | 営業利益率 |
+| `returnOnEquity` | `returnOnEquity` | ROE |
+| `returnOnAssets` | `returnOnAssets` | ROA |
+
+#### 配当
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `dividendRate` | `dividendRate` | 配当額 |
+| `dividendYield` | `dividendYield` | 配当利回り |
+| `payoutRatio` | `payoutRatio` | 配当性向 |
+
+#### アナリスト
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `targetMeanPrice` | `targetMeanPrice` | 目標株価（平均） |
+| `recommendationMean` | `recommendationMean` | 推奨スコア |
+| `recommendationKey` | `recommendationKey` | 推奨（buy/hold/sell） |
+| `numberOfAnalystOpinions` | `numberOfAnalystOpinions` | アナリスト数 |
+
+#### MA乖離率
+
+| 出力ID | 説明 |
+|--------|------|
+| `ma_5_value` | 5日移動平均値 |
+| `ma_5_deviation` | 5日MA乖離率 (%) |
+| `ma_5_trend` | トレンド (up/down/neutral) |
+| `ma_25_*` | 25日移動平均（同上） |
+| `ma_75_*` | 75日移動平均（同上） |
+| `ma_200_*` | 200日移動平均（同上） |
+
+---
+
 ### fetch_financials.py（日曜）
 
 yfinanceから財務データ（5年分）を取得。
@@ -117,7 +200,7 @@ yfinanceから財務データ（5年分）を取得。
 ### daily-update-complete.yml（月-金 23:00 UTC）
 
 ```
-fetch_wordpress_companies.py → fetch_stock_history.py → 4_wordpress_smart_update.py
+fetch_wordpress_companies.py → 2_fetch_yfinance_data.py → fetch_stock_history.py → 4_wordpress_smart_update.py
 ```
 
 ### weekly-financials.yml（日曜 00:00 UTC）
@@ -135,6 +218,9 @@ cd japan-ir-data
 
 # 企業リスト取得
 python scripts/fetch_wordpress_companies.py
+
+# yfinance全項目取得
+python scripts/2_fetch_yfinance_data.py
 
 # 株価履歴取得（全企業）
 python scripts/fetch_stock_history.py
