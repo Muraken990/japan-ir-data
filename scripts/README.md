@@ -19,6 +19,20 @@ WordPress REST APIから企業リストを取得。後続スクリプトの対�
 | `title.rendered` | `name` | 企業名 |
 | - | `ticker` | yfinance形式 (例: 7203.T) |
 
+#### 月-金：株価履歴を取得
+```
+fetch_wordpress_companies.py → fetch_stock_history.py
+                                    ↓
+                               open, high, low, close, volume（5年分）
+```
+
+#### 日曜：財務データを取得
+```
+fetch_wordpress_companies.py → fetch_financials.py
+                                    ↓
+                               revenue, net_income, ROE, ROA, 配当履歴 等（5年分）
+```
+
 ---
 
 ### fetch_stock_history.py（月-金）
