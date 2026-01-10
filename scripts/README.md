@@ -18,6 +18,14 @@
 
 ### 概要
 WordPress REST APIから登録済み企業のリストを取得し、CSVファイルに保存。
+後続のスクリプトで使用する企業リストを生成。
+
+### 実行タイミングと用途
+
+| 曜日 | ワークフロー | 後続スクリプト | 取得データ |
+|-----|-------------|---------------|-----------|
+| 月-金 | daily-update-complete | `fetch_stock_history.py` | 株価履歴（5年分） |
+| 日曜 | weekly-financials | `fetch_financials.py` | 財務データ（5年分） |
 
 ### 入力
 - WordPress REST API: `https://japanir.jp/wp-json/wp/v2/company`
@@ -35,7 +43,7 @@ WordPress REST APIから登録済み企業のリストを取得し、CSVファ�
 
 ---
 
-## 2. fetch_stock_history.py
+## 2. fetch_stock_history.py (月-金)
 
 ### 概要
 yfinanceから過去5年分の日次株価データを取得し、JSON形式で保存。
@@ -74,7 +82,7 @@ yfinanceから過去5年分の日次株価データを取得し、JSON形式で�
 
 ---
 
-## 3. fetch_financials.py
+## 3. fetch_financials.py (日曜)
 
 ### 概要
 yfinanceから5年分の財務諸表データを取得し、JSON形式で保存。
