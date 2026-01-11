@@ -7,6 +7,12 @@ on:
 
   # 手動実行を許可
   workflow_dispatch:
+    inputs:
+      limit:
+        description: '処理する企業数（空欄で全件）'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   update-analyst-earnings:
@@ -64,7 +70,12 @@ jobs:
           echo "=========================================="
           echo "Step 2: アナリスト・決算データ取得開始"
           echo "=========================================="
-          python scripts/fetch_analyst_earnings.py
+          LIMIT_ARG=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            LIMIT_ARG="--limit ${{ github.event.inputs.limit }}"
+            echo "制限: ${{ github.event.inputs.limit }}社"
+          fi
+          python scripts/fetch_analyst_earnings.py $LIMIT_ARG
 
       - name: Commit analyst earnings data
         run: |
@@ -88,7 +99,11 @@ jobs:
           echo "=========================================="
           echo "Step 3: WordPressアナリスト・決算データ更新"
           echo "=========================================="
-          python scripts/update_analyst_earnings.py
+          LIMIT_ARG=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            LIMIT_ARG="--limit ${{ github.event.inputs.limit }}"
+          fi
+          python scripts/update_analyst_earnings.py $LIMIT_ARG
 
       # ============================================================
       # Artifacts保存
