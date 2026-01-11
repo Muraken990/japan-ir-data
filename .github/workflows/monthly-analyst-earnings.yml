@@ -1,0 +1,137 @@
+name: Monthly Analyst & Earnings Update
+
+on:
+  # 毎月1日 JST 9:00 (UTC 0:00) に自動実行
+  schedule:
+    - cron: '0 0 1 * *'
+
+  # 手動実行を許可
+  workflow_dispatch:
+
+jobs:
+  update-analyst-earnings:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ============================================================
+      # セットアップ
+      # ============================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests yfinance
+
+      # ============================================================
+      # Step 1: WordPress登録企業リスト取得
+      # ============================================================
+
+      - name: Fetch WordPress registered companies
+        run: |
+          echo "=========================================="
+          echo "Step 1: WordPress登録企業リスト取得"
+          echo "=========================================="
+          python scripts/fetch_wordpress_companies.py
+
+      - name: Check company list
+        id: check-list
+        run: |
+          if [ -f "data/wordpress_companies.csv" ]; then
+            echo "list_exists=true" >> $GITHUB_OUTPUT
+            COMPANY_COUNT=$(wc -l < data/wordpress_companies.csv)
+            echo "✅ wordpress_companies.csv: $COMPANY_COUNT 社"
+          else
+            echo "list_exists=false" >> $GITHUB_OUTPUT
+            echo "❌ wordpress_companies.csv が見つかりません"
+            exit 1
+          fi
+
+      # ============================================================
+      # Step 2: アナリスト・決算データ取得
+      # ============================================================
+
+      - name: Fetch analyst and earnings data
+        if: steps.check-list.outputs.list_exists == 'true'
+        run: |
+          echo "=========================================="
+          echo "Step 2: アナリスト・決算データ取得開始"
+          echo "=========================================="
+          python scripts/fetch_analyst_earnings.py
+
+      - name: Commit analyst earnings data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/analyst_earnings/*.json || true
+          git diff --staged --quiet || git commit -m "Update analyst & earnings data $(date +'%Y-%m-%d')"
+          git push || true
+
+      # ============================================================
+      # Step 3: WordPress更新
+      # ============================================================
+
+      - name: Update WordPress analyst earnings
+        if: steps.check-list.outputs.list_exists == 'true'
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+        run: |
+          echo "=========================================="
+          echo "Step 3: WordPressアナリスト・決算データ更新"
+          echo "=========================================="
+          python scripts/update_analyst_earnings.py
+
+      # ============================================================
+      # Artifacts保存
+      # ============================================================
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-analyst-earnings-data
+          path: |
+            data/analyst_earnings/*.json
+            data/wordpress_companies.csv
+          retention-days: 30
+          if-no-files-found: warn
+
+      # ============================================================
+      # 実行サマリー
+      # ============================================================
+
+      - name: Generate summary
+        if: always()
+        run: |
+          echo "## 📊 月次アナリスト・決算データ更新サマリー" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**実行日時:** $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -d "data/analyst_earnings" ]; then
+            FILE_COUNT=$(ls -1 data/analyst_earnings/*.json 2>/dev/null | wc -l)
+            echo "✅ **アナリスト・決算データ:** ${FILE_COUNT} ファイル更新" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **アナリスト・決算データ:** 更新なし" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**処理フロー:**" >> $GITHUB_STEP_SUMMARY
+          echo "1. WordPress登録企業リスト取得" >> $GITHUB_STEP_SUMMARY
+          echo "2. yfinanceアナリスト予想・決算日程取得" >> $GITHUB_STEP_SUMMARY
+          echo "3. WordPress analyst_earnings_data 更新" >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ 月次アナリスト・決算データ更新に失敗しました"
+          echo "詳細: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"

@@ -209,6 +209,12 @@ fetch_wordpress_companies.py → 2_fetch_yfinance_data.py → fetch_stock_histor
 fetch_wordpress_companies.py → fetch_financials.py → update_financials.py
 ```
 
+### monthly-analyst-earnings.yml（毎月1日 00:00 UTC）
+
+```
+fetch_wordpress_companies.py → fetch_analyst_earnings.py → update_analyst_earnings.py
+```
+
 ---
 
 ## ローカル実行
@@ -233,4 +239,53 @@ python scripts/fetch_financials.py
 
 # 財務データ取得（特定銘柄）
 python scripts/fetch_financials.py --ticker 7203
+
+# アナリスト・決算データ取得（全企業）
+python scripts/fetch_analyst_earnings.py
+
+# アナリスト・決算データ取得（特定銘柄）
+python scripts/fetch_analyst_earnings.py --ticker 7203
 ```
+
+---
+
+## fetch_analyst_earnings.py（月次）
+
+yfinanceからアナリスト予想・決算日程を取得。
+
+- **入力**: `data/wordpress_companies.csv`
+- **出力**: `data/analyst_earnings/{code}.json`
+
+#### analyst_recommendations（アナリスト推奨）
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `recommendations.strongBuy` | `strong_buy` | Strong Buy 件数 |
+| `recommendations.buy` | `buy` | Buy 件数 |
+| `recommendations.hold` | `hold` | Hold 件数 |
+| `recommendations.sell` | `sell` | Sell 件数 |
+| `recommendations.strongSell` | `strong_sell` | Strong Sell 件数 |
+| `info.recommendationKey` | `recommendation_key` | 推奨（buy/hold/sell） |
+| `info.recommendationMean` | `recommendation_mean` | 推奨スコア（1-5） |
+| (計算値) | `total_analysts` | アナリスト総数 |
+
+#### target_prices（目標株価）
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `analyst_price_targets.current` | `current` | 現在株価 |
+| `analyst_price_targets.high` | `high` | 目標株価（高値） |
+| `analyst_price_targets.low` | `low` | 目標株価（安値） |
+| `analyst_price_targets.mean` | `mean` | 目標株価（平均） |
+| `analyst_price_targets.median` | `median` | 目標株価（中央値） |
+
+#### earnings_dates（決算日程）
+
+| yfinance フィールド | 出力ID | 説明 |
+|--------------------|--------|------|
+| `earnings_dates.index` | `date` | 決算日 |
+| `earnings_dates['EPS Estimate']` | `eps_estimate` | EPS予想 |
+| `earnings_dates['Reported EPS']` | `eps_actual` | EPS実績 |
+| `earnings_dates['Surprise(%)']` | `surprise_pct` | サプライズ (%) |
+| (計算値) | `next_earnings` | 次回決算情報 |
+| (計算値) | `past_earnings` | 過去決算履歴（直近5件）|
