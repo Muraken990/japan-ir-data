@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:28:45.983546",
+  "fetched_at": "2026-01-11T07:47:44.127080",
   "ticker": "8345",
   "ticker_full": "8345.T",
   "company_name": "BANK OF IWATE LTD",
@@ -24,8 +24,41 @@
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 92.12,
+        "eps_actual": 97.15,
+        "surprise_pct": 5.46
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 89.47,
+        "eps_actual": 165.65,
+        "surprise_pct": 85.14
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 94.74,
+        "eps_actual": 89.96,
+        "surprise_pct": -5.05
+      },
+      {
+        "date": "2015-02-02",
+        "eps_estimate": 101.44,
+        "eps_actual": 89.56,
+        "surprise_pct": -11.71
+      },
+      {
+        "date": "2014-11-13",
+        "eps_estimate": 90.62,
+        "eps_actual": 144.31,
+        "surprise_pct": 59.25
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
