@@ -13,6 +13,11 @@ on:
         required: false
         default: ''
         type: string
+      ticker:
+        description: '特定の銘柄コード（例: 7203）'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   update-analyst-earnings:
@@ -74,12 +79,16 @@ jobs:
           echo "=========================================="
           echo "Step 2: アナリスト・決算データ取得開始"
           echo "=========================================="
-          LIMIT_ARG=""
+          ARGS=""
           if [ -n "${{ github.event.inputs.limit }}" ]; then
-            LIMIT_ARG="--limit ${{ github.event.inputs.limit }}"
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
             echo "制限: ${{ github.event.inputs.limit }}社"
           fi
-          python scripts/fetch_analyst_earnings.py $LIMIT_ARG
+          if [ -n "${{ github.event.inputs.ticker }}" ]; then
+            ARGS="$ARGS --ticker ${{ github.event.inputs.ticker }}"
+            echo "銘柄: ${{ github.event.inputs.ticker }}"
+          fi
+          python scripts/fetch_analyst_earnings.py $ARGS
 
       - name: Commit analyst earnings data
         run: |
@@ -103,11 +112,14 @@ jobs:
           echo "=========================================="
           echo "Step 3: WordPressアナリスト・決算データ更新"
           echo "=========================================="
-          LIMIT_ARG=""
+          ARGS=""
           if [ -n "${{ github.event.inputs.limit }}" ]; then
-            LIMIT_ARG="--limit ${{ github.event.inputs.limit }}"
+            ARGS="$ARGS --limit ${{ github.event.inputs.limit }}"
           fi
-          python scripts/update_analyst_earnings.py $LIMIT_ARG
+          if [ -n "${{ github.event.inputs.ticker }}" ]; then
+            ARGS="$ARGS --ticker ${{ github.event.inputs.ticker }}"
+          fi
+          python scripts/update_analyst_earnings.py $ARGS
 
       # ============================================================
       # Artifacts保存
