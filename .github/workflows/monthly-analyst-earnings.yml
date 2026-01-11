@@ -36,6 +36,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas requests yfinance lxml
 
+      - name: Test earnings dates fetch (single company)
+        run: |
+          python3 -c "import yfinance as yf; ticker = yf.Ticker('6586.T'); print(ticker.get_earnings_dates(limit=4))"
+
       # ============================================================
       # Step 1: WordPress登録企業リスト取得
       # ============================================================
