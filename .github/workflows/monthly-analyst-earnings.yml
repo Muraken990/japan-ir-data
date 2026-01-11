@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas requests yfinance
+          pip install pandas requests yfinance lxml
 
       # ============================================================
       # Step 1: WordPress登録企業リスト取得
