@@ -221,7 +221,8 @@ class AnalystEarningsFetcher:
     def _get_earnings_dates(self):
         """決算日程を取得"""
         try:
-            earnings = self.ticker.earnings_dates
+            # get_earnings_dates()メソッドを使用（プロパティより確実）
+            earnings = self.ticker.get_earnings_dates(limit=12)
 
             if earnings is None or earnings.empty:
                 return {"has_data": False}
