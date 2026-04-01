@@ -1,52 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:45:38.356349",
+  "fetched_at": "2026-04-01T03:58:27.859875",
   "ticker": "4911",
   "ticker_full": "4911.T",
   "company_name": "SHISEIDO COMPANY LIMITED",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
-    "buy": 3,
+    "strong_buy": 0,
+    "buy": 4,
     "hold": 11,
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 17,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.70588
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.4
   },
   "target_prices": {
     "has_data": true,
-    "current": 2409.5,
-    "high": 3240.0,
-    "low": 1930.6,
-    "mean": 2564.7412,
-    "median": 2500.0
+    "current": 3377.0,
+    "high": 3700.0,
+    "low": 2400.0,
+    "mean": 3090.9333,
+    "median": 2985.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 0.24,
-    "institution_pct": 63.56,
+    "insider_pct": 0.21,
+    "institution_pct": 65.24,
     "major_holders": [
       {
         "label": "",
-        "value": 0.24
+        "value": 0.21
       },
       {
         "label": "",
-        "value": 63.56
+        "value": 65.24
       },
       {
         "label": "",
-        "value": 63.71
+        "value": 65.38
       },
       {
         "label": "",
-        "value": 270.0
+        "value": 278.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +57,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.0,
         "pct_change": -4.39,
-        "value": 8392288
+        "value": 11762091
       }
     ],
     "mutualfund_holders": [
@@ -66,63 +67,55 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.44,
         "pct_change": -0.04,
-        "value": 13916886480
+        "value": 19505011680
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 3687302,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.92,
-        "pct_change": 3.01,
-        "value": 8884554169
+        "shares": 3764502,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.94,
+        "pct_change": 2.09,
+        "value": 12712723254
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2719400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.68,
-        "pct_change": 1.15,
-        "value": 6552394300
+        "shares": 2742200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.69,
+        "pct_change": 0.84,
+        "value": 9260409400
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1408210,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.35,
-        "pct_change": -0.15,
-        "value": 3393081995
+        "shares": 1507710,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.38,
+        "pct_change": -0.25,
+        "value": 5091536670
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1389900,
-        "date_reported": "2025-11-30",
+        "shares": 1390900,
+        "date_reported": "2026-01-31",
         "pct_held": 0.35,
-        "pct_change": 1.4,
-        "value": 3348964050
+        "pct_change": 1.27,
+        "value": 4697069300
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1351000,
-        "date_reported": "2025-11-30",
+        "shares": 1373100,
+        "date_reported": "2026-01-31",
         "pct_held": 0.34,
-        "pct_change": 0.0,
-        "value": 3255234500
+        "pct_change": 0.57,
+        "value": 4636958700
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 1142700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.29,
-        "pct_change": 0.66,
-        "value": 2753335650
-      },
-      {
-        "holder": "FPA FUNDS TRUST-FPA Crescent Fund",
-        "shares": 886100,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.22,
-        "pct_change": 1.0,
-        "value": 2135057950
+        "shares": 1098400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": -3.88,
+        "value": 3709296800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -130,15 +123,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.22,
         "pct_change": 0.73,
-        "value": 2089720798
+        "value": 2928818068
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 820977,
-        "date_reported": "2025-08-31",
+        "shares": 828525,
+        "date_reported": "2025-11-30",
         "pct_held": 0.21,
-        "pct_change": -0.18,
-        "value": 1978144081
+        "pct_change": 0.92,
+        "value": 2797928925
+      },
+      {
+        "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
+        "shares": 749175,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": 0.0,
+        "value": 2529963975
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:42:24.534040",
+  "fetched_at": "2026-04-01T03:54:57.241341",
   "ticker": "5711",
   "ticker_full": "5711.T",
   "company_name": "MITSUBISHI MATERIALS CORP",
@@ -10,27 +10,28 @@
     "strong_buy": 0,
     "buy": 1,
     "hold": 5,
-    "sell": 2,
+    "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 8,
+    "total_analysts": 7,
     "recommendation_key": "hold",
     "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3997.0,
-    "high": 4150.0,
+    "current": 5146.0,
+    "high": 6700.0,
     "low": 2200.0,
-    "mean": 3191.4285,
-    "median": 3200.0
+    "mean": 4641.4287,
+    "median": 5300.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.83,
-    "institution_pct": 52.01,
+    "institution_pct": 52.55,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 52.01
+        "value": 52.55
       },
       {
         "label": "",
-        "value": 52.45
+        "value": 52.99
       },
       {
         "label": "",
-        "value": 117.0
+        "value": 126.0
       }
     ],
     "institutional_holders": [
@@ -56,17 +57,25 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.01,
         "pct_change": 1.0,
-        "value": 30577050
+        "value": 39366900
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "GLOBAL X FUNDS-Global X Copper Miners ETF",
-        "shares": 3578775,
-        "date_reported": "2025-10-31",
-        "pct_held": 2.72,
-        "pct_change": 19.23,
-        "value": 14304363675
+        "shares": 4760246,
+        "date_reported": "2026-01-31",
+        "pct_held": 3.62,
+        "pct_change": 31.69,
+        "value": 24496225916
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 2532600,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.93,
+        "pct_change": 13.78,
+        "value": 13032759600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -74,71 +83,63 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.43,
         "pct_change": 2.46,
-        "value": 7500098704
+        "value": 9656119072
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 1758976,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.34,
         "pct_change": 0.0,
-        "value": 7030627072
+        "value": 9051690496
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1187311,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.9,
-        "pct_change": 4.43,
-        "value": 4745682067
+        "shares": 1223511,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.93,
+        "pct_change": 3.05,
+        "value": 6296187606
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 955700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.73,
-        "pct_change": 4.99,
-        "value": 3819932900
+        "shares": 1018700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.77,
+        "pct_change": 6.59,
+        "value": 5242230200
       },
       {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 920900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.7,
-        "pct_change": 4.08,
-        "value": 3680837300
-      },
-      {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 858200,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.65,
-        "pct_change": 8.71,
-        "value": 3430225400
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 888400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.68,
+        "pct_change": 3.52,
+        "value": 4571706400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 801600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.61,
-        "pct_change": -1.91,
-        "value": 3203995200
+        "shares": 809200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.62,
+        "pct_change": 0.95,
+        "value": 4164143200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 653100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.5,
-        "pct_change": 7.26,
-        "value": 2610440700
+        "shares": 612000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.47,
+        "pct_change": -6.29,
+        "value": 3149352000
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 488178,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.37,
-        "pct_change": 26.5,
-        "value": 1951247466
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 503356,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.38,
+        "pct_change": 7.84,
+        "value": 2590269976
       }
     ]
   }

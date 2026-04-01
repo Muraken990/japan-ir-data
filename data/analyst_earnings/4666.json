@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:41:12.854616",
+  "fetched_at": "2026-04-01T03:52:56.413916",
   "ticker": "4666",
   "ticker_full": "4666.T",
   "company_name": "PARK 24 CO LTD",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.4
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 2225.0,
+    "current": 1918.0,
     "high": 3000.0,
     "low": 2540.0,
-    "mean": 2752.0,
-    "median": 2720.0
+    "mean": 2768.0,
+    "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-11",
+      "eps_estimate": 24.68,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-26",
+        "eps_estimate": 29.26,
+        "eps_actual": 34.02,
+        "surprise_pct": 16.28
+      },
+      {
+        "date": "2025-12-15",
+        "eps_estimate": 23.06,
+        "eps_actual": 34.93,
+        "surprise_pct": 51.5
+      },
+      {
+        "date": "2025-09-15",
+        "eps_estimate": 31.2,
+        "eps_actual": 29.15,
+        "surprise_pct": -6.57
+      },
+      {
+        "date": "2025-07-14",
+        "eps_estimate": 11.59,
+        "eps_actual": -1.15,
+        "surprise_pct": -109.92
+      },
+      {
+        "date": "2025-03-14",
+        "eps_estimate": 28.21,
+        "eps_actual": 30.35,
+        "surprise_pct": 7.58
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 25.2,
-    "institution_pct": 38.65,
+    "insider_pct": 23.33,
+    "institution_pct": 43.89,
     "major_holders": [
       {
         "label": "",
-        "value": 25.2
+        "value": 23.33
       },
       {
         "label": "",
-        "value": 38.65
+        "value": 43.89
       },
       {
         "label": "",
-        "value": 51.66
+        "value": 57.25
       },
       {
         "label": "",
-        "value": 116.0
+        "value": 112.0
       }
     ],
     "institutional_holders": [
@@ -57,79 +95,79 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.08,
         "pct_change": 1.1,
-        "value": 4112532025
+        "value": 3545095022
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 1320300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.77,
-        "pct_change": -0.24,
-        "value": 2937667500
+        "shares": 1365000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.8,
+        "pct_change": 3.39,
+        "value": 2618070000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1196842,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.7,
-        "pct_change": 4.27,
-        "value": 2662973450
-      },
-      {
-        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 1057700,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.62,
-        "pct_change": 0.93,
-        "value": 2353382500
+        "shares": 1220642,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.71,
+        "pct_change": 1.99,
+        "value": 2341191356
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 941800,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.55,
-        "pct_change": 1.11,
-        "value": 2095505000
+        "shares": 949400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.56,
+        "pct_change": 0.81,
+        "value": 1820949200
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
-        "shares": 650000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.38,
-        "pct_change": 0.0,
-        "value": 1446250000
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 649572,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.38,
-        "pct_change": 0.0,
-        "value": 1445297700
+        "shares": 925000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.54,
+        "pct_change": 23.33,
+        "value": 1774150000
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 575300,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.34,
-        "pct_change": 1.0,
-        "value": 1280042500
+        "shares": 664000,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.39,
+        "pct_change": 15.42,
+        "value": 1273552000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 630172,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.37,
+        "pct_change": -2.99,
+        "value": 1208669896
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 434700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": 4.77,
-        "value": 967207500
+        "shares": 489700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": 3.25,
+        "value": 939244600
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 370301,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.22,
-        "pct_change": 0.0,
-        "value": 823919725
+        "holder": "Fidelity Investment TRT-Fidelity Intl Small Cap Opportunities Fd.",
+        "shares": 457000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": 34.41,
+        "value": 876526000
+      },
+      {
+        "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
+        "shares": 306000,
+        "date_reported": "2025-09-30",
+        "pct_held": 0.18,
+        "pct_change": 48.26,
+        "value": 586908000
       }
     ],
     "mutualfund_holders": []

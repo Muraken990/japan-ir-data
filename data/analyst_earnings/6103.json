@@ -1,37 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:37:57.629342",
+  "fetched_at": "2026-04-01T03:50:26.266483",
   "ticker": "6103",
   "ticker_full": "6103.T",
   "company_name": "OKUMA CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "3",
     "strong_buy": 1,
     "buy": 3,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.16667
   },
   "target_prices": {
     "has_data": true,
-    "current": 3795.0,
-    "high": 4200.0,
-    "low": 3520.0,
-    "mean": 3921.6667,
-    "median": 4005.0
+    "current": 3665.0,
+    "high": 5000.0,
+    "low": 3600.0,
+    "mean": 4315.0,
+    "median": 4400.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.73,
-    "institution_pct": 52.23,
+    "institution_pct": 50.8,
     "major_holders": [
       {
         "label": "",
@@ -39,18 +39,99 @@
       },
       {
         "label": "",
-        "value": 52.23
+        "value": 50.8
       },
       {
         "label": "",
-        "value": 60.54
+        "value": 58.89
       },
       {
         "label": "",
         "value": 109.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
+        "shares": 931770,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.38,
+        "pct_change": 0.0,
+        "value": 3414937050
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 667452,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.99,
+        "pct_change": -0.3,
+        "value": 2446211580
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 435402,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.64,
+        "pct_change": 1.9,
+        "value": 1595748330
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 281600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.42,
+        "pct_change": 0.0,
+        "value": 1032064000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 234600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.35,
+        "pct_change": -6.31,
+        "value": 859809000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 221500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.33,
+        "pct_change": 0.0,
+        "value": 811797500
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 165200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": 1.6,
+        "value": 605458000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 163900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": 16.08,
+        "value": 600693500
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 112380,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.17,
+        "pct_change": 0.92,
+        "value": 411872700
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 99700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.15,
+        "pct_change": 5.5,
+        "value": 365400500
+      }
+    ],
     "mutualfund_holders": []
   }
 }

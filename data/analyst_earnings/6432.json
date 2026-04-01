@@ -1,49 +1,49 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:40:18.467612",
+  "fetched_at": "2026-04-01T03:52:48.493753",
   "ticker": "6432",
   "ticker_full": "6432.T",
   "company_name": "TAKEUCHI MFG CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "3",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 1,
-    "sell": 1,
+    "hold": 0,
+    "sell": 2,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.25
   },
   "target_prices": {
     "has_data": true,
-    "current": 7100.0,
-    "high": 8000.0,
-    "low": 4200.0,
-    "mean": 5750.0,
-    "median": 5400.0
+    "current": 6390.0,
+    "high": 9190.0,
+    "low": 4600.0,
+    "mean": 6697.5,
+    "median": 6500.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 23.53,
-    "institution_pct": 37.67,
+    "insider_pct": 25.91,
+    "institution_pct": 35.62,
     "major_holders": [
       {
         "label": "",
-        "value": 23.53
+        "value": 25.91
       },
       {
         "label": "",
-        "value": 37.67
+        "value": 35.62
       },
       {
         "label": "",
-        "value": 49.27
+        "value": 48.07
       },
       {
         "label": "",
@@ -52,84 +52,84 @@
     ],
     "institutional_holders": [
       {
-        "holder": "Fidelity Central Investment PORT.s LLC-Fidelity Intl Eqy. Central Fd.",
-        "shares": 493400,
-        "date_reported": "2025-09-30",
-        "pct_held": 1.01,
-        "pct_change": 15.04,
-        "value": 3503140000
-      },
-      {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 491074,
         "date_reported": "2025-10-31",
         "pct_held": 1.0,
         "pct_change": -1.11,
-        "value": 3486625400
+        "value": 3137962860
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
         "shares": 425776,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.87,
-        "pct_change": -0.06,
-        "value": 3023009600
+        "pct_change": 0.0,
+        "value": 2720708640
+      },
+      {
+        "holder": "Fidelity Central Investment PORT.s LLC-Fidelity Intl Eqy. Central Fd.",
+        "shares": 413900,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.84,
+        "pct_change": -16.11,
+        "value": 2644821000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 394400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.8,
-        "pct_change": -16.93,
-        "value": 2800240000
+        "shares": 379800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.78,
+        "pct_change": -3.7,
+        "value": 2426922000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 316098,
-        "date_reported": "2025-09-30",
+        "shares": 318298,
+        "date_reported": "2025-12-31",
         "pct_held": 0.65,
-        "pct_change": 0.0,
-        "value": 2244295800
+        "pct_change": 0.7,
+        "value": 2033924220
       },
       {
         "holder": "Fidelity Capital Trust-Fidelity Stock Selector Small Cap Fund",
-        "shares": 300000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.61,
-        "pct_change": 0.0,
-        "value": 2130000000
+        "shares": 308417,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.63,
+        "pct_change": 0.55,
+        "value": 1970784630
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 277300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.57,
+        "pct_change": 5.92,
+        "value": 1771947000
       },
       {
         "holder": "Fidelity Securities Fund-Fidelity Series Small Cap Opportunities Fund",
-        "shares": 255000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.52,
-        "pct_change": 0.0,
-        "value": 1810500000
+        "shares": 244983,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.5,
+        "pct_change": -1.84,
+        "value": 1565441370
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 236900,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 1681990000
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
-        "shares": 230400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.47,
-        "pct_change": 0.0,
-        "value": 1635840000
+        "value": 1513791000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 199600,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 1417160000
+        "value": 1275444000
       }
     ],
     "mutualfund_holders": []

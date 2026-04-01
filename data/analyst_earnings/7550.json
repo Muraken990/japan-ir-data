@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:47:35.478600",
+  "fetched_at": "2026-04-01T04:00:32.365493",
   "ticker": "7550",
   "ticker_full": "7550.T",
   "company_name": "ZENSHO HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 2,
     "buy": 0,
-    "hold": 1,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
+    "total_analysts": 4,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 8748.0,
-    "high": 12200.0,
+    "current": 9430.0,
+    "high": 13000.0,
     "low": 9400.0,
-    "mean": 10400.0,
-    "median": 10000.0
+    "mean": 11133.333,
+    "median": 11000.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 40.37,
-    "institution_pct": 14.36,
+    "institution_pct": 15.29,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 14.36
+        "value": 15.29
       },
       {
         "label": "",
-        "value": 24.09
+        "value": 25.64
       },
       {
         "label": "",
-        "value": 167.0
+        "value": 176.0
       }
     ],
     "institutional_holders": [
@@ -56,63 +57,71 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.83,
         "pct_change": -0.08,
-        "value": 11643316812
+        "value": 12551037670
       },
       {
         "holder": "CAPITAL WORLD GROWTH & INCOME FUND",
-        "shares": 1005900,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.63,
-        "pct_change": 1.0,
-        "value": 8799613200
+        "shares": 973428,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.61,
+        "pct_change": 0.0,
+        "value": 9179426040
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 849656,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.53,
-        "pct_change": 2.58,
-        "value": 7432790688
+        "shares": 869056,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.54,
+        "pct_change": 2.28,
+        "value": 8195198080
+      },
+      {
+        "holder": "EuroPacific Growth Fund-EUPAC Fund",
+        "shares": 682200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.42,
+        "pct_change": 1.0,
+        "value": 6433146000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 674000,
-        "date_reported": "2025-11-30",
+        "shares": 681600,
+        "date_reported": "2026-01-31",
         "pct_held": 0.42,
-        "pct_change": 1.55,
-        "value": 5896152000
+        "pct_change": 1.13,
+        "value": 6427488000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 339458,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.21,
-        "pct_change": -0.18,
-        "value": 2969578584
+        "shares": 347558,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 0.87,
+        "value": 3277471940
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 334500,
-        "date_reported": "2025-11-30",
+        "shares": 335200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.21,
-        "pct_change": 1.46,
-        "value": 2926206000
+        "pct_change": 1.18,
+        "value": 3160936000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 325700,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.2,
-        "pct_change": 0.0,
-        "value": 2849223600
+        "shares": 330800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.21,
+        "pct_change": 0.55,
+        "value": 3119444000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 297400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": 0.2,
-        "value": 2601655200
+        "shares": 287100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.18,
+        "pct_change": -3.46,
+        "value": 2707353000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -120,15 +129,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.13,
         "pct_change": 0.3,
-        "value": 1758592944
-      },
-      {
-        "holder": "Fidelity Concord Street TRT-Fidelity SAI Global ex U.S. Low Volatility",
-        "shares": 208600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.13,
-        "pct_change": -3.87,
-        "value": 1824832800
+        "value": 1895694040
       }
     ],
     "mutualfund_holders": []

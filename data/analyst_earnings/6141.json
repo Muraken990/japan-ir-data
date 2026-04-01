@@ -1,37 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:41:19.452527",
+  "fetched_at": "2026-04-01T03:53:49.810993",
   "ticker": "6141",
   "ticker_full": "6141.T",
   "company_name": "DMG MORI CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
-    "buy": 2,
-    "hold": 2,
+    "buy": 1,
+    "hold": 3,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2795.5,
-    "high": 3100.0,
-    "low": 2100.0,
-    "mean": 2648.0,
-    "median": 2840.0
+    "current": 2507.0,
+    "high": 3500.0,
+    "low": 2000.0,
+    "mean": 2732.0,
+    "median": 2900.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.89,
-    "institution_pct": 58.26,
+    "institution_pct": 54.37,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 58.26
+        "value": 54.37
       },
       {
         "label": "",
-        "value": 65.38
+        "value": 61.01
       },
       {
         "label": "",
-        "value": 142.0
+        "value": 140.0
       }
     ],
     "institutional_holders": [],

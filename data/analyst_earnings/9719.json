@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:47:42.205009",
+  "fetched_at": "2026-04-01T04:00:40.818129",
   "ticker": "9719",
   "ticker_full": "9719.T",
   "company_name": "SCSK CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
-    "strong_buy": 2,
-    "buy": 4,
+    "period": "2",
+    "strong_buy": 1,
+    "buy": 3,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 9,
+    "total_analysts": 7,
     "recommendation_key": "buy",
     "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 5684.0,
-    "high": 5540.0,
-    "low": 4350.0,
-    "mean": 4848.5713,
-    "median": 4800.0
+    "current": 5680.0,
+    "high": 5300.0,
+    "low": 4800.0,
+    "mean": 5050.0,
+    "median": 5050.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 88.53,
-    "institution_pct": 10.84,
+    "institution_pct": 2.94,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 10.84
+        "value": 2.94
       },
       {
         "label": "",
-        "value": 94.54
+        "value": 25.61
       },
       {
         "label": "",
-        "value": 234.0
+        "value": 154.0
       }
     ],
     "institutional_holders": [
@@ -56,23 +57,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.68,
         "pct_change": 1.81,
-        "value": 12041531264
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1360108,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.44,
-        "pct_change": 5.23,
-        "value": 7730853872
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1087000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.35,
-        "pct_change": 0.96,
-        "value": 6178508000
+        "value": 12033057280
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Intl Small-Mid Company Fd.",
@@ -80,31 +65,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.19,
         "pct_change": -63.68,
-        "value": 3403579200
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 551210,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.18,
-        "pct_change": 0.0,
-        "value": 3133077640
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 549900,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.18,
-        "pct_change": 1.18,
-        "value": 3125631600
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 527000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.17,
-        "pct_change": 0.0,
-        "value": 2995468000
+        "value": 3401184000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -112,23 +73,63 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.15,
         "pct_change": 0.23,
-        "value": 2668638000
+        "value": 2666760000
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE Min Vol Factor ETF",
-        "shares": 461100,
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 324809,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.1,
+        "pct_change": 0.31,
+        "value": 1844915120
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 300464,
         "date_reported": "2025-11-30",
-        "pct_held": 0.15,
-        "pct_change": -42.81,
-        "value": 2620892400
+        "pct_held": 0.1,
+        "pct_change": 0.89,
+        "value": 1706635520
       },
       {
-        "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
-        "shares": 393559,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.13,
-        "pct_change": -62.07,
-        "value": 2236989356
+        "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
+        "shares": 275400,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.09,
+        "pct_change": 4.64,
+        "value": 1564272000
+      },
+      {
+        "holder": "TIAA-CREF Funds-Nuveen International Equity Index Fund",
+        "shares": 250112,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.08,
+        "pct_change": 0.0,
+        "value": 1420636160
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 219677,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.07,
+        "pct_change": 0.0,
+        "value": 1247765360
+      },
+      {
+        "holder": "AIM Intl Mutual Fd.s -Invesco Global Opportunities Fd.",
+        "shares": 186800,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.06,
+        "pct_change": 24.7,
+        "value": 1061024000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
+        "shares": 171515,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.05,
+        "pct_change": 1.48,
+        "value": 974205200
       }
     ],
     "mutualfund_holders": []

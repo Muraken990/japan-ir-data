@@ -1,36 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:41:31.532850",
+  "fetched_at": "2026-04-01T03:54:01.852969",
   "ticker": "4516",
   "ticker_full": "4516.T",
   "company_name": "NIPPON SHINYAKU CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
-    "strong_buy": 0,
-    "buy": 3,
-    "hold": 4,
+    "period": "3",
+    "strong_buy": 2,
+    "buy": 2,
+    "hold": 2,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 8,
+    "total_analysts": 7,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5675.0,
+    "current": 5298.0,
     "high": 8200.0,
     "low": 2600.0,
-    "mean": 6200.0,
+    "mean": 6171.4287,
     "median": 6600.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": 33.74,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-08",
+        "eps_estimate": 70.0,
+        "eps_actual": 149.62,
+        "surprise_pct": 113.74
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 93.09,
+        "eps_actual": 111.36,
+        "surprise_pct": 19.62
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 84.91,
+        "eps_actual": 122.52,
+        "surprise_pct": 44.3
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 33.74,
+        "eps_actual": 59.47,
+        "surprise_pct": 76.26
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 131.88,
+        "eps_actual": 180.84,
+        "surprise_pct": 37.13
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.67,
-    "institution_pct": 47.19,
+    "institution_pct": 48.67,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 47.19
+        "value": 48.67
       },
       {
         "label": "",
-        "value": 49.5
+        "value": 51.05
       },
       {
         "label": "",
-        "value": 128.0
+        "value": 130.0
       }
     ],
     "institutional_holders": [
@@ -56,79 +95,79 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.12,
         "pct_change": 8.75,
-        "value": 4472541275
+        "value": 4175422674
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 509612,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.73,
-        "pct_change": 12.42,
-        "value": 2892048100
+        "shares": 529112,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.75,
+        "pct_change": 3.83,
+        "value": 2803235376
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 459400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.65,
+        "pct_change": 1.4,
+        "value": 2433901200
+      },
+      {
+        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
+        "shares": 386400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.55,
+        "pct_change": 1.0,
+        "value": 2047147200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 355100,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 2015192500
+        "value": 1881319800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 202200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.29,
-        "pct_change": 24.81,
-        "value": 1147485000
+        "shares": 244500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.35,
+        "pct_change": 20.92,
+        "value": 1295361000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 177000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": 3.87,
-        "value": 1004475000
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 162094,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.23,
-        "pct_change": 0.0,
-        "value": 919883450
+        "shares": 200200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 1.32,
+        "value": 1060659600
       },
       {
         "holder": "INVESTMENT MANAGERS SERIES TRUST-EuroPac International Value Fund",
         "shares": 150000,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.21,
-        "pct_change": 1.0,
-        "value": 851250000
+        "pct_change": 0.0,
+        "value": 794700000
       },
       {
         "holder": "Mercer Funds-Mercer Non-US Core Equity Fund",
         "shares": 140500,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.2,
-        "pct_change": 18.27,
-        "value": 797337500
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 132400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 751370000
+        "value": 744369000
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 120313,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 8.97,
-        "value": 682776275
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 138600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.2,
+        "pct_change": 1.32,
+        "value": 734302800
       }
     ],
     "mutualfund_holders": []

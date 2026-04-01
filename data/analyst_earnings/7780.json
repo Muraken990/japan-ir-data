@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:31:12.900735",
+  "fetched_at": "2026-04-01T03:43:45.627645",
   "ticker": "7780",
   "ticker_full": "7780.T",
   "company_name": "MENICON CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1605.0,
-    "high": 2000.0,
-    "low": 1300.0,
-    "mean": 1660.0,
-    "median": 1600.0
+    "current": 1742.0,
+    "high": 2400.0,
+    "low": 1500.0,
+    "mean": 2030.0,
+    "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 22.44,
+        "eps_actual": 42.86,
+        "surprise_pct": 91.0
+      },
+      {
+        "date": "2024-02-12",
+        "eps_estimate": 27.9,
+        "eps_actual": 16.47,
+        "surprise_pct": -40.97
+      },
+      {
+        "date": "2023-08-09",
+        "eps_estimate": 31.54,
+        "eps_actual": 20.75,
+        "surprise_pct": -34.21
+      },
+      {
+        "date": "2023-05-14",
+        "eps_estimate": 15.71,
+        "eps_actual": 6.81,
+        "surprise_pct": -56.65
+      },
+      {
+        "date": "2023-02-09",
+        "eps_estimate": 30.11,
+        "eps_actual": 34.21,
+        "surprise_pct": 13.62
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.03,
-    "institution_pct": 23.7,
+    "institution_pct": 26.28,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 23.7
+        "value": 26.28
       },
       {
         "label": "",
-        "value": 30.39
+        "value": 33.7
       },
       {
         "label": "",
@@ -57,25 +95,33 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 275942835
+        "value": 299496834
       }
     ],
     "mutualfund_holders": [
+      {
+        "holder": "Longleaf Partners Funds Trust-Longleaf Partners Global Fund",
+        "shares": 1329800,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.73,
+        "pct_change": 1.0,
+        "value": 2316511600
+      },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 833572,
         "date_reported": "2025-10-31",
         "pct_held": 1.09,
         "pct_change": -1.66,
-        "value": 1337883060
+        "value": 1452082424
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 558577,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.73,
-        "pct_change": 4.53,
-        "value": 896516085
+        "shares": 579177,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.75,
+        "pct_change": 3.69,
+        "value": 1008926334
       },
       {
         "holder": "Longleaf Partners Funds Trust-Longleaf Partners International Fund",
@@ -83,39 +129,47 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.72,
         "pct_change": 2.0,
-        "value": 883392000
+        "value": 958796800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 534800,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.7,
-        "pct_change": 1.96,
-        "value": 858354000
-      },
-      {
-        "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
-        "shares": 400100,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.52,
-        "pct_change": -59.36,
-        "value": 642160500
+        "shares": 542400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.71,
+        "pct_change": 1.42,
+        "value": 944860800
       },
       {
         "holder": "Principal Funds, Inc-International Small Company Fund",
-        "shares": 359200,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.47,
-        "pct_change": 5.18,
-        "value": 576516000
+        "shares": 347400,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.45,
+        "pct_change": -3.29,
+        "value": 605170800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 227799,
-        "date_reported": "2025-10-31",
+        "shares": 259599,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.34,
+        "pct_change": 13.96,
+        "value": 452221458
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 237500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 1.67,
+        "value": 413725000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 227999,
+        "date_reported": "2026-01-31",
         "pct_held": 0.3,
-        "pct_change": 51.77,
-        "value": 365617395
+        "pct_change": 20.06,
+        "value": 397174258
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -123,23 +177,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.29,
         "pct_change": 12.34,
-        "value": 359359500
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 217200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.28,
-        "pct_change": 6.47,
-        "value": 348606000
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 189899,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": -12.21,
-        "value": 304787895
+        "value": 390033800
       }
     ]
   }

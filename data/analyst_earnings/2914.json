@@ -1,36 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:49:48.087669",
+  "fetched_at": "2026-04-01T04:02:53.181040",
   "ticker": "2914",
   "ticker_full": "2914.T",
   "company_name": "JAPAN TOBACCO INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 4,
     "buy": 2,
-    "hold": 7,
+    "hold": 5,
     "sell": 0,
-    "strong_sell": 0,
+    "strong_sell": 1,
     "total_analysts": 12,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.25
+    "recommendation_mean": 2.16667
   },
   "target_prices": {
     "has_data": true,
-    "current": 5777.0,
-    "high": 7000.0,
+    "current": 6071.0,
+    "high": 6900.0,
     "low": 4800.0,
-    "mean": 5744.1665,
-    "median": 5715.0
+    "mean": 6106.6665,
+    "median": 6100.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": 96.03,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 34.93,
+        "eps_actual": -0.88,
+        "surprise_pct": -102.52
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 92.87,
+        "eps_actual": 108.05,
+        "surprise_pct": 16.35
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 84.3,
+        "eps_actual": 91.5,
+        "surprise_pct": 8.54
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 82.21,
+        "eps_actual": 88.69,
+        "surprise_pct": 7.89
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 21.38,
+        "eps_actual": 11.8,
+        "surprise_pct": -44.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.68,
-    "institution_pct": 19.05,
+    "institution_pct": 19.73,
     "major_holders": [
       {
         "label": "",
@@ -38,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 19.05
+        "value": 19.73
       },
       {
         "label": "",
-        "value": 29.17
+        "value": 30.2
       },
       {
         "label": "",
-        "value": 235.0
+        "value": 241.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 907741,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.05,
-        "pct_change": 2.18,
-        "value": 5244019757
+        "shares": 807946,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.04,
+        "pct_change": -10.99,
+        "value": 4905040166
       }
     ],
     "mutualfund_holders": [
@@ -66,7 +105,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.23,
         "pct_change": 6.59,
-        "value": 142262668900
+        "value": 149502624700
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -74,71 +113,71 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.8,
         "pct_change": 0.31,
-        "value": 92002959541
+        "value": 96685125043
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 10133796,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.51,
-        "pct_change": 2.63,
-        "value": 58542939492
+        "shares": 10358596,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.52,
+        "pct_change": 2.22,
+        "value": 62887036316
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 8265000,
-        "date_reported": "2025-11-30",
+        "shares": 8258000,
+        "date_reported": "2026-01-31",
         "pct_held": 0.41,
-        "pct_change": 0.96,
-        "value": 47746905000
+        "pct_change": 0.93,
+        "value": 50134318000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 4224582,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.21,
-        "pct_change": -0.17,
-        "value": 24405410214
+        "shares": 4323482,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 0.91,
+        "value": 26247859222
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 4183300,
-        "date_reported": "2025-11-30",
+        "shares": 4160200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.21,
-        "pct_change": 0.8,
-        "value": 24166924100
+        "pct_change": 1.01,
+        "value": 25256574200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 4089400,
-        "date_reported": "2025-11-30",
+        "shares": 4147200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.21,
+        "pct_change": 0.49,
+        "value": 25177651200
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 3958800,
+        "date_reported": "2025-12-31",
         "pct_held": 0.2,
-        "pct_change": 0.0,
-        "value": 23624463800
+        "pct_change": 51.71,
+        "value": 24033874800
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 3699131,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.18,
-        "pct_change": 5.83,
-        "value": 21369879787
+        "shares": 3723831,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": 7.88,
+        "value": 22607378001
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 3385400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 0.68,
-        "value": 19557455800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 3179400,
-        "date_reported": "2025-11-30",
+        "shares": 3252200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.16,
-        "pct_change": -1.8,
-        "value": 18367393800
+        "pct_change": -3.93,
+        "value": 19744106200
       }
     ]
   }

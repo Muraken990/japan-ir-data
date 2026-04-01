@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:34:44.727272",
+  "fetched_at": "2026-04-01T03:47:15.266821",
   "ticker": "6807",
   "ticker_full": "6807.T",
   "company_name": "JAPAN AVIATION ELECTRONICS INDU",
@@ -9,24 +9,24 @@
     "period": "2",
     "strong_buy": 1,
     "buy": 0,
-    "hold": 8,
+    "hold": 7,
     "sell": 0,
-    "strong_sell": 0,
+    "strong_sell": 1,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2518.0,
+    "current": 2328.0,
     "high": 3000.0,
     "low": 2150.0,
-    "mean": 2528.889,
+    "mean": 2502.7778,
     "median": 2500.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
@@ -47,7 +47,7 @@
       },
       {
         "label": "",
-        "value": 81.0
+        "value": 80.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +57,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.88,
         "pct_change": 2.57,
-        "value": 1560298844
+        "value": 1442563824
       },
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 596142,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.85,
-        "pct_change": 0.45,
-        "value": 1501085556
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 612542,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.87,
+        "pct_change": 2.75,
+        "value": 1425997776
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 566900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.81,
+        "pct_change": 5.27,
+        "value": 1319743200
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -73,7 +81,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.69,
         "pct_change": -30.76,
-        "value": 1222740800
+        "value": 1130476800
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -81,55 +89,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.68,
         "pct_change": 0.0,
-        "value": 1203143206
+        "value": 1112357976
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 426266,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.61,
-        "pct_change": 12.39,
-        "value": 1073337788
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 413300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.59,
-        "pct_change": 31.46,
-        "value": 1040689400
-      },
-      {
-        "holder": "Matthews International Funds-MATTHEWS JAPAN FUND",
-        "shares": 376300,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.54,
         "pct_change": 0.0,
-        "value": 947523400
+        "value": 992347248
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
-        "shares": 295600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.42,
-        "pct_change": 0.0,
-        "value": 744320800
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 262000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.37,
-        "pct_change": 0.0,
-        "value": 659716000
+        "shares": 301400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.43,
+        "pct_change": 1.96,
+        "value": 701659200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 263100,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 662485800
+        "value": 612496800
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 254500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": -2.86,
+        "value": 592476000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 238700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.34,
+        "pct_change": 0.0,
+        "value": 555693600
       }
     ],
     "mutualfund_holders": []

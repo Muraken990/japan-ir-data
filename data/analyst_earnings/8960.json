@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:43:35.927685",
+  "fetched_at": "2026-04-01T03:56:16.171232",
   "ticker": "8960",
   "ticker_full": "8960.T",
   "company_name": "UNITED URBAN INVESTMENT CORP",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "1",
     "strong_buy": 1,
-    "buy": 4,
-    "hold": 1,
+    "buy": 3,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
@@ -18,35 +18,36 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 185900.0,
-    "high": 203000.0,
-    "low": 177000.0,
-    "mean": 187600.0,
-    "median": 185800.0
+    "current": 172100.0,
+    "high": 212000.0,
+    "low": 188000.0,
+    "mean": 199816.67,
+    "median": 202500.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.71,
-    "institution_pct": 59.19,
+    "insider_pct": 5.78,
+    "institution_pct": 56.65,
     "major_holders": [
       {
         "label": "",
-        "value": 4.71
+        "value": 5.78
       },
       {
         "label": "",
-        "value": 59.19
+        "value": 56.65
       },
       {
         "label": "",
-        "value": 62.11
+        "value": 60.12
       },
       {
         "label": "",
-        "value": 156.0
+        "value": 153.0
       }
     ],
     "institutional_holders": [
@@ -56,39 +57,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.4,
         "pct_change": 2.45,
-        "value": 8304524800
+        "value": 7688051200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 28171,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.88,
-        "pct_change": 4.78,
-        "value": 5236988900
+        "shares": 28683,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.9,
+        "pct_change": 1.82,
+        "value": 4936344300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 20769,
-        "date_reported": "2025-11-30",
+        "shares": 20921,
+        "date_reported": "2026-01-31",
         "pct_held": 0.65,
-        "pct_change": 1.0,
-        "value": 3860957100
+        "pct_change": 0.73,
+        "value": 3600504100
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
-        "shares": 20496,
-        "date_reported": "2025-10-31",
+        "shares": 20384,
+        "date_reported": "2026-01-31",
         "pct_held": 0.64,
-        "pct_change": -1.93,
-        "value": 3810206400
+        "pct_change": -0.55,
+        "value": 3508086400
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 13371,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.42,
-        "pct_change": -2.93,
-        "value": 2485668900
+        "shares": 13983,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.44,
+        "pct_change": 2.71,
+        "value": 2406474300
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 11847,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.37,
+        "pct_change": 1.56,
+        "value": 2038868700
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -96,23 +105,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.35,
         "pct_change": -1.97,
-        "value": 2073156800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 9998,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.31,
-        "pct_change": 4.84,
-        "value": 1858628200
+        "value": 1919259200
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 7368,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.23,
-        "pct_change": 0.0,
-        "value": 1369711200
+        "shares": 8021,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.25,
+        "pct_change": 2.23,
+        "value": 1380414100
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -120,15 +121,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 1227125900
+        "value": 1136032100
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
         "shares": 6296,
-        "date_reported": "2025-08-31",
+        "date_reported": "2025-11-30",
         "pct_held": 0.2,
-        "pct_change": 27.66,
-        "value": 1170426400
+        "pct_change": 0.0,
+        "value": 1083541600
       }
     ],
     "mutualfund_holders": []

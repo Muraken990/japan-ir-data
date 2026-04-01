@@ -1,44 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:43:38.046807",
+  "fetched_at": "2026-04-01T03:56:19.033512",
   "ticker": "6806",
   "ticker_full": "6806.T",
   "company_name": "HIROSE ELECTRIC CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 4,
-    "buy": 6,
-    "hold": 4,
+    "buy": 4,
+    "hold": 7,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 14,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 15,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.06667
   },
   "target_prices": {
     "has_data": true,
-    "current": 17390.0,
-    "high": 23500.0,
+    "current": 20985.0,
+    "high": 32100.0,
     "low": 18000.0,
-    "mean": 21273.334,
-    "median": 22000.0
+    "mean": 23886.666,
+    "median": 23200.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 17.51,
-    "institution_pct": 47.56,
+    "insider_pct": 17.35,
+    "institution_pct": 47.65,
     "major_holders": [
       {
         "label": "",
-        "value": 17.51
+        "value": 17.35
       },
       {
         "label": "",
-        "value": 47.56
+        "value": 47.65
       },
       {
         "label": "",
@@ -56,33 +57,41 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.03,
         "pct_change": 1.0,
-        "value": 186073000
+        "value": 224539500
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "First Eagle Funds-First Eagle Global Fund",
-        "shares": 1258915,
-        "date_reported": "2025-10-31",
-        "pct_held": 3.53,
-        "pct_change": 0.0,
-        "value": 21892531850
+        "shares": 1585215,
+        "date_reported": "2026-01-31",
+        "pct_held": 4.44,
+        "pct_change": 25.92,
+        "value": 33265736775
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
         "shares": 1058300,
-        "date_reported": "2025-08-31",
+        "date_reported": "2025-11-30",
         "pct_held": 2.96,
-        "pct_change": -8.34,
-        "value": 18403837000
+        "pct_change": 0.0,
+        "value": 22208425500
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
-        "shares": 714830,
-        "date_reported": "2025-10-31",
-        "pct_held": 2.0,
-        "pct_change": 0.0,
-        "value": 12430893700
+        "shares": 845630,
+        "date_reported": "2026-01-31",
+        "pct_held": 2.37,
+        "pct_change": 18.3,
+        "value": 17745545550
+      },
+      {
+        "holder": "FPA FUNDS TRUST-FPA Crescent Fund",
+        "shares": 438300,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.23,
+        "pct_change": 1.0,
+        "value": 9197725500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -90,55 +99,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.13,
         "pct_change": 0.0,
-        "value": 7040480620
-      },
-      {
-        "holder": "John Hancock Investment Trust-Disciplined Value International Fund",
-        "shares": 355500,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.0,
-        "pct_change": 24.34,
-        "value": 6182145000
+        "value": 8495945130
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 254004,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.71,
-        "pct_change": 0.63,
-        "value": 4417129560
+        "shares": 259304,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.73,
+        "pct_change": 2.09,
+        "value": 5441494440
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 186945,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.52,
-        "pct_change": 2.47,
-        "value": 3250973550
+        "pct_change": 0.0,
+        "value": 3923040825
       },
       {
-        "holder": "AQR Funds-AQR Long-Short Equity Fund",
-        "shares": 137900,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.39,
-        "pct_change": 3.53,
-        "value": 2398081000
+        "holder": "John Hancock Investment Trust-Disciplined Value International Fund",
+        "shares": 172700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.48,
+        "pct_change": -15.09,
+        "value": 3624109500
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 134000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.38,
-        "pct_change": -2.97,
-        "value": 2330260000
+        "shares": 140200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.39,
+        "pct_change": 2.71,
+        "value": 2942097000
       },
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 124100,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.35,
-        "pct_change": 15.44,
-        "value": 2158099000
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 133000,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.37,
+        "pct_change": 7.17,
+        "value": 2791005000
       }
     ]
   }

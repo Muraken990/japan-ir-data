@@ -1,37 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:36:47.272399",
+  "fetched_at": "2026-04-01T03:49:18.198750",
   "ticker": "9682",
   "ticker_full": "9682.T",
   "company_name": "DTS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
-    "buy": 1,
+    "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 2,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 1259.0,
+    "current": 1054.0,
     "high": 1425.0,
-    "low": 1350.0,
-    "mean": 1387.5,
-    "median": 1387.5
+    "low": 1200.0,
+    "mean": 1312.5,
+    "median": 1312.5
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.98,
-    "institution_pct": 36.93,
+    "institution_pct": 35.65,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +39,11 @@
       },
       {
         "label": "",
-        "value": 36.93
+        "value": 35.65
       },
       {
         "label": "",
-        "value": 43.95
+        "value": 42.43
       },
       {
         "label": "",

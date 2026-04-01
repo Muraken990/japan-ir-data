@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:42:33.140459",
+  "fetched_at": "2026-04-01T03:55:08.908576",
   "ticker": "3269",
   "ticker_full": "3269.T",
   "company_name": "ADVANCE RESIDENCE INV CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 5,
-    "sell": 1,
+    "hold": 7,
+    "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 8,
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 173200.0,
-    "high": 184000.0,
-    "low": 149000.0,
-    "mean": 170000.0,
-    "median": 172500.0
+    "current": 164000.0,
+    "high": 189000.0,
+    "low": 157000.0,
+    "mean": 177000.0,
+    "median": 178000.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.03,
-    "institution_pct": 57.4,
+    "institution_pct": 54.21,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 57.4
+        "value": 54.21
       },
       {
         "label": "",
-        "value": 61.73
+        "value": 58.3
       },
       {
         "label": "",
-        "value": 132.0
+        "value": 135.0
       }
     ],
     "institutional_holders": [
@@ -56,39 +57,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.33,
         "pct_change": -0.12,
-        "value": 6583505200
+        "value": 6233804000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 24283,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.85,
-        "pct_change": 2.12,
-        "value": 4205815600
+        "shares": 24670,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.86,
+        "pct_change": 1.59,
+        "value": 4045880000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
-        "shares": 20309,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.71,
-        "pct_change": -0.42,
-        "value": 3517518800
+        "shares": 19611,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.69,
+        "pct_change": -3.44,
+        "value": 3216204000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 18330,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.64,
-        "pct_change": 1.14,
-        "value": 3174756000
+        "shares": 18482,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.65,
+        "pct_change": 0.83,
+        "value": 3031048000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 12511,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.44,
-        "pct_change": -2.93,
-        "value": 2166905200
+        "shares": 13083,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.46,
+        "pct_change": 2.79,
+        "value": 2145612000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 11002,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.39,
+        "pct_change": 2.43,
+        "value": 1804328000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -96,39 +105,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.37,
         "pct_change": -1.98,
-        "value": 1807342000
+        "value": 1711340000
       },
       {
         "holder": "Fidelity Select Portfolios-Fidelity International Real Estate Fund",
         "shares": 10000,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-02-28",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 1732000000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 9817,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.34,
-        "pct_change": 4.94,
-        "value": 1700304400
-      },
-      {
-        "holder": "Principal Funds, Inc-Global Real Estate Securities Fund",
-        "shares": 6167,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.22,
-        "pct_change": -3.93,
-        "value": 1068124400
+        "value": 1640000000
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 6313,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.22,
-        "pct_change": 0.0,
-        "value": 1093411600
+        "shares": 6836,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": 0.66,
+        "value": 1121104000
+      },
+      {
+        "holder": "Principal Funds, Inc-Global Real Estate Securities Fund",
+        "shares": 6062,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.21,
+        "pct_change": -1.7,
+        "value": 994168000
       }
     ],
     "mutualfund_holders": []

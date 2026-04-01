@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:45:40.561626",
+  "fetched_at": "2026-04-01T03:58:30.446710",
   "ticker": "6869",
   "ticker_full": "6869.T",
   "company_name": "SYSMEX CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 5,
-    "buy": 8,
-    "hold": 3,
+    "buy": 7,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 16,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.26667
   },
   "target_prices": {
     "has_data": true,
-    "current": 1577.0,
+    "current": 1425.5,
     "high": 3300.0,
-    "low": 1650.0,
-    "mean": 2344.375,
-    "median": 2275.0
+    "low": 1300.0,
+    "mean": 1765.3334,
+    "median": 1650.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.63,
-    "institution_pct": 31.09,
+    "institution_pct": 30.08,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 31.09
+        "value": 30.08
       },
       {
         "label": "",
-        "value": 42.37
+        "value": 40.99
       },
       {
         "label": "",
-        "value": 305.0
+        "value": 299.0
       }
     ],
     "institutional_holders": [
@@ -56,17 +57,17 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.0,
         "pct_change": -4.06,
-        "value": 6561897
+        "value": 5931505
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.",
-        "shares": 10409021,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.65,
-        "pct_change": -4.15,
-        "value": 16415026117
+        "shares": 9289621,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.48,
+        "pct_change": -10.75,
+        "value": 13242354735
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -74,31 +75,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.05,
         "pct_change": 0.03,
-        "value": 10423512670
-      },
-      {
-        "holder": "BNY Mellon Strategic Funds, Inc.-BNY Mellon International Stock Fund",
-        "shares": 5525900,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.88,
-        "pct_change": 0.0,
-        "value": 8714344300
+        "value": 9422141605
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 4236070,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.67,
-        "pct_change": 2.84,
-        "value": 6680282390
+        "shares": 4300070,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.68,
+        "pct_change": 1.51,
+        "value": 6129749785
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3444900,
-        "date_reported": "2025-11-30",
+        "shares": 3475300,
+        "date_reported": "2026-01-31",
         "pct_held": 0.55,
-        "pct_change": 1.21,
-        "value": 5432607300
+        "pct_change": 0.88,
+        "value": 4954040150
       },
       {
         "holder": "-Price (T.Rowe) International Core Equity Trust",
@@ -106,7 +99,15 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.4,
         "pct_change": 3.15,
-        "value": 3983975100
+        "value": 3601240650
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1813387,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": 0.61,
+        "value": 2584983168
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Intl Small-Mid Company Fd.",
@@ -114,31 +115,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.28,
         "pct_change": -46.93,
-        "value": 2751234200
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1772887,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.28,
-        "pct_change": -0.16,
-        "value": 2795842799
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1747700,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.28,
-        "pct_change": 1.49,
-        "value": 2756122900
+        "value": 2486927300
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1729400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.27,
-        "pct_change": 0.0,
-        "value": 2727263800
+        "shares": 1756600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 0.55,
+        "value": 2504033300
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1748300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 1.13,
+        "value": 2492201650
+      },
+      {
+        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
+        "shares": 1615400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.26,
+        "pct_change": -4.04,
+        "value": 2302752700
       }
     ]
   }

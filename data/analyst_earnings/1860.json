@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:41:29.930377",
+  "fetched_at": "2026-04-01T03:54:00.381516",
   "ticker": "1860",
   "ticker_full": "1860.T",
   "company_name": "TODA CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 2,
@@ -18,20 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1327.5,
-    "high": 1400.0,
+    "current": 1497.0,
+    "high": 1900.0,
     "low": 1000.0,
-    "mean": 1190.0,
-    "median": 1180.0
+    "mean": 1490.0,
+    "median": 1530.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.41,
-    "institution_pct": 30.24,
+    "institution_pct": 30.05,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 30.24
+        "value": 30.05
       },
       {
         "label": "",
-        "value": 41.1
+        "value": 40.83
       },
       {
         "label": "",
-        "value": 84.0
+        "value": 89.0
       }
     ],
     "institutional_holders": [
@@ -55,65 +55,73 @@
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 3101757,
         "date_reported": "2025-10-31",
-        "pct_held": 0.96,
+        "pct_held": 0.98,
         "pct_change": 0.0,
-        "value": 4117582417
+        "value": 4643330229
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 1999510,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.63,
+        "pct_change": 3.31,
+        "value": 2993266470
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 1960100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.61,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 2602032750
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1935510,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.6,
-        "pct_change": 0.78,
-        "value": 2569389525
+        "value": 2934269700
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1655100,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.51,
-        "pct_change": 1.26,
-        "value": 2197145250
+        "shares": 1670300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.53,
+        "pct_change": 0.92,
+        "value": 2500439100
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 1059300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.33,
-        "pct_change": -6.74,
-        "value": 1406220750
+        "shares": 1032200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.32,
+        "pct_change": -2.56,
+        "value": 1545203400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 878600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 1166341500
+        "value": 1315264200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 710900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.22,
-        "pct_change": 4.84,
-        "value": 943719750
+        "shares": 789900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.25,
+        "pct_change": 1.67,
+        "value": 1182480300
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 468328,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.15,
-        "pct_change": -0.18,
-        "value": 621705420
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 778300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": 96.84,
+        "value": 1165115100
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
+        "shares": 499900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.16,
+        "pct_change": 0.0,
+        "value": 748350300
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -121,15 +129,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.15,
         "pct_change": -20.88,
-        "value": 628305750
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 499900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.15,
-        "pct_change": 0.24,
-        "value": 663617250
+        "value": 708530100
       }
     ],
     "mutualfund_holders": []

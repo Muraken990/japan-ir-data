@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:32:15.286402",
+  "fetched_at": "2026-04-01T03:44:46.586235",
   "ticker": "7595",
   "ticker_full": "7595.T",
   "company_name": "ARGO GRAPHICS",
@@ -17,7 +17,7 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1608.0,
+    "current": 1470.0,
     "high": null,
     "low": null,
     "mean": null,
@@ -25,12 +25,12 @@
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.27,
-    "institution_pct": 37.7,
+    "institution_pct": 36.33,
     "major_holders": [
       {
         "label": "",
@@ -38,33 +38,43 @@
       },
       {
         "label": "",
-        "value": 37.7
+        "value": 36.33
       },
       {
         "label": "",
-        "value": 42.98
+        "value": 41.4
       },
       {
         "label": "",
-        "value": 78.0
+        "value": 77.0
       }
     ],
     "institutional_holders": [
       {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 3568,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 5244960
+      }
+    ],
+    "mutualfund_holders": [
+      {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
         "shares": 2981200,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 3.73,
         "pct_change": 0.0,
-        "value": 4793769600
+        "value": 4382364000
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
         "shares": 2734380,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 3.42,
-        "pct_change": -0.06,
-        "value": 4396883040
+        "pct_change": 0.0,
+        "value": 4019538600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -72,47 +82,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.13,
         "pct_change": 14.9,
-        "value": 1448370624
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
-        "shares": 735000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.92,
-        "pct_change": -14.14,
-        "value": 1181880000
+        "value": 1324070160
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 658404,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.82,
-        "pct_change": 25.46,
-        "value": 1058713632
+        "shares": 583004,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.73,
+        "pct_change": -11.45,
+        "value": 857015880
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
+        "shares": 564200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.71,
+        "pct_change": 0.0,
+        "value": 829374000
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock K6 Fund",
-        "shares": 502197,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.63,
-        "pct_change": -0.66,
-        "value": 807532776
+        "shares": 493208,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.62,
+        "pct_change": 0.0,
+        "value": 725015760
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 410400,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 659923200
+        "value": 603288000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 220400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.28,
-        "pct_change": 6.37,
-        "value": 354403200
+        "shares": 244100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 1.62,
+        "value": 358827000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -120,17 +130,16 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.28,
         "pct_change": 14.43,
-        "value": 362121600
+        "value": 331044000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 192800,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 310022400
+        "value": 283416000
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

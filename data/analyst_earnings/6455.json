@@ -1,23 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:32:09.762829",
+  "fetched_at": "2026-04-01T03:43:56.067873",
   "ticker": "6455",
   "ticker_full": "6455.T",
   "company_name": "MORITA HOLDINGS",
   "analyst_recommendations": {
     "has_data": true,
+    "period": "2",
+    "strong_buy": 0,
+    "buy": 1,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 1,
     "recommendation_key": "none",
-    "recommendation_mean": null,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2820.0,
+    "current": 2746.0,
     "high": null,
     "low": null,
     "mean": null,
@@ -25,28 +26,28 @@
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 11.82,
-    "institution_pct": 38.59,
+    "insider_pct": 12.21,
+    "institution_pct": 39.99,
     "major_holders": [
       {
         "label": "",
-        "value": 11.82
+        "value": 12.21
       },
       {
         "label": "",
-        "value": 38.59
+        "value": 39.99
       },
       {
         "label": "",
-        "value": 43.77
+        "value": 45.55
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 72.0
       }
     ],
     "institutional_holders": [],

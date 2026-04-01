@@ -1,14 +1,14 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:43:27.534813",
+  "fetched_at": "2026-04-01T03:56:04.959510",
   "ticker": "6460",
   "ticker_full": "6460.T",
   "company_name": "SEGA SAMMY HLDGS INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
-    "buy": 8,
+    "strong_buy": 2,
+    "buy": 7,
     "hold": 1,
     "sell": 0,
     "strong_sell": 1,
@@ -18,19 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2496.5,
-    "high": 4270.0,
-    "low": 3000.0,
-    "mean": 3454.5454,
-    "median": 3300.0
+    "current": 2481.5,
+    "high": 4200.0,
+    "low": 2500.0,
+    "mean": 3263.6365,
+    "median": 3200.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 28.69,
-    "institution_pct": 21.1,
+    "institution_pct": 22.83,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 21.1
+        "value": 22.83
       },
       {
         "label": "",
-        "value": 29.59
+        "value": 32.01
       },
       {
         "label": "",
-        "value": 144.0
+        "value": 145.0
       }
     ],
     "institutional_holders": [
@@ -56,17 +57,25 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.04,
         "pct_change": -9.4,
-        "value": 233732316
+        "value": 232327956
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "SmallCap World Fund Inc",
         "shares": 4989300,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 2.26,
-        "pct_change": -2.49,
-        "value": 12455787450
+        "pct_change": 0.0,
+        "value": 12380947950
+      },
+      {
+        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
+        "shares": 2489400,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.13,
+        "pct_change": 81.89,
+        "value": 6177446100
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -74,71 +83,63 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.97,
         "pct_change": -1.56,
-        "value": 5356265715
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1366419,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.62,
-        "pct_change": 0.42,
-        "value": 3411265033
-      },
-      {
-        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 1368600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.62,
-        "pct_change": 13.56,
-        "value": 3416709900
+        "value": 5324083065
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
-        "shares": 1096679,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.5,
-        "pct_change": 10.44,
-        "value": 2737859123
+        "shares": 1563169,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.71,
+        "pct_change": 42.54,
+        "value": 3879003873
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 1402319,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.63,
+        "pct_change": 2.63,
+        "value": 3479854598
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1093400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.49,
-        "pct_change": 0.95,
-        "value": 2729673100
+        "shares": 1211100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.55,
+        "pct_change": 0.63,
+        "value": 3005344650
       },
       {
         "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
-        "shares": 886100,
-        "date_reported": "2025-09-30",
+        "shares": 878000,
+        "date_reported": "2025-12-31",
         "pct_held": 0.4,
-        "pct_change": -3.55,
-        "value": 2212148650
+        "pct_change": -0.91,
+        "value": 2178757000
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 662200,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.3,
-        "pct_change": -9.71,
-        "value": 1653182300
+        "shares": 708400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.32,
+        "pct_change": 6.98,
+        "value": 1757894600
       },
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 642400,
-        "date_reported": "2025-09-30",
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 650500,
+        "date_reported": "2025-12-31",
         "pct_held": 0.29,
-        "pct_change": -0.94,
-        "value": 1603751600
+        "pct_change": 1.26,
+        "value": 1614215750
       },
       {
-        "holder": "HARBOR FUNDS-Harbor International Fund",
-        "shares": 585200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.26,
-        "pct_change": -7.92,
-        "value": 1460951800
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 587900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": 1.57,
+        "value": 1458873850
       }
     ]
   }

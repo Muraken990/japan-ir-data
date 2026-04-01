@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:35:45.627771",
+  "fetched_at": "2026-04-01T03:48:16.755300",
   "ticker": "4544",
   "ticker_full": "4544.T",
   "company_name": "H.U. GROUP HLDGS INC",
@@ -13,25 +13,25 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.25
   },
   "target_prices": {
     "has_data": true,
-    "current": 3486.0,
-    "high": 4780.0,
+    "current": 3226.0,
+    "high": 4370.0,
     "low": 2300.0,
-    "mean": 3345.0,
+    "mean": 3242.5,
     "median": 3150.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.02,
-    "institution_pct": 59.44,
+    "institution_pct": 63.16,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +39,25 @@
       },
       {
         "label": "",
-        "value": 59.44
+        "value": 63.16
       },
       {
         "label": "",
-        "value": 59.45
+        "value": 63.17
       },
       {
         "label": "",
-        "value": 89.0
+        "value": 91.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Datum One Series Trust-BRANDES INTERNATIONAL SMALL CAP EQUITY FUND",
-        "shares": 1129600,
-        "date_reported": "2025-09-30",
-        "pct_held": 1.96,
-        "pct_change": 4.35,
-        "value": 3937785600
+        "shares": 1065800,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.85,
+        "pct_change": -5.65,
+        "value": 3438270800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,39 +65,55 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.41,
         "pct_change": 1.89,
-        "value": 2818444944
+        "value": 2608233904
       },
       {
         "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
         "shares": 555700,
-        "date_reported": "2025-08-31",
+        "date_reported": "2025-11-30",
         "pct_held": 0.97,
         "pct_change": 0.0,
-        "value": 1937170200
+        "value": 1792688200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 518153,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.9,
-        "pct_change": 5.28,
-        "value": 1806281358
+        "shares": 527853,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.92,
+        "pct_change": 1.87,
+        "value": 1702853778
       },
       {
         "holder": "GMO TRUST-GMO Implementation Fund",
         "shares": 387600,
-        "date_reported": "2025-08-31",
+        "date_reported": "2025-11-30",
         "pct_held": 0.67,
         "pct_change": 0.0,
-        "value": 1351173600
+        "value": 1250397600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 349600,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.61,
         "pct_change": 0.0,
-        "value": 1218705600
+        "value": 1127809600
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 260529,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.45,
+        "pct_change": 34.34,
+        "value": 840466554
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 214300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.37,
+        "pct_change": 1.85,
+        "value": 691331800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -105,31 +121,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.35,
         "pct_change": 8.19,
-        "value": 700337400
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 193929,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.34,
-        "pct_change": 45.12,
-        "value": 676036494
+        "value": 648103400
       },
       {
         "holder": "GMO TRUST-GMO Benchmark-Free Fund",
         "shares": 188600,
-        "date_reported": "2025-08-31",
+        "date_reported": "2025-11-30",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 657459600
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 190600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.33,
-        "pct_change": 5.48,
-        "value": 664431600
+        "value": 608423600
       }
     ],
     "mutualfund_holders": []

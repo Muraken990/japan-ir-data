@@ -1,37 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:41:26.290866",
+  "fetched_at": "2026-04-01T03:53:56.613974",
   "ticker": "2726",
   "ticker_full": "2726.T",
   "company_name": "PAL GROUP HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 1988.0,
-    "high": 3000.0,
-    "low": 1875.0,
-    "mean": 2483.3333,
-    "median": 2575.0
+    "current": 1440.0,
+    "high": 2500.0,
+    "low": 2000.0,
+    "mean": 2300.0,
+    "median": 2400.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 41.71,
-    "institution_pct": 29.16,
+    "institution_pct": 25.22,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 29.16
+        "value": 25.22
       },
       {
         "label": "",
-        "value": 50.02
+        "value": 43.26
       },
       {
         "label": "",
-        "value": 122.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
@@ -57,47 +57,63 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.71,
         "pct_change": -49.67,
-        "value": 2618124432
-      },
-      {
-        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 894500,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.48,
-        "pct_change": -49.57,
-        "value": 1778266000
+        "value": 1897745124
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 856360,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.46,
-        "pct_change": -47.67,
-        "value": 1702443680
+        "shares": 877560,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.47,
+        "pct_change": 2.48,
+        "value": 1264563960
+      },
+      {
+        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
+        "shares": 867400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.47,
+        "pct_change": -3.03,
+        "value": 1249923400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 674900,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.36,
-        "pct_change": 1.55,
-        "value": 1341701200
+        "shares": 682500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.37,
+        "pct_change": 1.13,
+        "value": 983482500
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 473400,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.26,
-        "pct_change": -50.0,
-        "value": 941119200
+        "pct_change": 0.0,
+        "value": 682169400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 421200,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.23,
-        "pct_change": -50.0,
-        "value": 837345600
+        "pct_change": 0.0,
+        "value": 606949200
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
+        "shares": 400000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 1.0,
+        "value": 576400000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 352800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": 1.5,
+        "value": 508384800
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -105,7 +121,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.18,
         "pct_change": -42.46,
-        "value": 676317600
+        "value": 490228200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -113,23 +129,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.18,
         "pct_change": -46.02,
-        "value": 647292800
-      },
-      {
-        "holder": "OBERWEIS FUNDS-Oberweis International Opportunities Fund",
-        "shares": 309000,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.17,
-        "pct_change": 1.0,
-        "value": 614292000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 313400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 4.4,
-        "value": 623039200
+        "value": 469189600
       }
     ],
     "mutualfund_holders": []

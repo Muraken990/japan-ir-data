@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:31:20.433903",
+  "fetched_at": "2026-04-01T03:43:51.874418",
   "ticker": "7287",
   "ticker_full": "7287.T",
   "company_name": "NIPPON SEIKI CO",
@@ -18,46 +18,79 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2333.0,
+    "current": 2393.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-02-06",
+        "eps_estimate": 55.9,
+        "eps_actual": 127.55,
+        "surprise_pct": 128.18
+      },
+      {
+        "date": "2016-08-04",
+        "eps_estimate": 61.1,
+        "eps_actual": 6.79,
+        "surprise_pct": -88.89
+      },
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 50.6,
+        "eps_actual": 32.38,
+        "surprise_pct": -36.01
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 56.37,
+        "eps_actual": 73.5,
+        "surprise_pct": 30.39
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 26.83,
+        "eps_actual": 46.16,
+        "surprise_pct": 72.05
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 21.29,
-    "institution_pct": 23.64,
+    "insider_pct": 16.16,
+    "institution_pct": 24.19,
     "major_holders": [
       {
         "label": "",
-        "value": 21.29
+        "value": 16.16
       },
       {
         "label": "",
-        "value": 23.64
+        "value": 24.19
       },
       {
         "label": "",
-        "value": 30.03
+        "value": 28.85
       },
       {
         "label": "",
-        "value": 41.0
+        "value": 46.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 2590900,
-        "date_reported": "2025-10-31",
-        "pct_held": 4.43,
-        "pct_change": -0.24,
-        "value": 6044569700
+        "shares": 2495400,
+        "date_reported": "2026-01-31",
+        "pct_held": 4.27,
+        "pct_change": -3.69,
+        "value": 5971492200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,7 +98,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.12,
         "pct_change": 3.36,
-        "value": 1529575458
+        "value": 1568913018
+      },
+      {
+        "holder": "Japan Smaller Capitalization Fund, Inc.",
+        "shares": 637300,
+        "date_reported": "2025-11-30",
+        "pct_held": 1.09,
+        "pct_change": 7.13,
+        "value": 1525058900
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -73,55 +114,47 @@
         "date_reported": "2025-09-30",
         "pct_held": 1.03,
         "pct_change": -1.74,
-        "value": 1406332400
-      },
-      {
-        "holder": "Japan Smaller Capitalization Fund, Inc.",
-        "shares": 594900,
-        "date_reported": "2025-08-31",
-        "pct_held": 1.02,
-        "pct_change": 11.07,
-        "value": 1387901700
+        "value": 1442500400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 497000,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.85,
         "pct_change": 0.0,
-        "value": 1159501000
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 419250,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.72,
-        "pct_change": 3.71,
-        "value": 978110250
+        "value": 1189321000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 265000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.45,
-        "pct_change": 1.74,
-        "value": 618245000
+        "shares": 456000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.78,
+        "pct_change": 15.38,
+        "value": 1091208000
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 432550,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.74,
+        "pct_change": 3.17,
+        "value": 1035092150
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 250400,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.43,
         "pct_change": 0.0,
-        "value": 584183200
+        "value": 599207200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 207500,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.35,
-        "pct_change": 1.77,
-        "value": 484097500
+        "pct_change": 0.0,
+        "value": 496547500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -129,7 +162,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.29,
         "pct_change": 12.72,
-        "value": 399017656
+        "value": 409279576
       }
     ],
     "mutualfund_holders": []

@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:48:43.523372",
+  "fetched_at": "2026-04-01T04:01:45.417501",
   "ticker": "8308",
   "ticker_full": "8308.T",
   "company_name": "RESONA HOLDINGS",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
-    "strong_buy": 1,
+    "period": "3",
+    "strong_buy": 0,
     "buy": 1,
-    "hold": 8,
+    "hold": 9,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
@@ -18,14 +18,15 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1626.0,
-    "high": 1800.0,
-    "low": 1080.0,
-    "mean": 1531.0,
-    "median": 1625.0
+    "current": 1840.5,
+    "high": 2440.0,
+    "low": 1210.0,
+    "mean": 1911.8182,
+    "median": 1850.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
@@ -42,39 +43,47 @@
       },
       {
         "label": "",
-        "value": 50.96
+        "value": 50.97
       },
       {
         "label": "",
-        "value": 327.0
+        "value": 340.0
       }
     ],
     "institutional_holders": [
       {
+        "holder": "Paradigm Asset Management Company, LLC",
+        "shares": 147000,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.01,
+        "pct_change": 1.0,
+        "value": 270553500
+      },
+      {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 18704,
-        "date_reported": "2025-09-30",
+        "shares": 18079,
+        "date_reported": "2025-12-31",
         "pct_held": 0.0,
-        "pct_change": -6.81,
-        "value": 30412704
+        "pct_change": -3.34,
+        "value": 33274399
       }
     ],
     "mutualfund_holders": [
       {
-        "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 66467008,
-        "date_reported": "2025-09-30",
-        "pct_held": 2.88,
-        "pct_change": -0.6,
-        "value": 108075355008
+        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
+        "shares": 56734900,
+        "date_reported": "2025-11-30",
+        "pct_held": 2.46,
+        "pct_change": -4.23,
+        "value": 104420583450
       },
       {
-        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
-        "shares": 59242600,
-        "date_reported": "2025-08-31",
-        "pct_held": 2.57,
-        "pct_change": -0.5,
-        "value": 96328467600
+        "holder": "EuroPacific Growth Fund-EUPAC Fund",
+        "shares": 55889608,
+        "date_reported": "2025-12-31",
+        "pct_held": 2.42,
+        "pct_change": -15.91,
+        "value": 102864823524
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -82,31 +91,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.4,
         "pct_change": 0.19,
-        "value": 52501933512
+        "value": 59427926586
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 20572117,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.89,
-        "pct_change": 2.68,
-        "value": 33450262242
+        "shares": 21036317,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.91,
+        "pct_change": 2.26,
+        "value": 38717341438
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 14243238,
-        "date_reported": "2025-11-30",
+        "shares": 14268538,
+        "date_reported": "2026-01-31",
         "pct_held": 0.62,
-        "pct_change": 1.39,
-        "value": 23159504988
+        "pct_change": 1.02,
+        "value": 26261244189
       },
       {
         "holder": "JANUS INVESTMENT FUND-Janus Henderson Overseas Fund",
-        "shares": 13394500,
-        "date_reported": "2025-09-30",
+        "shares": 13317100,
+        "date_reported": "2025-12-31",
         "pct_held": 0.58,
-        "pct_change": -3.92,
-        "value": 21779457000
+        "pct_change": -0.58,
+        "value": 24510122550
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
@@ -114,31 +123,31 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.48,
         "pct_change": -0.42,
-        "value": 18142095000
+        "value": 20535378750
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
-        "shares": 10358862,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.45,
-        "pct_change": 10.49,
-        "value": 16843509612
+        "shares": 10838442,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.47,
+        "pct_change": 4.63,
+        "value": 19948152501
       },
       {
-        "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
-        "shares": 9324800,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.4,
-        "pct_change": -7.4,
-        "value": 15162124800
+        "holder": "Bernstein Fund Inc-International Strategic Equities Portfolio",
+        "shares": 9792900,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.42,
+        "pct_change": 1.12,
+        "value": 18023832450
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
-        "shares": 8612500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.37,
-        "pct_change": -0.27,
-        "value": 14003925000
+        "shares": 8382100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": -2.68,
+        "value": 15427255050
       }
     ]
   }

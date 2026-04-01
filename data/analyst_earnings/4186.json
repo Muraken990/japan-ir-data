@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:44:34.939539",
+  "fetched_at": "2026-04-01T03:57:18.866248",
   "ticker": "4186",
   "ticker_full": "4186.T",
   "company_name": "TOKYO OHKA KOGYO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
-    "buy": 8,
-    "hold": 4,
+    "buy": 7,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 13,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.08333
   },
   "target_prices": {
     "has_data": true,
-    "current": 6039.0,
-    "high": 7500.0,
-    "low": 4870.0,
-    "mean": 6367.6924,
-    "median": 6300.0
+    "current": 7672.0,
+    "high": 12510.0,
+    "low": 6000.0,
+    "mean": 8495.833,
+    "median": 8550.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.67,
-    "institution_pct": 41.2,
+    "institution_pct": 41.45,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 41.2
+        "value": 41.45
       },
       {
         "label": "",
-        "value": 44.62
+        "value": 44.89
       },
       {
         "label": "",
-        "value": 152.0
+        "value": 164.0
       }
     ],
     "institutional_holders": [
@@ -56,55 +57,63 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.14,
         "pct_change": 0.0,
-        "value": 8822212047
+        "value": 11207817656
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 925347,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.72,
-        "pct_change": 2.66,
-        "value": 5588170533
+        "shares": 948747,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.74,
+        "pct_change": 2.53,
+        "value": 7278786984
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
+        "shares": 900000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.7,
+        "pct_change": 0.0,
+        "value": 6904800000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 677500,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.53,
-        "pct_change": 1.54,
-        "value": 4091422500
+        "shares": 685100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.54,
+        "pct_change": 1.12,
+        "value": 5256087200
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 590300,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.46,
-        "pct_change": 0.91,
-        "value": 3564821700
+        "shares": 661600,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.52,
+        "pct_change": 12.08,
+        "value": 5075795200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 326300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.26,
-        "pct_change": 5.26,
-        "value": 1970525700
+        "shares": 365700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": 2.12,
+        "value": 2805650400
       },
       {
-        "holder": "AIM Fd.s Group -Invesco EQV Intl Small Company Fd.",
-        "shares": 238800,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 1442113200
+        "holder": "JANUS INVESTMENT FUND-Janus Henderson Overseas Fund",
+        "shares": 344200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.27,
+        "pct_change": 1.0,
+        "value": 2640702400
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 215528,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.17,
-        "pct_change": -0.18,
-        "value": 1301573592
+        "holder": "AIM Fd.s Group -Invesco Intl Small Company Fd.",
+        "shares": 269200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.21,
+        "pct_change": 12.73,
+        "value": 2065302400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -112,23 +121,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.17,
         "pct_change": 1.62,
-        "value": 1322142426
+        "value": 1679661648
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 210900,
-        "date_reported": "2025-10-31",
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 217466,
+        "date_reported": "2025-11-30",
         "pct_held": 0.17,
-        "pct_change": 21.07,
-        "value": 1273625100
-      },
-      {
-        "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
-        "shares": 196600,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.15,
-        "pct_change": -3.01,
-        "value": 1187267400
+        "pct_change": 0.9,
+        "value": 1668399152
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:47:37.774202",
+  "fetched_at": "2026-04-01T04:00:35.314539",
   "ticker": "9843",
   "ticker_full": "9843.T",
   "company_name": "NITORI HOLDINGS CO LTD",
@@ -8,65 +8,74 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 3,
+    "buy": 4,
     "hold": 8,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 11,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "total_analysts": 12,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2704.0,
+    "current": 2511.5,
     "high": 3600.0,
-    "low": 2500.0,
-    "mean": 2955.8333,
-    "median": 2800.0
+    "low": 2450.0,
+    "mean": 2975.4546,
+    "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 27.54,
-    "institution_pct": 46.45,
+    "insider_pct": 26.07,
+    "institution_pct": 48.67,
     "major_holders": [
       {
         "label": "",
-        "value": 27.54
+        "value": 26.07
       },
       {
         "label": "",
-        "value": 46.45
+        "value": 48.67
       },
       {
         "label": "",
-        "value": 64.1
+        "value": 65.83
       },
       {
         "label": "",
-        "value": 269.0
+        "value": 273.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 3540,
-        "date_reported": "2025-09-30",
+        "shares": 3408,
+        "date_reported": "2025-12-31",
         "pct_held": 0.0,
-        "pct_change": -5.35,
-        "value": 9572160
+        "pct_change": -3.73,
+        "value": 8559192
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 10739000,
-        "date_reported": "2025-09-30",
-        "pct_held": 9.38,
-        "pct_change": 2.05,
-        "value": 29038256000
+        "shares": 12793500,
+        "date_reported": "2025-12-31",
+        "pct_held": 11.18,
+        "pct_change": 19.13,
+        "value": 32130875250
+      },
+      {
+        "holder": "MFS SERIES TRUST X-MFS International Growth Fund",
+        "shares": 7264600,
+        "date_reported": "2025-11-30",
+        "pct_held": 6.35,
+        "pct_change": 1.0,
+        "value": 18245042900
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -74,71 +83,63 @@
         "date_reported": "2025-10-31",
         "pct_held": 5.15,
         "pct_change": 0.29,
-        "value": 15931332560
+        "value": 14797167797
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 3773685,
-        "date_reported": "2025-09-30",
-        "pct_held": 3.3,
-        "pct_change": 2.58,
-        "value": 10204044240
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2734400,
-        "date_reported": "2025-11-30",
-        "pct_held": 2.39,
-        "pct_change": 0.04,
-        "value": 7393817600
+        "shares": 3860285,
+        "date_reported": "2025-12-31",
+        "pct_held": 3.37,
+        "pct_change": 2.29,
+        "value": 9695105777
       },
       {
         "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
-        "shares": 2631000,
-        "date_reported": "2025-09-30",
-        "pct_held": 2.3,
-        "pct_change": 1.42,
-        "value": 7114224000
+        "shares": 3131500,
+        "date_reported": "2025-12-31",
+        "pct_held": 2.74,
+        "pct_change": 19.02,
+        "value": 7864762250
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 2757200,
+        "date_reported": "2026-01-31",
+        "pct_held": 2.41,
+        "pct_change": 0.83,
+        "value": 6924707800
+      },
+      {
+        "holder": "MFS SERIES TRUST I-MFS Research International Fund",
+        "shares": 2612000,
+        "date_reported": "2025-11-30",
+        "pct_held": 2.28,
+        "pct_change": 1.0,
+        "value": 6560038000
+      },
+      {
+        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
+        "shares": 2038500,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.78,
+        "pct_change": 2.81,
+        "value": 5119692750
+      },
+      {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 1574300,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.38,
+        "pct_change": 1.0,
+        "value": 3953854450
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1410152,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.23,
-        "pct_change": -0.11,
-        "value": 3813051008
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1396400,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.22,
-        "pct_change": 0.36,
-        "value": 3775865600
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1352000,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.18,
-        "pct_change": 0.0,
-        "value": 3655808000
-      },
-      {
-        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 1240400,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.08,
-        "pct_change": 0.89,
-        "value": 3354041600
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 1062200,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.93,
-        "pct_change": 1.88,
-        "value": 2872188800
+        "shares": 1442452,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.26,
+        "pct_change": 1.03,
+        "value": 3622718198
       }
     ]
   }

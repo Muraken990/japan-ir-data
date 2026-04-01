@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:39:12.949658",
+  "fetched_at": "2026-04-01T03:51:43.389604",
   "ticker": "5032",
   "ticker_full": "5032.T",
   "company_name": "ANYCOLOR INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
-    "buy": 1,
+    "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 2,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.33333
+    "total_analysts": 3,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4730.0,
+    "current": 2978.0,
     "high": 7640.0,
     "low": 6100.0,
     "mean": 6780.0,
@@ -26,12 +26,12 @@
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 49.76,
-    "institution_pct": 23.46,
+    "institution_pct": 22.17,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +39,33 @@
       },
       {
         "label": "",
-        "value": 23.46
+        "value": 22.17
       },
       {
         "label": "",
-        "value": 46.7
+        "value": 44.12
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 98.0
       }
     ],
     "institutional_holders": [
       {
+        "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
+        "shares": 583800,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.96,
+        "pct_change": 1.0,
+        "value": 1738556400
+      },
+      {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 548800,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.9,
-        "pct_change": 0.88,
-        "value": 2595824000
+        "shares": 532200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.87,
+        "pct_change": -3.02,
+        "value": 1584891600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,55 +73,39 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.67,
         "pct_change": 0.0,
-        "value": 1944030000
+        "value": 1223958000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 256400,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.42,
-        "pct_change": 2.44,
-        "value": 1212772000
+        "shares": 265900,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.44,
+        "pct_change": 3.71,
+        "value": 791850200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 221900,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 1049587000
+        "value": 660818200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 134523,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.22,
-        "pct_change": 34.25,
-        "value": 636293790
-      },
-      {
-        "holder": "OBERWEIS FUNDS-Oberweis International Opportunities Fund",
-        "shares": 120800,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.2,
-        "pct_change": 68.72,
-        "value": 571384000
+        "shares": 219123,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": 62.89,
+        "value": 652548294
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 101700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 3.35,
-        "value": 481041000
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 104300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 29.57,
-        "value": 493339000
+        "shares": 118100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": 4.14,
+        "value": 351701800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -121,15 +113,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.16,
         "pct_change": 8.06,
-        "value": 475365000
+        "value": 299289000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 65900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.11,
-        "pct_change": 28.96,
-        "value": 311707000
+        "shares": 91100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.15,
+        "pct_change": 38.24,
+        "value": 271295800
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 87300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.14,
+        "pct_change": -16.3,
+        "value": 259979400
       }
     ],
     "mutualfund_holders": []

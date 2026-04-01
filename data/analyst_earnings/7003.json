@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:43:29.505284",
+  "fetched_at": "2026-04-01T03:56:07.533249",
   "ticker": "7003",
   "ticker_full": "7003.T",
   "company_name": "MITSUI E&S CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
-    "buy": 2,
+    "buy": 4,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 4,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 6470.0,
-    "high": 8300.0,
-    "low": 5400.0,
-    "mean": 7325.0,
-    "median": 7800.0
+    "current": 5861.0,
+    "high": 8500.0,
+    "low": 7800.0,
+    "mean": 8140.0,
+    "median": 8300.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.57,
-    "institution_pct": 43.73,
+    "institution_pct": 40.17,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 43.73
+        "value": 40.17
       },
       {
         "label": "",
-        "value": 46.81
+        "value": 42.99
       },
       {
         "label": "",
-        "value": 96.0
+        "value": 100.0
       }
     ],
     "institutional_holders": [],

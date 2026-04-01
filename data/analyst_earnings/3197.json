@@ -1,37 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:45:27.854026",
+  "fetched_at": "2026-04-01T03:57:28.314761",
   "ticker": "3197",
   "ticker_full": "3197.T",
   "company_name": "SKYLARK HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 2,
+    "hold": 3,
     "sell": 1,
-    "strong_sell": 1,
+    "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 3375.0,
-    "high": 3300.0,
-    "low": 1750.0,
-    "mean": 2700.0,
-    "median": 2875.0
+    "current": 3409.0,
+    "high": 3600.0,
+    "low": 1900.0,
+    "mean": 3125.0,
+    "median": 3500.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.66,
-    "institution_pct": 31.14,
+    "institution_pct": 31.03,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 31.14
+        "value": 31.03
       },
       {
         "label": "",
-        "value": 32.32
+        "value": 32.21
       },
       {
         "label": "",
-        "value": 100.0
+        "value": 106.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +57,7 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.04,
         "pct_change": -9.41,
-        "value": 298869750
+        "value": 301880586
       }
     ],
     "mutualfund_holders": [
@@ -67,63 +67,55 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.41,
         "pct_change": 0.43,
-        "value": 10854864000
+        "value": 10964216704
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 2041878,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.9,
-        "pct_change": 3.46,
-        "value": 6891338250
+        "shares": 2079278,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.91,
+        "pct_change": 1.83,
+        "value": 7088258702
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1589800,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.7,
-        "pct_change": 1.31,
-        "value": 5365575000
+        "shares": 1574500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.69,
+        "pct_change": 0.97,
+        "value": 5367470500
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 993100,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.44,
-        "pct_change": -2.93,
-        "value": 3351712500
+        "shares": 1038800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.46,
+        "pct_change": 2.71,
+        "value": 3541269200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 777700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.34,
-        "pct_change": 4.9,
-        "value": 2624737500
+        "shares": 868000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.38,
+        "pct_change": 2.08,
+        "value": 2959012000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 712400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.31,
-        "pct_change": 0.0,
-        "value": 2404350000
+        "shares": 722000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.32,
+        "pct_change": 1.35,
+        "value": 2461298000
       },
       {
         "holder": "Fidelity Concord Street TRT-Fidelity SAI Global ex U.S. Low Volatility",
-        "shares": 504700,
-        "date_reported": "2025-11-30",
+        "shares": 491100,
+        "date_reported": "2026-02-28",
         "pct_held": 0.22,
-        "pct_change": -4.65,
-        "value": 1703362500
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 480590,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.21,
-        "pct_change": -0.18,
-        "value": 1621991250
+        "pct_change": -3.54,
+        "value": 1674159900
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -131,15 +123,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.21,
         "pct_change": 1.94,
-        "value": 1649916000
+        "value": 1666537376
       },
       {
-        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 297200,
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 484976,
         "date_reported": "2025-11-30",
+        "pct_held": 0.21,
+        "pct_change": 0.91,
+        "value": 1653283184
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International High Profitability ETF",
+        "shares": 301700,
+        "date_reported": "2026-01-31",
         "pct_held": 0.13,
-        "pct_change": 0.0,
-        "value": 1003050000
+        "pct_change": 18.45,
+        "value": 1028495300
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:44:31.095354",
+  "fetched_at": "2026-04-01T03:57:14.572105",
   "ticker": "2670",
   "ticker_full": "2670.T",
   "company_name": "ABC-MART INC",
@@ -14,23 +14,24 @@
     "strong_sell": 0,
     "total_analysts": 9,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "recommendation_mean": 2.375
   },
   "target_prices": {
     "has_data": true,
-    "current": 2540.5,
-    "high": 3700.0,
-    "low": 2640.0,
-    "mean": 3136.6667,
-    "median": 3000.0
+    "current": 2548.0,
+    "high": 3610.0,
+    "low": 2680.0,
+    "mean": 3033.75,
+    "median": 2950.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 62.43,
-    "institution_pct": 17.33,
+    "institution_pct": 16.98,
     "major_holders": [
       {
         "label": "",
@@ -38,25 +39,33 @@
       },
       {
         "label": "",
-        "value": 17.33
+        "value": 16.98
       },
       {
         "label": "",
-        "value": 46.14
+        "value": 45.19
       },
       {
         "label": "",
-        "value": 126.0
+        "value": 127.0
       }
     ],
     "institutional_holders": [
       {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 1942800,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.78,
+        "pct_change": 58.53,
+        "value": 4950254400
+      },
+      {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
         "shares": 1568500,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.63,
         "pct_change": 0.0,
-        "value": 3984774250
+        "value": 3996538000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -64,39 +73,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.51,
         "pct_change": 1.33,
-        "value": 3229846891
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 1225500,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.49,
-        "pct_change": 1.0,
-        "value": 3113382750
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 826655,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.33,
-        "pct_change": 5.53,
-        "value": 2100117027
+        "value": 3239381964
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 803600,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.32,
-        "pct_change": 4.76,
-        "value": 2041545800
+        "shares": 900400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.36,
+        "pct_change": 12.05,
+        "value": 2294219200
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 851055,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.34,
+        "pct_change": 2.95,
+        "value": 2168488140
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 706400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.29,
-        "pct_change": 1.48,
-        "value": 1794609200
+        "shares": 766400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 1.0,
+        "value": 1952787200
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Fund",
@@ -104,31 +105,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.28,
         "pct_change": 4.63,
-        "value": 1789528200
+        "value": 1794811200
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 637500,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.26,
-        "pct_change": 0.9,
-        "value": 1619568750
+        "shares": 618200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.25,
+        "pct_change": -3.03,
+        "value": 1575173600
       },
       {
-        "holder": "AQR Funds-AQR Long-Short Equity Fund",
-        "shares": 420900,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.17,
-        "pct_change": 2.11,
-        "value": 1069296450
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 366834,
-        "date_reported": "2025-10-31",
+        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
+        "shares": 382867,
+        "date_reported": "2026-02-28",
         "pct_held": 0.15,
-        "pct_change": -2.96,
-        "value": 931941777
+        "pct_change": 6.99,
+        "value": 975545116
+      },
+      {
+        "holder": "First Eagle Funds-First Eagle Global Income Builder Fund",
+        "shares": 376400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.15,
+        "pct_change": 1.0,
+        "value": 959067200
       }
     ],
     "mutualfund_holders": []

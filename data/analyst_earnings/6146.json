@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:48:49.020000",
+  "fetched_at": "2026-04-01T04:01:51.965426",
   "ticker": "6146",
   "ticker_full": "6146.T",
   "company_name": "DISCO CORPORATION",
@@ -14,23 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 19,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.05263
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 55000.0,
-    "high": 73500.0,
-    "low": 33000.0,
-    "mean": 52643.7,
-    "median": 52200.0
+    "current": 63070.0,
+    "high": 100000.0,
+    "low": 41200.0,
+    "mean": 69036.84,
+    "median": 70000.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-04-22",
+      "eps_estimate": 332.54,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-21",
+        "eps_estimate": 287.01,
+        "eps_actual": 338.72,
+        "surprise_pct": 18.02
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 305.33,
+        "eps_actual": 296.47,
+        "surprise_pct": -2.9
+      },
+      {
+        "date": "2025-07-17",
+        "eps_estimate": 203.94,
+        "eps_actual": 219.23,
+        "surprise_pct": 7.5
+      },
+      {
+        "date": "2025-04-16",
+        "eps_estimate": 332.54,
+        "eps_actual": 356.52,
+        "surprise_pct": 7.21
+      },
+      {
+        "date": "2025-01-23",
+        "eps_estimate": 300.17,
+        "eps_actual": 293.54,
+        "surprise_pct": -2.21
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.46,
-    "institution_pct": 37.05,
+    "institution_pct": 39.71,
     "major_holders": [
       {
         "label": "",
@@ -38,35 +77,43 @@
       },
       {
         "label": "",
-        "value": 37.05
+        "value": 39.71
       },
       {
         "label": "",
-        "value": 46.0
+        "value": 49.31
       },
       {
         "label": "",
-        "value": 411.0
+        "value": 420.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 1057,
-        "date_reported": "2025-09-30",
+        "holder": "Stanley-Laman Group, Ltd.",
+        "shares": 400,
+        "date_reported": "2025-12-31",
         "pct_held": 0.0,
-        "pct_change": -3.29,
-        "value": 58135000
+        "pct_change": 1.0,
+        "value": 25232000
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 1154,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.0,
+        "pct_change": 9.18,
+        "value": 72794320
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 1278400,
-        "date_reported": "2025-08-31",
-        "pct_held": 1.18,
-        "pct_change": 0.0,
-        "value": 70312000000
+        "shares": 1680900,
+        "date_reported": "2025-11-30",
+        "pct_held": 1.55,
+        "pct_change": 31.48,
+        "value": 106031172000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -74,31 +121,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.17,
         "pct_change": 0.19,
-        "value": 69618230000
+        "value": 79845780880
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 808969,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.75,
-        "pct_change": 2.78,
-        "value": 44493295000
+        "shares": 825069,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.76,
+        "pct_change": 1.99,
+        "value": 52045352520
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
+        "shares": 656200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.6,
+        "pct_change": 21.2,
+        "value": 41393096000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 634500,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.59,
-        "pct_change": 0.65,
-        "value": 34897500000
+        "shares": 634400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.58,
+        "pct_change": 1.21,
+        "value": 40017952000
+      },
+      {
+        "holder": "Fidelity Advisor Series VIII-Fidelity Advisor Intl Capital Appreciatio",
+        "shares": 574559,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.53,
+        "pct_change": -1.38,
+        "value": 36243181720
       },
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.",
-        "shares": 485900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.45,
-        "pct_change": -5.0,
-        "value": 26724500000
+        "shares": 436200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.4,
+        "pct_change": -10.23,
+        "value": 27515496000
       },
       {
         "holder": "-Price (T.Rowe) International Growth Equity Trust",
@@ -106,39 +169,23 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.34,
         "pct_change": -21.53,
-        "value": 20086000000
+        "value": 23036816000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 324509,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.3,
-        "pct_change": -0.15,
-        "value": 17847995000
+        "shares": 332309,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 0.7,
+        "value": 20962051720
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 320700,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.3,
-        "pct_change": 1.52,
-        "value": 17638500000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 315400,
-        "date_reported": "2025-11-30",
+        "shares": 318100,
+        "date_reported": "2026-01-31",
         "pct_held": 0.29,
-        "pct_change": 0.0,
-        "value": 17347000000
-      },
-      {
-        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
-        "shares": 290800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
-        "pct_change": -6.65,
-        "value": 15994000000
+        "pct_change": 0.82,
+        "value": 20065748000
       }
     ]
   }

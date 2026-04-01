@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:47:37.684158",
+  "fetched_at": "2026-04-01T04:00:35.307007",
   "ticker": "5016",
   "ticker_full": "5016.T",
   "company_name": "JX ADVANCED METALS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 1,
     "buy": 3,
-    "hold": 4,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 10,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.4
+    "recommendation_mean": 2.27273
   },
   "target_prices": {
     "has_data": true,
-    "current": 2189.0,
-    "high": 2600.0,
-    "low": 1300.0,
-    "mean": 1937.0,
-    "median": 1900.0
+    "current": 3638.0,
+    "high": 4900.0,
+    "low": 1630.0,
+    "mean": 3370.9092,
+    "median": 3700.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.38,
-    "institution_pct": 16.87,
+    "institution_pct": 21.2,
     "major_holders": [
       {
         "label": "",
@@ -38,18 +39,99 @@
       },
       {
         "label": "",
-        "value": 16.87
+        "value": 21.2
       },
       {
         "label": "",
-        "value": 29.28
+        "value": 36.8
       },
       {
         "label": "",
-        "value": 119.0
+        "value": 169.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 7688405,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.83,
+        "pct_change": 48.47,
+        "value": 27978105795
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 4940664,
+        "date_reported": "2025-09-30",
+        "pct_held": 0.53,
+        "pct_change": 1.0,
+        "value": 17979076296
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 4260600,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.46,
+        "pct_change": 1.0,
+        "value": 15504323400
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 3740100,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.4,
+        "pct_change": 0.0,
+        "value": 13610223900
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1962800,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.21,
+        "pct_change": 1.0,
+        "value": 7142629200
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE ETF",
+        "shares": 1925200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.21,
+        "pct_change": 1.04,
+        "value": 7005802800
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1911300,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.21,
+        "pct_change": -1.58,
+        "value": 6955220700
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 1157777,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.12,
+        "pct_change": 49.34,
+        "value": 4213150503
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 1110398,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.12,
+        "pct_change": 1.0,
+        "value": 4040738322
+      },
+      {
+        "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
+        "shares": 1033100,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.11,
+        "pct_change": 1.0,
+        "value": 3759450900
+      }
+    ],
     "mutualfund_holders": []
   }
 }

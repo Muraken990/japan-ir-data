@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:43:31.933382",
+  "fetched_at": "2026-04-01T03:56:10.619832",
   "ticker": "9513",
   "ticker_full": "9513.T",
   "company_name": "ELECTRIC POWER DEVELOPMENT",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
-    "strong_buy": 1,
+    "period": "3",
+    "strong_buy": 0,
     "buy": 0,
     "hold": 4,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 6,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.4
+    "total_analysts": 5,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3245.0,
+    "current": 4296.0,
     "high": 3790.0,
-    "low": 2310.0,
-    "mean": 3076.6667,
+    "low": 2290.0,
+    "mean": 3150.0,
     "median": 3100.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.07,
-    "institution_pct": 45.82,
+    "institution_pct": 46.37,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 45.82
+        "value": 46.37
       },
       {
         "label": "",
-        "value": 50.39
+        "value": 51.0
       },
       {
         "label": "",
-        "value": 137.0
+        "value": 138.0
       }
     ],
     "institutional_holders": [
@@ -56,15 +57,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.31,
         "pct_change": 1.47,
-        "value": 7763338000
+        "value": 10280142800
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 1590300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.87,
+        "pct_change": 0.0,
+        "value": 6833519100
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1536323,
-        "date_reported": "2025-09-30",
+        "shares": 1540623,
+        "date_reported": "2025-12-31",
         "pct_held": 0.84,
-        "pct_change": 3.8,
-        "value": 4985368135
+        "pct_change": 0.28,
+        "value": 6620057031
       },
       {
         "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
@@ -72,23 +81,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.58,
         "pct_change": 49.49,
-        "value": 3424773000
+        "value": 4535053800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1016500,
-        "date_reported": "2025-11-30",
+        "shares": 1024100,
+        "date_reported": "2026-01-31",
         "pct_held": 0.56,
-        "pct_change": 3.79,
-        "value": 3298542500
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 920500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.5,
-        "pct_change": 43.78,
-        "value": 2987022500
+        "pct_change": 0.75,
+        "value": 4400557700
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -96,7 +97,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.47,
         "pct_change": 6.32,
-        "value": 2800435000
+        "value": 3708311000
       },
       {
         "holder": "ADVISORS' INNER CIRCLE FUND II-KOPERNIK GLOBAL ALL-CAP FUND",
@@ -104,31 +105,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.42,
         "pct_change": 12.25,
-        "value": 2470418500
+        "value": 3271306100
       },
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 576700,
-        "date_reported": "2025-09-30",
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 590500,
+        "date_reported": "2025-12-31",
         "pct_held": 0.32,
-        "pct_change": -1.44,
-        "value": 1871391500
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 498943,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.27,
-        "pct_change": 0.93,
-        "value": 1619070035
+        "pct_change": 2.39,
+        "value": 2537378500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 497800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
-        "pct_change": 4.87,
-        "value": 1615361000
+        "shares": 558100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.3,
+        "pct_change": 1.66,
+        "value": 2398155700
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 516219,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.28,
+        "pct_change": 3.46,
+        "value": 2218193043
       }
     ],
     "mutualfund_holders": []

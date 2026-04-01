@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:30:59.713883",
+  "fetched_at": "2026-04-01T03:42:41.275418",
   "ticker": "4384",
   "ticker_full": "4384.T",
   "company_name": "RAKSUL INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
-    "strong_buy": 2,
+    "period": "2",
+    "strong_buy": 1,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.33333
+    "total_analysts": 3,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1858.0,
+    "current": 1887.0,
     "high": 1600.0,
     "low": 1380.0,
     "mean": 1460.0,
@@ -26,110 +26,110 @@
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 12.53,
-    "institution_pct": 54.31,
+    "insider_pct": 86.06,
+    "institution_pct": 15.47,
     "major_holders": [
       {
         "label": "",
-        "value": 12.53
+        "value": 86.06
       },
       {
         "label": "",
-        "value": 54.31
+        "value": 15.47
       },
       {
         "label": "",
-        "value": 62.09
+        "value": 1.11
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 44.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 1570500,
-        "date_reported": "2025-09-30",
-        "pct_held": 2.64,
-        "pct_change": 6.84,
-        "value": 2917989000
-      },
-      {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 717758,
         "date_reported": "2025-10-31",
-        "pct_held": 1.21,
+        "pct_held": 1.18,
         "pct_change": 3.27,
-        "value": 1333594364
+        "value": 1354409346
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 520700,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.85,
+        "pct_change": -66.84,
+        "value": 982560900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 460292,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.77,
-        "pct_change": 4.92,
-        "value": 855222536
+        "date_reported": "2025-12-31",
+        "pct_held": 0.75,
+        "pct_change": 0.0,
+        "value": 868571004
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 227700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.37,
+        "pct_change": 6.3,
+        "value": 429669900
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 220700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.37,
-        "pct_change": 31.76,
-        "value": 410060600
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 214200,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.36,
-        "pct_change": 53.0,
-        "value": 397983600
+        "pct_change": 0.0,
+        "value": 416460900
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 181700,
         "date_reported": "2025-10-31",
-        "pct_held": 0.31,
+        "pct_held": 0.3,
         "pct_change": 12.44,
-        "value": 337598600
+        "value": 342867900
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 181500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.3,
+        "pct_change": 48.04,
+        "value": 342490500
       },
       {
         "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
         "shares": 174600,
-        "date_reported": "2025-10-31",
+        "date_reported": "2025-12-31",
         "pct_held": 0.29,
-        "pct_change": 18.61,
-        "value": 324406800
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 122600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 227790800
+        "value": 329470200
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 96486,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.16,
-        "pct_change": 13.87,
-        "value": 179270988
+        "shares": 104456,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.17,
+        "pct_change": 8.26,
+        "value": 197108472
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
-        "shares": 88800,
-        "date_reported": "2025-10-31",
+        "shares": 93200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.15,
-        "pct_change": 6.09,
-        "value": 164990400
+        "pct_change": 4.95,
+        "value": 175868400
       }
     ],
     "mutualfund_holders": []

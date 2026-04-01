@@ -1,53 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:33:19.193994",
+  "fetched_at": "2026-04-01T03:45:49.450390",
   "ticker": "6523",
   "ticker_full": "6523.T",
   "company_name": "PHC HLDGS CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 6,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.57143
   },
   "target_prices": {
     "has_data": true,
-    "current": 1178.0,
+    "current": 1119.0,
     "high": 2100.0,
     "low": 1000.0,
-    "mean": 1244.2858,
-    "median": 1150.0
+    "mean": 1327.1428,
+    "median": 1200.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 77.11,
-    "institution_pct": 4.3,
+    "insider_pct": 74.5,
+    "institution_pct": 4.61,
     "major_holders": [
       {
         "label": "",
-        "value": 77.11
+        "value": 74.5
       },
       {
         "label": "",
-        "value": 4.3
+        "value": 4.61
       },
       {
         "label": "",
-        "value": 18.79
+        "value": 18.1
       },
       {
         "label": "",
-        "value": 56.0
+        "value": 58.0
       }
     ],
     "institutional_holders": [
@@ -57,39 +57,63 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.32,
         "pct_change": -6.47,
-        "value": 478608442
+        "value": 454637391
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 241000,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.19,
-        "pct_change": 15.37,
-        "value": 283898000
+        "shares": 287100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": 7.81,
+        "value": 321264900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 208698,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.16,
-        "pct_change": -28.7,
-        "value": 245846244
+        "shares": 234098,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.18,
+        "pct_change": 12.17,
+        "value": 261955662
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 131700,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 155142600
+        "value": 147372300
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
+        "shares": 129100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.1,
+        "pct_change": 57.06,
+        "value": 144462900
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 101800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.08,
+        "shares": 117700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 119920400
+        "value": 131706300
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 112800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.09,
+        "pct_change": 31.62,
+        "value": 126223200
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 118300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.09,
+        "pct_change": 42.36,
+        "value": 132377700
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -97,39 +121,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.08,
         "pct_change": 15.09,
-        "value": 117682200
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 85700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.07,
-        "pct_change": 2.28,
-        "value": 100954600
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 83100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.07,
-        "pct_change": 22.39,
-        "value": 97891800
+        "value": 111788100
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
-        "shares": 69900,
-        "date_reported": "2025-09-30",
+        "shares": 75000,
+        "date_reported": "2025-12-31",
         "pct_held": 0.06,
-        "pct_change": -2.78,
-        "value": 82342200
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 82200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.06,
-        "pct_change": 11.99,
-        "value": 96831600
+        "pct_change": 7.3,
+        "value": 83925000
       }
     ],
     "mutualfund_holders": []

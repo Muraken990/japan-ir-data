@@ -1,52 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:49:50.278352",
+  "fetched_at": "2026-04-01T04:02:55.310452",
   "ticker": "9434",
   "ticker_full": "9434.T",
   "company_name": "SOFTBANK CORP.",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 3,
     "buy": 4,
-    "hold": 7,
+    "hold": 8,
     "sell": 0,
-    "strong_sell": 1,
+    "strong_sell": 0,
     "total_analysts": 15,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.13333
   },
   "target_prices": {
     "has_data": true,
-    "current": 214.5,
+    "current": 211.2,
     "high": 270.0,
     "low": 205.0,
-    "mean": 235.33333,
-    "median": 237.0
+    "mean": 236.8,
+    "median": 240.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 39.96,
-    "institution_pct": 23.7,
+    "insider_pct": 39.93,
+    "institution_pct": 23.44,
     "major_holders": [
       {
         "label": "",
-        "value": 39.96
+        "value": 39.93
       },
       {
         "label": "",
-        "value": 23.7
+        "value": 23.44
       },
       {
         "label": "",
-        "value": 39.47
+        "value": 39.02
       },
       {
         "label": "",
-        "value": 388.0
+        "value": 393.0
       }
     ],
     "institutional_holders": [],

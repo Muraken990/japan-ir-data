@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:44:25.263428",
+  "fetched_at": "2026-04-01T03:56:20.412022",
   "ticker": "2809",
   "ticker_full": "2809.T",
   "company_name": "KEWPIE CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "3",
     "strong_buy": 2,
     "buy": 2,
     "hold": 2,
@@ -18,23 +18,24 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4206.0,
-    "high": 5100.0,
-    "low": 3000.0,
-    "mean": 4425.0,
-    "median": 4825.0
+    "current": 4115.0,
+    "high": 5200.0,
+    "low": 4100.0,
+    "mean": 4768.75,
+    "median": 4900.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 26.97,
+    "insider_pct": 27.67,
     "institution_pct": 27.06,
     "major_holders": [
       {
         "label": "",
-        "value": 26.97
+        "value": 27.67
       },
       {
         "label": "",
@@ -42,11 +43,11 @@
       },
       {
         "label": "",
-        "value": 37.05
+        "value": 37.41
       },
       {
         "label": "",
-        "value": 115.0
+        "value": 116.0
       }
     ],
     "institutional_holders": [
@@ -56,55 +57,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.07,
         "pct_change": 2.18,
-        "value": 6377999430
+        "value": 6240006575
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 943771,
-        "date_reported": "2025-09-30",
+        "shares": 951771,
+        "date_reported": "2025-12-31",
         "pct_held": 0.67,
-        "pct_change": 1.29,
-        "value": 3969500826
+        "pct_change": 0.85,
+        "value": 3916537665
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 701700,
-        "date_reported": "2025-11-30",
+        "shares": 709300,
+        "date_reported": "2026-01-31",
         "pct_held": 0.5,
-        "pct_change": 1.49,
-        "value": 2951350200
+        "pct_change": 1.08,
+        "value": 2918769500
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 379700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": 2.76,
+        "value": 1562465500
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
         "shares": 359500,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-02-28",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 1512057000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 340200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.24,
-        "pct_change": 5.1,
-        "value": 1430881200
+        "value": 1479342500
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
         "shares": 260350,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.18,
-        "pct_change": -5.45,
-        "value": 1095032100
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 230400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 969062400
+        "value": 1071340250
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -112,23 +105,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.16,
         "pct_change": 3.94,
-        "value": 954564318
+        "value": 933911595
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 230400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.16,
+        "pct_change": 0.0,
+        "value": 948096000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 205044,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.14,
-        "pct_change": -0.18,
-        "value": 862415064
+        "shares": 206880,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.15,
+        "pct_change": 0.9,
+        "value": 851311200
       },
       {
-        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 158200,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.11,
+        "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
+        "shares": 186400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 665389200
+        "value": 767036000
       }
     ],
     "mutualfund_holders": []

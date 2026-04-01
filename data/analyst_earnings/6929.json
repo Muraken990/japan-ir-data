@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:29:00.757877",
+  "fetched_at": "2026-04-01T03:40:51.169547",
   "ticker": "6929",
   "ticker_full": "6929.T",
   "company_name": "NIPPON CERAMIC CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 0,
     "hold": 0,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 3760.0,
+    "current": 3445.0,
     "high": 4500.0,
     "low": 3000.0,
     "mean": 3750.0,
@@ -26,12 +26,12 @@
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.72,
-    "institution_pct": 20.87,
+    "institution_pct": 20.64,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 20.87
+        "value": 20.64
       },
       {
         "label": "",
-        "value": 27.0
+        "value": 26.71
       },
       {
         "label": "",
-        "value": 56.0
+        "value": 55.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +57,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.88,
         "pct_change": 0.0,
-        "value": 903362560
+        "value": 827681920
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 132815,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.49,
-        "pct_change": 16.8,
-        "value": 499384400
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 89900,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.33,
-        "pct_change": -10.46,
-        "value": 338024000
+        "shares": 158315,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.58,
+        "pct_change": 19.2,
+        "value": 545395175
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -81,39 +73,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.21,
         "pct_change": 17.62,
-        "value": 215824000
-      },
-      {
-        "holder": "GLOBAL X FUNDS-Global X Internet of Things ETF",
-        "shares": 28887,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.11,
-        "pct_change": -0.74,
-        "value": 108615120
+        "value": 197743000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 28338,
-        "date_reported": "2025-08-31",
+        "shares": 30668,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.11,
+        "pct_change": 8.22,
+        "value": 105651260
+      },
+      {
+        "holder": "GLOBAL X FUNDS-Global X Internet of Things ETF",
+        "shares": 27974,
+        "date_reported": "2026-01-31",
         "pct_held": 0.1,
-        "pct_change": 19.35,
-        "value": 106550880
+        "pct_change": -0.94,
+        "value": 96370430
       },
       {
         "holder": "SEI Inst. INVESTMENTS TRT-SIIT Global Mnged Volatility Fd.",
         "shares": 25500,
-        "date_reported": "2025-11-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 95880000
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
-        "shares": 22100,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.08,
-        "pct_change": -2.64,
-        "value": 83096000
+        "value": 87847500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -121,15 +105,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.07,
         "pct_change": 0.0,
-        "value": 68845600
+        "value": 63077950
       },
       {
-        "holder": "Segall Bryant & Hamill TRT-Segall Bryant & Hamill Intl Small Cap Fd.",
+        "holder": "Segall Bryant & Hamill Trust-SBH International Small Cap Fund",
         "shares": 16800,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.06,
         "pct_change": 0.0,
-        "value": 63168000
+        "value": 57876000
+      },
+      {
+        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
+        "shares": 13300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.05,
+        "pct_change": 0.0,
+        "value": 45818500
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
+        "shares": 10900,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.04,
+        "pct_change": 0.0,
+        "value": 37550500
       }
     ],
     "mutualfund_holders": []

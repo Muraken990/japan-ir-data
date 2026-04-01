@@ -1,36 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:42:20.864120",
+  "fetched_at": "2026-04-01T03:54:06.907479",
   "ticker": "4613",
   "ticker_full": "4613.T",
   "company_name": "KANSAI PAINT CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 4,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.875
   },
   "target_prices": {
     "has_data": true,
-    "current": 2498.5,
-    "high": 3400.0,
+    "current": 2383.0,
+    "high": 3280.0,
     "low": 2300.0,
-    "mean": 2748.75,
-    "median": 2750.0
+    "mean": 2776.25,
+    "median": 2765.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 56.89,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 40.87,
+        "eps_actual": 78.33,
+        "surprise_pct": 91.68
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 41.42,
+        "eps_actual": 43.75,
+        "surprise_pct": 5.63
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 52.25,
+        "eps_actual": 48.13,
+        "surprise_pct": -7.88
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 56.89,
+        "eps_actual": 31.89,
+        "surprise_pct": -43.94
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 64.18,
+        "eps_actual": 91.45,
+        "surprise_pct": 42.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.34,
-    "institution_pct": 56.63,
+    "institution_pct": 57.34,
     "major_holders": [
       {
         "label": "",
@@ -38,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 56.63
+        "value": 57.34
       },
       {
         "label": "",
-        "value": 63.16
+        "value": 63.95
       },
       {
         "label": "",
-        "value": 162.0
+        "value": 160.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
         "shares": 11635930,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 6.54,
         "pct_change": 0.0,
-        "value": 29072371105
+        "value": 27728421190
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -64,39 +103,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.28,
         "pct_change": 18.69,
-        "value": 5692812262
+        "value": 5429646436
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1474673,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.83,
-        "pct_change": 22.61,
-        "value": 3684470490
+        "shares": 1498973,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.84,
+        "pct_change": 1.65,
+        "value": 3572052659
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
         "shares": 1440620,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.81,
-        "pct_change": 21.28,
-        "value": 3599389070
+        "pct_change": 0.0,
+        "value": 3432997460
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Explorer Fund",
-        "shares": 1016845,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.57,
-        "pct_change": 24.99,
-        "value": 2540587232
+        "shares": 1061545,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.6,
+        "pct_change": 4.4,
+        "value": 2529661735
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 994200,
-        "date_reported": "2025-11-30",
+        "shares": 1001800,
+        "date_reported": "2026-01-31",
         "pct_held": 0.56,
-        "pct_change": 1.05,
-        "value": 2484008700
+        "pct_change": 0.76,
+        "value": 2387289400
+      },
+      {
+        "holder": "-SSgA SPDR ETFS Europe I-SPDR S&P Glbl Div Aristocrats UCITS ETF",
+        "shares": 773100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.43,
+        "pct_change": 1.0,
+        "value": 1842297300
       },
       {
         "holder": "Longleaf Partners Funds Trust-Longleaf Partners International Fund",
@@ -104,31 +151,23 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.4,
         "pct_change": -59.35,
-        "value": 1785677950
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 508700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.29,
-        "pct_change": 15.09,
-        "value": 1270986950
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 487700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
-        "pct_change": 4.97,
-        "value": 1218518450
+        "value": 1703130100
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 468403,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.26,
-        "pct_change": 73.15,
-        "value": 1170304895
+        "shares": 589603,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.33,
+        "pct_change": 25.88,
+        "value": 1405023949
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 543600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 6.86,
+        "value": 1295398800
       }
     ],
     "mutualfund_holders": []

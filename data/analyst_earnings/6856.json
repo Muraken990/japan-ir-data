@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:44:29.216100",
+  "fetched_at": "2026-04-01T03:57:11.889265",
   "ticker": "6856",
   "ticker_full": "6856.T",
   "company_name": "HORIBA LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 4,
-    "hold": 0,
-    "sell": 1,
+    "hold": 1,
+    "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.42857
   },
   "target_prices": {
     "has_data": true,
-    "current": 16470.0,
-    "high": 18500.0,
-    "low": 13500.0,
-    "mean": 16250.0,
-    "median": 16750.0
+    "current": 18385.0,
+    "high": 26000.0,
+    "low": 14000.0,
+    "mean": 20142.857,
+    "median": 18000.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.13,
-    "institution_pct": 56.43,
+    "institution_pct": 55.21,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 56.43
+        "value": 55.21
       },
       {
         "label": "",
-        "value": 63.49
+        "value": 62.13
       },
       {
         "label": "",
-        "value": 167.0
+        "value": 163.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +57,7 @@
         "date_reported": "2022-06-30",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 30370680
+        "value": 33901940
       }
     ],
     "mutualfund_holders": [
@@ -66,31 +67,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.3,
         "pct_change": 0.44,
-        "value": 9073323000
+        "value": 10128296500
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 460000,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.09,
-        "pct_change": -0.24,
-        "value": 7576200000
-      },
-      {
-        "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
-        "shares": 457791,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.08,
-        "pct_change": 10.54,
-        "value": 7539817770
+        "shares": 412100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.98,
+        "pct_change": -10.41,
+        "value": 7576458500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 351935,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.83,
-        "pct_change": 3.53,
-        "value": 5796369450
+        "shares": 359835,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.85,
+        "pct_change": 2.24,
+        "value": 6615566475
       },
       {
         "holder": "Third Avenue Trust-THIRD AVENUE VALUE FUND",
@@ -98,15 +91,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.8,
         "pct_change": 0.0,
-        "value": 5535567000
+        "value": 6179198500
+      },
+      {
+        "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
+        "shares": 270321,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.64,
+        "pct_change": -40.95,
+        "value": 4969851585
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 227300,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.54,
-        "pct_change": 2.53,
-        "value": 3743631000
+        "pct_change": 0.0,
+        "value": 4178910500
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -114,15 +115,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.45,
         "pct_change": 1.0,
-        "value": 3142476000
-      },
-      {
-        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
-        "shares": 187700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.44,
-        "pct_change": 4.22,
-        "value": 3091419000
+        "value": 3507858000
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -130,15 +123,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.4,
         "pct_change": 0.6,
-        "value": 2762677800
+        "value": 3083899900
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 150100,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.36,
-        "pct_change": 0.81,
-        "value": 2472147000
+        "shares": 145500,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.34,
+        "pct_change": -3.06,
+        "value": 2675017500
+      },
+      {
+        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
+        "shares": 140100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.33,
+        "pct_change": -25.36,
+        "value": 2575738500
       }
     ]
   }

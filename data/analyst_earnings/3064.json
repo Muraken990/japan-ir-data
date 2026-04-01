@@ -1,16 +1,16 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:46:37.806842",
+  "fetched_at": "2026-04-01T03:59:31.600921",
   "ticker": "3064",
   "ticker_full": "3064.T",
   "company_name": "MONOTARO CO.LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 6,
-    "sell": 3,
+    "hold": 8,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "none",
@@ -18,19 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2381.0,
+    "current": 1730.0,
     "high": 3000.0,
     "low": 1900.0,
-    "mean": 2478.182,
-    "median": 2500.0
+    "mean": 2335.4546,
+    "median": 2330.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 49.89,
-    "institution_pct": 19.89,
+    "institution_pct": 21.77,
     "major_holders": [
       {
         "label": "",
@@ -38,33 +39,33 @@
       },
       {
         "label": "",
-        "value": 19.89
+        "value": 21.77
       },
       {
         "label": "",
-        "value": 39.69
+        "value": 43.45
       },
       {
         "label": "",
-        "value": 226.0
+        "value": 224.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Aristotle Capital Management, LLC",
-        "shares": 6203900,
-        "date_reported": "2025-09-30",
+        "shares": 6207000,
+        "date_reported": "2025-12-31",
         "pct_held": 1.24,
-        "pct_change": -4.99,
-        "value": 14771485900
+        "pct_change": 0.05,
+        "value": 10738110000
       },
       {
         "holder": "Pacer Advisors, Inc.",
         "shares": 7,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 16667
+        "value": 12110
       }
     ],
     "mutualfund_holders": [
@@ -74,31 +75,39 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.72,
         "pct_change": 0.56,
-        "value": 8562552200
+        "value": 6221426000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 2280815,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.45,
-        "pct_change": 2.73,
-        "value": 5430620515
+        "shares": 2334215,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.47,
+        "pct_change": 2.34,
+        "value": 4038191950
+      },
+      {
+        "holder": "Virtus Opportunities Trust-Virtus KAR International Small-Mid Cap Fund",
+        "shares": 1882700,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.38,
+        "pct_change": 1.0,
+        "value": 3257071000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1760700,
-        "date_reported": "2025-11-30",
+        "shares": 1775900,
+        "date_reported": "2026-01-31",
         "pct_held": 0.35,
-        "pct_change": 1.18,
-        "value": 4192226700
+        "pct_change": 0.86,
+        "value": 3072307000
       },
       {
         "holder": "SmallCap World Fund Inc",
         "shares": 1511100,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 3597929100
+        "value": 2614203000
       },
       {
         "holder": "Grandeur Peak Global Trust-Grandeur Peak International Stalwarts Fund",
@@ -106,47 +115,39 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.29,
         "pct_change": 1.0,
-        "value": 3434354400
-      },
-      {
-        "holder": "Baillie Gifford Funds-Baillie Gifford International Alpha Fund",
-        "shares": 1229500,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.25,
-        "pct_change": -4.44,
-        "value": 2927439500
+        "value": 2495352000
       },
       {
         "holder": "American Century World Mutual Funds, Inc.-International Growth Fund",
-        "shares": 1109800,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.22,
-        "pct_change": -12.56,
-        "value": 2642433800
+        "shares": 1412800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 1.21,
+        "value": 2444144000
       },
       {
-        "holder": "Aristotle Fund Series Trust-Aristotle International Equity Fund",
-        "shares": 1000000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.2,
-        "pct_change": 0.0,
-        "value": 2381000000
+        "holder": "PUTNAM FOCUSED INTERNATIONAL EQUITY FUND",
+        "shares": 1260600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.25,
+        "pct_change": 1.0,
+        "value": 2180838000
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 882513,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.18,
-        "pct_change": -0.07,
-        "value": 2101263453
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 1224900,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.24,
+        "pct_change": 1.26,
+        "value": 2119077000
       },
       {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 867800,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.17,
-        "pct_change": 1.5,
-        "value": 2066231800
+        "holder": "Baillie Gifford Funds-Baillie Gifford International Alpha Fund",
+        "shares": 1149400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.23,
+        "pct_change": -6.51,
+        "value": 1988462000
       }
     ]
   }

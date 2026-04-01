@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:48:45.824437",
+  "fetched_at": "2026-04-01T04:01:48.164775",
   "ticker": "8015",
   "ticker_full": "8015.T",
   "company_name": "TOYOTA TSUSHO CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 2,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 5542.0,
-    "high": 6030.0,
-    "low": 4200.0,
-    "mean": 5221.6665,
-    "median": 5270.0
+    "current": 6301.0,
+    "high": 8260.0,
+    "low": 7000.0,
+    "mean": 7498.0,
+    "median": 7130.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.9,
-    "institution_pct": 32.31,
+    "institution_pct": 33.81,
     "major_holders": [
       {
         "label": "",
@@ -38,25 +39,25 @@
       },
       {
         "label": "",
-        "value": 32.31
+        "value": 33.81
       },
       {
         "label": "",
-        "value": 49.63
+        "value": 51.94
       },
       {
         "label": "",
-        "value": 311.0
+        "value": 323.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 410125,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.04,
-        "pct_change": 1.99,
-        "value": 2272912750
+        "shares": 5596,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.0,
+        "pct_change": -98.64,
+        "value": 35260396
       }
     ],
     "mutualfund_holders": [
@@ -66,39 +67,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.94,
         "pct_change": 0.56,
-        "value": 55515871058
+        "value": 63119000999
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 6374839,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.6,
-        "pct_change": 2.75,
-        "value": 35329357738
+        "shares": 6513539,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.61,
+        "pct_change": 2.18,
+        "value": 41041809239
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 4686000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.44,
-        "pct_change": 1.34,
-        "value": 25969812000
+        "shares": 4731600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.45,
+        "pct_change": 0.97,
+        "value": 29813811600
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2430575,
-        "date_reported": "2025-11-30",
+        "shares": 2488775,
+        "date_reported": "2026-01-31",
         "pct_held": 0.23,
-        "pct_change": -0.18,
-        "value": 13470246650
+        "pct_change": 0.7,
+        "value": 15681771275
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2406900,
-        "date_reported": "2025-11-30",
+        "shares": 2392200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.23,
-        "pct_change": 0.83,
-        "value": 13339039800
+        "pct_change": 0.99,
+        "value": 15073252200
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE ETF",
+        "shares": 2390800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": 0.5,
+        "value": 15064430800
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
@@ -106,39 +115,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.22,
         "pct_change": -2.52,
-        "value": 12830095772
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 2356800,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.22,
-        "pct_change": 0.0,
-        "value": 13061385600
+        "value": 14587230866
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 2164900,
-        "date_reported": "2025-10-31",
+        "shares": 2078700,
+        "date_reported": "2026-01-31",
         "pct_held": 0.2,
-        "pct_change": 0.67,
-        "value": 11997875800
+        "pct_change": -3.98,
+        "value": 13097888700
       },
       {
-        "holder": "VANGUARD HORIZON FUNDS-Vanguard International Core Stock Fund",
-        "shares": 1764600,
-        "date_reported": "2025-09-30",
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 1850630,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": 1.0,
-        "value": 9779413200
+        "pct_change": 8.86,
+        "value": 11660819630
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 1823500,
-        "date_reported": "2025-11-30",
+        "shares": 1805800,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": -1.86,
-        "value": 10105837000
+        "pct_change": 0.64,
+        "value": 11378345800
       }
     ]
   }

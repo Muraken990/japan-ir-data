@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:49:46.893356",
+  "fetched_at": "2026-04-01T04:02:51.887168",
   "ticker": "6702",
   "ticker_full": "6702.T",
   "company_name": "FUJITSU",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
-    "buy": 7,
+    "strong_buy": 2,
+    "buy": 8,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.36364
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.69231
   },
   "target_prices": {
     "has_data": true,
-    "current": 4336.0,
+    "current": 3292.0,
     "high": 6000.0,
-    "low": 4000.0,
-    "mean": 4840.909,
+    "low": 3960.0,
+    "mean": 4866.154,
     "median": 4800.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.59,
-    "institution_pct": 46.74,
+    "institution_pct": 48.36,
     "major_holders": [
       {
         "label": "",
@@ -38,43 +39,35 @@
       },
       {
         "label": "",
-        "value": 46.74
+        "value": 48.36
       },
       {
         "label": "",
-        "value": 47.98
+        "value": 49.65
       },
       {
         "label": "",
-        "value": 417.0
+        "value": 428.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 18591,
-        "date_reported": "2025-09-30",
+        "shares": 19451,
+        "date_reported": "2025-12-31",
         "pct_held": 0.0,
-        "pct_change": 4.11,
-        "value": 80610576
-      },
-      {
-        "holder": "Paradigm Asset Management Company, LLC",
-        "shares": 85000,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.0,
-        "pct_change": 70.0,
-        "value": 368560000
+        "pct_change": 4.63,
+        "value": 64032692
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "NEW PERSPECTIVE FUND",
-        "shares": 28852500,
-        "date_reported": "2025-09-30",
-        "pct_held": 1.39,
-        "pct_change": 0.0,
-        "value": 125104440000
+        "shares": 31545800,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.52,
+        "pct_change": 9.33,
+        "value": 103848773600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -82,63 +75,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.2,
         "pct_change": 0.22,
-        "value": 108179861280
+        "value": 82132865160
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 15885890,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.77,
-        "pct_change": 2.71,
-        "value": 68881219040
-      },
-      {
-        "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 14835490,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.72,
-        "pct_change": -0.6,
-        "value": 64326684640
+        "shares": 16213990,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.78,
+        "pct_change": 2.07,
+        "value": 53376455080
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 12022400,
-        "date_reported": "2025-11-30",
+        "shares": 12071900,
+        "date_reported": "2026-01-31",
         "pct_held": 0.58,
-        "pct_change": 1.21,
-        "value": 52129126400
+        "pct_change": 0.89,
+        "value": 39740694800
       },
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 10260100,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.5,
-        "pct_change": 4.58,
-        "value": 44487793600
+        "holder": "EuroPacific Growth Fund-EUPAC Fund",
+        "shares": 11421390,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.55,
+        "pct_change": -23.01,
+        "value": 37599215880
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 9177063,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.44,
+        "pct_change": -10.56,
+        "value": 30210891396
       },
       {
         "holder": "HARRIS ASSOCIATES INVESTMENT TRUST-Oakmark International Fund",
-        "shares": 7423000,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.36,
-        "pct_change": 55.9,
-        "value": 32186128000
-      },
-      {
-        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 6962000,
-        "date_reported": "2025-09-30",
+        "shares": 7062300,
+        "date_reported": "2025-12-31",
         "pct_held": 0.34,
-        "pct_change": -12.37,
-        "value": 30187232000
-      },
-      {
-        "holder": "American Funds Global Insight Fund",
-        "shares": 6593500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.32,
-        "pct_change": 1.3,
-        "value": 28589416000
+        "pct_change": -4.86,
+        "value": 23249091600
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
@@ -146,7 +123,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.31,
         "pct_change": 2.78,
-        "value": 28174712288
+        "value": 21390948536
+      },
+      {
+        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
+        "shares": 6354700,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.31,
+        "pct_change": -8.72,
+        "value": 20919672400
+      },
+      {
+        "holder": "Principal Funds, Inc-International Equity Fund",
+        "shares": 6431400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 24.12,
+        "value": 21172168800
       }
     ]
   }

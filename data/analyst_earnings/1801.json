@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:47:48.149172",
+  "fetched_at": "2026-04-01T04:00:47.575951",
   "ticker": "1801",
   "ticker_full": "1801.T",
   "company_name": "TAISEI CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 3,
     "buy": 4,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.57143
   },
   "target_prices": {
     "has_data": true,
-    "current": 16090.0,
-    "high": 16300.0,
-    "low": 12300.0,
-    "mean": 14700.0,
-    "median": 15200.0
+    "current": 16730.0,
+    "high": 22600.0,
+    "low": 13000.0,
+    "mean": 18871.428,
+    "median": 20700.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.15,
-    "institution_pct": 45.32,
+    "institution_pct": 45.24,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 45.32
+        "value": 45.24
       },
       {
         "label": "",
-        "value": 51.01
+        "value": 50.92
       },
       {
         "label": "",
-        "value": 267.0
+        "value": 282.0
       }
     ],
     "institutional_holders": [],

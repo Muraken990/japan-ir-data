@@ -1,37 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:35:50.684672",
+  "fetched_at": "2026-04-01T03:48:22.221111",
   "ticker": "7296",
   "ticker_full": "7296.T",
   "company_name": "F.C.C. CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "3",
     "strong_buy": 0,
-    "buy": 0,
-    "hold": 4,
+    "buy": 1,
+    "hold": 3,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3785.0,
+    "current": 3285.0,
     "high": 4200.0,
-    "low": 2600.0,
-    "mean": 3200.0,
-    "median": 3200.0
+    "low": 3200.0,
+    "mean": 3610.0,
+    "median": 3550.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 29.68,
-    "institution_pct": 19.99,
+    "institution_pct": 20.21,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +39,11 @@
       },
       {
         "label": "",
-        "value": 19.99
+        "value": 20.21
       },
       {
         "label": "",
-        "value": 28.43
+        "value": 28.74
       },
       {
         "label": "",
@@ -57,7 +57,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 1.0,
         "pct_change": 1.92,
-        "value": 1973290825
+        "value": 1712618325
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -65,7 +65,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.96,
         "pct_change": -5.13,
-        "value": 1890051105
+        "value": 1640374605
       },
       {
         "holder": "Avantis International Small Cap Value ETF",
@@ -73,7 +73,7 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.94,
         "pct_change": 4.48,
-        "value": 1852379000
+        "value": 1607679000
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -81,7 +81,7 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.57,
         "pct_change": 0.0,
-        "value": 1131514395
+        "value": 982040895
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -89,7 +89,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.37,
         "pct_change": -8.31,
-        "value": 735047000
+        "value": 637947000
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -97,7 +97,7 @@
         "date_reported": "2024-11-30",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 693412000
+        "value": 601812000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -105,7 +105,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 641557500
+        "value": 556807500
       },
       {
         "holder": "Schwab Strategic Tr-Schwab Fundamental Intl Small Company Idx ETF",
@@ -113,7 +113,7 @@
         "date_reported": "2024-11-30",
         "pct_held": 0.26,
         "pct_change": -4.44,
-        "value": 515834940
+        "value": 447692940
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -121,7 +121,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.22,
         "pct_change": -15.16,
-        "value": 430138755
+        "value": 373317255
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2024-11-30",
         "pct_held": 0.21,
         "pct_change": -3.78,
-        "value": 404616500
+        "value": 351166500
       }
     ],
     "mutualfund_holders": []

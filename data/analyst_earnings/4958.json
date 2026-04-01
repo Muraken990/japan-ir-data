@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:31:13.761406",
+  "fetched_at": "2026-04-01T03:43:45.782058",
   "ticker": "4958",
   "ticker_full": "4958.T",
   "company_name": "T.HASEGAWA CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2879.0,
+    "current": 2871.0,
     "high": 3850.0,
     "low": 3850.0,
     "mean": 3850.0,
     "median": 3850.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.81,
-    "institution_pct": 38.82,
+    "institution_pct": 38.66,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 38.82
+        "value": 38.66
       },
       {
         "label": "",
-        "value": 50.29
+        "value": 50.08
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +57,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 7.03,
         "pct_change": 0.0,
-        "value": 8645061200
+        "value": 8621038800
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -64,7 +65,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 5.81,
         "pct_change": 0.0,
-        "value": 7142223200
+        "value": 7122376800
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
@@ -72,7 +73,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 4.46,
         "pct_change": 0.0,
-        "value": 5488629244
+        "value": 5473377756
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -80,7 +81,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.96,
         "pct_change": 2.05,
-        "value": 1175276896
+        "value": 1172011104
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -88,15 +89,15 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.64,
         "pct_change": 7.8,
-        "value": 784026554
+        "value": 781847946
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 137000,
-        "date_reported": "2025-11-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 394423000
+        "value": 393327000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -104,7 +105,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.29,
         "pct_change": -6.4,
-        "value": 357859700
+        "value": 356865300
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -112,7 +113,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.27,
         "pct_change": -9.91,
-        "value": 327319268
+        "value": 326409732
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 113800,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.27,
+        "pct_change": 0.0,
+        "value": 326719800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -120,15 +129,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.26,
         "pct_change": 11.55,
-        "value": 319856900
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 107200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": 3.18,
-        "value": 308628800
+        "value": 318968100
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:44:26.409459",
+  "fetched_at": "2026-04-01T03:56:23.026887",
   "ticker": "1969",
   "ticker_full": "1969.T",
   "company_name": "TAKASAGO THERMAL ENGINEERING CO",
@@ -13,24 +13,25 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 4695.0,
-    "high": 5700.0,
+    "current": 4460.0,
+    "high": 6200.0,
     "low": 2750.0,
-    "mean": 4591.6665,
-    "median": 4950.0
+    "mean": 5030.0,
+    "median": 5365.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.52,
-    "institution_pct": 34.77,
+    "institution_pct": 35.41,
     "major_holders": [
       {
         "label": "",
@@ -38,25 +39,25 @@
       },
       {
         "label": "",
-        "value": 34.77
+        "value": 35.41
       },
       {
         "label": "",
-        "value": 42.16
+        "value": 42.93
       },
       {
         "label": "",
-        "value": 109.0
+        "value": 114.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "SmallCap World Fund Inc",
-        "shares": 5799424,
-        "date_reported": "2025-09-30",
-        "pct_held": 4.13,
-        "pct_change": -17.31,
-        "value": 27228295680
+        "shares": 5687524,
+        "date_reported": "2025-12-31",
+        "pct_held": 4.05,
+        "pct_change": -1.93,
+        "value": 25366357040
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -64,55 +65,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.05,
         "pct_change": -1.65,
-        "value": 6893039370
+        "value": 6548020360
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 936102,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.67,
-        "pct_change": 0.53,
-        "value": 4394998890
+        "shares": 958702,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.68,
+        "pct_change": 2.41,
+        "value": 4275810920
       },
       {
         "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
-        "shares": 840548,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.6,
-        "pct_change": -23.62,
-        "value": 3946372860
-      },
-      {
-        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
-        "shares": 659000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.47,
-        "pct_change": 3.36,
-        "value": 3094005000
+        "shares": 806148,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.57,
+        "pct_change": -4.09,
+        "value": 3595420080
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 641200,
-        "date_reported": "2025-11-30",
+        "shares": 648800,
+        "date_reported": "2026-01-31",
         "pct_held": 0.46,
-        "pct_change": 4.69,
-        "value": 3010434000
+        "pct_change": 1.19,
+        "value": 2893648000
+      },
+      {
+        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
+        "shares": 510900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": -22.47,
+        "value": 2278614000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 312800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.22,
-        "pct_change": 5.68,
-        "value": 1468596000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 219664,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.16,
-        "pct_change": -18.53,
-        "value": 1031322480
+        "shares": 347900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.25,
+        "pct_change": 1.52,
+        "value": 1551634000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -120,15 +113,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.16,
         "pct_change": 2.39,
-        "value": 1044168000
+        "value": 991904000
       },
       {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 210800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.15,
-        "pct_change": 0.0,
-        "value": 989706000
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 221602,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.16,
+        "pct_change": 0.88,
+        "value": 988344920
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 229700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.16,
+        "pct_change": 14.17,
+        "value": 1024462000
       }
     ],
     "mutualfund_holders": []

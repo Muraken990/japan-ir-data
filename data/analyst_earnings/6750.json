@@ -1,37 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:34:33.984316",
+  "fetched_at": "2026-04-01T03:47:04.606657",
   "ticker": "6750",
   "ticker_full": "6750.T",
   "company_name": "ELECOM CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 1,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.4
   },
   "target_prices": {
     "has_data": true,
-    "current": 1686.0,
-    "high": 2500.0,
-    "low": 1900.0,
-    "mean": 2175.0,
-    "median": 2150.0
+    "current": 1628.0,
+    "high": 2200.0,
+    "low": 1700.0,
+    "mean": 1950.0,
+    "median": 1950.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 35.9,
-    "institution_pct": 18.94,
+    "institution_pct": 18.6,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +39,11 @@
       },
       {
         "label": "",
-        "value": 18.94
+        "value": 18.6
       },
       {
         "label": "",
-        "value": 29.54
+        "value": 29.03
       },
       {
         "label": "",
@@ -53,11 +53,11 @@
     "institutional_holders": [
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 831800,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.9,
-        "pct_change": 0.0,
-        "value": 1402414800
+        "shares": 960000,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.04,
+        "pct_change": 15.41,
+        "value": 1562880000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,63 +65,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.68,
         "pct_change": 1.83,
-        "value": 1050858510
+        "value": 1014707980
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
         "shares": 520512,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.56,
-        "pct_change": -0.06,
-        "value": 877583232
+        "pct_change": 0.0,
+        "value": 847393536
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 402148,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.44,
-        "pct_change": 11.66,
-        "value": 678021528
+        "pct_change": 0.0,
+        "value": 654696944
       },
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 364256,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.39,
-        "pct_change": 10.68,
-        "value": 614135616
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 317596,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.34,
+        "pct_change": -12.81,
+        "value": 517046288
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 268300,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 452353800
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 256600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.28,
-        "pct_change": 1.48,
-        "value": 432627600
+        "value": 436792400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 180976,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.2,
-        "pct_change": -16.56,
-        "value": 305125536
-      },
-      {
-        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
-        "shares": 171500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": 2.68,
-        "value": 289149000
+        "pct_change": 0.0,
+        "value": 294628928
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -129,7 +113,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.18,
         "pct_change": 4.76,
-        "value": 274818000
+        "value": 265364000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 157600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.17,
+        "pct_change": -25.27,
+        "value": 256572800
+      },
+      {
+        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
+        "shares": 159700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.17,
+        "pct_change": -6.88,
+        "value": 259991600
       }
     ],
     "mutualfund_holders": []

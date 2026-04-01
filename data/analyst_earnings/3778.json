@@ -1,102 +1,87 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:31:15.452343",
+  "fetched_at": "2026-04-01T03:43:48.020866",
   "ticker": "3778",
   "ticker_full": "3778.T",
   "company_name": "SAKURA INTERNET INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2735.0,
-    "high": 2886.0,
-    "low": 2886.0,
-    "mean": 2886.0,
-    "median": 2886.0
+    "current": 2498.0,
+    "high": 4720.0,
+    "low": 3302.0,
+    "mean": 4011.0,
+    "median": 4011.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 41.64,
-    "institution_pct": 22.66,
+    "insider_pct": 30.61,
+    "institution_pct": 16.93,
     "major_holders": [
       {
         "label": "",
-        "value": 41.64
+        "value": 30.61
       },
       {
         "label": "",
-        "value": 22.66
+        "value": 16.93
       },
       {
         "label": "",
-        "value": 38.83
+        "value": 24.39
       },
       {
         "label": "",
-        "value": 66.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [
-      {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Stoc",
-        "shares": 491720,
-        "date_reported": "2025-09-30",
-        "pct_held": 1.17,
-        "pct_change": 18.88,
-        "value": 1344854200
-      },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 329100,
         "date_reported": "2025-10-31",
         "pct_held": 0.79,
         "pct_change": 1.51,
-        "value": 900088500
+        "value": 822091800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 208200,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 569427000
+        "value": 520083600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 187200,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 511992000
-      },
-      {
-        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
-        "shares": 179280,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.43,
-        "pct_change": -30.61,
-        "value": 490330800
+        "value": 467625600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 84600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.2,
-        "pct_change": 4.06,
-        "value": 231381000
+        "shares": 97900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": 1.35,
+        "value": 244554200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -104,31 +89,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.2,
         "pct_change": 7.19,
-        "value": 224270000
+        "value": 204836000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 62300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.15,
-        "pct_change": 32.55,
-        "value": 170390500
+        "shares": 77200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.18,
+        "pct_change": 0.0,
+        "value": 192845600
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 47101,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.11,
+        "pct_change": 8.24,
+        "value": 117658298
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 45700,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-01-31",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 124989500
+        "value": 114158600
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 43516,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.1,
-        "pct_change": 0.84,
-        "value": 119016260
+        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+        "shares": 32700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.08,
+        "pct_change": 0.0,
+        "value": 81684600
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
+        "shares": 28600,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.07,
+        "pct_change": 0.0,
+        "value": 71442800
       }
     ],
     "mutualfund_holders": []

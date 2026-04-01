@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:44:39.158102",
+  "fetched_at": "2026-04-01T03:57:24.300086",
   "ticker": "7261",
   "ticker_full": "7261.T",
   "company_name": "MAZDA MOTOR CORP",
@@ -8,29 +8,30 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 11,
-    "sell": 1,
-    "strong_sell": 1,
+    "buy": 3,
+    "hold": 9,
+    "sell": 0,
+    "strong_sell": 2,
     "total_analysts": 14,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.71429
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1253.0,
-    "high": 1400.0,
-    "low": 800.0,
-    "mean": 1145.0769,
-    "median": 1130.0
+    "current": 1065.5,
+    "high": 2000.0,
+    "low": 1000.0,
+    "mean": 1382.1428,
+    "median": 1300.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.48,
-    "institution_pct": 44.73,
+    "institution_pct": 45.74,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 44.73
+        "value": 45.74
       },
       {
         "label": "",
-        "value": 49.42
+        "value": 50.53
       },
       {
         "label": "",
-        "value": 203.0
+        "value": 202.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +57,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.18,
         "pct_change": 4.52,
-        "value": 1446692499
+        "value": 1230208186
       }
     ],
     "mutualfund_holders": [
@@ -66,23 +67,39 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.34,
         "pct_change": 0.88,
-        "value": 10637290874
+        "value": 9045517499
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 5458028,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.86,
-        "pct_change": 3.61,
-        "value": 6838909084
+        "shares": 5560428,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.88,
+        "pct_change": 1.88,
+        "value": 5924636034
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 4107000,
+        "shares": 4152600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.66,
+        "pct_change": 1.11,
+        "value": 4424595300
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 3193154,
         "date_reported": "2025-11-30",
-        "pct_held": 0.65,
-        "pct_change": 1.53,
-        "value": 5146071000
+        "pct_held": 0.51,
+        "pct_change": 9.74,
+        "value": 3402305587
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
+        "shares": 3154380,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.5,
+        "pct_change": 11.14,
+        "value": 3360991890
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -90,55 +107,39 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 3720400082
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 2909675,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.46,
-        "pct_change": 20.82,
-        "value": 3645822775
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
-        "shares": 2838180,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.45,
-        "pct_change": 7.28,
-        "value": 3556239540
+        "value": 3163676207
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
         "shares": 2474000,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 3099922000
+        "value": 2636047000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 2281300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": 1.62,
+        "value": 2430725150
       },
       {
         "holder": "AQR Funds-AQR Equity Market Neutral Fund",
         "shares": 2211900,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 2771510700
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 2045800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.32,
-        "pct_change": 4.72,
-        "value": 2563387400
+        "value": 2356779450
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 1524300,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.24,
-        "pct_change": 3.06,
-        "value": 1909947900
+        "shares": 1583200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.25,
+        "pct_change": 1.53,
+        "value": 1686899600
       }
     ]
   }

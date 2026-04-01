@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:37:56.404786",
+  "fetched_at": "2026-04-01T03:50:24.844491",
   "ticker": "4206",
   "ticker_full": "4206.T",
   "company_name": "AICA KOGYO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 2,
     "buy": 1,
     "hold": 1,
@@ -18,39 +18,120 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3546.0,
-    "high": 4500.0,
+    "current": 3643.0,
+    "high": 4550.0,
     "low": 4000.0,
-    "mean": 4216.6665,
-    "median": 4150.0
+    "mean": 4316.6665,
+    "median": 4400.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 13.93,
-    "institution_pct": 36.6,
+    "insider_pct": 14.14,
+    "institution_pct": 41.29,
     "major_holders": [
       {
         "label": "",
-        "value": 13.93
+        "value": 14.14
       },
       {
         "label": "",
-        "value": 36.6
+        "value": 41.29
       },
       {
         "label": "",
-        "value": 42.52
+        "value": 48.09
       },
       {
         "label": "",
-        "value": 112.0
+        "value": 108.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
+        "shares": 840920,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.24,
+        "pct_change": 46.14,
+        "value": 3063471560
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 761560,
+        "date_reported": "2025-10-31",
+        "pct_held": 1.13,
+        "pct_change": 1.28,
+        "value": 2774363080
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 482375,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.71,
+        "pct_change": -2.49,
+        "value": 1757292125
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 357300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.53,
+        "pct_change": 0.0,
+        "value": 1301643900
+      },
+      {
+        "holder": "Templeton Global Smaller Companies Fund",
+        "shares": 342300,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.51,
+        "pct_change": 1.0,
+        "value": 1246998900
+      },
+      {
+        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
+        "shares": 299100,
+        "date_reported": "2025-10-31",
+        "pct_held": 0.44,
+        "pct_change": 4.8,
+        "value": 1089621300
+      },
+      {
+        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
+        "shares": 243408,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.36,
+        "pct_change": 6.99,
+        "value": 886735344
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 204900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.3,
+        "pct_change": 1.29,
+        "value": 746450700
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 191300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 12.86,
+        "value": 696905900
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 158800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": 7.01,
+        "value": 578508400
+      }
+    ],
     "mutualfund_holders": []
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:39:00.083841",
+  "fetched_at": "2026-04-01T03:51:29.576137",
   "ticker": "5191",
   "ticker_full": "5191.T",
   "company_name": "SUMITOMO RIKO CO LTD",
@@ -18,36 +18,63 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2590.0,
+    "current": 2594.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2012-05-08",
+        "eps_estimate": 49.65,
+        "eps_actual": 31.31,
+        "surprise_pct": -36.94
+      },
+      {
+        "date": "2012-01-25",
+        "eps_estimate": 19.26,
+        "eps_actual": 16.39,
+        "surprise_pct": -14.9
+      },
+      {
+        "date": "2011-10-27",
+        "eps_estimate": 21.49,
+        "eps_actual": 18.05,
+        "surprise_pct": -16.03
+      },
+      {
+        "date": "2010-10-27",
+        "eps_estimate": 14.53,
+        "eps_actual": 22.59,
+        "surprise_pct": 55.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 91.86,
-    "institution_pct": 6.0,
+    "insider_pct": 99.79,
+    "institution_pct": 1.81,
     "major_holders": [
       {
         "label": "",
-        "value": 91.86
+        "value": 99.79
       },
       {
         "label": "",
-        "value": 6.0
+        "value": 1.81
       },
       {
         "label": "",
-        "value": 73.63
+        "value": 8.54
       },
       {
         "label": "",
-        "value": 63.0
+        "value": 51.0
       }
     ],
     "institutional_holders": [],

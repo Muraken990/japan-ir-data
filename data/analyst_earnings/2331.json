@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:44:26.329393",
+  "fetched_at": "2026-04-01T03:56:22.894910",
   "ticker": "2331",
   "ticker_full": "2331.T",
   "company_name": "ALSOK CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "3",
     "strong_buy": 2,
     "buy": 2,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.2
   },
   "target_prices": {
     "has_data": true,
-    "current": 1246.0,
-    "high": 1500.0,
-    "low": 1210.0,
-    "mean": 1385.0,
+    "current": 1269.5,
+    "high": 1600.0,
+    "low": 1220.0,
+    "mean": 1412.0,
     "median": 1410.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.3,
-    "institution_pct": 22.16,
+    "institution_pct": 23.2,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 22.16
+        "value": 23.2
       },
       {
         "label": "",
-        "value": 30.48
+        "value": 31.9
       },
       {
         "label": "",
-        "value": 135.0
+        "value": 147.0
       }
     ],
     "institutional_holders": [
@@ -56,55 +57,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.93,
         "pct_change": -0.1,
-        "value": 5883369030
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 3008935,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.59,
-        "pct_change": 2.87,
-        "value": 3749133010
+        "value": 5994331447
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 2783300,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.55,
-        "pct_change": 0.0,
-        "value": 3467991800
+        "shares": 3212400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.63,
+        "pct_change": 15.42,
+        "value": 4078141800
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 3005935,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.59,
+        "pct_change": -0.1,
+        "value": 3816034482
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2630600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.52,
-        "pct_change": 1.19,
-        "value": 3277727600
+        "shares": 2749400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.54,
+        "pct_change": 0.84,
+        "value": 3490363300
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1222200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.24,
-        "pct_change": 4.81,
-        "value": 1522861200
+        "shares": 1356500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": 1.66,
+        "value": 1722076750
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 967000,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.19,
-        "pct_change": -0.9,
-        "value": 1204882000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 689759,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.14,
-        "pct_change": -19.3,
-        "value": 859439714
+        "pct_change": 0.0,
+        "value": 1227606500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -112,23 +105,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.14,
         "pct_change": 1.77,
-        "value": 876087520
+        "value": 892610840
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 696083,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.14,
+        "pct_change": 0.92,
+        "value": 883677368
       },
       {
         "holder": "iShares Trust-iShares International Equity Factor ETF",
-        "shares": 661800,
-        "date_reported": "2025-11-30",
+        "shares": 676800,
+        "date_reported": "2026-01-31",
         "pct_held": 0.13,
-        "pct_change": 1.38,
-        "value": 824602800
+        "pct_change": 1.81,
+        "value": 859197600
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 490734,
-        "date_reported": "2025-08-31",
+        "shares": 488155,
+        "date_reported": "2025-11-30",
         "pct_held": 0.1,
-        "pct_change": -13.18,
-        "value": 611454564
+        "pct_change": -0.53,
+        "value": 619712772
       }
     ],
     "mutualfund_holders": []

@@ -1,53 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:28:48.645216",
+  "fetched_at": "2026-04-01T03:40:37.796844",
   "ticker": "7944",
   "ticker_full": "7944.T",
   "company_name": "ROLAND CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 3,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3795.0,
+    "current": 3895.0,
     "high": 5000.0,
     "low": 3800.0,
-    "mean": 4450.0,
-    "median": 4500.0
+    "mean": 4533.3335,
+    "median": 4800.0
   },
   "earnings_dates": {
     "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 45.05,
-    "institution_pct": 49.68,
+    "insider_pct": 45.47,
+    "institution_pct": 49.36,
     "major_holders": [
       {
         "label": "",
-        "value": 45.05
+        "value": 45.47
       },
       {
         "label": "",
-        "value": 49.68
+        "value": 49.36
       },
       {
         "label": "",
-        "value": 90.42
+        "value": 90.53
       },
       {
         "label": "",
-        "value": 73.0
+        "value": 76.0
       }
     ],
     "institutional_holders": [],

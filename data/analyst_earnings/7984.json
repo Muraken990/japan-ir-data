@@ -1,52 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:41:33.640465",
+  "fetched_at": "2026-04-01T03:54:04.235424",
   "ticker": "7984",
   "ticker_full": "7984.T",
   "company_name": "KOKUYO CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.25
   },
   "target_prices": {
     "has_data": true,
-    "current": 900.0,
-    "high": 1000.0,
-    "low": 875.0,
-    "mean": 933.3333,
-    "median": 925.0
+    "current": 877.3,
+    "high": 1100.0,
+    "low": 900.0,
+    "mean": 983.3333,
+    "median": 950.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 8.61,
-    "institution_pct": 22.72,
+    "insider_pct": 24.15,
+    "institution_pct": 25.29,
     "major_holders": [
       {
         "label": "",
-        "value": 8.61
+        "value": 24.15
       },
       {
         "label": "",
-        "value": 22.72
+        "value": 25.29
       },
       {
         "label": "",
-        "value": 24.86
+        "value": 33.34
       },
       {
         "label": "",
-        "value": 88.0
+        "value": 89.0
       }
     ],
     "institutional_holders": [
@@ -56,55 +57,47 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.11,
         "pct_change": -1.82,
-        "value": 4405078800
+        "value": 4293972863
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 3122416,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.71,
-        "pct_change": 0.48,
-        "value": 2810174400
+        "shares": 3288316,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.75,
+        "pct_change": 5.31,
+        "value": 2884839586
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2743500,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.62,
-        "pct_change": -2.07,
-        "value": 2469150000
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 1279056,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.29,
-        "pct_change": 0.0,
-        "value": 1151150400
+        "shares": 2766300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.63,
+        "pct_change": 0.83,
+        "value": 2426874956
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1112600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": 4.98,
-        "value": 1001340000
+        "shares": 1239000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 1.71,
+        "value": 1086974684
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 1175356,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": -8.11,
+        "value": 1031139804
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 813050,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.18,
-        "pct_change": -0.18,
-        "value": 731745000
-      },
-      {
-        "holder": "SPDR INDEX SHARES FUNDS-SPDR Portfolio Developed World ex-US ETF",
-        "shares": 745900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 3.1,
-        "value": 671310000
+        "shares": 820496,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.19,
+        "pct_change": 0.92,
+        "value": 719821130
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -112,23 +105,31 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 660826800
+        "value": 644159270
+      },
+      {
+        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
+        "shares": 771200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.17,
+        "pct_change": 1.59,
+        "value": 676573750
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 678200,
-        "date_reported": "2025-11-30",
+        "shares": 676800,
+        "date_reported": "2026-01-31",
         "pct_held": 0.15,
-        "pct_change": 0.0,
-        "value": 610380000
+        "pct_change": -0.21,
+        "value": 593756631
       },
       {
         "holder": "iShares Trust-iShares International Equity Factor ETF",
-        "shares": 597700,
-        "date_reported": "2025-11-30",
+        "shares": 611200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.14,
-        "pct_change": 1.37,
-        "value": 537930000
+        "pct_change": 1.8,
+        "value": 536205752
       }
     ],
     "mutualfund_holders": []

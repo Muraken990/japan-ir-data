@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:40:26.266643",
+  "fetched_at": "2026-04-01T03:52:56.246459",
   "ticker": "9418",
   "ticker_full": "9418.T",
   "company_name": "U-NEXT HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 2,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.75
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2026.0,
-    "high": 2460.0,
-    "low": 2200.0,
-    "mean": 2352.5,
-    "median": 2375.0
+    "current": 1668.0,
+    "high": 2400.0,
+    "low": 2150.0,
+    "mean": 2275.0,
+    "median": 2275.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 67.33,
-    "institution_pct": 9.92,
+    "institution_pct": 10.15,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 9.92
+        "value": 10.15
       },
       {
         "label": "",
-        "value": 30.35
+        "value": 31.08
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [
@@ -56,63 +57,55 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.46,
         "pct_change": 2.05,
-        "value": 1691965276
+        "value": 1392990168
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 524932,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.29,
-        "pct_change": 2.72,
-        "value": 1063512232
+        "shares": 542532,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.3,
+        "pct_change": 3.35,
+        "value": 904943376
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 464300,
-        "date_reported": "2025-11-30",
+        "shares": 471900,
+        "date_reported": "2026-01-31",
         "pct_held": 0.26,
-        "pct_change": 2.27,
-        "value": 940671800
+        "pct_change": 1.64,
+        "value": 787129200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 323300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.18,
-        "pct_change": 2.57,
-        "value": 655005800
-      },
-      {
-        "holder": "-Militia Long/Short Equity ETF",
-        "shares": 301410,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.17,
-        "pct_change": 28.36,
-        "value": 610656660
+        "shares": 361600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.2,
+        "pct_change": 11.85,
+        "value": 603148800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 227700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.13,
-        "pct_change": 0.0,
-        "value": 461320200
+        "shares": 251500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.14,
+        "pct_change": 10.45,
+        "value": 419502000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 216900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.12,
-        "pct_change": 4.78,
-        "value": 439439400
+        "shares": 240600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.13,
+        "pct_change": 1.65,
+        "value": 401320800
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 105984,
-        "date_reported": "2025-08-31",
-        "pct_held": 0.06,
-        "pct_change": 23.09,
-        "value": 214723584
+        "holder": "-Militia Long/Short Equity ETF",
+        "shares": 148060,
+        "date_reported": "2025-11-30",
+        "pct_held": 0.08,
+        "pct_change": -50.88,
+        "value": 246964080
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -120,15 +113,23 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.06,
         "pct_change": 1.0,
-        "value": 222049600
+        "value": 182812800
       },
       {
-        "holder": "Manning & Napier Fund, Inc.-Rainier International Discovery Series",
-        "shares": 87700,
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 96416,
         "date_reported": "2025-11-30",
         "pct_held": 0.05,
-        "pct_change": -41.53,
-        "value": 177680200
+        "pct_change": 1.0,
+        "value": 160821888
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
+        "shares": 78200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.04,
+        "pct_change": 9.99,
+        "value": 130437600
       }
     ],
     "mutualfund_holders": []
