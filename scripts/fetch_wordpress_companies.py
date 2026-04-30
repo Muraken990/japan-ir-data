@@ -210,12 +210,19 @@ def main():
 
         if not companies:
             print()
-            print("⚠️  取得した企業が0件です")
-            print("原因:")
-            print("  - WordPress APIが正しく設定されていない")
-            print("  - 公開済み企業投稿が存在しない")
-            print("  - stock_codeフィールドが設定されていない")
-            sys.exit(1)
+            print("⚠️  WordPress APIから企業を取得できませんでした（0件）")
+            if os.path.exists(OUTPUT_FILE):
+                print(f"📂 前回のキャッシュを使用: {OUTPUT_FILE}")
+                with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    companies = list(reader)
+                print(f"✅ キャッシュから {len(companies)}社 を読み込みました")
+            else:
+                print("原因:")
+                print("  - WordPress APIが正しく設定されていない")
+                print("  - 公開済み企業投稿が存在しない")
+                print("  - stock_codeフィールドが設定されていない")
+                sys.exit(1)
 
         # 重複チェック
         unique_codes = set()
