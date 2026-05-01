@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:45.340915",
+  "fetched_at": "2026-05-01T04:33:42.937285",
   "ticker": "6762",
   "ticker_full": "6762.T",
   "company_name": "TDK CORP",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2048.0,
-    "high": 3300.0,
+    "current": 2824.0,
+    "high": 3500.0,
     "low": 1600.0,
-    "mean": 2644.1177,
-    "median": 2700.0
+    "mean": 2748.8235,
+    "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": 24.67,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 12.46,
+        "eps_actual": 7.62,
+        "surprise_pct": -38.86
+      },
+      {
+        "date": "2026-02-01",
+        "eps_estimate": 33.74,
+        "eps_actual": 36.77,
+        "surprise_pct": 8.97
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 32.74,
+        "eps_actual": 36.85,
+        "surprise_pct": 12.56
+      },
+      {
+        "date": "2025-08-01",
+        "eps_estimate": 21.86,
+        "eps_actual": 21.85,
+        "surprise_pct": -0.07
+      },
+      {
+        "date": "2025-04-28",
+        "eps_estimate": 8.09,
+        "eps_actual": 3.31,
+        "surprise_pct": -59.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.22,
-    "institution_pct": 57.86,
+    "institution_pct": 56.91,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 57.86
+        "value": 56.91
       },
       {
         "label": "",
-        "value": 57.99
+        "value": 57.04
       },
       {
         "label": "",
-        "value": 389.0
+        "value": 375.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -99.1,
-        "value": 25407488
+        "value": 35046950
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,25 +103,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -97.16,
-        "value": 43591680
+        "value": 60130125
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 27528860,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.42,
-        "pct_change": 0.07,
-        "value": 56379105280
+        "shares": 27763960,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.43,
+        "pct_change": 0.85,
+        "value": 78433187000
       },
       {
         "holder": "NEW PERSPECTIVE FUND",
         "shares": 20566900,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 1.06,
         "pct_change": 0.0,
-        "value": 42121011200
+        "value": 58101492500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,63 +129,63 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 2.02,
-        "value": 36645580800
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 13355000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.69,
-        "pct_change": 0.98,
-        "value": 27351040000
+        "value": 50548713750
       },
       {
         "holder": "Capital Income Builder",
-        "shares": 10376235,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.53,
-        "pct_change": 0.0,
-        "value": 21250529280
+        "shares": 14422235,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.74,
+        "pct_change": 6.86,
+        "value": 40742813875
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 13725600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": 1.28,
+        "value": 38774820000
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 7607700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": 0.01,
+        "value": 21491752500
       },
       {
         "holder": "American Funds Global Insight Fund",
         "shares": 7397875,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 15150848000
+        "value": 20898996875
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 7005945,
-        "date_reported": "2026-01-31",
+        "shares": 7089845,
+        "date_reported": "2026-02-28",
         "pct_held": 0.36,
-        "pct_change": 0.72,
-        "value": 14348175360
+        "pct_change": 1.2,
+        "value": 20028812125
       },
       {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 6742800,
-        "date_reported": "2026-01-31",
+        "holder": "EuroPacific Growth Fund-EUPAC Fund",
+        "shares": 6759700,
+        "date_reported": "2026-03-31",
         "pct_held": 0.35,
-        "pct_change": 1.03,
-        "value": 13809254400
+        "pct_change": 28.66,
+        "value": 19096152500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 6721000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.35,
-        "pct_change": 0.5,
-        "value": 13764608000
-      },
-      {
-        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 5567900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": -3.94,
-        "value": 11403059200
+        "pct_change": 0.0,
+        "value": 18986825000
       }
     ]
   }

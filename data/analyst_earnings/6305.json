@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:36.455706",
+  "fetched_at": "2026-05-01T04:30:27.796126",
   "ticker": "6305",
   "ticker_full": "6305.T",
   "company_name": "HITACHI CONSTRUCTION MACHINERY",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5441.0,
+    "current": 5546.0,
     "high": 8820.0,
     "low": 4300.0,
-    "mean": 5945.5557,
+    "mean": 5967.778,
     "median": 5600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 70.74,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-24",
+        "eps_estimate": 99.54,
+        "eps_actual": 79.85,
+        "surprise_pct": -19.78
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 82.81,
+        "eps_actual": 86.75,
+        "surprise_pct": 4.76
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 97.05,
+        "eps_actual": 124.43,
+        "surprise_pct": 28.21
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 70.74,
+        "eps_actual": 53.03,
+        "surprise_pct": -25.04
+      },
+      {
+        "date": "2025-04-24",
+        "eps_estimate": 123.36,
+        "eps_actual": 91.91,
+        "surprise_pct": -25.49
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 51.79,
-    "institution_pct": 24.2,
+    "insider_pct": 52.18,
+    "institution_pct": 25.35,
     "major_holders": [
       {
         "label": "",
-        "value": 51.79
+        "value": 52.18
       },
       {
         "label": "",
-        "value": 24.2
+        "value": 25.35
       },
       {
         "label": "",
-        "value": 50.2
+        "value": 53.02
       },
       {
         "label": "",
-        "value": 162.0
+        "value": 165.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,33 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.06,
         "pct_change": 1.0,
-        "value": 741281840
+        "value": 755587040
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1276580,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.59,
-        "pct_change": -0.13,
-        "value": 6945871780
+        "shares": 1488380,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.69,
+        "pct_change": 16.59,
+        "value": 8254555480
       },
       {
-        "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
-        "shares": 963250,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.45,
-        "pct_change": 0.0,
-        "value": 5241043250
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1364500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.63,
+        "pct_change": 7.38,
+        "value": 7567517000
+      },
+      {
+        "holder": "John Hancock Investment Trust-Disciplined Value International Fund",
+        "shares": 1301000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.6,
+        "pct_change": 23.96,
+        "value": 7215346000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +129,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.45,
         "pct_change": 18.26,
-        "value": 5244133738
+        "value": 5345334628
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
+        "shares": 775070,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": -19.54,
+        "value": 4298538220
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 688100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 1.12,
-        "value": 3743952100
+        "shares": 709900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.33,
+        "pct_change": 1.46,
+        "value": 3937105400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -99,23 +153,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 8.76,
-        "value": 3129119100
+        "value": 3189504600
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 394000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": 11.58,
-        "value": 2143754000
+        "shares": 409600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.19,
+        "pct_change": -0.85,
+        "value": 2271641600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 368800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": 2.39,
-        "value": 2006640800
+        "shares": 383400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 1.86,
+        "value": 2126336400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -123,23 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 1965289200
-      },
-      {
-        "holder": "AIM Fd.s Group -Invesco Intl Small Company Fd.",
-        "shares": 322700,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.15,
-        "pct_change": 22.14,
-        "value": 1755810700
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
-        "shares": 324999,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 0.0,
-        "value": 1768319559
+        "value": 2003215200
       }
     ]
   }

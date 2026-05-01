@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:47.018290",
+  "fetched_at": "2026-05-01T04:24:25.082675",
   "ticker": "3387",
   "ticker_full": "3387.T",
   "company_name": "CREATE RESTAURANTS HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "sell",
+    "recommendation_mean": 5.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 773.0,
+    "current": 716.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 43.86,
-    "institution_pct": 9.61,
+    "institution_pct": 9.68,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +46,11 @@
       },
       {
         "label": "",
-        "value": 9.61
+        "value": 9.68
       },
       {
         "label": "",
-        "value": 17.12
+        "value": 17.24
       },
       {
         "label": "",

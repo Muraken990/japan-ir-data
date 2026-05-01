@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:37:35.457665",
+  "fetched_at": "2026-05-01T04:09:28.986436",
   "ticker": "6197",
   "ticker_full": "6197.T",
   "company_name": "SOLASTO CORPORATION",
@@ -8,30 +8,39 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 1,
-    "buy": 1,
+    "buy": 0,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 5,
+    "total_analysts": 4,
     "recommendation_key": "buy",
     "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 1116.0,
+    "current": 1118.0,
     "high": 860.0,
     "low": 520.0,
     "mean": 690.0,
     "median": 690.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2022-02-07",
+        "eps_estimate": 12.2,
+        "eps_actual": 11.38,
+        "surprise_pct": -6.72
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 43.38,
-    "institution_pct": 22.89,
+    "institution_pct": 33.54,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +48,15 @@
       },
       {
         "label": "",
-        "value": 22.89
+        "value": 33.54
       },
       {
         "label": "",
-        "value": 40.42
+        "value": 59.23
       },
       {
         "label": "",
-        "value": 52.0
+        "value": 53.0
       }
     ],
     "institutional_holders": [],

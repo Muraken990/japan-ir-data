@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:02.389277",
+  "fetched_at": "2026-05-01T04:26:47.718914",
   "ticker": "9468",
   "ticker_full": "9468.T",
   "company_name": "KADOKAWA CORPORATION",
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3868.0,
+    "current": 3629.0,
     "high": 3460.0,
     "low": 2700.0,
-    "mean": 3101.6667,
+    "mean": 3093.3333,
     "median": 3100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 37.71,
-    "institution_pct": 53.29,
+    "institution_pct": 53.93,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 53.29
+        "value": 53.93
       },
       {
         "label": "",
-        "value": 85.55
+        "value": 86.59
       },
       {
         "label": "",
-        "value": 103.0
+        "value": 101.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:31.379558",
+  "fetched_at": "2026-05-01T04:21:02.039191",
   "ticker": "3148",
   "ticker_full": "3148.T",
   "company_name": "CREATE SD HOLDINGS CO LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3320.0,
+    "current": 3260.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-04-03",
+        "eps_estimate": 32.21,
+        "eps_actual": 38.57,
+        "surprise_pct": 19.76
+      },
+      {
+        "date": "2015-10-04",
+        "eps_estimate": 29.0,
+        "eps_actual": 38.1,
+        "surprise_pct": 31.38
+      },
+      {
+        "date": "2015-04-06",
+        "eps_estimate": 28.8,
+        "eps_actual": 30.54,
+        "surprise_pct": 6.03
+      },
+      {
+        "date": "2015-01-12",
+        "eps_estimate": 20.69,
+        "eps_actual": 22.27,
+        "surprise_pct": 7.66
+      },
+      {
+        "date": "2014-10-06",
+        "eps_estimate": 25.58,
+        "eps_actual": 19.41,
+        "surprise_pct": -24.13
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 57.71,
-    "institution_pct": 19.37,
+    "institution_pct": 19.4,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 19.37
+        "value": 19.4
       },
       {
         "label": "",
-        "value": 45.8
+        "value": 45.86
       },
       {
         "label": "",
-        "value": 66.0
+        "value": 67.0
       }
     ],
     "institutional_holders": [],

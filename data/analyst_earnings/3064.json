@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:31.600921",
+  "fetched_at": "2026-05-01T04:31:24.900360",
   "ticker": "3064",
   "ticker_full": "3064.T",
   "company_name": "MONOTARO CO.LTD",
@@ -9,8 +9,8 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 8,
-    "sell": 1,
+    "hold": 7,
+    "sell": 2,
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "none",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1730.0,
-    "high": 3000.0,
+    "current": 1796.0,
+    "high": 2700.0,
     "low": 1900.0,
-    "mean": 2335.4546,
-    "median": 2330.0
+    "mean": 2209.0908,
+    "median": 2050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": 18.77,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 18.34,
+        "eps_actual": 18.01,
+        "surprise_pct": -1.81
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 16.05,
+        "eps_actual": 16.23,
+        "surprise_pct": 1.11
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 15.34,
+        "eps_actual": 15.86,
+        "surprise_pct": 3.39
+      },
+      {
+        "date": "2025-05-01",
+        "eps_estimate": 13.81,
+        "eps_actual": 15.17,
+        "surprise_pct": 9.83
+      },
+      {
+        "date": "2025-01-31",
+        "eps_estimate": 15.48,
+        "eps_actual": 15.0,
+        "surprise_pct": -3.09
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 49.89,
-    "institution_pct": 21.77,
+    "institution_pct": 21.84,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 21.77
+        "value": 21.84
       },
       {
         "label": "",
-        "value": 43.45
+        "value": 43.58
       },
       {
         "label": "",
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.24,
         "pct_change": 0.05,
-        "value": 10738110000
+        "value": 11147772000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 12110
+        "value": 12572
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3596200,
-        "date_reported": "2025-10-31",
+        "shares": 3633400,
+        "date_reported": "2026-01-31",
         "pct_held": 0.72,
-        "pct_change": 0.56,
-        "value": 6221426000
+        "pct_change": 1.03,
+        "value": 6525586400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,7 +121,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.47,
         "pct_change": 2.34,
-        "value": 4038191950
+        "value": 4192250140
+      },
+      {
+        "holder": "Grandeur Peak Global Trust-Grandeur Peak International Stalwarts Fund",
+        "shares": 1946600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.39,
+        "pct_change": 34.96,
+        "value": 3496093600
       },
       {
         "holder": "Virtus Opportunities Trust-Virtus KAR International Small-Mid Cap Fund",
@@ -91,15 +137,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.38,
         "pct_change": 1.0,
-        "value": 3257071000
+        "value": 3381329200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1775900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 0.86,
-        "value": 3072307000
+        "shares": 1819500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 1.13,
+        "value": 3267822000
       },
       {
         "holder": "SmallCap World Fund Inc",
@@ -107,23 +153,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 2614203000
-      },
-      {
-        "holder": "Grandeur Peak Global Trust-Grandeur Peak International Stalwarts Fund",
-        "shares": 1442400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.29,
-        "pct_change": 1.0,
-        "value": 2495352000
-      },
-      {
-        "holder": "American Century World Mutual Funds, Inc.-International Growth Fund",
-        "shares": 1412800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.21,
-        "value": 2444144000
+        "value": 2713935600
       },
       {
         "holder": "PUTNAM FOCUSED INTERNATIONAL EQUITY FUND",
@@ -131,7 +161,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 1.0,
-        "value": 2180838000
+        "value": 2264037600
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -139,7 +169,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.24,
         "pct_change": 1.26,
-        "value": 2119077000
+        "value": 2199920400
       },
       {
         "holder": "Baillie Gifford Funds-Baillie Gifford International Alpha Fund",
@@ -147,7 +177,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.23,
         "pct_change": -6.51,
-        "value": 1988462000
+        "value": 2064322400
+      },
+      {
+        "holder": "Aristotle Fund Series Trust-Aristotle International Equity Fund",
+        "shares": 1002300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.2,
+        "pct_change": 6.19,
+        "value": 1800130800
       }
     ]
   }

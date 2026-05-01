@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:39.127900",
+  "fetched_at": "2026-05-01T04:24:17.848143",
   "ticker": "8050",
   "ticker_full": "8050.T",
   "company_name": "SEIKO GROUP CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
-    "buy": 1,
+    "buy": 2,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.75
+    "total_analysts": 4,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5610.0,
+    "current": 5840.0,
     "high": 8000.0,
     "low": 6400.0,
     "mean": 7262.5,
     "median": 7325.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 42.35,
+        "eps_actual": 52.92,
+        "surprise_pct": 24.95
+      },
+      {
+        "date": "2023-11-14",
+        "eps_estimate": 38.05,
+        "eps_actual": 46.85,
+        "surprise_pct": 23.13
+      },
+      {
+        "date": "2023-08-08",
+        "eps_estimate": 24.25,
+        "eps_actual": 29.22,
+        "surprise_pct": 20.47
+      },
+      {
+        "date": "2023-05-08",
+        "eps_estimate": 14.5,
+        "eps_actual": -37.28,
+        "surprise_pct": -357.14
+      },
+      {
+        "date": "2023-02-14",
+        "eps_estimate": 33.05,
+        "eps_actual": 34.07,
+        "surprise_pct": 3.09
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.33,
-    "institution_pct": 26.28,
+    "institution_pct": 26.58,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 26.28
+        "value": 26.58
       },
       {
         "label": "",
-        "value": 39.42
+        "value": 39.87
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 105.0
       }
     ],
     "institutional_holders": [],

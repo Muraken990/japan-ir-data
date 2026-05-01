@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:13.375099",
+  "fetched_at": "2026-05-01T04:28:00.961337",
   "ticker": "5991",
   "ticker_full": "5991.T",
   "company_name": "NHK SPRING CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.75
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2501.5,
+    "current": 2759.5,
     "high": 3400.0,
     "low": 2900.0,
     "mean": 3190.0,
     "median": 3230.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 31.73,
+        "eps_actual": 86.13,
+        "surprise_pct": 171.45
+      },
+      {
+        "date": "2013-08-07",
+        "eps_estimate": 10.0,
+        "eps_actual": 26.33,
+        "surprise_pct": 163.3
+      },
+      {
+        "date": "2010-05-11",
+        "eps_estimate": 15.03,
+        "eps_actual": 18.79,
+        "surprise_pct": 25.02
+      },
+      {
+        "date": "2010-02-08",
+        "eps_estimate": 12.9,
+        "eps_actual": 21.16,
+        "surprise_pct": 64.03
+      },
+      {
+        "date": "2009-11-12",
+        "eps_estimate": 7.2,
+        "eps_actual": 10.49,
+        "surprise_pct": 45.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.25,
-    "institution_pct": 36.3,
+    "institution_pct": 33.73,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.3
+        "value": 33.73
       },
       {
         "label": "",
-        "value": 46.09
+        "value": 42.83
       },
       {
         "label": "",
-        "value": 109.0
+        "value": 110.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.06,
         "pct_change": -2.12,
-        "value": 6108412850
+        "value": 6738423050
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2211511,
-        "date_reported": "2025-10-31",
+        "shares": 2223811,
+        "date_reported": "2026-01-31",
         "pct_held": 0.96,
-        "pct_change": 1.75,
-        "value": 5532094766
+        "pct_change": 0.56,
+        "value": 6136606454
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.62,
         "pct_change": -0.35,
-        "value": 3581242457
+        "value": 3950605061
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1390100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.6,
-        "pct_change": 1.11,
-        "value": 3477335150
+        "shares": 1433700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 1.44,
+        "value": 3956295150
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -89,7 +127,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.51,
         "pct_change": -14.37,
-        "value": 2932508450
+        "value": 3234961850
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,31 +135,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 2062829455
+        "value": 2275585801
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 664700,
-        "date_reported": "2026-01-31",
+        "shares": 681500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.29,
-        "pct_change": 1.59,
-        "value": 1662747050
+        "pct_change": 1.19,
+        "value": 1880599250
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 612800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": -1.4,
-        "value": 1532919200
+        "shares": 602200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.26,
+        "pct_change": -1.73,
+        "value": 1661770900
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 518400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 1296777600
+        "value": 1430524800
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": 9.73,
-        "value": 1204772430
+        "value": 1329030390
       }
     ],
     "mutualfund_holders": []

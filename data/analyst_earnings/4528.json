@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:27.798671",
+  "fetched_at": "2026-05-01T04:31:20.681016",
   "ticker": "4528",
   "ticker_full": "4528.T",
   "company_name": "ONO PHARMACEUTICAL CO",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 0,
-    "hold": 7,
+    "buy": 1,
+    "hold": 8,
     "sell": 2,
-    "strong_sell": 2,
-    "total_analysts": 11,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.25
+    "strong_sell": 1,
+    "total_analysts": 12,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2569.0,
+    "current": 2320.0,
     "high": 2950.0,
-    "low": 1500.0,
-    "mean": 2087.5,
+    "low": 1600.0,
+    "mean": 2145.8333,
     "median": 2075.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": -4.03,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-01",
+        "eps_estimate": 48.74,
+        "eps_actual": 61.42,
+        "surprise_pct": 26.03
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 46.54,
+        "eps_actual": 47.71,
+        "surprise_pct": 2.52
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 48.36,
+        "eps_actual": 37.62,
+        "surprise_pct": -22.21
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": -4.03,
+        "eps_actual": -13.94,
+        "surprise_pct": -246.01
+      },
+      {
+        "date": "2025-02-02",
+        "eps_estimate": 52.78,
+        "eps_actual": 31.83,
+        "surprise_pct": -39.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.24,
-    "institution_pct": 42.6,
+    "institution_pct": 41.87,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 42.6
+        "value": 41.87
       },
       {
         "label": "",
-        "value": 49.1
+        "value": 48.27
       },
       {
         "label": "",
-        "value": 231.0
+        "value": 228.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,25 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.04,
         "pct_change": 4.09,
-        "value": 553843086
+        "value": 500259280
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5688870,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.14,
-        "pct_change": 0.04,
-        "value": 14611862595
+        "shares": 5741370,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.15,
+        "pct_change": 0.92,
+        "value": 13319978400
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Dividend Equity ETF",
-        "shares": 5021137,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.01,
-        "pct_change": 7.96,
-        "value": 12896790384
+        "shares": 5644492,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.13,
+        "pct_change": 12.41,
+        "value": 13095221440
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +121,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 2.17,
-        "value": 9471872861
+        "value": 8555477920
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2579800,
+        "shares": 2645200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.53,
+        "pct_change": 1.17,
+        "value": 6136864000
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 2061300,
         "date_reported": "2026-01-31",
-        "pct_held": 0.52,
-        "pct_change": 0.89,
-        "value": 6626216300
+        "pct_held": 0.41,
+        "pct_change": 1.0,
+        "value": 4782216000
+      },
+      {
+        "holder": "BlackRock Funds-BlackRock Advantage International Fund",
+        "shares": 1560500,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.31,
+        "pct_change": 1.38,
+        "value": 3620360000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -99,47 +153,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 4.05,
-        "value": 3816251615
+        "value": 3447032800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1422700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.58,
-        "value": 3654204950
-      },
-      {
-        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 1236500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 1.53,
-        "value": 3175950250
-      },
-      {
-        "holder": "DEUTSCHE DWS INTERNATIONAL FUND, INC.-DWS CROCI International Fund",
-        "shares": 1195200,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.24,
-        "pct_change": -3.62,
-        "value": 3069871200
+        "shares": 1478400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.61,
+        "value": 3429888000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 1047600,
-        "date_reported": "2026-01-31",
+        "shares": 1046200,
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 7.47,
-        "value": 2690760600
+        "pct_change": -2.86,
+        "value": 2427184000
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 849582,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 0.62,
-        "value": 2182151367
+        "holder": "DEUTSCHE DWS INTERNATIONAL FUND, INC.-DWS CROCI International Fund",
+        "shares": 1016700,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.2,
+        "pct_change": -14.93,
+        "value": 2358744000
       }
     ]
   }

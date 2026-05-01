@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:43.144957",
+  "fetched_at": "2026-05-01T04:24:21.353780",
   "ticker": "3941",
   "ticker_full": "3941.T",
   "company_name": "RENGO CO",
   "analyst_recommendations": {
     "has_data": true,
     "period": "2",
-    "strong_buy": 2,
+    "strong_buy": 3,
     "buy": 3,
-    "hold": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1276.0,
+    "current": 1237.5,
     "high": 1750.0,
-    "low": 1380.0,
-    "mean": 1535.0,
-    "median": 1490.0
+    "low": 1450.0,
+    "mean": 1556.6666,
+    "median": 1505.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-02-06",
+        "eps_estimate": 32.3,
+        "eps_actual": 21.89,
+        "surprise_pct": -32.23
+      },
+      {
+        "date": "2022-08-01",
+        "eps_estimate": 24.2,
+        "eps_actual": 26.26,
+        "surprise_pct": 8.51
+      },
+      {
+        "date": "2022-05-12",
+        "eps_estimate": 17.1,
+        "eps_actual": 9.39,
+        "surprise_pct": -45.09
+      },
+      {
+        "date": "2022-02-03",
+        "eps_estimate": 38.4,
+        "eps_actual": 27.4,
+        "surprise_pct": -28.65
+      },
+      {
+        "date": "2021-11-01",
+        "eps_estimate": 24.2,
+        "eps_actual": 27.26,
+        "surprise_pct": 12.64
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.26,
-    "institution_pct": 35.32,
+    "institution_pct": 34.86,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 35.32
+        "value": 34.86
       },
       {
         "label": "",
-        "value": 42.18
+        "value": 41.63
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 100.0
       }
     ],
     "institutional_holders": [],

@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:49.972863",
+  "fetched_at": "2026-05-01T04:25:30.182961",
   "ticker": "6674",
   "ticker_full": "6674.T",
   "company_name": "GS YUASA CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 4,
     "hold": 1,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.77778
   },
   "target_prices": {
     "has_data": true,
-    "current": 5598.0,
-    "high": 6000.0,
-    "low": 3000.0,
-    "mean": 4612.5,
-    "median": 4500.0
+    "current": 6335.0,
+    "high": 8250.0,
+    "low": 4000.0,
+    "mean": 6183.3335,
+    "median": 6000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 95.27,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 97.09,
+        "eps_actual": 115.7,
+        "surprise_pct": 19.17
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 47.33,
+        "eps_actual": 39.22,
+        "surprise_pct": -17.14
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 77.83,
+        "eps_actual": 65.11,
+        "surprise_pct": -16.34
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 95.27,
+        "eps_actual": 119.86,
+        "surprise_pct": 25.81
+      },
+      {
+        "date": "2025-02-04",
+        "eps_estimate": 84.25,
+        "eps_actual": 89.58,
+        "surprise_pct": 6.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.14,
-    "institution_pct": 51.92,
+    "institution_pct": 47.92,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 51.92
+        "value": 47.92
       },
       {
         "label": "",
-        "value": 56.52
+        "value": 52.16
       },
       {
         "label": "",
-        "value": 146.0
+        "value": 141.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1735400,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.73,
-        "pct_change": -6.54,
-        "value": 9714769200
+        "shares": 1671100,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.66,
+        "pct_change": 1.54,
+        "value": 10588089600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1326274,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.32,
-        "pct_change": 1.47,
-        "value": 7424481852
+        "shares": 1337074,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.33,
+        "pct_change": 0.81,
+        "value": 8471700864
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.87,
         "pct_change": 2.76,
-        "value": 4878629010
+        "value": 5521792320
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.77,
         "pct_change": -13.97,
-        "value": 4353564600
+        "value": 4927507200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -89,15 +127,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 3583279800
+        "value": 4055673600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 587400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": 1.31,
-        "value": 3288265200
+        "shares": 609200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": 1.7,
+        "value": 3859891200
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -105,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.5,
         "pct_change": 2.53,
-        "value": 2786684400
+        "value": 3154060800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -113,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": -3.97,
-        "value": 2194880634
+        "value": 2484237888
       },
       {
         "holder": "Matthews International Funds-MATTHEWS JAPAN FUND",
@@ -121,15 +159,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.33,
         "pct_change": 30.64,
-        "value": 1849579200
+        "value": 2093414400
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 314399,
-        "date_reported": "2026-01-31",
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 316300,
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
-        "pct_change": 0.0,
-        "value": 1760005602
+        "pct_change": 1.28,
+        "value": 2004076800
       }
     ],
     "mutualfund_holders": []

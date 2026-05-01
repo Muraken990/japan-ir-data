@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:58.946398",
+  "fetched_at": "2026-05-01T04:25:40.895360",
   "ticker": "8425",
   "ticker_full": "8425.T",
   "company_name": "MIZUHO LEASING COMPANY LTD",
@@ -17,20 +17,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1409.0,
+    "current": 1421.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 52.21,
-    "institution_pct": 13.21,
+    "institution_pct": 13.36,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +45,15 @@
       },
       {
         "label": "",
-        "value": 13.21
+        "value": 13.36
       },
       {
         "label": "",
-        "value": 27.64
+        "value": 27.96
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 68.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:30:59.680828",
+  "fetched_at": "2026-05-01T04:14:05.005030",
   "ticker": "4985",
   "ticker_full": "4985.T",
   "company_name": "EARTH CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5040.0,
+    "current": 4585.0,
     "high": 6800.0,
-    "low": 5500.0,
-    "mean": 6146.6665,
-    "median": 6140.0
+    "low": 4900.0,
+    "mean": 5910.0,
+    "median": 6030.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-11-09",
+        "eps_estimate": -13.6,
+        "eps_actual": -26.99,
+        "surprise_pct": -98.46
+      },
+      {
+        "date": "2023-08-08",
+        "eps_estimate": 178.21,
+        "eps_actual": 142.47,
+        "surprise_pct": -20.06
+      },
+      {
+        "date": "2023-05-10",
+        "eps_estimate": 146.9,
+        "eps_actual": 176.28,
+        "surprise_pct": 20.0
+      },
+      {
+        "date": "2023-02-13",
+        "eps_estimate": -84.26,
+        "eps_actual": -151.1,
+        "surprise_pct": -79.32
+      },
+      {
+        "date": "2022-11-07",
+        "eps_estimate": 19.05,
+        "eps_actual": 2.04,
+        "surprise_pct": -89.29
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.37,
-    "institution_pct": 13.88,
+    "institution_pct": 13.01,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 13.88
+        "value": 13.01
       },
       {
         "label": "",
-        "value": 19.93
+        "value": 18.68
       },
       {
         "label": "",

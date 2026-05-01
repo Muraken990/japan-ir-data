@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:55.310452",
+  "fetched_at": "2026-05-01T04:34:55.631343",
   "ticker": "9434",
   "ticker_full": "9434.T",
   "company_name": "SOFTBANK CORP.",
@@ -14,40 +14,78 @@
     "strong_sell": 0,
     "total_analysts": 15,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.13333
+    "recommendation_mean": 2.06667
   },
   "target_prices": {
     "has_data": true,
-    "current": 211.2,
+    "current": 220.2,
     "high": 270.0,
     "low": 205.0,
-    "mean": 236.8,
+    "mean": 237.7857,
     "median": 240.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 1.75,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 2.7,
+        "eps_actual": 2.82,
+        "surprise_pct": 4.44
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 3.49,
+        "eps_actual": 4.22,
+        "surprise_pct": 20.92
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 3.14,
+        "eps_actual": 3.0,
+        "surprise_pct": -4.46
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 1.75,
+        "eps_actual": 1.83,
+        "surprise_pct": 4.5
+      },
+      {
+        "date": "2025-02-10",
+        "eps_estimate": 2.53,
+        "eps_actual": 2.33,
+        "surprise_pct": -8.06
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 39.93,
-    "institution_pct": 23.44,
+    "insider_pct": 39.92,
+    "institution_pct": 21.22,
     "major_holders": [
       {
         "label": "",
-        "value": 39.93
+        "value": 39.92
       },
       {
         "label": "",
-        "value": 23.44
+        "value": 21.22
       },
       {
         "label": "",
-        "value": 39.02
+        "value": 35.32
       },
       {
         "label": "",
-        "value": 393.0
+        "value": 382.0
       }
     ],
     "institutional_holders": [],

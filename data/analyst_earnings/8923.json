@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:07.205971",
+  "fetched_at": "2026-05-01T04:18:30.596709",
   "ticker": "8923",
   "ticker_full": "8923.T",
   "company_name": "TOSEI CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1597.0,
+    "current": 1625.0,
     "high": 2270.0,
     "low": 1725.0,
     "mean": 1997.5,
     "median": 1997.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-04-06",
+        "eps_estimate": 87.66,
+        "eps_actual": 104.99,
+        "surprise_pct": 19.77
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 3.7,
+        "eps_actual": 7.01,
+        "surprise_pct": 89.32
+      },
+      {
+        "date": "2025-10-06",
+        "eps_estimate": 9.56,
+        "eps_actual": 18.76,
+        "surprise_pct": 96.28
+      },
+      {
+        "date": "2025-07-07",
+        "eps_estimate": 27.3,
+        "eps_actual": 41.76,
+        "surprise_pct": 53.0
+      },
+      {
+        "date": "2025-04-07",
+        "eps_estimate": 50.56,
+        "eps_actual": 84.36,
+        "surprise_pct": 66.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 41.92,
-    "institution_pct": 23.89,
+    "institution_pct": 28.6,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 23.89
+        "value": 28.6
       },
       {
         "label": "",
-        "value": 41.13
+        "value": 49.24
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 764666,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.79,
         "pct_change": 0.0,
-        "value": 1221171602
+        "value": 1242582250
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +98,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.55,
         "pct_change": 11.69,
-        "value": 851526788
+        "value": 866456500
       },
       {
         "holder": "Fidelity Select Portfolios-Fidelity International Real Estate Fund",
@@ -73,23 +106,31 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.55,
         "pct_change": -29.11,
-        "value": 854395000
+        "value": 869375000
       },
       {
         "holder": "Manning & Napier Fund, Inc.-Rainier International Discovery Series",
         "shares": 496500,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.51,
-        "pct_change": -1.39,
-        "value": 792910500
+        "pct_change": 0.0,
+        "value": 806812500
+      },
+      {
+        "holder": "Third Avenue Trust-Third Avenue International Real Estate Value Fund",
+        "shares": 400200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.41,
+        "pct_change": 34.39,
+        "value": 650325000
       },
       {
         "holder": "GMO TRUST-GMO Implementation Fund",
-        "shares": 381400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.39,
-        "pct_change": -4.51,
-        "value": 609095800
+        "shares": 368100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.38,
+        "pct_change": -3.49,
+        "value": 598162500
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +138,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 557991800
+        "value": 567775000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,31 +146,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 2.65,
-        "value": 556075400
+        "value": 565825000
       },
       {
-        "holder": "Third Avenue Trust-Third Avenue International Real Estate Value Fund",
-        "shares": 297800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.31,
-        "pct_change": 5.45,
-        "value": 475586600
+        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
+        "shares": 335400,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.34,
+        "pct_change": 23.95,
+        "value": 545025000
       },
       {
         "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
         "shares": 283800,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 453228600
-      },
-      {
-        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
-        "shares": 270600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.28,
-        "pct_change": 43.78,
-        "value": 432148200
+        "value": 461175000
       }
     ],
     "mutualfund_holders": []

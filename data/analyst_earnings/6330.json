@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:48.924419",
+  "fetched_at": "2026-05-01T04:11:46.119989",
   "ticker": "6330",
   "ticker_full": "6330.T",
   "company_name": "TOYO ENGINEERING CORP",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2674.0,
+    "current": 2277.0,
     "high": 830.0,
     "low": 830.0,
     "mean": 830.0,
     "median": 830.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2011-02-09",
+        "eps_estimate": 8.35,
+        "eps_actual": 32.25,
+        "surprise_pct": 286.23
+      },
+      {
+        "date": "2010-11-10",
+        "eps_estimate": 2.3,
+        "eps_actual": 31.6,
+        "surprise_pct": 1273.91
+      },
+      {
+        "date": "2010-08-05",
+        "eps_estimate": 2.3,
+        "eps_actual": -1.35,
+        "surprise_pct": -158.7
+      },
+      {
+        "date": "2010-05-13",
+        "eps_estimate": 24.55,
+        "eps_actual": 41.3,
+        "surprise_pct": 68.23
+      },
+      {
+        "date": "2010-02-10",
+        "eps_estimate": 27.1,
+        "eps_actual": 46.6,
+        "surprise_pct": 71.96
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 18.6,
-    "institution_pct": 6.6,
+    "insider_pct": 20.01,
+    "institution_pct": 8.42,
     "major_holders": [
       {
         "label": "",
-        "value": 18.6
+        "value": 20.01
       },
       {
         "label": "",
-        "value": 6.6
+        "value": 8.42
       },
       {
         "label": "",
-        "value": 8.1
+        "value": 10.53
       },
       {
         "label": "",
-        "value": 32.0
+        "value": 38.0
       }
     ],
     "institutional_holders": [],

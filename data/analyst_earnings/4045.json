@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:08.765470",
+  "fetched_at": "2026-05-01T04:19:33.029078",
   "ticker": "4045",
   "ticker_full": "4045.T",
   "company_name": "TOAGOSEI CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1743.5,
+    "current": 1724.0,
     "high": 1850.0,
     "low": 1850.0,
     "mean": 1850.0,
     "median": 1850.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-10-27",
+        "eps_estimate": 17.72,
+        "eps_actual": 22.32,
+        "surprise_pct": 25.96
+      },
+      {
+        "date": "2016-04-26",
+        "eps_estimate": 18.73,
+        "eps_actual": 20.61,
+        "surprise_pct": 10.01
+      },
+      {
+        "date": "2015-10-29",
+        "eps_estimate": 15.69,
+        "eps_actual": 19.95,
+        "surprise_pct": 27.15
+      },
+      {
+        "date": "2015-04-27",
+        "eps_estimate": 17.37,
+        "eps_actual": 13.02,
+        "surprise_pct": -25.05
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": 17.42,
+        "eps_actual": 17.8,
+        "surprise_pct": 2.2
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 13.82,
-    "institution_pct": 38.26,
+    "insider_pct": 14.11,
+    "institution_pct": 38.41,
     "major_holders": [
       {
         "label": "",
-        "value": 13.82
+        "value": 14.11
       },
       {
         "label": "",
-        "value": 38.26
+        "value": 38.41
       },
       {
         "label": "",
-        "value": 44.39
+        "value": 44.72
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 86.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.49,
         "pct_change": 0.0,
-        "value": 2805640200
+        "value": 2774260800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1365486,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.26,
         "pct_change": 0.0,
-        "value": 2380724841
+        "value": 2354097864
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.8,
         "pct_change": -5.36,
-        "value": 1499228676
+        "value": 1482460704
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 781900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.72,
-        "pct_change": 0.98,
-        "value": 1363242650
+        "shares": 803700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.74,
+        "pct_change": 1.29,
+        "value": 1385578800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.58,
         "pct_change": -2.04,
-        "value": 1086200500
+        "value": 1074052000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,39 +135,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.43,
         "pct_change": 0.0,
-        "value": 811860775
+        "value": 802780600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 318992,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.3,
-        "pct_change": 1.56,
-        "value": 556162552
+        "shares": 337992,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 5.96,
+        "value": 582698208
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 320200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 1.65,
-        "value": 558268700
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 205745,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.19,
-        "pct_change": 20.68,
-        "value": 358716407
+        "shares": 331800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": 1.22,
+        "value": 572023200
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 187926,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.17,
-        "pct_change": 3.09,
-        "value": 327648981
+        "shares": 195297,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.18,
+        "pct_change": 3.92,
+        "value": 336692028
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+        "shares": 193300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 0.52,
+        "value": 333249200
       }
     ],
     "mutualfund_holders": []

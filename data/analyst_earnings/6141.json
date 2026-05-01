@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:49.810993",
+  "fetched_at": "2026-05-01T04:25:29.377566",
   "ticker": "6141",
   "ticker_full": "6141.T",
   "company_name": "DMG MORI CO LTD",
@@ -18,24 +18,57 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2507.0,
+    "current": 2942.0,
     "high": 3500.0,
-    "low": 2000.0,
-    "mean": 2732.0,
+    "low": 1900.0,
+    "mean": 2712.0,
     "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-01",
+        "eps_estimate": 1.77,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 34.76,
+        "eps_actual": 17.74,
+        "surprise_pct": -48.96
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 29.73,
+        "eps_actual": 129.92,
+        "surprise_pct": 337.03
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 26.91,
+        "eps_actual": 6.96,
+        "surprise_pct": -74.12
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 28.32,
+        "eps_actual": 0.98,
+        "surprise_pct": -96.56
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 10.89,
+    "insider_pct": 10.88,
     "institution_pct": 54.37,
     "major_holders": [
       {
         "label": "",
-        "value": 10.89
+        "value": 10.88
       },
       {
         "label": "",
@@ -47,7 +80,7 @@
       },
       {
         "label": "",
-        "value": 140.0
+        "value": 138.0
       }
     ],
     "institutional_holders": [],

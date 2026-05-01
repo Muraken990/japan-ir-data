@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:12.069902",
+  "fetched_at": "2026-05-01T04:29:00.398905",
   "ticker": "5444",
   "ticker_full": "5444.T",
   "company_name": "YAMATO KOGYO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 1,
     "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.25
   },
   "target_prices": {
     "has_data": true,
-    "current": 12365.0,
+    "current": 12140.0,
     "high": 14300.0,
     "low": 9800.0,
-    "mean": 11300.0,
-    "median": 10550.0
+    "mean": 11900.0,
+    "median": 11750.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-05-14",
+        "eps_estimate": 13.0,
+        "eps_actual": 30.23,
+        "surprise_pct": 132.54
+      },
+      {
+        "date": "2020-02-02",
+        "eps_estimate": 67.0,
+        "eps_actual": 39.54,
+        "surprise_pct": -40.99
+      },
+      {
+        "date": "2019-04-26",
+        "eps_estimate": 50.6,
+        "eps_actual": 79.68,
+        "surprise_pct": 57.47
+      },
+      {
+        "date": "2019-01-30",
+        "eps_estimate": 71.7,
+        "eps_actual": 75.77,
+        "surprise_pct": 5.68
+      },
+      {
+        "date": "2018-01-30",
+        "eps_estimate": 41.3,
+        "eps_actual": 28.29,
+        "surprise_pct": -31.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 40.43,
-    "institution_pct": 41.66,
+    "institution_pct": 41.04,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 41.66
+        "value": 41.04
       },
       {
         "label": "",
-        "value": 69.93
+        "value": 68.9
       },
       {
         "label": "",
-        "value": 135.0
+        "value": 132.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +90,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.39,
         "pct_change": 2.63,
-        "value": 18297727000
+        "value": 17964772000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 493225,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.8,
-        "pct_change": 0.98,
-        "value": 6098727125
+        "pct_change": 0.0,
+        "value": 5987751500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,23 +106,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.51,
         "pct_change": 1.02,
-        "value": 3925318710
+        "value": 3853891560
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 253200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.41,
+        "shares": 240800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 3130818000
+        "value": 2923312000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 148500,
-        "date_reported": "2026-01-31",
+        "shares": 146600,
+        "date_reported": "2026-03-31",
         "pct_held": 0.24,
-        "pct_change": 1.78,
-        "value": 1836202500
+        "pct_change": 1.38,
+        "value": 1779724000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
@@ -97,7 +130,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1365096000
+        "value": 1340256000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,23 +138,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1386116500
+        "value": 1360894000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 89400,
-        "date_reported": "2026-01-31",
+        "shares": 85400,
+        "date_reported": "2026-02-28",
         "pct_held": 0.14,
-        "pct_change": 0.0,
-        "value": 1105431000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 74715,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.12,
-        "pct_change": 2.33,
-        "value": 923850975
+        "pct_change": -4.47,
+        "value": 1036756000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -129,7 +154,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 895226000
+        "value": 878936000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 74715,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.12,
+        "pct_change": 0.0,
+        "value": 907040100
       }
     ],
     "mutualfund_holders": []

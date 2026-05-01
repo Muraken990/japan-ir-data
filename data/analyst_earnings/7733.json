@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:52.683897",
+  "fetched_at": "2026-05-01T04:32:48.002967",
   "ticker": "7733",
   "ticker_full": "7733.T",
   "company_name": "OLYMPUS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 1,
     "buy": 3,
-    "hold": 8,
+    "hold": 9,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 14,
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1565.0,
+    "current": 1579.0,
     "high": 2300.0,
     "low": 1500.0,
-    "mean": 1819.2307,
-    "median": 1750.0
+    "mean": 1750.0,
+    "median": 1700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 9.2,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 18.96,
+        "eps_actual": 12.87,
+        "surprise_pct": -32.12
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 16.21,
+        "eps_actual": 18.03,
+        "surprise_pct": 11.23
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 15.82,
+        "eps_actual": 7.97,
+        "surprise_pct": -49.63
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 23.09,
+        "eps_actual": 36.56,
+        "surprise_pct": 58.34
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 27.63,
+        "eps_actual": 24.19,
+        "surprise_pct": -12.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.28,
-    "institution_pct": 60.12,
+    "insider_pct": 4.27,
+    "institution_pct": 60.03,
     "major_holders": [
       {
         "label": "",
-        "value": 4.28
+        "value": 4.27
       },
       {
         "label": "",
-        "value": 60.12
+        "value": 60.03
       },
       {
         "label": "",
-        "value": 62.8
+        "value": 62.7
       },
       {
         "label": "",
-        "value": 330.0
+        "value": 311.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 8.78,
-        "value": 20129030
+        "value": 20309098
       }
     ],
     "mutualfund_holders": [
@@ -67,7 +105,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.93,
         "pct_change": 5.31,
-        "value": 33591316500
+        "value": 33891813900
       },
       {
         "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
@@ -75,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.92,
         "pct_change": 0.0,
-        "value": 33526995000
+        "value": 33826917000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 15683301,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.41,
-        "pct_change": 0.05,
-        "value": 24544366065
+        "shares": 15510601,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.39,
+        "pct_change": -1.1,
+        "value": 24491238979
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,7 +129,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.9,
         "pct_change": 0.36,
-        "value": 15670778505
+        "value": 15810964383
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 7876400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": 1.18,
+        "value": 12436835600
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -99,47 +145,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.7,
         "pct_change": 0.67,
-        "value": 12204183000
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 7840200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 0.98,
-        "value": 12269913000
+        "value": 12313357800
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
-        "shares": 7610700,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.68,
-        "pct_change": 0.0,
-        "value": 11910745500
+        "shares": 7487200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.67,
+        "pct_change": -1.62,
+        "value": 11822288800
       },
       {
         "holder": "-Price (T.Rowe) International Growth Equity Trust",
-        "shares": 6940200,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.62,
-        "pct_change": 27.45,
-        "value": 10861413000
+        "shares": 7261300,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.65,
+        "pct_change": 4.63,
+        "value": 11465592700
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
         "shares": 6395700,
         "date_reported": "2026-01-31",
         "pct_held": 0.57,
-        "pct_change": 7.09,
-        "value": 10009270500
+        "pct_change": 5.62,
+        "value": 10098810300
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 4104876,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.37,
-        "pct_change": 0.8,
-        "value": 6424130940
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 4361300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": -2.61,
+        "value": 6886492700
       }
     ]
   }

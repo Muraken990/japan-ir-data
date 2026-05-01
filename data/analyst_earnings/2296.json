@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:47.141888",
+  "fetched_at": "2026-05-01T04:24:26.241059",
   "ticker": "2296",
   "ticker_full": "2296.T",
   "company_name": "ITOHAM YONEKYU HOLDINGS INC",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5770.0,
+    "current": 5080.0,
     "high": 5500.0,
     "low": 4100.0,
-    "mean": 4733.3335,
-    "median": 4600.0
+    "mean": 4800.0,
+    "median": 4800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-01",
+        "eps_estimate": 12.98,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 146.13,
+        "eps_actual": 114.06,
+        "surprise_pct": -21.95
+      },
+      {
+        "date": "2025-11-03",
+        "eps_estimate": 83.68,
+        "eps_actual": 55.19,
+        "surprise_pct": -34.05
+      },
+      {
+        "date": "2025-08-03",
+        "eps_estimate": 66.03,
+        "eps_actual": 112.39,
+        "surprise_pct": 70.21
+      },
+      {
+        "date": "2025-05-01",
+        "eps_estimate": 12.98,
+        "eps_actual": 14.68,
+        "surprise_pct": 13.12
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 51.09,
-    "institution_pct": 11.51,
+    "institution_pct": 11.55,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 11.51
+        "value": 11.55
       },
       {
         "label": "",
-        "value": 23.54
+        "value": 23.62
       },
       {
         "label": "",
-        "value": 86.0
+        "value": 87.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +90,7 @@
         "date_reported": "2022-07-31",
         "pct_held": 0.65,
         "pct_change": -0.14,
-        "value": 10992502010
+        "value": 9677974040
       },
       {
         "holder": "DFA International Small Cap Value Portfolio",
@@ -65,7 +98,7 @@
         "date_reported": "2022-07-31",
         "pct_held": 0.59,
         "pct_change": 18.81,
-        "value": 10008642000
+        "value": 8811768000
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -73,7 +106,7 @@
         "date_reported": "2022-06-30",
         "pct_held": 0.32,
         "pct_change": -0.58,
-        "value": 5440665710
+        "value": 4790048840
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -81,7 +114,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 5087986000
+        "value": 4479544000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -89,7 +122,7 @@
         "date_reported": "2022-07-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 4075351000
+        "value": 3588004000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -97,7 +130,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.21,
         "pct_change": -0.77,
-        "value": 3582016000
+        "value": 3153664000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -105,7 +138,7 @@
         "date_reported": "2022-07-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 3097601420
+        "value": 2727177680
       },
       {
         "holder": "WisdomTree Tr-WisdomTree International Small Cap Dividend Fd",
@@ -113,7 +146,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.13,
         "pct_change": 0.79,
-        "value": 2216257000
+        "value": 1951228000
       },
       {
         "holder": "Schwab Strategic Tr-Schwab Fundamental Intl Large Co Index ETF",
@@ -121,7 +154,7 @@
         "date_reported": "2022-08-31",
         "pct_held": 0.11,
         "pct_change": 7.51,
-        "value": 1797591570
+        "value": 1582628280
       },
       {
         "holder": "Old Westbury Small & Mid Cap Strategies Fund",
@@ -129,7 +162,7 @@
         "date_reported": "2022-07-31",
         "pct_held": 0.1,
         "pct_change": 9.39,
-        "value": 1733567650
+        "value": 1526260600
       }
     ],
     "mutualfund_holders": []

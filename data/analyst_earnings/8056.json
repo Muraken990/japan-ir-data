@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:09.087308",
+  "fetched_at": "2026-05-01T04:27:56.250106",
   "ticker": "8056",
   "ticker_full": "8056.T",
   "company_name": "BIPROGY INC",
@@ -9,29 +9,62 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 4,
-    "hold": 4,
+    "hold": 6,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 8,
+    "total_analysts": 10,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4622.0,
+    "current": 4434.0,
     "high": 6700.0,
-    "low": 4900.0,
-    "mean": 5620.0,
-    "median": 5550.0
+    "low": 4600.0,
+    "mean": 5430.0,
+    "median": 5200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 81.92,
+        "eps_actual": 92.72,
+        "surprise_pct": 13.19
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 59.25,
+        "eps_actual": 71.32,
+        "surprise_pct": 20.37
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 85.64,
+        "eps_actual": 97.18,
+        "surprise_pct": 13.48
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 53.1,
+        "eps_actual": 59.42,
+        "surprise_pct": 11.9
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 97.99,
+        "eps_actual": 96.54,
+        "surprise_pct": -1.48
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.54,
-    "institution_pct": 31.45,
+    "institution_pct": 31.14,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 31.45
+        "value": 31.14
       },
       {
         "label": "",
-        "value": 40.61
+        "value": 40.21
       },
       {
         "label": "",
-        "value": 167.0
+        "value": 160.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1110348,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.12,
-        "pct_change": 8.8,
-        "value": 5132028456
+        "shares": 1102748,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.11,
+        "pct_change": -0.68,
+        "value": 4889584632
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +98,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.73,
         "pct_change": -1.03,
-        "value": 3321267516
+        "value": 3186174852
+      },
+      {
+        "holder": "VANGUARD WORLD FUND-Vanguard Global Wellington Fund",
+        "shares": 715421,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.72,
+        "pct_change": 2.86,
+        "value": 3172176714
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 544300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.55,
-        "pct_change": 1.42,
-        "value": 2515754600
-      },
-      {
-        "holder": "AB Active ETFs, Inc.-AB International Low Volatility Equity ETF",
-        "shares": 456300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": 0.0,
-        "value": 2109018600
+        "shares": 566100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.57,
+        "pct_change": 1.83,
+        "value": 2510087400
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 363400,
-        "date_reported": "2025-10-31",
+        "shares": 370200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.37,
-        "pct_change": 0.0,
-        "value": 1679634800
+        "pct_change": 1.87,
+        "value": 1641466800
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -97,23 +130,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.34,
         "pct_change": -3.07,
-        "value": 1563160400
+        "value": 1499578800
+      },
+      {
+        "holder": "AB Active ETFs, Inc.-AB International Low Volatility Equity ETF",
+        "shares": 337100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.34,
+        "pct_change": -26.12,
+        "value": 1494701400
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 290200,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.29,
-        "pct_change": 6.97,
-        "value": 1341304400
+        "shares": 314900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 8.51,
+        "value": 1396266600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 287900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.37,
-        "value": 1330673800
+        "shares": 296600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.02,
+        "value": 1315124400
       },
       {
         "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
@@ -121,15 +162,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.25,
         "pct_change": -2.58,
-        "value": 1153189000
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 247200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 0.0,
-        "value": 1142558400
+        "value": 1106283000
       }
     ],
     "mutualfund_holders": []

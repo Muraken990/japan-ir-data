@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:50.939415",
+  "fetched_at": "2026-05-01T04:17:12.941639",
   "ticker": "9110",
   "ticker_full": "9110.T",
   "company_name": "NS UNITED KAIUN KA",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 7410.0,
+    "current": 7890.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-01-30",
+        "eps_estimate": 67.11,
+        "eps_actual": 138.8,
+        "surprise_pct": 106.82
+      },
+      {
+        "date": "2016-07-28",
+        "eps_estimate": 34.56,
+        "eps_actual": -4.9,
+        "surprise_pct": -114.18
+      },
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 61.01,
+        "eps_actual": 62.1,
+        "surprise_pct": 1.79
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 30.14,
+        "eps_actual": 71.1,
+        "surprise_pct": 135.9
+      },
+      {
+        "date": "2015-04-29",
+        "eps_estimate": 47.36,
+        "eps_actual": 25.6,
+        "surprise_pct": -45.95
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 54.09,
-    "institution_pct": 23.18,
+    "institution_pct": 23.32,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 23.18
+        "value": 23.32
       },
       {
         "label": "",
-        "value": 50.49
+        "value": 50.81
       },
       {
         "label": "",
-        "value": 65.0
+        "value": 67.0
       }
     ],
     "institutional_holders": [],

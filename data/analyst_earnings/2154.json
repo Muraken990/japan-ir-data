@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:12.487682",
+  "fetched_at": "2026-05-01T04:18:36.197458",
   "ticker": "2154",
   "ticker_full": "2154.T",
   "company_name": "OPEN UP GROUP INC",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1799.0,
+    "current": 1748.0,
     "high": 2600.0,
     "low": 2300.0,
-    "mean": 2400.0,
-    "median": 2300.0
+    "mean": 2433.3333,
+    "median": 2400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 30.44,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 35.57,
+        "eps_actual": 43.55,
+        "surprise_pct": 22.44
+      },
+      {
+        "date": "2025-11-07",
+        "eps_estimate": 26.46,
+        "eps_actual": 32.4,
+        "surprise_pct": 22.43
+      },
+      {
+        "date": "2025-08-08",
+        "eps_estimate": 29.69,
+        "eps_actual": 44.01,
+        "surprise_pct": 48.24
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 34.54,
+        "eps_actual": 32.8,
+        "surprise_pct": -5.02
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 37.5,
+        "eps_actual": 40.26,
+        "surprise_pct": 7.35
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 25.44,
-    "institution_pct": 31.4,
+    "institution_pct": 31.61,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 31.4
+        "value": 31.61
       },
       {
         "label": "",
-        "value": 42.11
+        "value": 42.39
       },
       {
         "label": "",
-        "value": 83.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 804719,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.89,
-        "pct_change": 1.16,
-        "value": 1447689481
+        "pct_change": 0.0,
+        "value": 1406648812
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +103,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 919011954
+        "value": 892958808
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 346900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 624073100
+        "value": 606381200
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
         "shares": 339314,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 610425886
+        "value": 593120872
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 289100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 7.75,
-        "value": 520090900
+        "shares": 245800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": -2.61,
+        "value": 429658400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,31 +135,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 3.61,
-        "value": 402976000
+        "value": 391552000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 216531,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 1.83,
-        "value": 389539269
+        "shares": 225231,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": 1.35,
+        "value": 393703788
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 209492,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.23,
-        "pct_change": 12.45,
-        "value": 376876108
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 125521,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.14,
-        "pct_change": 16.23,
-        "value": 225812279
+        "shares": 203892,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": -2.67,
+        "value": 356403216
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": 9.96,
-        "value": 212461900
+        "value": 206438800
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 104733,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.12,
+        "pct_change": -16.56,
+        "value": 183073284
       }
     ],
     "mutualfund_holders": []

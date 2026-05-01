@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:30:09.459848",
+  "fetched_at": "2026-05-01T04:13:59.203979",
   "ticker": "7943",
   "ticker_full": "7943.T",
   "company_name": "NICHIHA CORP",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "1",
     "strong_buy": 0,
-    "buy": 0,
-    "hold": 1,
+    "buy": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3240.0,
+    "current": 3125.0,
     "high": 4200.0,
     "low": 4200.0,
     "mean": 4200.0,
     "median": 4200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": -43.95,
+        "eps_actual": 62.32,
+        "surprise_pct": 241.78
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 34.08,
+        "eps_actual": 52.75,
+        "surprise_pct": 54.79
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 28.96,
+        "eps_actual": 20.52,
+        "surprise_pct": -29.13
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 32.84,
+        "eps_actual": -30.33,
+        "surprise_pct": -192.35
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 26.26,
+        "eps_actual": 56.36,
+        "surprise_pct": 114.63
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.15,
-    "institution_pct": 31.32,
+    "institution_pct": 33.89,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 31.32
+        "value": 33.89
       },
       {
         "label": "",
-        "value": 42.99
+        "value": 46.53
       },
       {
         "label": "",
-        "value": 72.0
+        "value": 73.0
       }
     ],
     "institutional_holders": [],

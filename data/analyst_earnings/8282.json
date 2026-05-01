@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:37.685067",
+  "fetched_at": "2026-05-01T04:23:14.323198",
   "ticker": "8282",
   "ticker_full": "8282.T",
   "company_name": "K'S HOLDINGS CORPORATION",
@@ -13,37 +13,75 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 1704.0,
-    "high": 1800.0,
-    "low": 1620.0,
-    "mean": 1716.6666,
-    "median": 1715.0
+    "current": 1786.0,
+    "high": 1920.0,
+    "low": 1700.0,
+    "mean": 1780.0,
+    "median": 1765.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": 20.13,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 23.37,
+        "eps_actual": 21.01,
+        "surprise_pct": -10.08
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 39.89,
+        "eps_actual": 37.67,
+        "surprise_pct": -5.57
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 21.45,
+        "eps_actual": 28.48,
+        "surprise_pct": 32.76
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 0.84,
+        "eps_actual": -16.23,
+        "surprise_pct": -2032.65
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 18.58,
+        "eps_actual": 21.42,
+        "surprise_pct": 15.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 19.17,
-    "institution_pct": 23.81,
+    "insider_pct": 19.97,
+    "institution_pct": 24.88,
     "major_holders": [
       {
         "label": "",
-        "value": 19.17
+        "value": 19.97
       },
       {
         "label": "",
-        "value": 23.81
+        "value": 24.88
       },
       {
         "label": "",
-        "value": 29.45
+        "value": 31.09
       },
       {
         "label": "",
@@ -57,7 +95,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.18,
         "pct_change": 27.74,
-        "value": 4010704800
+        "value": 4203708200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.92,
         "pct_change": -6.37,
-        "value": 3143307456
+        "value": 3294569904
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.58,
         "pct_change": -3.49,
-        "value": 1986937272
+        "value": 2082552798
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 1637032800
+        "value": 1715810200
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -89,7 +127,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.38,
         "pct_change": -20.35,
-        "value": 1295551200
+        "value": 1357895800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,7 +135,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 1197366720
+        "value": 1254986480
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,7 +143,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.33,
         "pct_change": -9.67,
-        "value": 1107600000
+        "value": 1160900000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -113,7 +151,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 948616800
+        "value": 994266200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.25,
         "pct_change": 4.11,
-        "value": 858543360
+        "value": 899858240
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2025-11-30",
         "pct_held": 0.25,
         "pct_change": 3.45,
-        "value": 839155248
+        "value": 879537132
       }
     ],
     "mutualfund_holders": []

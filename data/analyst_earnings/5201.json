@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:30.259771",
+  "fetched_at": "2026-05-01T04:31:23.426847",
   "ticker": "5201",
   "ticker_full": "5201.T",
   "company_name": "AGC INC",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5687.0,
-    "high": 6800.0,
+    "current": 5596.0,
+    "high": 6600.0,
     "low": 5000.0,
-    "mean": 5883.75,
+    "mean": 5858.75,
     "median": 6025.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-11-01",
+        "eps_estimate": 131100.0,
+        "eps_actual": 79.76,
+        "surprise_pct": -99.94
+      },
+      {
+        "date": "2023-05-11",
+        "eps_estimate": 13600.0,
+        "eps_actual": 99.91,
+        "surprise_pct": -99.27
+      },
+      {
+        "date": "2022-11-01",
+        "eps_estimate": 116.7,
+        "eps_actual": 124.3,
+        "surprise_pct": 6.51
+      },
+      {
+        "date": "2022-08-02",
+        "eps_estimate": 119.9,
+        "eps_actual": 183.43,
+        "surprise_pct": 52.99
+      },
+      {
+        "date": "2022-02-08",
+        "eps_estimate": 78.4,
+        "eps_actual": -25.38,
+        "surprise_pct": -132.37
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 9.07,
-    "institution_pct": 45.18,
+    "insider_pct": 7.33,
+    "institution_pct": 45.25,
     "major_holders": [
       {
         "label": "",
-        "value": 9.07
+        "value": 7.33
       },
       {
         "label": "",
-        "value": 45.18
+        "value": 45.25
       },
       {
         "label": "",
-        "value": 49.69
+        "value": 48.83
       },
       {
         "label": "",
-        "value": 250.0
+        "value": 249.0
       }
     ],
     "institutional_holders": [],

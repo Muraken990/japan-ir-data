@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:33.937465",
+  "fetched_at": "2026-05-01T04:23:09.993325",
   "ticker": "6135",
   "ticker_full": "6135.T",
   "company_name": "MAKINO MILLING MACHINE CO",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 11520.0,
+    "current": 12540.0,
     "high": 12300.0,
     "low": 9700.0,
     "mean": 11000.0,
     "median": 11000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 1278.1,
+        "eps_actual": 310.69,
+        "surprise_pct": -75.69
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 1052.73,
+        "eps_actual": 235.78,
+        "surprise_pct": -77.6
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 980.55,
+        "eps_actual": 53.35,
+        "surprise_pct": -94.56
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 208.26,
+        "eps_actual": 165.87,
+        "surprise_pct": -20.35
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 194.99,
+        "eps_actual": 202.43,
+        "surprise_pct": 3.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.85,
-    "institution_pct": 34.95,
+    "institution_pct": 34.94,
     "major_holders": [
       {
         "label": "",
@@ -39,7 +72,7 @@
       },
       {
         "label": "",
-        "value": 34.95
+        "value": 34.94
       },
       {
         "label": "",
@@ -47,7 +80,7 @@
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 77.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +90,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.37,
         "pct_change": 0.0,
-        "value": 3928458240
+        "value": 4276290480
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 295529,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.19,
         "pct_change": 0.0,
-        "value": 3404494080
+        "value": 3705933660
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +106,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.77,
         "pct_change": 1.49,
-        "value": 2200700160
+        "value": 2395553820
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 164900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.66,
-        "pct_change": 0.0,
-        "value": 1899648000
+        "shares": 171700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.69,
+        "pct_change": 4.12,
+        "value": 2153118000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +122,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 1483776000
+        "value": 1615152000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,31 +130,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 1303925760
+        "value": 1419377520
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 90300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.46,
-        "value": 1040256000
+        "shares": 93200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 1.08,
+        "value": 1168728000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 73380,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.29,
-        "pct_change": 8.42,
-        "value": 845337600
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 66200,
+        "shares": 74580,
         "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 0.0,
-        "value": 762624000
+        "pct_held": 0.3,
+        "pct_change": 1.64,
+        "value": 935233200
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -129,7 +154,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 782208000
+        "value": 851466000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 66200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.27,
+        "pct_change": 0.0,
+        "value": 830148000
       }
     ],
     "mutualfund_holders": []

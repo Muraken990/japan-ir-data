@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:13.756517",
+  "fetched_at": "2026-05-01T04:20:39.992083",
   "ticker": "6412",
   "ticker_full": "6412.T",
   "company_name": "HEIWA CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1886.0,
+    "current": 1805.0,
     "high": 2740.0,
     "low": 2740.0,
     "mean": 2740.0,
     "median": 2740.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 93.3,
+        "eps_actual": 42.31,
+        "surprise_pct": -54.65
+      },
+      {
+        "date": "2023-02-07",
+        "eps_estimate": 61.8,
+        "eps_actual": 98.44,
+        "surprise_pct": 59.29
+      },
+      {
+        "date": "2022-11-08",
+        "eps_estimate": 32.4,
+        "eps_actual": 55.18,
+        "surprise_pct": 70.31
+      },
+      {
+        "date": "2022-05-12",
+        "eps_estimate": -32.5,
+        "eps_actual": -24.44,
+        "surprise_pct": 24.8
+      },
+      {
+        "date": "2022-02-08",
+        "eps_estimate": 58.8,
+        "eps_actual": 20.89,
+        "surprise_pct": -64.47
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 47.07,
-    "institution_pct": 11.7,
+    "institution_pct": 11.25,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 11.7
+        "value": 11.25
       },
       {
         "label": "",
-        "value": 22.1
+        "value": 21.26
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 63.0
       }
     ],
     "institutional_holders": [],

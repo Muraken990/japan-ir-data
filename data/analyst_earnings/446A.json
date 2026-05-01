@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:40:52.730047",
+  "fetched_at": "2026-05-01T04:12:51.573727",
   "ticker": "446A",
   "ticker_full": "446A.T",
   "company_name": "NORTHSAND INC",
@@ -8,31 +8,47 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 0,
-    "buy": 0,
+    "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 0,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "total_analysts": 1,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1277.0,
+    "current": 1280.0,
     "high": 3000.0,
     "low": 3000.0,
     "mean": 3000.0,
     "median": 3000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": false
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 72.17,
+    "institution_pct": 11.13,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 72.17
+      },
+      {
+        "label": "",
+        "value": 11.13
+      },
+      {
+        "label": "",
+        "value": 40.0
+      },
+      {
+        "label": "",
+        "value": 13.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:40.677984",
+  "fetched_at": "2026-05-01T04:32:36.193966",
   "ticker": "9502",
   "ticker_full": "9502.T",
   "company_name": "CHUBU ELECTRIC POWER CO INC",
@@ -18,15 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2722.0,
+    "current": 2667.0,
     "high": 3000.0,
     "low": 1960.0,
     "mean": 2750.0,
     "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-29",
+      "eps_estimate": 132.7,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": -10.9,
+        "eps_actual": 33.39,
+        "surprise_pct": 406.33
+      },
+      {
+        "date": "2026-02-01",
+        "eps_estimate": 19.9,
+        "eps_actual": 47.9,
+        "surprise_pct": 140.7
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 109.2,
+        "eps_actual": 107.3,
+        "surprise_pct": -1.74
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 132.7,
+        "eps_actual": 112.98,
+        "surprise_pct": -14.86
+      },
+      {
+        "date": "2025-04-28",
+        "eps_estimate": 56.6,
+        "eps_actual": 46.29,
+        "surprise_pct": -18.22
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
@@ -47,7 +85,7 @@
       },
       {
         "label": "",
-        "value": 253.0
+        "value": 245.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 12249000
+        "value": 12001500
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 10598940,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.4,
-        "pct_change": 6.91,
-        "value": 28850314680
+        "shares": 10713640,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.41,
+        "pct_change": 1.08,
+        "value": 28573277880
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,31 +113,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.91,
         "pct_change": 2.4,
-        "value": 18869941082
+        "value": 18488660127
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 4708500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 0.98,
-        "value": 12816537000
+        "shares": 4839300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.64,
+        "pct_change": 1.28,
+        "value": 12906413100
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 3461000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": 2.65,
-        "value": 9420842000
+        "shares": 3414500,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.45,
+        "pct_change": -1.34,
+        "value": 9106471500
       },
       {
         "holder": "iShares Trust-iShares Global Clean Energy ETF",
-        "shares": 2686800,
-        "date_reported": "2026-01-31",
+        "shares": 2781100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 1.43,
+        "value": 7417193700
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 2669300,
+        "date_reported": "2026-03-31",
         "pct_held": 0.35,
-        "pct_change": -42.09,
-        "value": 7313469600
+        "pct_change": -0.42,
+        "value": 7119023100
       },
       {
         "holder": "COHEN & STEERS INFRASTRUCTURE FUND INC",
@@ -107,31 +153,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.34,
         "pct_change": 54.47,
-        "value": 7041814000
+        "value": 6899529000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2458212,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 1.24,
-        "value": 6691253064
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2370900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.05,
-        "value": 6453589800
+        "shares": 2487812,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.33,
+        "pct_change": 1.2,
+        "value": 6634994604
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 2364500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
-        "pct_change": 0.54,
-        "value": 6436169000
+        "pct_change": 0.0,
+        "value": 6306121500
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -139,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": -3.91,
-        "value": 6045834200
+        "value": 5923673700
       }
     ]
   }

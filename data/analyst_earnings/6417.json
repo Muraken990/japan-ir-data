@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:11.744650",
+  "fetched_at": "2026-05-01T04:29:00.166478",
   "ticker": "6417",
   "ticker_full": "6417.T",
   "company_name": "SANKYO CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1979.0,
+    "current": 1836.5,
     "high": 3200.0,
     "low": 1900.0,
     "mean": 2500.0,
     "median": 2450.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2013-02-04",
+        "eps_estimate": -1.06,
+        "eps_actual": -5.74,
+        "surprise_pct": -441.89
+      },
+      {
+        "date": "2012-11-04",
+        "eps_estimate": 12.62,
+        "eps_actual": 7.83,
+        "surprise_pct": -37.94
+      },
+      {
+        "date": "2012-08-01",
+        "eps_estimate": 5.78,
+        "eps_actual": 2.03,
+        "surprise_pct": -64.95
+      },
+      {
+        "date": "2012-05-08",
+        "eps_estimate": 22.6,
+        "eps_actual": 21.23,
+        "surprise_pct": -6.08
+      },
+      {
+        "date": "2011-08-03",
+        "eps_estimate": 2.57,
+        "eps_actual": 6.94,
+        "surprise_pct": 169.83
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.28,
-    "institution_pct": 34.16,
+    "institution_pct": 33.13,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 34.16
+        "value": 33.13
       },
       {
         "label": "",
-        "value": 37.66
+        "value": 36.51
       },
       {
         "label": "",
-        "value": 160.0
+        "value": 157.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.04,
         "pct_change": -9.36,
-        "value": 184646637
+        "value": 171350959
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 4997000,
-        "date_reported": "2025-11-30",
-        "pct_held": 2.17,
-        "pct_change": 1.09,
-        "value": 9889063000
+        "shares": 5121900,
+        "date_reported": "2026-02-28",
+        "pct_held": 2.23,
+        "pct_change": 2.5,
+        "value": 9406369350
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -75,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.55,
         "pct_change": -3.34,
-        "value": 7062853100
+        "value": 6554284850
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2596190,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.13,
-        "pct_change": -3.06,
-        "value": 5137860010
+        "pct_change": 0.0,
+        "value": 4767902935
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,7 +129,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.73,
         "pct_change": 1.61,
-        "value": 3332180830
+        "value": 3092243605
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 1483700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.65,
+        "pct_change": 1.39,
+        "value": 2724815050
       },
       {
         "holder": "SmallCap World Fund Inc",
@@ -99,7 +145,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.63,
         "pct_change": 1.0,
-        "value": 2887558900
+        "value": 2679637150
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -107,31 +153,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.63,
         "pct_change": -3.02,
-        "value": 2853915900
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1440100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.63,
-        "pct_change": 1.07,
-        "value": 2849957900
+        "value": 2648416650
       },
       {
         "holder": "MFS SERIES TRUST IV-MFS Blended Research International Equity Fund",
-        "shares": 892000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.39,
-        "pct_change": 45.18,
-        "value": 1765268000
+        "shares": 1240000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.54,
+        "pct_change": 39.01,
+        "value": 2277260000
       },
       {
         "holder": "Columbia Funds Series Trust II-Columbia Overseas Core Fund",
-        "shares": 873300,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.38,
-        "pct_change": -3.85,
-        "value": 1728260700
+        "shares": 820000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.36,
+        "pct_change": -6.1,
+        "value": 1505930000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -139,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 1600714150
+        "value": 1485453025
       }
     ]
   }

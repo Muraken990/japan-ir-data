@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:44.575809",
+  "fetched_at": "2026-05-01T04:24:23.634884",
   "ticker": "8524",
   "ticker_full": "8524.T",
   "company_name": "NORTH PACIFIC BANK LIMITED",
@@ -18,20 +18,34 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 986.0,
+    "current": 997.0,
     "high": 1000.0,
-    "low": 800.0,
-    "mean": 900.0,
-    "median": 900.0
+    "low": 1000.0,
+    "mean": 1000.0,
+    "median": 1000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-11-27",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.95,
-    "institution_pct": 40.72,
+    "institution_pct": 40.78,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +53,15 @@
       },
       {
         "label": "",
-        "value": 40.72
+        "value": 40.78
       },
       {
         "label": "",
-        "value": 46.25
+        "value": 46.31
       },
       {
         "label": "",
-        "value": 84.0
+        "value": 87.0
       }
     ],
     "institutional_holders": [],

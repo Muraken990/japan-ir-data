@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:47.583397",
+  "fetched_at": "2026-05-01T04:11:44.476912",
   "ticker": "186A",
   "ticker_full": "186A.T",
   "company_name": "ASTROSCALE HOLDINGS INC",
@@ -13,37 +13,44 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 891.0,
+    "current": 1343.0,
     "high": 1200.0,
     "low": 950.0,
     "mean": 1075.0,
     "median": 1075.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 34.23,
-    "institution_pct": 27.13,
+    "insider_pct": 33.98,
+    "institution_pct": 28.49,
     "major_holders": [
       {
         "label": "",
-        "value": 34.23
+        "value": 33.98
       },
       {
         "label": "",
-        "value": 27.13
+        "value": 28.49
       },
       {
         "label": "",
-        "value": 41.25
+        "value": 43.16
       },
       {
         "label": "",
@@ -52,20 +59,22 @@
     ],
     "institutional_holders": [
       {
-        "holder": "Procure ETF Trust II-Procure Space ETF",
-        "shares": 203200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.15,
-        "pct_change": -7.8,
-        "value": 181051200
-      },
+        "holder": "Ascentis Independent Advisors",
+        "shares": 100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 134300
+      }
+    ],
+    "mutualfund_holders": [
       {
-        "holder": "-American Century Federated Managed Volatility Fund II",
-        "shares": 20000,
+        "holder": "Procure ETF Trust II-Procure Space ETF",
+        "shares": 435200,
         "date_reported": "2026-01-31",
-        "pct_held": 0.01,
-        "pct_change": -20.0,
-        "value": 17820000
+        "pct_held": 0.32,
+        "pct_change": 1.14,
+        "value": 584473600
       },
       {
         "holder": "Federated Hermes Insurance Series-Federated Hermes Mnged Volatility Fd",
@@ -73,7 +82,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.01,
         "pct_change": -20.0,
-        "value": 17820000
+        "value": 26860000
       },
       {
         "holder": "Federated Hermes Equity Funds-Federated Hermes Prudent Bear Fund",
@@ -81,17 +90,24 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.01,
         "pct_change": -40.0,
-        "value": 13365000
+        "value": 20145000
+      },
+      {
+        "holder": "-American Century Federated Managed Volatility Fund II",
+        "shares": 20000,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.01,
+        "pct_change": -20.0,
+        "value": 26860000
       },
       {
         "holder": "-WisdomTree Asia Defense Fund",
-        "shares": 12630,
-        "date_reported": "2026-01-31",
+        "shares": 12830,
+        "date_reported": "2026-03-31",
         "pct_held": 0.01,
-        "pct_change": 61.3,
-        "value": 11253330
+        "pct_change": -9.84,
+        "value": 17230690
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

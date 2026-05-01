@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:27.604486",
+  "fetched_at": "2026-05-01T04:22:00.176669",
   "ticker": "3050",
   "ticker_full": "3050.T",
   "company_name": "DCM HOLDINGS CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1622.0,
-    "high": 1700.0,
-    "low": 1700.0,
-    "mean": 1700.0,
-    "median": 1700.0
+    "current": 1458.0,
+    "high": 1750.0,
+    "low": 1750.0,
+    "mean": 1750.0,
+    "median": 1750.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-26",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2015-12-27",
+        "eps_estimate": 14.71,
+        "eps_actual": 16.75,
+        "surprise_pct": 13.9
+      },
+      {
+        "date": "2015-09-27",
+        "eps_estimate": 24.02,
+        "eps_actual": 24.1,
+        "surprise_pct": 0.32
+      },
+      {
+        "date": "2015-06-25",
+        "eps_estimate": 32.57,
+        "eps_actual": 25.11,
+        "surprise_pct": -22.89
+      },
+      {
+        "date": "2015-04-09",
+        "eps_estimate": 6.11,
+        "eps_actual": 3.36,
+        "surprise_pct": -44.99
+      },
+      {
+        "date": "2014-12-25",
+        "eps_estimate": 10.96,
+        "eps_actual": 13.07,
+        "surprise_pct": 19.23
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.21,
-    "institution_pct": 16.29,
+    "institution_pct": 16.26,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 16.29
+        "value": 16.26
       },
       {
         "label": "",
-        "value": 22.38
+        "value": 22.33
       },
       {
         "label": "",
@@ -57,7 +95,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.21,
         "pct_change": 0.0,
-        "value": 2875011220
+        "value": 2584319580
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.97,
         "pct_change": 0.0,
-        "value": 2300453404
+        "value": 2067855156
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.63,
         "pct_change": 6.31,
-        "value": 1508198858
+        "value": 1355705262
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.54,
         "pct_change": 0.97,
-        "value": 1281055600
+        "value": 1151528400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +127,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 1007099800
+        "value": 905272200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,7 +135,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 863358160
+        "value": 776064240
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -105,15 +143,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.25,
         "pct_change": 1.48,
-        "value": 591381200
+        "value": 531586800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 361700,
-        "date_reported": "2025-12-31",
+        "shares": 369700,
+        "date_reported": "2026-01-31",
         "pct_held": 0.25,
-        "pct_change": 0.0,
-        "value": 586677400
+        "pct_change": 2.21,
+        "value": 539022600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -121,7 +159,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.21,
         "pct_change": 2.83,
-        "value": 507017736
+        "value": 455753304
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2025-11-30",
         "pct_held": 0.18,
         "pct_change": -2.05,
-        "value": 419068030
+        "value": 376696170
       }
     ],
     "mutualfund_holders": []

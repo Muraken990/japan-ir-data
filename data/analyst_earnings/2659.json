@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:17.976447",
+  "fetched_at": "2026-05-01T04:19:42.882876",
   "ticker": "2659",
   "ticker_full": "2659.T",
   "company_name": "SAN-A CO LTD",
@@ -13,25 +13,32 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3070.0,
+    "current": 3235.0,
     "high": 3400.0,
     "low": 3100.0,
     "mean": 3250.0,
     "median": 3250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.04,
-    "institution_pct": 17.68,
+    "institution_pct": 17.76,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +46,11 @@
       },
       {
         "label": "",
-        "value": 17.68
+        "value": 17.76
       },
       {
         "label": "",
-        "value": 26.4
+        "value": 26.53
       },
       {
         "label": "",
@@ -54,10 +61,10 @@
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 535900,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.84,
-        "pct_change": 2.02,
-        "value": 1645213000
+        "pct_change": 0.0,
+        "value": 1733636500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +72,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.58,
         "pct_change": 0.0,
-        "value": 1144710900
+        "value": 1206234450
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 253800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 779166000
+        "value": 821043000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,7 +88,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": -3.14,
-        "value": 634569000
+        "value": 668674500
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Small Cap Fund",
@@ -89,31 +96,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -5.36,
-        "value": 525507250
+        "value": 553751125
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 160600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 1.65,
-        "value": 493042000
+        "shares": 166400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": 1.22,
+        "value": 538304000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 128188,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.2,
-        "pct_change": -2.06,
-        "value": 393537160
-      },
-      {
-        "holder": "ALLSPRING FUNDS TRUST-Allspring Special International Small Cap Fund",
-        "shares": 127900,
+        "shares": 145288,
         "date_reported": "2026-01-31",
-        "pct_held": 0.2,
-        "pct_change": -5.89,
-        "value": 392653000
+        "pct_held": 0.23,
+        "pct_change": 13.34,
+        "value": 470006680
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -121,15 +120,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": -2.71,
-        "value": 386206000
+        "value": 406963000
+      },
+      {
+        "holder": "ALLSPRING FUNDS TRUST-Allspring Special International Small Cap Fund",
+        "shares": 127900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.2,
+        "pct_change": 0.0,
+        "value": 413756500
       },
       {
         "holder": "SEI Inst. INVESTMENTS TRT-SIIT Global Mnged Volatility Fd.",
         "shares": 109600,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 336472000
+        "value": 354556000
       }
     ],
     "mutualfund_holders": []

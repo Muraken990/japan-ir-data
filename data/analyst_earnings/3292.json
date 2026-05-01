@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:46.465953",
+  "fetched_at": "2026-05-01T04:23:22.592264",
   "ticker": "3292",
   "ticker_full": "3292.T",
   "company_name": "AEON REIT INVESTMENT CORPORATIO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 126100.0,
+    "current": 125800.0,
     "high": 148300.0,
-    "low": 136000.0,
-    "mean": 139825.0,
-    "median": 137500.0
+    "low": 135000.0,
+    "mean": 139075.0,
+    "median": 136500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-16",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.56,
-    "institution_pct": 41.18,
+    "institution_pct": 41.03,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 41.18
+        "value": 41.03
       },
       {
         "label": "",
-        "value": 53.18
+        "value": 52.98
       },
       {
         "label": "",
-        "value": 123.0
+        "value": 122.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 24525,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.17,
         "pct_change": 0.0,
-        "value": 3092602500
+        "value": 3085245000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +72,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.76,
         "pct_change": -1.25,
-        "value": 2008142500
+        "value": 2003365000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 13135,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 0.58,
-        "value": 1656323500
+        "shares": 13353,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.64,
+        "pct_change": 0.77,
+        "value": 1679807400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -81,7 +88,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.52,
         "pct_change": -4.26,
-        "value": 1385712900
+        "value": 1382416200
       },
       {
         "holder": "CBRE Global Real Estate Income Fund",
@@ -89,47 +96,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 923178100
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
-        "shares": 6279,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.3,
-        "pct_change": -3.44,
-        "value": 791781900
+        "value": 920981800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 6124,
+        "shares": 6356,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.27,
+        "value": 799584800
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
+        "shares": 5984,
         "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.73,
-        "value": 772236400
+        "pct_held": 0.28,
+        "pct_change": -4.7,
+        "value": 752787200
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 4506,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 3.66,
-        "value": 568206600
+        "shares": 4550,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": 0.24,
+        "value": 572390000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 3699,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.18,
-        "pct_change": 1.68,
-        "value": 466443900
+        "pct_change": 0.0,
+        "value": 465334200
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
         "shares": 3746,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-02-28",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 472370600
+        "value": 471246800
       }
     ],
     "mutualfund_holders": []

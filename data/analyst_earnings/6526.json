@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:53.725838",
+  "fetched_at": "2026-05-01T04:25:34.112538",
   "ticker": "6526",
   "ticker_full": "6526.T",
   "company_name": "SOCIONEXT INC",
@@ -9,29 +9,36 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 3,
-    "hold": 2,
-    "sell": 0,
+    "hold": 1,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.2
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 2026.0,
-    "high": 3300.0,
-    "low": 2000.0,
-    "mean": 2580.0,
+    "current": 1924.0,
+    "high": 3100.0,
+    "low": 1700.0,
+    "mean": 2330.0,
     "median": 2300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 1.16,
-    "institution_pct": 49.96,
+    "institution_pct": 49.14,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 49.96
+        "value": 49.14
       },
       {
         "label": "",
-        "value": 50.55
+        "value": 49.71
       },
       {
         "label": "",
-        "value": 153.0
+        "value": 151.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2539845,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.41,
-        "pct_change": -1.5,
-        "value": 5144456047
+        "shares": 2549845,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.42,
+        "pct_change": 0.39,
+        "value": 4905901780
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +72,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 2.23,
-        "value": 3356435795
+        "value": 3188241160
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1258300,
+        "shares": 1280100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": 0.8,
+        "value": 2462912400
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
+        "shares": 716500,
         "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 0.61,
-        "value": 2548686650
+        "pct_held": 0.4,
+        "pct_change": 19.66,
+        "value": 1378546000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,23 +96,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 31.45,
-        "value": 1434007413
+        "value": 1362147748
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 685400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.38,
-        "pct_change": 2.64,
-        "value": 1388277700
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 598800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.33,
-        "pct_change": 3.72,
-        "value": 1212869400
+        "shares": 708600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": 1.14,
+        "value": 1363346400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,31 +112,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 1.5,
-        "value": 1129258785
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 388678,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.22,
-        "pct_change": 0.9,
-        "value": 787267289
+        "value": 1072670404
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 382000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.21,
-        "pct_change": 0.13,
-        "value": 773741000
+        "shares": 388800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 1.78,
+        "value": 748051200
       },
       {
-        "holder": "NEUBERGER BERMAN EQUITY FUNDS-Neuberger International Equity Fund",
-        "shares": 371600,
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 392275,
         "date_reported": "2026-02-28",
-        "pct_held": 0.21,
-        "pct_change": -3.33,
-        "value": 752675800
+        "pct_held": 0.22,
+        "pct_change": 0.93,
+        "value": 754737100
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
+        "shares": 257100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.14,
+        "pct_change": 27.21,
+        "value": 494660400
       }
     ],
     "mutualfund_holders": []

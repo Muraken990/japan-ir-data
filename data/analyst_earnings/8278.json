@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:06.023008",
+  "fetched_at": "2026-05-01T04:19:29.944796",
   "ticker": "8278",
   "ticker_full": "8278.T",
   "company_name": "FUJI CO(TOKYO)",
@@ -17,20 +17,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2097.0,
+    "current": 2050.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-01-05",
+        "eps_estimate": 24.86,
+        "eps_actual": 28.11,
+        "surprise_pct": 13.06
+      },
+      {
+        "date": "2016-07-03",
+        "eps_estimate": 29.28,
+        "eps_actual": 35.65,
+        "surprise_pct": 21.76
+      },
+      {
+        "date": "2016-01-05",
+        "eps_estimate": 26.19,
+        "eps_actual": 28.71,
+        "surprise_pct": 9.62
+      },
+      {
+        "date": "2015-07-05",
+        "eps_estimate": 24.64,
+        "eps_actual": 34.64,
+        "surprise_pct": 40.58
+      },
+      {
+        "date": "2015-04-12",
+        "eps_estimate": 29.28,
+        "eps_actual": 20.13,
+        "surprise_pct": -31.25
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 64.43,
-    "institution_pct": 12.25,
+    "institution_pct": 12.26,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +76,11 @@
       },
       {
         "label": "",
-        "value": 12.25
+        "value": 12.26
       },
       {
         "label": "",
-        "value": 34.45
+        "value": 34.48
       },
       {
         "label": "",

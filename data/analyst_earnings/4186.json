@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:18.866248",
+  "fetched_at": "2026-05-01T04:29:07.758536",
   "ticker": "4186",
   "ticker_full": "4186.T",
   "company_name": "TOKYO OHKA KOGYO CO",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 7,
-    "hold": 5,
+    "buy": 6,
+    "hold": 6,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 13,
@@ -18,46 +18,84 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 7672.0,
+    "current": 8998.0,
     "high": 12510.0,
     "low": 6000.0,
-    "mean": 8495.833,
-    "median": 8550.0
+    "mean": 8695.833,
+    "median": 8950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 75.28,
+        "eps_actual": 94.14,
+        "surprise_pct": 25.05
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 57.33,
+        "eps_actual": 70.45,
+        "surprise_pct": 22.88
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 45.8,
+        "eps_actual": 50.92,
+        "surprise_pct": 11.17
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 38.17,
+        "eps_actual": 62.91,
+        "surprise_pct": 64.82
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 55.06,
+        "eps_actual": 58.21,
+        "surprise_pct": 5.72
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.67,
-    "institution_pct": 41.45,
+    "insider_pct": 9.2,
+    "institution_pct": 41.46,
     "major_holders": [
       {
         "label": "",
-        "value": 7.67
+        "value": 9.2
       },
       {
         "label": "",
-        "value": 41.45
+        "value": 41.46
       },
       {
         "label": "",
-        "value": 44.89
+        "value": 45.66
       },
       {
         "label": "",
-        "value": 164.0
+        "value": 168.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1460873,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.14,
         "pct_change": 0.0,
-        "value": 11207817656
+        "value": 13146396127
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 2.53,
-        "value": 7278786984
+        "value": 8537774253
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
@@ -73,15 +111,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.7,
         "pct_change": 0.0,
-        "value": 6904800000
+        "value": 8099100000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 685100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.54,
-        "pct_change": 1.12,
-        "value": 5256087200
+        "shares": 706900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.55,
+        "pct_change": 1.46,
+        "value": 6361393100
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -89,15 +127,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.52,
         "pct_change": 12.08,
-        "value": 5075795200
+        "value": 5953738400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 365700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 2.12,
-        "value": 2805650400
+        "shares": 377300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.07,
+        "value": 3395322700
       },
       {
         "holder": "JANUS INVESTMENT FUND-Janus Henderson Overseas Fund",
@@ -105,7 +143,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.27,
         "pct_change": 1.0,
-        "value": 2640702400
+        "value": 3097455800
       },
       {
         "holder": "AIM Fd.s Group -Invesco Intl Small Company Fd.",
@@ -113,23 +151,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.21,
         "pct_change": 12.73,
-        "value": 2065302400
+        "value": 2422530800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 218934,
-        "date_reported": "2025-10-31",
+        "shares": 222834,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": 1.62,
-        "value": 1679661648
+        "pct_change": 1.78,
+        "value": 2005283166
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 217466,
-        "date_reported": "2025-11-30",
+        "shares": 219428,
+        "date_reported": "2026-02-28",
         "pct_held": 0.17,
         "pct_change": 0.9,
-        "value": 1668399152
+        "value": 1974632572
       }
     ],
     "mutualfund_holders": []

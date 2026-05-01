@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:00.615195",
+  "fetched_at": "2026-05-01T04:17:22.526444",
   "ticker": "2692",
   "ticker_full": "2692.T",
   "company_name": "ITOCHU SHOKUHIN CO",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 12980.0,
+    "current": 12940.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2022-01-30",
+        "eps_estimate": 189.17,
+        "eps_actual": 204.2,
+        "surprise_pct": 7.95
+      },
+      {
+        "date": "2021-07-27",
+        "eps_estimate": 63.06,
+        "eps_actual": 93.54,
+        "surprise_pct": 48.33
+      },
+      {
+        "date": "2021-04-27",
+        "eps_estimate": 51.23,
+        "eps_actual": -19.48,
+        "surprise_pct": -138.02
+      },
+      {
+        "date": "2021-01-28",
+        "eps_estimate": 153.7,
+        "eps_actual": 193.96,
+        "surprise_pct": 26.19
+      },
+      {
+        "date": "2020-10-29",
+        "eps_estimate": 74.88,
+        "eps_actual": 80.42,
+        "surprise_pct": 7.4
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 67.25,
-    "institution_pct": 8.14,
+    "insider_pct": 89.82,
+    "institution_pct": 5.6,
     "major_holders": [
       {
         "label": "",
-        "value": 67.25
+        "value": 89.82
       },
       {
         "label": "",
-        "value": 8.14
+        "value": 5.6
       },
       {
         "label": "",
-        "value": 24.85
+        "value": 55.0
       },
       {
         "label": "",
-        "value": 49.0
+        "value": 46.0
       }
     ],
     "institutional_holders": [],

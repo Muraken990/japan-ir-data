@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:40.574357",
+  "fetched_at": "2026-05-01T04:31:35.260877",
   "ticker": "4151",
   "ticker_full": "4151.T",
   "company_name": "KYOWA KIRIN CO LTD",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 4,
-    "hold": 3,
+    "hold": 4,
     "sell": 1,
     "strong_sell": 1,
-    "total_analysts": 10,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 11,
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.45455
   },
   "target_prices": {
     "has_data": true,
-    "current": 2693.5,
+    "current": 2402.0,
     "high": 3100.0,
     "low": 1600.0,
-    "mean": 2140.9092,
+    "mean": 2150.0,
     "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": 27.46,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-08",
+        "eps_estimate": 37.6,
+        "eps_actual": 65.79,
+        "surprise_pct": 74.99
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 28.91,
+        "eps_actual": 31.1,
+        "surprise_pct": 7.56
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 31.83,
+        "eps_actual": 19.4,
+        "surprise_pct": -39.06
+      },
+      {
+        "date": "2025-05-01",
+        "eps_estimate": 26.11,
+        "eps_actual": 11.78,
+        "surprise_pct": -54.89
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 23.9,
+        "eps_actual": 7.86,
+        "surprise_pct": -67.12
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 55.0,
-    "institution_pct": 18.02,
+    "institution_pct": 18.28,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 18.02
+        "value": 18.28
       },
       {
         "label": "",
-        "value": 40.05
+        "value": 40.61
       },
       {
         "label": "",
-        "value": 252.0
+        "value": 248.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -98.19,
-        "value": 33647202
+        "value": 30005784
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.54,
-        "value": 4993749
+        "value": 4453308
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3405846,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.65,
-        "pct_change": -0.77,
-        "value": 9173646201
+        "shares": 3457846,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.66,
+        "pct_change": 1.53,
+        "value": 8305746092
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,47 +121,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.42,
         "pct_change": 1.71,
-        "value": 5965297143
+        "value": 5319711802
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1643200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 0.93,
-        "value": 4425959200
+        "shares": 1686800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 1.22,
+        "value": 4051693600
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 850154,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.16,
-        "pct_change": 1.23,
-        "value": 2289889799
+        "holder": "iShares Trust-iShares MSCI EAFE Min Vol Factor ETF",
+        "shares": 1019200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.19,
+        "pct_change": -2.91,
+        "value": 2448118400
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 821000,
-        "date_reported": "2026-01-31",
+        "shares": 926300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": -0.94,
+        "value": 2224972600
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 862154,
+        "date_reported": "2026-02-28",
         "pct_held": 0.16,
-        "pct_change": 1.12,
-        "value": 2211363500
+        "pct_change": 1.41,
+        "value": 2070893908
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 812800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.15,
-        "pct_change": 0.59,
-        "value": 2189276800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Min Vol Factor ETF",
-        "shares": 667100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": -1.07,
-        "value": 1796833850
+        "pct_change": 0.0,
+        "value": 1952345600
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,23 +169,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": -3.79,
-        "value": 1868480950
+        "value": 1666267400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 511682,
-        "date_reported": "2025-10-31",
+        "shares": 517582,
+        "date_reported": "2026-01-31",
         "pct_held": 0.1,
-        "pct_change": -0.23,
-        "value": 1378215467
+        "pct_change": 1.15,
+        "value": 1243231964
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 477230,
-        "date_reported": "2025-11-30",
+        "shares": 481699,
+        "date_reported": "2026-02-28",
         "pct_held": 0.09,
-        "pct_change": -12.23,
-        "value": 1285419005
+        "pct_change": 0.94,
+        "value": 1157040998
       }
     ]
   }

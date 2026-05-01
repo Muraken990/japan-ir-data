@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:57.754337",
+  "fetched_at": "2026-05-01T04:24:35.860248",
   "ticker": "3549",
   "ticker_full": "3549.T",
   "company_name": "KUSURI NO AOKI HOLDINGS CO LTD",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 4,
+    "buy": 0,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3920.0,
-    "high": 5000.0,
-    "low": 3900.0,
-    "mean": 4400.0,
-    "median": 4300.0
+    "current": 3786.0,
+    "high": 4300.0,
+    "low": 3750.0,
+    "mean": 3996.0,
+    "median": 3900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-02",
+      "eps_estimate": 27.49,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-02",
+        "eps_estimate": 53.75,
+        "eps_actual": 60.11,
+        "surprise_pct": 11.83
+      },
+      {
+        "date": "2025-12-25",
+        "eps_estimate": 36.08,
+        "eps_actual": 47.46,
+        "surprise_pct": 31.54
+      },
+      {
+        "date": "2025-10-01",
+        "eps_estimate": 51.29,
+        "eps_actual": 50.25,
+        "surprise_pct": -2.02
+      },
+      {
+        "date": "2025-07-02",
+        "eps_estimate": 39.45,
+        "eps_actual": 37.77,
+        "surprise_pct": -4.25
+      },
+      {
+        "date": "2025-04-03",
+        "eps_estimate": 58.12,
+        "eps_actual": 51.26,
+        "surprise_pct": -11.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 55.87,
-    "institution_pct": 29.82,
+    "institution_pct": 28.94,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 29.82
+        "value": 28.94
       },
       {
         "label": "",
-        "value": 67.58
+        "value": 65.58
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [],

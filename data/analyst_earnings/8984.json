@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:10.574840",
+  "fetched_at": "2026-05-01T04:28:58.875749",
   "ticker": "8984",
   "ticker_full": "8984.T",
   "company_name": "DAIWA HOUSE REIT INVESTMENT COR",
@@ -8,30 +8,37 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 1,
-    "buy": 2,
-    "hold": 3,
+    "buy": 1,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 126500.0,
+    "current": 125600.0,
     "high": 164400.0,
-    "low": 130000.0,
-    "mean": 146233.33,
-    "median": 147500.0
+    "low": 135000.0,
+    "mean": 145233.33,
+    "median": 142000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.94,
-    "institution_pct": 53.73,
+    "institution_pct": 52.29,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 53.73
+        "value": 52.29
       },
       {
         "label": "",
-        "value": 60.32
+        "value": 58.71
       },
       {
         "label": "",
-        "value": 149.0
+        "value": 145.0
       }
     ],
     "institutional_holders": [],

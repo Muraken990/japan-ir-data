@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:41.904182",
+  "fetched_at": "2026-05-01T04:15:01.290898",
   "ticker": "7226",
   "ticker_full": "7226.T",
   "company_name": "KYOKUTO KAIHATSU KOGYO CO",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2944.0,
+    "current": 2708.0,
     "high": 4200.0,
     "low": 4200.0,
     "mean": 4200.0,
     "median": 4200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2022-02-03",
+        "eps_estimate": 34.4,
+        "eps_actual": 21.67,
+        "surprise_pct": -37.01
+      },
+      {
+        "date": "2021-11-09",
+        "eps_estimate": 267.3,
+        "eps_actual": 39.58,
+        "surprise_pct": -85.19
+      },
+      {
+        "date": "2021-02-04",
+        "eps_estimate": 24.2,
+        "eps_actual": 37.16,
+        "surprise_pct": 53.55
+      },
+      {
+        "date": "2020-11-10",
+        "eps_estimate": 43.0,
+        "eps_actual": 37.88,
+        "surprise_pct": -11.91
+      },
+      {
+        "date": "2020-05-25",
+        "eps_estimate": 31.2,
+        "eps_actual": 55.13,
+        "surprise_pct": 76.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.31,
-    "institution_pct": 34.56,
+    "institution_pct": 34.46,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 34.56
+        "value": 34.46
       },
       {
         "label": "",
-        "value": 42.83
+        "value": 42.71
       },
       {
         "label": "",

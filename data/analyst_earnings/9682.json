@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:18.198750",
+  "fetched_at": "2026-05-01T04:20:45.191811",
   "ticker": "9682",
   "ticker_full": "9682.T",
   "company_name": "DTS CORPORATION",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1054.0,
+    "current": 1012.0,
     "high": 1425.0,
     "low": 1200.0,
     "mean": 1312.5,
     "median": 1312.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-01",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2018-02-06",
+        "eps_estimate": 6.94,
+        "eps_actual": 6.96,
+        "surprise_pct": 0.38
+      },
+      {
+        "date": "2017-11-01",
+        "eps_estimate": 6.56,
+        "eps_actual": 8.3,
+        "surprise_pct": 26.48
+      },
+      {
+        "date": "2017-05-10",
+        "eps_estimate": 5.05,
+        "eps_actual": 7.89,
+        "surprise_pct": 56.21
+      },
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 5.74,
+        "eps_actual": 6.13,
+        "surprise_pct": 6.86
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.98,
-    "institution_pct": 35.65,
+    "institution_pct": 35.58,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 35.65
+        "value": 35.58
       },
       {
         "label": "",
-        "value": 42.43
+        "value": 42.34
       },
       {
         "label": "",
-        "value": 109.0
+        "value": 106.0
       }
     ],
     "institutional_holders": [],

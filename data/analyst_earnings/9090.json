@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:00.734377",
+  "fetched_at": "2026-05-01T04:16:21.756841",
   "ticker": "9090",
   "ticker_full": "9090.T",
   "company_name": "AZ-COM MARUWA HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 896.0,
+    "current": 885.0,
     "high": 1170.0,
     "low": 1000.0,
     "mean": 1056.6666,
     "median": 1000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 15.9,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 15.9,
+        "eps_actual": 9.85,
+        "surprise_pct": -38.05
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 25.9,
+        "eps_actual": 23.1,
+        "surprise_pct": -10.81
+      },
+      {
+        "date": "2024-11-05",
+        "eps_estimate": 18.5,
+        "eps_actual": 12.04,
+        "surprise_pct": -34.92
+      },
+      {
+        "date": "2024-02-04",
+        "eps_estimate": 20.68,
+        "eps_actual": 22.63,
+        "surprise_pct": 9.43
+      },
+      {
+        "date": "2023-11-05",
+        "eps_estimate": 18.5,
+        "eps_actual": 19.29,
+        "surprise_pct": 4.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 60.53,
-    "institution_pct": 21.38,
+    "institution_pct": 22.0,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 21.38
+        "value": 22.0
       },
       {
         "label": "",
-        "value": 54.17
+        "value": 55.72
       },
       {
         "label": "",
@@ -57,7 +95,7 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 84224
+        "value": 83190
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 2.68,
         "pct_change": 0.0,
-        "value": 3314672256
+        "value": 3273978735
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 756079,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 677446784
+        "value": 669129915
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock K6 Fund",
@@ -83,15 +121,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 617698816
+        "value": 610115460
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity U.S. Total ",
         "shares": 665200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 596019200
+        "value": 588702000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,23 +137,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 412771072
+        "value": 407703570
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 286000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 256256000
+        "value": 253110000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 243700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": 2.18,
-        "value": 218355200
+        "shares": 255300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.19,
+        "pct_change": 1.59,
+        "value": 225940500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -123,23 +161,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 205721600
+        "value": 203196000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 188500,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.14,
-        "pct_change": 7.41,
-        "value": 168896000
+        "pct_change": 0.0,
+        "value": 166822500
       },
       {
         "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
         "shares": 112900,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.08,
         "pct_change": 0.0,
-        "value": 101158400
+        "value": 99916500
       }
     ]
   }

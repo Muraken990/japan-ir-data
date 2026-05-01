@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:43.937244",
+  "fetched_at": "2026-05-01T04:33:41.532486",
   "ticker": "9766",
   "ticker_full": "9766.T",
   "company_name": "KONAMI GROUP CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 19685.0,
+    "current": 19000.0,
     "high": 29580.0,
-    "low": 22500.0,
-    "mean": 25803.53,
+    "low": 22400.0,
+    "mean": 25410.588,
     "median": 25900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": 146.88,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 205.87,
+        "eps_actual": 205.54,
+        "surprise_pct": -0.16
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 168.3,
+        "eps_actual": 196.6,
+        "surprise_pct": 16.81
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 153.0,
+        "eps_actual": 146.32,
+        "surprise_pct": -4.37
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 125.02,
+        "eps_actual": 85.44,
+        "surprise_pct": -31.66
+      },
+      {
+        "date": "2025-01-31",
+        "eps_estimate": 155.97,
+        "eps_actual": 197.03,
+        "surprise_pct": 26.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.82,
-    "institution_pct": 35.97,
+    "institution_pct": 35.67,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 35.97
+        "value": 35.67
       },
       {
         "label": "",
-        "value": 49.82
+        "value": 49.42
       },
       {
         "label": "",
-        "value": 282.0
+        "value": 271.0
       }
     ],
     "institutional_holders": [],

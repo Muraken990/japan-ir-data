@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:38:22.820373",
+  "fetched_at": "2026-05-01T04:10:16.071657",
   "ticker": "3034",
   "ticker_full": "3034.T",
   "company_name": "QOL HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,20 +18,41 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1895.0,
+    "current": 1770.0,
     "high": 2100.0,
     "low": 2100.0,
     "mean": 2100.0,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2021-02-02",
+        "eps_estimate": 39.9,
+        "eps_actual": 41.8,
+        "surprise_pct": 4.76
+      },
+      {
+        "date": "2020-08-05",
+        "eps_estimate": 30.32,
+        "eps_actual": 5.94,
+        "surprise_pct": -80.41
+      },
+      {
+        "date": "2020-02-04",
+        "eps_estimate": 40.2,
+        "eps_actual": 28.51,
+        "surprise_pct": -29.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 53.88,
-    "institution_pct": 15.05,
+    "institution_pct": 19.09,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +60,15 @@
       },
       {
         "label": "",
-        "value": 15.05
+        "value": 19.09
       },
       {
         "label": "",
-        "value": 32.64
+        "value": 41.39
       },
       {
         "label": "",
-        "value": 46.0
+        "value": 47.0
       }
     ],
     "institutional_holders": [],

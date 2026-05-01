@@ -1,119 +1,133 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:07.777257",
+  "fetched_at": "2026-05-01T04:27:54.987141",
   "ticker": "2002",
   "ticker_full": "2002.T",
   "company_name": "NISSHIN SEIFUN GROUP INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
+    "total_analysts": 5,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2136.0,
+    "current": 2001.0,
     "high": 2450.0,
     "low": 2000.0,
     "mean": 2170.0,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 27.11,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 42.91,
+        "eps_actual": 43.63,
+        "surprise_pct": 1.68
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 26.16,
+        "eps_actual": -4.46,
+        "surprise_pct": -117.05
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 17.06,
+        "eps_actual": 14.64,
+        "surprise_pct": -14.19
+      },
+      {
+        "date": "2025-01-28",
+        "eps_estimate": 38.13,
+        "eps_actual": 34.21,
+        "surprise_pct": -10.28
+      },
+      {
+        "date": "2024-10-30",
+        "eps_estimate": 40.2,
+        "eps_actual": 32.02,
+        "surprise_pct": -20.35
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 16.92,
-    "institution_pct": 42.85,
+    "insider_pct": 17.43,
+    "institution_pct": 45.06,
     "major_holders": [
       {
         "label": "",
-        "value": 16.92
+        "value": 17.43
       },
       {
         "label": "",
-        "value": 42.85
+        "value": 45.06
       },
       {
         "label": "",
-        "value": 51.58
+        "value": 54.57
       },
       {
         "label": "",
-        "value": 138.0
+        "value": 141.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3555392,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.22,
-        "pct_change": 0.4,
-        "value": 7594317312
+        "shares": 3576992,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.27,
+        "pct_change": 0.61,
+        "value": 7157560992
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 2227219,
         "date_reported": "2025-12-31",
-        "pct_held": 0.77,
+        "pct_held": 0.79,
         "pct_change": 0.41,
-        "value": 4757339784
+        "value": 4456665219
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1491000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.51,
-        "pct_change": 1.03,
-        "value": 3184776000
+        "shares": 1534600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.54,
+        "pct_change": 1.35,
+        "value": 3070734600
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 1141400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.39,
-        "pct_change": 1.96,
-        "value": 2438030400
+        "shares": 1126000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.4,
+        "pct_change": -1.35,
+        "value": 2253126000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 773400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.54,
-        "value": 1651982400
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 520704,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.18,
-        "pct_change": 1.96,
-        "value": 1112223744
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 513835,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.18,
-        "pct_change": 0.9,
-        "value": 1097551560
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 529200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": 7.39,
-        "value": 1130371200
+        "shares": 799500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.14,
+        "value": 1599799500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -121,15 +135,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 7.49,
-        "value": 1100467200
+        "value": 1030915200
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 520704,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.18,
+        "pct_change": 0.0,
+        "value": 1041928704
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 500626,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.18,
+        "pct_change": 11.15,
+        "value": 1001752626
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 518631,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.18,
+        "pct_change": 0.93,
+        "value": 1037780631
       },
       {
         "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
-        "shares": 465100,
-        "date_reported": "2025-10-31",
+        "shares": 463100,
+        "date_reported": "2026-01-31",
         "pct_held": 0.16,
-        "pct_change": 6.28,
-        "value": 993453600
+        "pct_change": -0.43,
+        "value": 926663100
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:40.817563",
+  "fetched_at": "2026-05-01T04:32:36.437789",
   "ticker": "6383",
   "ticker_full": "6383.T",
   "company_name": "DAIFUKU CO LTD",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5813.0,
+    "current": 6828.0,
     "high": 7600.0,
-    "low": 4500.0,
-    "mean": 6469.3335,
+    "low": 5200.0,
+    "mean": 6956.0,
     "median": 7000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 53.0,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 51.98,
+        "eps_actual": 53.38,
+        "surprise_pct": 2.7
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 43.13,
+        "eps_actual": 56.69,
+        "surprise_pct": 31.44
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 42.63,
+        "eps_actual": 56.46,
+        "surprise_pct": 32.44
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 47.24,
+        "eps_actual": 45.86,
+        "surprise_pct": -2.92
+      },
+      {
+        "date": "2024-11-08",
+        "eps_estimate": 33.2,
+        "eps_actual": 45.42,
+        "surprise_pct": 36.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.68,
-    "institution_pct": 58.28,
+    "insider_pct": 6.69,
+    "institution_pct": 58.03,
     "major_holders": [
       {
         "label": "",
-        "value": 6.68
+        "value": 6.69
       },
       {
         "label": "",
-        "value": 58.28
+        "value": 58.03
       },
       {
         "label": "",
-        "value": 62.45
+        "value": 62.18
       },
       {
         "label": "",
-        "value": 362.0
+        "value": 364.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -99.07,
-        "value": 6411739
+        "value": 7531284
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4991614,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.31,
-        "pct_change": 0.09,
-        "value": 29016252182
-      },
-      {
-        "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
-        "shares": 4474146,
+        "shares": 5031814,
         "date_reported": "2026-01-31",
-        "pct_held": 1.18,
-        "pct_change": 3.13,
-        "value": 26008210698
+        "pct_held": 1.32,
+        "pct_change": 0.81,
+        "value": 34357225992
       },
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.",
@@ -83,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.09,
         "pct_change": -9.87,
-        "value": 24086165500
+        "value": 28291818000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,39 +121,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": 1.98,
-        "value": 18836811419
+        "value": 22125881364
+      },
+      {
+        "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
+        "shares": 2779069,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.73,
+        "pct_change": -38.15,
+        "value": 18975483132
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2226200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.59,
-        "pct_change": 0.69,
-        "value": 12940900600
+        "shares": 2269800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.6,
+        "pct_change": 0.91,
+        "value": 15498194400
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1263300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.33,
+        "pct_change": -0.44,
+        "value": 8625812400
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1163069,
-        "date_reported": "2026-01-31",
+        "shares": 1177169,
+        "date_reported": "2026-02-28",
         "pct_held": 0.31,
-        "pct_change": 0.78,
-        "value": 6760920097
+        "pct_change": 1.21,
+        "value": 8037709932
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 1127500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.3,
-        "pct_change": 0.53,
-        "value": 6554157500
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1122200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 1.05,
-        "value": 6523348600
+        "pct_change": 0.0,
+        "value": 7698570000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -3.95,
-        "value": 6115857300
+        "value": 7183738800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 747496,
-        "date_reported": "2025-10-31",
+        "shares": 763796,
+        "date_reported": "2026-01-31",
         "pct_held": 0.2,
-        "pct_change": 0.77,
-        "value": 4345194248
+        "pct_change": 2.18,
+        "value": 5215199088
       }
     ]
   }

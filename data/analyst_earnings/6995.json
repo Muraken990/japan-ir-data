@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:37.842998",
+  "fetched_at": "2026-05-01T04:23:14.542212",
   "ticker": "6995",
   "ticker_full": "6995.T",
   "company_name": "TOKAI RIKA CO",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 1,
+    "buy": 0,
+    "hold": 2,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 3,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2992.0,
+    "current": 2848.0,
     "high": 3300.0,
     "low": 2500.0,
     "mean": 3000.0,
     "median": 3200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-01-31",
+        "eps_estimate": 68.38,
+        "eps_actual": 73.63,
+        "surprise_pct": 7.68
+      },
+      {
+        "date": "2023-07-26",
+        "eps_estimate": 46.88,
+        "eps_actual": 113.28,
+        "surprise_pct": 141.64
+      },
+      {
+        "date": "2023-02-01",
+        "eps_estimate": 59.8,
+        "eps_actual": -17.18,
+        "surprise_pct": -128.73
+      },
+      {
+        "date": "2022-10-26",
+        "eps_estimate": 29.7,
+        "eps_actual": 56.25,
+        "surprise_pct": 89.43
+      },
+      {
+        "date": "2022-07-27",
+        "eps_estimate": 37.86,
+        "eps_actual": 31.01,
+        "surprise_pct": -18.09
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 37.64,
-    "institution_pct": 23.95,
+    "institution_pct": 23.97,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 23.95
+        "value": 23.97
       },
       {
         "label": "",
-        "value": 38.4
+        "value": 38.43
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 83.0
       }
     ],
     "institutional_holders": [],

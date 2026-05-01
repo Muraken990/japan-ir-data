@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:05.245078",
+  "fetched_at": "2026-05-01T04:26:51.714459",
   "ticker": "9008",
   "ticker_full": "9008.T",
   "company_name": "KEIO CORPORATION",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.4
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 788.2,
+    "current": 750.8,
     "high": 920.0,
     "low": 750.0,
     "mean": 862.0,
     "median": 900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 3.96,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-11",
+        "eps_estimate": 3.96,
+        "eps_actual": 6.47,
+        "surprise_pct": 63.28
+      },
+      {
+        "date": "2025-02-10",
+        "eps_estimate": 20.14,
+        "eps_actual": 23.13,
+        "surprise_pct": 14.85
+      },
+      {
+        "date": "2024-02-04",
+        "eps_estimate": 13.44,
+        "eps_actual": 13.34,
+        "surprise_pct": -0.71
+      },
+      {
+        "date": "2023-11-05",
+        "eps_estimate": 13.1,
+        "eps_actual": 13.74,
+        "surprise_pct": 4.87
+      },
+      {
+        "date": "2023-08-01",
+        "eps_estimate": 7.21,
+        "eps_actual": 14.46,
+        "surprise_pct": 100.61
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.33,
-    "institution_pct": 36.43,
+    "institution_pct": 36.61,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 36.43
+        "value": 36.61
       },
       {
         "label": "",
-        "value": 39.31
+        "value": 39.51
       },
       {
         "label": "",
-        "value": 131.0
+        "value": 126.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 7856530,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.31,
         "pct_change": 0.0,
-        "value": 6191731101
+        "value": 5898682628
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,23 +103,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": 2.49,
-        "value": 4017840069
+        "value": 3827679695
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3585000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.6,
-        "pct_change": 1.07,
-        "value": 2825338412
+        "shares": 3694000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 1.4,
+        "value": 2773455154
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1943000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 2.75,
-        "value": 1531278252
+        "shares": 2015500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 1.26,
+        "value": 1513237375
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,31 +127,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": 82.4,
-        "value": 1490675341
+        "value": 1420123160
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 1178495,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.2,
-        "pct_change": 1.68,
-        "value": 928771880
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 1209000,
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 952812870
+        "value": 884814031
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 1137000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.19,
+        "pct_change": -5.96,
+        "value": 853659586
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 1048845,
-        "date_reported": "2025-11-30",
+        "shares": 1058655,
+        "date_reported": "2026-02-28",
         "pct_held": 0.18,
-        "pct_change": -19.3,
-        "value": 826594718
+        "pct_change": 0.94,
+        "value": 794838161
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -121,15 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": -36.29,
-        "value": 572160582
+        "value": 545080791
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
-        "shares": 657125,
-        "date_reported": "2025-10-31",
+        "shares": 645625,
+        "date_reported": "2026-01-31",
         "pct_held": 0.11,
-        "pct_change": 0.23,
-        "value": 517880196
+        "pct_change": -1.75,
+        "value": 484735242
       }
     ],
     "mutualfund_holders": []

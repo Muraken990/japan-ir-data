@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:40.231954",
+  "fetched_at": "2026-05-01T04:31:34.103247",
   "ticker": "6479",
   "ticker_full": "6479.T",
   "company_name": "MINEBEA MITSUMI INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 4,
+    "strong_buy": 3,
     "buy": 8,
     "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 16,
+    "total_analysts": 15,
     "recommendation_key": "buy",
     "recommendation_mean": 1.73333
   },
   "target_prices": {
     "has_data": true,
-    "current": 2639.5,
+    "current": 3136.0,
     "high": 4450.0,
     "low": 2300.0,
-    "mean": 3591.3333,
-    "median": 3800.0
+    "mean": 3632.1428,
+    "median": 3750.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 57.93,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 57.47,
+        "eps_actual": 51.79,
+        "surprise_pct": -9.88
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 53.96,
+        "eps_actual": 44.06,
+        "surprise_pct": -18.34
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 30.67,
+        "eps_actual": 27.12,
+        "surprise_pct": -11.56
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 45.59,
+        "eps_actual": 39.34,
+        "surprise_pct": -13.71
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 53.07,
+        "eps_actual": 43.78,
+        "surprise_pct": -17.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.23,
-    "institution_pct": 60.28,
+    "institution_pct": 59.95,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 60.28
+        "value": 59.95
       },
       {
         "label": "",
-        "value": 64.29
+        "value": 63.94
       },
       {
         "label": "",
-        "value": 254.0
+        "value": 251.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 26395
+        "value": 31360
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5450180,
-        "date_reported": "2025-10-31",
+        "shares": 5473280,
+        "date_reported": "2026-01-31",
         "pct_held": 1.28,
-        "pct_change": 0.45,
-        "value": 14385750110
+        "pct_change": 0.42,
+        "value": 17164206080
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 4647700,
-        "date_reported": "2025-09-30",
+        "shares": 4662800,
+        "date_reported": "2025-12-31",
         "pct_held": 1.09,
-        "pct_change": -0.8,
-        "value": 12267604150
+        "pct_change": 0.32,
+        "value": 14622540800
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Value Fund",
@@ -83,7 +121,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.87,
         "pct_change": 16.25,
-        "value": 9771827564
+        "value": 11609945536
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +129,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.83,
         "pct_change": 2.15,
-        "value": 9376290571
+        "value": 11140006528
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 3426700,
         "date_reported": "2026-01-31",
         "pct_held": 0.8,
-        "pct_change": -4.48,
-        "value": 9044774650
+        "pct_change": -2.51,
+        "value": 10746131200
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -107,39 +145,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.79,
         "pct_change": -0.01,
-        "value": 8870567650
+        "value": 10539155200
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 3017700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.71,
-        "pct_change": 0.0,
-        "value": 7965219150
+        "shares": 3294200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.77,
+        "pct_change": 9.16,
+        "value": 10330611200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2488059,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": 0.92,
-        "value": 6567231730
+        "shares": 2553459,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.6,
+        "pct_change": 1.21,
+        "value": 8007647424
       },
       {
         "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
         "shares": 1490100,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 3933118950
+        "value": 4672953600
       },
       {
-        "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
-        "shares": 1400000,
-        "date_reported": "2026-01-31",
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1425000,
+        "date_reported": "2026-03-31",
         "pct_held": 0.33,
-        "pct_change": 0.0,
-        "value": 3695300000
+        "pct_change": -0.06,
+        "value": 4468800000
       }
     ]
   }

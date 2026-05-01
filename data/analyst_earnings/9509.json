@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:30.266035",
+  "fetched_at": "2026-05-01T04:21:00.636713",
   "ticker": "9509",
   "ticker_full": "9509.T",
   "company_name": "HOKKAIDO ELECTRIC POWER CO INC",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 1109.5,
+    "current": 995.1,
     "high": 2400.0,
     "low": 1100.0,
     "mean": 1580.0,
     "median": 1240.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": -29.5,
+        "eps_actual": -25.18,
+        "surprise_pct": 14.64
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 28.9,
+        "eps_actual": 17.69,
+        "surprise_pct": -38.79
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 26.2,
+        "eps_actual": 66.72,
+        "surprise_pct": 154.66
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 104.5,
+        "eps_actual": 148.17,
+        "surprise_pct": 41.79
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": -19.5,
+        "eps_actual": 44.83,
+        "surprise_pct": 329.9
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.01,
-    "institution_pct": 31.92,
+    "institution_pct": 29.58,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 31.92
+        "value": 29.58
       },
       {
         "label": "",
-        "value": 33.96
+        "value": 31.47
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2864629,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.33,
-        "pct_change": 0.49,
-        "value": 3178305875
+        "shares": 2903629,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.35,
+        "pct_change": 1.36,
+        "value": 2889401147
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.87,
         "pct_change": 1.72,
-        "value": 2084235692
+        "value": 1869331127
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1250200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": 0.61,
-        "value": 1387096900
+        "shares": 1272000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.59,
+        "pct_change": 0.81,
+        "value": 1265767168
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,31 +119,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 867739950
+        "value": 778267690
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 706100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.33,
-        "pct_change": 8.02,
-        "value": 783417950
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 660836,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.31,
-        "pct_change": 1.44,
-        "value": 733197542
+        "shares": 727300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.34,
+        "pct_change": 3.0,
+        "value": 723736212
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 661800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.8,
-        "value": 734267100
+        "shares": 687900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 1.33,
+        "value": 684529273
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -113,15 +143,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 20.82,
-        "value": 747581100
+        "value": 670498363
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 422047,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.2,
-        "pct_change": 12.11,
-        "value": 468261146
+        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
+        "shares": 663453,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.31,
+        "pct_change": 0.4,
+        "value": 660202064
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 31.63,
-        "value": 466322850
+        "value": 418240519
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 430855,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.2,
+        "pct_change": 2.09,
+        "value": 428743799
       }
     ],
     "mutualfund_holders": []

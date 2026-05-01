@@ -1,37 +1,69 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:12.912921",
+  "fetched_at": "2026-05-01T04:19:37.591805",
   "ticker": "7250",
   "ticker_full": "7250.T",
   "company_name": "PACIFIC INDUSTRIAL CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 0,
-    "buy": 0,
-    "hold": 1,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 1,
     "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_mean": null,
+    "total_analysts": null,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3020.0,
+    "current": 3015.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 48.0,
+        "eps_actual": 96.24,
+        "surprise_pct": 100.5
+      },
+      {
+        "date": "2025-10-27",
+        "eps_estimate": 45.78,
+        "eps_actual": 64.72,
+        "surprise_pct": 41.37
+      },
+      {
+        "date": "2025-07-24",
+        "eps_estimate": 49.39,
+        "eps_actual": 59.56,
+        "surprise_pct": 20.59
+      },
+      {
+        "date": "2025-06-15",
+        "eps_estimate": 37.35,
+        "eps_actual": 53.88,
+        "surprise_pct": 44.26
+      },
+      {
+        "date": "2025-01-29",
+        "eps_estimate": 45.84,
+        "eps_actual": 83.73,
+        "surprise_pct": 82.66
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 56.3,
-    "institution_pct": 29.69,
+    "institution_pct": 29.33,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 29.69
+        "value": 29.33
       },
       {
         "label": "",
-        "value": 67.96
+        "value": 67.12
       },
       {
         "label": "",
-        "value": 57.0
+        "value": 54.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +89,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 1.47,
         "pct_change": -0.6,
-        "value": 2718072480
+        "value": 2713572360
       },
       {
         "holder": "Avantis International Small Cap Value ETF",
@@ -65,7 +97,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 1.34,
         "pct_change": 2.98,
-        "value": 2473078000
+        "value": 2468983500
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -73,7 +105,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 1.02,
         "pct_change": 0.0,
-        "value": 1888019440
+        "value": 1884893580
       },
       {
         "holder": "GMO Implementation Fund",
@@ -81,7 +113,7 @@
         "date_reported": "2024-08-31",
         "pct_held": 0.62,
         "pct_change": 11.84,
-        "value": 1146392000
+        "value": 1144494000
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -89,7 +121,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.58,
         "pct_change": 0.0,
-        "value": 1079169820
+        "value": 1077383115
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -97,7 +129,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 761040000
+        "value": 759780000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -105,7 +137,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.32,
         "pct_change": -4.82,
-        "value": 596148000
+        "value": 595161000
       },
       {
         "holder": "GMO Benchmark-Free Fund",
@@ -113,7 +145,7 @@
         "date_reported": "2024-08-31",
         "pct_held": 0.3,
         "pct_change": 11.44,
-        "value": 555982000
+        "value": 555061500
       },
       {
         "holder": "Schwab Strategic Tr-Schwab Fundamental Intl Small Company Idx ETF",
@@ -121,7 +153,7 @@
         "date_reported": "2024-08-31",
         "pct_held": 0.29,
         "pct_change": -2.21,
-        "value": 533452800
+        "value": 532569600
       },
       {
         "holder": "College Retirement Equities Fund-Stock Account",
@@ -129,7 +161,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.25,
         "pct_change": -30.72,
-        "value": 469308000
+        "value": 468531000
       }
     ],
     "mutualfund_holders": []

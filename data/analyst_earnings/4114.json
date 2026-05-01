@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:44.648415",
+  "fetched_at": "2026-05-01T04:23:22.372818",
   "ticker": "4114",
   "ticker_full": "4114.T",
   "company_name": "NIPPON SHOKUBAI CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 1,
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 2283.0,
+    "current": 2152.5,
     "high": 2400.0,
     "low": 1540.0,
     "mean": 2080.0,
     "median": 2300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 10.32,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 23.34,
+        "eps_actual": 45.39,
+        "surprise_pct": 94.47
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 23.81,
+        "eps_actual": 21.16,
+        "surprise_pct": -11.13
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 22.88,
+        "eps_actual": 29.27,
+        "surprise_pct": 27.93
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 10.32,
+        "eps_actual": 22.28,
+        "surprise_pct": 115.89
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 22.74,
+        "eps_actual": 33.59,
+        "surprise_pct": 47.71
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.4,
-    "institution_pct": 33.7,
+    "institution_pct": 33.87,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 33.7
+        "value": 33.87
       },
       {
         "label": "",
-        "value": 41.81
+        "value": 42.02
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 103.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1797700,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.2,
-        "pct_change": 3.29,
-        "value": 4104149100
+        "shares": 1900500,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.27,
+        "pct_change": 0.66,
+        "value": 4090826250
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.11,
         "pct_change": 0.0,
-        "value": 3809911494
+        "value": 3592130745
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1629020,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.09,
-        "pct_change": -0.73,
-        "value": 3719052660
+        "pct_change": 0.0,
+        "value": 3506465550
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.81,
         "pct_change": 0.0,
-        "value": 2785944900
+        "value": 2626695750
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,23 +127,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 4.83,
-        "value": 2536623036
+        "value": 2391625530
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 695700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": 1.1,
-        "value": 1588283100
+        "shares": 717500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.48,
+        "pct_change": 1.44,
+        "value": 1544418750
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 600600,
-        "date_reported": "2026-01-31",
+        "shares": 599800,
+        "date_reported": "2026-03-31",
         "pct_held": 0.4,
-        "pct_change": 7.44,
-        "value": 1371169800
+        "pct_change": -2.85,
+        "value": 1291069500
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -113,23 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.34,
         "pct_change": -3.31,
-        "value": 1173690300
+        "value": 1106600250
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 418100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.58,
-        "value": 954522300
+        "shares": 432600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 1.17,
+        "value": 931171500
       },
       {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 414100,
-        "date_reported": "2026-01-31",
+        "holder": "Cambria ETF Trust-Cambria Foreign Shareholder Yield ETF",
+        "shares": 421992,
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
-        "pct_change": 3.4,
-        "value": 945390300
+        "pct_change": 2.03,
+        "value": 908337780
       }
     ],
     "mutualfund_holders": []

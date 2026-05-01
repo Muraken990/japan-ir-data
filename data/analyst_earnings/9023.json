@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:25.291984",
+  "fetched_at": "2026-05-01T04:30:15.652415",
   "ticker": "9023",
   "ticker_full": "9023.T",
   "company_name": "TOKYO METRO CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1641.5,
+    "current": 1548.5,
     "high": 2000.0,
-    "low": 1400.0,
-    "mean": 1667.0,
-    "median": 1625.0
+    "low": 1380.0,
+    "mean": 1624.0,
+    "median": 1600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 36.22,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 6.52,
+        "eps_actual": 13.17,
+        "surprise_pct": 101.93
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 25.47,
+        "eps_actual": 28.34,
+        "surprise_pct": 11.27
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 23.37,
+        "eps_actual": 21.71,
+        "surprise_pct": -7.09
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 40.63,
+        "eps_actual": 38.41,
+        "surprise_pct": -5.46
+      },
+      {
+        "date": "2025-04-28",
+        "eps_estimate": 14.63,
+        "eps_actual": 20.27,
+        "surprise_pct": 38.55
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 53.79,
-    "institution_pct": 14.38,
+    "institution_pct": 12.11,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 14.38
+        "value": 12.11
       },
       {
         "label": "",
-        "value": 31.13
+        "value": 26.2
       },
       {
         "label": "",
-        "value": 173.0
+        "value": 147.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4213400,
-        "date_reported": "2025-10-31",
+        "shares": 4216500,
+        "date_reported": "2026-01-31",
         "pct_held": 0.73,
-        "pct_change": 0.78,
-        "value": 6916296100
+        "pct_change": 0.07,
+        "value": 6529250250
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,63 +103,63 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.47,
         "pct_change": 1.74,
-        "value": 4501321300
+        "value": 4246296700
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1963900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 0.78,
-        "value": 3223741850
+        "shares": 2054300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 3.38,
+        "value": 3181083550
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 1152800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.2,
+        "pct_change": 2.11,
+        "value": 1785110800
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1040665,
-        "date_reported": "2026-01-31",
+        "shares": 1057765,
+        "date_reported": "2026-02-28",
         "pct_held": 0.18,
-        "pct_change": 1.11,
-        "value": 1708251597
+        "pct_change": 1.64,
+        "value": 1637949102
       },
       {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1009600,
+        "holder": "ADVISORS' INNER CIRCLE FUND II-KOPERNIK GLOBAL ALL-CAP FUND",
+        "shares": 653400,
         "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": 1.17,
-        "value": 1657258400
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 996400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": 0.54,
-        "value": 1635590600
+        "pct_held": 0.11,
+        "pct_change": 1.0,
+        "value": 1011789900
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 633500,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.11,
-        "pct_change": 1.46,
-        "value": 1039890250
+        "pct_change": 0.0,
+        "value": 980974750
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 617410,
-        "date_reported": "2025-11-30",
+        "shares": 623187,
+        "date_reported": "2026-02-28",
         "pct_held": 0.11,
-        "pct_change": 0.92,
-        "value": 1013478515
+        "pct_change": 0.94,
+        "value": 965005069
       },
       {
         "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
         "shares": 554100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 909555150
+        "value": 858023850
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen International Equity Index Fund",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.07,
         "pct_change": -19.44,
-        "value": 650362300
+        "value": 613515700
       }
     ],
     "mutualfund_holders": []

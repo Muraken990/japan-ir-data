@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:35.297170",
+  "fetched_at": "2026-05-01T04:30:27.524549",
   "ticker": "8439",
   "ticker_full": "8439.T",
   "company_name": "TOKYO CENTURY CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2057.5,
+    "current": 2163.5,
     "high": 2500.0,
     "low": 1900.0,
-    "mean": 2128.3333,
-    "median": 2095.0
+    "mean": 2165.0,
+    "median": 2150.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 34.57,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 51.81,
+        "eps_actual": 47.25,
+        "surprise_pct": -8.8
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 152.73,
+        "eps_actual": 144.79,
+        "surprise_pct": -5.2
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 46.82,
+        "eps_actual": 45.25,
+        "surprise_pct": -3.35
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 34.57,
+        "eps_actual": 27.17,
+        "surprise_pct": -21.41
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 44.56,
+        "eps_actual": 59.25,
+        "surprise_pct": 32.97
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 66.72,
-    "institution_pct": 14.28,
+    "institution_pct": 14.42,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 14.28
+        "value": 14.42
       },
       {
         "label": "",
-        "value": 42.9
+        "value": 43.34
       },
       {
         "label": "",

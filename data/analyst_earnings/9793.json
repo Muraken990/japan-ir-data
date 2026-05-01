@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:03.195821",
+  "fetched_at": "2026-05-01T04:18:25.956173",
   "ticker": "9793",
   "ticker_full": "9793.T",
   "company_name": "DAISEKI CO LTD",
@@ -13,25 +13,32 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 3895.0,
+    "current": 4190.0,
     "high": 5300.0,
-    "low": 3600.0,
-    "mean": 4425.0,
-    "median": 4400.0
+    "low": 4200.0,
+    "mean": 4700.0,
+    "median": 4650.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-02",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.32,
-    "institution_pct": 56.25,
+    "institution_pct": 51.17,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 56.25
+        "value": 51.17
       },
       {
         "label": "",
-        "value": 62.72
+        "value": 57.05
       },
       {
         "label": "",
-        "value": 112.0
+        "value": 105.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +64,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 3.73,
         "pct_change": 15.42,
-        "value": 6970647800
+        "value": 7498591600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 601714,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.25,
-        "pct_change": 1.06,
-        "value": 2343676030
+        "pct_change": 0.0,
+        "value": 2521181660
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
@@ -73,7 +80,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.05,
         "pct_change": -24.39,
-        "value": 1971594470
+        "value": 2120919340
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,15 +88,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.8,
         "pct_change": 1.45,
-        "value": 1495052905
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 268720,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.56,
-        "pct_change": 0.0,
-        "value": 1046664400
+        "value": 1608285410
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +96,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.56,
         "pct_change": -2.04,
-        "value": 1046800725
+        "value": 1126083450
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 268720,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.56,
+        "pct_change": 0.0,
+        "value": 1125936800
       },
       {
         "holder": "Calvert World Values Fd., Inc.-Calvert Intl Opportunities Fd.",
@@ -105,23 +112,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.37,
         "pct_change": 18.87,
-        "value": 694143530
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 146960,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.8,
-        "value": 572409200
+        "value": 746716660
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 145744,
-        "date_reported": "2025-10-31",
+        "shares": 152544,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.32,
+        "pct_change": 4.67,
+        "value": 639159360
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 141960,
+        "date_reported": "2026-03-31",
         "pct_held": 0.3,
-        "pct_change": 4.74,
-        "value": 567672880
+        "pct_change": 1.43,
+        "value": 594812400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +136,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 30.6,
-        "value": 541198565
+        "value": 582187930
       }
     ],
     "mutualfund_holders": []

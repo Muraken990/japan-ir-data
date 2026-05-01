@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:48.829104",
+  "fetched_at": "2026-05-01T04:32:44.899590",
   "ticker": "1812",
   "ticker_full": "1812.T",
   "company_name": "KAJIMA CORP",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6169.0,
+    "current": 6130.0,
     "high": 9500.0,
-    "low": 3300.0,
-    "mean": 7178.5713,
+    "low": 5400.0,
+    "mean": 7742.857,
     "median": 7900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 96.79,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 73.36,
+        "eps_actual": 96.29,
+        "surprise_pct": 31.27
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 63.88,
+        "eps_actual": 108.83,
+        "surprise_pct": 70.37
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 52.29,
+        "eps_actual": 56.46,
+        "surprise_pct": 7.97
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 96.79,
+        "eps_actual": 108.83,
+        "surprise_pct": 12.45
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 68.6,
+        "eps_actual": 83.43,
+        "surprise_pct": 21.63
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.5,
-    "institution_pct": 36.83,
+    "institution_pct": 36.9,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.83
+        "value": 36.9
       },
       {
         "label": "",
-        "value": 40.69
+        "value": 40.77
       },
       {
         "label": "",
-        "value": 318.0
+        "value": 320.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.73,
-        "value": 21684035
+        "value": 21546950
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6037904,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.14,
-        "pct_change": -1.08,
-        "value": 37247829776
+        "shares": 6093104,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.15,
+        "pct_change": 0.91,
+        "value": 37350727520
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,31 +113,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 2.22,
-        "value": 24202646461
+        "value": 24049638970
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2953200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.56,
-        "pct_change": 0.78,
-        "value": 18218290800
+        "shares": 3018600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.57,
+        "pct_change": 1.02,
+        "value": 18504018000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1465900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 0.99,
-        "value": 9043137100
+        "shares": 1649600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": 0.27,
+        "value": 10112048000
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1542679,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.29,
+        "pct_change": 1.0,
+        "value": 9456622270
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 1459900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
-        "pct_change": 0.5,
-        "value": 9006123100
+        "pct_change": 0.0,
+        "value": 8949187000
       },
       {
         "holder": "Perpetual Americas Funds Trust-JOHCM International Select Fund",
@@ -107,7 +153,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.27,
         "pct_change": 1.0,
-        "value": 8643126802
+        "value": 8588485540
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -115,31 +161,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": -3.85,
-        "value": 8249186800
+        "value": 8197036000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 909587,
-        "date_reported": "2025-10-31",
+        "shares": 921987,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": -0.12,
-        "value": 5611242203
+        "pct_change": 1.36,
+        "value": 5651780310
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 865386,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.16,
-        "pct_change": -4.99,
-        "value": 5338566234
-      },
-      {
-        "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
-        "shares": 793078,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 1.0,
-        "value": 4892498182
+        "shares": 873561,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.17,
+        "pct_change": 0.94,
+        "value": 5354928930
       }
     ]
   }

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:09.423848",
+  "fetched_at": "2026-05-01T04:19:33.072506",
   "ticker": "1946",
   "ticker_full": "1946.T",
   "company_name": "TOENEC CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2066.0,
+    "current": 2475.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 13.49,
+        "eps_actual": 17.33,
+        "surprise_pct": 28.44
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 4.52,
+        "eps_actual": 13.94,
+        "surprise_pct": 208.2
+      },
+      {
+        "date": "2015-04-27",
+        "eps_estimate": 16.75,
+        "eps_actual": 10.69,
+        "surprise_pct": -36.16
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 7.24,
+        "eps_actual": 12.12,
+        "surprise_pct": 67.33
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 12.25,
+        "eps_actual": 11.69,
+        "surprise_pct": -4.59
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 54.5,
-    "institution_pct": 10.79,
+    "institution_pct": 10.74,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 10.79
+        "value": 10.74
       },
       {
         "label": "",
-        "value": 23.72
+        "value": 23.6
       },
       {
         "label": "",
-        "value": 66.0
+        "value": 68.0
       }
     ],
     "institutional_holders": [],

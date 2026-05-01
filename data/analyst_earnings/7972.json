@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:55.396206",
+  "fetched_at": "2026-05-01T04:16:15.854400",
   "ticker": "7972",
   "ticker_full": "7972.T",
   "company_name": "ITOKI CORPORATION",
@@ -8,30 +8,63 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
+    "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 2,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3185.0,
+    "current": 3150.0,
     "high": 4100.0,
     "low": 4000.0,
     "mean": 4050.0,
     "median": 4050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-10-24",
+        "eps_estimate": -13.65,
+        "eps_actual": -7.97,
+        "surprise_pct": 41.6
+      },
+      {
+        "date": "2016-04-26",
+        "eps_estimate": 49.15,
+        "eps_actual": 32.38,
+        "surprise_pct": -34.12
+      },
+      {
+        "date": "2015-10-25",
+        "eps_estimate": -16.97,
+        "eps_actual": 4.79,
+        "surprise_pct": 128.22
+      },
+      {
+        "date": "2015-04-27",
+        "eps_estimate": 56.2,
+        "eps_actual": 39.37,
+        "surprise_pct": -29.95
+      },
+      {
+        "date": "2015-02-12",
+        "eps_estimate": 29.09,
+        "eps_actual": 12.27,
+        "surprise_pct": -57.82
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.98,
-    "institution_pct": 30.45,
+    "institution_pct": 34.98,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 30.45
+        "value": 34.98
       },
       {
         "label": "",
-        "value": 33.82
+        "value": 38.86
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 74.0
       }
     ],
     "institutional_holders": [],

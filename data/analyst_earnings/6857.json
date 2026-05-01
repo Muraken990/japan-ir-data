@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:50.721413",
+  "fetched_at": "2026-05-01T04:34:49.593426",
   "ticker": "6857",
   "ticker_full": "6857.T",
   "company_name": "ADVANTEST CORP",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 6,
     "buy": 8,
-    "hold": 6,
+    "hold": 7,
     "sell": 0,
-    "strong_sell": 1,
+    "strong_sell": 0,
     "total_analysts": 21,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.95238
+    "recommendation_mean": 1.85714
   },
   "target_prices": {
     "has_data": true,
-    "current": 22425.0,
-    "high": 32300.0,
-    "low": 20500.0,
-    "mean": 28372.223,
-    "median": 30000.0
+    "current": 27970.0,
+    "high": 39200.0,
+    "low": 23000.0,
+    "mean": 31565.0,
+    "median": 30850.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-28",
+      "eps_estimate": 94.31,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 136.89,
+        "eps_actual": 174.55,
+        "surprise_pct": 27.51
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 76.73,
+        "eps_actual": 108.41,
+        "surprise_pct": 41.28
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 107.21,
+        "eps_actual": 109.03,
+        "surprise_pct": 1.7
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 94.31,
+        "eps_actual": 123.14,
+        "surprise_pct": 30.56
+      },
+      {
+        "date": "2025-04-24",
+        "eps_estimate": 77.96,
+        "eps_actual": 54.46,
+        "surprise_pct": -30.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.28,
-    "institution_pct": 66.48,
+    "institution_pct": 64.9,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,25 @@
       },
       {
         "label": "",
-        "value": 66.48
+        "value": 64.9
       },
       {
         "label": "",
-        "value": 66.66
+        "value": 65.08
       },
       {
         "label": "",
-        "value": 516.0
+        "value": 514.0
       }
     ],
     "institutional_holders": [
-      {
-        "holder": "Stanley-Laman Group, Ltd.",
-        "shares": 1000,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.0,
-        "pct_change": 1.0,
-        "value": 22425000
-      },
       {
         "holder": "Paradigm Asset Management Company, LLC",
         "shares": 9000,
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 201825000
+        "value": 251730000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -73,25 +103,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -5.6,
-        "value": 156391950
+        "value": 195062780
+      },
+      {
+        "holder": "Stanley-Laman Group, Ltd.",
+        "shares": 2100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.0,
+        "pct_change": 1.1,
+        "value": 58737000
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 10635404,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.45,
-        "pct_change": 0.12,
-        "value": 238498934700
-      },
-      {
-        "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 9663200,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.32,
-        "pct_change": -9.19,
-        "value": 216697260000
+        "shares": 10724504,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.47,
+        "pct_change": 0.84,
+        "value": 299964376880
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,39 +129,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.95,
         "pct_change": 2.05,
-        "value": 155185126200
+        "value": 193557546480
+      },
+      {
+        "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
+        "shares": 6930200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.95,
+        "pct_change": -28.28,
+        "value": 193837694000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 5260700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.72,
-        "pct_change": 0.87,
-        "value": 117971197500
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2761664,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.38,
-        "pct_change": 0.71,
-        "value": 61930315200
+        "shares": 5403500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.74,
+        "pct_change": 1.25,
+        "value": 151135895000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2654700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 0.99,
-        "value": 59531647500
+        "shares": 2995100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.41,
+        "pct_change": 0.48,
+        "value": 83772947000
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 2794664,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.38,
+        "pct_change": 1.19,
+        "value": 78166752080
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 2643700,
-        "date_reported": "2026-01-31",
+        "shares": 2654600,
+        "date_reported": "2026-03-31",
         "pct_held": 0.36,
-        "pct_change": 0.63,
-        "value": 59284972500
+        "pct_change": 0.14,
+        "value": 74249162000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -139,7 +177,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.35,
         "pct_change": -9.11,
-        "value": 58067295000
+        "value": 72425518000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -147,7 +185,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -10.37,
-        "value": 45334380000
+        "value": 56544152000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
@@ -155,7 +193,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.27,
         "pct_change": -9.34,
-        "value": 43690627500
+        "value": 54493951000
       }
     ]
   }

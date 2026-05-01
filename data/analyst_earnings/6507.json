@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:37.843769",
+  "fetched_at": "2026-05-01T04:23:14.707144",
   "ticker": "6507",
   "ticker_full": "6507.T",
   "company_name": "SINFONIA TECHNOLOGY CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 11030.0,
-    "high": 12300.0,
+    "current": 14460.0,
+    "high": 18000.0,
     "low": 9800.0,
-    "mean": 11050.0,
-    "median": 11050.0
+    "mean": 13366.667,
+    "median": 12300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2022-02-02",
+        "eps_estimate": 9.1,
+        "eps_actual": 42.36,
+        "surprise_pct": 365.49
+      },
+      {
+        "date": "2021-11-04",
+        "eps_estimate": 33.1,
+        "eps_actual": 41.31,
+        "surprise_pct": 24.8
+      },
+      {
+        "date": "2021-08-03",
+        "eps_estimate": 12.5,
+        "eps_actual": -3.21,
+        "surprise_pct": -125.68
+      },
+      {
+        "date": "2021-05-11",
+        "eps_estimate": 32.7,
+        "eps_actual": 87.99,
+        "surprise_pct": 169.08
+      },
+      {
+        "date": "2021-02-02",
+        "eps_estimate": 2.4,
+        "eps_actual": -6.01,
+        "surprise_pct": -350.42
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.84,
-    "institution_pct": 35.48,
+    "institution_pct": 40.11,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 35.48
+        "value": 40.11
       },
       {
         "label": "",
-        "value": 47.21
+        "value": 53.37
       },
       {
         "label": "",
-        "value": 105.0
+        "value": 107.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 6.13,
         "pct_change": -9.74,
-        "value": 20146802380
+        "value": 26411855160
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.01,
         "pct_change": 0.0,
-        "value": 3303639420
+        "value": 4330972440
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.64,
         "pct_change": 2.03,
-        "value": 2103145250
+        "value": 2757160500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 1714062000
+        "value": 2247084000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +127,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 1388677000
+        "value": 1820514000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,7 +135,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 1229845000
+        "value": 1612290000
       },
       {
         "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
@@ -105,7 +143,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.37,
         "pct_change": -41.43,
-        "value": 1224175580
+        "value": 1604857560
       },
       {
         "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
@@ -113,7 +151,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.35,
         "pct_change": 70.16,
-        "value": 1163665000
+        "value": 1525530000
       },
       {
         "holder": "American Century World Mutual Fd.s, Inc.-Intl OPPORTUNITIES Fd.",
@@ -121,7 +159,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.35,
         "pct_change": 70.38,
-        "value": 1148223000
+        "value": 1505286000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 870267000
+        "value": 1140894000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:05.098953",
+  "fetched_at": "2026-05-01T04:26:50.505485",
   "ticker": "9065",
   "ticker_full": "9065.T",
   "company_name": "SANKYU INC",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 8896.0,
+    "current": 8453.0,
     "high": 10900.0,
     "low": 9500.0,
     "mean": 10216.667,
     "median": 10400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 137.9,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 137.9,
+        "eps_actual": 160.13,
+        "surprise_pct": 16.12
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 126.6,
+        "eps_actual": 169.19,
+        "surprise_pct": 33.64
+      },
+      {
+        "date": "2018-01-30",
+        "eps_estimate": 83.0,
+        "eps_actual": 98.26,
+        "surprise_pct": 18.39
+      },
+      {
+        "date": "2017-01-29",
+        "eps_estimate": 77.0,
+        "eps_actual": 90.6,
+        "surprise_pct": 17.66
+      },
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 69.5,
+        "eps_actual": 50.8,
+        "surprise_pct": -26.91
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.18,
-    "institution_pct": 38.79,
+    "institution_pct": 39.95,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 38.79
+        "value": 39.95
       },
       {
         "label": "",
-        "value": 44.68
+        "value": 46.02
       },
       {
         "label": "",
-        "value": 127.0
+        "value": 129.0
       }
     ],
     "institutional_holders": [],

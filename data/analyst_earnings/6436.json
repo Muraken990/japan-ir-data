@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:49.967153",
+  "fetched_at": "2026-05-01T04:23:27.271362",
   "ticker": "6436",
   "ticker_full": "6436.T",
   "company_name": "AMANO CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3840.0,
+    "current": 3608.0,
     "high": 4850.0,
     "low": 4600.0,
     "mean": 4725.0,
     "median": 4725.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-23",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-02",
+        "eps_estimate": 16.97,
+        "eps_actual": 29.06,
+        "surprise_pct": 71.22
+      },
+      {
+        "date": "2015-10-28",
+        "eps_estimate": 19.58,
+        "eps_actual": 25.7,
+        "surprise_pct": 31.24
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": 6.53,
+        "eps_actual": 14.34,
+        "surprise_pct": 119.68
+      },
+      {
+        "date": "2015-04-23",
+        "eps_estimate": 37.51,
+        "eps_actual": 51.8,
+        "surprise_pct": 38.1
+      },
+      {
+        "date": "2015-02-03",
+        "eps_estimate": 14.62,
+        "eps_actual": 18.34,
+        "surprise_pct": 25.43
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.78,
-    "institution_pct": 49.95,
+    "institution_pct": 50.67,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 49.95
+        "value": 50.67
       },
       {
         "label": "",
-        "value": 55.99
+        "value": 56.8
       },
       {
         "label": "",
-        "value": 124.0
+        "value": 127.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2022-03-31",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 134400000
+        "value": 126280000
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 3.36,
         "pct_change": 0.0,
-        "value": 9183360000
+        "value": 8628532000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 907482,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.28,
-        "pct_change": 0.0,
-        "value": 3484730880
+        "shares": 905582,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.27,
+        "pct_change": -0.21,
+        "value": 3267339856
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -83,7 +121,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.01,
         "pct_change": -3.33,
-        "value": 2764800000
+        "value": 2597760000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +129,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": 2.41,
-        "value": 2313784320
+        "value": 2173993184
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 539000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.76,
-        "pct_change": 1.43,
-        "value": 2069760000
+        "shares": 560800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.79,
+        "pct_change": 1.85,
+        "value": 2023366400
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
@@ -107,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": -62.88,
-        "value": 1113024000
+        "value": 1045778800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -115,7 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": -2.29,
-        "value": 1098240000
+        "value": 1031888000
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -123,15 +161,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.3,
         "pct_change": 15.4,
-        "value": 811468800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 195900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.35,
-        "value": 752256000
+        "value": 762442560
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -139,7 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 755328000
+        "value": 709693600
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 199600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 3.21,
+        "value": 720156800
       }
     ]
   }

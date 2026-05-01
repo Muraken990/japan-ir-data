@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:27.859875",
+  "fetched_at": "2026-05-01T04:30:18.596694",
   "ticker": "4911",
   "ticker_full": "4911.T",
   "company_name": "SHISEIDO COMPANY LIMITED",
@@ -13,25 +13,63 @@
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 17,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.4
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3377.0,
-    "high": 3700.0,
-    "low": 2400.0,
-    "mean": 3090.9333,
-    "median": 2985.0
+    "current": 3161.0,
+    "high": 4000.0,
+    "low": 2494.0,
+    "mean": 3179.0,
+    "median": 3037.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 14.25,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": -12.79,
+        "eps_actual": 8.27,
+        "surprise_pct": 164.66
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 4.26,
+        "eps_actual": -133.97,
+        "surprise_pct": -3244.84
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 7.26,
+        "eps_actual": 14.64,
+        "surprise_pct": 101.65
+      },
+      {
+        "date": "2025-05-11",
+        "eps_estimate": 8.01,
+        "eps_actual": 9.23,
+        "surprise_pct": 15.23
+      },
+      {
+        "date": "2025-02-09",
+        "eps_estimate": 26.39,
+        "eps_actual": -28.95,
+        "surprise_pct": -209.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.21,
-    "institution_pct": 65.24,
+    "institution_pct": 59.58,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 65.24
+        "value": 59.58
       },
       {
         "label": "",
-        "value": 65.38
+        "value": 59.7
       },
       {
         "label": "",
-        "value": 278.0
+        "value": 258.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.0,
         "pct_change": -4.39,
-        "value": 11762091
+        "value": 11009763
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5775840,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.44,
-        "pct_change": -0.04,
-        "value": 19505011680
+        "shares": 5847640,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.46,
+        "pct_change": 1.24,
+        "value": 18484390040
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,39 +113,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.94,
         "pct_change": 2.09,
-        "value": 12712723254
+        "value": 11899590822
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2742200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.69,
-        "pct_change": 0.84,
-        "value": 9260409400
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1507710,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.38,
-        "pct_change": -0.25,
-        "value": 5091536670
+        "shares": 2807600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.7,
+        "pct_change": 1.1,
+        "value": 8874823600
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1390900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 1.27,
-        "value": 4697069300
+        "shares": 1568800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": -0.09,
+        "value": 4958976800
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1504710,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.38,
+        "pct_change": -0.2,
+        "value": 4756388310
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 1373100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.34,
-        "pct_change": 0.57,
-        "value": 4636958700
+        "pct_change": 0.0,
+        "value": 4340369100
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -115,31 +153,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -3.88,
-        "value": 3709296800
+        "value": 3472042400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 867284,
-        "date_reported": "2025-10-31",
+        "shares": 886884,
+        "date_reported": "2026-01-31",
         "pct_held": 0.22,
-        "pct_change": 0.73,
-        "value": 2928818068
+        "pct_change": 2.26,
+        "value": 2803440324
+      },
+      {
+        "holder": "HARBOR FUNDS-Harbor International Fund",
+        "shares": 846200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.21,
+        "pct_change": 59.87,
+        "value": 2674838200
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 828525,
-        "date_reported": "2025-11-30",
+        "shares": 836373,
+        "date_reported": "2026-02-28",
         "pct_held": 0.21,
-        "pct_change": 0.92,
-        "value": 2797928925
-      },
-      {
-        "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
-        "shares": 749175,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 2529963975
+        "pct_change": 0.95,
+        "value": 2643775053
       }
     ]
   }

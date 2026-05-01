@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:07.785047",
+  "fetched_at": "2026-05-01T04:19:31.593956",
   "ticker": "8130",
   "ticker_full": "8130.T",
   "company_name": "SANGETSU CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3090.0,
+    "current": 2995.0,
     "high": 3400.0,
     "low": 3400.0,
     "mean": 3400.0,
     "median": 3400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 20.52,
+        "eps_actual": 23.09,
+        "surprise_pct": 12.51
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 19.19,
+        "eps_actual": 22.08,
+        "surprise_pct": 15.05
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 14.5,
+        "eps_actual": 14.23,
+        "surprise_pct": -1.9
+      },
+      {
+        "date": "2015-02-01",
+        "eps_estimate": 16.04,
+        "eps_actual": 15.82,
+        "surprise_pct": -1.35
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 11.77,
+        "eps_actual": 11.26,
+        "surprise_pct": -4.32
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.77,
-    "institution_pct": 22.75,
+    "institution_pct": 22.84,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 22.75
+        "value": 22.84
       },
       {
         "label": "",
-        "value": 27.33
+        "value": 27.44
       },
       {
         "label": "",
@@ -53,11 +91,11 @@
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 715788,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.21,
-        "pct_change": 0.0,
-        "value": 2211784920
+        "shares": 713188,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.2,
+        "pct_change": -0.36,
+        "value": 2135998060
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +103,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 1375794690
+        "value": 1333496795
+      },
+      {
+        "holder": "Japan Smaller Capitalization Fund, Inc.",
+        "shares": 370600,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.63,
+        "pct_change": 22.15,
+        "value": 1109947000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 324400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 1002396000
+        "value": 971578000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 310800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 960372000
-      },
-      {
-        "holder": "Japan Smaller Capitalization Fund, Inc.",
-        "shares": 303400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.51,
-        "pct_change": 6.98,
-        "value": 937506000
+        "value": 930846000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -97,7 +135,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.45,
         "pct_change": 2.64,
-        "value": 828503160
+        "value": 803031380
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,15 +143,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.44,
         "pct_change": -0.91,
-        "value": 809116500
+        "value": 784240750
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 184300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.43,
-        "value": 569487000
+        "shares": 190100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 1.06,
+        "value": 569349500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -121,15 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 565779000
+        "value": 548384500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 165120,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.28,
-        "pct_change": 4.96,
-        "value": 510220800
+        "shares": 172520,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": 4.48,
+        "value": 516697400
       }
     ],
     "mutualfund_holders": []

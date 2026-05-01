@@ -1,37 +1,57 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:04.894524",
+  "fetched_at": "2026-05-01T04:27:51.801775",
   "ticker": "9364",
   "ticker_full": "9364.T",
   "company_name": "KAMIGUMI CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5443.0,
+    "current": 5266.0,
     "high": 6100.0,
-    "low": 4900.0,
-    "mean": 5600.0,
+    "low": 5200.0,
+    "mean": 5700.0,
     "median": 5800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2009-11-09",
+        "eps_estimate": 23.6,
+        "eps_actual": 20.34,
+        "surprise_pct": -13.81
+      },
+      {
+        "date": "2008-05-15",
+        "eps_estimate": 27.2,
+        "eps_actual": 25.64,
+        "surprise_pct": -5.74
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.29,
-    "institution_pct": 37.26,
+    "institution_pct": 37.36,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +59,15 @@
       },
       {
         "label": "",
-        "value": 37.26
+        "value": 37.36
       },
       {
         "label": "",
-        "value": 43.46
+        "value": 43.59
       },
       {
         "label": "",
-        "value": 141.0
+        "value": 139.0
       }
     ],
     "institutional_holders": [],

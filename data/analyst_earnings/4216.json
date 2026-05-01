@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:40:51.214666",
+  "fetched_at": "2026-05-01T04:12:51.329081",
   "ticker": "4216",
   "ticker_full": "4216.T",
   "company_name": "ASAHI YUKIZAI CORPORATION",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5700.0,
+    "current": 5720.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 13.87,
+        "eps_actual": 12.65,
+        "surprise_pct": -8.8
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 5.95,
+        "eps_actual": 14.55,
+        "surprise_pct": 144.54
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 21.37,
+        "eps_actual": 10.6,
+        "surprise_pct": -50.4
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 16.8,
+        "eps_actual": 25.35,
+        "surprise_pct": 50.89
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 8.07,
+        "eps_actual": 24.25,
+        "surprise_pct": 200.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.67,
-    "institution_pct": 25.94,
+    "institution_pct": 30.51,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 25.94
+        "value": 30.51
       },
       {
         "label": "",
-        "value": 37.41
+        "value": 44.0
       },
       {
         "label": "",
-        "value": 63.0
+        "value": 65.0
       }
     ],
     "institutional_holders": [],

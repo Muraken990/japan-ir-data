@@ -1,37 +1,51 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:15.452670",
+  "fetched_at": "2026-05-01T04:18:39.133753",
   "ticker": "9075",
   "ticker_full": "9075.T",
   "company_name": "FUKUYAMA TRANSPORTING CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 2,
-    "sell": 1,
-    "strong_sell": 1,
+    "hold": 4,
+    "sell": 0,
+    "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5450.0,
+    "current": 5170.0,
     "high": 4830.0,
     "low": 3800.0,
-    "mean": 4320.0,
-    "median": 4325.0
+    "mean": 4322.5,
+    "median": 4330.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2009-11-05",
+        "eps_estimate": 19.5,
+        "eps_actual": 28.15,
+        "surprise_pct": 44.36
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 38.81,
-    "institution_pct": 25.14,
+    "institution_pct": 25.2,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +53,15 @@
       },
       {
         "label": "",
-        "value": 25.14
+        "value": 25.2
       },
       {
         "label": "",
-        "value": 41.09
+        "value": 41.18
       },
       {
         "label": "",
-        "value": 71.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],

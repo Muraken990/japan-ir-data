@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:59.365686",
+  "fetched_at": "2026-05-01T04:17:21.403657",
   "ticker": "9551",
   "ticker_full": "9551.T",
   "company_name": "METAWATER CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 1,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 3555.0,
-    "high": 3500.0,
+    "current": 3390.0,
+    "high": 3800.0,
     "low": 2000.0,
-    "mean": 2740.0,
-    "median": 2720.0
+    "mean": 3100.0,
+    "median": 3500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-04-24",
+        "eps_estimate": 159.75,
+        "eps_actual": 156.95,
+        "surprise_pct": -1.76
+      },
+      {
+        "date": "2026-01-27",
+        "eps_estimate": 33.66,
+        "eps_actual": 38.51,
+        "surprise_pct": 14.43
+      },
+      {
+        "date": "2025-10-27",
+        "eps_estimate": 4.68,
+        "eps_actual": 36.83,
+        "surprise_pct": 687.46
+      },
+      {
+        "date": "2025-07-24",
+        "eps_estimate": -40.62,
+        "eps_actual": -22.99,
+        "surprise_pct": 43.41
+      },
+      {
+        "date": "2025-04-24",
+        "eps_estimate": 198.52,
+        "eps_actual": 179.63,
+        "surprise_pct": -9.52
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 46.7,
-    "institution_pct": 20.07,
+    "institution_pct": 18.67,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 20.07
+        "value": 18.67
       },
       {
         "label": "",
-        "value": 37.66
+        "value": 35.03
       },
       {
         "label": "",
-        "value": 98.0
+        "value": 94.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +90,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.22,
         "pct_change": 15.43,
-        "value": 3494920500
+        "value": 3332709000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 404800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.91,
-        "pct_change": 4.9,
-        "value": 1439064000
+        "shares": 414900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.94,
+        "pct_change": 0.0,
+        "value": 1406511000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 331743,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.75,
-        "pct_change": 11.42,
-        "value": 1179346365
+        "shares": 329343,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.74,
+        "pct_change": -0.72,
+        "value": 1116472770
       },
       {
         "holder": "Calvert Impact Fund, Inc.-Calvert Global Water Fund",
@@ -81,7 +114,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.56,
         "pct_change": 1.0,
-        "value": 875952000
+        "value": 835296000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,23 +122,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 826661925
-      },
-      {
-        "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
-        "shares": 221800,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.5,
-        "pct_change": -26.09,
-        "value": 788499000
+        "value": 788293650
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 126700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 450418500
+        "value": 429513000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -113,7 +138,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -2.49,
-        "value": 444730500
+        "value": 424089000
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Small Cap Fund",
@@ -121,15 +146,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -17.05,
-        "value": 423706230
+        "value": 404040540
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 89600,
+        "shares": 96300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": 5.25,
+        "value": 326457000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 86300,
         "date_reported": "2026-01-31",
-        "pct_held": 0.2,
-        "pct_change": 1.47,
-        "value": 318528000
+        "pct_held": 0.19,
+        "pct_change": 0.0,
+        "value": 292557000
       }
     ],
     "mutualfund_holders": []

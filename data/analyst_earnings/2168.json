@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:38:24.448544",
+  "fetched_at": "2026-05-01T04:10:17.569689",
   "ticker": "2168",
   "ticker_full": "2168.T",
   "company_name": "PASONA GROUP INC",
@@ -17,20 +17,35 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1891.0,
+    "current": 1607.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-04-06",
+        "eps_estimate": 2.7,
+        "eps_actual": -2.68,
+        "surprise_pct": -199.26
+      },
+      {
+        "date": "2017-01-12",
+        "eps_estimate": -1.7,
+        "eps_actual": -7.52,
+        "surprise_pct": -342.35
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 49.84,
-    "institution_pct": 15.23,
+    "institution_pct": 15.47,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +53,11 @@
       },
       {
         "label": "",
-        "value": 15.23
+        "value": 15.47
       },
       {
         "label": "",
-        "value": 30.36
+        "value": 30.84
       },
       {
         "label": "",

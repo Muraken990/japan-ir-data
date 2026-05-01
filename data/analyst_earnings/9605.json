@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:00.400360",
+  "fetched_at": "2026-05-01T04:25:42.893677",
   "ticker": "9605",
   "ticker_full": "9605.T",
   "company_name": "TOEI CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 5970.0,
+    "current": 5770.0,
     "high": 5800.0,
     "low": 5200.0,
     "mean": 5500.0,
     "median": 5500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-11-14",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 43.94,
+        "eps_actual": 58.79,
+        "surprise_pct": 33.8
+      },
+      {
+        "date": "2023-05-15",
+        "eps_estimate": -3.54,
+        "eps_actual": 13.05,
+        "surprise_pct": 468.53
+      },
+      {
+        "date": "2023-02-13",
+        "eps_estimate": 40.32,
+        "eps_actual": 71.54,
+        "surprise_pct": 77.43
+      },
+      {
+        "date": "2022-11-14",
+        "eps_estimate": 66.08,
+        "eps_actual": 107.25,
+        "surprise_pct": 62.31
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 46.39,
-    "institution_pct": 21.3,
+    "institution_pct": 20.91,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 21.3
+        "value": 20.91
       },
       {
         "label": "",
-        "value": 39.74
+        "value": 39.0
       },
       {
         "label": "",
-        "value": 62.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [],

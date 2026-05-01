@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:20.264757",
+  "fetched_at": "2026-05-01T04:28:07.459557",
   "ticker": "6113",
   "ticker_full": "6113.T",
   "company_name": "AMADA CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 4,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.875
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2249.0,
+    "current": 2640.0,
     "high": 3500.0,
     "low": 1900.0,
     "mean": 2572.8572,
     "median": 2400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 26.23,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 17.55,
+        "eps_actual": 24.73,
+        "surprise_pct": 40.88
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 29.22,
+        "eps_actual": 24.03,
+        "surprise_pct": -17.75
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 17.69,
+        "eps_actual": 8.47,
+        "surprise_pct": -52.13
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 26.23,
+        "eps_actual": 37.04,
+        "surprise_pct": 41.23
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 26.53,
+        "eps_actual": 16.23,
+        "surprise_pct": -38.82
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.29,
-    "institution_pct": 54.94,
+    "insider_pct": 5.47,
+    "institution_pct": 56.67,
     "major_holders": [
       {
         "label": "",
-        "value": 5.29
+        "value": 5.47
       },
       {
         "label": "",
-        "value": 54.94
+        "value": 56.67
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 59.95
       },
       {
         "label": "",
-        "value": 197.0
+        "value": 193.0
       }
     ],
     "institutional_holders": [
@@ -57,89 +95,89 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 21.96,
-        "value": 924339
+        "value": 1085040
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4511290,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.37,
-        "pct_change": 1.06,
-        "value": 10145891210
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
-        "shares": 3773999,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.15,
-        "pct_change": 0.0,
-        "value": 8487723751
+        "shares": 4509190,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.42,
+        "pct_change": -0.05,
+        "value": 11904261600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 2853757,
         "date_reported": "2025-12-31",
-        "pct_held": 0.87,
+        "pct_held": 0.9,
         "pct_change": 0.73,
-        "value": 6418099493
+        "value": 7533918480
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
         "shares": 2533260,
         "date_reported": "2026-01-31",
-        "pct_held": 0.77,
+        "pct_held": 0.8,
         "pct_change": 4.63,
-        "value": 5697301740
+        "value": 6687806400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2215900,
+        "shares": 2259500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": 0.91,
+        "value": 5965080000
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
+        "shares": 1737104,
         "date_reported": "2026-01-31",
-        "pct_held": 0.68,
-        "pct_change": 0.69,
-        "value": 4983559100
+        "pct_held": 0.55,
+        "pct_change": -53.97,
+        "value": 4585954560
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
         "shares": 1299592,
         "date_reported": "2026-01-31",
-        "pct_held": 0.4,
+        "pct_held": 0.41,
         "pct_change": 6.19,
-        "value": 2922782408
+        "value": 3430922880
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1182000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.56,
-        "value": 2658318000
+        "shares": 1229800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": 1.75,
+        "value": 3246672000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
         "shares": 1035600,
         "date_reported": "2026-01-31",
-        "pct_held": 0.32,
+        "pct_held": 0.33,
         "pct_change": -2.79,
-        "value": 2329064400
+        "value": 2733984000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 1035300,
         "date_reported": "2026-01-31",
-        "pct_held": 0.32,
+        "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 2328389700
+        "value": 2733192000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 678785,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.21,
-        "pct_change": -0.48,
-        "value": 1526587465
+        "pct_change": 0.0,
+        "value": 1791992400
       }
     ]
   }

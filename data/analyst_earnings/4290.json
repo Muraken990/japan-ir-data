@@ -1,53 +1,60 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:43.687450",
+  "fetched_at": "2026-05-01T04:11:40.484355",
   "ticker": "4290",
   "ticker_full": "4290.T",
   "company_name": "PRESTIGE INTERNATIONAL INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
+    "total_analysts": 2,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 679.0,
+    "current": 663.0,
     "high": 830.0,
     "low": 830.0,
     "mean": 830.0,
     "median": 830.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 33.86,
-    "institution_pct": 38.71,
+    "insider_pct": 31.99,
+    "institution_pct": 32.63,
     "major_holders": [
       {
         "label": "",
-        "value": 33.86
+        "value": 31.99
       },
       {
         "label": "",
-        "value": 38.71
+        "value": 32.63
       },
       {
         "label": "",
-        "value": 58.54
+        "value": 47.98
       },
       {
         "label": "",
-        "value": 71.0
+        "value": 68.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +64,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 2.81,
         "pct_change": 0.0,
-        "value": 2423147300
+        "value": 2366048100
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
@@ -65,15 +72,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.93,
         "pct_change": 0.0,
-        "value": 1662901555
+        "value": 1623716835
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1161477,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.91,
-        "pct_change": 0.0,
-        "value": 788642883
+        "shares": 1118377,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.88,
+        "pct_change": -3.71,
+        "value": 741483951
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
@@ -81,7 +88,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.84,
         "pct_change": 0.0,
-        "value": 723135000
+        "value": 706095000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,7 +96,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.67,
         "pct_change": 14.98,
-        "value": 581638869
+        "value": 567933093
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,15 +104,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.44,
         "pct_change": -0.77,
-        "value": 383770800
+        "value": 374727600
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity U.S. Total ",
         "shares": 523110,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 355191690
+        "value": 346821930
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock K6 Fund",
@@ -113,23 +120,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 253643845
+        "value": 247666965
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 368500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 1.38,
+        "value": 244315500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 360900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 245051100
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 354000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.87,
-        "value": 240366000
+        "value": 239276700
       }
     ],
     "mutualfund_holders": []

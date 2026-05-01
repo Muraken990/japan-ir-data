@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:54.570819",
+  "fetched_at": "2026-05-01T04:17:16.205108",
   "ticker": "9882",
   "ticker_full": "9882.T",
   "company_name": "YELLOW HAT LTD",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1555.0,
+    "current": 1510.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 27.63,
+        "eps_actual": 18.78,
+        "surprise_pct": -32.04
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 7.08,
+        "eps_actual": 15.26,
+        "surprise_pct": 115.48
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 16.41,
+        "eps_actual": 11.1,
+        "surprise_pct": -32.36
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 26.17,
+        "eps_actual": 25.52,
+        "surprise_pct": -2.5
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 12.98,
+        "eps_actual": 12.09,
+        "surprise_pct": -6.88
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.42,
-    "institution_pct": 31.51,
+    "institution_pct": 31.23,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 31.51
+        "value": 31.23
       },
       {
         "label": "",
-        "value": 45.29
+        "value": 44.89
       },
       {
         "label": "",
-        "value": 68.0
+        "value": 69.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 956604,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.11,
         "pct_change": 0.0,
-        "value": 1487519220
+        "value": 1444472040
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +98,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.68,
         "pct_change": 0.0,
-        "value": 906201130
+        "value": 879976660
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -73,7 +106,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 783098000
+        "value": 760436000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,15 +114,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.47,
         "pct_change": -1.54,
-        "value": 626509500
+        "value": 608379000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 325600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 506308000
+        "value": 491656000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,39 +130,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 467122000
+        "value": 453604000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 251200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 1.21,
+        "value": 379312000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 241300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 375221500
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 242500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.63,
-        "value": 377087500
+        "value": 364363000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 232100,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.27,
-        "pct_change": 11.53,
-        "value": 360915500
+        "pct_change": 0.0,
+        "value": 350471000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 136216,
-        "date_reported": "2025-11-30",
+        "shares": 134658,
+        "date_reported": "2026-02-28",
         "pct_held": 0.16,
-        "pct_change": 16.34,
-        "value": 211815880
+        "pct_change": -1.14,
+        "value": 203333580
       }
     ],
     "mutualfund_holders": []

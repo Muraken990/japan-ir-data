@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:57.913847",
+  "fetched_at": "2026-05-01T04:16:18.553106",
   "ticker": "2685",
   "ticker_full": "2685.T",
   "company_name": "AND ST HD CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2980.0,
-    "high": 3100.0,
+    "current": 3020.0,
+    "high": 3400.0,
     "low": 2900.0,
-    "mean": 3010.0,
-    "median": 3005.0
+    "mean": 3126.6667,
+    "median": 3105.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-06",
+        "eps_estimate": 57.05,
+        "eps_actual": -1.26,
+        "surprise_pct": -102.21
+      },
+      {
+        "date": "2025-12-29",
+        "eps_estimate": 123.74,
+        "eps_actual": 77.4,
+        "surprise_pct": -37.45
+      },
+      {
+        "date": "2025-09-30",
+        "eps_estimate": 53.84,
+        "eps_actual": 35.03,
+        "surprise_pct": -34.94
+      },
+      {
+        "date": "2025-06-30",
+        "eps_estimate": 109.32,
+        "eps_actual": 94.7,
+        "surprise_pct": -13.37
+      },
+      {
+        "date": "2025-04-04",
+        "eps_estimate": 33.44,
+        "eps_actual": -6.78,
+        "surprise_pct": -120.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.45,
-    "institution_pct": 24.38,
+    "institution_pct": 24.4,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 24.38
+        "value": 24.4
       },
       {
         "label": "",
-        "value": 42.36
+        "value": 42.4
       },
       {
         "label": "",
-        "value": 81.0
+        "value": 80.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.87,
         "pct_change": 1.0,
-        "value": 2722230000
+        "value": 2758770000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 365701,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 1089788980
-      },
-      {
-        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 235452,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.48,
-        "pct_change": -2.35,
-        "value": 701646960
+        "value": 1104417020
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,23 +111,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.47,
         "pct_change": 4.8,
-        "value": 689563060
+        "value": 698818940
+      },
+      {
+        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
+        "shares": 230752,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.47,
+        "pct_change": -2.0,
+        "value": 696871040
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 183100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.38,
-        "pct_change": 8.09,
-        "value": 545638000
+        "shares": 201900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.41,
+        "pct_change": 2.02,
+        "value": 609738000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 167300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 498554000
+        "value": 505246000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,15 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 429418000
-      },
-      {
-        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 133659,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.27,
-        "pct_change": 0.0,
-        "value": 398303820
+        "value": 435182000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -121,15 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 395159920
+        "value": 400464080
+      },
+      {
+        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
+        "shares": 133659,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": 0.0,
+        "value": 403650180
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 100280,
-        "date_reported": "2026-01-31",
+        "shares": 103180,
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 1.31,
-        "value": 298834400
+        "pct_change": 0.98,
+        "value": 311603600
       }
     ],
     "mutualfund_holders": []

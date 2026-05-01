@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:29.008491",
+  "fetched_at": "2026-05-01T04:31:21.965579",
   "ticker": "4004",
   "ticker_full": "4004.T",
   "company_name": "RESONAC HOLDINGS CORPORATION",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 7,
+    "buy": 8,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 11,
+    "total_analysts": 12,
     "recommendation_key": "buy",
     "recommendation_mean": 1.58333
   },
   "target_prices": {
     "has_data": true,
-    "current": 10530.0,
+    "current": 14085.0,
     "high": 17000.0,
-    "low": 3700.0,
-    "mean": 12185.0,
-    "median": 14200.0
+    "low": 6000.0,
+    "mean": 13293.333,
+    "median": 14450.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 152.3,
+        "eps_actual": 127.12,
+        "surprise_pct": -16.53
+      },
+      {
+        "date": "2023-11-08",
+        "eps_estimate": 5.0,
+        "eps_actual": 74.26,
+        "surprise_pct": 1385.2
+      },
+      {
+        "date": "2014-10-29",
+        "eps_estimate": 23.4,
+        "eps_actual": 37.5,
+        "surprise_pct": 60.26
+      },
+      {
+        "date": "2014-07-30",
+        "eps_estimate": 16.7,
+        "eps_actual": -29.2,
+        "surprise_pct": -274.85
+      },
+      {
+        "date": "2014-05-07",
+        "eps_estimate": 14.7,
+        "eps_actual": 3.0,
+        "surprise_pct": -79.59
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 0.46,
-    "institution_pct": 62.95,
+    "insider_pct": 0.42,
+    "institution_pct": 69.02,
     "major_holders": [
       {
         "label": "",
-        "value": 0.46
+        "value": 0.42
       },
       {
         "label": "",
-        "value": 62.95
+        "value": 69.02
       },
       {
         "label": "",
-        "value": 63.25
+        "value": 69.31
       },
       {
         "label": "",
-        "value": 176.0
+        "value": 180.0
       }
     ],
     "institutional_holders": [
@@ -57,31 +95,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 4.04,
         "pct_change": -12.99,
-        "value": 78751416510
+        "value": 105338433195
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Growth Fund",
-        "shares": 4825600,
-        "date_reported": "2025-11-30",
-        "pct_held": 2.61,
-        "pct_change": 3.43,
-        "value": 50813568000
+        "shares": 6049300,
+        "date_reported": "2026-02-28",
+        "pct_held": 3.27,
+        "pct_change": 25.36,
+        "value": 85204390500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2590803,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.4,
-        "pct_change": 0.28,
-        "value": 27281155590
-      },
-      {
-        "holder": "NEW ECONOMY FUND",
-        "shares": 1755200,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.95,
-        "pct_change": -19.0,
-        "value": 18482256000
+        "shares": 2611303,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.41,
+        "pct_change": 0.79,
+        "value": 36780202755
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,23 +119,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.91,
         "pct_change": 2.13,
-        "value": 17810105040
+        "value": 23822918280
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1212200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.66,
-        "pct_change": 0.63,
-        "value": 12764466000
-      },
-      {
-        "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
-        "shares": 1078714,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.58,
-        "pct_change": -8.86,
-        "value": 11358858420
+        "shares": 1234000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.67,
+        "pct_change": 0.83,
+        "value": 17380890000
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -113,7 +135,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.55,
         "pct_change": 8.99,
-        "value": 10754289000
+        "value": 14385010500
+      },
+      {
+        "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
+        "shares": 830856,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.45,
+        "pct_change": -22.98,
+        "value": 11702606760
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -121,7 +151,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 7822989720
+        "value": 10464084540
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 693600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.38,
+        "pct_change": 1.6,
+        "value": 9769356000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 7239985740
+        "value": 9684254430
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:40:39.322313",
+  "fetched_at": "2026-05-01T04:12:37.367659",
   "ticker": "7241",
   "ticker_full": "7241.T",
   "company_name": "FUTABA INDUSTRIAL CO",
@@ -13,41 +13,74 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 985.0,
+    "current": 974.0,
     "high": 1200.0,
     "low": 1200.0,
     "mean": 1200.0,
     "median": 1200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-01",
+        "eps_estimate": 6.57,
+        "eps_actual": 9.37,
+        "surprise_pct": 42.53
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": 2.76,
+        "eps_actual": -24.6,
+        "surprise_pct": -990.98
+      },
+      {
+        "date": "2015-06-29",
+        "eps_estimate": 13.22,
+        "eps_actual": 16.39,
+        "surprise_pct": 24.02
+      },
+      {
+        "date": "2015-06-29",
+        "eps_estimate": 3.24,
+        "eps_actual": 6.23,
+        "surprise_pct": 92.22
+      },
+      {
+        "date": "2015-02-01",
+        "eps_estimate": 11.24,
+        "eps_actual": 0.3,
+        "surprise_pct": -97.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 37.69,
-    "institution_pct": 25.41,
+    "insider_pct": 37.61,
+    "institution_pct": 26.21,
     "major_holders": [
       {
         "label": "",
-        "value": 37.69
+        "value": 37.61
       },
       {
         "label": "",
-        "value": 25.41
+        "value": 26.21
       },
       {
         "label": "",
-        "value": 40.78
+        "value": 42.01
       },
       {
         "label": "",
-        "value": 56.0
+        "value": 55.0
       }
     ],
     "institutional_holders": [],

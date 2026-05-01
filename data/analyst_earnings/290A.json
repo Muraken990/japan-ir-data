@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:03.282360",
+  "fetched_at": "2026-05-01T04:18:26.099216",
   "ticker": "290A",
   "ticker_full": "290A.T",
   "company_name": "SYNSPECTIVE INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 1,
     "hold": 0,
@@ -14,24 +14,23 @@
     "strong_sell": 0,
     "total_analysts": 2,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 1132.0,
-    "high": 1753.0,
-    "low": 1300.0,
-    "mean": 1551.0,
-    "median": 1600.0
+    "current": 1370.0,
+    "high": 2000.0,
+    "low": 1500.0,
+    "mean": 1713.25,
+    "median": 1676.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": false
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 48.02,
-    "institution_pct": 7.34,
+    "institution_pct": 8.0,
     "major_holders": [
       {
         "label": "",
@@ -39,18 +38,99 @@
       },
       {
         "label": "",
-        "value": 7.34
+        "value": 8.0
       },
       {
         "label": "",
-        "value": 14.12
+        "value": 15.39
       },
       {
         "label": "",
-        "value": 21.0
+        "value": 32.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 362400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": 0.0,
+        "value": 496488000
+      },
+      {
+        "holder": "Principal Funds, Inc-International Small Company Fund",
+        "shares": 297800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.23,
+        "pct_change": 1.0,
+        "value": 407986000
+      },
+      {
+        "holder": "Procure ETF Trust II-Procure Space ETF",
+        "shares": 267700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.2,
+        "pct_change": 1.62,
+        "value": 366749000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 206500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.16,
+        "pct_change": 0.98,
+        "value": 282905000
+      },
+      {
+        "holder": "Goldman Sachs Trust II-Goldman Sachs Multi-Manager Global Equity Fund",
+        "shares": 35400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.03,
+        "pct_change": 1.0,
+        "value": 48498000
+      },
+      {
+        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
+        "shares": 24100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.02,
+        "pct_change": 1.0,
+        "value": 33017000
+      },
+      {
+        "holder": "-SSgA SPDR ETFS Europe I-State Street SPDR MSCI All Country World Inve",
+        "shares": 9100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.01,
+        "pct_change": 1.0,
+        "value": 12467000
+      },
+      {
+        "holder": "-SSgA SPDR ETFS Europe I-State Street SPDR MSCI World Small Cap UCITS ",
+        "shares": 8800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.01,
+        "pct_change": 1.0,
+        "value": 12056000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Pacific ETF",
+        "shares": 12700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.01,
+        "pct_change": 0.0,
+        "value": 17399000
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan Small-Cap ETF",
+        "shares": 8400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.01,
+        "pct_change": 1.0,
+        "value": 11508000
+      }
+    ],
     "mutualfund_holders": []
   }
 }

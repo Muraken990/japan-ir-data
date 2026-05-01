@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:44.612993",
+  "fetched_at": "2026-05-01T04:32:40.498797",
   "ticker": "4755",
   "ticker_full": "4755.T",
   "company_name": "RAKUTEN GROUP INC",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 6,
-    "buy": 3,
+    "buy": 1,
     "hold": 6,
     "sell": 0,
     "strong_sell": 1,
-    "total_analysts": 16,
+    "total_analysts": 14,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 752.7,
+    "current": 762.8,
     "high": 1190.0,
     "low": 575.0,
-    "mean": 1006.1539,
-    "median": 1050.0
+    "mean": 983.5714,
+    "median": 1000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": -42.19,
+        "eps_actual": -12.23,
+        "surprise_pct": 71.01
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 9.71,
+        "eps_actual": -12.4,
+        "surprise_pct": -227.7
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 5.2,
+        "eps_actual": -23.56,
+        "surprise_pct": -553.08
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 0.45,
+        "eps_actual": -34.08,
+        "surprise_pct": -7673.33
+      },
+      {
+        "date": "2025-02-14",
+        "eps_estimate": 26.15,
+        "eps_actual": -5.6,
+        "surprise_pct": -121.42
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 33.7,
-    "institution_pct": 29.5,
+    "insider_pct": 33.68,
+    "institution_pct": 29.39,
     "major_holders": [
       {
         "label": "",
-        "value": 33.7
+        "value": 33.68
       },
       {
         "label": "",
-        "value": 29.5
+        "value": 29.39
       },
       {
         "label": "",
-        "value": 44.5
+        "value": 44.31
       },
       {
         "label": "",
-        "value": 260.0
+        "value": 253.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.8,
-        "value": 8950039
+        "value": 9068929
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 20715959,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.95,
-        "pct_change": 0.77,
-        "value": 15594973682
+        "shares": 20906859,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.96,
+        "pct_change": 0.92,
+        "value": 15947751789
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.62,
         "pct_change": 1.97,
-        "value": 10143686243
+        "value": 10278432343
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 10529400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.48,
-        "pct_change": 0.95,
-        "value": 7926532191
+        "shares": 10812800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.5,
+        "pct_change": 1.24,
+        "value": 8248003708
       },
       {
         "holder": "TRANSAMERICA FUNDS-Transamerica International Equity",
@@ -91,15 +129,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -3.52,
-        "value": 4489398007
+        "value": 4549034007
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 5461386,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 0.91,
-        "value": 4111331314
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 5942800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": 0.29,
+        "value": 4533167767
       },
       {
         "holder": "HARTFORD MUTUAL Fd.S INC/CT-THE HARTFORD Intl OPPORTUNITIES Fd.",
@@ -107,23 +145,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": -4.25,
-        "value": 4145217852
+        "value": 4200281852
       },
       {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 5273100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 1.05,
-        "value": 3969589615
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 5528786,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.25,
+        "pct_change": 1.23,
+        "value": 4217357893
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 5265500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.24,
-        "pct_change": 0.54,
-        "value": 3963868335
+        "pct_change": 0.0,
+        "value": 4016523335
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": -3.93,
-        "value": 3260452027
+        "value": 3303763027
       },
       {
         "holder": "GLOBAL X FUNDS-Global X Artificial Intelligence & Technology ETF",
-        "shares": 4061401,
-        "date_reported": "2026-01-31",
+        "shares": 4156105,
+        "date_reported": "2026-03-31",
         "pct_held": 0.19,
-        "pct_change": 13.83,
-        "value": 3057422623
+        "pct_change": 0.8,
+        "value": 3170276843
       }
     ]
   }

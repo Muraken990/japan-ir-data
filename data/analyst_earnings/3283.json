@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:26.731911",
+  "fetched_at": "2026-05-01T04:29:14.854066",
   "ticker": "3283",
   "ticker_full": "3283.T",
   "company_name": "NIPPON PROLOGIS REIT INC",
@@ -8,30 +8,37 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 6,
-    "hold": 3,
+    "buy": 5,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.1
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 86800.0,
+    "current": 90300.0,
     "high": 108800.0,
     "low": 89000.0,
-    "mean": 100050.0,
+    "mean": 100150.0,
     "median": 99850.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-17",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.85,
-    "institution_pct": 48.5,
+    "institution_pct": 48.98,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 48.5
+        "value": 48.98
       },
       {
         "label": "",
-        "value": 60.51
+        "value": 61.11
       },
       {
         "label": "",
-        "value": 184.0
+        "value": 181.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +64,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.04,
         "pct_change": -7.22,
-        "value": 303192400
+        "value": 315417900
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 102998,
-        "date_reported": "2025-10-31",
+        "shares": 103410,
+        "date_reported": "2026-01-31",
         "pct_held": 1.23,
-        "pct_change": 6.59,
-        "value": 8940226400
+        "pct_change": 0.4,
+        "value": 9337923000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +82,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.81,
         "pct_change": 2.4,
-        "value": 5889640400
+        "value": 6127125900
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 47652,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.57,
-        "pct_change": 0.97,
-        "value": 4136193600
+        "shares": 48960,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.58,
+        "pct_change": 1.27,
+        "value": 4421088000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -91,15 +98,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.56,
         "pct_change": -2.12,
-        "value": 4079773600
+        "value": 4244280600
       },
       {
         "holder": "-Price (T.Rowe) Real Assets Trust I",
-        "shares": 41056,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.49,
-        "pct_change": 4.93,
-        "value": 3563660800
+        "shares": 38083,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.45,
+        "pct_change": -7.24,
+        "value": 3438894900
       },
       {
         "holder": "COHEN & STEERS GLOBAL REALTY SHARES, INC-Cohen & Steers Global Realty ",
@@ -107,23 +114,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.34,
         "pct_change": -12.72,
-        "value": 2470848800
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
-        "shares": 26018,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.31,
-        "pct_change": -3.42,
-        "value": 2258362400
+        "value": 2570479800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 25346,
+        "shares": 26245,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": 1.2,
+        "value": 2369923500
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
+        "shares": 25344,
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
-        "pct_change": 1.29,
-        "value": 2200032800
+        "pct_change": -2.59,
+        "value": 2288563200
       },
       {
         "holder": "T. Rowe Price Real Assets Fund, Inc.",
@@ -131,15 +138,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.26,
         "pct_change": -11.7,
-        "value": 1868370000
+        "value": 1943707500
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 18973,
-        "date_reported": "2026-01-31",
+        "shares": 19057,
+        "date_reported": "2026-03-31",
         "pct_held": 0.23,
-        "pct_change": 2.09,
-        "value": 1646856400
+        "pct_change": -0.63,
+        "value": 1720847100
       }
     ]
   }

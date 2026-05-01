@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:30:13.002114",
+  "fetched_at": "2026-05-01T04:14:03.814561",
   "ticker": "1982",
   "ticker_full": "1982.T",
   "company_name": "HIBIYA ENGINEERING",
@@ -18,32 +18,65 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4995.0,
+    "current": 3015.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": -0.77,
+        "eps_actual": 23.26,
+        "surprise_pct": 3107.11
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": -4.78,
+        "eps_actual": -7.06,
+        "surprise_pct": -47.81
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 33.32,
+        "eps_actual": 47.69,
+        "surprise_pct": 43.12
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 2.06,
+        "eps_actual": 4.33,
+        "surprise_pct": 110.26
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": -2.52,
+        "eps_actual": 1.57,
+        "surprise_pct": 162.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 35.71,
-    "institution_pct": 10.45,
+    "insider_pct": 38.55,
+    "institution_pct": 10.93,
     "major_holders": [
       {
         "label": "",
-        "value": 35.71
+        "value": 38.55
       },
       {
         "label": "",
-        "value": 10.45
+        "value": 10.93
       },
       {
         "label": "",
-        "value": 16.26
+        "value": 17.78
       },
       {
         "label": "",

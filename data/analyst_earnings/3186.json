@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:27.440898",
+  "fetched_at": "2026-05-01T04:20:57.451812",
   "ticker": "3186",
   "ticker_full": "3186.T",
   "company_name": "NEXTAGE CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 1,
     "buy": 2,
     "hold": 1,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.2
   },
   "target_prices": {
     "has_data": true,
-    "current": 3275.0,
-    "high": 4100.0,
+    "current": 3380.0,
+    "high": 5400.0,
     "low": 2200.0,
-    "mean": 3225.0,
-    "median": 3300.0
+    "mean": 3740.0,
+    "median": 3680.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-05",
+        "eps_estimate": 52.17,
+        "eps_actual": 62.21,
+        "surprise_pct": 19.24
+      },
+      {
+        "date": "2025-10-06",
+        "eps_estimate": 36.82,
+        "eps_actual": 46.35,
+        "surprise_pct": 25.88
+      },
+      {
+        "date": "2025-07-07",
+        "eps_estimate": 35.92,
+        "eps_actual": 39.11,
+        "surprise_pct": 8.88
+      },
+      {
+        "date": "2023-10-01",
+        "eps_estimate": 64.1,
+        "eps_actual": 57.15,
+        "surprise_pct": -10.84
+      },
+      {
+        "date": "2022-10-02",
+        "eps_estimate": 40.8,
+        "eps_actual": 51.87,
+        "surprise_pct": 27.13
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 43.99,
-    "institution_pct": 40.4,
+    "institution_pct": 40.63,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 40.4
+        "value": 40.63
       },
       {
         "label": "",
-        "value": 72.12
+        "value": 72.53
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 80.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "-Price (T.Rowe) International Growth Equity Trust",
-        "shares": 4743600,
-        "date_reported": "2025-09-30",
-        "pct_held": 5.86,
-        "pct_change": 4.97,
-        "value": 15535290000
+        "shares": 4380300,
+        "date_reported": "2025-12-31",
+        "pct_held": 5.41,
+        "pct_change": -7.66,
+        "value": 14805414000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
         "shares": 3714900,
         "date_reported": "2026-01-31",
         "pct_held": 4.59,
-        "pct_change": -6.47,
-        "value": 12166297500
+        "pct_change": -0.34,
+        "value": 12556362000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -73,31 +111,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 3.01,
         "pct_change": -3.69,
-        "value": 7980847500
+        "value": 8236722000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 679439,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.84,
-        "pct_change": 1.03,
-        "value": 2225162725
+        "pct_change": 0.0,
+        "value": 2296503820
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
-        "shares": 589400,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.73,
-        "pct_change": -1.88,
-        "value": 1930285000
+        "shares": 595500,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.74,
+        "pct_change": 1.03,
+        "value": 2012790000
       },
       {
         "holder": "-Price (T.Rowe) Non-U.S. Equities Trust",
-        "shares": 579100,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.72,
-        "pct_change": 11.6,
-        "value": 1896552500
+        "shares": 556600,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.69,
+        "pct_change": -3.89,
+        "value": 1881308000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -105,31 +143,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 1416381825
-      },
-      {
-        "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
-        "shares": 380900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.47,
-        "pct_change": -6.39,
-        "value": 1247447500
+        "value": 1461792540
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 379800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 1243845000
+        "value": 1283724000
+      },
+      {
+        "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
+        "shares": 335500,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.41,
+        "pct_change": -11.92,
+        "value": 1133990000
       },
       {
         "holder": "T. ROWE PRICE INTERNATIONAL FUNDS, INC.-T. Rowe Price Japan Fund",
         "shares": 228600,
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
-        "pct_change": -2.22,
-        "value": 748665000
+        "pct_change": 0.0,
+        "value": 772668000
       }
     ],
     "mutualfund_holders": []

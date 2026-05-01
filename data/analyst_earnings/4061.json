@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:23.966353",
+  "fetched_at": "2026-05-01T04:21:56.024404",
   "ticker": "4061",
   "ticker_full": "4061.T",
   "company_name": "DENKA COMPANY LIMITED",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 2,
-    "buy": 2,
-    "hold": 3,
+    "buy": 3,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.85714
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3699.0,
+    "current": 4160.0,
     "high": 4700.0,
     "low": 3160.0,
     "mean": 3865.7144,
     "median": 3500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 28.7,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 68.81,
+        "eps_actual": 18.95,
+        "surprise_pct": -72.46
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 43.17,
+        "eps_actual": -12.76,
+        "surprise_pct": -129.56
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 17.41,
+        "eps_actual": 58.04,
+        "surprise_pct": 233.37
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 28.7,
+        "eps_actual": -172.65,
+        "surprise_pct": -701.57
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 25.53,
+        "eps_actual": -9.22,
+        "surprise_pct": -136.11
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.4,
-    "institution_pct": 47.53,
+    "institution_pct": 50.91,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 47.53
+        "value": 50.91
       },
       {
         "label": "",
-        "value": 49.71
+        "value": 53.25
       },
       {
         "label": "",

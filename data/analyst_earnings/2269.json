@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:29.128029",
+  "fetched_at": "2026-05-01T04:30:20.016687",
   "ticker": "2269",
   "ticker_full": "2269.T",
   "company_name": "MEIJI HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 2,
     "buy": 1,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "total_analysts": 8,
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.55556
   },
   "target_prices": {
     "has_data": true,
-    "current": 3888.0,
+    "current": 3718.0,
     "high": 4700.0,
     "low": 3300.0,
-    "mean": 4075.0,
+    "mean": 4122.222,
     "median": 4200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 3.34,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 71.33,
+        "eps_actual": 63.97,
+        "surprise_pct": -10.32
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 47.97,
+        "eps_actual": 42.0,
+        "surprise_pct": -12.44
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 49.7,
+        "eps_actual": 37.27,
+        "surprise_pct": -25.02
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 31.29,
+        "eps_actual": 26.7,
+        "surprise_pct": -14.67
+      },
+      {
+        "date": "2025-02-10",
+        "eps_estimate": 48.42,
+        "eps_actual": 61.72,
+        "surprise_pct": 27.48
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.73,
-    "institution_pct": 34.75,
+    "institution_pct": 34.59,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 34.75
+        "value": 34.59
       },
       {
         "label": "",
-        "value": 37.66
+        "value": 37.49
       },
       {
         "label": "",
-        "value": 195.0
+        "value": 184.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.0,
         "pct_change": -4.59,
-        "value": 9303984
+        "value": 8897174
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3596642,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.27,
-        "pct_change": 0.18,
-        "value": 13983744096
+        "shares": 3624442,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.28,
+        "pct_change": 0.77,
+        "value": 13475675356
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,23 +113,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.82,
         "pct_change": 2.06,
-        "value": 9042220512
+        "value": 8646855932
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1688500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.6,
-        "pct_change": 0.91,
-        "value": 6564888000
+        "shares": 1732100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": 1.19,
+        "value": 6439947800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 966700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 2.16,
-        "value": 3758529600
+        "shares": 1001500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 1.21,
+        "value": 3723577000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -99,7 +137,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 33.97,
-        "value": 3028059936
+        "value": 2895660196
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -107,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": 2.83,
-        "value": 2355202656
+        "value": 2252223116
       },
       {
         "holder": "Fidelity Concord Street TRT-Fidelity SAI Global ex U.S. Low Volatility",
@@ -115,31 +153,31 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.2,
         "pct_change": -3.7,
-        "value": 2193220800
+        "value": 2097323800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 536978,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": 0.41,
-        "value": 2087770464
+        "shares": 555578,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.2,
+        "pct_change": 3.46,
+        "value": 2065639004
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 546486,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.19,
-        "pct_change": 0.9,
-        "value": 2124737568
+        "shares": 551609,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.2,
+        "pct_change": 0.94,
+        "value": 2050882262
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 500140,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": 67.42,
-        "value": 1944544320
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 540423,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.19,
+        "pct_change": 9.97,
+        "value": 2009292714
       }
     ]
   }

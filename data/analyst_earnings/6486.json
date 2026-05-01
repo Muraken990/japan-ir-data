@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:00.543317",
+  "fetched_at": "2026-05-01T04:16:21.733530",
   "ticker": "6486",
   "ticker_full": "6486.T",
   "company_name": "EAGLE INDUSTRY CO",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2903.0,
+    "current": 2832.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-31",
+        "eps_estimate": 62.24,
+        "eps_actual": 45.45,
+        "surprise_pct": -26.97
+      },
+      {
+        "date": "2015-08-02",
+        "eps_estimate": 48.43,
+        "eps_actual": 70.4,
+        "surprise_pct": 45.38
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 41.91,
+        "eps_actual": 32.33,
+        "surprise_pct": -22.85
+      },
+      {
+        "date": "2015-02-08",
+        "eps_estimate": 42.28,
+        "eps_actual": 72.25,
+        "surprise_pct": 70.89
+      },
+      {
+        "date": "2014-11-10",
+        "eps_estimate": 33.97,
+        "eps_actual": 38.94,
+        "surprise_pct": 14.64
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.61,
-    "institution_pct": 19.67,
+    "institution_pct": 19.77,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 19.67
+        "value": 19.77
       },
       {
         "label": "",
-        "value": 34.28
+        "value": 34.44
       },
       {
         "label": "",
-        "value": 61.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +89,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.83,
         "pct_change": 0.68,
-        "value": 1210472686
+        "value": 1176409968
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -64,7 +97,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 924009002
+        "value": 898007376
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -72,7 +105,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 702565400
+        "value": 682795200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -80,7 +113,7 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 633937786
+        "value": 616098768
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -88,7 +121,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.3,
         "pct_change": -3.37,
-        "value": 435060200
+        "value": 422817600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -96,7 +129,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 302473200
+        "value": 293961600
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
@@ -104,7 +137,7 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.17,
         "pct_change": -8.6,
-        "value": 244776000
+        "value": 237888000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -112,7 +145,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 228457600
+        "value": 222028800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -120,7 +153,7 @@
         "date_reported": "2025-05-31",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 174840000
+        "value": 169920000
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
@@ -128,7 +161,7 @@
         "date_reported": "2025-05-31",
         "pct_held": 0.12,
         "pct_change": -24.04,
-        "value": 166992598
+        "value": 162293424
       }
     ],
     "mutualfund_holders": []

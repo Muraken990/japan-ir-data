@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:10.459256",
+  "fetched_at": "2026-05-01T04:19:34.560273",
   "ticker": "9956",
   "ticker_full": "9956.T",
   "company_name": "VALOR HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3730.0,
+    "current": 3640.0,
     "high": 3800.0,
     "low": 3800.0,
     "mean": 3800.0,
     "median": 3800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 20.83,
-    "institution_pct": 30.51,
+    "institution_pct": 30.45,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +46,11 @@
       },
       {
         "label": "",
-        "value": 30.51
+        "value": 30.45
       },
       {
         "label": "",
-        "value": 38.54
+        "value": 38.46
       },
       {
         "label": "",

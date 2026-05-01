@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:40:47.240423",
+  "fetched_at": "2026-05-01T04:12:45.783581",
   "ticker": "5351",
   "ticker_full": "5351.T",
   "company_name": "SHINAGAWA REFRA CO LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2085.0,
+    "current": 1922.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 21.48,
+        "eps_actual": 17.38,
+        "surprise_pct": -19.1
+      },
+      {
+        "date": "2015-08-03",
+        "eps_estimate": 14.56,
+        "eps_actual": 13.52,
+        "surprise_pct": -7.17
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 14.51,
+        "eps_actual": 9.08,
+        "surprise_pct": -37.41
+      },
+      {
+        "date": "2015-02-02",
+        "eps_estimate": 15.34,
+        "eps_actual": 22.46,
+        "surprise_pct": 46.38
+      },
+      {
+        "date": "2014-11-04",
+        "eps_estimate": 11.49,
+        "eps_actual": 16.92,
+        "surprise_pct": 47.21
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 40.6,
-    "institution_pct": 20.01,
+    "institution_pct": 20.07,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 20.01
+        "value": 20.07
       },
       {
         "label": "",
-        "value": 33.68
+        "value": 33.78
       },
       {
         "label": "",
-        "value": 56.0
+        "value": 57.0
       }
     ],
     "institutional_holders": [],

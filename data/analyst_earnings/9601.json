@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:00.531386",
+  "fetched_at": "2026-05-01T04:18:22.941394",
   "ticker": "9601",
   "ticker_full": "9601.T",
   "company_name": "SHOCHIKU CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 12030.0,
+    "current": 10510.0,
     "high": 15900.0,
     "low": 15900.0,
     "mean": 15900.0,
     "median": 15900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-01-13",
+        "eps_estimate": 25.72,
+        "eps_actual": 41.5,
+        "surprise_pct": 61.35
+      },
+      {
+        "date": "2015-07-14",
+        "eps_estimate": 98.47,
+        "eps_actual": 58.8,
+        "surprise_pct": -40.29
+      },
+      {
+        "date": "2015-04-13",
+        "eps_estimate": 38.13,
+        "eps_actual": 60.5,
+        "surprise_pct": 58.67
+      },
+      {
+        "date": "2015-01-13",
+        "eps_estimate": 15.1,
+        "eps_actual": 27.2,
+        "surprise_pct": 80.13
+      },
+      {
+        "date": "2014-10-14",
+        "eps_estimate": 32.12,
+        "eps_actual": 115.2,
+        "surprise_pct": 258.66
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.21,
-    "institution_pct": 18.63,
+    "institution_pct": 18.67,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 18.63
+        "value": 18.67
       },
       {
         "label": "",
-        "value": 27.89
+        "value": 27.95
       },
       {
         "label": "",
-        "value": 59.0
+        "value": 60.0
       }
     ],
     "institutional_holders": [],

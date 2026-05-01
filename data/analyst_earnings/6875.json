@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:10.360079",
+  "fetched_at": "2026-05-01T04:17:32.390968",
   "ticker": "6875",
   "ticker_full": "6875.T",
   "company_name": "MEGACHIPS CORP",
@@ -18,20 +18,40 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 8370.0,
+    "current": 9770.0,
     "high": 10500.0,
     "low": 5400.0,
     "mean": 8266.667,
     "median": 8900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2011-05-09",
+        "eps_estimate": 27.0,
+        "eps_actual": 14.4,
+        "surprise_pct": -46.67
+      },
+      {
+        "date": "2005-11-10",
+        "eps_estimate": 5.6,
+        "eps_actual": 11.9,
+        "surprise_pct": 112.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 29.44,
-    "institution_pct": 20.35,
+    "institution_pct": 20.42,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +59,11 @@
       },
       {
         "label": "",
-        "value": 20.35
+        "value": 20.42
       },
       {
         "label": "",
-        "value": 28.85
+        "value": 28.95
       },
       {
         "label": "",
@@ -57,7 +77,7 @@
         "date_reported": "2022-04-30",
         "pct_held": 0.98,
         "pct_change": -6.25,
-        "value": 1796377770
+        "value": 2096847170
       },
       {
         "holder": "JNL Series Trust-JNL/Multi Manager Int'l Small Cap Fund",
@@ -65,7 +85,7 @@
         "date_reported": "2022-03-31",
         "pct_held": 0.92,
         "pct_change": 14.29,
-        "value": 1693251000
+        "value": 1976471000
       },
       {
         "holder": "Vanguard Whitehall Funds-International Explorer Fund",
@@ -73,7 +93,7 @@
         "date_reported": "2022-04-30",
         "pct_held": 0.72,
         "pct_change": 0.0,
-        "value": 1322460000
+        "value": 1543660000
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -81,7 +101,7 @@
         "date_reported": "2022-03-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 1009246230
+        "value": 1178056830
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -89,7 +109,7 @@
         "date_reported": "2022-04-30",
         "pct_held": 0.51,
         "pct_change": -1.06,
-        "value": 938277000
+        "value": 1095217000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -97,7 +117,7 @@
         "date_reported": "2022-04-30",
         "pct_held": 0.44,
         "pct_change": -2.52,
-        "value": 809379000
+        "value": 944759000
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -105,7 +125,7 @@
         "date_reported": "2022-06-30",
         "pct_held": 0.37,
         "pct_change": -1.81,
-        "value": 680481000
+        "value": 794301000
       },
       {
         "holder": "Old Westbury Small & Mid Cap Strategies Fund",
@@ -113,7 +133,7 @@
         "date_reported": "2022-04-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 590085000
+        "value": 688785000
       },
       {
         "holder": "iShares Core MSCI Total International Stock ETF",
@@ -121,7 +141,7 @@
         "date_reported": "2022-06-30",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 529821000
+        "value": 618441000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -129,7 +149,7 @@
         "date_reported": "2022-06-30",
         "pct_held": 0.27,
         "pct_change": -2.91,
-        "value": 502200000
+        "value": 586200000
       }
     ],
     "mutualfund_holders": []

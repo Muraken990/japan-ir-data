@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:11.388674",
+  "fetched_at": "2026-05-01T04:18:34.993204",
   "ticker": "7220",
   "ticker_full": "7220.T",
   "company_name": "MUSASHI SEIMITSU IND",
   "analyst_recommendations": {
     "has_data": true,
     "period": "2",
-    "strong_buy": 2,
+    "strong_buy": 1,
     "buy": 3,
-    "hold": 0,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 2746.0,
-    "high": 4350.0,
-    "low": 3000.0,
-    "mean": 3690.0,
-    "median": 3700.0
+    "current": 4245.0,
+    "high": 4500.0,
+    "low": 3400.0,
+    "mean": 3900.0,
+    "median": 3900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 84.51,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 59.73,
+        "eps_actual": 33.53,
+        "surprise_pct": -43.86
+      },
+      {
+        "date": "2024-08-05",
+        "eps_estimate": 32.12,
+        "eps_actual": 44.88,
+        "surprise_pct": 39.73
+      },
+      {
+        "date": "2024-02-07",
+        "eps_estimate": 47.5,
+        "eps_actual": 42.72,
+        "surprise_pct": -10.06
+      },
+      {
+        "date": "2023-11-05",
+        "eps_estimate": 32.5,
+        "eps_actual": 27.73,
+        "surprise_pct": -14.68
+      },
+      {
+        "date": "2023-08-08",
+        "eps_estimate": 22.34,
+        "eps_actual": 27.21,
+        "surprise_pct": 21.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.31,
-    "institution_pct": 51.71,
+    "institution_pct": 50.24,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 51.71
+        "value": 50.24
       },
       {
         "label": "",
-        "value": 78.72
+        "value": 76.48
       },
       {
         "label": "",
-        "value": 99.0
+        "value": 95.0
       }
     ],
     "institutional_holders": [],

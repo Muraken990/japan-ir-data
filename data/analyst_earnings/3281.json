@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:17.371131",
+  "fetched_at": "2026-05-01T04:29:06.330938",
   "ticker": "3281",
   "ticker_full": "3281.T",
   "company_name": "GLP J-REIT",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 4,
-    "hold": 2,
+    "buy": 3,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 130700.0,
-    "high": 178900.0,
-    "low": 150000.0,
-    "mean": 160940.0,
-    "median": 160000.0
+    "current": 135100.0,
+    "high": 168500.0,
+    "low": 152000.0,
+    "mean": 159470.0,
+    "median": 158000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.41,
-    "institution_pct": 58.84,
+    "institution_pct": 53.4,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 58.84
+        "value": 53.4
       },
       {
         "label": "",
-        "value": 62.86
+        "value": 57.06
       },
       {
         "label": "",
-        "value": 187.0
+        "value": 176.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +64,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.05,
         "pct_change": -6.98,
-        "value": 296035500
+        "value": 306001500
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 64390,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.34,
-        "pct_change": 0.15,
-        "value": 8415773000
+        "shares": 65229,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.36,
+        "pct_change": 1.3,
+        "value": 8812437900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +82,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.86,
         "pct_change": 1.52,
-        "value": 5391375000
+        "value": 5572875000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 33362,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 0.92,
-        "value": 4360413400
+        "shares": 34234,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": 1.21,
+        "value": 4625013400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -91,31 +98,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.64,
         "pct_change": -3.67,
-        "value": 3987787700
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
-        "shares": 17498,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.36,
-        "pct_change": -1.97,
-        "value": 2286988600
+        "value": 4122036100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 17361,
+        "shares": 17970,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 1.18,
+        "value": 2427747000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
+        "shares": 16637,
         "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.6,
-        "value": 2269082700
+        "pct_held": 0.35,
+        "pct_change": -4.92,
+        "value": 2247658700
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 15516,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.32,
+        "pct_change": 96.88,
+        "value": 2096211600
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 11537,
-        "date_reported": "2026-01-31",
+        "shares": 11664,
+        "date_reported": "2026-03-31",
         "pct_held": 0.24,
-        "pct_change": 1.18,
-        "value": 1507885900
+        "pct_change": 0.24,
+        "value": 1575806400
       },
       {
         "holder": "Principal Funds, Inc-Global Real Estate Securities Fund",
@@ -123,7 +138,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.22,
         "pct_change": -1.71,
-        "value": 1371173700
+        "value": 1417334100
       },
       {
         "holder": "COHEN & STEERS GLOBAL REALTY SHARES, INC-Cohen & Steers Global Realty ",
@@ -131,15 +146,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.21,
         "pct_change": 1.18,
-        "value": 1290923900
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 9670,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.2,
-        "pct_change": 0.0,
-        "value": 1263869000
+        "value": 1334382700
       }
     ]
   }

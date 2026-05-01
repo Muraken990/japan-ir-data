@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:21.520411",
+  "fetched_at": "2026-05-01T04:29:09.256826",
   "ticker": "6370",
   "ticker_full": "6370.T",
   "company_name": "KURITA WATER INDUSTRIES",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 5,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 7648.0,
+    "current": 8131.0,
     "high": 10200.0,
     "low": 8000.0,
     "mean": 9371.667,
     "median": 9600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 89.97,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 103.13,
+        "eps_actual": 93.42,
+        "surprise_pct": -9.42
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 85.34,
+        "eps_actual": 105.06,
+        "surprise_pct": 23.11
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 52.88,
+        "eps_actual": 50.84,
+        "surprise_pct": -3.86
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 89.97,
+        "eps_actual": -34.89,
+        "surprise_pct": -138.78
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 84.3,
+        "eps_actual": 82.72,
+        "surprise_pct": -1.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.9,
-    "institution_pct": 57.32,
+    "institution_pct": 57.1,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 57.32
+        "value": 57.1
       },
       {
         "label": "",
-        "value": 57.84
+        "value": 57.62
       },
       {
         "label": "",
-        "value": 248.0
+        "value": 252.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.46,
         "pct_change": -7.39,
-        "value": 4094762144
+        "value": 4353361793
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1565708,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.35,
-        "pct_change": -2.25,
-        "value": 11974534784
+        "pct_change": 0.0,
+        "value": 12730771748
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,31 +113,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.87,
         "pct_change": 1.73,
-        "value": 7774069632
+        "value": 8265031404
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 721600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 1.06,
-        "value": 5518796800
+        "shares": 743400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.64,
+        "pct_change": 1.39,
+        "value": 6044585400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 398200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 1.66,
-        "value": 3045433600
+        "shares": 412700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 1.23,
+        "value": 3355663700
       },
       {
         "holder": "Invesco Exch-Trd Fd. TRT II-Invesco S&P Global Water Index ETF",
-        "shares": 388557,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.33,
-        "pct_change": 2.29,
-        "value": 2971683936
+        "shares": 392893,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.34,
+        "pct_change": 1.12,
+        "value": 3194612983
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -107,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 2185033600
+        "value": 2323026700
       },
       {
         "holder": "Virtus Strategy Trust-Virtus Duff & Phelps Water Fund",
@@ -115,31 +153,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.23,
         "pct_change": -2.11,
-        "value": 2053488000
+        "value": 2183173500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 234402,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.2,
-        "pct_change": -2.62,
-        "value": 1792706496
+        "shares": 238302,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.21,
+        "pct_change": 1.66,
+        "value": 1937633562
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 217597,
-        "date_reported": "2025-11-30",
+        "shares": 219559,
+        "date_reported": "2026-02-28",
         "pct_held": 0.19,
         "pct_change": 0.9,
-        "value": 1664181856
+        "value": 1785234229
       },
       {
         "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
-        "shares": 200300,
-        "date_reported": "2025-10-31",
+        "shares": 198200,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": 4.49,
-        "value": 1531894400
+        "pct_change": -1.05,
+        "value": 1611564200
       }
     ]
   }

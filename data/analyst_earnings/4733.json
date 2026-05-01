@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:10.703606",
+  "fetched_at": "2026-05-01T04:28:58.960968",
   "ticker": "4733",
   "ticker_full": "4733.T",
   "company_name": "OBIC BUSINESS CONSULTANT",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
-    "buy": 4,
+    "strong_buy": 3,
+    "buy": 6,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 10,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 6367.0,
+    "current": 6098.0,
     "high": 11800.0,
     "low": 7200.0,
-    "mean": 9340.0,
-    "median": 9450.0
+    "mean": 8900.0,
+    "median": 8600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-22",
+      "eps_estimate": 59.86,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-21",
+        "eps_estimate": 66.19,
+        "eps_actual": 74.1,
+        "surprise_pct": 11.94
+      },
+      {
+        "date": "2026-01-26",
+        "eps_estimate": 59.17,
+        "eps_actual": 57.05,
+        "surprise_pct": -3.58
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 54.66,
+        "eps_actual": 55.86,
+        "surprise_pct": 2.19
+      },
+      {
+        "date": "2025-07-23",
+        "eps_estimate": 55.52,
+        "eps_actual": 54.19,
+        "surprise_pct": -2.4
+      },
+      {
+        "date": "2025-04-21",
+        "eps_estimate": 60.34,
+        "eps_actual": 59.34,
+        "surprise_pct": -1.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 63.32,
-    "institution_pct": 15.61,
+    "institution_pct": 15.5,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 15.61
+        "value": 15.5
       },
       {
         "label": "",
-        "value": 42.55
+        "value": 42.25
       },
       {
         "label": "",
-        "value": 117.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.46,
         "pct_change": 22.45,
-        "value": 11802507900
+        "value": 11303862600
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Intl Growth Fd.",
@@ -65,15 +103,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.62,
         "pct_change": -44.11,
-        "value": 2974025700
+        "value": 2848375800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 402095,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.53,
-        "pct_change": 0.75,
-        "value": 2560138865
+        "pct_change": 0.0,
+        "value": 2451975310
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Intl Small-Mid Company Fd.",
@@ -81,7 +119,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.48,
         "pct_change": -22.4,
-        "value": 2297850300
+        "value": 2200768200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,23 +127,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.34,
         "pct_change": 0.86,
-        "value": 1648136152
+        "value": 1578503888
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 213400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 1358717800
+        "value": 1301313200
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 142600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": -12.52,
-        "value": 907934200
+        "shares": 166800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 16.97,
+        "value": 1017146400
       },
       {
         "holder": "LAZARD FUNDS INC-Lazard International Strategic Equity Portfolio",
@@ -113,7 +151,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.19,
         "pct_change": -66.04,
-        "value": 929582000
+        "value": 890308000
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Global Opportunities Fd.",
@@ -121,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": 28.1,
-        "value": 920031500
+        "value": 881161000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -129,7 +167,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.18,
         "pct_change": 2.36,
-        "value": 855724800
+        "value": 819571200
       }
     ],
     "mutualfund_holders": []

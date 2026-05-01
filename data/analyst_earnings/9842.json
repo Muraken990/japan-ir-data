@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:49.275443",
+  "fetched_at": "2026-05-01T04:15:08.505559",
   "ticker": "9842",
   "ticker_full": "9842.T",
   "company_name": "ARCLANDS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,29 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1791.0,
-    "high": 1800.0,
-    "low": 1800.0,
-    "mean": 1800.0,
-    "median": 1800.0
+    "current": 1777.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-12-18",
+        "eps_estimate": 31.6,
+        "eps_actual": 30.95,
+        "surprise_pct": -2.06
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.58,
-    "institution_pct": 33.83,
+    "institution_pct": 34.08,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +48,11 @@
       },
       {
         "label": "",
-        "value": 33.83
+        "value": 34.08
       },
       {
         "label": "",
-        "value": 41.55
+        "value": 41.85
       },
       {
         "label": "",

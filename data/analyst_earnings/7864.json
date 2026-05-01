@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:12.789094",
+  "fetched_at": "2026-05-01T04:19:37.492358",
   "ticker": "7864",
   "ticker_full": "7864.T",
   "company_name": "FUJI SEAL INTERNATIONAL INC",
@@ -13,25 +13,45 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 2671.0,
-    "high": 4100.0,
+    "current": 2511.0,
+    "high": 3800.0,
     "low": 3000.0,
-    "mean": 3533.3333,
+    "mean": 3433.3333,
     "median": 3500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 144.61,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 61.81,
+        "eps_actual": 184.33,
+        "surprise_pct": 198.22
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 62.55,
+        "eps_actual": 90.32,
+        "surprise_pct": 44.4
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.44,
-    "institution_pct": 28.63,
+    "institution_pct": 29.07,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +59,15 @@
       },
       {
         "label": "",
-        "value": 28.63
+        "value": 29.07
       },
       {
         "label": "",
-        "value": 39.46
+        "value": 40.07
       },
       {
         "label": "",
-        "value": 94.0
+        "value": 95.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +77,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 3205200
+        "value": 3013200
       }
     ],
     "mutualfund_holders": [
@@ -67,23 +87,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.64,
         "pct_change": 15.42,
-        "value": 4234336300
+        "value": 3980688300
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 578500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.96,
-        "pct_change": 4.97,
-        "value": 1545173500
+        "shares": 598700,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.0,
+        "pct_change": 0.0,
+        "value": 1503335700
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 550914,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.92,
-        "pct_change": -4.66,
-        "value": 1471491294
+        "pct_change": 0.0,
+        "value": 1383345054
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.57,
         "pct_change": 2.86,
-        "value": 920773830
+        "value": 865617030
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 234400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 626082400
+        "value": 588578400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -107,7 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 542934170
+        "value": 510410970
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -115,23 +135,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": 6.54,
-        "value": 509434488
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 158700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.26,
-        "pct_change": 7.01,
-        "value": 423887700
+        "value": 478918008
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 149600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 1.77,
-        "value": 399581600
+        "shares": 155400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": 1.3,
+        "value": 390209400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -139,7 +151,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": -5.47,
-        "value": 387847897
+        "value": 364614777
+      },
+      {
+        "holder": "HARBOR FUNDS-Harbor International Small Cap Fund",
+        "shares": 136311,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": -5.93,
+        "value": 342276921
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:26.424806",
+  "fetched_at": "2026-05-01T04:31:19.164868",
   "ticker": "5101",
   "ticker_full": "5101.T",
   "company_name": "YOKOHAMA RUBBER CO",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 4,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 9,
+    "total_analysts": 10,
     "recommendation_key": "buy",
     "recommendation_mean": 2.09091
   },
   "target_prices": {
     "has_data": true,
-    "current": 6094.0,
-    "high": 8500.0,
-    "low": 6200.0,
-    "mean": 7463.636,
-    "median": 7500.0
+    "current": 6198.0,
+    "high": 8250.0,
+    "low": 6170.0,
+    "mean": 7465.4546,
+    "median": 7600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-19",
+        "eps_estimate": 180.09,
+        "eps_actual": 249.47,
+        "surprise_pct": 38.53
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 189.83,
+        "eps_actual": 194.22,
+        "surprise_pct": 2.31
+      },
+      {
+        "date": "2025-08-12",
+        "eps_estimate": 139.87,
+        "eps_actual": 171.12,
+        "surprise_pct": 22.34
+      },
+      {
+        "date": "2025-02-19",
+        "eps_estimate": 121.26,
+        "eps_actual": 88.39,
+        "surprise_pct": -27.11
+      },
+      {
+        "date": "2024-11-14",
+        "eps_estimate": 126.61,
+        "eps_actual": 88.93,
+        "surprise_pct": -29.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.05,
-    "institution_pct": 58.86,
+    "institution_pct": 58.2,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 58.86
+        "value": 58.2
       },
       {
         "label": "",
-        "value": 64.01
+        "value": 63.29
       },
       {
         "label": "",
@@ -53,11 +91,11 @@
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1833227,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.08,
-        "pct_change": -0.56,
-        "value": 11171685338
+        "shares": 1843727,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.09,
+        "pct_change": 0.57,
+        "value": 11427419946
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.71,
         "pct_change": 2.67,
-        "value": 7290977386
+        "value": 7415404962
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 893400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.53,
-        "pct_change": 0.86,
-        "value": 5444379600
+        "shares": 915200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.54,
+        "pct_change": 1.13,
+        "value": 5672409600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 3440063000
+        "value": 3498771000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -89,15 +127,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 3243836200
+        "value": 3299195400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 476200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 2.21,
-        "value": 2901962800
+        "shares": 491000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 1.24,
+        "value": 3043218000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -105,15 +143,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 8.38,
-        "value": 2844679200
+        "value": 2893226400
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 386200,
-        "date_reported": "2026-01-31",
+        "shares": 396500,
+        "date_reported": "2026-02-28",
         "pct_held": 0.23,
-        "pct_change": 1.52,
-        "value": 2353502800
+        "pct_change": 2.67,
+        "value": 2457507000
       },
       {
         "holder": "Matthews International Funds-MATTHEWS JAPAN FUND",
@@ -121,15 +159,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.17,
         "pct_change": 9.9,
-        "value": 1705101200
+        "value": 1734200400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 276963,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.16,
-        "pct_change": 1.61,
-        "value": 1687812522
+        "shares": 283163,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.17,
+        "pct_change": 2.24,
+        "value": 1755044274
       }
     ],
     "mutualfund_holders": []

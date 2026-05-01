@@ -1,37 +1,69 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:54.861934",
+  "fetched_at": "2026-05-01T04:26:39.990452",
   "ticker": "9076",
   "ticker_full": "9076.T",
   "company_name": "SEINO HOLDINGS",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 2,
-    "buy": 2,
-    "hold": 3,
+    "buy": 1,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.42857
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2443.0,
+    "current": 2383.5,
     "high": 2800.0,
-    "low": 2400.0,
-    "mean": 2628.5715,
+    "low": 2250.0,
+    "mean": 2607.1428,
     "median": 2600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 42.3,
+        "eps_actual": 31.07,
+        "surprise_pct": -26.55
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 49.1,
+        "eps_actual": 46.09,
+        "surprise_pct": -6.13
+      },
+      {
+        "date": "2024-11-12",
+        "eps_estimate": 29.4,
+        "eps_actual": 19.25,
+        "surprise_pct": -34.52
+      },
+      {
+        "date": "2009-11-13",
+        "eps_estimate": 5.9,
+        "eps_actual": 12.66,
+        "surprise_pct": 114.58
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.81,
-    "institution_pct": 23.94,
+    "institution_pct": 24.02,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 23.94
+        "value": 24.02
       },
       {
         "label": "",
-        "value": 32.71
+        "value": 32.82
       },
       {
         "label": "",
-        "value": 110.0
+        "value": 111.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +89,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 5.0,
-        "value": 938112
+        "value": 915264
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1421488,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.76,
-        "pct_change": -8.98,
-        "value": 3472695184
+        "pct_change": 0.0,
+        "value": 3388116648
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -75,7 +107,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.56,
         "pct_change": 15.43,
-        "value": 2586404100
+        "value": 2523411450
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +115,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.52,
         "pct_change": 7.87,
-        "value": 2364310970
+        "value": 2306727465
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 647100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 1.19,
-        "value": 1580865300
+        "shares": 668900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 1.55,
+        "value": 1594323150
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -99,7 +131,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 1004317300
+        "value": 979856850
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -107,15 +139,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 16.7,
-        "value": 915147800
+        "value": 892859100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 357300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": 1.48,
-        "value": 872883900
+        "shares": 368900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.2,
+        "pct_change": 1.1,
+        "value": 879273150
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -123,15 +155,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 820848000
+        "value": 800856000
       },
       {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 271800,
-        "date_reported": "2025-10-31",
+        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
+        "shares": 268385,
+        "date_reported": "2026-02-28",
         "pct_held": 0.14,
-        "pct_change": -77.77,
-        "value": 664007400
+        "pct_change": 40.93,
+        "value": 639695647
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -139,7 +171,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 590473100
+        "value": 576091950
       }
     ]
   }

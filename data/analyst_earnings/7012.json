@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:43.463500",
+  "fetched_at": "2026-05-01T04:32:39.230486",
   "ticker": "7012",
   "ticker_full": "7012.T",
   "company_name": "KAWASAKI HEAVY INDUSTRIES",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 12,
     "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.41667
+    "recommendation_mean": 1.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 3137.0,
+    "current": 3166.0,
     "high": 4180.0,
     "low": 2460.0,
-    "mean": 3398.3333,
-    "median": 3400.0
+    "mean": 3675.0,
+    "median": 3830.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 44.92,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-08",
+        "eps_estimate": 22.28,
+        "eps_actual": 52.36,
+        "surprise_pct": 134.98
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 22.55,
+        "eps_actual": 21.35,
+        "surprise_pct": -5.28
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 17.85,
+        "eps_actual": 5.08,
+        "surprise_pct": -71.55
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 44.92,
+        "eps_actual": 52.36,
+        "surprise_pct": 16.57
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 35.82,
+        "eps_actual": 36.41,
+        "surprise_pct": 1.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.4,
-    "institution_pct": 43.74,
+    "institution_pct": 48.6,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.74
+        "value": 48.6
       },
       {
         "label": "",
-        "value": 47.24
+        "value": 52.49
       },
       {
         "label": "",
-        "value": 240.0
+        "value": 252.0
       }
     ],
     "institutional_holders": [],

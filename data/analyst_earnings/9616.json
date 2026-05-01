@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:34.278222",
+  "fetched_at": "2026-05-01T04:22:06.349403",
   "ticker": "9616",
   "ticker_full": "9616.T",
   "company_name": "KYORITSU MAINTENANCE",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2491.0,
+    "current": 2400.0,
     "high": 4800.0,
-    "low": 3660.0,
-    "mean": 4040.0,
-    "median": 3850.0
+    "low": 2650.0,
+    "mean": 3728.0,
+    "median": 3730.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 31.44,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-08",
+        "eps_estimate": 68.28,
+        "eps_actual": 63.92,
+        "surprise_pct": -6.38
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 65.94,
+        "eps_actual": 63.85,
+        "surprise_pct": -3.17
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 49.88,
+        "eps_actual": 46.08,
+        "surprise_pct": -7.62
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 25.76,
+        "eps_actual": 23.18,
+        "surprise_pct": -10.02
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 63.56,
+        "eps_actual": 64.38,
+        "surprise_pct": 1.29
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.05,
-    "institution_pct": 35.97,
+    "institution_pct": 36.63,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 35.97
+        "value": 36.63
       },
       {
         "label": "",
-        "value": 43.36
+        "value": 44.16
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 100.0
       }
     ],
     "institutional_holders": [],

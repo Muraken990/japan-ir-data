@@ -1,71 +1,101 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:34.547689",
+  "fetched_at": "2026-05-01T04:22:07.363178",
   "ticker": "7014",
   "ticker_full": "7014.T",
   "company_name": "NAMURA SHIPBUILDING CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4345.0,
+    "current": 4030.0,
     "high": 6100.0,
     "low": 5600.0,
     "mean": 5850.0,
     "median": 5850.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 59.36,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 64.64,
+        "eps_actual": 103.17,
+        "surprise_pct": 59.61
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 55.45,
+        "eps_actual": 52.3,
+        "surprise_pct": -5.68
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 55.96,
+        "eps_actual": 65.75,
+        "surprise_pct": 17.49
+      },
+      {
+        "date": "2016-02-02",
+        "eps_estimate": 76.07,
+        "eps_actual": 36.62,
+        "surprise_pct": -51.86
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 20.32,
-    "institution_pct": 57.18,
+    "insider_pct": 18.18,
+    "institution_pct": 51.34,
     "major_holders": [
       {
         "label": "",
-        "value": 20.32
+        "value": 18.18
       },
       {
         "label": "",
-        "value": 57.18
+        "value": 51.34
       },
       {
         "label": "",
-        "value": 71.77
+        "value": 62.74
       },
       {
         "label": "",
-        "value": 105.0
+        "value": 104.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1595300,
-        "date_reported": "2026-01-31",
-        "pct_held": 2.3,
-        "pct_change": 0.0,
-        "value": 6931578500
-      },
-      {
-        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 747300,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.08,
-        "pct_change": 0.0,
-        "value": 3247018500
+        "shares": 1602400,
+        "date_reported": "2026-03-31",
+        "pct_held": 2.31,
+        "pct_change": 0.45,
+        "value": 6457672000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
@@ -73,7 +103,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.08,
         "pct_change": 15.38,
-        "value": 3258750000
+        "value": 3022500000
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 747300,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.08,
+        "pct_change": 0.0,
+        "value": 3011619000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": -9.54,
-        "value": 2682168500
+        "value": 2487719000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -89,7 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.83,
         "pct_change": 7.23,
-        "value": 2512713500
+        "value": 2330549000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -97,15 +135,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.7,
         "pct_change": 3.1,
-        "value": 2121663500
+        "value": 1967849000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 352200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 1530309000
+        "value": 1419366000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
@@ -113,7 +151,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.45,
         "pct_change": 11.91,
-        "value": 1372151000
+        "value": 1272674000
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -121,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.44,
         "pct_change": -11.41,
-        "value": 1329570000
+        "value": 1233180000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 7.36,
-        "value": 1077681660
+        "value": 999552840
       }
     ],
     "mutualfund_holders": []

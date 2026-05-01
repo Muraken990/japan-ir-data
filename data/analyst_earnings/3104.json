@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:42.367807",
+  "fetched_at": "2026-05-01T04:11:38.763490",
   "ticker": "3104",
   "ticker_full": "3104.T",
   "company_name": "FUJIBO HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3835.0,
-    "high": 3600.0,
-    "low": 3600.0,
-    "mean": 3600.0,
-    "median": 3600.0
+    "current": 3895.0,
+    "high": 4900.0,
+    "low": 4900.0,
+    "mean": 4900.0,
+    "median": 4900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-01-30",
+        "eps_estimate": 18.6,
+        "eps_actual": 22.01,
+        "surprise_pct": 18.35
+      },
+      {
+        "date": "2023-10-30",
+        "eps_estimate": 12.67,
+        "eps_actual": 9.38,
+        "surprise_pct": -25.95
+      },
+      {
+        "date": "2023-07-27",
+        "eps_estimate": 10.47,
+        "eps_actual": 16.69,
+        "surprise_pct": 59.43
+      },
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 28.98,
+        "eps_actual": 32.2,
+        "surprise_pct": 11.1
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 19.14,
+        "eps_actual": 15.13,
+        "surprise_pct": -20.93
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.92,
-    "institution_pct": 76.04,
+    "institution_pct": 75.96,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 76.04
+        "value": 75.96
       },
       {
         "label": "",
-        "value": 79.14
+        "value": 79.05
       },
       {
         "label": "",

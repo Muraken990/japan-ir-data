@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:40:47.298725",
+  "fetched_at": "2026-05-01T04:12:47.008631",
   "ticker": "8037",
   "ticker_full": "8037.T",
   "company_name": "KAMEI CORP",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3420.0,
+    "current": 3190.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-08",
+        "eps_estimate": 58.75,
+        "eps_actual": 60.44,
+        "surprise_pct": 2.88
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": 30.11,
+        "eps_actual": 44.84,
+        "surprise_pct": 48.92
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 48.7,
+        "eps_actual": 67.88,
+        "surprise_pct": 39.39
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": 56.92,
+        "eps_actual": -14.09,
+        "surprise_pct": -124.76
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 19.2,
+        "eps_actual": 38.43,
+        "surprise_pct": 100.21
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 38.6,
-    "institution_pct": 16.59,
+    "institution_pct": 16.62,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 16.59
+        "value": 16.62
       },
       {
         "label": "",
-        "value": 27.02
+        "value": 27.07
       },
       {
         "label": "",
-        "value": 59.0
+        "value": 60.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +89,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 1.71,
         "pct_change": -1.22,
-        "value": 1930590000
+        "value": 1800755000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -64,7 +97,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.05,
         "pct_change": 10.72,
-        "value": 1179900000
+        "value": 1100550000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -72,7 +105,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.86,
         "pct_change": -17.46,
-        "value": 970103520
+        "value": 904862640
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -80,7 +113,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 594368640
+        "value": 554396480
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -88,7 +121,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 508554000
+        "value": 474353000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -96,7 +129,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 384750000
+        "value": 358875000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -104,7 +137,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.18,
         "pct_change": 11.28,
-        "value": 205884000
+        "value": 192038000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -112,7 +145,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.18,
         "pct_change": -25.88,
-        "value": 202806000
+        "value": 189167000
       },
       {
         "holder": "iShares Trust-iShares International Small-Cap Equity Factor ETF",
@@ -120,7 +153,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.18,
         "pct_change": 8.04,
-        "value": 206910000
+        "value": 192995000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -128,7 +161,7 @@
         "date_reported": "2025-08-31",
         "pct_held": 0.1,
         "pct_change": -22.74,
-        "value": 115804620
+        "value": 108016590
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:05.016377",
+  "fetched_at": "2026-05-01T04:17:27.111277",
   "ticker": "4928",
   "ticker_full": "4928.T",
   "company_name": "NOEVIR HLDGS CO LTD",
@@ -13,25 +13,32 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4520.0,
+    "current": 4375.0,
     "high": 4420.0,
     "low": 4420.0,
     "mean": 4420.0,
     "median": 4420.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 52.36,
-    "institution_pct": 12.02,
+    "institution_pct": 12.08,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 12.02
+        "value": 12.08
       },
       {
         "label": "",
-        "value": 25.23
+        "value": 25.36
       },
       {
         "label": "",
-        "value": 64.0
+        "value": 65.0
       }
     ],
     "institutional_holders": [],

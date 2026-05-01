@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:59.213455",
+  "fetched_at": "2026-05-01T04:16:20.055574",
   "ticker": "6101",
   "ticker_full": "6101.T",
   "company_name": "TSUGAMI CORP",
@@ -17,20 +17,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3440.0,
+    "current": 4825.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.32,
-    "institution_pct": 43.0,
+    "institution_pct": 44.19,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +45,15 @@
       },
       {
         "label": "",
-        "value": 43.0
+        "value": 44.19
       },
       {
         "label": "",
-        "value": 45.41
+        "value": 46.67
       },
       {
         "label": "",
-        "value": 87.0
+        "value": 91.0
       }
     ],
     "institutional_holders": [],

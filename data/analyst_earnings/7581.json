@@ -1,49 +1,87 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:42.005892",
+  "fetched_at": "2026-05-01T04:23:19.395823",
   "ticker": "7581",
   "ticker_full": "7581.T",
   "company_name": "SAIZERIYA COMPANY",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 3,
     "buy": 6,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 6480.0,
+    "current": 5070.0,
     "high": 8000.0,
     "low": 5400.0,
-    "mean": 7080.0,
-    "median": 7350.0
+    "mean": 6820.0,
+    "median": 7100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-08",
+      "eps_estimate": 61.48,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-08",
+        "eps_estimate": 41.17,
+        "eps_actual": 51.77,
+        "surprise_pct": 25.75
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 57.38,
+        "eps_actual": 62.95,
+        "surprise_pct": 9.71
+      },
+      {
+        "date": "2025-10-15",
+        "eps_estimate": 49.51,
+        "eps_actual": 68.88,
+        "surprise_pct": 39.12
+      },
+      {
+        "date": "2025-07-08",
+        "eps_estimate": 57.38,
+        "eps_actual": 63.51,
+        "surprise_pct": 10.68
+      },
+      {
+        "date": "2025-04-09",
+        "eps_estimate": 35.76,
+        "eps_actual": 41.01,
+        "surprise_pct": 14.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 37.83,
-    "institution_pct": 16.25,
+    "insider_pct": 37.78,
+    "institution_pct": 15.38,
     "major_holders": [
       {
         "label": "",
-        "value": 37.83
+        "value": 37.78
       },
       {
         "label": "",
-        "value": 16.25
+        "value": 15.38
       },
       {
         "label": "",
-        "value": 26.14
+        "value": 24.73
       },
       {
         "label": "",

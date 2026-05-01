@@ -1,20 +1,20 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:08.667361",
+  "fetched_at": "2026-05-01T04:19:32.987503",
   "ticker": "2124",
   "ticker_full": "2124.T",
   "company_name": "JAC RECRUITMENT CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
@@ -25,25 +25,45 @@
     "median": 1250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2019-11-07",
+        "eps_estimate": 10.4,
+        "eps_actual": 7.51,
+        "surprise_pct": -27.76
+      },
+      {
+        "date": "2019-08-08",
+        "eps_estimate": 7.35,
+        "eps_actual": 5.74,
+        "surprise_pct": -21.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 52.17,
-    "institution_pct": 10.13,
+    "insider_pct": 52.36,
+    "institution_pct": 11.63,
     "major_holders": [
       {
         "label": "",
-        "value": 52.17
+        "value": 52.36
       },
       {
         "label": "",
-        "value": 10.13
+        "value": 11.63
       },
       {
         "label": "",
-        "value": 21.17
+        "value": 24.42
       },
       {
         "label": "",

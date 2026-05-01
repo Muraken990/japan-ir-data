@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:11.809158",
+  "fetched_at": "2026-05-01T04:26:57.785857",
   "ticker": "4812",
   "ticker_full": "4812.T",
   "company_name": "DENTSU SOKEN INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2001.0,
-    "high": 2700.0,
+    "current": 2165.0,
+    "high": 2400.0,
     "low": 2100.0,
-    "mean": 2366.6667,
-    "median": 2300.0
+    "mean": 2250.0,
+    "median": 2250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-29",
+      "eps_estimate": 18.39,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 24.02,
+        "eps_actual": 23.82,
+        "surprise_pct": -0.85
+      },
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 27.3,
+        "eps_actual": 23.82,
+        "surprise_pct": -12.75
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 18.34,
+        "eps_actual": 20.65,
+        "surprise_pct": 12.64
+      },
+      {
+        "date": "2025-04-29",
+        "eps_estimate": 22.74,
+        "eps_actual": 21.05,
+        "surprise_pct": -7.43
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 20.46,
+        "eps_actual": 25.83,
+        "surprise_pct": 26.22
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 63.82,
-    "institution_pct": 11.5,
+    "institution_pct": 11.29,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 11.5
+        "value": 11.29
       },
       {
         "label": "",
-        "value": 31.8
+        "value": 31.21
       },
       {
         "label": "",
-        "value": 94.0
+        "value": 92.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.74,
         "pct_change": 0.0,
-        "value": 2888886000
+        "value": 3124095000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1046961,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.54,
-        "pct_change": 5.5,
-        "value": 2096015922
+        "shares": 1002861,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.51,
+        "pct_change": -4.21,
+        "value": 2171194065
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.42,
         "pct_change": 9.76,
-        "value": 1654653000
+        "value": 1789372500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,23 +119,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.32,
         "pct_change": -4.51,
-        "value": 1271410140
+        "value": 1374926550
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 535300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.44,
-        "value": 1071670600
+        "shares": 557100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.87,
+        "value": 1206121500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 296800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 1.78,
-        "value": 594193600
+        "shares": 308400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.16,
+        "pct_change": 1.31,
+        "value": 667686000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 598798200
+        "value": 647551500
       },
       {
         "holder": "OBERWEIS FUNDS-Oberweis International Opportunities Fund",
@@ -113,15 +151,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.12,
         "pct_change": 1.0,
-        "value": 464263800
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 194007,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.1,
-        "pct_change": 0.79,
-        "value": 388402014
+        "value": 502063500
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.1,
         "pct_change": 19.56,
-        "value": 389188800
+        "value": 420876000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 195751,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.1,
+        "pct_change": 0.9,
+        "value": 423800915
       }
     ],
     "mutualfund_holders": []

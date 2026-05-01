@@ -1,9 +1,9 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:20.414221",
+  "fetched_at": "2026-05-01T04:28:08.252051",
   "ticker": "9412",
   "ticker_full": "9412.T",
-  "company_name": "SKY PERFECT JSAT HOLDINGS INC",
+  "company_name": "SKY PERFECT JSAT CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.2
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 2966.0,
-    "high": 4000.0,
+    "current": 3565.0,
+    "high": 4500.0,
     "low": 2600.0,
-    "mean": 3358.1667,
-    "median": 3374.5
+    "mean": 3539.8333,
+    "median": 3600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 18.35,
+        "eps_actual": 20.04,
+        "surprise_pct": 9.21
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 20.11,
+        "eps_actual": 20.68,
+        "surprise_pct": 2.83
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 17.72,
+        "eps_actual": 22.12,
+        "surprise_pct": 24.83
+      },
+      {
+        "date": "2013-01-29",
+        "eps_estimate": 5.44,
+        "eps_actual": 8.49,
+        "surprise_pct": 55.96
+      },
+      {
+        "date": "2012-10-30",
+        "eps_estimate": 7.08,
+        "eps_actual": 5.19,
+        "surprise_pct": -26.71
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 49.84,
-    "institution_pct": 16.61,
+    "institution_pct": 16.99,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 16.61
+        "value": 16.99
       },
       {
         "label": "",
-        "value": 33.12
+        "value": 33.87
       },
       {
         "label": "",
-        "value": 131.0
+        "value": 138.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 3843500,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.29,
-        "pct_change": 5.24,
-        "value": 11399821000
+        "shares": 2964000,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.0,
+        "pct_change": -22.88,
+        "value": 10566660000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -65,31 +103,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.95,
         "pct_change": 0.0,
-        "value": 8407720200
+        "value": 10105705500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2001008,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.67,
         "pct_change": 0.0,
-        "value": 5934989728
+        "value": 7133593520
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 1569600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 4655433600
+        "value": 5595624000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1339000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.45,
-        "pct_change": 0.57,
-        "value": 3971474000
+        "shares": 1360800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.46,
+        "pct_change": 0.76,
+        "value": 4851252000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -97,7 +135,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.43,
         "pct_change": 0.34,
-        "value": 3838229416
+        "value": 4613380940
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -3.82,
-        "value": 2509829200
+        "value": 3016703000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -113,23 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": -1.32,
-        "value": 2255049800
+        "value": 2710469500
+      },
+      {
+        "holder": "Procure ETF Trust II-Procure Space ETF",
+        "shares": 720967,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": 95.3,
+        "value": 2570247355
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 622700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 1.7,
-        "value": 1846928200
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 399700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": 0.0,
-        "value": 1185510200
+        "shares": 643300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": 1.1,
+        "value": 2293364500
       }
     ],
     "mutualfund_holders": []

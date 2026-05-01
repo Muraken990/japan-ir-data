@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:59.016234",
+  "fetched_at": "2026-05-01T04:13:57.810571",
   "ticker": "6376",
   "ticker_full": "6376.T",
   "company_name": "NIKKISO CO LTD",
@@ -13,27 +13,158 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2599.0,
+    "current": 2657.0,
     "high": 3310.0,
-    "low": 1500.0,
-    "mean": 2405.0,
-    "median": 2405.0
+    "low": 3310.0,
+    "mean": 3310.0,
+    "median": 3310.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2022-11-13",
+        "eps_estimate": 17.5,
+        "eps_actual": 183.68,
+        "surprise_pct": 949.6
+      },
+      {
+        "date": "2022-05-15",
+        "eps_estimate": 10.77,
+        "eps_actual": 8.77,
+        "surprise_pct": -18.56
+      },
+      {
+        "date": "2022-02-13",
+        "eps_estimate": 51.56,
+        "eps_actual": -10.69,
+        "surprise_pct": -120.73
+      },
+      {
+        "date": "2021-11-11",
+        "eps_estimate": 18.3,
+        "eps_actual": 3.21,
+        "surprise_pct": -82.46
+      },
+      {
+        "date": "2021-08-11",
+        "eps_estimate": 16.54,
+        "eps_actual": -20.66,
+        "surprise_pct": -224.91
+      }
+    ]
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
-    "institutional_holders": [],
+    "has_data": true,
+    "insider_pct": 21.44,
+    "institution_pct": 38.99,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 21.44
+      },
+      {
+        "label": "",
+        "value": 38.99
+      },
+      {
+        "label": "",
+        "value": 49.63
+      },
+      {
+        "label": "",
+        "value": 58.0
+      }
+    ],
+    "institutional_holders": [
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 985500,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.42,
+        "pct_change": 0.0,
+        "value": 2618473500
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
+        "shares": 814204,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.18,
+        "pct_change": 0.0,
+        "value": 2163340028
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 731892,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.06,
+        "pct_change": -0.69,
+        "value": 1944637044
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 485286,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.7,
+        "pct_change": 0.0,
+        "value": 1289404902
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
+        "shares": 379900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.55,
+        "pct_change": 7.83,
+        "value": 1009394300
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 252900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.37,
+        "pct_change": -0.35,
+        "value": 671955300
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 192700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 0.0,
+        "value": 512003900
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 191761,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": -2.98,
+        "value": 509508977
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 154962,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 8.77,
+        "value": 411734034
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 112078,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.16,
+        "pct_change": -1.13,
+        "value": 297791246
+      }
+    ],
     "mutualfund_holders": []
   }
 }

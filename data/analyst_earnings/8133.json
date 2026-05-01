@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:27.488307",
+  "fetched_at": "2026-05-01T04:20:57.654250",
   "ticker": "8133",
   "ticker_full": "8133.T",
   "company_name": "ITOCHU ENEX CO LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2027.0,
+    "current": 1971.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-01-30",
+        "eps_estimate": 19.96,
+        "eps_actual": 28.36,
+        "surprise_pct": 42.07
+      },
+      {
+        "date": "2016-07-27",
+        "eps_estimate": 22.47,
+        "eps_actual": 9.53,
+        "surprise_pct": -57.59
+      },
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 30.68,
+        "eps_actual": 22.86,
+        "surprise_pct": -25.48
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": 15.14,
+        "eps_actual": 11.85,
+        "surprise_pct": -21.73
+      },
+      {
+        "date": "2015-04-29",
+        "eps_estimate": 37.26,
+        "eps_actual": 7.43,
+        "surprise_pct": -80.06
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 57.73,
-    "institution_pct": 11.36,
+    "institution_pct": 11.37,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 11.36
+        "value": 11.37
       },
       {
         "label": "",
-        "value": 26.87
+        "value": 26.9
       },
       {
         "label": "",
-        "value": 64.0
+        "value": 65.0
       }
     ],
     "institutional_holders": [],

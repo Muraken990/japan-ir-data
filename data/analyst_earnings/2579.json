@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:03.622197",
+  "fetched_at": "2026-05-01T04:27:50.638212",
   "ticker": "2579",
   "ticker_full": "2579.T",
   "company_name": "COCA-COLA BOTTLERS JAPAN HLDGS ",
@@ -14,40 +14,73 @@
     "strong_sell": 0,
     "total_analysts": 10,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.2
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 3677.0,
+    "current": 3240.0,
     "high": 5000.0,
-    "low": 2550.0,
-    "mean": 3865.0,
+    "low": 2750.0,
+    "mean": 4025.0,
     "median": 4100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": -6.1,
+        "eps_actual": -14.16,
+        "surprise_pct": -132.13
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 78.71,
+        "eps_actual": 95.67,
+        "surprise_pct": 21.55
+      },
+      {
+        "date": "2025-08-01",
+        "eps_estimate": 23.45,
+        "eps_actual": -341.35,
+        "surprise_pct": -1555.82
+      },
+      {
+        "date": "2025-05-01",
+        "eps_estimate": -16.04,
+        "eps_actual": -36.67,
+        "surprise_pct": -128.68
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": -7.56,
+        "eps_actual": -15.03,
+        "surprise_pct": -98.77
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 41.74,
-    "institution_pct": 20.95,
+    "insider_pct": 38.41,
+    "institution_pct": 22.06,
     "major_holders": [
       {
         "label": "",
-        "value": 41.74
+        "value": 38.41
       },
       {
         "label": "",
-        "value": 20.95
+        "value": 22.06
       },
       {
         "label": "",
-        "value": 35.97
+        "value": 35.82
       },
       {
         "label": "",
-        "value": 120.0
+        "value": 124.0
       }
     ],
     "institutional_holders": [],

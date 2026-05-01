@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:31.862311",
+  "fetched_at": "2026-05-01T04:31:25.109084",
   "ticker": "3092",
   "ticker_full": "3092.T",
   "company_name": "ZOZO INC",
@@ -13,25 +13,58 @@
     "sell": 3,
     "strong_sell": 0,
     "total_analysts": 17,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1114.5,
+    "current": 1038.5,
     "high": 1900.0,
-    "low": 1000.0,
-    "mean": 1359.8235,
-    "median": 1350.0
+    "low": 996.0,
+    "mean": 1347.4117,
+    "median": 1300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 18.05,
+        "eps_actual": 18.05,
+        "surprise_pct": -0.01
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 12.78,
+        "eps_actual": 10.89,
+        "surprise_pct": -14.78
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 12.69,
+        "eps_actual": 12.79,
+        "surprise_pct": 0.82
+      },
+      {
+        "date": "2025-06-12",
+        "eps_estimate": 8.59,
+        "eps_actual": 10.55,
+        "surprise_pct": 22.9
+      },
+      {
+        "date": "2025-01-31",
+        "eps_estimate": 15.18,
+        "eps_actual": 16.63,
+        "surprise_pct": 9.54
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 52.78,
-    "institution_pct": 28.39,
+    "institution_pct": 27.9,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 28.39
+        "value": 27.9
       },
       {
         "label": "",
-        "value": 60.12
+        "value": 59.09
       },
       {
         "label": "",
-        "value": 270.0
+        "value": 257.0
       }
     ],
     "institutional_holders": [],

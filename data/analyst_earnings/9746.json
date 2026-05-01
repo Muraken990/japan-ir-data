@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:23.555334",
+  "fetched_at": "2026-05-01T04:20:53.254907",
   "ticker": "9746",
   "ticker_full": "9746.T",
   "company_name": "TKC CORPORATION",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3765.0,
+    "current": 3580.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-08-09",
+        "eps_estimate": 21.73,
+        "eps_actual": 30.04,
+        "surprise_pct": 38.24
+      },
+      {
+        "date": "2016-02-08",
+        "eps_estimate": 16.95,
+        "eps_actual": 32.4,
+        "surprise_pct": 91.1
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 21.46,
+        "eps_actual": 21.2,
+        "surprise_pct": -1.23
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 17.95,
+        "eps_actual": 38.02,
+        "surprise_pct": 111.77
+      },
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 11.47,
+        "eps_actual": 15.34,
+        "surprise_pct": 33.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 31.42,
-    "institution_pct": 28.79,
+    "insider_pct": 31.67,
+    "institution_pct": 28.98,
     "major_holders": [
       {
         "label": "",
-        "value": 31.42
+        "value": 31.67
       },
       {
         "label": "",
-        "value": 28.79
+        "value": 28.98
       },
       {
         "label": "",
-        "value": 41.98
+        "value": 42.41
       },
       {
         "label": "",
-        "value": 72.0
+        "value": 73.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:09.868421",
+  "fetched_at": "2026-05-01T04:18:33.597040",
   "ticker": "8609",
   "ticker_full": "8609.T",
   "company_name": "OKASAN SECURITIES GROUP INC",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 845.0,
+    "current": 908.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 21.92,
+        "eps_actual": 14.93,
+        "surprise_pct": -31.87
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": 20.43,
+        "eps_actual": 23.44,
+        "surprise_pct": 14.72
+      },
+      {
+        "date": "2015-04-23",
+        "eps_estimate": 19.48,
+        "eps_actual": 9.98,
+        "surprise_pct": -48.78
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 14.63,
+        "eps_actual": 24.48,
+        "surprise_pct": 67.33
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 18.22,
+        "eps_actual": 22.47,
+        "surprise_pct": 23.35
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.86,
-    "institution_pct": 40.57,
+    "institution_pct": 40.5,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 40.57
+        "value": 40.5
       },
       {
         "label": "",
-        "value": 44.03
+        "value": 43.95
       },
       {
         "label": "",
-        "value": 73.0
+        "value": 74.0
       }
     ],
     "institutional_holders": [],

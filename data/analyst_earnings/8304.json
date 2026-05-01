@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:54.758330",
+  "fetched_at": "2026-05-01T04:24:33.250989",
   "ticker": "8304",
   "ticker_full": "8304.T",
   "company_name": "AOZORA BANK",
@@ -13,41 +13,79 @@
     "sell": 2,
     "strong_sell": 3,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "underperform",
+    "recommendation_mean": 4.16667
   },
   "target_prices": {
     "has_data": true,
-    "current": 2610.0,
-    "high": 2650.0,
+    "current": 2522.0,
+    "high": 2800.0,
     "low": 1870.0,
-    "mean": 2400.0,
+    "mean": 2445.0,
     "median": 2470.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 24.15,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 40.65,
+        "eps_actual": 59.35,
+        "surprise_pct": 46.01
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 42.43,
+        "eps_actual": 52.66,
+        "surprise_pct": 24.11
+      },
+      {
+        "date": "2025-08-01",
+        "eps_estimate": 51.66,
+        "eps_actual": 45.71,
+        "surprise_pct": -11.51
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 24.15,
+        "eps_actual": 30.59,
+        "surprise_pct": 26.65
+      },
+      {
+        "date": "2025-02-03",
+        "eps_estimate": 33.04,
+        "eps_actual": 30.3,
+        "surprise_pct": -8.29
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 32.14,
-    "institution_pct": 23.8,
+    "insider_pct": 28.14,
+    "institution_pct": 24.13,
     "major_holders": [
       {
         "label": "",
-        "value": 32.14
+        "value": 28.14
       },
       {
         "label": "",
-        "value": 23.8
+        "value": 24.13
       },
       {
         "label": "",
-        "value": 35.07
+        "value": 33.58
       },
       {
         "label": "",
-        "value": 103.0
+        "value": 102.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:11.389307",
+  "fetched_at": "2026-05-01T04:19:35.907751",
   "ticker": "7616",
   "ticker_full": "7616.T",
   "company_name": "COLOWIDE CO LTD",
@@ -17,20 +17,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1876.5,
+    "current": 1869.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 13.04,
+        "eps_actual": 1.15,
+        "surprise_pct": -91.18
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 7.8,
+        "eps_actual": -5.54,
+        "surprise_pct": -171.03
+      },
+      {
+        "date": "2015-04-29",
+        "eps_estimate": 8.96,
+        "eps_actual": 34.74,
+        "surprise_pct": 287.55
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 27.45,
+        "eps_actual": 0.59,
+        "surprise_pct": -97.85
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": -1.87,
+        "eps_actual": -11.88,
+        "surprise_pct": -533.94
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.5,
-    "institution_pct": 14.36,
+    "institution_pct": 14.3,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +76,11 @@
       },
       {
         "label": "",
-        "value": 14.36
+        "value": 14.3
       },
       {
         "label": "",
-        "value": 16.99
+        "value": 16.92
       },
       {
         "label": "",

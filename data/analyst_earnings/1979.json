@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:32.394290",
+  "fetched_at": "2026-05-01T04:21:03.385502",
   "ticker": "1979",
   "ticker_full": "1979.T",
   "company_name": "TAIKISHA LTD",
@@ -18,28 +18,66 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3430.0,
+    "current": 3505.0,
     "high": 4550.0,
     "low": 2750.0,
     "mean": 3698.0,
     "median": 3950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 78.01,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 48.56,
+        "eps_actual": 57.36,
+        "surprise_pct": 18.13
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 32.64,
+        "eps_actual": 72.53,
+        "surprise_pct": 122.18
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 30.71,
+        "eps_actual": 43.93,
+        "surprise_pct": 43.06
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 78.01,
+        "eps_actual": 43.78,
+        "surprise_pct": -43.88
+      },
+      {
+        "date": "2025-02-09",
+        "eps_estimate": 49.18,
+        "eps_actual": 38.74,
+        "surprise_pct": -21.23
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 27.15,
-    "institution_pct": 33.85,
+    "insider_pct": 26.68,
+    "institution_pct": 34.07,
     "major_holders": [
       {
         "label": "",
-        "value": 27.15
+        "value": 26.68
       },
       {
         "label": "",
-        "value": 33.85
+        "value": 34.07
       },
       {
         "label": "",
@@ -47,7 +85,7 @@
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 83.0
       }
     ],
     "institutional_holders": [],

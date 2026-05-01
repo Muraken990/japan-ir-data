@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:09.171013",
+  "fetched_at": "2026-05-01T04:26:56.205397",
   "ticker": "3350",
   "ticker_full": "3350.T",
   "company_name": "METAPLANET INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
@@ -18,36 +18,57 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 301.0,
-    "high": 1455.0,
-    "low": 1100.0,
-    "mean": 1277.5,
-    "median": 1277.5
+    "current": 327.0,
+    "high": 1100.0,
+    "low": 901.0,
+    "mean": 1000.5,
+    "median": 1000.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-16",
+        "eps_estimate": 1.18,
+        "eps_actual": -154.56,
+        "surprise_pct": -13254.04
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 1.17,
+        "eps_actual": 10.68,
+        "surprise_pct": 812.82
+      },
+      {
+        "date": "2025-08-13",
+        "eps_estimate": 0.91,
+        "eps_actual": 24.89,
+        "surprise_pct": 2635.16
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.88,
-    "institution_pct": 49.23,
+    "insider_pct": 4.63,
+    "institution_pct": 49.63,
     "major_holders": [
       {
         "label": "",
-        "value": 5.88
+        "value": 4.63
       },
       {
         "label": "",
-        "value": 49.23
+        "value": 49.63
       },
       {
         "label": "",
-        "value": 52.31
+        "value": 52.04
       },
       {
         "label": "",
-        "value": 90.0
+        "value": 93.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:13.267004",
+  "fetched_at": "2026-05-01T04:29:01.829989",
   "ticker": "2181",
   "ticker_full": "2181.T",
   "company_name": "PERSOL HOLDINGS CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 234.2,
+    "current": 233.3,
     "high": 430.0,
     "low": 270.0,
     "mean": 342.0,
     "median": 340.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-02-13",
+        "eps_estimate": 2.61,
+        "eps_actual": 1.94,
+        "surprise_pct": -25.79
+      },
+      {
+        "date": "2019-11-11",
+        "eps_estimate": 2.58,
+        "eps_actual": -4.56,
+        "surprise_pct": -276.55
+      },
+      {
+        "date": "2019-08-08",
+        "eps_estimate": 2.79,
+        "eps_actual": 2.34,
+        "surprise_pct": -15.94
+      },
+      {
+        "date": "2019-05-14",
+        "eps_estimate": 4.05,
+        "eps_actual": 2.41,
+        "surprise_pct": -40.57
+      },
+      {
+        "date": "2019-02-13",
+        "eps_estimate": 3.43,
+        "eps_actual": 2.89,
+        "surprise_pct": -15.66
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.38,
-    "institution_pct": 42.82,
+    "institution_pct": 42.44,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 42.82
+        "value": 42.44
       },
       {
         "label": "",
-        "value": 54.47
+        "value": 53.98
       },
       {
         "label": "",
-        "value": 189.0
+        "value": 182.0
       }
     ],
     "institutional_holders": [],

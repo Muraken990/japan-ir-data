@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:49.382670",
+  "fetched_at": "2026-05-01T04:34:47.945956",
   "ticker": "7751",
   "ticker_full": "7751.T",
   "company_name": "CANON INC",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 4439.0,
+    "current": 4038.0,
     "high": 6100.0,
-    "low": 4500.0,
-    "mean": 5100.0,
-    "median": 5000.0
+    "low": 4100.0,
+    "mean": 4850.0,
+    "median": 4700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-23",
+      "eps_estimate": 79.2,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 76.55,
+        "eps_actual": 55.2,
+        "surprise_pct": -27.89
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 75.7,
+        "eps_actual": 126.49,
+        "surprise_pct": 67.09
+      },
+      {
+        "date": "2025-10-27",
+        "eps_estimate": 64.0,
+        "eps_actual": 71.51,
+        "surprise_pct": 11.73
+      },
+      {
+        "date": "2025-07-24",
+        "eps_estimate": 87.6,
+        "eps_actual": 92.05,
+        "surprise_pct": 5.08
+      },
+      {
+        "date": "2025-04-23",
+        "eps_estimate": 69.9,
+        "eps_actual": 77.27,
+        "surprise_pct": 10.54
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 1.27,
-    "institution_pct": 30.63,
+    "insider_pct": 1.23,
+    "institution_pct": 29.66,
     "major_holders": [
       {
         "label": "",
-        "value": 1.27
+        "value": 1.23
       },
       {
         "label": "",
-        "value": 30.63
+        "value": 29.66
       },
       {
         "label": "",
-        "value": 31.02
+        "value": 30.03
       },
       {
         "label": "",
-        "value": 379.0
+        "value": 371.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2023-09-30",
         "pct_held": 0.06,
         "pct_change": 5.25,
-        "value": 3381186300
+        "value": 3075744600
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 12469087,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.93,
-        "pct_change": -2.34,
-        "value": 55350277193
+        "shares": 12246787,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.92,
+        "pct_change": -1.78,
+        "value": 49452525906
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,39 +113,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.59,
         "pct_change": -0.43,
-        "value": 35099825533
+        "value": 31929059586
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 5895300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.44,
-        "pct_change": 0.91,
-        "value": 26169236700
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 3124627,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 0.77,
-        "value": 13870219253
+        "shares": 6047900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.45,
+        "pct_change": 1.19,
+        "value": 24421420200
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 3005150,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 1.0,
-        "value": 13339860850
+        "shares": 3393250,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": 0.39,
+        "value": 13701943500
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 3162427,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.24,
+        "pct_change": 1.21,
+        "value": 12769880226
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 3001900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.23,
-        "pct_change": 0.5,
-        "value": 13325434100
+        "pct_change": 0.0,
+        "value": 12121672200
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -115,31 +153,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": -6.39,
-        "value": 11451732200
+        "value": 10417232400
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 2392300,
-        "date_reported": "2026-01-31",
+        "shares": 2455900,
+        "date_reported": "2026-02-28",
         "pct_held": 0.18,
-        "pct_change": 1.52,
-        "value": 10619419700
+        "pct_change": 2.66,
+        "value": 9916924200
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 2234097,
-        "date_reported": "2026-01-31",
+        "shares": 2267297,
+        "date_reported": "2026-03-31",
         "pct_held": 0.17,
-        "pct_change": 9.01,
-        "value": 9917156583
+        "pct_change": -1.21,
+        "value": 9155345286
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 2267900,
-        "date_reported": "2026-01-31",
+        "shares": 2260500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.17,
-        "pct_change": 0.64,
-        "value": 10067208100
+        "pct_change": -2.18,
+        "value": 9127899000
       }
     ]
   }

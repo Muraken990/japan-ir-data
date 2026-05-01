@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:39.715466",
+  "fetched_at": "2026-05-01T04:11:35.710521",
   "ticker": "5195",
   "ticker_full": "5195.T",
   "company_name": "BANDO CHEMICAL INDUSTRIES LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2081.0,
+    "current": 2023.0,
     "high": 2270.0,
     "low": 2270.0,
     "mean": 2270.0,
     "median": 2270.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-07",
+        "eps_estimate": 25.44,
+        "eps_actual": 25.3,
+        "surprise_pct": -0.56
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 18.31,
+        "eps_actual": 25.5,
+        "surprise_pct": 39.27
+      },
+      {
+        "date": "2015-02-12",
+        "eps_estimate": 25.17,
+        "eps_actual": 26.88,
+        "surprise_pct": 6.78
+      },
+      {
+        "date": "2014-11-13",
+        "eps_estimate": 20.47,
+        "eps_actual": 20.94,
+        "surprise_pct": 2.32
+      },
+      {
+        "date": "2014-08-07",
+        "eps_estimate": 19.99,
+        "eps_actual": 19.94,
+        "surprise_pct": -0.23
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.23,
-    "institution_pct": 37.57,
+    "institution_pct": 37.72,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 37.57
+        "value": 37.72
       },
       {
         "label": "",
-        "value": 43.8
+        "value": 43.98
       },
       {
         "label": "",

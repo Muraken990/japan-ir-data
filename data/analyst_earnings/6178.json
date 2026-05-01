@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:57.424075",
+  "fetched_at": "2026-05-01T04:33:55.565850",
   "ticker": "6178",
   "ticker_full": "6178.T",
   "company_name": "JAPAN POST HLDGS CO LTD",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 1,
+    "buy": 2,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
+    "total_analysts": 8,
     "recommendation_key": "buy",
     "recommendation_mean": 2.375
   },
   "target_prices": {
     "has_data": true,
-    "current": 1862.5,
+    "current": 1813.5,
     "high": 2580.0,
     "low": 1550.0,
-    "mean": 2087.5,
-    "median": 2150.0
+    "mean": 2068.75,
+    "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 27.33,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 31.58,
+        "eps_actual": 40.12,
+        "surprise_pct": 27.04
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 20.2,
+        "eps_actual": 25.25,
+        "surprise_pct": 25.0
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 21.79,
+        "eps_actual": 22.78,
+        "surprise_pct": 4.54
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 34.42,
+        "eps_actual": 34.84,
+        "surprise_pct": 1.22
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 50.95,
+        "eps_actual": 40.46,
+        "surprise_pct": -20.59
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 39.08,
-    "institution_pct": 18.69,
+    "insider_pct": 41.37,
+    "institution_pct": 19.72,
     "major_holders": [
       {
         "label": "",
-        "value": 39.08
+        "value": 41.37
       },
       {
         "label": "",
-        "value": 18.69
+        "value": 19.72
       },
       {
         "label": "",
-        "value": 30.67
+        "value": 33.64
       },
       {
         "label": "",
-        "value": 300.0
+        "value": 287.0
       }
     ],
     "institutional_holders": [
@@ -57,89 +95,89 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.37,
-        "value": 25166100
+        "value": 24504012
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 25069489,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.84,
-        "pct_change": -0.07,
-        "value": 46691923262
+        "shares": 24343789,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.87,
+        "pct_change": -2.89,
+        "value": 44147461351
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 15735630,
         "date_reported": "2025-12-31",
-        "pct_held": 0.53,
+        "pct_held": 0.56,
         "pct_change": -1.49,
-        "value": 29307610875
+        "value": 28536565005
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 11999000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.4,
-        "pct_change": 0.96,
-        "value": 22348137500
+        "shares": 12403400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.44,
+        "pct_change": 1.57,
+        "value": 22493565900
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 7873600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.26,
-        "pct_change": 2.68,
-        "value": 14664580000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 6428867,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 0.65,
-        "value": 11973764787
+        "shares": 7767300,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.28,
+        "pct_change": -1.35,
+        "value": 14085998550
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 6189400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 1.04,
-        "value": 11527757500
+        "shares": 6980100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": -0.11,
+        "value": 12658411350
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 6505567,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.23,
+        "pct_change": 1.19,
+        "value": 11797845754
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 6158100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 0.52,
-        "value": 11469461250
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": 0.0,
+        "value": 11167714350
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
         "shares": 4976000,
         "date_reported": "2026-01-31",
-        "pct_held": 0.17,
+        "pct_held": 0.18,
         "pct_change": -5.72,
-        "value": 9267800000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 4665600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.16,
-        "pct_change": 0.63,
-        "value": 8689680000
+        "value": 9023976000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 4548200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 1.52,
-        "value": 8471022500
+        "shares": 4669100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.17,
+        "pct_change": 2.66,
+        "value": 8467412850
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
+        "shares": 4652200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.17,
+        "pct_change": -2.23,
+        "value": 8436764700
       }
     ]
   }

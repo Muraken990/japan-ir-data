@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:28.106469",
+  "fetched_at": "2026-05-01T04:29:17.570737",
   "ticker": "8227",
   "ticker_full": "8227.T",
   "company_name": "SHIMAMURA CO",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 2,
+    "buy": 1,
     "hold": 7,
     "sell": 1,
     "strong_sell": 1,
-    "total_analysts": 12,
+    "total_analysts": 11,
     "recommendation_key": "hold",
     "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3318.0,
+    "current": 3276.0,
     "high": 4000.0,
-    "low": 2866.6667,
-    "mean": 3492.4243,
-    "median": 3600.0
+    "low": 2933.0,
+    "mean": 3504.818,
+    "median": 3570.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-22",
+      "eps_estimate": 47.81,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-03-29",
+        "eps_estimate": 39.03,
+        "eps_actual": 42.98,
+        "surprise_pct": 10.12
+      },
+      {
+        "date": "2025-12-21",
+        "eps_estimate": 58.62,
+        "eps_actual": 55.53,
+        "surprise_pct": -5.28
+      },
+      {
+        "date": "2025-09-28",
+        "eps_estimate": 55.63,
+        "eps_actual": 54.87,
+        "surprise_pct": -1.36
+      },
+      {
+        "date": "2025-06-29",
+        "eps_estimate": 47.81,
+        "eps_actual": 48.99,
+        "surprise_pct": 2.46
+      },
+      {
+        "date": "2025-03-30",
+        "eps_estimate": 33.06,
+        "eps_actual": 37.35,
+        "surprise_pct": 12.99
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.78,
-    "institution_pct": 24.72,
+    "institution_pct": 24.2,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 24.72
+        "value": 24.2
       },
       {
         "label": "",
-        "value": 37.9
+        "value": 37.1
       },
       {
         "label": "",
-        "value": 129.0
+        "value": 127.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,25 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.04,
         "pct_change": 15.26,
-        "value": 104676264
+        "value": 103351248
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 3206700,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.45,
-        "pct_change": 1.09,
-        "value": 10639830600
+        "shares": 3286800,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.48,
+        "pct_change": 2.5,
+        "value": 10767556800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2032938,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.92,
-        "pct_change": 1.07,
-        "value": 6745288284
+        "pct_change": 0.0,
+        "value": 6659904888
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -83,7 +121,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.91,
         "pct_change": -3.35,
-        "value": 6664203000
+        "value": 6579846000
+      },
+      {
+        "holder": "Pioneer Series Trust VIII-Victory Pioneer International Equity Fund",
+        "shares": 1362400,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.62,
+        "pct_change": 14.68,
+        "value": 4463222400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +137,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.6,
         "pct_change": 2.89,
-        "value": 4435462584
+        "value": 4379317488
       },
       {
-        "holder": "Pioneer Series Trust VIII-Victory Pioneer International Equity Fund",
-        "shares": 1188000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.54,
-        "pct_change": 31.0,
-        "value": 3941784000
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 994400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.45,
+        "pct_change": 1.04,
+        "value": 3257654400
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -107,23 +153,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.44,
         "pct_change": 28.26,
-        "value": 3247990200
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 972600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.44,
-        "pct_change": 0.0,
-        "value": 3227086800
+        "value": 3206876400
       },
       {
         "holder": "MFS Series Trust X-MFS International Large Cap Value Fund",
-        "shares": 926400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.42,
-        "pct_change": -3.5,
-        "value": 3073795200
+        "shares": 873300,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.39,
+        "pct_change": -5.73,
+        "value": 2860930800
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -131,7 +169,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 2350139400
+        "value": 2320390800
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -139,7 +177,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.32,
         "pct_change": 18.58,
-        "value": 2344167000
+        "value": 2314494000
       }
     ]
   }

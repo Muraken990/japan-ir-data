@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:06.100863",
+  "fetched_at": "2026-05-01T04:17:28.064995",
   "ticker": "1926",
   "ticker_full": "1926.T",
   "company_name": "RAITO KOGYO CO LTD",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3910.0,
+    "current": 3855.0,
     "high": 4800.0,
     "low": 3050.0,
     "mean": 4002.5,
     "median": 4080.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2023-02-08",
+        "eps_estimate": 54.6,
+        "eps_actual": 59.36,
+        "surprise_pct": 8.72
+      },
+      {
+        "date": "2022-02-07",
+        "eps_estimate": 43.2,
+        "eps_actual": 56.65,
+        "surprise_pct": 31.13
+      },
+      {
+        "date": "2016-02-01",
+        "eps_estimate": 18.33,
+        "eps_actual": 27.21,
+        "surprise_pct": 48.47
+      },
+      {
+        "date": "2015-08-03",
+        "eps_estimate": 3.53,
+        "eps_actual": 26.2,
+        "surprise_pct": 641.37
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 35.63,
+        "eps_actual": 33.56,
+        "surprise_pct": -5.82
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.73,
-    "institution_pct": 47.07,
+    "institution_pct": 47.02,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 47.07
+        "value": 47.02
       },
       {
         "label": "",
-        "value": 48.89
+        "value": 48.84
       },
       {
         "label": "",
-        "value": 112.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +90,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 1.26,
         "pct_change": 3.26,
-        "value": 2374949640
+        "value": 2341542420
       },
       {
         "holder": "Harbor International Small Cap Fund",
@@ -65,7 +98,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.79,
         "pct_change": -6.2,
-        "value": 1501275780
+        "value": 1480158090
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -73,7 +106,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.73,
         "pct_change": 0.0,
-        "value": 1372038550
+        "value": 1352738775
       },
       {
         "holder": "College Retirement Equities Fund-Stock Account",
@@ -81,7 +114,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.6,
         "pct_change": 86.26,
-        "value": 1133900000
+        "value": 1117950000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -89,7 +122,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 1043970000
+        "value": 1029285000
       },
       {
         "holder": "Nuveen Quant International Small Cap Equity Fund",
@@ -97,7 +130,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.53,
         "pct_change": 89.24,
-        "value": 996659000
+        "value": 982639500
       },
       {
         "holder": "Fidelity Japan Smaller Companies Fund",
@@ -105,7 +138,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 914549000
+        "value": 901684500
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -113,7 +146,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 894608000
+        "value": 882024000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -121,7 +154,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 873103000
+        "value": 860821500
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -129,7 +162,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.31,
         "pct_change": -7.34,
-        "value": 591974000
+        "value": 583647000
       }
     ],
     "mutualfund_holders": []

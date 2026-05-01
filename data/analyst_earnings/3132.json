@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:04.529675",
+  "fetched_at": "2026-05-01T04:25:49.552165",
   "ticker": "3132",
   "ticker_full": "3132.T",
   "company_name": "MACNICA HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,34 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2372.0,
+    "current": 2603.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-05-08",
+        "eps_estimate": -3.17,
+        "eps_actual": -5.28,
+        "surprise_pct": -66.84
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.6,
-    "institution_pct": 41.52,
+    "institution_pct": 40.47,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +53,15 @@
       },
       {
         "label": "",
-        "value": 41.52
+        "value": 40.47
       },
       {
         "label": "",
-        "value": 55.06
+        "value": 53.67
       },
       {
         "label": "",
-        "value": 116.0
+        "value": 115.0
       }
     ],
     "institutional_holders": [],

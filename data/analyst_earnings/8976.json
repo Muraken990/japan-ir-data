@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:56.451653",
+  "fetched_at": "2026-05-01T04:24:35.808281",
   "ticker": "8976",
   "ticker_full": "8976.T",
   "company_name": "DAIWA OFFICE INVESTMENT CORP",
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 332000.0,
+    "current": 334000.0,
     "high": 431000.0,
     "low": 365000.0,
-    "mean": 391500.0,
-    "median": 390000.0
+    "mean": 390166.66,
+    "median": 386000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-17",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 45.27,
-    "institution_pct": 37.47,
+    "institution_pct": 37.1,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 37.47
+        "value": 37.1
       },
       {
         "label": "",
-        "value": 68.47
+        "value": 67.79
       },
       {
         "label": "",
-        "value": 107.0
+        "value": 109.0
       }
     ],
     "institutional_holders": [],

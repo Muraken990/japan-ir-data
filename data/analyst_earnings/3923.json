@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:51.277224",
+  "fetched_at": "2026-05-01T04:25:31.127862",
   "ticker": "3923",
   "ticker_full": "3923.T",
   "company_name": "RAKUS CO LTD",
@@ -13,67 +13,97 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.125
   },
   "target_prices": {
     "has_data": true,
-    "current": 771.7,
-    "high": 1610.0,
-    "low": 950.0,
-    "mean": 1333.125,
-    "median": 1400.0
+    "current": 863.7,
+    "high": 1450.0,
+    "low": 800.0,
+    "mean": 1135.625,
+    "median": 1127.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 1.03,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 8.51,
+        "eps_actual": 9.11,
+        "surprise_pct": 7.11
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 7.31,
+        "eps_actual": 7.7,
+        "surprise_pct": 5.27
+      },
+      {
+        "date": "2025-08-13",
+        "eps_estimate": 8.29,
+        "eps_actual": 9.79,
+        "surprise_pct": 18.11
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 6.15,
+        "eps_actual": 6.67,
+        "surprise_pct": 8.42
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 4.59,
+        "eps_actual": 5.41,
+        "surprise_pct": 17.66
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 51.77,
-    "institution_pct": 20.52,
+    "insider_pct": 52.68,
+    "institution_pct": 19.67,
     "major_holders": [
       {
         "label": "",
-        "value": 51.77
+        "value": 52.68
       },
       {
         "label": "",
-        "value": 20.52
+        "value": 19.67
       },
       {
         "label": "",
-        "value": 42.54
+        "value": 41.57
       },
       {
         "label": "",
-        "value": 128.0
+        "value": 126.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2423582,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.67,
-        "pct_change": -0.89,
-        "value": 1870278258
-      },
-      {
-        "holder": "Grandeur Peak Global Trust-Grandeur Peak International Stalwarts Fund",
-        "shares": 2164500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.6,
-        "pct_change": -32.86,
-        "value": 1670344676
+        "shares": 2439382,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.69,
+        "pct_change": 0.65,
+        "value": 2106894263
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 1562730,
         "date_reported": "2025-12-31",
-        "pct_held": 0.43,
+        "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 1205958760
+        "value": 1349729920
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -81,15 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.41,
         "pct_change": 1.0,
-        "value": 1128688437
+        "value": 1263247637
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1266600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 0.6,
-        "value": 977435235
+        "shares": 1288400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 0.8,
+        "value": 1112791095
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 29.99,
-        "value": 722235584
+        "value": 808338568
       },
       {
         "holder": "WASATCH FUNDS TRUST-Wasatch International Growth Fund",
@@ -105,15 +135,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.22,
         "pct_change": 2.73,
-        "value": 606494473
+        "value": 678799113
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 617000,
+        "shares": 642100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 1.42,
+        "value": 554581777
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 550998,
         "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": 1.71,
-        "value": 476138907
+        "pct_held": 0.16,
+        "pct_change": 0.0,
+        "value": 475896979
       },
       {
         "holder": "WASATCH FUNDS TRUST-Wasatch Global Opportunities Fund",
@@ -121,15 +159,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.15,
         "pct_change": 11.12,
-        "value": 422410065
+        "value": 472768657
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 550998,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 0.0,
-        "value": 425205163
+        "holder": "INVESTMENT MANAGERS SERIES TRT-WCM Intl Small Cap Growth Fd.",
+        "shares": 507400,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.14,
+        "pct_change": -2.91,
+        "value": 438241386
       }
     ],
     "mutualfund_holders": []

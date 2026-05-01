@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:45.840547",
+  "fetched_at": "2026-05-01T04:31:40.947466",
   "ticker": "9202",
   "ticker_full": "9202.T",
   "company_name": "ANA HOLDINGS INC",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 12,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.16667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2888.5,
-    "high": 4500.0,
-    "low": 3000.0,
-    "mean": 3617.5,
-    "median": 3625.0
+    "current": 2711.5,
+    "high": 3900.0,
+    "low": 2800.0,
+    "mean": 3375.8333,
+    "median": 3300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 110.18,
+        "eps_actual": 134.22,
+        "surprise_pct": 21.82
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 96.32,
+        "eps_actual": 113.35,
+        "surprise_pct": 17.68
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 65.09,
+        "eps_actual": 48.84,
+        "surprise_pct": -24.96
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 18.67,
+        "eps_actual": 40.42,
+        "surprise_pct": 116.46
+      },
+      {
+        "date": "2025-02-03",
+        "eps_estimate": 88.28,
+        "eps_actual": 113.31,
+        "surprise_pct": 28.36
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.04,
-    "institution_pct": 21.18,
+    "institution_pct": 21.44,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 21.18
+        "value": 21.44
       },
       {
         "label": "",
-        "value": 23.03
+        "value": 23.32
       },
       {
         "label": "",
-        "value": 253.0
+        "value": 249.0
       }
     ],
     "institutional_holders": [],

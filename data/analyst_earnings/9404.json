@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:24.424167",
+  "fetched_at": "2026-05-01T04:31:17.459198",
   "ticker": "9404",
   "ticker_full": "9404.T",
   "company_name": "NIPPON TELEVISION HOLDINGS INC",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 2,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "total_analysts": 5,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3178.0,
+    "current": 3000.0,
     "high": 4300.0,
-    "low": 3800.0,
-    "mean": 4043.3333,
+    "low": 3300.0,
+    "mean": 3960.0,
     "median": 4000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-05-13",
+        "eps_estimate": 25.7,
+        "eps_actual": 25.13,
+        "surprise_pct": -2.22
+      },
+      {
+        "date": "2020-02-05",
+        "eps_estimate": 38.92,
+        "eps_actual": 41.12,
+        "surprise_pct": 5.65
+      },
+      {
+        "date": "2019-02-06",
+        "eps_estimate": 33.7,
+        "eps_actual": 45.53,
+        "surprise_pct": 35.1
+      },
+      {
+        "date": "2018-01-31",
+        "eps_estimate": 46.3,
+        "eps_actual": 49.39,
+        "surprise_pct": 6.67
+      },
+      {
+        "date": "2017-07-27",
+        "eps_estimate": 40.0,
+        "eps_actual": 39.61,
+        "surprise_pct": -0.97
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 40.99,
-    "institution_pct": 34.48,
+    "institution_pct": 32.31,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 34.48
+        "value": 32.31
       },
       {
         "label": "",
-        "value": 58.44
+        "value": 54.76
       },
       {
         "label": "",
@@ -57,23 +95,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 7.73,
         "pct_change": 0.0,
-        "value": 64145390778
+        "value": 60552603000
       },
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 2457600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.94,
-        "pct_change": 10.19,
-        "value": 7810252800
+        "shares": 2519000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.96,
+        "pct_change": 2.5,
+        "value": 7557000000
       },
       {
         "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
-        "shares": 1874300,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.72,
-        "pct_change": -0.35,
-        "value": 5956525400
+        "shares": 1851500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": -1.22,
+        "value": 5554500000
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -81,23 +119,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.52,
         "pct_change": 4.63,
-        "value": 4313502578
+        "value": 4071903000
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 780600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.3,
+        "pct_change": 63.48,
+        "value": 2341800000
       },
       {
         "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
-        "shares": 986700,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.38,
-        "pct_change": -1.37,
-        "value": 3135732600
+        "shares": 749000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": -24.09,
+        "value": 2247000000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 740500,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.28,
-        "pct_change": 3.26,
-        "value": 2353309000
+        "pct_change": 0.0,
+        "value": 2221500000
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -105,7 +151,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.27,
         "pct_change": 15.42,
-        "value": 2261782600
+        "value": 2135100000
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -113,23 +159,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.24,
         "pct_change": 3.44,
-        "value": 2005635800
+        "value": 1893300000
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Fund",
-        "shares": 513900,
-        "date_reported": "2025-10-31",
+        "shares": 512900,
+        "date_reported": "2026-01-31",
         "pct_held": 0.2,
-        "pct_change": -9.95,
-        "value": 1633174200
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 477500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.18,
-        "pct_change": 1.0,
-        "value": 1517495000
+        "pct_change": -0.19,
+        "value": 1538700000
       }
     ],
     "mutualfund_holders": []

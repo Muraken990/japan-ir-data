@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:24.652151",
+  "fetched_at": "2026-05-01T04:20:54.699604",
   "ticker": "8273",
   "ticker_full": "8273.T",
   "company_name": "IZUMI CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1050.0,
-    "high": 1217.0,
+    "current": 941.0,
+    "high": 1210.0,
     "low": 1066.656,
-    "mean": 1145.9113,
-    "median": 1149.9945
+    "mean": 1144.164,
+    "median": 1150.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-09",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2019-01-07",
+        "eps_estimate": 23.27,
+        "eps_actual": 21.07,
+        "surprise_pct": -9.43
+      },
+      {
+        "date": "2018-04-10",
+        "eps_estimate": 41.63,
+        "eps_actual": 44.58,
+        "surprise_pct": 7.09
+      },
+      {
+        "date": "2018-01-10",
+        "eps_estimate": 25.6,
+        "eps_actual": 27.85,
+        "surprise_pct": 8.79
+      },
+      {
+        "date": "2017-10-09",
+        "eps_estimate": 35.37,
+        "eps_actual": 30.68,
+        "surprise_pct": -13.24
+      },
+      {
+        "date": "2015-04-06",
+        "eps_estimate": 21.87,
+        "eps_actual": 23.02,
+        "surprise_pct": 5.29
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.21,
-    "institution_pct": 21.75,
+    "institution_pct": 21.48,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 21.75
+        "value": 21.48
       },
       {
         "label": "",
-        "value": 37.64
+        "value": 37.16
       },
       {
         "label": "",
-        "value": 88.0
+        "value": 83.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2306400,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.07,
-        "pct_change": 1.81,
-        "value": 2421720000
+        "shares": 2380300,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.11,
+        "pct_change": 1.25,
+        "value": 2239862300
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1698993,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.79,
-        "pct_change": 0.46,
-        "value": 1783942650
+        "pct_change": 0.0,
+        "value": 1598752413
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,23 +111,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.54,
         "pct_change": 0.0,
-        "value": 1210800150
+        "value": 1085107563
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 610500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 0.0,
-        "value": 641025000
+        "shares": 622700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 1.67,
+        "value": 585960700
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 431079,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.2,
-        "pct_change": 2.09,
-        "value": 452632950
+        "shares": 466323,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.22,
+        "pct_change": 8.18,
+        "value": 438809943
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,15 +135,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": -6.81,
-        "value": 418005000
+        "value": 374612100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 385200,
-        "date_reported": "2026-01-31",
+        "shares": 385800,
+        "date_reported": "2026-03-31",
         "pct_held": 0.18,
-        "pct_change": 2.07,
-        "value": 404460000
+        "pct_change": -2.72,
+        "value": 363037800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -113,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 315315000
+        "value": 282582300
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -121,15 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 0.91,
-        "value": 280665000
+        "value": 251529300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 262284,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 275398200
+        "value": 246809244
       }
     ],
     "mutualfund_holders": []

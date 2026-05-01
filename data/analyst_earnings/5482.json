@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:14.003355",
+  "fetched_at": "2026-05-01T04:19:38.861918",
   "ticker": "5482",
   "ticker_full": "5482.T",
   "company_name": "AICHI STEEL CORP",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2890.0,
+    "current": 2897.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2015-02-02",
+        "eps_estimate": 23.06,
+        "eps_actual": 30.78,
+        "surprise_pct": 33.44
+      },
+      {
+        "date": "2014-07-30",
+        "eps_estimate": 16.25,
+        "eps_actual": 12.33,
+        "surprise_pct": -24.14
+      },
+      {
+        "date": "2014-04-24",
+        "eps_estimate": 7.36,
+        "eps_actual": 2.25,
+        "surprise_pct": -69.45
+      },
+      {
+        "date": "2014-02-02",
+        "eps_estimate": 14.02,
+        "eps_actual": 21.63,
+        "surprise_pct": 54.28
+      },
+      {
+        "date": "2012-04-26",
+        "eps_estimate": 13.13,
+        "eps_actual": 14.95,
+        "surprise_pct": 13.9
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 48.7,
-    "institution_pct": 18.83,
+    "institution_pct": 18.81,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +71,11 @@
       },
       {
         "label": "",
-        "value": 18.83
+        "value": 18.81
       },
       {
         "label": "",
-        "value": 36.72
+        "value": 36.67
       },
       {
         "label": "",

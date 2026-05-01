@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:34.914116",
+  "fetched_at": "2026-05-01T04:21:06.267135",
   "ticker": "6925",
   "ticker_full": "6925.T",
   "company_name": "USHIO INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 0,
+    "strong_buy": 1,
     "buy": 0,
-    "hold": 3,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3005.0,
-    "high": 3100.0,
+    "current": 3185.0,
+    "high": 4000.0,
     "low": 1800.0,
-    "mean": 2633.3333,
-    "median": 3000.0
+    "mean": 2975.0,
+    "median": 3050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 9.8,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 12.7,
+        "eps_actual": 44.48,
+        "surprise_pct": 250.24
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 21.2,
+        "eps_actual": 34.83,
+        "surprise_pct": 64.29
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 3.4,
+        "eps_actual": -32.06,
+        "surprise_pct": -1042.94
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 9.8,
+        "eps_actual": 12.05,
+        "surprise_pct": 22.96
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 8.5,
+        "eps_actual": 35.27,
+        "surprise_pct": 314.94
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.04,
-    "institution_pct": 51.54,
+    "institution_pct": 52.04,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 51.54
+        "value": 52.04
       },
       {
         "label": "",
-        "value": 57.29
+        "value": 57.85
       },
       {
         "label": "",
@@ -57,17 +95,17 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 2253750
+        "value": 2388750
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1065992,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.28,
-        "pct_change": -1.33,
-        "value": 3203305960
+        "pct_change": 0.0,
+        "value": 3395184520
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -75,15 +113,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.19,
         "pct_change": -16.93,
-        "value": 2983204735
+        "value": 3161899195
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 647900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.78,
-        "pct_change": 1.19,
-        "value": 1946939500
+        "shares": 669700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.8,
+        "pct_change": 1.55,
+        "value": 2132994500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,7 +129,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.77,
         "pct_change": 0.85,
-        "value": 1931854400
+        "value": 2047572800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -99,15 +137,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.58,
         "pct_change": -2.47,
-        "value": 1446607000
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 454500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.54,
-        "pct_change": 0.0,
-        "value": 1365772500
+        "value": 1533259000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -115,31 +145,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.54,
         "pct_change": 0.0,
-        "value": 1351649000
+        "value": 1432613000
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 255000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.31,
-        "pct_change": 1.0,
-        "value": 766275000
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 454500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.54,
+        "pct_change": 0.0,
+        "value": 1447582500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 258100,
-        "date_reported": "2026-01-31",
+        "shares": 254700,
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
-        "pct_change": 1.53,
-        "value": 775590500
+        "pct_change": 1.19,
+        "value": 811219500
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 246200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": -3.45,
+        "value": 784147000
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 229600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
-        "pct_change": 1.0,
-        "value": 689948000
+        "shares": 191800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": -16.46,
+        "value": 610883000
       }
     ]
   }

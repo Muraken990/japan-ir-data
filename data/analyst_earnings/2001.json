@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:17.314253",
+  "fetched_at": "2026-05-01T04:20:44.171866",
   "ticker": "2001",
   "ticker_full": "2001.T",
   "company_name": "NIPPN CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2733.0,
+    "current": 2663.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 23.55,
+        "eps_actual": 37.88,
+        "surprise_pct": 60.84
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": 23.08,
+        "eps_actual": 25.72,
+        "surprise_pct": 11.42
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 21.99,
+        "eps_actual": 20.18,
+        "surprise_pct": -8.25
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": 26.57,
+        "eps_actual": 26.32,
+        "surprise_pct": -0.93
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 15.53,
+        "eps_actual": 16.28,
+        "surprise_pct": 4.83
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.36,
-    "institution_pct": 33.87,
+    "institution_pct": 33.27,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 33.87
+        "value": 33.27
       },
       {
         "label": "",
-        "value": 43.07
+        "value": 42.31
       },
       {
         "label": "",
-        "value": 86.0
+        "value": 87.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:40.826482",
+  "fetched_at": "2026-05-01T04:24:19.478053",
   "ticker": "7762",
   "ticker_full": "7762.T",
   "company_name": "CITIZEN WATCH CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1722.0,
-    "high": 2100.0,
+    "current": 1801.0,
+    "high": 2200.0,
     "low": 800.0,
-    "mean": 1533.3334,
+    "mean": 1550.0,
     "median": 1700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": -5.1,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 16.8,
+        "eps_actual": 42.4,
+        "surprise_pct": 152.38
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 14.4,
+        "eps_actual": 11.03,
+        "surprise_pct": -23.4
+      },
+      {
+        "date": "2025-08-12",
+        "eps_estimate": 10.1,
+        "eps_actual": 37.67,
+        "surprise_pct": 272.97
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": -5.1,
+        "eps_actual": 6.84,
+        "surprise_pct": 234.12
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 25.1,
+        "eps_actual": 40.71,
+        "surprise_pct": 62.19
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.34,
-    "institution_pct": 49.04,
+    "institution_pct": 50.5,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 49.04
+        "value": 50.5
       },
       {
         "label": "",
-        "value": 55.94
+        "value": 57.61
       },
       {
         "label": "",
-        "value": 120.0
+        "value": 118.0
       }
     ],
     "institutional_holders": [],

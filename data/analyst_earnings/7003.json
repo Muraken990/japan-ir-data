@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:07.533249",
+  "fetched_at": "2026-05-01T04:27:54.780155",
   "ticker": "7003",
   "ticker_full": "7003.T",
   "company_name": "MITSUI E&S CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 4,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5861.0,
+    "current": 5611.0,
     "high": 8500.0,
     "low": 7800.0,
     "mean": 8140.0,
     "median": 8300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 71.45,
+        "eps_actual": 77.83,
+        "surprise_pct": 8.93
+      },
+      {
+        "date": "2011-02-03",
+        "eps_estimate": 34.1,
+        "eps_actual": 21.7,
+        "surprise_pct": -36.36
+      },
+      {
+        "date": "2010-10-28",
+        "eps_estimate": 74.7,
+        "eps_actual": 75.1,
+        "surprise_pct": 0.54
+      },
+      {
+        "date": "2010-07-29",
+        "eps_estimate": 44.5,
+        "eps_actual": 64.1,
+        "surprise_pct": 44.04
+      },
+      {
+        "date": "2010-05-10",
+        "eps_estimate": 34.2,
+        "eps_actual": 26.2,
+        "surprise_pct": -23.39
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.57,
-    "institution_pct": 40.17,
+    "institution_pct": 38.49,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 40.17
+        "value": 38.49
       },
       {
         "label": "",
-        "value": 42.99
+        "value": 41.2
       },
       {
         "label": "",
-        "value": 100.0
+        "value": 102.0
       }
     ],
     "institutional_holders": [],

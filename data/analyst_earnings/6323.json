@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:59.014418",
+  "fetched_at": "2026-05-01T04:24:37.289826",
   "ticker": "6323",
   "ticker_full": "6323.T",
   "company_name": "RORZE CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 2,
     "hold": 1,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2699.0,
-    "high": 4000.0,
+    "current": 3720.0,
+    "high": 5400.0,
     "low": 3800.0,
-    "mean": 3900.0,
-    "median": 3900.0
+    "mean": 4550.0,
+    "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-10",
+      "eps_estimate": 27.01,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-08",
+        "eps_estimate": 33.55,
+        "eps_actual": 37.97,
+        "surprise_pct": 13.17
+      },
+      {
+        "date": "2025-07-10",
+        "eps_estimate": 27.01,
+        "eps_actual": 29.91,
+        "surprise_pct": 10.74
+      },
+      {
+        "date": "2025-01-09",
+        "eps_estimate": 28.85,
+        "eps_actual": 21.86,
+        "surprise_pct": -24.23
+      },
+      {
+        "date": "2024-07-10",
+        "eps_estimate": 22.31,
+        "eps_actual": 49.82,
+        "surprise_pct": 123.3
+      },
+      {
+        "date": "2024-04-11",
+        "eps_estimate": 18.17,
+        "eps_actual": 23.21,
+        "surprise_pct": 27.72
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 44.04,
-    "institution_pct": 22.11,
+    "institution_pct": 22.04,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 22.11
+        "value": 22.04
       },
       {
         "label": "",
-        "value": 39.5
+        "value": 39.38
       },
       {
         "label": "",
-        "value": 110.0
+        "value": 112.0
       }
     ],
     "institutional_holders": [],

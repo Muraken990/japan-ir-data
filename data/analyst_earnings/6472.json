@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:18.147376",
+  "fetched_at": "2026-05-01T04:19:43.007080",
   "ticker": "6472",
   "ticker_full": "6472.T",
   "company_name": "NTN CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 3,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 333.4,
+    "current": 399.9,
     "high": 570.0,
     "low": 360.0,
     "mean": 432.5,
     "median": 400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": -9.72,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 1.13,
+        "eps_actual": 1.07,
+        "surprise_pct": -5.58
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": -5.84,
+        "eps_actual": 3.61,
+        "surprise_pct": 161.81
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": -7.54,
+        "eps_actual": 2.25,
+        "surprise_pct": 129.82
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": -9.72,
+        "eps_actual": -29.34,
+        "surprise_pct": -202.0
+      },
+      {
+        "date": "2025-02-04",
+        "eps_estimate": 4.72,
+        "eps_actual": -11.55,
+        "surprise_pct": -344.95
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.62,
-    "institution_pct": 43.75,
+    "institution_pct": 44.18,
     "major_holders": [
       {
         "label": "",
@@ -39,41 +77,41 @@
       },
       {
         "label": "",
-        "value": 43.75
+        "value": 44.18
       },
       {
         "label": "",
-        "value": 48.94
+        "value": 49.43
       },
       {
         "label": "",
-        "value": 119.0
+        "value": 117.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 12802400,
-        "date_reported": "2026-01-31",
-        "pct_held": 2.14,
-        "pct_change": 3.02,
-        "value": 4268320081
+        "shares": 13413300,
+        "date_reported": "2026-03-31",
+        "pct_held": 2.24,
+        "pct_change": 1.97,
+        "value": 5363978588
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 9041100,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.51,
-        "pct_change": 1.0,
-        "value": 3014302684
+        "shares": 11055300,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.85,
+        "pct_change": 22.28,
+        "value": 4421014402
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 7413103,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.24,
-        "pct_change": -1.07,
-        "value": 2471528494
+        "shares": 7724803,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.29,
+        "pct_change": 4.2,
+        "value": 3089148672
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.01,
         "pct_change": 0.0,
-        "value": 2007850786
+        "value": 2408336928
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,15 +127,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.76,
         "pct_change": 4.62,
-        "value": 1518916694
+        "value": 1821879988
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3264000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.55,
-        "pct_change": 0.94,
-        "value": 1088217580
+        "shares": 3351200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.56,
+        "pct_change": 1.23,
+        "value": 1340144859
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -105,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.55,
         "pct_change": 9.68,
-        "value": 1087584120
+        "value": 1304513770
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -113,15 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 8.29,
-        "value": 713509326
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 1823298,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.31,
-        "pct_change": 0.74,
-        "value": 607887542
+        "value": 855825976
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 13.51,
-        "value": 619790588
+        "value": 743414088
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 1832100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": 4.18,
+        "value": 732656778
       }
     ],
     "mutualfund_holders": []

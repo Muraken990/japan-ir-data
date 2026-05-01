@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:51.148971",
+  "fetched_at": "2026-05-01T04:25:31.007829",
   "ticker": "3397",
   "ticker_full": "3397.T",
   "company_name": "TORIDOLL HOLDINGS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 2,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4437.0,
+    "current": 4010.0,
     "high": 5300.0,
     "low": 3400.0,
     "mean": 4400.0,
     "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 14.9,
+        "eps_actual": 21.44,
+        "surprise_pct": 43.89
+      },
+      {
+        "date": "2023-02-13",
+        "eps_estimate": 15.0,
+        "eps_actual": 1.01,
+        "surprise_pct": -93.27
+      },
+      {
+        "date": "2020-02-12",
+        "eps_estimate": 17.6,
+        "eps_actual": 15.38,
+        "surprise_pct": -12.61
+      },
+      {
+        "date": "2019-02-12",
+        "eps_estimate": 23.5,
+        "eps_actual": 11.32,
+        "surprise_pct": -51.83
+      },
+      {
+        "date": "2018-02-12",
+        "eps_estimate": 25.35,
+        "eps_actual": 11.17,
+        "surprise_pct": -55.96
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 47.16,
-    "institution_pct": 10.78,
+    "institution_pct": 10.91,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 10.78
+        "value": 10.91
       },
       {
         "label": "",
-        "value": 20.41
+        "value": 20.65
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 638188,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.72,
-        "pct_change": -0.22,
-        "value": 2831640156
+        "pct_change": 0.0,
+        "value": 2559133880
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +103,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.48,
         "pct_change": 2.4,
-        "value": 1874526012
+        "value": 1694128760
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 340600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 1511242200
+        "value": 1365806000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 236800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 5.43,
-        "value": 1050681600
+        "shares": 265400,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.3,
+        "pct_change": 12.08,
+        "value": 1064254000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 186400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 1.41,
-        "value": 827056800
+        "shares": 192200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": 3.06,
+        "value": 770722000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 4.35,
-        "value": 797772600
+        "value": 720998000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,31 +143,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 804428100
+        "value": 727013000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 119200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 528890400
+        "value": 477992000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 97300,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 431720100
+        "value": 390173000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 83952,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.09,
-        "pct_change": 0.86,
-        "value": 372495024
+        "shares": 84715,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.1,
+        "pct_change": 0.91,
+        "value": 339707150
       }
     ],
     "mutualfund_holders": []

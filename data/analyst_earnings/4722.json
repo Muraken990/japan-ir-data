@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:15.348865",
+  "fetched_at": "2026-05-01T04:19:40.322049",
   "ticker": "4722",
   "ticker_full": "4722.T",
   "company_name": "FUTURE CORPORATION",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1602.0,
+    "current": 1539.0,
     "high": 3000.0,
     "low": 2600.0,
-    "mean": 2833.3333,
-    "median": 2900.0
+    "mean": 2766.6667,
+    "median": 2700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-22",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-10-27",
+        "eps_estimate": 6.91,
+        "eps_actual": 4.77,
+        "surprise_pct": -31.0
+      },
+      {
+        "date": "2016-04-26",
+        "eps_estimate": 4.26,
+        "eps_actual": 8.13,
+        "surprise_pct": 90.75
+      },
+      {
+        "date": "2015-10-27",
+        "eps_estimate": 7.3,
+        "eps_actual": 6.11,
+        "surprise_pct": -16.36
+      },
+      {
+        "date": "2015-04-27",
+        "eps_estimate": 4.94,
+        "eps_actual": 7.28,
+        "surprise_pct": 47.25
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 5.71,
+        "eps_actual": 4.74,
+        "surprise_pct": -17.0
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 53.12,
-    "institution_pct": 16.19,
+    "insider_pct": 52.83,
+    "institution_pct": 16.0,
     "major_holders": [
       {
         "label": "",
-        "value": 53.12
+        "value": 52.83
       },
       {
         "label": "",
-        "value": 16.19
+        "value": 16.0
       },
       {
         "label": "",
-        "value": 34.54
+        "value": 33.91
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 77.0
       }
     ],
     "institutional_holders": [],

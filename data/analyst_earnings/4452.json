@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:46.784031",
+  "fetched_at": "2026-05-01T04:33:44.478931",
   "ticker": "4452",
   "ticker_full": "4452.T",
   "company_name": "KAO CORP",
@@ -14,40 +14,78 @@
     "strong_sell": 0,
     "total_analysts": 12,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.83333
+    "recommendation_mean": 1.92308
   },
   "target_prices": {
     "has_data": true,
-    "current": 6249.0,
+    "current": 5868.0,
     "high": 8300.0,
-    "low": 6600.0,
-    "mean": 7548.3335,
-    "median": 7575.0
+    "low": 6400.0,
+    "mean": 7371.5386,
+    "median": 7300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 55.79,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 84.91,
+        "eps_actual": 77.66,
+        "surprise_pct": -8.54
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 75.23,
+        "eps_actual": 75.79,
+        "surprise_pct": 0.74
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 63.67,
+        "eps_actual": 57.66,
+        "surprise_pct": -9.44
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 44.18,
+        "eps_actual": 49.19,
+        "surprise_pct": 11.34
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 73.67,
+        "eps_actual": 79.09,
+        "surprise_pct": 7.36
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 2.11,
-    "institution_pct": 68.54,
+    "insider_pct": 2.15,
+    "institution_pct": 66.67,
     "major_holders": [
       {
         "label": "",
-        "value": 2.11
+        "value": 2.15
       },
       {
         "label": "",
-        "value": 68.54
+        "value": 66.67
       },
       {
         "label": "",
-        "value": 70.02
+        "value": 68.14
       },
       {
         "label": "",
-        "value": 393.0
+        "value": 379.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 8.4,
-        "value": 32588535
+        "value": 30601620
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6710983,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.48,
-        "pct_change": 0.14,
-        "value": 41936932767
+        "shares": 6666983,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.47,
+        "pct_change": -0.66,
+        "value": 39121856244
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,47 +113,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.95,
         "pct_change": 0.73,
-        "value": 26917211307
+        "value": 25276075524
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3175900,
-        "date_reported": "2026-01-31",
+        "shares": 3168400,
+        "date_reported": "2026-03-31",
         "pct_held": 0.7,
-        "pct_change": 0.72,
-        "value": 19846199100
-      },
-      {
-        "holder": "MFS SERIES TRUST I-MFS Research International Fund",
-        "shares": 2043600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.45,
-        "pct_change": -25.23,
-        "value": 12770456400
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1727739,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.38,
-        "pct_change": -0.25,
-        "value": 10796641011
+        "pct_change": 1.36,
+        "value": 18592171200
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1614000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 0.98,
-        "value": 10085886000
+        "shares": 1773600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": -1.99,
+        "value": 10407484800
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1724239,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.38,
+        "pct_change": -0.2,
+        "value": 10117834452
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1611300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 0.49,
-        "value": 10069013700
+        "shares": 1569300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": -2.61,
+        "value": 9208652400
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -123,15 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": -3.9,
-        "value": 8535509100
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 1219000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 0.64,
-        "value": 7617531000
+        "value": 8015101200
       },
       {
         "holder": "JPMorgan Trust I-JPMorgan International Equity Fund",
@@ -139,7 +161,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -26.27,
-        "value": 7605033000
+        "value": 7141356000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
+        "shares": 1206000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": -2.21,
+        "value": 7076808000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 1013683,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 0.94,
+        "value": 5948291844
       }
     ]
   }

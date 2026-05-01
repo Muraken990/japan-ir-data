@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:40:42.110574",
+  "fetched_at": "2026-05-01T04:12:40.883399",
   "ticker": "9997",
   "ticker_full": "9997.T",
   "company_name": "BELLUNA CO",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 871.0,
+    "current": 837.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 31.69,
+        "eps_actual": 28.13,
+        "surprise_pct": -11.25
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 15.28,
+        "eps_actual": 16.12,
+        "surprise_pct": 5.5
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 20.88,
+        "eps_actual": 10.26,
+        "surprise_pct": -50.86
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 29.49,
+        "eps_actual": 34.42,
+        "surprise_pct": 16.73
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 4.81,
+        "eps_actual": 12.1,
+        "surprise_pct": 151.51
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 54.05,
-    "institution_pct": 14.58,
+    "institution_pct": 14.53,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 14.58
+        "value": 14.53
       },
       {
         "label": "",
-        "value": 31.74
+        "value": 31.62
       },
       {
         "label": "",
-        "value": 55.0
+        "value": 57.0
       }
     ],
     "institutional_holders": [],

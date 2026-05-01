@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:03.492724",
+  "fetched_at": "2026-05-01T04:17:25.650296",
   "ticker": "6516",
   "ticker_full": "6516.T",
   "company_name": "SANYO DENKI CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4545.0,
+    "current": 6760.0,
     "high": 4400.0,
     "low": 4400.0,
     "mean": 4400.0,
     "median": 4400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-01-30",
+        "eps_estimate": 60.5,
+        "eps_actual": 55.52,
+        "surprise_pct": -8.23
+      },
+      {
+        "date": "2023-10-30",
+        "eps_estimate": 68.33,
+        "eps_actual": 64.64,
+        "surprise_pct": -5.4
+      },
+      {
+        "date": "2023-07-30",
+        "eps_estimate": 68.27,
+        "eps_actual": 94.96,
+        "surprise_pct": 39.1
+      },
+      {
+        "date": "2023-04-26",
+        "eps_estimate": 49.23,
+        "eps_actual": 88.13,
+        "surprise_pct": 79.01
+      },
+      {
+        "date": "2023-01-30",
+        "eps_estimate": 77.33,
+        "eps_actual": 53.92,
+        "surprise_pct": -30.28
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 23.24,
-    "institution_pct": 34.55,
+    "institution_pct": 34.7,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 34.55
+        "value": 34.7
       },
       {
         "label": "",
-        "value": 45.01
+        "value": 45.21
       },
       {
         "label": "",
-        "value": 62.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [],

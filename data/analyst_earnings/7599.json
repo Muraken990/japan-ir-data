@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:50.468314",
+  "fetched_at": "2026-05-01T04:16:10.131529",
   "ticker": "7599",
   "ticker_full": "7599.T",
   "company_name": "IDOM INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 2,
     "buy": 3,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.4
   },
   "target_prices": {
     "has_data": true,
-    "current": 1294.0,
+    "current": 1336.0,
     "high": 2100.0,
-    "low": 1410.0,
-    "mean": 1727.5,
-    "median": 1700.0
+    "low": 1500.0,
+    "mean": 1837.5,
+    "median": 1875.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-01-11",
+        "eps_estimate": 36.8,
+        "eps_actual": 24.04,
+        "surprise_pct": -34.67
+      },
+      {
+        "date": "2023-01-12",
+        "eps_estimate": 28.9,
+        "eps_actual": 36.88,
+        "surprise_pct": 27.61
+      },
+      {
+        "date": "2022-01-13",
+        "eps_estimate": 27.9,
+        "eps_actual": 34.13,
+        "surprise_pct": 22.33
+      },
+      {
+        "date": "2021-01-13",
+        "eps_estimate": 13.8,
+        "eps_actual": 38.3,
+        "surprise_pct": 177.54
+      },
+      {
+        "date": "2020-10-13",
+        "eps_estimate": 10.8,
+        "eps_actual": 22.73,
+        "surprise_pct": 110.46
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 39.06,
-    "institution_pct": 12.18,
+    "institution_pct": 12.22,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 12.18
+        "value": 12.22
       },
       {
         "label": "",
-        "value": 19.98
+        "value": 20.05
       },
       {
         "label": "",

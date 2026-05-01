@@ -1,135 +1,173 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:45.989078",
+  "fetched_at": "2026-05-01T04:23:23.971799",
   "ticker": "4118",
   "ticker_full": "4118.T",
   "company_name": "KANEKA CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4897.0,
+    "current": 4937.0,
     "high": 5750.0,
     "low": 4550.0,
     "mean": 4966.6665,
     "median": 4850.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-07",
+        "eps_estimate": 80.1,
+        "eps_actual": 69.95,
+        "surprise_pct": -12.67
+      },
+      {
+        "date": "2020-02-11",
+        "eps_estimate": 63.7,
+        "eps_actual": 48.85,
+        "surprise_pct": -23.31
+      },
+      {
+        "date": "2019-08-07",
+        "eps_estimate": 92.0,
+        "eps_actual": 53.53,
+        "surprise_pct": -41.82
+      },
+      {
+        "date": "2019-02-07",
+        "eps_estimate": 105.5,
+        "eps_actual": 60.94,
+        "surprise_pct": -42.24
+      },
+      {
+        "date": "2018-08-07",
+        "eps_estimate": 75.0,
+        "eps_actual": 95.9,
+        "surprise_pct": 27.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 8.72,
-    "institution_pct": 43.71,
+    "insider_pct": 9.14,
+    "institution_pct": 45.92,
     "major_holders": [
       {
         "label": "",
-        "value": 8.72
+        "value": 9.14
       },
       {
         "label": "",
-        "value": 43.71
+        "value": 45.92
       },
       {
         "label": "",
-        "value": 47.88
+        "value": 50.54
       },
       {
         "label": "",
-        "value": 113.0
+        "value": 111.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1019800,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.55,
-        "pct_change": 1.36,
-        "value": 4993960600
-      },
-      {
-        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 679864,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.03,
-        "pct_change": 4.6,
-        "value": 3329294008
+        "shares": 1046200,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.66,
+        "pct_change": 1.12,
+        "value": 5165089400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 680600,
         "date_reported": "2026-01-31",
-        "pct_held": 1.03,
+        "pct_held": 1.08,
         "pct_change": 0.0,
-        "value": 3332898200
+        "value": 3360122200
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 679864,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.08,
+        "pct_change": 0.0,
+        "value": 3356488568
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 453544,
         "date_reported": "2025-12-31",
-        "pct_held": 0.69,
+        "pct_held": 0.72,
         "pct_change": -1.13,
-        "value": 2221004968
+        "value": 2239146728
+      },
+      {
+        "holder": "Templeton Global Smaller Companies Fund",
+        "shares": 357300,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.57,
+        "pct_change": 2.07,
+        "value": 1763990100
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
         "shares": 316800,
         "date_reported": "2025-12-31",
-        "pct_held": 0.48,
+        "pct_held": 0.5,
         "pct_change": -3.06,
-        "value": 1551369600
+        "value": 1564041600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 257500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.39,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 1260977500
+        "value": 1271277500
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 186276,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.28,
-        "pct_change": -2.9,
-        "value": 912193572
+        "shares": 193255,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.31,
+        "pct_change": 3.75,
+        "value": 954099935
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 178300,
         "date_reported": "2026-01-31",
-        "pct_held": 0.27,
+        "pct_held": 0.28,
         "pct_change": 9.39,
-        "value": 873135100
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 159200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 6.99,
-        "value": 779602400
+        "value": 880267100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 159700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 1.65,
-        "value": 782050900
+        "shares": 165500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": 1.22,
+        "value": 817073500
       }
     ],
     "mutualfund_holders": []

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:15.462239",
+  "fetched_at": "2026-05-01T04:18:39.272114",
   "ticker": "3097",
   "ticker_full": "3097.T",
   "company_name": "MONOGATARI CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 1,
     "buy": 3,
     "hold": 0,
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4765.0,
+    "current": 4300.0,
     "high": 5800.0,
-    "low": 5800.0,
-    "mean": 5800.0,
+    "low": 5700.0,
+    "mean": 5775.0,
     "median": 5800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.63,
-    "institution_pct": 20.21,
+    "institution_pct": 20.26,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +46,11 @@
       },
       {
         "label": "",
-        "value": 20.21
+        "value": 20.26
       },
       {
         "label": "",
-        "value": 24.53
+        "value": 24.6
       },
       {
         "label": "",

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:51.611530",
+  "fetched_at": "2026-05-01T04:32:47.958233",
   "ticker": "4716",
   "ticker_full": "4716.T",
   "company_name": "ORACLE CORP JAPAN",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 3,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.42857
+    "total_analysts": 7,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 8820.0,
+    "current": 8568.0,
     "high": 18600.0,
-    "low": 13000.0,
-    "mean": 15271.429,
-    "median": 14000.0
+    "low": 9500.0,
+    "mean": 13442.857,
+    "median": 13000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-25",
+      "eps_estimate": 136.49,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-03-24",
+        "eps_estimate": 130.73,
+        "eps_actual": 133.0,
+        "surprise_pct": 1.74
+      },
+      {
+        "date": "2025-12-22",
+        "eps_estimate": 125.3,
+        "eps_actual": 117.94,
+        "surprise_pct": -5.87
+      },
+      {
+        "date": "2025-09-24",
+        "eps_estimate": 119.0,
+        "eps_actual": 115.65,
+        "surprise_pct": -2.82
+      },
+      {
+        "date": "2025-06-26",
+        "eps_estimate": 125.7,
+        "eps_actual": 123.98,
+        "surprise_pct": -1.37
+      },
+      {
+        "date": "2025-03-21",
+        "eps_estimate": 118.95,
+        "eps_actual": 121.05,
+        "surprise_pct": 1.77
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 74.01,
-    "institution_pct": 10.57,
+    "institution_pct": 10.69,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 10.57
+        "value": 10.69
       },
       {
         "label": "",
-        "value": 40.68
+        "value": 41.12
       },
       {
         "label": "",
-        "value": 252.0
+        "value": 240.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.01,
         "pct_change": -79.87,
-        "value": 114395400
+        "value": 111126960
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "MFS SERIES TRUST X-MFS International Growth Fund",
-        "shares": 1339700,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.04,
-        "pct_change": 3.43,
-        "value": 11816154000
+        "shares": 1367400,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.07,
+        "pct_change": 2.07,
+        "value": 11715883200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 481722,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.38,
-        "pct_change": 0.31,
-        "value": 4248788040
+        "pct_change": 0.0,
+        "value": 4127394096
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -83,7 +121,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.27,
         "pct_change": 12.48,
-        "value": 3060540000
+        "value": 2973096000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,23 +129,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.24,
         "pct_change": 1.17,
-        "value": 2756867400
+        "value": 2678099760
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 255000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.2,
-        "pct_change": 0.0,
-        "value": 2249100000
+        "shares": 263300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.21,
+        "pct_change": 3.25,
+        "value": 2255954400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Min Vol Factor ETF",
-        "shares": 194600,
-        "date_reported": "2026-01-31",
+        "shares": 190600,
+        "date_reported": "2026-03-31",
         "pct_held": 0.15,
-        "pct_change": -0.92,
-        "value": 1716372000
+        "pct_change": -3.2,
+        "value": 1633060800
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 149900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.12,
+        "pct_change": 0.27,
+        "value": 1284343200
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -115,31 +161,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.11,
         "pct_change": 1.16,
-        "value": 1252440000
+        "value": 1216656000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 138866,
-        "date_reported": "2026-01-31",
+        "shares": 140466,
+        "date_reported": "2026-02-28",
         "pct_held": 0.11,
-        "pct_change": 1.54,
-        "value": 1224798120
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 133200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.1,
-        "pct_change": 0.99,
-        "value": 1174824000
+        "pct_change": 1.15,
+        "value": 1203512688
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 131400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.1,
-        "pct_change": 0.46,
-        "value": 1158948000
+        "pct_change": 0.0,
+        "value": 1125835200
       }
     ]
   }

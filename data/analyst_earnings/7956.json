@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:23.351697",
+  "fetched_at": "2026-05-01T04:19:48.906374",
   "ticker": "7956",
   "ticker_full": "7956.T",
   "company_name": "PIGEON CORP",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 8,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.25
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1629.5,
+    "current": 1676.0,
     "high": 2000.0,
     "low": 1600.0,
-    "mean": 1841.25,
-    "median": 1845.0
+    "mean": 1862.0,
+    "median": 1870.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 14.89,
+        "eps_actual": 20.15,
+        "surprise_pct": 35.34
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 20.81,
+        "eps_actual": 19.18,
+        "surprise_pct": -7.82
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 16.97,
+        "eps_actual": 19.49,
+        "surprise_pct": 14.85
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 17.71,
+        "eps_actual": 24.62,
+        "surprise_pct": 39.0
+      },
+      {
+        "date": "2024-11-06",
+        "eps_estimate": 19.32,
+        "eps_actual": 15.49,
+        "surprise_pct": -19.82
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.24,
-    "institution_pct": 42.68,
+    "institution_pct": 44.55,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 42.68
+        "value": 44.55
       },
       {
         "label": "",
-        "value": 45.04
+        "value": 47.02
       },
       {
         "label": "",
-        "value": 117.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,25 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.02,
         "pct_change": 4.18,
-        "value": 36580645
+        "value": 37624524
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1591995,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.31,
-        "pct_change": 0.49,
-        "value": 2594155852
+        "shares": 1602395,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.32,
+        "pct_change": 0.65,
+        "value": 2685614020
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1211300,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.0,
+        "pct_change": 2.53,
+        "value": 2030138800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,7 +121,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": 2.86,
-        "value": 1749890719
+        "value": 1799826232
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -83,15 +129,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": 1.23,
-        "value": 1683110550
+        "value": 1731140400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 917300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.75,
-        "pct_change": 0.84,
-        "value": 1494740350
+        "shares": 939100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.77,
+        "pct_change": 1.1,
+        "value": 1573931600
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -99,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": 1.97,
-        "value": 819801450
+        "value": 843195600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -107,31 +153,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": 48.27,
-        "value": 797355087
+        "value": 820108700
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 441200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.8,
-        "value": 718935400
+        "shares": 458600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.38,
+        "pct_change": 1.33,
+        "value": 768613600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 394300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.32,
-        "pct_change": 5.8,
-        "value": 642511850
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 343000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.28,
-        "pct_change": 87.95,
-        "value": 558918500
+        "shares": 416300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.34,
+        "pct_change": 5.58,
+        "value": 697718800
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -139,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 10.84,
-        "value": 474836300
+        "value": 488386400
       }
     ]
   }

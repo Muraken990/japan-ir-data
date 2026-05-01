@@ -1,33 +1,54 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:59.137509",
+  "fetched_at": "2026-05-01T04:13:58.158856",
   "ticker": "8117",
   "ticker_full": "8117.T",
   "company_name": "CENTRAL AUTOMOTIVE PRODUCTS",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 0.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
-    "has_data": false
+    "has_data": true,
+    "current": 1802.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": false
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 20.06,
+    "institution_pct": 33.2,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 20.06
+      },
+      {
+        "label": "",
+        "value": 33.2
+      },
+      {
+        "label": "",
+        "value": 41.54
+      },
+      {
+        "label": "",
+        "value": 59.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

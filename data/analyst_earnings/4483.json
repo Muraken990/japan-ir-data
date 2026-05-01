@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:31.806873",
+  "fetched_at": "2026-05-01T04:22:03.467512",
   "ticker": "4483",
   "ticker_full": "4483.T",
   "company_name": "JMDC INC",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 13,
     "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.25
+    "recommendation_mean": 1.27273
   },
   "target_prices": {
     "has_data": true,
-    "current": 3370.0,
-    "high": 7600.0,
-    "low": 4460.0,
-    "mean": 5396.364,
-    "median": 5200.0
+    "current": 3380.0,
+    "high": 6700.0,
+    "low": 4350.0,
+    "mean": 5281.0,
+    "median": 5100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": 31.87,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 35.91,
+        "eps_actual": 37.23,
+        "surprise_pct": 3.69
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 24.88,
+        "eps_actual": 21.56,
+        "surprise_pct": -13.34
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 12.61,
+        "eps_actual": 14.79,
+        "surprise_pct": 17.31
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 31.87,
+        "eps_actual": 52.23,
+        "surprise_pct": 63.86
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 35.26,
+        "eps_actual": 25.6,
+        "surprise_pct": -27.4
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 60.55,
-    "institution_pct": 20.0,
+    "institution_pct": 19.93,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 20.0
+        "value": 19.93
       },
       {
         "label": "",
-        "value": 50.7
+        "value": 50.53
       },
       {
         "label": "",
-        "value": 98.0
+        "value": 96.0
       }
     ],
     "institutional_holders": [],

@@ -1,71 +1,103 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:07.709320",
+  "fetched_at": "2026-05-01T04:17:29.641289",
   "ticker": "7730",
   "ticker_full": "7730.T",
   "company_name": "MANI INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 1,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1541.0,
-    "high": 2100.0,
-    "low": 1500.0,
-    "mean": 1752.1428,
-    "median": 1735.0
+    "current": 1718.0,
+    "high": 2170.0,
+    "low": 1650.0,
+    "mean": 1872.1428,
+    "median": 1800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-15",
+      "eps_estimate": 19.98,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-14",
+        "eps_estimate": 17.42,
+        "eps_actual": 20.33,
+        "surprise_pct": 16.73
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 15.5,
+        "eps_actual": 19.25,
+        "surprise_pct": 24.23
+      },
+      {
+        "date": "2025-10-08",
+        "eps_estimate": 14.44,
+        "eps_actual": 9.27,
+        "surprise_pct": -35.8
+      },
+      {
+        "date": "2025-07-08",
+        "eps_estimate": 15.31,
+        "eps_actual": 13.34,
+        "surprise_pct": -12.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 25.63,
-    "institution_pct": 26.06,
+    "insider_pct": 27.59,
+    "institution_pct": 26.12,
     "major_holders": [
       {
         "label": "",
-        "value": 25.63
+        "value": 27.59
       },
       {
         "label": "",
-        "value": 26.06
+        "value": 26.12
       },
       {
         "label": "",
-        "value": 35.04
+        "value": 36.08
       },
       {
         "label": "",
-        "value": 86.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1022186,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.96,
-        "pct_change": 6.06,
-        "value": 1575188626
+        "shares": 1016986,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.95,
+        "pct_change": -0.51,
+        "value": 1747181948
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 713400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.67,
-        "pct_change": -14.79,
-        "value": 1099349400
+        "shares": 687400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.64,
+        "pct_change": -3.64,
+        "value": 1180953200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,23 +105,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.61,
         "pct_change": 3.17,
-        "value": 999480272
+        "value": 1114281056
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 606200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.57,
-        "pct_change": 1.27,
-        "value": 934154200
-      },
-      {
-        "holder": "Grandeur Peak Global Trust-Grandeur Peak Global Opportunities Fund",
-        "shares": 319500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.3,
-        "pct_change": 1.0,
-        "value": 492349500
+        "shares": 628000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.59,
+        "pct_change": 1.65,
+        "value": 1078904000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,31 +121,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 73.53,
-        "value": 471700100
+        "value": 525879800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 285600,
+        "shares": 297200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.36,
+        "value": 510589600
+      },
+      {
+        "holder": "Grandeur Peak Global Trust-Grandeur Peak Global Opportunities Fund",
+        "shares": 287000,
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
-        "pct_change": 1.85,
-        "value": 440109600
+        "pct_change": -10.17,
+        "value": 493066000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 269500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": 17.63,
-        "value": 415299500
+        "shares": 254700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": -5.49,
+        "value": 437574600
       },
       {
         "holder": "Grandeur Peak Global TRT-Grandeur Peak Intl Opportunities Fd.",
-        "shares": 188800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.18,
-        "pct_change": 1.0,
-        "value": 290940800
+        "shares": 201800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": 6.89,
+        "value": 346692400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +161,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 0.31,
-        "value": 296950700
+        "value": 331058600
       }
     ],
     "mutualfund_holders": []

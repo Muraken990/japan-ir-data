@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:36.683089",
+  "fetched_at": "2026-05-01T04:32:32.050647",
   "ticker": "9104",
   "ticker_full": "9104.T",
   "company_name": "MITSUI O.S.K. LINES LTD",
@@ -13,25 +13,58 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.36364
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 6258.0,
+    "current": 5860.0,
     "high": 10200.0,
     "low": 3580.0,
-    "mean": 6261.8184,
-    "median": 6000.0
+    "mean": 6725.4546,
+    "median": 6500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 115.99,
+        "eps_actual": 95.32,
+        "surprise_pct": -17.82
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 143.1,
+        "eps_actual": 187.21,
+        "surprise_pct": 30.82
+      },
+      {
+        "date": "2025-11-03",
+        "eps_estimate": 209.39,
+        "eps_actual": 184.62,
+        "surprise_pct": -11.83
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 136.65,
+        "eps_actual": 152.89,
+        "surprise_pct": 11.88
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 336.2,
+        "eps_actual": 337.99,
+        "surprise_pct": 0.53
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.74,
-    "institution_pct": 44.73,
+    "institution_pct": 45.1,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 44.73
+        "value": 45.1
       },
       {
         "label": "",
-        "value": 45.07
+        "value": 45.43
       },
       {
         "label": "",

@@ -1,18 +1,18 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:22.383252",
+  "fetched_at": "2026-05-01T04:21:54.285650",
   "ticker": "7994",
   "ticker_full": "7994.T",
   "company_name": "OKAMURA CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 1,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
+    "total_analysts": 4,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
@@ -25,13 +25,51 @@
     "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-02-05",
+        "eps_estimate": 9.88,
+        "eps_actual": 9.38,
+        "surprise_pct": -5.06
+      },
+      {
+        "date": "2016-08-03",
+        "eps_estimate": 11.55,
+        "eps_actual": 21.19,
+        "surprise_pct": 83.4
+      },
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 10.07,
+        "eps_actual": 12.91,
+        "surprise_pct": 28.2
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 11.4,
+        "eps_actual": 16.69,
+        "surprise_pct": 46.35
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 29.18,
+        "eps_actual": 25.88,
+        "surprise_pct": -11.3
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.71,
-    "institution_pct": 31.56,
+    "institution_pct": 31.4,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 31.56
+        "value": 31.4
       },
       {
         "label": "",
-        "value": 41.92
+        "value": 41.71
       },
       {
         "label": "",
-        "value": 90.0
+        "value": 89.0
       }
     ],
     "institutional_holders": [

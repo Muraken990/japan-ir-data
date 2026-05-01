@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:00.532182",
+  "fetched_at": "2026-05-01T04:18:23.086151",
   "ticker": "7004",
   "ticker_full": "7004.T",
   "company_name": "KANADEVIA CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1055.0,
+    "current": 1207.0,
     "high": 1030.0,
     "low": 950.0,
     "mean": 990.0,
     "median": 990.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2015-02-11",
+        "eps_estimate": 8.26,
+        "eps_actual": -2.72,
+        "surprise_pct": -132.93
+      },
+      {
+        "date": "2014-11-12",
+        "eps_estimate": 9.52,
+        "eps_actual": -7.35,
+        "surprise_pct": -177.21
+      },
+      {
+        "date": "2014-07-31",
+        "eps_estimate": 3.48,
+        "eps_actual": -10.04,
+        "surprise_pct": -388.92
+      },
+      {
+        "date": "2014-02-02",
+        "eps_estimate": 4.52,
+        "eps_actual": -2.84,
+        "surprise_pct": -162.83
+      },
+      {
+        "date": "2013-10-30",
+        "eps_estimate": 4.77,
+        "eps_actual": 2.02,
+        "surprise_pct": -57.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 1.8,
-    "institution_pct": 48.59,
+    "institution_pct": 49.21,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 48.59
+        "value": 49.21
       },
       {
         "label": "",
-        "value": 49.48
+        "value": 50.11
       },
       {
         "label": "",
-        "value": 107.0
+        "value": 105.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 3662400,
-        "date_reported": "2026-01-31",
-        "pct_held": 2.15,
-        "pct_change": 1.9,
-        "value": 3863832000
+        "shares": 3830600,
+        "date_reported": "2026-03-31",
+        "pct_held": 2.25,
+        "pct_change": 2.26,
+        "value": 4623534200
       },
       {
         "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
@@ -65,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.62,
         "pct_change": 0.0,
-        "value": 2902415775
+        "value": 3320583735
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2352026,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.38,
-        "pct_change": 1.41,
-        "value": 2481387430
+        "pct_change": 0.0,
+        "value": 2838895382
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,15 +119,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.91,
         "pct_change": 3.37,
-        "value": 1639517475
+        "value": 1875732315
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1165000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.68,
-        "pct_change": 0.66,
-        "value": 1229075000
+        "shares": 1186800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.7,
+        "pct_change": 0.87,
+        "value": 1432467600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.49,
         "pct_change": -2.68,
-        "value": 885122845
+        "value": 1012647653
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,31 +143,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 865838500
+        "value": 990584900
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 679900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.4,
-        "pct_change": 26.19,
-        "value": 717294500
+        "shares": 764600,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.45,
+        "pct_change": 12.46,
+        "value": 922872200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 619000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.71,
-        "value": 653045000
+        "shares": 642200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.38,
+        "pct_change": 1.26,
+        "value": 775135400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 583010,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.34,
-        "pct_change": 6.78,
-        "value": 615075550
+        "shares": 604610,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": 3.7,
+        "value": 729764270
       }
     ],
     "mutualfund_holders": []

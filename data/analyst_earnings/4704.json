@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:29.633926",
+  "fetched_at": "2026-05-01T04:30:20.233096",
   "ticker": "4704",
   "ticker_full": "4704.T",
   "company_name": "TREND MICRO INC",
@@ -9,45 +9,83 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 6,
-    "sell": 0,
+    "hold": 7,
+    "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 7,
+    "total_analysts": 9,
     "recommendation_key": "hold",
     "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 5346.0,
-    "high": 10100.0,
-    "low": 5700.0,
-    "mean": 7256.25,
-    "median": 6500.0
+    "current": 5273.0,
+    "high": 9000.0,
+    "low": 5000.0,
+    "mean": 6193.75,
+    "median": 5725.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 79.38,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-17",
+        "eps_estimate": 49.88,
+        "eps_actual": 57.56,
+        "surprise_pct": 15.4
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 76.32,
+        "eps_actual": 95.72,
+        "surprise_pct": 25.43
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 75.0,
+        "eps_actual": 41.68,
+        "surprise_pct": -44.42
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 76.83,
+        "eps_actual": 67.46,
+        "surprise_pct": -12.2
+      },
+      {
+        "date": "2025-02-17",
+        "eps_estimate": 83.06,
+        "eps_actual": 60.57,
+        "surprise_pct": -27.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 3.81,
-    "institution_pct": 61.12,
+    "insider_pct": 5.28,
+    "institution_pct": 59.57,
     "major_holders": [
       {
         "label": "",
-        "value": 3.81
+        "value": 5.28
       },
       {
         "label": "",
-        "value": 61.12
+        "value": 59.57
       },
       {
         "label": "",
-        "value": 63.54
+        "value": 62.89
       },
       {
         "label": "",
-        "value": 282.0
+        "value": 256.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.01,
         "pct_change": 77.4,
-        "value": 74523240
+        "value": 73505620
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "First TRT Exch-Trd Fd. II-First TRT NASDAQ Cybersecurity ETF",
-        "shares": 5019273,
-        "date_reported": "2026-01-31",
-        "pct_held": 3.56,
-        "pct_change": 2.59,
-        "value": 26833033458
+        "shares": 3303873,
+        "date_reported": "2026-03-31",
+        "pct_held": 2.34,
+        "pct_change": -33.09,
+        "value": 17421322329
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1827612,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.3,
-        "pct_change": 0.27,
-        "value": 9770413752
+        "shares": 1824612,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.29,
+        "pct_change": -0.16,
+        "value": 9621179076
       },
       {
         "holder": "Amplify ETF Trust-Amplify Cybersecurity ETF",
@@ -83,7 +121,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.17,
         "pct_change": 12.82,
-        "value": 8806054158
+        "value": 8685806879
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,55 +129,55 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": 2.15,
-        "value": 6394307832
+        "value": 6306993116
       },
       {
         "holder": "GLOBAL X FUNDS-Global X Cybersecurity ETF",
-        "shares": 892390,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.63,
-        "pct_change": -1.16,
-        "value": 4770716940
+        "shares": 966906,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.69,
+        "pct_change": 3.87,
+        "value": 5098495338
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 875000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 0.88,
-        "value": 4677750000
+        "shares": 896800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.64,
+        "pct_change": 1.15,
+        "value": 4728826400
       },
       {
         "holder": "iShares Trust-iShares Cybersecurity and Tech ETF",
-        "shares": 713900,
-        "date_reported": "2026-01-31",
+        "shares": 725000,
+        "date_reported": "2026-03-31",
         "pct_held": 0.51,
-        "pct_change": -2.86,
-        "value": 3816509400
+        "pct_change": 0.0,
+        "value": 3822925000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 498900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 1.22,
+        "value": 2630699700
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 457052,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 0.91,
-        "value": 2443399992
+        "shares": 462352,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.33,
+        "pct_change": 1.16,
+        "value": 2437982096
       },
       {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 437800,
+        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
+        "shares": 368900,
         "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 0.9,
-        "value": 2340478800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 437100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 0.55,
-        "value": 2336736600
+        "pct_held": 0.26,
+        "pct_change": -4.21,
+        "value": 1945209700
       }
     ]
   }

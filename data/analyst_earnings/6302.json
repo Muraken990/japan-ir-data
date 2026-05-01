@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:14.232006",
+  "fetched_at": "2026-05-01T04:27:00.416452",
   "ticker": "6302",
   "ticker_full": "6302.T",
   "company_name": "SUMITOMO HEAVY INDUSTRIES",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4951.0,
+    "current": 5244.0,
     "high": 6200.0,
-    "low": 3400.0,
-    "mean": 5125.0,
+    "low": 4800.0,
+    "mean": 5475.0,
     "median": 5450.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-04",
+      "eps_estimate": 66.6,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 58.2,
+        "eps_actual": 65.96,
+        "surprise_pct": 13.33
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 83.9,
+        "eps_actual": 91.84,
+        "surprise_pct": 9.46
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 54.9,
+        "eps_actual": 62.41,
+        "surprise_pct": 13.68
+      },
+      {
+        "date": "2025-02-14",
+        "eps_estimate": 111.3,
+        "eps_actual": -136.69,
+        "surprise_pct": -222.81
+      },
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 87.2,
+        "eps_actual": -12.87,
+        "surprise_pct": -114.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.75,
-    "institution_pct": 53.06,
+    "institution_pct": 55.76,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 53.06
+        "value": 55.76
       },
       {
         "label": "",
-        "value": 56.9
+        "value": 59.8
       },
       {
         "label": "",
-        "value": 145.0
+        "value": 150.0
       }
     ],
     "institutional_holders": [],

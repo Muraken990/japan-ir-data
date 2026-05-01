@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:28.940893",
+  "fetched_at": "2026-05-01T04:22:01.941912",
   "ticker": "6622",
   "ticker_full": "6622.T",
   "company_name": "DAIHEN CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 2,
     "buy": 2,
-    "hold": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 12040.0,
-    "high": 13100.0,
+    "current": 15830.0,
+    "high": 15000.0,
     "low": 10500.0,
-    "mean": 11775.0,
-    "median": 11750.0
+    "mean": 12275.0,
+    "median": 11800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": 92.23,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 164.3,
+        "eps_actual": 175.41,
+        "surprise_pct": 6.76
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 112.78,
+        "eps_actual": 133.9,
+        "surprise_pct": 18.73
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 67.72,
+        "eps_actual": 82.51,
+        "surprise_pct": 21.84
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 92.23,
+        "eps_actual": 178.55,
+        "surprise_pct": 93.59
+      },
+      {
+        "date": "2025-02-04",
+        "eps_estimate": 123.87,
+        "eps_actual": 141.43,
+        "surprise_pct": 14.18
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.62,
-    "institution_pct": 38.42,
+    "institution_pct": 37.8,
     "major_holders": [
       {
         "label": "",
@@ -39,41 +77,41 @@
       },
       {
         "label": "",
-        "value": 38.42
+        "value": 37.8
       },
       {
         "label": "",
-        "value": 46.64
+        "value": 45.89
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 100.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 277794,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.12,
-        "pct_change": 1.35,
-        "value": 3344639760
-      },
-      {
-        "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
-        "shares": 250700,
-        "date_reported": "2026-02-28",
-        "pct_held": 1.01,
-        "pct_change": 5.83,
-        "value": 3018428000
+        "pct_change": 0.0,
+        "value": 4397479020
       },
       {
         "holder": "First TRT Exch-Trd Fd. II-First TRT NASDAQ Clean Edge Smart Grid Infra",
-        "shares": 185200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.74,
-        "pct_change": 10.63,
-        "value": 2229808000
+        "shares": 215800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.87,
+        "pct_change": 16.52,
+        "value": 3416114000
+      },
+      {
+        "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
+        "shares": 202700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.81,
+        "pct_change": -19.15,
+        "value": 3208741000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,55 +119,55 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.72,
         "pct_change": 1.75,
-        "value": 2170017360
+        "value": 2853104220
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 126200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 1519448000
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 124100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.5,
-        "pct_change": 1.0,
-        "value": 1494164000
+        "value": 1997746000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 71051,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.29,
-        "pct_change": 9.22,
-        "value": 855454040
+        "shares": 70151,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": -1.27,
+        "value": 1110490330
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 69000,
-        "date_reported": "2026-01-31",
+        "shares": 69600,
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
-        "pct_change": 1.92,
-        "value": 830760000
-      },
-      {
-        "holder": "Japan Smaller Capitalization Fund, Inc.",
-        "shares": 48700,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.2,
-        "pct_change": -18.83,
-        "value": 586348000
+        "pct_change": 1.46,
+        "value": 1101768000
       },
       {
         "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
         "shares": 49700,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 598388000
+        "value": 786751000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 39955,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.16,
+        "pct_change": -3.03,
+        "value": 632487650
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 32900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.13,
+        "pct_change": 0.0,
+        "value": 520807000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:33.775712",
+  "fetched_at": "2026-05-01T04:23:08.642809",
   "ticker": "8515",
   "ticker_full": "8515.T",
   "company_name": "AIFUL CORP",
@@ -25,8 +25,41 @@
     "median": 560.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2010-02-10",
+        "eps_estimate": -72.49,
+        "eps_actual": -3.14,
+        "surprise_pct": 95.66
+      },
+      {
+        "date": "2009-08-07",
+        "eps_estimate": -209.85,
+        "eps_actual": 10.37,
+        "surprise_pct": 104.94
+      },
+      {
+        "date": "2009-05-12",
+        "eps_estimate": -280.73,
+        "eps_actual": -15.22,
+        "surprise_pct": 94.58
+      },
+      {
+        "date": "2009-02-10",
+        "eps_estimate": 75.47,
+        "eps_actual": 6.14,
+        "surprise_pct": -91.86
+      },
+      {
+        "date": "2008-11-12",
+        "eps_estimate": 25.75,
+        "eps_actual": -33.26,
+        "surprise_pct": -229.19
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

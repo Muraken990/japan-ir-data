@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:53.778912",
+  "fetched_at": "2026-05-01T04:24:33.168671",
   "ticker": "1949",
   "ticker_full": "1949.T",
   "company_name": "SUMITOMO DENSETSU CO",
@@ -24,8 +24,41 @@
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-31",
+        "eps_estimate": 28.62,
+        "eps_actual": 46.75,
+        "surprise_pct": 63.36
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": 29.19,
+        "eps_actual": 16.51,
+        "surprise_pct": -43.45
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 35.51,
+        "eps_actual": 47.9,
+        "surprise_pct": 34.89
+      },
+      {
+        "date": "2015-02-01",
+        "eps_estimate": 26.05,
+        "eps_actual": 22.12,
+        "surprise_pct": -15.09
+      },
+      {
+        "date": "2014-10-29",
+        "eps_estimate": 31.9,
+        "eps_actual": 31.21,
+        "surprise_pct": -2.15
+      }
+    ]
   },
   "shareholders": {
     "has_data": false,

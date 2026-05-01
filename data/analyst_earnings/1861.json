@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:42.448132",
+  "fetched_at": "2026-05-01T04:22:15.880230",
   "ticker": "1861",
   "ticker_full": "1861.T",
   "company_name": "KUMAGAI GUMI CO",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1567.0,
+    "current": 1507.0,
     "high": 2300.0,
     "low": 1650.0,
-    "mean": 1966.0,
+    "mean": 2006.0,
     "median": 1950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 11.88,
+        "eps_actual": 26.75,
+        "surprise_pct": 125.17
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": -1.2,
+        "eps_actual": 22.5,
+        "surprise_pct": 1978.91
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 15.64,
+        "eps_actual": 25.13,
+        "surprise_pct": 60.62
+      },
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 12.05,
+        "eps_actual": 15.48,
+        "surprise_pct": 28.42
+      },
+      {
+        "date": "2014-11-10",
+        "eps_estimate": 9.24,
+        "eps_actual": 23.38,
+        "surprise_pct": 153.04
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.88,
-    "institution_pct": 40.29,
+    "institution_pct": 47.97,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 40.29
+        "value": 47.97
       },
       {
         "label": "",
-        "value": 52.23
+        "value": 62.2
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 88.0
       }
     ],
     "institutional_holders": [],

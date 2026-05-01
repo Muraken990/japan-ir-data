@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:01.873310",
+  "fetched_at": "2026-05-01T04:18:24.553345",
   "ticker": "8968",
   "ticker_full": "8968.T",
   "company_name": "FUKUOKA REIT CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 1,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 173400.0,
+    "current": 180900.0,
     "high": 220000.0,
     "low": 186000.0,
     "mean": 198500.0,
     "median": 194000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.94,
-    "institution_pct": 35.25,
+    "institution_pct": 34.89,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 35.25
+        "value": 34.89
       },
       {
         "label": "",
-        "value": 43.49
+        "value": 43.05
       },
       {
         "label": "",
-        "value": 87.0
+        "value": 88.0
       }
     ],
     "institutional_holders": [],

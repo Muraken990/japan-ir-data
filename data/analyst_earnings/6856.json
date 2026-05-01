@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:11.889265",
+  "fetched_at": "2026-05-01T04:29:00.303042",
   "ticker": "6856",
   "ticker_full": "6856.T",
   "company_name": "HORIBA LTD",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.42857
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 18385.0,
+    "current": 21855.0,
     "high": 26000.0,
     "low": 14000.0,
-    "mean": 20142.857,
+    "mean": 20357.143,
     "median": 18000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 194.2,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 270.1,
+        "eps_actual": 309.47,
+        "surprise_pct": 14.58
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 165.8,
+        "eps_actual": 196.12,
+        "surprise_pct": 18.29
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 151.6,
+        "eps_actual": 184.52,
+        "surprise_pct": 21.72
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 184.7,
+        "eps_actual": 193.39,
+        "surprise_pct": 4.7
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 305.1,
+        "eps_actual": 325.71,
+        "surprise_pct": 6.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 11.13,
-    "institution_pct": 55.21,
+    "insider_pct": 9.42,
+    "institution_pct": 49.47,
     "major_holders": [
       {
         "label": "",
-        "value": 11.13
+        "value": 9.42
       },
       {
         "label": "",
-        "value": 55.21
+        "value": 49.47
       },
       {
         "label": "",
-        "value": 62.13
+        "value": 54.61
       },
       {
         "label": "",
-        "value": 163.0
+        "value": 157.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,25 @@
         "date_reported": "2022-06-30",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 33901940
+        "value": 40291400
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 550900,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.3,
-        "pct_change": 0.44,
-        "value": 10128296500
+        "pct_change": 0.0,
+        "value": 12037165000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
         "shares": 412100,
         "date_reported": "2026-01-31",
         "pct_held": 0.98,
-        "pct_change": -10.41,
-        "value": 7576458500
+        "pct_change": -3.67,
+        "value": 9004385000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +121,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": 2.24,
-        "value": 6615566475
-      },
-      {
-        "holder": "Third Avenue Trust-THIRD AVENUE VALUE FUND",
-        "shares": 336100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.8,
-        "pct_change": 0.0,
-        "value": 6179198500
+        "value": 7862394750
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -99,31 +129,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.64,
         "pct_change": -40.95,
-        "value": 4969851585
+        "value": 5906513850
+      },
+      {
+        "holder": "Third Avenue Trust-THIRD AVENUE VALUE FUND",
+        "shares": 239500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.57,
+        "pct_change": -28.74,
+        "value": 5233075000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 227300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.54,
         "pct_change": 0.0,
-        "value": 4178910500
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 190800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.45,
-        "pct_change": 1.0,
-        "value": 3507858000
+        "value": 4966505000
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 167740,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.4,
-        "pct_change": 0.6,
-        "value": 3083899900
+        "shares": 159499,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.38,
+        "pct_change": -4.91,
+        "value": 3485053150
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -131,7 +161,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.34,
         "pct_change": -3.06,
-        "value": 2675017500
+        "value": 3179175000
       },
       {
         "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
@@ -139,7 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": -25.36,
-        "value": 2575738500
+        "value": 3061185000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 133300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 1.52,
+        "value": 2912605000
       }
     ]
   }

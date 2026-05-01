@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:32.954274",
+  "fetched_at": "2026-05-01T04:22:04.835737",
   "ticker": "6951",
   "ticker_full": "6951.T",
   "company_name": "JEOL LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 6053.0,
-    "high": 7500.0,
+    "current": 6269.0,
+    "high": 7800.0,
     "low": 5200.0,
-    "mean": 6840.0,
-    "median": 7300.0
+    "mean": 6940.0,
+    "median": 7400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 39.36,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 81.18,
+        "eps_actual": 149.4,
+        "surprise_pct": 84.04
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 88.52,
+        "eps_actual": 101.23,
+        "surprise_pct": 14.36
+      },
+      {
+        "date": "2025-08-13",
+        "eps_estimate": 58.63,
+        "eps_actual": 91.32,
+        "surprise_pct": 55.76
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 152.63,
+        "eps_actual": -24.45,
+        "surprise_pct": -116.02
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 103.38,
+        "eps_actual": 176.4,
+        "surprise_pct": 70.64
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.25,
-    "institution_pct": 47.37,
+    "institution_pct": 49.82,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 47.37
+        "value": 49.82
       },
       {
         "label": "",
-        "value": 51.63
+        "value": 54.31
       },
       {
         "label": "",
-        "value": 126.0
+        "value": 134.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 660242,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.28,
-        "pct_change": 8.87,
-        "value": 3996444826
+        "holder": "Third Avenue Trust-THIRD AVENUE VALUE FUND",
+        "shares": 708900,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.38,
+        "pct_change": 19.3,
+        "value": 4444094100
       },
       {
-        "holder": "Third Avenue Trust-THIRD AVENUE VALUE FUND",
-        "shares": 594200,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.15,
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 660242,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.28,
         "pct_change": 0.0,
-        "value": 3596692600
+        "value": 4139057098
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.83,
         "pct_change": -0.63,
-        "value": 2590901908
+        "value": 2683357684
       },
       {
         "holder": "HARRIS ASSOCIATES INVESTMENT TRT-Oakmark Intl Small Cap Fd.",
@@ -81,15 +119,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.75,
         "pct_change": 2.01,
-        "value": 2352801100
+        "value": 2436760300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 294400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.57,
         "pct_change": 0.0,
-        "value": 1782003200
+        "value": 1845593600
+      },
+      {
+        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
+        "shares": 256100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.5,
+        "pct_change": 1.0,
+        "value": 1605490900
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +143,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 5.2,
-        "value": 1090750600
+        "value": 1129673800
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 172800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 1.17,
+        "value": 1083283200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,31 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 2.94,
-        "value": 1039905400
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 167000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 1.58,
-        "value": 1010851000
+        "value": 1077014200
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 139600,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
-        "pct_change": 16.24,
-        "value": 844998800
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
-        "shares": 118300,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.23,
-        "pct_change": 0.0,
-        "value": 716069900
+        "shares": 142100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 1.79,
+        "value": 890824900
       }
     ],
     "mutualfund_holders": []

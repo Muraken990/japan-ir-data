@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:36.759521",
+  "fetched_at": "2026-05-01T04:31:30.737869",
   "ticker": "9201",
   "ticker_full": "9201.T",
   "company_name": "JAPAN AIRLINES CO LTD",
@@ -13,27 +13,28 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.81818
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2639.0,
-    "high": 4000.0,
-    "low": 3000.0,
-    "mean": 3460.0,
-    "median": 3575.0
+    "current": 2542.0,
+    "high": 3600.0,
+    "low": 2500.0,
+    "mean": 3040.0,
+    "median": 3000.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-01",
-      "eps_estimate": 21.1,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 45.31,
+        "eps_actual": 52.88,
+        "surprise_pct": 16.7
+      },
       {
         "date": "2026-02-02",
         "eps_estimate": 103.21,
@@ -57,19 +58,13 @@
         "eps_estimate": 21.1,
         "eps_actual": 36.64,
         "surprise_pct": 73.69
-      },
-      {
-        "date": "2025-02-04",
-        "eps_estimate": 85.75,
-        "eps_actual": 94.28,
-        "surprise_pct": 9.94
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.14,
-    "institution_pct": 34.26,
+    "institution_pct": 30.8,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 34.26
+        "value": 30.8
       },
       {
         "label": "",
-        "value": 35.74
+        "value": 32.13
       },
       {
         "label": "",
-        "value": 253.0
+        "value": 240.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +90,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.07,
         "pct_change": 1.0,
-        "value": 782769624
+        "value": 753997872
       }
     ],
     "mutualfund_holders": [
@@ -105,15 +100,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.49,
         "pct_change": 0.0,
-        "value": 5661182800
+        "value": 5453098400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2111089,
-        "date_reported": "2025-10-31",
+        "shares": 2108289,
+        "date_reported": "2026-01-31",
         "pct_held": 0.48,
-        "pct_change": 0.0,
-        "value": 5571163871
+        "pct_change": -0.13,
+        "value": 5359270638
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -121,7 +116,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.38,
         "pct_change": 4.63,
-        "value": 4412096598
+        "value": 4249924044
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -129,7 +124,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.31,
         "pct_change": 1.9,
-        "value": 3620570772
+        "value": 3487491816
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -137,39 +132,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.26,
         "pct_change": 15.51,
-        "value": 2955152200
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 987700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 0.78,
-        "value": 2606540300
+        "value": 2846531600
       },
       {
         "holder": "Nuveen Investment Trust II-Nuveen International Value Fund",
-        "shares": 1002200,
-        "date_reported": "2026-02-28",
+        "shares": 986600,
+        "date_reported": "2026-03-31",
         "pct_held": 0.23,
-        "pct_change": -3.18,
-        "value": 2644805800
+        "pct_change": -1.56,
+        "value": 2507937200
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 1009500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.23,
+        "pct_change": 1.02,
+        "value": 2566149000
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard Advice Select Global Value Fund",
-        "shares": 738000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.17,
-        "pct_change": 0.9,
-        "value": 1947582000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Min Vol Factor ETF",
-        "shares": 639900,
+        "shares": 722800,
         "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": -1.02,
-        "value": 1688696100
+        "pct_held": 0.17,
+        "pct_change": -2.06,
+        "value": 1837357600
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -177,7 +164,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.15,
         "pct_change": 54.79,
-        "value": 1714030500
+        "value": 1651029000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Min Vol Factor ETF",
+        "shares": 641300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.15,
+        "pct_change": -2.91,
+        "value": 1630184600
       }
     ]
   }

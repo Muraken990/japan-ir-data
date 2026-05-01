@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:45.158008",
+  "fetched_at": "2026-05-01T04:16:04.008395",
   "ticker": "7224",
   "ticker_full": "7224.T",
   "company_name": "SHINMAYWA INDUSTRIES",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2376.0,
+    "current": 2612.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2023-02-01",
+        "eps_estimate": 19.0,
+        "eps_actual": 24.82,
+        "surprise_pct": 30.63
+      },
+      {
+        "date": "2022-10-30",
+        "eps_estimate": 8.2,
+        "eps_actual": 35.82,
+        "surprise_pct": 336.83
+      },
+      {
+        "date": "2022-02-02",
+        "eps_estimate": 8.4,
+        "eps_actual": 30.94,
+        "surprise_pct": 268.33
+      },
+      {
+        "date": "2021-07-29",
+        "eps_estimate": 9.3,
+        "eps_actual": 13.28,
+        "surprise_pct": 42.8
+      },
+      {
+        "date": "2021-01-28",
+        "eps_estimate": 22.2,
+        "eps_actual": 25.65,
+        "surprise_pct": 15.54
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 23.9,
-    "institution_pct": 22.11,
+    "institution_pct": 24.43,
     "major_holders": [
       {
         "label": "",
@@ -38,49 +71,41 @@
       },
       {
         "label": "",
-        "value": 22.11
+        "value": 24.43
       },
       {
         "label": "",
-        "value": 29.06
+        "value": 32.1
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 77.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1038300,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.48,
-        "pct_change": 2.16,
-        "value": 2467000800
+        "shares": 1093900,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.56,
+        "pct_change": 3.29,
+        "value": 2857266800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 737717,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.05,
         "pct_change": 0.0,
-        "value": 1752815592
+        "value": 1926916804
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 635300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.91,
-        "pct_change": 1.21,
-        "value": 1509472800
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 561900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.8,
-        "pct_change": 39.57,
-        "value": 1335074400
+        "shares": 657100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.94,
+        "pct_change": 1.58,
+        "value": 1716345200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -88,7 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.65,
         "pct_change": 3.5,
-        "value": 1080868536
+        "value": 1188227532
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 403200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.58,
+        "pct_change": -28.24,
+        "value": 1053158400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -96,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 800949600
+        "value": 880505200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -104,7 +137,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.47,
         "pct_change": -2.48,
-        "value": 785743200
+        "value": 863788400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -112,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 682149600
+        "value": 749905200
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -120,7 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 553132800
+        "value": 608073600
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -128,7 +161,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.31,
         "pct_change": -51.32,
-        "value": 512028000
+        "value": 562886000
       }
     ],
     "mutualfund_holders": []

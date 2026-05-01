@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:07.706261",
+  "fetched_at": "2026-05-01T04:26:53.259932",
   "ticker": "3405",
   "ticker_full": "3405.T",
   "company_name": "KURARAY CO",
@@ -13,41 +13,79 @@
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 10,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1674.5,
+    "current": 1635.0,
     "high": 2700.0,
-    "low": 1380.0,
-    "mean": 1805.5555,
+    "low": 1350.0,
+    "mean": 1802.2222,
     "median": 1700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 31.07,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 7.01,
+        "eps_actual": -47.73,
+        "surprise_pct": -780.68
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 43.08,
+        "eps_actual": 27.85,
+        "surprise_pct": -35.35
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 37.53,
+        "eps_actual": 6.43,
+        "surprise_pct": -82.87
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 41.72,
+        "eps_actual": 37.07,
+        "surprise_pct": -11.15
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 29.29,
+        "eps_actual": -44.5,
+        "surprise_pct": -251.91
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.08,
-    "institution_pct": 55.83,
+    "insider_pct": 5.15,
+    "institution_pct": 55.79,
     "major_holders": [
       {
         "label": "",
-        "value": 5.08
+        "value": 5.15
       },
       {
         "label": "",
-        "value": 55.83
+        "value": 55.79
       },
       {
         "label": "",
-        "value": 58.82
+        "value": 58.83
       },
       {
         "label": "",
-        "value": 177.0
+        "value": 174.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.04,
         "pct_change": -9.38,
-        "value": 236071010
+        "value": 230502300
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4445685,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.44,
-        "pct_change": 0.18,
-        "value": 7444299532
+        "shares": 4313885,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.4,
+        "pct_change": -2.96,
+        "value": 7053201975
       },
       {
         "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
@@ -75,7 +113,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.09,
         "pct_change": 0.0,
-        "value": 5631644910
+        "value": 5498799300
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,39 +121,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": -1.39,
-        "value": 4610015715
+        "value": 4501269450
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
         "shares": 2119070,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.69,
         "pct_change": 0.0,
-        "value": 3548382715
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1932000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.63,
-        "pct_change": 0.79,
-        "value": 3235134000
-      },
-      {
-        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 1439700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.47,
-        "pct_change": 2.75,
-        "value": 2410777650
+        "value": 3464679450
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1312700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.43,
-        "pct_change": 2.66,
-        "value": 2198116150
+        "shares": 2105400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.68,
+        "pct_change": 43.56,
+        "value": 3442329000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 1975600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.64,
+        "pct_change": 1.04,
+        "value": 3230106000
+      },
+      {
+        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
+        "shares": 1436900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.47,
+        "pct_change": -0.19,
+        "value": 2349331500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -123,7 +161,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 1.43,
-        "value": 1993545834
+        "value": 1946519820
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": -4.61,
-        "value": 1825022479
+        "value": 1781971785
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1053300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 1.63,
-        "value": 1763750850
+        "shares": 1091000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 1.21,
+        "value": 1783785000
       }
     ]
   }

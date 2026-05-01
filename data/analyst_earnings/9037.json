@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:52.772242",
+  "fetched_at": "2026-05-01T04:16:12.870692",
   "ticker": "9037",
   "ticker_full": "9037.T",
   "company_name": "HAMAKYOREX CO LTD",
@@ -18,20 +18,35 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1823.0,
-    "high": 1550.0,
-    "low": 1550.0,
-    "mean": 1550.0,
-    "median": 1550.0
+    "current": 1720.0,
+    "high": 2000.0,
+    "low": 2000.0,
+    "mean": 2000.0,
+    "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2008-05-16",
+        "eps_estimate": 6.08,
+        "eps_actual": 4.21,
+        "surprise_pct": -30.76
+      },
+      {
+        "date": "2008-02-08",
+        "eps_estimate": 8.49,
+        "eps_actual": 9.41,
+        "surprise_pct": 10.88
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.7,
-    "institution_pct": 29.32,
+    "institution_pct": 29.39,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +54,15 @@
       },
       {
         "label": "",
-        "value": 29.32
+        "value": 29.39
       },
       {
         "label": "",
-        "value": 37.44
+        "value": 37.54
       },
       {
         "label": "",
-        "value": 76.0
+        "value": 74.0
       }
     ],
     "institutional_holders": [],

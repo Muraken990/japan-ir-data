@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:33.942773",
+  "fetched_at": "2026-05-01T04:30:24.850726",
   "ticker": "7270",
   "ticker_full": "7270.T",
   "company_name": "SUBARU CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2538.0,
-    "high": 4400.0,
-    "low": 2400.0,
-    "mean": 3394.0,
-    "median": 3500.0
+    "current": 2372.0,
+    "high": 4200.0,
+    "low": 2300.0,
+    "mean": 3137.3333,
+    "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 68.54,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 96.23,
+        "eps_actual": -9.52,
+        "surprise_pct": -109.89
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 44.29,
+        "eps_actual": 48.87,
+        "surprise_pct": 10.33
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 37.16,
+        "eps_actual": 75.03,
+        "surprise_pct": 101.9
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 37.45,
+        "eps_actual": 29.22,
+        "surprise_pct": -21.98
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 122.72,
+        "eps_actual": 209.72,
+        "surprise_pct": 70.89
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.62,
-    "institution_pct": 45.81,
+    "institution_pct": 44.78,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 45.81
+        "value": 44.78
       },
       {
         "label": "",
-        "value": 58.45
+        "value": 57.13
       },
       {
         "label": "",
-        "value": 336.0
+        "value": 326.0
       }
     ],
     "institutional_holders": [],

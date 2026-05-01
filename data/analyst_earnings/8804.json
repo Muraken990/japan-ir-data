@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:21.692453",
+  "fetched_at": "2026-05-01T04:29:10.601869",
   "ticker": "8804",
   "ticker_full": "8804.T",
   "company_name": "TOKYO TATEMONO CO",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 3,
-    "hold": 4,
+    "buy": 2,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.44444
   },
   "target_prices": {
     "has_data": true,
-    "current": 3658.0,
+    "current": 3564.0,
     "high": 4800.0,
-    "low": 3450.0,
-    "mean": 4254.4443,
+    "low": 3850.0,
+    "mean": 4333.3335,
     "median": 4350.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 51.28,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 142.16,
+        "eps_actual": 141.27,
+        "surprise_pct": -0.63
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 56.91,
+        "eps_actual": 43.19,
+        "surprise_pct": -24.11
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 29.02,
+        "eps_actual": 29.85,
+        "surprise_pct": 2.84
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 70.04,
+        "eps_actual": 68.77,
+        "surprise_pct": -1.81
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 120.36,
+        "eps_actual": 145.27,
+        "surprise_pct": 20.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.13,
-    "institution_pct": 68.8,
+    "institution_pct": 65.5,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 68.8
+        "value": 65.5
       },
       {
         "label": "",
-        "value": 76.55
+        "value": 72.88
       },
       {
         "label": "",
-        "value": 192.0
+        "value": 190.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 3337600,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.6,
-        "pct_change": 1.09,
-        "value": 12208940800
+        "shares": 3421000,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.64,
+        "pct_change": 2.5,
+        "value": 12192444000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2784939,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.33,
-        "pct_change": 0.6,
-        "value": 10187306862
+        "pct_change": 0.0,
+        "value": 9925522596
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.87,
         "pct_change": 2.08,
-        "value": 6637558056
+        "value": 6466992048
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -81,15 +119,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.69,
         "pct_change": -3.69,
-        "value": 5289833800
+        "value": 5153900400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1295500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 0.59,
-        "value": 4738939000
+        "shares": 1317300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.63,
+        "pct_change": 0.78,
+        "value": 4694857200
+      },
+      {
+        "holder": "-Price (T.Rowe) Real Assets Trust I",
+        "shares": 1008900,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.48,
+        "pct_change": 1.0,
+        "value": 3595719600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -97,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 3183557400
+        "value": 3101749200
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -105,7 +151,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.39,
         "pct_change": -3.03,
-        "value": 3003949600
+        "value": 2926756800
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -113,23 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 4.62,
-        "value": 2974685600
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
-        "shares": 763183,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.36,
-        "pct_change": -1.79,
-        "value": 2791723414
+        "value": 2898244800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 714900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 1.66,
-        "value": 2615104200
+        "shares": 736500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 1.24,
+        "value": 2624886000
       }
     ],
     "mutualfund_holders": []

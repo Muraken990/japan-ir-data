@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:49.013416",
+  "fetched_at": "2026-05-01T04:11:46.238623",
   "ticker": "8345",
   "ticker_full": "8345.T",
   "company_name": "BANK OF IWATE LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1680.0,
+    "current": 1971.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 23.03,
+        "eps_actual": 24.29,
+        "surprise_pct": 5.46
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 22.37,
+        "eps_actual": 41.41,
+        "surprise_pct": 85.14
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 23.69,
+        "eps_actual": 22.49,
+        "surprise_pct": -5.05
+      },
+      {
+        "date": "2015-02-02",
+        "eps_estimate": 25.36,
+        "eps_actual": 22.39,
+        "surprise_pct": -11.71
+      },
+      {
+        "date": "2014-11-13",
+        "eps_estimate": 22.66,
+        "eps_actual": 36.08,
+        "surprise_pct": 59.25
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.72,
-    "institution_pct": 21.09,
+    "institution_pct": 26.05,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 21.09
+        "value": 26.05
       },
       {
         "label": "",
-        "value": 24.44
+        "value": 30.19
       },
       {
         "label": "",
-        "value": 52.0
+        "value": 53.0
       }
     ],
     "institutional_holders": [],

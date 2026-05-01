@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:32.527103",
+  "fetched_at": "2026-05-01T04:23:07.638070",
   "ticker": "3697",
   "ticker_full": "3697.T",
   "company_name": "SHIFT INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 4,
     "hold": 2,
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 675.8,
+    "current": 641.5,
     "high": 1700.0,
-    "low": 900.0,
-    "mean": 1275.0,
-    "median": 1275.0
+    "low": 700.0,
+    "mean": 1175.0,
+    "median": 1225.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-09",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-07-08",
+        "eps_estimate": 12.64,
+        "eps_actual": 6.8,
+        "surprise_pct": -46.2
+      },
+      {
+        "date": "2025-01-13",
+        "eps_estimate": 7.18,
+        "eps_actual": 7.5,
+        "surprise_pct": 4.46
+      },
+      {
+        "date": "2024-10-09",
+        "eps_estimate": 12.59,
+        "eps_actual": 9.17,
+        "surprise_pct": -27.2
+      },
+      {
+        "date": "2024-07-09",
+        "eps_estimate": 9.27,
+        "eps_actual": 1.2,
+        "surprise_pct": -87.04
+      },
+      {
+        "date": "2024-04-10",
+        "eps_estimate": 8.36,
+        "eps_actual": 7.13,
+        "surprise_pct": -14.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 34.25,
-    "institution_pct": 47.31,
+    "insider_pct": 34.41,
+    "institution_pct": 47.16,
     "major_holders": [
       {
         "label": "",
-        "value": 34.25
+        "value": 34.41
       },
       {
         "label": "",
-        "value": 47.31
+        "value": 47.16
       },
       {
         "label": "",
-        "value": 71.95
+        "value": 71.9
       },
       {
         "label": "",
-        "value": 132.0
+        "value": 130.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.85,
         "pct_change": -25.78,
-        "value": 3337032759
+        "value": 3167662850
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2614170,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.98,
-        "pct_change": 27.27,
-        "value": 1766656054
+        "pct_change": 0.0,
+        "value": 1676990055
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.64,
         "pct_change": 1.88,
-        "value": 1164666940
+        "value": 1105554685
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1408700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.53,
-        "pct_change": 1.09,
-        "value": 951999442
+        "shares": 1452300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.54,
+        "pct_change": 1.42,
+        "value": 931650450
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -89,7 +127,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.52,
         "pct_change": -13.04,
-        "value": 933931930
+        "value": 886530547
       },
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Small Companies PORT.",
@@ -97,15 +135,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": 1.14,
-        "value": 581458309
+        "value": 551946600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 721200,
-        "date_reported": "2026-01-31",
+        "shares": 726100,
+        "date_reported": "2026-03-31",
         "pct_held": 0.27,
-        "pct_change": 4.13,
-        "value": 487386951
+        "pct_change": -1.9,
+        "value": 465793150
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -113,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 20.9,
-        "value": 444531094
+        "value": 421969077
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -121,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": -34.38,
-        "value": 379934753
+        "value": 360651300
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": -15.48,
-        "value": 357836093
+        "value": 339674250
       }
     ],
     "mutualfund_holders": []

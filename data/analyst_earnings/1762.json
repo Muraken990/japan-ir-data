@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:59.265004",
+  "fetched_at": "2026-05-01T04:16:20.154798",
   "ticker": "1762",
   "ticker_full": "1762.T",
   "company_name": "TAKAMATSU CONSTRUCTION GROUP CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3660.0,
+    "current": 3445.0,
     "high": 4300.0,
     "low": 4300.0,
     "mean": 4300.0,
     "median": 4300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2022-02-08",
+        "eps_estimate": 68.9,
+        "eps_actual": 70.0,
+        "surprise_pct": 1.6
+      },
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 38.33,
+        "eps_actual": 45.29,
+        "surprise_pct": 18.17
+      },
+      {
+        "date": "2015-08-10",
+        "eps_estimate": 8.23,
+        "eps_actual": 16.67,
+        "surprise_pct": 102.63
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 36.95,
+        "eps_actual": 95.72,
+        "surprise_pct": 159.05
+      },
+      {
+        "date": "2015-02-11",
+        "eps_estimate": 28.15,
+        "eps_actual": 46.12,
+        "surprise_pct": 63.82
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 47.67,
-    "institution_pct": 13.73,
+    "institution_pct": 13.99,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 13.73
+        "value": 13.99
       },
       {
         "label": "",
-        "value": 26.24
+        "value": 26.73
       },
       {
         "label": "",
-        "value": 61.0
+        "value": 63.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 208864,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.6,
-        "pct_change": 1.31,
-        "value": 764442240
+        "pct_change": 0.0,
+        "value": 719536480
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +98,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 608226120
+        "value": 572496990
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -73,7 +106,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 610488000
+        "value": 574626000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,23 +114,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 301584000
+        "value": 283868000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 75700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 277062000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 67300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": 16.03,
-        "value": 246318000
+        "value": 260786500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,15 +130,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 244122000
+        "value": 229781500
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 67300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": 0.0,
+        "value": 231848500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 56600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.16,
-        "pct_change": 0.0,
-        "value": 207156000
+        "shares": 61100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 7.95,
+        "value": 210489500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -121,15 +154,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.15,
         "pct_change": 3.57,
-        "value": 191052000
+        "value": 179829000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 39219,
-        "date_reported": "2025-11-30",
+        "shares": 38771,
+        "date_reported": "2026-02-28",
         "pct_held": 0.11,
-        "pct_change": 26.35,
-        "value": 143541540
+        "pct_change": -1.14,
+        "value": 133566095
       }
     ],
     "mutualfund_holders": []

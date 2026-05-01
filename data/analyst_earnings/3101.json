@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:56.734647",
+  "fetched_at": "2026-05-01T04:13:55.717186",
   "ticker": "3101",
   "ticker_full": "3101.T",
   "company_name": "TOYOBO CO",
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1362.0,
+    "current": 1418.0,
     "high": 2450.0,
     "low": 1500.0,
     "mean": 1950.0,
     "median": 1900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.08,
-    "institution_pct": 29.78,
+    "institution_pct": 29.88,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 29.78
+        "value": 29.88
       },
       {
         "label": "",
-        "value": 31.7
+        "value": 31.82
       },
       {
         "label": "",
-        "value": 72.0
+        "value": 73.0
       }
     ],
     "institutional_holders": [],

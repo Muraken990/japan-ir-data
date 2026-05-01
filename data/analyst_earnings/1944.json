@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:39.156036",
+  "fetched_at": "2026-05-01T04:31:33.678387",
   "ticker": "1944",
   "ticker_full": "1944.T",
   "company_name": "KINDEN CORPORATION",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 7272.0,
+    "current": 8168.0,
     "high": 9600.0,
     "low": 4500.0,
-    "mean": 7542.857,
+    "mean": 7466.6665,
     "median": 8000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-29",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 139.0,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2023-01-29",
+        "eps_estimate": 25.9,
+        "eps_actual": 27.07,
+        "surprise_pct": 4.52
+      },
+      {
+        "date": "2022-01-30",
+        "eps_estimate": 37.1,
+        "eps_actual": 30.17,
+        "surprise_pct": -18.68
+      },
+      {
+        "date": "2021-10-27",
+        "eps_estimate": 33.5,
+        "eps_actual": 30.31,
+        "surprise_pct": -9.52
+      },
+      {
+        "date": "2021-01-28",
+        "eps_estimate": 30.9,
+        "eps_actual": 46.87,
+        "surprise_pct": 51.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 44.03,
-    "institution_pct": 25.66,
+    "institution_pct": 25.79,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 25.66
+        "value": 25.79
       },
       {
         "label": "",
-        "value": 45.84
+        "value": 46.07
       },
       {
         "label": "",
-        "value": 143.0
+        "value": 147.0
       }
     ],
     "institutional_holders": [],

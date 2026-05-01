@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:19.078250",
+  "fetched_at": "2026-05-01T04:28:06.149804",
   "ticker": "7459",
   "ticker_full": "7459.T",
   "company_name": "MEDIPAL HOLDINGS CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 0,
     "hold": 4,
@@ -14,24 +14,62 @@
     "strong_sell": 1,
     "total_analysts": 5,
     "recommendation_key": "hold",
-    "recommendation_mean": 3.2
+    "recommendation_mean": 3.25
   },
   "target_prices": {
     "has_data": true,
-    "current": 3000.0,
+    "current": 2809.5,
     "high": 3000.0,
-    "low": 2500.0,
-    "mean": 2766.0,
-    "median": 2700.0
+    "low": 2700.0,
+    "mean": 2842.5,
+    "median": 2835.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 38.24,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 50.07,
+        "eps_actual": 74.68,
+        "surprise_pct": 49.15
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 44.32,
+        "eps_actual": 60.63,
+        "surprise_pct": 36.8
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 42.51,
+        "eps_actual": 46.17,
+        "surprise_pct": 8.61
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 50.05,
+        "eps_actual": 19.54,
+        "surprise_pct": -60.96
+      },
+      {
+        "date": "2025-02-10",
+        "eps_estimate": 34.59,
+        "eps_actual": 69.72,
+        "surprise_pct": 101.56
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.55,
-    "institution_pct": 39.38,
+    "institution_pct": 39.78,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 39.38
+        "value": 39.78
       },
       {
         "label": "",
-        "value": 43.06
+        "value": 43.5
       },
       {
         "label": "",
-        "value": 145.0
+        "value": 143.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2749370,
-        "date_reported": "2025-10-31",
+        "shares": 2754270,
+        "date_reported": "2026-01-31",
         "pct_held": 1.22,
-        "pct_change": -0.46,
-        "value": 8248110000
+        "pct_change": 0.18,
+        "value": 7738121565
       },
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 2584700,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.15,
-        "pct_change": 1.09,
-        "value": 7754100000
+        "shares": 2649300,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.18,
+        "pct_change": 2.5,
+        "value": 7443208350
       },
       {
         "holder": "Datum One Series Trust-BRANDES INTERNATIONAL SMALL CAP EQUITY FUND",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": -3.24,
-        "value": 5988600000
+        "value": 5608323900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,31 +119,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.78,
         "pct_change": -0.02,
-        "value": 5269968000
+        "value": 4935325032
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1254700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.56,
-        "pct_change": 0.61,
-        "value": 3764100000
+        "shares": 1276500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.57,
+        "pct_change": 0.81,
+        "value": 3586326750
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 940900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.42,
-        "pct_change": 2.82,
-        "value": 2822700000
+        "shares": 928300,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.41,
+        "pct_change": -1.34,
+        "value": 2608058850
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
-        "shares": 746599,
-        "date_reported": "2026-01-31",
+        "shares": 780599,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 3.01,
+        "value": 2193092890
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 749453,
+        "date_reported": "2026-02-28",
         "pct_held": 0.33,
-        "pct_change": 1.65,
-        "value": 2239797000
+        "pct_change": 10.36,
+        "value": 2105588203
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 733100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.33,
+        "pct_change": 1.24,
+        "value": 2059644450
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -113,23 +167,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.31,
         "pct_change": -2.46,
-        "value": 2073000000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 707000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.68,
-        "value": 2121000000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 679104,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.3,
-        "pct_change": 3.46,
-        "value": 2037312000
+        "value": 1941364500
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:37.719057",
+  "fetched_at": "2026-05-01T04:24:16.546523",
   "ticker": "3048",
   "ticker_full": "3048.T",
   "company_name": "BIC CAMERA INC.",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1740.0,
+    "current": 1612.0,
     "high": 1800.0,
     "low": 1600.0,
     "mean": 1726.6666,
     "median": 1780.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-10",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-07-10",
+        "eps_estimate": 17.8,
+        "eps_actual": 35.81,
+        "surprise_pct": 101.18
+      },
+      {
+        "date": "2025-01-13",
+        "eps_estimate": 6.6,
+        "eps_actual": 16.4,
+        "surprise_pct": 148.48
+      },
+      {
+        "date": "2024-07-11",
+        "eps_estimate": 6.6,
+        "eps_actual": 29.21,
+        "surprise_pct": 342.58
+      },
+      {
+        "date": "2024-01-12",
+        "eps_estimate": 3.0,
+        "eps_actual": 7.67,
+        "surprise_pct": 155.67
+      },
+      {
+        "date": "2023-10-11",
+        "eps_estimate": -7.4,
+        "eps_actual": -9.81,
+        "surprise_pct": -32.57
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 43.67,
-    "institution_pct": 10.1,
+    "institution_pct": 9.76,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 10.1
+        "value": 9.76
       },
       {
         "label": "",
-        "value": 17.92
+        "value": 17.32
       },
       {
         "label": "",
-        "value": 80.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [],

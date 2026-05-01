@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:39.460982",
+  "fetched_at": "2026-05-01T04:32:34.782105",
   "ticker": "8697",
   "ticker_full": "8697.T",
   "company_name": "JAPAN EXCHANGE GROUP",
@@ -10,44 +10,82 @@
     "strong_buy": 1,
     "buy": 1,
     "hold": 0,
-    "sell": 0,
+    "sell": 1,
     "strong_sell": 2,
-    "total_analysts": 4,
+    "total_analysts": 5,
     "recommendation_key": "hold",
     "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1874.5,
+    "current": 1863.0,
     "high": 2200.0,
     "low": 1500.0,
     "mean": 1870.0,
     "median": 1950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 15.34,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 22.93,
+        "eps_actual": 23.48,
+        "surprise_pct": 2.38
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 20.35,
+        "eps_actual": 19.87,
+        "surprise_pct": -2.37
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 17.55,
+        "eps_actual": 17.04,
+        "surprise_pct": -2.91
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 15.34,
+        "eps_actual": 16.42,
+        "surprise_pct": 7.04
+      },
+      {
+        "date": "2025-04-27",
+        "eps_estimate": 14.13,
+        "eps_actual": 13.58,
+        "surprise_pct": -3.86
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 1.27,
-    "institution_pct": 53.46,
+    "insider_pct": 1.22,
+    "institution_pct": 52.54,
     "major_holders": [
       {
         "label": "",
-        "value": 1.27
+        "value": 1.22
       },
       {
         "label": "",
-        "value": 53.46
+        "value": 52.54
       },
       {
         "label": "",
-        "value": 54.15
+        "value": 53.19
       },
       {
         "label": "",
-        "value": 301.0
+        "value": 288.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -4.52,
-        "value": 15155332
+        "value": 15062355
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 14868542,
-        "date_reported": "2025-10-31",
-        "pct_held": 2.81,
-        "pct_change": -0.67,
-        "value": 27871081979
+        "shares": 14975742,
+        "date_reported": "2026-01-31",
+        "pct_held": 2.83,
+        "pct_change": 0.72,
+        "value": 27899807346
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.83,
         "pct_change": 2.21,
-        "value": 18108989648
+        "value": 17997891552
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 6867300,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.3,
-        "pct_change": 0.89,
-        "value": 12872753850
+        "shares": 6958000,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.32,
+        "pct_change": 1.19,
+        "value": 12962754000
       },
       {
         "holder": "THORNBURG INVESTMENT TRUST-Thornburg International Equity Fund",
@@ -91,7 +129,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.98,
         "pct_change": -16.92,
-        "value": 9680086705
+        "value": 9620699670
       },
       {
         "holder": "Perpetual Americas Funds Trust-JOHCM International Select Fund",
@@ -99,31 +137,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.97,
         "pct_change": -9.97,
-        "value": 9631540904
+        "value": 9572451696
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 3835900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.73,
+        "pct_change": -1.56,
+        "value": 7146281700
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 3575901,
-        "date_reported": "2026-01-31",
+        "shares": 3618301,
+        "date_reported": "2026-02-28",
         "pct_held": 0.68,
-        "pct_change": 0.64,
-        "value": 6703026424
+        "pct_change": 1.19,
+        "value": 6740894763
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 3469400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.66,
-        "pct_change": 0.54,
-        "value": 6503390300
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 3440200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.65,
-        "pct_change": 1.07,
-        "value": 6448654900
+        "pct_change": 0.0,
+        "value": 6463492200
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.58,
         "pct_change": -3.93,
-        "value": 5729971600
+        "value": 5694818400
       },
       {
-        "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
-        "shares": 2712579,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.51,
-        "pct_change": 1.0,
-        "value": 5084729335
+        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
+        "shares": 2560600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.48,
+        "pct_change": -2.3,
+        "value": 4770397800
       }
     ]
   }

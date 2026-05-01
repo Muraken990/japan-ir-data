@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:19.712295",
+  "fetched_at": "2026-05-01T04:20:48.718889",
   "ticker": "3569",
   "ticker_full": "3569.T",
   "company_name": "SEIREN CO LTD",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3130.0,
+    "current": 3180.0,
     "high": 4950.0,
     "low": 3200.0,
     "mean": 4075.0,
     "median": 4075.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-02-03",
+        "eps_estimate": 34.7,
+        "eps_actual": 41.82,
+        "surprise_pct": 20.52
+      },
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 17.41,
+        "eps_actual": 31.47,
+        "surprise_pct": 80.79
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 14.99,
+        "eps_actual": 28.57,
+        "surprise_pct": 90.59
+      },
+      {
+        "date": "2015-04-29",
+        "eps_estimate": 30.73,
+        "eps_actual": 31.8,
+        "surprise_pct": 3.47
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": 21.39,
+        "eps_actual": 17.08,
+        "surprise_pct": -20.13
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.67,
-    "institution_pct": 40.58,
+    "institution_pct": 39.7,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 40.58
+        "value": 39.7
       },
       {
         "label": "",
-        "value": 45.94
+        "value": 44.94
       },
       {
         "label": "",
-        "value": 92.0
+        "value": 90.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 719283,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.11,
-        "pct_change": 4.61,
-        "value": 2251355790
+        "pct_change": 0.0,
+        "value": 2287319940
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +98,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 4.27,
-        "value": 1491660970
+        "value": 1515489420
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 285500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 893615000
+        "value": 907890000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,15 +114,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": -1.48,
-        "value": 792516000
+        "value": 805176000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 178400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.28,
-        "pct_change": 6.95,
-        "value": 558392000
+        "shares": 185900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": 4.2,
+        "value": 591162000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,39 +130,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 570286000
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 176600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 0.0,
-        "value": 552758000
+        "value": 579396000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 176900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.49,
-        "value": 553697000
+        "shares": 182700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.11,
+        "value": 580986000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 145200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": -17.78,
+        "value": 461736000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 133110,
-        "date_reported": "2026-01-31",
+        "shares": 132910,
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 8.48,
-        "value": 416634300
+        "pct_change": -3.2,
+        "value": 422653800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 108814,
-        "date_reported": "2025-11-30",
+        "shares": 107581,
+        "date_reported": "2026-02-28",
         "pct_held": 0.17,
-        "pct_change": 13.04,
-        "value": 340587820
+        "pct_change": -1.13,
+        "value": 342107580
       }
     ],
     "mutualfund_holders": []

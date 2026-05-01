@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:13.217061",
+  "fetched_at": "2026-05-01T04:28:00.577672",
   "ticker": "5947",
   "ticker_full": "5947.T",
   "company_name": "RINNAI CORP",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3733.0,
+    "current": 3601.0,
     "high": 5610.0,
-    "low": 4100.0,
-    "mean": 4688.75,
+    "low": 4000.0,
+    "mean": 4676.25,
     "median": 4600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 49.84,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 62.43,
+        "eps_actual": 83.77,
+        "surprise_pct": 34.19
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 45.41,
+        "eps_actual": 66.62,
+        "surprise_pct": 46.72
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 45.2,
+        "eps_actual": 47.15,
+        "surprise_pct": 4.31
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 48.04,
+        "eps_actual": 48.44,
+        "surprise_pct": 0.83
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 49.59,
+        "eps_actual": 75.23,
+        "surprise_pct": 51.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 28.87,
-    "institution_pct": 31.39,
+    "institution_pct": 31.27,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 31.39
+        "value": 31.27
       },
       {
         "label": "",
-        "value": 44.12
+        "value": 43.96
       },
       {
         "label": "",
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.18,
         "pct_change": 0.24,
-        "value": 6214362430
+        "value": 5994620710
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1511214,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.07,
         "pct_change": 0.0,
-        "value": 5641361862
+        "value": 5441881614
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,31 +111,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.69,
         "pct_change": -0.71,
-        "value": 3611606573
+        "value": 3483899081
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 760300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.54,
-        "pct_change": 1.01,
-        "value": 2838199900
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 493038,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.35,
-        "pct_change": 11.97,
-        "value": 1840510854
+        "shares": 782100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.55,
+        "pct_change": 1.32,
+        "value": 2816342100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 411600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.6,
-        "value": 1536502800
+        "shares": 416400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.22,
+        "value": 1499456400
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -105,31 +135,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.22,
         "pct_change": 15.42,
-        "value": 1137071800
+        "value": 1096864600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 246230,
-        "date_reported": "2025-11-30",
+        "shares": 248519,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.18,
+        "pct_change": 0.93,
+        "value": 894916919
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
+        "shares": 237420,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": 0.92,
-        "value": 919176590
+        "pct_change": -51.85,
+        "value": 854949420
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 226748,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.16,
-        "pct_change": 1.89,
-        "value": 846450284
+        "pct_change": 0.0,
+        "value": 816519548
       },
       {
         "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
-        "shares": 209752,
-        "date_reported": "2025-10-31",
+        "shares": 207752,
+        "date_reported": "2026-01-31",
         "pct_held": 0.15,
-        "pct_change": 3.55,
-        "value": 783004216
+        "pct_change": -0.95,
+        "value": 748114952
       }
     ],
     "mutualfund_holders": []

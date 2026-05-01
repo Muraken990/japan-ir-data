@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:03:01.664735",
+  "fetched_at": "2026-05-01T04:35:02.018166",
   "ticker": "9983",
   "ticker_full": "9983.T",
   "company_name": "FAST RETAILING CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 4,
     "buy": 6,
-    "hold": 6,
+    "hold": 3,
     "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 15,
+    "strong_sell": 1,
+    "total_analysts": 14,
     "recommendation_key": "buy",
     "recommendation_mean": 1.92857
   },
   "target_prices": {
     "has_data": true,
-    "current": 63210.0,
-    "high": 76000.0,
-    "low": 54500.0,
-    "mean": 65560.21,
-    "median": 65500.0
+    "current": 73540.0,
+    "high": 85000.0,
+    "low": 56000.0,
+    "mean": 72264.29,
+    "median": 73000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-09",
+      "eps_estimate": 379.13,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-09",
+        "eps_estimate": 310.38,
+        "eps_actual": 429.7,
+        "surprise_pct": 38.44
+      },
+      {
+        "date": "2026-01-08",
+        "eps_estimate": 415.7,
+        "eps_actual": 480.55,
+        "surprise_pct": 15.6
+      },
+      {
+        "date": "2025-10-09",
+        "eps_estimate": 199.51,
+        "eps_actual": 306.08,
+        "surprise_pct": 53.41
+      },
+      {
+        "date": "2025-07-10",
+        "eps_estimate": 333.03,
+        "eps_actual": 343.98,
+        "surprise_pct": 3.29
+      },
+      {
+        "date": "2025-04-10",
+        "eps_estimate": 262.43,
+        "eps_actual": 331.19,
+        "surprise_pct": 26.2
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 40.28,
-    "institution_pct": 34.94,
+    "insider_pct": 39.25,
+    "institution_pct": 35.49,
     "major_holders": [
       {
         "label": "",
-        "value": 40.28
+        "value": 39.25
       },
       {
         "label": "",
-        "value": 34.94
+        "value": 35.49
       },
       {
         "label": "",
-        "value": 58.51
+        "value": 58.42
       },
       {
         "label": "",
-        "value": 440.0
+        "value": 436.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.06,
         "pct_change": -1.04,
-        "value": 11465409060
+        "value": 13339126440
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -6.89,
-        "value": 99935010
+        "value": 116266740
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2559908,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.8,
-        "pct_change": 0.13,
-        "value": 161811784680
+        "shares": 2581408,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.81,
+        "pct_change": 0.84,
+        "value": 189836744320
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,47 +121,55 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.53,
         "pct_change": 2.1,
-        "value": 105638574720
+        "value": 122902401280
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1305600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.41,
-        "pct_change": 0.59,
-        "value": 82526976000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 688251,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 0.75,
-        "value": 43504345710
+        "shares": 1336200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.42,
+        "pct_change": 1.28,
+        "value": 98264148000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 661600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 0.99,
-        "value": 41819736000
+        "shares": 745100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.23,
+        "pct_change": 0.27,
+        "value": 54794654000
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 696451,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.22,
+        "pct_change": 1.19,
+        "value": 51217006540
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 657600,
-        "date_reported": "2026-01-31",
+        "shares": 660700,
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 0.46,
-        "value": 41566896000
+        "pct_change": 0.0,
+        "value": 48587878000
+      },
+      {
+        "holder": "EuroPacific Growth Fund-EUPAC Fund",
+        "shares": 621900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.2,
+        "pct_change": 1.0,
+        "value": 45734526000
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 632700,
-        "date_reported": "2025-11-30",
+        "shares": 625400,
+        "date_reported": "2026-02-28",
         "pct_held": 0.2,
-        "pct_change": 4.03,
-        "value": 39992967000
+        "pct_change": -1.15,
+        "value": 45991916000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": -3.93,
-        "value": 34120758000
+        "value": 39696892000
       },
       {
         "holder": "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Stock Fd.",
@@ -139,15 +185,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.16,
         "pct_change": -1.27,
-        "value": 32976657000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 383886,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.12,
-        "pct_change": 0.31,
-        "value": 24265434060
+        "value": 38365818000
       }
     ]
   }

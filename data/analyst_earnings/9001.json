@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:13.125175",
+  "fetched_at": "2026-05-01T04:27:00.295530",
   "ticker": "9001",
   "ticker_full": "9001.T",
   "company_name": "TOBU RAILWAY CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 3,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
+    "total_analysts": 3,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2879.0,
+    "current": 2862.0,
     "high": 3600.0,
     "low": 2900.0,
     "mean": 3175.0,
     "median": 3100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2025-04-29",
+        "eps_estimate": 40.2,
+        "eps_actual": 47.81,
+        "surprise_pct": 18.93
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 69.0,
+        "eps_actual": 82.0,
+        "surprise_pct": 18.84
+      },
+      {
+        "date": "2024-02-06",
+        "eps_estimate": 48.4,
+        "eps_actual": 70.33,
+        "surprise_pct": 45.31
+      },
+      {
+        "date": "2023-11-02",
+        "eps_estimate": 45.47,
+        "eps_actual": 48.79,
+        "surprise_pct": 7.3
+      },
+      {
+        "date": "2023-08-02",
+        "eps_estimate": 42.57,
+        "eps_actual": 78.8,
+        "surprise_pct": 85.11
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.01,
-    "institution_pct": 34.17,
+    "institution_pct": 30.84,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 34.17
+        "value": 30.84
       },
       {
         "label": "",
-        "value": 35.23
+        "value": 31.8
       },
       {
         "label": "",
-        "value": 147.0
+        "value": 134.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2835379,
-        "date_reported": "2025-10-31",
+        "shares": 2838979,
+        "date_reported": "2026-01-31",
         "pct_held": 1.44,
-        "pct_change": 0.84,
-        "value": 8163056141
+        "pct_change": 0.13,
+        "value": 8125157898
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,47 +98,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.91,
         "pct_change": 2.11,
-        "value": 5187459933
+        "value": 5156828874
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1312000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.67,
-        "pct_change": 43.12,
-        "value": 3777248000
+        "shares": 1720600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.87,
+        "pct_change": 10.2,
+        "value": 4924357200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1200900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.61,
-        "pct_change": 0.64,
-        "value": 3457391100
+        "shares": 1222700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 0.84,
+        "value": 3499367400
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 918800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.47,
-        "pct_change": 2.72,
-        "value": 2645225200
+        "shares": 906400,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.46,
+        "pct_change": -1.35,
+        "value": 2594116800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 696000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 1.52,
-        "value": 2003784000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 435186,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.22,
-        "pct_change": 2.11,
-        "value": 1252900494
+        "shares": 703600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 1.97,
+        "value": 2013703200
       },
       {
         "holder": "Fidelity Concord Street TRT-Fidelity SAI Global ex U.S. Low Volatility",
@@ -113,15 +138,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.22,
         "pct_change": -5.19,
-        "value": 1261002000
+        "value": 1253556000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 429286,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": -1.36,
+        "value": 1228616532
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 402480,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.2,
-        "pct_change": 0.92,
-        "value": 1158739920
+        "shares": 406295,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.21,
+        "pct_change": 0.95,
+        "value": 1162816290
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +162,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 22.9,
-        "value": 957843300
+        "value": 952187400
       }
     ],
     "mutualfund_holders": []

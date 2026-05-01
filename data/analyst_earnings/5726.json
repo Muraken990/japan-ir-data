@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:38:27.119018",
+  "fetched_at": "2026-05-01T04:10:20.180078",
   "ticker": "5726",
   "ticker_full": "5726.T",
   "company_name": "OSAKA TITANIUM TECHNOLOGIES",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2598.0,
+    "current": 2542.0,
     "high": 3300.0,
     "low": 2300.0,
     "mean": 2800.0,
     "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-05-13",
+        "eps_estimate": 5.0,
+        "eps_actual": 4.98,
+        "surprise_pct": -0.4
+      },
+      {
+        "date": "2019-02-06",
+        "eps_estimate": 10.9,
+        "eps_actual": -228.67,
+        "surprise_pct": -2197.89
+      },
+      {
+        "date": "2017-01-26",
+        "eps_estimate": 7.2,
+        "eps_actual": 19.28,
+        "surprise_pct": 167.78
+      },
+      {
+        "date": "2016-10-30",
+        "eps_estimate": -4.3,
+        "eps_actual": -7.53,
+        "surprise_pct": -75.12
+      },
+      {
+        "date": "2016-04-27",
+        "eps_estimate": 49.8,
+        "eps_actual": -230.68,
+        "surprise_pct": -563.21
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.97,
-    "institution_pct": 49.31,
+    "institution_pct": 47.19,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 49.31
+        "value": 47.19
       },
       {
         "label": "",
-        "value": 60.11
+        "value": 57.53
       },
       {
         "label": "",
-        "value": 50.0
+        "value": 48.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 422708,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.15,
-        "pct_change": 2.0,
-        "value": 1098195384
+        "pct_change": 0.0,
+        "value": 1074523736
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +98,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 0.0,
-        "value": 708942240
+        "value": 693660960
       },
       {
         "holder": "FINANCIAL INVESTORS TRUST-ALPS/CoreCommodity Natural Resources ETF",
@@ -73,31 +106,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 54.44,
-        "value": 342203364
+        "value": 334827156
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 113800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 295652400
+        "value": 289279600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 108300,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.29,
-        "pct_change": 11.08,
-        "value": 281363400
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 63076,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.17,
-        "pct_change": 20.59,
-        "value": 163871448
+        "pct_change": 0.0,
+        "value": 275298600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,23 +130,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": -24.44,
-        "value": 158218200
+        "value": 154807800
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 62362,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.17,
+        "pct_change": -1.13,
+        "value": 158524204
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
         "shares": 46500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 120807000
+        "value": 118203000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
         "shares": 34414,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 89407572
+        "value": 87480388
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
@@ -129,7 +162,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.08,
         "pct_change": 0.0,
-        "value": 77940000
+        "value": 76260000
       }
     ],
     "mutualfund_holders": []

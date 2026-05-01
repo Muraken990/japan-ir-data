@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:33.589056",
+  "fetched_at": "2026-05-01T04:21:04.788481",
   "ticker": "9869",
   "ticker_full": "9869.T",
   "company_name": "KATO SANGYO CO",
@@ -17,20 +17,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6750.0,
+    "current": 6140.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.46,
-    "institution_pct": 17.68,
+    "institution_pct": 17.73,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +45,15 @@
       },
       {
         "label": "",
-        "value": 17.68
+        "value": 17.73
       },
       {
         "label": "",
-        "value": 24.38
+        "value": 24.45
       },
       {
         "label": "",
-        "value": 77.0
+        "value": 79.0
       }
     ],
     "institutional_holders": [],

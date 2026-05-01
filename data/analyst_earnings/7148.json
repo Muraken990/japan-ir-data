@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:09.852913",
+  "fetched_at": "2026-05-01T04:19:34.477279",
   "ticker": "7148",
   "ticker_full": "7148.T",
   "company_name": "FINANCIAL PARTNERS GROUP CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1582.0,
+    "current": 1565.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 32.42,
-    "institution_pct": 14.55,
+    "institution_pct": 15.42,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 14.55
+        "value": 15.42
       },
       {
         "label": "",
-        "value": 21.54
+        "value": 22.82
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 73.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:40.384000",
+  "fetched_at": "2026-05-01T04:31:35.021580",
   "ticker": "5334",
   "ticker_full": "5334.T",
   "company_name": "NITERRA CO LTD",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 7470.0,
-    "high": 9100.0,
+    "current": 8087.0,
+    "high": 9400.0,
     "low": 4425.0,
-    "mean": 7583.5,
-    "median": 7605.0
+    "mean": 7753.5,
+    "median": 7655.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 127.13,
+        "eps_actual": 150.42,
+        "surprise_pct": 18.32
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 112.44,
+        "eps_actual": 149.59,
+        "surprise_pct": 33.04
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 116.14,
+        "eps_actual": 121.09,
+        "surprise_pct": 4.27
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 103.59,
+        "eps_actual": 91.62,
+        "surprise_pct": -11.55
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 119.05,
+        "eps_actual": 121.21,
+        "surprise_pct": 1.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.64,
-    "institution_pct": 53.62,
+    "institution_pct": 53.17,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 53.62
+        "value": 53.17
       },
       {
         "label": "",
-        "value": 57.43
+        "value": 56.96
       },
       {
         "label": "",
-        "value": 199.0
+        "value": 198.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +90,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.04,
         "pct_change": 1.0,
-        "value": 615378600
+        "value": 666207060
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2698289,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.35,
-        "pct_change": 13.07,
-        "value": 20156218830
+        "shares": 2737189,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.37,
+        "pct_change": 1.44,
+        "value": 22135647443
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +108,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": 2.27,
-        "value": 13234419720
+        "value": 14327543812
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 1629900,
-        "date_reported": "2025-09-30",
+        "shares": 1635200,
+        "date_reported": "2025-12-31",
         "pct_held": 0.82,
-        "pct_change": 0.63,
-        "value": 12175353000
+        "pct_change": 0.33,
+        "value": 13223862400
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -91,31 +124,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.61,
         "pct_change": -12.78,
-        "value": 9124605000
+        "value": 9878270500
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 1213200,
         "date_reported": "2026-01-31",
         "pct_held": 0.61,
-        "pct_change": -4.46,
-        "value": 9062604000
+        "pct_change": -2.51,
+        "value": 9811148400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1030900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.52,
-        "pct_change": 0.74,
-        "value": 7700823000
+        "shares": 1052700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.53,
+        "pct_change": 0.98,
+        "value": 8513184900
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
         "shares": 841900,
         "date_reported": "2026-01-31",
         "pct_held": 0.42,
-        "pct_change": -11.24,
-        "value": 6288993000
+        "pct_change": -3.69,
+        "value": 6808445300
       },
       {
         "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
@@ -123,7 +156,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 6131376000
+        "value": 6637809600
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 588100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.2,
+        "value": 4755964700
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,15 +172,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": -4.1,
-        "value": 4346046000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 567800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 2.05,
-        "value": 4241466000
+        "value": 4705016600
       }
     ]
   }

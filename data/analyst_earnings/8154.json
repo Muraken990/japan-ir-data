@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:15.202079",
+  "fetched_at": "2026-05-01T04:20:41.341785",
   "ticker": "8154",
   "ticker_full": "8154.T",
   "company_name": "KAGA ELECTRONICS CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3790.0,
+    "current": 4200.0,
     "high": 4500.0,
     "low": 4500.0,
     "mean": 4500.0,
     "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-02-01",
+        "eps_estimate": 14.41,
+        "eps_actual": 31.41,
+        "surprise_pct": 117.9
+      },
+      {
+        "date": "2016-08-01",
+        "eps_estimate": 14.57,
+        "eps_actual": 24.71,
+        "surprise_pct": 69.61
+      },
+      {
+        "date": "2016-02-01",
+        "eps_estimate": 17.98,
+        "eps_actual": 25.28,
+        "surprise_pct": 40.58
+      },
+      {
+        "date": "2015-08-03",
+        "eps_estimate": 14.89,
+        "eps_actual": 20.3,
+        "surprise_pct": 36.3
+      },
+      {
+        "date": "2015-05-06",
+        "eps_estimate": 21.38,
+        "eps_actual": 12.82,
+        "surprise_pct": -40.07
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.74,
-    "institution_pct": 24.05,
+    "institution_pct": 24.39,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 24.05
+        "value": 24.39
       },
       {
         "label": "",
-        "value": 29.96
+        "value": 30.39
       },
       {
         "label": "",

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:41.876915",
+  "fetched_at": "2026-05-01T04:24:20.380807",
   "ticker": "7966",
   "ticker_full": "7966.T",
   "company_name": "LINTEC CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 3,
     "hold": 1,
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4640.0,
+    "current": 5010.0,
     "high": 5500.0,
     "low": 3800.0,
     "mean": 4887.5,
     "median": 5125.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.59,
-    "institution_pct": 17.8,
+    "institution_pct": 18.2,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 17.8
+        "value": 18.2
       },
       {
         "label": "",
-        "value": 26.8
+        "value": 27.41
       },
       {
         "label": "",
-        "value": 97.0
+        "value": 101.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 589843,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.81,
-        "pct_change": -4.05,
-        "value": 2736871520
+        "pct_change": 0.0,
+        "value": 2955113430
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +72,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.5,
         "pct_change": 2.12,
-        "value": 1695047680
+        "value": 1830213120
       },
       {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 220900,
+        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
+        "shares": 231400,
         "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 0.0,
-        "value": 1024976000
+        "pct_held": 0.32,
+        "pct_change": 7.26,
+        "value": 1159314000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,15 +88,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 3.33,
-        "value": 994816000
+        "value": 1074144000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 220900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 0.0,
+        "value": 1106709000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 179547,
-        "date_reported": "2026-01-31",
+        "shares": 179347,
+        "date_reported": "2026-03-31",
         "pct_held": 0.25,
-        "pct_change": 6.15,
-        "value": 833098080
+        "pct_change": -2.39,
+        "value": 898528470
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,15 +112,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 808288000
+        "value": 872742000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 160600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 4.02,
-        "value": 745184000
+        "shares": 169300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.23,
+        "pct_change": 2.98,
+        "value": 848193000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -113,23 +128,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 726624000
+        "value": 784566000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 140300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": 4.7,
-        "value": 650992000
-      },
-      {
-        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 140762,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.19,
-        "pct_change": -18.9,
-        "value": 653135680
+        "shares": 143900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.2,
+        "pct_change": 2.57,
+        "value": 720939000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:35.279161",
+  "fetched_at": "2026-05-01T04:23:11.618700",
   "ticker": "2782",
   "ticker_full": "2782.T",
   "company_name": "SERIA CO LTD",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.57143
   },
   "target_prices": {
     "has_data": true,
-    "current": 3770.0,
+    "current": 3445.0,
     "high": 4700.0,
     "low": 3750.0,
-    "mean": 4280.0,
+    "mean": 4268.5713,
     "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 63.29,
+        "eps_actual": 75.5,
+        "surprise_pct": 19.29
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 35.6,
+        "eps_actual": 41.91,
+        "surprise_pct": 17.72
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 35.6,
+        "eps_actual": 37.18,
+        "surprise_pct": 4.43
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 30.74,
+        "eps_actual": 31.21,
+        "surprise_pct": 1.54
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 48.49,
+        "eps_actual": 50.18,
+        "surprise_pct": 3.48
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.56,
-    "institution_pct": 27.3,
+    "institution_pct": 27.45,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 27.3
+        "value": 27.45
       },
       {
         "label": "",
-        "value": 33.53
+        "value": 33.7
       },
       {
         "label": "",
@@ -57,15 +90,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 2.63,
         "pct_change": 2.27,
-        "value": 7530575000
+        "value": 6881387500
       },
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
-        "shares": 1473800,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.94,
-        "pct_change": -2.38,
-        "value": 5556226000
+        "shares": 1348600,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.78,
+        "pct_change": -8.5,
+        "value": 4645927000
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -73,15 +106,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.09,
         "pct_change": 0.0,
-        "value": 3113039800
+        "value": 2844674300
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 673050,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.89,
-        "pct_change": -1.41,
-        "value": 2537398500
+        "pct_change": 0.0,
+        "value": 2318657250
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -89,7 +122,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.72,
         "pct_change": 15.41,
-        "value": 2046733000
+        "value": 1870290500
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Global Opportunities Fd.",
@@ -97,7 +130,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.62,
         "pct_change": -18.3,
-        "value": 1773408000
+        "value": 1620528000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -105,23 +138,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.57,
         "pct_change": 2.26,
-        "value": 1634114040
+        "value": 1493242140
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 350800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.46,
-        "pct_change": -0.14,
-        "value": 1322516000
+        "shares": 356700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.47,
+        "pct_change": 1.68,
+        "value": 1228831500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 334600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 1261442000
+        "value": 1152697000
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -129,7 +162,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.25,
         "pct_change": 1.23,
-        "value": 713284000
+        "value": 651794000
       }
     ],
     "mutualfund_holders": []

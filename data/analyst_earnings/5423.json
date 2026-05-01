@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:06.328465",
+  "fetched_at": "2026-05-01T04:17:28.199936",
   "ticker": "5423",
   "ticker_full": "5423.T",
   "company_name": "TOKYO STEEL MANUFACTURING CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 3,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1607.0,
+    "current": 1667.0,
     "high": 1800.0,
     "low": 1300.0,
-    "mean": 1560.0,
-    "median": 1600.0
+    "mean": 1620.0,
+    "median": 1700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-23",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2022-01-20",
+        "eps_estimate": 47.64,
+        "eps_actual": 89.76,
+        "surprise_pct": 88.41
+      },
+      {
+        "date": "2021-10-22",
+        "eps_estimate": 45.17,
+        "eps_actual": 56.99,
+        "surprise_pct": 26.17
+      },
+      {
+        "date": "2021-07-21",
+        "eps_estimate": 14.72,
+        "eps_actual": 30.37,
+        "surprise_pct": 106.32
+      },
+      {
+        "date": "2021-04-22",
+        "eps_estimate": -2.67,
+        "eps_actual": 13.89,
+        "surprise_pct": 620.22
+      },
+      {
+        "date": "2021-01-21",
+        "eps_estimate": 4.24,
+        "eps_actual": 7.51,
+        "surprise_pct": 77.12
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 51.28,
-    "institution_pct": 15.83,
+    "institution_pct": 21.86,
     "major_holders": [
       {
         "label": "",
@@ -39,41 +77,41 @@
       },
       {
         "label": "",
-        "value": 15.83
+        "value": 21.86
       },
       {
         "label": "",
-        "value": 32.49
+        "value": 44.87
       },
       {
         "label": "",
-        "value": 74.0
+        "value": 76.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 724918,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.66,
-        "pct_change": -2.45,
-        "value": 1164943226
+        "pct_change": 0.0,
+        "value": 1208438306
+      },
+      {
+        "holder": "Putnam Investment Funds-Putnam International Small Cap Fund",
+        "shares": 544900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.5,
+        "pct_change": 1.0,
+        "value": 908348300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 511700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": 1.51,
-        "value": 822301900
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 493700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.45,
-        "pct_change": -18.59,
-        "value": 793375900
+        "shares": 533500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.48,
+        "pct_change": 1.95,
+        "value": 889344500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 745190005
+        "value": 773012905
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +127,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": -2.25,
-        "value": 733595500
+        "value": 760985500
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 339500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": -19.57,
+        "value": 565946500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,39 +143,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 419105600
+        "value": 434753600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 214200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": 1.85,
-        "value": 344219400
+        "shares": 222900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.2,
+        "pct_change": 1.36,
+        "value": 371574300
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
+        "shares": 189801,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.17,
+        "pct_change": 16.63,
+        "value": 316398267
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 180800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.16,
-        "pct_change": 8.98,
-        "value": 290545600
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 162731,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.15,
-        "pct_change": 12.32,
-        "value": 261508717
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 152000,
         "date_reported": "2026-01-31",
-        "pct_held": 0.14,
-        "pct_change": 62.74,
-        "value": 244264000
+        "pct_held": 0.16,
+        "pct_change": 0.0,
+        "value": 301393600
       }
     ],
     "mutualfund_holders": []

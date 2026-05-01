@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:37.722669",
+  "fetched_at": "2026-05-01T04:24:16.545621",
   "ticker": "4540",
   "ticker_full": "4540.T",
   "company_name": "TSUMURA & CO",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 3810.0,
+    "current": 3642.0,
     "high": 5900.0,
     "low": 3300.0,
     "mean": 4560.0,
     "median": 4400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 124.55,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 90.93,
+        "eps_actual": 142.95,
+        "surprise_pct": 57.2
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 90.93,
+        "eps_actual": 108.49,
+        "surprise_pct": 19.31
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 90.93,
+        "eps_actual": 58.16,
+        "surprise_pct": -36.04
+      },
+      {
+        "date": "2025-05-11",
+        "eps_estimate": 124.55,
+        "eps_actual": 77.27,
+        "surprise_pct": -37.96
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 93.54,
+        "eps_actual": 119.37,
+        "surprise_pct": 27.61
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.37,
-    "institution_pct": 56.67,
+    "institution_pct": 54.55,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,33 @@
       },
       {
         "label": "",
-        "value": 56.67
+        "value": 54.55
       },
       {
         "label": "",
-        "value": 61.84
+        "value": 59.53
       },
       {
         "label": "",
-        "value": 121.0
+        "value": 119.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 971976,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.27,
-        "pct_change": 1.96,
-        "value": 3703228560
+        "pct_change": 0.0,
+        "value": 3539936592
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 865800,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.13,
+        "pct_change": 77.02,
+        "value": 3153243600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.83,
         "pct_change": 2.06,
-        "value": 2421415020
+        "value": 2314643964
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -73,15 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.71,
         "pct_change": 24.33,
-        "value": 2063496000
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 489100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.64,
-        "pct_change": 11.16,
-        "value": 1863471000
+        "value": 1972507200
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -89,31 +127,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.59,
         "pct_change": 6.38,
-        "value": 1735455000
-      },
-      {
-        "holder": "Templeton Global Smaller Companies Fund",
-        "shares": 414000,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.54,
-        "pct_change": -13.62,
-        "value": 1577340000
+        "value": 1658931000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 411500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.54,
         "pct_change": 0.0,
-        "value": 1567815000
+        "value": 1498683000
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Fund",
-        "shares": 366000,
-        "date_reported": "2025-10-31",
+        "shares": 371600,
+        "date_reported": "2026-01-31",
         "pct_held": 0.48,
-        "pct_change": -6.23,
-        "value": 1394460000
+        "pct_change": 1.53,
+        "value": 1353367200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -121,15 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": -2.3,
-        "value": 1084097400
+        "value": 1036294680
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 221300,
-        "date_reported": "2026-01-31",
+        "shares": 226100,
+        "date_reported": "2026-03-31",
         "pct_held": 0.29,
-        "pct_change": 1.79,
-        "value": 843153000
+        "pct_change": 1.34,
+        "value": 823456200
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 206378,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": 15.63,
+        "value": 751628676
       }
     ],
     "mutualfund_holders": []

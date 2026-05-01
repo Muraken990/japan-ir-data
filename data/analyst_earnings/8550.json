@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:38:41.793929",
+  "fetched_at": "2026-05-01T04:10:36.082108",
   "ticker": "8550",
   "ticker_full": "8550.T",
   "company_name": "TOCHIGI BANK",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 910.0,
+    "current": 966.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 24.35,
+        "eps_actual": 13.17,
+        "surprise_pct": -45.91
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": 19.59,
+        "eps_actual": 25.23,
+        "surprise_pct": 28.77
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 37.33,
+        "eps_actual": 34.97,
+        "surprise_pct": -6.33
+      },
+      {
+        "date": "2015-01-27",
+        "eps_estimate": 13.95,
+        "eps_actual": 31.67,
+        "surprise_pct": 126.96
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 18.3,
+        "eps_actual": 27.36,
+        "surprise_pct": 49.53
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.39,
-    "institution_pct": 30.54,
+    "institution_pct": 30.39,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 30.54
+        "value": 30.39
       },
       {
         "label": "",
-        "value": 35.26
+        "value": 35.09
       },
       {
         "label": "",
-        "value": 48.0
+        "value": 49.0
       }
     ],
     "institutional_holders": [],

@@ -1,32 +1,46 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:00.726350",
+  "fetched_at": "2026-05-01T04:18:23.070160",
   "ticker": "7970",
   "ticker_full": "7970.T",
   "company_name": "SHIN-ETSU POLYMER CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 0.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1982.0,
+    "current": 2164.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-27",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2008-04-28",
+        "eps_estimate": -55.2,
+        "eps_actual": 12.11,
+        "surprise_pct": 121.94
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
@@ -47,17 +61,17 @@
       },
       {
         "label": "",
-        "value": 67.0
+        "value": 66.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 482631,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.58,
-        "pct_change": -1.63,
-        "value": 956574642
+        "pct_change": 0.0,
+        "value": 1044413484
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +79,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.41,
         "pct_change": 6.05,
-        "value": 674524150
+        "value": 736463300
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -73,15 +87,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": -1.99,
-        "value": 498076600
+        "value": 543813200
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 229900,
-        "date_reported": "2026-01-31",
+        "shares": 229600,
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
-        "pct_change": 7.28,
-        "value": 455661800
+        "pct_change": -2.79,
+        "value": 496854400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -89,47 +103,47 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 367264600
+        "value": 400989200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 149700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": 1.77,
-        "value": 296705400
+        "shares": 155500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.19,
+        "pct_change": 1.3,
+        "value": 336502000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 135000,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.16,
-        "pct_change": 9.4,
-        "value": 267570000
+        "pct_change": 0.0,
+        "value": 292140000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 123700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 245173400
+        "value": 267686800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 80522,
-        "date_reported": "2025-11-30",
+        "shares": 79600,
+        "date_reported": "2026-02-28",
         "pct_held": 0.1,
-        "pct_change": 21.46,
-        "value": 159594604
+        "pct_change": -1.15,
+        "value": 172254400
       },
       {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 69500,
+        "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
+        "shares": 70534,
         "date_reported": "2026-01-31",
-        "pct_held": 0.08,
-        "pct_change": 5.46,
-        "value": 137749000
+        "pct_held": 0.09,
+        "pct_change": 2.92,
+        "value": 152635576
       }
     ],
     "mutualfund_holders": []

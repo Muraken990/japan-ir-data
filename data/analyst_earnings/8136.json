@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:38.054765",
+  "fetched_at": "2026-05-01T04:31:32.205535",
   "ticker": "8136",
   "ticker_full": "8136.T",
   "company_name": "SANRIO CO LTD",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.45455
+    "recommendation_mean": 1.41667
   },
   "target_prices": {
     "has_data": true,
-    "current": 985.0,
+    "current": 910.9,
     "high": 1860.0,
     "low": 1200.0,
-    "mean": 1516.1909,
-    "median": 1500.0
+    "mean": 1494.0083,
+    "median": 1493.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 3.89,
+        "eps_actual": 4.65,
+        "surprise_pct": 19.73
+      },
+      {
+        "date": "2023-03-15",
+        "eps_estimate": 1.41,
+        "eps_actual": 3.13,
+        "surprise_pct": 122.18
+      },
+      {
+        "date": "2022-02-09",
+        "eps_estimate": 0.58,
+        "eps_actual": 1.01,
+        "surprise_pct": 74.6
+      },
+      {
+        "date": "2021-02-11",
+        "eps_estimate": -0.67,
+        "eps_actual": 0.37,
+        "surprise_pct": 156.0
+      },
+      {
+        "date": "2020-02-11",
+        "eps_estimate": 1.33,
+        "eps_actual": 0.95,
+        "surprise_pct": -28.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.41,
-    "institution_pct": 43.38,
+    "institution_pct": 45.66,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.38
+        "value": 45.66
       },
       {
         "label": "",
-        "value": 53.16
+        "value": 55.96
       },
       {
         "label": "",
-        "value": 292.0
+        "value": 289.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -2.66,
-        "value": 11696875
+        "value": 10816937
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 13837575,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.08,
-        "pct_change": 10.44,
-        "value": 13630011375
+        "shares": 13934575,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.09,
+        "pct_change": 0.7,
+        "value": 12693004707
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +113,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.7,
         "pct_change": 1.99,
-        "value": 8836267550
+        "value": 8171529266
+      },
+      {
+        "holder": "-Price (T.Rowe) International Growth Equity Trust",
+        "shares": 7108500,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.56,
+        "pct_change": 1.0,
+        "value": 6475132823
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
         "shares": 6768500,
         "date_reported": "2026-01-31",
         "pct_held": 0.53,
-        "pct_change": 1.0,
-        "value": 6666972500
+        "pct_change": 11.2,
+        "value": 6165426815
       },
       {
         "holder": "MORGAN STANLEY Inst. Fd. INC-Intl Advantage PORT.",
@@ -91,31 +137,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.51,
         "pct_change": 50.35,
-        "value": 6367532500
+        "value": 5888513207
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 6156000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.48,
-        "pct_change": 0.62,
-        "value": 6063660000
-      },
-      {
-        "holder": "Capital Group Global Growth Equity ETF",
-        "shares": 4945500,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.39,
-        "pct_change": 10.11,
-        "value": 4871317500
-      },
-      {
-        "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Growth Fund",
-        "shares": 4561500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.36,
-        "pct_change": 0.0,
-        "value": 4493077500
+        "shares": 6265000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.49,
+        "pct_change": 0.82,
+        "value": 5706788652
       },
       {
         "holder": "T. ROWE PRICE COMMUNICATIONS & TECHNOLOGY Fd., INC.-T. Rowe Price Comm",
@@ -123,23 +153,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.33,
         "pct_change": -1.66,
-        "value": 4121240000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 3221545,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 0.8,
-        "value": 3173221825
+        "value": 3811205702
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 3098500,
-        "date_reported": "2026-01-31",
+        "shares": 3528000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 0.63,
+        "value": 3213655286
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 3260045,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.26,
+        "pct_change": 1.2,
+        "value": 2969575070
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE ETF",
+        "shares": 3088500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.24,
-        "pct_change": 1.06,
-        "value": 3052022500
+        "pct_change": 0.0,
+        "value": 2813314725
       }
     ]
   }

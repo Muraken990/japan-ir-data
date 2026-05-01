@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:38:43.137776",
+  "fetched_at": "2026-05-01T04:10:37.602089",
   "ticker": "6023",
   "ticker_full": "6023.T",
   "company_name": "DAIHATSU INFINEARTH MFG CO LTD",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2140.0,
+    "current": 2918.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-01-23",
+        "eps_estimate": 14.65,
+        "eps_actual": 16.36,
+        "surprise_pct": 11.69
+      },
+      {
+        "date": "2016-07-25",
+        "eps_estimate": 9.44,
+        "eps_actual": 9.54,
+        "surprise_pct": 1.03
+      },
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 16.01,
+        "eps_actual": 25.96,
+        "surprise_pct": 62.2
+      },
+      {
+        "date": "2015-07-22",
+        "eps_estimate": 10.65,
+        "eps_actual": 28.71,
+        "surprise_pct": 169.58
+      },
+      {
+        "date": "2015-04-26",
+        "eps_estimate": 24.2,
+        "eps_actual": 26.67,
+        "surprise_pct": 10.23
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.25,
-    "institution_pct": 21.61,
+    "institution_pct": 21.68,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 21.61
+        "value": 21.68
       },
       {
         "label": "",
-        "value": 27.44
+        "value": 27.53
       },
       {
         "label": "",
-        "value": 26.0
+        "value": 28.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +90,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.15,
         "pct_change": 0.0,
-        "value": 786878000
+        "value": 1072948600
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 211900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.67,
-        "pct_change": 9.45,
-        "value": 453466000
+        "shares": 158700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.5,
+        "pct_change": 0.0,
+        "value": 463086600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -73,7 +106,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -7.24,
-        "value": 191958000
+        "value": 261744600
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity Series Select Intl Small Cap Fd.",
@@ -81,7 +114,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 172152300
+        "value": 234738510
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -89,7 +122,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 162854000
+        "value": 222059800
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -97,7 +130,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 3.78,
-        "value": 123264000
+        "value": 168076800
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Opportunities Fund",
+        "shares": 34300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.11,
+        "pct_change": 25.64,
+        "value": 100087400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Vector Eqy. PORT.",
@@ -105,7 +146,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 62274000
+        "value": 84913800
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
@@ -113,15 +154,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.08,
         "pct_change": 37.84,
-        "value": 54570000
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Opportunities Fund",
-        "shares": 22400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.07,
-        "pct_change": 14.29,
-        "value": 47936000
+        "value": 74409000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity Market ETF",
@@ -129,7 +162,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.04,
         "pct_change": -7.48,
-        "value": 29104000
+        "value": 39684800
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:39.260602",
+  "fetched_at": "2026-05-01T04:24:18.147231",
   "ticker": "6454",
   "ticker_full": "6454.T",
   "company_name": "MAX CO LTD",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1647.0,
+    "current": 1806.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-01-26",
+        "eps_estimate": 5.89,
+        "eps_actual": 7.67,
+        "surprise_pct": 30.3
+      },
+      {
+        "date": "2016-07-27",
+        "eps_estimate": 5.43,
+        "eps_actual": 5.47,
+        "surprise_pct": 0.79
+      },
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 5.28,
+        "eps_actual": 4.82,
+        "surprise_pct": -8.68
+      },
+      {
+        "date": "2015-07-27",
+        "eps_estimate": 4.66,
+        "eps_actual": 4.68,
+        "surprise_pct": 0.5
+      },
+      {
+        "date": "2015-04-27",
+        "eps_estimate": 4.24,
+        "eps_actual": 1.0,
+        "surprise_pct": -76.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 20.03,
-    "institution_pct": 45.73,
+    "institution_pct": 45.85,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 45.73
+        "value": 45.85
       },
       {
         "label": "",
-        "value": 57.19
+        "value": 57.34
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 76.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:48.738316",
+  "fetched_at": "2026-05-01T04:13:48.359010",
   "ticker": "6183",
   "ticker_full": "6183.T",
   "company_name": "BELLSYSTEM24 HOLDINGS INC",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1449.0,
+    "current": 1460.0,
     "high": 1800.0,
-    "low": 1530.0,
-    "mean": 1682.5,
-    "median": 1700.0
+    "low": 1500.0,
+    "mean": 1657.5,
+    "median": 1665.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-01-09",
+        "eps_estimate": 28.6,
+        "eps_actual": 20.29,
+        "surprise_pct": -29.06
+      },
+      {
+        "date": "2023-01-10",
+        "eps_estimate": 29.2,
+        "eps_actual": 33.18,
+        "surprise_pct": 13.63
+      },
+      {
+        "date": "2022-10-11",
+        "eps_estimate": 30.6,
+        "eps_actual": 36.26,
+        "surprise_pct": 18.5
+      },
+      {
+        "date": "2022-04-05",
+        "eps_estimate": 21.3,
+        "eps_actual": 21.88,
+        "surprise_pct": 2.72
+      },
+      {
+        "date": "2022-01-11",
+        "eps_estimate": 26.5,
+        "eps_actual": 32.84,
+        "surprise_pct": 23.92
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 55.51,
-    "institution_pct": 12.11,
+    "institution_pct": 12.15,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 12.11
+        "value": 12.15
       },
       {
         "label": "",
-        "value": 27.22
+        "value": 27.32
       },
       {
         "label": "",
-        "value": 66.0
+        "value": 65.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:01.506854",
+  "fetched_at": "2026-05-01T04:33:59.728650",
   "ticker": "6701",
   "ticker_full": "6701.T",
   "company_name": "NEC CORP",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 6,
-    "hold": 1,
+    "buy": 7,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 10,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.58333
+    "total_analysts": 12,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 4003.0,
+    "current": 3998.0,
     "high": 8000.0,
     "low": 5000.0,
-    "mean": 6362.5,
-    "median": 6400.0
+    "mean": 6000.0,
+    "median": 6050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-29",
+      "eps_estimate": 17.27,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 90.18,
+        "eps_actual": 96.21,
+        "surprise_pct": 6.68
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 49.15,
+        "eps_actual": 52.09,
+        "surprise_pct": 5.98
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 33.35,
+        "eps_actual": 40.16,
+        "surprise_pct": 20.41
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 5.59,
+        "eps_actual": 14.49,
+        "surprise_pct": 159.41
+      },
+      {
+        "date": "2025-04-27",
+        "eps_estimate": 61.49,
+        "eps_actual": 77.8,
+        "surprise_pct": 26.51
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.97,
-    "institution_pct": 54.43,
+    "institution_pct": 52.89,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 54.43
+        "value": 52.89
       },
       {
         "label": "",
-        "value": 57.27
+        "value": 55.66
       },
       {
         "label": "",
-        "value": 456.0
+        "value": 442.0
       }
     ],
     "institutional_holders": [],

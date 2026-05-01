@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:05.874875",
+  "fetched_at": "2026-05-01T04:18:28.849633",
   "ticker": "6703",
   "ticker_full": "6703.T",
   "company_name": "OKI ELECTRIC INDUSTRY CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 2744.0,
-    "high": 3300.0,
+    "current": 3305.0,
+    "high": 4200.0,
     "low": 3300.0,
-    "mean": 3300.0,
-    "median": 3300.0
+    "mean": 3750.0,
+    "median": 3750.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2021-02-03",
+        "eps_estimate": 35.69,
+        "eps_actual": -34.88,
+        "surprise_pct": -197.73
+      },
+      {
+        "date": "2020-07-29",
+        "eps_estimate": -10.36,
+        "eps_actual": -38.43,
+        "surprise_pct": -270.95
+      },
+      {
+        "date": "2020-02-06",
+        "eps_estimate": 41.45,
+        "eps_actual": 36.1,
+        "surprise_pct": -12.91
+      },
+      {
+        "date": "2019-11-06",
+        "eps_estimate": 3.45,
+        "eps_actual": 51.19,
+        "surprise_pct": 1383.77
+      },
+      {
+        "date": "2019-07-25",
+        "eps_estimate": 6.91,
+        "eps_actual": -4.27,
+        "surprise_pct": -161.79
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.08,
-    "institution_pct": 46.36,
+    "institution_pct": 46.49,
     "major_holders": [
       {
         "label": "",
@@ -39,41 +77,41 @@
       },
       {
         "label": "",
-        "value": 46.36
+        "value": 46.49
       },
       {
         "label": "",
-        "value": 48.33
+        "value": 48.46
       },
       {
         "label": "",
-        "value": 91.0
+        "value": 96.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2720500,
-        "date_reported": "2026-01-31",
-        "pct_held": 3.12,
-        "pct_change": 0.0,
-        "value": 7465052000
+        "shares": 2757100,
+        "date_reported": "2026-03-31",
+        "pct_held": 3.16,
+        "pct_change": 1.0,
+        "value": 9112215500
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 2266800,
-        "date_reported": "2025-10-31",
-        "pct_held": 2.6,
-        "pct_change": -0.3,
-        "value": 6220099200
+        "shares": 1485900,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.7,
+        "pct_change": -34.45,
+        "value": 4910899500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1195183,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.37,
-        "pct_change": 1.43,
-        "value": 3279582152
+        "pct_change": 0.0,
+        "value": 3950079815
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.28,
         "pct_change": 0.0,
-        "value": 3074610840
+        "value": 3703202925
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,7 +127,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": 2.27,
-        "value": 2115341368
+        "value": 2547814585
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -97,23 +135,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": 0.44,
-        "value": 2107216384
+        "value": 2538028480
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 665500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.76,
-        "pct_change": 1.16,
-        "value": 1826132000
+        "shares": 687300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.79,
+        "pct_change": 1.51,
+        "value": 2271526500
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 376800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.43,
-        "pct_change": 15.23,
-        "value": 1033939200
+        "shares": 415500,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.48,
+        "pct_change": 10.27,
+        "value": 1373227500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.43,
         "pct_change": -15.95,
-        "value": 1022414400
+        "value": 1231443000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 1003969232
+        "value": 1209226790
       }
     ],
     "mutualfund_holders": []

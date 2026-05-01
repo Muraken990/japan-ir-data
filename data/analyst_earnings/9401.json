@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:28.169289",
+  "fetched_at": "2026-05-01T04:30:18.729213",
   "ticker": "9401",
   "ticker_full": "9401.T",
   "company_name": "TBS HOLDINGS INC",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 1,
-    "buy": 2,
+    "buy": 1,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 5,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.4
   },
   "target_prices": {
     "has_data": true,
-    "current": 5706.0,
+    "current": 5584.0,
     "high": 6800.0,
     "low": 5300.0,
-    "mean": 5932.0,
+    "mean": 5912.0,
     "median": 6000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-02-05",
+        "eps_estimate": 41.41,
+        "eps_actual": 32.33,
+        "surprise_pct": -21.93
+      },
+      {
+        "date": "2019-02-06",
+        "eps_estimate": 47.0,
+        "eps_actual": 51.11,
+        "surprise_pct": 8.74
+      },
+      {
+        "date": "2017-05-10",
+        "eps_estimate": -6.0,
+        "eps_actual": 9.1,
+        "surprise_pct": 251.67
+      },
+      {
+        "date": "2017-02-01",
+        "eps_estimate": 26.4,
+        "eps_actual": 44.16,
+        "surprise_pct": 67.27
+      },
+      {
+        "date": "2013-02-06",
+        "eps_estimate": 23.72,
+        "eps_actual": 59.76,
+        "surprise_pct": 151.94
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 36.71,
-    "institution_pct": 16.88,
+    "institution_pct": 16.66,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 16.88
+        "value": 16.66
       },
       {
         "label": "",
-        "value": 26.68
+        "value": 26.32
       },
       {
         "label": "",
-        "value": 113.0
+        "value": 111.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": -3.34,
-        "value": 8440885800
+        "value": 8260411200
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.38,
         "pct_change": 15.42,
-        "value": 3549702600
+        "value": 3473806400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 463400,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.28,
-        "pct_change": 0.78,
-        "value": 2644160400
+        "pct_change": 0.0,
+        "value": 2587625600
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -81,23 +119,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.24,
         "pct_change": 3.39,
-        "value": 2244169800
+        "value": 2196187200
       },
       {
         "holder": "Columbia Funds Series Trust II-Columbia Overseas Core Fund",
-        "shares": 369700,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.22,
-        "pct_change": -6.92,
-        "value": 2109508200
+        "shares": 347100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.21,
+        "pct_change": -6.11,
+        "value": 1938206400
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Fund",
-        "shares": 324700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.2,
-        "pct_change": -10.45,
-        "value": 1852738200
+        "shares": 314200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": -3.23,
+        "value": 1754492800
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -105,7 +143,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.18,
         "pct_change": 10.37,
-        "value": 1669575600
+        "value": 1633878400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,15 +151,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1695035772
+        "value": 1658794208
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 214300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 1222795800
+        "value": 1196651200
       },
       {
         "holder": "AQR Funds-AQR Equity Market Neutral Fund",
@@ -129,7 +167,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.1,
         "pct_change": 39.46,
-        "value": 974014200
+        "value": 953188800
       }
     ],
     "mutualfund_holders": []

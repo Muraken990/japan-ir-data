@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:30.587491",
+  "fetched_at": "2026-05-01T04:29:19.210773",
   "ticker": "7747",
   "ticker_full": "7747.T",
   "company_name": "ASAHI INTECC CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 15,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.6
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3492.0,
+    "current": 3250.0,
     "high": 4700.0,
     "low": 2700.0,
-    "mean": 3702.6667,
-    "median": 3700.0
+    "mean": 3829.3333,
+    "median": 4000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 28.17,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 24.48,
+        "eps_actual": 30.19,
+        "surprise_pct": 23.31
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 27.08,
+        "eps_actual": 34.37,
+        "surprise_pct": 26.91
+      },
+      {
+        "date": "2025-08-14",
+        "eps_estimate": 10.22,
+        "eps_actual": 14.66,
+        "surprise_pct": 43.43
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 19.92,
+        "eps_actual": -12.88,
+        "surprise_pct": -164.67
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 18.36,
+        "eps_actual": 20.16,
+        "surprise_pct": 9.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.06,
-    "institution_pct": 43.84,
+    "institution_pct": 44.66,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,25 @@
       },
       {
         "label": "",
-        "value": 43.84
+        "value": 44.66
       },
       {
         "label": "",
-        "value": 56.25
+        "value": 57.3
       },
       {
         "label": "",
-        "value": 192.0
+        "value": 187.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "NEW PERSPECTIVE FUND",
-        "shares": 4396200,
-        "date_reported": "2025-12-31",
-        "pct_held": 1.66,
-        "pct_change": 0.0,
-        "value": 15351530400
-      },
-      {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3070208,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.16,
-        "pct_change": 0.69,
-        "value": 10721166336
+        "shares": 3025108,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.14,
+        "pct_change": -1.47,
+        "value": 9831601000
       },
       {
         "holder": "SmallCap World Fund Inc",
@@ -73,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.03,
         "pct_change": 16.13,
-        "value": 9584597160
+        "value": 8920372500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,55 +111,63 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.73,
         "pct_change": -0.15,
-        "value": 6801700140
+        "value": 6330333750
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1501800,
-        "date_reported": "2026-01-31",
+        "shares": 1510700,
+        "date_reported": "2026-03-31",
         "pct_held": 0.57,
-        "pct_change": 1.02,
-        "value": 5244285600
-      },
-      {
-        "holder": "New World Fund Inc",
-        "shares": 1324800,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.5,
-        "pct_change": -0.23,
-        "value": 4626201600
+        "pct_change": 1.37,
+        "value": 4909775000
       },
       {
         "holder": "EuroPacific Growth Fund-EUPAC Fund",
         "shares": 1105900,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 3861802800
+        "value": 3594175000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 830400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 2.27,
-        "value": 2899756800
+        "shares": 839800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 1.79,
+        "value": 2729350000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 457367,
-        "date_reported": "2025-10-31",
+        "shares": 457567,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": 1.37,
-        "value": 1597125564
+        "pct_change": 0.04,
+        "value": 1487092750
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 449829,
-        "date_reported": "2025-11-30",
+        "shares": 454080,
+        "date_reported": "2026-02-28",
         "pct_held": 0.17,
-        "pct_change": 0.92,
-        "value": 1570802868
+        "pct_change": 0.95,
+        "value": 1475760000
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 431000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.16,
+        "pct_change": 1.0,
+        "value": 1400750000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 402100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.15,
+        "pct_change": 24.45,
+        "value": 1306825000
       }
     ],
     "mutualfund_holders": []

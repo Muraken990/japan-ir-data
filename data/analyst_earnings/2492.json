@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:45.874049",
+  "fetched_at": "2026-05-01T04:13:45.668024",
   "ticker": "2492",
   "ticker_full": "2492.T",
   "company_name": "INFOMART CORPORATION",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 475.0,
+    "current": 396.0,
     "high": 460.0,
     "low": 450.0,
-    "mean": 456.66666,
-    "median": 460.0
+    "mean": 455.0,
+    "median": 455.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 0.42,
+        "eps_actual": -0.33,
+        "surprise_pct": -178.57
+      },
+      {
+        "date": "2023-10-30",
+        "eps_estimate": 0.83,
+        "eps_actual": 0.69,
+        "surprise_pct": -17.32
+      },
+      {
+        "date": "2023-04-27",
+        "eps_estimate": 0.91,
+        "eps_actual": 0.43,
+        "surprise_pct": -52.74
+      },
+      {
+        "date": "2023-02-13",
+        "eps_estimate": 0.6,
+        "eps_actual": -0.87,
+        "surprise_pct": -245.34
+      },
+      {
+        "date": "2022-10-30",
+        "eps_estimate": 0.47,
+        "eps_actual": 0.92,
+        "surprise_pct": 97.4
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 9.73,
-    "institution_pct": 63.27,
+    "insider_pct": 24.73,
+    "institution_pct": 47.27,
     "major_holders": [
       {
         "label": "",
-        "value": 9.73
+        "value": 24.73
       },
       {
         "label": "",
-        "value": 63.27
+        "value": 47.27
       },
       {
         "label": "",
-        "value": 70.09
+        "value": 62.8
       },
       {
         "label": "",
-        "value": 67.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [],

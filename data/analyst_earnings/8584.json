@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:20.730047",
+  "fetched_at": "2026-05-01T04:19:45.767434",
   "ticker": "8584",
   "ticker_full": "8584.T",
   "company_name": "JACCS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4065.0,
+    "current": 4030.0,
     "high": 4500.0,
     "low": 4500.0,
     "mean": 4500.0,
     "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 75.8,
+        "eps_actual": 69.15,
+        "surprise_pct": -8.77
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 76.56,
+        "eps_actual": 56.3,
+        "surprise_pct": -26.46
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 64.96,
+        "eps_actual": 22.85,
+        "surprise_pct": -64.82
+      },
+      {
+        "date": "2015-02-03",
+        "eps_estimate": 58.72,
+        "eps_actual": 72.5,
+        "surprise_pct": 23.48
+      },
+      {
+        "date": "2014-11-04",
+        "eps_estimate": 64.52,
+        "eps_actual": 50.7,
+        "surprise_pct": -21.41
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.51,
-    "institution_pct": 59.53,
+    "institution_pct": 59.61,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 59.53
+        "value": 59.61
       },
       {
         "label": "",
-        "value": 63.68
+        "value": 63.76
       },
       {
         "label": "",
@@ -57,7 +95,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 1.32,
         "pct_change": 0.43,
-        "value": 1886566500
+        "value": 1870323000
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -65,7 +103,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.97,
         "pct_change": -0.23,
-        "value": 1381437405
+        "value": 1369543110
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.53,
         "pct_change": -0.2,
-        "value": 756996495
+        "value": 750478690
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -81,7 +119,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 600400500
+        "value": 595231000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -89,7 +127,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 508125000
+        "value": 503750000
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -97,7 +135,7 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 516255000
+        "value": 511810000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -105,7 +143,7 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.28,
         "pct_change": 0.41,
-        "value": 399183000
+        "value": 395746000
       },
       {
         "holder": "Bernstein Fund, Inc.-International Small Cap Portfolio",
@@ -113,7 +151,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.27,
         "pct_change": -21.79,
-        "value": 379264500
+        "value": 375999000
       },
       {
         "holder": "ETF Managers Tr-ETFMG Prime Mobile Payments ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.27,
         "pct_change": -65.02,
-        "value": 380394570
+        "value": 377119340
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -129,7 +167,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 375199500
+        "value": 371969000
       }
     ],
     "mutualfund_holders": []

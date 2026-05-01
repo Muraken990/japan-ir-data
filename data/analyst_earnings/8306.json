@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:03:01.935155",
+  "fetched_at": "2026-05-01T04:35:03.582991",
   "ticker": "8306",
   "ticker_full": "8306.T",
   "company_name": "MITSUBISHI UFJ FINANCIAL GROUP ",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 4,
-    "buy": 3,
+    "buy": 4,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 10,
+    "total_analysts": 11,
     "recommendation_key": "buy",
     "recommendation_mean": 1.91667
   },
   "target_prices": {
     "has_data": true,
-    "current": 2761.0,
+    "current": 2807.0,
     "high": 3760.0,
     "low": 2120.0,
-    "mean": 3060.0,
+    "mean": 3068.3333,
     "median": 3320.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 7.05,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 44.6,
+        "eps_actual": 45.82,
+        "surprise_pct": 2.74
+      },
+      {
+        "date": "2025-11-14",
+        "eps_estimate": 44.61,
+        "eps_actual": 65.52,
+        "surprise_pct": 46.87
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 43.15,
+        "eps_actual": 47.55,
+        "surprise_pct": 10.21
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 7.05,
+        "eps_actual": 10.17,
+        "surprise_pct": 44.26
+      },
+      {
+        "date": "2025-02-04",
+        "eps_estimate": 26.77,
+        "eps_actual": 42.16,
+        "surprise_pct": 57.47
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.57,
-    "institution_pct": 38.49,
+    "institution_pct": 38.41,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 38.49
+        "value": 38.41
       },
       {
         "label": "",
-        "value": 39.92
+        "value": 39.83
       },
       {
         "label": "",
-        "value": 559.0
+        "value": 562.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.01,
         "pct_change": 1.58,
-        "value": 3489707550
+        "value": 3547205900
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
@@ -65,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 25129650
+        "value": 25543700
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -73,17 +111,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -5.81,
-        "value": 254549547
+        "value": 258743646
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 161172416,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.36,
-        "pct_change": 0.1,
-        "value": 445077626784
+        "shares": 160717216,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.35,
+        "pct_change": -0.28,
+        "value": 451133225312
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,39 +129,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.87,
         "pct_change": 0.92,
-        "value": 286703563797
+        "value": 291427450146
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 78506000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.66,
-        "pct_change": 0.85,
-        "value": 216794319000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 41323695,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 0.71,
-        "value": 114115383742
+        "shares": 79361400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.67,
+        "pct_change": 1.12,
+        "value": 222767449800
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 39745780,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.33,
-        "pct_change": 1.01,
-        "value": 109757971470
+        "shares": 44096180,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": -1.42,
+        "value": 123777977260
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 41818195,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.35,
+        "pct_change": 1.2,
+        "value": 117383673365
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 39563080,
-        "date_reported": "2026-01-31",
+        "shares": 39049980,
+        "date_reported": "2026-03-31",
         "pct_held": 0.33,
-        "pct_change": 0.63,
-        "value": 109253445420
+        "pct_change": 0.1,
+        "value": 109613293860
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -3.96,
-        "value": 92578182900
+        "value": 94103552200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 29983700,
-        "date_reported": "2026-01-31",
+        "shares": 29398400,
+        "date_reported": "2026-03-31",
         "pct_held": 0.25,
-        "pct_change": 0.62,
-        "value": 82799987550
+        "pct_change": -2.14,
+        "value": 82521308800
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -147,7 +185,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.23,
         "pct_change": -14.71,
-        "value": 75957506950
+        "value": 77209024809
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Value Fund",
@@ -155,7 +193,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.22,
         "pct_change": 6.75,
-        "value": 73619226156
+        "value": 74832217208
       }
     ]
   }

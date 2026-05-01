@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:03:00.431246",
+  "fetched_at": "2026-05-01T04:35:00.640101",
   "ticker": "9432",
   "ticker_full": "9432.T",
   "company_name": "NTT INC",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 14,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 2.07692
   },
   "target_prices": {
     "has_data": true,
-    "current": 156.3,
+    "current": 152.0,
     "high": 215.0,
     "low": 146.0,
-    "mean": 175.64285,
-    "median": 174.0
+    "mean": 173.3077,
+    "median": 172.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": 4.88,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 3.7,
+        "eps_actual": 4.03,
+        "surprise_pct": 8.92
+      },
+      {
+        "date": "2025-11-03",
+        "eps_estimate": 4.46,
+        "eps_actual": 4.06,
+        "surprise_pct": -8.87
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 3.12,
+        "eps_actual": 3.14,
+        "surprise_pct": 0.64
+      },
+      {
+        "date": "2025-05-09",
+        "eps_estimate": 4.88,
+        "eps_actual": 1.81,
+        "surprise_pct": -62.89
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 4.08,
+        "eps_actual": 3.55,
+        "surprise_pct": -12.99
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 35.16,
-    "institution_pct": 14.18,
+    "institution_pct": 14.17,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 14.18
+        "value": 14.17
       },
       {
         "label": "",
-        "value": 21.87
+        "value": 21.86
       },
       {
         "label": "",
-        "value": 425.0
+        "value": 407.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 10941000
+        "value": 10640000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 10.37,
-        "value": 73961317
+        "value": 71926552
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 400705275,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.44,
-        "pct_change": 0.17,
-        "value": 62630235705
+        "shares": 403365775,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.45,
+        "pct_change": 0.66,
+        "value": 61311597800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,63 +121,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.29,
         "pct_change": 2.05,
-        "value": 40754612318
+        "value": 39633403400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 199093500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 0.97,
-        "value": 31118314657
+        "shares": 205685700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.23,
+        "pct_change": 1.28,
+        "value": 31264226400
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 142144000,
-        "date_reported": "2026-01-31",
+        "shares": 142232200,
+        "date_reported": "2026-03-31",
         "pct_held": 0.16,
-        "pct_change": 8.02,
-        "value": 22217107633
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 107665561,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.12,
-        "pct_change": 0.98,
-        "value": 16828127512
+        "pct_change": -2.82,
+        "value": 21619294400
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 103656700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.11,
-        "pct_change": 1.03,
-        "value": 16201542526
+        "shares": 116921600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.13,
+        "pct_change": -0.05,
+        "value": 17772083200
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 108991161,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.12,
+        "pct_change": 1.23,
+        "value": 16566656472
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 103002500,
-        "date_reported": "2026-01-31",
+        "shares": 103510600,
+        "date_reported": "2026-03-31",
         "pct_held": 0.11,
-        "pct_change": 0.51,
-        "value": 16099291064
-      },
-      {
-        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 78933500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.09,
-        "pct_change": 4.14,
-        "value": 12337306290
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 78161500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.09,
-        "pct_change": 0.64,
-        "value": 12216642688
+        "pct_change": 0.49,
+        "value": 15733611200
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -147,7 +169,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": -3.96,
-        "value": 12567145445
+        "value": 12221408000
+      },
+      {
+        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
+        "shares": 80914700,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.09,
+        "pct_change": 2.51,
+        "value": 12299034400
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
+        "shares": 77863200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.09,
+        "pct_change": -2.21,
+        "value": 11835206400
       }
     ]
   }

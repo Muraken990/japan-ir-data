@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:48.740054",
+  "fetched_at": "2026-05-01T04:13:48.296579",
   "ticker": "6254",
   "ticker_full": "6254.T",
   "company_name": "NOMURA MICRO SCIENCE CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3210.0,
+    "current": 3685.0,
     "high": 4700.0,
     "low": 4700.0,
     "mean": 4700.0,
     "median": 4700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 34.18,
+        "eps_actual": 38.17,
+        "surprise_pct": 11.67
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 18.09,
+        "eps_actual": 24.99,
+        "surprise_pct": 38.14
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 14.21,
+        "eps_actual": 12.27,
+        "surprise_pct": -13.65
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 202.58,
+        "eps_actual": 215.84,
+        "surprise_pct": 6.55
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 38.06,
+        "eps_actual": 54.17,
+        "surprise_pct": 42.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.27,
-    "institution_pct": 21.11,
+    "institution_pct": 21.39,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 21.11
+        "value": 21.39
       },
       {
         "label": "",
-        "value": 27.16
+        "value": 27.51
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 71.0
       }
     ],
     "institutional_holders": [],

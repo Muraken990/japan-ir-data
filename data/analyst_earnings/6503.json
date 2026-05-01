@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:50.493305",
+  "fetched_at": "2026-05-01T04:34:49.512379",
   "ticker": "6503",
   "ticker_full": "6503.T",
   "company_name": "MITSUBISHI ELECTRIC CORP",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 15,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.86667
+    "recommendation_mean": 1.92857
   },
   "target_prices": {
     "has_data": true,
-    "current": 5275.0,
-    "high": 7000.0,
+    "current": 6133.0,
+    "high": 7200.0,
     "low": 2800.0,
-    "mean": 5464.933,
-    "median": 5900.0
+    "mean": 5921.4287,
+    "median": 6600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 51.26,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 40.03,
+        "eps_actual": 53.46,
+        "surprise_pct": 33.55
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 43.14,
+        "eps_actual": 53.11,
+        "surprise_pct": 23.12
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 37.66,
+        "eps_actual": 47.85,
+        "surprise_pct": 27.05
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 30.68,
+        "eps_actual": 43.89,
+        "surprise_pct": 43.04
+      },
+      {
+        "date": "2025-04-28",
+        "eps_estimate": 31.46,
+        "eps_actual": 36.62,
+        "surprise_pct": 16.38
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.95,
-    "institution_pct": 49.71,
+    "institution_pct": 49.68,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 49.71
+        "value": 49.68
       },
       {
         "label": "",
-        "value": 51.22
+        "value": 51.19
       },
       {
         "label": "",
-        "value": 427.0
+        "value": 431.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -99.22,
-        "value": 57930050
+        "value": 67352606
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
@@ -65,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 274300000
+        "value": 318916000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -73,17 +111,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.9,
-        "value": 115448650
+        "value": 134226838
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 29061595,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.38,
-        "pct_change": 0.15,
-        "value": 153299913625
+        "shares": 28893395,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.37,
+        "pct_change": -0.58,
+        "value": 177203191535
       },
       {
         "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
@@ -91,7 +129,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.16,
         "pct_change": -22.59,
-        "value": 129501250000
+        "value": 150565150000
       },
       {
         "holder": "MFS Series Trust XVII-MFS International Equity Fund",
@@ -99,7 +137,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": -7.2,
-        "value": 98637225000
+        "value": 114680967000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -107,15 +145,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": 0.64,
-        "value": 98380406350
-      },
-      {
-        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
-        "shares": 16197300,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.77,
-        "pct_change": -10.02,
-        "value": 85440757500
+        "value": 114382375762
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -123,7 +153,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.69,
         "pct_change": 1.43,
-        "value": 76568735000
+        "value": 89022948200
       },
       {
         "holder": "First Eagle Funds-First Eagle Global Fund",
@@ -131,31 +161,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.68,
         "pct_change": -33.62,
-        "value": 75368145000
+        "value": 87627077400
+      },
+      {
+        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
+        "shares": 13640100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.65,
+        "pct_change": -15.79,
+        "value": 83654733300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 13050800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 0.88,
-        "value": 68842970000
+        "shares": 13377800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.63,
+        "pct_change": 1.16,
+        "value": 82046047400
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.",
         "shares": 9746500,
         "date_reported": "2026-01-31",
         "pct_held": 0.46,
-        "pct_change": -7.78,
-        "value": 51412787500
+        "pct_change": -4.1,
+        "value": 59775284500
       },
       {
         "holder": "-Price (T.Rowe) International Core Equity Trust",
-        "shares": 7865900,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.37,
-        "pct_change": -5.17,
-        "value": 41492622500
+        "shares": 7622200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.36,
+        "pct_change": -3.1,
+        "value": 46746952600
       }
     ]
   }

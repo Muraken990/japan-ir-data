@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:47.182665",
+  "fetched_at": "2026-05-01T04:15:06.155795",
   "ticker": "4592",
   "ticker_full": "4592.T",
   "company_name": "SANBIO COMPANY LIMITED",
@@ -9,8 +9,8 @@
     "period": "2",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 3,
-    "sell": 2,
+    "hold": 4,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 5,
     "recommendation_key": "hold",
@@ -18,70 +18,88 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1879.0,
+    "current": 1940.0,
     "high": 2900.0,
     "low": 1500.0,
     "mean": 2100.0,
     "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-03-17",
+        "eps_estimate": -20.69,
+        "eps_actual": -14.8,
+        "surprise_pct": 28.48
+      },
+      {
+        "date": "2025-12-15",
+        "eps_estimate": -15.35,
+        "eps_actual": -9.95,
+        "surprise_pct": 35.18
+      },
+      {
+        "date": "2018-12-14",
+        "eps_estimate": -16.1,
+        "eps_actual": -10.18,
+        "surprise_pct": 36.77
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 24.03,
-    "institution_pct": 7.16,
+    "insider_pct": 24.93,
+    "institution_pct": 9.74,
     "major_holders": [
       {
         "label": "",
-        "value": 24.03
+        "value": 24.93
       },
       {
         "label": "",
-        "value": 7.16
+        "value": 9.74
       },
       {
         "label": "",
-        "value": 9.42
+        "value": 12.98
       },
       {
         "label": "",
-        "value": 34.0
+        "value": 33.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 397100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 746150900
+        "value": 770374000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 209500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.9,
-        "value": 393650500
+        "shares": 218200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.39,
+        "value": 423308000
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 187500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 352312500
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
-        "shares": 72300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.09,
-        "pct_change": 0.0,
-        "value": 135851700
+        "value": 363750000
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -89,7 +107,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": 1.0,
-        "value": 132657400
+        "value": 136964000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+        "shares": 72300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.09,
+        "pct_change": 0.0,
+        "value": 140262000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -97,23 +123,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 77414800
+        "value": 79928000
       },
       {
         "holder": "Fidelity Salem Street Trust-Fidelity Total International Index Fund",
         "shares": 26500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.03,
         "pct_change": 0.0,
-        "value": 49793500
+        "value": 51410000
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 23500,
-        "date_reported": "2026-01-31",
+        "shares": 23900,
+        "date_reported": "2026-02-28",
         "pct_held": 0.03,
-        "pct_change": 0.0,
-        "value": 44156500
+        "pct_change": 1.7,
+        "value": 46366000
       },
       {
         "holder": "STATE STREET Inst. INVESTMENT TRT-State Street Global All Cap Eqy. ex-",
@@ -121,7 +147,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 28748700
+        "value": 29682000
       },
       {
         "holder": "Fidelity Concord Street TRT-Fidelity SAI Intl Small Cap Index Fd.",
@@ -129,7 +155,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 28748700
+        "value": 29682000
       }
     ],
     "mutualfund_holders": []

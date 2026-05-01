@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:33.993518",
+  "fetched_at": "2026-05-01T04:32:29.242243",
   "ticker": "5019",
   "ticker_full": "5019.T",
   "company_name": "IDEMITSU KOSAN CO.LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 0,
+    "strong_buy": 1,
     "buy": 2,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
+    "total_analysts": 8,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.375
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 1585.0,
+    "current": 1351.0,
     "high": 1850.0,
     "low": 1000.0,
-    "mean": 1420.0,
-    "median": 1540.0
+    "mean": 1407.5,
+    "median": 1490.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 18.94,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 27.46,
+        "eps_actual": 21.44,
+        "surprise_pct": -21.92
+      },
+      {
+        "date": "2024-08-05",
+        "eps_estimate": 34.56,
+        "eps_actual": 69.24,
+        "surprise_pct": 100.35
+      },
+      {
+        "date": "2024-02-12",
+        "eps_estimate": 29.74,
+        "eps_actual": 52.87,
+        "surprise_pct": 77.78
+      },
+      {
+        "date": "2023-11-14",
+        "eps_estimate": 36.3,
+        "eps_actual": 83.59,
+        "surprise_pct": 130.28
+      },
+      {
+        "date": "2023-08-08",
+        "eps_estimate": 26.1,
+        "eps_actual": 31.3,
+        "surprise_pct": 19.92
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.39,
-    "institution_pct": 28.7,
+    "institution_pct": 28.49,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 28.7
+        "value": 28.49
       },
       {
         "label": "",
-        "value": 43.74
+        "value": 43.43
       },
       {
         "label": "",
-        "value": 223.0
+        "value": 224.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.16,
         "pct_change": 3.29,
-        "value": 3323367770
+        "value": 2832725462
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 11359690,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.88,
-        "pct_change": -0.14,
-        "value": 18005108650
+        "shares": 11478290,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.89,
+        "pct_change": 1.04,
+        "value": 15507169790
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.57,
         "pct_change": 1.74,
-        "value": 11640596625
+        "value": 9922047975
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 5363240,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.42,
-        "pct_change": 1.0,
-        "value": 8500735400
+        "shares": 5515840,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.43,
+        "pct_change": 1.31,
+        "value": 7451899840
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -91,23 +129,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 3.42,
-        "value": 5727556000
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
-        "shares": 3325000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.26,
-        "pct_change": 0.0,
-        "value": 5270125000
+        "value": 4881973600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 3278824,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.25,
-        "pct_change": 8.75,
-        "value": 5196936040
+        "shares": 3532610,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.27,
+        "pct_change": 7.74,
+        "value": 4772556110
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -115,31 +145,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 4934596350
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2782859,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 1.18,
-        "value": 4410831515
+        "value": 4206081810
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2683645,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 1.1,
-        "value": 4253577325
+        "shares": 3030845,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.24,
+        "pct_change": -0.46,
+        "value": 4094671595
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 2818159,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.22,
+        "pct_change": 1.27,
+        "value": 3807332809
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 2668415,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 0.57,
-        "value": 4229437775
+        "pct_change": 0.0,
+        "value": 3605028665
+      },
+      {
+        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
+        "shares": 2530760,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.2,
+        "pct_change": -3.95,
+        "value": 3419056760
       }
     ]
   }

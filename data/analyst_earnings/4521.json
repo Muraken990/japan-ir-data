@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:18.169149",
+  "fetched_at": "2026-05-01T04:18:42.062304",
   "ticker": "4521",
   "ticker_full": "4521.T",
   "company_name": "KAKEN PHARMACEUTICAL",
@@ -13,25 +13,39 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 4185.0,
+    "current": 4065.0,
     "high": 5200.0,
     "low": 3600.0,
-    "mean": 4333.3335,
-    "median": 4200.0
+    "mean": 4375.0,
+    "median": 4350.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-06",
+        "eps_estimate": 24.79,
+        "eps_actual": 10.71,
+        "surprise_pct": -56.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.25,
-    "institution_pct": 22.43,
+    "institution_pct": 22.51,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +53,15 @@
       },
       {
         "label": "",
-        "value": 22.43
+        "value": 22.51
       },
       {
         "label": "",
-        "value": 27.11
+        "value": 27.21
       },
       {
         "label": "",
-        "value": 83.0
+        "value": 85.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +71,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 199624500
+        "value": 193900500
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +81,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.22,
         "pct_change": 0.0,
-        "value": 2256552000
+        "value": 2191848000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 458560,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.04,
         "pct_change": 0.0,
-        "value": 1919073600
+        "value": 1864046400
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -83,7 +97,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.69,
         "pct_change": 44.47,
-        "value": 1267130115
+        "value": 1230796635
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +105,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.65,
         "pct_change": 0.0,
-        "value": 1199446110
+        "value": 1165053390
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 196700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 823189500
+        "value": 799585500
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -107,23 +121,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": 9.59,
-        "value": 598036500
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 108900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 1.21,
-        "value": 455746500
+        "value": 580888500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 105900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.24,
-        "pct_change": 3.72,
-        "value": 443191500
+        "shares": 113300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.26,
+        "pct_change": 6.99,
+        "value": 460564500
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 111800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": 0.9,
+        "value": 454467000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -131,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": 20.72,
-        "value": 380416500
+        "value": 369508500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -139,7 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": -6.85,
-        "value": 307179000
+        "value": 298371000
       }
     ]
   }

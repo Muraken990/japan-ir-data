@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:59.238799",
+  "fetched_at": "2026-05-01T04:18:21.602214",
   "ticker": "6055",
   "ticker_full": "6055.T",
   "company_name": "JAPAN MATERIAL CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 4,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.8
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1636.0,
+    "current": 1815.0,
     "high": 2500.0,
-    "low": 1900.0,
-    "mean": 2125.0,
+    "low": 2000.0,
+    "mean": 2150.0,
     "median": 2050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 23.92,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 23.73,
+        "eps_actual": 27.26,
+        "surprise_pct": 14.88
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 20.33,
+        "eps_actual": 21.01,
+        "surprise_pct": 3.34
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 18.29,
+        "eps_actual": 20.78,
+        "surprise_pct": 13.61
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 23.92,
+        "eps_actual": 29.14,
+        "surprise_pct": 21.82
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 18.5,
+        "eps_actual": 19.0,
+        "surprise_pct": 2.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.84,
-    "institution_pct": 33.78,
+    "institution_pct": 33.04,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 33.78
+        "value": 33.04
       },
       {
         "label": "",
-        "value": 51.85
+        "value": 50.71
       },
       {
         "label": "",
-        "value": 106.0
+        "value": 108.0
       }
     ],
     "institutional_holders": [],

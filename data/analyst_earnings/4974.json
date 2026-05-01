@@ -1,63 +1,101 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:51.464888",
+  "fetched_at": "2026-05-01T04:11:48.906371",
   "ticker": "4974",
   "ticker_full": "4974.T",
   "company_name": "TAKARA BIO INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 2,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
+    "total_analysts": 2,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1148.0,
-    "high": 1900.0,
-    "low": 1900.0,
-    "mean": 1900.0,
-    "median": 1900.0
+    "current": 1142.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 16.1,
+        "eps_actual": 20.1,
+        "surprise_pct": 24.84
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": -6.0,
+        "eps_actual": -15.71,
+        "surprise_pct": -161.83
+      },
+      {
+        "date": "2024-11-08",
+        "eps_estimate": 1.1,
+        "eps_actual": 12.96,
+        "surprise_pct": 1078.18
+      },
+      {
+        "date": "2024-08-07",
+        "eps_estimate": -4.5,
+        "eps_actual": -8.7,
+        "surprise_pct": -93.33
+      },
+      {
+        "date": "2024-05-09",
+        "eps_estimate": 11.4,
+        "eps_actual": 11.02,
+        "surprise_pct": -3.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 61.73,
-    "institution_pct": 11.15,
+    "insider_pct": 87.27,
+    "institution_pct": 7.18,
     "major_holders": [
       {
         "label": "",
-        "value": 61.73
+        "value": 87.27
       },
       {
         "label": "",
-        "value": 11.15
+        "value": 7.18
       },
       {
         "label": "",
-        "value": 29.12
+        "value": 56.37
       },
       {
         "label": "",
-        "value": 63.0
+        "value": 57.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 662320,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 760343360
+        "value": 756369440
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 478053604
+        "value": 475555066
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 282500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 324310000
+        "value": 322615000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,31 +119,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 32.0,
-        "value": 254740052
+        "value": 253408658
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 200300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": 1.32,
-        "value": 229944400
+        "shares": 192300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.16,
+        "pct_change": -5.78,
+        "value": 219606600
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 182100,
-        "date_reported": "2026-01-31",
+        "shares": 181900,
+        "date_reported": "2026-03-31",
         "pct_held": 0.15,
-        "pct_change": 6.06,
-        "value": 209050800
+        "pct_change": -2.36,
+        "value": 207729800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 171600,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.14,
-        "pct_change": 7.52,
-        "value": 196996800
+        "pct_change": 0.0,
+        "value": 195967200
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -113,15 +151,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": 12.75,
-        "value": 184713200
+        "value": 183747800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 142900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 164049200
+        "value": 163191800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": -34.96,
-        "value": 125361600
+        "value": 124706400
       }
     ],
     "mutualfund_holders": []

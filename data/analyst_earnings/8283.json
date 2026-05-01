@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:51.293470",
+  "fetched_at": "2026-05-01T04:23:30.061570",
   "ticker": "8283",
   "ticker_full": "8283.T",
   "company_name": "PALTAC CORP",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4949.0,
+    "current": 4645.0,
     "high": 5170.0,
     "low": 5120.0,
     "mean": 5145.0,
     "median": 5145.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2019-01-29",
+        "eps_estimate": 81.8,
+        "eps_actual": 87.49,
+        "surprise_pct": 6.96
+      },
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 43.59,
+        "eps_actual": 49.7,
+        "surprise_pct": 14.02
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": 34.64,
+        "eps_actual": 45.31,
+        "surprise_pct": 30.79
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 37.55,
+        "eps_actual": 38.9,
+        "surprise_pct": 3.58
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 38.07,
+        "eps_actual": 44.18,
+        "surprise_pct": 16.04
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 55.83,
-    "institution_pct": 20.45,
+    "institution_pct": 20.48,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 20.45
+        "value": 20.48
       },
       {
         "label": "",
-        "value": 46.31
+        "value": 46.37
       },
       {
         "label": "",
-        "value": 99.0
+        "value": 98.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +95,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.89,
         "pct_change": 0.0,
-        "value": 5807651500
+        "value": 5450907500
       },
       {
         "holder": "Third Avenue Trust-THIRD AVENUE VALUE FUND",
         "shares": 701700,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.13,
         "pct_change": 0.0,
-        "value": 3472713300
+        "value": 3259396500
       },
       {
         "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
-        "shares": 622600,
-        "date_reported": "2025-12-31",
-        "pct_held": 1.0,
-        "pct_change": -0.35,
-        "value": 3081247400
+        "shares": 558900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.9,
+        "pct_change": -10.23,
+        "value": 2596090500
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.86,
         "pct_change": -10.94,
-        "value": 2627923949
+        "value": 2466499645
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -89,15 +127,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.73,
         "pct_change": 0.38,
-        "value": 2251795000
+        "value": 2113475000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 401849,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.65,
-        "pct_change": -2.66,
-        "value": 1988750701
+        "pct_change": 0.0,
+        "value": 1866588605
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -105,23 +143,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.41,
         "pct_change": 2.71,
-        "value": 1257140031
+        "value": 1179918255
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 164200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 812625800
-      },
-      {
-        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 138157,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.22,
-        "pct_change": 0.0,
-        "value": 683738993
+        "value": 762709000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 668609900
+        "value": 627539500
+      },
+      {
+        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
+        "shares": 134457,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": -2.68,
+        "value": 624552765
       }
     ],
     "mutualfund_holders": []

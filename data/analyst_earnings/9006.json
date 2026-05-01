@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:03.101931",
+  "fetched_at": "2026-05-01T04:25:46.207163",
   "ticker": "9006",
   "ticker_full": "9006.T",
   "company_name": "KEIKYU CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 3,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1540.0,
+    "current": 1542.5,
     "high": 1660.0,
     "low": 1500.0,
     "mean": 1577.5,
     "median": 1575.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 11.3,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 11.3,
+        "eps_actual": 20.36,
+        "surprise_pct": 80.18
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 24.0,
+        "eps_actual": 18.32,
+        "surprise_pct": -23.67
+      },
+      {
+        "date": "2024-02-12",
+        "eps_estimate": 18.9,
+        "eps_actual": 22.5,
+        "surprise_pct": 19.05
+      },
+      {
+        "date": "2023-11-10",
+        "eps_estimate": 20.71,
+        "eps_actual": 19.93,
+        "surprise_pct": -3.77
+      },
+      {
+        "date": "2023-05-09",
+        "eps_estimate": 9.17,
+        "eps_actual": 0.51,
+        "surprise_pct": -94.44
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.08,
-    "institution_pct": 29.57,
+    "institution_pct": 29.79,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 29.57
+        "value": 29.79
       },
       {
         "label": "",
-        "value": 36.1
+        "value": 36.37
       },
       {
         "label": "",
-        "value": 90.0
+        "value": 88.0
       }
     ],
     "institutional_holders": [],

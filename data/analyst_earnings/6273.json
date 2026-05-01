@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:50.795486",
+  "fetched_at": "2026-05-01T04:33:48.671159",
   "ticker": "6273",
   "ticker_full": "6273.T",
   "company_name": "SMC CORP",
@@ -14,24 +14,62 @@
     "strong_sell": 1,
     "total_analysts": 16,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.9375
+    "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 63400.0,
+    "current": 76100.0,
     "high": 100000.0,
-    "low": 48000.0,
-    "mean": 78762.5,
-    "median": 81500.0
+    "low": 56000.0,
+    "mean": 80813.336,
+    "median": 83000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 655.25,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 563.61,
+        "eps_actual": 671.37,
+        "surprise_pct": 19.12
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 551.56,
+        "eps_actual": 701.81,
+        "surprise_pct": 27.24
+      },
+      {
+        "date": "2025-08-08",
+        "eps_estimate": 608.61,
+        "eps_actual": 543.79,
+        "surprise_pct": -10.65
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 569.4,
+        "eps_actual": 564.33,
+        "surprise_pct": -0.89
+      },
+      {
+        "date": "2025-02-14",
+        "eps_estimate": 792.82,
+        "eps_actual": 660.82,
+        "surprise_pct": -16.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.48,
-    "institution_pct": 52.53,
+    "institution_pct": 52.61,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 52.53
+        "value": 52.61
       },
       {
         "label": "",
-        "value": 60.72
+        "value": 60.81
       },
       {
         "label": "",
-        "value": 351.0
+        "value": 347.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.1,
-        "value": 29734600
+        "value": 35690900
       }
     ],
     "mutualfund_holders": [
@@ -67,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 2.87,
         "pct_change": 0.0,
-        "value": 116146010400
+        "value": 139411851600
       },
       {
         "holder": "CAUSEWAY CAPITAL MANAGEMENT TRUST-CAUSEWAY INTERNATIONAL VALUE FUND",
@@ -75,7 +113,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.57,
         "pct_change": 1.26,
-        "value": 63767720000
+        "value": 76541380000
       },
       {
         "holder": "HARRIS ASSOCIATES INVESTMENT TRUST-Oakmark International Fund",
@@ -83,15 +121,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.29,
         "pct_change": 1.02,
-        "value": 52266960000
+        "value": 62736840000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 798431,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.25,
-        "pct_change": 0.09,
-        "value": 50620525400
+        "shares": 805031,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.26,
+        "pct_change": 0.83,
+        "value": 61262859100
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
@@ -99,7 +137,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.97,
         "pct_change": 0.0,
-        "value": 39288346000
+        "value": 47158409000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -107,7 +145,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.82,
         "pct_change": 2.07,
-        "value": 33095560800
+        "value": 39725113200
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 397200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 1.4,
+        "value": 30226920000
       },
       {
         "holder": "Bernstein Fund Inc-International Strategic Equities Portfolio",
@@ -115,31 +161,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.61,
         "pct_change": 1.0,
-        "value": 24713320000
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 389400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.61,
-        "pct_change": 0.0,
-        "value": 24687960000
+        "value": 29663780000
       },
       {
         "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
-        "shares": 331066,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.52,
-        "pct_change": 3.14,
-        "value": 20989584400
+        "shares": 335645,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.53,
+        "pct_change": 0.95,
+        "value": 25542584500
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 239900,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.38,
-        "pct_change": -2.64,
-        "value": 15209660000
+        "shares": 289200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.45,
+        "pct_change": 20.55,
+        "value": 22008120000
       }
     ]
   }

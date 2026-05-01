@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:52.601344",
+  "fetched_at": "2026-05-01T04:24:31.845697",
   "ticker": "4902",
   "ticker_full": "4902.T",
   "company_name": "KONICA MINOLTA INC",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 537.9,
-    "high": 800.0,
+    "current": 509.3,
+    "high": 700.0,
     "low": 500.0,
-    "mean": 658.75,
+    "mean": 646.25,
     "median": 670.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 6.6,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 15.2,
+        "eps_actual": -2.38,
+        "surprise_pct": -115.66
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 13.8,
+        "eps_actual": 31.02,
+        "surprise_pct": 124.78
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 6.1,
+        "eps_actual": 14.74,
+        "surprise_pct": 141.64
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": -2.2,
+        "eps_actual": -68.89,
+        "surprise_pct": -3031.36
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": -10.1,
+        "eps_actual": -5.43,
+        "surprise_pct": 46.24
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.89,
-    "institution_pct": 61.65,
+    "institution_pct": 61.75,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 61.65
+        "value": 61.75
       },
       {
         "label": "",
-        "value": 63.48
+        "value": 63.58
       },
       {
         "label": "",
-        "value": 135.0
+        "value": 132.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.78,
         "pct_change": -3.68,
-        "value": 4813559738
+        "value": 4557623730
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6738988,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.34,
-        "pct_change": 0.0,
-        "value": 3624901809
+        "shares": 6816988,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.36,
+        "pct_change": 1.16,
+        "value": 3471891905
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 4536100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.9,
+        "pct_change": 46.28,
+        "value": 2310235674
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,39 +119,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": 2.49,
-        "value": 2391362040
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 3825600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.76,
-        "pct_change": 0.0,
-        "value": 2057790333
+        "value": 2264213799
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3604800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.72,
-        "pct_change": 0.85,
-        "value": 1939022008
+        "shares": 3692000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.73,
+        "pct_change": 1.12,
+        "value": 1880335554
       },
       {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 3101000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.62,
-        "pct_change": 15.77,
-        "value": 1668027975
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 2900300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.58,
+        "pct_change": -24.19,
+        "value": 1477122754
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
-        "shares": 2162300,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.43,
-        "pct_change": -1.97,
-        "value": 1163101222
+        "shares": 2119200,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.42,
+        "pct_change": -1.99,
+        "value": 1079308534
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -113,23 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": 31.23,
-        "value": 1077736488
+        "value": 1020433455
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 1866900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.37,
-        "pct_change": 29.0,
-        "value": 1004205555
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 1967800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.39,
+        "pct_change": 10.38,
+        "value": 1002200515
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1818800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.67,
-        "value": 978332564
+        "shares": 1887400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.38,
+        "pct_change": 1.29,
+        "value": 961252796
       }
     ],
     "mutualfund_holders": []

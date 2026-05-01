@@ -1,53 +1,60 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:16.922842",
+  "fetched_at": "2026-05-01T04:18:40.624876",
   "ticker": "4634",
   "ticker_full": "4634.T",
   "company_name": "ARTIENCE CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
-    "strong_buy": 1,
+    "period": "2",
+    "strong_buy": 0,
     "buy": 1,
-    "hold": 0,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3850.0,
+    "current": 3905.0,
     "high": 4700.0,
     "low": 4100.0,
     "mean": 4400.0,
     "median": 4400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 31.24,
-    "institution_pct": 21.51,
+    "insider_pct": 31.21,
+    "institution_pct": 18.91,
     "major_holders": [
       {
         "label": "",
-        "value": 31.24
+        "value": 31.21
       },
       {
         "label": "",
-        "value": 21.51
+        "value": 18.91
       },
       {
         "label": "",
-        "value": 31.28
+        "value": 27.48
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [],

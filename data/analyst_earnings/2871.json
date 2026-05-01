@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:07.845451",
+  "fetched_at": "2026-05-01T04:26:54.596570",
   "ticker": "2871",
   "ticker_full": "2871.T",
   "company_name": "NICHIREI CORP",
@@ -18,46 +18,84 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2001.0,
+    "current": 1891.5,
     "high": 2450.0,
     "low": 1700.0,
     "mean": 2216.6667,
     "median": 2325.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 23.14,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 33.71,
+        "eps_actual": 30.76,
+        "surprise_pct": -8.75
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 28.54,
+        "eps_actual": 33.93,
+        "surprise_pct": 18.89
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 26.74,
+        "eps_actual": 22.54,
+        "surprise_pct": -15.71
+      },
+      {
+        "date": "2025-02-03",
+        "eps_estimate": 32.44,
+        "eps_actual": 30.26,
+        "surprise_pct": -6.74
+      },
+      {
+        "date": "2024-11-04",
+        "eps_estimate": 27.23,
+        "eps_actual": 25.18,
+        "surprise_pct": -7.55
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.12,
-    "institution_pct": 54.91,
+    "insider_pct": 7.08,
+    "institution_pct": 52.95,
     "major_holders": [
       {
         "label": "",
-        "value": 7.12
+        "value": 7.08
       },
       {
         "label": "",
-        "value": 54.91
+        "value": 52.95
       },
       {
         "label": "",
-        "value": 59.12
+        "value": 56.99
       },
       {
         "label": "",
-        "value": 156.0
+        "value": 151.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2732286,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.06,
-        "pct_change": 0.06,
-        "value": 5467304286
+        "shares": 2753586,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.07,
+        "pct_change": 0.78,
+        "value": 5208407919
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.67,
         "pct_change": -0.24,
-        "value": 3456487380
+        "value": 3267339270
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1490800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": 1.03,
-        "value": 2983090800
+        "shares": 1534400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.6,
+        "pct_change": 1.35,
+        "value": 2902317600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.38,
         "pct_change": 40.2,
-        "value": 1949546286
+        "value": 1842861969
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -89,15 +127,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 1830396741
+        "value": 1730232601
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 784000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.69,
-        "value": 1568784000
+        "shares": 813000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 1.25,
+        "value": 1537789500
+      },
+      {
+        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
+        "shares": 541000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.21,
+        "pct_change": 4.4,
+        "value": 1023301500
       },
       {
         "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
@@ -105,31 +151,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.2,
         "pct_change": -2.55,
-        "value": 1047323400
-      },
-      {
-        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
-        "shares": 507000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.2,
-        "pct_change": 2.44,
-        "value": 1014507000
+        "value": 990011100
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 401840,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.16,
-        "pct_change": 2.24,
-        "value": 804081840
+        "pct_change": 0.0,
+        "value": 760080360
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 408400,
-        "date_reported": "2025-11-30",
+        "shares": 412215,
+        "date_reported": "2026-02-28",
         "pct_held": 0.16,
-        "pct_change": 0.91,
-        "value": 817208400
+        "pct_change": 0.93,
+        "value": 779704672
       }
     ],
     "mutualfund_holders": []

@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:02.030982",
+  "fetched_at": "2026-05-01T04:16:23.221903",
   "ticker": "3543",
   "ticker_full": "3543.T",
   "company_name": "KOMEDA HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 2,
     "buy": 2,
-    "hold": 0,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2964.0,
+    "current": 3020.0,
     "high": 3400.0,
-    "low": 3000.0,
-    "mean": 3260.0,
-    "median": 3300.0
+    "low": 3100.0,
+    "mean": 3300.0,
+    "median": 3400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-08",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.17,
-    "institution_pct": 21.75,
+    "institution_pct": 25.15,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +46,25 @@
       },
       {
         "label": "",
-        "value": 21.75
+        "value": 25.15
       },
       {
         "label": "",
-        "value": 21.78
+        "value": 25.19
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 74.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 638194,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.38,
-        "pct_change": 3.7,
-        "value": 1891607016
-      },
-      {
-        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 436400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.94,
-        "pct_change": 11.87,
-        "value": 1293489600
+        "pct_change": 0.0,
+        "value": 1927345880
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +72,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.93,
         "pct_change": 0.0,
-        "value": 1276019784
+        "value": 1300128120
+      },
+      {
+        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
+        "shares": 387400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.84,
+        "pct_change": -11.23,
+        "value": 1169948000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 341700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.74,
-        "pct_change": 0.0,
-        "value": 1012798800
+        "shares": 368400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.8,
+        "pct_change": 7.81,
+        "value": 1112568000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +96,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.58,
         "pct_change": 0.0,
-        "value": 796723200
+        "value": 811776000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,39 +104,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.45,
         "pct_change": -1.53,
-        "value": 610584000
+        "value": 622120000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 174100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.38,
-        "pct_change": 1.52,
-        "value": 516032400
+        "shares": 185300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.4,
+        "pct_change": 4.16,
+        "value": 559606000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 153400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.33,
-        "pct_change": 5.14,
-        "value": 454677600
+        "shares": 164300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.36,
+        "pct_change": 7.11,
+        "value": 496186000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 137400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 407253600
+        "value": 414948000
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 97869,
-        "date_reported": "2025-11-30",
+        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+        "shares": 98000,
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 19.06,
-        "value": 290083716
+        "pct_change": 0.0,
+        "value": 295960000
       }
     ],
     "mutualfund_holders": []

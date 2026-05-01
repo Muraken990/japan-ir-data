@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:52.648528",
+  "fetched_at": "2026-05-01T04:25:32.880288",
   "ticker": "8088",
   "ticker_full": "8088.T",
   "company_name": "IWATANI CORPORATION",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 2,
+    "buy": 0,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 2042.0,
-    "high": 1850.0,
-    "low": 1500.0,
-    "mean": 1722.5,
-    "median": 1770.0
+    "current": 1899.5,
+    "high": 2300.0,
+    "low": 1740.0,
+    "mean": 1888.0,
+    "median": 1800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-05-13",
+        "eps_estimate": 46.43,
+        "eps_actual": 48.76,
+        "surprise_pct": 5.02
+      },
+      {
+        "date": "2017-02-05",
+        "eps_estimate": 10.92,
+        "eps_actual": 20.76,
+        "surprise_pct": 90.2
+      },
+      {
+        "date": "2016-08-04",
+        "eps_estimate": 4.52,
+        "eps_actual": 9.56,
+        "surprise_pct": 111.44
+      },
+      {
+        "date": "2016-02-07",
+        "eps_estimate": 10.64,
+        "eps_actual": 14.76,
+        "surprise_pct": 38.75
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 4.01,
+        "eps_actual": 13.81,
+        "surprise_pct": 244.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.7,
-    "institution_pct": 32.34,
+    "institution_pct": 32.38,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 32.34
+        "value": 32.38
       },
       {
         "label": "",
-        "value": 39.29
+        "value": 39.35
       },
       {
         "label": "",
-        "value": 112.0
+        "value": 116.0
       }
     ],
     "institutional_holders": [],

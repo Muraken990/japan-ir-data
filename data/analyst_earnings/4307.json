@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:49.504845",
+  "fetched_at": "2026-05-01T04:33:47.163850",
   "ticker": "4307",
   "ticker_full": "4307.T",
   "company_name": "NOMURA RESEARCH INSTITUTE",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
-    "buy": 5,
+    "strong_buy": 4,
+    "buy": 6,
     "hold": 4,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 13,
+    "total_analysts": 15,
     "recommendation_key": "buy",
     "recommendation_mean": 1.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 4590.0,
-    "high": 7000.0,
+    "current": 4186.0,
+    "high": 6800.0,
     "low": 4900.0,
-    "mean": 5790.0,
+    "mean": 5730.0,
     "median": 5500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 41.95,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-24",
+        "eps_estimate": 33.9,
+        "eps_actual": -118.59,
+        "surprise_pct": -449.87
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 50.7,
+        "eps_actual": 51.68,
+        "surprise_pct": 1.93
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 45.81,
+        "eps_actual": 48.1,
+        "surprise_pct": 5.0
+      },
+      {
+        "date": "2025-07-28",
+        "eps_estimate": 41.95,
+        "eps_actual": 45.43,
+        "surprise_pct": 8.3
+      },
+      {
+        "date": "2025-04-24",
+        "eps_estimate": 34.15,
+        "eps_actual": 38.42,
+        "surprise_pct": 12.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.96,
-    "institution_pct": 43.12,
+    "institution_pct": 41.95,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.12
+        "value": 41.95
       },
       {
         "label": "",
-        "value": 59.04
+        "value": 57.44
       },
       {
         "label": "",
-        "value": 359.0
+        "value": 352.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.74,
-        "value": 15606000
+        "value": 14232400
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "MFS SERIES TRUST X-MFS International Growth Fund",
-        "shares": 6242100,
-        "date_reported": "2025-11-30",
-        "pct_held": 1.07,
-        "pct_change": 3.43,
-        "value": 28651239000
+        "shares": 6371200,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.1,
+        "pct_change": 2.07,
+        "value": 26669843200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6065350,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.04,
-        "pct_change": 0.46,
-        "value": 27839956500
+        "shares": 6075750,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.05,
+        "pct_change": 0.17,
+        "value": 25433089500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,23 +121,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.68,
         "pct_change": 1.64,
-        "value": 18015919830
+        "value": 16430204882
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2599240,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.45,
-        "pct_change": 0.88,
-        "value": 11930511600
+        "shares": 2664640,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.46,
+        "pct_change": 1.16,
+        "value": 11154183040
       },
       {
-        "holder": "-Price (T.Rowe) International Core Equity Trust",
-        "shares": 1811400,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.31,
-        "pct_change": -29.54,
-        "value": 8314326000
+        "holder": "BNY Mellon Strategic Funds, Inc.-BNY Mellon International Stock Fund",
+        "shares": 1851400,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.32,
+        "pct_change": 4.47,
+        "value": 7749960400
       },
       {
         "holder": "Legg Mason Global Asset Mgmt TRT-ClearBridge Intl Growth Fd.",
@@ -107,39 +145,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 12.47,
-        "value": 8270151840
-      },
-      {
-        "holder": "BNY Mellon Strategic Funds, Inc.-BNY Mellon International Stock Fund",
-        "shares": 1772200,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.3,
-        "pct_change": 29.03,
-        "value": 8134398000
+        "value": 7542234336
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.",
         "shares": 1603000,
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
-        "pct_change": -34.82,
-        "value": 7357770000
+        "pct_change": -18.41,
+        "value": 6710158000
       },
       {
-        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 1365014,
+        "holder": "-Price (T.Rowe) International Core Equity Trust",
+        "shares": 1473400,
         "date_reported": "2025-12-31",
-        "pct_held": 0.23,
-        "pct_change": 8.88,
-        "value": 6265414260
+        "pct_held": 0.25,
+        "pct_change": -18.66,
+        "value": 6167652400
       },
       {
-        "holder": "VANGUARD HORIZON FUNDS-Vanguard International Core Stock Fund",
-        "shares": 1364100,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.23,
-        "pct_change": 14.14,
-        "value": 6261219000
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1481212,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": 0.54,
+        "value": 6200353432
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1377971,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.24,
+        "pct_change": 1.2,
+        "value": 5768186606
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:30.457142",
+  "fetched_at": "2026-05-01T04:31:23.656681",
   "ticker": "8729",
   "ticker_full": "8729.T",
   "company_name": "SONY FINANCIAL GROUP INC",
@@ -9,45 +9,83 @@
     "period": "3",
     "strong_buy": 3,
     "buy": 1,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.44444
+    "total_analysts": 8,
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.77778
   },
   "target_prices": {
     "has_data": true,
-    "current": 146.0,
+    "current": 142.2,
     "high": 210.0,
     "low": 150.0,
-    "mean": 180.55556,
-    "median": 180.0
+    "mean": 170.22221,
+    "median": 165.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 3.2,
+        "eps_actual": 11.96,
+        "surprise_pct": 274.08
+      },
+      {
+        "date": "2020-08-10",
+        "eps_estimate": 39.41,
+        "eps_actual": 30.18,
+        "surprise_pct": -23.42
+      },
+      {
+        "date": "2020-05-18",
+        "eps_estimate": 31.17,
+        "eps_actual": 44.92,
+        "surprise_pct": 44.11
+      },
+      {
+        "date": "2020-02-12",
+        "eps_estimate": 28.94,
+        "eps_actual": 33.19,
+        "surprise_pct": 14.69
+      },
+      {
+        "date": "2019-11-11",
+        "eps_estimate": 36.15,
+        "eps_actual": 37.78,
+        "surprise_pct": 4.52
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 65.63,
-    "institution_pct": 19.16,
+    "insider_pct": 17.31,
+    "institution_pct": 26.67,
     "major_holders": [
       {
         "label": "",
-        "value": 65.63
+        "value": 17.31
       },
       {
         "label": "",
-        "value": 19.16
+        "value": 26.67
       },
       {
         "label": "",
-        "value": 55.74
+        "value": 32.25
       },
       {
         "label": "",
-        "value": 231.0
+        "value": 292.0
       }
     ],
     "institutional_holders": [],

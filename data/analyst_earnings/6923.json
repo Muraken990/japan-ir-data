@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:02.649188",
+  "fetched_at": "2026-05-01T04:26:48.797273",
   "ticker": "6923",
   "ticker_full": "6923.T",
   "company_name": "STANLEY ELECTRIC CO",
@@ -9,31 +9,37 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 4,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 9,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2915.0,
+    "current": 3021.0,
     "high": 3800.0,
     "low": 3100.0,
-    "mean": 3417.7778,
+    "mean": 3416.0,
     "median": 3400.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-04-23",
-      "eps_estimate": null,
+      "date": "2026-05-12",
+      "eps_estimate": 65.74,
       "eps_actual": null,
       "surprise_pct": null
     },
-    "future_count": 2,
+    "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-04-23",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
       {
         "date": "2026-01-29",
         "eps_estimate": 38.31,
@@ -57,19 +63,13 @@
         "eps_estimate": 61.2,
         "eps_actual": 35.52,
         "surprise_pct": -41.96
-      },
-      {
-        "date": "2023-10-30",
-        "eps_estimate": 26.7,
-        "eps_actual": 34.51,
-        "surprise_pct": 29.25
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.58,
-    "institution_pct": 43.65,
+    "institution_pct": 43.33,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.65
+        "value": 43.33
       },
       {
         "label": "",
-        "value": 56.38
+        "value": 55.96
       },
       {
         "label": "",
-        "value": 150.0
+        "value": 149.0
       }
     ],
     "institutional_holders": [
@@ -95,15 +95,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.55,
         "pct_change": 21.57,
-        "value": 5674933660
+        "value": 5881294884
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1574237,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.25,
-        "pct_change": 0.0,
-        "value": 4588900855
+        "shares": 1433237,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.14,
+        "pct_change": -8.96,
+        "value": 4329808977
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 931900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.74,
+        "pct_change": 20.14,
+        "value": 2815269900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -111,23 +119,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.71,
         "pct_change": -10.07,
-        "value": 2591437915
+        "value": 2685672021
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 793500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.63,
-        "pct_change": 0.97,
-        "value": 2313052500
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 775700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": -1.25,
-        "value": 2261165500
+        "shares": 815300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.65,
+        "pct_change": 1.27,
+        "value": 2463021300
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -135,7 +135,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.43,
         "pct_change": 15.41,
-        "value": 1562821865
+        "value": 1619651751
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -143,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 1329531500
+        "value": 1377878100
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -151,15 +151,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 3.64,
-        "value": 1154340000
+        "value": 1196316000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 383800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 1.72,
-        "value": 1118777000
+        "shares": 389000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": 1.3,
+        "value": 1175169000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -167,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": -3.55,
-        "value": 935132000
+        "value": 969136800
       }
     ],
     "mutualfund_holders": []

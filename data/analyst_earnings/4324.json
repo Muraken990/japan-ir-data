@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:25.161335",
+  "fetched_at": "2026-05-01T04:30:15.635795",
   "ticker": "4324",
   "ticker_full": "4324.T",
   "company_name": "DENTSU GROUP INC",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2751.5,
+    "current": 2962.5,
     "high": 4000.0,
-    "low": 2800.0,
-    "mean": 3293.3333,
-    "median": 3190.0
+    "low": 2500.0,
+    "mean": 3282.2222,
+    "median": 3200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-11-14",
+        "eps_estimate": 24.29,
+        "eps_actual": 46.68,
+        "surprise_pct": 92.19
+      },
+      {
+        "date": "2025-08-14",
+        "eps_estimate": -52.38,
+        "eps_actual": -307.87,
+        "surprise_pct": -487.76
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 122.95,
+        "eps_actual": -740.32,
+        "surprise_pct": -702.15
+      },
+      {
+        "date": "2024-11-13",
+        "eps_estimate": 74.12,
+        "eps_actual": -15.35,
+        "surprise_pct": -120.71
+      },
+      {
+        "date": "2024-08-13",
+        "eps_estimate": 32.9,
+        "eps_actual": 0.11,
+        "surprise_pct": -99.67
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 20.19,
-    "institution_pct": 45.55,
+    "insider_pct": 20.18,
+    "institution_pct": 44.34,
     "major_holders": [
       {
         "label": "",
-        "value": 20.19
+        "value": 20.18
       },
       {
         "label": "",
-        "value": 45.55
+        "value": 44.34
       },
       {
         "label": "",
-        "value": 57.07
+        "value": 55.55
       },
       {
         "label": "",
-        "value": 180.0
+        "value": 170.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.1,
         "pct_change": 40.74,
-        "value": 738265971
+        "value": 794880225
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2952355,
-        "date_reported": "2025-10-31",
+        "shares": 2962955,
+        "date_reported": "2026-01-31",
         "pct_held": 1.11,
-        "pct_change": 0.13,
-        "value": 8123404782
+        "pct_change": 0.36,
+        "value": 8777754187
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -75,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.98,
         "pct_change": 4.63,
-        "value": 7167052170
+        "value": 7716660750
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,63 +121,63 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.73,
         "pct_change": 1.98,
-        "value": 5307896638
-      },
-      {
-        "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
-        "shares": 1410683,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.53,
-        "pct_change": 0.0,
-        "value": 3881494274
+        "value": 5714935050
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1343200,
-        "date_reported": "2026-01-31",
+        "shares": 1365000,
+        "date_reported": "2026-03-31",
         "pct_held": 0.51,
-        "pct_change": 0.57,
-        "value": 3695814800
+        "pct_change": 0.75,
+        "value": 4043812500
+      },
+      {
+        "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
+        "shares": 1312783,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.49,
+        "pct_change": -6.94,
+        "value": 3889119637
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 760500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 2.22,
-        "value": 2092515750
+        "shares": 786600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.16,
+        "value": 2330302500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 445120,
-        "date_reported": "2025-10-31",
+        "shares": 454020,
+        "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": -0.76,
-        "value": 1224747680
+        "pct_change": 2.0,
+        "value": 1345034250
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 438740,
-        "date_reported": "2025-11-30",
+        "shares": 442882,
+        "date_reported": "2026-02-28",
         "pct_held": 0.17,
-        "pct_change": 0.91,
-        "value": 1207193110
-      },
-      {
-        "holder": "PACIFIC SELECT FUND-International Value Portfolio",
-        "shares": 298350,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.11,
-        "pct_change": -9.69,
-        "value": 820910025
+        "pct_change": 0.94,
+        "value": 1312037925
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 257787,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.1,
-        "pct_change": 15.45,
-        "value": 709300930
+        "shares": 310551,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.12,
+        "pct_change": 20.47,
+        "value": 920007337
+      },
+      {
+        "holder": "DEUTSCHE DWS INTERNATIONAL FUND, INC.-DWS CROCI International Fund",
+        "shares": 302600,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.11,
+        "pct_change": 54.86,
+        "value": 896452500
       }
     ]
   }

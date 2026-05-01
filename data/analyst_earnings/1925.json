@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:47.952126",
+  "fetched_at": "2026-05-01T04:33:45.661620",
   "ticker": "1925",
   "ticker_full": "1925.T",
   "company_name": "DAIWA HOUSE INDUSTRY CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 2,
     "hold": 6,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.55556
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4962.0,
+    "current": 4770.0,
     "high": 6300.0,
     "low": 5400.0,
     "mean": 5836.6665,
     "median": 5750.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 77.34,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 93.33,
+        "eps_actual": 141.61,
+        "surprise_pct": 51.72
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 114.14,
+        "eps_actual": 99.37,
+        "surprise_pct": -12.94
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 117.82,
+        "eps_actual": 123.25,
+        "surprise_pct": 4.61
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 77.34,
+        "eps_actual": 141.52,
+        "surprise_pct": 82.99
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 77.28,
+        "eps_actual": 127.74,
+        "surprise_pct": 65.29
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.44,
-    "institution_pct": 50.4,
+    "institution_pct": 48.54,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 50.4
+        "value": 48.54
       },
       {
         "label": "",
-        "value": 53.3
+        "value": 51.33
       },
       {
         "label": "",
-        "value": 373.0
+        "value": 359.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.01,
         "pct_change": -5.88,
-        "value": 238176000
+        "value": 228960000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.22,
-        "value": 23678664
+        "value": 22762440
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 8372085,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.27,
-        "pct_change": 0.1,
-        "value": 41542285770
+        "shares": 8421285,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.28,
+        "pct_change": 0.59,
+        "value": 40169529450
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,47 +121,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.82,
         "pct_change": 2.1,
-        "value": 26997840078
+        "value": 25953183630
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3823700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": 0.8,
-        "value": 18973199400
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
-        "shares": 2210874,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.34,
-        "pct_change": -5.02,
-        "value": 10970356788
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2020398,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 0.83,
-        "value": 10025214876
+        "shares": 3910900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.59,
+        "pct_change": 1.05,
+        "value": 18654993000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1944200,
+        "shares": 2194700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.33,
+        "pct_change": 0.27,
+        "value": 10468719000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
+        "shares": 2101574,
         "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.01,
-        "value": 9647120400
+        "pct_held": 0.32,
+        "pct_change": -4.94,
+        "value": 10024507980
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 2044998,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.31,
+        "pct_change": 1.22,
+        "value": 9754640460
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 1935300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.29,
-        "pct_change": 0.5,
-        "value": 9602958600
+        "pct_change": 0.0,
+        "value": 9231381000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,23 +169,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -4.04,
-        "value": 9004045200
+        "value": 8655642000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 1600700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 1.55,
-        "value": 7942673400
+        "shares": 1643300,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.25,
+        "pct_change": 2.66,
+        "value": 7838541000
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 1466400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 0.62,
-        "value": 7276276800
+        "holder": "BlackRock Funds-BlackRock Advantage International Fund",
+        "shares": 1587900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.24,
+        "pct_change": 7.17,
+        "value": 7574283000
       }
     ]
   }

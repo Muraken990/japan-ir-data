@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:34.680078",
+  "fetched_at": "2026-05-01T04:11:30.070040",
   "ticker": "8061",
   "ticker_full": "8061.T",
   "company_name": "SEIKA CORP",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 0.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2672.0,
+    "current": 2986.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 8.67,
+        "eps_actual": 6.02,
+        "surprise_pct": -30.6
+      },
+      {
+        "date": "2015-08-09",
+        "eps_estimate": 6.88,
+        "eps_actual": 1.27,
+        "surprise_pct": -81.58
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 9.44,
+        "eps_actual": 13.32,
+        "surprise_pct": 41.14
+      },
+      {
+        "date": "2014-07-31",
+        "eps_estimate": 13.66,
+        "eps_actual": 8.13,
+        "surprise_pct": -40.47
+      },
+      {
+        "date": "2014-05-08",
+        "eps_estimate": 12.76,
+        "eps_actual": 19.68,
+        "surprise_pct": 54.24
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.67,
-    "institution_pct": 14.92,
+    "institution_pct": 15.14,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 14.92
+        "value": 15.14
       },
       {
         "label": "",
-        "value": 21.51
+        "value": 21.84
       },
       {
         "label": "",

@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:56.205111",
+  "fetched_at": "2026-05-01T04:33:54.216632",
   "ticker": "4578",
   "ticker_full": "4578.T",
   "company_name": "OTSUKA HLDGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 3,
     "buy": 5,
     "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 11,
+    "total_analysts": 12,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.91667
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 11415.0,
+    "current": 11185.0,
     "high": 15100.0,
-    "low": 9300.0,
-    "mean": 11458.333,
-    "median": 11000.0
+    "low": 10000.0,
+    "mean": 12308.333,
+    "median": 12400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": 148.64,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 134.2,
+        "eps_actual": 186.31,
+        "surprise_pct": 38.83
+      },
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 74.42,
+        "eps_actual": 124.25,
+        "surprise_pct": 66.97
+      },
+      {
+        "date": "2025-10-31",
+        "eps_estimate": 148.55,
+        "eps_actual": 234.69,
+        "surprise_pct": 57.99
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 142.83,
+        "eps_actual": 167.55,
+        "surprise_pct": 17.3
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 117.71,
+        "eps_actual": 158.57,
+        "surprise_pct": 34.71
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 14.85,
-    "institution_pct": 32.63,
+    "insider_pct": 15.67,
+    "institution_pct": 32.75,
     "major_holders": [
       {
         "label": "",
-        "value": 14.85
+        "value": 15.67
       },
       {
         "label": "",
-        "value": 32.63
+        "value": 32.75
       },
       {
         "label": "",
-        "value": 38.32
+        "value": 38.84
       },
       {
         "label": "",
-        "value": 365.0
+        "value": 353.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.25,
         "pct_change": -1.02,
-        "value": 15237883500
+        "value": 14930856500
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.03,
         "pct_change": -3.9,
-        "value": 2146510845
+        "value": 2103260955
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
@@ -73,25 +111,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 228300000
+        "value": 223700000
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD SPECIALIZED FUNDS-Vanguard Health Care Fund",
         "shares": 7893800,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.45,
         "pct_change": 0.0,
-        "value": 90107727000
+        "value": 88292153000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6392105,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.18,
-        "pct_change": 0.16,
-        "value": 72965878575
+        "shares": 6443305,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.19,
+        "pct_change": 0.8,
+        "value": 72068366425
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,39 +137,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.77,
         "pct_change": 2.0,
-        "value": 47420204415
+        "value": 46464738185
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2978400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.55,
-        "pct_change": 0.77,
-        "value": 33998436000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1565550,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 0.71,
-        "value": 17870753250
+        "shares": 3043800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.56,
+        "pct_change": 1.02,
+        "value": 34044903000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1507300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.05,
-        "value": 17205829500
+        "shares": 1699500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": -0.2,
+        "value": 19008907500
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1584350,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.29,
+        "pct_change": 1.2,
+        "value": 17720954750
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1496800,
-        "date_reported": "2026-01-31",
+        "shares": 1504300,
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
-        "pct_change": 0.48,
-        "value": 17085972000
+        "pct_change": 0.0,
+        "value": 16825595500
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -139,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": -3.9,
-        "value": 15546088500
+        "value": 15232851500
       },
       {
         "holder": "VANGUARD HORIZON FUNDS-Vanguard International Core Stock Fund",
@@ -147,15 +185,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.22,
         "pct_change": 14.15,
-        "value": 13416506100
+        "value": 13146177900
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 953900,
-        "date_reported": "2025-10-31",
+        "shares": 976400,
+        "date_reported": "2026-01-31",
         "pct_held": 0.18,
-        "pct_change": -0.05,
-        "value": 10888768500
+        "pct_change": 2.36,
+        "value": 10921034000
       }
     ]
   }

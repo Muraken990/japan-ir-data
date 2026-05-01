@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:45.756260",
+  "fetched_at": "2026-05-01T04:31:39.784514",
   "ticker": "7309",
   "ticker_full": "7309.T",
   "company_name": "SHIMANO INC",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 0,
-    "hold": 7,
+    "hold": 8,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 10,
+    "total_analysts": 11,
     "recommendation_key": "hold",
-    "recommendation_mean": 3.09091
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 16695.0,
-    "high": 24000.0,
+    "current": 16655.0,
+    "high": 21000.0,
     "low": 15000.0,
-    "mean": 17684.727,
+    "mean": 17293.818,
     "median": 17000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-28",
+      "eps_estimate": 148.28,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 126.57,
+        "eps_actual": 148.45,
+        "surprise_pct": 17.28
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 156.67,
+        "eps_actual": 205.01,
+        "surprise_pct": 30.86
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 155.98,
+        "eps_actual": 138.26,
+        "surprise_pct": -11.36
+      },
+      {
+        "date": "2025-07-28",
+        "eps_estimate": 240.95,
+        "eps_actual": -65.3,
+        "surprise_pct": -127.1
+      },
+      {
+        "date": "2025-04-23",
+        "eps_estimate": 164.58,
+        "eps_actual": 110.2,
+        "surprise_pct": -33.04
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.0,
-    "institution_pct": 55.88,
+    "institution_pct": 56.14,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 55.88
+        "value": 56.14
       },
       {
         "label": "",
-        "value": 63.5
+        "value": 63.8
       },
       {
         "label": "",
-        "value": 320.0
+        "value": 307.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.69,
-        "value": 10451070
+        "value": 10426030
       }
     ],
     "mutualfund_holders": [
@@ -67,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 5.08,
         "pct_change": 0.0,
-        "value": 73422773550
+        "value": 73246857950
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
@@ -75,15 +113,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.9,
         "pct_change": 0.0,
-        "value": 27447748650
+        "value": 27381985850
+      },
+      {
+        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
+        "shares": 1531700,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.77,
+        "pct_change": 6.85,
+        "value": 25510463500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1117194,
-        "date_reported": "2025-10-31",
+        "shares": 1113394,
+        "date_reported": "2026-01-31",
         "pct_held": 1.29,
-        "pct_change": 0.04,
-        "value": 18651553830
+        "pct_change": -0.34,
+        "value": 18543577070
       },
       {
         "holder": "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Stock Fd.",
@@ -91,7 +137,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.07,
         "pct_change": 68.71,
-        "value": 15494629500
+        "value": 15457505500
+      },
+      {
+        "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
+        "shares": 734000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.85,
+        "pct_change": 79.68,
+        "value": 12224770000
+      },
+      {
+        "holder": "MFS SERIES TRUST I-MFS Research International Fund",
+        "shares": 729700,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.84,
+        "pct_change": 1.0,
+        "value": 12153153500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,47 +161,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.83,
         "pct_change": 0.98,
-        "value": 12013087590
+        "value": 11984305110
+      },
+      {
+        "holder": "CAPITAL WORLD GROWTH & INCOME FUND",
+        "shares": 585100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.68,
+        "pct_change": 0.0,
+        "value": 9744840500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 517800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.6,
-        "pct_change": 1.49,
-        "value": 8644671000
-      },
-      {
-        "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 416400,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.48,
-        "pct_change": 0.0,
-        "value": 6951798000
-      },
-      {
-        "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 408500,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.47,
-        "pct_change": -2.62,
-        "value": 6819907500
-      },
-      {
-        "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
-        "shares": 336363,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.39,
-        "pct_change": 0.0,
-        "value": 5615580285
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 267988,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 0.11,
-        "value": 4474059660
+        "shares": 532700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 1.95,
+        "value": 8872118500
       }
     ]
   }

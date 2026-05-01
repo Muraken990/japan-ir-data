@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:33.208522",
+  "fetched_at": "2026-05-01T04:22:06.061405",
   "ticker": "6508",
   "ticker_full": "6508.T",
   "company_name": "MEIDENSHA CORP",
@@ -9,8 +9,8 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 4,
-    "hold": 1,
-    "sell": 0,
+    "hold": 0,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 6,
     "recommendation_key": "none",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 7980.0,
-    "high": 8900.0,
+    "current": 8520.0,
+    "high": 9000.0,
     "low": 5900.0,
-    "mean": 7800.0,
-    "median": 8000.0
+    "mean": 7966.6665,
+    "median": 8400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 175.26,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 69.9,
+        "eps_actual": 167.75,
+        "surprise_pct": 140.0
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 45.48,
+        "eps_actual": 34.42,
+        "surprise_pct": -24.32
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 175.26,
+        "eps_actual": 276.76,
+        "surprise_pct": 57.91
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 45.24,
+        "eps_actual": 84.58,
+        "surprise_pct": 86.96
+      },
+      {
+        "date": "2024-10-27",
+        "eps_estimate": 15.96,
+        "eps_actual": 23.73,
+        "surprise_pct": 48.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.25,
-    "institution_pct": 41.64,
+    "institution_pct": 43.24,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 41.64
+        "value": 43.24
       },
       {
         "label": "",
-        "value": 49.73
+        "value": 51.63
       },
       {
         "label": "",

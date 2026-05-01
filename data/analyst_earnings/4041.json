@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:16.678004",
+  "fetched_at": "2026-05-01T04:20:43.940389",
   "ticker": "4041",
   "ticker_full": "4041.T",
   "company_name": "NIPPON SODA CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
@@ -18,32 +18,70 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3575.0,
+    "current": 3625.0,
     "high": 4100.0,
     "low": 3200.0,
     "mean": 3650.0,
     "median": 3650.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 41.6,
+        "eps_actual": 62.3,
+        "surprise_pct": 49.76
+      },
+      {
+        "date": "2015-08-02",
+        "eps_estimate": 42.59,
+        "eps_actual": 85.25,
+        "surprise_pct": 100.19
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 46.18,
+        "eps_actual": 63.5,
+        "surprise_pct": 37.5
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 34.88,
+        "eps_actual": 54.43,
+        "surprise_pct": 56.05
+      },
+      {
+        "date": "2014-11-03",
+        "eps_estimate": 12.64,
+        "eps_actual": 27.15,
+        "surprise_pct": 114.75
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 15.3,
-    "institution_pct": 37.65,
+    "insider_pct": 15.72,
+    "institution_pct": 38.8,
     "major_holders": [
       {
         "label": "",
-        "value": 15.3
+        "value": 15.72
       },
       {
         "label": "",
-        "value": 37.65
+        "value": 38.8
       },
       {
         "label": "",
-        "value": 44.45
+        "value": 46.03
       },
       {
         "label": "",

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:09.223485",
+  "fetched_at": "2026-05-01T04:27:56.440910",
   "ticker": "8377",
   "ticker_full": "8377.T",
   "company_name": "HOKUHOKU FINANCIAL GROUP INC",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 6189.0,
-    "high": 5500.0,
-    "low": 4000.0,
-    "mean": 4750.0,
-    "median": 4750.0
+    "current": 5996.0,
+    "high": 6500.0,
+    "low": 5500.0,
+    "mean": 6000.0,
+    "median": 6000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2010-02-05",
+        "eps_estimate": 53.9,
+        "eps_actual": 33.9,
+        "surprise_pct": -37.11
+      },
+      {
+        "date": "2009-08-05",
+        "eps_estimate": 28.7,
+        "eps_actual": 25.1,
+        "surprise_pct": -12.54
+      },
+      {
+        "date": "2009-05-15",
+        "eps_estimate": 18.8,
+        "eps_actual": 34.2,
+        "surprise_pct": 81.91
+      },
+      {
+        "date": "2009-02-06",
+        "eps_estimate": 41.6,
+        "eps_actual": -46.4,
+        "surprise_pct": -211.54
+      },
+      {
+        "date": "2008-11-14",
+        "eps_estimate": 137.9,
+        "eps_actual": 212.7,
+        "surprise_pct": 54.24
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.16,
-    "institution_pct": 32.19,
+    "institution_pct": 32.43,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 32.19
+        "value": 32.43
       },
       {
         "label": "",
-        "value": 35.83
+        "value": 36.1
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 106.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:03.329032",
+  "fetched_at": "2026-05-01T04:25:47.900955",
   "ticker": "5714",
   "ticker_full": "5714.T",
   "company_name": "DOWA HOLDINGS",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 9132.0,
+    "current": 9522.0,
     "high": 11900.0,
-    "low": 5480.0,
-    "mean": 9482.857,
+    "low": 7950.0,
+    "mean": 10192.857,
     "median": 10200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 104.4,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 150.39,
+        "eps_actual": 83.06,
+        "surprise_pct": -44.77
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 139.3,
+        "eps_actual": 121.29,
+        "surprise_pct": -12.93
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 144.88,
+        "eps_actual": 107.5,
+        "surprise_pct": -25.8
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 104.4,
+        "eps_actual": 56.02,
+        "surprise_pct": -46.34
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 130.46,
+        "eps_actual": 54.93,
+        "surprise_pct": -57.9
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.88,
-    "institution_pct": 56.26,
+    "institution_pct": 54.28,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 56.26
+        "value": 54.28
       },
       {
         "label": "",
-        "value": 58.53
+        "value": 56.47
       },
       {
         "label": "",
-        "value": 140.0
+        "value": 141.0
       }
     ],
     "institutional_holders": [],

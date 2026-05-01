@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:55.266937",
+  "fetched_at": "2026-05-01T04:25:37.318871",
   "ticker": "8111",
   "ticker_full": "8111.T",
   "company_name": "GOLDWIN INC",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 2252.0,
+    "current": 2210.0,
     "high": 3700.0,
     "low": 3000.0,
     "mean": 3300.0,
     "median": 3250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 32.13,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 75.29,
+        "eps_actual": 73.09,
+        "surprise_pct": -2.91
+      },
+      {
+        "date": "2016-02-02",
+        "eps_estimate": 19.09,
+        "eps_actual": 15.48,
+        "surprise_pct": -18.9
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 0.04,
+        "eps_actual": -1.56,
+        "surprise_pct": -3965.66
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 1.85,
+        "eps_actual": 2.03,
+        "surprise_pct": 9.78
+      },
+      {
+        "date": "2015-02-03",
+        "eps_estimate": 15.92,
+        "eps_actual": 19.0,
+        "surprise_pct": 19.38
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.83,
-    "institution_pct": 25.1,
+    "institution_pct": 25.44,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 25.1
+        "value": 25.44
       },
       {
         "label": "",
-        "value": 32.11
+        "value": 32.54
       },
       {
         "label": "",
-        "value": 104.0
+        "value": 109.0
       }
     ],
     "institutional_holders": [],

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:36.730103",
+  "fetched_at": "2026-05-01T04:14:56.265286",
   "ticker": "2146",
   "ticker_full": "2146.T",
   "company_name": "UT GROUP CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 197.0,
+    "current": 182.0,
     "high": 200.0,
     "low": 180.0,
     "mean": 190.0,
     "median": 190.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 3.68,
+        "eps_actual": 3.69,
+        "surprise_pct": 0.24
+      },
+      {
+        "date": "2022-02-03",
+        "eps_estimate": 2.6,
+        "eps_actual": 1.88,
+        "surprise_pct": -27.82
+      },
+      {
+        "date": "2021-05-10",
+        "eps_estimate": 1.77,
+        "eps_actual": 0.93,
+        "surprise_pct": -47.13
+      },
+      {
+        "date": "2020-02-06",
+        "eps_estimate": 1.54,
+        "eps_actual": 2.31,
+        "surprise_pct": 50.22
+      },
+      {
+        "date": "2019-11-07",
+        "eps_estimate": 1.33,
+        "eps_actual": 2.39,
+        "surprise_pct": 80.4
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 33.86,
-    "institution_pct": 23.1,
+    "insider_pct": 33.79,
+    "institution_pct": 23.44,
     "major_holders": [
       {
         "label": "",
-        "value": 33.86
+        "value": 33.79
       },
       {
         "label": "",
-        "value": 23.1
+        "value": 23.44
       },
       {
         "label": "",
-        "value": 34.93
+        "value": 35.4
       },
       {
         "label": "",
-        "value": 68.0
+        "value": 67.0
       }
     ],
     "institutional_holders": [],

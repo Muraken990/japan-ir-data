@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:56.067873",
+  "fetched_at": "2026-05-01T04:15:14.607584",
   "ticker": "6455",
   "ticker_full": "6455.T",
   "company_name": "MORITA HOLDINGS",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2746.0,
+    "current": 2543.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 46.3,
+        "eps_actual": 39.12,
+        "surprise_pct": -15.51
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": -5.44,
+        "eps_actual": 3.37,
+        "surprise_pct": 161.95
+      },
+      {
+        "date": "2015-04-27",
+        "eps_estimate": 44.95,
+        "eps_actual": 46.35,
+        "surprise_pct": 3.11
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 30.96,
+        "eps_actual": 38.66,
+        "surprise_pct": 24.85
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 20.55,
+        "eps_actual": 24.07,
+        "surprise_pct": 17.15
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 12.21,
-    "institution_pct": 39.99,
+    "insider_pct": 12.19,
+    "institution_pct": 39.58,
     "major_holders": [
       {
         "label": "",
-        "value": 12.21
+        "value": 12.19
       },
       {
         "label": "",
-        "value": 39.99
+        "value": 39.58
       },
       {
         "label": "",
-        "value": 45.55
+        "value": 45.07
       },
       {
         "label": "",
-        "value": 72.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],

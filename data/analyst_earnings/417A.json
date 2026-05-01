@@ -1,53 +1,60 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:59.230453",
+  "fetched_at": "2026-05-01T04:24:38.392640",
   "ticker": "417A",
   "ticker_full": "417A.T",
   "company_name": "BLUE ZONES HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1900.0,
+    "current": 1733.5,
     "high": 2200.0,
     "low": 1960.0,
-    "mean": 2040.0,
-    "median": 1960.0
+    "mean": 2053.3333,
+    "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 44.27,
-    "institution_pct": 20.63,
+    "insider_pct": 44.25,
+    "institution_pct": 20.7,
     "major_holders": [
       {
         "label": "",
-        "value": 44.27
+        "value": 44.25
       },
       {
         "label": "",
-        "value": 20.63
+        "value": 20.7
       },
       {
         "label": "",
-        "value": 37.01
+        "value": 37.14
       },
       {
         "label": "",
-        "value": 86.0
+        "value": 88.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:43.253504",
+  "fetched_at": "2026-05-01T04:23:20.833136",
   "ticker": "9934",
   "ticker_full": "9934.T",
   "company_name": "INABA DENKISANGYO CO",
@@ -17,20 +17,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2651.0,
+    "current": 2643.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 15.09,
+        "eps_actual": 14.72,
+        "surprise_pct": -2.48
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 17.37,
+        "eps_actual": 14.08,
+        "surprise_pct": -18.94
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 13.56,
+        "eps_actual": 18.14,
+        "surprise_pct": 33.79
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 10.57,
+        "eps_actual": 16.42,
+        "surprise_pct": 55.41
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 14.95,
+        "eps_actual": 25.46,
+        "surprise_pct": 70.24
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.7,
-    "institution_pct": 31.77,
+    "institution_pct": 31.57,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +76,15 @@
       },
       {
         "label": "",
-        "value": 31.77
+        "value": 31.57
       },
       {
         "label": "",
-        "value": 35.97
+        "value": 35.75
       },
       {
         "label": "",
-        "value": 83.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [
@@ -56,15 +94,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 2.5,
         "pct_change": -5.01,
-        "value": 7543155400
+        "value": 7520392200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1448158,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.27,
-        "pct_change": -0.23,
-        "value": 3839066858
+        "pct_change": 0.0,
+        "value": 3827481594
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -72,7 +110,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.84,
         "pct_change": 1.67,
-        "value": 2542881616
+        "value": 2535207888
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
@@ -80,7 +118,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.6,
         "pct_change": 0.0,
-        "value": 1805638516
+        "value": 1800189588
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -88,7 +126,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.54,
         "pct_change": -0.47,
-        "value": 1633811300
+        "value": 1628880900
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 497200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.44,
+        "pct_change": 2.09,
+        "value": 1314099600
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -96,31 +142,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.43,
         "pct_change": 2.43,
-        "value": 1283539972
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 475400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.42,
-        "pct_change": 1.62,
-        "value": 1260285400
+        "value": 1279666596
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 383500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 3.43,
-        "value": 1016658500
+        "shares": 403500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 2.67,
+        "value": 1066450500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 354200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.31,
-        "pct_change": 8.19,
-        "value": 938984200
+        "shares": 365700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.32,
+        "pct_change": 3.25,
+        "value": 966545100
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -128,7 +166,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 898158800
+        "value": 895448400
       }
     ],
     "mutualfund_holders": []

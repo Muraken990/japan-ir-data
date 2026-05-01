@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:08.501969",
+  "fetched_at": "2026-05-01T04:18:32.046522",
   "ticker": "9715",
   "ticker_full": "9715.T",
   "company_name": "TRANSCOSMOS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 2,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3910.0,
+    "current": 3820.0,
     "high": 5000.0,
     "low": 3700.0,
     "mean": 4300.0,
     "median": 4200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2023-01-30",
+        "eps_estimate": 103.7,
+        "eps_actual": 51.59,
+        "surprise_pct": -50.25
+      },
+      {
+        "date": "2022-01-30",
+        "eps_estimate": 69.9,
+        "eps_actual": 125.52,
+        "surprise_pct": 79.57
+      },
+      {
+        "date": "2021-01-28",
+        "eps_estimate": 38.6,
+        "eps_actual": 73.71,
+        "surprise_pct": 90.96
+      },
+      {
+        "date": "2020-01-30",
+        "eps_estimate": 36.2,
+        "eps_actual": 66.68,
+        "surprise_pct": 84.2
+      },
+      {
+        "date": "2019-01-30",
+        "eps_estimate": 41.0,
+        "eps_actual": 18.35,
+        "surprise_pct": -55.24
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 35.01,
-    "institution_pct": 16.73,
+    "institution_pct": 17.55,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 16.73
+        "value": 17.55
       },
       {
         "label": "",
-        "value": 25.74
+        "value": 27.0
       },
       {
         "label": "",
-        "value": 81.0
+        "value": 80.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +90,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.34,
         "pct_change": 0.0,
-        "value": 2301289150
+        "value": 2248318300
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -65,15 +98,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.01,
         "pct_change": 0.0,
-        "value": 1724388200
+        "value": 1684696400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 340758,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.78,
         "pct_change": 0.0,
-        "value": 1332363780
+        "value": 1301695560
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,31 +114,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 809608510
+        "value": 790973020
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 114900,
-        "date_reported": "2025-10-31",
+        "shares": 112500,
+        "date_reported": "2026-01-31",
         "pct_held": 0.26,
-        "pct_change": -1.96,
-        "value": 449259000
+        "pct_change": -2.09,
+        "value": 429750000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 115500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 451605000
+        "value": 441210000
       },
       {
         "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
         "shares": 107500,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 420325000
+        "value": 410650000
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 110600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": -1.95,
+        "value": 422492000
       },
       {
         "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE VALUE FUND",
@@ -113,23 +154,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 340561000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 82096,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": 5.53,
-        "value": 320995360
+        "value": 332722000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 82600,
-        "date_reported": "2026-01-31",
+        "shares": 85500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.19,
-        "pct_change": 1.6,
-        "value": 322966000
+        "pct_change": 1.18,
+        "value": 326610000
       }
     ],
     "mutualfund_holders": []

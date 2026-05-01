@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:36.748064",
+  "fetched_at": "2026-05-01T04:32:32.197987",
   "ticker": "6504",
   "ticker_full": "6504.T",
   "company_name": "FUJI ELECTRIC CO. LTD.",
@@ -9,8 +9,8 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 6,
-    "hold": 1,
-    "sell": 0,
+    "hold": 0,
+    "sell": 1,
     "strong_sell": 1,
     "total_analysts": 10,
     "recommendation_key": "buy",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 11315.0,
+    "current": 13515.0,
     "high": 15000.0,
     "low": 9600.0,
-    "mean": 13400.0,
+    "mean": 13360.0,
     "median": 13900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 69.5,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 276.07,
+        "eps_actual": 336.03,
+        "surprise_pct": 21.72
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 143.08,
+        "eps_actual": 148.53,
+        "surprise_pct": 3.81
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 110.5,
+        "eps_actual": 106.46,
+        "surprise_pct": -3.66
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 69.5,
+        "eps_actual": 74.16,
+        "surprise_pct": 6.71
+      },
+      {
+        "date": "2025-04-25",
+        "eps_estimate": 201.46,
+        "eps_actual": 254.71,
+        "surprise_pct": 26.43
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.63,
-    "institution_pct": 60.99,
+    "institution_pct": 60.8,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 60.99
+        "value": 60.8
       },
       {
         "label": "",
-        "value": 62.63
+        "value": 62.44
       },
       {
         "label": "",
-        "value": 297.0
+        "value": 293.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -98.88,
-        "value": 45260
+        "value": 54060
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2001637,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.34,
-        "pct_change": 0.09,
-        "value": 22648522655
+        "shares": 2008437,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.35,
+        "pct_change": 0.34,
+        "value": 27144026055
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,23 +113,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": 2.19,
-        "value": 14818248465
+        "value": 17699392665
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 958900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.64,
-        "pct_change": 0.8,
-        "value": 10849953500
+        "shares": 993800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.67,
+        "pct_change": 1.63,
+        "value": 13431207000
       },
       {
-        "holder": "John Hancock Investment Trust-Disciplined Value International Fund",
-        "shares": 825600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.55,
-        "pct_change": -23.95,
-        "value": 9341664000
+        "holder": "Pioneer Series Trust VIII-Victory Pioneer International Equity Fund",
+        "shares": 722600,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.48,
+        "pct_change": 15.51,
+        "value": 9765939000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
@@ -99,15 +137,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.45,
         "pct_change": -9.36,
-        "value": 7671570000
-      },
-      {
-        "holder": "Pioneer Series Trust VIII-Victory Pioneer International Equity Fund",
-        "shares": 625600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.42,
-        "pct_change": 50.1,
-        "value": 7078664000
+        "value": 9163170000
       },
       {
         "holder": "J.P. Morgan Exch-Trd Fd. TRT-JPMorgan Intl Research Enhanced Eqy. ETF",
@@ -115,31 +145,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 33.06,
-        "value": 6644168000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 511256,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 0.69,
-        "value": 5784861640
+        "value": 7936008000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 493200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.33,
-        "pct_change": 1.07,
-        "value": 5580558000
+        "shares": 555700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 0.29,
+        "value": 7510285500
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 517156,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.35,
+        "pct_change": 1.15,
+        "value": 6989363340
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 489500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.33,
-        "pct_change": 6.71,
-        "value": 5538692500
+        "pct_change": 0.0,
+        "value": 6615592500
+      },
+      {
+        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
+        "shares": 401000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": -4.04,
+        "value": 5419515000
       }
     ]
   }

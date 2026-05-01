@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:40:37.764789",
+  "fetched_at": "2026-05-01T04:12:35.618552",
   "ticker": "2004",
   "ticker_full": "2004.T",
   "company_name": "SHOWA SANGYO CO",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3275.0,
+    "current": 3025.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-02",
+        "eps_estimate": 37.92,
+        "eps_actual": 65.9,
+        "surprise_pct": 73.79
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 68.49,
+        "eps_actual": 55.2,
+        "surprise_pct": -19.4
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 52.3,
+        "eps_actual": 18.65,
+        "surprise_pct": -64.34
+      },
+      {
+        "date": "2015-02-03",
+        "eps_estimate": 57.34,
+        "eps_actual": 37.05,
+        "surprise_pct": -35.39
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 43.33,
+        "eps_actual": 37.15,
+        "surprise_pct": -14.25
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 32.82,
-    "institution_pct": 22.21,
+    "institution_pct": 22.37,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 22.21
+        "value": 22.37
       },
       {
         "label": "",
-        "value": 33.06
+        "value": 33.31
       },
       {
         "label": "",
-        "value": 64.0
+        "value": 66.0
       }
     ],
     "institutional_holders": [],

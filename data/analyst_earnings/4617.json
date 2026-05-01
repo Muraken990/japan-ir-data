@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:33.163519",
+  "fetched_at": "2026-05-01T04:22:04.992146",
   "ticker": "4617",
   "ticker_full": "4617.T",
   "company_name": "CHUGOKU MARINE PAINTS",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3390.0,
+    "current": 3170.0,
     "high": 5000.0,
     "low": 3700.0,
     "mean": 4350.0,
     "median": 4350.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2011-05-09",
+        "eps_estimate": 16.71,
+        "eps_actual": 17.81,
+        "surprise_pct": 6.58
+      },
+      {
+        "date": "2011-01-30",
+        "eps_estimate": 17.81,
+        "eps_actual": 27.82,
+        "surprise_pct": 56.2
+      },
+      {
+        "date": "2010-10-28",
+        "eps_estimate": 17.19,
+        "eps_actual": 27.05,
+        "surprise_pct": 57.36
+      },
+      {
+        "date": "2010-07-29",
+        "eps_estimate": 11.67,
+        "eps_actual": 10.26,
+        "surprise_pct": -12.08
+      },
+      {
+        "date": "2010-05-07",
+        "eps_estimate": 15.6,
+        "eps_actual": 22.35,
+        "surprise_pct": 43.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.77,
-    "institution_pct": 39.85,
+    "institution_pct": 46.56,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 39.85
+        "value": 46.56
       },
       {
         "label": "",
-        "value": 45.17
+        "value": 52.77
       },
       {
         "label": "",
-        "value": 91.0
+        "value": 93.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +90,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 4.79,
         "pct_change": 27.59,
-        "value": 8925531000
+        "value": 8346293000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 590282,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.07,
-        "pct_change": -1.73,
-        "value": 2001055980
+        "pct_change": 0.0,
+        "value": 1871193940
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +106,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.68,
         "pct_change": 4.72,
-        "value": 1272178860
+        "value": 1189618580
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 280300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 950217000
+        "value": 888551000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,39 +122,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 620709000
+        "value": 580427000
       },
       {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 165300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 6.71,
-        "value": 560367000
-      },
-      {
-        "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
-        "shares": 157900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 32.8,
-        "value": 535281000
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 153600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.32,
+        "value": 486912000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 146900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
-        "pct_change": 2.94,
-        "value": 497991000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 147800,
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
-        "pct_change": 1.79,
-        "value": 501042000
+        "pct_change": 0.0,
+        "value": 465673000
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 147900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": -2.89,
+        "value": 468843000
+      },
+      {
+        "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
+        "shares": 142700,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.26,
+        "pct_change": -9.63,
+        "value": 452359000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +162,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 474261000
+        "value": 443483000
       }
     ],
     "mutualfund_holders": []

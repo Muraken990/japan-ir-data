@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:29.150550",
+  "fetched_at": "2026-05-01T04:31:22.112738",
   "ticker": "9005",
   "ticker_full": "9005.T",
   "company_name": "TOKYU CORP",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1879.5,
+    "current": 1668.0,
     "high": 2500.0,
     "low": 1800.0,
     "mean": 2168.5715,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 13.9,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 13.9,
+        "eps_actual": 19.81,
+        "surprise_pct": 42.52
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 29.4,
+        "eps_actual": 32.46,
+        "surprise_pct": 10.41
+      },
+      {
+        "date": "2024-11-08",
+        "eps_estimate": 27.9,
+        "eps_actual": 32.73,
+        "surprise_pct": 17.31
+      },
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 22.56,
+        "eps_actual": 25.08,
+        "surprise_pct": 11.17
+      },
+      {
+        "date": "2023-11-08",
+        "eps_estimate": 21.9,
+        "eps_actual": 25.16,
+        "surprise_pct": 14.89
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.29,
-    "institution_pct": 47.36,
+    "institution_pct": 47.89,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 47.36
+        "value": 47.89
       },
       {
         "label": "",
-        "value": 49.48
+        "value": 50.03
       },
       {
         "label": "",
-        "value": 239.0
+        "value": 235.0
       }
     ],
     "institutional_holders": [],

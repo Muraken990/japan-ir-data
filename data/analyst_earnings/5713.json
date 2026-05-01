@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:39.312758",
+  "fetched_at": "2026-05-01T04:32:34.673506",
   "ticker": "5713",
   "ticker_full": "5713.T",
   "company_name": "SUMITOMO METAL MINING CO",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 9580.0,
+    "current": 9588.0,
     "high": 13700.0,
     "low": 3400.0,
-    "mean": 9906.25,
+    "mean": 10371.25,
     "median": 11100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 34.54,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-08",
+        "eps_estimate": 74.25,
+        "eps_actual": 200.09,
+        "surprise_pct": 169.5
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 56.21,
+        "eps_actual": 97.85,
+        "surprise_pct": 74.08
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 35.65,
+        "eps_actual": 100.27,
+        "surprise_pct": 181.28
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 34.54,
+        "eps_actual": -47.78,
+        "surprise_pct": -238.33
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 86.97,
+        "eps_actual": -61.48,
+        "surprise_pct": -170.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.27,
-    "institution_pct": 44.01,
+    "institution_pct": 45.08,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 44.01
+        "value": 45.08
       },
       {
         "label": "",
-        "value": 47.97
+        "value": 49.14
       },
       {
         "label": "",
-        "value": 275.0
+        "value": 272.0
       }
     ],
     "institutional_holders": [],

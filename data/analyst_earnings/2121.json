@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:20.937329",
+  "fetched_at": "2026-05-01T04:19:45.852096",
   "ticker": "2121",
   "ticker_full": "2121.T",
   "company_name": "MIXI. INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2555.0,
+    "current": 2585.0,
     "high": 3600.0,
     "low": 3600.0,
     "mean": 3600.0,
     "median": 3600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-02-06",
+        "eps_estimate": 11.94,
+        "eps_actual": -23.43,
+        "surprise_pct": -296.28
+      },
+      {
+        "date": "2019-11-07",
+        "eps_estimate": 25.39,
+        "eps_actual": 14.04,
+        "surprise_pct": -44.69
+      },
+      {
+        "date": "2019-08-08",
+        "eps_estimate": 33.1,
+        "eps_actual": 15.05,
+        "surprise_pct": -54.53
+      },
+      {
+        "date": "2019-05-09",
+        "eps_estimate": 109.28,
+        "eps_actual": 124.76,
+        "surprise_pct": 14.16
+      },
+      {
+        "date": "2019-02-06",
+        "eps_estimate": 54.31,
+        "eps_actual": 55.63,
+        "surprise_pct": 2.44
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 47.59,
-    "institution_pct": 13.14,
+    "institution_pct": 11.8,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 13.14
+        "value": 11.8
       },
       {
         "label": "",
-        "value": 25.08
+        "value": 22.51
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 83.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,17 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 1489565
+        "value": 1507055
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 500946,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 1279917030
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 444200,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.57,
-        "pct_change": -49.45,
-        "value": 1134931000
+        "value": 1294945410
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -83,7 +113,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.57,
         "pct_change": 2.67,
-        "value": 1141037450
+        "value": 1154435150
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +121,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 789196065
+        "value": 798462555
       },
       {
-        "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
-        "shares": 251100,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.32,
-        "pct_change": 0.0,
-        "value": 641560500
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 228500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 14.65,
+        "value": 590672500
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -107,39 +137,47 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 1.96,
-        "value": 545237000
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 199300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 0.0,
-        "value": 509211500
+        "value": 551639000
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Emerging Markets Small Ca",
-        "shares": 180000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 1.0,
-        "value": 459900000
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 145400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 371497000
+        "shares": 168800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": -1.86,
+        "value": 436348000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 135500,
+        "shares": 141300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 1.44,
+        "value": 365260500
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
+        "shares": 135300,
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
-        "pct_change": 1.96,
-        "value": 346202500
+        "pct_change": -6.95,
+        "value": 349750500
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 121800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.16,
+        "pct_change": -2.56,
+        "value": 314853000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 105200,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.13,
+        "pct_change": -28.09,
+        "value": 271942000
       }
     ]
   }

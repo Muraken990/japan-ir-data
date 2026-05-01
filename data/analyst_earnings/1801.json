@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:47.575951",
+  "fetched_at": "2026-05-01T04:32:43.599101",
   "ticker": "1801",
   "ticker_full": "1801.T",
   "company_name": "TAISEI CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 2,
     "buy": 4,
-    "hold": 0,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 16730.0,
+    "current": 16830.0,
     "high": 22600.0,
     "low": 13000.0,
     "mean": 18871.428,
     "median": 20700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 139.12,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 218.41,
+        "eps_actual": 237.08,
+        "surprise_pct": 8.55
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 93.9,
+        "eps_actual": 204.88,
+        "surprise_pct": 118.19
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 96.2,
+        "eps_actual": 173.42,
+        "surprise_pct": 80.27
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 139.12,
+        "eps_actual": 225.61,
+        "surprise_pct": 62.18
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 88.65,
+        "eps_actual": 213.18,
+        "surprise_pct": 140.47
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.15,
-    "institution_pct": 45.24,
+    "institution_pct": 47.43,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 45.24
+        "value": 47.43
       },
       {
         "label": "",
-        "value": 50.92
+        "value": 53.39
       },
       {
         "label": "",
-        "value": 282.0
+        "value": 280.0
       }
     ],
     "institutional_holders": [],

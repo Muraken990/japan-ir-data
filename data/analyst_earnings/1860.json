@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:00.381516",
+  "fetched_at": "2026-05-01T04:25:42.571353",
   "ticker": "1860",
   "ticker_full": "1860.T",
   "company_name": "TODA CORP",
@@ -18,46 +18,84 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1497.0,
+    "current": 1421.0,
     "high": 1900.0,
-    "low": 1000.0,
-    "mean": 1490.0,
-    "median": 1530.0
+    "low": 1150.0,
+    "mean": 1572.5,
+    "median": 1620.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-12",
+        "eps_estimate": 14.5,
+        "eps_actual": 4.57,
+        "surprise_pct": -68.48
+      },
+      {
+        "date": "2023-11-12",
+        "eps_estimate": 17.0,
+        "eps_actual": 10.61,
+        "surprise_pct": -37.59
+      },
+      {
+        "date": "2023-05-14",
+        "eps_estimate": 17.0,
+        "eps_actual": 8.48,
+        "surprise_pct": -50.12
+      },
+      {
+        "date": "2022-02-09",
+        "eps_estimate": 17.6,
+        "eps_actual": 19.35,
+        "surprise_pct": 9.94
+      },
+      {
+        "date": "2021-11-14",
+        "eps_estimate": 12.7,
+        "eps_actual": 13.19,
+        "surprise_pct": 3.86
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 26.41,
-    "institution_pct": 30.05,
+    "insider_pct": 26.8,
+    "institution_pct": 25.57,
     "major_holders": [
       {
         "label": "",
-        "value": 26.41
+        "value": 26.8
       },
       {
         "label": "",
-        "value": 30.05
+        "value": 25.57
       },
       {
         "label": "",
-        "value": 40.83
+        "value": 34.93
       },
       {
         "label": "",
-        "value": 89.0
+        "value": 85.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 3101757,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.98,
         "pct_change": 0.0,
-        "value": 4643330229
+        "value": 4407596697
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.63,
         "pct_change": 3.31,
-        "value": 2993266470
+        "value": 2841303710
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -73,15 +111,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 2934269700
+        "value": 2785302100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1670300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.53,
-        "pct_change": 0.92,
-        "value": 2500439100
+        "shares": 1713900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.54,
+        "pct_change": 1.2,
+        "value": 2435451900
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 1316900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.41,
+        "pct_change": 20.4,
+        "value": 1871314900
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": -2.56,
-        "value": 1545203400
+        "value": 1466756200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,23 +143,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 1315264200
+        "value": 1248490600
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 847000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.27,
+        "pct_change": 78.96,
+        "value": 1203587000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 789900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 1.67,
-        "value": 1182480300
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 778300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 96.84,
-        "value": 1165115100
+        "shares": 818900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": 1.24,
+        "value": 1163656900
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -121,15 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 748350300
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 473300,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.15,
-        "pct_change": -20.88,
-        "value": 708530100
+        "value": 710357900
       }
     ],
     "mutualfund_holders": []

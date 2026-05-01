@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:51.365582",
+  "fetched_at": "2026-05-01T04:13:50.915931",
   "ticker": "8057",
   "ticker_full": "8057.T",
   "company_name": "UCHIDA YOKO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 0.0
+    "total_analysts": 0,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2003.0,
+    "current": 2006.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-05-26",
+        "eps_estimate": 31.09,
+        "eps_actual": 41.65,
+        "surprise_pct": 33.98
+      },
+      {
+        "date": "2015-11-24",
+        "eps_estimate": 10.46,
+        "eps_actual": 3.9,
+        "surprise_pct": -62.71
+      },
+      {
+        "date": "2015-05-25",
+        "eps_estimate": 34.4,
+        "eps_actual": 36.82,
+        "surprise_pct": 7.05
+      },
+      {
+        "date": "2015-02-26",
+        "eps_estimate": -2.1,
+        "eps_actual": -15.23,
+        "surprise_pct": -626.97
+      },
+      {
+        "date": "2014-11-24",
+        "eps_estimate": -7.93,
+        "eps_actual": 6.99,
+        "surprise_pct": 188.16
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.08,
-    "institution_pct": 34.67,
+    "institution_pct": 34.76,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 34.67
+        "value": 34.76
       },
       {
         "label": "",
-        "value": 38.13
+        "value": 38.23
       },
       {
         "label": "",
-        "value": 51.0
+        "value": 52.0
       }
     ],
     "institutional_holders": [],

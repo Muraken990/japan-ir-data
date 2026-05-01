@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:49.144779",
+  "fetched_at": "2026-05-01T04:34:47.851128",
   "ticker": "7741",
   "ticker_full": "7741.T",
   "company_name": "HOYA CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 4,
-    "buy": 10,
-    "hold": 2,
+    "strong_buy": 3,
+    "buy": 9,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 16,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.5625
+    "total_analysts": 15,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 27300.0,
+    "current": 28185.0,
     "high": 35000.0,
     "low": 23100.0,
-    "mean": 29053.334,
+    "mean": 29253.334,
     "median": 30000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 172.04,
+        "eps_actual": 160.8,
+        "surprise_pct": -6.53
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 165.25,
+        "eps_actual": 270.54,
+        "surprise_pct": 63.72
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 159.25,
+        "eps_actual": 161.96,
+        "surprise_pct": 1.7
+      },
+      {
+        "date": "2025-08-01",
+        "eps_estimate": 152.19,
+        "eps_actual": 151.24,
+        "surprise_pct": -0.62
+      },
+      {
+        "date": "2025-05-01",
+        "eps_estimate": 158.03,
+        "eps_actual": 149.53,
+        "surprise_pct": -5.38
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.0,
-    "institution_pct": 53.3,
+    "institution_pct": 53.02,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 53.3
+        "value": 53.02
       },
       {
         "label": "",
-        "value": 53.3
+        "value": 53.02
       },
       {
         "label": "",
-        "value": 518.0
+        "value": 507.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +90,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 273000000
+        "value": 281850000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +98,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -6.91,
-        "value": 75047700
+        "value": 77480565
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4902335,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.45,
-        "pct_change": 0.12,
-        "value": 133833745500
+        "shares": 4938435,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.46,
+        "pct_change": 0.74,
+        "value": 139189790475
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +116,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.94,
         "pct_change": 2.11,
-        "value": 87003134400
+        "value": 89823565680
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2364700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 0.97,
-        "value": 64556310000
+        "shares": 2397700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": 1.29,
+        "value": 67579174500
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series Overseas Fund",
@@ -99,15 +132,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.69,
         "pct_change": 4.64,
-        "value": 63596988000
+        "value": 65658648600
       },
       {
         "holder": "Fidelity Contrafund",
         "shares": 1597234,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.47,
-        "pct_change": 26.72,
-        "value": 43604488200
+        "pct_change": 0.0,
+        "value": 45018040290
       },
       {
         "holder": "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Stock Fd.",
@@ -115,15 +148,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": -1.28,
-        "value": 36833160000
+        "value": 38027202000
       },
       {
-        "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 1280600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.38,
-        "pct_change": -2.62,
-        "value": 34960380000
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1323300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": -0.94,
+        "value": 37297210500
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
@@ -131,23 +164,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.38,
         "pct_change": -8.9,
-        "value": 35075040000
+        "value": 36212088000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1236832,
-        "date_reported": "2026-01-31",
+        "shares": 1251532,
+        "date_reported": "2026-02-28",
         "pct_held": 0.37,
-        "pct_change": 0.76,
-        "value": 33765513600
+        "pct_change": 1.19,
+        "value": 35274429420
       },
       {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1189100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 0.99,
-        "value": 32462430000
+        "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
+        "shares": 1265800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.37,
+        "pct_change": -1.16,
+        "value": 35676573000
       }
     ]
   }

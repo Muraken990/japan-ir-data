@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:07.454946",
+  "fetched_at": "2026-05-01T04:17:29.526850",
   "ticker": "3880",
   "ticker_full": "3880.T",
   "company_name": "DAIO PAPER CORP",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1027.0,
+    "current": 949.0,
     "high": 1350.0,
-    "low": 990.0,
-    "mean": 1150.0,
+    "low": 1100.0,
+    "mean": 1186.6666,
     "median": 1110.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 13.9,
+        "eps_actual": 12.28,
+        "surprise_pct": -11.67
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 12.18,
+        "eps_actual": 13.01,
+        "surprise_pct": 6.81
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 24.17,
+        "eps_actual": 40.62,
+        "surprise_pct": 68.07
+      },
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 15.63,
+        "eps_actual": 16.05,
+        "surprise_pct": 2.66
+      },
+      {
+        "date": "2014-11-10",
+        "eps_estimate": 12.08,
+        "eps_actual": 18.45,
+        "surprise_pct": 52.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 35.97,
-    "institution_pct": 18.79,
+    "institution_pct": 18.75,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 18.79
+        "value": 18.75
       },
       {
         "label": "",
-        "value": 29.34
+        "value": 29.29
       },
       {
         "label": "",
-        "value": 60.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [],

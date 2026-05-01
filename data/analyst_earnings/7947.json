@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:28.680659",
+  "fetched_at": "2026-05-01T04:20:58.849335",
   "ticker": "7947",
   "ticker_full": "7947.T",
   "company_name": "FP CORP",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.2
   },
   "target_prices": {
     "has_data": true,
-    "current": 2364.0,
+    "current": 2359.0,
     "high": 3650.0,
-    "low": 2700.0,
-    "mean": 3152.0,
+    "low": 2500.0,
+    "mean": 3112.0,
     "median": 3200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 30.87,
+        "eps_actual": 32.28,
+        "surprise_pct": 4.57
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 66.41,
+        "eps_actual": 72.12,
+        "surprise_pct": 8.59
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 38.22,
+        "eps_actual": 44.79,
+        "surprise_pct": 17.19
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 24.07,
+        "eps_actual": 34.68,
+        "surprise_pct": 44.05
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 51.61,
+        "eps_actual": 29.53,
+        "surprise_pct": -42.78
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 41.22,
-    "institution_pct": 18.54,
+    "institution_pct": 18.62,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 18.54
+        "value": 18.62
       },
       {
         "label": "",
-        "value": 31.55
+        "value": 31.67
       },
       {
         "label": "",
-        "value": 92.0
+        "value": 89.0
       }
     ],
     "institutional_holders": [],

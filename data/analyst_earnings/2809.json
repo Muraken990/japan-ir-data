@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:20.412022",
+  "fetched_at": "2026-05-01T04:28:08.428554",
   "ticker": "2809",
   "ticker_full": "2809.T",
   "company_name": "KEWPIE CORP",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 2,
+    "buy": 3,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 7,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 4115.0,
+    "current": 4155.0,
     "high": 5200.0,
     "low": 4100.0,
-    "mean": 4768.75,
-    "median": 4900.0
+    "mean": 4681.25,
+    "median": 4750.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-09",
+      "eps_estimate": 42.38,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-08",
+        "eps_estimate": 57.15,
+        "eps_actual": 38.96,
+        "surprise_pct": -31.83
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 38.95,
+        "eps_actual": 32.73,
+        "surprise_pct": -15.97
+      },
+      {
+        "date": "2025-10-02",
+        "eps_estimate": 62.32,
+        "eps_actual": 52.63,
+        "surprise_pct": -15.55
+      },
+      {
+        "date": "2025-07-03",
+        "eps_estimate": 46.57,
+        "eps_actual": 43.35,
+        "surprise_pct": -6.91
+      },
+      {
+        "date": "2025-04-03",
+        "eps_estimate": 106.47,
+        "eps_actual": 91.92,
+        "surprise_pct": -13.67
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.67,
-    "institution_pct": 27.06,
+    "institution_pct": 26.95,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 27.06
+        "value": 26.95
       },
       {
         "label": "",
-        "value": 37.41
+        "value": 37.25
       },
       {
         "label": "",
-        "value": 116.0
+        "value": 114.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1516405,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.07,
-        "pct_change": 2.18,
-        "value": 6240006575
+        "shares": 1493705,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.06,
+        "pct_change": -1.5,
+        "value": 6206344275
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,23 +103,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.67,
         "pct_change": 0.85,
-        "value": 3916537665
+        "value": 3954608505
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 709300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.5,
-        "pct_change": 1.08,
-        "value": 2918769500
+        "shares": 731100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.52,
+        "pct_change": 1.41,
+        "value": 3037720500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 379700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 2.76,
-        "value": 1562465500
+        "shares": 390000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.3,
+        "value": 1620450000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
@@ -89,7 +127,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 1479342500
+        "value": 1493722500
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
@@ -97,15 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1071340250
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 226953,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.16,
-        "pct_change": 3.94,
-        "value": 933911595
+        "value": 1081754250
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -113,23 +143,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 948096000
+        "value": 957312000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 224153,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.16,
+        "pct_change": -1.23,
+        "value": 931355715
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 206880,
-        "date_reported": "2025-11-30",
+        "shares": 208842,
+        "date_reported": "2026-02-28",
         "pct_held": 0.15,
-        "pct_change": 0.9,
-        "value": 851311200
+        "pct_change": 0.95,
+        "value": 867738510
       },
       {
-        "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
-        "shares": 186400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": 0.0,
-        "value": 767036000
+        "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
+        "shares": 199100,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.14,
+        "pct_change": 30.13,
+        "value": 827260500
       }
     ],
     "mutualfund_holders": []

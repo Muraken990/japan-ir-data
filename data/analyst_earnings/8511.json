@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:14.062278",
+  "fetched_at": "2026-05-01T04:18:38.009589",
   "ticker": "8511",
   "ticker_full": "8511.T",
   "company_name": "JAPAN SECURITIES FINANCE CO",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2121.0,
+    "current": 2157.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-02",
+        "eps_estimate": 8.29,
+        "eps_actual": 6.74,
+        "surprise_pct": -18.71
+      },
+      {
+        "date": "2015-07-27",
+        "eps_estimate": 2.71,
+        "eps_actual": 11.21,
+        "surprise_pct": 313.04
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 4.64,
+        "eps_actual": 4.86,
+        "surprise_pct": 4.7
+      },
+      {
+        "date": "2015-02-03",
+        "eps_estimate": 5.79,
+        "eps_actual": 11.42,
+        "surprise_pct": 97.24
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 5.18,
+        "eps_actual": 8.16,
+        "surprise_pct": 57.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.3,
-    "institution_pct": 49.95,
+    "institution_pct": 49.8,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +71,11 @@
       },
       {
         "label": "",
-        "value": 49.95
+        "value": 49.8
       },
       {
         "label": "",
-        "value": 53.88
+        "value": 53.73
       },
       {
         "label": "",

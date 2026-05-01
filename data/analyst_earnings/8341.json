@@ -1,37 +1,57 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:14.684033",
+  "fetched_at": "2026-05-01T04:28:02.605934",
   "ticker": "8341",
   "ticker_full": "8341.T",
   "company_name": "77TH BANK",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.33333
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 3213.0,
-    "high": 3250.0,
-    "low": 2333.3333,
-    "mean": 2783.3333,
-    "median": 2766.6667
+    "current": 3012.0,
+    "high": 3750.0,
+    "low": 2766.6667,
+    "mean": 3205.5557,
+    "median": 3100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 70.13,
+        "eps_actual": 70.05,
+        "surprise_pct": -0.11
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 55.91,
+        "eps_actual": 53.88,
+        "surprise_pct": -3.62
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.58,
-    "institution_pct": 37.15,
+    "institution_pct": 37.31,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +59,15 @@
       },
       {
         "label": "",
-        "value": 37.15
+        "value": 37.31
       },
       {
         "label": "",
-        "value": 39.77
+        "value": 39.94
       },
       {
         "label": "",
-        "value": 103.0
+        "value": 104.0
       }
     ],
     "institutional_holders": [],

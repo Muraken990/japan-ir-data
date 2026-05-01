@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:20.954525",
+  "fetched_at": "2026-05-01T04:19:45.877143",
   "ticker": "8361",
   "ticker_full": "8361.T",
   "company_name": "OGAKI KYORITSU BANK",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6410.0,
+    "current": 7050.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 78.12,
+        "eps_actual": 124.3,
+        "surprise_pct": 59.11
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 70.31,
+        "eps_actual": 116.9,
+        "surprise_pct": 66.26
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 63.88,
+        "eps_actual": 96.9,
+        "surprise_pct": 51.69
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 78.24,
+        "eps_actual": 85.2,
+        "surprise_pct": 8.9
+      },
+      {
+        "date": "2014-11-13",
+        "eps_estimate": 50.27,
+        "eps_actual": 41.9,
+        "surprise_pct": -16.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 15.43,
-    "institution_pct": 31.14,
+    "insider_pct": 15.64,
+    "institution_pct": 30.24,
     "major_holders": [
       {
         "label": "",
-        "value": 15.43
+        "value": 15.64
       },
       {
         "label": "",
-        "value": 31.14
+        "value": 30.24
       },
       {
         "label": "",
-        "value": 36.82
+        "value": 35.84
       },
       {
         "label": "",
-        "value": 76.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [],

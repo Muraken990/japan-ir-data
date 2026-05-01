@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:27.744509",
+  "fetched_at": "2026-05-01T04:22:00.483607",
   "ticker": "1833",
   "ticker_full": "1833.T",
   "company_name": "OKUMURA CORP",
@@ -17,20 +17,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6490.0,
+    "current": 6180.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-08",
+        "eps_estimate": 29.93,
+        "eps_actual": 73.85,
+        "surprise_pct": 146.73
+      },
+      {
+        "date": "2015-11-09",
+        "eps_estimate": 37.67,
+        "eps_actual": 40.35,
+        "surprise_pct": 7.11
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 44.3,
+        "eps_actual": 60.25,
+        "surprise_pct": 36.01
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 17.98,
+        "eps_actual": 43.6,
+        "surprise_pct": 142.48
+      },
+      {
+        "date": "2015-02-08",
+        "eps_estimate": 23.76,
+        "eps_actual": 19.6,
+        "surprise_pct": -17.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.03,
-    "institution_pct": 24.95,
+    "institution_pct": 25.09,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +76,15 @@
       },
       {
         "label": "",
-        "value": 24.95
+        "value": 25.09
       },
       {
         "label": "",
-        "value": 29.36
+        "value": 29.53
       },
       {
         "label": "",
-        "value": 74.0
+        "value": 75.0
       }
     ],
     "institutional_holders": [],

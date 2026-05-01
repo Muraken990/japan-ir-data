@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:43.296318",
+  "fetched_at": "2026-05-01T04:15:02.616895",
   "ticker": "9887",
   "ticker_full": "9887.T",
   "company_name": "MATSUYA FOODS HOLDINGS CO LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5750.0,
+    "current": 5250.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 27.54,
+        "eps_actual": 46.18,
+        "surprise_pct": 67.7
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 11.26,
+        "eps_actual": 2.77,
+        "surprise_pct": -75.41
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 21.48,
+        "eps_actual": 4.01,
+        "surprise_pct": -81.33
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 36.55,
+        "eps_actual": 28.5,
+        "surprise_pct": -22.02
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 13.54,
+        "eps_actual": -1.23,
+        "surprise_pct": -109.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 52.92,
-    "institution_pct": 8.33,
+    "institution_pct": 8.6,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 8.33
+        "value": 8.6
       },
       {
         "label": "",
-        "value": 17.7
+        "value": 18.26
       },
       {
         "label": "",
-        "value": 48.0
+        "value": 49.0
       }
     ],
     "institutional_holders": [],

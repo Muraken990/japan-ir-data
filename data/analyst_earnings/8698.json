@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:06.018069",
+  "fetched_at": "2026-05-01T04:19:29.912788",
   "ticker": "8698",
   "ticker_full": "8698.T",
   "company_name": "MONEX GROUP INC",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 1,
+    "buy": 0,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 688.0,
+    "current": 666.0,
     "high": 820.0,
     "low": 750.0,
     "mean": 785.0,
     "median": 785.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-01-30",
+        "eps_estimate": 11.35,
+        "eps_actual": 8.88,
+        "surprise_pct": -21.77
+      },
+      {
+        "date": "2023-10-26",
+        "eps_estimate": 10.02,
+        "eps_actual": 7.15,
+        "surprise_pct": -28.64
+      },
+      {
+        "date": "2023-07-27",
+        "eps_estimate": 9.24,
+        "eps_actual": 9.42,
+        "surprise_pct": 1.99
+      },
+      {
+        "date": "2023-04-26",
+        "eps_estimate": 8.57,
+        "eps_actual": 5.58,
+        "surprise_pct": -34.88
+      },
+      {
+        "date": "2023-01-29",
+        "eps_estimate": 8.39,
+        "eps_actual": 2.6,
+        "surprise_pct": -69.03
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 30.21,
-    "institution_pct": 20.24,
+    "insider_pct": 30.45,
+    "institution_pct": 19.27,
     "major_holders": [
       {
         "label": "",
-        "value": 30.21
+        "value": 30.45
       },
       {
         "label": "",
-        "value": 20.24
+        "value": 19.27
       },
       {
         "label": "",
-        "value": 29.01
+        "value": 27.71
       },
       {
         "label": "",
-        "value": 84.0
+        "value": 87.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.1,
         "pct_change": 1.0,
-        "value": 180355760
+        "value": 174588570
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2470473,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.97,
-        "pct_change": 0.0,
-        "value": 1699685424
+        "shares": 2494873,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.99,
+        "pct_change": 0.99,
+        "value": 1661585418
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,55 +113,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.65,
         "pct_change": 4.94,
-        "value": 1129105008
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 1510900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.6,
-        "pct_change": 1.84,
-        "value": 1039499200
+        "value": 1092999906
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1507000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.59,
-        "pct_change": 1.02,
-        "value": 1036816000
+        "shares": 1550600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 1.33,
+        "value": 1032699600
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
         "shares": 920952,
         "date_reported": "2025-12-31",
-        "pct_held": 0.36,
+        "pct_held": 0.37,
         "pct_change": -40.73,
-        "value": 633614976
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 705400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 37.8,
-        "value": 485315200
+        "value": 613354032
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 691070,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.86,
-        "value": 475456160
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 635087,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": 11.36,
-        "value": 436939856
+        "shares": 696370,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": -1.89,
+        "value": 463782420
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Crypto Thematic ETF",
@@ -131,15 +145,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.25,
         "pct_change": 85.86,
-        "value": 430708640
+        "value": 416935980
       },
       {
-        "holder": "Fidelity Covington TRT-Fidelity Crypto Industry and Digital Payments E",
-        "shares": 448100,
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 635087,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.25,
+        "pct_change": 0.0,
+        "value": 422967942
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 580100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.23,
+        "pct_change": -19.91,
+        "value": 386346600
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 480300,
         "date_reported": "2026-02-28",
-        "pct_held": 0.18,
-        "pct_change": -4.42,
-        "value": 308292800
+        "pct_held": 0.19,
+        "pct_change": 43.2,
+        "value": 319879800
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 438500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.17,
+        "pct_change": -70.98,
+        "value": 292041000
       }
     ]
   }

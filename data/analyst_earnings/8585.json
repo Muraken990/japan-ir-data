@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:07.527505",
+  "fetched_at": "2026-05-01T04:19:31.469232",
   "ticker": "8585",
   "ticker_full": "8585.T",
   "company_name": "ORIENT CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,32 +18,70 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 980.0,
-    "high": 1100.0,
-    "low": 1100.0,
-    "mean": 1100.0,
-    "median": 1100.0
+    "current": 1010.0,
+    "high": 1050.0,
+    "low": 1050.0,
+    "mean": 1050.0,
+    "median": 1050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 88.28,
+        "eps_actual": 40.5,
+        "surprise_pct": -54.12
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": 87.72,
+        "eps_actual": 56.2,
+        "surprise_pct": -35.93
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 66.44,
+        "eps_actual": 33.0,
+        "surprise_pct": -50.33
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 100.61,
+        "eps_actual": 46.5,
+        "surprise_pct": -53.78
+      },
+      {
+        "date": "2014-10-29",
+        "eps_estimate": 99.31,
+        "eps_actual": 38.8,
+        "surprise_pct": -60.93
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.24,
-    "institution_pct": 69.56,
+    "insider_pct": 6.81,
+    "institution_pct": 69.48,
     "major_holders": [
       {
         "label": "",
-        "value": 7.24
+        "value": 6.81
       },
       {
         "label": "",
-        "value": 69.56
+        "value": 69.48
       },
       {
         "label": "",
-        "value": 74.99
+        "value": 74.56
       },
       {
         "label": "",

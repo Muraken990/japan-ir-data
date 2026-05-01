@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:35.103233",
+  "fetched_at": "2026-05-01T04:23:10.228029",
   "ticker": "7278",
   "ticker_full": "7278.T",
   "company_name": "EXEDY CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5660.0,
+    "current": 5910.0,
     "high": 5600.0,
     "low": 5600.0,
     "mean": 5600.0,
     "median": 5600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-23",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-01-30",
+        "eps_estimate": 58.63,
+        "eps_actual": 60.41,
+        "surprise_pct": 3.04
+      },
+      {
+        "date": "2023-07-30",
+        "eps_estimate": 68.63,
+        "eps_actual": 55.34,
+        "surprise_pct": -19.36
+      },
+      {
+        "date": "2023-01-29",
+        "eps_estimate": 57.89,
+        "eps_actual": 64.25,
+        "surprise_pct": 10.99
+      },
+      {
+        "date": "2022-07-27",
+        "eps_estimate": 58.3,
+        "eps_actual": 32.65,
+        "surprise_pct": -44.0
+      },
+      {
+        "date": "2022-01-30",
+        "eps_estimate": 59.43,
+        "eps_actual": 55.07,
+        "surprise_pct": -7.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 21.36,
-    "institution_pct": 14.9,
+    "insider_pct": 16.78,
+    "institution_pct": 15.28,
     "major_holders": [
       {
         "label": "",
-        "value": 21.36
+        "value": 16.78
       },
       {
         "label": "",
-        "value": 14.9
+        "value": 15.28
       },
       {
         "label": "",
-        "value": 18.95
+        "value": 18.36
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [],

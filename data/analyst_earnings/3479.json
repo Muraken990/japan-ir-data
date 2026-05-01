@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:38:25.772519",
+  "fetched_at": "2026-05-01T04:10:18.917154",
   "ticker": "3479",
   "ticker_full": "3479.T",
   "company_name": "TKP CORPORATION",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1836.0,
-    "high": 2500.0,
+    "current": 1702.0,
+    "high": 2400.0,
     "low": 2100.0,
-    "mean": 2300.0,
-    "median": 2300.0
+    "mean": 2250.0,
+    "median": 2250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-01-14",
+        "eps_estimate": 19.1,
+        "eps_actual": 18.54,
+        "surprise_pct": -2.93
+      },
+      {
+        "date": "2023-10-11",
+        "eps_estimate": 11.3,
+        "eps_actual": 17.65,
+        "surprise_pct": 56.19
+      },
+      {
+        "date": "2023-04-12",
+        "eps_estimate": null,
+        "eps_actual": -64.91,
+        "surprise_pct": null
+      },
+      {
+        "date": "2023-01-15",
+        "eps_estimate": 9.6,
+        "eps_actual": -50.9,
+        "surprise_pct": -630.21
+      },
+      {
+        "date": "2022-10-12",
+        "eps_estimate": null,
+        "eps_actual": -11.9,
+        "surprise_pct": null
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 60.76,
-    "institution_pct": 8.77,
+    "insider_pct": 60.75,
+    "institution_pct": 8.13,
     "major_holders": [
       {
         "label": "",
-        "value": 60.76
+        "value": 60.75
       },
       {
         "label": "",
-        "value": 8.77
+        "value": 8.13
       },
       {
         "label": "",
-        "value": 22.33
+        "value": 20.72
       },
       {
         "label": "",
-        "value": 20.0
+        "value": 18.0
       }
     ],
     "institutional_holders": [],

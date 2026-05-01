@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:26.567251",
+  "fetched_at": "2026-05-01T04:30:17.111047",
   "ticker": "5929",
   "ticker_full": "5929.T",
   "company_name": "SANWA HOLDINGS CORP",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.28571
   },
   "target_prices": {
     "has_data": true,
-    "current": 3625.0,
+    "current": 3551.0,
     "high": 5800.0,
     "low": 4100.0,
-    "mean": 4750.0,
-    "median": 4600.0
+    "mean": 4635.7144,
+    "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 73.75,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 60.16,
+        "eps_actual": 54.51,
+        "surprise_pct": -9.4
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 79.24,
+        "eps_actual": 90.3,
+        "surprise_pct": 13.96
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 31.82,
+        "eps_actual": 33.75,
+        "surprise_pct": 6.06
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 73.75,
+        "eps_actual": 93.5,
+        "surprise_pct": 26.77
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 59.57,
+        "eps_actual": 62.19,
+        "surprise_pct": 4.4
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.91,
-    "institution_pct": 53.1,
+    "institution_pct": 49.95,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 53.1
+        "value": 49.95
       },
       {
         "label": "",
-        "value": 55.26
+        "value": 51.98
       },
       {
         "label": "",
-        "value": 186.0
+        "value": 181.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2806562,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.21,
-        "pct_change": 3.87,
-        "value": 10173787250
+        "shares": 2844162,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.23,
+        "pct_change": 1.34,
+        "value": 10099619262
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,23 +103,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.79,
         "pct_change": 2.06,
-        "value": 6604862375
+        "value": 6470032081
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1330000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": 0.57,
-        "value": 4821250000
+        "shares": 1351800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.59,
+        "pct_change": 0.76,
+        "value": 4800241800
       },
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 1060100,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.46,
-        "pct_change": 1.09,
-        "value": 3842862500
+        "shares": 1086600,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.47,
+        "pct_change": 2.5,
+        "value": 3858516600
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -89,15 +127,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.45,
         "pct_change": -3.34,
-        "value": 3750787500
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
-        "shares": 986249,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.43,
-        "pct_change": 0.0,
-        "value": 3575152625
+        "value": 3674219700
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -105,7 +135,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.38,
         "pct_change": 27.59,
-        "value": 3193262500
+        "value": 3128075900
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -113,23 +143,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.38,
         "pct_change": -3.04,
-        "value": 3216100000
+        "value": 3150447200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 719300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 2.22,
-        "value": 2607462500
+        "shares": 743500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 1.84,
+        "value": 2640168500
       },
       {
         "holder": "Victory Portfolios III-Victory International Fund",
-        "shares": 610800,
-        "date_reported": "2025-11-30",
+        "shares": 599500,
+        "date_reported": "2026-02-28",
         "pct_held": 0.26,
-        "pct_change": -10.66,
-        "value": 2214150000
+        "pct_change": -1.85,
+        "value": 2128824500
+      },
+      {
+        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
+        "shares": 549600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": -29.89,
+        "value": 1951629600
       }
     ],
     "mutualfund_holders": []

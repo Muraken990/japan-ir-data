@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:42:41.275418",
+  "fetched_at": "2026-05-01T04:14:06.227904",
   "ticker": "4384",
   "ticker_full": "4384.T",
   "company_name": "RAKSUL INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1887.0,
+    "current": 1889.0,
     "high": 1600.0,
-    "low": 1380.0,
-    "mean": 1460.0,
-    "median": 1400.0
+    "low": 1400.0,
+    "mean": 1500.0,
+    "median": 1500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2022-06-09",
+        "eps_estimate": 9.26,
+        "eps_actual": 5.85,
+        "surprise_pct": -36.79
+      },
+      {
+        "date": "2022-03-11",
+        "eps_estimate": 0.82,
+        "eps_actual": 1.14,
+        "surprise_pct": 39.02
+      },
+      {
+        "date": "2021-12-09",
+        "eps_estimate": 0.56,
+        "eps_actual": -2.46,
+        "surprise_pct": -540.18
+      },
+      {
+        "date": "2021-09-09",
+        "eps_estimate": -4.28,
+        "eps_actual": -3.17,
+        "surprise_pct": 25.9
+      },
+      {
+        "date": "2021-06-10",
+        "eps_estimate": 0.38,
+        "eps_actual": 1.77,
+        "surprise_pct": 372.0
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 86.06,
-    "institution_pct": 15.47,
+    "institution_pct": 10.88,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 15.47
+        "value": 10.88
       },
       {
         "label": "",
-        "value": 1.11
+        "value": 78.07
       },
       {
         "label": "",
-        "value": 44.0
+        "value": 41.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 717758,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.18,
-        "pct_change": 3.27,
-        "value": 1354409346
+        "pct_change": 0.0,
+        "value": 1355844862
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -65,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": -66.84,
-        "value": 982560900
+        "value": 983602300
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 868571004
+        "value": 869491588
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 6.3,
-        "value": 429669900
+        "value": 430125300
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,15 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 416460900
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 181700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.3,
-        "pct_change": 12.44,
-        "value": 342867900
+        "value": 416902300
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,23 +135,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 48.04,
-        "value": 342490500
+        "value": 342853500
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 181700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.3,
+        "pct_change": 0.0,
+        "value": 343231300
       },
       {
         "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
-        "shares": 174600,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.29,
-        "pct_change": 0.0,
-        "value": 329470200
+        "shares": 139800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": -19.93,
+        "value": 264082200
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 104456,
-        "date_reported": "2025-11-30",
+        "shares": 103275,
+        "date_reported": "2026-02-28",
         "pct_held": 0.17,
-        "pct_change": 8.26,
-        "value": 197108472
+        "pct_change": -1.13,
+        "value": 195086475
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.15,
         "pct_change": 4.95,
-        "value": 175868400
+        "value": 176054800
       }
     ],
     "mutualfund_holders": []

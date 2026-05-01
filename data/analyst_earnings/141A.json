@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:48.330453",
+  "fetched_at": "2026-05-01T04:24:26.391859",
   "ticker": "141A",
   "ticker_full": "141A.T",
   "company_name": "TRIAL HOLDINGS INC",
@@ -18,20 +18,29 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4305.0,
+    "current": 3915.0,
     "high": 6000.0,
     "low": 2500.0,
-    "mean": 4600.0,
-    "median": 4750.0
+    "mean": 4687.5,
+    "median": 4900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 19.45,
+        "eps_actual": 41.18,
+        "surprise_pct": 111.72
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 67.93,
-    "institution_pct": 3.52,
+    "institution_pct": 3.41,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +48,15 @@
       },
       {
         "label": "",
-        "value": 3.52
+        "value": 3.41
       },
       {
         "label": "",
-        "value": 10.97
+        "value": 10.64
       },
       {
         "label": "",
-        "value": 50.0
+        "value": 51.0
       }
     ],
     "institutional_holders": [],

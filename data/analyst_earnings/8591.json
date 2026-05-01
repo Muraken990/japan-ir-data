@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:52.195810",
+  "fetched_at": "2026-05-01T04:33:50.276393",
   "ticker": "8591",
   "ticker_full": "8591.T",
   "company_name": "ORIX CORPORATION",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 4,
+    "buy": 5,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 8,
+    "total_analysts": 9,
     "recommendation_key": "buy",
     "recommendation_mean": 1.77778
   },
   "target_prices": {
     "has_data": true,
-    "current": 4756.0,
+    "current": 5226.0,
     "high": 6300.0,
-    "low": 4000.0,
-    "mean": 5348.8887,
+    "low": 4800.0,
+    "mean": 5437.778,
     "median": 5400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 55.1,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 79.55,
+        "eps_actual": 106.72,
+        "surprise_pct": 34.15
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 80.35,
+        "eps_actual": 94.63,
+        "surprise_pct": 17.77
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 94.58,
+        "eps_actual": 70.28,
+        "surprise_pct": -25.69
+      },
+      {
+        "date": "2025-02-09",
+        "eps_estimate": 82.92,
+        "eps_actual": 78.04,
+        "surprise_pct": -5.89
+      },
+      {
+        "date": "2024-11-08",
+        "eps_estimate": 72.9,
+        "eps_actual": 84.02,
+        "surprise_pct": 15.25
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.1,
-    "institution_pct": 50.46,
+    "institution_pct": 50.74,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 50.46
+        "value": 50.74
       },
       {
         "label": "",
-        "value": 50.51
+        "value": 50.8
       },
       {
         "label": "",
-        "value": 401.0
+        "value": 397.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -98.75,
-        "value": 79515564
+        "value": 87373494
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.39,
-        "value": 43341428
+        "value": 47624538
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 16551269,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.47,
-        "pct_change": 0.26,
-        "value": 78717835364
+        "shares": 16344769,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.45,
+        "pct_change": -1.25,
+        "value": 85417762794
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +121,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.94,
         "pct_change": 0.17,
-        "value": 50258972928
+        "value": 55225692288
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 7908700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 0.97,
-        "value": 37613777200
+        "shares": 8140900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.72,
+        "pct_change": 1.45,
+        "value": 42544343400
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Value Fund",
@@ -99,55 +137,55 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.59,
         "pct_change": -3.15,
-        "value": 31795919348
+        "value": 34938072858
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 5538100,
-        "date_reported": "2025-09-30",
+        "shares": 5556100,
+        "date_reported": "2025-12-31",
         "pct_held": 0.49,
-        "pct_change": -0.45,
-        "value": 26339203600
+        "pct_change": 0.33,
+        "value": 29036178600
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 4686950,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.42,
-        "pct_change": -22.74,
-        "value": 22291134200
+        "shares": 4622450,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.41,
+        "pct_change": -1.38,
+        "value": 24156923700
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 4553500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.41,
+        "pct_change": 0.36,
+        "value": 23796591000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 4192765,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.37,
-        "pct_change": 0.69,
-        "value": 19940790340
+        "shares": 4242165,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.38,
+        "pct_change": 1.18,
+        "value": 22169554290
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 4116600,
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
-        "pct_change": -3.7,
-        "value": 19578549600
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 4031800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.01,
-        "value": 19175240800
+        "pct_change": -1.72,
+        "value": 21513351600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 4008000,
-        "date_reported": "2026-01-31",
+        "shares": 4024000,
+        "date_reported": "2026-03-31",
         "pct_held": 0.36,
-        "pct_change": 0.5,
-        "value": 19062048000
+        "pct_change": 0.0,
+        "value": 21029424000
       }
     ]
   }

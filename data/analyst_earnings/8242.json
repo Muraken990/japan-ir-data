@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:29.644730",
+  "fetched_at": "2026-05-01T04:23:02.947605",
   "ticker": "8242",
   "ticker_full": "8242.T",
   "company_name": "H2O RETAILING CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2443.5,
+    "current": 2268.5,
     "high": 2550.0,
     "low": 2200.0,
     "mean": 2375.0,
     "median": 2375.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-10-30",
+        "eps_estimate": -7.19,
+        "eps_actual": -32.27,
+        "surprise_pct": -348.82
+      },
+      {
+        "date": "2020-07-29",
+        "eps_estimate": 12.69,
+        "eps_actual": -49.42,
+        "surprise_pct": -489.44
+      },
+      {
+        "date": "2020-05-25",
+        "eps_estimate": -11.84,
+        "eps_actual": -126.88,
+        "surprise_pct": -971.62
+      },
+      {
+        "date": "2020-01-29",
+        "eps_estimate": 42.88,
+        "eps_actual": 8.66,
+        "surprise_pct": -79.8
+      },
+      {
+        "date": "2019-10-31",
+        "eps_estimate": 18.05,
+        "eps_actual": -0.86,
+        "surprise_pct": -104.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 29.77,
-    "institution_pct": 17.24,
+    "institution_pct": 16.89,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 17.24
+        "value": 16.89
       },
       {
         "label": "",
-        "value": 24.55
+        "value": 24.05
       },
       {
         "label": "",
-        "value": 70.0
+        "value": 67.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2202400,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.76,
-        "pct_change": 1.26,
-        "value": 5381564400
+        "shares": 2268700,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.81,
+        "pct_change": 1.17,
+        "value": 5146545950
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1288225,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.03,
-        "pct_change": 0.0,
-        "value": 3147777787
+        "shares": 1236125,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.99,
+        "pct_change": -4.04,
+        "value": 2804149562
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -73,7 +111,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.91,
         "pct_change": 0.0,
-        "value": 2775666946
+        "value": 2576877621
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,23 +119,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.61,
         "pct_change": -4.2,
-        "value": 1872576225
+        "value": 1738464975
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 700300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.56,
-        "pct_change": 1.1,
-        "value": 1711183050
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 632000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.5,
-        "pct_change": -67.33,
-        "value": 1544292000
+        "shares": 722100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.58,
+        "pct_change": 1.43,
+        "value": 1638083850
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,15 +135,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": -3.1,
-        "value": 1123489534
+        "value": 1043026809
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 343100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.54,
-        "value": 838364850
+        "shares": 344600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 1.17,
+        "value": 781725100
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -121,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 20.17,
-        "value": 805030623
+        "value": 747375473
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 14.15,
-        "value": 802103310
+        "value": 744657810
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 299400,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.24,
+        "pct_change": -1.87,
+        "value": 679188900
       }
     ],
     "mutualfund_holders": []

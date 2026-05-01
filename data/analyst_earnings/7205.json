@@ -1,32 +1,65 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:31.241996",
+  "fetched_at": "2026-05-01T04:21:01.937409",
   "ticker": "7205",
   "ticker_full": "7205.T",
   "company_name": "HINO MOTORS",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
-    "strong_buy": 0,
+    "period": "2",
+    "strong_buy": 1,
     "buy": 0,
-    "hold": 8,
+    "hold": 7,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.5
+    "recommendation_key": "underperform",
+    "recommendation_mean": 3.8
   },
   "target_prices": {
     "has_data": true,
     "current": 387.0,
-    "high": 650.0,
+    "high": 450.0,
     "low": 350.0,
-    "mean": 450.0,
-    "median": 435.0
+    "mean": 410.0,
+    "median": 420.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 25.75,
+        "eps_actual": 14.07,
+        "surprise_pct": -45.37
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 10.19,
+        "eps_actual": 15.59,
+        "surprise_pct": 53.01
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 8.47,
+        "eps_actual": 23.61,
+        "surprise_pct": 178.71
+      },
+      {
+        "date": "2025-04-24",
+        "eps_estimate": 22.41,
+        "eps_actual": 82.94,
+        "surprise_pct": 270.09
+      },
+      {
+        "date": "2025-01-29",
+        "eps_estimate": 0.17,
+        "eps_actual": -79.72,
+        "surprise_pct": -48141.46
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

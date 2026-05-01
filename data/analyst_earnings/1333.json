@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:24.393390",
+  "fetched_at": "2026-05-01T04:19:50.382991",
   "ticker": "1333",
   "ticker_full": "1333.T",
   "company_name": "UMIOS CORP",
@@ -17,20 +17,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1485.0,
+    "current": 1306.5,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.71,
-    "institution_pct": 31.8,
+    "institution_pct": 31.94,
     "major_holders": [
       {
         "label": "",
@@ -38,25 +45,25 @@
       },
       {
         "label": "",
-        "value": 31.8
+        "value": 31.94
       },
       {
         "label": "",
-        "value": 37.29
+        "value": 37.45
       },
       {
         "label": "",
-        "value": 97.0
+        "value": 96.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 3020800,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.99,
-        "pct_change": 0.92,
-        "value": 4485888000
+        "shares": 3114000,
+        "date_reported": "2026-03-31",
+        "pct_held": 2.05,
+        "pct_change": 1.62,
+        "value": 4068441000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -64,15 +71,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.2,
         "pct_change": 0.0,
-        "value": 2709548820
+        "value": 2383855578
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1806681,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.19,
-        "pct_change": 2.4,
-        "value": 2682921285
+        "pct_change": 0.0,
+        "value": 2360428726
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -80,15 +87,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.8,
         "pct_change": 0.0,
-        "value": 1803330540
+        "value": 1586566566
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 787300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.52,
-        "pct_change": 0.97,
-        "value": 1169140500
+        "shares": 809100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.53,
+        "pct_change": 1.28,
+        "value": 1057089150
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 588900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.39,
+        "pct_change": 21.72,
+        "value": 769397850
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -96,15 +111,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.38,
         "pct_change": 9.25,
-        "value": 861003000
+        "value": 757508700
       },
       {
-        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 501615,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.33,
-        "pct_change": 2.68,
-        "value": 744898275
+        "holder": "VanEck ETF Trust-VanEck Agribusiness ETF",
+        "shares": 509600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 15.29,
+        "value": 665792400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -112,23 +127,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 744813630
+        "value": 655285527
       },
       {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 483800,
-        "date_reported": "2026-01-31",
+        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
+        "shares": 491787,
+        "date_reported": "2026-02-28",
         "pct_held": 0.32,
-        "pct_change": 19.9,
-        "value": 718443000
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 460488,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 0.0,
-        "value": 683824680
+        "pct_change": -1.96,
+        "value": 642519715
       }
     ],
     "mutualfund_holders": []

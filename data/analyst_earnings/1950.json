@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:22.296901",
+  "fetched_at": "2026-05-01T04:19:47.413860",
   "ticker": "1950",
   "ticker_full": "1950.T",
   "company_name": "NIPPON DENSETSU KOGYO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5060.0,
+    "current": 4745.0,
     "high": 5400.0,
     "low": 5400.0,
     "mean": 5400.0,
     "median": 5400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-01-30",
+        "eps_estimate": 26.93,
+        "eps_actual": 36.01,
+        "surprise_pct": 33.71
+      },
+      {
+        "date": "2016-07-28",
+        "eps_estimate": -6.79,
+        "eps_actual": -6.36,
+        "surprise_pct": 6.33
+      },
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 27.01,
+        "eps_actual": 25.75,
+        "surprise_pct": -4.65
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": -6.91,
+        "eps_actual": -0.52,
+        "surprise_pct": 92.47
+      },
+      {
+        "date": "2015-04-27",
+        "eps_estimate": 98.83,
+        "eps_actual": 110.6,
+        "surprise_pct": 11.91
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 44.86,
-    "institution_pct": 19.71,
+    "insider_pct": 42.42,
+    "institution_pct": 19.43,
     "major_holders": [
       {
         "label": "",
-        "value": 44.86
+        "value": 42.42
       },
       {
         "label": "",
-        "value": 19.71
+        "value": 19.43
       },
       {
         "label": "",
-        "value": 35.75
+        "value": 33.74
       },
       {
         "label": "",
-        "value": 71.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],

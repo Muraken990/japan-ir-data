@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:26.343329",
+  "fetched_at": "2026-05-01T04:21:58.844605",
   "ticker": "1885",
   "ticker_full": "1885.T",
   "company_name": "TOA CORPORATION (CONST)",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3200.0,
+    "current": 2814.0,
     "high": 2100.0,
     "low": 2100.0,
     "mean": 2100.0,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 1.97,
+        "eps_actual": 19.93,
+        "surprise_pct": 910.14
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": -10.69,
+        "eps_actual": 16.45,
+        "surprise_pct": 253.88
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 20.78,
+        "eps_actual": 13.3,
+        "surprise_pct": -36.0
+      },
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 7.56,
+        "eps_actual": 15.13,
+        "surprise_pct": 100.13
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 3.87,
+        "eps_actual": 14.25,
+        "surprise_pct": 268.22
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.82,
-    "institution_pct": 27.58,
+    "institution_pct": 28.77,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 27.58
+        "value": 28.77
       },
       {
         "label": "",
-        "value": 36.68
+        "value": 38.27
       },
       {
         "label": "",
-        "value": 74.0
+        "value": 76.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +90,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 1.16,
         "pct_change": -11.15,
-        "value": 3274240000
+        "value": 2879284800
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -65,7 +98,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 1.02,
         "pct_change": 0.0,
-        "value": 2862387200
+        "value": 2517111744
       },
       {
         "holder": "Avantis International Small Cap Value ETF",
@@ -73,7 +106,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.77,
         "pct_change": 1.39,
-        "value": 2168000000
+        "value": 1906485000
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -81,7 +114,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.6,
         "pct_change": -7.48,
-        "value": 1677324800
+        "value": 1474997496
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -89,7 +122,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 1233920000
+        "value": 1085078400
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -97,7 +130,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 1031680000
+        "value": 907233600
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -105,7 +138,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 890880000
+        "value": 783417600
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -113,7 +146,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 843520000
+        "value": 741770400
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -121,7 +154,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.23,
         "pct_change": -0.39,
-        "value": 658240000
+        "value": 578839800
       },
       {
         "holder": "Schwab Strategic Tr-Schwab Fundamental Intl Small Company Idx ETF",
@@ -129,7 +162,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.21,
         "pct_change": -8.33,
-        "value": 580121600
+        "value": 510144432
       }
     ],
     "mutualfund_holders": []

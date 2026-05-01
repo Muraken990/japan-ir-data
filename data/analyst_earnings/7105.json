@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:05.721251",
+  "fetched_at": "2026-05-01T04:18:28.762415",
   "ticker": "7105",
   "ticker_full": "7105.T",
   "company_name": "MITSUBISHI LOGISNEXT CO LTD",
@@ -17,20 +17,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1535.0,
+    "current": 1529.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2022-02-06",
+        "eps_estimate": 18.6,
+        "eps_actual": 3.0,
+        "surprise_pct": -83.87
+      },
+      {
+        "date": "2021-08-01",
+        "eps_estimate": 12.2,
+        "eps_actual": -0.34,
+        "surprise_pct": -102.79
+      },
+      {
+        "date": "2021-05-09",
+        "eps_estimate": 25.2,
+        "eps_actual": -1.19,
+        "surprise_pct": -104.72
+      },
+      {
+        "date": "2021-02-03",
+        "eps_estimate": 7.2,
+        "eps_actual": -5.57,
+        "surprise_pct": -177.36
+      },
+      {
+        "date": "2020-10-30",
+        "eps_estimate": 10.3,
+        "eps_actual": -3.62,
+        "surprise_pct": -135.15
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 81.28,
-    "institution_pct": 13.47,
+    "institution_pct": 13.26,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +76,15 @@
       },
       {
         "label": "",
-        "value": 13.47
+        "value": 13.26
       },
       {
         "label": "",
-        "value": 71.93
+        "value": 70.79
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 55.0
       }
     ],
     "institutional_holders": [],

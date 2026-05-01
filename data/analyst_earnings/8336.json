@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:57.696116",
+  "fetched_at": "2026-05-01T04:18:20.001002",
   "ticker": "8336",
   "ticker_full": "8336.T",
   "company_name": "MUSASHINO BANK",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2220.0,
+    "current": 2391.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-11",
+        "eps_estimate": 31.8,
+        "eps_actual": 26.71,
+        "surprise_pct": -16.02
+      },
+      {
+        "date": "2015-08-02",
+        "eps_estimate": 25.94,
+        "eps_actual": 34.49,
+        "surprise_pct": 32.96
+      },
+      {
+        "date": "2015-06-25",
+        "eps_estimate": 16.44,
+        "eps_actual": 52.04,
+        "surprise_pct": 216.46
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 24.62,
+        "eps_actual": 31.85,
+        "surprise_pct": 29.35
+      },
+      {
+        "date": "2014-11-25",
+        "eps_estimate": 23.86,
+        "eps_actual": 31.8,
+        "surprise_pct": 33.3
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.86,
-    "institution_pct": 38.07,
+    "institution_pct": 38.23,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 38.07
+        "value": 38.23
       },
       {
         "label": "",
-        "value": 41.77
+        "value": 41.95
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 88.0
       }
     ],
     "institutional_holders": [],

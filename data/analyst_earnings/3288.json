@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:27.599791",
+  "fetched_at": "2026-05-01T04:31:20.544923",
   "ticker": "3288",
   "ticker_full": "3288.T",
   "company_name": "OPEN HOUSE GROUP CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 2,
     "buy": 0,
     "hold": 3,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 10175.0,
+    "current": 9062.0,
     "high": 14100.0,
     "low": 10900.0,
     "mean": 12260.0,
     "median": 12000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 225.6,
+        "eps_actual": 243.81,
+        "surprise_pct": 8.07
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 221.2,
+        "eps_actual": 196.73,
+        "surprise_pct": -11.06
+      },
+      {
+        "date": "2024-02-14",
+        "eps_estimate": 163.0,
+        "eps_actual": 274.11,
+        "surprise_pct": 68.17
+      },
+      {
+        "date": "2023-08-13",
+        "eps_estimate": 142.54,
+        "eps_actual": 140.67,
+        "surprise_pct": -1.31
+      },
+      {
+        "date": "2023-02-13",
+        "eps_estimate": 171.09,
+        "eps_actual": 163.04,
+        "surprise_pct": -4.71
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 36.21,
-    "institution_pct": 30.61,
+    "institution_pct": 30.5,
     "major_holders": [
       {
         "label": "",
@@ -39,49 +77,49 @@
       },
       {
         "label": "",
-        "value": 30.61
+        "value": 30.5
       },
       {
         "label": "",
-        "value": 47.98
+        "value": 47.8
       },
       {
         "label": "",
-        "value": 152.0
+        "value": 156.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 1299000,
-        "date_reported": "2025-09-30",
-        "pct_held": 1.11,
-        "pct_change": 0.64,
-        "value": 13217325000
+        "shares": 1303300,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.12,
+        "pct_change": 0.33,
+        "value": 11810504600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1035843,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.89,
-        "pct_change": -1.11,
-        "value": 10539702525
+        "shares": 1032543,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.88,
+        "pct_change": -0.32,
+        "value": 9356904666
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 984000,
         "date_reported": "2026-01-31",
         "pct_held": 0.84,
-        "pct_change": -3.14,
-        "value": 10012200000
+        "pct_change": -1.16,
+        "value": 8917008000
       },
       {
         "holder": "-Price (T.Rowe) Real Assets Trust I",
-        "shares": 966400,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.83,
-        "pct_change": 9.41,
-        "value": 9833120000
+        "shares": 950900,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.81,
+        "pct_change": -1.6,
+        "value": 8617055800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,7 +127,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.57,
         "pct_change": 0.61,
-        "value": 6737243975
+        "value": 6000285494
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 560500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.48,
+        "pct_change": 1.85,
+        "value": 5079251000
       },
       {
         "holder": "T. Rowe Price Real Assets Fund, Inc.",
@@ -97,23 +143,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.46,
         "pct_change": -6.5,
-        "value": 5489412500
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 538700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": 1.43,
-        "value": 5481272500
+        "value": 4888949000
       },
       {
         "holder": "AB Active ETFs, Inc.-AB International Low Volatility Equity ETF",
-        "shares": 403800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 10.78,
-        "value": 4108665000
+        "shares": 426600,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.37,
+        "pct_change": 5.65,
+        "value": 3865849200
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -121,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": -3.65,
-        "value": 3138987500
+        "value": 2795627000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 3038234650
+        "value": 2705895076
       }
     ],
     "mutualfund_holders": []

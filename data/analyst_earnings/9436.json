@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:41.108263",
+  "fetched_at": "2026-05-01T04:22:14.539704",
   "ticker": "9436",
   "ticker_full": "9436.T",
   "company_name": "OKINAWA CELLULAR",
@@ -18,20 +18,29 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3440.0,
+    "current": 3300.0,
     "high": 2784.0,
     "low": 2635.0,
     "mean": 2709.5,
     "median": 2709.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2014-01-27",
+        "eps_estimate": 13.25,
+        "eps_actual": 16.09,
+        "surprise_pct": 21.42
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 57.25,
-    "institution_pct": 9.76,
+    "institution_pct": 9.74,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +48,25 @@
       },
       {
         "label": "",
-        "value": 9.76
+        "value": 9.74
       },
       {
         "label": "",
-        "value": 22.83
+        "value": 22.79
       },
       {
         "label": "",
-        "value": 54.0
+        "value": 55.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 593966,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.63,
         "pct_change": 0.0,
-        "value": 2043243040
+        "value": 1960087800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +74,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 1294561440
+        "value": 1241875800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -73,23 +82,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": -1.58,
-        "value": 1052296000
+        "value": 1009470000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 237100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 815624000
+        "value": 782430000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 236800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 814592000
+        "value": 781440000
       },
       {
         "holder": "LORD ABBETT SECURITIES TRT-Lord Abbett Intl Opportunities Fd.",
@@ -97,7 +106,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 7.0,
-        "value": 789136000
+        "value": 757020000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,23 +114,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 1.22,
-        "value": 568976000
+        "value": 545820000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 151600,
-        "date_reported": "2026-01-31",
+        "shares": 148400,
+        "date_reported": "2026-03-31",
         "pct_held": 0.16,
-        "pct_change": 1.74,
-        "value": 521504000
+        "pct_change": 1.37,
+        "value": 489720000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 145074,
-        "date_reported": "2025-10-31",
+        "shares": 141674,
+        "date_reported": "2026-01-31",
         "pct_held": 0.15,
-        "pct_change": 13.45,
-        "value": 499054560
+        "pct_change": -2.34,
+        "value": 467524200
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity Series Select Intl Small Cap Fd.",
@@ -129,7 +138,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 293968640
+        "value": 282004800
       }
     ],
     "mutualfund_holders": []

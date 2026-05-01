@@ -1,49 +1,87 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:42.336449",
+  "fetched_at": "2026-05-01T04:16:01.041213",
   "ticker": "2160",
   "ticker_full": "2160.T",
   "company_name": "GNI GROUP LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 3,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3135.0,
+    "current": 3005.0,
     "high": 5000.0,
-    "low": 3600.0,
-    "mean": 4300.0,
-    "median": 4300.0
+    "low": 3800.0,
+    "mean": 4400.0,
+    "median": 4400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 224.64,
+        "eps_actual": -74.44,
+        "surprise_pct": -133.14
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 10.82,
+        "eps_actual": 8.54,
+        "surprise_pct": -21.07
+      },
+      {
+        "date": "2025-08-14",
+        "eps_estimate": -109.7,
+        "eps_actual": -7.62,
+        "surprise_pct": 93.05
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 27.86,
+        "eps_actual": -10.57,
+        "surprise_pct": -137.94
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 113.19,
+        "eps_actual": -6.57,
+        "surprise_pct": -105.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.06,
-    "institution_pct": 9.79,
+    "insider_pct": 6.05,
+    "institution_pct": 12.52,
     "major_holders": [
       {
         "label": "",
-        "value": 4.06
+        "value": 6.05
       },
       {
         "label": "",
-        "value": 9.79
+        "value": 12.52
       },
       {
         "label": "",
-        "value": 10.2
+        "value": 13.33
       },
       {
         "label": "",

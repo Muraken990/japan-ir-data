@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:22.997562",
+  "fetched_at": "2026-05-01T04:29:12.072909",
   "ticker": "4042",
   "ticker_full": "4042.T",
   "company_name": "TOSOH CORP",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.875
   },
   "target_prices": {
     "has_data": true,
-    "current": 2361.5,
+    "current": 2447.0,
     "high": 3300.0,
     "low": 2100.0,
     "mean": 2508.75,
     "median": 2500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-04",
+        "eps_estimate": 50.3,
+        "eps_actual": 46.02,
+        "surprise_pct": -8.51
+      },
+      {
+        "date": "2018-05-09",
+        "eps_estimate": 57.9,
+        "eps_actual": 61.04,
+        "surprise_pct": 5.42
+      },
+      {
+        "date": "2018-02-01",
+        "eps_estimate": 67.8,
+        "eps_actual": 88.28,
+        "surprise_pct": 30.21
+      },
+      {
+        "date": "2017-02-01",
+        "eps_estimate": 32.0,
+        "eps_actual": 83.08,
+        "surprise_pct": 159.63
+      },
+      {
+        "date": "2016-10-31",
+        "eps_estimate": 33.6,
+        "eps_actual": 50.32,
+        "surprise_pct": 49.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.36,
-    "institution_pct": 47.05,
+    "institution_pct": 46.69,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 47.05
+        "value": 46.69
       },
       {
         "label": "",
-        "value": 50.25
+        "value": 49.86
       },
       {
         "label": "",
-        "value": 158.0
+        "value": 157.0
       }
     ],
     "institutional_holders": [],

@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:39.752215",
+  "fetched_at": "2026-05-01T04:22:12.913830",
   "ticker": "3282",
   "ticker_full": "3282.T",
   "company_name": "COMFORIA RESIDENTIAL REIT.INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 110700.0,
-    "high": 128333.336,
-    "low": 96666.0,
-    "mean": 112777.555,
-    "median": 113333.336
+    "current": 109000.0,
+    "high": 129000.0,
+    "low": 115000.0,
+    "mean": 121333.336,
+    "median": 120000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-16",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.36,
-    "institution_pct": 52.84,
+    "institution_pct": 52.44,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 52.84
+        "value": 52.44
       },
       {
         "label": "",
-        "value": 63.18
+        "value": 62.7
       },
       {
         "label": "",
-        "value": 114.0
+        "value": 116.0
       }
     ],
     "institutional_holders": [],

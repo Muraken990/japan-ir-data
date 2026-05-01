@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:02.140355",
+  "fetched_at": "2026-05-01T04:17:24.166838",
   "ticker": "9722",
   "ticker_full": "9722.T",
   "company_name": "FUJITA KANKO INC",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2053.0,
+    "current": 2011.0,
     "high": 2510.0,
     "low": 2510.0,
     "mean": 2510.0,
     "median": 2510.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 45.36,
+        "eps_actual": 59.36,
+        "surprise_pct": 30.86
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 31.24,
+        "eps_actual": 20.1,
+        "surprise_pct": -35.65
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 41.6,
+        "eps_actual": 47.91,
+        "surprise_pct": 15.18
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 25.04,
+        "eps_actual": 26.81,
+        "surprise_pct": 7.08
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 48.18,
+        "eps_actual": 61.13,
+        "surprise_pct": 26.89
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 32.67,
-    "institution_pct": 31.91,
+    "insider_pct": 32.66,
+    "institution_pct": 27.83,
     "major_holders": [
       {
         "label": "",
-        "value": 32.67
+        "value": 32.66
       },
       {
         "label": "",
-        "value": 31.91
+        "value": 27.83
       },
       {
         "label": "",
-        "value": 47.39
+        "value": 41.32
       },
       {
         "label": "",
-        "value": 63.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.85,
         "pct_change": 0.0,
-        "value": 213323124
+        "value": 208958988
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2023-12-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 117692331
+        "value": 115284597
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -73,7 +111,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.28,
         "pct_change": 1.61,
-        "value": 71239100
+        "value": 69781700
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -81,7 +119,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 61179400
+        "value": 59927800
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -89,7 +127,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.12,
         "pct_change": 29.36,
-        "value": 28947300
+        "value": 28355100
       },
       {
         "holder": "Schwab Strategic Tr-Schwab International Small Cap Equity ETF",
@@ -97,7 +135,7 @@
         "date_reported": "2024-02-29",
         "pct_held": 0.12,
         "pct_change": -4.43,
-        "value": 30981823
+        "value": 30348001
       },
       {
         "holder": "Vanguard International Stock Index-Pacific Stock Index",
@@ -105,7 +143,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.07,
         "pct_change": 0.0,
-        "value": 16762745
+        "value": 16419815
       },
       {
         "holder": "Dimensional ETF Tr-Dimensional International Core Equity 2 ETF",
@@ -113,7 +151,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.04,
         "pct_change": 83.33,
-        "value": 9033200
+        "value": 8848400
       },
       {
         "holder": "SPDR (R) Idx Shares-SPDR (R) S&P (R) International Small Cap ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2024-02-29",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 9031147
+        "value": 8846389
       },
       {
         "holder": "Avantis International Equity ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 9238500
+        "value": 9049500
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:38:29.799473",
+  "fetched_at": "2026-05-01T04:10:22.826642",
   "ticker": "7433",
   "ticker_full": "7433.T",
   "company_name": "HAKUTO CO LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4230.0,
+    "current": 4165.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-01-30",
+        "eps_estimate": 43.41,
+        "eps_actual": 21.48,
+        "surprise_pct": -50.51
+      },
+      {
+        "date": "2016-07-28",
+        "eps_estimate": 38.51,
+        "eps_actual": 13.38,
+        "surprise_pct": -65.25
+      },
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 40.55,
+        "eps_actual": 19.73,
+        "surprise_pct": -51.34
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 32.0,
+        "eps_actual": 37.98,
+        "surprise_pct": 18.67
+      },
+      {
+        "date": "2015-04-29",
+        "eps_estimate": 49.73,
+        "eps_actual": 40.1,
+        "surprise_pct": -19.36
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 38.92,
-    "institution_pct": 8.66,
+    "institution_pct": 8.73,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 8.66
+        "value": 8.73
       },
       {
         "label": "",
-        "value": 14.18
+        "value": 14.3
       },
       {
         "label": "",
-        "value": 52.0
+        "value": 53.0
       }
     ],
     "institutional_holders": [],

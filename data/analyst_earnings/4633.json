@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:53.243537",
+  "fetched_at": "2026-05-01T04:15:12.262784",
   "ticker": "4633",
   "ticker_full": "4633.T",
   "company_name": "SAKATA INX CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 0,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2304.0,
+    "current": 2352.0,
     "high": 2650.0,
     "low": 2650.0,
     "mean": 2650.0,
     "median": 2650.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 19.64,
+        "eps_actual": 26.34,
+        "surprise_pct": 34.12
+      },
+      {
+        "date": "2014-08-07",
+        "eps_estimate": 26.38,
+        "eps_actual": 22.21,
+        "surprise_pct": -15.8
+      },
+      {
+        "date": "2014-05-12",
+        "eps_estimate": 18.79,
+        "eps_actual": 19.83,
+        "surprise_pct": 5.55
+      },
+      {
+        "date": "2014-02-06",
+        "eps_estimate": 24.81,
+        "eps_actual": 33.28,
+        "surprise_pct": 34.12
+      },
+      {
+        "date": "2013-11-07",
+        "eps_estimate": 19.72,
+        "eps_actual": 23.64,
+        "surprise_pct": 19.85
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.04,
-    "institution_pct": 44.07,
+    "institution_pct": 43.21,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 44.07
+        "value": 43.21
       },
       {
         "label": "",
-        "value": 49.54
+        "value": 48.57
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [],

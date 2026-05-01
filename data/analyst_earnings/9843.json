@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:35.314539",
+  "fetched_at": "2026-05-01T04:32:30.707200",
   "ticker": "9843",
   "ticker_full": "9843.T",
   "company_name": "NITORI HOLDINGS CO LTD",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 4,
+    "buy": 3,
     "hold": 8,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 12,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 11,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.45455
   },
   "target_prices": {
     "has_data": true,
-    "current": 2511.5,
+    "current": 2283.5,
     "high": 3600.0,
-    "low": 2450.0,
-    "mean": 2975.4546,
-    "median": 2900.0
+    "low": 2500.0,
+    "mean": 2916.3635,
+    "median": 2700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 22.75,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 41.96,
+        "eps_actual": 57.7,
+        "surprise_pct": 37.5
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 23.47,
+        "eps_actual": 27.58,
+        "surprise_pct": 17.51
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 39.26,
+        "eps_actual": 46.29,
+        "surprise_pct": 17.91
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 28.5,
+        "eps_actual": 12.15,
+        "surprise_pct": -57.35
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 53.84,
+        "eps_actual": 52.32,
+        "surprise_pct": -2.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.07,
-    "institution_pct": 48.67,
+    "institution_pct": 54.7,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 48.67
+        "value": 54.7
       },
       {
         "label": "",
-        "value": 65.83
+        "value": 73.99
       },
       {
         "label": "",
-        "value": 273.0
+        "value": 258.0
       }
     ],
     "institutional_holders": [
@@ -57,33 +95,49 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.73,
-        "value": 8559192
+        "value": 7782168
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 12793500,
-        "date_reported": "2025-12-31",
-        "pct_held": 11.18,
-        "pct_change": 19.13,
-        "value": 32130875250
+        "shares": 16202600,
+        "date_reported": "2026-03-31",
+        "pct_held": 14.16,
+        "pct_change": 26.65,
+        "value": 36998637100
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Growth Fund",
-        "shares": 7264600,
-        "date_reported": "2025-11-30",
-        "pct_held": 6.35,
-        "pct_change": 1.0,
-        "value": 18245042900
+        "shares": 7414900,
+        "date_reported": "2026-02-28",
+        "pct_held": 6.48,
+        "pct_change": 2.07,
+        "value": 16931924150
+      },
+      {
+        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
+        "shares": 6742300,
+        "date_reported": "2026-02-28",
+        "pct_held": 5.89,
+        "pct_change": 3.93,
+        "value": 15396042050
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5891765,
-        "date_reported": "2025-10-31",
-        "pct_held": 5.15,
-        "pct_change": 0.29,
-        "value": 14797167797
+        "shares": 5960465,
+        "date_reported": "2026-01-31",
+        "pct_held": 5.21,
+        "pct_change": 1.17,
+        "value": 13610721827
+      },
+      {
+        "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
+        "shares": 3961300,
+        "date_reported": "2026-03-31",
+        "pct_held": 3.46,
+        "pct_change": 26.5,
+        "value": 9045628550
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,31 +145,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 3.37,
         "pct_change": 2.29,
-        "value": 9695105777
-      },
-      {
-        "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
-        "shares": 3131500,
-        "date_reported": "2025-12-31",
-        "pct_held": 2.74,
-        "pct_change": 19.02,
-        "value": 7864762250
+        "value": 8814960797
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2757200,
-        "date_reported": "2026-01-31",
-        "pct_held": 2.41,
-        "pct_change": 0.83,
-        "value": 6924707800
+        "shares": 2822600,
+        "date_reported": "2026-03-31",
+        "pct_held": 2.47,
+        "pct_change": 1.1,
+        "value": 6445407100
       },
       {
         "holder": "MFS SERIES TRUST I-MFS Research International Fund",
-        "shares": 2612000,
-        "date_reported": "2025-11-30",
-        "pct_held": 2.28,
-        "pct_change": 1.0,
-        "value": 6560038000
+        "shares": 2454300,
+        "date_reported": "2026-02-28",
+        "pct_held": 2.14,
+        "pct_change": -6.04,
+        "value": 5604394050
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -123,7 +169,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.78,
         "pct_change": 2.81,
-        "value": 5119692750
+        "value": 4654914750
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -131,15 +177,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.38,
         "pct_change": 1.0,
-        "value": 3953854450
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1442452,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.26,
-        "pct_change": 1.03,
-        "value": 3622718198
+        "value": 3594914050
       }
     ]
   }

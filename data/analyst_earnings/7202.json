@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:39.489357",
+  "fetched_at": "2026-05-01T04:32:34.915662",
   "ticker": "7202",
   "ticker_full": "7202.T",
   "company_name": "ISUZU MOTORS",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 13,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.07692
+    "recommendation_mean": 2.15385
   },
   "target_prices": {
     "has_data": true,
-    "current": 2263.0,
+    "current": 2124.0,
     "high": 3480.0,
-    "low": 2300.0,
-    "mean": 2760.0,
-    "median": 2800.0
+    "low": 2000.0,
+    "mean": 2698.3333,
+    "median": 2650.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 29.19,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 61.87,
+        "eps_actual": 73.91,
+        "surprise_pct": 19.45
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 40.25,
+        "eps_actual": 40.58,
+        "surprise_pct": 0.81
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 60.21,
+        "eps_actual": 58.18,
+        "surprise_pct": -3.38
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 39.75,
+        "eps_actual": 34.68,
+        "surprise_pct": -12.76
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 75.97,
+        "eps_actual": 55.81,
+        "surprise_pct": -26.54
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.98,
-    "institution_pct": 36.15,
+    "institution_pct": 35.85,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.15
+        "value": 35.85
       },
       {
         "label": "",
-        "value": 48.19
+        "value": 47.79
       },
       {
         "label": "",
-        "value": 285.0
+        "value": 278.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -99.43,
-        "value": 9905151
+        "value": 9296748
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 7819366,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.01,
-        "pct_change": -0.19,
-        "value": 17695225258
+        "shares": 7772666,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.0,
+        "pct_change": -0.6,
+        "value": 16509142584
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.64,
         "pct_change": -0.18,
-        "value": 11308335465
+        "value": 10613744820
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3662700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.47,
-        "pct_change": 0.84,
-        "value": 8288690100
+        "shares": 3749900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.48,
+        "pct_change": 1.1,
+        "value": 7964787600
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -91,39 +129,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 9.06,
-        "value": 5329591300
+        "value": 5002232400
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
         "shares": 2150970,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 4867645110
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1928580,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 0.8,
-        "value": 4364376540
-      },
-      {
-        "holder": "VANGUARD WORLD FUND-Vanguard Global Wellington Fund",
-        "shares": 1857192,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.24,
-        "pct_change": -1.77,
-        "value": 4202825496
+        "value": 4568660280
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1861400,
+        "shares": 2098100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": -0.37,
+        "value": 4456364400
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1951480,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.25,
+        "pct_change": 1.19,
+        "value": 4144943520
+      },
+      {
+        "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
+        "shares": 1914700,
         "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 1.06,
-        "value": 4212348200
+        "pct_held": 0.25,
+        "pct_change": 1.07,
+        "value": 4066822800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 4264397200
+        "value": 4002465600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 1849400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.24,
-        "pct_change": 0.55,
-        "value": 4185192200
+        "pct_change": 0.0,
+        "value": 3928125600
       }
     ]
   }

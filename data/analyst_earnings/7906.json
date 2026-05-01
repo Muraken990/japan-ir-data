@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:48.697493",
+  "fetched_at": "2026-05-01T04:23:27.047715",
   "ticker": "7906",
   "ticker_full": "7906.T",
   "company_name": "YONEX CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3030.0,
+    "current": 2614.0,
     "high": 4500.0,
     "low": 4500.0,
     "mean": 4500.0,
     "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-02-06",
+        "eps_estimate": null,
+        "eps_actual": -1.24,
+        "surprise_pct": null
+      },
+      {
+        "date": "2019-08-05",
+        "eps_estimate": 5.72,
+        "eps_actual": 0.55,
+        "surprise_pct": -90.38
+      },
+      {
+        "date": "2019-05-08",
+        "eps_estimate": 6.37,
+        "eps_actual": 6.84,
+        "surprise_pct": 7.38
+      },
+      {
+        "date": "2019-02-06",
+        "eps_estimate": null,
+        "eps_actual": -3.46,
+        "surprise_pct": null
+      },
+      {
+        "date": "2018-11-07",
+        "eps_estimate": 6.79,
+        "eps_actual": 9.38,
+        "surprise_pct": 38.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.24,
-    "institution_pct": 25.27,
+    "institution_pct": 23.59,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 25.27
+        "value": 23.59
       },
       {
         "label": "",
-        "value": 36.23
+        "value": 33.82
       },
       {
         "label": "",
-        "value": 92.0
+        "value": 91.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.71,
         "pct_change": 36.13,
-        "value": 7616511000
+        "value": 6570811800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 842092,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.91,
         "pct_change": 0.0,
-        "value": 2551538760
+        "value": 2201228488
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.75,
         "pct_change": 21.74,
-        "value": 2121000000
+        "value": 1829800000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.58,
         "pct_change": 1.99,
-        "value": 1645165770
+        "value": 1419294826
       },
       {
         "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
@@ -89,15 +127,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.51,
         "pct_change": -22.48,
-        "value": 1437432000
+        "value": 1240081600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 379200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 1148976000
+        "value": 991228800
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity Intl Small Cap Opportunities Fd.",
@@ -105,15 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 21.74,
-        "value": 1018080000
-      },
-      {
-        "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
-        "shares": 300000,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.32,
-        "pct_change": 0.0,
-        "value": 909000000
+        "value": 878304000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -121,15 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 721140000
+        "value": 622132000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 211700,
+        "shares": 220400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.24,
+        "pct_change": 1.38,
+        "value": 576125600
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 212900,
         "date_reported": "2026-01-31",
         "pct_held": 0.23,
-        "pct_change": 1.88,
-        "value": 641451000
+        "pct_change": 1.87,
+        "value": 556520600
       }
     ],
     "mutualfund_holders": []

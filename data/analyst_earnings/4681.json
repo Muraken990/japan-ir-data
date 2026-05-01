@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:04.426721",
+  "fetched_at": "2026-05-01T04:25:48.316796",
   "ticker": "4681",
   "ticker_full": "4681.T",
   "company_name": "RESORTTRUST INC",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1778.5,
+    "current": 1752.5,
     "high": 2400.0,
     "low": 2000.0,
     "mean": 2170.0,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 15.29,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 30.53,
+        "eps_actual": 23.2,
+        "surprise_pct": -24.0
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 23.83,
+        "eps_actual": 26.26,
+        "surprise_pct": 10.21
+      },
+      {
+        "date": "2025-08-12",
+        "eps_estimate": 13.49,
+        "eps_actual": 14.41,
+        "surprise_pct": 6.81
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 15.29,
+        "eps_actual": 9.69,
+        "surprise_pct": -36.67
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 38.44,
+        "eps_actual": 49.91,
+        "surprise_pct": 29.84
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 23.77,
-    "institution_pct": 27.64,
+    "institution_pct": 27.27,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 27.64
+        "value": 27.27
       },
       {
         "label": "",
-        "value": 36.25
+        "value": 35.78
       },
       {
         "label": "",
-        "value": 115.0
+        "value": 112.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:30.745968",
+  "fetched_at": "2026-05-01T04:29:20.364693",
   "ticker": "5406",
   "ticker_full": "5406.T",
   "company_name": "KOBE STEEL",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1936.5,
+    "current": 1945.0,
     "high": 2580.0,
     "low": 1660.0,
-    "mean": 2027.1428,
-    "median": 2000.0
+    "mean": 2031.4286,
+    "median": 2030.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 71.36,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 70.86,
+        "eps_actual": 54.62,
+        "surprise_pct": -22.92
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 93.35,
+        "eps_actual": 61.46,
+        "surprise_pct": -34.16
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 73.02,
+        "eps_actual": 98.03,
+        "surprise_pct": 34.26
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 71.36,
+        "eps_actual": 44.06,
+        "surprise_pct": -38.26
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 78.63,
+        "eps_actual": 117.23,
+        "surprise_pct": 49.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.78,
-    "institution_pct": 36.83,
+    "insider_pct": 6.73,
+    "institution_pct": 37.0,
     "major_holders": [
       {
         "label": "",
-        "value": 6.78
+        "value": 6.73
       },
       {
         "label": "",
-        "value": 36.83
+        "value": 37.0
       },
       {
         "label": "",
-        "value": 39.51
+        "value": 39.67
       },
       {
         "label": "",
-        "value": 143.0
+        "value": 148.0
       }
     ],
     "institutional_holders": [],

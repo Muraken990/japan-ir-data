@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:57.909377",
+  "fetched_at": "2026-05-01T04:25:40.826206",
   "ticker": "8366",
   "ticker_full": "8366.T",
   "company_name": "SHIGA BANK",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 1949.0,
-    "high": 1224.0,
+    "current": 1895.0,
+    "high": 2150.0,
     "low": 1224.0,
-    "mean": 1224.0,
-    "median": 1224.0
+    "mean": 1687.0,
+    "median": 1687.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 17.54,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2013-01-24",
+        "eps_estimate": 4.83,
+        "eps_actual": 8.66,
+        "surprise_pct": 79.41
+      },
+      {
+        "date": "2012-07-26",
+        "eps_estimate": 4.26,
+        "eps_actual": 9.9,
+        "surprise_pct": 132.56
+      },
+      {
+        "date": "2012-05-13",
+        "eps_estimate": 4.11,
+        "eps_actual": 11.08,
+        "surprise_pct": 169.32
+      },
+      {
+        "date": "2012-01-26",
+        "eps_estimate": 4.17,
+        "eps_actual": 0.11,
+        "surprise_pct": -97.36
+      },
+      {
+        "date": "2011-11-10",
+        "eps_estimate": -3.53,
+        "eps_actual": 4.54,
+        "surprise_pct": 228.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.75,
-    "institution_pct": 36.23,
+    "institution_pct": 35.55,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.23
+        "value": 35.55
       },
       {
         "label": "",
-        "value": 41.05
+        "value": 40.28
       },
       {
         "label": "",
-        "value": 80.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 1.07,
         "pct_change": -12.04,
-        "value": 1109238268
+        "value": 1078505140
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.66,
         "pct_change": -6.7,
-        "value": 686849039
+        "value": 667818845
       },
       {
         "holder": "DFA International Small Cap Value Portfolio",
@@ -73,7 +111,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.53,
         "pct_change": 0.97,
-        "value": 548448600
+        "value": 533253000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -81,7 +119,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 497969500
+        "value": 484172500
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -89,7 +127,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 428195300
+        "value": 416331500
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -97,7 +135,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.37,
         "pct_change": -1.11,
-        "value": 380514964
+        "value": 369972220
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -105,7 +143,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.27,
         "pct_change": -4.28,
-        "value": 274614100
+        "value": 267005500
       },
       {
         "holder": "Nationwide International Small Cap Fd",
@@ -113,7 +151,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.25,
         "pct_change": -17.16,
-        "value": 256878200
+        "value": 249761000
       },
       {
         "holder": "Vanguard Whitehall Funds-International Explorer Fund",
@@ -121,7 +159,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.21,
         "pct_change": -15.81,
-        "value": 217898200
+        "value": 211861000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.21,
         "pct_change": 2.06,
-        "value": 212441000
+        "value": 206555000
       }
     ],
     "mutualfund_holders": []

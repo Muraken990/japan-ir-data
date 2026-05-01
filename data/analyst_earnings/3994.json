@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:30.386153",
+  "fetched_at": "2026-05-01T04:22:02.089730",
   "ticker": "3994",
   "ticker_full": "3994.T",
   "company_name": "MONEY FORWARD INC",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 8,
+    "buy": 2,
+    "hold": 7,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.55556
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 3624.0,
-    "high": 6700.0,
-    "low": 4100.0,
-    "mean": 4983.3335,
-    "median": 4800.0
+    "current": 4739.0,
+    "high": 6000.0,
+    "low": 3500.0,
+    "mean": 4555.5557,
+    "median": 4300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-13",
+      "eps_estimate": -20.8,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-14",
+        "eps_estimate": 12.71,
+        "eps_actual": 33.06,
+        "surprise_pct": 160.08
+      },
+      {
+        "date": "2026-01-14",
+        "eps_estimate": 77.48,
+        "eps_actual": 90.21,
+        "surprise_pct": 16.43
+      },
+      {
+        "date": "2025-10-15",
+        "eps_estimate": -11.31,
+        "eps_actual": -21.46,
+        "surprise_pct": -89.68
+      },
+      {
+        "date": "2025-07-14",
+        "eps_estimate": -27.06,
+        "eps_actual": -19.53,
+        "surprise_pct": 27.84
+      },
+      {
+        "date": "2025-04-14",
+        "eps_estimate": -31.4,
+        "eps_actual": -20.44,
+        "surprise_pct": 34.91
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 16.17,
-    "institution_pct": 75.19,
+    "insider_pct": 16.12,
+    "institution_pct": 84.78,
     "major_holders": [
       {
         "label": "",
-        "value": 16.17
+        "value": 16.12
       },
       {
         "label": "",
-        "value": 75.19
+        "value": 84.78
       },
       {
         "label": "",
-        "value": 89.69
+        "value": 1.01
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 107.0
       }
     ],
     "institutional_holders": [
@@ -55,25 +93,25 @@
         "holder": "SmallCap World Fund Inc",
         "shares": 2504371,
         "date_reported": "2025-12-31",
-        "pct_held": 4.51,
+        "pct_held": 4.5,
         "pct_change": 0.0,
-        "value": 9068327391
+        "value": 11868214169
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
         "shares": 1678000,
         "date_reported": "2025-12-31",
-        "pct_held": 3.02,
+        "pct_held": 3.01,
         "pct_change": 21.95,
-        "value": 6076038000
+        "value": 7952042000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 645838,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.16,
-        "pct_change": 1.32,
-        "value": 2338579398
+        "pct_change": 0.0,
+        "value": 3060626282
       },
       {
         "holder": "Baillie Gifford Funds-Baillie Gifford International Alpha Fund",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.83,
         "pct_change": -5.18,
-        "value": 1675436700
+        "value": 2192735300
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,15 +127,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.79,
         "pct_change": 7.32,
-        "value": 1587529683
+        "value": 2077686597
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 312000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 1129752000
+        "value": 1478568000
       },
       {
         "holder": "Brighthouse Fd.s TRT II-Baillie Gifford Intl Stock PORT.",
@@ -105,7 +143,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 1102956600
+        "value": 1443499400
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
@@ -113,7 +151,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 908146800
+        "value": 1188541200
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
@@ -121,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 779420250
+        "value": 1020069750
       },
       {
         "holder": "THORNBURG INVESTMENT TRUST-Thornburg International Growth Fund",
@@ -129,7 +167,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.35,
         "pct_change": 11.48,
-        "value": 703198200
+        "value": 920313800
       }
     ],
     "mutualfund_holders": []

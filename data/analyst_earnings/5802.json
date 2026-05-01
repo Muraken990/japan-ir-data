@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:53.902423",
+  "fetched_at": "2026-05-01T04:32:49.553751",
   "ticker": "5802",
   "ticker_full": "5802.T",
   "company_name": "SUMITOMO ELECTRIC INDUSTRIES",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 4,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 9,
+    "total_analysts": 10,
     "recommendation_key": "buy",
     "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 9086.0,
+    "current": 9972.0,
     "high": 16700.0,
-    "low": 6900.0,
-    "mean": 11446.0,
-    "median": 11680.0
+    "low": 10000.0,
+    "mean": 11896.0,
+    "median": 11400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 62.18,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 83.81,
+        "eps_actual": 101.65,
+        "surprise_pct": 21.29
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 53.76,
+        "eps_actual": 80.54,
+        "surprise_pct": 49.82
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 43.74,
+        "eps_actual": 45.03,
+        "surprise_pct": 2.94
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 62.18,
+        "eps_actual": 102.7,
+        "surprise_pct": 65.15
+      },
+      {
+        "date": "2025-02-03",
+        "eps_estimate": 57.86,
+        "eps_actual": 48.63,
+        "surprise_pct": -15.95
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.49,
-    "institution_pct": 47.5,
+    "institution_pct": 44.51,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 47.5
+        "value": 44.51
       },
       {
         "label": "",
-        "value": 49.73
+        "value": 46.6
       },
       {
         "label": "",
-        "value": 374.0
+        "value": 364.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 254408000
+        "value": 279272000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,17 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -97.39,
-        "value": 78675674
+        "value": 86364866
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 10957626,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.38,
-        "pct_change": 0.23,
-        "value": 99560989836
+        "shares": 11043326,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.39,
+        "pct_change": 0.78,
+        "value": 110146133524
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +121,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.9,
         "pct_change": 2.07,
-        "value": 64686314154
+        "value": 71008287186
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 4907700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 0.78,
-        "value": 44591362200
+        "shares": 5025000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.63,
+        "pct_change": 1.19,
+        "value": 50119350000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -99,7 +137,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 27218930200
+        "value": 29879111800
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 2794300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 0.27,
+        "value": 27870348200
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -107,31 +153,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.34,
         "pct_change": -0.94,
-        "value": 24432254000
+        "value": 26820086000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2575757,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 0.68,
-        "value": 23403328102
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2477000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.01,
-        "value": 22506022000
+        "shares": 2606357,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.33,
+        "pct_change": 1.19,
+        "value": 25995804718
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 2462300,
-        "date_reported": "2026-01-31",
+        "shares": 2473100,
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
-        "pct_change": 0.49,
-        "value": 22372457800
+        "pct_change": 0.44,
+        "value": 24666699400
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -139,15 +177,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": -3.98,
-        "value": 20796036800
+        "value": 22828491200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 1636280,
-        "date_reported": "2025-10-31",
+        "shares": 1673180,
+        "date_reported": "2026-01-31",
         "pct_held": 0.21,
-        "pct_change": 0.31,
-        "value": 14867240080
+        "pct_change": 2.26,
+        "value": 16688297320
       }
     ]
   }

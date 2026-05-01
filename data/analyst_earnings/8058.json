@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:56.530896",
+  "fetched_at": "2026-05-01T04:34:57.335238",
   "ticker": "8058",
   "ticker_full": "8058.T",
   "company_name": "MITSUBISHI CORP",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 1,
-    "hold": 10,
+    "buy": 2,
+    "hold": 9,
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 14,
@@ -18,15 +18,48 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5442.0,
+    "current": 4967.0,
     "high": 7000.0,
     "low": 3280.74,
-    "mean": 4952.196,
+    "mean": 5062.196,
     "median": 5185.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-01",
+        "eps_estimate": 30.83,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 57.47,
+        "eps_actual": 66.87,
+        "surprise_pct": 16.36
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 42.29,
+        "eps_actual": 40.28,
+        "surprise_pct": -4.75
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 51.65,
+        "eps_actual": 51.59,
+        "surprise_pct": -0.12
+      },
+      {
+        "date": "2025-05-02",
+        "eps_estimate": 30.83,
+        "eps_actual": 31.31,
+        "surprise_pct": 1.57
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
@@ -43,11 +76,11 @@
       },
       {
         "label": "",
-        "value": 35.0
+        "value": 35.01
       },
       {
         "label": "",
-        "value": 366.0
+        "value": 349.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +90,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 14.89,
-        "value": 7782060
-      },
-      {
-        "holder": "Nbc Securities, Inc.                          ",
-        "shares": 880,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.0,
-        "pct_change": 0.0,
-        "value": 4788960
+        "value": 7102810
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
@@ -73,7 +98,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 29386800
+        "value": 26821800
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -81,7 +106,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -97.47,
-        "value": 165540198
+        "value": 151091173
       },
       {
         "holder": "Calydon Capital",
@@ -89,7 +114,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 135505800
+        "value": 123678300
       },
       {
         "holder": "Ancora Advisors, LLC",
@@ -97,17 +122,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 13403646
+        "value": 12233721
+      },
+      {
+        "holder": "Nbc Securities, Inc.                          ",
+        "shares": 880,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.0,
+        "pct_change": 0.0,
+        "value": 4370960
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 48730834,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.21,
-        "pct_change": 3.94,
-        "value": 265193198628
+        "shares": 47951234,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.19,
+        "pct_change": -1.6,
+        "value": 238173779278
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -115,31 +148,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.77,
         "pct_change": -0.47,
-        "value": 168604337868
+        "value": 153887862218
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 22083600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.55,
-        "pct_change": 0.87,
-        "value": 120178951200
+        "shares": 22664000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.56,
+        "pct_change": 1.3,
+        "value": 112572088000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 11174200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.01,
-        "value": 60809996400
+        "shares": 12610400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": 0.27,
+        "value": 62635856800
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 11756651,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.29,
+        "pct_change": 1.0,
+        "value": 58395285517
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 11129500,
-        "date_reported": "2026-01-31",
+        "shares": 11167300,
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
-        "pct_change": 0.69,
-        "value": 60566739000
+        "pct_change": 0.13,
+        "value": 55467979100
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -147,39 +188,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -6.36,
-        "value": 59794519200
+        "value": 54575409200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 8430200,
-        "date_reported": "2026-01-31",
+        "shares": 8403100,
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 0.62,
-        "value": 45877148400
+        "pct_change": -2.15,
+        "value": 41738197700
       },
       {
         "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
-        "shares": 7519200,
-        "date_reported": "2025-10-31",
+        "shares": 7474900,
+        "date_reported": "2026-01-31",
         "pct_held": 0.19,
-        "pct_change": 4.11,
-        "value": 40919486400
+        "pct_change": -0.59,
+        "value": 37127828300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 7297016,
-        "date_reported": "2025-10-31",
+        "shares": 7276216,
+        "date_reported": "2026-01-31",
         "pct_held": 0.18,
-        "pct_change": 4.13,
-        "value": 39710361072
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 7111203,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.18,
-        "pct_change": 3.77,
-        "value": 38699166726
+        "pct_change": -0.29,
+        "value": 36140964872
       }
     ]
   }

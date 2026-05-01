@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:06.507523",
+  "fetched_at": "2026-05-01T04:26:51.958588",
   "ticker": "1963",
   "ticker_full": "1963.T",
   "company_name": "JGC HOLDINGS CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2430.0,
+    "current": 2396.0,
     "high": 2800.0,
-    "low": 1550.0,
-    "mean": 2190.0,
-    "median": 2300.0
+    "low": 1800.0,
+    "mean": 2360.0,
+    "median": 2400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-08-07",
+        "eps_estimate": 12.8,
+        "eps_actual": 51.28,
+        "surprise_pct": 300.63
+      },
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 30.3,
+        "eps_actual": -8.21,
+        "surprise_pct": -127.1
+      },
+      {
+        "date": "2023-11-08",
+        "eps_estimate": 37.8,
+        "eps_actual": 9.69,
+        "surprise_pct": -74.37
+      },
+      {
+        "date": "2023-08-08",
+        "eps_estimate": 29.9,
+        "eps_actual": 42.6,
+        "surprise_pct": 42.47
+      },
+      {
+        "date": "2023-05-10",
+        "eps_estimate": 21.2,
+        "eps_actual": 33.01,
+        "surprise_pct": 55.71
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.43,
-    "institution_pct": 44.15,
+    "institution_pct": 44.1,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 44.15
+        "value": 44.1
       },
       {
         "label": "",
-        "value": 49.29
+        "value": 49.23
       },
       {
         "label": "",
-        "value": 122.0
+        "value": 117.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.01,
         "pct_change": -35.17,
-        "value": 44801910
+        "value": 44175052
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3139427,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.29,
-        "pct_change": 1.49,
-        "value": 7628807610
+        "shares": 3234027,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.32,
+        "pct_change": 3.01,
+        "value": 7748728692
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -75,7 +113,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.18,
         "pct_change": 15.42,
-        "value": 6993783000
+        "value": 6895927600
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -83,7 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.09,
         "pct_change": 3.75,
-        "value": 6496743510
+        "value": 6405842572
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,23 +129,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.84,
         "pct_change": 2.85,
-        "value": 4967301510
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1580500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.65,
-        "pct_change": 0.97,
-        "value": 3840615000
+        "value": 4897800172
       },
       {
         "holder": "MFS SERIES TRUST IV-MFS Blended Research International Equity Fund",
-        "shares": 1247600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.51,
-        "pct_change": 51.59,
-        "value": 3031668000
+        "shares": 1734000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.71,
+        "pct_change": 38.99,
+        "value": 4154664000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 1624100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.66,
+        "pct_change": 1.27,
+        "value": 3891343600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -115,15 +153,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.46,
         "pct_change": -3.15,
-        "value": 2715039000
+        "value": 2677050800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 842800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 1.57,
-        "value": 2048004000
+        "shares": 871800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 1.16,
+        "value": 2088832800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 1280367000
+        "value": 1262452400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 458754,
-        "date_reported": "2025-10-31",
+        "shares": 474754,
+        "date_reported": "2026-01-31",
         "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 1114772220
+        "pct_change": 3.49,
+        "value": 1137510584
       }
     ]
   }

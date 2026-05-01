@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:17.619390",
+  "fetched_at": "2026-05-01T04:28:05.355418",
   "ticker": "4182",
   "ticker_full": "4182.T",
   "company_name": "MITSUBISHI GAS CHEMICAL CO INC",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 7,
-    "hold": 3,
+    "buy": 6,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.81818
+    "recommendation_mean": 1.9
   },
   "target_prices": {
     "has_data": true,
-    "current": 3729.0,
+    "current": 4398.0,
     "high": 6300.0,
     "low": 2640.0,
-    "mean": 4391.8184,
-    "median": 4200.0
+    "mean": 4597.0,
+    "median": 4600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 61.05,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 62.61,
+        "eps_actual": 9.14,
+        "surprise_pct": -85.4
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 68.91,
+        "eps_actual": -186.65,
+        "surprise_pct": -370.85
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 57.41,
+        "eps_actual": 43.17,
+        "surprise_pct": -24.81
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 61.05,
+        "eps_actual": 50.75,
+        "surprise_pct": -16.86
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 80.13,
+        "eps_actual": 54.71,
+        "surprise_pct": -31.73
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.91,
-    "institution_pct": 54.56,
+    "institution_pct": 55.61,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 54.56
+        "value": 55.61
       },
       {
         "label": "",
-        "value": 57.37
+        "value": 58.47
       },
       {
         "label": "",
-        "value": 141.0
+        "value": 145.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.26,
         "pct_change": 4.06,
-        "value": 9922611699
+        "value": 11702774538
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2424087,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.15,
-        "pct_change": -0.9,
-        "value": 9039420423
+        "pct_change": 0.0,
+        "value": 10661134626
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.75,
         "pct_change": 2.49,
-        "value": 5892230190
+        "value": 6949323780
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1029900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.49,
-        "pct_change": 0.74,
-        "value": 3840497100
+        "shares": 1051700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.5,
+        "pct_change": 0.98,
+        "value": 4625376600
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -89,15 +127,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 11.5,
-        "value": 2282148000
+        "value": 2691576000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 562000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.65,
-        "value": 2095698000
+        "shares": 586900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.28,
+        "pct_change": 2.02,
+        "value": 2581186200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -105,15 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 2067357600
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 401882,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": 6.92,
-        "value": 1498617978
+        "value": 2438251200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -121,15 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 1478548500
+        "value": 1743807000
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 401382,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.19,
+        "pct_change": -2.67,
+        "value": 1765278036
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 371885,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.18,
-        "pct_change": 8.97,
-        "value": 1386759165
+        "shares": 407623,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.19,
+        "pct_change": 9.61,
+        "value": 1792725954
       }
     ],
     "mutualfund_holders": []

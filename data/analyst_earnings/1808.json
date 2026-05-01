@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:26.757032",
+  "fetched_at": "2026-05-01T04:30:17.312520",
   "ticker": "1808",
   "ticker_full": "1808.T",
   "company_name": "HASEKO CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2931.5,
+    "current": 2738.0,
     "high": 3800.0,
     "low": 3000.0,
-    "mean": 3298.75,
-    "median": 3195.0
+    "mean": 3311.25,
+    "median": 3245.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 85.79,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 53.61,
+        "eps_actual": 52.77,
+        "surprise_pct": -1.56
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 35.7,
+        "eps_actual": 42.98,
+        "surprise_pct": 20.4
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 38.47,
+        "eps_actual": 46.34,
+        "surprise_pct": 20.47
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 47.52,
+        "eps_actual": 58.92,
+        "surprise_pct": 24.0
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 38.05,
+        "eps_actual": -3.69,
+        "surprise_pct": -109.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.81,
-    "institution_pct": 48.87,
+    "institution_pct": 49.75,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 48.87
+        "value": 49.75
       },
       {
         "label": "",
-        "value": 54.19
+        "value": 55.16
       },
       {
         "label": "",
-        "value": 138.0
+        "value": 140.0
       }
     ],
     "institutional_holders": [],

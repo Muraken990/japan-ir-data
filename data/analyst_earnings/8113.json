@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:50.263727",
+  "fetched_at": "2026-05-01T04:32:46.311064",
   "ticker": "8113",
   "ticker_full": "8113.T",
   "company_name": "UNICHARM CORP",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 13,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.15385
+    "recommendation_mean": 2.07143
   },
   "target_prices": {
     "has_data": true,
-    "current": 936.7,
+    "current": 916.9,
     "high": 1480.0,
-    "low": 950.0,
-    "mean": 1133.0769,
-    "median": 1100.0
+    "low": 1000.0,
+    "mean": 1117.1428,
+    "median": 1075.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": 11.31,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 13.17,
+        "eps_actual": 2.62,
+        "surprise_pct": -80.1
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 9.54,
+        "eps_actual": 10.84,
+        "surprise_pct": 13.63
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 16.83,
+        "eps_actual": 9.66,
+        "surprise_pct": -42.6
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 11.78,
+        "eps_actual": 14.18,
+        "surprise_pct": 20.37
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": -51.43,
+        "eps_actual": 12.67,
+        "surprise_pct": 124.63
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.5,
-    "institution_pct": 31.56,
+    "institution_pct": 31.72,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 31.56
+        "value": 31.72
       },
       {
         "label": "",
-        "value": 45.41
+        "value": 45.64
       },
       {
         "label": "",
-        "value": 311.0
+        "value": 305.0
       }
     ],
     "institutional_holders": [
@@ -57,33 +95,49 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.03,
         "pct_change": 59.34,
-        "value": 589010181
+        "value": 576498139
       }
     ],
     "mutualfund_holders": [
       {
-        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 17220403,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.92,
-        "pct_change": -0.04,
-        "value": 16132073320
+        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
+        "shares": 24576600,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.32,
+        "pct_change": 1.0,
+        "value": 22534285140
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 17025900,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.91,
-        "pct_change": 20.11,
-        "value": 15949862912
+        "shares": 18970600,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.02,
+        "pct_change": 11.42,
+        "value": 17394143603
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 17354203,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.93,
+        "pct_change": 0.78,
+        "value": 15912069154
+      },
+      {
+        "holder": "MFS SERIES TRUST I-MFS Research International Fund",
+        "shares": 17358700,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.93,
+        "pct_change": 1.0,
+        "value": 15916192453
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 14206000,
         "date_reported": "2026-01-31",
         "pct_held": 0.76,
-        "pct_change": 7.67,
-        "value": 13308180626
+        "pct_change": -1.72,
+        "value": 13025481746
       },
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.",
@@ -91,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.74,
         "pct_change": -10.44,
-        "value": 12958473191
+        "value": 12683202967
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,47 +153,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.6,
         "pct_change": 2.32,
-        "value": 10477813708
+        "value": 10255238866
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 7672500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.41,
-        "pct_change": 0.9,
-        "value": 7187597906
+        "shares": 7868700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.42,
+        "pct_change": 1.18,
+        "value": 7214811222
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 4042621,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": -0.26,
-        "value": 3787127303
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 3892700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 0.56,
-        "value": 3646681312
+        "holder": "MFS Series Trust X-MFS International Large Cap Value Fund",
+        "shares": 5262900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.28,
+        "pct_change": 1.0,
+        "value": 4825553138
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 3879400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 1.14,
-        "value": 3634221872
-      },
-      {
-        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 3374700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": -3.95,
-        "value": 3161418918
+        "shares": 4385000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.24,
+        "pct_change": -0.49,
+        "value": 4020606607
       }
     ]
   }

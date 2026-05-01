@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:32.834088",
+  "fetched_at": "2026-05-01T04:31:26.437273",
   "ticker": "6506",
   "ticker_full": "6506.T",
   "company_name": "YASKAWA ELECTRIC CORP",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 4,
-    "buy": 7,
-    "hold": 7,
+    "buy": 6,
+    "hold": 8,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 19,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.16667
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 4252.0,
-    "high": 6690.0,
-    "low": 3400.0,
-    "mean": 5272.222,
-    "median": 5450.0
+    "current": 5533.0,
+    "high": 7300.0,
+    "low": 4700.0,
+    "mean": 5740.5884,
+    "median": 5500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-10",
+      "eps_estimate": 28.43,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-10",
+        "eps_estimate": 41.8,
+        "eps_actual": 37.39,
+        "surprise_pct": -10.55
+      },
+      {
+        "date": "2026-01-09",
+        "eps_estimate": 36.03,
+        "eps_actual": 28.13,
+        "surprise_pct": -21.92
+      },
+      {
+        "date": "2025-10-03",
+        "eps_estimate": 28.5,
+        "eps_actual": 43.55,
+        "surprise_pct": 52.79
+      },
+      {
+        "date": "2025-07-04",
+        "eps_estimate": 28.43,
+        "eps_actual": 26.81,
+        "surprise_pct": -5.7
+      },
+      {
+        "date": "2025-04-04",
+        "eps_estimate": 46.39,
+        "eps_actual": 44.16,
+        "surprise_pct": -4.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.93,
-    "institution_pct": 61.74,
+    "institution_pct": 61.65,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 61.74
+        "value": 61.65
       },
       {
         "label": "",
-        "value": 63.61
+        "value": 63.51
       },
       {
         "label": "",
-        "value": 248.0
+        "value": 246.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 113081940
+        "value": 147150135
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,25 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.69,
-        "value": 3231520
+        "value": 4205080
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3703474,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.39,
-        "pct_change": 0.19,
-        "value": 15747171448
-      },
-      {
-        "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
-        "shares": 3141374,
+        "shares": 3746074,
         "date_reported": "2026-01-31",
-        "pct_held": 1.18,
-        "pct_change": 3.13,
-        "value": 13357122248
+        "pct_held": 1.4,
+        "pct_change": 1.15,
+        "value": 20727027442
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,23 +121,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.9,
         "pct_change": 2.24,
-        "value": 10249484268
+        "value": 13337346297
+      },
+      {
+        "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
+        "shares": 1951287,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.73,
+        "pct_change": -38.15,
+        "value": 10796470971
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1556100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": 0.99,
-        "value": 6616537200
+        "shares": 1599700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.6,
+        "pct_change": 1.29,
+        "value": 8851140100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 865200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 1.93,
-        "value": 3678830400
+        "shares": 894200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 1.13,
+        "value": 4947608600
+      },
+      {
+        "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
+        "shares": 784000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 6.1,
+        "value": 4337872000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -115,39 +161,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -3.82,
-        "value": 3172417200
-      },
-      {
-        "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
-        "shares": 738900,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.28,
-        "pct_change": 6.89,
-        "value": 3141802800
+        "value": 4128171300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 553459,
-        "date_reported": "2025-10-31",
+        "shares": 565859,
+        "date_reported": "2026-01-31",
         "pct_held": 0.21,
-        "pct_change": -0.38,
-        "value": 2353307668
+        "pct_change": 2.24,
+        "value": 3130897847
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 533537,
-        "date_reported": "2025-11-30",
+        "shares": 538551,
+        "date_reported": "2026-02-28",
         "pct_held": 0.2,
-        "pct_change": 0.91,
-        "value": 2268599324
+        "pct_change": 0.94,
+        "value": 2979802683
       },
       {
         "holder": "AB Active ETFs, Inc.-AB Disruptors ETF",
-        "shares": 425200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.16,
-        "pct_change": 3.96,
-        "value": 1807950400
+        "shares": 451900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.17,
+        "pct_change": 6.28,
+        "value": 2500362700
       }
     ]
   }

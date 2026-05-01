@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:41:57.880967",
+  "fetched_at": "2026-05-01T04:13:56.924280",
   "ticker": "8892",
   "ticker_full": "8892.T",
   "company_name": "ES-CON JAPAN LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1108.0,
+    "current": 1160.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2012-11-01",
+        "eps_estimate": 18.41,
+        "eps_actual": 1.18,
+        "surprise_pct": -93.6
+      },
+      {
+        "date": "2012-08-07",
+        "eps_estimate": 1.66,
+        "eps_actual": 3.93,
+        "surprise_pct": 136.91
+      },
+      {
+        "date": "2012-05-09",
+        "eps_estimate": -0.89,
+        "eps_actual": 1.22,
+        "surprise_pct": 237.52
+      },
+      {
+        "date": "2012-02-14",
+        "eps_estimate": 12.64,
+        "eps_actual": 11.47,
+        "surprise_pct": -9.19
+      },
+      {
+        "date": "2011-11-10",
+        "eps_estimate": 5.09,
+        "eps_actual": -0.74,
+        "surprise_pct": -114.53
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 58.39,
-    "institution_pct": 6.91,
+    "institution_pct": 6.93,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +71,11 @@
       },
       {
         "label": "",
-        "value": 6.91
+        "value": 6.93
       },
       {
         "label": "",
-        "value": 16.62
+        "value": 16.67
       },
       {
         "label": "",

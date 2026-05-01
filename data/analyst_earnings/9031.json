@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:28.860332",
+  "fetched_at": "2026-05-01T04:20:58.914953",
   "ticker": "9031",
   "ticker_full": "9031.T",
   "company_name": "NISHI-NIPPON RAILROAD CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3050.0,
+    "current": 2857.0,
     "high": 3400.0,
     "low": 2900.0,
     "mean": 3150.0,
     "median": 3150.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-02-01",
+        "eps_estimate": 35.5,
+        "eps_actual": 54.9,
+        "surprise_pct": 54.65
+      },
+      {
+        "date": "2016-11-03",
+        "eps_estimate": 36.5,
+        "eps_actual": 39.0,
+        "surprise_pct": 6.85
+      },
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 43.21,
+        "eps_actual": 70.2,
+        "surprise_pct": 62.48
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": 25.86,
+        "eps_actual": 36.35,
+        "surprise_pct": 40.56
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 42.02,
+        "eps_actual": 27.2,
+        "surprise_pct": -35.26
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.64,
-    "institution_pct": 30.0,
+    "institution_pct": 30.26,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 30.0
+        "value": 30.26
       },
       {
         "label": "",
-        "value": 31.8
+        "value": 32.07
       },
       {
         "label": "",
@@ -57,17 +95,17 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 164700
+        "value": 154278
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1024153,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.29,
-        "pct_change": 1.46,
-        "value": 3123666650
+        "pct_change": 0.0,
+        "value": 2926005121
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,39 +113,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.84,
         "pct_change": 3.67,
-        "value": 2040328000
+        "value": 1911218720
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 590600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.74,
         "pct_change": 0.0,
-        "value": 1801330000
+        "value": 1687344200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 559100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 1.38,
-        "value": 1705255000
+        "shares": 580900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.73,
+        "pct_change": 1.79,
+        "value": 1659631300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 245900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.31,
-        "pct_change": 2.16,
-        "value": 749995000
+        "shares": 259600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.33,
+        "pct_change": 5.57,
+        "value": 741677200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 227800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.74,
-        "value": 694790000
+        "shares": 236500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.28,
+        "value": 675680500
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -115,31 +153,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 17.96,
-        "value": 674965000
+        "value": 632254100
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 153082,
-        "date_reported": "2025-11-30",
+        "shares": 151336,
+        "date_reported": "2026-02-28",
         "pct_held": 0.19,
-        "pct_change": 12.96,
-        "value": 466900100
+        "pct_change": -1.14,
+        "value": 432366952
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
-        "shares": 141277,
-        "date_reported": "2025-11-30",
+        "shares": 146449,
+        "date_reported": "2026-02-28",
         "pct_held": 0.18,
-        "pct_change": 8.9,
-        "value": 430894850
+        "pct_change": 3.66,
+        "value": 418404793
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 118300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 360815000
+        "value": 337983100
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:14.678806",
+  "fetched_at": "2026-05-01T04:28:02.457969",
   "ticker": "8954",
   "ticker_full": "8954.T",
   "company_name": "ORIX JREIT INC",
@@ -13,25 +13,32 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 97900.0,
+    "current": 98900.0,
     "high": 120000.0,
     "low": 101000.0,
     "mean": 114333.336,
     "median": 116000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-21",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.16,
-    "institution_pct": 56.25,
+    "institution_pct": 54.78,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 56.25
+        "value": 54.78
       },
       {
         "label": "",
-        "value": 60.59
+        "value": 59.01
       },
       {
         "label": "",
-        "value": 155.0
+        "value": 152.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 76112,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.38,
-        "pct_change": 1.92,
-        "value": 7451364800
+        "pct_change": 0.0,
+        "value": 7527476800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +72,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": 1.57,
-        "value": 4810218600
+        "value": 4859352600
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 37320,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.68,
+        "pct_change": 1.11,
+        "value": 3690948000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -73,39 +88,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.67,
         "pct_change": -1.66,
-        "value": 3616523900
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 36448,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.66,
-        "pct_change": 0.84,
-        "value": 3568259200
+        "value": 3653464900
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 25198,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": 2.73,
-        "value": 2466884200
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
-        "shares": 20096,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.36,
-        "pct_change": -2.14,
-        "value": 1967398400
+        "shares": 24865,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.45,
+        "pct_change": -1.32,
+        "value": 2459148500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 19715,
+        "shares": 20571,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 1.98,
+        "value": 2034471900
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
+        "shares": 19140,
         "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.61,
-        "value": 1930098500
+        "pct_held": 0.35,
+        "pct_change": -4.76,
+        "value": 1892946000
       },
       {
         "holder": "CBRE Global Real Estate Income Fund",
@@ -113,15 +120,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.26,
         "pct_change": -30.33,
-        "value": 1380879500
+        "value": 1394984500
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 13803,
-        "date_reported": "2026-01-31",
+        "shares": 13928,
+        "date_reported": "2026-03-31",
         "pct_held": 0.25,
-        "pct_change": 2.09,
-        "value": 1351313700
+        "pct_change": 0.19,
+        "value": 1377479200
       },
       {
         "holder": "Brighthouse Funds Trust I-CBRE Global Real Estate Portfolio",
@@ -129,7 +136,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.22,
         "pct_change": -7.57,
-        "value": 1168338600
+        "value": 1180272600
       }
     ],
     "mutualfund_holders": []

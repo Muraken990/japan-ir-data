@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:57.886945",
+  "fetched_at": "2026-05-01T04:34:58.891739",
   "ticker": "8766",
   "ticker_full": "8766.T",
   "company_name": "TOKIO MARINE HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 3,
     "buy": 5,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 10,
+    "total_analysts": 11,
     "recommendation_key": "buy",
     "recommendation_mean": 1.72727
   },
   "target_prices": {
     "has_data": true,
-    "current": 7419.0,
+    "current": 7131.0,
     "high": 9840.0,
     "low": 5500.0,
-    "mean": 7739.273,
-    "median": 7700.0
+    "mean": 7885.636,
+    "median": 8050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-20",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 91.76,
+        "eps_actual": 157.91,
+        "surprise_pct": 72.09
+      },
+      {
+        "date": "2023-11-16",
+        "eps_estimate": 18.95,
+        "eps_actual": 39.01,
+        "surprise_pct": 105.84
+      },
+      {
+        "date": "2023-08-06",
+        "eps_estimate": 65.02,
+        "eps_actual": 64.37,
+        "surprise_pct": -1.0
+      },
+      {
+        "date": "2023-05-18",
+        "eps_estimate": 50.7,
+        "eps_actual": 52.57,
+        "surprise_pct": 3.68
+      },
+      {
+        "date": "2023-02-14",
+        "eps_estimate": 63.81,
+        "eps_actual": 91.91,
+        "surprise_pct": 44.04
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.12,
-    "institution_pct": 49.81,
+    "institution_pct": 47.46,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 49.81
+        "value": 47.46
       },
       {
         "label": "",
-        "value": 51.42
+        "value": 48.99
       },
       {
         "label": "",
-        "value": 508.0
+        "value": 494.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 107998937
+        "value": 103834491
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 26726089,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.33,
-        "pct_change": 0.11,
-        "value": 198227402113
+        "shares": 26944389,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.35,
+        "pct_change": 0.82,
+        "value": 192140437959
+      },
+      {
+        "holder": "Goldman Sachs TRT II-Goldman Sachs GQG Part. Intl Opportunities Fd.",
+        "shares": 18892625,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.94,
+        "pct_change": 16.76,
+        "value": 134723308875
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,31 +121,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.87,
         "pct_change": 2.06,
-        "value": 129059219237
-      },
-      {
-        "holder": "Goldman Sachs TRT II-Goldman Sachs GQG Part. Intl Opportunities Fd.",
-        "shares": 16181225,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.81,
-        "pct_change": 0.0,
-        "value": 120016145825
+        "value": 124082687391
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 12568800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.63,
-        "pct_change": 0.85,
-        "value": 93222789600
+        "shares": 12901600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.64,
+        "pct_change": 1.34,
+        "value": 92001309600
       },
       {
         "holder": "Capital Income Builder",
-        "shares": 12358100,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.62,
-        "pct_change": 11.26,
-        "value": 91660027700
+        "shares": 12285500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": 0.0,
+        "value": 87607900500
+      },
+      {
+        "holder": "EuroPacific Growth Fund-EUPAC Fund",
+        "shares": 7317875,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 52.63,
+        "value": 52183766625
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 7187900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 0.27,
+        "value": 51256914900
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series Overseas Fund",
@@ -107,39 +161,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.35,
         "pct_change": 7.73,
-        "value": 51867370263
+        "value": 49867361109
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 6623139,
-        "date_reported": "2026-01-31",
+        "shares": 6701739,
+        "date_reported": "2026-02-28",
         "pct_held": 0.33,
-        "pct_change": 0.71,
-        "value": 49123821963
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 6369600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 1.01,
-        "value": 47243323200
+        "pct_change": 1.19,
+        "value": 47790100809
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 6331900,
-        "date_reported": "2026-01-31",
+        "shares": 6368900,
+        "date_reported": "2026-03-31",
         "pct_held": 0.32,
-        "pct_change": 0.5,
-        "value": 46963702300
-      },
-      {
-        "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 6023105,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": -8.14,
-        "value": 44673369785
+        "pct_change": 0.18,
+        "value": 45416625900
       }
     ]
   }

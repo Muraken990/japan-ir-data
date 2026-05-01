@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:25.998015",
+  "fetched_at": "2026-05-01T04:19:52.074069",
   "ticker": "4023",
   "ticker_full": "4023.T",
   "company_name": "KUREHA CORPORATION",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 4070.0,
-    "high": 5000.0,
-    "low": 3600.0,
-    "mean": 4280.0,
-    "median": 4260.0
+    "current": 3605.0,
+    "high": 5660.0,
+    "low": 3200.0,
+    "mean": 4065.0,
+    "median": 3700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-06",
+        "eps_estimate": 78.57,
+        "eps_actual": 62.24,
+        "surprise_pct": -20.78
+      },
+      {
+        "date": "2021-02-04",
+        "eps_estimate": 59.77,
+        "eps_actual": 119.0,
+        "surprise_pct": 99.11
+      },
+      {
+        "date": "2020-11-09",
+        "eps_estimate": 56.37,
+        "eps_actual": 47.2,
+        "surprise_pct": -16.26
+      },
+      {
+        "date": "2020-02-05",
+        "eps_estimate": 166.77,
+        "eps_actual": 207.96,
+        "surprise_pct": 24.7
+      },
+      {
+        "date": "2019-11-13",
+        "eps_estimate": 61.17,
+        "eps_actual": 78.95,
+        "surprise_pct": 29.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.21,
-    "institution_pct": 34.94,
+    "institution_pct": 35.34,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 34.94
+        "value": 35.34
       },
       {
         "label": "",
-        "value": 38.92
+        "value": 39.36
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 82.0
       }
     ],
     "institutional_holders": [],

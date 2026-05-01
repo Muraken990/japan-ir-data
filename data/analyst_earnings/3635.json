@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:09.203613",
+  "fetched_at": "2026-05-01T04:28:57.363339",
   "ticker": "3635",
   "ticker_full": "3635.T",
   "company_name": "KOEI TECMO HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 3,
     "hold": 4,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1629.0,
+    "current": 1509.5,
     "high": 2700.0,
-    "low": 1700.0,
-    "mean": 2145.5557,
+    "low": 1400.0,
+    "mean": 2035.5555,
     "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-27",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 52.03,
+        "eps_actual": 57.93,
+        "surprise_pct": 11.34
+      },
+      {
+        "date": "2026-01-26",
+        "eps_estimate": 38.57,
+        "eps_actual": 31.23,
+        "surprise_pct": -19.03
+      },
+      {
+        "date": "2025-10-27",
+        "eps_estimate": 21.56,
+        "eps_actual": 23.38,
+        "surprise_pct": 8.44
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 196.56,
+        "eps_actual": 39.47,
+        "surprise_pct": -79.92
+      },
+      {
+        "date": "2025-01-26",
+        "eps_estimate": 33.73,
+        "eps_actual": 29.09,
+        "surprise_pct": -13.75
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 60.98,
-    "institution_pct": 17.54,
+    "institution_pct": 17.71,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 17.54
+        "value": 17.71
       },
       {
         "label": "",
-        "value": 44.94
+        "value": 45.38
       },
       {
         "label": "",
-        "value": 116.0
+        "value": 115.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 6037074
+        "value": 5594207
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1625307,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.48,
-        "pct_change": 3.2,
-        "value": 2647625103
+        "shares": 1730507,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.51,
+        "pct_change": 6.47,
+        "value": 2612200316
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,7 +113,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.37,
         "pct_change": 17.6,
-        "value": 2024110692
+        "value": 1875626206
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -83,15 +121,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.29,
         "pct_change": 2.02,
-        "value": 1574102700
+        "value": 1458629850
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 715232,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 1.07,
-        "value": 1165112928
+        "shares": 737032,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": 1.4,
+        "value": 1112549804
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 554444,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.16,
+        "pct_change": -2.7,
+        "value": 836933218
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -99,47 +145,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.14,
         "pct_change": 1.97,
-        "value": 774426600
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 447644,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": 7.49,
-        "value": 729212076
+        "value": 717616300
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 379900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.11,
-        "pct_change": 1.74,
-        "value": 618857100
-      },
-      {
-        "holder": "VanEck ETF Trust-VanEck Video Gaming and eSports ETF",
-        "shares": 286700,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.09,
-        "pct_change": -4.78,
-        "value": 467034300
+        "shares": 394400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.12,
+        "pct_change": 1.28,
+        "value": 595346800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 243100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.07,
-        "pct_change": 2.27,
-        "value": 396009900
+        "shares": 285600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.08,
+        "pct_change": 17.48,
+        "value": 431113200
+      },
+      {
+        "holder": "VanEck ETF Trust-VanEck Video Gaming and eSports ETF",
+        "shares": 266400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.08,
+        "pct_change": -7.08,
+        "value": 402130800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 232599,
-        "date_reported": "2025-11-30",
+        "shares": 234779,
+        "date_reported": "2026-02-28",
         "pct_held": 0.07,
-        "pct_change": 0.88,
-        "value": 378903771
+        "pct_change": 0.94,
+        "value": 354398900
       }
     ]
   }

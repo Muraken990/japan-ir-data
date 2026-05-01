@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:08.748964",
+  "fetched_at": "2026-05-01T04:17:30.965200",
   "ticker": "4694",
   "ticker_full": "4694.T",
   "company_name": "BML INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4065.0,
+    "current": 3760.0,
     "high": 4500.0,
     "low": 4500.0,
     "mean": 4500.0,
     "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 56.4,
+        "eps_actual": 47.58,
+        "surprise_pct": -15.64
+      },
+      {
+        "date": "2023-02-09",
+        "eps_estimate": 97.0,
+        "eps_actual": 76.71,
+        "surprise_pct": -20.92
+      },
+      {
+        "date": "2018-05-10",
+        "eps_estimate": 20.28,
+        "eps_actual": 20.19,
+        "surprise_pct": -0.44
+      },
+      {
+        "date": "2017-11-07",
+        "eps_estimate": 83.81,
+        "eps_actual": 43.43,
+        "surprise_pct": -48.18
+      },
+      {
+        "date": "2017-05-09",
+        "eps_estimate": 28.88,
+        "eps_actual": 22.24,
+        "surprise_pct": -22.99
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.33,
-    "institution_pct": 17.32,
+    "institution_pct": 17.63,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 17.32
+        "value": 17.63
       },
       {
         "label": "",
-        "value": 30.04
+        "value": 30.57
       },
       {
         "label": "",
-        "value": 83.0
+        "value": 85.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.45,
         "pct_change": 15.41,
-        "value": 4054431000
+        "value": 3750224000
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -65,23 +103,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.09,
         "pct_change": 0.0,
-        "value": 1799941350
+        "value": 1664890400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 310231,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.76,
-        "pct_change": 1.67,
-        "value": 1261089015
+        "pct_change": 0.0,
+        "value": 1166468560
       },
       {
         "holder": "Putnam Investment Funds-Putnam International Small Cap Fund",
         "shares": 238200,
-        "date_reported": "2025-11-30",
+        "date_reported": "2026-02-28",
         "pct_held": 0.58,
         "pct_change": 0.0,
-        "value": 968283000
+        "value": 895632000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,7 +127,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.44,
         "pct_change": -10.16,
-        "value": 729789450
+        "value": 675032800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,15 +135,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": -1.4,
-        "value": 543490500
+        "value": 502712000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 131000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.32,
+        "pct_change": 17.17,
+        "value": 492560000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 132100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 536986500
+        "value": 496696000
       },
       {
         "holder": "AMG Funds-AMG Yacktman Global Fund",
@@ -113,7 +159,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 487800000
+        "value": 451200000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -121,15 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 440646000
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 107100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.26,
-        "pct_change": 0.0,
-        "value": 435361500
+        "value": 407584000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:59:44.811957",
+  "fetched_at": "2026-05-01T04:31:39.714215",
   "ticker": "7912",
   "ticker_full": "7912.T",
   "company_name": "DAI NIPPON PRINTING CO",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.6
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2885.5,
+    "current": 2969.0,
     "high": 3900.0,
     "low": 2500.0,
-    "mean": 3150.0,
-    "median": 3100.0
+    "mean": 3110.0,
+    "median": 2950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 29.69,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2013-06-26",
+        "eps_estimate": 6.4,
+        "eps_actual": 14.46,
+        "surprise_pct": 125.94
+      },
+      {
+        "date": "2013-02-06",
+        "eps_estimate": 8.7,
+        "eps_actual": 14.75,
+        "surprise_pct": 69.54
+      },
+      {
+        "date": "2012-11-08",
+        "eps_estimate": 12.7,
+        "eps_actual": 7.16,
+        "surprise_pct": -43.62
+      },
+      {
+        "date": "2012-08-08",
+        "eps_estimate": 5.4,
+        "eps_actual": -6.54,
+        "surprise_pct": -221.11
+      },
+      {
+        "date": "2012-05-13",
+        "eps_estimate": 4.6,
+        "eps_actual": -31.7,
+        "surprise_pct": -789.13
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.14,
-    "institution_pct": 46.27,
+    "institution_pct": 49.99,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 46.27
+        "value": 49.99
       },
       {
         "label": "",
-        "value": 49.83
+        "value": 53.84
       },
       {
         "label": "",
-        "value": 261.0
+        "value": 259.0
       }
     ],
     "institutional_holders": [],

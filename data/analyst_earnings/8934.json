@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:38.198014",
+  "fetched_at": "2026-05-01T04:14:57.605495",
   "ticker": "8934",
   "ticker_full": "8934.T",
   "company_name": "SUN FRONTIER FUDOSAN CO LTD",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2682.0,
+    "current": 2651.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-02-06",
+        "eps_estimate": 32.7,
+        "eps_actual": 25.56,
+        "surprise_pct": -21.83
+      },
+      {
+        "date": "2016-11-07",
+        "eps_estimate": 32.7,
+        "eps_actual": 20.93,
+        "surprise_pct": -35.99
+      },
+      {
+        "date": "2016-08-07",
+        "eps_estimate": 30.4,
+        "eps_actual": 59.07,
+        "surprise_pct": 94.31
+      },
+      {
+        "date": "2016-05-09",
+        "eps_estimate": 68.2,
+        "eps_actual": 90.61,
+        "surprise_pct": 32.86
+      },
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 30.4,
+        "eps_actual": 36.62,
+        "surprise_pct": 20.46
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 51.21,
-    "institution_pct": 11.84,
+    "insider_pct": 59.97,
+    "institution_pct": 10.04,
     "major_holders": [
       {
         "label": "",
-        "value": 51.21
+        "value": 59.97
       },
       {
         "label": "",
-        "value": 11.84
+        "value": 10.04
       },
       {
         "label": "",
-        "value": 24.27
+        "value": 25.09
       },
       {
         "label": "",
-        "value": 68.0
+        "value": 71.0
       }
     ],
     "institutional_holders": [],

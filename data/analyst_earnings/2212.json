@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:22.904741",
+  "fetched_at": "2026-05-01T04:29:11.911682",
   "ticker": "2212",
   "ticker_full": "2212.T",
   "company_name": "YAMAZAKI BAKING LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3599.0,
+    "current": 3264.0,
     "high": 4250.0,
     "low": 3200.0,
-    "mean": 3581.25,
-    "median": 3450.0
+    "mean": 3656.25,
+    "median": 3550.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": 62.51,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 61.45,
+        "eps_actual": 60.49,
+        "surprise_pct": -1.56
+      },
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 54.07,
+        "eps_actual": 56.52,
+        "surprise_pct": 4.53
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 30.32,
+        "eps_actual": 34.15,
+        "surprise_pct": 12.65
+      },
+      {
+        "date": "2025-08-01",
+        "eps_estimate": 60.5,
+        "eps_actual": 60.72,
+        "surprise_pct": 0.36
+      },
+      {
+        "date": "2025-04-25",
+        "eps_estimate": 55.11,
+        "eps_actual": 55.39,
+        "surprise_pct": 0.51
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.23,
-    "institution_pct": 21.68,
+    "institution_pct": 26.36,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 21.68
+        "value": 26.36
       },
       {
         "label": "",
-        "value": 31.07
+        "value": 37.79
       },
       {
         "label": "",
-        "value": 126.0
+        "value": 123.0
       }
     ],
     "institutional_holders": [],

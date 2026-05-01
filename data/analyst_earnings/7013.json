@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:54.024008",
+  "fetched_at": "2026-05-01T04:32:50.818921",
   "ticker": "7013",
   "ticker_full": "7013.T",
   "company_name": "IHI CORPORATION",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.1
   },
   "target_prices": {
     "has_data": true,
-    "current": 3252.0,
+    "current": 2896.0,
     "high": 5700.0,
-    "low": 2600.0,
-    "mean": 4475.0,
-    "median": 4450.0
+    "low": 3400.0,
+    "mean": 4498.0,
+    "median": 4300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": 30.02,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 25.44,
+        "eps_actual": 27.45,
+        "surprise_pct": 7.89
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 29.87,
+        "eps_actual": 41.81,
+        "surprise_pct": 39.99
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 17.09,
+        "eps_actual": 10.95,
+        "surprise_pct": -35.95
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 30.02,
+        "eps_actual": 33.93,
+        "surprise_pct": 13.01
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 20.77,
+        "eps_actual": 35.37,
+        "surprise_pct": 70.32
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.28,
-    "institution_pct": 67.74,
+    "insider_pct": 5.16,
+    "institution_pct": 62.84,
     "major_holders": [
       {
         "label": "",
-        "value": 5.28
+        "value": 5.16
       },
       {
         "label": "",
-        "value": 67.74
+        "value": 62.84
       },
       {
         "label": "",
-        "value": 71.52
+        "value": 66.26
       },
       {
         "label": "",
-        "value": 294.0
+        "value": 297.0
       }
     ],
     "institutional_holders": [],

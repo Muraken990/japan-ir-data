@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:16.755300",
+  "fetched_at": "2026-05-01T04:19:41.663891",
   "ticker": "4544",
   "ticker_full": "4544.T",
   "company_name": "H.U. GROUP HLDGS INC",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 4,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.25
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3226.0,
+    "current": 3094.0,
     "high": 4370.0,
     "low": 2300.0,
-    "mean": 3242.5,
-    "median": 3150.0
+    "mean": 3323.3333,
+    "median": 3300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": -8.71,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 264.88,
+        "eps_actual": 95.82,
+        "surprise_pct": -63.82
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 16.19,
+        "eps_actual": 24.69,
+        "surprise_pct": 52.48
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 3.24,
+        "eps_actual": -21.08,
+        "surprise_pct": -750.77
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": -8.71,
+        "eps_actual": -0.58,
+        "surprise_pct": 93.34
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 19.7,
+        "eps_actual": 63.65,
+        "surprise_pct": 223.16
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.02,
-    "institution_pct": 63.16,
+    "institution_pct": 62.73,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 63.16
+        "value": 62.73
       },
       {
         "label": "",
-        "value": 63.17
+        "value": 62.74
       },
       {
         "label": "",
-        "value": 91.0
+        "value": 90.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +95,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.85,
         "pct_change": -5.65,
-        "value": 3438270800
+        "value": 3297585200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 808504,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.41,
-        "pct_change": 1.89,
-        "value": 2608233904
+        "shares": 818704,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.42,
+        "pct_change": 1.26,
+        "value": 2533070176
       },
       {
         "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
-        "shares": 555700,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.97,
-        "pct_change": 0.0,
-        "value": 1792688200
+        "shares": 598200,
+        "date_reported": "2026-02-28",
+        "pct_held": 1.04,
+        "pct_change": 7.65,
+        "value": 1850830800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,23 +119,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 1.87,
-        "value": 1702853778
-      },
-      {
-        "holder": "GMO TRUST-GMO Implementation Fund",
-        "shares": 387600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.67,
-        "pct_change": 0.0,
-        "value": 1250397600
+        "value": 1633177182
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 349600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.61,
         "pct_change": 0.0,
-        "value": 1127809600
+        "value": 1081662400
+      },
+      {
+        "holder": "GMO TRUST-GMO Implementation Fund",
+        "shares": 315300,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.55,
+        "pct_change": -18.65,
+        "value": 975538200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,31 +143,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.45,
         "pct_change": 34.34,
-        "value": 840466554
+        "value": 806076726
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
         "shares": 214300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.37,
-        "pct_change": 1.85,
-        "value": 691331800
+        "pct_change": 0.94,
+        "value": 663044200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 200900,
-        "date_reported": "2025-10-31",
+        "shares": 203100,
+        "date_reported": "2026-01-31",
         "pct_held": 0.35,
-        "pct_change": 8.19,
-        "value": 648103400
+        "pct_change": 1.1,
+        "value": 628391400
       },
       {
-        "holder": "GMO TRUST-GMO Benchmark-Free Fund",
-        "shares": 188600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.33,
-        "pct_change": 0.0,
-        "value": 608423600
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 150300,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.26,
+        "pct_change": 52.9,
+        "value": 465028200
       }
     ],
     "mutualfund_holders": []

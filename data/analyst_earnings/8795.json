@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:43.424311",
+  "fetched_at": "2026-05-01T04:32:39.206712",
   "ticker": "8795",
   "ticker_full": "8795.T",
   "company_name": "T&D HOLDINGS INC",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 4,
+    "buy": 5,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 9,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.7
+    "total_analysts": 10,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4169.0,
+    "current": 3776.0,
     "high": 5100.0,
     "low": 4100.0,
     "mean": 4528.0,
     "median": 4440.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 90.55,
+        "eps_actual": 83.46,
+        "surprise_pct": -7.83
+      },
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 43.22,
+        "eps_actual": 40.57,
+        "surprise_pct": -6.13
+      },
+      {
+        "date": "2023-11-13",
+        "eps_estimate": 42.15,
+        "eps_actual": 44.28,
+        "surprise_pct": 5.06
+      },
+      {
+        "date": "2023-08-09",
+        "eps_estimate": 43.25,
+        "eps_actual": 34.69,
+        "surprise_pct": -19.79
+      },
+      {
+        "date": "2023-05-14",
+        "eps_estimate": -16.28,
+        "eps_actual": 62.82,
+        "surprise_pct": 485.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.14,
-    "institution_pct": 43.38,
+    "insider_pct": 6.15,
+    "institution_pct": 39.97,
     "major_holders": [
       {
         "label": "",
-        "value": 6.14
+        "value": 6.15
       },
       {
         "label": "",
-        "value": 43.38
+        "value": 39.97
       },
       {
         "label": "",
-        "value": 46.22
+        "value": 42.59
       },
       {
         "label": "",
-        "value": 301.0
+        "value": 293.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,25 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.41,
-        "value": 16534254
+        "value": 14975616
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6809391,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.4,
-        "pct_change": -1.2,
-        "value": 28388351079
+        "shares": 6746791,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.38,
+        "pct_change": -0.92,
+        "value": 25475882816
+      },
+      {
+        "holder": "Capital Income Builder",
+        "shares": 6463200,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.32,
+        "pct_change": 50.79,
+        "value": 24405043200
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -75,15 +121,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.14,
         "pct_change": 4.63,
-        "value": 23139313263
+        "value": 20958034752
       },
       {
         "holder": "EuroPacific Growth Fund-EUPAC Fund",
         "shares": 4701500,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.96,
         "pct_change": 0.0,
-        "value": 19600553500
+        "value": 17752864000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +137,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": 0.31,
-        "value": 18140711446
+        "value": 16430637184
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3228400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.66,
-        "pct_change": 0.95,
-        "value": 13459199600
+        "shares": 3315600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.68,
+        "pct_change": 1.25,
+        "value": 12519705600
       },
       {
         "holder": "J.P. Morgan Exch-Trd Fd. TRT-JPMorgan Intl Research Enhanced Eqy. ETF",
@@ -107,39 +153,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.44,
         "pct_change": 24.34,
-        "value": 8935417700
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1666043,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 0.76,
-        "value": 6945733267
+        "value": 8093100800
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1602900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.33,
-        "pct_change": 1.07,
-        "value": 6682490100
+        "shares": 1809500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": -0.29,
+        "value": 6832672000
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1594500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.33,
-        "pct_change": 0.53,
-        "value": 6647470500
+        "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
+        "shares": 1765300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 26.72,
+        "value": 6665772800
       },
       {
-        "holder": "Capital Income Builder",
-        "shares": 1521900,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.31,
-        "pct_change": 1.0,
-        "value": 6344801100
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1685943,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.35,
+        "pct_change": 1.19,
+        "value": 6366120768
       }
     ]
   }

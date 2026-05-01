@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:22.817268",
+  "fetched_at": "2026-05-01T04:29:10.694578",
   "ticker": "8060",
   "ticker_full": "8060.T",
   "company_name": "CANON MARKETING JAPAN INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 3509.0,
-    "high": 4250.0,
+    "current": 3647.0,
+    "high": 4500.0,
     "low": 3700.0,
-    "mean": 3933.3333,
-    "median": 3850.0
+    "mean": 4050.0,
+    "median": 4000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-22",
+      "eps_estimate": 38.6,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-22",
+        "eps_estimate": 34.7,
+        "eps_actual": 60.09,
+        "surprise_pct": 73.17
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": 60.1,
+        "eps_actual": 65.44,
+        "surprise_pct": 8.88
+      },
+      {
+        "date": "2025-10-24",
+        "eps_estimate": 30.05,
+        "eps_actual": 38.69,
+        "surprise_pct": 28.75
+      },
+      {
+        "date": "2025-07-22",
+        "eps_estimate": 42.4,
+        "eps_actual": 46.16,
+        "surprise_pct": 8.87
+      },
+      {
+        "date": "2025-04-23",
+        "eps_estimate": 38.55,
+        "eps_actual": 40.45,
+        "surprise_pct": 4.92
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 55.85,
-    "institution_pct": 14.29,
+    "institution_pct": 14.32,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 14.29
+        "value": 14.32
       },
       {
         "label": "",
-        "value": 32.36
+        "value": 32.45
       },
       {
         "label": "",
-        "value": 112.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [],

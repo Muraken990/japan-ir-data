@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:19.505879",
+  "fetched_at": "2026-05-01T04:20:47.073955",
   "ticker": "8544",
   "ticker_full": "8544.T",
   "company_name": "KEIYO BANK",
@@ -17,20 +17,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2158.0,
+    "current": 2124.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 32.02,
+        "eps_actual": 30.04,
+        "surprise_pct": -6.19
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": 31.87,
+        "eps_actual": 29.2,
+        "surprise_pct": -8.37
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 27.45,
+        "eps_actual": 13.48,
+        "surprise_pct": -50.89
+      },
+      {
+        "date": "2015-01-28",
+        "eps_estimate": 29.24,
+        "eps_actual": 33.82,
+        "surprise_pct": 15.66
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 24.61,
+        "eps_actual": 32.32,
+        "surprise_pct": 31.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.89,
-    "institution_pct": 33.67,
+    "institution_pct": 33.78,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +76,15 @@
       },
       {
         "label": "",
-        "value": 33.67
+        "value": 33.78
       },
       {
         "label": "",
-        "value": 37.36
+        "value": 37.48
       },
       {
         "label": "",
-        "value": 72.0
+        "value": 75.0
       }
     ],
     "institutional_holders": [],

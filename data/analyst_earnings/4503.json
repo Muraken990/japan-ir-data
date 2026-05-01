@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:40.219924",
+  "fetched_at": "2026-05-01T04:33:37.164471",
   "ticker": "4503",
   "ticker_full": "4503.T",
   "company_name": "ASTELLAS PHARMA",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 4,
-    "hold": 7,
+    "buy": 3,
+    "hold": 9,
     "sell": 0,
     "strong_sell": 1,
-    "total_analysts": 13,
+    "total_analysts": 14,
     "recommendation_key": "buy",
     "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 2646.0,
+    "current": 2196.5,
     "high": 2950.0,
     "low": 1600.0,
-    "mean": 2375.0,
+    "mean": 2417.8572,
     "median": 2500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 18.1,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 21.44,
+        "eps_actual": 24.29,
+        "surprise_pct": 13.31
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 42.44,
+        "eps_actual": 56.04,
+        "surprise_pct": 32.03
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 28.86,
+        "eps_actual": 44.22,
+        "surprise_pct": 53.25
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 18.1,
+        "eps_actual": 38.22,
+        "surprise_pct": 111.21
+      },
+      {
+        "date": "2025-04-25",
+        "eps_estimate": -2.97,
+        "eps_actual": 41.84,
+        "surprise_pct": 1507.18
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.11,
-    "institution_pct": 57.41,
+    "institution_pct": 58.58,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 57.41
+        "value": 58.58
       },
       {
         "label": "",
-        "value": 57.48
+        "value": 58.65
       },
       {
         "label": "",
-        "value": 419.0
+        "value": 406.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.11,
         "pct_change": 83.84,
-        "value": 5171543496
+        "value": 4293006534
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
@@ -65,25 +103,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 13494600
+        "value": 11202150
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 25967061,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.43,
-        "pct_change": 0.15,
-        "value": 68708843406
-      },
-      {
-        "holder": "VANGUARD SPECIALIZED FUNDS-Vanguard Health Care Fund",
-        "shares": 23022078,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.27,
-        "pct_change": 0.0,
-        "value": 60916418388
+        "shares": 26183061,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.45,
+        "pct_change": 0.83,
+        "value": 57511093486
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,47 +121,55 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.93,
         "pct_change": 2.28,
-        "value": 44741579148
+        "value": 37140921617
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 12369700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.68,
-        "pct_change": 0.93,
-        "value": 32730226200
+        "shares": 12699700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.7,
+        "pct_change": 1.24,
+        "value": 27894891050
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 6521987,
+        "holder": "VANGUARD SPECIALIZED FUNDS-Vanguard Health Care Fund",
+        "shares": 9027178,
         "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 0.8,
-        "value": 17257177602
+        "pct_held": 0.5,
+        "pct_change": -60.79,
+        "value": 19828196477
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 6276150,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 1.03,
-        "value": 16606692900
+        "shares": 7078050,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": 0.05,
+        "value": 15546936825
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 6600487,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.36,
+        "pct_change": 1.2,
+        "value": 14497969695
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 6234350,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 0.51,
-        "value": 16496090100
+        "shares": 6264950,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 0.0,
+        "value": 13760962675
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 5368500,
-        "date_reported": "2026-01-31",
+        "shares": 5358400,
+        "date_reported": "2026-02-28",
         "pct_held": 0.3,
-        "pct_change": 2.68,
-        "value": 14205051000
+        "pct_change": -0.19,
+        "value": 11769725600
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -139,15 +177,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": -3.97,
-        "value": 13955533200
+        "value": 11584780300
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 4787500,
-        "date_reported": "2026-01-31",
+        "shares": 4735800,
+        "date_reported": "2026-03-31",
         "pct_held": 0.26,
-        "pct_change": 0.63,
-        "value": 12667725000
+        "pct_change": -2.21,
+        "value": 10402184700
       }
     ]
   }

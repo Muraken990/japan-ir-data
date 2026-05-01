@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:06.194317",
+  "fetched_at": "2026-05-01T04:27:53.137614",
   "ticker": "7951",
   "ticker_full": "7951.T",
   "company_name": "YAMAHA CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 7,
+    "hold": 6,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 8,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.71429
+    "total_analysts": 7,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1130.0,
+    "current": 1109.5,
     "high": 1400.0,
     "low": 1000.0,
     "mean": 1181.4286,
     "median": 1200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-02-04",
+        "eps_estimate": 32.66,
+        "eps_actual": 18.46,
+        "surprise_pct": -43.47
+      },
+      {
+        "date": "2024-07-30",
+        "eps_estimate": 24.86,
+        "eps_actual": 19.05,
+        "surprise_pct": -23.37
+      },
+      {
+        "date": "2024-02-05",
+        "eps_estimate": 29.68,
+        "eps_actual": 11.4,
+        "surprise_pct": -61.57
+      },
+      {
+        "date": "2023-08-01",
+        "eps_estimate": 22.54,
+        "eps_actual": 13.21,
+        "surprise_pct": -41.37
+      },
+      {
+        "date": "2023-02-06",
+        "eps_estimate": 26.35,
+        "eps_actual": 17.87,
+        "surprise_pct": -32.19
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 2.84,
-    "institution_pct": 52.89,
+    "insider_pct": 3.09,
+    "institution_pct": 57.15,
     "major_holders": [
       {
         "label": "",
-        "value": 2.84
+        "value": 3.09
       },
       {
         "label": "",
-        "value": 52.89
+        "value": 57.15
       },
       {
         "label": "",
-        "value": 54.44
+        "value": 58.98
       },
       {
         "label": "",
-        "value": 168.0
+        "value": 163.0
       }
     ],
     "institutional_holders": [
@@ -57,89 +95,89 @@
         "date_reported": "2023-12-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 28250000
+        "value": 27737500
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 6622700,
-        "date_reported": "2025-09-30",
-        "pct_held": 1.32,
-        "pct_change": -0.28,
-        "value": 7483651000
+        "shares": 6644200,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.44,
+        "pct_change": 0.32,
+        "value": 7371739900
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5523043,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.1,
-        "pct_change": 12.41,
-        "value": 6241038590
+        "shares": 5664943,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.22,
+        "pct_change": 2.57,
+        "value": 6285254258
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 4882800,
         "date_reported": "2026-01-31",
-        "pct_held": 0.97,
-        "pct_change": -4.48,
-        "value": 5517564000
+        "pct_held": 1.05,
+        "pct_change": -2.52,
+        "value": 5417466600
       },
       {
         "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
-        "shares": 4292523,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.85,
-        "pct_change": 0.0,
-        "value": 4850550990
+        "shares": 4029223,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.87,
+        "pct_change": -6.13,
+        "value": 4470422918
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 3623754,
         "date_reported": "2025-12-31",
-        "pct_held": 0.72,
+        "pct_held": 0.78,
         "pct_change": 2.23,
-        "value": 4094842020
+        "value": 4020555063
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2751300,
+        "shares": 2816700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": 1.1,
+        "value": 3125128650
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1685900,
         "date_reported": "2026-01-31",
-        "pct_held": 0.55,
-        "pct_change": 0.84,
-        "value": 3108969000
+        "pct_held": 0.36,
+        "pct_change": 1.0,
+        "value": 1870506050
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1536600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 2.61,
-        "value": 1736358000
+        "shares": 1578700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 1.22,
+        "value": 1751567650
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 960097,
         "date_reported": "2026-01-31",
-        "pct_held": 0.19,
+        "pct_held": 0.21,
         "pct_change": 2.33,
-        "value": 1084909610
+        "value": 1065227621
       },
       {
-        "holder": "-Price (T.Rowe) Non-U.S. Equities Trust",
-        "shares": 803200,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.16,
-        "pct_change": 5.02,
-        "value": 907616000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 810256,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.16,
-        "pct_change": 8.72,
-        "value": 915589280
+        "holder": "MFS SERIES TRUST IV-MFS Blended Research International Equity Fund",
+        "shares": 946500,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.2,
+        "pct_change": 38.97,
+        "value": 1050141750
       }
     ]
   }

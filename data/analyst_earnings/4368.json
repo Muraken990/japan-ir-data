@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:32.330738",
+  "fetched_at": "2026-05-01T04:21:03.346653",
   "ticker": "4368",
   "ticker_full": "4368.T",
   "company_name": "FUSO CHEMICAL CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2880.0,
-    "high": 1366.6666,
-    "low": 1000.0,
-    "mean": 1183.3334,
-    "median": 1183.3334
+    "current": 3185.0,
+    "high": 4500.0,
+    "low": 4100.0,
+    "mean": 4300.0,
+    "median": 4300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-01-30",
+        "eps_estimate": 14.57,
+        "eps_actual": 17.2,
+        "surprise_pct": 18.1
+      },
+      {
+        "date": "2023-10-30",
+        "eps_estimate": 15.47,
+        "eps_actual": 17.34,
+        "surprise_pct": 12.09
+      },
+      {
+        "date": "2023-07-30",
+        "eps_estimate": 23.83,
+        "eps_actual": 23.21,
+        "surprise_pct": -2.62
+      },
+      {
+        "date": "2023-05-10",
+        "eps_estimate": 31.13,
+        "eps_actual": 29.51,
+        "surprise_pct": -5.2
+      },
+      {
+        "date": "2023-01-30",
+        "eps_estimate": 29.93,
+        "eps_actual": 33.03,
+        "surprise_pct": 10.36
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 37.11,
-    "institution_pct": 40.58,
+    "institution_pct": 40.87,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 40.58
+        "value": 40.87
       },
       {
         "label": "",
-        "value": 64.53
+        "value": 64.99
       },
       {
         "label": "",
-        "value": 97.0
+        "value": 102.0
       }
     ],
     "institutional_holders": [],

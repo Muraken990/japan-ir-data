@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:43.138543",
+  "fetched_at": "2026-05-01T04:15:02.394560",
   "ticker": "5192",
   "ticker_full": "5192.T",
   "company_name": "MITSUBOSHI BELTING",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3990.0,
+    "current": 3950.0,
     "high": 4390.0,
     "low": 4390.0,
     "mean": 4390.0,
     "median": 4390.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 39.12,
+        "eps_actual": 45.4,
+        "surprise_pct": 16.04
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 37.14,
+        "eps_actual": 52.68,
+        "surprise_pct": 41.85
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 32.64,
+        "eps_actual": 41.2,
+        "surprise_pct": 26.23
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 37.48,
+        "eps_actual": 57.46,
+        "surprise_pct": 53.31
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 28.82,
+        "eps_actual": 50.32,
+        "surprise_pct": 74.61
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.7,
-    "institution_pct": 24.29,
+    "institution_pct": 24.72,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 24.29
+        "value": 24.72
       },
       {
         "label": "",
-        "value": 27.2
+        "value": 27.68
       },
       {
         "label": "",
@@ -57,7 +90,7 @@
         "date_reported": "2023-01-31",
         "pct_held": 0.9,
         "pct_change": 0.0,
-        "value": 1168878480
+        "value": 1157160400
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -65,7 +98,7 @@
         "date_reported": "2023-01-31",
         "pct_held": 0.81,
         "pct_change": 0.0,
-        "value": 1048372500
+        "value": 1037862500
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -73,7 +106,7 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 593955390
+        "value": 588000950
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -81,7 +114,7 @@
         "date_reported": "2023-02-28",
         "pct_held": 0.37,
         "pct_change": 1.0,
-        "value": 485184000
+        "value": 480320000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -89,7 +122,7 @@
         "date_reported": "2023-01-31",
         "pct_held": 0.35,
         "pct_change": -25.02,
-        "value": 449673000
+        "value": 445165000
       },
       {
         "holder": "Fidelity International Small Cap Opportunities Fund",
@@ -97,7 +130,7 @@
         "date_reported": "2023-01-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 438022200
+        "value": 433631000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -105,7 +138,7 @@
         "date_reported": "2023-02-28",
         "pct_held": 0.32,
         "pct_change": 3.45,
-        "value": 418551000
+        "value": 414355000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -113,7 +146,7 @@
         "date_reported": "2023-01-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 377454000
+        "value": 373670000
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -121,7 +154,7 @@
         "date_reported": "2023-01-31",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 296856000
+        "value": 293880000
       },
       {
         "holder": "Cambria ETF Tr-Cambria Foreign Shareholder Yield ETF",
@@ -129,7 +162,7 @@
         "date_reported": "2023-03-31",
         "pct_held": 0.19,
         "pct_change": 13.39,
-        "value": 253365000
+        "value": 250825000
       }
     ],
     "mutualfund_holders": []

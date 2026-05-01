@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:44.136264",
+  "fetched_at": "2026-05-01T04:33:41.690162",
   "ticker": "2502",
   "ticker_full": "2502.T",
   "company_name": "ASAHI GROUP HLDGS",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 5,
-    "buy": 7,
-    "hold": 2,
+    "strong_buy": 4,
+    "buy": 6,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 14,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1600.5,
+    "current": 1545.5,
     "high": 2600.0,
     "low": 1700.0,
-    "mean": 2139.6667,
-    "median": 2150.0
+    "mean": 2081.6667,
+    "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-06",
+      "eps_estimate": 21.73,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-03-09",
+        "eps_estimate": 40.9,
+        "eps_actual": 29.33,
+        "surprise_pct": -28.29
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 33.37,
+        "eps_actual": 24.75,
+        "surprise_pct": -25.84
+      },
+      {
+        "date": "2025-05-11",
+        "eps_estimate": 14.07,
+        "eps_actual": 14.32,
+        "surprise_pct": 1.8
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 31.38,
+        "eps_actual": 35.0,
+        "surprise_pct": 11.54
+      },
+      {
+        "date": "2024-11-14",
+        "eps_estimate": 46.88,
+        "eps_actual": 41.42,
+        "surprise_pct": -11.64
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.03,
-    "institution_pct": 53.97,
+    "institution_pct": 54.31,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 53.97
+        "value": 54.31
       },
       {
         "label": "",
-        "value": 55.09
+        "value": 55.43
       },
       {
         "label": "",
-        "value": 340.0
+        "value": 328.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.04,
         "pct_change": 48.48,
-        "value": 976657110
+        "value": 943095010
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.43,
         "pct_change": 29.34,
-        "value": 34924990650
+        "value": 33724819150
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 21374562,
-        "date_reported": "2025-10-31",
+        "shares": 21520562,
+        "date_reported": "2026-01-31",
         "pct_held": 1.41,
-        "pct_change": 0.18,
-        "value": 34209986481
+        "pct_change": 0.68,
+        "value": 33260028571
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,55 +121,55 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 2.16,
-        "value": 22279832272
+        "value": 21514202297
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 10187400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.67,
-        "pct_change": 0.98,
-        "value": 16304933700
+        "shares": 10516900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.69,
+        "pct_change": 1.73,
+        "value": 16253868950
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 9171700,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.6,
-        "pct_change": -0.44,
-        "value": 14679305850
+        "shares": 10133700,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.67,
+        "pct_change": 10.49,
+        "value": 15661633350
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 8400200,
         "date_reported": "2026-01-31",
         "pct_held": 0.55,
-        "pct_change": 18.66,
-        "value": 13444520100
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 5472458,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 0.48,
-        "value": 8758669029
+        "pct_change": 7.93,
+        "value": 12982509100
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 5279700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 1.04,
-        "value": 8450159850
+        "shares": 5954700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.39,
+        "pct_change": -0.16,
+        "value": 9202988850
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 5545258,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.36,
+        "pct_change": 1.33,
+        "value": 8570196239
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 5250300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.35,
-        "pct_change": 5.53,
-        "value": 8403105150
+        "pct_change": 0.0,
+        "value": 8114338650
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -139,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 13.51,
-        "value": 8008581900
+        "value": 7733372900
       }
     ]
   }

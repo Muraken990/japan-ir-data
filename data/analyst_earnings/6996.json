@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-01-11T06:30:10.621092",
+  "fetched_at": "2026-05-01T04:14:01.189572",
   "ticker": "6996",
   "ticker_full": "6996.T",
   "company_name": "NICHICON CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 2,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.16667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1564.0,
-    "high": 1860.0,
-    "low": 1400.0,
-    "mean": 1523.3334,
-    "median": 1475.0
+    "current": 2342.0,
+    "high": 2500.0,
+    "low": 1630.0,
+    "mean": 2096.6667,
+    "median": 2050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "Missing optional dependency 'lxml'.  Use pip or conda to install lxml."
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-06",
+        "eps_estimate": 19.0,
+        "eps_actual": 35.73,
+        "surprise_pct": 88.05
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 13.34,
+        "eps_actual": 6.44,
+        "surprise_pct": -51.72
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 11.69,
+        "eps_actual": 17.68,
+        "surprise_pct": 51.24
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 6.48,
+        "eps_actual": -18.58,
+        "surprise_pct": -386.73
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 16.08,
+        "eps_actual": 45.26,
+        "surprise_pct": 181.56
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.61,
-    "institution_pct": 44.01,
+    "institution_pct": 42.52,
     "major_holders": [
       {
         "label": "",
@@ -39,97 +72,97 @@
       },
       {
         "label": "",
-        "value": 44.01
+        "value": 42.52
       },
       {
         "label": "",
-        "value": 52.15
+        "value": 50.39
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
         "shares": 1442610,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 2.06,
-        "pct_change": -0.52,
-        "value": 2256242040
+        "pct_change": 0.0,
+        "value": 3378592620
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 836848,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.2,
         "pct_change": 0.0,
-        "value": 1308830272
+        "value": 1959898016
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 521815,
-        "date_reported": "2025-09-30",
+        "date_reported": "2025-12-31",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 816118660
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 509100,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.73,
-        "pct_change": 0.0,
-        "value": 796232400
+        "value": 1222090730
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 478400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.68,
-        "pct_change": -8.3,
-        "value": 748217600
+        "shares": 507800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.73,
+        "pct_change": 2.05,
+        "value": 1189267600
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 496500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": -4.61,
+        "value": 1162803000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 301000,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.43,
-        "pct_change": 5.36,
-        "value": 470764000
-      },
-      {
-        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 286757,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.41,
-        "pct_change": 0.0,
-        "value": 448487948
+        "shares": 349100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.5,
+        "pct_change": 15.98,
+        "value": 817592200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 234700,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 367070800
+        "value": 549667400
+      },
+      {
+        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
+        "shares": 240157,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 0.0,
+        "value": 562447694
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 206183,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.29,
-        "pct_change": 13.36,
-        "value": 322470212
+        "pct_change": 0.0,
+        "value": 482880586
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 191200,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.27,
-        "pct_change": 0.79,
-        "value": 299036800
+        "shares": 181200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": -2.37,
+        "value": 424370400
       }
     ],
     "mutualfund_holders": []

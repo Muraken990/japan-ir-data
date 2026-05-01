@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:57.554514",
+  "fetched_at": "2026-05-01T04:33:55.605197",
   "ticker": "8630",
   "ticker_full": "8630.T",
   "company_name": "SOMPO HOLDINGS INC",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 4,
-    "hold": 4,
+    "buy": 3,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.18182
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 6194.0,
-    "high": 7400.0,
-    "low": 5300.0,
-    "mean": 6415.0,
-    "median": 6430.0
+    "current": 5690.0,
+    "high": 8100.0,
+    "low": 4789.0,
+    "mean": 6330.8184,
+    "median": 6350.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-20",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 169.26,
+        "eps_actual": 174.44,
+        "surprise_pct": 3.06
+      },
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 44.13,
+        "eps_actual": 193.35,
+        "surprise_pct": 338.13
+      },
+      {
+        "date": "2023-11-17",
+        "eps_estimate": 22.07,
+        "eps_actual": 32.1,
+        "surprise_pct": 45.46
+      },
+      {
+        "date": "2023-08-09",
+        "eps_estimate": 70.35,
+        "eps_actual": 100.16,
+        "surprise_pct": 42.38
+      },
+      {
+        "date": "2023-05-19",
+        "eps_estimate": 41.63,
+        "eps_actual": 53.13,
+        "surprise_pct": 27.61
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.15,
-    "institution_pct": 42.99,
+    "institution_pct": 42.58,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 42.99
+        "value": 42.58
       },
       {
         "label": "",
-        "value": 44.86
+        "value": 44.43
       },
       {
         "label": "",
-        "value": 402.0
+        "value": 392.0
       }
     ],
     "institutional_holders": [],

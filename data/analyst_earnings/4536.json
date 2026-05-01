@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:02.325197",
+  "fetched_at": "2026-05-01T04:27:49.238910",
   "ticker": "4536",
   "ticker_full": "4536.T",
   "company_name": "SANTEN PHARMACEUTICAL CO",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 4,
+    "buy": 5,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 8,
+    "total_analysts": 9,
     "recommendation_key": "buy",
     "recommendation_mean": 1.77778
   },
   "target_prices": {
     "has_data": true,
-    "current": 1841.0,
+    "current": 1646.5,
     "high": 2600.0,
-    "low": 1700.0,
-    "mean": 2131.111,
+    "low": 1800.0,
+    "mean": 2153.3333,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 16.01,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 28.56,
+        "eps_actual": 24.4,
+        "surprise_pct": -14.57
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 20.9,
+        "eps_actual": 24.44,
+        "surprise_pct": 16.95
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 23.9,
+        "eps_actual": 17.32,
+        "surprise_pct": -27.54
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 16.01,
+        "eps_actual": 25.77,
+        "surprise_pct": 60.96
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 24.05,
+        "eps_actual": 25.33,
+        "surprise_pct": 5.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.1,
-    "institution_pct": 57.41,
+    "institution_pct": 58.05,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 57.41
+        "value": 58.05
       },
       {
         "label": "",
-        "value": 59.25
+        "value": 59.91
       },
       {
         "label": "",
-        "value": 193.0
+        "value": 188.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.03,
         "pct_change": -8.6,
-        "value": 156485000
+        "value": 139952500
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4738467,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.47,
-        "pct_change": -1.33,
-        "value": 8723517747
+        "shares": 4658567,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.45,
+        "pct_change": -1.69,
+        "value": 7670330565
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,23 +113,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": -1.08,
-        "value": 5480476582
+        "value": 4901469143
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2262500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 0.68,
-        "value": 4165262500
+        "shares": 2183400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.68,
+        "pct_change": 0.94,
+        "value": 3594968100
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 1843707,
-        "date_reported": "2025-10-31",
+        "shares": 1842207,
+        "date_reported": "2026-01-31",
         "pct_held": 0.57,
-        "pct_change": 26.15,
-        "value": 3394264587
+        "pct_change": -0.08,
+        "value": 3033193825
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -99,7 +137,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.54,
         "pct_change": 15.42,
-        "value": 3216411100
+        "value": 2876600150
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -107,7 +145,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.38,
         "pct_change": -3.03,
-        "value": 2254304500
+        "value": 2016139250
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -115,15 +153,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.37,
         "pct_change": 4.3,
-        "value": 2205149800
+        "value": 1972177700
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1204500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.37,
+        "pct_change": 1.0,
+        "value": 1983209250
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1176400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.37,
-        "pct_change": 1.57,
-        "value": 2165752400
+        "shares": 1141300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 1.24,
+        "value": 1879150450
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -131,15 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 1499308559
-      },
-      {
-        "holder": "iShares Trust-iShares International Equity Factor ETF",
-        "shares": 750900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 1.62,
-        "value": 1382406900
+        "value": 1340907953
       }
     ]
   }

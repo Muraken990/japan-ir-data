@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:22.562317",
+  "fetched_at": "2026-05-01T04:30:12.709662",
   "ticker": "3099",
   "ticker_full": "3099.T",
   "company_name": "ISETAN MITSUKOSHI HOLDINGS LTD",
@@ -13,25 +13,63 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2923.0,
+    "current": 2989.0,
     "high": 3400.0,
     "low": 2100.0,
-    "mean": 2770.0,
-    "median": 3000.0
+    "mean": 2847.7778,
+    "median": 3030.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 33.09,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 52.58,
+        "eps_actual": 61.86,
+        "surprise_pct": 17.65
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 22.01,
+        "eps_actual": 29.89,
+        "surprise_pct": 35.8
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 33.98,
+        "eps_actual": 51.86,
+        "surprise_pct": 52.62
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 33.09,
+        "eps_actual": 17.56,
+        "surprise_pct": -46.93
+      },
+      {
+        "date": "2025-02-03",
+        "eps_estimate": 51.46,
+        "eps_actual": 56.92,
+        "surprise_pct": 10.61
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.68,
-    "institution_pct": 46.67,
+    "institution_pct": 46.09,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 46.67
+        "value": 46.09
       },
       {
         "label": "",
-        "value": 49.48
+        "value": 48.87
       },
       {
         "label": "",
-        "value": 181.0
+        "value": 177.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.04,
         "pct_change": 1.0,
-        "value": 475233032
+        "value": 485963576
       }
     ],
     "mutualfund_holders": [
@@ -66,40 +104,40 @@
         "shares": 9254700,
         "date_reported": "2026-01-31",
         "pct_held": 2.52,
-        "pct_change": 4.48,
-        "value": 27051488100
+        "pct_change": -0.23,
+        "value": 27662298300
       },
       {
         "holder": "-Price (T.Rowe) International Core Equity Trust",
-        "shares": 6592300,
-        "date_reported": "2025-09-30",
-        "pct_held": 1.79,
-        "pct_change": 0.51,
-        "value": 19269292900
+        "shares": 6866500,
+        "date_reported": "2025-12-31",
+        "pct_held": 1.87,
+        "pct_change": 4.16,
+        "value": 20523968500
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
-        "shares": 4723000,
-        "date_reported": "2025-09-30",
+        "shares": 4738400,
+        "date_reported": "2025-12-31",
         "pct_held": 1.29,
-        "pct_change": -0.25,
-        "value": 13805329000
+        "pct_change": 0.33,
+        "value": 14163077600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4668837,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.27,
-        "pct_change": -1.56,
-        "value": 13647010551
+        "shares": 4613237,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.26,
+        "pct_change": -1.19,
+        "value": 13788965393
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
         "shares": 3609300,
         "date_reported": "2026-01-31",
         "pct_held": 0.98,
-        "pct_change": -1.0,
-        "value": 10549983900
+        "pct_change": -0.35,
+        "value": 10788197700
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -107,7 +145,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.81,
         "pct_change": -0.44,
-        "value": 8674704020
+        "value": 8870574860
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -115,31 +153,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.72,
         "pct_change": 36.0,
-        "value": 7770210900
+        "value": 7945658700
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2238300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.61,
-        "pct_change": 0.68,
-        "value": 6542550900
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 1775400,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.48,
-        "pct_change": -25.74,
-        "value": 5189494200
+        "shares": 2206600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.6,
+        "pct_change": 0.93,
+        "value": 6595527400
       },
       {
         "holder": "-Price (T.Rowe) Non-U.S. Equities Trust",
-        "shares": 1448000,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.39,
-        "pct_change": 8.58,
-        "value": 4232504000
+        "shares": 1524500,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.41,
+        "pct_change": 5.28,
+        "value": 4556730500
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 1233300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 1.61,
+        "value": 3686333700
       }
     ]
   }

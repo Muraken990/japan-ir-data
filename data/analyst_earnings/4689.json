@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:53.586150",
+  "fetched_at": "2026-05-01T04:33:51.482381",
   "ticker": "4689",
   "ticker_full": "4689.T",
   "company_name": "LY CORPORATION",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 391.0,
+    "current": 416.7,
     "high": 650.0,
-    "low": 450.0,
-    "mean": 540.8182,
-    "median": 549.0
+    "low": 420.0,
+    "mean": 519.53845,
+    "median": 500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": 5.63,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 6.58,
+        "eps_actual": 6.61,
+        "surprise_pct": 0.41
+      },
+      {
+        "date": "2025-11-03",
+        "eps_estimate": 5.95,
+        "eps_actual": 12.93,
+        "surprise_pct": 117.47
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 5.2,
+        "eps_actual": 6.84,
+        "surprise_pct": 31.54
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 5.63,
+        "eps_actual": 3.67,
+        "surprise_pct": -34.83
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 4.27,
+        "eps_actual": 5.69,
+        "surprise_pct": 33.16
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 62.35,
-    "institution_pct": 19.32,
+    "insider_pct": 62.34,
+    "institution_pct": 19.1,
     "major_holders": [
       {
         "label": "",
-        "value": 62.35
+        "value": 62.34
       },
       {
         "label": "",
-        "value": 19.32
+        "value": 19.1
       },
       {
         "label": "",
-        "value": 51.32
+        "value": 50.71
       },
       {
         "label": "",
-        "value": 307.0
+        "value": 295.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:46:04.903305",
+  "fetched_at": "2026-05-01T04:17:26.964574",
   "ticker": "7545",
   "ticker_full": "7545.T",
   "company_name": "NISHIMATSUYA CHAIN CO",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 2105.0,
+    "current": 1998.0,
     "high": 2400.0,
     "low": 2050.0,
     "mean": 2225.0,
     "median": 2225.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-12-14",
+        "eps_estimate": 40.7,
+        "eps_actual": 35.13,
+        "surprise_pct": -13.69
+      },
+      {
+        "date": "2016-12-15",
+        "eps_estimate": 36.2,
+        "eps_actual": 37.15,
+        "surprise_pct": 2.62
+      },
+      {
+        "date": "2016-06-15",
+        "eps_estimate": 26.2,
+        "eps_actual": 29.57,
+        "surprise_pct": 12.86
+      },
+      {
+        "date": "2011-04-03",
+        "eps_estimate": 7.53,
+        "eps_actual": 7.05,
+        "surprise_pct": -6.37
+      },
+      {
+        "date": "2009-09-24",
+        "eps_estimate": 9.76,
+        "eps_actual": 11.51,
+        "surprise_pct": 17.93
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 37.52,
-    "institution_pct": 24.73,
+    "institution_pct": 24.55,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 24.73
+        "value": 24.55
       },
       {
         "label": "",
-        "value": 39.58
+        "value": 39.29
       },
       {
         "label": "",
-        "value": 62.0
+        "value": 61.0
       }
     ],
     "institutional_holders": [],

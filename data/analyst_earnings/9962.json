@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:18.676749",
+  "fetched_at": "2026-05-01T04:29:06.533104",
   "ticker": "9962",
   "ticker_full": "9962.T",
   "company_name": "MISUMI GROUP INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 2,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 2729.5,
+    "current": 3459.0,
     "high": 4500.0,
     "low": 3200.0,
     "mean": 3660.0,
     "median": 3300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-07-26",
+        "eps_estimate": 33.72,
+        "eps_actual": 32.92,
+        "surprise_pct": -2.37
+      },
+      {
+        "date": "2024-04-25",
+        "eps_estimate": 27.9,
+        "eps_actual": 20.22,
+        "surprise_pct": -27.53
+      },
+      {
+        "date": "2024-01-26",
+        "eps_estimate": 28.97,
+        "eps_actual": 29.35,
+        "surprise_pct": 1.31
+      },
+      {
+        "date": "2023-10-25",
+        "eps_estimate": 26.67,
+        "eps_actual": 28.71,
+        "surprise_pct": 7.67
+      },
+      {
+        "date": "2023-07-28",
+        "eps_estimate": 32.5,
+        "eps_actual": 21.47,
+        "surprise_pct": -33.94
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.19,
-    "institution_pct": 66.68,
+    "institution_pct": 63.99,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 66.68
+        "value": 63.99
       },
       {
         "label": "",
-        "value": 66.81
+        "value": 64.11
       },
       {
         "label": "",
-        "value": 181.0
+        "value": 179.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +90,25 @@
         "date_reported": "2023-06-30",
         "pct_held": 0.0,
         "pct_change": 6.27,
-        "value": 6387030
+        "value": 8094060
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3983577,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.4,
-        "pct_change": 0.27,
-        "value": 10873173421
+        "shares": 4007377,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.41,
+        "pct_change": 0.6,
+        "value": 13861517043
       },
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
-        "shares": 2826972,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.99,
-        "pct_change": 6.92,
-        "value": 7716220074
+        "shares": 2644872,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.93,
+        "pct_change": -6.44,
+        "value": 9148612248
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,15 +116,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.9,
         "pct_change": 0.66,
-        "value": 6999939225
+        "value": 8870778450
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1965900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.69,
-        "pct_change": 0.78,
-        "value": 5365924050
+        "shares": 2009500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.7,
+        "pct_change": 1.03,
+        "value": 6950860500
       },
       {
         "holder": "HARRIS ASSOCIATES INVESTMENT TRT-Oakmark Intl Small Cap Fd.",
@@ -99,15 +132,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.47,
         "pct_change": 6.66,
-        "value": 3688100400
-      },
-      {
-        "holder": "VANGUARD WORLD FUND-Vanguard Global Wellington Fund",
-        "shares": 1300872,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.46,
-        "pct_change": -1.15,
-        "value": 3550730124
+        "value": 4673800800
       },
       {
         "holder": "Virtus Opportunities Trust-Virtus KAR International Small-Mid Cap Fund",
@@ -115,7 +140,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 3477383000
+        "value": 4406766000
+      },
+      {
+        "holder": "VANGUARD WORLD FUND-Vanguard Global Wellington Fund",
+        "shares": 1273072,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.45,
+        "pct_change": -2.14,
+        "value": 4403556048
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Intl Small-Mid Company Fd.",
@@ -123,15 +156,15 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.42,
         "pct_change": -67.25,
-        "value": 3288501600
+        "value": 4167403200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1037200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 1.53,
-        "value": 2831037400
+        "shares": 1070700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.38,
+        "pct_change": 1.7,
+        "value": 3703551300
       },
       {
         "holder": "Principal Funds, Inc-Overseas Fund",
@@ -139,7 +172,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 59.65,
-        "value": 2758621035
+        "value": 3495904071
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:50.156055",
+  "fetched_at": "2026-05-01T04:23:28.673124",
   "ticker": "8078",
   "ticker_full": "8078.T",
   "company_name": "HANWA CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1592.0,
+    "current": 1636.0,
     "high": 1940.0,
     "low": 1060.0,
     "mean": 1500.0,
     "median": 1500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-02-11",
+        "eps_estimate": 23.88,
+        "eps_actual": 23.49,
+        "surprise_pct": -1.65
+      },
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 15.68,
+        "eps_actual": 10.0,
+        "surprise_pct": -36.22
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 13.44,
+        "eps_actual": 14.23,
+        "surprise_pct": 5.92
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 12.26,
+        "eps_actual": 16.56,
+        "surprise_pct": 35.06
+      },
+      {
+        "date": "2015-02-11",
+        "eps_estimate": 11.66,
+        "eps_actual": 8.08,
+        "surprise_pct": -30.67
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.63,
-    "institution_pct": 30.05,
+    "institution_pct": 29.24,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 30.05
+        "value": 29.24
       },
       {
         "label": "",
-        "value": 36.93
+        "value": 35.93
       },
       {
         "label": "",
@@ -57,7 +95,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 2.75,
         "pct_change": -3.68,
-        "value": 9271012000
+        "value": 9527246000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -65,23 +103,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.49,
         "pct_change": 0.0,
-        "value": 5022760000
+        "value": 5161580000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2391850,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.13,
-        "pct_change": -1.73,
-        "value": 3807825200
+        "pct_change": 0.0,
+        "value": 3913066600
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 1762500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.83,
         "pct_change": 0.0,
-        "value": 2805900000
+        "value": 2883450000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,23 +127,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.71,
         "pct_change": -0.56,
-        "value": 2406483120
+        "value": 2472993960
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
-        "shares": 1409000,
-        "date_reported": "2025-09-30",
-        "pct_held": 0.67,
-        "pct_change": -2.22,
-        "value": 2243128000
+        "shares": 1381000,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.65,
+        "pct_change": -1.99,
+        "value": 2259316000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 1014000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 1614288000
+        "value": 1658904000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -113,7 +151,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.42,
         "pct_change": -0.83,
-        "value": 1421656000
+        "value": 1460948000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 868095,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.41,
+        "pct_change": 9.17,
+        "value": 1420203420
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -121,15 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 1303848000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 795170,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.38,
-        "pct_change": 9.02,
-        "value": 1265910640
+        "value": 1339884000
       }
     ],
     "mutualfund_holders": []

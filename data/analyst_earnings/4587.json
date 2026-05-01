@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:23.614001",
+  "fetched_at": "2026-05-01T04:20:53.356391",
   "ticker": "4587",
   "ticker_full": "4587.T",
   "company_name": "PEPTIDREAM INC",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1240.0,
+    "current": 1164.0,
     "high": 4400.0,
     "low": 1600.0,
     "mean": 2825.0,
     "median": 2725.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": -8.05,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-16",
+        "eps_estimate": -5.69,
+        "eps_actual": -4.11,
+        "surprise_pct": 27.81
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": -7.58,
+        "eps_actual": -8.48,
+        "surprise_pct": -11.87
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": -8.68,
+        "eps_actual": -8.43,
+        "surprise_pct": 2.88
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": -5.09,
+        "eps_actual": -7.97,
+        "surprise_pct": -56.58
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": -4.17,
+        "eps_actual": -20.1,
+        "surprise_pct": -381.84
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.48,
-    "institution_pct": 41.45,
+    "institution_pct": 42.58,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 41.45
+        "value": 42.58
       },
       {
         "label": "",
-        "value": 56.38
+        "value": 57.92
       },
       {
         "label": "",
-        "value": 111.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1398063,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.08,
-        "pct_change": 0.81,
-        "value": 1733598120
+        "pct_change": 0.0,
+        "value": 1627345332
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,71 +103,71 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.7,
         "pct_change": 4.11,
-        "value": 1133785320
+        "value": 1064295252
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 787800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.61,
-        "pct_change": 0.97,
-        "value": 976872000
+        "shares": 809600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 1.28,
+        "value": 942374400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 373800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.77,
-        "value": 463512000
+        "shares": 388300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.3,
+        "value": 451981200
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 262190,
-        "date_reported": "2025-11-30",
+        "shares": 264588,
+        "date_reported": "2026-02-28",
         "pct_held": 0.2,
-        "pct_change": 0.9,
-        "value": 325115600
+        "pct_change": 0.91,
+        "value": 307980432
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 209034,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.16,
-        "pct_change": 2.2,
-        "value": 259202160
+        "pct_change": 0.0,
+        "value": 243315576
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 190400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 236096000
+        "value": 221625600
       },
       {
         "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
         "shares": 140000,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 173600000
+        "value": 162960000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
+        "shares": 121230,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.09,
+        "pct_change": 4.75,
+        "value": 141111720
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 121800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 151032000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
-        "shares": 115730,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.09,
-        "pct_change": 1.4,
-        "value": 143505200
+        "value": 141775200
       }
     ],
     "mutualfund_holders": []

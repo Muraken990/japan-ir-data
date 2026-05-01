@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:47.465587",
+  "fetched_at": "2026-05-01T04:23:25.633589",
   "ticker": "8020",
   "ticker_full": "8020.T",
   "company_name": "KANEMATSU CORP",
@@ -8,30 +8,37 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 1,
-    "buy": 0,
+    "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 1,
+    "total_analysts": 2,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2276.0,
+    "current": 2159.0,
     "high": 3180.0,
     "low": 2700.0,
     "mean": 2940.0,
     "median": 2940.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.16,
-    "institution_pct": 37.64,
+    "institution_pct": 39.34,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +46,11 @@
       },
       {
         "label": "",
-        "value": 37.64
+        "value": 39.34
       },
       {
         "label": "",
-        "value": 38.47
+        "value": 40.2
       },
       {
         "label": "",
@@ -53,19 +60,19 @@
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2723000,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.61,
-        "pct_change": 0.0,
-        "value": 6197548000
+        "shares": 2871300,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.7,
+        "pct_change": 3.66,
+        "value": 6199136700
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2324122,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.38,
-        "pct_change": 1.42,
-        "value": 5289701672
+        "pct_change": 0.0,
+        "value": 5017779398
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,31 +80,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 0.41,
-        "value": 3546945712
+        "value": 3364611508
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1351600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.8,
-        "pct_change": 0.57,
-        "value": 3076241600
+        "shares": 1373400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.81,
+        "pct_change": 0.75,
+        "value": 2965170600
       },
       {
-        "holder": "Pear Tree Funds-Pear Tree Polaris Foreign Value Small Cap Fund",
-        "shares": 1327800,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.79,
-        "pct_change": -3.28,
-        "value": 3022072800
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1047700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.62,
+        "pct_change": 4.53,
+        "value": 2261984300
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 970000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.57,
-        "pct_change": 2.15,
-        "value": 2207720000
+        "shares": 1041800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.62,
+        "pct_change": 7.4,
+        "value": 2249246200
+      },
+      {
+        "holder": "Pear Tree Funds-Pear Tree Polaris Foreign Value Small Cap Fund",
+        "shares": 1015000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.6,
+        "pct_change": -23.56,
+        "value": 2191385000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,7 +120,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.54,
         "pct_change": -2.3,
-        "value": 2091757800
+        "value": 1984228950
+      },
+      {
+        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
+        "shares": 872000,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.52,
+        "pct_change": 24.43,
+        "value": 1882648000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -113,23 +136,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 1913660800
-      },
-      {
-        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
-        "shares": 700800,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.41,
-        "pct_change": 0.0,
-        "value": 1595020800
-      },
-      {
-        "holder": "GMO TRUST-GMO Implementation Fund",
-        "shares": 692400,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.41,
-        "pct_change": -3.0,
-        "value": 1575902400
+        "value": 1815287200
       }
     ],
     "mutualfund_holders": []

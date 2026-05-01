@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:40.253254",
+  "fetched_at": "2026-05-01T04:33:37.163757",
   "ticker": "9735",
   "ticker_full": "9735.T",
   "company_name": "SECOM CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.6
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 6090.0,
+    "current": 5738.0,
     "high": 6300.0,
     "low": 5650.0,
     "mean": 5998.0,
     "median": 6040.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-07",
+        "eps_estimate": 61.55,
+        "eps_actual": 64.43,
+        "surprise_pct": 4.67
+      },
+      {
+        "date": "2023-05-10",
+        "eps_estimate": 51.1,
+        "eps_actual": 56.12,
+        "surprise_pct": 9.81
+      },
+      {
+        "date": "2023-02-08",
+        "eps_estimate": 58.05,
+        "eps_actual": 64.8,
+        "surprise_pct": 11.63
+      },
+      {
+        "date": "2022-11-09",
+        "eps_estimate": 50.55,
+        "eps_actual": 48.34,
+        "surprise_pct": -4.37
+      },
+      {
+        "date": "2022-05-11",
+        "eps_estimate": 46.9,
+        "eps_actual": 47.75,
+        "surprise_pct": 1.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 1.73,
-    "institution_pct": 47.92,
+    "institution_pct": 48.5,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 47.92
+        "value": 48.5
       },
       {
         "label": "",
-        "value": 48.76
+        "value": 49.35
       },
       {
         "label": "",
-        "value": 314.0
+        "value": 301.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.33,
-        "value": 19603710
+        "value": 18470622
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 2.72,
         "pct_change": 0.0,
-        "value": 77186243400
+        "value": 72724903880
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5936442,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.27,
-        "pct_change": 0.36,
-        "value": 36152931780
+        "shares": 5845942,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.25,
+        "pct_change": -1.52,
+        "value": 33544015196
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
@@ -83,7 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.15,
         "pct_change": 0.0,
-        "value": 32798913000
+        "value": 30903146600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,7 +129,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.81,
         "pct_change": 0.01,
-        "value": 23003172360
+        "value": 21673596552
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -99,47 +137,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.64,
         "pct_change": -0.09,
-        "value": 18132968910
+        "value": 17084889262
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2907500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.62,
-        "pct_change": 0.79,
-        "value": 17706675000
-      },
-      {
-        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 1874940,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.4,
-        "pct_change": 2.73,
-        "value": 11418384600
-      },
-      {
-        "holder": "CAPITAL WORLD GROWTH & INCOME FUND",
-        "shares": 1841000,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.39,
-        "pct_change": 0.0,
-        "value": 11211690000
+        "shares": 2972900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.64,
+        "pct_change": 1.04,
+        "value": 17058500200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Min Vol Factor ETF",
-        "shares": 1766600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.38,
-        "pct_change": -1.01,
-        "value": 10758594000
+        "shares": 1967600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.42,
+        "pct_change": -3.03,
+        "value": 11290088800
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1427414,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.1,
-        "value": 8692951260
+        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
+        "shares": 1849640,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.4,
+        "pct_change": -1.35,
+        "value": 10613234320
+      },
+      {
+        "holder": "CAPITAL WORLD GROWTH & INCOME FUND",
+        "shares": 1723200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 0.0,
+        "value": 9887721600
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1551800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.33,
+        "pct_change": -0.3,
+        "value": 8904228400
       }
     ]
   }

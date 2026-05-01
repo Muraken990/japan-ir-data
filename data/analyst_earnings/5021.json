@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:57:14.780390",
+  "fetched_at": "2026-05-01T04:29:03.678188",
   "ticker": "5021",
   "ticker_full": "5021.T",
   "company_name": "COSMO ENERGY HLDGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 3,
     "buy": 2,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
+    "total_analysts": 8,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.125
+    "recommendation_mean": 2.25
   },
   "target_prices": {
     "has_data": true,
-    "current": 4510.0,
+    "current": 3966.0,
     "high": 5800.0,
     "low": 3400.0,
-    "mean": 4982.5,
-    "median": 5080.0
+    "mean": 4845.0,
+    "median": 4880.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 35.0,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 99.3,
+        "eps_actual": 68.68,
+        "surprise_pct": -30.84
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 128.7,
+        "eps_actual": 168.59,
+        "surprise_pct": 30.99
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": -121.85,
+        "eps_actual": -12.33,
+        "surprise_pct": 89.88
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 35.0,
+        "eps_actual": 86.11,
+        "surprise_pct": 146.03
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 111.8,
+        "eps_actual": 131.7,
+        "surprise_pct": 17.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.26,
-    "institution_pct": 30.89,
+    "institution_pct": 30.09,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 30.89
+        "value": 30.09
       },
       {
         "label": "",
-        "value": 42.47
+        "value": 41.36
       },
       {
         "label": "",
-        "value": 129.0
+        "value": 132.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1608396,
-        "date_reported": "2025-10-31",
+        "shares": 1606196,
+        "date_reported": "2026-01-31",
         "pct_held": 0.97,
-        "pct_change": 0.0,
-        "value": 7253865960
+        "pct_change": -0.14,
+        "value": 6371779532
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.64,
         "pct_change": 2.4,
-        "value": 4779905460
+        "value": 4204409082
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 755500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": 1.02,
-        "value": 3407305000
+        "shares": 777300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.47,
+        "pct_change": 1.33,
+        "value": 3083549100
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 2468774000
+        "value": 2171535800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -89,15 +127,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 2397516000
+        "value": 2108857200
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 509500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 2297845000
+        "value": 2021186500
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 486800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": 1.0,
+        "value": 1931135600
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -105,31 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 5.16,
-        "value": 1876160000
+        "value": 1650272000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 379260,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.23,
-        "pct_change": 7.61,
-        "value": 1710462600
+        "shares": 393553,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.24,
+        "pct_change": 3.77,
+        "value": 1561224751
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 385300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 1.72,
-        "value": 1737703000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 260942,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.16,
-        "pct_change": 0.91,
-        "value": 1176848420
+        "shares": 389900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.24,
+        "pct_change": 1.3,
+        "value": 1546733300
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:49.450390",
+  "fetched_at": "2026-05-01T04:17:11.172756",
   "ticker": "6523",
   "ticker_full": "6523.T",
   "company_name": "PHC HLDGS CORP",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.57143
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1119.0,
+    "current": 1000.0,
     "high": 2100.0,
     "low": 1000.0,
     "mean": 1327.1428,
     "median": 1200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 35.86,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 13.5,
+        "eps_actual": 9.92,
+        "surprise_pct": -26.52
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 45.88,
+        "eps_actual": 14.13,
+        "surprise_pct": -69.2
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 3.95,
+        "eps_actual": -18.55,
+        "surprise_pct": -569.62
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 35.86,
+        "eps_actual": 22.55,
+        "surprise_pct": -37.12
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 29.57,
+        "eps_actual": 28.06,
+        "surprise_pct": -5.11
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 74.5,
-    "institution_pct": 4.61,
+    "institution_pct": 4.62,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 4.61
+        "value": 4.62
       },
       {
         "label": "",
-        "value": 18.1
+        "value": 18.11
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 57.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 406289,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.32,
-        "pct_change": -6.47,
-        "value": 454637391
+        "pct_change": 0.0,
+        "value": 406289000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 287100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 7.81,
-        "value": 321264900
+        "shares": 327600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": -2.62,
+        "value": 327600000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.18,
         "pct_change": 12.17,
-        "value": 261955662
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 131700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.1,
-        "pct_change": 0.0,
-        "value": 147372300
+        "value": 234098000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -89,15 +119,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.1,
         "pct_change": 57.06,
-        "value": 144462900
+        "value": 129100000
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 117700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.09,
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 131700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 131706300
+        "value": 131700000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": 31.62,
-        "value": 126223200
+        "value": 112800000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -113,23 +143,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": 42.36,
-        "value": 132377700
+        "value": 118300000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 117700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.09,
+        "pct_change": 0.0,
+        "value": 117700000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 99900,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.08,
-        "pct_change": 15.09,
-        "value": 111788100
+        "pct_change": 0.0,
+        "value": 99900000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
-        "shares": 75000,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.06,
-        "pct_change": 7.3,
-        "value": 83925000
+        "shares": 86000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.07,
+        "pct_change": -2.49,
+        "value": 86000000
       }
     ],
     "mutualfund_holders": []

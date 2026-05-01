@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:43:48.294923",
+  "fetched_at": "2026-05-01T04:15:07.246060",
   "ticker": "4099",
   "ticker_full": "4099.T",
   "company_name": "SHIKOKU KASEI HOLDINGS CORPORAT",
@@ -18,32 +18,70 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4535.0,
+    "current": 5110.0,
     "high": 3200.0,
     "low": 3200.0,
     "mean": 3200.0,
     "median": 3200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-04-26",
+        "eps_estimate": 28.0,
+        "eps_actual": 27.65,
+        "surprise_pct": -1.25
+      },
+      {
+        "date": "2019-04-24",
+        "eps_estimate": 28.9,
+        "eps_actual": 18.17,
+        "surprise_pct": -37.13
+      },
+      {
+        "date": "2013-01-28",
+        "eps_estimate": 17.62,
+        "eps_actual": 14.47,
+        "surprise_pct": -17.88
+      },
+      {
+        "date": "2012-07-25",
+        "eps_estimate": 16.77,
+        "eps_actual": 13.07,
+        "surprise_pct": -22.07
+      },
+      {
+        "date": "2012-04-25",
+        "eps_estimate": 16.32,
+        "eps_actual": 11.18,
+        "surprise_pct": -31.51
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 30.07,
-    "institution_pct": 26.6,
+    "insider_pct": 30.11,
+    "institution_pct": 26.9,
     "major_holders": [
       {
         "label": "",
-        "value": 30.07
+        "value": 30.11
       },
       {
         "label": "",
-        "value": 26.6
+        "value": 26.9
       },
       {
         "label": "",
-        "value": 38.03
+        "value": 38.49
       },
       {
         "label": "",

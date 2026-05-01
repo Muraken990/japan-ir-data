@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:56.336721",
+  "fetched_at": "2026-05-01T04:17:18.515077",
   "ticker": "8975",
   "ticker_full": "8975.T",
   "company_name": "ICHIGO OFFICE REITINVESTMENT CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 0,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 1,
+    "total_analysts": 2,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 93700.0,
+    "current": 89900.0,
     "high": 116500.0,
     "low": 106000.0,
     "mean": 111250.0,
     "median": 111250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-06-16",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.27,
-    "institution_pct": 63.02,
+    "institution_pct": 62.69,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 63.02
+        "value": 62.69
       },
       {
         "label": "",
-        "value": 72.67
+        "value": 72.28
       },
       {
         "label": "",
-        "value": 94.0
+        "value": 92.0
       }
     ],
     "institutional_holders": [],

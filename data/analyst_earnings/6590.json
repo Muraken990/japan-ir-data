@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:22.711969",
+  "fetched_at": "2026-05-01T04:21:54.593148",
   "ticker": "6590",
   "ticker_full": "6590.T",
   "company_name": "SHIBAURA MECHATRONICS CO",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 4165.0,
-    "high": 6800.0,
+    "current": 4725.0,
+    "high": 6400.0,
     "low": 3800.0,
-    "mean": 5666.6665,
-    "median": 6400.0
+    "mean": 5400.0,
+    "median": 6000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": 40.0,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 41.3,
+        "eps_actual": 53.88,
+        "surprise_pct": 30.47
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 69.66,
+        "eps_actual": 37.23,
+        "surprise_pct": -46.55
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 97.93,
+        "eps_actual": 43.83,
+        "surprise_pct": -55.24
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 40.0,
+        "eps_actual": 51.55,
+        "surprise_pct": 28.88
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 34.67,
+        "eps_actual": 43.46,
+        "surprise_pct": 25.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 8.73,
-    "institution_pct": 47.46,
+    "insider_pct": 6.6,
+    "institution_pct": 45.03,
     "major_holders": [
       {
         "label": "",
-        "value": 8.73
+        "value": 6.6
       },
       {
         "label": "",
-        "value": 47.46
+        "value": 45.03
       },
       {
         "label": "",
-        "value": 52.0
+        "value": 48.2
       },
       {
         "label": "",
-        "value": 107.0
+        "value": 103.0
       }
     ],
     "institutional_holders": [],

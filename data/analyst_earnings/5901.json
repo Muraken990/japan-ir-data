@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:56:16.180963",
+  "fetched_at": "2026-05-01T04:28:04.110801",
   "ticker": "5901",
   "ticker_full": "5901.T",
   "company_name": "TOYO SEIKAN GROUP HOLDINGS LIMI",
@@ -17,20 +17,46 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3578.0,
+    "current": 3469.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2006-11-10",
+        "eps_estimate": 4.3,
+        "eps_actual": 6.38,
+        "surprise_pct": 48.37
+      },
+      {
+        "date": "2005-11-11",
+        "eps_estimate": 39.3,
+        "eps_actual": 45.42,
+        "surprise_pct": 15.57
+      },
+      {
+        "date": "2005-05-20",
+        "eps_estimate": -22.7,
+        "eps_actual": -23.06,
+        "surprise_pct": -1.59
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.05,
-    "institution_pct": 38.29,
+    "institution_pct": 35.3,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +64,11 @@
       },
       {
         "label": "",
-        "value": 38.29
+        "value": 35.3
       },
       {
         "label": "",
-        "value": 51.77
+        "value": 47.73
       },
       {
         "label": "",

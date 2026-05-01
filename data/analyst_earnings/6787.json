@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:51:47.270005",
+  "fetched_at": "2026-05-01T04:23:24.114398",
   "ticker": "6787",
   "ticker_full": "6787.T",
   "company_name": "MEIKO ELECTRONICS CO",
@@ -14,24 +14,38 @@
     "strong_sell": 0,
     "total_analysts": 4,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 2.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 28380.0,
-    "high": 29000.0,
+    "current": 29700.0,
+    "high": 29200.0,
     "low": 10000.0,
-    "mean": 20733.334,
-    "median": 23200.0
+    "mean": 22733.334,
+    "median": 29000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2019-05-09",
+        "eps_estimate": 33.0,
+        "eps_actual": -1.08,
+        "surprise_pct": -103.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.01,
-    "institution_pct": 35.11,
+    "institution_pct": 34.15,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +53,25 @@
       },
       {
         "label": "",
-        "value": 35.11
+        "value": 34.15
       },
       {
         "label": "",
-        "value": 46.21
+        "value": 44.94
       },
       {
         "label": "",
-        "value": 89.0
+        "value": 91.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 277812,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.04,
-        "pct_change": 1.46,
-        "value": 7881526440
+        "pct_change": 0.0,
+        "value": 8251016400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +79,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.67,
         "pct_change": 1.76,
-        "value": 5095393850
+        "value": 5334268500
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 166400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 4720768000
+        "value": 4942080000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 150100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 4258337000
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 126900,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.47,
-        "pct_change": 1.0,
-        "value": 3600153000
+        "value": 4457970000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,7 +103,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 3583131000
+        "value": 3751110000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,31 +111,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.46,
         "pct_change": 0.98,
-        "value": 3495184000
+        "value": 3659040000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 77000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.72,
-        "value": 2184490000
+        "shares": 79900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.27,
+        "value": 2373030000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 69557,
-        "date_reported": "2025-10-31",
+        "shares": 70057,
+        "date_reported": "2026-01-31",
         "pct_held": 0.26,
-        "pct_change": 11.01,
-        "value": 1973332090
+        "pct_change": 0.72,
+        "value": 2080692900
       },
       {
-        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 42600,
-        "date_reported": "2026-01-31",
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 41615,
+        "date_reported": "2026-02-28",
         "pct_held": 0.16,
+        "pct_change": -2.22,
+        "value": 1235965500
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional World ex U.S. Core Equity 2 ETF",
+        "shares": 36500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 1208562000
+        "value": 1084050000
       }
     ],
     "mutualfund_holders": []

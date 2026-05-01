@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:00.601383",
+  "fetched_at": "2026-05-01T04:16:21.560060",
   "ticker": "7552",
   "ticker_full": "7552.T",
   "company_name": "HAPPINET CORP",
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2743.0,
+    "current": 2660.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 31.48,
-    "institution_pct": 22.35,
+    "institution_pct": 22.94,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 22.35
+        "value": 22.94
       },
       {
         "label": "",
-        "value": 32.62
+        "value": 33.48
       },
       {
         "label": "",
-        "value": 66.0
+        "value": 65.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 406780,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.85,
         "pct_change": 0.0,
-        "value": 1115390760
+        "value": 1082034800
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -65,7 +72,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.6,
         "pct_change": 2.26,
-        "value": 795728400
+        "value": 771932000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,23 +80,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.56,
         "pct_change": 3.61,
-        "value": 739901280
+        "value": 717774400
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 215000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 589530000
+        "value": 571900000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 214000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 586788000
+        "value": 569240000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +104,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": -2.22,
-        "value": 531948000
+        "value": 516040000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,23 +112,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 432139200
+        "value": 419216000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 112900,
-        "date_reported": "2026-01-31",
+        "shares": 110500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.23,
-        "pct_change": 1.16,
-        "value": 309571800
+        "pct_change": -3.75,
+        "value": 293930000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 105200,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.22,
-        "pct_change": 6.26,
-        "value": 288458400
+        "pct_change": 0.0,
+        "value": 279832000
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -129,7 +136,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": -54.81,
-        "value": 177955800
+        "value": 172634000
       }
     ],
     "mutualfund_holders": []

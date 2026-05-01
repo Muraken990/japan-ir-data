@@ -1,53 +1,86 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:58:32.679233",
+  "fetched_at": "2026-05-01T04:30:24.655675",
   "ticker": "8303",
   "ticker_full": "8303.T",
   "company_name": "SBI SHINSEI BANK LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 1734.0,
+    "current": 1734.5,
     "high": 2010.0,
     "low": 1650.0,
-    "mean": 1827.5,
-    "median": 1825.0
+    "mean": 1815.0,
+    "median": 1800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-01",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 19.8,
+        "eps_actual": 26.27,
+        "surprise_pct": 32.68
+      },
+      {
+        "date": "2023-08-03",
+        "eps_estimate": 606.69,
+        "eps_actual": 552.51,
+        "surprise_pct": -8.93
+      },
+      {
+        "date": "2023-05-11",
+        "eps_estimate": 244.29,
+        "eps_actual": 99.17,
+        "surprise_pct": -59.4
+      },
+      {
+        "date": "2023-02-06",
+        "eps_estimate": 396.69,
+        "eps_actual": 651.43,
+        "surprise_pct": 64.22
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 77.77,
-    "institution_pct": 13.58,
+    "insider_pct": 70.54,
+    "institution_pct": 5.01,
     "major_holders": [
       {
         "label": "",
-        "value": 77.77
+        "value": 70.54
       },
       {
         "label": "",
-        "value": 13.58
+        "value": 5.01
       },
       {
         "label": "",
-        "value": 61.08
+        "value": 16.99
       },
       {
         "label": "",
-        "value": 96.0
+        "value": 39.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:01:58.863762",
+  "fetched_at": "2026-05-01T04:33:57.183330",
   "ticker": "6301",
   "ticker_full": "6301.T",
   "company_name": "KOMATSU",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6438.0,
+    "current": 6573.0,
     "high": 9280.0,
     "low": 4900.0,
-    "mean": 6290.0,
-    "median": 6000.0
+    "mean": 6406.6665,
+    "median": 6050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-29",
+      "eps_estimate": 106.07,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 109.53,
+        "eps_actual": 118.08,
+        "surprise_pct": 7.81
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 96.83,
+        "eps_actual": 104.02,
+        "surprise_pct": 7.43
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 95.89,
+        "eps_actual": 92.69,
+        "surprise_pct": -3.33
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 106.07,
+        "eps_actual": 99.08,
+        "surprise_pct": -6.59
+      },
+      {
+        "date": "2025-04-28",
+        "eps_estimate": 97.74,
+        "eps_actual": 140.19,
+        "surprise_pct": 43.42
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 1.37,
-    "institution_pct": 50.19,
+    "institution_pct": 50.77,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 50.19
+        "value": 50.77
       },
       {
         "label": "",
-        "value": 50.89
+        "value": 51.48
       },
       {
         "label": "",
-        "value": 421.0
+        "value": 411.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.05,
         "pct_change": 10.07,
-        "value": 3032528633
+        "value": 3096599457
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 13253174,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.42,
-        "pct_change": -0.94,
-        "value": 85310681038
+        "shares": 13355874,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.44,
+        "pct_change": 0.77,
+        "value": 87788159802
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,23 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.93,
         "pct_change": 2.08,
-        "value": 55452456991
+        "value": 56624048439
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 6509600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.7,
-        "pct_change": 0.94,
-        "value": 41902295200
-      },
-      {
-        "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 4437800,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.48,
-        "pct_change": 0.0,
-        "value": 28566118600
+        "shares": 6679700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.72,
+        "pct_change": 1.35,
+        "value": 43905668100
       },
       {
         "holder": "JANUS INVESTMENT FUND-Janus Henderson Global Equity Income Fund",
@@ -99,7 +129,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 24066655600
+        "value": 24575132400
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 3713100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.4,
+        "pct_change": 0.27,
+        "value": 24406206300
       },
       {
         "holder": "Fidelity Advisor Series VIII-Fidelity Advisor Focused Emerging Markets",
@@ -107,15 +145,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.39,
         "pct_change": 1.61,
-        "value": 23126364388
+        "value": 23614974852
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 3427312,
-        "date_reported": "2026-01-31",
+        "shares": 3468512,
+        "date_reported": "2026-02-28",
         "pct_held": 0.37,
-        "pct_change": 0.73,
-        "value": 22061607344
+        "pct_change": 1.2,
+        "value": 22798529376
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -123,23 +161,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.35,
         "pct_change": -22.17,
-        "value": 20766997904
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 3295600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.35,
-        "pct_change": 1.0,
-        "value": 21213777200
+        "value": 21205760016
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 3276400,
-        "date_reported": "2026-01-31",
+        "shares": 3290400,
+        "date_reported": "2026-03-31",
         "pct_held": 0.35,
-        "pct_change": 0.5,
-        "value": 21090186800
+        "pct_change": 0.0,
+        "value": 21627799200
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Large Cap Strategies Fund",
+        "shares": 3093797,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.33,
+        "pct_change": 42.95,
+        "value": 20335527681
       }
     ]
   }

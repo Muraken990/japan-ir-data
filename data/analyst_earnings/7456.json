@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:44:56.758968",
+  "fetched_at": "2026-05-01T04:16:17.226097",
   "ticker": "7456",
   "ticker_full": "7456.T",
   "company_name": "MATSUDA SANGYO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 6390.0,
+    "current": 6660.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2011-05-12",
+        "eps_estimate": 33.66,
+        "eps_actual": 29.11,
+        "surprise_pct": -13.52
+      },
+      {
+        "date": "2011-02-06",
+        "eps_estimate": 38.56,
+        "eps_actual": 39.39,
+        "surprise_pct": 2.15
+      },
+      {
+        "date": "2010-11-07",
+        "eps_estimate": 39.6,
+        "eps_actual": 28.8,
+        "surprise_pct": -27.27
+      },
+      {
+        "date": "2010-05-13",
+        "eps_estimate": 27.06,
+        "eps_actual": 18.25,
+        "surprise_pct": -32.56
+      },
+      {
+        "date": "2010-05-13",
+        "eps_estimate": 45.13,
+        "eps_actual": 38.75,
+        "surprise_pct": -14.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 39.51,
-    "institution_pct": 19.66,
+    "institution_pct": 18.8,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 19.66
+        "value": 18.8
       },
       {
         "label": "",
-        "value": 32.5
+        "value": 31.08
       },
       {
         "label": "",
-        "value": 65.0
+        "value": 68.0
       }
     ],
     "institutional_holders": [],

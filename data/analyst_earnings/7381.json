@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:47:04.530351",
+  "fetched_at": "2026-05-01T04:18:27.388758",
   "ticker": "7381",
   "ticker_full": "7381.T",
   "company_name": "CCI GROUP INC",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 974.0,
+    "current": 958.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 9.93,
+        "eps_actual": 7.36,
+        "surprise_pct": -25.9
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 10.3,
+        "eps_actual": 19.76,
+        "surprise_pct": 91.81
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 12.67,
+        "eps_actual": -2.41,
+        "surprise_pct": -119.02
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 6.24,
+        "eps_actual": 11.32,
+        "surprise_pct": 81.32
+      },
+      {
+        "date": "2014-11-04",
+        "eps_estimate": 6.04,
+        "eps_actual": 4.12,
+        "surprise_pct": -31.8
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.62,
-    "institution_pct": 20.22,
+    "institution_pct": 20.11,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 20.22
+        "value": 20.11
       },
       {
         "label": "",
-        "value": 23.96
+        "value": 23.83
       },
       {
         "label": "",
-        "value": 65.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +89,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 1.88,
         "pct_change": -0.36,
-        "value": 428185984
+        "value": 421152128
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -64,7 +97,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 1.24,
         "pct_change": -0.48,
-        "value": 281867808
+        "value": 277237536
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -72,7 +105,7 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.79,
         "pct_change": 3.36,
-        "value": 179754622
+        "value": 176801774
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -80,7 +113,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.56,
         "pct_change": -1.94,
-        "value": 127691400
+        "value": 125593800
       },
       {
         "holder": "Avantis International Equity ETF",
@@ -88,7 +121,7 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.5,
         "pct_change": 3.27,
-        "value": 113860600
+        "value": 111990200
       },
       {
         "holder": "Avantis International Small Cap Value ETF",
@@ -96,7 +129,7 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 109088000
+        "value": 107296000
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -104,7 +137,7 @@
         "date_reported": "2025-01-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 109282800
+        "value": 107487600
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -112,7 +145,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.44,
         "pct_change": -5.91,
-        "value": 100809000
+        "value": 99153000
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -120,7 +153,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.3,
         "pct_change": 1.46,
-        "value": 67742674
+        "value": 66629858
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -128,7 +161,7 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.27,
         "pct_change": -0.78,
-        "value": 62336000
+        "value": 61312000
       }
     ],
     "mutualfund_holders": []

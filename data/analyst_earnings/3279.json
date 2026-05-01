@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:49.932895",
+  "fetched_at": "2026-05-01T04:24:29.050003",
   "ticker": "3279",
   "ticker_full": "3279.T",
   "company_name": "ACTIVIA PROPERTIES INC",
@@ -13,25 +13,32 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.83333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 140600.0,
+    "current": 139600.0,
     "high": 166000.0,
     "low": 135000.0,
-    "mean": 152833.33,
-    "median": 153000.0
+    "mean": 154500.0,
+    "median": 157500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-16",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.5,
-    "institution_pct": 44.03,
+    "institution_pct": 44.05,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 44.03
+        "value": 44.05
       },
       {
         "label": "",
-        "value": 53.37
+        "value": 53.39
       },
       {
         "label": "",
-        "value": 118.0
+        "value": 120.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +64,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 1.22,
         "pct_change": 0.0,
-        "value": 4061512200
+        "value": 4032625200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +72,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.82,
         "pct_change": 7.22,
-        "value": 2726515200
+        "value": 2707123200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -73,7 +80,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.6,
         "pct_change": 2.05,
-        "value": 1999894400
+        "value": 1985670400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -81,7 +88,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 1852123800
+        "value": 1838950800
       },
       {
         "holder": "DEUTSCHE DWS MARKET TRUST-DWS RREEF Real Assets Fund",
@@ -89,7 +96,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.4,
         "pct_change": -17.66,
-        "value": 1350181800
+        "value": 1340578800
       },
       {
         "holder": "CBRE Global Real Estate Income Fund",
@@ -97,7 +104,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 1324030200
+        "value": 1314613200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -105,7 +112,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.33,
         "pct_change": 0.77,
-        "value": 1106803200
+        "value": 1098931200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -113,7 +120,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.29,
         "pct_change": 4.55,
-        "value": 972811400
+        "value": 965892400
       },
       {
         "holder": "Prudential Investment Portfolios 12-PGIM GLOBAL REAL ESTATE FUND",
@@ -121,7 +128,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.23,
         "pct_change": 1.0,
-        "value": 765004600
+        "value": 759563600
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
@@ -129,7 +136,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.2,
         "pct_change": 4.68,
-        "value": 683034800
+        "value": 678176800
       }
     ],
     "mutualfund_holders": []

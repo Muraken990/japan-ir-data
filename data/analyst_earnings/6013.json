@@ -1,53 +1,60 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:49:16.408046",
+  "fetched_at": "2026-05-01T04:20:42.665266",
   "ticker": "6013",
   "ticker_full": "6013.T",
   "company_name": "TAKUMA CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 2,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2763.0,
+    "current": 2732.0,
     "high": 3350.0,
     "low": 2300.0,
     "mean": 2832.5,
     "median": 2840.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 19.09,
-    "institution_pct": 38.66,
+    "insider_pct": 20.32,
+    "institution_pct": 47.7,
     "major_holders": [
       {
         "label": "",
-        "value": 19.09
+        "value": 20.32
       },
       {
         "label": "",
-        "value": 38.66
+        "value": 47.7
       },
       {
         "label": "",
-        "value": 47.79
+        "value": 59.86
       },
       {
         "label": "",
-        "value": 94.0
+        "value": 92.0
       }
     ],
     "institutional_holders": [
@@ -55,81 +62,81 @@
         "holder": "SmallCap World Fund Inc",
         "shares": 1803700,
         "date_reported": "2025-12-31",
-        "pct_held": 2.24,
+        "pct_held": 2.38,
         "pct_change": 1.0,
-        "value": 4980015700
+        "value": 4927708400
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
         "shares": 1094100,
         "date_reported": "2025-12-31",
-        "pct_held": 1.36,
+        "pct_held": 1.45,
         "pct_change": 15.41,
-        "value": 3020810100
+        "value": 2989081200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 932115,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.16,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.23,
         "pct_change": 0.0,
-        "value": 2573569515
+        "value": 2546538180
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 609300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.76,
-        "pct_change": 1.26,
-        "value": 1682277300
+        "shares": 631100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.83,
+        "pct_change": 1.64,
+        "value": 1724165200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 591639,
         "date_reported": "2025-12-31",
-        "pct_held": 0.73,
+        "pct_held": 0.78,
         "pct_change": 5.64,
-        "value": 1633515279
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 214500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.27,
-        "pct_change": 3.72,
-        "value": 592234500
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 221400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 1.79,
-        "value": 611285400
+        "value": 1616357748
       },
       {
         "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
-        "shares": 204600,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.25,
-        "pct_change": 1.0,
-        "value": 564900600
+        "shares": 580500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.77,
+        "pct_change": 1.84,
+        "value": 1585926000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 224800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.3,
+        "pct_change": 4.8,
+        "value": 614153600
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 222100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": 1.37,
+        "value": 606777200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
-        "shares": 136500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": 10.35,
-        "value": 376876500
+        "shares": 137100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 0.73,
+        "value": 374557200
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 131135,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.16,
-        "pct_change": 15.88,
-        "value": 362063735
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 130200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.17,
+        "pct_change": 0.0,
+        "value": 355706400
       }
     ],
     "mutualfund_holders": []

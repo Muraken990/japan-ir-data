@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:51.541042",
+  "fetched_at": "2026-05-01T04:32:46.724276",
   "ticker": "9101",
   "ticker_full": "9101.T",
   "company_name": "NIPPON YUSEN KABUSHIKI KAISHA",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "hold",
-    "recommendation_mean": 3.09091
+    "recommendation_mean": 2.90909
   },
   "target_prices": {
     "has_data": true,
-    "current": 5851.0,
-    "high": 6800.0,
+    "current": 5594.0,
+    "high": 7400.0,
     "low": 3270.0,
-    "mean": 5451.8184,
-    "median": 5400.0
+    "mean": 5726.8184,
+    "median": 5600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-11",
+      "eps_estimate": 150.0,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 151.52,
+        "eps_actual": 107.99,
+        "surprise_pct": -28.73
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 212.43,
+        "eps_actual": 118.44,
+        "surprise_pct": -44.25
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 150.61,
+        "eps_actual": 120.9,
+        "surprise_pct": -19.73
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 150.0,
+        "eps_actual": 191.86,
+        "surprise_pct": 27.91
+      },
+      {
+        "date": "2025-02-04",
+        "eps_estimate": 298.7,
+        "eps_actual": 292.86,
+        "surprise_pct": -1.96
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.58,
-    "institution_pct": 43.81,
+    "institution_pct": 44.67,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.81
+        "value": 44.67
       },
       {
         "label": "",
-        "value": 45.44
+        "value": 46.33
       },
       {
         "label": "",
-        "value": 309.0
+        "value": 300.0
       }
     ],
     "institutional_holders": [],

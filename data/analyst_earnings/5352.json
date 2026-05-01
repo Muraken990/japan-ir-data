@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:45:58.465038",
+  "fetched_at": "2026-05-01T04:17:20.039908",
   "ticker": "5352",
   "ticker_full": "5352.T",
   "company_name": "KROSAKI HARIMA CORP",
@@ -24,8 +24,41 @@
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 18.15,
+        "eps_actual": 34.17,
+        "surprise_pct": 88.27
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 9.47,
+        "eps_actual": 22.58,
+        "surprise_pct": 138.38
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 6.04,
+        "eps_actual": 7.83,
+        "surprise_pct": 29.66
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 14.4,
+        "eps_actual": 5.95,
+        "surprise_pct": -58.69
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 10.41,
+        "eps_actual": 20.27,
+        "surprise_pct": 94.86
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:10.342370",
+  "fetched_at": "2026-05-01T04:26:56.371367",
   "ticker": "6753",
   "ticker_full": "6753.T",
   "company_name": "SHARP CORP",
@@ -13,25 +13,63 @@
     "sell": 3,
     "strong_sell": 2,
     "total_analysts": 8,
-    "recommendation_key": "underperform",
-    "recommendation_mean": 4.14286
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 602.3,
+    "current": 578.3,
     "high": 880.0,
     "low": 340.0,
-    "mean": 644.2857,
+    "mean": 634.2857,
     "median": 680.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 27.1,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 16.36,
+        "eps_actual": 33.93,
+        "surprise_pct": 107.35
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 13.7,
+        "eps_actual": 28.1,
+        "surprise_pct": 105.14
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 11.05,
+        "eps_actual": 41.95,
+        "surprise_pct": 279.65
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 27.1,
+        "eps_actual": 61.12,
+        "surprise_pct": 125.55
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 6.42,
+        "eps_actual": -40.89,
+        "surprise_pct": -736.85
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 63.69,
-    "institution_pct": 15.56,
+    "institution_pct": 15.9,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,33 @@
       },
       {
         "label": "",
-        "value": 15.56
+        "value": 15.9
       },
       {
         "label": "",
-        "value": 42.86
+        "value": 43.79
       },
       {
         "label": "",
-        "value": 117.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3564057,
-        "date_reported": "2025-10-31",
+        "shares": 3587757,
+        "date_reported": "2026-01-31",
         "pct_held": 0.55,
-        "pct_change": 0.47,
-        "value": 2146631487
+        "pct_change": 0.66,
+        "value": 2074799829
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 2749900,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.42,
+        "pct_change": 1.86,
+        "value": 1590267136
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.36,
         "pct_change": 1.85,
-        "value": 1402692827
+        "value": 1346799371
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1809099,
-        "date_reported": "2026-01-31",
+        "shares": 1852699,
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
-        "pct_change": 0.85,
-        "value": 1089620305
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 962800,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.15,
-        "pct_change": 1.0,
-        "value": 579894428
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 894200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.14,
-        "pct_change": 1.78,
-        "value": 538576649
+        "pct_change": 1.11,
+        "value": 1071415809
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,31 +127,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.14,
         "pct_change": 39.77,
-        "value": 529260875
+        "value": 508171283
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 903100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.14,
+        "pct_change": -1.52,
+        "value": 522262718
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 620130,
-        "date_reported": "2025-11-30",
+        "shares": 625907,
+        "date_reported": "2026-02-28",
         "pct_held": 0.1,
-        "pct_change": 0.91,
-        "value": 373504291
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 540990,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.08,
-        "pct_change": 3.2,
-        "value": 325838270
-      },
-      {
-        "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
-        "shares": 546000,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.08,
-        "pct_change": 0.0,
-        "value": 328855793
+        "pct_change": 0.93,
+        "value": 361962010
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -129,7 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.08,
         "pct_change": 1.07,
-        "value": 325984026
+        "value": 312994458
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 540990,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.08,
+        "pct_change": 0.0,
+        "value": 312854510
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 528900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.08,
+        "pct_change": 0.0,
+        "value": 305862863
       }
     ],
     "mutualfund_holders": []

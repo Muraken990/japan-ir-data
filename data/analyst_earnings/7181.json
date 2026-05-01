@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:38.104248",
+  "fetched_at": "2026-05-01T04:32:33.515996",
   "ticker": "7181",
   "ticker_full": "7181.T",
   "company_name": "JAPAN POST INSURANCE CO LTD",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 1,
+    "buy": 2,
     "hold": 6,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 9,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.4
+    "total_analysts": 10,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1634.0,
+    "current": 1539.5,
     "high": 2100.0,
-    "low": 1440.0,
-    "mean": 1751.1104,
-    "median": 1726.6666
+    "low": 1163.0116,
+    "mean": 1692.6678,
+    "median": 1696.6666
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-15",
+      "eps_estimate": 31.57,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 31.81,
+        "eps_actual": 22.3,
+        "surprise_pct": -29.87
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 32.74,
+        "eps_actual": 53.13,
+        "surprise_pct": 62.25
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 31.57,
+        "eps_actual": 34.0,
+        "surprise_pct": 7.69
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 26.44,
+        "eps_actual": 18.76,
+        "surprise_pct": -29.04
+      },
+      {
+        "date": "2024-11-13",
+        "eps_estimate": 19.44,
+        "eps_actual": 36.52,
+        "surprise_pct": 87.91
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 50.75,
-    "institution_pct": 17.13,
+    "institution_pct": 17.15,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 17.13
+        "value": 17.15
       },
       {
         "label": "",
-        "value": 34.78
+        "value": 34.82
       },
       {
         "label": "",
-        "value": 234.0
+        "value": 231.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.82,
         "pct_change": 4.63,
-        "value": 14916197760
+        "value": 14053541280
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 7710795,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.69,
-        "pct_change": -0.66,
-        "value": 12599439030
+        "shares": 7779195,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.7,
+        "pct_change": 0.89,
+        "value": 11976070702
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,55 +111,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.45,
         "pct_change": 2.45,
-        "value": 8221742244
+        "value": 7746249807
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3846000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 0.6,
-        "value": 6284364000
-      },
-      {
-        "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Growth Fund",
-        "shares": 3470850,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.31,
-        "pct_change": 0.0,
-        "value": 5671368900
+        "shares": 3911400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": 0.79,
+        "value": 6021600300
       },
       {
         "holder": "John Hancock Investment Trust-Disciplined Value International Fund",
         "shares": 3464100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
-        "pct_change": -2.01,
-        "value": 5660339400
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2009034,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": 0.48,
-        "value": 3282761556
+        "pct_change": 0.0,
+        "value": 5332981950
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1931100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": 1.02,
-        "value": 3155417400
+        "shares": 2193600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.2,
+        "pct_change": 0.83,
+        "value": 3377047200
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 2033634,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.18,
+        "pct_change": 1.22,
+        "value": 3130779543
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 1924200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.17,
-        "pct_change": 0.56,
-        "value": 3144142800
+        "pct_change": 0.0,
+        "value": 2962305900
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.15,
         "pct_change": -4.17,
-        "value": 2759826000
+        "value": 2600215500
+      },
+      {
+        "holder": "MoA Funds Corp-MoA International Fund",
+        "shares": 1457319,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.13,
+        "pct_change": 0.0,
+        "value": 2243542600
       }
     ],
     "mutualfund_holders": []

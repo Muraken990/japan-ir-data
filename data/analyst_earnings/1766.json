@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:27.327555",
+  "fetched_at": "2026-05-01T04:19:53.421283",
   "ticker": "1766",
   "ticker_full": "1766.T",
   "company_name": "TOKEN CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 0.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 13420.0,
+    "current": 13070.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-03-13",
+        "eps_estimate": 230.4,
+        "eps_actual": 293.31,
+        "surprise_pct": 27.3
+      },
+      {
+        "date": "2016-12-13",
+        "eps_estimate": 204.1,
+        "eps_actual": 213.37,
+        "surprise_pct": 4.54
+      },
+      {
+        "date": "2016-03-14",
+        "eps_estimate": 128.42,
+        "eps_actual": 191.55,
+        "surprise_pct": 49.16
+      },
+      {
+        "date": "2015-09-10",
+        "eps_estimate": 115.45,
+        "eps_actual": 150.48,
+        "surprise_pct": 30.34
+      },
+      {
+        "date": "2015-03-09",
+        "eps_estimate": 121.95,
+        "eps_actual": 126.05,
+        "surprise_pct": 3.36
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 48.8,
-    "institution_pct": 7.62,
+    "institution_pct": 7.6,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 7.62
+        "value": 7.6
       },
       {
         "label": "",
-        "value": 14.88
+        "value": 14.84
       },
       {
         "label": "",
@@ -57,7 +90,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 1351595300
+        "value": 1316345050
       },
       {
         "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
@@ -65,7 +98,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 1064206000
+        "value": 1036451000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +106,7 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 854263520
+        "value": 831983920
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,7 +114,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 700658200
+        "value": 682384700
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +122,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 526735000
+        "value": 512997500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,7 +130,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 341807400
+        "value": 332892900
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -105,7 +138,7 @@
         "date_reported": "2025-04-30",
         "pct_held": 0.16,
         "pct_change": -15.21,
-        "value": 284316120
+        "value": 276901020
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
@@ -113,7 +146,7 @@
         "date_reported": "2025-05-31",
         "pct_held": 0.14,
         "pct_change": -26.82,
-        "value": 261153200
+        "value": 254342200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -121,7 +154,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 241560000
+        "value": 235260000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -129,7 +162,7 @@
         "date_reported": "2025-05-31",
         "pct_held": 0.1,
         "pct_change": -3.89,
-        "value": 173990300
+        "value": 169452550
       }
     ],
     "mutualfund_holders": []

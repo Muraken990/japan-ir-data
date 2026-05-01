@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:37:24.959475",
+  "fetched_at": "2026-05-01T04:09:19.800022",
   "ticker": "4565",
   "ticker_full": "4565.T",
   "company_name": "NXERA PHARMA CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 1,
     "buy": 5,
-    "hold": 1,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.625
   },
   "target_prices": {
     "has_data": true,
-    "current": 1000.0,
+    "current": 962.0,
     "high": 4500.0,
     "low": 940.0,
     "mean": 1805.0,
@@ -26,14 +26,15 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-01",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-05-01",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
       {
         "date": "2026-02-13",
         "eps_estimate": 73.9,
@@ -57,19 +58,13 @@
         "eps_estimate": -40.12,
         "eps_actual": -8.45,
         "surprise_pct": 78.94
-      },
-      {
-        "date": "2025-02-14",
-        "eps_estimate": 33.6,
-        "eps_actual": -14.86,
-        "surprise_pct": -144.23
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.72,
-    "institution_pct": 38.4,
+    "institution_pct": 32.68,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 38.4
+        "value": 32.68
       },
       {
         "label": "",
-        "value": 44.0
+        "value": 37.44
       },
       {
         "label": "",
-        "value": 65.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1060900,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.17,
         "pct_change": 0.0,
-        "value": 1060900000
+        "value": 1020585800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,15 +98,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.77,
         "pct_change": 0.0,
-        "value": 693000000
+        "value": 666666000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 576000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.64,
-        "pct_change": 1.34,
-        "value": 576000000
+        "shares": 597800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.66,
+        "pct_change": 1.74,
+        "value": 575083600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -119,23 +114,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 32.68,
-        "value": 337400000
-      },
-      {
-        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 319084,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.35,
-        "pct_change": 0.0,
-        "value": 319084000
+        "value": 324578800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 310200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 2.14,
-        "value": 310200000
+        "shares": 324700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.36,
+        "pct_change": 1.56,
+        "value": 312361400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -143,31 +130,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.34,
         "pct_change": 18.25,
-        "value": 311600000
+        "value": 299759200
+      },
+      {
+        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
+        "shares": 307084,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.34,
+        "pct_change": -3.76,
+        "value": 295414808
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 265800,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.29,
-        "pct_change": 11.96,
-        "value": 265800000
+        "pct_change": 0.0,
+        "value": 255699600
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 245200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.27,
+        "pct_change": 89.2,
+        "value": 235882400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
-        "shares": 200900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 6.8,
-        "value": 200900000
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 188991,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 3.9,
-        "value": 188991000
+        "shares": 212500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.23,
+        "pct_change": 0.47,
+        "value": 204425000
       }
     ],
     "mutualfund_holders": []

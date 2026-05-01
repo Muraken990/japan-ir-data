@@ -1,49 +1,56 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:12.698353",
+  "fetched_at": "2026-05-01T04:19:37.460015",
   "ticker": "3498",
   "ticker_full": "3498.T",
   "company_name": "KASUMIGASEKI CAPITAL CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 3,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 6460.0,
-    "high": 15000.0,
+    "current": 6440.0,
+    "high": 13400.0,
     "low": 10000.0,
-    "mean": 12800.0,
-    "median": 13400.0
+    "mean": 12133.333,
+    "median": 13000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-02",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 23.88,
-    "institution_pct": 32.73,
+    "insider_pct": 24.39,
+    "institution_pct": 40.95,
     "major_holders": [
       {
         "label": "",
-        "value": 23.88
+        "value": 24.39
       },
       {
         "label": "",
-        "value": 32.73
+        "value": 40.95
       },
       {
         "label": "",
-        "value": 42.99
+        "value": 54.16
       },
       {
         "label": "",

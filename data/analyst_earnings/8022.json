@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:50:26.476052",
+  "fetched_at": "2026-05-01T04:21:59.029711",
   "ticker": "8022",
   "ticker_full": "8022.T",
   "company_name": "MIZUNO CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 1,
@@ -18,46 +18,84 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3520.0,
+    "current": 3305.0,
     "high": 4900.0,
     "low": 4340.0,
     "mean": 4620.0,
     "median": 4620.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-05-11",
+        "eps_estimate": 7.83,
+        "eps_actual": 7.77,
+        "surprise_pct": -0.85
+      },
+      {
+        "date": "2017-02-08",
+        "eps_estimate": 9.17,
+        "eps_actual": -7.72,
+        "surprise_pct": -184.18
+      },
+      {
+        "date": "2016-11-10",
+        "eps_estimate": 5.33,
+        "eps_actual": 17.78,
+        "surprise_pct": 233.44
+      },
+      {
+        "date": "2016-05-09",
+        "eps_estimate": 16.5,
+        "eps_actual": -2.33,
+        "surprise_pct": -114.14
+      },
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 8.0,
+        "eps_actual": 10.65,
+        "surprise_pct": 33.13
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 23.79,
-    "institution_pct": 28.36,
+    "insider_pct": 23.66,
+    "institution_pct": 27.73,
     "major_holders": [
       {
         "label": "",
-        "value": 23.79
+        "value": 23.66
       },
       {
         "label": "",
-        "value": 28.36
+        "value": 27.73
       },
       {
         "label": "",
-        "value": 37.21
+        "value": 36.33
       },
       {
         "label": "",
-        "value": 88.0
+        "value": 89.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 820978,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.03,
-        "pct_change": 1.07,
-        "value": 2889842560
+        "pct_change": 0.0,
+        "value": 2713332290
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,23 +103,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.67,
         "pct_change": 2.15,
-        "value": 1872228160
+        "value": 1757873315
+      },
+      {
+        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
+        "shares": 443900,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.56,
+        "pct_change": 47.87,
+        "value": 1467089500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 350400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 1233408000
-      },
-      {
-        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
-        "shares": 300200,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.38,
-        "pct_change": 6.83,
-        "value": 1056704000
+        "value": 1158072000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 994048000
+        "value": 933332000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,39 +135,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 974909760
+        "value": 915362715
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
         "shares": 272611,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.34,
-        "pct_change": -2.55,
-        "value": 959590720
+        "pct_change": 0.0,
+        "value": 900979355
       },
       {
         "holder": "GMO TRUST-GMO Implementation Fund",
-        "shares": 207100,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.26,
-        "pct_change": -5.13,
-        "value": 728992000
+        "shares": 238800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.3,
+        "pct_change": 15.31,
+        "value": 789234000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 201768,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.25,
-        "pct_change": 7.4,
-        "value": 710223360
+        "shares": 207868,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.26,
+        "pct_change": 3.02,
+        "value": 687003740
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 198700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 3.92,
-        "value": 699424000
+        "shares": 204500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": 0.99,
+        "value": 675872500
       }
     ],
     "mutualfund_holders": []

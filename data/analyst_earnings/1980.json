@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:55.000999",
+  "fetched_at": "2026-05-01T04:24:34.379523",
   "ticker": "1980",
   "ticker_full": "1980.T",
   "company_name": "DAI-DAN CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2769.0,
+    "current": 2902.0,
     "high": 3600.0,
     "low": 3600.0,
     "mean": 3600.0,
     "median": 3600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2013-02-06",
+        "eps_estimate": 1.71,
+        "eps_actual": 1.15,
+        "surprise_pct": -32.63
+      },
+      {
+        "date": "2012-08-08",
+        "eps_estimate": 2.41,
+        "eps_actual": -3.19,
+        "surprise_pct": -232.08
+      },
+      {
+        "date": "2012-05-08",
+        "eps_estimate": 7.12,
+        "eps_actual": 11.16,
+        "surprise_pct": 56.79
+      },
+      {
+        "date": "2012-02-08",
+        "eps_estimate": 1.83,
+        "eps_actual": -2.4,
+        "surprise_pct": -231.2
+      },
+      {
+        "date": "2011-11-08",
+        "eps_estimate": 3.14,
+        "eps_actual": 3.6,
+        "surprise_pct": 14.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 25.69,
-    "institution_pct": 20.3,
+    "institution_pct": 20.73,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 20.3
+        "value": 20.73
       },
       {
         "label": "",
-        "value": 27.32
+        "value": 27.89
       },
       {
         "label": "",
-        "value": 94.0
+        "value": 103.0
       }
     ],
     "institutional_holders": [],

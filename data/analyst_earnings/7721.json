@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:48.877426",
+  "fetched_at": "2026-05-01T04:11:45.987393",
   "ticker": "7721",
   "ticker_full": "7721.T",
   "company_name": "TOKYO KEIKI INC",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6370.0,
+    "current": 7700.0,
     "high": 10800.0,
-    "low": 5400.0,
-    "mean": 7475.0,
-    "median": 6850.0
+    "low": 7200.0,
+    "mean": 8500.0,
+    "median": 7500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 25.34,
+        "eps_actual": 11.7,
+        "surprise_pct": -53.83
+      },
+      {
+        "date": "2015-08-09",
+        "eps_estimate": -17.25,
+        "eps_actual": 2.5,
+        "surprise_pct": 114.49
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 55.81,
+        "eps_actual": 84.35,
+        "surprise_pct": 51.14
+      },
+      {
+        "date": "2015-02-11",
+        "eps_estimate": 27.74,
+        "eps_actual": 29.8,
+        "surprise_pct": 7.43
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 12.86,
+        "eps_actual": 32.15,
+        "surprise_pct": 150.1
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.31,
-    "institution_pct": 32.74,
+    "institution_pct": 32.07,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 32.74
+        "value": 32.07
       },
       {
         "label": "",
-        "value": 36.92
+        "value": 36.17
       },
       {
         "label": "",

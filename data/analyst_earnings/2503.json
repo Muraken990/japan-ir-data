@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:00:46.176598",
+  "fetched_at": "2026-05-01T04:32:42.075169",
   "ticker": "2503",
   "ticker_full": "2503.T",
   "company_name": "KIRIN HOLDINGS COMPANY LIMITED",
@@ -13,41 +13,79 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 14,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.53333
   },
   "target_prices": {
     "has_data": true,
-    "current": 2585.0,
-    "high": 3200.0,
-    "low": 2200.0,
-    "mean": 2658.5715,
-    "median": 2675.0
+    "current": 2497.5,
+    "high": 3150.0,
+    "low": 2350.0,
+    "mean": 2708.0,
+    "median": 2700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": 37.75,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 67.25,
+        "eps_actual": 55.18,
+        "surprise_pct": -17.94
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 64.07,
+        "eps_actual": 61.72,
+        "surprise_pct": -3.66
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 49.81,
+        "eps_actual": 35.18,
+        "surprise_pct": -29.37
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 30.42,
+        "eps_actual": 30.05,
+        "surprise_pct": -1.21
+      },
+      {
+        "date": "2025-02-14",
+        "eps_estimate": 20.08,
+        "eps_actual": -26.0,
+        "surprise_pct": -229.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 1.66,
-    "institution_pct": 45.44,
+    "insider_pct": 1.68,
+    "institution_pct": 44.61,
     "major_holders": [
       {
         "label": "",
-        "value": 1.66
+        "value": 1.68
       },
       {
         "label": "",
-        "value": 45.44
+        "value": 44.61
       },
       {
         "label": "",
-        "value": 46.21
+        "value": 45.37
       },
       {
         "label": "",
-        "value": 305.0
+        "value": 306.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": -3.32,
-        "value": 16479375
+        "value": 15921562
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 11571742,
-        "date_reported": "2025-10-31",
-        "pct_held": 1.42,
-        "pct_change": 0.71,
-        "value": 29912953070
+        "shares": 11632642,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.43,
+        "pct_change": 0.53,
+        "value": 29052523395
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,47 +113,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 2.3,
-        "value": 19425758000
-      },
-      {
-        "holder": "MFS SERIES TRUST I-MFS Research International Fund",
-        "shares": 6321600,
-        "date_reported": "2025-11-30",
-        "pct_held": 0.77,
-        "pct_change": -2.42,
-        "value": 16341336000
+        "value": 18768213000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 5293400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.65,
-        "pct_change": 1.02,
-        "value": 13683439000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2792246,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 0.06,
-        "value": 7217955910
+        "shares": 5446000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.67,
+        "pct_change": 1.33,
+        "value": 13601385000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2700100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.33,
-        "pct_change": 1.07,
-        "value": 6979758500
+        "shares": 3034500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": -0.45,
+        "value": 7578663750
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 2832546,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.35,
+        "pct_change": 1.44,
+        "value": 7074283635
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 2670900,
-        "date_reported": "2026-01-31",
+        "shares": 2703500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.33,
-        "pct_change": 0.52,
-        "value": 6904276500
+        "pct_change": 1.22,
+        "value": 6751991250
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -123,23 +153,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": -3.95,
-        "value": 6162123000
+        "value": 5953540500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 1737114,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.21,
-        "pct_change": 0.67,
-        "value": 4490439690
+        "shares": 1769314,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.22,
+        "pct_change": 1.85,
+        "value": 4418861715
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 1697945,
-        "date_reported": "2025-11-30",
+        "shares": 1713968,
+        "date_reported": "2026-02-28",
         "pct_held": 0.21,
-        "pct_change": 0.92,
-        "value": 4389187825
+        "pct_change": 0.94,
+        "value": 4280635080
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 1432845,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": -2.83,
+        "value": 3578530387
       }
     ]
   }

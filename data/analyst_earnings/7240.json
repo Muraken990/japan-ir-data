@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:55:00.044138",
+  "fetched_at": "2026-05-01T04:26:45.243476",
   "ticker": "7240",
   "ticker_full": "7240.T",
   "company_name": "NOK CORP",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 0,
-    "buy": 2,
+    "buy": 1,
     "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 6,
+    "total_analysts": 5,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2849.5,
+    "current": 2854.0,
     "high": 3300.0,
-    "low": 2500.0,
-    "mean": 2772.0,
-    "median": 2600.0
+    "low": 2560.0,
+    "mean": 2892.0,
+    "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-02-02",
+        "eps_estimate": 32.5,
+        "eps_actual": 19.59,
+        "surprise_pct": -39.72
+      },
+      {
+        "date": "2022-02-13",
+        "eps_estimate": 28.3,
+        "eps_actual": 33.98,
+        "surprise_pct": 20.07
+      },
+      {
+        "date": "2021-11-10",
+        "eps_estimate": -6.6,
+        "eps_actual": 35.59,
+        "surprise_pct": 639.24
+      },
+      {
+        "date": "2020-02-03",
+        "eps_estimate": 15.61,
+        "eps_actual": 18.67,
+        "surprise_pct": 19.6
+      },
+      {
+        "date": "2019-11-12",
+        "eps_estimate": 18.5,
+        "eps_actual": 28.98,
+        "surprise_pct": 56.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 46.09,
-    "institution_pct": 27.91,
+    "institution_pct": 28.22,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 27.91
+        "value": 28.22
       },
       {
         "label": "",
-        "value": 51.77
+        "value": 52.35
       },
       {
         "label": "",
-        "value": 115.0
+        "value": 117.0
       }
     ],
     "institutional_holders": [],

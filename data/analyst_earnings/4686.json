@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:45.990324",
+  "fetched_at": "2026-05-01T04:24:24.992714",
   "ticker": "4686",
   "ticker_full": "4686.T",
   "company_name": "JUSTSYSTEMS CORPORATION",
@@ -17,39 +17,158 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3560.0,
+    "current": 3710.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2013-02-06",
+        "eps_estimate": 6.34,
+        "eps_actual": 9.95,
+        "surprise_pct": 57.01
+      },
+      {
+        "date": "2012-08-08",
+        "eps_estimate": -1.57,
+        "eps_actual": 0.48,
+        "surprise_pct": 130.59
+      },
+      {
+        "date": "2012-05-17",
+        "eps_estimate": 13.66,
+        "eps_actual": 15.46,
+        "surprise_pct": 13.2
+      },
+      {
+        "date": "2012-02-08",
+        "eps_estimate": 6.02,
+        "eps_actual": 7.1,
+        "surprise_pct": 17.86
+      },
+      {
+        "date": "2011-11-09",
+        "eps_estimate": 7.68,
+        "eps_actual": 16.83,
+        "surprise_pct": 119.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 67.25,
-    "institution_pct": 16.34,
+    "insider_pct": 67.73,
+    "institution_pct": 11.39,
     "major_holders": [
       {
         "label": "",
-        "value": 67.25
+        "value": 67.73
       },
       {
         "label": "",
-        "value": 16.34
+        "value": 11.39
       },
       {
         "label": "",
-        "value": 49.9
+        "value": 35.28
       },
       {
         "label": "",
-        "value": 96.0
+        "value": 90.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
+        "shares": 634700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.99,
+        "pct_change": 0.0,
+        "value": 2354737000
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 325120,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.51,
+        "pct_change": -8.24,
+        "value": 1206195200
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 229657,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.36,
+        "pct_change": 1.23,
+        "value": 852027470
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 207460,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.32,
+        "pct_change": -8.71,
+        "value": 769676600
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 177700,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.28,
+        "pct_change": 0.0,
+        "value": 659267000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 144800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.23,
+        "pct_change": -1.83,
+        "value": 537208000
+      },
+      {
+        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
+        "shares": 108500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.17,
+        "pct_change": 1.97,
+        "value": 402535000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 105499,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.16,
+        "pct_change": 0.0,
+        "value": 391401290
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 87100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.14,
+        "pct_change": 1.52,
+        "value": 323141000
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
+        "shares": 75020,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.12,
+        "pct_change": -6.13,
+        "value": 278324200
+      }
+    ],
     "mutualfund_holders": []
   }
 }

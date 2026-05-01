@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:32.146267",
+  "fetched_at": "2026-05-01T04:11:26.852447",
   "ticker": "7917",
   "ticker_full": "7917.T",
   "company_name": "ZACROS CORPORATION",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1325.0,
-    "high": 1600.0,
-    "low": 1600.0,
-    "mean": 1600.0,
-    "median": 1600.0
+    "current": 1361.0,
+    "high": 1800.0,
+    "low": 1800.0,
+    "mean": 1800.0,
+    "median": 1800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-02-06",
+        "eps_estimate": 16.68,
+        "eps_actual": -4.0,
+        "surprise_pct": -124.02
+      },
+      {
+        "date": "2023-11-07",
+        "eps_estimate": 18.08,
+        "eps_actual": 19.93,
+        "surprise_pct": 10.25
+      },
+      {
+        "date": "2023-08-03",
+        "eps_estimate": 9.03,
+        "eps_actual": 25.94,
+        "surprise_pct": 187.4
+      },
+      {
+        "date": "2023-05-10",
+        "eps_estimate": -5.77,
+        "eps_actual": 5.68,
+        "surprise_pct": 198.31
+      },
+      {
+        "date": "2023-02-07",
+        "eps_estimate": 7.78,
+        "eps_actual": 10.63,
+        "surprise_pct": 36.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.34,
-    "institution_pct": 21.84,
+    "institution_pct": 24.34,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 21.84
+        "value": 24.34
       },
       {
         "label": "",
-        "value": 27.76
+        "value": 30.94
       },
       {
         "label": "",
-        "value": 71.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:30.757306",
+  "fetched_at": "2026-05-01T04:11:25.220422",
   "ticker": "4187",
   "ticker_full": "4187.T",
   "company_name": "OSAKA ORGANIC CHEMICAL INDUSTRY",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3625.0,
-    "high": 5100.0,
-    "low": 4400.0,
-    "mean": 4812.5,
-    "median": 4875.0
+    "current": 4700.0,
+    "high": 5490.0,
+    "low": 4800.0,
+    "mean": 5097.5,
+    "median": 5050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2023-10-06",
+        "eps_estimate": 36.0,
+        "eps_actual": 50.47,
+        "surprise_pct": 40.19
+      },
+      {
+        "date": "2023-07-05",
+        "eps_estimate": 33.6,
+        "eps_actual": 41.04,
+        "surprise_pct": 22.14
+      },
+      {
+        "date": "2023-04-07",
+        "eps_estimate": 47.1,
+        "eps_actual": 33.71,
+        "surprise_pct": -28.43
+      },
+      {
+        "date": "2023-01-12",
+        "eps_estimate": 42.8,
+        "eps_actual": 60.53,
+        "surprise_pct": 41.43
+      },
+      {
+        "date": "2022-10-07",
+        "eps_estimate": 49.4,
+        "eps_actual": 44.74,
+        "surprise_pct": -9.43
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.83,
-    "institution_pct": 19.05,
+    "institution_pct": 19.08,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 19.05
+        "value": 19.08
       },
       {
         "label": "",
-        "value": 26.04
+        "value": 26.07
       },
       {
         "label": "",
-        "value": 46.0
+        "value": 45.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:39:42.510735",
+  "fetched_at": "2026-05-01T04:11:38.925921",
   "ticker": "8818",
   "ticker_full": "8818.T",
   "company_name": "KEIHANSHIN BUILDING CO LTD",
@@ -13,41 +13,74 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1966.0,
+    "current": 1929.0,
     "high": 1850.0,
-    "low": 1630.0,
-    "mean": 1740.0,
-    "median": 1740.0
+    "low": 1710.0,
+    "mean": 1780.0,
+    "median": 1780.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 23.4,
+        "eps_actual": 33.03,
+        "surprise_pct": 41.15
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 13.9,
+        "eps_actual": 28.22,
+        "surprise_pct": 103.02
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 20.6,
+        "eps_actual": 22.1,
+        "surprise_pct": 7.28
+      },
+      {
+        "date": "2025-05-15",
+        "eps_estimate": 9.8,
+        "eps_actual": 11.5,
+        "surprise_pct": 17.35
+      },
+      {
+        "date": "2025-01-31",
+        "eps_estimate": 20.6,
+        "eps_actual": 39.52,
+        "surprise_pct": 91.84
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 31.84,
-    "institution_pct": 30.24,
+    "insider_pct": 30.33,
+    "institution_pct": 29.91,
     "major_holders": [
       {
         "label": "",
-        "value": 31.84
+        "value": 30.33
       },
       {
         "label": "",
-        "value": 30.24
+        "value": 29.91
       },
       {
         "label": "",
-        "value": 44.37
+        "value": 42.93
       },
       {
         "label": "",
-        "value": 65.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [],

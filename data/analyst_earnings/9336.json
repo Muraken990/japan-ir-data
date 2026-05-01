@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:53:56.450979",
+  "fetched_at": "2026-05-01T04:25:37.649408",
   "ticker": "9336",
   "ticker_full": "9336.T",
   "company_name": "DAIEI KANKYO CO LTD",
@@ -18,20 +18,34 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3920.0,
+    "current": 3720.0,
     "high": 4600.0,
     "low": 3400.0,
     "mean": 4000.0,
     "median": 4000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-11-11",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 63.1,
-    "institution_pct": 19.95,
+    "institution_pct": 20.21,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +53,15 @@
       },
       {
         "label": "",
-        "value": 19.95
+        "value": 20.21
       },
       {
         "label": "",
-        "value": 54.07
+        "value": 54.75
       },
       {
         "label": "",
-        "value": 100.0
+        "value": 99.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +71,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.83,
         "pct_change": 8.67,
-        "value": 7171255840
+        "value": 6805375440
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -65,7 +79,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.83,
         "pct_change": -3.69,
-        "value": 3263008000
+        "value": 3096528000
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity Intl Small Cap Opportunities Fd.",
@@ -73,23 +87,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.71,
         "pct_change": 9.29,
-        "value": 2796712240
+        "value": 2654022840
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 512400,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 0.51,
-        "pct_change": 2.83,
-        "value": 2008608000
-      },
-      {
-        "holder": "NEUBERGER BERMAN EQUITY FUNDS-Neuberger International Equity Fund",
-        "shares": 464800,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.47,
-        "pct_change": -3.33,
-        "value": 1822016000
+        "pct_change": 0.0,
+        "value": 1906128000
       },
       {
         "holder": "AIM Fd.s Group -Invesco Intl Small Company Fd.",
@@ -97,7 +103,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 1398656000
+        "value": 1327296000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -105,7 +111,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.33,
         "pct_change": 2.47,
-        "value": 1302616000
+        "value": 1236156000
+      },
+      {
+        "holder": "NEUBERGER BERMAN EQUITY FUNDS-Neuberger International Equity Fund",
+        "shares": 291300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": -37.33,
+        "value": 1083636000
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -113,23 +127,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.28,
         "pct_change": 2.03,
-        "value": 1083096000
+        "value": 1027836000
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Fund",
-        "shares": 227500,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.23,
-        "pct_change": -2.78,
-        "value": 891800000
+        "shares": 210500,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.21,
+        "pct_change": -7.47,
+        "value": 783060000
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
-        "shares": 200500,
-        "date_reported": "2025-09-30",
+        "shares": 196600,
+        "date_reported": "2025-12-31",
         "pct_held": 0.2,
-        "pct_change": -9.89,
-        "value": 785960000
+        "pct_change": -1.95,
+        "value": 731352000
       }
     ],
     "mutualfund_holders": []

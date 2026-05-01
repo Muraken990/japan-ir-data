@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:48:11.612886",
+  "fetched_at": "2026-05-01T04:19:36.010460",
   "ticker": "8386",
   "ticker_full": "8386.T",
   "company_name": "HYAKUJUSHI BANK",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2197.0,
+    "current": 2375.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 27.91,
+        "eps_actual": 34.58,
+        "surprise_pct": 23.87
+      },
+      {
+        "date": "2015-08-02",
+        "eps_estimate": 24.21,
+        "eps_actual": 51.83,
+        "surprise_pct": 114.11
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 22.25,
+        "eps_actual": -11.52,
+        "surprise_pct": -151.81
+      },
+      {
+        "date": "2015-02-02",
+        "eps_estimate": 17.02,
+        "eps_actual": 45.13,
+        "surprise_pct": 165.13
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 28.14,
+        "eps_actual": 26.23,
+        "surprise_pct": -6.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.52,
-    "institution_pct": 17.27,
+    "institution_pct": 17.94,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 17.27
+        "value": 17.94
       },
       {
         "label": "",
-        "value": 21.46
+        "value": 22.29
       },
       {
         "label": "",
-        "value": 80.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [],

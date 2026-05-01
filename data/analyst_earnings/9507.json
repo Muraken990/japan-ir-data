@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:52:40.678603",
+  "fetched_at": "2026-05-01T04:24:19.061494",
   "ticker": "9507",
   "ticker_full": "9507.T",
   "company_name": "SHIKOKU ELECTRIC POWER CO INC",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 1787.5,
+    "current": 1542.5,
     "high": 2050.0,
     "low": 1600.0,
     "mean": 1870.0,
     "median": 1915.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 17.4,
+        "eps_actual": -6.84,
+        "surprise_pct": -139.31
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 104.8,
+        "eps_actual": 167.0,
+        "surprise_pct": 59.35
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 110.5,
+        "eps_actual": 74.32,
+        "surprise_pct": -32.74
+      },
+      {
+        "date": "2025-04-30",
+        "eps_estimate": 32.3,
+        "eps_actual": 91.26,
+        "surprise_pct": 182.54
+      },
+      {
+        "date": "2025-01-29",
+        "eps_estimate": 53.7,
+        "eps_actual": 40.12,
+        "surprise_pct": -25.29
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.78,
-    "institution_pct": 23.57,
+    "institution_pct": 23.37,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 23.57
+        "value": 23.37
       },
       {
         "label": "",
-        "value": 29.37
+        "value": 29.13
       },
       {
         "label": "",
-        "value": 87.0
+        "value": 89.0
       }
     ],
     "institutional_holders": [],

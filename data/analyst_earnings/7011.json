@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T04:02:57.685080",
+  "fetched_at": "2026-05-01T04:34:57.339790",
   "ticker": "7011",
   "ticker_full": "7011.T",
   "company_name": "MITSUBISHI HEAVY INDUSTRIES",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 10,
+    "buy": 11,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 15,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "total_analysts": 16,
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.64286
   },
   "target_prices": {
     "has_data": true,
-    "current": 4555.0,
+    "current": 4611.0,
     "high": 6700.0,
-    "low": 4000.0,
-    "mean": 5321.933,
-    "median": 5300.0
+    "low": 2660.0,
+    "mean": 5365.95,
+    "median": 5500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-12",
+      "eps_estimate": 31.17,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 20.64,
+        "eps_actual": 28.6,
+        "surprise_pct": 38.55
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 16.86,
+        "eps_actual": 13.89,
+        "surprise_pct": -17.59
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 18.75,
+        "eps_actual": 20.32,
+        "surprise_pct": 8.35
+      },
+      {
+        "date": "2025-05-09",
+        "eps_estimate": 31.17,
+        "eps_actual": 21.83,
+        "surprise_pct": -29.96
+      },
+      {
+        "date": "2025-02-03",
+        "eps_estimate": 20.58,
+        "eps_actual": 19.35,
+        "surprise_pct": -5.98
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 1.85,
-    "institution_pct": 43.5,
+    "institution_pct": 43.34,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.5
+        "value": 43.34
       },
       {
         "label": "",
-        "value": 44.32
+        "value": 44.15
       },
       {
         "label": "",
-        "value": 414.0
+        "value": 422.0
       }
     ],
     "institutional_holders": [],

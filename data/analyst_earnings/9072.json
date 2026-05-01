@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-04-01T03:54:54.658573",
+  "fetched_at": "2026-05-01T04:26:39.854471",
   "ticker": "9072",
   "ticker_full": "9072.T",
   "company_name": "NIKKON HOLDINGS CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4450.0,
-    "high": 4000.0,
-    "low": 3000.0,
-    "mean": 3500.0,
-    "median": 3500.0
+    "current": 4997.0,
+    "high": 4800.0,
+    "low": 4000.0,
+    "mean": 4400.0,
+    "median": 4400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-05-08",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 26.12,
+        "eps_actual": 21.75,
+        "surprise_pct": -16.73
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 11.16,
+        "eps_actual": 16.34,
+        "surprise_pct": 46.44
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 17.97,
+        "eps_actual": 31.52,
+        "surprise_pct": 75.41
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 18.92,
+        "eps_actual": 26.55,
+        "surprise_pct": 40.3
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 23.23,
+        "eps_actual": 22.37,
+        "surprise_pct": -3.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.95,
-    "institution_pct": 63.03,
+    "institution_pct": 67.54,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 63.03
+        "value": 67.54
       },
       {
         "label": "",
-        "value": 78.73
+        "value": 84.37
       },
       {
         "label": "",
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 4.91,
-        "value": 1157000
+        "value": 1299220
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1442652,
-        "date_reported": "2025-10-31",
+        "date_reported": "2026-01-31",
         "pct_held": 1.14,
         "pct_change": 0.0,
-        "value": 6419801400
+        "value": 7208932044
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -75,15 +113,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.1,
         "pct_change": 0.0,
-        "value": 6193510000
+        "value": 6954824600
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 972400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.77,
         "pct_change": 0.0,
-        "value": 4327180000
+        "value": 4859082800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +129,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 2.81,
-        "value": 4163669200
+        "value": 4675473032
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 689900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.55,
-        "pct_change": 1.11,
-        "value": 3070055000
+        "shares": 711700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.56,
+        "pct_change": 1.45,
+        "value": 3556364900
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -107,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 2505350000
+        "value": 2813311000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -115,31 +153,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 2152910000
+        "value": 2417548600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 363500,
+        "shares": 375100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.08,
+        "value": 1874374700
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 214996,
         "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 2.71,
-        "value": 1617575000
+        "pct_held": 0.17,
+        "pct_change": 12.62,
+        "value": 1074335012
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 212500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-02-28",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 945625000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 190896,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.15,
-        "pct_change": 1.0,
-        "value": 849487200
+        "value": 1061862500
       }
     ]
   }
