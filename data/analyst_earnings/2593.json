@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:22:14.482977",
+  "fetched_at": "2026-06-01T05:21:16.055534",
   "ticker": "2593",
   "ticker_full": "2593.T",
   "company_name": "ITO EN LTD",
@@ -13,63 +13,25 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2876.0,
+    "current": 3006.0,
     "high": 3200.0,
     "low": 2800.0,
     "mean": 3066.6667,
     "median": 3200.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-06-01",
-      "eps_estimate": 0.64,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-03-01",
-        "eps_estimate": 22.07,
-        "eps_actual": -83.62,
-        "surprise_pct": -478.96
-      },
-      {
-        "date": "2025-12-01",
-        "eps_estimate": 47.02,
-        "eps_actual": 31.64,
-        "surprise_pct": -32.71
-      },
-      {
-        "date": "2025-09-01",
-        "eps_estimate": 43.94,
-        "eps_actual": 49.6,
-        "surprise_pct": 12.87
-      },
-      {
-        "date": "2025-06-01",
-        "eps_estimate": 0.64,
-        "eps_actual": 22.74,
-        "surprise_pct": 3450.52
-      },
-      {
-        "date": "2025-03-03",
-        "eps_estimate": 56.25,
-        "eps_actual": 18.79,
-        "surprise_pct": -66.6
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.96,
-    "institution_pct": 17.34,
+    "institution_pct": 17.83,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +39,25 @@
       },
       {
         "label": "",
-        "value": 17.34
+        "value": 17.83
       },
       {
         "label": "",
-        "value": 30.4
+        "value": 31.27
       },
       {
         "label": "",
-        "value": 88.0
+        "value": 91.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 892900,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.05,
-        "pct_change": 1.32,
-        "value": 2567980400
+        "shares": 906000,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.06,
+        "pct_change": 1.47,
+        "value": 2723436000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,7 +65,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.91,
         "pct_change": -0.31,
-        "value": 2223959032
+        "value": 2324485692
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 509900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.6,
+        "pct_change": 19.44,
+        "value": 1532759400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -111,15 +81,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.58,
         "pct_change": 1.89,
-        "value": 1428543712
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 426900,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.5,
-        "pct_change": 6.43,
-        "value": 1227764400
+        "value": 1493116272
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -127,7 +89,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 1.27,
-        "value": 687651600
+        "value": 718734600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -135,7 +97,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 16.46,
-        "value": 608547220
+        "value": 636054570
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 175100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.21,
+        "pct_change": 17.12,
+        "value": 526350600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -143,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": -35.85,
-        "value": 477700724
+        "value": 499293594
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -151,15 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 12.53,
-        "value": 452107200
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 149500,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.18,
-        "pct_change": 25.52,
-        "value": 429962000
+        "value": 472543200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -167,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 332819348
+        "value": 347863338
       }
     ],
     "mutualfund_holders": []

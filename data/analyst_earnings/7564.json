@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:27:50.401832",
+  "fetched_at": "2026-06-01T05:28:16.616054",
   "ticker": "7564",
   "ticker_full": "7564.T",
   "company_name": "WORKMAN CO LTD",
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 7220.0,
+    "current": 7940.0,
     "high": 9300.0,
-    "low": 5500.0,
-    "mean": 7047.778,
-    "median": 6700.0
+    "low": 6000.0,
+    "mean": 7292.222,
+    "median": 7000.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-11",
-      "eps_estimate": 54.96,
+      "date": "2026-08-03",
+      "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-11",
+        "eps_estimate": 54.96,
+        "eps_actual": 56.12,
+        "surprise_pct": 2.11
+      },
       {
         "date": "2026-02-10",
         "eps_estimate": 85.65,
@@ -57,19 +63,13 @@
         "eps_estimate": 38.52,
         "eps_actual": 47.47,
         "surprise_pct": 23.23
-      },
-      {
-        "date": "2025-02-10",
-        "eps_estimate": 166.54,
-        "eps_actual": 67.24,
-        "surprise_pct": -59.63
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 76.32,
-    "institution_pct": 5.79,
+    "institution_pct": 5.78,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 5.79
+        "value": 5.78
       },
       {
         "label": "",
-        "value": 24.47
+        "value": 24.4
       },
       {
         "label": "",
-        "value": 70.0
+        "value": 72.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 2194013600
+        "value": 2412807200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.24,
         "pct_change": 2.8,
-        "value": 1404290000
+        "value": 1544330000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 151000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1090220000
+        "value": 1198940000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -119,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.1,
         "pct_change": 1.26,
-        "value": 581210000
+        "value": 639170000
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -127,7 +127,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.07,
         "pct_change": 1.85,
-        "value": 396522400
+        "value": 436064800
+      },
+      {
+        "holder": "-Lazard International Dynamic Equity ETF",
+        "shares": 57500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.07,
+        "pct_change": 97.59,
+        "value": 456550000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -135,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.06,
         "pct_change": 7.36,
-        "value": 326344000
+        "value": 358888000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -143,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.06,
         "pct_change": -3.76,
-        "value": 332993620
+        "value": 366200740
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -151,15 +159,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.06,
         "pct_change": 0.94,
-        "value": 336387020
-      },
-      {
-        "holder": "-Lazard International Dynamic Equity ETF",
-        "shares": 29100,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.04,
-        "pct_change": 1.0,
-        "value": 210102000
+        "value": 369932540
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -167,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.03,
         "pct_change": 6.56,
-        "value": 187582820
+        "value": 206289140
       }
     ],
     "mutualfund_holders": []

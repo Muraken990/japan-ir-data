@@ -1,44 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:16:13.072430",
+  "fetched_at": "2026-06-01T05:14:11.787025",
   "ticker": "3433",
   "ticker_full": "3433.T",
   "company_name": "TOCALO CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3135.0,
+    "current": 3175.0,
     "high": 4000.0,
     "low": 2800.0,
     "mean": 3400.0,
     "median": 3400.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-11",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": []
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.76,
-    "institution_pct": 34.76,
+    "institution_pct": 34.61,
     "major_holders": [
       {
         "label": "",
@@ -46,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 34.76
+        "value": 34.61
       },
       {
         "label": "",
-        "value": 36.88
+        "value": 36.73
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 84.0
       }
     ],
     "institutional_holders": [],

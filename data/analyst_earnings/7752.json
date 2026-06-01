@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:29:16.175269",
+  "fetched_at": "2026-06-01T05:29:36.186397",
   "ticker": "7752",
   "ticker_full": "7752.T",
   "company_name": "RICOH CO",
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1304.0,
+    "current": 1458.0,
     "high": 1600.0,
     "low": 1100.0,
-    "mean": 1400.0,
+    "mean": 1411.1111,
     "median": 1400.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-12",
-      "eps_estimate": 27.7,
+      "date": "2026-08-06",
+      "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-11",
+        "eps_estimate": 27.7,
+        "eps_actual": 15.5,
+        "surprise_pct": -44.04
+      },
       {
         "date": "2026-02-04",
         "eps_estimate": 27.15,
@@ -57,19 +63,13 @@
         "eps_estimate": 20.0,
         "eps_actual": 30.94,
         "surprise_pct": 54.7
-      },
-      {
-        "date": "2025-02-12",
-        "eps_estimate": 16.2,
-        "eps_actual": 31.84,
-        "surprise_pct": 96.54
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.72,
-    "institution_pct": 71.57,
+    "institution_pct": 71.9,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 71.57
+        "value": 71.9
       },
       {
         "label": "",
-        "value": 74.33
+        "value": 74.68
       },
       {
         "label": "",
-        "value": 224.0
+        "value": 222.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2023-09-30",
         "pct_held": 0.03,
         "pct_change": 5.89,
-        "value": 272144800
+        "value": 304284600
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.42,
         "pct_change": 1.11,
-        "value": 10552316168
+        "value": 11798525286
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.91,
         "pct_change": 2.16,
-        "value": 6759031024
+        "value": 7557260148
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -121,15 +121,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.78,
         "pct_change": 4.02,
-        "value": 5831618400
+        "value": 6520321800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3792800,
-        "date_reported": "2026-03-31",
+        "shares": 3810800,
+        "date_reported": "2026-04-30",
         "pct_held": 0.67,
-        "pct_change": 1.09,
-        "value": 4945811200
+        "pct_change": 0.47,
+        "value": 5556146400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -137,7 +137,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": 6.55,
-        "value": 2939153408
+        "value": 3286262016
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -145,7 +145,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 1.76,
-        "value": 2785996000
+        "value": 3115017000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -153,7 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 37.03,
-        "value": 2277721576
+        "value": 2546716302
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -161,15 +161,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 2043107200
-      },
-      {
-        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 1542700,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.27,
-        "pct_change": 2.66,
-        "value": 2011680800
+        "value": 2284394400
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -177,7 +169,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.27,
         "pct_change": 17.26,
-        "value": 1978607448
+        "value": 2212277346
+      },
+      {
+        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
+        "shares": 1541200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.27,
+        "pct_change": -0.1,
+        "value": 2247069600
       }
     ]
   }

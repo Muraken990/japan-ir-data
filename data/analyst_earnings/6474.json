@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:13:47.034930",
+  "fetched_at": "2026-06-01T05:11:09.160510",
   "ticker": "6474",
   "ticker_full": "6474.T",
   "company_name": "NACHI-FUJIKOSHI CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5090.0,
+    "current": 5800.0,
     "high": 4790.0,
     "low": 3300.0,
     "mean": 4045.0,
     "median": 4045.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2022-10-05",
-        "eps_estimate": 109.2,
-        "eps_actual": 144.43,
-        "surprise_pct": 32.26
-      },
-      {
-        "date": "2022-07-13",
-        "eps_estimate": 101.7,
-        "eps_actual": 144.79,
-        "surprise_pct": 42.37
-      },
-      {
-        "date": "2017-01-10",
-        "eps_estimate": 90.0,
-        "eps_actual": 37.2,
-        "surprise_pct": -58.67
-      },
-      {
-        "date": "2016-10-02",
-        "eps_estimate": 91.0,
-        "eps_actual": 12.0,
-        "surprise_pct": -86.81
-      },
-      {
-        "date": "2016-07-06",
-        "eps_estimate": 96.0,
-        "eps_actual": 54.2,
-        "surprise_pct": -43.54
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.02,
-    "institution_pct": 23.36,
+    "institution_pct": 23.65,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 23.36
+        "value": 23.65
       },
       {
         "label": "",
-        "value": 32.01
+        "value": 32.4
       },
       {
         "label": "",
-        "value": 70.0
+        "value": 72.0
       }
     ],
     "institutional_holders": [],

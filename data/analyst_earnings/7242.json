@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:21:52.751614",
+  "fetched_at": "2026-06-01T05:21:01.565425",
   "ticker": "7242",
   "ticker_full": "7242.T",
   "company_name": "KYB CORPORATION",
@@ -8,62 +8,30 @@
     "has_data": true,
     "period": "1",
     "strong_buy": 0,
-    "buy": 0,
-    "hold": 1,
+    "buy": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 4440.0,
+    "current": 3950.0,
     "high": 5400.0,
     "low": 5400.0,
     "mean": 5400.0,
     "median": 5400.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2021-02-08",
-        "eps_estimate": 29.35,
-        "eps_actual": 134.93,
-        "surprise_pct": 359.71
-      },
-      {
-        "date": "2020-11-05",
-        "eps_estimate": -48.95,
-        "eps_actual": 1.37,
-        "surprise_pct": 102.8
-      },
-      {
-        "date": "2020-08-06",
-        "eps_estimate": -113.55,
-        "eps_actual": -74.91,
-        "surprise_pct": 34.03
-      },
-      {
-        "date": "2018-05-10",
-        "eps_estimate": 78.5,
-        "eps_actual": 64.34,
-        "surprise_pct": -18.04
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.35,
-    "institution_pct": 24.47,
+    "institution_pct": 30.22,
     "major_holders": [
       {
         "label": "",
@@ -71,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 24.47
+        "value": 30.22
       },
       {
         "label": "",
-        "value": 29.26
+        "value": 36.13
       },
       {
         "label": "",
-        "value": 72.0
+        "value": 74.0
       }
     ],
     "institutional_holders": [],

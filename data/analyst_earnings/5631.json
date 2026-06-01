@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:27:57.778573",
+  "fetched_at": "2026-06-01T05:28:22.426285",
   "ticker": "5631",
   "ticker_full": "5631.T",
   "company_name": "JAPAN STEEL WORKS",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 4,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 9362.0,
+    "current": 7478.0,
     "high": 13000.0,
     "low": 11000.0,
     "mean": 12370.0,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-13",
+      "date": "2026-08-03",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 45.41,
+        "eps_actual": 58.44,
+        "surprise_pct": 28.69
+      },
       {
         "date": "2026-02-09",
         "eps_estimate": 58.42,
@@ -57,7 +63,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.89,
-    "institution_pct": 58.39,
+    "institution_pct": 58.99,
     "major_holders": [
       {
         "label": "",
@@ -65,25 +71,25 @@
       },
       {
         "label": "",
-        "value": 58.39
+        "value": 58.99
       },
       {
         "label": "",
-        "value": 64.09
+        "value": 64.75
       },
       {
         "label": "",
-        "value": 149.0
+        "value": 150.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Perpetual Americas Funds Trust-JOHCM International Select Fund",
-        "shares": 1134279,
-        "date_reported": "2025-12-31",
-        "pct_held": 1.52,
-        "pct_change": 7.9,
-        "value": 10619119998
+        "shares": 926465,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.25,
+        "pct_change": -18.32,
+        "value": 6928105270
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -91,7 +97,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.23,
         "pct_change": 0.56,
-        "value": 8586152336
+        "value": 6858283184
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,23 +105,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.81,
         "pct_change": 2.13,
-        "value": 5609457626
+        "value": 4480615694
+      },
+      {
+        "holder": "BARON SELECT FUNDS-Baron Emerging Markets Fund",
+        "shares": 511000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.69,
+        "pct_change": 1.0,
+        "value": 3821258000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Diversified International Fund",
         "shares": 446600,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.6,
         "pct_change": 0.0,
-        "value": 4181069200
+        "value": 3339674800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 439000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.59,
-        "pct_change": 0.0,
-        "value": 4109918000
+        "shares": 448100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.6,
+        "pct_change": 2.07,
+        "value": 3350891800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -123,39 +137,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.34,
         "pct_change": 1.22,
-        "value": 2333946600
+        "value": 1864265400
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity SAI Intl SMA Completion Fd.",
         "shares": 240186,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 2248621332
+        "value": 1796110908
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Discovery Fund",
         "shares": 209200,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 1958530400
+        "value": 1564397600
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Puritan Fund",
         "shares": 204900,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 1918273800
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Diversified International K6 Fund",
-        "shares": 156139,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.21,
-        "pct_change": -1.13,
-        "value": 1461773318
+        "value": 1532242200
       }
     ],
     "mutualfund_holders": []

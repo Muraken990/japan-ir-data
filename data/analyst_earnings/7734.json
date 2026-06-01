@@ -1,62 +1,38 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:17:19.916582",
+  "fetched_at": "2026-06-01T05:15:12.681205",
   "ticker": "7734",
   "ticker_full": "7734.T",
   "company_name": "RIKEN KEIKI CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 3360.0,
+    "current": 3610.0,
     "high": 4500.0,
     "low": 4500.0,
     "mean": 4500.0,
     "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": []
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
-    "has_data": true,
-    "insider_pct": 18.59,
-    "institution_pct": 53.17,
-    "major_holders": [
-      {
-        "label": "",
-        "value": 18.59
-      },
-      {
-        "label": "",
-        "value": 53.17
-      },
-      {
-        "label": "",
-        "value": 65.31
-      },
-      {
-        "label": "",
-        "value": 84.0
-      }
-    ],
+    "has_data": false,
+    "insider_pct": null,
+    "institution_pct": null,
+    "major_holders": [],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

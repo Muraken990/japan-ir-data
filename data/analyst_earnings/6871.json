@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:22:10.420882",
+  "fetched_at": "2026-06-01T05:21:14.010101",
   "ticker": "6871",
   "ticker_full": "6871.T",
   "company_name": "MICRONICS JAPAN CO",
@@ -18,58 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 12560.0,
+    "current": 14420.0,
     "high": 14000.0,
     "low": 5800.0,
     "mean": 9900.0,
     "median": 9900.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2023-11-12",
-        "eps_estimate": 14.3,
-        "eps_actual": 15.38,
-        "surprise_pct": 7.55
-      },
-      {
-        "date": "2023-08-09",
-        "eps_estimate": 10.8,
-        "eps_actual": 0.93,
-        "surprise_pct": -91.39
-      },
-      {
-        "date": "2023-05-11",
-        "eps_estimate": 27.2,
-        "eps_actual": 28.71,
-        "surprise_pct": 5.55
-      },
-      {
-        "date": "2023-02-13",
-        "eps_estimate": 61.1,
-        "eps_actual": 80.11,
-        "surprise_pct": 31.11
-      },
-      {
-        "date": "2022-11-10",
-        "eps_estimate": 57.2,
-        "eps_actual": 40.89,
-        "surprise_pct": -28.51
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.47,
-    "institution_pct": 42.85,
+    "institution_pct": 41.64,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 42.85
+        "value": 41.64
       },
       {
         "label": "",
-        "value": 52.55
+        "value": 51.07
       },
       {
         "label": "",
-        "value": 114.0
+        "value": 116.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.14,
         "pct_change": -0.18,
-        "value": 5725601600
+        "value": 6573501200
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -103,7 +65,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.78,
         "pct_change": 15.41,
-        "value": 3937560000
+        "value": 4520670000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -111,15 +73,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 1.51,
-        "value": 3714054800
+        "value": 4264066100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 198700,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 2495672000
+        "value": 2865254000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 174100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.43,
+        "pct_change": 15.83,
+        "value": 2510522000
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -127,15 +97,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 1.0,
-        "value": 1951824000
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 150300,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.38,
-        "pct_change": 17.24,
-        "value": 1887768000
+        "value": 2240868000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -143,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": -15.36,
-        "value": 1744584000
+        "value": 2002938000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -151,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 1.87,
-        "value": 1439376000
+        "value": 1652532000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -159,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 1.09,
-        "value": 1392904000
+        "value": 1599178000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -167,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 1229624000
+        "value": 1411718000
       }
     ],
     "mutualfund_holders": []

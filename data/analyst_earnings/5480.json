@@ -1,69 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:08:20.099814",
+  "fetched_at": "2026-06-01T05:06:12.911792",
   "ticker": "5480",
   "ticker_full": "5480.T",
   "company_name": "NIPPON YAKIN KOGYO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "recommendation_key": "none",
-    "recommendation_mean": null,
+    "period": "0",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 1,
+    "sell": 0,
+    "strong_sell": 0,
     "total_analysts": 1,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4555.0,
+    "current": 4485.0,
     "high": 4700.0,
     "low": 4700.0,
     "mean": 4700.0,
     "median": 4700.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2016-02-04",
-        "eps_estimate": 18.58,
-        "eps_actual": -1.5,
-        "surprise_pct": -108.07
-      },
-      {
-        "date": "2015-07-28",
-        "eps_estimate": 10.82,
-        "eps_actual": -6.2,
-        "surprise_pct": -157.3
-      },
-      {
-        "date": "2015-05-07",
-        "eps_estimate": 25.9,
-        "eps_actual": 59.4,
-        "surprise_pct": 129.34
-      },
-      {
-        "date": "2015-02-04",
-        "eps_estimate": 41.16,
-        "eps_actual": 35.4,
-        "surprise_pct": -13.99
-      },
-      {
-        "date": "2014-10-29",
-        "eps_estimate": -1.18,
-        "eps_actual": 56.5,
-        "surprise_pct": 4888.14
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.69,
-    "institution_pct": 23.4,
+    "institution_pct": 23.62,
     "major_holders": [
       {
         "label": "",
@@ -71,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 23.4
+        "value": 23.62
       },
       {
         "label": "",
-        "value": 27.12
+        "value": 27.37
       },
       {
         "label": "",
-        "value": 37.0
+        "value": 38.0
       }
     ],
     "institutional_holders": [],

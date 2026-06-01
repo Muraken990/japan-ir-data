@@ -1,82 +1,49 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:16:17.226097",
+  "fetched_at": "2026-06-01T05:14:14.941218",
   "ticker": "7456",
   "ticker_full": "7456.T",
   "company_name": "MATSUDA SANGYO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 6660.0,
+    "current": 6380.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2011-05-12",
-        "eps_estimate": 33.66,
-        "eps_actual": 29.11,
-        "surprise_pct": -13.52
-      },
-      {
-        "date": "2011-02-06",
-        "eps_estimate": 38.56,
-        "eps_actual": 39.39,
-        "surprise_pct": 2.15
-      },
-      {
-        "date": "2010-11-07",
-        "eps_estimate": 39.6,
-        "eps_actual": 28.8,
-        "surprise_pct": -27.27
-      },
-      {
-        "date": "2010-05-13",
-        "eps_estimate": 27.06,
-        "eps_actual": 18.25,
-        "surprise_pct": -32.56
-      },
-      {
-        "date": "2010-05-13",
-        "eps_estimate": 45.13,
-        "eps_actual": 38.75,
-        "surprise_pct": -14.14
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 39.51,
-    "institution_pct": 18.8,
+    "insider_pct": 39.44,
+    "institution_pct": 18.32,
     "major_holders": [
       {
         "label": "",
-        "value": 39.51
+        "value": 39.44
       },
       {
         "label": "",
-        "value": 18.8
+        "value": 18.32
       },
       {
         "label": "",
-        "value": 31.08
+        "value": 30.25
       },
       {
         "label": "",

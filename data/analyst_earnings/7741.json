@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:34:47.851128",
+  "fetched_at": "2026-06-01T05:36:09.659725",
   "ticker": "7741",
   "ticker_full": "7741.T",
   "company_name": "HOYA CORP",
@@ -13,27 +13,32 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 15,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.5625
   },
   "target_prices": {
     "has_data": true,
-    "current": 28185.0,
+    "current": 26415.0,
     "high": 35000.0,
     "low": 23100.0,
-    "mean": 29253.334,
+    "mean": 30046.666,
     "median": 30000.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": 181.86,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-04-29",
-        "eps_estimate": 172.04,
+        "eps_estimate": 173.43,
         "eps_actual": 160.8,
-        "surprise_pct": -6.53
+        "surprise_pct": -7.28
       },
       {
         "date": "2026-01-29",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.0,
-    "institution_pct": 53.02,
+    "institution_pct": 55.64,
     "major_holders": [
       {
         "label": "",
@@ -72,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 53.02
+        "value": 55.64
       },
       {
         "label": "",
-        "value": 53.02
+        "value": 55.64
       },
       {
         "label": "",
-        "value": 507.0
+        "value": 517.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Paradigm Asset Management Company, LLC",
-        "shares": 10000,
-        "date_reported": "2025-12-31",
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 2878,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": 1.0,
-        "value": 281850000
+        "pct_change": 4.69,
+        "value": 76022370
       },
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 2749,
-        "date_reported": "2025-12-31",
+        "holder": "Paradigm Asset Management Company, LLC",
+        "shares": 10000,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": -6.91,
-        "value": 77480565
+        "pct_change": 0.0,
+        "value": 264150000
       }
     ],
     "mutualfund_holders": [
@@ -106,41 +111,57 @@
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 4938435,
         "date_reported": "2026-01-31",
-        "pct_held": 1.46,
+        "pct_held": 1.47,
         "pct_change": 0.74,
-        "value": 139189790475
+        "value": 130448760525
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 3186928,
         "date_reported": "2025-12-31",
-        "pct_held": 0.94,
+        "pct_held": 0.95,
         "pct_change": 2.11,
-        "value": 89823565680
+        "value": 84182703120
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2397700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.71,
-        "pct_change": 1.29,
-        "value": 67579174500
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Series Overseas Fund",
-        "shares": 2329560,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.69,
-        "pct_change": 4.64,
-        "value": 65658648600
+        "shares": 2411200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.72,
+        "pct_change": 0.56,
+        "value": 63691848000
       },
       {
         "holder": "Fidelity Contrafund",
-        "shares": 1597234,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.47,
-        "pct_change": 0.0,
-        "value": 45018040290
+        "shares": 2116334,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.63,
+        "pct_change": 32.5,
+        "value": 55902962610
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Series Overseas Fund",
+        "shares": 2054360,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": -11.81,
+        "value": 54265919400
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
+        "shares": 1412700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.42,
+        "pct_change": 9.95,
+        "value": 37316470500
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 1396100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.42,
+        "pct_change": 5.5,
+        "value": 36877981500
       },
       {
         "holder": "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Stock Fd.",
@@ -148,39 +169,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": -1.28,
-        "value": 38027202000
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1323300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.39,
-        "pct_change": -0.94,
-        "value": 37297210500
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
-        "shares": 1284800,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.38,
-        "pct_change": -8.9,
-        "value": 36212088000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1251532,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.37,
-        "pct_change": 1.19,
-        "value": 35274429420
+        "value": 35639118000
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
         "shares": 1265800,
         "date_reported": "2026-02-28",
-        "pct_held": 0.37,
+        "pct_held": 0.38,
         "pct_change": -1.16,
-        "value": 35676573000
+        "value": 33436107000
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 1245132,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": -0.51,
+        "value": 32890161780
       }
     ]
   }

@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:15:01.290898",
+  "fetched_at": "2026-06-01T05:13:05.913336",
   "ticker": "7226",
   "ticker_full": "7226.T",
   "company_name": "KYOKUTO KAIHATSU KOGYO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2708.0,
+    "current": 2154.0,
     "high": 4200.0,
     "low": 4200.0,
     "mean": 4200.0,
     "median": 4200.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2022-02-03",
-        "eps_estimate": 34.4,
-        "eps_actual": 21.67,
-        "surprise_pct": -37.01
-      },
-      {
-        "date": "2021-11-09",
-        "eps_estimate": 267.3,
-        "eps_actual": 39.58,
-        "surprise_pct": -85.19
-      },
-      {
-        "date": "2021-02-04",
-        "eps_estimate": 24.2,
-        "eps_actual": 37.16,
-        "surprise_pct": 53.55
-      },
-      {
-        "date": "2020-11-10",
-        "eps_estimate": 43.0,
-        "eps_actual": 37.88,
-        "surprise_pct": -11.91
-      },
-      {
-        "date": "2020-05-25",
-        "eps_estimate": 31.2,
-        "eps_actual": 55.13,
-        "surprise_pct": 76.7
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.31,
-    "institution_pct": 34.46,
+    "institution_pct": 34.6,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 34.46
+        "value": 34.6
       },
       {
         "label": "",
-        "value": 42.71
+        "value": 42.88
       },
       {
         "label": "",
-        "value": 65.0
+        "value": 66.0
       }
     ],
     "institutional_holders": [],

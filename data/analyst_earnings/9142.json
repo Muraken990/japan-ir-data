@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:28:09.599095",
+  "fetched_at": "2026-06-01T05:28:32.070805",
   "ticker": "9142",
   "ticker_full": "9142.T",
   "company_name": "KYUSHU RAILWAY COMPANY",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 3,
     "buy": 2,
     "hold": 3,
@@ -14,26 +14,32 @@
     "strong_sell": 1,
     "total_analysts": 9,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "recommendation_mean": 2.22222
   },
   "target_prices": {
     "has_data": true,
-    "current": 3633.0,
+    "current": 3420.0,
     "high": 5000.0,
-    "low": 3300.0,
-    "mean": 4483.3335,
-    "median": 4600.0
+    "low": 3500.0,
+    "mean": 4461.1113,
+    "median": 4500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-11",
-      "eps_estimate": 60.3,
+      "date": "2026-08-04",
+      "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-10",
+        "eps_estimate": 60.3,
+        "eps_actual": 30.18,
+        "surprise_pct": -49.95
+      },
       {
         "date": "2026-02-10",
         "eps_estimate": 100.84,
@@ -57,19 +63,13 @@
         "eps_estimate": 44.36,
         "eps_actual": 40.15,
         "surprise_pct": -9.49
-      },
-      {
-        "date": "2025-02-04",
-        "eps_estimate": 87.67,
-        "eps_actual": 94.43,
-        "surprise_pct": 7.71
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.8,
-    "institution_pct": 37.06,
+    "institution_pct": 37.42,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 37.06
+        "value": 37.42
       },
       {
         "label": "",
-        "value": 40.19
+        "value": 40.58
       },
       {
         "label": "",
-        "value": 149.0
+        "value": 148.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 2.85,
         "pct_change": 3.32,
-        "value": 16023346500
+        "value": 15083910000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
@@ -103,7 +103,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 2.41,
         "pct_change": -1.65,
-        "value": 13559445900
+        "value": 12764466000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,7 +111,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.34,
         "pct_change": 0.82,
-        "value": 7520273670
+        "value": 7079365800
       },
       {
         "holder": "-Price (T.Rowe) Real Assets Trust I",
@@ -119,7 +119,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 1.0,
         "pct_change": 11.43,
-        "value": 5596636500
+        "value": 5268510000
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -127,7 +127,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.97,
         "pct_change": 8.9,
-        "value": 5466938400
+        "value": 5146416000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -135,7 +135,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.85,
         "pct_change": 1.57,
-        "value": 4748974041
+        "value": 4470545340
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -143,7 +143,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 3493856100
+        "value": 3289014000
       },
       {
         "holder": "T. Rowe Price Real Assets Fund, Inc.",
@@ -151,7 +151,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.59,
         "pct_change": 7.22,
-        "value": 3338727000
+        "value": 3142980000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
@@ -159,7 +159,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.45,
         "pct_change": 1.83,
-        "value": 2540556900
+        "value": 2391606000
       },
       {
         "holder": "-Price (T.Rowe) Non-U.S. Equities Trust",
@@ -167,7 +167,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.35,
         "pct_change": 11.39,
-        "value": 1940022000
+        "value": 1826280000
       }
     ],
     "mutualfund_holders": []

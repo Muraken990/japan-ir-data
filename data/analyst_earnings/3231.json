@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:12.873449",
+  "fetched_at": "2026-06-01T05:30:28.915350",
   "ticker": "3231",
   "ticker_full": "3231.T",
   "company_name": "NOMURA REAL ESTATE HOLDINGS INC",
@@ -8,68 +8,30 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 5,
-    "hold": 3,
+    "buy": 4,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.1
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1003.5,
+    "current": 895.7,
     "high": 1250.0,
     "low": 1050.0,
-    "mean": 1159.4,
-    "median": 1180.0
+    "mean": 1163.4,
+    "median": 1195.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-30",
-      "eps_estimate": 23.67,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-04-24",
-        "eps_estimate": 33.13,
-        "eps_actual": 46.65,
-        "surprise_pct": 40.79
-      },
-      {
-        "date": "2026-01-28",
-        "eps_estimate": 22.19,
-        "eps_actual": 13.56,
-        "surprise_pct": -38.88
-      },
-      {
-        "date": "2025-10-29",
-        "eps_estimate": 21.66,
-        "eps_actual": 9.49,
-        "surprise_pct": -56.19
-      },
-      {
-        "date": "2025-07-30",
-        "eps_estimate": 23.67,
-        "eps_actual": 26.99,
-        "surprise_pct": 14.01
-      },
-      {
-        "date": "2025-04-23",
-        "eps_estimate": 11.44,
-        "eps_actual": 14.5,
-        "surprise_pct": 26.77
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 37.0,
-    "institution_pct": 25.72,
+    "institution_pct": 25.7,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 25.72
+        "value": 25.7
       },
       {
         "label": "",
-        "value": 40.82
+        "value": 40.79
       },
       {
         "label": "",
-        "value": 180.0
+        "value": 176.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 2007
+        "value": 1791
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +67,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.86,
         "pct_change": 2.33,
-        "value": 7908764130
+        "value": 7059173022
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,15 +75,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.53,
         "pct_change": 0.18,
-        "value": 4905193297
+        "value": 4378257794
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3893800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.42,
-        "pct_change": 1.06,
-        "value": 3907428300
+        "shares": 3911800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.43,
+        "pct_change": 0.46,
+        "value": 3503799307
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -129,15 +91,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 2846427750
-      },
-      {
-        "holder": "Columbia Acorn Trust-Columbia Acorn International",
-        "shares": 2734500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.3,
-        "pct_change": 0.0,
-        "value": 2744070750
+        "value": 2540653084
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -145,7 +99,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 6.31,
-        "value": 2781902700
+        "value": 2483059573
+      },
+      {
+        "holder": "Columbia Acorn Trust-Columbia Acorn International",
+        "shares": 2734500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 0.0,
+        "value": 2449291683
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -153,7 +115,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.24,
         "pct_change": 1.21,
-        "value": 2184218100
+        "value": 1949580646
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -161,7 +123,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": -4.82,
-        "value": 1851301957
+        "value": 1652427689
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -169,15 +131,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": -3.45,
-        "value": 1572584850
+        "value": 1403651489
       },
       {
         "holder": "Fidelity Select Portfolios-Fidelity International Real Estate Fund",
         "shares": 1411000,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.15,
-        "pct_change": 9.67,
-        "value": 1415938500
+        "pct_change": 0.0,
+        "value": 1263832717
       }
     ]
   }

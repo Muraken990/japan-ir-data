@@ -1,75 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:25:47.955698",
+  "fetched_at": "2026-06-01T05:25:28.178586",
   "ticker": "7984",
   "ticker_full": "7984.T",
   "company_name": "KOKUYO CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 814.2,
+    "current": 816.6,
     "high": 1100.0,
     "low": 900.0,
     "mean": 983.3333,
     "median": 950.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-29",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2016-10-27",
-        "eps_estimate": -0.25,
-        "eps_actual": 2.15,
-        "surprise_pct": 946.15
-      },
-      {
-        "date": "2016-04-24",
-        "eps_estimate": 8.32,
-        "eps_actual": 13.65,
-        "surprise_pct": 64.05
-      },
-      {
-        "date": "2015-10-22",
-        "eps_estimate": -0.27,
-        "eps_actual": 1.01,
-        "surprise_pct": 481.36
-      },
-      {
-        "date": "2015-04-23",
-        "eps_estimate": 9.65,
-        "eps_actual": 8.67,
-        "surprise_pct": -10.17
-      },
-      {
-        "date": "2015-02-12",
-        "eps_estimate": 1.0,
-        "eps_actual": 1.77,
-        "surprise_pct": 76.41
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.98,
-    "institution_pct": 25.16,
+    "institution_pct": 25.23,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 25.16
+        "value": 25.23
       },
       {
         "label": "",
-        "value": 34.45
+        "value": 34.54
       },
       {
         "label": "",
-        "value": 86.0
+        "value": 87.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.12,
         "pct_change": 0.48,
-        "value": 4004424554
+        "value": 4016228131
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,15 +65,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.75,
         "pct_change": 5.31,
-        "value": 2677346927
+        "value": 2685238765
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2725600,
-        "date_reported": "2026-03-31",
+        "shares": 2739100,
+        "date_reported": "2026-04-30",
         "pct_held": 0.62,
-        "pct_change": 1.14,
-        "value": 2219183553
+        "pct_change": 0.5,
+        "value": 2236748993
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -119,7 +81,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.28,
         "pct_change": 1.25,
-        "value": 989008754
+        "value": 991923990
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -127,7 +89,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -8.11,
-        "value": 956974869
+        "value": 959795680
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -135,15 +97,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.19,
         "pct_change": 0.94,
-        "value": 674348947
+        "value": 676336680
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 805200,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.18,
-        "pct_change": 2.91,
-        "value": 655593849
+        "pct_change": 0.0,
+        "value": 657526300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -151,23 +113,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 2.37,
-        "value": 611995067
+        "value": 613799004
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 676800,
-        "date_reported": "2026-02-28",
+        "shares": 669100,
+        "date_reported": "2026-03-31",
         "pct_held": 0.15,
-        "pct_change": 0.0,
-        "value": 551050568
+        "pct_change": -1.14,
+        "value": 546387043
       },
       {
         "holder": "iShares Trust-iShares International Equity Factor ETF",
-        "shares": 639100,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.14,
-        "pct_change": 1.57,
-        "value": 520355227
+        "shares": 658000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.15,
+        "pct_change": 2.96,
+        "value": 537322783
       }
     ],
     "mutualfund_holders": []

@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:09:16.270907",
+  "fetched_at": "2026-06-01T05:07:05.324934",
   "ticker": "7995",
   "ticker_full": "7995.T",
   "company_name": "VALQUA LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 5690.0,
+    "current": 8290.0,
     "high": 7000.0,
     "low": 5600.0,
     "mean": 6300.0,
     "median": 6300.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2016-01-26",
-        "eps_estimate": 37.64,
-        "eps_actual": 16.85,
-        "surprise_pct": -55.23
-      },
-      {
-        "date": "2015-07-28",
-        "eps_estimate": 30.13,
-        "eps_actual": 30.1,
-        "surprise_pct": -0.08
-      },
-      {
-        "date": "2015-05-11",
-        "eps_estimate": 19.97,
-        "eps_actual": 23.8,
-        "surprise_pct": 19.21
-      },
-      {
-        "date": "2015-01-27",
-        "eps_estimate": 27.7,
-        "eps_actual": 27.0,
-        "surprise_pct": -2.53
-      },
-      {
-        "date": "2014-10-30",
-        "eps_estimate": 22.43,
-        "eps_actual": 26.65,
-        "surprise_pct": 18.81
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.69,
-    "institution_pct": 34.23,
+    "institution_pct": 34.26,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 34.23
+        "value": 34.26
       },
       {
         "label": "",
-        "value": 37.9
+        "value": 37.94
       },
       {
         "label": "",
-        "value": 41.0
+        "value": 42.0
       }
     ],
     "institutional_holders": [],

@@ -1,40 +1,39 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:19:44.175894",
+  "fetched_at": "2026-06-01T05:18:55.070200",
   "ticker": "6632",
   "ticker_full": "6632.T",
   "company_name": "JVCKENWOOD CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1175.5,
-    "high": 2100.0,
+    "current": 1119.0,
+    "high": 2000.0,
     "low": 1350.0,
-    "mean": 1683.3334,
+    "mean": 1650.0,
     "median": 1600.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
-      {
-        "date": "2026-05-01",
-        "eps_estimate": null,
-        "eps_actual": null,
-        "surprise_pct": null
-      },
       {
         "date": "2024-01-31",
         "eps_estimate": 7.85,
@@ -58,13 +57,19 @@
         "eps_estimate": 0.7,
         "eps_actual": -1.51,
         "surprise_pct": -315.71
+      },
+      {
+        "date": "2022-04-27",
+        "eps_estimate": 9.79,
+        "eps_actual": 32.81,
+        "surprise_pct": 235.14
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.6,
-    "institution_pct": 46.59,
+    "institution_pct": 46.7,
     "major_holders": [
       {
         "label": "",
@@ -72,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 46.59
+        "value": 46.7
       },
       {
         "label": "",
-        "value": 46.87
+        "value": 46.98
       },
       {
         "label": "",
-        "value": 98.0
+        "value": 97.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "SmallCap World Fund Inc",
         "shares": 7547100,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 4.67,
         "pct_change": 0.0,
-        "value": 8871616050
+        "value": 8445204900
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 4423800,
-        "date_reported": "2026-03-31",
-        "pct_held": 2.74,
-        "pct_change": 0.63,
-        "value": 5200176900
+        "shares": 4444000,
+        "date_reported": "2026-04-30",
+        "pct_held": 2.75,
+        "pct_change": 0.46,
+        "value": 4972836000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -106,7 +111,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.3,
         "pct_change": 0.0,
-        "value": 2474493328
+        "value": 2355557664
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -114,23 +119,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.84,
         "pct_change": 1.87,
-        "value": 1604290661
+        "value": 1527180987
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1109500,
-        "date_reported": "2026-03-31",
+        "shares": 1114000,
+        "date_reported": "2026-04-30",
         "pct_held": 0.69,
-        "pct_change": 0.93,
-        "value": 1304217250
+        "pct_change": 0.41,
+        "value": 1246566000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 1002700,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.62,
-        "pct_change": 10.67,
-        "value": 1178673850
+        "shares": 1097900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.68,
+        "pct_change": 9.49,
+        "value": 1228550100
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -138,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.54,
         "pct_change": -4.36,
-        "value": 1016572400
+        "value": 967711200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -146,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 996318535
+        "value": 948430830
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -154,7 +159,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.36,
         "pct_change": 1.21,
-        "value": 686374450
+        "value": 653384100
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -162,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 629292170
+        "value": 599045460
       }
     ],
     "mutualfund_holders": []

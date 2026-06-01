@@ -1,60 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:28.719910",
+  "fetched_at": "2026-06-01T05:30:40.523264",
   "ticker": "7167",
   "ticker_full": "7167.T",
   "company_name": "MEBUKI FINANCIAL GROUP INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 3,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1305.0,
+    "current": 1302.0,
     "high": 1650.0,
     "low": 1300.0,
     "mean": 1466.0,
     "median": 1450.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": []
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.17,
-    "institution_pct": 39.74,
+    "insider_pct": 5.11,
+    "institution_pct": 40.03,
     "major_holders": [
       {
         "label": "",
-        "value": 5.17
+        "value": 5.11
       },
       {
         "label": "",
-        "value": 39.74
+        "value": 40.03
       },
       {
         "label": "",
-        "value": 41.91
+        "value": 42.18
       },
       {
         "label": "",
-        "value": 154.0
+        "value": 158.0
       }
     ],
     "institutional_holders": [],

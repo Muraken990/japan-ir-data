@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:24:27.762227",
+  "fetched_at": "2026-06-01T05:24:13.093645",
   "ticker": "2264",
   "ticker_full": "2264.T",
   "company_name": "MORINAGA MILK INDUSTRY CO",
@@ -8,32 +8,38 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 1,
-    "buy": 0,
-    "hold": 3,
+    "buy": 1,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 4752.0,
-    "high": 5700.0,
+    "current": 4849.0,
+    "high": 6400.0,
     "low": 5300.0,
-    "mean": 5500.0,
-    "median": 5500.0
+    "mean": 5750.0,
+    "median": 5650.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": 31.57,
+      "date": "2026-08-06",
+      "eps_estimate": 69.23,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": -25.72,
+        "eps_actual": 9.24,
+        "surprise_pct": 135.93
+      },
       {
         "date": "2026-02-11",
         "eps_estimate": 62.62,
@@ -57,35 +63,29 @@
         "eps_estimate": 31.57,
         "eps_actual": -109.14,
         "surprise_pct": -445.68
-      },
-      {
-        "date": "2025-02-11",
-        "eps_estimate": 63.12,
-        "eps_actual": 60.18,
-        "surprise_pct": -4.66
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 10.66,
-    "institution_pct": 37.82,
+    "insider_pct": 10.64,
+    "institution_pct": 36.99,
     "major_holders": [
       {
         "label": "",
-        "value": 10.66
+        "value": 10.64
       },
       {
         "label": "",
-        "value": 37.82
+        "value": 36.99
       },
       {
         "label": "",
-        "value": 42.34
+        "value": 41.39
       },
       {
         "label": "",
-        "value": 116.0
+        "value": 121.0
       }
     ],
     "institutional_holders": [],

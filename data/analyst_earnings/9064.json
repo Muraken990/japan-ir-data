@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:29:16.262027",
+  "fetched_at": "2026-06-01T05:29:36.250475",
   "ticker": "9064",
   "ticker_full": "9064.T",
   "company_name": "YAMATO HOLDINGS CO LTD",
@@ -8,27 +8,38 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 9,
+    "buy": 0,
+    "hold": 10,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.2
   },
   "target_prices": {
     "has_data": true,
-    "current": 1757.0,
-    "high": 2310.0,
+    "current": 1795.0,
+    "high": 2100.0,
     "low": 1400.0,
-    "mean": 1961.0,
-    "median": 2000.0
+    "mean": 1825.0,
+    "median": 1875.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": -0.37,
+        "eps_actual": -36.29,
+        "surprise_pct": -9708.11
+      },
       {
         "date": "2026-02-02",
         "eps_estimate": 71.12,
@@ -52,19 +63,13 @@
         "eps_estimate": 33.49,
         "eps_actual": 27.47,
         "surprise_pct": -17.98
-      },
-      {
-        "date": "2025-02-03",
-        "eps_estimate": 52.23,
-        "eps_actual": 116.98,
-        "surprise_pct": 123.99
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.92,
-    "institution_pct": 44.01,
+    "institution_pct": 44.03,
     "major_holders": [
       {
         "label": "",
@@ -72,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 44.01
+        "value": 44.03
       },
       {
         "label": "",
-        "value": 51.72
+        "value": 51.75
       },
       {
         "label": "",
-        "value": 163.0
+        "value": 158.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 738,
-        "date_reported": "2025-12-31",
+        "shares": 336,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": 4.95,
-        "value": 1296666
+        "pct_change": -54.47,
+        "value": 603120
       }
     ],
     "mutualfund_holders": [
@@ -100,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.09,
         "pct_change": 0.98,
-        "value": 6874782572
+        "value": 7023468820
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -108,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.9,
         "pct_change": 4.63,
-        "value": 5718613320
+        "value": 5842294200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -116,31 +121,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.69,
         "pct_change": 1.51,
-        "value": 4382627417
+        "value": 4477413895
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1703600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.47,
-        "pct_change": 1.21,
-        "value": 2993225200
+        "shares": 1712600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.48,
+        "pct_change": 0.53,
+        "value": 3074117000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 1299100,
-        "date_reported": "2026-02-28",
+        "shares": 1295500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.36,
-        "pct_change": -1.35,
-        "value": 2282518700
+        "pct_change": -0.28,
+        "value": 2325422500
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
-        "shares": 923600,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.26,
-        "pct_change": 1.14,
-        "value": 1622765200
+        "shares": 1204200,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.33,
+        "pct_change": 30.38,
+        "value": 2161539000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -148,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": 1.2,
-        "value": 1624346500
+        "value": 1659477500
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -156,15 +161,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.22,
         "pct_change": -1.03,
-        "value": 1400401037
+        "value": 1430688595
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
         "shares": 603800,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.17,
-        "pct_change": 15.43,
-        "value": 1060876600
+        "pct_change": 0.0,
+        "value": 1083821000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -172,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.16,
         "pct_change": -0.37,
-        "value": 1029559832
+        "value": 1051826920
       }
     ]
   }

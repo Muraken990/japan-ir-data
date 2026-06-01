@@ -1,36 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:11:40.143963",
+  "fetched_at": "2026-06-01T05:09:13.375414",
   "ticker": "7826",
   "ticker_full": "7826.T",
   "company_name": "FURUYA METAL CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 2,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 7310.0,
-    "high": 8500.0,
-    "low": 8300.0,
-    "mean": 8400.0,
-    "median": 8400.0
+    "current": 9400.0,
+    "high": 11500.0,
+    "low": 8500.0,
+    "mean": 10000.0,
+    "median": 10000.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.51,
-    "institution_pct": 23.6,
+    "institution_pct": 23.16,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 23.6
+        "value": 23.16
       },
       {
         "label": "",
-        "value": 35.49
+        "value": 34.84
       },
       {
         "label": "",
-        "value": 44.0
+        "value": 45.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.93,
         "pct_change": 0.0,
-        "value": 1721505000
+        "value": 2213700000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -64,7 +65,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 1144015000
+        "value": 1471100000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -72,7 +73,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": 14.27,
-        "value": 737586310
+        "value": 948469400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -80,7 +81,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 45.59,
-        "value": 506590310
+        "value": 651429400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -88,7 +89,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 430559000
+        "value": 553660000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 52400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.21,
+        "pct_change": 60.74,
+        "value": 492560000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -96,7 +105,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 338453000
+        "value": 435220000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 37600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.15,
+        "pct_change": 1.71,
+        "value": 353440000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -104,15 +121,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.14,
         "pct_change": -1.12,
-        "value": 263686320
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 32600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.13,
-        "pct_change": 2.47,
-        "value": 238306000
+        "value": 339076800
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
@@ -120,15 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.1,
         "pct_change": 47.75,
-        "value": 192253000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
-        "shares": 18300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.07,
-        "pct_change": -15.28,
-        "value": 133773000
+        "value": 247220000
       }
     ],
     "mutualfund_holders": []

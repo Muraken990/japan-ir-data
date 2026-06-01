@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:29:17.769922",
+  "fetched_at": "2026-06-01T05:29:37.528241",
   "ticker": "9508",
   "ticker_full": "9508.T",
   "company_name": "KYUSHU ELECTRIC POWER CO INC",
@@ -13,58 +13,25 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.75
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1721.0,
+    "current": 1581.5,
     "high": 2800.0,
     "low": 1540.0,
     "mean": 1976.0,
     "median": 1800.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2025-01-31",
-        "eps_estimate": 32.9,
-        "eps_actual": 70.1,
-        "surprise_pct": 113.07
-      },
-      {
-        "date": "2024-10-31",
-        "eps_estimate": 66.0,
-        "eps_actual": 76.55,
-        "surprise_pct": 15.98
-      },
-      {
-        "date": "2024-07-30",
-        "eps_estimate": 79.3,
-        "eps_actual": 74.42,
-        "surprise_pct": -6.15
-      },
-      {
-        "date": "2024-04-30",
-        "eps_estimate": -18.3,
-        "eps_actual": -46.62,
-        "surprise_pct": -154.75
-      },
-      {
-        "date": "2024-01-30",
-        "eps_estimate": -8.8,
-        "eps_actual": 75.56,
-        "surprise_pct": 958.64
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.52,
-    "institution_pct": 34.77,
+    "institution_pct": 35.6,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 34.77
+        "value": 35.6
       },
       {
         "label": "",
-        "value": 36.04
+        "value": 36.9
       },
       {
         "label": "",
-        "value": 154.0
+        "value": 155.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.41,
         "pct_change": 1.35,
-        "value": 11534262470
+        "value": 10599323705
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -98,15 +65,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.91,
         "pct_change": 2.48,
-        "value": 7430570669
+        "value": 6828267003
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3104200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.65,
-        "pct_change": 1.0,
-        "value": 5342328200
+        "shares": 3117700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.66,
+        "pct_change": 0.43,
+        "value": 4930642550
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -114,7 +81,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.49,
         "pct_change": 7.49,
-        "value": 3958644200
+        "value": 3637766300
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -122,7 +89,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.35,
         "pct_change": 1.68,
-        "value": 2896443000
+        "value": 2661664500
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -130,15 +97,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.31,
         "pct_change": 1.0,
-        "value": 2528837400
+        "value": 2323856100
+      },
+      {
+        "holder": "American Century World Mutual Funds, Inc.-International Growth Fund",
+        "shares": 1421400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 1.0,
+        "value": 2247944100
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 1284000,
-        "date_reported": "2026-02-28",
+        "shares": 1282200,
+        "date_reported": "2026-03-31",
         "pct_held": 0.27,
-        "pct_change": 2.66,
-        "value": 2209764000
+        "pct_change": -0.14,
+        "value": 2027799300
       },
       {
         "holder": "NEW YORK LIFE INVESTMENTS Fd.S TRT-NYLI CBRE Global Infrastructure Fd.",
@@ -146,7 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 1944213700
+        "value": 1786620550
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -154,15 +129,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.23,
         "pct_change": 7.93,
-        "value": 1857783359
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 1015068,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 3.44,
-        "value": 1746932028
+        "value": 1707196038
       }
     ],
     "mutualfund_holders": []

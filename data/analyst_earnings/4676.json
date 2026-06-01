@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:11.173581",
+  "fetched_at": "2026-06-01T05:30:27.795215",
   "ticker": "4676",
   "ticker_full": "4676.T",
   "company_name": "FUJI MEDIA HOLDING",
@@ -8,68 +8,30 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 1,
+    "buy": 0,
     "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 6,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.8
+    "total_analysts": 5,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 3905.0,
-    "high": 4300.0,
-    "low": 3600.0,
-    "mean": 3968.0,
-    "median": 4000.0
+    "current": 3780.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-12",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2020-05-13",
-        "eps_estimate": 1.8,
-        "eps_actual": 29.55,
-        "surprise_pct": 1541.67
-      },
-      {
-        "date": "2020-02-05",
-        "eps_estimate": 22.56,
-        "eps_actual": 24.24,
-        "surprise_pct": 7.45
-      },
-      {
-        "date": "2019-02-05",
-        "eps_estimate": 30.7,
-        "eps_actual": 23.0,
-        "surprise_pct": -25.08
-      },
-      {
-        "date": "2018-02-01",
-        "eps_estimate": 29.0,
-        "eps_actual": 32.26,
-        "surprise_pct": 11.24
-      },
-      {
-        "date": "2017-10-31",
-        "eps_estimate": 17.7,
-        "eps_actual": 32.0,
-        "surprise_pct": 80.79
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.32,
-    "institution_pct": 26.01,
+    "institution_pct": 25.95,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 26.01
+        "value": 25.95
       },
       {
         "label": "",
-        "value": 45.1
+        "value": 45.0
       },
       {
         "label": "",
-        "value": 95.0
+        "value": 96.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 2372853725
+        "value": 2296898100
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,15 +65,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.23,
         "pct_change": 2.37,
-        "value": 1520345365
+        "value": 1471678740
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 342000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 1335510000
+        "value": 1292760000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -119,7 +81,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.11,
         "pct_change": 1.09,
-        "value": 721253500
+        "value": 698166000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -127,7 +89,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 625581000
+        "value": 605556000
       },
       {
         "holder": "JPMorgan Trust I-JPMorgan Developed International Value Fund",
@@ -135,7 +97,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.08,
         "pct_change": 0.0,
-        "value": 511164500
+        "value": 494802000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -143,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.06,
         "pct_change": 0.0,
-        "value": 422911500
+        "value": 409374000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -151,7 +113,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.06,
         "pct_change": 0.94,
-        "value": 367073905
+        "value": 355323780
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -159,7 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 356952145
+        "value": 345526020
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
@@ -167,7 +129,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.05,
         "pct_change": -1.9,
-        "value": 334041510
+        "value": 323348760
       }
     ],
     "mutualfund_holders": []

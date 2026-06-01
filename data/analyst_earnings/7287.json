@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:15:10.923944",
+  "fetched_at": "2026-06-01T05:13:14.153261",
   "ticker": "7287",
   "ticker_full": "7287.T",
   "company_name": "NIPPON SEIKI CO",
@@ -18,53 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2508.0,
+    "current": 2596.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2017-02-06",
-        "eps_estimate": 55.9,
-        "eps_actual": 127.55,
-        "surprise_pct": 128.18
-      },
-      {
-        "date": "2016-08-04",
-        "eps_estimate": 61.1,
-        "eps_actual": 6.79,
-        "surprise_pct": -88.89
-      },
-      {
-        "date": "2016-02-04",
-        "eps_estimate": 50.6,
-        "eps_actual": 32.38,
-        "surprise_pct": -36.01
-      },
-      {
-        "date": "2015-08-04",
-        "eps_estimate": 56.37,
-        "eps_actual": 73.5,
-        "surprise_pct": 30.39
-      },
-      {
-        "date": "2015-05-14",
-        "eps_estimate": 26.83,
-        "eps_actual": 46.16,
-        "surprise_pct": 72.05
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.16,
-    "institution_pct": 24.24,
+    "institution_pct": 24.4,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 24.24
+        "value": 24.4
       },
       {
         "label": "",
-        "value": 28.91
+        "value": 29.1
       },
       {
         "label": "",
-        "value": 49.0
+        "value": 48.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +57,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 4.27,
         "pct_change": -3.69,
-        "value": 6258463200
+        "value": 6478058400
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 674800,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.15,
+        "pct_change": 12.37,
+        "value": 1751780800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -98,7 +73,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.12,
         "pct_change": 0.0,
-        "value": 1644310008
+        "value": 1702005096
       },
       {
         "holder": "Japan Smaller Capitalization Fund, Inc.",
@@ -106,15 +81,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 1.09,
         "pct_change": 0.0,
-        "value": 1598348400
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 600500,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.03,
-        "pct_change": 15.37,
-        "value": 1506054000
+        "value": 1654430800
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -122,7 +89,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.01,
         "pct_change": -1.99,
-        "value": 1481726400
+        "value": 1533716800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -130,7 +97,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.85,
         "pct_change": 0.0,
-        "value": 1246476000
+        "value": 1290212000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -138,15 +105,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.74,
         "pct_change": 3.17,
-        "value": 1084835400
+        "value": 1122899800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 281900,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 707005200
+        "value": 731812400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -154,7 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.43,
         "pct_change": 0.0,
-        "value": 628003200
+        "value": 650038400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -162,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 520410000
+        "value": 538670000
       }
     ],
     "mutualfund_holders": []

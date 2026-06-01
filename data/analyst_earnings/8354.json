@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:20.144035",
+  "fetched_at": "2026-06-01T05:30:34.148962",
   "ticker": "8354",
   "ticker_full": "8354.T",
   "company_name": "FUKUOKA FINANCIAL GROUP INC.",
@@ -13,63 +13,25 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 9,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.55556
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
     "current": 6415.0,
     "high": 7950.0,
-    "low": 6000.0,
-    "mean": 6871.25,
+    "low": 6300.0,
+    "mean": 6908.75,
     "median": 6870.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": 79.08,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-04",
-        "eps_estimate": 98.75,
-        "eps_actual": 141.67,
-        "surprise_pct": 43.46
-      },
-      {
-        "date": "2025-11-09",
-        "eps_estimate": 109.43,
-        "eps_actual": 109.72,
-        "surprise_pct": 0.27
-      },
-      {
-        "date": "2025-08-06",
-        "eps_estimate": 105.35,
-        "eps_actual": 120.78,
-        "surprise_pct": 14.65
-      },
-      {
-        "date": "2025-05-11",
-        "eps_estimate": 79.08,
-        "eps_actual": 60.3,
-        "surprise_pct": -23.74
-      },
-      {
-        "date": "2025-02-05",
-        "eps_estimate": 93.38,
-        "eps_actual": 114.01,
-        "surprise_pct": 22.1
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.93,
-    "institution_pct": 44.9,
+    "institution_pct": 45.1,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 44.9
+        "value": 45.1
       },
       {
         "label": "",
-        "value": 47.73
+        "value": 47.94
       },
       {
         "label": "",
-        "value": 180.0
+        "value": 183.0
       }
     ],
     "institutional_holders": [
@@ -117,27 +79,27 @@
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1178680,
+        "shares": 1207480,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.63,
+        "pct_change": 2.44,
+        "value": 7745984200
+      },
+      {
+        "holder": "AQR Funds-AQR Long-Short Equity Fund",
+        "shares": 792600,
         "date_reported": "2026-03-31",
-        "pct_held": 0.62,
-        "pct_change": 1.88,
-        "value": 7561232200
+        "pct_held": 0.41,
+        "pct_change": 9.25,
+        "value": 5084529000
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
         "shares": 778000,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
         "value": 4990870000
-      },
-      {
-        "holder": "AQR Funds-AQR Long-Short Equity Fund",
-        "shares": 725500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.38,
-        "pct_change": 25.67,
-        "value": 4654082500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -164,20 +126,20 @@
         "value": 2584680480
       },
       {
-        "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
-        "shares": 397600,
-        "date_reported": "2026-02-28",
+        "holder": "AQR Funds-AQR Equity Market Neutral Fund",
+        "shares": 400800,
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
-        "pct_change": 0.0,
-        "value": 2550604000
+        "pct_change": 11.64,
+        "value": 2571132000
       },
       {
-        "holder": "AQR Funds-AQR Equity Market Neutral Fund",
-        "shares": 359000,
-        "date_reported": "2025-12-31",
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 356037,
+        "date_reported": "2026-02-28",
         "pct_held": 0.19,
-        "pct_change": 51.29,
-        "value": 2302985000
+        "pct_change": 0.93,
+        "value": 2283977355
       }
     ]
   }

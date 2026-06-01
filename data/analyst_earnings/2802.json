@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:33:51.373367",
+  "fetched_at": "2026-06-01T05:35:15.399183",
   "ticker": "2802",
   "ticker_full": "2802.T",
   "company_name": "AJINOMOTO CO INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 4,
+    "strong_buy": 5,
     "buy": 5,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 13,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 1.85714
   },
   "target_prices": {
     "has_data": true,
-    "current": 4919.0,
-    "high": 5500.0,
+    "current": 5327.0,
+    "high": 6700.0,
     "low": 3650.0,
-    "mean": 4853.5713,
-    "median": 5000.0
+    "mean": 5335.7144,
+    "median": 5400.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-07",
-      "eps_estimate": 17.86,
+      "date": "2026-08-03",
+      "eps_estimate": 30.86,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-06",
+        "eps_estimate": 41.47,
+        "eps_actual": 46.54,
+        "surprise_pct": 12.23
+      },
       {
         "date": "2026-02-05",
         "eps_estimate": 37.66,
@@ -57,19 +63,13 @@
         "eps_estimate": 17.86,
         "eps_actual": -11.77,
         "surprise_pct": -165.89
-      },
-      {
-        "date": "2025-02-02",
-        "eps_estimate": 31.69,
-        "eps_actual": 32.07,
-        "surprise_pct": 1.2
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.33,
-    "institution_pct": 61.2,
+    "institution_pct": 63.46,
     "major_holders": [
       {
         "label": "",
@@ -77,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 61.2
+        "value": 63.46
       },
       {
         "label": "",
-        "value": 61.41
+        "value": 63.67
       },
       {
         "label": "",
-        "value": 333.0
+        "value": 337.0
       }
     ],
     "institutional_holders": [
-      {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 7250,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.0,
-        "pct_change": -3.41,
-        "value": 35662750
-      },
       {
         "holder": "Mcmillan Office, Inc.",
         "shares": 500,
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 2459500
+        "value": 2663500
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 7463,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.0,
+        "pct_change": 2.94,
+        "value": 39755401
       }
     ],
     "mutualfund_holders": [
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.92,
         "pct_change": -2.09,
-        "value": 92375735787
+        "value": 100037719971
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -121,15 +121,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.43,
         "pct_change": 0.74,
-        "value": 68706496506
+        "value": 74405266698
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series Overseas Fund",
-        "shares": 9381300,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.96,
-        "pct_change": -0.04,
-        "value": 46146614700
+        "shares": 9801400,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.0,
+        "pct_change": 4.48,
+        "value": 52212057800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -137,23 +137,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 2.23,
-        "value": 44399887638
+        "value": 48082578054
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 6409500,
-        "date_reported": "2026-03-31",
+        "shares": 6445500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.66,
-        "pct_change": 1.29,
-        "value": 31528330500
+        "pct_change": 0.56,
+        "value": 34335178500
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 6314220,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.65,
-        "pct_change": 0.0,
-        "value": 31059648180
+        "shares": 5964220,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": -5.54,
+        "value": 31771399940
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.",
@@ -161,15 +161,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.47,
         "pct_change": 1.0,
-        "value": 22560993500
+        "value": 24432285500
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Overseas Fund",
-        "shares": 4447500,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.45,
-        "pct_change": 0.0,
-        "value": 21877252500
+        "shares": 4515800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.46,
+        "pct_change": 1.54,
+        "value": 24055666600
       },
       {
         "holder": "NEW PERSPECTIVE FUND",
@@ -177,15 +177,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 19197804334
+        "value": 20790141022
       },
       {
-        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
-        "shares": 3699600,
-        "date_reported": "2026-01-31",
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 3736000,
+        "date_reported": "2026-04-30",
         "pct_held": 0.38,
-        "pct_change": 1.0,
-        "value": 18198332400
+        "pct_change": 5.33,
+        "value": 19901672000
       }
     ]
   }

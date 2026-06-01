@@ -1,40 +1,39 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:18:41.900735",
+  "fetched_at": "2026-06-01T05:17:56.560200",
   "ticker": "7740",
   "ticker_full": "7740.T",
   "company_name": "TAMRON CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1071.0,
-    "high": 1230.0,
-    "low": 1000.0,
-    "mean": 1126.6666,
-    "median": 1150.0
+    "current": 1049.0,
+    "high": 1500.0,
+    "low": 1100.0,
+    "mean": 1266.6666,
+    "median": 1200.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
-      {
-        "date": "2026-05-01",
-        "eps_estimate": null,
-        "eps_actual": null,
-        "surprise_pct": null
-      },
       {
         "date": "2016-10-30",
         "eps_estimate": 4.34,
@@ -58,29 +57,35 @@
         "eps_estimate": 4.83,
         "eps_actual": 4.37,
         "surprise_pct": -9.51
+      },
+      {
+        "date": "2015-08-03",
+        "eps_estimate": 4.62,
+        "eps_actual": 4.09,
+        "surprise_pct": -11.35
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 20.43,
-    "institution_pct": 45.37,
+    "insider_pct": 20.45,
+    "institution_pct": 49.38,
     "major_holders": [
       {
         "label": "",
-        "value": 20.43
+        "value": 20.45
       },
       {
         "label": "",
-        "value": 45.37
+        "value": 49.38
       },
       {
         "label": "",
-        "value": 57.02
+        "value": 62.08
       },
       {
         "label": "",
-        "value": 81.0
+        "value": 80.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.06,
         "pct_change": 0.0,
-        "value": 1933073604
+        "value": 1893365276
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -98,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.69,
         "pct_change": 2.67,
-        "value": 1256955588
+        "value": 1231135772
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 988100,
-        "date_reported": "2026-03-31",
+        "shares": 992600,
+        "date_reported": "2026-04-30",
         "pct_held": 0.58,
-        "pct_change": 1.04,
-        "value": 1058255100
+        "pct_change": 0.46,
+        "value": 1041237400
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -114,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.5,
         "pct_change": -8.97,
-        "value": 908636400
+        "value": 889971600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -122,7 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.48,
         "pct_change": -1.2,
-        "value": 872757900
+        "value": 854830100
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -130,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 670446000
+        "value": 656674000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -138,7 +143,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.32,
         "pct_change": 1.29,
-        "value": 589906800
+        "value": 577789200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -146,23 +151,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 5.9,
-        "value": 492231600
+        "value": 482120400
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 436800,
-        "date_reported": "2026-03-31",
+        "shares": 438600,
+        "date_reported": "2026-04-30",
         "pct_held": 0.26,
-        "pct_change": -2.93,
-        "value": 467812800
+        "pct_change": 0.41,
+        "value": 460091400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 365600,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 391557600
+        "value": 383514400
       }
     ],
     "mutualfund_holders": []

@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:24:17.993494",
+  "fetched_at": "2026-06-01T05:24:03.491724",
   "ticker": "6544",
   "ticker_full": "6544.T",
   "company_name": "JAPAN ELEVATOR SERVICE HLDGS CO",
   "analyst_recommendations": {
     "has_data": true,
     "period": "2",
-    "strong_buy": 0,
-    "buy": 3,
+    "strong_buy": 1,
+    "buy": 4,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 5,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.2
   },
   "target_prices": {
     "has_data": true,
-    "current": 1625.0,
-    "high": 3000.0,
+    "current": 1730.5,
+    "high": 3040.0,
     "low": 2300.0,
-    "mean": 2496.0,
+    "mean": 2504.0,
     "median": 2400.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": 8.34,
+      "date": "2026-08-06",
+      "eps_estimate": 8.59,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 10.85,
+        "eps_actual": 12.81,
+        "surprise_pct": 18.07
+      },
       {
         "date": "2026-02-10",
         "eps_estimate": 10.44,
@@ -57,19 +63,13 @@
         "eps_estimate": 8.34,
         "eps_actual": 9.13,
         "surprise_pct": 9.51
-      },
-      {
-        "date": "2025-02-11",
-        "eps_estimate": 8.2,
-        "eps_actual": 7.76,
-        "surprise_pct": -5.33
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 20.27,
-    "institution_pct": 49.72,
+    "institution_pct": 51.52,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 49.72
+        "value": 51.52
       },
       {
         "label": "",
-        "value": 62.36
+        "value": 64.61
       },
       {
         "label": "",
-        "value": 120.0
+        "value": 123.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "SmallCap World Fund Inc",
         "shares": 14032600,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 7.85,
         "pct_change": 0.0,
-        "value": 22802975000
+        "value": 24283414300
       },
       {
         "holder": "Grandeur Peak Global Trust-Grandeur Peak International Stalwarts Fund",
@@ -103,15 +103,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 2.25,
         "pct_change": 11.15,
-        "value": 6523452000
+        "value": 6946974576
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
-        "shares": 3672900,
-        "date_reported": "2026-01-31",
-        "pct_held": 2.05,
-        "pct_change": 8.25,
-        "value": 5968462500
+        "shares": 3815000,
+        "date_reported": "2026-02-28",
+        "pct_held": 2.13,
+        "pct_change": 3.87,
+        "value": 6601857500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -119,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.14,
         "pct_change": 0.0,
-        "value": 3299088000
+        "value": 3513274944
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
@@ -127,15 +127,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 1.0,
         "pct_change": 0.0,
-        "value": 2892162000
+        "value": 3079930056
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity Intl Small Cap Opportunities Fd.",
-        "shares": 1605200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.9,
-        "pct_change": 13.43,
-        "value": 2608450000
+        "shares": 1775200,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.99,
+        "pct_change": 10.59,
+        "value": 3071983600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -143,31 +143,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.75,
         "pct_change": 2.0,
-        "value": 2164522750
+        "value": 2305050227
+      },
+      {
+        "holder": "AIM Fd.s Group -Invesco Intl Small Company Fd.",
+        "shares": 1097700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": 61.0,
+        "value": 1899569850
+      },
+      {
+        "holder": "Fidelity Central Investment PORT.s LLC-Fidelity Intl Eqy. Central Fd.",
+        "shares": 1094714,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.61,
+        "pct_change": 1.0,
+        "value": 1894402577
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1054600,
-        "date_reported": "2026-03-31",
+        "shares": 1059100,
+        "date_reported": "2026-04-30",
         "pct_held": 0.59,
-        "pct_change": 0.98,
-        "value": 1713725000
-      },
-      {
-        "holder": "TRANSAMERICA FUNDS-Transamerica International Focus",
-        "shares": 1016100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.57,
-        "pct_change": -11.74,
-        "value": 1651162500
-      },
-      {
-        "holder": "TRANSAMERICA SERIES TRUST-Transamerica International Focus VP",
-        "shares": 717500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.4,
-        "pct_change": 28.95,
-        "value": 1165937500
+        "pct_change": 0.43,
+        "value": 1832772550
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:21:00.560789",
+  "fetched_at": "2026-06-01T05:20:05.133551",
   "ticker": "2317",
   "ticker_full": "2317.T",
   "company_name": "SYSTENA CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 423.0,
+    "current": 418.0,
     "high": 740.0,
     "low": 530.0,
     "mean": 635.0,
     "median": 635.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 8.59,
+        "eps_actual": 7.58,
+        "surprise_pct": -11.74
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 8.08,
+        "eps_actual": 8.68,
+        "surprise_pct": 7.36
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 8.66,
+        "eps_actual": 7.13,
+        "surprise_pct": -17.68
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 6.88,
+        "eps_actual": 6.09,
+        "surprise_pct": -11.46
+      },
+      {
+        "date": "2024-10-31",
+        "eps_estimate": 6.1,
+        "eps_actual": 5.22,
+        "surprise_pct": -14.41
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 28.18,
-    "institution_pct": 18.98,
+    "institution_pct": 18.38,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 18.98
+        "value": 18.38
       },
       {
         "label": "",
-        "value": 26.43
+        "value": 25.6
       },
       {
         "label": "",
@@ -57,7 +95,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 1.51,
         "pct_change": 0.0,
-        "value": 2887609500
+        "value": 2853477000
       },
       {
         "holder": "College Retirement Equities Fund-Stock Account",
@@ -65,7 +103,7 @@
         "date_reported": "2023-12-31",
         "pct_held": 1.41,
         "pct_change": -1.18,
-        "value": 2686774176
+        "value": 2655015616
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -73,7 +111,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.84,
         "pct_change": -1.32,
-        "value": 1599173496
+        "value": 1580270736
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -81,7 +119,7 @@
         "date_reported": "2023-12-31",
         "pct_held": 0.5,
         "pct_change": 5.46,
-        "value": 952341354
+        "value": 941084364
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -89,7 +127,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.45,
         "pct_change": 1.97,
-        "value": 855940500
+        "value": 845823000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -97,7 +135,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.34,
         "pct_change": -1.47,
-        "value": 646978500
+        "value": 639331000
       },
       {
         "holder": "Financial Investors Tr-Grandeur Peak International Opportunities Fund",
@@ -105,7 +143,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 545839200
+        "value": 539387200
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -113,7 +151,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 511491600
+        "value": 505445600
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.22,
         "pct_change": -5.11,
-        "value": 426933900
+        "value": 421887400
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -129,7 +167,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.21,
         "pct_change": 6.53,
-        "value": 405022500
+        "value": 400235000
       }
     ],
     "mutualfund_holders": []

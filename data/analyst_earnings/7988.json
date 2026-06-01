@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:26:57.553016",
+  "fetched_at": "2026-06-01T05:27:24.544578",
   "ticker": "7988",
   "ticker_full": "7988.T",
   "company_name": "NIFCO INC",
@@ -18,7 +18,7 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4525.0,
+    "current": 4321.0,
     "high": 6400.0,
     "low": 4300.0,
     "mean": 5435.7144,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-12",
-      "eps_estimate": 55.57,
+      "date": "2026-07-30",
+      "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 73.01,
+        "eps_actual": 59.88,
+        "surprise_pct": -17.98
+      },
       {
         "date": "2026-02-04",
         "eps_estimate": 89.78,
@@ -57,19 +63,13 @@
         "eps_estimate": 72.5,
         "eps_actual": 129.44,
         "surprise_pct": 78.54
-      },
-      {
-        "date": "2024-10-30",
-        "eps_estimate": 80.02,
-        "eps_actual": 67.25,
-        "surprise_pct": -15.96
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.03,
-    "institution_pct": 38.34,
+    "institution_pct": 33.21,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 38.34
+        "value": 33.21
       },
       {
         "label": "",
-        "value": 43.58
+        "value": 37.75
       },
       {
         "label": "",
-        "value": 147.0
+        "value": 148.0
       }
     ],
     "institutional_holders": [],

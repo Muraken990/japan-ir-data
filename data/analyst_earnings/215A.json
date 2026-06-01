@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:15:13.454597",
+  "fetched_at": "2026-06-01T05:13:16.362886",
   "ticker": "215A",
   "ticker_full": "215A.T",
   "company_name": "TIMEE INC",
@@ -13,66 +13,75 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1260.0,
+    "current": 1112.0,
     "high": 1700.0,
     "low": 1400.0,
     "mean": 1487.5,
     "median": 1425.0
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 33.55,
-    "institution_pct": 32.03,
+    "insider_pct": 33.43,
+    "institution_pct": 32.3,
     "major_holders": [
       {
         "label": "",
-        "value": 33.55
+        "value": 33.43
       },
       {
         "label": "",
-        "value": 32.03
+        "value": 32.3
       },
       {
         "label": "",
-        "value": 48.2
+        "value": 48.52
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Fidelity Investment Trust-Fidelity Pacific Basin Fund",
-        "shares": 1752300,
+        "holder": "Fidelity Securities Fund-Fidelity Small Cap Growth Fund",
+        "shares": 1711100,
         "date_reported": "2026-02-28",
-        "pct_held": 1.74,
-        "pct_change": 0.0,
-        "value": 2207898000
+        "pct_held": 1.7,
+        "pct_change": 11.86,
+        "value": 1902743200
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Pacific Basin Fund",
+        "shares": 1409400,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.4,
+        "pct_change": -19.57,
+        "value": 1567252800
+      },
+      {
+        "holder": "Fidelity Securities Fund-Fidelity Small Cap Growth K6 Fund",
+        "shares": 861800,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.86,
+        "pct_change": 11.84,
+        "value": 958321600
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
         "shares": 479500,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 604170000
-      },
-      {
-        "holder": "INVESTMENT MANAGERS SERIES TRT-WCM Intl Small Cap Growth Fd.",
-        "shares": 467594,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.46,
-        "pct_change": 19.65,
-        "value": 589168440
+        "value": 533204000
       },
       {
         "holder": "JNL Series Trust-JNL Multi-Manager International Small Cap Fund",
@@ -80,31 +89,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.46,
         "pct_change": 2.33,
-        "value": 583202340
+        "value": 514699208
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 436500,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.43,
         "pct_change": 0.0,
-        "value": 549990000
+        "value": 485388000
       },
       {
-        "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
-        "shares": 282500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 0.0,
-        "value": 355950000
-      },
-      {
-        "holder": "Clearwater Investment Trust-CLEARWATER INTERNATIONAL FUND",
-        "shares": 259788,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.26,
-        "pct_change": 1.43,
-        "value": 327332880
+        "holder": "INVESTMENT MANAGERS SERIES TRT-WCM Intl Small Cap Growth Fd.",
+        "shares": 351041,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.35,
+        "pct_change": -24.93,
+        "value": 390357592
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -112,15 +113,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.23,
         "pct_change": 1.29,
-        "value": 297108000
+        "value": 262209600
       },
       {
-        "holder": "Fidelity Securities Fund-Fidelity Small Cap Growth Fund",
-        "shares": 133020,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": 1.0,
-        "value": 167605200
+        "holder": "Clearwater Investment Trust-CLEARWATER INTERNATIONAL FUND",
+        "shares": 218242,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": -15.99,
+        "value": 242685104
       },
       {
         "holder": "Grandeur Peak Global Trust-Grandeur Peak Global Opportunities Fund",
@@ -128,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": -9.24,
-        "value": 167076000
+        "value": 147451200
       }
     ],
     "mutualfund_holders": []

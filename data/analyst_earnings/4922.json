@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:24:23.710549",
+  "fetched_at": "2026-06-01T05:24:09.455706",
   "ticker": "4922",
   "ticker_full": "4922.T",
   "company_name": "KOSE HLDGS CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 0,
-    "buy": 1,
+    "strong_buy": 1,
+    "buy": 0,
     "hold": 7,
     "sell": 4,
     "strong_sell": 0,
     "total_analysts": 12,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.38462
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5579.0,
-    "high": 7700.0,
+    "current": 5388.0,
+    "high": 7500.0,
     "low": 4400.0,
-    "mean": 5810.0,
+    "mean": 5710.0,
     "median": 6000.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": 72.0,
+      "date": "2026-08-06",
+      "eps_estimate": 56.19,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 72.0,
+        "eps_actual": 7.48,
+        "surprise_pct": -89.61
+      },
       {
         "date": "2026-02-12",
         "eps_estimate": 54.55,
@@ -57,19 +63,13 @@
         "eps_estimate": 85.87,
         "eps_actual": 92.75,
         "surprise_pct": 8.01
-      },
-      {
-        "date": "2025-02-11",
-        "eps_estimate": 12.06,
-        "eps_actual": -33.34,
-        "surprise_pct": -376.45
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 41.23,
-    "institution_pct": 25.95,
+    "institution_pct": 26.1,
     "major_holders": [
       {
         "label": "",
@@ -77,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 25.95
+        "value": 26.1
       },
       {
         "label": "",
-        "value": 44.16
+        "value": 44.4
       },
       {
         "label": "",
@@ -91,11 +91,11 @@
     "institutional_holders": [
       {
         "holder": "MFS Series Trust XVII-MFS International Equity Fund",
-        "shares": 2287500,
-        "date_reported": "2025-12-31",
-        "pct_held": 3.78,
-        "pct_change": -3.19,
-        "value": 12761962500
+        "shares": 2171400,
+        "date_reported": "2026-03-31",
+        "pct_held": 3.58,
+        "pct_change": -5.08,
+        "value": 11699503200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,7 +103,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.78,
         "pct_change": -0.27,
-        "value": 2642286927
+        "value": 2551826844
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
@@ -111,7 +111,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.75,
         "pct_change": -1.63,
-        "value": 2527844900
+        "value": 2441302800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -119,15 +119,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.51,
         "pct_change": 3.55,
-        "value": 1725841334
+        "value": 1666756248
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 290000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 1617910000
+        "value": 1562520000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -135,7 +135,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.24,
         "pct_change": 1.42,
-        "value": 799470700
+        "value": 772100400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -143,15 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.23,
         "pct_change": 89.15,
-        "value": 768228300
-      },
-      {
-        "holder": "PACIFIC SELECT FUND-International Large-Cap Portfolio",
-        "shares": 96300,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.16,
-        "pct_change": -9.66,
-        "value": 537257700
+        "value": 741927600
       },
       {
         "holder": "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Contrarian Value F",
@@ -159,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 1.0,
-        "value": 397224800
+        "value": 383625600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -167,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 398301547
+        "value": 384665484
+      },
+      {
+        "holder": "PACIFIC SELECT FUND-International Large-Cap Portfolio",
+        "shares": 74700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.12,
+        "pct_change": -22.43,
+        "value": 402483600
       }
     ],
     "mutualfund_holders": []

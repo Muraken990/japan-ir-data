@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:13:48.167716",
+  "fetched_at": "2026-06-01T05:11:10.037958",
   "ticker": "5602",
   "ticker_full": "5602.T",
   "company_name": "KURIMOTO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 0.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1505.0,
+    "current": 1386.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2016-02-04",
-        "eps_estimate": 10.87,
-        "eps_actual": 15.12,
-        "surprise_pct": 39.12
-      },
-      {
-        "date": "2015-08-03",
-        "eps_estimate": 1.18,
-        "eps_actual": -4.16,
-        "surprise_pct": -451.95
-      },
-      {
-        "date": "2015-05-11",
-        "eps_estimate": 2.82,
-        "eps_actual": 9.68,
-        "surprise_pct": 243.75
-      },
-      {
-        "date": "2015-02-05",
-        "eps_estimate": 9.66,
-        "eps_actual": 14.52,
-        "surprise_pct": 50.34
-      },
-      {
-        "date": "2014-11-04",
-        "eps_estimate": 5.31,
-        "eps_actual": 5.72,
-        "surprise_pct": 7.76
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.9,
-    "institution_pct": 49.91,
+    "institution_pct": 50.45,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 49.91
+        "value": 50.45
       },
       {
         "label": "",
-        "value": 55.4
+        "value": 55.99
       },
       {
         "label": "",
-        "value": 40.0
+        "value": 42.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +57,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 1.37,
         "pct_change": 0.69,
-        "value": 263074000
+        "value": 242272800
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -98,7 +65,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 1.08,
         "pct_change": 0.0,
-        "value": 208341665
+        "value": 191868138
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -106,7 +73,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.63,
         "pct_change": 4.53,
-        "value": 121670220
+        "value": 112049784
       },
       {
         "holder": "Avantis International Small Cap Value ETF",
@@ -114,7 +81,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.61,
         "pct_change": 3.46,
-        "value": 117089000
+        "value": 107830800
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -122,7 +89,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 88795000
+        "value": 81774000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -130,7 +97,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.4,
         "pct_change": -4.63,
-        "value": 77507500
+        "value": 71379000
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -138,7 +105,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.28,
         "pct_change": -18.89,
-        "value": 52976000
+        "value": 48787200
       },
       {
         "holder": "Schwab Strategic Tr-Schwab International Small Cap Equity ETF",
@@ -146,7 +113,7 @@
         "date_reported": "2024-08-31",
         "pct_held": 0.14,
         "pct_change": -1.12,
-        "value": 26013925
+        "value": 23957010
       },
       {
         "holder": "Vanguard International Stock Index-Pacific Stock Index",
@@ -154,7 +121,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 20084225
+        "value": 18496170
       },
       {
         "holder": "DFA International Vector Equity Port",
@@ -162,7 +129,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.06,
         "pct_change": 0.0,
-        "value": 12491500
+        "value": 11503800
       }
     ],
     "mutualfund_holders": []

@@ -1,75 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:31:39.554286",
+  "fetched_at": "2026-06-01T05:31:43.108735",
   "ticker": "7911",
   "ticker_full": "7911.T",
   "company_name": "TOPPAN HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 3,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.2
   },
   "target_prices": {
     "has_data": true,
-    "current": 4990.0,
-    "high": 6200.0,
-    "low": 5900.0,
-    "mean": 6020.0,
+    "current": 4577.0,
+    "high": 6100.0,
+    "low": 5300.0,
+    "mean": 5880.0,
     "median": 6000.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2013-05-07",
-        "eps_estimate": 7.4,
-        "eps_actual": 15.46,
-        "surprise_pct": 108.92
-      },
-      {
-        "date": "2013-02-07",
-        "eps_estimate": 22.0,
-        "eps_actual": 23.94,
-        "surprise_pct": 8.82
-      },
-      {
-        "date": "2012-11-05",
-        "eps_estimate": 6.2,
-        "eps_actual": 16.9,
-        "surprise_pct": 172.58
-      },
-      {
-        "date": "2012-08-06",
-        "eps_estimate": -1.6,
-        "eps_actual": 1.5,
-        "surprise_pct": 193.75
-      },
-      {
-        "date": "2012-05-07",
-        "eps_estimate": -0.8,
-        "eps_actual": -9.9,
-        "surprise_pct": -1137.5
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.52,
-    "institution_pct": 37.73,
+    "institution_pct": 38.71,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +39,25 @@
       },
       {
         "label": "",
-        "value": 37.73
+        "value": 38.71
       },
       {
         "label": "",
-        "value": 44.14
+        "value": 45.29
       },
       {
         "label": "",
-        "value": 232.0
+        "value": 234.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 1087,
-        "date_reported": "2025-12-31",
+        "shares": 2887,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": 57.08,
-        "value": 5424130
+        "pct_change": 1.66,
+        "value": 13213799
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +67,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.06,
         "pct_change": -0.4,
-        "value": 17410349520
+        "value": 15969372696
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,15 +75,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.68,
         "pct_change": 0.54,
-        "value": 11205903280
+        "value": 10278440744
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1663900,
-        "date_reported": "2026-03-31",
+        "shares": 1672900,
+        "date_reported": "2026-04-30",
         "pct_held": 0.51,
-        "pct_change": 1.24,
-        "value": 8302861000
+        "pct_change": 0.54,
+        "value": 7656863300
       },
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
@@ -129,7 +91,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.42,
         "pct_change": -23.13,
-        "value": 6942088000
+        "value": 6367522400
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -137,23 +99,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.34,
         "pct_change": -35.93,
-        "value": 5587802000
+        "value": 5125324600
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 918700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.28,
-        "pct_change": 0.7,
-        "value": 4584313000
+        "shares": 978100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 6.47,
+        "value": 4476763700
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 859774,
-        "date_reported": "2026-02-28",
+        "shares": 867374,
+        "date_reported": "2026-03-31",
         "pct_held": 0.26,
-        "pct_change": 1.21,
-        "value": 4290272260
+        "pct_change": 0.88,
+        "value": 3969970798
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -161,23 +123,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": -4.0,
-        "value": 4109265000
+        "value": 3769159500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 818500,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 4084315000
+        "value": 3746274500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 610100,
-        "date_reported": "2026-03-31",
+        "shares": 627400,
+        "date_reported": "2026-04-30",
         "pct_held": 0.19,
-        "pct_change": -2.35,
-        "value": 3044399000
+        "pct_change": 2.84,
+        "value": 2871609800
       }
     ]
   }

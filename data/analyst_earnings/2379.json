@@ -1,57 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:16:02.746206",
+  "fetched_at": "2026-06-01T05:14:04.348596",
   "ticker": "2379",
   "ticker_full": "2379.T",
   "company_name": "DIP CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 4,
     "sell": 0,
     "strong_sell": 2,
     "total_analysts": 6,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.4
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1819.0,
+    "current": 1756.0,
     "high": 2050.0,
     "low": 1100.0,
     "mean": 1741.6666,
     "median": 1800.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-14",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2022-01-13",
-        "eps_estimate": null,
-        "eps_actual": 9.21,
-        "surprise_pct": null
-      },
-      {
-        "date": "2021-07-06",
-        "eps_estimate": null,
-        "eps_actual": 21.77,
-        "surprise_pct": null
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.82,
-    "institution_pct": 30.78,
+    "institution_pct": 29.0,
     "major_holders": [
       {
         "label": "",
@@ -59,11 +39,11 @@
       },
       {
         "label": "",
-        "value": 30.78
+        "value": 29.0
       },
       {
         "label": "",
-        "value": 46.51
+        "value": 43.82
       },
       {
         "label": "",
@@ -77,15 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.77,
         "pct_change": 0.0,
-        "value": 1934579260
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 454500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.76,
-        "pct_change": 15.41,
-        "value": 826735500
+        "value": 1867576240
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -93,7 +65,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.74,
         "pct_change": 0.0,
-        "value": 811319475
+        "value": 783219900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -101,23 +73,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.51,
         "pct_change": 13.59,
-        "value": 560959591
+        "value": 541531084
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 293600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.49,
+        "pct_change": 17.63,
+        "value": 515561600
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
         "shares": 279930,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 509192670
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 249600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.42,
-        "pct_change": 0.0,
-        "value": 454022400
+        "value": 491557080
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -125,7 +97,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.23,
         "pct_change": 1.48,
-        "value": 249566800
+        "value": 240923200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -133,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 210458300
+        "value": 203169200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -141,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.15,
         "pct_change": -25.27,
-        "value": 166231134
+        "value": 160473816
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -149,7 +121,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": 1.69,
-        "value": 147246231
+        "value": 142146444
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 76400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.13,
+        "pct_change": 0.0,
+        "value": 134158400
       }
     ],
     "mutualfund_holders": []

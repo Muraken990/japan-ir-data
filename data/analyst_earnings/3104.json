@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:11:38.763490",
+  "fetched_at": "2026-06-01T05:09:12.468358",
   "ticker": "3104",
   "ticker_full": "3104.T",
   "company_name": "FUJIBO HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.33333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3895.0,
+    "current": 4040.0,
     "high": 4900.0,
     "low": 4900.0,
     "mean": 4900.0,
     "median": 4900.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2024-01-30",
-        "eps_estimate": 18.6,
-        "eps_actual": 22.01,
-        "surprise_pct": 18.35
-      },
-      {
-        "date": "2023-10-30",
-        "eps_estimate": 12.67,
-        "eps_actual": 9.38,
-        "surprise_pct": -25.95
-      },
-      {
-        "date": "2023-07-27",
-        "eps_estimate": 10.47,
-        "eps_actual": 16.69,
-        "surprise_pct": 59.43
-      },
-      {
-        "date": "2016-01-28",
-        "eps_estimate": 28.98,
-        "eps_actual": 32.2,
-        "surprise_pct": 11.1
-      },
-      {
-        "date": "2015-07-30",
-        "eps_estimate": 19.14,
-        "eps_actual": 15.13,
-        "surprise_pct": -20.93
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.92,
-    "institution_pct": 75.96,
+    "institution_pct": 75.81,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 75.96
+        "value": 75.81
       },
       {
         "label": "",
-        "value": 79.05
+        "value": 78.9
       },
       {
         "label": "",
-        "value": 56.0
+        "value": 57.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:30.081485",
+  "fetched_at": "2026-06-01T05:30:41.589380",
   "ticker": "9501",
   "ticker_full": "9501.T",
   "company_name": "TOKYO ELEC POWER CO HLDGS INC",
@@ -8,63 +8,30 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 1,
-    "sell": 1,
+    "buy": 0,
+    "hold": 0,
+    "sell": 2,
     "strong_sell": 0,
-    "total_analysts": 3,
-    "recommendation_key": "sell",
-    "recommendation_mean": 5.0
+    "total_analysts": 2,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 611.9,
+    "current": 555.2,
     "high": 450.0,
     "low": 260.0,
     "mean": 355.0,
     "median": 355.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2026-01-29",
-        "eps_estimate": 74.5,
-        "eps_actual": 31.06,
-        "surprise_pct": -58.31
-      },
-      {
-        "date": "2025-07-30",
-        "eps_estimate": 74.8,
-        "eps_actual": -535.36,
-        "surprise_pct": -815.72
-      },
-      {
-        "date": "2024-04-29",
-        "eps_estimate": -1.7,
-        "eps_actual": -52.13,
-        "surprise_pct": -2966.47
-      },
-      {
-        "date": "2024-01-30",
-        "eps_estimate": 1.6,
-        "eps_actual": 0.34,
-        "surprise_pct": -78.75
-      },
-      {
-        "date": "2023-10-30",
-        "eps_estimate": 18.7,
-        "eps_actual": 133.91,
-        "surprise_pct": 616.1
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.57,
-    "institution_pct": 21.78,
+    "institution_pct": 21.75,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 21.78
+        "value": 21.75
       },
       {
         "label": "",
-        "value": 23.31
+        "value": 23.27
       },
       {
         "label": "",
-        "value": 129.0
+        "value": 130.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +57,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.03,
         "pct_change": 1.0,
-        "value": 339053803
+        "value": 307636326
       }
     ],
     "mutualfund_holders": [
@@ -100,7 +67,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.37,
         "pct_change": 1.0,
-        "value": 13452097638
+        "value": 12205596461
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -108,15 +75,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.88,
         "pct_change": 1.99,
-        "value": 8659460453
+        "value": 7857055659
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 10902500,
-        "date_reported": "2026-03-31",
+        "shares": 10965500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.68,
-        "pct_change": 1.33,
-        "value": 6671240016
+        "pct_change": 0.58,
+        "value": 6088045733
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -124,7 +91,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.41,
         "pct_change": -3.24,
-        "value": 4000672116
+        "value": 3629960972
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -132,7 +99,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 1.59,
-        "value": 3688410967
+        "value": 3346634633
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -140,7 +107,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -3.92,
-        "value": 2789591021
+        "value": 2531101335
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -148,7 +115,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": 2.29,
-        "value": 2036700664
+        "value": 1847975467
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -156,23 +123,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.2,
         "pct_change": 0.95,
-        "value": 1925015448
+        "value": 1746639251
       },
       {
-        "holder": "AQR Funds-AQR Long-Short Equity Fund",
-        "shares": 2353500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.15,
-        "pct_change": -37.41,
-        "value": 1440106707
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 2011300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.13,
+        "pct_change": 8.59,
+        "value": 1116673784
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 1984200,
-        "date_reported": "2026-02-28",
+        "shares": 1953400,
+        "date_reported": "2026-03-31",
         "pct_held": 0.12,
-        "pct_change": 0.0,
-        "value": 1214132028
+        "pct_change": -1.55,
+        "value": 1084527703
       }
     ]
   }

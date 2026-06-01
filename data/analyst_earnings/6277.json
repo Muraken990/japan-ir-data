@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:11:31.713848",
+  "fetched_at": "2026-06-01T05:09:07.619782",
   "ticker": "6277",
   "ticker_full": "6277.T",
   "company_name": "HOSOKAWA MICRON CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 0,
@@ -18,38 +18,120 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5990.0,
+    "current": 5250.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.75,
-    "institution_pct": 49.63,
+    "insider_pct": 6.79,
+    "institution_pct": 49.66,
     "major_holders": [
       {
         "label": "",
-        "value": 6.75
+        "value": 6.79
       },
       {
         "label": "",
-        "value": 49.63
+        "value": 49.66
       },
       {
         "label": "",
-        "value": 53.23
+        "value": 53.28
       },
       {
         "label": "",
-        "value": 50.0
+        "value": 51.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
+        "shares": 481855,
+        "date_reported": "2026-03-31",
+        "pct_held": 3.06,
+        "pct_change": 0.0,
+        "value": 2529738750
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 192148,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.22,
+        "pct_change": 0.0,
+        "value": 1008777000
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 127486,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.81,
+        "pct_change": 6.78,
+        "value": 669301500
+      },
+      {
+        "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
+        "shares": 104041,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.66,
+        "pct_change": -0.08,
+        "value": 546215250
+      },
+      {
+        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
+        "shares": 86100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.55,
+        "pct_change": -22.5,
+        "value": 452025000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 78000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.5,
+        "pct_change": 0.0,
+        "value": 409500000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 63100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.4,
+        "pct_change": 0.0,
+        "value": 331275000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 50000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.32,
+        "pct_change": -3.29,
+        "value": 262500000
+      },
+      {
+        "holder": "Fidelity Investment TRT-Fidelity Series Select Intl Small Cap Fd.",
+        "shares": 43994,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.28,
+        "pct_change": 8.64,
+        "value": 230968500
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 37500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.24,
+        "pct_change": 27.55,
+        "value": 196875000
+      }
+    ],
     "mutualfund_holders": []
   }
 }

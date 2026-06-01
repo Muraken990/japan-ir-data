@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:15:14.607584",
+  "fetched_at": "2026-06-01T05:13:17.284701",
   "ticker": "6455",
   "ticker_full": "6455.T",
   "company_name": "MORITA HOLDINGS",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,77 +18,120 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2543.0,
+    "current": 2451.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-30",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2016-01-28",
-        "eps_estimate": 46.3,
-        "eps_actual": 39.12,
-        "surprise_pct": -15.51
-      },
-      {
-        "date": "2015-07-28",
-        "eps_estimate": -5.44,
-        "eps_actual": 3.37,
-        "surprise_pct": 161.95
-      },
-      {
-        "date": "2015-04-27",
-        "eps_estimate": 44.95,
-        "eps_actual": 46.35,
-        "surprise_pct": 3.11
-      },
-      {
-        "date": "2015-01-29",
-        "eps_estimate": 30.96,
-        "eps_actual": 38.66,
-        "surprise_pct": 24.85
-      },
-      {
-        "date": "2014-10-30",
-        "eps_estimate": 20.55,
-        "eps_actual": 24.07,
-        "surprise_pct": 17.15
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 12.19,
-    "institution_pct": 39.58,
+    "insider_pct": 11.8,
+    "institution_pct": 39.47,
     "major_holders": [
       {
         "label": "",
-        "value": 12.19
+        "value": 11.8
       },
       {
         "label": "",
-        "value": 39.58
+        "value": 39.47
       },
       {
         "label": "",
-        "value": 45.07
+        "value": 44.75
       },
       {
         "label": "",
         "value": 70.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 527438,
+        "date_reported": "2026-01-31",
+        "pct_held": 1.16,
+        "pct_change": 0.0,
+        "value": 1292750538
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 346146,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.76,
+        "pct_change": 2.64,
+        "value": 848403846
+      },
+      {
+        "holder": "Japan Smaller Capitalization Fund, Inc.",
+        "shares": 267300,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.59,
+        "pct_change": -19.22,
+        "value": 655152300
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 205800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.45,
+        "pct_change": 0.0,
+        "value": 504415800
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 200100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.44,
+        "pct_change": -1.09,
+        "value": 490445100
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 152000,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.33,
+        "pct_change": -5.77,
+        "value": 372552000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
+        "shares": 140100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.31,
+        "pct_change": 0.0,
+        "value": 343385100
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 136866,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.3,
+        "pct_change": -2.35,
+        "value": 335458566
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 133600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.29,
+        "pct_change": 0.0,
+        "value": 327453600
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 116100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.26,
+        "pct_change": 0.87,
+        "value": 284561100
+      }
+    ],
     "mutualfund_holders": []
   }
 }

@@ -1,55 +1,137 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:12:35.634377",
+  "fetched_at": "2026-06-01T05:10:05.295492",
   "ticker": "3445",
   "ticker_full": "3445.T",
   "company_name": "RS TECHNOLOGIES CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 0.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 5940.0,
+    "current": 7080.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 49.61,
-    "institution_pct": 15.35,
+    "insider_pct": 49.55,
+    "institution_pct": 15.22,
     "major_holders": [
       {
         "label": "",
-        "value": 49.61
+        "value": 49.55
       },
       {
         "label": "",
-        "value": 15.35
+        "value": 15.22
       },
       {
         "label": "",
-        "value": 30.45
+        "value": 30.17
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 77.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 199146,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.75,
+        "pct_change": 0.0,
+        "value": 1409953680
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 129130,
+        "date_reported": "2025-12-31",
+        "pct_held": 0.49,
+        "pct_change": 0.0,
+        "value": 914240400
+      },
+      {
+        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
+        "shares": 122000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.46,
+        "pct_change": -22.49,
+        "value": 863760000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 92100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.35,
+        "pct_change": 19.61,
+        "value": 652068000
+      },
+      {
+        "holder": "-Militia Long/Short Equity ETF",
+        "shares": 75446,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.28,
+        "pct_change": 1.38,
+        "value": 534157680
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 59500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.22,
+        "pct_change": 1.71,
+        "value": 421260000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 50000,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.19,
+        "pct_change": 0.0,
+        "value": 354000000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 28100,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.11,
+        "pct_change": 0.0,
+        "value": 198948000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+        "shares": 29700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.11,
+        "pct_change": 0.0,
+        "value": 210276000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 27600,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.1,
+        "pct_change": -1.16,
+        "value": 195408000
+      }
+    ],
     "mutualfund_holders": []
   }
 }

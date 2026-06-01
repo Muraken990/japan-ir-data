@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:26:50.320784",
+  "fetched_at": "2026-06-01T05:27:18.833681",
   "ticker": "4912",
   "ticker_full": "4912.T",
   "company_name": "LION CORP",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 3,
-    "hold": 5,
+    "buy": 4,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1518.0,
-    "high": 2250.0,
+    "current": 1594.0,
+    "high": 2500.0,
     "low": 1700.0,
-    "mean": 2034.1666,
-    "median": 2100.0
+    "mean": 2017.5,
+    "median": 2050.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-12",
-      "eps_estimate": 18.8,
+      "date": "2026-08-06",
+      "eps_estimate": 24.28,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-11",
+        "eps_estimate": 18.8,
+        "eps_actual": 15.21,
+        "surprise_pct": -19.1
+      },
       {
         "date": "2026-02-12",
         "eps_estimate": 18.26,
@@ -57,19 +63,13 @@
         "eps_estimate": 10.7,
         "eps_actual": 14.57,
         "surprise_pct": 36.17
-      },
-      {
-        "date": "2025-02-13",
-        "eps_estimate": 30.16,
-        "eps_actual": 30.84,
-        "surprise_pct": 2.25
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.49,
-    "institution_pct": 36.46,
+    "institution_pct": 37.14,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.46
+        "value": 37.14
       },
       {
         "label": "",
-        "value": 38.99
+        "value": 39.72
       },
       {
         "label": "",
-        "value": 138.0
+        "value": 141.0
       }
     ],
     "institutional_holders": [
@@ -95,25 +95,25 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.01,
         "pct_change": 1.0,
-        "value": 22218966
+        "value": 23331378
       }
     ],
     "mutualfund_holders": [
-      {
-        "holder": "SmallCap World Fund Inc",
-        "shares": 5982801,
-        "date_reported": "2025-12-31",
-        "pct_held": 2.14,
-        "pct_change": -42.22,
-        "value": 9081891918
-      },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 3531484,
         "date_reported": "2026-01-31",
         "pct_held": 1.26,
         "pct_change": 0.3,
-        "value": 5360792712
+        "value": 5629185496
+      },
+      {
+        "holder": "SmallCap World Fund Inc",
+        "shares": 2927400,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.05,
+        "pct_change": -51.07,
+        "value": 4666275600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,15 +121,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.82,
         "pct_change": 2.27,
-        "value": 3498312972
+        "value": 3673459076
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1906600,
-        "date_reported": "2026-03-31",
+        "shares": 1915600,
+        "date_reported": "2026-04-30",
         "pct_held": 0.68,
-        "pct_change": 1.08,
-        "value": 2894218800
+        "pct_change": 0.47,
+        "value": 3053466400
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
@@ -137,7 +137,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.64,
         "pct_change": -1.62,
-        "value": 2719193400
+        "value": 2855332200
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.42,
         "pct_change": -3.03,
-        "value": 1770291600
+        "value": 1858922800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -153,7 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 48.2,
-        "value": 1642315092
+        "value": 1724539036
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Explorer Fund",
@@ -161,7 +161,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.38,
         "pct_change": 27.48,
-        "value": 1628965800
+        "value": 1710521400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -169,15 +169,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.36,
         "pct_change": 1.22,
-        "value": 1511169000
+        "value": 1586827000
       },
       {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 752600,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.27,
-        "pct_change": 15.43,
-        "value": 1142446800
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 724401,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.26,
+        "pct_change": 24.51,
+        "value": 1154695194
       }
     ]
   }

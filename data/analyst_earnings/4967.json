@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:25:44.162271",
+  "fetched_at": "2026-06-01T05:25:24.806538",
   "ticker": "4967",
   "ticker_full": "4967.T",
   "company_name": "KOBAYASHI PHARMACEUTICALS",
@@ -9,31 +9,37 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 5,
+    "hold": 4,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 8,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "total_analysts": 7,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5836.0,
-    "high": 6700.0,
-    "low": 3950.0,
-    "mean": 5460.0,
-    "median": 5450.0
+    "current": 5817.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-08",
-      "eps_estimate": null,
+      "date": "2026-08-06",
+      "eps_estimate": 28.25,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 5.38,
+        "eps_actual": 13.95,
+        "surprise_pct": 159.29
+      },
       {
         "date": "2026-02-09",
         "eps_estimate": 81.8,
@@ -57,19 +63,13 @@
         "eps_estimate": 50.02,
         "eps_actual": 21.86,
         "surprise_pct": -56.3
-      },
-      {
-        "date": "2024-11-07",
-        "eps_estimate": 82.37,
-        "eps_actual": 52.58,
-        "surprise_pct": -36.16
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.78,
-    "institution_pct": 24.22,
+    "institution_pct": 24.57,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 24.22
+        "value": 24.57
       },
       {
         "label": "",
-        "value": 34.99
+        "value": 35.49
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 80.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.94,
         "pct_change": 0.0,
-        "value": 4294134636
+        "value": 4280154417
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.61,
         "pct_change": 2.77,
-        "value": 2774457744
+        "value": 2765425068
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 351800,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 2053104800
+        "value": 2046420600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -119,15 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.24,
         "pct_change": 2.66,
-        "value": 1080827200
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 131500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.17,
-        "pct_change": 15.35,
-        "value": 767434000
+        "value": 1077308400
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -135,7 +127,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.15,
         "pct_change": 0.93,
-        "value": 693573584
+        "value": 691315548
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -143,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 642829564
+        "value": 640736733
       },
       {
         "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
@@ -151,15 +143,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": -4.31,
-        "value": 582549520
+        "value": 580652940
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 83400,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 486722400
+        "value": 485137800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -167,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.08,
         "pct_change": -1.15,
-        "value": 350825304
+        "value": 349683138
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
+        "shares": 43589,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.06,
+        "pct_change": 6.11,
+        "value": 253557213
       }
     ],
     "mutualfund_holders": []

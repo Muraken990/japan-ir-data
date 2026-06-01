@@ -1,75 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:29.115435",
+  "fetched_at": "2026-06-01T05:32:31.300082",
   "ticker": "7201",
   "ticker_full": "7201.T",
   "company_name": "NISSAN MOTOR CO",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 2,
     "buy": 0,
-    "hold": 9,
-    "sell": 3,
+    "hold": 11,
+    "sell": 2,
     "strong_sell": 2,
-    "total_analysts": 15,
+    "total_analysts": 17,
     "recommendation_key": "hold",
     "recommendation_mean": 3.23529
   },
   "target_prices": {
     "has_data": true,
-    "current": 351.0,
+    "current": 371.1,
     "high": 650.0,
-    "low": 300.0,
-    "mean": 407.2353,
-    "median": 390.0
+    "low": 310.0,
+    "mean": 412.35294,
+    "median": 400.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": -47.33,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-12",
-        "eps_estimate": -17.1,
-        "eps_actual": -8.08,
-        "surprise_pct": 52.75
-      },
-      {
-        "date": "2025-11-06",
-        "eps_estimate": -32.85,
-        "eps_actual": -30.4,
-        "surprise_pct": 7.47
-      },
-      {
-        "date": "2025-07-30",
-        "eps_estimate": -44.09,
-        "eps_actual": -33.15,
-        "surprise_pct": 24.81
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": -47.33,
-        "eps_actual": -188.5,
-        "surprise_pct": -298.24
-      },
-      {
-        "date": "2025-02-13",
-        "eps_estimate": 6.46,
-        "eps_actual": -3.82,
-        "surprise_pct": -159.15
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 35.84,
-    "institution_pct": 19.9,
+    "institution_pct": 20.92,
     "major_holders": [
       {
         "label": "",
@@ -77,33 +39,33 @@
       },
       {
         "label": "",
-        "value": 19.9
+        "value": 20.92
       },
       {
         "label": "",
-        "value": 31.01
+        "value": 32.6
       },
       {
         "label": "",
-        "value": 218.0
+        "value": 221.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Paradigm Asset Management Company, LLC",
-        "shares": 9500,
-        "date_reported": "2025-12-31",
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 37563,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": 0.0,
-        "value": 3334500
+        "pct_change": 1.71,
+        "value": 13939629
       },
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 13877,
-        "date_reported": "2025-12-31",
+        "holder": "Paradigm Asset Management Company, LLC",
+        "shares": 9500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": 58.79,
-        "value": 4870827
+        "pct_change": 0.0,
+        "value": 3525450
       }
     ],
     "mutualfund_holders": [
@@ -113,7 +75,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.84,
         "pct_change": 1.31,
-        "value": 10982821590
+        "value": 11611752589
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,15 +83,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.55,
         "pct_change": 2.5,
-        "value": 7107482538
+        "value": 7514492345
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 15771500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.42,
-        "pct_change": 1.31,
-        "value": 5535796500
+        "shares": 15861500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.43,
+        "pct_change": 0.57,
+        "value": 5886202746
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -137,7 +99,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.4,
         "pct_change": 4.63,
-        "value": 5169931299
+        "value": 5465987283
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -145,31 +107,31 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.4,
         "pct_change": 5.19,
-        "value": 5233757841
+        "value": 5533468851
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 8731000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.24,
-        "pct_change": 0.23,
-        "value": 3064581000
+        "shares": 9252200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": 5.97,
+        "value": 3433491476
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 8124026,
-        "date_reported": "2026-02-28",
+        "shares": 8193826,
+        "date_reported": "2026-03-31",
         "pct_held": 0.22,
-        "pct_change": 1.2,
-        "value": 2851533126
+        "pct_change": 0.86,
+        "value": 3040728878
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 7688800,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 2698768800
+        "value": 2853313726
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -177,7 +139,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": -3.96,
-        "value": 2231026200
+        "value": 2358785858
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -185,7 +147,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 5.12,
-        "value": 2217828600
+        "value": 2344832498
       }
     ]
   }

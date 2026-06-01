@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:24:19.061494",
+  "fetched_at": "2026-06-01T05:24:04.676322",
   "ticker": "9507",
   "ticker_full": "9507.T",
   "company_name": "SHIKOKU ELECTRIC POWER CO INC",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.75
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1542.5,
+    "current": 1409.0,
     "high": 2050.0,
     "low": 1600.0,
     "mean": 1870.0,
@@ -26,9 +26,20 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 110.5,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 19.0,
+        "eps_actual": 12.79,
+        "surprise_pct": -32.68
+      },
       {
         "date": "2026-01-30",
         "eps_estimate": 17.4,
@@ -52,19 +63,13 @@
         "eps_estimate": 32.3,
         "eps_actual": 91.26,
         "surprise_pct": 182.54
-      },
-      {
-        "date": "2025-01-29",
-        "eps_estimate": 53.7,
-        "eps_actual": 40.12,
-        "surprise_pct": -25.29
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 19.78,
-    "institution_pct": 23.37,
+    "institution_pct": 23.71,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 23.37
+        "value": 23.71
       },
       {
         "label": "",
-        "value": 29.13
+        "value": 29.56
       },
       {
         "label": "",
-        "value": 89.0
+        "value": 91.0
       }
     ],
     "institutional_holders": [],

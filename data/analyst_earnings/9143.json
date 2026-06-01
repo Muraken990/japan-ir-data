@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:18.599830",
+  "fetched_at": "2026-06-01T05:30:33.052191",
   "ticker": "9143",
   "ticker_full": "9143.T",
   "company_name": "SG HOLDINGS CO LTD",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 2,
-    "hold": 4,
+    "buy": 3,
+    "hold": 3,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 10,
@@ -18,84 +18,46 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1461.0,
+    "current": 1418.0,
     "high": 2100.0,
-    "low": 1350.0,
-    "mean": 1747.0,
-    "median": 1770.0
+    "low": 1400.0,
+    "mean": 1725.0,
+    "median": 1750.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-08",
-      "eps_estimate": 8.19,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-06",
-        "eps_estimate": 36.37,
-        "eps_actual": 35.3,
-        "surprise_pct": -2.94
-      },
-      {
-        "date": "2025-11-06",
-        "eps_estimate": 22.51,
-        "eps_actual": 21.75,
-        "surprise_pct": -3.38
-      },
-      {
-        "date": "2025-08-07",
-        "eps_estimate": 18.15,
-        "eps_actual": 16.69,
-        "surprise_pct": -8.04
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 8.19,
-        "eps_actual": 10.75,
-        "surprise_pct": 31.26
-      },
-      {
-        "date": "2025-02-07",
-        "eps_estimate": 27.92,
-        "eps_actual": 41.41,
-        "surprise_pct": 48.34
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 38.23,
-    "institution_pct": 25.99,
+    "insider_pct": 38.13,
+    "institution_pct": 26.68,
     "major_holders": [
       {
         "label": "",
-        "value": 38.23
+        "value": 38.13
       },
       {
         "label": "",
-        "value": 25.99
+        "value": 26.68
       },
       {
         "label": "",
-        "value": 42.08
+        "value": 43.12
       },
       {
         "label": "",
-        "value": 189.0
+        "value": 173.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 1302,
-        "date_reported": "2025-12-31",
+        "shares": 597,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": 4.95,
-        "value": 1902222
+        "pct_change": -54.15,
+        "value": 846546
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +67,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.87,
         "pct_change": 0.66,
-        "value": 8103868956
+        "value": 7865356728
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,23 +75,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.57,
         "pct_change": 4.36,
-        "value": 5363288631
+        "value": 5205436878
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2123500,
-        "date_reported": "2026-03-31",
+        "shares": 2132500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.33,
-        "pct_change": 0.97,
-        "value": 3102433500
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 1178700,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.18,
-        "pct_change": 15.42,
-        "value": 1722080700
+        "pct_change": 0.42,
+        "value": 3023885000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -137,15 +91,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.18,
         "pct_change": 1.25,
-        "value": 1656774000
+        "value": 1608012000
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1049597,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.16,
-        "pct_change": 1.4,
-        "value": 1533461217
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 1178700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 0.0,
+        "value": 1671396600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -153,7 +107,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.14,
         "pct_change": 10.57,
-        "value": 1315916856
+        "value": 1277186928
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -161,15 +115,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": 3.15,
-        "value": 1249775925
-      },
-      {
-        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
-        "shares": 747000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.12,
-        "pct_change": 3.15,
-        "value": 1091367000
+        "value": 1212992650
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -177,7 +123,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.12,
         "pct_change": 0.94,
-        "value": 1128580131
+        "value": 1095363878
+      },
+      {
+        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
+        "shares": 747000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.12,
+        "pct_change": 0.0,
+        "value": 1059246000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 650230,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.1,
+        "pct_change": 43.18,
+        "value": 922026140
       }
     ]
   }

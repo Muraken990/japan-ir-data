@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:27:53.524196",
+  "fetched_at": "2026-06-01T05:28:19.090863",
   "ticker": "7211",
   "ticker_full": "7211.T",
   "company_name": "MITSUBISHI MOTOR CORP",
@@ -9,31 +9,37 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 8,
+    "hold": 7,
     "sell": 1,
-    "strong_sell": 1,
+    "strong_sell": 2,
     "total_analysts": 12,
     "recommendation_key": "hold",
     "recommendation_mean": 3.09091
   },
   "target_prices": {
     "has_data": true,
-    "current": 305.3,
+    "current": 344.8,
     "high": 550.0,
-    "low": 330.0,
-    "mean": 398.18182,
-    "median": 380.0
+    "low": 300.0,
+    "mean": 390.9091,
+    "median": 370.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-08",
-      "eps_estimate": 2.96,
+      "date": "2026-07-23",
+      "eps_estimate": 5.72,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 14.73,
+        "eps_actual": 10.83,
+        "surprise_pct": -26.49
+      },
       {
         "date": "2026-02-05",
         "eps_estimate": 7.78,
@@ -57,19 +63,13 @@
         "eps_estimate": 2.96,
         "eps_actual": 5.9,
         "surprise_pct": 99.44
-      },
-      {
-        "date": "2025-02-02",
-        "eps_estimate": 23.43,
-        "eps_actual": -2.72,
-        "surprise_pct": -111.61
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 46.37,
-    "institution_pct": 16.33,
+    "institution_pct": 16.5,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 16.33
+        "value": 16.5
       },
       {
         "label": "",
-        "value": 30.46
+        "value": 30.76
       },
       {
         "label": "",
-        "value": 132.0
+        "value": 130.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.1,
         "pct_change": -1.22,
-        "value": 437587388
+        "value": 494202856
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.61,
         "pct_change": -0.22,
-        "value": 2774306784
+        "value": 3133249209
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.4,
         "pct_change": 2.27,
-        "value": 1821556196
+        "value": 2057230852
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 4812300,
-        "date_reported": "2026-03-31",
+        "shares": 4839300,
+        "date_reported": "2026-04-30",
         "pct_held": 0.32,
-        "pct_change": 1.29,
-        "value": 1469195131
+        "pct_change": 0.56,
+        "value": 1668590580
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -129,15 +129,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 14.17,
-        "value": 1343003350
+        "value": 1516762388
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 4503300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 73.81,
+        "value": 1552737785
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 4248900,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.29,
-        "pct_change": -7.45,
-        "value": 1297189118
+        "shares": 3742900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": -11.91,
+        "value": 1290551874
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Fund",
@@ -145,15 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": -17.82,
-        "value": 943376962
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2590900,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.17,
-        "pct_change": 1.0,
-        "value": 791001738
+        "value": 1065431962
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -161,7 +161,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.17,
         "pct_change": 1.3,
-        "value": 787918208
+        "value": 889859808
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -169,7 +169,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.16,
         "pct_change": 14.09,
-        "value": 718561989
+        "value": 811530216
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -177,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 34.74,
-        "value": 560176019
+        "value": 632652120
       }
     ]
   }

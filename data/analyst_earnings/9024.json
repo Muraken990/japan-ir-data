@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:31:41.121523",
+  "fetched_at": "2026-06-01T05:31:44.264865",
   "ticker": "9024",
   "ticker_full": "9024.T",
   "company_name": "SEIBU HOLDINGS INC",
@@ -18,58 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3880.0,
+    "current": 2761.5,
     "high": 5000.0,
-    "low": 2320.0,
-    "mean": 4110.0,
-    "median": 4500.0
+    "low": 2380.0,
+    "mean": 3767.1428,
+    "median": 4040.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": 613.6,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-12",
-        "eps_estimate": 52.7,
-        "eps_actual": 47.71,
-        "surprise_pct": -9.47
-      },
-      {
-        "date": "2025-11-13",
-        "eps_estimate": 12.0,
-        "eps_actual": 25.07,
-        "surprise_pct": 108.92
-      },
-      {
-        "date": "2025-08-01",
-        "eps_estimate": 34.2,
-        "eps_actual": 51.35,
-        "surprise_pct": 50.15
-      },
-      {
-        "date": "2025-05-14",
-        "eps_estimate": 613.6,
-        "eps_actual": 589.41,
-        "surprise_pct": -3.94
-      },
-      {
-        "date": "2025-02-13",
-        "eps_estimate": 50.9,
-        "eps_actual": 56.68,
-        "surprise_pct": 11.36
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 32.69,
-    "institution_pct": 34.53,
+    "institution_pct": 36.85,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 34.53
+        "value": 36.85
       },
       {
         "label": "",
-        "value": 51.3
+        "value": 54.75
       },
       {
         "label": "",
-        "value": 212.0
+        "value": 211.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.77,
         "pct_change": -0.53,
-        "value": 9119773160
+        "value": 6490787005
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 1518500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.5,
+        "pct_change": 0.6,
+        "value": 4193337750
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,55 +73,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.49,
         "pct_change": 0.96,
-        "value": 5866373760
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1509500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.49,
-        "pct_change": 1.37,
-        "value": 5856860000
+        "value": 4175255448
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 823000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.27,
-        "pct_change": -0.47,
-        "value": 3193240000
+        "shares": 868600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 5.54,
+        "value": 2398638900
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 767000,
-        "date_reported": "2026-02-28",
+        "shares": 773400,
+        "date_reported": "2026-03-31",
         "pct_held": 0.25,
-        "pct_change": 1.21,
-        "value": 2975960000
+        "pct_change": 0.83,
+        "value": 2135744100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 730300,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 2833564000
+        "value": 2016723450
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 709500,
-        "date_reported": "2026-02-28",
+        "shares": 707000,
+        "date_reported": "2026-03-31",
         "pct_held": 0.23,
-        "pct_change": 2.66,
-        "value": 2752860000
-      },
-      {
-        "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
-        "shares": 394600,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.13,
-        "pct_change": 0.0,
-        "value": 1531048000
+        "pct_change": -0.35,
+        "value": 1952380500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -159,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 1467416000
+        "value": 1044399300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -167,7 +121,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": -0.23,
-        "value": 1366567040
+        "value": 972622392
+      },
+      {
+        "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
+        "shares": 377000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.12,
+        "pct_change": -4.46,
+        "value": 1041085500
       }
     ],
     "mutualfund_holders": []

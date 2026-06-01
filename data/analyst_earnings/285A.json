@@ -1,79 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:27.504532",
+  "fetched_at": "2026-06-01T05:30:39.497733",
   "ticker": "285A",
   "ticker_full": "285A.T",
   "company_name": "KIOXIA HOLDINGS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
-    "buy": 5,
-    "hold": 2,
+    "strong_buy": 4,
+    "buy": 6,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 2,
-    "total_analysts": 12,
+    "total_analysts": 13,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.92857
+    "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 36590.0,
-    "high": 62500.0,
+    "current": 72420.0,
+    "high": 80000.0,
     "low": 17000.0,
-    "mean": 39142.855,
-    "median": 39400.0
+    "mean": 60326.668,
+    "median": 62500.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-15",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-11",
-        "eps_estimate": 176.79,
-        "eps_actual": 162.41,
-        "surprise_pct": -8.13
-      },
-      {
-        "date": "2025-11-13",
-        "eps_estimate": 93.83,
-        "eps_actual": 75.36,
-        "surprise_pct": -19.69
-      },
-      {
-        "date": "2025-08-07",
-        "eps_estimate": 15.96,
-        "eps_actual": 33.9,
-        "surprise_pct": 112.41
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 17.77,
-    "institution_pct": 36.95,
+    "insider_pct": 16.24,
+    "institution_pct": 38.86,
     "major_holders": [
       {
         "label": "",
-        "value": 17.77
+        "value": 16.24
       },
       {
         "label": "",
-        "value": 36.95
+        "value": 38.86
       },
       {
         "label": "",
-        "value": 44.94
+        "value": 46.39
       },
       {
         "label": "",
-        "value": 243.0
+        "value": 261.0
       }
     ],
     "institutional_holders": [
@@ -83,15 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.44,
         "pct_change": 1.07,
-        "value": 88555118000
-      },
-      {
-        "holder": "Fidelity Select Portfolios-Select Semiconductors Portfolio",
-        "shares": 1817900,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.33,
-        "pct_change": 0.0,
-        "value": 66516961000
+        "value": 175270884000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,39 +65,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.29,
         "pct_change": 1.11,
-        "value": 57420687000
+        "value": 113648706000
+      },
+      {
+        "holder": "Fidelity Select Portfolios-Select Semiconductors Portfolio",
+        "shares": 1576100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": -13.3,
+        "value": 114141162000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1331300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.24,
-        "pct_change": 1.06,
-        "value": 48712267000
+        "shares": 1349700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": 1.38,
+        "value": 97745274000
       },
       {
         "holder": "Fidelity Mt. Vernon Street Trust-Fidelity Growth Company Fund",
         "shares": 1250851,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 45768638090
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 688900,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.13,
-        "pct_change": 1.19,
-        "value": 25206851000
+        "value": 90586629420
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 737100,
+        "shares": 781600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": 6.04,
+        "value": 56603472000
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 697400,
         "date_reported": "2026-03-31",
         "pct_held": 0.13,
-        "pct_change": 0.27,
-        "value": 26970489000
+        "pct_change": 1.23,
+        "value": 50505708000
       },
       {
         "holder": "EuroPacific Growth Fund-EUPAC Fund",
@@ -139,15 +113,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.12,
         "pct_change": 1.0,
-        "value": 24851928000
+        "value": 49187664000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 654500,
-        "date_reported": "2026-03-31",
+        "shares": 660700,
+        "date_reported": "2026-04-30",
         "pct_held": 0.12,
-        "pct_change": 0.0,
-        "value": 23948155000
+        "pct_change": 0.95,
+        "value": 47847894000
       },
       {
         "holder": "John Hancock Investment Trust-Disciplined Value International Fund",
@@ -155,7 +129,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 19637853000
+        "value": 38867814000
       }
     ],
     "mutualfund_holders": []

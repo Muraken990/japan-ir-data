@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:13:45.668024",
+  "fetched_at": "2026-06-01T05:11:08.008578",
   "ticker": "2492",
   "ticker_full": "2492.T",
   "company_name": "INFOMART CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 1,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 396.0,
+    "current": 384.0,
     "high": 460.0,
     "low": 450.0,
     "mean": 455.0,
     "median": 455.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2024-02-13",
-        "eps_estimate": 0.42,
-        "eps_actual": -0.33,
-        "surprise_pct": -178.57
-      },
-      {
-        "date": "2023-10-30",
-        "eps_estimate": 0.83,
-        "eps_actual": 0.69,
-        "surprise_pct": -17.32
-      },
-      {
-        "date": "2023-04-27",
-        "eps_estimate": 0.91,
-        "eps_actual": 0.43,
-        "surprise_pct": -52.74
-      },
-      {
-        "date": "2023-02-13",
-        "eps_estimate": 0.6,
-        "eps_actual": -0.87,
-        "surprise_pct": -245.34
-      },
-      {
-        "date": "2022-10-30",
-        "eps_estimate": 0.47,
-        "eps_actual": 0.92,
-        "surprise_pct": 97.4
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.73,
-    "institution_pct": 47.27,
+    "institution_pct": 47.26,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 47.27
+        "value": 47.26
       },
       {
         "label": "",
-        "value": 62.8
+        "value": 62.78
       },
       {
         "label": "",
-        "value": 64.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [],

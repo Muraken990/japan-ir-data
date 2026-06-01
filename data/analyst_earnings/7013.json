@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:50.818921",
+  "fetched_at": "2026-06-01T05:34:17.413117",
   "ticker": "7013",
   "ticker_full": "7013.T",
   "company_name": "IHI CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 2,
     "buy": 4,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.1
+    "recommendation_mean": 2.18182
   },
   "target_prices": {
     "has_data": true,
-    "current": 2896.0,
+    "current": 2680.5,
     "high": 5700.0,
-    "low": 3400.0,
-    "mean": 4498.0,
-    "median": 4300.0
+    "low": 3150.0,
+    "mean": 4065.4546,
+    "median": 4200.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-08",
-      "eps_estimate": 30.02,
+      "date": "2026-08-06",
+      "eps_estimate": 17.09,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 26.96,
+        "eps_actual": 71.67,
+        "surprise_pct": 165.84
+      },
       {
         "date": "2026-02-09",
         "eps_estimate": 25.44,
@@ -57,19 +63,13 @@
         "eps_estimate": 30.02,
         "eps_actual": 33.93,
         "surprise_pct": 13.01
-      },
-      {
-        "date": "2025-02-06",
-        "eps_estimate": 20.77,
-        "eps_actual": 35.37,
-        "surprise_pct": 70.32
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.16,
-    "institution_pct": 62.84,
+    "institution_pct": 64.4,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 62.84
+        "value": 64.4
       },
       {
         "label": "",
-        "value": 66.26
+        "value": 67.91
       },
       {
         "label": "",
-        "value": 297.0
+        "value": 302.0
       }
     ],
     "institutional_holders": [],

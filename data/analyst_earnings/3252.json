@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:08:04.146667",
+  "fetched_at": "2026-06-01T05:05:59.826043",
   "ticker": "3252",
   "ticker_full": "3252.T",
   "company_name": "JINUSHI CO LTD",
@@ -13,22 +13,28 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3370.0,
-    "high": 4020.0,
-    "low": 3800.0,
-    "mean": 3910.0,
-    "median": 3910.0
+    "current": 2909.0,
+    "high": 4075.0,
+    "low": 3300.0,
+    "mean": 3775.0,
+    "median": 3950.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 9.7,
+        "eps_actual": 42.36,
+        "surprise_pct": 336.7
+      },
       {
         "date": "2026-02-12",
         "eps_estimate": 216.5,
@@ -52,19 +58,13 @@
         "eps_estimate": 82.8,
         "eps_actual": 88.11,
         "surprise_pct": 6.41
-      },
-      {
-        "date": "2025-02-12",
-        "eps_estimate": 40.9,
-        "eps_actual": 55.32,
-        "surprise_pct": 35.26
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 20.54,
-    "institution_pct": 16.97,
+    "institution_pct": 14.09,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 16.97
+        "value": 14.09
       },
       {
         "label": "",
-        "value": 21.36
+        "value": 17.73
       },
       {
         "label": "",
-        "value": 40.0
+        "value": 38.0
       }
     ],
     "institutional_holders": [],

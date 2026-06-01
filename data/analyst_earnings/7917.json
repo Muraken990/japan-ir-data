@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:11:26.852447",
+  "fetched_at": "2026-06-01T05:09:04.514663",
   "ticker": "7917",
   "ticker_full": "7917.T",
   "company_name": "ZACROS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1361.0,
+    "current": 1249.0,
     "high": 1800.0,
     "low": 1800.0,
     "mean": 1800.0,
     "median": 1800.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2024-02-06",
-        "eps_estimate": 16.68,
-        "eps_actual": -4.0,
-        "surprise_pct": -124.02
-      },
-      {
-        "date": "2023-11-07",
-        "eps_estimate": 18.08,
-        "eps_actual": 19.93,
-        "surprise_pct": 10.25
-      },
-      {
-        "date": "2023-08-03",
-        "eps_estimate": 9.03,
-        "eps_actual": 25.94,
-        "surprise_pct": 187.4
-      },
-      {
-        "date": "2023-05-10",
-        "eps_estimate": -5.77,
-        "eps_actual": 5.68,
-        "surprise_pct": 198.31
-      },
-      {
-        "date": "2023-02-07",
-        "eps_estimate": 7.78,
-        "eps_actual": 10.63,
-        "surprise_pct": 36.69
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.34,
-    "institution_pct": 24.34,
+    "institution_pct": 22.3,
     "major_holders": [
       {
         "label": "",
@@ -72,11 +39,11 @@
       },
       {
         "label": "",
-        "value": 24.34
+        "value": 22.3
       },
       {
         "label": "",
-        "value": 30.94
+        "value": 28.36
       },
       {
         "label": "",

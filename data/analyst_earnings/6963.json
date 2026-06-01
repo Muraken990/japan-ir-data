@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:11.333571",
+  "fetched_at": "2026-06-01T05:30:27.880256",
   "ticker": "6963",
   "ticker_full": "6963.T",
   "company_name": "ROHM CO LTD",
@@ -9,67 +9,29 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 3,
-    "hold": 6,
-    "sell": 0,
+    "hold": 5,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "hold",
-    "recommendation_mean": 2.77778
+    "recommendation_mean": 2.9
   },
   "target_prices": {
     "has_data": true,
-    "current": 3440.0,
-    "high": 3900.0,
+    "current": 5222.0,
+    "high": 5000.0,
     "low": 2000.0,
-    "mean": 2944.4443,
-    "median": 3300.0
+    "mean": 3280.0,
+    "median": 3450.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-12",
-      "eps_estimate": -0.32,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-04",
-        "eps_estimate": 14.16,
-        "eps_actual": 11.67,
-        "surprise_pct": -17.56
-      },
-      {
-        "date": "2025-11-05",
-        "eps_estimate": 13.26,
-        "eps_actual": 19.04,
-        "surprise_pct": 43.62
-      },
-      {
-        "date": "2025-08-03",
-        "eps_estimate": 0.33,
-        "eps_actual": 7.69,
-        "surprise_pct": 2209.38
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": -73.36,
-        "eps_actual": -130.33,
-        "surprise_pct": -77.66
-      },
-      {
-        "date": "2025-02-02",
-        "eps_estimate": -0.59,
-        "eps_actual": -4.81,
-        "surprise_pct": -709.33
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.14,
-    "institution_pct": 42.04,
+    "institution_pct": 44.94,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 42.04
+        "value": 44.94
       },
       {
         "label": "",
-        "value": 50.13
+        "value": 53.58
       },
       {
         "label": "",
-        "value": 178.0
+        "value": 181.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.0,
         "pct_change": -98.09,
-        "value": 199520
+        "value": 302876
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +67,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.25,
         "pct_change": 4.63,
-        "value": 17308638640
+        "value": 26274915982
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -113,7 +75,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.23,
         "pct_change": 0.87,
-        "value": 17129177280
+        "value": 26002489464
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
@@ -121,7 +83,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.84,
         "pct_change": 12.16,
-        "value": 11651747840
+        "value": 17687624192
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -129,15 +91,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.8,
         "pct_change": 2.11,
-        "value": 11058843200
+        "value": 16787581160
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2420900,
-        "date_reported": "2026-03-31",
+        "shares": 2434400,
+        "date_reported": "2026-04-30",
         "pct_held": 0.6,
-        "pct_change": 1.13,
-        "value": 8327896000
+        "pct_change": 0.56,
+        "value": 12712436800
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Diversified International Fund",
+        "shares": 1914900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.47,
+        "pct_change": 1.57,
+        "value": 9999607800
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity International Discovery Fund",
+        "shares": 1779600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.44,
+        "pct_change": 1.0,
+        "value": 9293071200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -145,15 +123,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.34,
         "pct_change": 1.58,
-        "value": 4658448000
+        "value": 7071632400
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 751799,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": -3.03,
-        "value": 2586188560
+        "holder": "Fidelity Investment TRT-Fidelity SAI Intl SMA Completion Fd.",
+        "shares": 989600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.25,
+        "pct_change": 1.0,
+        "value": 5167691200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -161,23 +139,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": 3.04,
-        "value": 2626687680
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Diversified International Fund",
-        "shares": 744500,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.18,
-        "pct_change": 1.0,
-        "value": 2561080000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 744808,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.18,
-        "pct_change": 0.95,
-        "value": 2562139520
+        "value": 3987372984
       }
     ]
   }

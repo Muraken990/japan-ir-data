@@ -1,70 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:16:17.148457",
+  "fetched_at": "2026-06-01T05:14:14.848353",
   "ticker": "8179",
   "ticker_full": "8179.T",
   "company_name": "ROYAL HOLDINGS CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1367.0,
+    "current": 1251.0,
     "high": 1600.0,
     "low": 1600.0,
     "mean": 1600.0,
     "median": 1600.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2016-10-30",
-        "eps_estimate": 14.35,
-        "eps_actual": 16.27,
-        "surprise_pct": 13.41
-      },
-      {
-        "date": "2016-05-01",
-        "eps_estimate": 4.17,
-        "eps_actual": 5.72,
-        "surprise_pct": 37.29
-      },
-      {
-        "date": "2015-11-01",
-        "eps_estimate": 15.89,
-        "eps_actual": 18.6,
-        "surprise_pct": 17.03
-      },
-      {
-        "date": "2015-04-30",
-        "eps_estimate": 5.56,
-        "eps_actual": 4.49,
-        "surprise_pct": -19.39
-      },
-      {
-        "date": "2015-02-15",
-        "eps_estimate": 3.56,
-        "eps_actual": 2.34,
-        "surprise_pct": -34.47
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.09,
-    "institution_pct": 15.31,
+    "institution_pct": 15.41,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 15.31
+        "value": 15.41
       },
       {
         "label": "",
-        "value": 23.23
+        "value": 23.38
       },
       {
         "label": "",
-        "value": 55.0
+        "value": 56.0
       }
     ],
     "institutional_holders": [],

@@ -1,75 +1,36 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:16:05.612025",
+  "fetched_at": "2026-06-01T05:14:06.321513",
   "ticker": "5715",
   "ticker_full": "5715.T",
   "company_name": "FURUKAWA CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 0,
-    "buy": 0,
-    "hold": 0,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 0,
     "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_mean": null,
+    "total_analysts": null,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4175.0,
+    "current": 3995.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-12",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2016-02-04",
-        "eps_estimate": 39.74,
-        "eps_actual": 29.3,
-        "surprise_pct": -26.27
-      },
-      {
-        "date": "2015-08-04",
-        "eps_estimate": 16.05,
-        "eps_actual": 37.2,
-        "surprise_pct": 131.78
-      },
-      {
-        "date": "2015-05-07",
-        "eps_estimate": 36.34,
-        "eps_actual": 166.0,
-        "surprise_pct": 356.8
-      },
-      {
-        "date": "2015-02-05",
-        "eps_estimate": 24.74,
-        "eps_actual": 28.6,
-        "surprise_pct": 15.6
-      },
-      {
-        "date": "2014-11-04",
-        "eps_estimate": 17.71,
-        "eps_actual": 22.5,
-        "surprise_pct": 27.05
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.35,
-    "institution_pct": 32.57,
+    "institution_pct": 33.07,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +38,25 @@
       },
       {
         "label": "",
-        "value": 32.57
+        "value": 33.07
       },
       {
         "label": "",
-        "value": 48.87
+        "value": 49.61
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 559800,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.72,
-        "pct_change": -1.98,
-        "value": 2337165000
+        "shares": 542100,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.67,
+        "pct_change": -3.16,
+        "value": 2165689500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -103,7 +64,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.34,
         "pct_change": 0.0,
-        "value": 1820533800
+        "value": 1742043720
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,7 +72,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.07,
         "pct_change": 0.0,
-        "value": 1455893475
+        "value": 1393124415
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -119,7 +80,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.67,
         "pct_change": 6.57,
-        "value": 913974300
+        "value": 874569420
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -127,15 +88,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.42,
         "pct_change": -15.63,
-        "value": 565491225
+        "value": 541110765
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 138000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 576150000
+        "value": 551310000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -143,7 +104,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 555959700
+        "value": 531990180
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -151,15 +112,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": -21.18,
-        "value": 410285600
+        "value": 392596640
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 94200,
-        "date_reported": "2026-03-31",
+        "shares": 94500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.29,
-        "pct_change": -11.3,
-        "value": 393285000
+        "pct_change": 0.32,
+        "value": 377527500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -167,7 +128,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": -2.56,
-        "value": 349856650
+        "value": 334773010
       }
     ],
     "mutualfund_holders": []

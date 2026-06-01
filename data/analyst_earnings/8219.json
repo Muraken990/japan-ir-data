@@ -1,62 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:15:11.051585",
+  "fetched_at": "2026-06-01T05:13:14.247538",
   "ticker": "8219",
   "ticker_full": "8219.T",
   "company_name": "AOYAMA TRADING CO",
   "analyst_recommendations": {
     "has_data": true,
+    "period": "0",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 1,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 1,
     "recommendation_key": "none",
-    "recommendation_mean": null,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 795.0,
-    "high": null,
-    "low": null,
-    "mean": null,
-    "median": null
+    "current": 674.0,
+    "high": 764.0,
+    "low": 764.0,
+    "mean": 764.0,
+    "median": 764.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-12",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2018-02-08",
-        "eps_estimate": 25.67,
-        "eps_actual": 20.07,
-        "surprise_pct": -21.81
-      },
-      {
-        "date": "2017-02-06",
-        "eps_estimate": 22.1,
-        "eps_actual": 22.56,
-        "surprise_pct": 2.07
-      },
-      {
-        "date": "2016-05-12",
-        "eps_estimate": 47.83,
-        "eps_actual": 40.63,
-        "surprise_pct": -15.06
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.85,
-    "institution_pct": 26.75,
+    "institution_pct": 26.74,
     "major_holders": [
       {
         "label": "",
@@ -64,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 26.75
+        "value": 26.74
       },
       {
         "label": "",
-        "value": 31.79
+        "value": 31.77
       },
       {
         "label": "",
-        "value": 71.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],

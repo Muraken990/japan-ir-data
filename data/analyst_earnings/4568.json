@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:34:50.820675",
+  "fetched_at": "2026-06-01T05:36:11.928785",
   "ticker": "4568",
   "ticker_full": "4568.T",
   "company_name": "DAIICHI SANKYO COMPANY LIMITED",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 5,
-    "buy": 10,
+    "strong_buy": 4,
+    "buy": 12,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 16,
+    "total_analysts": 17,
     "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.375
+    "recommendation_mean": 1.35294
   },
   "target_prices": {
     "has_data": true,
-    "current": 2628.5,
-    "high": 6000.0,
-    "low": 3050.0,
-    "mean": 4640.0,
-    "median": 4550.0
+    "current": 2611.0,
+    "high": 5500.0,
+    "low": 2800.0,
+    "mean": 4352.353,
+    "median": 4500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-11",
-      "eps_estimate": 20.66,
+      "date": "2026-07-30",
+      "eps_estimate": 36.03,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-11",
+        "eps_estimate": 45.87,
+        "eps_actual": 23.1,
+        "surprise_pct": -49.64
+      },
       {
         "date": "2026-01-29",
         "eps_estimate": 39.79,
@@ -57,45 +63,39 @@
         "eps_estimate": 20.66,
         "eps_actual": 46.31,
         "surprise_pct": 124.13
-      },
-      {
-        "date": "2025-01-30",
-        "eps_estimate": 30.29,
-        "eps_actual": 32.82,
-        "surprise_pct": 8.35
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 1.73,
-    "institution_pct": 51.49,
+    "insider_pct": 1.72,
+    "institution_pct": 53.36,
     "major_holders": [
       {
         "label": "",
-        "value": 1.73
+        "value": 1.72
       },
       {
         "label": "",
-        "value": 51.49
+        "value": 53.36
       },
       {
         "label": "",
-        "value": 52.4
+        "value": 54.29
       },
       {
         "label": "",
-        "value": 440.0
+        "value": 442.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 14845,
-        "date_reported": "2025-12-31",
+        "shares": 15280,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": -3.38,
-        "value": 39020082
+        "pct_change": 2.93,
+        "value": 39896080
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.42,
         "pct_change": 0.9,
-        "value": 70885443198
+        "value": 70413502831
       },
       {
         "holder": "VANGUARD SPECIALIZED FUNDS-Vanguard Health Care Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.97,
         "pct_change": -8.55,
-        "value": 48279147231
+        "value": 47957714826
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.92,
         "pct_change": 2.03,
-        "value": 45750643256
+        "value": 45446045099
       },
       {
         "holder": "CAPITAL WORLD GROWTH & INCOME FUND",
@@ -129,15 +129,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 0.0,
-        "value": 40013918350
+        "value": 39747514100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 12735500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.67,
-        "pct_change": 1.27,
-        "value": 33475261750
+        "shares": 12837700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.68,
+        "pct_change": 0.8,
+        "value": 33519234700
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Growth Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.58,
         "pct_change": 5.48,
-        "value": 28668260950
+        "value": 28477393700
       },
       {
         "holder": "INVESTMENT CO OF AMERICA",
@@ -153,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 26022150000
+        "value": 25848900000
       },
       {
         "holder": "EuroPacific Growth Fund-EUPAC Fund",
@@ -161,7 +161,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.45,
         "pct_change": -81.5,
-        "value": 22203344289
+        "value": 22055519094
       },
       {
         "holder": "MFS SERIES TRUST I-MFS Research International Fund",
@@ -169,7 +169,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.42,
         "pct_change": -6.04,
-        "value": 20877649800
+        "value": 20738650800
       },
       {
         "holder": "AMERICAN FUNDS GLOBAL BALANCED FUND",
@@ -177,7 +177,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.4,
         "pct_change": 1.0,
-        "value": 19713750000
+        "value": 19582500000
       }
     ]
   }

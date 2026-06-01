@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:34:46.117030",
+  "fetched_at": "2026-06-01T05:36:08.407529",
   "ticker": "8725",
   "ticker_full": "8725.T",
   "company_name": "MS&AD INS GP HLDGS",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 0,
     "buy": 4,
-    "hold": 4,
+    "hold": 5,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.45455
   },
   "target_prices": {
     "has_data": true,
-    "current": 3995.0,
+    "current": 4293.0,
     "high": 6000.0,
     "low": 3270.0,
-    "mean": 4432.727,
+    "mean": 4431.8184,
     "median": 4500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-20",
+      "date": "2026-08-14",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-20",
+        "eps_estimate": 102.49,
+        "eps_actual": 89.9,
+        "surprise_pct": -12.29
+      },
       {
         "date": "2026-02-13",
         "eps_estimate": 60.65,
@@ -57,19 +63,13 @@
         "eps_estimate": 56.59,
         "eps_actual": 69.69,
         "surprise_pct": 23.14
-      },
-      {
-        "date": "2023-05-18",
-        "eps_estimate": 43.79,
-        "eps_actual": 45.67,
-        "surprise_pct": 4.3
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.02,
-    "institution_pct": 42.65,
+    "institution_pct": 44.26,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 42.65
+        "value": 44.26
       },
       {
         "label": "",
-        "value": 46.37
+        "value": 48.12
       },
       {
         "label": "",
-        "value": 369.0
+        "value": 382.0
       }
     ],
     "institutional_holders": [
@@ -95,15 +95,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.02,
         "pct_change": -18.43,
-        "value": 353601445
+        "value": 379977723
       },
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 10209,
-        "date_reported": "2025-12-31",
+        "shares": 9709,
+        "date_reported": "2026-03-31",
         "pct_held": 0.0,
-        "pct_change": -3.35,
-        "value": 40784955
+        "pct_change": -4.9,
+        "value": 41680737
       }
     ],
     "mutualfund_holders": [
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 6.6,
         "pct_change": 53.44,
-        "value": 141301552000
+        "value": 151841692800
       },
       {
         "holder": "First Eagle Funds-First Eagle Global Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 4.33,
         "pct_change": 0.0,
-        "value": 92642292200
+        "value": 99552781080
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -129,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 3.33,
         "pct_change": -0.99,
-        "value": 71279708850
+        "value": 76596693390
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
@@ -137,7 +137,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 2.55,
         "pct_change": -1.15,
-        "value": 54651999500
+        "value": 58728669300
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.15,
         "pct_change": 0.32,
-        "value": 46023566540
+        "value": 49456613556
       },
       {
         "holder": "EuroPacific Growth Fund-EUPAC Fund",
@@ -153,15 +153,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.96,
         "pct_change": 0.0,
-        "value": 42038985500
+        "value": 45174809700
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 9023600,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.68,
-        "pct_change": 1.46,
-        "value": 36049282000
+        "shares": 9132600,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.7,
+        "pct_change": 1.21,
+        "value": 39206251800
       },
       {
         "holder": "HARTFORD MUTUAL Fd.S II INC-Hartford Schroders Intl Stock Fd.",
@@ -169,7 +169,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.49,
         "pct_change": -1.28,
-        "value": 31976379500
+        "value": 34361601300
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
@@ -177,15 +177,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.45,
         "pct_change": 0.0,
-        "value": 31029564500
+        "value": 33344160300
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 5033020,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.94,
-        "pct_change": -0.01,
-        "value": 20106914900
+        "shares": 5314020,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.99,
+        "pct_change": 5.58,
+        "value": 22813087860
       }
     ]
   }

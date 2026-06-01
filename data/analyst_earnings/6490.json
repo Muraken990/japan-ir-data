@@ -1,44 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:14:03.909330",
+  "fetched_at": "2026-06-01T05:12:10.342912",
   "ticker": "6490",
   "ticker_full": "6490.T",
   "company_name": "PILLAR CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 8870.0,
+    "current": 9490.0,
     "high": 11000.0,
     "low": 9130.0,
     "mean": 10065.0,
     "median": 10065.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": []
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.59,
-    "institution_pct": 34.5,
+    "institution_pct": 35.31,
     "major_holders": [
       {
         "label": "",
@@ -46,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 34.5
+        "value": 35.31
       },
       {
         "label": "",
-        "value": 41.86
+        "value": 42.84
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 73.0
       }
     ],
     "institutional_holders": [
@@ -64,7 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.06,
         "pct_change": 4.44,
-        "value": 2356271150
+        "value": 2520971050
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -72,15 +65,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.66,
         "pct_change": -9.02,
-        "value": 1475515630
+        "value": 1578652010
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 110600,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 981022000
+        "value": 1049594000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -88,7 +81,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": -2.65,
-        "value": 910949000
+        "value": 974623000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -96,7 +89,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 862164000
+        "value": 922428000
       },
       {
         "holder": "-Militia Long/Short Equity ETF",
@@ -104,7 +97,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.33,
         "pct_change": 1.43,
-        "value": 732112060
+        "value": 783285620
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
@@ -112,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 1.0,
-        "value": 648946940
+        "value": 694307380
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -120,15 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": -2.46,
-        "value": 597838000
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 65500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.26,
-        "pct_change": -3.25,
-        "value": 580985000
+        "value": 639626000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -136,7 +121,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": 1.58,
-        "value": 570341000
+        "value": 610207000
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 60100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.24,
+        "pct_change": -8.24,
+        "value": 570349000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:31.929230",
+  "fetched_at": "2026-06-01T05:32:33.397623",
   "ticker": "4062",
   "ticker_full": "4062.T",
   "company_name": "IBIDEN CO LTD",
@@ -9,8 +9,8 @@
     "period": "3",
     "strong_buy": 3,
     "buy": 8,
-    "hold": 6,
-    "sell": 0,
+    "hold": 5,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 17,
     "recommendation_key": "buy",
@@ -18,74 +18,36 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 13365.0,
-    "high": 15800.0,
+    "current": 21695.0,
+    "high": 23900.0,
     "low": 6300.0,
-    "mean": 9523.529,
+    "mean": 12417.647,
     "median": 9600.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-11",
-      "eps_estimate": 22.28,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-02",
-        "eps_estimate": 36.98,
-        "eps_actual": 31.99,
-        "surprise_pct": -13.5
-      },
-      {
-        "date": "2025-10-29",
-        "eps_estimate": 34.09,
-        "eps_actual": 33.45,
-        "surprise_pct": -1.88
-      },
-      {
-        "date": "2025-08-01",
-        "eps_estimate": 32.85,
-        "eps_actual": 45.59,
-        "surprise_pct": 38.76
-      },
-      {
-        "date": "2025-05-07",
-        "eps_estimate": 22.28,
-        "eps_actual": 31.88,
-        "surprise_pct": 43.12
-      },
-      {
-        "date": "2025-02-03",
-        "eps_estimate": 29.63,
-        "eps_actual": 15.32,
-        "surprise_pct": -48.29
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 10.58,
-    "institution_pct": 69.39,
+    "insider_pct": 10.59,
+    "institution_pct": 70.44,
     "major_holders": [
       {
         "label": "",
-        "value": 10.58
+        "value": 10.59
       },
       {
         "label": "",
-        "value": 69.39
+        "value": 70.44
       },
       {
         "label": "",
-        "value": 77.6
+        "value": 78.78
       },
       {
         "label": "",
-        "value": 245.0
+        "value": 260.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,7 @@
         "date_reported": "2022-03-31",
         "pct_held": 0.0,
         "pct_change": 21.19,
-        "value": 8713980
+        "value": 14145140
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +67,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.28,
         "pct_change": 1.04,
-        "value": 48170453760
+        "value": 78193639680
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,39 +75,47 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.83,
         "pct_change": 2.13,
-        "value": 31137322590
+        "value": 50544273370
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1699600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.6,
-        "pct_change": 1.21,
-        "value": 22715154000
+        "shares": 1708600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.61,
+        "pct_change": 0.53,
+        "value": 37068077000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Discovery Fund",
         "shares": 1193500,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.42,
         "pct_change": 0.0,
-        "value": 15951127500
+        "value": 25892982500
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 926000,
+        "shares": 985100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.35,
+        "pct_change": 6.38,
+        "value": 21371744500
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 881200,
         "date_reported": "2026-03-31",
-        "pct_held": 0.33,
+        "pct_held": 0.31,
         "pct_change": 1.0,
-        "value": 12375990000
+        "value": 19117634000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 828600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.29,
-        "pct_change": 0.0,
-        "value": 11074239000
+        "shares": 835000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 0.77,
+        "value": 18115325000
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -153,7 +123,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.28,
         "pct_change": -3.02,
-        "value": 10716057000
+        "value": 17395051000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -161,7 +131,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 1.0,
-        "value": 10464795000
+        "value": 16987185000
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -169,15 +139,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": -27.05,
-        "value": 9716355000
-      },
-      {
-        "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 566300,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.2,
-        "pct_change": -33.34,
-        "value": 7568599500
+        "value": 15772265000
       }
     ]
   }

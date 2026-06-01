@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:26:38.365132",
+  "fetched_at": "2026-06-01T05:26:16.217761",
   "ticker": "7729",
   "ticker_full": "7729.T",
   "company_name": "TOKYO SEIMITSU CO",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
-    "buy": 2,
-    "hold": 4,
+    "strong_buy": 2,
+    "buy": 3,
+    "hold": 2,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 8,
@@ -18,58 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 17280.0,
-    "high": 21200.0,
+    "current": 17080.0,
+    "high": 22000.0,
     "low": 9900.0,
-    "mean": 17000.0,
-    "median": 18000.0
+    "mean": 17814.285,
+    "median": 19100.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": 213.32,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-02-05",
-        "eps_estimate": 131.31,
-        "eps_actual": 111.79,
-        "surprise_pct": -14.86
-      },
-      {
-        "date": "2025-11-03",
-        "eps_estimate": 177.31,
-        "eps_actual": 157.41,
-        "surprise_pct": -11.22
-      },
-      {
-        "date": "2025-08-03",
-        "eps_estimate": 99.31,
-        "eps_actual": 79.77,
-        "surprise_pct": -19.67
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 128.46,
-        "eps_actual": 185.67,
-        "surprise_pct": 44.54
-      },
-      {
-        "date": "2025-02-03",
-        "eps_estimate": 98.58,
-        "eps_actual": 113.07,
-        "surprise_pct": 14.7
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.6,
-    "institution_pct": 53.93,
+    "institution_pct": 53.74,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 53.93
+        "value": 53.74
       },
       {
         "label": "",
-        "value": 57.14
+        "value": 56.93
       },
       {
         "label": "",
-        "value": 142.0
+        "value": 145.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +57,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.0,
         "pct_change": 14.29,
-        "value": 967680
+        "value": 956480
       }
     ],
     "mutualfund_holders": [
@@ -105,15 +67,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 2.22,
         "pct_change": 1.0,
-        "value": 16191360000
-      },
-      {
-        "holder": "SmallCap World Fund Inc",
-        "shares": 838000,
-        "date_reported": "2025-12-31",
-        "pct_held": 1.98,
-        "pct_change": 0.0,
-        "value": 14480640000
+        "value": 16003960000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
@@ -121,7 +75,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.9,
         "pct_change": 1.9,
-        "value": 13877568000
+        "value": 13716948000
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -129,7 +83,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.48,
         "pct_change": -21.67,
-        "value": 10789632000
+        "value": 10664752000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -137,15 +91,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.3,
         "pct_change": 0.0,
-        "value": 9527137920
+        "value": 9416870120
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Discovery Fund",
         "shares": 398311,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.94,
         "pct_change": 0.0,
-        "value": 6882814080
+        "value": 6803151880
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -153,7 +107,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.93,
         "pct_change": -3.66,
-        "value": 6818688000
+        "value": 6739768000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -161,7 +115,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.85,
         "pct_change": 3.58,
-        "value": 6246702720
+        "value": 6174402920
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -169,15 +123,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.66,
         "pct_change": -3.02,
-        "value": 4824576000
+        "value": 4768736000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 272300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.64,
+        "shares": 277200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.66,
+        "pct_change": 1.8,
+        "value": 4734576000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 190216,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 4705344000
+        "value": 3248889280
       }
     ]
   }

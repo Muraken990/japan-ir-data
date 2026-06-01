@@ -1,34 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:27:50.749933",
+  "fetched_at": "2026-06-01T05:28:16.723662",
   "ticker": "5938",
   "ticker_full": "5938.T",
   "company_name": "LIXIL CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 1,
     "buy": 2,
-    "hold": 5,
+    "hold": 6,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 1663.0,
+    "current": 1686.0,
     "high": 2200.0,
     "low": 1600.0,
-    "mean": 1832.2222,
+    "mean": 1811.1111,
     "median": 1800.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 4.63,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": -3.08,
+        "eps_actual": -12.74,
+        "surprise_pct": -312.97
+      },
       {
         "date": "2026-01-29",
         "eps_estimate": 24.62,
@@ -52,19 +63,13 @@
         "eps_estimate": 12.88,
         "eps_actual": -7.94,
         "surprise_pct": -161.67
-      },
-      {
-        "date": "2025-01-31",
-        "eps_estimate": 28.16,
-        "eps_actual": 28.6,
-        "surprise_pct": 1.57
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.23,
-    "institution_pct": 29.69,
+    "institution_pct": 29.6,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 29.69
+        "value": 29.6
       },
       {
         "label": "",
-        "value": 30.68
+        "value": 30.59
       },
       {
         "label": "",
-        "value": 147.0
+        "value": 151.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.38,
         "pct_change": 0.4,
-        "value": 6602652138
+        "value": 6693969636
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -98,15 +103,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.9,
         "pct_change": 0.43,
-        "value": 4307781984
+        "value": 4367360448
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2000400,
-        "date_reported": "2026-03-31",
+        "shares": 2009400,
+        "date_reported": "2026-04-30",
         "pct_held": 0.7,
-        "pct_change": 1.03,
-        "value": 3326665200
+        "pct_change": 0.45,
+        "value": 3387848400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -114,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 1.22,
-        "value": 1795873700
+        "value": 1820711400
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -122,15 +127,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.3,
         "pct_change": 8.34,
-        "value": 1450348864
+        "value": 1470407808
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 719400,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.25,
-        "pct_change": -2.68,
-        "value": 1196362200
+        "shares": 751300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.26,
+        "pct_change": 4.43,
+        "value": 1266691800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -138,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.22,
         "pct_change": 1.59,
-        "value": 1043825188
+        "value": 1058261736
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -146,7 +151,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.21,
         "pct_change": 0.94,
-        "value": 993532742
+        "value": 1007273724
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -154,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": -14.54,
-        "value": 966567197
+        "value": 979935234
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -162,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 3.08,
-        "value": 963670251
+        "value": 976998222
       }
     ],
     "mutualfund_holders": []

@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:29:07.932645",
+  "fetched_at": "2026-06-01T05:29:29.091202",
   "ticker": "7276",
   "ticker_full": "7276.T",
   "company_name": "KOITO MANUFACTURING CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 0,
     "buy": 1,
-    "hold": 5,
-    "sell": 3,
+    "hold": 6,
+    "sell": 2,
     "strong_sell": 1,
-    "total_analysts": 11,
+    "total_analysts": 10,
     "recommendation_key": "hold",
-    "recommendation_mean": 3.3
+    "recommendation_mean": 3.18182
   },
   "target_prices": {
     "has_data": true,
-    "current": 2519.0,
-    "high": 3000.0,
+    "current": 2723.0,
+    "high": 3100.0,
     "low": 2200.0,
-    "mean": 2508.182,
-    "median": 2500.0
+    "mean": 2562.7273,
+    "median": 2540.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": 31.3,
+      "date": "2026-07-29",
+      "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 31.3,
+        "eps_actual": -22.93,
+        "surprise_pct": -173.26
+      },
       {
         "date": "2026-01-30",
         "eps_estimate": 25.02,
@@ -57,19 +63,13 @@
         "eps_estimate": 35.78,
         "eps_actual": 58.75,
         "surprise_pct": 64.17
-      },
-      {
-        "date": "2025-01-29",
-        "eps_estimate": 39.28,
-        "eps_actual": 60.44,
-        "surprise_pct": 53.87
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.01,
-    "institution_pct": 34.94,
+    "institution_pct": 34.79,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 34.94
+        "value": 34.79
       },
       {
         "label": "",
-        "value": 44.23
+        "value": 44.04
       },
       {
         "label": "",
-        "value": 156.0
+        "value": 158.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.05,
         "pct_change": -1.22,
-        "value": 413972460
+        "value": 447497820
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.46,
         "pct_change": 4.62,
-        "value": 11339731920
+        "value": 12258074640
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -113,23 +113,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.87,
         "pct_change": -3.96,
-        "value": 6721739904
+        "value": 7266096768
       },
       {
         "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
         "shares": 2030827,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-04-30",
         "pct_held": 0.66,
-        "pct_change": -5.18,
-        "value": 5115653213
+        "pct_change": 0.0,
+        "value": 5529941921
       },
       {
         "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
         "shares": 1958145,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 4932567255
+        "value": 5332028835
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -137,23 +137,23 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.55,
         "pct_change": -3.51,
-        "value": 4232358306
+        "value": 4575113802
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1350300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.44,
-        "pct_change": 0.76,
-        "value": 3401405700
+        "shares": 1387500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.45,
+        "pct_change": 2.75,
+        "value": 3778162500
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
         "shares": 1001200,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.33,
-        "pct_change": -11.24,
-        "value": 2522022800
+        "pct_change": 0.0,
+        "value": 2726267600
       },
       {
         "holder": "RUSSELL INVESTMENT CO-Tax-Managed International Equity Fund",
@@ -161,7 +161,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.27,
         "pct_change": 10.91,
-        "value": 2103868800
+        "value": 2274249600
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -169,7 +169,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 4.83,
-        "value": 1964064300
+        "value": 2123123100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -177,7 +177,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.24,
         "pct_change": 2.02,
-        "value": 1832068700
+        "value": 1980437900
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:30:26.234067",
+  "fetched_at": "2026-06-01T05:30:38.532909",
   "ticker": "6920",
   "ticker_full": "6920.T",
   "company_name": "LASERTEC CORP",
@@ -8,63 +8,30 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 4,
-    "hold": 10,
+    "buy": 5,
+    "hold": 9,
     "sell": 2,
     "strong_sell": 0,
     "total_analysts": 16,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.46667
+    "recommendation_mean": 2.375
   },
   "target_prices": {
     "has_data": true,
-    "current": 42080.0,
-    "high": 52200.0,
+    "current": 38380.0,
+    "high": 55000.0,
     "low": 15600.0,
-    "mean": 36420.0,
-    "median": 36000.0
+    "mean": 39260.0,
+    "median": 43000.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2026-04-29",
-        "eps_estimate": 175.76,
-        "eps_actual": 123.88,
-        "surprise_pct": -29.52
-      },
-      {
-        "date": "2026-01-29",
-        "eps_estimate": 214.72,
-        "eps_actual": 297.15,
-        "surprise_pct": 38.39
-      },
-      {
-        "date": "2025-10-30",
-        "eps_estimate": 160.2,
-        "eps_actual": 211.46,
-        "surprise_pct": 32.0
-      },
-      {
-        "date": "2025-08-06",
-        "eps_estimate": 250.49,
-        "eps_actual": 354.34,
-        "surprise_pct": 41.46
-      },
-      {
-        "date": "2025-04-28",
-        "eps_estimate": 195.88,
-        "eps_actual": 103.96,
-        "surprise_pct": -46.93
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.0,
-    "institution_pct": 52.05,
+    "institution_pct": 56.45,
     "major_holders": [
       {
         "label": "",
@@ -72,33 +39,33 @@
       },
       {
         "label": "",
-        "value": 52.05
+        "value": 56.45
       },
       {
         "label": "",
-        "value": 59.15
+        "value": 64.14
       },
       {
         "label": "",
-        "value": 321.0
+        "value": 332.0
       }
     ],
     "institutional_holders": [
-      {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 1012,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.0,
-        "pct_change": 0.4,
-        "value": 42584960
-      },
       {
         "holder": "Stanley-Laman Group, Ltd.",
         "shares": 400,
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 16832000
+        "value": 15352000
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 1180,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.0,
+        "pct_change": 16.6,
+        "value": 45288400
       }
     ],
     "mutualfund_holders": [
@@ -108,7 +75,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.2,
         "pct_change": 0.93,
-        "value": 47576363360
+        "value": 43393080460
       },
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.",
@@ -116,7 +83,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.94,
         "pct_change": -10.17,
-        "value": 37270256000
+        "value": 33993166000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -124,15 +91,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.78,
         "pct_change": 2.25,
-        "value": 30830374880
+        "value": 28119529180
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 574800,
-        "date_reported": "2026-03-31",
+        "shares": 579300,
+        "date_reported": "2026-04-30",
         "pct_held": 0.61,
-        "pct_change": 1.81,
-        "value": 24187584000
+        "pct_change": 0.78,
+        "value": 22233534000
+      },
+      {
+        "holder": "BlackRock ETF Trust-iShares A.I. Innovation and Tech Active ETF",
+        "shares": 545000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.58,
+        "pct_change": 1.0,
+        "value": 20917100000
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
+        "shares": 434400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.46,
+        "pct_change": 1.0,
+        "value": 16672272000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -140,47 +123,31 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.39,
         "pct_change": -18.71,
-        "value": 15371824000
+        "value": 14020214000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 311000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.33,
-        "pct_change": 0.26,
-        "value": 13086880000
+        "shares": 329600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.35,
+        "pct_change": 5.98,
+        "value": 12650048000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 292328,
-        "date_reported": "2026-02-28",
+        "shares": 294828,
+        "date_reported": "2026-03-31",
         "pct_held": 0.31,
-        "pct_change": 1.18,
-        "value": 12301162240
+        "pct_change": 0.86,
+        "value": 11315498640
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 275900,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.29,
-        "pct_change": 0.0,
-        "value": 11609872000
-      },
-      {
-        "holder": "Legg Mason Global Asset Mgmt TRT-ClearBridge Intl Growth Fd.",
-        "shares": 262136,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 1.0,
-        "value": 11030682880
-      },
-      {
-        "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 264700,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.28,
-        "pct_change": 1.0,
-        "value": 11138576000
+        "shares": 278200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 0.83,
+        "value": 10677316000
       }
     ]
   }

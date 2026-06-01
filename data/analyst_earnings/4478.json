@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:18:40.898179",
+  "fetched_at": "2026-06-01T05:17:55.662168",
   "ticker": "4478",
   "ticker_full": "4478.T",
   "company_name": "FREEE K K",
@@ -13,12 +13,12 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.18182
   },
   "target_prices": {
     "has_data": true,
-    "current": 2279.0,
+    "current": 2242.0,
     "high": 4900.0,
     "low": 2000.0,
     "mean": 3420.9092,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": 5.48,
+      "date": "2026-08-12",
+      "eps_estimate": 6.24,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 5.48,
+        "eps_actual": 0.38,
+        "surprise_pct": -93.07
+      },
       {
         "date": "2026-02-12",
         "eps_estimate": 5.65,
@@ -57,53 +63,39 @@
         "eps_estimate": 3.09,
         "eps_actual": 3.61,
         "surprise_pct": 17.0
-      },
-      {
-        "date": "2025-02-13",
-        "eps_estimate": -4.39,
-        "eps_actual": 10.69,
-        "surprise_pct": 343.3
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 28.13,
-    "institution_pct": 15.55,
+    "insider_pct": 28.69,
+    "institution_pct": 20.74,
     "major_holders": [
       {
         "label": "",
-        "value": 28.13
+        "value": 28.69
       },
       {
         "label": "",
-        "value": 15.55
+        "value": 20.74
       },
       {
         "label": "",
-        "value": 21.63
+        "value": 29.09
       },
       {
         "label": "",
-        "value": 55.0
+        "value": 56.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "SmallCap World Fund Inc",
-        "shares": 1153400,
-        "date_reported": "2025-12-31",
-        "pct_held": 1.93,
-        "pct_change": 0.0,
-        "value": 2628598600
-      },
-      {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 305100,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 695322900
+        "value": 684034200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -111,31 +103,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.3,
         "pct_change": 1.14,
-        "value": 404066700
+        "value": 397506600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 119000,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-03-31",
         "pct_held": 0.2,
-        "pct_change": 36.16,
-        "value": 271201000
+        "pct_change": 0.0,
+        "value": 266798000
       },
       {
         "holder": "-Polar Capital International Small Company Fund",
-        "shares": 84800,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.14,
-        "pct_change": 15.22,
-        "value": 193259200
+        "shares": 105500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 24.41,
+        "value": 236531000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
         "shares": 39200,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.07,
         "pct_change": 0.0,
-        "value": 89336800
+        "value": 87886400
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -143,31 +135,39 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.06,
         "pct_change": 0.0,
-        "value": 79992900
+        "value": 78694200
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 38000,
-        "date_reported": "2026-02-28",
+        "shares": 38600,
+        "date_reported": "2026-04-30",
         "pct_held": 0.06,
-        "pct_change": 2.15,
-        "value": 86602000
+        "pct_change": 1.58,
+        "value": 86541200
       },
       {
         "holder": "Fidelity Salem Street Trust-Fidelity Total International Index Fund",
-        "shares": 26051,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.04,
-        "pct_change": 0.0,
-        "value": 59370229
+        "shares": 30851,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.05,
+        "pct_change": 18.43,
+        "value": 69167942
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 19200,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.03,
         "pct_change": 0.0,
-        "value": 43756800
+        "value": 43046400
+      },
+      {
+        "holder": "iShares Trust-iShares International Small-Cap Equity Factor ETF",
+        "shares": 14300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.02,
+        "pct_change": 2.88,
+        "value": 32060600
       }
     ],
     "mutualfund_holders": []

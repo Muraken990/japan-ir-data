@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:29:16.024068",
+  "fetched_at": "2026-06-01T05:29:35.097868",
   "ticker": "4183",
   "ticker_full": "4183.T",
   "company_name": "MITSUI CHEMICALS INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 2,
     "buy": 5,
     "hold": 3,
     "sell": 0,
     "strong_sell": 1,
-    "total_analysts": 12,
+    "total_analysts": 11,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.09091
+    "recommendation_mean": 2.45455
   },
   "target_prices": {
     "has_data": true,
-    "current": 1895.5,
+    "current": 2114.0,
     "high": 3000.0,
     "low": 1550.0,
-    "mean": 2335.4546,
+    "mean": 2264.5454,
     "median": 2300.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-13",
-      "eps_estimate": 38.9,
+      "date": "2026-08-03",
+      "eps_estimate": 27.49,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 59.41,
+        "eps_actual": 31.55,
+        "surprise_pct": -46.9
+      },
       {
         "date": "2026-02-04",
         "eps_estimate": 49.62,
@@ -57,19 +63,13 @@
         "eps_estimate": 38.9,
         "eps_actual": -14.16,
         "surprise_pct": -136.41
-      },
-      {
-        "date": "2025-02-03",
-        "eps_estimate": 48.09,
-        "eps_actual": 41.0,
-        "surprise_pct": -14.75
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.13,
-    "institution_pct": 46.39,
+    "institution_pct": 46.44,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 46.39
+        "value": 46.44
       },
       {
         "label": "",
-        "value": 50.5
+        "value": 50.56
       },
       {
         "label": "",
-        "value": 186.0
+        "value": 188.0
       }
     ],
     "institutional_holders": [],

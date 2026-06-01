@@ -1,86 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:09:21.883394",
+  "fetched_at": "2026-06-01T05:07:10.109792",
   "ticker": "8715",
   "ticker_full": "8715.T",
   "company_name": "ANICOM HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 3,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1467.0,
+    "current": 1207.0,
     "high": 1600.0,
     "low": 1400.0,
-    "mean": 1466.6666,
-    "median": 1400.0
+    "mean": 1533.3334,
+    "median": 1600.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2026-02-06",
-        "eps_estimate": 3.94,
-        "eps_actual": 0.03,
-        "surprise_pct": -99.24
-      },
-      {
-        "date": "2025-11-09",
-        "eps_estimate": 6.14,
-        "eps_actual": 10.51,
-        "surprise_pct": 71.08
-      },
-      {
-        "date": "2025-08-06",
-        "eps_estimate": 7.37,
-        "eps_actual": 8.69,
-        "surprise_pct": 17.89
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 3.0,
-        "eps_actual": 8.96,
-        "surprise_pct": 198.3
-      },
-      {
-        "date": "2025-02-06",
-        "eps_estimate": 4.98,
-        "eps_actual": 5.34,
-        "surprise_pct": 7.22
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 26.24,
-    "institution_pct": 48.31,
+    "insider_pct": 27.26,
+    "institution_pct": 48.24,
     "major_holders": [
       {
         "label": "",
-        "value": 26.24
+        "value": 27.26
       },
       {
         "label": "",
-        "value": 48.31
+        "value": 48.24
       },
       {
         "label": "",
-        "value": 65.5
+        "value": 66.32
       },
       {
         "label": "",
-        "value": 49.0
+        "value": 50.0
       }
     ],
     "institutional_holders": [],

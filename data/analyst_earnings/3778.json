@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:15:07.118375",
+  "fetched_at": "2026-06-01T05:13:11.013251",
   "ticker": "3778",
   "ticker_full": "3778.T",
   "company_name": "SAKURA INTERNET INC",
@@ -8,39 +8,30 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 0,
+    "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 1,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "total_analysts": 2,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3080.0,
-    "high": 6510.0,
+    "current": 2973.0,
+    "high": 5610.0,
     "low": 3093.0,
-    "mean": 4801.5,
-    "median": 4801.5
+    "mean": 4351.5,
+    "median": 4351.5
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2026-04-26",
-        "eps_estimate": 13.69,
-        "eps_actual": 19.17,
-        "surprise_pct": 40.07
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.51,
-    "institution_pct": 10.61,
+    "institution_pct": 10.71,
     "major_holders": [
       {
         "label": "",
@@ -48,11 +39,11 @@
       },
       {
         "label": "",
-        "value": 10.61
+        "value": 10.71
       },
       {
         "label": "",
-        "value": 15.26
+        "value": 15.41
       },
       {
         "label": "",
@@ -66,7 +57,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.79,
         "pct_change": 0.0,
-        "value": 1013628000
+        "value": 978414300
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 217900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.52,
+        "pct_change": 16.4,
+        "value": 647816700
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -74,15 +73,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 641256000
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 187200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.45,
-        "pct_change": 0.0,
-        "value": 576576000
+        "value": 618978600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -90,15 +81,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": 10.02,
-        "value": 338184000
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 87300,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.21,
-        "pct_change": 13.08,
-        "value": 268884000
+        "value": 326435400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -106,15 +89,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 252560000
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
-        "shares": 45700,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.11,
-        "pct_change": 0.0,
-        "value": 140756000
+        "value": 243786000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -122,15 +97,31 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.11,
         "pct_change": -1.14,
-        "value": 143410960
+        "value": 138428826
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 45700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.11,
+        "pct_change": 0.0,
+        "value": 135866100
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 43600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.1,
+        "pct_change": -50.06,
+        "value": 129622800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
         "shares": 32700,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.08,
         "pct_change": 0.0,
-        "value": 100716000
+        "value": 97217100
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -138,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.07,
         "pct_change": 0.0,
-        "value": 88088000
+        "value": 85027800
       }
     ],
     "mutualfund_holders": []

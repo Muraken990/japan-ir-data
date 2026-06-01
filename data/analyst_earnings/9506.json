@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:27:59.518097",
+  "fetched_at": "2026-06-01T05:28:23.707618",
   "ticker": "9506",
   "ticker_full": "9506.T",
   "company_name": "TOHOKU ELECTRIC POWER CO INC",
@@ -13,22 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1071.5,
-    "high": 1740.0,
+    "current": 991.7,
+    "high": 1600.0,
     "low": 1150.0,
-    "mean": 1485.0,
+    "mean": 1455.0,
     "median": 1520.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 134.5,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 27.4,
+        "eps_actual": -61.46,
+        "surprise_pct": -324.31
+      },
       {
         "date": "2026-01-30",
         "eps_estimate": 48.2,
@@ -52,19 +63,13 @@
         "eps_estimate": 17.2,
         "eps_actual": 109.74,
         "surprise_pct": 538.02
-      },
-      {
-        "date": "2025-01-30",
-        "eps_estimate": 24.5,
-        "eps_actual": 43.76,
-        "surprise_pct": 78.61
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.9,
-    "institution_pct": 28.19,
+    "institution_pct": 28.61,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 28.19
+        "value": 28.61
       },
       {
         "label": "",
-        "value": 29.64
+        "value": 30.08
       },
       {
         "label": "",
-        "value": 126.0
+        "value": 127.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 11679350
+        "value": 10809530
       }
     ],
     "mutualfund_holders": [
@@ -100,7 +105,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.37,
         "pct_change": 0.78,
-        "value": 7383547918
+        "value": 6833658012
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -108,15 +113,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.89,
         "pct_change": 2.35,
-        "value": 4772523147
+        "value": 4417089372
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3440900,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.68,
-        "pct_change": 1.2,
-        "value": 3686924350
+        "shares": 3458900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.69,
+        "pct_change": 0.52,
+        "value": 3430191172
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -124,7 +129,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.37,
         "pct_change": 1.24,
-        "value": 2017527350
+        "value": 1867271952
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -132,15 +137,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.3,
         "pct_change": 10.95,
-        "value": 1628150679
+        "value": 1506894118
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 1361700,
-        "date_reported": "2026-02-28",
+        "shares": 1364500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.27,
-        "pct_change": 2.66,
-        "value": 1459061550
+        "pct_change": 0.21,
+        "value": 1353174666
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -148,7 +153,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": 1.57,
-        "value": 1110159720
+        "value": 1027480548
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -156,7 +161,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.21,
         "pct_change": 0.95,
-        "value": 1132546569
+        "value": 1048200137
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -164,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.15,
         "pct_change": 22.21,
-        "value": 798374650
+        "value": 738915679
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 776000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.15,
-        "pct_change": 3.03,
-        "value": 831484000
+        "pct_change": 0.0,
+        "value": 769559209
       }
     ]
   }

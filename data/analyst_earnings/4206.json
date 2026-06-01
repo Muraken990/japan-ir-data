@@ -1,58 +1,37 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:21:57.206659",
+  "fetched_at": "2026-06-01T05:21:04.663701",
   "ticker": "4206",
   "ticker_full": "4206.T",
   "company_name": "AICA KOGYO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3503.0,
+    "current": 3410.0,
     "high": 4550.0,
     "low": 4000.0,
     "mean": 4316.6665,
     "median": 4400.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2026-05-01",
-        "eps_estimate": null,
-        "eps_actual": null,
-        "surprise_pct": null
-      },
-      {
-        "date": "2024-01-30",
-        "eps_estimate": 54.7,
-        "eps_actual": 76.15,
-        "surprise_pct": 39.21
-      },
-      {
-        "date": "2023-02-09",
-        "eps_estimate": 57.3,
-        "eps_actual": 51.39,
-        "surprise_pct": -10.31
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.14,
-    "institution_pct": 42.53,
+    "institution_pct": 41.93,
     "major_holders": [
       {
         "label": "",
@@ -60,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 42.53
+        "value": 41.93
       },
       {
         "label": "",
-        "value": 49.54
+        "value": 48.84
       },
       {
         "label": "",
-        "value": 107.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
@@ -78,7 +57,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.24,
         "pct_change": 46.14,
-        "value": 2945742760
+        "value": 2867537200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -86,7 +65,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.13,
         "pct_change": 0.0,
-        "value": 2667744680
+        "value": 2596919600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -94,15 +73,15 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.71,
         "pct_change": -2.49,
-        "value": 1689759625
+        "value": 1644898750
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 357300,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 1251621900
+        "value": 1218393000
       },
       {
         "holder": "Templeton Global Smaller Companies Fund",
@@ -110,7 +89,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 1199076900
+        "value": 1167243000
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
@@ -118,15 +97,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 1047747300
+        "value": 1019931000
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
         "shares": 246508,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.36,
-        "pct_change": 1.27,
-        "value": 863517524
+        "pct_change": 0.0,
+        "value": 840592280
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -134,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.32,
         "pct_change": 3.35,
-        "value": 755597100
+        "value": 735537000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -142,15 +121,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": 12.86,
-        "value": 670123900
+        "value": 652333000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 158600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.23,
-        "pct_change": -2.7,
-        "value": 555575800
+        "shares": 172300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": 8.64,
+        "value": 587543000
       }
     ],
     "mutualfund_holders": []

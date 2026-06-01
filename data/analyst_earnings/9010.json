@@ -1,86 +1,53 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:14:04.913432",
+  "fetched_at": "2026-06-01T05:12:11.153674",
   "ticker": "9010",
   "ticker_full": "9010.T",
   "company_name": "FUJI KYUKO CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 2291.0,
+    "current": 1987.0,
     "high": 4300.0,
     "low": 4300.0,
     "mean": 4300.0,
     "median": 4300.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
-    "past_earnings": [
-      {
-        "date": "2017-01-31",
-        "eps_estimate": 5.2,
-        "eps_actual": 7.52,
-        "surprise_pct": 44.62
-      },
-      {
-        "date": "2016-11-01",
-        "eps_estimate": 33.8,
-        "eps_actual": 29.38,
-        "surprise_pct": -13.08
-      },
-      {
-        "date": "2016-08-02",
-        "eps_estimate": 11.8,
-        "eps_actual": 13.08,
-        "surprise_pct": 10.85
-      },
-      {
-        "date": "2016-02-02",
-        "eps_estimate": 4.98,
-        "eps_actual": -2.18,
-        "surprise_pct": -143.81
-      },
-      {
-        "date": "2015-07-28",
-        "eps_estimate": 6.4,
-        "eps_actual": 12.26,
-        "surprise_pct": 91.62
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 29.43,
-    "institution_pct": 37.48,
+    "insider_pct": 30.25,
+    "institution_pct": 37.51,
     "major_holders": [
       {
         "label": "",
-        "value": 29.43
+        "value": 30.25
       },
       {
         "label": "",
-        "value": 37.48
+        "value": 37.51
       },
       {
         "label": "",
-        "value": 53.12
+        "value": 53.78
       },
       {
         "label": "",
-        "value": 68.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],
