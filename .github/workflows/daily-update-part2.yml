@@ -46,7 +46,7 @@ jobs:
             exit 1
           fi
 
-      - name: Fetch yfinance data (Part 2: 2001〜社)
+      - name: "Fetch yfinance data (Part 2: 2001〜社)"
         if: steps.check-list.outputs.list_exists == 'true'
         run: |
           echo "=========================================="
