@@ -1,0 +1,227 @@
+name: Daily Update - Part 2 Merge & WordPress (Mon-Fri)
+
+on:
+  # 月曜〜金曜 JST 12:00 (UTC 03:00) に自動実行
+  schedule:
+    - cron: '0 3 * * 1-5'
+
+  # 手動実行を許可
+  workflow_dispatch:
+
+jobs:
+  part2-merge-wordpress:
+    runs-on: ubuntu-latest
+
+    steps:
+      # ============================================================
+      # セットアップ
+      # ============================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests yfinance
+
+      # ============================================================
+      # Step 1: yfinanceデータ取得 (2001〜4000社)
+      # ============================================================
+
+      - name: Check company list
+        id: check-list
+        run: |
+          if [ -f "data/japan_companies_latest.csv" ]; then
+            echo "list_exists=true" >> $GITHUB_OUTPUT
+            COMPANY_COUNT=$(wc -l < data/japan_companies_latest.csv)
+            echo "📊 企業数: $COMPANY_COUNT"
+          else
+            echo "list_exists=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Fetch yfinance data (Part 2: 2001〜社)
+        if: steps.check-list.outputs.list_exists == 'true'
+        run: |
+          echo "=========================================="
+          echo "Step 1: yfinanceデータ取得開始 (2001社〜)"
+          echo "=========================================="
+          python scripts/2_fetch_yfinance_data.py --skip 2000 --suffix _part2
+
+      # ============================================================
+      # Step 1.3: WordPress登録企業リスト取得
+      # ============================================================
+
+      - name: Fetch WordPress registered companies
+        run: |
+          echo "=========================================="
+          echo "Step 1.3: WordPress登録企業リスト取得"
+          echo "=========================================="
+          python scripts/fetch_wordpress_companies.py
+
+      - name: Commit WordPress companies list
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/wordpress_companies.csv || true
+          git diff --staged --quiet || git commit -m "Update WordPress companies list $(date +'%Y-%m-%d')"
+          git push || true
+
+      # ============================================================
+      # Step 1.5: 株価履歴データ取得・更新
+      # ============================================================
+
+      - name: Fetch stock price history
+        run: |
+          echo "=========================================="
+          echo "Step 1.5: 株価履歴データ取得・更新"
+          echo "=========================================="
+          python scripts/fetch_stock_history.py
+
+      - name: Commit stock history data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/stock_history/*.json || true
+          git diff --staged --quiet || git commit -m "Update stock price history $(date +'%Y-%m-%d')"
+          git push || true
+
+      # ============================================================
+      # Step 2: Part1 + Part2 を統合してマージ
+      # ============================================================
+
+      - name: Merge Part1 + Part2 yfinance data
+        run: |
+          echo "=========================================="
+          echo "Step 2a: Part1 + Part2 統合"
+          echo "=========================================="
+          python - <<'EOF'
+          import pandas as pd
+          import glob
+          import os
+          from datetime import datetime
+
+          date = datetime.now().strftime('%Y-%m-%d')
+          output_dir = "output"
+
+          part1_files = sorted(glob.glob(f"{output_dir}/yfinance_all_fields_*_part1.csv"))
+          part2_files = sorted(glob.glob(f"{output_dir}/yfinance_all_fields_*_part2.csv"))
+
+          if not part1_files:
+              print("⚠️ Part1ファイルが見つかりません。Part2のみ使用します。")
+              part2_file = part2_files[-1] if part2_files else None
+              if not part2_file:
+                  raise FileNotFoundError("Part1もPart2も見つかりません")
+              df = pd.read_csv(part2_file)
+          elif not part2_files:
+              print("⚠️ Part2ファイルが見つかりません。Part1のみ使用します。")
+              df = pd.read_csv(part1_files[-1])
+          else:
+              df1 = pd.read_csv(part1_files[-1])
+              df2 = pd.read_csv(part2_files[-1])
+              df = pd.concat([df1, df2], ignore_index=True)
+              print(f"✅ Part1: {len(df1)}社 + Part2: {len(df2)}社 = 合計: {len(df)}社")
+
+          output_file = f"{output_dir}/yfinance_all_fields_{date}.csv"
+          df.to_csv(output_file, index=False, encoding="utf-8-sig")
+          print(f"✅ 統合ファイル出力: {output_file}")
+          EOF
+
+      - name: Merge data
+        id: merge
+        run: |
+          echo "=========================================="
+          echo "Step 2b: データ統合開始"
+          echo "=========================================="
+
+          YFINANCE_CSV=$(ls -t output/yfinance_all_fields_[0-9]*.csv 2>/dev/null | grep -v '_part' | head -n1)
+
+          if [ -z "$YFINANCE_CSV" ]; then
+            echo "❌ yfinanceデータが見つかりません"
+            exit 1
+          fi
+
+          echo "📥 使用するファイル:"
+          echo "   Yahoo JP: data/japan_companies_latest.csv"
+          echo "   yfinance: $YFINANCE_CSV"
+
+          export YAHOO_JP_CSV=data/japan_companies_latest.csv
+          export YFINANCE_CSV=$YFINANCE_CSV
+          export OUTPUT_DIR=data
+
+          python scripts/3_merge_data.py
+
+          if [ -f "data/integrated_company_data.csv" ]; then
+            echo "merge_success=true" >> $GITHUB_OUTPUT
+            INTEGRATED_COUNT=$(wc -l < data/integrated_company_data.csv)
+            echo "✅ integrated_company_data.csv 生成完了"
+            echo "📊 企業数: $INTEGRATED_COUNT"
+          else
+            echo "merge_success=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      # ============================================================
+      # Step 3: WordPress更新 (既存企業のみ)
+      # ============================================================
+
+      - name: Update WordPress (Existing companies only)
+        if: steps.merge.outputs.merge_success == 'true'
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+          REQUEST_DELAY: '0.5'
+        run: |
+          echo "=========================================="
+          echo "Step 3: WordPress更新開始 (既存企業のみ)"
+          echo "=========================================="
+          python scripts/4_wordpress_smart_update.py --update-only
+
+      # ============================================================
+      # Artifacts保存
+      # ============================================================
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-update-data
+          path: |
+            data/integrated_company_data*.csv
+            data/stock_history/*.json
+            output/yfinance_all_fields_*.csv
+            output/yfinance_errors_*.csv
+            output/yfinance_success_*.csv
+          retention-days: 30
+          if-no-files-found: warn
+
+      # ============================================================
+      # 実行サマリー
+      # ============================================================
+
+      - name: Generate summary
+        if: always()
+        run: |
+          echo "## 📊 Part 2 実行サマリー" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**実行日時:** $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')" >> $GITHUB_STEP_SUMMARY
+          echo "**対象:** 2,001社〜" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.merge.outputs.merge_success }}" == "true" ]; then
+            echo "✅ **データ統合:** 成功" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **データ統合:** 失敗" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Part 2 ワークフロー実行に失敗しました"
+          echo "詳細: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"

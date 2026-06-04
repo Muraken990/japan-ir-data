@@ -7,6 +7,7 @@ Japan IR - yfinance 全項目取得スクリプト（並列処理版）
 - Price Trend (MA乖離率) 計算追加
 """
 
+import argparse
 import yfinance as yf
 import pandas as pd
 import time
@@ -187,7 +188,7 @@ def process_company(code):
 
     return result
 
-def main():
+def main(skip=0, limit=None, suffix=""):
     print("=" * 60)
     print("Japan IR - yfinance 全項目取得（並列処理版）")
     print("=" * 60)
@@ -199,6 +200,13 @@ def main():
 
     df_input = pd.read_csv(INPUT_CSV)
     stock_codes = df_input['code'].tolist()
+
+    # skip/limitを適用
+    if skip > 0:
+        stock_codes = stock_codes[skip:]
+    if limit is not None:
+        stock_codes = stock_codes[:limit]
+
     total = len(stock_codes)
 
     num_batches = (total + BATCH_SIZE - 1) // BATCH_SIZE
@@ -260,18 +268,18 @@ def main():
     df_results = pd.DataFrame(results)
 
     # 全データ
-    output_file = f"{OUTPUT_DIR}/yfinance_all_fields_{scrape_date}.csv"
+    output_file = f"{OUTPUT_DIR}/yfinance_all_fields_{scrape_date}{suffix}.csv"
     df_results.to_csv(output_file, index=False, encoding="utf-8-sig")
 
     # 成功データのみ
     df_success = df_results[df_results["status"] == "success"]
-    success_file = f"{OUTPUT_DIR}/yfinance_success_{scrape_date}.csv"
+    success_file = f"{OUTPUT_DIR}/yfinance_success_{scrape_date}{suffix}.csv"
     df_success.to_csv(success_file, index=False, encoding="utf-8-sig")
 
     # エラーデータ
     df_errors = df_results[df_results["status"] != "success"]
     if len(df_errors) > 0:
-        error_file = f"{OUTPUT_DIR}/yfinance_errors_{scrape_date}.csv"
+        error_file = f"{OUTPUT_DIR}/yfinance_errors_{scrape_date}{suffix}.csv"
         df_errors.to_csv(error_file, index=False, encoding="utf-8-sig")
 
         print()
@@ -300,4 +308,9 @@ def main():
     print("=" * 60)
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--skip", type=int, default=0, help="スキップする企業数")
+    parser.add_argument("--limit", type=int, default=None, help="処理する企業数")
+    parser.add_argument("--suffix", type=str, default="", help="出力ファイルのサフィックス（例: _part1）")
+    args = parser.parse_args()
+    main(skip=args.skip, limit=args.limit, suffix=args.suffix)

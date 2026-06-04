@@ -1,15 +1,15 @@
-name: Daily Update - Complete Workflow (Mon-Fri)
+name: Daily Update - Part 1 yfinance (Mon-Fri)
 
 on:
   # 月曜〜金曜 JST 8:00 (UTC 23:00 前日) に自動実行
   schedule:
     - cron: '0 23 * * 0-4'
-  
+
   # 手動実行を許可
   workflow_dispatch:
 
 jobs:
-  complete-update:
+  part1-yfinance:
     runs-on: ubuntu-latest
     
     steps:
@@ -49,13 +49,13 @@ jobs:
             exit 1
           fi
       
-      - name: Fetch yfinance data
+      - name: Fetch yfinance data (Part 1: 1-2000社)
         if: steps.check-list.outputs.list_exists == 'true'
         run: |
           echo "=========================================="
-          echo "Step 1: yfinanceデータ取得開始"
+          echo "Step 1: yfinanceデータ取得開始 (1〜2000社)"
           echo "=========================================="
-          python scripts/2_fetch_yfinance_data.py
+          python scripts/2_fetch_yfinance_data.py --skip 0 --limit 2000 --suffix _part1
 
       # ============================================================
       # Step 1.3: WordPress登録企業リスト取得
@@ -98,116 +98,35 @@ jobs:
           git push || true
 
       # ============================================================
-      # Step 2: データ統合
-      # ============================================================
-      
-      - name: Merge data
-        id: merge
-        run: |
-          echo "=========================================="
-          echo "Step 2: データ統合開始"
-          echo "=========================================="
-          
-          # 最新のyfinance CSVファイルを探す
-          YFINANCE_CSV=$(ls -t output/yfinance_all_fields_*.csv 2>/dev/null | head -n1)
-          
-          if [ -z "$YFINANCE_CSV" ]; then
-            echo "❌ yfinanceデータが見つかりません"
-            exit 1
-          fi
-          
-          echo "📥 使用するファイル:"
-          echo "   Yahoo JP: data/japan_companies_latest.csv"
-          echo "   yfinance: $YFINANCE_CSV"
-          
-          # 環境変数を設定
-          export YAHOO_JP_CSV=data/japan_companies_latest.csv
-          export YFINANCE_CSV=$YFINANCE_CSV
-          export OUTPUT_DIR=data
-          
-          # 3_merge_data.py を実行
-          python scripts/3_merge_data.py
-          
-          # 統合ファイルの確認
-          if [ -f "data/integrated_company_data.csv" ]; then
-            echo "merge_success=true" >> $GITHUB_OUTPUT
-            INTEGRATED_COUNT=$(wc -l < data/integrated_company_data.csv)
-            echo "✅ integrated_company_data.csv 生成完了"
-            echo "📊 企業数: $INTEGRATED_COUNT"
-          else
-            echo "merge_success=false" >> $GITHUB_OUTPUT
-            echo "❌ integrated_company_data.csv の生成に失敗しました"
-            exit 1
-          fi
-      
-      # ============================================================
-      # Step 3: WordPress更新 (既存企業のみ)
-      # ============================================================
-
-      - name: Update WordPress (Existing companies only)
-        if: steps.merge.outputs.merge_success == 'true'
-        env:
-          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
-          WP_USER: ${{ secrets.WP_USER }}
-          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
-          REQUEST_DELAY: '0.5'
-        run: |
-          echo "=========================================="
-          echo "Step 3: WordPress更新開始 (既存企業のみ)"
-          echo "=========================================="
-          python scripts/4_wordpress_smart_update.py --update-only
-      
-      # ============================================================
       # Artifacts保存
       # ============================================================
-      
+
       - name: Upload artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: daily-update-data
+          name: part1-yfinance-data
           path: |
-            data/integrated_company_data*.csv
-            data/stock_history/*.json
-            output/yfinance_all_fields_*.csv
-            output/yfinance_errors_*.csv
-            output/yfinance_success_*.csv
-          retention-days: 30
+            output/yfinance_all_fields_*_part1.csv
+            output/yfinance_errors_*_part1.csv
+            output/yfinance_success_*_part1.csv
+          retention-days: 2
           if-no-files-found: warn
-      
+
       # ============================================================
       # 実行サマリー
       # ============================================================
-      
+
       - name: Generate summary
         if: always()
         run: |
-          echo "## 📊 実行サマリー" >> $GITHUB_STEP_SUMMARY
+          echo "## 📊 Part 1 実行サマリー" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**実行日時:** $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          
-          if [ "${{ steps.check-list.outputs.list_exists }}" == "true" ]; then
-            echo "✅ **企業リスト:** 取得成功" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "❌ **企業リスト:** 見つかりません" >> $GITHUB_STEP_SUMMARY
-          fi
-          
-          if [ "${{ steps.merge.outputs.merge_success }}" == "true" ]; then
-            echo "✅ **データ統合:** 成功" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "❌ **データ統合:** 失敗" >> $GITHUB_STEP_SUMMARY
-          fi
-          
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**処理フロー:**" >> $GITHUB_STEP_SUMMARY
-          echo "1. ✅ yfinanceデータ取得" >> $GITHUB_STEP_SUMMARY
-          echo "1.5. ✅ 株価履歴データ更新" >> $GITHUB_STEP_SUMMARY
-          echo "2. ✅ データ統合 (Yahoo + yfinance)" >> $GITHUB_STEP_SUMMARY
-          echo "3. ✅ WordPress更新 (既存企業)" >> $GITHUB_STEP_SUMMARY
-      
+          echo "**対象:** 1〜2,000社" >> $GITHUB_STEP_SUMMARY
+
       - name: Notify on failure
         if: failure()
         run: |
-          echo "❌ ワークフロー実行に失敗しました"
+          echo "❌ Part 1 ワークフロー実行に失敗しました"
           echo "詳細: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
