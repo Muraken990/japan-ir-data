@@ -1,11 +1,7 @@
 name: Translate Company Summaries (One-time)
 
 on:
-  # 毎週土曜 JST 10:00 (UTC 01:00) に自動実行
-  schedule:
-    - cron: '0 1 * * 6'
-
-  # 手動実行を許可
+  # 手動実行のみ
   workflow_dispatch:
     inputs:
       limit:
