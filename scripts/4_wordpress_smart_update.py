@@ -222,6 +222,7 @@ def create_company(company_data, status='publish', dry_run=False):
     return_on_equity = company_data.get('returnOnEquity', 0)
     return_on_assets = company_data.get('returnOnAssets', 0)
     profit_margins = company_data.get('profitMargins', 0)
+    revenue_growth = company_data.get('revenueGrowth', 0)
     previous_close = company_data.get('previousClose', 0)
     open_price = company_data.get('open', 0)
     day_high = company_data.get('dayHigh', 0)
@@ -289,6 +290,10 @@ def create_company(company_data, status='publish', dry_run=False):
         profit_margins = 0
     else:
         profit_margins = float(profit_margins)
+    if pd.isna(revenue_growth):
+        revenue_growth = 0
+    else:
+        revenue_growth = float(revenue_growth)
     if pd.isna(previous_close):
         previous_close = 0
     else:
@@ -394,6 +399,7 @@ def create_company(company_data, status='publish', dry_run=False):
             'returnOnEquity': return_on_equity,
             'returnOnAssets': return_on_assets,
             'profitMargins': profit_margins,
+            'revenueGrowth': revenue_growth,
             'previousClose': previous_close,
             'open': open_price,
             'dayHigh': day_high,
@@ -471,6 +477,7 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     return_on_equity = company_data.get('returnOnEquity', 0)
     return_on_assets = company_data.get('returnOnAssets', 0)
     profit_margins = company_data.get('profitMargins', 0)
+    revenue_growth = company_data.get('revenueGrowth', 0)
     previous_close = company_data.get('previousClose', 0)
     open_price = company_data.get('open', 0)
     day_high = company_data.get('dayHigh', 0)
@@ -538,6 +545,10 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
         profit_margins = 0
     else:
         profit_margins = float(profit_margins)
+    if pd.isna(revenue_growth):
+        revenue_growth = 0
+    else:
+        revenue_growth = float(revenue_growth)
     if pd.isna(previous_close):
         previous_close = 0
     else:
@@ -639,6 +650,7 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
             'returnOnEquity': return_on_equity,
             'returnOnAssets': return_on_assets,
             'profitMargins': profit_margins,
+            'revenueGrowth': revenue_growth,
             'previousClose': previous_close,
             'open': open_price,
             'dayHigh': day_high,

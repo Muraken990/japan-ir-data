@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 240
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: actions/setup-python@v5
         with:
@@ -22,7 +22,7 @@ jobs:
 
       - run: python scripts/yfinance_fetch_all_fields.py
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: all-fields-data
           path: output/

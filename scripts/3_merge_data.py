@@ -168,6 +168,9 @@ def create_integrated_dataframe(merged_df):
         'dividendRate': merged_df.get('dividendRate', None),
         'dividendYield': merged_df.get('dividendYield', None),
 
+        # 成長性（バブルチャート用）
+        'revenueGrowth': merged_df.get('revenueGrowth', None),
+
         # Price Trend (MA乖離率)
         'ma_5_value': merged_df.get('ma_5_value', None),
         'ma_5_deviation': merged_df.get('ma_5_deviation', None),
