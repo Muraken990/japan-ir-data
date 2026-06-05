@@ -98,6 +98,60 @@ jobs:
           git push || true
 
       # ============================================================
+      # Step 2: データ統合
+      # ============================================================
+
+      - name: Prepare Part 1 data for merge
+        id: prepare
+        run: |
+          PART1_FILE=$(ls -t output/yfinance_all_fields_*_part1.csv 2>/dev/null | head -n1)
+          if [ -n "$PART1_FILE" ]; then
+            DATE=$(date +'%Y-%m-%d')
+            cp "$PART1_FILE" "output/yfinance_all_fields_${DATE}.csv"
+            echo "prepare_success=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Part1ファイルが見つかりません"
+            echo "prepare_success=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Merge data (Part 1)
+        id: merge
+        if: steps.prepare.outputs.prepare_success == 'true'
+        run: |
+          YFINANCE_CSV=$(ls -t output/yfinance_all_fields_[0-9]*.csv 2>/dev/null | grep -v '_part' | head -n1)
+          if [ -z "$YFINANCE_CSV" ]; then
+            echo "❌ yfinanceデータが見つかりません"
+            exit 1
+          fi
+          export YAHOO_JP_CSV=data/japan_companies_latest.csv
+          export YFINANCE_CSV=$YFINANCE_CSV
+          export OUTPUT_DIR=data
+          python scripts/3_merge_data.py
+          if [ -f "data/integrated_company_data.csv" ]; then
+            echo "merge_success=true" >> $GITHUB_OUTPUT
+          else
+            echo "merge_success=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      # ============================================================
+      # Step 3: WordPress更新 (1〜2000社)
+      # ============================================================
+
+      - name: Update WordPress (Part 1: 1-2000社)
+        if: steps.merge.outputs.merge_success == 'true'
+        env:
+          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+          REQUEST_DELAY: '0.5'
+        run: |
+          echo "=========================================="
+          echo "Step 3: WordPress更新開始 (1〜2000社)"
+          echo "=========================================="
+          python scripts/4_wordpress_smart_update.py --update-only --limit 2000
+
+      # ============================================================
       # Artifacts保存
       # ============================================================
 

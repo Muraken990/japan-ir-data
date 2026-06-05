@@ -171,7 +171,7 @@ jobs:
       # Step 3: WordPress更新 (既存企業のみ)
       # ============================================================
 
-      - name: Update WordPress (Existing companies only)
+      - name: Update WordPress (Part 2: 2001社〜)
         if: steps.merge.outputs.merge_success == 'true'
         env:
           WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
@@ -180,9 +180,9 @@ jobs:
           REQUEST_DELAY: '0.5'
         run: |
           echo "=========================================="
-          echo "Step 3: WordPress更新開始 (既存企業のみ)"
+          echo "Step 3: WordPress更新開始 (2001社〜)"
           echo "=========================================="
-          python scripts/4_wordpress_smart_update.py --update-only
+          python scripts/4_wordpress_smart_update.py --update-only --skip 2000
 
       # ============================================================
       # Artifacts保存
