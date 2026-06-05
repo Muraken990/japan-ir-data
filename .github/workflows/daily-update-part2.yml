@@ -171,7 +171,7 @@ jobs:
       # Step 3: WordPress更新 (既存企業のみ)
       # ============================================================
 
-      - name: Update WordPress (Part 2: 2001社〜)
+      - name: "Update WordPress (Part 2: 2001社〜)"
         if: steps.merge.outputs.merge_success == 'true'
         env:
           WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
