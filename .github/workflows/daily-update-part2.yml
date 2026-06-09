@@ -93,54 +93,17 @@ jobs:
           git push || true
 
       # ============================================================
-      # Step 2: Part1 + Part2 を統合してマージ
+      # Step 2: データ統合
       # ============================================================
-
-      - name: Merge Part1 + Part2 yfinance data
-        run: |
-          echo "=========================================="
-          echo "Step 2a: Part1 + Part2 統合"
-          echo "=========================================="
-          python - <<'EOF'
-          import pandas as pd
-          import glob
-          import os
-          from datetime import datetime
-
-          date = datetime.now().strftime('%Y-%m-%d')
-          output_dir = "output"
-
-          part1_files = sorted(glob.glob(f"{output_dir}/yfinance_all_fields_*_part1.csv"))
-          part2_files = sorted(glob.glob(f"{output_dir}/yfinance_all_fields_*_part2.csv"))
-
-          if not part1_files:
-              print("⚠️ Part1ファイルが見つかりません。Part2のみ使用します。")
-              part2_file = part2_files[-1] if part2_files else None
-              if not part2_file:
-                  raise FileNotFoundError("Part1もPart2も見つかりません")
-              df = pd.read_csv(part2_file)
-          elif not part2_files:
-              print("⚠️ Part2ファイルが見つかりません。Part1のみ使用します。")
-              df = pd.read_csv(part1_files[-1])
-          else:
-              df1 = pd.read_csv(part1_files[-1])
-              df2 = pd.read_csv(part2_files[-1])
-              df = pd.concat([df1, df2], ignore_index=True)
-              print(f"✅ Part1: {len(df1)}社 + Part2: {len(df2)}社 = 合計: {len(df)}社")
-
-          output_file = f"{output_dir}/yfinance_all_fields_{date}.csv"
-          df.to_csv(output_file, index=False, encoding="utf-8-sig")
-          print(f"✅ 統合ファイル出力: {output_file}")
-          EOF
 
       - name: Merge data
         id: merge
         run: |
           echo "=========================================="
-          echo "Step 2b: データ統合開始"
+          echo "Step 2: データ統合開始"
           echo "=========================================="
 
-          YFINANCE_CSV=$(ls -t output/yfinance_all_fields_[0-9]*.csv 2>/dev/null | grep -v '_part' | head -n1)
+          YFINANCE_CSV=$(ls -t output/yfinance_all_fields_*_part2.csv 2>/dev/null | head -n1)
 
           if [ -z "$YFINANCE_CSV" ]; then
             echo "❌ yfinanceデータが見つかりません"
