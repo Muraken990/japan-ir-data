@@ -37,6 +37,12 @@ DEFAULT_ERRORS_CSV = 'output/yfinance_errors_latest.csv'
 # 処理速度（秒）
 REQUEST_DELAY = float(os.getenv('REQUEST_DELAY', '0.5'))
 
+# WordPress REST API接続設定
+WP_REQUEST_TIMEOUT = int(os.getenv('WP_REQUEST_TIMEOUT', '60'))
+WP_MAX_RETRIES = int(os.getenv('WP_MAX_RETRIES', '4'))
+WP_RETRY_BACKOFF = float(os.getenv('WP_RETRY_BACKOFF', '2'))
+WP_RETRY_STATUS_CODES = {429, 500, 502, 503, 504}
+
 # ============================================================
 # WordPress認証
 # ============================================================
@@ -49,6 +55,49 @@ def get_auth_headers():
         'Authorization': f'Basic {token}',
         'Content-Type': 'application/json'
     }
+
+
+def wordpress_request(method, url, **kwargs):
+    """WordPress REST APIリクエスト（リトライ付き）"""
+    timeout = kwargs.pop('timeout', WP_REQUEST_TIMEOUT)
+    method = method.upper()
+
+    for attempt in range(1, WP_MAX_RETRIES + 1):
+        try:
+            response = requests.request(method, url, timeout=timeout, **kwargs)
+
+            if response.status_code in WP_RETRY_STATUS_CODES and attempt < WP_MAX_RETRIES:
+                wait_seconds = WP_RETRY_BACKOFF ** (attempt - 1)
+                print(
+                    f"   ⚠️  WordPress API {response.status_code} "
+                    f"({method} {url}) → {wait_seconds:.1f}秒後にリトライ "
+                    f"({attempt}/{WP_MAX_RETRIES})"
+                )
+                time.sleep(wait_seconds)
+                continue
+
+            return response
+
+        except (
+            requests.exceptions.ConnectTimeout,
+            requests.exceptions.ReadTimeout,
+            requests.exceptions.Timeout,
+            requests.exceptions.ConnectionError,
+        ) as e:
+            if attempt >= WP_MAX_RETRIES:
+                print(
+                    f"   ❌ WordPress API接続失敗 "
+                    f"({method} {url}, {attempt}/{WP_MAX_RETRIES}): {e}"
+                )
+                raise
+
+            wait_seconds = WP_RETRY_BACKOFF ** (attempt - 1)
+            print(
+                f"   ⏱️  WordPress API接続エラー "
+                f"({method} {url}) → {wait_seconds:.1f}秒後にリトライ "
+                f"({attempt}/{WP_MAX_RETRIES}): {e}"
+            )
+            time.sleep(wait_seconds)
 
 # ============================================================
 # WordPress企業取得
@@ -70,11 +119,11 @@ def get_all_existing_companies(wp_url):
             'context': 'edit'
         }
         
-        response = requests.get(
+        response = wordpress_request(
+            'GET',
             f"{wp_url}/wp-json/wp/v2/company", 
             params=params,
-            headers=headers,
-            timeout=30
+            headers=headers
         )
         
         if response.status_code != 200:
@@ -139,7 +188,7 @@ def get_translation_by_ticker(ticker, target_lang='en'):
     }
     
     try:
-        response = requests.get(url, params=params, headers=get_auth_headers())
+        response = wordpress_request('GET', url, params=params, headers=get_auth_headers())
         if response.status_code != 200:
             return None
             
@@ -428,7 +477,7 @@ def create_company(company_data, status='publish', dry_run=False):
     }
 
     try:
-        response = requests.post(url, headers=headers, json=data, timeout=30)
+        response = wordpress_request('POST', url, headers=headers, json=data)
         return response.status_code == 201
     except Exception as e:
         return False
@@ -679,7 +728,7 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     }
 
     try:
-        response = requests.post(url, headers=headers, json=data, timeout=30)
+        response = wordpress_request('POST', url, headers=headers, json=data)
         return response.status_code == 200
     except Exception as e:
         return False
@@ -752,7 +801,7 @@ def unpublish_company(post_id, dry_run=False):
     data = {'status': 'draft'}
     
     try:
-        response = requests.post(url, headers=headers, json=data, timeout=30)
+        response = wordpress_request('POST', url, headers=headers, json=data)
         return response.status_code == 200
     except Exception as e:
         return False
