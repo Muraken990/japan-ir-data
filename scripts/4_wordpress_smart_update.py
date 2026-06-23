@@ -39,8 +39,13 @@ REQUEST_DELAY = float(os.getenv('REQUEST_DELAY', '0.5'))
 
 # WordPress REST API接続設定
 WP_REQUEST_TIMEOUT = int(os.getenv('WP_REQUEST_TIMEOUT', '60'))
-WP_MAX_RETRIES = int(os.getenv('WP_MAX_RETRIES', '4'))
+WP_MAX_RETRIES = int(os.getenv('WP_MAX_RETRIES', '5'))
 WP_RETRY_BACKOFF = float(os.getenv('WP_RETRY_BACKOFF', '2'))
+WP_RETRY_DELAYS = [
+    float(value.strip())
+    for value in os.getenv('WP_RETRY_DELAYS', '60,180,300,600').split(',')
+    if value.strip()
+]
 WP_RETRY_STATUS_CODES = {429, 500, 502, 503, 504}
 
 # ============================================================
@@ -67,7 +72,7 @@ def wordpress_request(method, url, **kwargs):
             response = requests.request(method, url, timeout=timeout, **kwargs)
 
             if response.status_code in WP_RETRY_STATUS_CODES and attempt < WP_MAX_RETRIES:
-                wait_seconds = WP_RETRY_BACKOFF ** (attempt - 1)
+                wait_seconds = get_retry_delay(attempt)
                 print(
                     f"   ⚠️  WordPress API {response.status_code} "
                     f"({method} {url}) → {wait_seconds:.1f}秒後にリトライ "
@@ -91,13 +96,37 @@ def wordpress_request(method, url, **kwargs):
                 )
                 raise
 
-            wait_seconds = WP_RETRY_BACKOFF ** (attempt - 1)
+            wait_seconds = get_retry_delay(attempt)
             print(
                 f"   ⏱️  WordPress API接続エラー "
                 f"({method} {url}) → {wait_seconds:.1f}秒後にリトライ "
                 f"({attempt}/{WP_MAX_RETRIES}): {e}"
             )
             time.sleep(wait_seconds)
+
+
+def get_retry_delay(attempt):
+    """失敗回数に応じた待機秒数を返す。"""
+    delay_index = attempt - 1
+    if delay_index < len(WP_RETRY_DELAYS):
+        return WP_RETRY_DELAYS[delay_index]
+    return WP_RETRY_BACKOFF ** delay_index
+
+
+def preflight_wordpress_api(wp_url):
+    """更新開始前にWordPress REST APIの認証と応答を確認する。"""
+    response = wordpress_request(
+        'GET',
+        f"{wp_url}/wp-json/wp/v2/company",
+        params={
+            'per_page': 1,
+            'context': 'edit',
+            '_fields': 'id'
+        },
+        headers=get_auth_headers()
+    )
+    response.raise_for_status()
+    print(f"✅ WordPress API疎通確認成功: HTTP {response.status_code}")
 
 # ============================================================
 # WordPress企業取得
@@ -1013,8 +1042,19 @@ def main():
         action='store_true',
         help='既存企業のみ更新 (新規作成はスキップ)'
     )
+
+    parser.add_argument(
+        '--preflight-only',
+        action='store_true',
+        help='WordPress APIの疎通確認のみ実行'
+    )
     
     args = parser.parse_args()
+
+    if args.preflight_only:
+        print("🔍 WordPress API疎通確認")
+        preflight_wordpress_api(WP_URL)
+        return
     
     print("=" * 60)
     print("🚀 WordPress企業データ スマート更新")

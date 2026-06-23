@@ -134,22 +134,14 @@ jobs:
             exit 1
           fi
 
-      # ============================================================
-      # Step 3: WordPress更新 (1〜2000社)
-      # ============================================================
-
-      - name: "Update WordPress (Part 1: 1-2000社)"
+      - name: Upload WordPress input
         if: steps.merge.outputs.merge_success == 'true'
-        env:
-          WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
-          WP_USER: ${{ secrets.WP_USER }}
-          WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
-          REQUEST_DELAY: '0.5'
-        run: |
-          echo "=========================================="
-          echo "Step 3: WordPress更新開始 (1〜2000社)"
-          echo "=========================================="
-          python scripts/4_wordpress_smart_update.py --update-only --limit 2000
+        uses: actions/upload-artifact@v5
+        with:
+          name: part1-wordpress-input
+          path: data/integrated_company_data.csv
+          retention-days: 2
+          if-no-files-found: error
 
       # ============================================================
       # Artifacts保存
@@ -182,5 +174,61 @@ jobs:
       - name: Notify on failure
         if: failure()
         run: |
-          echo "❌ Part 1 ワークフロー実行に失敗しました"
+          echo "❌ Part 1 データ生成に失敗しました"
+          echo "詳細: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+  part1-wordpress:
+    name: "WordPress update (Part 1: 1-2000社)"
+    needs: part1-yfinance
+    runs-on: ubuntu-latest
+    env:
+      WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
+      WP_USER: ${{ secrets.WP_USER }}
+      WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+      REQUEST_DELAY: '0.5'
+      WP_REQUEST_TIMEOUT: '60'
+      WP_MAX_RETRIES: '5'
+      WP_RETRY_DELAYS: '60,180,300,600'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas requests
+
+      - name: Download WordPress input
+        uses: actions/download-artifact@v5
+        with:
+          name: part1-wordpress-input
+          path: data
+
+      - name: Preflight WordPress API
+        run: python scripts/4_wordpress_smart_update.py --preflight-only
+
+      - name: "Update WordPress (Part 1: 1-2000社)"
+        run: |
+          echo "=========================================="
+          echo "WordPress更新開始 (1〜2000社)"
+          echo "=========================================="
+          python scripts/4_wordpress_smart_update.py --update-only --limit 2000
+
+      - name: Generate WordPress summary
+        if: always()
+        run: |
+          echo "## WordPress更新 Part 1" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**実行日時:** $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M:%S JST')" >> $GITHUB_STEP_SUMMARY
+          echo "**対象:** 1〜2,000社" >> $GITHUB_STEP_SUMMARY
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Part 1 WordPress更新に失敗しました"
+          echo "失敗jobだけを再実行してください"
           echo "詳細: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
