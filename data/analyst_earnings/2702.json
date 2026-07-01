@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:27.979690",
+  "fetched_at": "2026-07-01T06:10:22.609530",
   "ticker": "2702",
   "ticker_full": "2702.T",
   "company_name": "MCDONALD'S HOLDINGS COMPANY(JAP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
-    "buy": 1,
+    "buy": 2,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.66667
+    "total_analysts": 3,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 7720.0,
+    "current": 7360.0,
     "high": 9500.0,
     "low": 8900.0,
     "mean": 9200.0,
     "median": 9200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-02-12",
+        "eps_estimate": 27.4,
+        "eps_actual": 26.92,
+        "surprise_pct": -1.75
+      },
+      {
+        "date": "2009-11-02",
+        "eps_estimate": 34.06,
+        "eps_actual": 34.11,
+        "surprise_pct": 0.15
+      },
+      {
+        "date": "2009-05-12",
+        "eps_estimate": 26.54,
+        "eps_actual": 25.26,
+        "surprise_pct": -4.82
+      },
+      {
+        "date": "2009-02-04",
+        "eps_estimate": -9.66,
+        "eps_actual": 19.61,
+        "surprise_pct": 303.0
+      },
+      {
+        "date": "2008-11-06",
+        "eps_estimate": 27.87,
+        "eps_actual": 27.02,
+        "surprise_pct": -3.05
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 35.99,
-    "institution_pct": 8.85,
+    "institution_pct": 8.55,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 8.85
+        "value": 8.55
       },
       {
         "label": "",
-        "value": 13.83
+        "value": 13.35
       },
       {
         "label": "",
-        "value": 113.0
+        "value": 115.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2023-09-30",
         "pct_held": 0.02,
         "pct_change": 5.47,
-        "value": 253216000
+        "value": 241408000
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.93,
         "pct_change": -0.11,
-        "value": 9546552000
+        "value": 9101376000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 802000,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.6,
-        "pct_change": 1.62,
-        "value": 6191440000
+        "shares": 825800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.62,
+        "pct_change": 2.97,
+        "value": 6077888000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -83,31 +121,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.5,
         "pct_change": 0.68,
-        "value": 5120676000
+        "value": 4881888000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 388200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.29,
-        "pct_change": -0.28,
-        "value": 2996904000
+        "shares": 405600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.31,
+        "pct_change": 4.48,
+        "value": 2985216000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 340600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.26,
-        "pct_change": 1.85,
-        "value": 2629432000
+        "shares": 336300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": -1.26,
+        "value": 2475168000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 186500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.14,
-        "pct_change": 0.0,
-        "value": 1439780000
+        "shares": 194600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.15,
+        "pct_change": 4.34,
+        "value": 1432256000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -115,15 +153,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 1407356000
+        "value": 1341728000
       },
       {
         "holder": "Fidelity Concord Street TRT-Fidelity SAI Global ex U.S. Low Volatility",
         "shares": 186900,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 1442868000
+        "value": 1375584000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -131,15 +169,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.12,
         "pct_change": 32.44,
-        "value": 1254500000
+        "value": 1196000000
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard Global Minimum Volatility Fund",
         "shares": 146900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 1134068000
+        "value": 1081184000
       }
     ]
   }

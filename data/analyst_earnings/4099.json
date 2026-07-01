@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:11.087962",
+  "fetched_at": "2026-07-01T05:53:54.547391",
   "ticker": "4099",
   "ticker_full": "4099.T",
   "company_name": "SHIKOKU KASEI HOLDINGS CORPORAT",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6460.0,
-    "high": 3200.0,
-    "low": 3200.0,
-    "mean": 3200.0,
-    "median": 3200.0
+    "current": 3540.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-04-26",
+        "eps_estimate": 14.0,
+        "eps_actual": 13.83,
+        "surprise_pct": -1.25
+      },
+      {
+        "date": "2019-04-24",
+        "eps_estimate": 14.45,
+        "eps_actual": 9.09,
+        "surprise_pct": -37.13
+      },
+      {
+        "date": "2013-01-28",
+        "eps_estimate": 8.81,
+        "eps_actual": 7.24,
+        "surprise_pct": -17.88
+      },
+      {
+        "date": "2012-07-25",
+        "eps_estimate": 8.39,
+        "eps_actual": 6.54,
+        "surprise_pct": -22.07
+      },
+      {
+        "date": "2012-04-25",
+        "eps_estimate": 8.16,
+        "eps_actual": 5.59,
+        "surprise_pct": -31.51
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.11,
-    "institution_pct": 26.33,
+    "institution_pct": 26.88,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 26.33
+        "value": 26.88
       },
       {
         "label": "",
-        "value": 37.68
+        "value": 38.47
       },
       {
         "label": "",
-        "value": 67.0
+        "value": 73.0
       }
     ],
     "institutional_holders": [],

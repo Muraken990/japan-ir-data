@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:12:14.798512",
+  "fetched_at": "2026-07-01T05:53:44.863759",
   "ticker": "6810",
   "ticker_full": "6810.T",
   "company_name": "MAXELL LTD",
@@ -13,25 +13,63 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.83333
   },
   "target_prices": {
     "has_data": true,
-    "current": 1978.0,
+    "current": 2111.0,
     "high": 3000.0,
     "low": 1800.0,
-    "mean": 2375.0,
-    "median": 2425.0
+    "mean": 2270.0,
+    "median": 2235.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": 38.55,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 91.28,
+        "eps_actual": 53.98,
+        "surprise_pct": -40.86
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 33.5,
+        "eps_actual": 49.89,
+        "surprise_pct": 48.93
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 39.42,
+        "eps_actual": 61.22,
+        "surprise_pct": 55.3
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 38.55,
+        "eps_actual": 36.94,
+        "surprise_pct": -4.18
+      },
+      {
+        "date": "2025-04-25",
+        "eps_estimate": 38.05,
+        "eps_actual": -32.35,
+        "surprise_pct": -185.02
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.88,
-    "institution_pct": 41.49,
+    "institution_pct": 42.33,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 41.49
+        "value": 42.33
       },
       {
         "label": "",
-        "value": 46.05
+        "value": 46.98
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [],

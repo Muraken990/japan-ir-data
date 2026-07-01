@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:34.148962",
+  "fetched_at": "2026-07-01T06:10:28.362560",
   "ticker": "8354",
   "ticker_full": "8354.T",
   "company_name": "FUKUOKA FINANCIAL GROUP INC.",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.55556
   },
   "target_prices": {
     "has_data": true,
-    "current": 6415.0,
-    "high": 7950.0,
+    "current": 6928.0,
+    "high": 8400.0,
     "low": 6300.0,
-    "mean": 6908.75,
-    "median": 6870.0
+    "mean": 7305.0,
+    "median": 7345.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": 105.35,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 85.85,
+        "eps_actual": 79.82,
+        "surprise_pct": -7.02
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 98.75,
+        "eps_actual": 141.67,
+        "surprise_pct": 43.46
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 109.43,
+        "eps_actual": 109.72,
+        "surprise_pct": 0.27
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 105.35,
+        "eps_actual": 120.78,
+        "surprise_pct": 14.65
+      },
+      {
+        "date": "2025-05-11",
+        "eps_estimate": 79.08,
+        "eps_actual": 60.3,
+        "surprise_pct": -23.74
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.93,
-    "institution_pct": 45.1,
+    "institution_pct": 45.66,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 45.1
+        "value": 45.66
       },
       {
         "label": "",
-        "value": 47.94
+        "value": 48.53
       },
       {
         "label": "",
-        "value": 183.0
+        "value": 182.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2022-03-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 89810000
+        "value": 96992000
       }
     ],
     "mutualfund_holders": [
@@ -67,23 +105,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.35,
         "pct_change": 0.27,
-        "value": 16606651630
+        "value": 17934666016
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1682242,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.88,
-        "pct_change": 1.94,
-        "value": 10791582430
+        "shares": 1725842,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.9,
+        "pct_change": 2.59,
+        "value": 11956633376
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1207480,
+        "shares": 1195280,
         "date_reported": "2026-04-30",
         "pct_held": 0.63,
-        "pct_change": 2.44,
-        "value": 7745984200
+        "pct_change": 1.41,
+        "value": 8280899840
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1015700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.53,
+        "pct_change": 3.69,
+        "value": 7036769600
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -91,7 +137,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.41,
         "pct_change": 9.25,
-        "value": 5084529000
+        "value": 5491132800
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -99,47 +145,39 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 4990870000
+        "value": 5389984000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 686100,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.36,
-        "pct_change": 1.58,
-        "value": 4401331500
+        "shares": 676800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.35,
+        "pct_change": -1.36,
+        "value": 4688870400
+      },
+      {
+        "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
+        "shares": 547200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.29,
+        "pct_change": 2.14,
+        "value": 3791001600
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 505700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.26,
-        "pct_change": -3.69,
-        "value": 3244065500
+        "shares": 475300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": 0.0,
+        "value": 3292878400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 402912,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 2.75,
-        "value": 2584680480
-      },
-      {
-        "holder": "AQR Funds-AQR Equity Market Neutral Fund",
-        "shares": 400800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.21,
-        "pct_change": 11.64,
-        "value": 2571132000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 356037,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.19,
-        "pct_change": 0.93,
-        "value": 2283977355
+        "shares": 416412,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.22,
+        "pct_change": 3.35,
+        "value": 2884902336
       }
     ]
   }

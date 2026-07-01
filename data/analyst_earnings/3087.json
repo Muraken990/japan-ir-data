@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:04.937752",
+  "fetched_at": "2026-07-01T05:53:48.755990",
   "ticker": "3087",
   "ticker_full": "3087.T",
   "company_name": "DOUTOR NICHIRES HOLDINGS CO LTD",
@@ -18,32 +18,65 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2606.0,
+    "current": 2668.0,
     "high": 2900.0,
     "low": 2900.0,
     "mean": 2900.0,
     "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-01-11",
+        "eps_estimate": 36.3,
+        "eps_actual": 30.56,
+        "surprise_pct": -15.81
+      },
+      {
+        "date": "2021-01-13",
+        "eps_estimate": 18.1,
+        "eps_actual": 15.71,
+        "surprise_pct": -13.2
+      },
+      {
+        "date": "2020-01-13",
+        "eps_estimate": 29.4,
+        "eps_actual": 32.52,
+        "surprise_pct": 10.61
+      },
+      {
+        "date": "2019-10-14",
+        "eps_estimate": 45.8,
+        "eps_actual": 45.21,
+        "surprise_pct": -1.29
+      },
+      {
+        "date": "2019-04-11",
+        "eps_estimate": 26.1,
+        "eps_actual": 15.57,
+        "surprise_pct": -40.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 31.56,
-    "institution_pct": 13.26,
+    "insider_pct": 31.73,
+    "institution_pct": 12.8,
     "major_holders": [
       {
         "label": "",
-        "value": 31.56
+        "value": 31.73
       },
       {
         "label": "",
-        "value": 13.26
+        "value": 12.8
       },
       {
         "label": "",
-        "value": 19.38
+        "value": 18.74
       },
       {
         "label": "",

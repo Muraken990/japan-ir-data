@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:13.113802",
+  "fetched_at": "2026-07-01T05:48:35.511739",
   "ticker": "3636",
   "ticker_full": "3636.T",
   "company_name": "MITSUBISHI RESEARCH INSTITUTE I",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4700.0,
+    "current": 4410.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2021-11-01",
+        "eps_estimate": -2.8,
+        "eps_actual": -2.2,
+        "surprise_pct": 21.43
+      },
+      {
+        "date": "2020-11-03",
+        "eps_estimate": -36.9,
+        "eps_actual": -6.37,
+        "surprise_pct": 82.74
+      },
+      {
+        "date": "2020-08-02",
+        "eps_estimate": 24.6,
+        "eps_actual": 45.04,
+        "surprise_pct": 83.09
+      },
+      {
+        "date": "2020-05-07",
+        "eps_estimate": 208.1,
+        "eps_actual": 255.18,
+        "surprise_pct": 22.62
+      },
+      {
+        "date": "2019-11-12",
+        "eps_estimate": 16.3,
+        "eps_actual": 22.41,
+        "surprise_pct": 37.48
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 38.9,
-    "institution_pct": 18.79,
+    "institution_pct": 18.8,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 18.79
+        "value": 18.8
       },
       {
         "label": "",
-        "value": 30.76
+        "value": 30.78
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],

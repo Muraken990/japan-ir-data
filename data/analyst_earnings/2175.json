@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:05.033725",
+  "fetched_at": "2026-07-01T05:53:48.840788",
   "ticker": "2175",
   "ticker_full": "2175.T",
   "company_name": "SMS CO LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 5,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.2
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2011.0,
+    "current": 2189.0,
     "high": 1900.0,
     "low": 1450.0,
     "mean": 1706.2,
     "median": 1700.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-29",
+      "eps_estimate": 10.09,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 25.48,
+        "eps_actual": -230.11,
+        "surprise_pct": -1003.1
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 0.91,
+        "eps_actual": -3.84,
+        "surprise_pct": -521.98
+      },
+      {
+        "date": "2025-10-28",
+        "eps_estimate": 5.49,
+        "eps_actual": 13.12,
+        "surprise_pct": 138.98
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 10.09,
+        "eps_actual": 47.17,
+        "surprise_pct": 367.49
+      },
+      {
+        "date": "2025-04-28",
+        "eps_estimate": 24.59,
+        "eps_actual": 25.93,
+        "surprise_pct": 5.47
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.57,
-    "institution_pct": 52.17,
+    "institution_pct": 52.84,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 52.17
+        "value": 52.84
       },
       {
         "label": "",
-        "value": 66.52
+        "value": 67.37
       },
       {
         "label": "",
-        "value": 90.0
+        "value": 91.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.12,
         "pct_change": -30.93,
-        "value": 201934565
+        "value": 219708020
       }
     ],
     "mutualfund_holders": [
@@ -67,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.63,
         "pct_change": 0.0,
-        "value": 2862859600
+        "value": 3114836800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -75,15 +113,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.07,
         "pct_change": 0.0,
-        "value": 1885292390
-      },
-      {
-        "holder": "AIM Intl Mutual Fd.s -Invesco Intl Small-Mid Company Fd.",
-        "shares": 811700,
-        "date_reported": "2025-10-31",
-        "pct_held": 0.93,
-        "pct_change": -65.28,
-        "value": 1632328700
+        "value": 2051228120
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -91,15 +121,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.72,
         "pct_change": 0.0,
-        "value": 1260494800
+        "value": 1371438400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 599989,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.69,
-        "pct_change": 0.0,
-        "value": 1206577879
+        "shares": 615789,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.7,
+        "pct_change": 2.63,
+        "value": 1347346332
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -107,15 +137,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.69,
         "pct_change": 0.75,
-        "value": 1211627500
-      },
-      {
-        "holder": "JNL Series Trust-JNL/Lazard International Quality Growth Fund",
-        "shares": 379500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.43,
-        "pct_change": -1.22,
-        "value": 763174500
+        "value": 1318270000
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -123,7 +145,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": -6.79,
-        "value": 717766120
+        "value": 780940960
       },
       {
         "holder": "LAZARD FUNDS INC-Lazard International Quality Growth Portfolio",
@@ -131,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.4,
         "pct_change": -1.85,
-        "value": 705056600
+        "value": 767112800
       },
       {
         "holder": "Brown Capital Mgmt Mutual Fd.s-Brown Capital Mgmt Intl Small Company F",
@@ -139,7 +161,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.37,
         "pct_change": -69.99,
-        "value": 644686380
+        "value": 701429040
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Pacific Basin Fund",
+        "shares": 272600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.31,
+        "pct_change": 0.0,
+        "value": 596448800
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 263700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": -0.23,
+        "value": 576975600
       }
     ]
   }

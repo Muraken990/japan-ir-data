@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:12:12.644687",
+  "fetched_at": "2026-07-01T05:53:43.151006",
   "ticker": "7575",
   "ticker_full": "7575.T",
   "company_name": "JAPAN LIFELINE CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 2,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1300.0,
+    "current": 1292.0,
     "high": 1690.0,
     "low": 1400.0,
     "mean": 1546.6666,
     "median": 1550.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-01-31",
+        "eps_estimate": 29.01,
+        "eps_actual": 11.2,
+        "surprise_pct": -61.39
+      },
+      {
+        "date": "2022-07-28",
+        "eps_estimate": 21.27,
+        "eps_actual": 24.73,
+        "surprise_pct": 16.26
+      },
+      {
+        "date": "2022-05-11",
+        "eps_estimate": 26.28,
+        "eps_actual": 24.44,
+        "surprise_pct": -7.01
+      },
+      {
+        "date": "2022-01-28",
+        "eps_estimate": 30.9,
+        "eps_actual": 24.02,
+        "surprise_pct": -22.26
+      },
+      {
+        "date": "2021-11-01",
+        "eps_estimate": 28.9,
+        "eps_actual": 23.49,
+        "surprise_pct": -18.73
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 24.88,
-    "institution_pct": 25.58,
+    "institution_pct": 26.46,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 25.58
+        "value": 26.46
       },
       {
         "label": "",
-        "value": 34.05
+        "value": 35.22
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 88.0
       }
     ],
     "institutional_holders": [],

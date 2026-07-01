@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:26.817496",
+  "fetched_at": "2026-07-01T06:10:20.349078",
   "ticker": "2327",
   "ticker_full": "2327.T",
   "company_name": "NS SOLUTIONS CORPORATION",
@@ -14,24 +14,62 @@
     "strong_sell": 1,
     "total_analysts": 10,
     "recommendation_key": "underperform",
-    "recommendation_mean": 3.6
+    "recommendation_mean": 3.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 3546.0,
+    "current": 3338.0,
     "high": 4200.0,
     "low": 2670.0,
-    "mean": 3562.0,
-    "median": 3525.0
+    "mean": 3468.889,
+    "median": 3500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": 32.79,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 48.89,
+        "eps_actual": 53.08,
+        "surprise_pct": 8.58
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 43.78,
+        "eps_actual": 49.8,
+        "surprise_pct": 13.75
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 37.21,
+        "eps_actual": 37.69,
+        "surprise_pct": 1.29
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 34.48,
+        "eps_actual": 27.93,
+        "surprise_pct": -19.0
+      },
+      {
+        "date": "2025-04-28",
+        "eps_estimate": 41.65,
+        "eps_actual": 36.34,
+        "surprise_pct": -12.75
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 65.54,
-    "institution_pct": 19.87,
+    "institution_pct": 19.17,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 19.87
+        "value": 19.17
       },
       {
         "label": "",
-        "value": 57.67
+        "value": 55.62
       },
       {
         "label": "",
-        "value": 92.0
+        "value": 87.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 3.95,
         "pct_change": 0.0,
-        "value": 12812761800
+        "value": 12061195400
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -65,7 +103,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.46,
         "pct_change": -0.23,
-        "value": 1494837576
+        "value": 1407153928
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.25,
         "pct_change": -0.21,
-        "value": 826005240
+        "value": 777553720
       },
       {
         "holder": "Harbor International Fund",
@@ -81,7 +119,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.21,
         "pct_change": -1.11,
-        "value": 692179200
+        "value": 651577600
       },
       {
         "holder": "Bridge Builder Tr-Bridge Builder International Equity Fd",
@@ -89,7 +127,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.19,
         "pct_change": -1.22,
-        "value": 602465400
+        "value": 567126200
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -97,7 +135,7 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 617004000
+        "value": 580812000
       },
       {
         "holder": "Goldman Sachs International Small Cap Insights Fund",
@@ -105,7 +143,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.16,
         "pct_change": -19.77,
-        "value": 509560200
+        "value": 479670600
       },
       {
         "holder": "Lord Abbett Securities Trust-International Opportunities",
@@ -113,7 +151,7 @@
         "date_reported": "2022-10-31",
         "pct_held": 0.16,
         "pct_change": -41.73,
-        "value": 533318400
+        "value": 502035200
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.16,
         "pct_change": 0.56,
-        "value": 512042400
+        "value": 482007200
       },
       {
         "holder": "Valic Company II-International Opportunities Fd",
@@ -129,7 +167,7 @@
         "date_reported": "2022-11-30",
         "pct_held": 0.11,
         "pct_change": -13.33,
-        "value": 368784000
+        "value": 347152000
       }
     ],
     "mutualfund_holders": []

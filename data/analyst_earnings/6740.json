@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:03.637012",
+  "fetched_at": "2026-07-01T05:47:40.864870",
   "ticker": "6740",
   "ticker_full": "6740.T",
   "company_name": "JAPAN DISPLAY INC",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 53.0,
+    "current": 55.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-02-08",
+        "eps_estimate": -2.06,
+        "eps_actual": -1.5,
+        "surprise_pct": 27.18
+      },
+      {
+        "date": "2023-11-09",
+        "eps_estimate": -2.94,
+        "eps_actual": -2.66,
+        "surprise_pct": 9.52
+      },
+      {
+        "date": "2023-08-08",
+        "eps_estimate": -6.75,
+        "eps_actual": -1.98,
+        "surprise_pct": 70.67
+      },
+      {
+        "date": "2023-05-11",
+        "eps_estimate": -6.35,
+        "eps_actual": -1.77,
+        "surprise_pct": 72.13
+      },
+      {
+        "date": "2023-02-09",
+        "eps_estimate": 0.06,
+        "eps_actual": -1.22,
+        "surprise_pct": -2133.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 1.04,
-    "institution_pct": 81.08,
+    "insider_pct": 1.0,
+    "institution_pct": 78.07,
     "major_holders": [
       {
         "label": "",
-        "value": 1.04
+        "value": 1.0
       },
       {
         "label": "",
-        "value": 81.08
+        "value": 78.07
       },
       {
         "label": "",
-        "value": 81.94
+        "value": 78.85
       },
       {
         "label": "",
-        "value": 22.0
+        "value": 25.0
       }
     ],
     "institutional_holders": [
@@ -54,17 +87,17 @@
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 9015514,
         "date_reported": "2026-01-31",
-        "pct_held": 0.23,
+        "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 468806728
+        "value": 495853270
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 6519472,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.17,
-        "pct_change": 0.0,
-        "value": 339012544
+        "shares": 7760172,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.18,
+        "pct_change": 19.03,
+        "value": 426809460
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -72,23 +105,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.06,
         "pct_change": 0.0,
-        "value": 129755600
+        "value": 137241500
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 1588210,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.04,
-        "pct_change": 1.55,
-        "value": 82586920
+        "shares": 853010,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.02,
+        "pct_change": -46.29,
+        "value": 46915550
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
-        "shares": 696539,
-        "date_reported": "2026-01-31",
+        "shares": 898039,
+        "date_reported": "2026-04-30",
         "pct_held": 0.02,
-        "pct_change": 0.0,
-        "value": 36220028
+        "pct_change": 28.93,
+        "value": 49392145
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
@@ -96,7 +129,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 22583600
+        "value": 23886500
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard ESG International Stock ETF",
@@ -104,7 +137,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.0,
         "pct_change": 51.3,
-        "value": 7285200
+        "value": 7705500
       },
       {
         "holder": "EQ Advisors Trust-EQ/International Value Managed Volatility Portfolio",
@@ -112,7 +145,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 899600
+        "value": 951500
+      },
+      {
+        "holder": "-SSgA SPDR ETFS Europe I-State Street SPDR MSCI World Small Cap UCITS ",
+        "shares": 132500,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 7287500
       }
     ],
     "mutualfund_holders": []

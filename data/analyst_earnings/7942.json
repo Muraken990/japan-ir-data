@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:10.214270",
+  "fetched_at": "2026-07-01T05:47:47.396753",
   "ticker": "7942",
   "ticker_full": "7942.T",
   "company_name": "JSP CORP",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2549.0,
+    "current": 2485.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2022-04-27",
+        "eps_estimate": -3.02,
+        "eps_actual": -13.32,
+        "surprise_pct": -341.06
+      },
+      {
+        "date": "2022-01-30",
+        "eps_estimate": 17.31,
+        "eps_actual": 33.89,
+        "surprise_pct": 95.78
+      },
+      {
+        "date": "2021-10-28",
+        "eps_estimate": 23.19,
+        "eps_actual": 39.71,
+        "surprise_pct": 71.24
+      },
+      {
+        "date": "2021-07-29",
+        "eps_estimate": 31.51,
+        "eps_actual": 36.78,
+        "surprise_pct": 16.72
+      },
+      {
+        "date": "2021-04-29",
+        "eps_estimate": -12.01,
+        "eps_actual": -1.4,
+        "surprise_pct": 88.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 54.0,
-    "institution_pct": 10.25,
+    "institution_pct": 10.28,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 10.25
+        "value": 10.28
       },
       {
         "label": "",
-        "value": 22.27
+        "value": 22.34
       },
       {
         "label": "",
-        "value": 40.0
+        "value": 43.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +90,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.63,
         "pct_change": 0.0,
-        "value": 421701462
+        "value": 411113430
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 148100,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.57,
+        "pct_change": 12.11,
+        "value": 368028500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 149099,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.57,
         "pct_change": 0.0,
-        "value": 380053351
+        "value": 370511015
       },
       {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 132100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.5,
-        "pct_change": 8.63,
-        "value": 336722900
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 138424,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.53,
+        "pct_change": 40.5,
+        "value": 343983640
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
@@ -81,23 +122,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": 0.29,
-        "value": 260507800
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 98524,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.38,
-        "pct_change": 0.0,
-        "value": 251137676
+        "value": 253967000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 74626,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 15.12,
-        "value": 190221674
+        "shares": 78126,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 4.69,
+        "value": 194143110
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,7 +138,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": -6.64,
-        "value": 128979400
+        "value": 125741000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -113,7 +146,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 15.16,
-        "value": 120057900
+        "value": 117043500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -121,15 +154,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 114959900
+        "value": 112073500
       },
       {
         "holder": "SEI Inst. INVESTMENTS TRT-SIIT Global Mnged Volatility Fd.",
         "shares": 29300,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 74685700
+        "value": 72810500
       }
     ],
     "mutualfund_holders": []

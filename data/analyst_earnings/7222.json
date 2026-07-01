@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:14:14.076754",
+  "fetched_at": "2026-07-01T05:54:55.001303",
   "ticker": "7222",
   "ticker_full": "7222.T",
   "company_name": "NISSAN SHATAI CO",
@@ -17,20 +17,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1034.0,
+    "current": 932.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 10.7,
+        "eps_actual": 12.38,
+        "surprise_pct": 15.72
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": 6.42,
+        "eps_actual": 7.65,
+        "surprise_pct": 19.21
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 8.8,
+        "eps_actual": 73.32,
+        "surprise_pct": 733.56
+      },
+      {
+        "date": "2015-02-08",
+        "eps_estimate": 7.09,
+        "eps_actual": 13.58,
+        "surprise_pct": 91.54
+      },
+      {
+        "date": "2014-11-03",
+        "eps_estimate": 10.75,
+        "eps_actual": 11.65,
+        "surprise_pct": 8.42
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 53.47,
-    "institution_pct": 45.32,
+    "institution_pct": 45.33,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +76,11 @@
       },
       {
         "label": "",
-        "value": 45.32
+        "value": 45.33
       },
       {
         "label": "",
-        "value": 97.4
+        "value": 97.43
       },
       {
         "label": "",
@@ -56,31 +94,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.65,
         "pct_change": 0.0,
-        "value": 907007222
+        "value": 817534556
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 583041,
-        "date_reported": "2025-12-31",
+        "shares": 580141,
+        "date_reported": "2026-03-31",
         "pct_held": 0.43,
-        "pct_change": 4.72,
-        "value": 602864394
+        "pct_change": -0.5,
+        "value": 540691412
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
         "shares": 531200,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 549260800
+        "value": 495078400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 287600,
-        "date_reported": "2026-03-31",
+        "shares": 286800,
+        "date_reported": "2026-04-30",
         "pct_held": 0.21,
-        "pct_change": 1.41,
-        "value": 297378400
+        "pct_change": -0.28,
+        "value": 267297600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -88,15 +126,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 249297400
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 228001,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": -24.73,
-        "value": 235753034
+        "value": 224705200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -104,7 +134,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 237834476
+        "value": 214373048
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -112,15 +142,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.14,
         "pct_change": -8.1,
-        "value": 202974200
-      },
-      {
-        "holder": "HC Capital Trust-The Institutional International Equity Portfolio",
-        "shares": 157250,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.12,
-        "pct_change": 27.28,
-        "value": 162596500
+        "value": 182951600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -128,7 +150,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.1,
         "pct_change": -1.15,
-        "value": 137830132
+        "value": 124233736
+      },
+      {
+        "holder": "HC Capital Trust-The Institutional International Equity Portfolio",
+        "shares": 131850,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.1,
+        "pct_change": -16.15,
+        "value": 122884200
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
+        "shares": 69010,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.05,
+        "pct_change": -15.85,
+        "value": 64317320
       }
     ],
     "mutualfund_holders": []

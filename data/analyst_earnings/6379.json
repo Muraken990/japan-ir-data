@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:16.239559",
+  "fetched_at": "2026-07-01T05:54:43.750687",
   "ticker": "6379",
   "ticker_full": "6379.T",
   "company_name": "RAIZNEXT CORPORATION",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2180.0,
+    "current": 2258.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 13.35,
+        "eps_actual": 15.01,
+        "surprise_pct": 12.46
+      },
+      {
+        "date": "2015-08-02",
+        "eps_estimate": 3.79,
+        "eps_actual": 1.6,
+        "surprise_pct": -57.73
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 15.22,
+        "eps_actual": 14.8,
+        "surprise_pct": -2.76
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": 6.61,
+        "eps_actual": 13.04,
+        "surprise_pct": 97.4
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 38.45,
+        "eps_actual": 36.62,
+        "surprise_pct": -4.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 58.15,
-    "institution_pct": 13.98,
+    "institution_pct": 14.27,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 13.98
+        "value": 14.27
       },
       {
         "label": "",
-        "value": 33.39
+        "value": 34.1
       },
       {
         "label": "",
-        "value": 61.0
+        "value": 60.0
       }
     ],
     "institutional_holders": [],

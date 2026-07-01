@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:11.205240",
+  "fetched_at": "2026-07-01T05:47:48.380075",
   "ticker": "7199",
   "ticker_full": "7199.T",
   "company_name": "PREMIUM GROUP CO LTD",
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1959.0,
-    "high": 4000.0,
-    "low": 4000.0,
-    "mean": 4000.0,
-    "median": 4000.0
+    "current": 2110.0,
+    "high": 4200.0,
+    "low": 4200.0,
+    "mean": 4200.0,
+    "median": 4200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.83,
-    "institution_pct": 34.15,
+    "institution_pct": 33.25,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 34.15
+        "value": 33.25
       },
       {
         "label": "",
-        "value": 37.88
+        "value": 36.88
       },
       {
         "label": "",
-        "value": 55.0
+        "value": 54.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +64,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.26,
         "pct_change": 0.0,
-        "value": 1005874017
+        "value": 1083406930
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 322200,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.79,
-        "pct_change": 0.0,
-        "value": 631189800
+        "shares": 349300,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.86,
+        "pct_change": 8.41,
+        "value": 737023000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 175200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.43,
-        "pct_change": -2.29,
-        "value": 343216800
+        "pct_change": 0.0,
+        "value": 369672000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -81,7 +88,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 293850000
+        "value": 316500000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -89,7 +96,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": 2.3,
-        "value": 261330600
+        "value": 281474000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -97,15 +104,31 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.19,
         "pct_change": 10.76,
-        "value": 155170431
+        "value": 167130990
+      },
+      {
+        "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
+        "shares": 75400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.19,
+        "pct_change": 1.0,
+        "value": 159094000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 53100,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.13,
+        "pct_change": 1.66,
+        "value": 112041000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
         "shares": 46300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.11,
-        "pct_change": 20.26,
-        "value": 90701700
+        "pct_change": 0.0,
+        "value": 97693000
       },
       {
         "holder": "WASATCH FUNDS TRUST-Wasatch International Opportunities Fund",
@@ -113,23 +136,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 82180050
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
-        "shares": 31200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.08,
-        "pct_change": 0.0,
-        "value": 61120800
-      },
-      {
-        "holder": "ADVISORS' INNER CIRCLE III-Rayliant SMDAM Japan Equity ETF",
-        "shares": 32244,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.08,
-        "pct_change": 12.75,
-        "value": 63165996
+        "value": 88514500
       }
     ],
     "mutualfund_holders": []

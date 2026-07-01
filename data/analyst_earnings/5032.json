@@ -1,34 +1,40 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:23:09.193606",
+  "fetched_at": "2026-07-01T06:02:55.661950",
   "ticker": "5032",
   "ticker_full": "5032.T",
   "company_name": "ANYCOLOR INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2930.0,
-    "high": 6600.0,
-    "low": 5200.0,
-    "mean": 5707.5,
-    "median": 5515.0
+    "current": 2215.0,
+    "high": 5530.0,
+    "low": 2650.0,
+    "mean": 4170.0,
+    "median": 4250.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-06-10",
+        "eps_estimate": 45.37,
+        "eps_actual": 38.58,
+        "surprise_pct": -14.97
+      },
       {
         "date": "2026-03-10",
         "eps_estimate": 63.51,
@@ -52,53 +58,47 @@
         "eps_estimate": 52.59,
         "eps_actual": 65.99,
         "surprise_pct": 25.48
-      },
-      {
-        "date": "2025-03-11",
-        "eps_estimate": 44.51,
-        "eps_actual": 47.07,
-        "surprise_pct": 5.75
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 49.78,
-    "institution_pct": 23.16,
+    "insider_pct": 49.75,
+    "institution_pct": 23.01,
     "major_holders": [
       {
         "label": "",
-        "value": 49.78
+        "value": 49.75
       },
       {
         "label": "",
-        "value": 23.16
+        "value": 23.01
       },
       {
         "label": "",
-        "value": 46.13
+        "value": 45.8
       },
       {
         "label": "",
-        "value": 99.0
+        "value": 97.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
-        "shares": 583800,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.96,
-        "pct_change": 1.0,
-        "value": 1710534000
+        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
+        "shares": 1168300,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.91,
+        "pct_change": 0.0,
+        "value": 2587784500
       },
       {
-        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 532200,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.87,
-        "pct_change": -3.02,
-        "value": 1559346000
+        "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
+        "shares": 770000,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.26,
+        "pct_change": 31.89,
+        "value": 1705550000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -106,23 +106,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.67,
         "pct_change": 0.0,
-        "value": 1204230000
+        "value": 910365000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 265900,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.44,
-        "pct_change": 3.71,
-        "value": 779087000
+        "shares": 299000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.49,
+        "pct_change": 12.45,
+        "value": 662285000
       },
       {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 219123,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 62.89,
-        "value": 642030390
+        "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
+        "shares": 272700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.45,
+        "pct_change": 1.0,
+        "value": 604030500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -130,7 +130,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 650167000
+        "value": 491508500
       },
       {
         "holder": "Columbia Funds Series Trust II-Columbia Overseas Core Fund",
@@ -138,15 +138,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.32,
         "pct_change": 1.0,
-        "value": 581605000
+        "value": 439677500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 121000,
-        "date_reported": "2026-03-31",
+        "shares": 120800,
+        "date_reported": "2026-04-30",
         "pct_held": 0.2,
-        "pct_change": 0.83,
-        "value": 354530000
+        "pct_change": -0.17,
+        "value": 267572000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -154,15 +154,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.17,
         "pct_change": 2.29,
-        "value": 301204000
+        "value": 227702000
       },
       {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 91100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 38.24,
-        "value": 266923000
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 97623,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.16,
+        "pct_change": -55.45,
+        "value": 216234945
       }
     ],
     "mutualfund_holders": []

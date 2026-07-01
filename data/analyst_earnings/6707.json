@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:00.675192",
+  "fetched_at": "2026-07-01T05:53:44.905542",
   "ticker": "6707",
   "ticker_full": "6707.T",
   "company_name": "SANKEN ELECTRIC CO",
@@ -13,20 +13,58 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "underperform",
-    "recommendation_mean": 4.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 8987.0,
+    "current": 11640.0,
     "high": 7800.0,
     "low": 6000.0,
     "mean": 6900.0,
     "median": 6900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-05",
+        "eps_estimate": 79.5,
+        "eps_actual": 1.37,
+        "surprise_pct": -98.28
+      },
+      {
+        "date": "2023-11-06",
+        "eps_estimate": 155.8,
+        "eps_actual": 91.92,
+        "surprise_pct": -41.0
+      },
+      {
+        "date": "2023-08-03",
+        "eps_estimate": 87.0,
+        "eps_actual": 92.35,
+        "surprise_pct": 6.15
+      },
+      {
+        "date": "2023-05-10",
+        "eps_estimate": 80.7,
+        "eps_actual": 127.59,
+        "surprise_pct": 58.1
+      },
+      {
+        "date": "2023-02-02",
+        "eps_estimate": 108.0,
+        "eps_actual": 144.87,
+        "surprise_pct": 34.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
@@ -47,7 +85,7 @@
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.9,
         "pct_change": 0.0,
-        "value": 1691982490
+        "value": 2191462800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -65,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.83,
         "pct_change": 0.0,
-        "value": 1553852300
+        "value": 2012556000
       },
       {
         "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
@@ -73,23 +111,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.75,
         "pct_change": 4.05,
-        "value": 1408262900
+        "value": 1823988000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 120338,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.58,
-        "pct_change": 0.0,
-        "value": 1081477606
+        "shares": 119938,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.57,
+        "pct_change": -0.33,
+        "value": 1396078320
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 95599,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.46,
-        "pct_change": -5.25,
-        "value": 859148213
+        "shares": 98099,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.47,
+        "pct_change": 2.62,
+        "value": 1141872360
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,15 +135,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.41,
         "pct_change": -4.31,
-        "value": 778274200
+        "value": 1008024000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 76000,
-        "date_reported": "2026-03-31",
+        "shares": 75800,
+        "date_reported": "2026-04-30",
         "pct_held": 0.36,
-        "pct_change": 1.33,
-        "value": 683012000
+        "pct_change": -0.26,
+        "value": 882312000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -113,15 +151,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.21,
         "pct_change": -6.88,
-        "value": 401718900
+        "value": 520308000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 40800,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 366669600
+        "value": 474912000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 46.77,
-        "value": 346898200
+        "value": 449304000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:14:10.635288",
+  "fetched_at": "2026-07-01T05:54:51.417412",
   "ticker": "4917",
   "ticker_full": "4917.T",
   "company_name": "MANDOM CORP",
@@ -25,8 +25,41 @@
     "median": 2270.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-02-01",
+        "eps_estimate": 20.0,
+        "eps_actual": 12.69,
+        "surprise_pct": -36.55
+      },
+      {
+        "date": "2023-10-30",
+        "eps_estimate": 9.96,
+        "eps_actual": 14.96,
+        "surprise_pct": 50.23
+      },
+      {
+        "date": "2023-07-30",
+        "eps_estimate": 15.67,
+        "eps_actual": 20.27,
+        "surprise_pct": 29.39
+      },
+      {
+        "date": "2023-05-11",
+        "eps_estimate": -16.83,
+        "eps_actual": -10.06,
+        "surprise_pct": 40.22
+      },
+      {
+        "date": "2023-02-01",
+        "eps_estimate": 5.54,
+        "eps_actual": 9.71,
+        "surprise_pct": 75.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

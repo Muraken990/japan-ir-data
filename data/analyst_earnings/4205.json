@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:25:19.099036",
+  "fetched_at": "2026-07-01T06:04:55.441337",
   "ticker": "4205",
   "ticker_full": "4205.T",
   "company_name": "ZEON CORPORATION",
@@ -18,58 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2150.0,
-    "high": 2500.0,
+    "current": 2275.5,
+    "high": 3000.0,
     "low": 1700.0,
-    "mean": 2051.111,
-    "median": 2000.0
+    "mean": 2357.7778,
+    "median": 2360.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-30",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-01-30",
-        "eps_estimate": 20.58,
-        "eps_actual": 31.59,
-        "surprise_pct": 53.5
-      },
-      {
-        "date": "2025-10-29",
-        "eps_estimate": 35.84,
-        "eps_actual": 75.7,
-        "surprise_pct": 111.22
-      },
-      {
-        "date": "2025-04-24",
-        "eps_estimate": 19.04,
-        "eps_actual": 30.69,
-        "surprise_pct": 61.19
-      },
-      {
-        "date": "2025-01-30",
-        "eps_estimate": 21.89,
-        "eps_actual": 38.27,
-        "surprise_pct": 74.83
-      },
-      {
-        "date": "2024-10-27",
-        "eps_estimate": 31.45,
-        "eps_actual": 19.7,
-        "surprise_pct": -37.36
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.48,
-    "institution_pct": 41.09,
+    "institution_pct": 41.5,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 41.09
+        "value": 41.5
       },
       {
         "label": "",
-        "value": 49.2
+        "value": 49.69
       },
       {
         "label": "",
-        "value": 110.0
+        "value": 114.0
       }
     ],
     "institutional_holders": [
@@ -95,23 +57,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.94,
         "pct_change": 0.0,
-        "value": 4651806650
+        "value": 4923342340
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1523500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.66,
-        "pct_change": 8.28,
-        "value": 3275525000
+        "shares": 2037100,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.89,
+        "pct_change": 33.71,
+        "value": 4635421050
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1431841,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.62,
-        "pct_change": -0.38,
-        "value": 3078458150
+        "shares": 1454441,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.63,
+        "pct_change": 1.58,
+        "value": 3309580495
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1244300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.54,
+        "pct_change": 1.0,
+        "value": 2831404650
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -119,7 +89,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.44,
         "pct_change": 0.45,
-        "value": 2173220000
+        "value": 2300075400
       },
       {
         "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
@@ -127,15 +97,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.33,
         "pct_change": 3.46,
-        "value": 1645395000
+        "value": 1741440150
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 699493,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 9.04,
-        "value": 1503909950
+        "shares": 736893,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.32,
+        "pct_change": 5.35,
+        "value": 1676800021
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -143,31 +113,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 3.02,
-        "value": 1276025000
+        "value": 1350509250
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 590900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 1270435000
+        "value": 1344592950
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 576300,
-        "date_reported": "2026-03-31",
+        "shares": 574900,
+        "date_reported": "2026-04-30",
         "pct_held": 0.25,
-        "pct_change": 1.23,
-        "value": 1239045000
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 446600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": 9.84,
-        "value": 960190000
+        "pct_change": -0.24,
+        "value": 1308184950
       }
     ],
     "mutualfund_holders": []

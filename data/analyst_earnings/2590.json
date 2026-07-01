@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:08:06.880620",
+  "fetched_at": "2026-07-01T05:48:43.190075",
   "ticker": "2590",
   "ticker_full": "2590.T",
   "company_name": "DYDO GROUP HOLDINGS INC",
@@ -13,25 +13,58 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "underperform",
-    "recommendation_mean": 4.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2562.0,
+    "current": 2616.0,
     "high": 2100.0,
     "low": 2100.0,
     "mean": 2100.0,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-25",
+        "eps_estimate": -15.79,
+        "eps_actual": 3.49,
+        "surprise_pct": 122.1
+      },
+      {
+        "date": "2026-03-03",
+        "eps_estimate": 32.28,
+        "eps_actual": -972.63,
+        "surprise_pct": -3113.27
+      },
+      {
+        "date": "2025-11-26",
+        "eps_estimate": 67.21,
+        "eps_actual": 57.85,
+        "surprise_pct": -13.93
+      },
+      {
+        "date": "2025-08-26",
+        "eps_estimate": 47.49,
+        "eps_actual": 46.99,
+        "surprise_pct": -1.06
+      },
+      {
+        "date": "2025-03-03",
+        "eps_estimate": -68.51,
+        "eps_actual": -109.6,
+        "surprise_pct": -59.98
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 44.24,
-    "institution_pct": 9.1,
+    "institution_pct": 9.22,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 9.1
+        "value": 9.22
       },
       {
         "label": "",
-        "value": 16.32
+        "value": 16.53
       },
       {
         "label": "",

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:13.079552",
+  "fetched_at": "2026-07-01T05:48:35.570089",
   "ticker": "6287",
   "ticker_full": "6287.T",
   "company_name": "SATO CORPORATION (JAPAN)",
@@ -18,20 +18,47 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2219.0,
+    "current": 2369.0,
     "high": 2800.0,
     "low": 2800.0,
     "mean": 2800.0,
     "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 39.5,
+        "eps_actual": -0.56,
+        "surprise_pct": -101.42
+      },
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 63.6,
+        "eps_actual": 63.23,
+        "surprise_pct": -0.58
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 39.5,
+        "eps_actual": 56.71,
+        "surprise_pct": 43.57
+      },
+      {
+        "date": "2025-08-11",
+        "eps_estimate": 35.0,
+        "eps_actual": 37.31,
+        "surprise_pct": 6.6
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 26.25,
-    "institution_pct": 28.35,
+    "institution_pct": 28.89,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +66,15 @@
       },
       {
         "label": "",
-        "value": 28.35
+        "value": 28.89
       },
       {
         "label": "",
-        "value": 38.44
+        "value": 39.17
       },
       {
         "label": "",
-        "value": 60.0
+        "value": 61.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +84,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 1.84,
         "pct_change": -4.79,
-        "value": 1376953851
+        "value": 1470033201
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -65,7 +92,7 @@
         "date_reported": "2025-08-31",
         "pct_held": 1.21,
         "pct_change": 5.06,
-        "value": 903133000
+        "value": 964183000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -73,7 +100,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 1.01,
         "pct_change": 0.0,
-        "value": 751397780
+        "value": 802190780
       },
       {
         "holder": "Clearwater Investment Trust-CLEARWATER INTERNATIONAL FUND",
@@ -81,7 +108,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.96,
         "pct_change": -14.08,
-        "value": 714961800
+        "value": 763291800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,7 +116,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 438381202
+        "value": 468014902
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -97,7 +124,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 252522200
+        "value": 269592200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -105,7 +132,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.26,
         "pct_change": -24.85,
-        "value": 193234958
+        "value": 206297258
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -113,7 +140,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 172638200
+        "value": 184308200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -121,7 +148,7 @@
         "date_reported": "2025-07-31",
         "pct_held": 0.22,
         "pct_change": -20.43,
-        "value": 163318400
+        "value": 174358400
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
@@ -129,7 +156,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.2,
         "pct_change": -15.63,
-        "value": 147341600
+        "value": 157301600
       }
     ],
     "mutualfund_holders": []

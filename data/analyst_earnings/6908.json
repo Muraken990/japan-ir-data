@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:07.371849",
+  "fetched_at": "2026-07-01T05:47:44.848251",
   "ticker": "6908",
   "ticker_full": "6908.T",
   "company_name": "IRISO ELECTRONICS CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 6,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3235.0,
+    "current": 2921.0,
     "high": 3700.0,
     "low": 2600.0,
     "mean": 3200.0,
     "median": 3400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 40.76,
+        "eps_actual": 76.01,
+        "surprise_pct": 86.48
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 38.52,
+        "eps_actual": 73.57,
+        "surprise_pct": 90.99
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 38.52,
+        "eps_actual": 23.9,
+        "surprise_pct": -37.95
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": -70.19,
+        "eps_actual": -9.39,
+        "surprise_pct": 86.62
+      },
+      {
+        "date": "2025-02-04",
+        "eps_estimate": 27.55,
+        "eps_actual": 80.54,
+        "surprise_pct": 192.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.11,
-    "institution_pct": 22.3,
+    "institution_pct": 22.26,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 22.3
+        "value": 22.26
       },
       {
         "label": "",
-        "value": 28.27
+        "value": 28.22
       },
       {
         "label": "",
-        "value": 63.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [],

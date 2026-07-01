@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:18.075584",
+  "fetched_at": "2026-07-01T06:02:39.576773",
   "ticker": "4966",
   "ticker_full": "4966.T",
   "company_name": "C. UYEMURA & CO.LTD",
@@ -18,20 +18,35 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 23240.0,
-    "high": 25600.0,
+    "current": 27650.0,
+    "high": 27400.0,
     "low": 23000.0,
-    "mean": 24300.0,
-    "median": 24300.0
+    "mean": 25200.0,
+    "median": 25200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-05-13",
+        "eps_estimate": 81.0,
+        "eps_actual": 84.19,
+        "surprise_pct": 3.93
+      },
+      {
+        "date": "2019-05-12",
+        "eps_estimate": 54.0,
+        "eps_actual": 65.75,
+        "surprise_pct": 21.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 33.93,
-    "institution_pct": 26.36,
+    "institution_pct": 26.66,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +54,25 @@
       },
       {
         "label": "",
-        "value": 26.36
+        "value": 26.66
       },
       {
         "label": "",
-        "value": 39.9
+        "value": 40.35
       },
       {
         "label": "",
-        "value": 77.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
-        "shares": 710020,
-        "date_reported": "2026-02-28",
-        "pct_held": 3.92,
-        "pct_change": -0.08,
-        "value": 16500864800
+        "shares": 672771,
+        "date_reported": "2026-04-30",
+        "pct_held": 3.72,
+        "pct_change": -5.25,
+        "value": 18602118150
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,23 +80,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.84,
         "pct_change": -0.39,
-        "value": 3537964640
+        "value": 4209325400
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock K6 Fund",
-        "shares": 130013,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.72,
-        "pct_change": 0.44,
-        "value": 3021502120
+        "shares": 123813,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.68,
+        "pct_change": -4.77,
+        "value": 3423429450
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 98500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.54,
-        "pct_change": 2.39,
-        "value": 2289140000
+        "shares": 95800,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.53,
+        "pct_change": -2.74,
+        "value": 2648870000
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 77600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.43,
+        "pct_change": 18.84,
+        "value": 2145640000
       },
       {
         "holder": "-Militia Long/Short Equity ETF",
@@ -89,23 +112,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.39,
         "pct_change": 2.0,
-        "value": 1653270360
-      },
-      {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
-        "shares": 65300,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.36,
-        "pct_change": 2.3,
-        "value": 1517572000
+        "value": 1966993350
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 63200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.35,
-        "pct_change": -1.1,
-        "value": 1468768000
+        "pct_change": 0.0,
+        "value": 1747480000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -113,23 +128,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.34,
         "pct_change": 5.86,
-        "value": 1426936000
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
-        "shares": 59900,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.33,
-        "pct_change": -10.86,
-        "value": 1392076000
+        "value": 1697710000
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers U.S. Total Stock Fd.",
         "shares": 56000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.31,
-        "pct_change": 1.0,
-        "value": 1301440000
+        "pct_change": 0.0,
+        "value": 1548400000
+      },
+      {
+        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
+        "shares": 50600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 68.67,
+        "value": 1399090000
       }
     ],
     "mutualfund_holders": []

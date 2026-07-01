@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:08:03.787369",
+  "fetched_at": "2026-07-01T05:48:39.844952",
   "ticker": "8841",
   "ticker_full": "8841.T",
   "company_name": "TOC CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 1,
     "buy": 0,
     "hold": 0,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1010.0,
+    "current": 948.0,
     "high": 1340.0,
     "low": 1340.0,
     "mean": 1340.0,
     "median": 1340.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-11",
+        "eps_estimate": 0.35,
+        "eps_actual": 6.26,
+        "surprise_pct": 1688.57
+      },
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 5.99,
+        "eps_actual": 9.04,
+        "surprise_pct": 50.92
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 2.11,
+        "eps_actual": 6.33,
+        "surprise_pct": 200.0
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 2.27,
+        "eps_actual": 4.69,
+        "surprise_pct": 106.61
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": -1.51,
+        "eps_actual": 0.52,
+        "surprise_pct": 134.44
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 60.26,
-    "institution_pct": 11.39,
+    "institution_pct": 11.36,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 11.39
+        "value": 11.36
       },
       {
         "label": "",
-        "value": 28.66
+        "value": 28.58
       },
       {
         "label": "",

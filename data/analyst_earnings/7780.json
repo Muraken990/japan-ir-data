@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:08.790481",
+  "fetched_at": "2026-07-01T05:53:52.549064",
   "ticker": "7780",
   "ticker_full": "7780.T",
   "company_name": "MENICON CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 2,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.75
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1614.0,
-    "high": 2400.0,
+    "current": 1656.0,
+    "high": 2200.0,
     "low": 1600.0,
-    "mean": 2050.0,
+    "mean": 2000.0,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 0.69,
+        "eps_actual": -5.56,
+        "surprise_pct": -905.8
+      },
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 22.44,
+        "eps_actual": 42.86,
+        "surprise_pct": 91.0
+      },
+      {
+        "date": "2024-02-12",
+        "eps_estimate": 27.9,
+        "eps_actual": 16.47,
+        "surprise_pct": -40.97
+      },
+      {
+        "date": "2023-08-09",
+        "eps_estimate": 31.54,
+        "eps_actual": 20.75,
+        "surprise_pct": -34.21
+      },
+      {
+        "date": "2023-05-14",
+        "eps_estimate": 15.71,
+        "eps_actual": 6.81,
+        "surprise_pct": -56.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.03,
-    "institution_pct": 26.57,
+    "institution_pct": 25.82,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 26.57
+        "value": 25.82
       },
       {
         "label": "",
-        "value": 34.07
+        "value": 33.12
       },
       {
         "label": "",
@@ -57,33 +95,33 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 277490178
+        "value": 284711112
       }
     ],
     "mutualfund_holders": [
-      {
-        "holder": "Longleaf Partners Funds Trust-Longleaf Partners Global Fund",
-        "shares": 1329800,
-        "date_reported": "2025-12-31",
-        "pct_held": 1.73,
-        "pct_change": 1.0,
-        "value": 2146297200
-      },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 879472,
         "date_reported": "2026-01-31",
         "pct_held": 1.15,
         "pct_change": 5.51,
-        "value": 1419467808
+        "value": 1456405632
+      },
+      {
+        "holder": "Longleaf Partners Funds Trust-Longleaf Partners Global Fund",
+        "shares": 801000,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.04,
+        "pct_change": -39.77,
+        "value": 1326456000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 579177,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.75,
-        "pct_change": 3.69,
-        "value": 934791678
+        "pct_change": 0.0,
+        "value": 959117112
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -91,7 +129,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.74,
         "pct_change": 0.8,
-        "value": 917881800
+        "value": 941767200
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 291999,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.38,
+        "pct_change": 12.48,
+        "value": 483550344
       },
       {
         "holder": "Principal Funds, Inc-International Small Company Fund",
@@ -99,31 +145,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.37,
         "pct_change": -17.76,
-        "value": 461119800
+        "value": 473119200
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 285100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.37,
-        "pct_change": 0.0,
-        "value": 460151400
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 259599,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 13.96,
-        "value": 418992786
+        "shares": 256600,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.33,
+        "pct_change": -10.0,
+        "value": 424929600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 246200,
-        "date_reported": "2026-03-31",
+        "shares": 245600,
+        "date_reported": "2026-04-30",
         "pct_held": 0.32,
-        "pct_change": 1.23,
-        "value": 397366800
+        "pct_change": -0.24,
+        "value": 406713600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -131,7 +169,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 20.06,
-        "value": 367990386
+        "value": 377566344
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -139,7 +177,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.28,
         "pct_change": -2.59,
-        "value": 352013400
+        "value": 361173600
       }
     ]
   }

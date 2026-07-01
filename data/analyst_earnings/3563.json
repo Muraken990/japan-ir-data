@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:29.889343",
+  "fetched_at": "2026-07-01T06:10:24.496783",
   "ticker": "3563",
   "ticker_full": "3563.T",
   "company_name": "FOOD & LIFE COMPANIES LTD",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 4,
-    "buy": 5,
+    "buy": 6,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 10,
+    "total_analysts": 11,
     "recommendation_key": "strong_buy",
     "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 10605.0,
-    "high": 15100.0,
-    "low": 7700.0,
-    "mean": 11591.667,
-    "median": 12000.0
+    "current": 4794.0,
+    "high": 7550.0,
+    "low": 3850.0,
+    "mean": 6112.5,
+    "median": 6150.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": 33.47,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 35.46,
+        "eps_actual": 40.7,
+        "surprise_pct": 14.77
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 31.64,
+        "eps_actual": 37.71,
+        "surprise_pct": 19.18
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 21.56,
+        "eps_actual": 21.49,
+        "surprise_pct": -0.35
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 28.0,
+        "eps_actual": 27.42,
+        "surprise_pct": -2.1
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 24.97,
+        "eps_actual": 25.37,
+        "surprise_pct": 1.57
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.28,
-    "institution_pct": 36.83,
+    "institution_pct": 37.76,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.83
+        "value": 37.76
       },
       {
         "label": "",
-        "value": 39.72
+        "value": 40.73
       },
       {
         "label": "",
-        "value": 159.0
+        "value": 160.0
       }
     ],
     "institutional_holders": [],

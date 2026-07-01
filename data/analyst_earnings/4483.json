@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:08.838397",
+  "fetched_at": "2026-07-01T06:01:45.492866",
   "ticker": "4483",
   "ticker_full": "4483.T",
   "company_name": "JMDC INC",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2867.0,
+    "current": 2882.0,
     "high": 6400.0,
     "low": 3600.0,
-    "mean": 4792.0,
-    "median": 4900.0
+    "mean": 4300.0,
+    "median": 3950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": 12.61,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 35.1,
+        "eps_actual": 29.86,
+        "surprise_pct": -14.94
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 35.91,
+        "eps_actual": 37.23,
+        "surprise_pct": 3.69
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 24.88,
+        "eps_actual": 21.56,
+        "surprise_pct": -13.34
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 12.61,
+        "eps_actual": 14.79,
+        "surprise_pct": 17.31
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 31.87,
+        "eps_actual": 52.23,
+        "surprise_pct": 63.86
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 60.36,
-    "institution_pct": 19.12,
+    "institution_pct": 18.64,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 19.12
+        "value": 18.64
       },
       {
         "label": "",
-        "value": 48.25
+        "value": 47.01
       },
       {
         "label": "",
-        "value": 97.0
+        "value": 92.0
       }
     ],
     "institutional_holders": [],

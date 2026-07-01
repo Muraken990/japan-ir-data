@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:29:38.649493",
+  "fetched_at": "2026-07-01T06:10:18.331151",
   "ticker": "5406",
   "ticker_full": "5406.T",
   "company_name": "KOBE STEEL",
@@ -9,8 +9,8 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 5,
-    "sell": 0,
+    "hold": 4,
+    "sell": 1,
     "strong_sell": 1,
     "total_analysts": 7,
     "recommendation_key": "hold",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1956.0,
+    "current": 1858.5,
     "high": 2580.0,
     "low": 1660.0,
     "mean": 2031.4286,
     "median": 2030.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": 73.02,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 70.86,
+        "eps_actual": 54.62,
+        "surprise_pct": -22.92
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 93.35,
+        "eps_actual": 61.46,
+        "surprise_pct": -34.16
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 73.02,
+        "eps_actual": 98.03,
+        "surprise_pct": 34.26
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 71.36,
+        "eps_actual": 44.06,
+        "surprise_pct": -38.26
+      },
+      {
+        "date": "2025-02-06",
+        "eps_estimate": 78.63,
+        "eps_actual": 117.23,
+        "surprise_pct": 49.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.73,
-    "institution_pct": 36.02,
+    "institution_pct": 36.07,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.02
+        "value": 36.07
       },
       {
         "label": "",
-        "value": 38.62
+        "value": 38.68
       },
       {
         "label": "",
-        "value": 151.0
+        "value": 157.0
       }
     ],
     "institutional_holders": [],

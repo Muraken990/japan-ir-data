@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:11.077623",
+  "fetched_at": "2026-07-01T06:01:47.261642",
   "ticker": "6744",
   "ticker_full": "6744.T",
   "company_name": "NOHMI BOSAI",
@@ -18,20 +18,52 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4780.0,
-    "high": 5300.0,
-    "low": 5300.0,
-    "mean": 5300.0,
-    "median": 5300.0
+    "current": 4125.0,
+    "high": 5600.0,
+    "low": 5600.0,
+    "mean": 5600.0,
+    "median": 5600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-11-10",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2017-02-07",
+        "eps_estimate": 21.6,
+        "eps_actual": 18.19,
+        "surprise_pct": -15.79
+      },
+      {
+        "date": "2016-11-07",
+        "eps_estimate": 13.1,
+        "eps_actual": 25.07,
+        "surprise_pct": 91.37
+      },
+      {
+        "date": "2016-08-03",
+        "eps_estimate": 8.8,
+        "eps_actual": 13.34,
+        "surprise_pct": 51.59
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 60.71,
-    "institution_pct": 11.06,
+    "institution_pct": 9.87,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 11.06
+        "value": 9.87
       },
       {
         "label": "",
-        "value": 28.17
+        "value": 25.13
       },
       {
         "label": "",
-        "value": 63.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +89,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.79,
         "pct_change": -27.39,
-        "value": 2302526000
+        "value": 1987012500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,23 +97,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.5,
         "pct_change": -0.65,
-        "value": 1458722160
+        "value": 1258834500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 202881,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.33,
-        "pct_change": 2.63,
-        "value": 969771180
+        "shares": 209381,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.34,
+        "pct_change": 3.2,
+        "value": 863696625
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 97700,
-        "date_reported": "2026-03-31",
+        "shares": 97500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.16,
-        "pct_change": 4.83,
-        "value": 467006000
+        "pct_change": -0.2,
+        "value": 402187500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -89,7 +121,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 385268000
+        "value": 332475000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -97,7 +129,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.08,
         "pct_change": 0.0,
-        "value": 238522000
+        "value": 205837500
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -105,7 +137,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.07,
         "pct_change": -1.14,
-        "value": 217198420
+        "value": 187435875
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
@@ -113,7 +145,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.06,
         "pct_change": -5.2,
-        "value": 174426980
+        "value": 150525375
       },
       {
         "holder": "WisdomTree Trust-WisdomTree International SmallCap Dividend Fund",
@@ -121,15 +153,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.06,
         "pct_change": 0.85,
-        "value": 169212000
+        "value": 146025000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
         "shares": 26200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.04,
-        "pct_change": 4.8,
-        "value": 125236000
+        "pct_change": 0.0,
+        "value": 108075000
       }
     ],
     "mutualfund_holders": []

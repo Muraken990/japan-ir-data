@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:14:09.502927",
+  "fetched_at": "2026-07-01T05:54:50.673523",
   "ticker": "7821",
   "ticker_full": "7821.T",
   "company_name": "MAEDA KOSEN CO.LTD",
@@ -18,20 +18,41 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1804.0,
+    "current": 1775.0,
     "high": 3200.0,
     "low": 2400.0,
     "mean": 2800.0,
     "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2021-07-29",
+        "eps_estimate": 15.9,
+        "eps_actual": 16.17,
+        "surprise_pct": 1.7
+      },
+      {
+        "date": "2020-07-30",
+        "eps_estimate": 11.4,
+        "eps_actual": 8.77,
+        "surprise_pct": -23.07
+      },
+      {
+        "date": "2019-07-25",
+        "eps_estimate": 17.65,
+        "eps_actual": 14.44,
+        "surprise_pct": -18.19
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 36.98,
-    "institution_pct": 41.48,
+    "institution_pct": 41.25,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +60,15 @@
       },
       {
         "label": "",
-        "value": 41.48
+        "value": 41.25
       },
       {
         "label": "",
-        "value": 65.82
+        "value": 65.46
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 83.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +78,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.8,
         "pct_change": 4.55,
-        "value": 978327240
+        "value": 962600250
       },
       {
         "holder": "Fidelity Series International Small Cap Fund",
@@ -65,7 +86,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 730259200
+        "value": 718520000
       },
       {
         "holder": "Fidelity Japan Smaller Companies Fund",
@@ -73,7 +94,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 685520000
+        "value": 674500000
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -81,7 +102,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 578279416
+        "value": 568983350
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -89,7 +110,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 418528000
+        "value": 411800000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -97,7 +118,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 370541600
+        "value": 364585000
       },
       {
         "holder": "Hennessy Japan Small Cap Fund",
@@ -105,7 +126,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 334461600
+        "value": 329085000
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -113,7 +134,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.22,
         "pct_change": -7.51,
-        "value": 266631200
+        "value": 262345000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -121,7 +142,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.17,
         "pct_change": -0.34,
-        "value": 213593600
+        "value": 210160000
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -129,7 +150,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 135660800
+        "value": 133480000
       }
     ],
     "mutualfund_holders": []

@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:02.853649",
+  "fetched_at": "2026-07-01T05:53:46.879358",
   "ticker": "7965",
   "ticker_full": "7965.T",
   "company_name": "ZOJIRUSHI CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1426.0,
+    "current": 1326.0,
     "high": 1850.0,
     "low": 1850.0,
     "mean": 1850.0,
     "median": 1850.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-29",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-03-31",
+        "eps_estimate": 35.51,
+        "eps_actual": 30.71,
+        "surprise_pct": -13.52
+      },
+      {
+        "date": "2019-09-29",
+        "eps_estimate": 5.92,
+        "eps_actual": 1.9,
+        "surprise_pct": -67.91
+      },
+      {
+        "date": "2019-03-31",
+        "eps_estimate": 38.48,
+        "eps_actual": 31.63,
+        "surprise_pct": -17.8
+      },
+      {
+        "date": "2018-12-24",
+        "eps_estimate": 9.68,
+        "eps_actual": 10.18,
+        "surprise_pct": 5.17
+      },
+      {
+        "date": "2018-09-30",
+        "eps_estimate": 5.92,
+        "eps_actual": 0.02,
+        "surprise_pct": -99.66
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 45.14,
-    "institution_pct": 11.29,
+    "institution_pct": 11.25,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 11.29
+        "value": 11.25
       },
       {
         "label": "",
-        "value": 20.58
+        "value": 20.5
       },
       {
         "label": "",
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 664371974
+        "value": 617782074
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 300353,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.41,
-        "pct_change": 15.5,
-        "value": 428303378
+        "pct_change": 0.0,
+        "value": 398268078
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.23,
         "pct_change": 0.37,
-        "value": 234434400
+        "value": 217994400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,15 +119,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 235575200
+        "value": 219055200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 127500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.18,
-        "pct_change": -6.59,
-        "value": 181815000
+        "shares": 136200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.19,
+        "pct_change": 6.82,
+        "value": 180601200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -97,15 +135,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 164560400
+        "value": 153020400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 105100,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 149872600
+        "value": 139362600
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 81800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.11,
+        "pct_change": 2.6,
+        "value": 108466800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -113,23 +159,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.1,
         "pct_change": -1.14,
-        "value": 101352950
+        "value": 94245450
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
         "shares": 37098,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.05,
-        "pct_change": -15.49,
-        "value": 52901748
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
-        "shares": 34000,
         "date_reported": "2026-04-30",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 48484000
+        "value": 49191948
       }
     ],
     "mutualfund_holders": []

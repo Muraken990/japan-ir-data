@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:08:06.803935",
+  "fetched_at": "2026-07-01T05:48:42.445277",
   "ticker": "4997",
   "ticker_full": "4997.T",
   "company_name": "NIHON NOHYAKU CO",
@@ -17,20 +17,29 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 995.0,
+    "current": 1023.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2010-11-14",
+        "eps_estimate": -0.48,
+        "eps_actual": -2.6,
+        "surprise_pct": -441.67
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 50.53,
-    "institution_pct": 19.04,
+    "institution_pct": 19.1,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +47,11 @@
       },
       {
         "label": "",
-        "value": 19.04
+        "value": 19.1
       },
       {
         "label": "",
-        "value": 38.49
+        "value": 38.61
       },
       {
         "label": "",
@@ -56,7 +65,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.73,
         "pct_change": 0.0,
-        "value": 592920500
+        "value": 609605700
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -64,7 +73,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.65,
         "pct_change": 0.0,
-        "value": 528417635
+        "value": 543287679
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -72,7 +81,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.46,
         "pct_change": 3.14,
-        "value": 378697000
+        "value": 389353800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -80,7 +89,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 329905185
+        "value": 339188949
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
@@ -88,7 +97,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.27,
         "pct_change": 0.92,
-        "value": 217208500
+        "value": 223320900
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -96,7 +105,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 190542500
+        "value": 195904500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -104,7 +113,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.2,
         "pct_change": -3.32,
-        "value": 159598000
+        "value": 164089200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -112,7 +121,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 142882000
+        "value": 146902800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -120,7 +129,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 131638500
+        "value": 135342900
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -128,7 +137,7 @@
         "date_reported": "2025-11-30",
         "pct_held": 0.1,
         "pct_change": 31.12,
-        "value": 80282570
+        "value": 82541778
       }
     ],
     "mutualfund_holders": []

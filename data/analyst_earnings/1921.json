@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:08:02.730335",
+  "fetched_at": "2026-07-01T05:48:38.994013",
   "ticker": "1921",
   "ticker_full": "1921.T",
   "company_name": "TOMOE CORPORATION",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1768.0,
+    "current": 1790.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-11",
+        "eps_estimate": 1.67,
+        "eps_actual": 22.04,
+        "surprise_pct": 1221.34
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": -0.09,
+        "eps_actual": 5.9,
+        "surprise_pct": 6310.53
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 5.41,
+        "eps_actual": 7.35,
+        "surprise_pct": 35.88
+      },
+      {
+        "date": "2015-02-11",
+        "eps_estimate": 1.42,
+        "eps_actual": 0.07,
+        "surprise_pct": -95.06
+      },
+      {
+        "date": "2014-11-12",
+        "eps_estimate": 8.0,
+        "eps_actual": 11.03,
+        "surprise_pct": 37.94
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 51.28,
-    "institution_pct": 20.35,
+    "insider_pct": 52.29,
+    "institution_pct": 20.33,
     "major_holders": [
       {
         "label": "",
-        "value": 51.28
+        "value": 52.29
       },
       {
         "label": "",
-        "value": 20.35
+        "value": 20.33
       },
       {
         "label": "",
-        "value": 41.76
+        "value": 42.6
       },
       {
         "label": "",
-        "value": 13.0
+        "value": 12.0
       }
     ],
     "institutional_holders": [],

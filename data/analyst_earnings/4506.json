@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:30.946542",
+  "fetched_at": "2026-07-01T06:10:25.513916",
   "ticker": "4506",
   "ticker_full": "4506.T",
   "company_name": "SUMITOMO PHARMA CO LTD",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 1,
-    "hold": 3,
+    "hold": 2,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 7,
+    "total_analysts": 6,
     "recommendation_key": "hold",
     "recommendation_mean": 2.71429
   },
   "target_prices": {
     "has_data": true,
-    "current": 1559.0,
+    "current": 1465.0,
     "high": 2700.0,
     "low": 1500.0,
-    "mean": 2121.4285,
+    "mean": 2128.5715,
     "median": 2200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": 20.59,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": -15.24,
+        "eps_actual": -2.04,
+        "surprise_pct": 86.61
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": -0.87,
+        "eps_actual": 22.19,
+        "surprise_pct": 2650.57
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 18.07,
+        "eps_actual": 220.63,
+        "surprise_pct": 1120.81
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 20.59,
+        "eps_actual": 28.21,
+        "surprise_pct": 37.01
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": -12.32,
+        "eps_actual": 6.08,
+        "surprise_pct": 149.35
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 48.83,
-    "institution_pct": 23.35,
+    "institution_pct": 20.78,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 23.35
+        "value": 20.78
       },
       {
         "label": "",
-        "value": 45.63
+        "value": 40.62
       },
       {
         "label": "",
-        "value": 143.0
+        "value": 137.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.01,
         "pct_change": 52.5,
-        "value": 64045279
+        "value": 60183665
       }
     ],
     "mutualfund_holders": [
@@ -67,23 +105,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.55,
         "pct_change": 1.06,
-        "value": 3847934713
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 1981100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.44,
-        "pct_change": 4.89,
-        "value": 3088534900
+        "value": 3615923255
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1604601,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.36,
-        "pct_change": 1.62,
-        "value": 2501572959
+        "shares": 1642701,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.37,
+        "pct_change": 2.37,
+        "value": 2406556965
+      },
+      {
+        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
+        "shares": 1524900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.34,
+        "pct_change": 1.0,
+        "value": 2233978500
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1438800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.32,
+        "pct_change": -27.37,
+        "value": 2107842000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -91,23 +137,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 0.36,
-        "value": 1972914500
+        "value": 1853957500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 708000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.16,
-        "pct_change": 1.14,
-        "value": 1103772000
-      },
-      {
-        "holder": "OBERWEIS FUNDS-Oberweis International Opportunities Fund",
-        "shares": 518000,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.12,
-        "pct_change": 0.12,
-        "value": 807562000
+        "shares": 930400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.21,
+        "pct_change": 31.41,
+        "value": 1363036000
       },
       {
         "holder": "Mercer Funds-Mercer Non-US Core Equity Fund",
@@ -115,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.1,
         "pct_change": 12.35,
-        "value": 670993600
+        "value": 630536000
       },
       {
         "holder": "iShares Trust-iShares International Equity Factor ETF",
@@ -123,23 +161,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.1,
         "pct_change": 4.83,
-        "value": 686583600
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 353600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.08,
-        "pct_change": -45.93,
-        "value": 551262400
+        "value": 645186000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 372550,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.08,
-        "pct_change": 0.0,
-        "value": 580805450
+        "shares": 440150,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.1,
+        "pct_change": 18.15,
+        "value": 644819750
+      },
+      {
+        "holder": "JPMorgan Trust I-JPMorgan Developed International Value Fund",
+        "shares": 404400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.09,
+        "pct_change": 1.0,
+        "value": 592446000
       }
     ]
   }

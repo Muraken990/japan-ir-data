@@ -1,135 +1,173 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:24.660535",
+  "fetched_at": "2026-07-01T06:10:19.015587",
   "ticker": "6448",
   "ticker_full": "6448.T",
   "company_name": "BROTHER INDUSTRIES",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 2,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3722.0,
+    "current": 3666.0,
     "high": 4100.0,
     "low": 3000.0,
     "mean": 3580.0,
     "median": 3500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 51.3,
+        "eps_actual": 62.94,
+        "surprise_pct": 22.69
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 69.6,
+        "eps_actual": 93.86,
+        "surprise_pct": 34.86
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 54.2,
+        "eps_actual": 65.32,
+        "surprise_pct": 20.52
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 61.9,
+        "eps_actual": 45.98,
+        "surprise_pct": -25.72
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 32.6,
+        "eps_actual": 17.09,
+        "surprise_pct": -47.58
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.17,
-    "institution_pct": 48.47,
+    "insider_pct": 4.29,
+    "institution_pct": 50.19,
     "major_holders": [
       {
         "label": "",
-        "value": 4.17
+        "value": 4.29
       },
       {
         "label": "",
-        "value": 48.47
+        "value": 50.19
       },
       {
         "label": "",
-        "value": 50.59
+        "value": 52.44
       },
       {
         "label": "",
-        "value": 197.0
+        "value": 200.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
         "shares": 7931700,
-        "date_reported": "2025-12-31",
-        "pct_held": 3.08,
+        "date_reported": "2026-03-31",
+        "pct_held": 3.17,
         "pct_change": 0.0,
-        "value": 29521787400
+        "value": 29077612200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 3424776,
         "date_reported": "2026-01-31",
-        "pct_held": 1.33,
+        "pct_held": 1.37,
         "pct_change": 0.84,
-        "value": 12747016272
+        "value": 12555228816
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 2296800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.92,
+        "pct_change": 42.53,
+        "value": 8420068800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 2198980,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.85,
-        "pct_change": 1.03,
-        "value": 8184603560
+        "shares": 2256380,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.9,
+        "pct_change": 2.61,
+        "value": 8271889080
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 1656000,
         "date_reported": "2026-04-30",
-        "pct_held": 0.64,
+        "pct_held": 0.66,
         "pct_change": 0.55,
-        "value": 6163632000
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 1611400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.63,
-        "pct_change": 4.01,
-        "value": 5997630800
+        "value": 6070896000
       },
       {
         "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
         "shares": 1494469,
         "date_reported": "2026-04-30",
-        "pct_held": 0.58,
+        "pct_held": 0.6,
         "pct_change": 0.0,
-        "value": 5562413618
+        "value": 5478723354
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 914500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.35,
-        "pct_change": 1.22,
-        "value": 3403769000
+        "shares": 917500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.37,
+        "pct_change": 0.33,
+        "value": 3363555000
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
         "shares": 894000,
         "date_reported": "2026-03-31",
-        "pct_held": 0.35,
+        "pct_held": 0.36,
         "pct_change": 14.19,
-        "value": 3327468000
+        "value": 3277404000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
-        "shares": 822600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": 6.4,
-        "value": 3061717200
+        "shares": 865100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.35,
+        "pct_change": 5.17,
+        "value": 3171456600
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 697500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.27,
-        "pct_change": -0.07,
-        "value": 2596095000
+        "shares": 711400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 1.99,
+        "value": 2607992400
       }
     ],
     "mutualfund_holders": []

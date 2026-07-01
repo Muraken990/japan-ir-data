@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:25.843693",
+  "fetched_at": "2026-07-01T06:10:20.289201",
   "ticker": "5830",
   "ticker_full": "5830.T",
   "company_name": "IYOGIN HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 1,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 2,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "total_analysts": 3,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2999.5,
+    "current": 3179.0,
     "high": 3600.0,
     "low": 3000.0,
     "mean": 3300.0,
     "median": 3300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 24.69,
+        "eps_actual": 20.75,
+        "surprise_pct": -15.94
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 24.15,
+        "eps_actual": 35.7,
+        "surprise_pct": 47.84
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 11.3,
+        "eps_actual": 6.81,
+        "surprise_pct": -39.72
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 22.78,
+        "eps_actual": 25.29,
+        "surprise_pct": 11.04
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 15.61,
+        "eps_actual": 20.98,
+        "surprise_pct": 34.38
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 15.54,
-    "institution_pct": 26.25,
+    "insider_pct": 15.44,
+    "institution_pct": 26.83,
     "major_holders": [
       {
         "label": "",
-        "value": 15.54
+        "value": 15.44
       },
       {
         "label": "",
-        "value": 26.25
+        "value": 26.83
       },
       {
         "label": "",
-        "value": 31.07
+        "value": 31.73
       },
       {
         "label": "",
-        "value": 115.0
+        "value": 118.0
       }
     ],
     "institutional_holders": [],

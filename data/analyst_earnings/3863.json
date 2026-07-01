@@ -1,49 +1,87 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:14:04.246576",
+  "fetched_at": "2026-07-01T05:54:46.084501",
   "ticker": "3863",
   "ticker_full": "3863.T",
   "company_name": "NIPPON PAPER INDUSTRIES CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 1,
     "buy": 0,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 6,
     "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_mean": 3.16667
   },
   "target_prices": {
     "has_data": true,
-    "current": 1240.0,
+    "current": 1291.0,
     "high": 1500.0,
-    "low": 1040.0,
-    "mean": 1278.3334,
+    "low": 1000.0,
+    "mean": 1255.0,
     "median": 1265.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-02-13",
+        "eps_estimate": 10.4,
+        "eps_actual": -31.36,
+        "surprise_pct": -401.54
+      },
+      {
+        "date": "2022-08-04",
+        "eps_estimate": 5.2,
+        "eps_actual": -70.95,
+        "surprise_pct": -1464.42
+      },
+      {
+        "date": "2022-05-12",
+        "eps_estimate": -6.0,
+        "eps_actual": -3.44,
+        "surprise_pct": 42.67
+      },
+      {
+        "date": "2022-02-06",
+        "eps_estimate": -4.3,
+        "eps_actual": 1.66,
+        "surprise_pct": 138.6
+      },
+      {
+        "date": "2021-11-04",
+        "eps_estimate": 17.3,
+        "eps_actual": 2.81,
+        "surprise_pct": -83.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 11.75,
-    "institution_pct": 38.36,
+    "insider_pct": 15.37,
+    "institution_pct": 38.56,
     "major_holders": [
       {
         "label": "",
-        "value": 11.75
+        "value": 15.37
       },
       {
         "label": "",
-        "value": 38.36
+        "value": 38.56
       },
       {
         "label": "",
-        "value": 43.47
+        "value": 45.56
       },
       {
         "label": "",
@@ -53,11 +91,11 @@
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2510700,
-        "date_reported": "2026-04-30",
-        "pct_held": 2.16,
-        "pct_change": 1.24,
-        "value": 3113268000
+        "shares": 2728700,
+        "date_reported": "2026-05-31",
+        "pct_held": 2.35,
+        "pct_change": 8.68,
+        "value": 3522751700
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.32,
         "pct_change": 1.87,
-        "value": 1908346360
+        "value": 1986834799
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1025847,
-        "date_reported": "2025-12-31",
+        "shares": 1023147,
+        "date_reported": "2026-03-31",
         "pct_held": 0.88,
-        "pct_change": 5.49,
-        "value": 1272050280
+        "pct_change": -0.26,
+        "value": 1320882777
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.74,
         "pct_change": 8.64,
-        "value": 1061301120
+        "value": 1104951408
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -89,15 +127,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.65,
         "pct_change": 0.6,
-        "value": 932728000
+        "value": 971090200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 717957,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 890266680
+        "value": 926882487
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -105,7 +143,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.57,
         "pct_change": -4.21,
-        "value": 822363040
+        "value": 856186036
       },
       {
         "holder": "iShares Trust-iShares Global Timber & Forestry ETF",
@@ -113,7 +151,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.5,
         "pct_change": -24.74,
-        "value": 717588000
+        "value": 747101700
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 463106,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.4,
+        "pct_change": 53.8,
+        "value": 597869846
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -121,15 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.36,
         "pct_change": 6.36,
-        "value": 525016000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 394700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 0.0,
-        "value": 489428000
+        "value": 546609400
       }
     ],
     "mutualfund_holders": []

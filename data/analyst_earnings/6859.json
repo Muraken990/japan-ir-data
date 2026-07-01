@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:10.205652",
+  "fetched_at": "2026-07-01T05:47:47.330602",
   "ticker": "6859",
   "ticker_full": "6859.T",
   "company_name": "ESPEC CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3920.0,
+    "current": 4360.0,
     "high": 4200.0,
     "low": 4200.0,
     "mean": 4200.0,
     "median": 4200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 15.71,
+        "eps_actual": 25.21,
+        "surprise_pct": 60.46
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 11.22,
+        "eps_actual": -2.42,
+        "surprise_pct": -121.58
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 16.75,
+        "eps_actual": 37.47,
+        "surprise_pct": 123.71
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 17.72,
+        "eps_actual": 28.34,
+        "surprise_pct": 59.93
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 27.15,
+        "eps_actual": 30.07,
+        "surprise_pct": 10.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.71,
-    "institution_pct": 31.34,
+    "institution_pct": 31.2,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 31.34
+        "value": 31.2
       },
       {
         "label": "",
-        "value": 35.91
+        "value": 35.74
       },
       {
         "label": "",

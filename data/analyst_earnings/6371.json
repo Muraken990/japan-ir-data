@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:06.733608",
+  "fetched_at": "2026-07-01T06:01:42.557237",
   "ticker": "6371",
   "ticker_full": "6371.T",
   "company_name": "TSUBAKIMOTO CHAIN CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2645.0,
+    "current": 2593.0,
     "high": 2100.0,
     "low": 2100.0,
     "mean": 2100.0,
     "median": 2100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2019-02-06",
+        "eps_estimate": 34.83,
+        "eps_actual": 98.72,
+        "surprise_pct": 183.41
+      },
+      {
+        "date": "2018-10-30",
+        "eps_estimate": 33.0,
+        "eps_actual": 39.19,
+        "surprise_pct": 18.76
+      },
+      {
+        "date": "2018-02-06",
+        "eps_estimate": 36.17,
+        "eps_actual": 39.22,
+        "surprise_pct": 8.43
+      },
+      {
+        "date": "2017-02-06",
+        "eps_estimate": 30.33,
+        "eps_actual": 36.35,
+        "surprise_pct": 19.84
+      },
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 34.33,
+        "eps_actual": 31.57,
+        "surprise_pct": -8.06
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.63,
-    "institution_pct": 44.47,
+    "institution_pct": 44.85,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 44.47
+        "value": 44.85
       },
       {
         "label": "",
-        "value": 50.9
+        "value": 51.33
       },
       {
         "label": "",
-        "value": 93.0
+        "value": 95.0
       }
     ],
     "institutional_holders": [
@@ -57,55 +95,55 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.27,
         "pct_change": 5.76,
-        "value": 3565772110
+        "value": 3495669974
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 1219563,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.15,
-        "pct_change": 0.47,
-        "value": 3225744135
+        "pct_change": 0.0,
+        "value": 3162326859
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 870358,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.82,
-        "pct_change": 5.82,
-        "value": 2302096910
+        "shares": 912858,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.86,
+        "pct_change": 4.88,
+        "value": 2367040794
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
         "shares": 778980,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.73,
         "pct_change": 0.0,
-        "value": 2060402100
+        "value": 2019895140
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 734200,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.69,
-        "pct_change": 0.0,
-        "value": 1941959000
+        "shares": 710700,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.67,
+        "pct_change": -3.2,
+        "value": 1842845100
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 484400,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.46,
+        "pct_change": 11.31,
+        "value": 1256049200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 454775,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.43,
-        "pct_change": 0.72,
-        "value": 1202879875
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 435200,
         "date_reported": "2026-04-30",
-        "pct_held": 0.41,
-        "pct_change": 15.01,
-        "value": 1151104000
+        "pct_held": 0.43,
+        "pct_change": 0.0,
+        "value": 1179231575
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -113,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 1039485000
+        "value": 1019049000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 1001132500
+        "value": 981450500
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 941884500
+        "value": 923367300
       }
     ],
     "mutualfund_holders": []

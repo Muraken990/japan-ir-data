@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:25:14.286057",
+  "fetched_at": "2026-07-01T06:04:51.042565",
   "ticker": "1332",
   "ticker_full": "1332.T",
   "company_name": "NISSUI CORPORATION",
@@ -13,63 +13,25 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.83333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1313.0,
+    "current": 1241.0,
     "high": 1950.0,
     "low": 1060.0,
-    "mean": 1551.6666,
-    "median": 1600.0
+    "mean": 1618.3334,
+    "median": 1750.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 16.38,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-05-13",
-        "eps_estimate": 17.04,
-        "eps_actual": 17.09,
-        "surprise_pct": 0.29
-      },
-      {
-        "date": "2026-02-05",
-        "eps_estimate": 21.84,
-        "eps_actual": 26.52,
-        "surprise_pct": 21.43
-      },
-      {
-        "date": "2025-11-05",
-        "eps_estimate": 18.63,
-        "eps_actual": 25.62,
-        "surprise_pct": 37.52
-      },
-      {
-        "date": "2025-08-04",
-        "eps_estimate": 16.38,
-        "eps_actual": 20.94,
-        "surprise_pct": 27.84
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 21.94,
-        "eps_actual": 18.67,
-        "surprise_pct": -14.9
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.49,
-    "institution_pct": 48.96,
+    "institution_pct": 53.4,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +39,25 @@
       },
       {
         "label": "",
-        "value": 48.96
+        "value": 53.4
       },
       {
         "label": "",
-        "value": 53.5
+        "value": 58.35
       },
       {
         "label": "",
-        "value": 118.0
+        "value": 122.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 5642500,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.85,
-        "pct_change": 2.6,
-        "value": 7408602500
+        "shares": 5257200,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.72,
+        "pct_change": -6.83,
+        "value": 6524185200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,31 +65,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.4,
         "pct_change": 2.75,
-        "value": 5607028635
+        "value": 5299560195
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 2633801,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.86,
-        "pct_change": 3.33,
-        "value": 3458180713
+        "shares": 2677701,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.88,
+        "pct_change": 1.67,
+        "value": 3323026941
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 2567400,
-        "date_reported": "2025-12-31",
+        "shares": 2566500,
+        "date_reported": "2026-03-31",
         "pct_held": 0.84,
-        "pct_change": -3.02,
-        "value": 3370996200
-      },
-      {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 2244300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.74,
-        "pct_change": 1.0,
-        "value": 2946765900
+        "pct_change": -0.04,
+        "value": 3185026500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -135,15 +89,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.7,
         "pct_change": 0.42,
-        "value": 2815991100
+        "value": 2661572700
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 1558900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.51,
-        "pct_change": -1.65,
-        "value": 2046835700
+        "shares": 1577300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.52,
+        "pct_change": 1.18,
+        "value": 1957429300
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -151,23 +105,31 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 1906344700
+        "value": 1801807900
+      },
+      {
+        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
+        "shares": 1413200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.46,
+        "pct_change": -37.03,
+        "value": 1753781200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 1329700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 1745896100
+        "value": 1650157700
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1104600,
-        "date_reported": "2026-03-31",
+        "shares": 1113400,
+        "date_reported": "2026-04-30",
         "pct_held": 0.36,
-        "pct_change": 1.19,
-        "value": 1450339800
+        "pct_change": 0.8,
+        "value": 1381729400
       }
     ],
     "mutualfund_holders": []

@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:13.931952",
+  "fetched_at": "2026-07-01T06:01:49.908435",
   "ticker": "7867",
   "ticker_full": "7867.T",
   "company_name": "TOMY COMPANY LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3214.0,
-    "high": 4180.0,
+    "current": 3150.0,
+    "high": 3990.0,
     "low": 3000.0,
-    "mean": 3590.0,
-    "median": 3590.0
+    "mean": 3495.0,
+    "median": 3495.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-04",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-02-06",
+        "eps_estimate": 20.77,
+        "eps_actual": 84.12,
+        "surprise_pct": 305.0
+      },
+      {
+        "date": "2016-08-08",
+        "eps_estimate": -5.19,
+        "eps_actual": -12.03,
+        "surprise_pct": -131.67
+      },
+      {
+        "date": "2016-05-09",
+        "eps_estimate": -49.45,
+        "eps_actual": -46.09,
+        "surprise_pct": 6.79
+      },
+      {
+        "date": "2016-02-08",
+        "eps_estimate": 14.92,
+        "eps_actual": -35.72,
+        "surprise_pct": -339.41
+      },
+      {
+        "date": "2015-11-09",
+        "eps_estimate": 10.62,
+        "eps_actual": 12.56,
+        "surprise_pct": 18.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.99,
-    "institution_pct": 19.63,
+    "institution_pct": 19.57,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 19.63
+        "value": 19.57
       },
       {
         "label": "",
-        "value": 21.81
+        "value": 21.75
       },
       {
         "label": "",
@@ -57,15 +95,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.23,
         "pct_change": 0.0,
-        "value": 3714840834
+        "value": 3640867650
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 761804,
-        "date_reported": "2025-12-31",
+        "shares": 761204,
+        "date_reported": "2026-03-31",
         "pct_held": 0.81,
-        "pct_change": 3.32,
-        "value": 2448438056
+        "pct_change": -0.08,
+        "value": 2397792600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -73,15 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.76,
         "pct_change": 0.64,
-        "value": 2279047400
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 318393,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": -6.49,
-        "value": 1023315102
+        "value": 2233665000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -89,15 +119,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.33,
         "pct_change": -4.24,
-        "value": 980270000
+        "value": 960750000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 313300,
-        "date_reported": "2026-03-31",
+        "shares": 312500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.33,
-        "pct_change": 1.29,
-        "value": 1006946200
+        "pct_change": -0.26,
+        "value": 984375000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 304893,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.33,
+        "pct_change": -4.24,
+        "value": 960412950
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -105,15 +143,23 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.2,
         "pct_change": 0.9,
-        "value": 592388410
+        "value": 580592250
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 178800,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.19,
+        "pct_change": 5.55,
+        "value": 563220000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 174300,
-        "date_reported": "2026-01-31",
+        "shares": 180100,
+        "date_reported": "2026-04-30",
         "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 560200200
+        "pct_change": 3.33,
+        "value": 567315000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
@@ -121,15 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 2.48,
-        "value": 530631400
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 169400,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.18,
-        "pct_change": 0.0,
-        "value": 544451600
+        "value": 520065000
       }
     ],
     "mutualfund_holders": []

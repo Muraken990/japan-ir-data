@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:25:14.420202",
+  "fetched_at": "2026-07-01T06:04:51.087039",
   "ticker": "5741",
   "ticker_full": "5741.T",
   "company_name": "UACJ CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 1,
     "buy": 2,
-    "hold": 2,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
@@ -18,58 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3150.0,
-    "high": 3820.0,
-    "low": 1475.0,
-    "mean": 2674.1667,
-    "median": 2600.0
+    "current": 2488.0,
+    "high": 4050.0,
+    "low": 2400.0,
+    "mean": 3111.6667,
+    "median": 2950.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 27.58,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2026-05-14",
-        "eps_estimate": 21.63,
-        "eps_actual": 77.09,
-        "surprise_pct": 256.35
-      },
-      {
-        "date": "2026-02-12",
-        "eps_estimate": 53.65,
-        "eps_actual": 96.96,
-        "surprise_pct": 80.74
-      },
-      {
-        "date": "2025-11-11",
-        "eps_estimate": 13.43,
-        "eps_actual": 11.72,
-        "surprise_pct": -12.75
-      },
-      {
-        "date": "2025-08-05",
-        "eps_estimate": 27.58,
-        "eps_actual": 7.25,
-        "surprise_pct": -73.74
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 14.84,
-        "eps_actual": 17.13,
-        "surprise_pct": 15.42
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.84,
-    "institution_pct": 72.27,
+    "institution_pct": 72.52,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +39,15 @@
       },
       {
         "label": "",
-        "value": 72.27
+        "value": 72.52
       },
       {
         "label": "",
-        "value": 81.05
+        "value": 81.34
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 105.0
       }
     ],
     "institutional_holders": [],

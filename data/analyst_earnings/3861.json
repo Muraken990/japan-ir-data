@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:28.783673",
+  "fetched_at": "2026-07-01T06:10:22.717921",
   "ticker": "3861",
   "ticker_full": "3861.T",
   "company_name": "OJI HOLDINGS CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
-    "buy": 4,
-    "hold": 2,
+    "strong_buy": 0,
+    "buy": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.28571
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.85714
   },
   "target_prices": {
     "has_data": true,
-    "current": 771.0,
-    "high": 1180.0,
-    "low": 850.0,
-    "mean": 986.6667,
-    "median": 960.0
+    "current": 797.6,
+    "high": 1000.0,
+    "low": 800.0,
+    "mean": 873.3333,
+    "median": 860.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-02-02",
+        "eps_estimate": 25.2,
+        "eps_actual": 1.18,
+        "surprise_pct": -95.32
+      },
+      {
+        "date": "2022-05-12",
+        "eps_estimate": 21.3,
+        "eps_actual": 21.06,
+        "surprise_pct": -1.13
+      },
+      {
+        "date": "2022-02-03",
+        "eps_estimate": 21.45,
+        "eps_actual": 21.27,
+        "surprise_pct": -0.84
+      },
+      {
+        "date": "2021-11-01",
+        "eps_estimate": 18.2,
+        "eps_actual": 25.21,
+        "surprise_pct": 38.52
+      },
+      {
+        "date": "2021-05-13",
+        "eps_estimate": 17.0,
+        "eps_actual": 23.72,
+        "surprise_pct": 39.53
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.05,
-    "institution_pct": 36.03,
+    "institution_pct": 36.52,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.03
+        "value": 36.52
       },
       {
         "label": "",
-        "value": 41.92
+        "value": 42.49
       },
       {
         "label": "",
-        "value": 159.0
+        "value": 157.0
       }
     ],
     "institutional_holders": [
@@ -55,81 +93,81 @@
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 11312655,
         "date_reported": "2026-01-31",
-        "pct_held": 1.12,
+        "pct_held": 1.24,
         "pct_change": -0.17,
-        "value": 8722057005
+        "value": 9022973351
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Global Natural Resources ",
-        "shares": 7731600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.76,
-        "pct_change": 0.17,
-        "value": 5961063600
+        "shares": 8312700,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.91,
+        "pct_change": 7.52,
+        "value": 6630209317
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 7380381,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.73,
-        "pct_change": 2.2,
-        "value": 5690273751
-      },
-      {
-        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 5509800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.54,
-        "pct_change": -3.68,
-        "value": 4248055800
+        "shares": 7371881,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.81,
+        "pct_change": -0.12,
+        "value": 5879812105
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 5462200,
         "date_reported": "2026-04-30",
-        "pct_held": 0.54,
+        "pct_held": 0.6,
         "pct_change": 0.58,
-        "value": 4211356200
+        "value": 4356650586
+      },
+      {
+        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
+        "shares": 4935900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.54,
+        "pct_change": 0.0,
+        "value": 3936873719
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 4009900,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.4,
-        "pct_change": -0.28,
-        "value": 3091632900
+        "shares": 4188800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.46,
+        "pct_change": 4.46,
+        "value": 3340986777
       },
       {
         "holder": "FlexShares TRT-FlexShares Morningstar Global Upstream Natural Resource",
         "shares": 3823400,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.38,
-        "pct_change": -0.65,
-        "value": 2947841400
+        "date_reported": "2026-05-31",
+        "pct_held": 0.42,
+        "pct_change": 0.0,
+        "value": 3049543746
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
         "shares": 3428000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 2642988000
+        "value": 2734172716
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
-        "shares": 3052500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 10.0,
-        "value": 2353477500
+        "shares": 3353200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.37,
+        "pct_change": 9.85,
+        "value": 2674512238
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 2997000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.3,
-        "pct_change": 1.22,
-        "value": 2310687000
+        "shares": 2989800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.33,
+        "pct_change": -0.24,
+        "value": 2384664407
       }
     ],
     "mutualfund_holders": []

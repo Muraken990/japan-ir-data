@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:13:03.938702",
+  "fetched_at": "2026-07-01T05:53:47.768181",
   "ticker": "6745",
   "ticker_full": "6745.T",
   "company_name": "HOCHIKI CORP",
@@ -18,20 +18,35 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1969.0,
+    "current": 1899.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-02-05",
+        "eps_estimate": 11.13,
+        "eps_actual": 13.02,
+        "surprise_pct": 16.92
+      },
+      {
+        "date": "2016-08-03",
+        "eps_estimate": -1.0,
+        "eps_actual": 2.96,
+        "surprise_pct": 396.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 34.15,
-    "institution_pct": 31.42,
+    "institution_pct": 31.4,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +54,15 @@
       },
       {
         "label": "",
-        "value": 31.42
+        "value": 31.4
       },
       {
         "label": "",
-        "value": 47.72
+        "value": 47.69
       },
       {
         "label": "",
-        "value": 57.0
+        "value": 59.0
       }
     ],
     "institutional_holders": [],

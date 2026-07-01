@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:08:04.832579",
+  "fetched_at": "2026-07-01T05:48:40.775329",
   "ticker": "5726",
   "ticker_full": "5726.T",
   "company_name": "OSAKA TITANIUM TECHNOLOGIES",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2755.0,
-    "high": 3300.0,
-    "low": 2300.0,
-    "mean": 2800.0,
-    "median": 2800.0
+    "current": 2668.0,
+    "high": 4000.0,
+    "low": 2700.0,
+    "mean": 3350.0,
+    "median": 3350.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-05-13",
+        "eps_estimate": 5.0,
+        "eps_actual": 4.98,
+        "surprise_pct": -0.4
+      },
+      {
+        "date": "2019-02-06",
+        "eps_estimate": 10.9,
+        "eps_actual": -228.67,
+        "surprise_pct": -2197.89
+      },
+      {
+        "date": "2017-01-26",
+        "eps_estimate": 7.2,
+        "eps_actual": 19.28,
+        "surprise_pct": 167.78
+      },
+      {
+        "date": "2016-10-30",
+        "eps_estimate": -4.3,
+        "eps_actual": -7.53,
+        "surprise_pct": -75.12
+      },
+      {
+        "date": "2016-04-27",
+        "eps_estimate": 49.8,
+        "eps_actual": -230.68,
+        "surprise_pct": -563.21
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.97,
-    "institution_pct": 47.87,
+    "institution_pct": 50.5,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 47.87
+        "value": 50.5
       },
       {
         "label": "",
-        "value": 58.35
+        "value": 61.56
       },
       {
         "label": "",
@@ -52,20 +85,28 @@
     ],
     "institutional_holders": [
       {
+        "holder": "Third Avenue Trust-THIRD AVENUE VALUE FUND",
+        "shares": 814800,
+        "date_reported": "2026-04-30",
+        "pct_held": 2.21,
+        "pct_change": 1.0,
+        "value": 2173886400
+      },
+      {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 422708,
         "date_reported": "2026-01-31",
         "pct_held": 1.15,
         "pct_change": 0.0,
-        "value": 1164560540
+        "value": 1127784944
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 272880,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.74,
-        "pct_change": 0.0,
-        "value": 751784400
+        "shares": 284080,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.77,
+        "pct_change": 4.1,
+        "value": 757925440
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -73,23 +114,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.54,
         "pct_change": 1.0,
-        "value": 548520500
+        "value": 531198800
+      },
+      {
+        "holder": "HARBOR FUNDS-Harbor International Fund",
+        "shares": 169200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.46,
+        "pct_change": 6.39,
+        "value": 451425600
       },
       {
         "holder": "FINANCIAL INVESTORS TRUST-ALPS/CoreCommodity Natural Resources ETF",
-        "shares": 131718,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 54.44,
-        "value": 362883090
+        "shares": 119370,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.32,
+        "pct_change": -9.37,
+        "value": 318479160
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 113800,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 313519000
+        "value": 303618400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -97,7 +146,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 298366500
+        "value": 288944400
       },
       {
         "holder": "Third Avenue Variable Series Trust-Third Avenue Value Portfolio",
@@ -105,31 +154,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.22,
         "pct_change": 1.0,
-        "value": 221777500
+        "value": 214774000
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 60900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": -24.44,
-        "value": 167779500
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 62362,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.17,
-        "pct_change": -1.13,
-        "value": 171807310
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 46500,
+        "holder": "T. ROWE PRICE GLOBAL Fd.S, INC.-T. Rowe Price Global Value Eqy. Fd.",
+        "shares": 75500,
         "date_reported": "2026-04-30",
-        "pct_held": 0.13,
-        "pct_change": 0.0,
-        "value": 128107500
+        "pct_held": 0.21,
+        "pct_change": 1.0,
+        "value": 201434000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:16.055534",
+  "fetched_at": "2026-07-01T06:02:37.750069",
   "ticker": "2593",
   "ticker_full": "2593.T",
   "company_name": "ITO EN LTD",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3006.0,
-    "high": 3200.0,
-    "low": 2800.0,
-    "mean": 3066.6667,
-    "median": 3200.0
+    "current": 2851.5,
+    "high": 2900.0,
+    "low": 2550.0,
+    "mean": 2750.0,
+    "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-31",
+      "eps_estimate": 43.94,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-31",
+        "eps_estimate": 11.72,
+        "eps_actual": 29.25,
+        "surprise_pct": 149.52
+      },
+      {
+        "date": "2026-03-01",
+        "eps_estimate": 22.07,
+        "eps_actual": -83.62,
+        "surprise_pct": -478.96
+      },
+      {
+        "date": "2025-12-01",
+        "eps_estimate": 47.02,
+        "eps_actual": 31.64,
+        "surprise_pct": -32.71
+      },
+      {
+        "date": "2025-09-01",
+        "eps_estimate": 43.94,
+        "eps_actual": 49.6,
+        "surprise_pct": 12.87
+      },
+      {
+        "date": "2025-06-01",
+        "eps_estimate": 0.64,
+        "eps_actual": 22.74,
+        "surprise_pct": 3450.52
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.96,
-    "institution_pct": 17.83,
+    "institution_pct": 18.15,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 17.83
+        "value": 18.15
       },
       {
         "label": "",
-        "value": 31.27
+        "value": 31.81
       },
       {
         "label": "",
-        "value": 91.0
+        "value": 89.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 906000,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.06,
-        "pct_change": 1.47,
-        "value": 2723436000
+        "shares": 1070000,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.26,
+        "pct_change": 18.1,
+        "value": 3051105000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,31 +103,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.91,
         "pct_change": -0.31,
-        "value": 2324485692
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 509900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.6,
-        "pct_change": 19.44,
-        "value": 1532759400
+        "value": 2205013623
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 496712,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.58,
-        "pct_change": 1.89,
-        "value": 1493116272
+        "shares": 506212,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.59,
+        "pct_change": 1.91,
+        "value": 1443463518
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 482600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.57,
+        "pct_change": 13.05,
+        "value": 1376133900
+      },
+      {
+        "holder": "Gabelli Dividend & Income Trust",
+        "shares": 260000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.31,
+        "pct_change": 0.0,
+        "value": 741390000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 239100,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.28,
-        "pct_change": 1.27,
-        "value": 718734600
+        "shares": 243800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.29,
+        "pct_change": 1.97,
+        "value": 695195700
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,23 +143,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 16.46,
-        "value": 636054570
+        "value": 603363142
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 175100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.21,
-        "pct_change": 17.12,
-        "value": 526350600
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 166099,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": -35.85,
-        "value": 499293594
+        "shares": 186100,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.22,
+        "pct_change": 6.28,
+        "value": 530664150
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -121,15 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.18,
         "pct_change": 12.53,
-        "value": 472543200
+        "value": 448255800
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 115723,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.14,
+        "holder": "Gabelli Equity Series Funds Inc-The Gabelli Equity Income Fund",
+        "shares": 132000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 347863338
+        "value": 376398000
       }
     ],
     "mutualfund_holders": []

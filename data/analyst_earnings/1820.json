@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:07.682416",
+  "fetched_at": "2026-07-01T06:01:43.441444",
   "ticker": "1820",
   "ticker_full": "1820.T",
   "company_name": "NISHIMATSU CONSTRUCTION CO",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 2,
-    "hold": 2,
+    "buy": 1,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.4
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5345.0,
+    "current": 5316.0,
     "high": 8600.0,
     "low": 5775.0,
     "mean": 6875.0,
     "median": 6800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2022-02-03",
+        "eps_estimate": 69.5,
+        "eps_actual": 78.36,
+        "surprise_pct": 12.75
+      },
+      {
+        "date": "2016-02-08",
+        "eps_estimate": -5.26,
+        "eps_actual": 96.2,
+        "surprise_pct": 1928.9
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 4.51,
+        "eps_actual": 37.4,
+        "surprise_pct": 729.27
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 24.53,
+        "eps_actual": 48.6,
+        "surprise_pct": 98.17
+      },
+      {
+        "date": "2015-02-08",
+        "eps_estimate": 35.72,
+        "eps_actual": 27.5,
+        "surprise_pct": -23.0
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 25.39,
-    "institution_pct": 22.57,
+    "institution_pct": 22.48,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 22.57
+        "value": 22.48
       },
       {
         "label": "",
-        "value": 30.24
+        "value": 30.13
       },
       {
         "label": "",
-        "value": 81.0
+        "value": 82.0
       }
     ],
     "institutional_holders": [],

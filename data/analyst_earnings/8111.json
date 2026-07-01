@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:25:20.305429",
+  "fetched_at": "2026-07-01T06:04:56.121765",
   "ticker": "8111",
   "ticker_full": "8111.T",
   "company_name": "GOLDWIN INC",
@@ -18,58 +18,20 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2113.0,
-    "high": 3400.0,
-    "low": 3000.0,
-    "mean": 3150.0,
-    "median": 3100.0
+    "current": 2190.0,
+    "high": 3300.0,
+    "low": 2900.0,
+    "mean": 3066.6667,
+    "median": 3050.0
   },
   "earnings_dates": {
-    "has_data": true,
-    "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
-    "past_earnings": [
-      {
-        "date": "2025-02-06",
-        "eps_estimate": 75.29,
-        "eps_actual": 73.09,
-        "surprise_pct": -2.91
-      },
-      {
-        "date": "2016-02-02",
-        "eps_estimate": 19.09,
-        "eps_actual": 15.48,
-        "surprise_pct": -18.9
-      },
-      {
-        "date": "2015-08-04",
-        "eps_estimate": 0.04,
-        "eps_actual": -1.56,
-        "surprise_pct": -3965.66
-      },
-      {
-        "date": "2015-05-13",
-        "eps_estimate": 1.85,
-        "eps_actual": 2.03,
-        "surprise_pct": 9.78
-      },
-      {
-        "date": "2015-02-03",
-        "eps_estimate": 15.92,
-        "eps_actual": 19.0,
-        "surprise_pct": 19.38
-      }
-    ]
+    "has_data": false,
+    "error": "['Earnings Date']"
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.83,
-    "institution_pct": 25.52,
+    "institution_pct": 25.4,
     "major_holders": [
       {
         "label": "",
@@ -77,18 +39,99 @@
       },
       {
         "label": "",
-        "value": 25.52
+        "value": 25.4
       },
       {
         "label": "",
-        "value": 32.66
+        "value": 32.49
       },
       {
         "label": "",
-        "value": 110.0
+        "value": 107.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 1307294,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.92,
+        "pct_change": 2.8,
+        "value": 2862973860
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 937478,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.66,
+        "pct_change": 4.13,
+        "value": 2053076820
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 444900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.31,
+        "pct_change": 8.64,
+        "value": 974331000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 228500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.16,
+        "pct_change": -0.26,
+        "value": 500415000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 210699,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.15,
+        "pct_change": 0.94,
+        "value": 461430810
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 215203,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.15,
+        "pct_change": 3.36,
+        "value": 471294570
+      },
+      {
+        "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
+        "shares": 205000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": -11.83,
+        "value": 448950000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 183600,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.13,
+        "pct_change": 9.29,
+        "value": 402084000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 108800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.08,
+        "pct_change": 44.49,
+        "value": 238272000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
+        "shares": 100496,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.07,
+        "pct_change": -12.07,
+        "value": 220086240
+      }
+    ],
     "mutualfund_holders": []
   }
 }

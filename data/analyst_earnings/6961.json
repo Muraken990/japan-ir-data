@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:08:07.857718",
+  "fetched_at": "2026-07-01T05:48:43.285240",
   "ticker": "6961",
   "ticker_full": "6961.T",
   "company_name": "ENPLAS CORP",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 12760.0,
+    "current": 13430.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 157.5,
+        "eps_actual": 88.02,
+        "surprise_pct": -44.11
+      },
+      {
+        "date": "2024-07-30",
+        "eps_estimate": 116.1,
+        "eps_actual": 172.0,
+        "surprise_pct": 48.15
+      },
+      {
+        "date": "2024-04-29",
+        "eps_estimate": 154.0,
+        "eps_actual": 131.36,
+        "surprise_pct": -14.7
+      },
+      {
+        "date": "2024-01-30",
+        "eps_estimate": 122.4,
+        "eps_actual": 54.97,
+        "surprise_pct": -55.09
+      },
+      {
+        "date": "2023-10-26",
+        "eps_estimate": 134.2,
+        "eps_actual": 120.39,
+        "surprise_pct": -10.29
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 23.81,
-    "institution_pct": 33.74,
+    "institution_pct": 34.65,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 33.74
+        "value": 34.65
       },
       {
         "label": "",
-        "value": 44.28
+        "value": 45.48
       },
       {
         "label": "",
-        "value": 52.0
+        "value": 57.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +90,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.95,
         "pct_change": -0.97,
-        "value": 1173830680
+        "value": 1235465990
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 61190,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.63,
-        "pct_change": 6.81,
-        "value": 780784400
+        "shares": 63090,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.65,
+        "pct_change": 3.11,
+        "value": 847298700
       },
       {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 41100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.42,
-        "pct_change": 0.0,
-        "value": 524436000
+        "holder": "OBERWEIS FUNDS-Oberweis International Opportunities Fund",
+        "shares": 44700,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.46,
+        "pct_change": 1.0,
+        "value": 600321000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -81,7 +114,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 304364280
+        "value": 320345790
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -89,7 +122,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.2,
         "pct_change": -18.33,
-        "value": 250096000
+        "value": 263228000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -97,39 +130,39 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.13,
         "pct_change": -14.49,
-        "value": 167385680
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 10100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.1,
-        "pct_change": 0.0,
-        "value": 128876000
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 8400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.09,
-        "pct_change": -77.84,
-        "value": 107184000
+        "value": 176174740
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
-        "shares": 8051,
+        "shares": 7251,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.07,
+        "pct_change": -9.94,
+        "value": 97380930
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Vector Eqy. PORT.",
+        "shares": 3800,
         "date_reported": "2026-01-31",
-        "pct_held": 0.08,
+        "pct_held": 0.04,
+        "pct_change": -54.76,
+        "value": 51034000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
+        "shares": 3800,
+        "date_reported": "2026-01-31",
+        "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 102730760
+        "value": 51034000
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
         "shares": 4200,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 53592000
+        "value": 56406000
       }
     ],
     "mutualfund_holders": []

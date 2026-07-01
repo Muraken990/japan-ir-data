@@ -1,53 +1,60 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:14.947598",
+  "fetched_at": "2026-07-01T06:02:35.878099",
   "ticker": "3295",
   "ticker_full": "3295.T",
   "company_name": "HULIC REIT INC.",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 0,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.75
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 154500.0,
+    "current": 153600.0,
     "high": 186000.0,
-    "low": 175000.0,
-    "mean": 181000.0,
-    "median": 181500.0
+    "low": 165000.0,
+    "mean": 177250.0,
+    "median": 179000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-16",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 19.17,
-    "institution_pct": 51.31,
+    "insider_pct": 18.93,
+    "institution_pct": 55.92,
     "major_holders": [
       {
         "label": "",
-        "value": 19.17
+        "value": 18.93
       },
       {
         "label": "",
-        "value": 51.31
+        "value": 55.92
       },
       {
         "label": "",
-        "value": 63.48
+        "value": 68.98
       },
       {
         "label": "",
-        "value": 95.0
+        "value": 98.0
       }
     ],
     "institutional_holders": [],

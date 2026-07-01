@@ -1,36 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:16.054574",
+  "fetched_at": "2026-07-01T06:02:37.576167",
   "ticker": "1941",
   "ticker_full": "1941.T",
   "company_name": "CHUDENKO CORP",
   "analyst_recommendations": {
     "has_data": true,
+    "period": "0",
+    "strong_buy": 0,
+    "buy": 1,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 1,
     "recommendation_key": "none",
-    "recommendation_mean": null,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4840.0,
+    "current": 5410.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-29",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2017-01-29",
+        "eps_estimate": 27.84,
+        "eps_actual": 34.29,
+        "surprise_pct": 23.17
+      },
+      {
+        "date": "2016-07-26",
+        "eps_estimate": 13.23,
+        "eps_actual": 26.39,
+        "surprise_pct": 99.52
+      },
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 25.86,
+        "eps_actual": 37.7,
+        "surprise_pct": 45.78
+      },
+      {
+        "date": "2015-07-28",
+        "eps_estimate": 13.29,
+        "eps_actual": 50.17,
+        "surprise_pct": 277.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.55,
-    "institution_pct": 21.05,
+    "institution_pct": 21.03,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 21.05
+        "value": 21.03
       },
       {
         "label": "",
-        "value": 36.64
+        "value": 36.61
       },
       {
         "label": "",
-        "value": 84.0
+        "value": 85.0
       }
     ],
     "institutional_holders": [
@@ -56,39 +95,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.69,
         "pct_change": 1.21,
-        "value": 1944479680
+        "value": 2173478320
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 281646,
-        "date_reported": "2025-12-31",
+        "shares": 280946,
+        "date_reported": "2026-03-31",
         "pct_held": 0.48,
-        "pct_change": 0.0,
-        "value": 1363166640
+        "pct_change": -0.25,
+        "value": 1519917860
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 235560,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 1140110400
+        "value": 1274379600
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
-        "shares": 168600,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.29,
-        "pct_change": 2.8,
-        "value": 816024000
+        "shares": 176900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.3,
+        "pct_change": 4.92,
+        "value": 957029000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 165700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.29,
-        "pct_change": -2.01,
-        "value": 801988000
+        "pct_change": 0.0,
+        "value": 896437000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -96,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 741972000
+        "value": 829353000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -104,23 +143,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.19,
         "pct_change": -1.18,
-        "value": 526108000
+        "value": 588067000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 102100,
-        "date_reported": "2026-03-31",
+        "shares": 101900,
+        "date_reported": "2026-04-30",
         "pct_held": 0.18,
-        "pct_change": 4.18,
-        "value": 494164000
+        "pct_change": -0.2,
+        "value": 551279000
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
-        "shares": 84500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 1.93,
-        "value": 408980000
+        "shares": 81000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": -4.14,
+        "value": 438210000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -128,7 +167,7 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.11,
         "pct_change": -1.14,
-        "value": 309847120
+        "value": 346337380
       }
     ],
     "mutualfund_holders": []

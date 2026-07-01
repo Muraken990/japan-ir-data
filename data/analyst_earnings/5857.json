@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:12.054207",
+  "fetched_at": "2026-07-01T06:01:48.272987",
   "ticker": "5857",
   "ticker_full": "5857.T",
   "company_name": "ARE HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3240.0,
+    "current": 2928.0,
     "high": 6400.0,
     "low": 6400.0,
     "mean": 6400.0,
     "median": 6400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-04",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2011-05-12",
+        "eps_estimate": 21.31,
+        "eps_actual": 25.04,
+        "surprise_pct": 17.5
+      },
+      {
+        "date": "2011-01-31",
+        "eps_estimate": 22.13,
+        "eps_actual": 20.53,
+        "surprise_pct": -7.23
+      },
+      {
+        "date": "2010-10-27",
+        "eps_estimate": 19.18,
+        "eps_actual": 18.13,
+        "surprise_pct": -5.5
+      },
+      {
+        "date": "2010-05-12",
+        "eps_estimate": 20.09,
+        "eps_actual": 24.4,
+        "surprise_pct": 21.46
+      },
+      {
+        "date": "2010-02-01",
+        "eps_estimate": 10.87,
+        "eps_actual": 19.24,
+        "surprise_pct": 77.08
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.61,
-    "institution_pct": 45.15,
+    "institution_pct": 45.95,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 45.15
+        "value": 45.95
       },
       {
         "label": "",
-        "value": 47.34
+        "value": 48.17
       },
       {
         "label": "",
-        "value": 117.0
+        "value": 121.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1456100,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.68,
-        "pct_change": 4.25,
-        "value": 4717764000
+        "shares": 1677900,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.93,
+        "pct_change": 15.23,
+        "value": 4912891200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,15 +103,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.21,
         "pct_change": -0.29,
-        "value": 3412928520
+        "value": 3084276144
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 691426,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.8,
-        "pct_change": 4.52,
-        "value": 2240220240
+        "shares": 709926,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.82,
+        "pct_change": 2.68,
+        "value": 2078663328
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,39 +119,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.73,
         "pct_change": 0.72,
-        "value": 2043468000
+        "value": 1846689600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 413400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.48,
-        "pct_change": -5.29,
-        "value": 1339416000
+        "pct_change": 0.0,
+        "value": 1210435200
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 345199,
-        "date_reported": "2026-04-30",
+        "shares": 348899,
+        "date_reported": "2026-05-31",
         "pct_held": 0.4,
-        "pct_change": 0.0,
-        "value": 1118444760
+        "pct_change": 1.07,
+        "value": 1021576272
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 301800,
-        "date_reported": "2026-03-31",
+        "shares": 301000,
+        "date_reported": "2026-04-30",
         "pct_held": 0.35,
-        "pct_change": 2.55,
-        "value": 977832000
-      },
-      {
-        "holder": "AIM Sector Fd.s -Invesco Gold & Special Minerals Fd.",
-        "shares": 296600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.34,
-        "pct_change": 32.65,
-        "value": 960984000
+        "pct_change": -0.27,
+        "value": 881328000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -121,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.31,
         "pct_change": -1.43,
-        "value": 868968000
+        "value": 785289600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +159,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 854712000
+        "value": 772406400
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 259900,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.3,
+        "pct_change": 12.51,
+        "value": 760987200
       }
     ],
     "mutualfund_holders": []

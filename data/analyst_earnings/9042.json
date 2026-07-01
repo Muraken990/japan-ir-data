@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:36.255275",
+  "fetched_at": "2026-07-01T06:10:29.973564",
   "ticker": "9042",
   "ticker_full": "9042.T",
   "company_name": "HANKYU HANSHIN HOLDINGS INC",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 0,
+    "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.8
+    "total_analysts": 4,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4580.0,
+    "current": 4183.0,
     "high": 5500.0,
-    "low": 4200.0,
-    "mean": 5160.0,
+    "low": 4500.0,
+    "mean": 5220.0,
     "median": 5500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-07-31",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-02-01",
+        "eps_estimate": 59.5,
+        "eps_actual": 75.22,
+        "surprise_pct": 26.42
+      },
+      {
+        "date": "2016-10-26",
+        "eps_estimate": 71.7,
+        "eps_actual": 138.33,
+        "surprise_pct": 92.93
+      },
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 77.73,
+        "eps_actual": 59.0,
+        "surprise_pct": -24.09
+      },
+      {
+        "date": "2015-10-29",
+        "eps_estimate": 50.07,
+        "eps_actual": 62.7,
+        "surprise_pct": 25.22
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 64.95,
+        "eps_actual": 73.6,
+        "surprise_pct": 13.32
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.1,
-    "institution_pct": 36.1,
+    "insider_pct": 4.24,
+    "institution_pct": 36.77,
     "major_holders": [
       {
         "label": "",
-        "value": 4.1
+        "value": 4.24
       },
       {
         "label": "",
-        "value": 36.1
+        "value": 36.77
       },
       {
         "label": "",
-        "value": 37.64
+        "value": 38.39
       },
       {
         "label": "",
-        "value": 220.0
+        "value": 219.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.0,
         "pct_change": -4.54,
-        "value": 10117220
+        "value": 9240247
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.32,
         "pct_change": 0.16,
-        "value": 15168126440
+        "value": 13853334694
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 2136341,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.85,
-        "pct_change": 1.83,
-        "value": 9784441780
+        "shares": 2193541,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.87,
+        "pct_change": 2.68,
+        "value": 9175582003
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -83,63 +121,63 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.68,
         "pct_change": 0.53,
-        "value": 7853784000
+        "value": 7173008400
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 1073240,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.43,
-        "pct_change": -0.28,
-        "value": 4915439200
+        "shares": 1121240,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.45,
+        "pct_change": 4.47,
+        "value": 4690146920
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 988800,
+        "shares": 941900,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.37,
+        "pct_change": -4.74,
+        "value": 3939967700
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
+        "shares": 929600,
         "date_reported": "2026-04-30",
-        "pct_held": 0.39,
-        "pct_change": 5.69,
-        "value": 4528704000
+        "pct_held": 0.37,
+        "pct_change": 24.0,
+        "value": 3888516800
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 878851,
-        "date_reported": "2026-03-31",
+        "shares": 887957,
+        "date_reported": "2026-04-30",
         "pct_held": 0.35,
-        "pct_change": 0.27,
-        "value": 4025137580
+        "pct_change": 1.04,
+        "value": 3714324131
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
         "shares": 835100,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 3824758000
-      },
-      {
-        "holder": "iShares Trust-iShares ESG Aware MSCI EAFE ETF",
-        "shares": 784600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.31,
-        "pct_change": -0.09,
-        "value": 3593468000
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
-        "shares": 749700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 11.33,
-        "value": 3433626000
+        "value": 3493223300
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 701500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": -3.77,
-        "value": 3212870000
+        "shares": 759300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 8.24,
+        "value": 3176151900
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
+        "shares": 606000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.24,
+        "pct_change": 1.83,
+        "value": 2534898000
       }
     ]
   }

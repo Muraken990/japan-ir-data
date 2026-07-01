@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:29.890854",
+  "fetched_at": "2026-07-01T06:10:24.559861",
   "ticker": "8953",
   "ticker_full": "8953.T",
   "company_name": "JAPAN METROPOLITAN FUND INV COR",
@@ -8,46 +8,53 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 6,
+    "buy": 7,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 9,
+    "total_analysts": 10,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 111100.0,
+    "current": 111200.0,
     "high": 148000.0,
     "low": 122000.0,
-    "mean": 137660.0,
-    "median": 139800.0
+    "mean": 138160.0,
+    "median": 140800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-21",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.72,
-    "institution_pct": 60.4,
+    "insider_pct": 6.32,
+    "institution_pct": 62.32,
     "major_holders": [
       {
         "label": "",
-        "value": 6.72
+        "value": 6.32
       },
       {
         "label": "",
-        "value": 60.4
+        "value": 62.32
       },
       {
         "label": "",
-        "value": 64.75
+        "value": 66.53
       },
       {
         "label": "",
-        "value": 192.0
+        "value": 195.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +64,7 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.04,
         "pct_change": 1.0,
-        "value": 278749900
+        "value": 279000800
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +74,15 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.36,
         "pct_change": -0.33,
-        "value": 10829139200
+        "value": 10838886400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 63293,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.88,
-        "pct_change": 1.89,
-        "value": 7031852300
+        "shares": 64786,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.9,
+        "pct_change": 2.36,
+        "value": 7204203200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -83,15 +90,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.74,
         "pct_change": 0.6,
-        "value": 5916519400
+        "value": 5921844800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
         "shares": 49087,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.68,
-        "pct_change": -2.51,
-        "value": 5453565700
+        "pct_change": 0.0,
+        "value": 5458474400
       },
       {
         "holder": "MFS SERIES TRUST XIII-MFS Global Real Estate Fund",
@@ -99,31 +106,39 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.6,
         "pct_change": -2.16,
-        "value": 4791965200
+        "value": 4796278400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 28424,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.4,
-        "pct_change": 1.68,
-        "value": 3157906400
+        "shares": 28356,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.39,
+        "pct_change": -0.24,
+        "value": 3153187200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
-        "shares": 24937,
-        "date_reported": "2026-01-31",
+        "shares": 25417,
+        "date_reported": "2026-04-30",
         "pct_held": 0.35,
-        "pct_change": -4.91,
-        "value": 2770500700
+        "pct_change": 1.92,
+        "value": 2826370400
       },
       {
         "holder": "COHEN & STEERS GLOBAL REALTY SHARES, INC-Cohen & Steers Global Realty ",
-        "shares": 19464,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.27,
-        "pct_change": -1.93,
-        "value": 2162450400
+        "shares": 23980,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.33,
+        "pct_change": 23.2,
+        "value": 2666576000
+      },
+      {
+        "holder": "-SSgA SPDR ETFS Europe I-SPDR S&P Glbl Div Aristocrats UCITS ETF",
+        "shares": 18421,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.26,
+        "pct_change": -0.74,
+        "value": 2048415200
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
@@ -131,15 +146,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.25,
         "pct_change": -0.42,
-        "value": 1981357400
-      },
-      {
-        "holder": "-SSgA SPDR ETFS Europe I-SPDR S&P Glbl Div Aristocrats UCITS ETF",
-        "shares": 16876,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": 1.0,
-        "value": 1874923600
+        "value": 1983140800
       }
     ]
   }

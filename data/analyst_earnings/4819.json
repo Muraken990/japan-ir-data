@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:14:06.458703",
+  "fetched_at": "2026-07-01T05:54:48.141641",
   "ticker": "4819",
   "ticker_full": "4819.T",
   "company_name": "DIGITAL GARAGE",
@@ -13,25 +13,32 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.33333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2039.0,
+    "current": 1903.0,
     "high": 4150.0,
     "low": 2600.0,
     "mean": 3516.6667,
     "median": 3800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 59.1,
-    "institution_pct": 16.41,
+    "institution_pct": 16.54,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +46,11 @@
       },
       {
         "label": "",
-        "value": 16.41
+        "value": 16.54
       },
       {
         "label": "",
-        "value": 40.12
+        "value": 40.45
       },
       {
         "label": "",
@@ -57,7 +64,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.11,
         "pct_change": 0.0,
-        "value": 1084544100
+        "value": 1012205700
       },
       {
         "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
@@ -65,7 +72,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.68,
         "pct_change": 1.19,
-        "value": 659616500
+        "value": 615620500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -73,7 +80,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.55,
         "pct_change": -36.13,
-        "value": 531624392
+        "value": 496165384
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,39 +88,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 358660100
+        "value": 334737700
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 166752,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.35,
-        "pct_change": -36.22,
-        "value": 340007328
-      },
-      {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
-        "shares": 130213,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.27,
-        "pct_change": -37.1,
-        "value": 265504307
+        "pct_change": 0.0,
+        "value": 317329056
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 80000,
-        "date_reported": "2026-03-31",
+        "shares": 79800,
+        "date_reported": "2026-04-30",
         "pct_held": 0.17,
-        "pct_change": 1.27,
-        "value": 163120000
+        "pct_change": -0.25,
+        "value": 151859400
       },
       {
-        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
-        "shares": 60000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": 2.04,
-        "value": 122340000
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 82600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.17,
+        "pct_change": 1.0,
+        "value": 157187800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -121,15 +120,23 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.13,
         "pct_change": -36.92,
-        "value": 127845300
+        "value": 119318100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 53500,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 109086500
+        "value": 101810500
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 39719,
+        "date_reported": "2026-02-28",
+        "pct_held": 0.08,
+        "pct_change": -31.2,
+        "value": 75585257
       }
     ],
     "mutualfund_holders": []

@@ -1,20 +1,19 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:12:13.327712",
+  "fetched_at": "2026-07-01T05:53:44.000991",
   "ticker": "4384",
   "ticker_full": "4384.T",
   "company_name": "RAKSUL INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 1,
-    "buy": 2,
-    "hold": 0,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 3,
     "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_mean": null,
+    "total_analysts": 2,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
@@ -25,8 +24,41 @@
     "median": 1500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-06-17",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2022-06-09",
+        "eps_estimate": 9.26,
+        "eps_actual": 5.85,
+        "surprise_pct": -36.79
+      },
+      {
+        "date": "2022-03-11",
+        "eps_estimate": 0.82,
+        "eps_actual": 1.14,
+        "surprise_pct": 39.02
+      },
+      {
+        "date": "2021-12-09",
+        "eps_estimate": 0.56,
+        "eps_actual": -2.46,
+        "surprise_pct": -540.18
+      },
+      {
+        "date": "2021-09-09",
+        "eps_estimate": -4.28,
+        "eps_actual": -3.17,
+        "surprise_pct": 25.9
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:07:11.164695",
+  "fetched_at": "2026-07-01T05:47:48.175389",
   "ticker": "4220",
   "ticker_full": "4220.T",
   "company_name": "RIKEN TECHNOS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
@@ -18,32 +18,65 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1524.0,
+    "current": 1694.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 9.04,
+        "eps_actual": 10.2,
+        "surprise_pct": 12.88
+      },
+      {
+        "date": "2014-08-07",
+        "eps_estimate": 6.24,
+        "eps_actual": 6.34,
+        "surprise_pct": 1.68
+      },
+      {
+        "date": "2014-02-09",
+        "eps_estimate": 10.69,
+        "eps_actual": 9.43,
+        "surprise_pct": -11.78
+      },
+      {
+        "date": "2013-11-10",
+        "eps_estimate": 9.63,
+        "eps_actual": 12.47,
+        "surprise_pct": 29.5
+      },
+      {
+        "date": "2013-08-08",
+        "eps_estimate": 5.05,
+        "eps_actual": 8.16,
+        "surprise_pct": 61.71
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 22.23,
-    "institution_pct": 30.65,
+    "insider_pct": 21.07,
+    "institution_pct": 30.76,
     "major_holders": [
       {
         "label": "",
-        "value": 22.23
+        "value": 21.07
       },
       {
         "label": "",
-        "value": 30.65
+        "value": 30.76
       },
       {
         "label": "",
-        "value": 39.42
+        "value": 38.97
       },
       {
         "label": "",

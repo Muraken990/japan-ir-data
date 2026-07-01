@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:24.717768",
+  "fetched_at": "2026-07-01T06:10:19.280539",
   "ticker": "6645",
   "ticker_full": "6645.T",
   "company_name": "OMRON CORP",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6054.0,
-    "high": 7400.0,
+    "current": 6037.0,
+    "high": 8000.0,
     "low": 4000.0,
-    "mean": 5027.273,
-    "median": 4500.0
+    "mean": 5636.364,
+    "median": 6000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": 27.93,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 56.74,
+        "eps_actual": 26.91,
+        "surprise_pct": -52.57
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 40.6,
+        "eps_actual": 11.34,
+        "surprise_pct": -72.07
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 27.93,
+        "eps_actual": 34.62,
+        "surprise_pct": 23.95
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 61.8,
+        "eps_actual": 46.16,
+        "surprise_pct": -25.31
+      },
+      {
+        "date": "2025-02-10",
+        "eps_estimate": 55.9,
+        "eps_actual": 53.33,
+        "surprise_pct": -4.6
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 3.24,
-    "institution_pct": 53.58,
+    "institution_pct": 54.14,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 53.58
+        "value": 54.14
       },
       {
         "label": "",
-        "value": 55.37
+        "value": 55.96
       },
       {
         "label": "",
-        "value": 209.0
+        "value": 211.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 73.95,
-        "value": 2264196
+        "value": 2257838
       }
     ],
     "mutualfund_holders": [
@@ -67,63 +105,71 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.34,
         "pct_change": 0.24,
-        "value": 16746338694
+        "value": 16699313957
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1798925,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.87,
-        "pct_change": 2.18,
-        "value": 10890691950
+        "shares": 1845425,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.89,
+        "pct_change": 2.58,
+        "value": 11140830725
       },
       {
         "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
-        "shares": 1526673,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.74,
-        "pct_change": 1.17,
-        "value": 9242478342
+        "shares": 1555905,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.75,
+        "pct_change": 1.91,
+        "value": 9392998485
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1304600,
+        "shares": 1289500,
         "date_reported": "2026-04-30",
         "pct_held": 0.63,
-        "pct_change": 2.85,
-        "value": 7898048400
+        "pct_change": 1.66,
+        "value": 7784711500
       },
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
-        "shares": 1232146,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.6,
-        "pct_change": -22.82,
-        "value": 7459411884
+        "shares": 1208246,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.59,
+        "pct_change": -1.94,
+        "value": 7294181102
+      },
+      {
+        "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
+        "shares": 1143477,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.55,
+        "pct_change": 1.0,
+        "value": 6903170649
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 733400,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.36,
-        "pct_change": 1.76,
-        "value": 4440003600
+        "shares": 727800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.35,
+        "pct_change": -0.76,
+        "value": 4393728600
       },
       {
         "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
-        "shares": 670700,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.33,
-        "pct_change": 0.0,
-        "value": 4060417800
+        "shares": 699900,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.34,
+        "pct_change": 4.35,
+        "value": 4225296300
       },
       {
         "holder": "Principal Funds, Inc-Overseas Fund",
-        "shares": 528179,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.26,
-        "pct_change": 29.27,
-        "value": 3197595666
+        "shares": 594679,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.29,
+        "pct_change": 12.59,
+        "value": 3590077123
       },
       {
         "holder": "AQR Funds-AQR Equity Market Neutral Fund",
@@ -131,15 +177,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.25,
         "pct_change": 19.05,
-        "value": 3071799600
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 426803,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 3.12,
-        "value": 2583865362
+        "value": 3063173800
       }
     ]
   }

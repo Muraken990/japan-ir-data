@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:17.042376",
+  "fetched_at": "2026-07-01T06:02:38.545601",
   "ticker": "8876",
   "ticker_full": "8876.T",
   "company_name": "RELO GROUP INC",
@@ -8,56 +8,94 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 2,
-    "buy": 1,
+    "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "total_analysts": 3,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1786.0,
+    "current": 2001.5,
     "high": 2300.0,
     "low": 1950.0,
     "mean": 2083.3333,
     "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-02-08",
+        "eps_estimate": 23.87,
+        "eps_actual": 29.34,
+        "surprise_pct": 22.92
+      },
+      {
+        "date": "2022-08-11",
+        "eps_estimate": 21.38,
+        "eps_actual": 22.45,
+        "surprise_pct": 5.0
+      },
+      {
+        "date": "2022-05-11",
+        "eps_estimate": 17.24,
+        "eps_actual": 42.88,
+        "surprise_pct": 148.72
+      },
+      {
+        "date": "2022-02-09",
+        "eps_estimate": 17.54,
+        "eps_actual": 16.76,
+        "surprise_pct": -4.45
+      },
+      {
+        "date": "2021-11-11",
+        "eps_estimate": 19.38,
+        "eps_actual": 24.61,
+        "surprise_pct": 26.99
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 40.84,
-    "institution_pct": 22.23,
+    "insider_pct": 41.85,
+    "institution_pct": 22.38,
     "major_holders": [
       {
         "label": "",
-        "value": 40.84
+        "value": 41.85
       },
       {
         "label": "",
-        "value": 22.23
+        "value": 22.38
       },
       {
         "label": "",
-        "value": 37.57
+        "value": 38.48
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 104.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
-        "shares": 2170900,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.42,
-        "pct_change": -3.69,
-        "value": 3877227400
+        "shares": 1944600,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.27,
+        "pct_change": 0.0,
+        "value": 3892116900
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,47 +103,47 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.9,
         "pct_change": 0.0,
-        "value": 2471207830
+        "value": 2769385482
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 835281,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.55,
-        "pct_change": -3.25,
-        "value": 1491811866
+        "shares": 851481,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.56,
+        "pct_change": 1.94,
+        "value": 1704239221
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 734400,
+        "shares": 693600,
         "date_reported": "2026-04-30",
-        "pct_held": 0.48,
-        "pct_change": 6.57,
-        "value": 1311638400
+        "pct_held": 0.45,
+        "pct_change": 0.65,
+        "value": 1388240400
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
         "shares": 612000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-05-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 1093032000
-      },
-      {
-        "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
-        "shares": 513500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.34,
-        "pct_change": -2.02,
-        "value": 917111000
+        "value": 1224918000
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
         "shares": 500232,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 893414352
+        "value": 1001214348
+      },
+      {
+        "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
+        "shares": 451000,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.29,
+        "pct_change": -12.17,
+        "value": 902676500
       },
       {
         "holder": "Calvert World Values Fd., Inc.-Calvert Intl Opportunities Fd.",
@@ -113,15 +151,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.25,
         "pct_change": -11.5,
-        "value": 673954244
+        "value": 755274031
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 365500,
-        "date_reported": "2026-03-31",
+        "shares": 364500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.24,
-        "pct_change": 1.11,
-        "value": 652783000
+        "pct_change": -0.27,
+        "value": 729546750
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.23,
         "pct_change": 32.4,
-        "value": 630634814
+        "value": 706727648
       }
     ],
     "mutualfund_holders": []

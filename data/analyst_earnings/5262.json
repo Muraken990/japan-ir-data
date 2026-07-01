@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:08:07.930088",
+  "fetched_at": "2026-07-01T05:48:44.175490",
   "ticker": "5262",
   "ticker_full": "5262.T",
   "company_name": "NIPPON HUME CORP",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1034.0,
+    "current": 1041.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-11",
+        "eps_estimate": 8.73,
+        "eps_actual": 3.6,
+        "surprise_pct": -58.76
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": 14.79,
+        "eps_actual": 10.02,
+        "surprise_pct": -32.25
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 6.32,
+        "eps_actual": 13.45,
+        "surprise_pct": 112.7
+      },
+      {
+        "date": "2015-02-12",
+        "eps_estimate": 4.55,
+        "eps_actual": 11.69,
+        "surprise_pct": 156.98
+      },
+      {
+        "date": "2014-11-12",
+        "eps_estimate": 8.26,
+        "eps_actual": 28.68,
+        "surprise_pct": 246.97
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 39.05,
-    "institution_pct": 12.68,
+    "institution_pct": 12.61,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 12.68
+        "value": 12.61
       },
       {
         "label": "",
-        "value": 20.81
+        "value": 20.68
       },
       {
         "label": "",
@@ -57,7 +90,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 1.66,
         "pct_change": -1.25,
-        "value": 504798800
+        "value": 508216200
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -65,7 +98,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.43,
         "pct_change": 0.0,
-        "value": 129730810
+        "value": 130609065
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -73,7 +106,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 109914200
+        "value": 110658300
       },
       {
         "holder": "DFA International Vector Equity Port",
@@ -81,7 +114,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 16647400
+        "value": 16760100
       },
       {
         "holder": "DFA Investment Dimensions-World Ex U.S. Core Equity Port",
@@ -89,7 +122,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.03,
         "pct_change": 0.0,
-        "value": 9306000
+        "value": 9369000
       },
       {
         "holder": "John Hancock Fds II-International Small Company Fund",
@@ -97,7 +130,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 5480200
+        "value": 5517300
       },
       {
         "holder": "Brighthouse Fds Tr II-BH/Dimensional International Small Co Port",
@@ -105,7 +138,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 6927800
+        "value": 6974700
       },
       {
         "holder": "DFA Investment Dimensions-DFA Va International Small",
@@ -113,7 +146,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 3412200
+        "value": 3435300
       },
       {
         "holder": "John Hancock Var Ins Tr-International Small Company Tr-",
@@ -121,7 +154,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 2068000
+        "value": 2082000
       },
       {
         "holder": "EQ Advisors Trust-EQ/International Value Managed Volatility Port",
@@ -129,7 +162,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 1034000
+        "value": 1041000
       }
     ],
     "mutualfund_holders": []

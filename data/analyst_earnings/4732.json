@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:30:27.078419",
+  "fetched_at": "2026-07-01T06:10:21.334722",
   "ticker": "4732",
   "ticker_full": "4732.T",
   "company_name": "USS CO LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1769.5,
-    "high": 2300.0,
+    "current": 1890.5,
+    "high": 2400.0,
     "low": 1700.0,
-    "mean": 1983.3334,
-    "median": 1925.0
+    "mean": 2051.6667,
+    "median": 2025.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-04",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-02-06",
+        "eps_estimate": 14.9,
+        "eps_actual": 14.84,
+        "surprise_pct": -0.4
+      },
+      {
+        "date": "2022-11-07",
+        "eps_estimate": 14.85,
+        "eps_actual": 14.68,
+        "surprise_pct": -1.18
+      },
+      {
+        "date": "2022-02-06",
+        "eps_estimate": 13.75,
+        "eps_actual": 16.09,
+        "surprise_pct": 16.98
+      },
+      {
+        "date": "2021-11-07",
+        "eps_estimate": 14.35,
+        "eps_actual": 13.79,
+        "surprise_pct": -3.94
+      },
+      {
+        "date": "2021-05-10",
+        "eps_estimate": 14.0,
+        "eps_actual": -27.46,
+        "surprise_pct": -296.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.46,
-    "institution_pct": 42.24,
+    "institution_pct": 42.69,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 42.24
+        "value": 42.69
       },
       {
         "label": "",
-        "value": 51.81
+        "value": 52.36
       },
       {
         "label": "",
-        "value": 191.0
+        "value": 194.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.03,
         "pct_change": -1.21,
-        "value": 305551951
+        "value": 326445868
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
-        "shares": 8873311,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.87,
-        "pct_change": 4.4,
-        "value": 15701323814
+        "shares": 8700011,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.84,
+        "pct_change": -1.95,
+        "value": 16447370795
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -75,39 +113,39 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.17,
         "pct_change": 1.74,
-        "value": 9807556381
+        "value": 10478205899
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
-        "shares": 4251500,
-        "date_reported": "2026-02-28",
+        "shares": 4261500,
+        "date_reported": "2026-04-30",
         "pct_held": 0.9,
-        "pct_change": 0.76,
-        "value": 7523029250
+        "pct_change": 0.24,
+        "value": 8056365750
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Growth Fund",
-        "shares": 4132600,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.87,
-        "pct_change": 4.44,
-        "value": 7312635700
+        "shares": 4032600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.85,
+        "pct_change": -2.42,
+        "value": 7623630300
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
         "shares": 3806100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.8,
         "pct_change": 0.0,
-        "value": 6734893950
+        "value": 7195432050
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 3515962,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.74,
-        "pct_change": 0.84,
-        "value": 6221494759
+        "shares": 3653962,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.77,
+        "pct_change": 3.92,
+        "value": 6907815161
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -115,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 5370255550
+        "value": 5737478450
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -123,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.61,
         "pct_change": 0.47,
-        "value": 5085189100
+        "value": 5432918900
       },
       {
         "holder": "MFS Series Trust X-MFS International Large Cap Value Fund",
@@ -131,15 +169,15 @@
         "date_reported": "2026-02-28",
         "pct_held": 0.57,
         "pct_change": -5.7,
-        "value": 4744383400
+        "value": 5068808600
       },
       {
         "holder": "First Eagle Funds-First Eagle Global Fund",
         "shares": 2597200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 4595745400
+        "value": 4910006600
       }
     ]
   }
