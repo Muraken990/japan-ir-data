@@ -15,6 +15,8 @@ import base64
 import time
 import os
 import argparse
+import smtplib
+from email.mime.text import MIMEText
 from datetime import datetime
 
 # ============================================================
@@ -885,6 +887,7 @@ def process_companies(integrated_csv, errors_csv, existing_companies,
         'unpublished': 0,
         'failed': 0
     }
+    created_companies = []
     
     print("\n" + "=" * 60)
     if dry_run:
@@ -918,6 +921,7 @@ def process_companies(integrated_csv, errors_csv, existing_companies,
             if create_company(row, status=create_status, dry_run=dry_run):
                 stats['created'] += 1
                 if not dry_run:
+                    created_companies.append({'code': ticker, 'name': company_name})
                     print(f"   ✅ 作成成功")
             else:
                 stats['failed'] += 1
@@ -982,7 +986,35 @@ def process_companies(integrated_csv, errors_csv, existing_companies,
     print(f"失敗: {stats['failed']}社")
     print("=" * 60)
     
-    return stats
+    return stats, created_companies
+
+# ============================================================
+# メール通知
+# ============================================================
+
+def send_new_companies_email(created_companies):
+    gmail_user = "worldonetrading2015@gmail.com"
+    gmail_password = os.getenv('GMAIL_APP_PASSWORD')
+    if not gmail_password:
+        print("⚠️  GMAIL_APP_PASSWORD が未設定のためメール送信をスキップ")
+        return
+
+    date_str = datetime.now().strftime('%Y-%m-%d')
+    company_lines = "\n".join([f"  - {c['name']} ({c['code']})" for c in created_companies])
+    body = f"JapanIR Daily Update: {date_str}\n\n新規上場企業 {len(created_companies)}社が登録されました：\n\n{company_lines}\n\nhttps://japanir.jp"
+
+    msg = MIMEText(body, 'plain', 'utf-8')
+    msg['Subject'] = f"[JapanIR] 新規上場企業 {len(created_companies)}社を登録しました ({date_str})"
+    msg['From'] = gmail_user
+    msg['To'] = gmail_user
+
+    try:
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+            server.login(gmail_user, gmail_password)
+            server.send_message(msg)
+        print(f"✅ メール送信完了 → {gmail_user}")
+    except Exception as e:
+        print(f"❌ メール送信失敗: {e}")
 
 # ============================================================
 # エントリーポイント
@@ -1082,7 +1114,7 @@ def main():
     existing_companies = get_all_existing_companies(WP_URL)
     
     # 処理実行
-    stats = process_companies(
+    stats, created_companies = process_companies(
         integrated_csv=args.csv,
         errors_csv=args.errors,
         existing_companies=existing_companies,
@@ -1093,7 +1125,10 @@ def main():
         dry_run=args.dry_run,
         update_only=args.update_only
     )
-    
+
+    if created_companies and not args.dry_run:
+        send_new_companies_email(created_companies)
+
     print("\n✅ スクリプト実行完了")
 
 

@@ -189,6 +189,7 @@ jobs:
       WP_SITE_URL: ${{ secrets.WP_SITE_URL }}
       WP_USER: ${{ secrets.WP_USER }}
       WP_PASSWORD: ${{ secrets.WP_PASSWORD }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       REQUEST_DELAY: '0.5'
       WP_REQUEST_TIMEOUT: '60'
       WP_MAX_RETRIES: '5'
@@ -220,7 +221,7 @@ jobs:
           echo "=========================================="
           echo "WordPress更新開始 (2001社〜)"
           echo "=========================================="
-          python scripts/4_wordpress_smart_update.py --update-only --skip 2000
+          python scripts/4_wordpress_smart_update.py --skip 2000
 
       - name: Generate WordPress summary
         if: always()
