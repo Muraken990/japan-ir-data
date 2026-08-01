@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:24.594211",
+  "fetched_at": "2026-08-01T04:57:49.468725",
   "ticker": "3092",
   "ticker_full": "3092.T",
   "company_name": "ZOZO INC",
@@ -9,8 +9,8 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 3,
-    "hold": 11,
-    "sell": 3,
+    "hold": 12,
+    "sell": 2,
     "strong_sell": 0,
     "total_analysts": 17,
     "recommendation_key": "hold",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1124.5,
+    "current": 1143.0,
     "high": 1700.0,
     "low": 880.0,
-    "mean": 1235.6471,
+    "mean": 1227.4117,
     "median": 1200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 15.99,
+        "eps_actual": 13.45,
+        "surprise_pct": -15.88
+      },
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 12.64,
+        "eps_actual": 12.38,
+        "surprise_pct": -2.07
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 18.05,
+        "eps_actual": 18.05,
+        "surprise_pct": -0.01
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 12.78,
+        "eps_actual": 10.89,
+        "surprise_pct": -14.78
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 12.69,
+        "eps_actual": 12.79,
+        "surprise_pct": 0.82
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 52.78,
-    "institution_pct": 29.46,
+    "institution_pct": 27.25,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 29.46
+        "value": 27.25
       },
       {
         "label": "",
-        "value": 62.38
+        "value": 57.69
       },
       {
         "label": "",
-        "value": 252.0
+        "value": 231.0
       }
     ],
     "institutional_holders": [],

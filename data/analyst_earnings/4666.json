@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:47.029385",
+  "fetched_at": "2026-08-01T04:51:45.682452",
   "ticker": "4666",
   "ticker_full": "4666.T",
   "company_name": "PARK 24 CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "2",
-    "strong_buy": 1,
+    "strong_buy": 2,
     "buy": 3,
-    "hold": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.4
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1968.0,
+    "current": 1975.0,
     "high": 2900.0,
     "low": 2540.0,
-    "mean": 2768.0,
+    "mean": 2788.0,
     "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-16",
+      "eps_estimate": 35.72,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-06-11",
+        "eps_estimate": 25.33,
+        "eps_actual": 139.73,
+        "surprise_pct": 451.56
+      },
+      {
+        "date": "2026-02-26",
+        "eps_estimate": 29.26,
+        "eps_actual": 34.02,
+        "surprise_pct": 16.28
+      },
+      {
+        "date": "2025-12-15",
+        "eps_estimate": 23.06,
+        "eps_actual": 34.93,
+        "surprise_pct": 51.5
+      },
+      {
+        "date": "2025-09-15",
+        "eps_estimate": 31.2,
+        "eps_actual": 29.15,
+        "surprise_pct": -6.57
+      },
+      {
+        "date": "2025-07-14",
+        "eps_estimate": 11.59,
+        "eps_actual": -1.15,
+        "surprise_pct": -109.92
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 23.33,
-    "institution_pct": 44.71,
+    "insider_pct": 21.08,
+    "institution_pct": 43.91,
     "major_holders": [
       {
         "label": "",
-        "value": 23.33
+        "value": 21.08
       },
       {
         "label": "",
-        "value": 44.71
+        "value": 43.91
       },
       {
         "label": "",
-        "value": 58.31
+        "value": 55.64
       },
       {
         "label": "",
-        "value": 117.0
+        "value": 118.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.13,
         "pct_change": 1.92,
-        "value": 3810441600
+        "value": 3823995000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1848329,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.08,
-        "pct_change": 0.0,
-        "value": 3637511472
+        "shares": 1858929,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.09,
+        "pct_change": 0.57,
+        "value": 3671384775
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.74,
         "pct_change": 3.17,
-        "value": 2478385056
+        "value": 2487200450
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -81,23 +119,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.67,
         "pct_change": 0.0,
-        "value": 2240174400
+        "value": 2248142500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 975700,
-        "date_reported": "2026-04-30",
+        "shares": 982200,
+        "date_reported": "2026-06-30",
         "pct_held": 0.57,
-        "pct_change": 0.46,
-        "value": 1920177600
+        "pct_change": 0.0,
+        "value": 1939845000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
         "shares": 875000,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.51,
-        "pct_change": -25.53,
-        "value": 1722000000
+        "pct_change": 0.0,
+        "value": 1728125000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,31 +143,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": 4.84,
-        "value": 1300202496
+        "value": 1304827200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 505900,
-        "date_reported": "2026-04-30",
+        "shares": 513400,
+        "date_reported": "2026-06-30",
         "pct_held": 0.3,
-        "pct_change": -0.24,
-        "value": 995611200
+        "pct_change": 1.48,
+        "value": 1013965000
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity Intl Small Cap Opportunities Fd.",
         "shares": 487000,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.28,
-        "pct_change": -16.32,
-        "value": 958416000
+        "pct_change": 0.0,
+        "value": 961825000
       },
       {
-        "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
-        "shares": 332900,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 655147200
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 292089,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.17,
+        "pct_change": 3.0,
+        "value": 576875775
       }
     ],
     "mutualfund_holders": []

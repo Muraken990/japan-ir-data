@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:37.431569",
+  "fetched_at": "2026-08-01T04:37:57.506333",
   "ticker": "7917",
   "ticker_full": "7917.T",
   "company_name": "ZACROS CORPORATION",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1384.0,
-    "high": 1800.0,
-    "low": 1800.0,
-    "mean": 1800.0,
-    "median": 1800.0
+    "current": 1356.0,
+    "high": 1900.0,
+    "low": 1900.0,
+    "mean": 1900.0,
+    "median": 1900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-02-06",
+        "eps_estimate": 16.68,
+        "eps_actual": -4.0,
+        "surprise_pct": -124.02
+      },
+      {
+        "date": "2023-11-07",
+        "eps_estimate": 18.08,
+        "eps_actual": 19.93,
+        "surprise_pct": 10.25
+      },
+      {
+        "date": "2023-08-03",
+        "eps_estimate": 9.03,
+        "eps_actual": 25.94,
+        "surprise_pct": 187.4
+      },
+      {
+        "date": "2023-05-10",
+        "eps_estimate": -5.77,
+        "eps_actual": 5.68,
+        "surprise_pct": 198.31
+      },
+      {
+        "date": "2023-02-07",
+        "eps_estimate": 7.78,
+        "eps_actual": 10.63,
+        "surprise_pct": 36.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.33,
-    "institution_pct": 21.21,
+    "institution_pct": 21.17,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 21.21
+        "value": 21.17
       },
       {
         "label": "",
-        "value": 26.96
+        "value": 26.91
       },
       {
         "label": "",
-        "value": 68.0
+        "value": 66.0
       }
     ],
     "institutional_holders": [],

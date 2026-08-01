@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:28.508775",
+  "fetched_at": "2026-08-01T04:57:54.117404",
   "ticker": "1944",
   "ticker_full": "1944.T",
   "company_name": "KINDEN CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 0,
     "buy": 1,
     "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 6,
+    "total_analysts": 5,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.2
+    "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 7865.0,
+    "current": 7090.0,
     "high": 10200.0,
-    "low": 4500.0,
-    "mean": 8325.0,
-    "median": 8825.0
+    "low": 8000.0,
+    "mean": 9125.0,
+    "median": 9250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 139.0,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
+      {
+        "date": "2023-01-29",
+        "eps_estimate": 25.9,
+        "eps_actual": 27.07,
+        "surprise_pct": 4.52
+      },
+      {
+        "date": "2022-01-30",
+        "eps_estimate": 37.1,
+        "eps_actual": 30.17,
+        "surprise_pct": -18.68
+      },
+      {
+        "date": "2021-10-27",
+        "eps_estimate": 33.5,
+        "eps_actual": 30.31,
+        "surprise_pct": -9.52
+      },
+      {
+        "date": "2021-01-28",
+        "eps_estimate": 30.9,
+        "eps_actual": 46.87,
+        "surprise_pct": 51.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 27.33,
-    "institution_pct": 25.57,
+    "insider_pct": 32.56,
+    "institution_pct": 25.27,
     "major_holders": [
       {
         "label": "",
-        "value": 27.33
+        "value": 32.56
       },
       {
         "label": "",
-        "value": 25.57
+        "value": 25.27
       },
       {
         "label": "",
-        "value": 35.19
+        "value": 37.48
       },
       {
         "label": "",
-        "value": 147.0
+        "value": 149.0
       }
     ],
     "institutional_holders": [],

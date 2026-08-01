@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:20:09.982486",
+  "fetched_at": "2026-08-01T04:49:22.651199",
   "ticker": "6925",
   "ticker_full": "6925.T",
   "company_name": "USHIO INC",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 0,
-    "hold": 2,
+    "buy": 1,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 4053.0,
-    "high": 4000.0,
-    "low": 1800.0,
-    "mean": 3100.0,
-    "median": 3300.0
+    "current": 3786.0,
+    "high": 5500.0,
+    "low": 4900.0,
+    "mean": 5075.0,
+    "median": 4950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-04",
+      "eps_estimate": 3.4,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 29.4,
+        "eps_actual": 47.63,
+        "surprise_pct": 62.01
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 12.7,
+        "eps_actual": 44.48,
+        "surprise_pct": 250.24
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 21.2,
+        "eps_actual": 34.83,
+        "surprise_pct": 64.29
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 3.4,
+        "eps_actual": -32.06,
+        "surprise_pct": -1042.94
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 9.8,
+        "eps_actual": 12.05,
+        "surprise_pct": 22.96
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.04,
-    "institution_pct": 51.13,
+    "institution_pct": 45.64,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 51.13
+        "value": 45.64
       },
       {
         "label": "",
-        "value": 56.84
+        "value": 50.73
       },
       {
         "label": "",
-        "value": 97.0
+        "value": 101.0
       }
     ],
     "institutional_holders": [
@@ -57,89 +95,89 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 3039750
+        "value": 2839500
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1065992,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.28,
-        "pct_change": 0.0,
-        "value": 4320465576
-      },
-      {
-        "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
-        "shares": 992747,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.19,
-        "pct_change": -16.93,
-        "value": 4023603591
+        "shares": 1013692,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.21,
+        "pct_change": -4.91,
+        "value": 3837837912
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 674200,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.81,
-        "pct_change": 0.67,
-        "value": 2732532600
+        "shares": 651000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.78,
+        "pct_change": 0.0,
+        "value": 2464686000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 642880,
-        "date_reported": "2025-12-31",
+        "shares": 641880,
+        "date_reported": "2026-03-31",
         "pct_held": 0.77,
-        "pct_change": 0.85,
-        "value": 2605592640
+        "pct_change": -0.16,
+        "value": 2430157680
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 481400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.58,
-        "pct_change": -2.47,
-        "value": 1951114200
+        "pct_change": 0.0,
+        "value": 1822580400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 449800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.54,
-        "pct_change": 0.0,
-        "value": 1823039400
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 454500,
         "date_reported": "2026-04-30",
         "pct_held": 0.54,
         "pct_change": 0.0,
-        "value": 1842088500
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 254700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.31,
-        "pct_change": 1.19,
-        "value": 1032299100
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 246200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": -3.45,
-        "value": 997848600
+        "value": 1702942800
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 191800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.23,
-        "pct_change": -16.46,
-        "value": 777365400
+        "shares": 388800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.47,
+        "pct_change": 1.03,
+        "value": 1471996800
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 374800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.45,
+        "pct_change": -6.39,
+        "value": 1418992800
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 258400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.31,
+        "pct_change": -0.23,
+        "value": 978302400
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 242000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.29,
+        "pct_change": -1.71,
+        "value": 916212000
+      },
+      {
+        "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
+        "shares": 187539,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.22,
+        "pct_change": 0.0,
+        "value": 710022654
       }
     ]
   }

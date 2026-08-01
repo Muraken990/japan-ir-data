@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:29.459515",
+  "fetched_at": "2026-08-01T04:40:10.183963",
   "ticker": "2109",
   "ticker_full": "2109.T",
   "company_name": "MITSUI DM SUGAR CO LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3215.0,
+    "current": 3430.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 76.29,
+        "eps_actual": 96.2,
+        "surprise_pct": 26.11
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 47.43,
+        "eps_actual": 71.6,
+        "surprise_pct": 50.98
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 52.2,
+        "eps_actual": 47.95,
+        "surprise_pct": -8.14
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 59.55,
+        "eps_actual": 68.65,
+        "surprise_pct": 15.28
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 41.73,
+        "eps_actual": 49.7,
+        "surprise_pct": 19.11
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 52.06,
-    "institution_pct": 8.85,
+    "institution_pct": 8.71,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 8.85
+        "value": 8.71
       },
       {
         "label": "",
-        "value": 18.47
+        "value": 18.18
       },
       {
         "label": "",
-        "value": 69.0
+        "value": 68.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +89,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.67,
         "pct_change": -1.59,
-        "value": 698638790
+        "value": 745359580
       },
       {
         "holder": "Vanguard International Stock Index-Total Intl Stock Indx",
@@ -64,7 +97,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 583374610
+        "value": 622387220
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -72,7 +105,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 416612560
+        "value": 444473120
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -80,7 +113,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 349792000
+        "value": 373184000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -88,7 +121,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 335228050
+        "value": 357646100
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -96,7 +129,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 262022500
+        "value": 279545000
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -104,7 +137,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 191614000
+        "value": 204428000
       },
       {
         "holder": "WisdomTree Tr-WisdomTree International Small Cap Dividend Fd",
@@ -112,7 +145,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.15,
         "pct_change": -1.24,
-        "value": 153998500
+        "value": 164297000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -120,7 +153,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.14,
         "pct_change": -5.11,
-        "value": 143389000
+        "value": 152978000
       },
       {
         "holder": "College Retirement Equities Fund-Stock Account",
@@ -128,7 +161,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 145318000
+        "value": 155036000
       }
     ],
     "mutualfund_holders": []

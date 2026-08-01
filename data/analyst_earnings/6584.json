@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:32:28.389076",
+  "fetched_at": "2026-08-01T04:22:12.985794",
   "ticker": "6584",
   "ticker_full": "6584.T",
   "company_name": "SANOH INDUSTRIAL CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 942.0,
+    "current": 813.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 34.12,
+        "eps_actual": 12.45,
+        "surprise_pct": -63.51
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": 27.04,
+        "eps_actual": 15.3,
+        "surprise_pct": -43.42
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 33.15,
+        "eps_actual": -13.52,
+        "surprise_pct": -140.78
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 20.87,
+        "eps_actual": 20.5,
+        "surprise_pct": -1.77
+      },
+      {
+        "date": "2014-11-12",
+        "eps_estimate": 18.05,
+        "eps_actual": 21.65,
+        "surprise_pct": 19.96
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.91,
-    "institution_pct": 26.47,
+    "institution_pct": 24.68,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 26.47
+        "value": 24.68
       },
       {
         "label": "",
-        "value": 34.34
+        "value": 32.02
       },
       {
         "label": "",
-        "value": 34.0
+        "value": 30.0
       }
     ],
     "institutional_holders": [],

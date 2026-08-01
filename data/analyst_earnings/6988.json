@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:17.142399",
+  "fetched_at": "2026-08-01T04:56:54.480048",
   "ticker": "6988",
   "ticker_full": "6988.T",
   "company_name": "NITTO DENKO CORP",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 12,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.45455
+    "recommendation_mean": 2.41667
   },
   "target_prices": {
     "has_data": true,
-    "current": 3175.0,
-    "high": 4190.0,
+    "current": 3325.0,
+    "high": 4200.0,
     "low": 3000.0,
-    "mean": 3467.2727,
-    "median": 3400.0
+    "mean": 3553.3333,
+    "median": 3500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-26",
+      "eps_estimate": 51.79,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 48.33,
+        "eps_actual": 50.75,
+        "surprise_pct": 5.01
+      },
+      {
+        "date": "2026-04-27",
+        "eps_estimate": 46.7,
+        "eps_actual": 41.31,
+        "surprise_pct": -11.53
+      },
+      {
+        "date": "2026-01-26",
+        "eps_estimate": 52.93,
+        "eps_actual": 54.57,
+        "surprise_pct": 3.11
+      },
+      {
+        "date": "2025-10-27",
+        "eps_estimate": 51.79,
+        "eps_actual": 55.64,
+        "surprise_pct": 7.43
+      },
+      {
+        "date": "2025-07-28",
+        "eps_estimate": 42.31,
+        "eps_actual": 45.68,
+        "surprise_pct": 7.97
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.77,
-    "institution_pct": 69.7,
+    "institution_pct": 69.69,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 69.7
+        "value": 69.69
       },
       {
         "label": "",
-        "value": 70.24
+        "value": 70.23
       },
       {
         "label": "",
-        "value": 348.0
+        "value": 344.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 187325000
+        "value": 196175000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -65,33 +103,33 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 55.22,
-        "value": 38020625
+        "value": 39816875
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 9869455,
-        "date_reported": "2026-01-31",
+        "shares": 9844755,
+        "date_reported": "2026-04-30",
         "pct_held": 1.45,
-        "pct_change": -0.43,
-        "value": 31335519625
+        "pct_change": -0.25,
+        "value": 32733810375
       },
       {
         "holder": "Capital Income Builder",
         "shares": 8566235,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 1.26,
         "pct_change": 0.0,
-        "value": 27197796125
+        "value": 28482731375
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
         "shares": 7152400,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-05-31",
         "pct_held": 1.05,
-        "pct_change": -1.62,
-        "value": 22708870000
+        "pct_change": 0.0,
+        "value": 23781730000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,47 +137,47 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.96,
         "pct_change": 2.54,
-        "value": 20722336000
+        "value": 21701344000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 4907300,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.72,
-        "pct_change": 0.55,
-        "value": 15580677500
+        "shares": 4946300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.73,
+        "pct_change": 0.0,
+        "value": 16446447500
       },
       {
         "holder": "MFS Series Trust X-MFS International Large Cap Value Fund",
-        "shares": 3240900,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.48,
-        "pct_change": -5.7,
-        "value": 10289857500
+        "shares": 3068000,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.45,
+        "pct_change": -5.33,
+        "value": 10201100000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2777700,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.41,
-        "pct_change": -1.02,
-        "value": 8819197500
+        "shares": 2936000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.43,
+        "pct_change": 6.06,
+        "value": 9762200000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2527156,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.37,
-        "pct_change": 1.24,
-        "value": 8023720300
+        "shares": 2613556,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.39,
+        "pct_change": 2.33,
+        "value": 8690073700
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 2385000,
-        "date_reported": "2026-05-31",
+        "shares": 2366100,
+        "date_reported": "2026-06-30",
         "pct_held": 0.35,
-        "pct_change": 1.09,
-        "value": 7572375000
+        "pct_change": -0.79,
+        "value": 7867282500
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -147,7 +185,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 8.91,
-        "value": 6515417500
+        "value": 6823232500
       }
     ]
   }

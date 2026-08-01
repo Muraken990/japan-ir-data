@@ -1,49 +1,87 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:40:21.543844",
+  "fetched_at": "2026-08-01T04:29:26.561115",
   "ticker": "9517",
   "ticker_full": "9517.T",
   "company_name": "EREX CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 741.0,
+    "current": 845.0,
     "high": 1000.0,
     "low": 780.0,
     "mean": 866.6667,
     "median": 820.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-10",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-08",
+        "eps_estimate": -70.8,
+        "eps_actual": -79.65,
+        "surprise_pct": -12.5
+      },
+      {
+        "date": "2023-11-09",
+        "eps_estimate": 13.9,
+        "eps_actual": -124.2,
+        "surprise_pct": -993.53
+      },
+      {
+        "date": "2023-08-09",
+        "eps_estimate": 7.9,
+        "eps_actual": -64.11,
+        "surprise_pct": -911.52
+      },
+      {
+        "date": "2023-02-09",
+        "eps_estimate": 30.8,
+        "eps_actual": 23.67,
+        "surprise_pct": -23.15
+      },
+      {
+        "date": "2022-11-10",
+        "eps_estimate": 64.5,
+        "eps_actual": 48.35,
+        "surprise_pct": -25.04
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 62.84,
-    "institution_pct": 5.68,
+    "insider_pct": 62.71,
+    "institution_pct": 5.67,
     "major_holders": [
       {
         "label": "",
-        "value": 62.84
+        "value": 62.71
       },
       {
         "label": "",
-        "value": 5.68
+        "value": 5.67
       },
       {
         "label": "",
-        "value": 15.27
+        "value": 15.2
       },
       {
         "label": "",
@@ -54,10 +92,10 @@
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 484528,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 359035248
+        "value": 409426160
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +103,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 206976861
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 262400,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.34,
-        "pct_change": 8.25,
-        "value": 194438400
+        "value": 236026245
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 212700,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 157610700
+        "value": 179731500
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 183400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.23,
+        "pct_change": -28.13,
+        "value": 154973000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 115000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.15,
-        "pct_change": 0.0,
-        "value": 85215000
+        "shares": 130400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.17,
+        "pct_change": 13.39,
+        "value": 110188000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,39 +135,39 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.07,
         "pct_change": 5.39,
-        "value": 37865100
+        "value": 43179500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 39000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.05,
-        "pct_change": -47.44,
-        "value": 28899000
+        "shares": 53700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.07,
+        "pct_change": 37.69,
+        "value": 45376500
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
         "shares": 42700,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 31640700
+        "value": 36081500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
         "shares": 30300,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 22452300
+        "value": 25603500
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 29600,
-        "date_reported": "2026-05-31",
+        "shares": 30200,
+        "date_reported": "2026-06-30",
         "pct_held": 0.04,
-        "pct_change": -2.63,
-        "value": 21933600
+        "pct_change": 2.03,
+        "value": 25519000
       }
     ],
     "mutualfund_holders": []

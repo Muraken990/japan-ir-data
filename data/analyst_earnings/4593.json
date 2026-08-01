@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:32:25.890506",
+  "fetched_at": "2026-08-01T04:22:10.729832",
   "ticker": "4593",
   "ticker_full": "4593.T",
   "company_name": "HEALIOS KK",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
-    "buy": 3,
+    "buy": 4,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 5,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "total_analysts": 6,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 254.0,
+    "current": 236.0,
     "high": 1199.0,
     "low": 510.0,
     "mean": 779.8333,
     "median": 755.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": -11.14,
+        "eps_actual": -27.65,
+        "surprise_pct": -148.2
+      },
+      {
+        "date": "2026-02-15",
+        "eps_estimate": 8.63,
+        "eps_actual": 18.9,
+        "surprise_pct": 119.06
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 6.37,
+        "eps_actual": 7.54,
+        "surprise_pct": 18.37
+      },
+      {
+        "date": "2025-08-12",
+        "eps_estimate": -6.79,
+        "eps_actual": -20.31,
+        "surprise_pct": -199.12
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": -29.05,
+        "eps_actual": -26.72,
+        "surprise_pct": 8.02
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.1,
-    "institution_pct": 40.63,
+    "institution_pct": 37.04,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 40.63
+        "value": 37.04
       },
       {
         "label": "",
-        "value": 52.16
+        "value": 47.55
       },
       {
         "label": "",
@@ -53,11 +86,11 @@
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Equity ETF",
-        "shares": 4400,
-        "date_reported": "2026-05-31",
+        "shares": 200,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 0.0,
-        "value": 1117600
+        "pct_change": -95.45,
+        "value": 47200
       }
     ],
     "mutualfund_holders": []

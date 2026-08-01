@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:20.850680",
+  "fetched_at": "2026-08-01T04:58:47.207371",
   "ticker": "9104",
   "ticker_full": "9104.T",
   "company_name": "MITSUI O.S.K. LINES LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
-    "buy": 3,
-    "hold": 5,
+    "strong_buy": 3,
+    "buy": 4,
+    "hold": 3,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 11,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5050.0,
-    "high": 10200.0,
+    "current": 5894.0,
+    "high": 8600.0,
     "low": 3850.0,
-    "mean": 6877.273,
+    "mean": 6731.8184,
     "median": 6500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": 136.65,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 115.99,
+        "eps_actual": 95.32,
+        "surprise_pct": -17.82
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 143.1,
+        "eps_actual": 187.21,
+        "surprise_pct": 30.82
+      },
+      {
+        "date": "2025-11-03",
+        "eps_estimate": 209.39,
+        "eps_actual": 184.62,
+        "surprise_pct": -11.83
+      },
+      {
+        "date": "2025-07-31",
+        "eps_estimate": 136.65,
+        "eps_actual": 152.89,
+        "surprise_pct": 11.88
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 336.2,
+        "eps_actual": 337.99,
+        "surprise_pct": 0.53
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.74,
-    "institution_pct": 47.37,
+    "institution_pct": 48.04,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 47.37
+        "value": 48.04
       },
       {
         "label": "",
-        "value": 47.72
+        "value": 48.4
       },
       {
         "label": "",
-        "value": 254.0
+        "value": 260.0
       }
     ],
     "institutional_holders": [],

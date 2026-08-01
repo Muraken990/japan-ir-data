@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:34:37.093804",
+  "fetched_at": "2026-08-01T04:24:01.430192",
   "ticker": "4951",
   "ticker_full": "4951.T",
   "company_name": "S.T.CORPORATION",
@@ -17,23 +17,57 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1492.0,
+    "current": 1514.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2013-01-30",
+        "eps_estimate": 7.43,
+        "eps_actual": -12.57,
+        "surprise_pct": -269.29
+      },
+      {
+        "date": "2012-07-30",
+        "eps_estimate": 8.26,
+        "eps_actual": 15.38,
+        "surprise_pct": 86.31
+      },
+      {
+        "date": "2012-04-25",
+        "eps_estimate": 6.57,
+        "eps_actual": -7.43,
+        "surprise_pct": -213.14
+      },
+      {
+        "date": "2012-01-30",
+        "eps_estimate": 5.34,
+        "eps_actual": -26.76,
+        "surprise_pct": -601.41
+      },
+      {
+        "date": "2011-10-30",
+        "eps_estimate": 10.38,
+        "eps_actual": 26.32,
+        "surprise_pct": 153.54
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 24.45,
+    "insider_pct": 22.21,
     "institution_pct": 22.47,
     "major_holders": [
       {
         "label": "",
-        "value": 24.45
+        "value": 22.21
       },
       {
         "label": "",
@@ -41,11 +75,11 @@
       },
       {
         "label": "",
-        "value": 29.74
+        "value": 28.88
       },
       {
         "label": "",
-        "value": 34.0
+        "value": 33.0
       }
     ],
     "institutional_holders": [],

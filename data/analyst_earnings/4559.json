@@ -1,53 +1,85 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:34.646250",
+  "fetched_at": "2026-08-01T04:41:01.917901",
   "ticker": "4559",
   "ticker_full": "4559.T",
   "company_name": "ZERIA PHARMACEUTICAL",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 0,
-    "buy": 1,
-    "hold": 0,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 1,
     "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_mean": null,
+    "total_analysts": 1,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2011.0,
+    "current": 2090.0,
     "high": 2500.0,
     "low": 2500.0,
     "mean": 2500.0,
     "median": 2500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 14.93,
+        "eps_actual": 32.35,
+        "surprise_pct": 116.72
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 21.29,
+        "eps_actual": 16.79,
+        "surprise_pct": -21.13
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 20.34,
+        "eps_actual": -11.35,
+        "surprise_pct": -155.81
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": 27.12,
+        "eps_actual": 19.67,
+        "surprise_pct": -27.47
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 24.58,
+        "eps_actual": 20.09,
+        "surprise_pct": -18.26
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 29.75,
-    "institution_pct": 20.84,
+    "insider_pct": 29.71,
+    "institution_pct": 18.96,
     "major_holders": [
       {
         "label": "",
-        "value": 29.75
+        "value": 29.71
       },
       {
         "label": "",
-        "value": 20.84
+        "value": 18.96
       },
       {
         "label": "",
-        "value": 29.67
+        "value": 26.97
       },
       {
         "label": "",
-        "value": 70.0
+        "value": 67.0
       }
     ],
     "institutional_holders": [],

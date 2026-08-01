@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:48.382544",
+  "fetched_at": "2026-08-01T04:44:13.560420",
   "ticker": "3287",
   "ticker_full": "3287.T",
   "company_name": "HOSHINO RESORTS REIT INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 237200.0,
-    "high": 315000.0,
+    "current": 244000.0,
+    "high": 304000.0,
     "low": 260000.0,
-    "mean": 293250.0,
-    "median": 299000.0
+    "mean": 276250.0,
+    "median": 270500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-12-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.83,
-    "institution_pct": 45.8,
+    "institution_pct": 46.08,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 45.8
+        "value": 46.08
       },
       {
         "label": "",
-        "value": 49.69
+        "value": 49.99
       },
       {
         "label": "",
-        "value": 101.0
+        "value": 102.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 8037,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.37,
         "pct_change": 0.0,
-        "value": 1906376400
+        "value": 1961028000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +72,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.89,
         "pct_change": -0.23,
-        "value": 1231542400
+        "value": 1266848000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -73,15 +80,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.67,
         "pct_change": 0.95,
-        "value": 932433200
+        "value": 959164000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 3686,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.63,
         "pct_change": 0.0,
-        "value": 874319200
+        "value": 899384000
       },
       {
         "holder": "Calvert World Values Fd., Inc.-Calvert Intl Opportunities Fd.",
@@ -89,15 +96,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.44,
         "pct_change": -11.47,
-        "value": 607943600
+        "value": 625372000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 2332,
-        "date_reported": "2026-04-30",
+        "shares": 2326,
+        "date_reported": "2026-06-30",
         "pct_held": 0.4,
         "pct_change": -0.26,
-        "value": 553150400
+        "value": 567544000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -105,31 +112,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.35,
         "pct_change": 3.19,
-        "value": 491478400
+        "value": 505568000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 1992,
-        "date_reported": "2026-01-31",
+        "shares": 1998,
+        "date_reported": "2026-04-30",
         "pct_held": 0.34,
-        "pct_change": 5.23,
-        "value": 472502400
+        "pct_change": 0.3,
+        "value": 487512000
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
         "shares": 1452,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 344414400
+        "value": 354288000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 1234,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 292704800
+        "value": 301096000
       }
     ],
     "mutualfund_holders": []

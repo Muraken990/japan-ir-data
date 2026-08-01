@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:32.091420",
+  "fetched_at": "2026-08-01T04:39:03.800096",
   "ticker": "4293",
   "ticker_full": "4293.T",
   "company_name": "SEPTENI HOLDINGS",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 439.0,
+    "current": 515.0,
     "high": 580.0,
     "low": 450.0,
     "mean": 516.6667,
     "median": 520.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2018-02-01",
+        "eps_estimate": 2.0,
+        "eps_actual": 4.39,
+        "surprise_pct": 119.5
+      },
+      {
+        "date": "2017-11-08",
+        "eps_estimate": 2.3,
+        "eps_actual": 2.64,
+        "surprise_pct": 14.78
+      },
+      {
+        "date": "2017-08-01",
+        "eps_estimate": 2.51,
+        "eps_actual": 1.13,
+        "surprise_pct": -54.9
+      },
+      {
+        "date": "2017-04-30",
+        "eps_estimate": 2.99,
+        "eps_actual": 2.69,
+        "surprise_pct": -10.1
+      },
+      {
+        "date": "2017-02-07",
+        "eps_estimate": 13.25,
+        "eps_actual": 10.92,
+        "surprise_pct": -17.58
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 63.43,
-    "institution_pct": 15.33,
+    "institution_pct": 14.93,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 15.33
+        "value": 14.93
       },
       {
         "label": "",
-        "value": 41.93
+        "value": 40.82
       },
       {
         "label": "",
-        "value": 42.0
+        "value": 43.0
       }
     ],
     "institutional_holders": [],

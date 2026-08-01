@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:39:33.754592",
+  "fetched_at": "2026-08-01T04:29:23.389862",
   "ticker": "7236",
   "ticker_full": "7236.T",
   "company_name": "T.RAD CO LTD",
@@ -17,32 +17,65 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1481.0,
+    "current": 1483.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 10.13,
+        "eps_actual": 4.98,
+        "surprise_pct": -50.84
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 9.57,
+        "eps_actual": 4.12,
+        "surprise_pct": -56.93
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 8.33,
+        "eps_actual": 2.67,
+        "surprise_pct": -67.94
+      },
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 7.72,
+        "eps_actual": 7.16,
+        "surprise_pct": -7.23
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 6.69,
+        "eps_actual": -8.79,
+        "surprise_pct": -231.41
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 43.53,
-    "institution_pct": 10.11,
+    "insider_pct": 44.23,
+    "institution_pct": 10.58,
     "major_holders": [
       {
         "label": "",
-        "value": 43.53
+        "value": 44.23
       },
       {
         "label": "",
-        "value": 10.11
+        "value": 10.58
       },
       {
         "label": "",
-        "value": 17.9
+        "value": 18.97
       },
       {
         "label": "",

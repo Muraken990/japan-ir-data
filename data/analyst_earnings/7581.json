@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:02:54.687929",
+  "fetched_at": "2026-08-01T04:50:37.661609",
   "ticker": "7581",
   "ticker_full": "7581.T",
   "company_name": "SAIZERIYA COMPANY",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 2,
     "buy": 6,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 5340.0,
-    "high": 7800.0,
+    "current": 7880.0,
+    "high": 9300.0,
     "low": 5400.0,
-    "mean": 6750.0,
-    "median": 7100.0
+    "mean": 7640.0,
+    "median": 7650.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-14",
-      "eps_estimate": 61.48,
+      "date": "2026-10-14",
+      "eps_estimate": 67.56,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-15",
+        "eps_estimate": 61.48,
+        "eps_actual": 62.45,
+        "surprise_pct": 1.58
+      },
       {
         "date": "2026-04-08",
         "eps_estimate": 41.17,
@@ -57,19 +63,13 @@
         "eps_estimate": 57.38,
         "eps_actual": 63.51,
         "surprise_pct": 10.68
-      },
-      {
-        "date": "2025-04-09",
-        "eps_estimate": 35.76,
-        "eps_actual": 41.01,
-        "surprise_pct": 14.68
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 37.78,
-    "institution_pct": 16.61,
+    "institution_pct": 16.27,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 16.61
+        "value": 16.27
       },
       {
         "label": "",
-        "value": 26.69
+        "value": 26.15
       },
       {
         "label": "",
-        "value": 91.0
+        "value": 90.0
       }
     ],
     "institutional_holders": [],

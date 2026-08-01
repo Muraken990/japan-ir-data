@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:45.489361",
+  "fetched_at": "2026-08-01T04:39:02.227489",
   "ticker": "4369",
   "ticker_full": "4369.T",
   "company_name": "TRI CHEMICAL LABORATORIES INC.",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 3,
+    "buy": 2,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 4,
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 3560.0,
-    "high": 4750.0,
+    "current": 3245.0,
+    "high": 4700.0,
     "low": 3800.0,
-    "mean": 4160.0,
-    "median": 4045.0
+    "mean": 4247.5,
+    "median": 4245.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-31",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-03-13",
+        "eps_estimate": 43.77,
+        "eps_actual": 45.96,
+        "surprise_pct": 5.0
+      },
+      {
+        "date": "2025-03-14",
+        "eps_estimate": 54.57,
+        "eps_actual": 53.4,
+        "surprise_pct": -2.14
+      },
+      {
+        "date": "2024-11-28",
+        "eps_estimate": 43.1,
+        "eps_actual": 36.78,
+        "surprise_pct": -14.66
+      },
+      {
+        "date": "2024-08-29",
+        "eps_estimate": 26.3,
+        "eps_actual": 37.51,
+        "surprise_pct": 42.62
+      },
+      {
+        "date": "2023-11-29",
+        "eps_estimate": 16.7,
+        "eps_actual": 12.16,
+        "surprise_pct": -27.19
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.84,
-    "institution_pct": 59.29,
+    "institution_pct": 56.96,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 59.29
+        "value": 56.96
       },
       {
         "label": "",
-        "value": 69.62
+        "value": 66.89
       },
       {
         "label": "",
-        "value": 90.0
+        "value": 86.0
       }
     ],
     "institutional_holders": [],

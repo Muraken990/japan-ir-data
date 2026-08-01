@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:14:18.623846",
+  "fetched_at": "2026-08-01T05:01:12.058596",
   "ticker": "6762",
   "ticker_full": "6762.T",
   "company_name": "TDK CORP",
@@ -14,26 +14,27 @@
     "strong_sell": 1,
     "total_analysts": 17,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.76471
+    "recommendation_mean": 1.82353
   },
   "target_prices": {
     "has_data": true,
-    "current": 3680.0,
+    "current": 3008.0,
     "high": 5500.0,
     "low": 1900.0,
-    "mean": 3695.2942,
-    "median": 3400.0
+    "mean": 3954.1177,
+    "median": 4100.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-31",
-      "eps_estimate": 28.66,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 28.68,
+        "eps_actual": 42.45,
+        "surprise_pct": 48.02
+      },
       {
         "date": "2026-04-27",
         "eps_estimate": 12.46,
@@ -57,19 +58,13 @@
         "eps_estimate": 21.86,
         "eps_actual": 21.85,
         "surprise_pct": -0.07
-      },
-      {
-        "date": "2025-04-28",
-        "eps_estimate": 8.09,
-        "eps_actual": 3.31,
-        "surprise_pct": -59.08
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.22,
-    "institution_pct": 59.3,
+    "institution_pct": 58.85,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 59.3
+        "value": 58.85
       },
       {
         "label": "",
-        "value": 59.43
+        "value": 58.98
       },
       {
         "label": "",
-        "value": 388.0
+        "value": 386.0
       }
     ],
     "institutional_holders": [
@@ -95,33 +90,25 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 50.81,
-        "value": 118128000
-      },
-      {
-        "holder": "Boston Common Asset Management, LLC",
-        "shares": 10350,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": -16.57,
-        "value": 38088000
+        "value": 96556800
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 27763960,
-        "date_reported": "2026-01-31",
+        "shares": 27728660,
+        "date_reported": "2026-04-30",
         "pct_held": 1.43,
-        "pct_change": 0.85,
-        "value": 102171372800
+        "pct_change": -0.13,
+        "value": 83407809280
       },
       {
         "holder": "NEW PERSPECTIVE FUND",
         "shares": 20566900,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 1.06,
         "pct_change": 0.0,
-        "value": 75686192000
+        "value": 61865235200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -129,55 +116,47 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.94,
         "pct_change": 2.45,
-        "value": 67460472000
+        "value": 55141603200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 13802100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.71,
-        "pct_change": 0.56,
-        "value": 50791728000
+        "shares": 13946800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.72,
+        "pct_change": 0.0,
+        "value": 41951974400
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 7893200,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.41,
-        "pct_change": -1.73,
-        "value": 29046976000
+        "shares": 8199400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.42,
+        "pct_change": 3.45,
+        "value": 24663795200
       },
       {
         "holder": "American Funds Global Insight Fund",
         "shares": 7397875,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 27224180000
+        "value": 22252808000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 7237183,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.37,
-        "pct_change": 1.19,
-        "value": 26632833440
-      },
-      {
-        "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 6759700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.35,
-        "pct_change": 28.66,
-        "value": 24875696000
+        "shares": 7297683,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.38,
+        "pct_change": -0.21,
+        "value": 21951430464
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 6816500,
-        "date_reported": "2026-05-31",
+        "shares": 6765700,
+        "date_reported": "2026-06-30",
         "pct_held": 0.35,
-        "pct_change": 0.82,
-        "value": 25084720000
+        "pct_change": -0.75,
+        "value": 20351225600
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -185,7 +164,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.31,
         "pct_change": 8.94,
-        "value": 22322512000
+        "value": 18246227200
+      },
+      {
+        "holder": "Capital Income Builder",
+        "shares": 5283235,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.27,
+        "pct_change": -4.06,
+        "value": 15891970880
       }
     ]
   }

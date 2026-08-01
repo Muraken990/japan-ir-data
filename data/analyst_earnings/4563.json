@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:26:35.988323",
+  "fetched_at": "2026-08-01T04:18:17.741328",
   "ticker": "4563",
   "ticker_full": "4563.T",
   "company_name": "ANGES INC",
@@ -17,15 +17,22 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 48.0,
+    "current": 47.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
@@ -52,11 +59,11 @@
     "institutional_holders": [
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 84400,
-        "date_reported": "2026-05-31",
+        "shares": 85600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.02,
-        "pct_change": -1.86,
-        "value": 4051200
+        "pct_change": 1.42,
+        "value": 4023200
       }
     ],
     "mutualfund_holders": []

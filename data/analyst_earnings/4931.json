@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:38:36.145324",
+  "fetched_at": "2026-08-01T04:28:25.951864",
   "ticker": "4931",
   "ticker_full": "4931.T",
   "company_name": "SHINNIHONSEIYAKU CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1954.0,
+    "current": 2022.0,
     "high": 2190.0,
     "low": 2190.0,
     "mean": 2190.0,
     "median": 2190.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2021-11-11",
+        "eps_estimate": 30.62,
+        "eps_actual": 31.96,
+        "surprise_pct": 4.38
+      },
+      {
+        "date": "2021-08-10",
+        "eps_estimate": 46.95,
+        "eps_actual": 30.13,
+        "surprise_pct": -35.83
+      },
+      {
+        "date": "2021-05-11",
+        "eps_estimate": 12.41,
+        "eps_actual": 17.29,
+        "surprise_pct": 39.3
+      },
+      {
+        "date": "2021-02-04",
+        "eps_estimate": 25.03,
+        "eps_actual": 27.5,
+        "surprise_pct": 9.88
+      },
+      {
+        "date": "2020-11-05",
+        "eps_estimate": 21.45,
+        "eps_actual": 24.68,
+        "surprise_pct": 15.06
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 58.31,
-    "institution_pct": 5.1,
+    "institution_pct": 5.12,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 5.1
+        "value": 5.12
       },
       {
         "label": "",
-        "value": 12.24
+        "value": 12.29
       },
       {
         "label": "",
-        "value": 31.0
+        "value": 30.0
       }
     ],
     "institutional_holders": [],

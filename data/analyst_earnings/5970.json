@@ -1,53 +1,85 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:37.384360",
+  "fetched_at": "2026-08-01T04:37:57.492941",
   "ticker": "5970",
   "ticker_full": "5970.T",
   "company_name": "G-TEKT CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 0,
-    "buy": 0,
-    "hold": 1,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 1,
     "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_mean": null,
+    "total_analysts": 1,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2019.0,
+    "current": 2163.0,
     "high": 1880.0,
     "low": 1880.0,
     "mean": 1880.0,
     "median": 1880.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 51.9,
+        "eps_actual": 29.96,
+        "surprise_pct": -42.28
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 35.09,
+        "eps_actual": 22.03,
+        "surprise_pct": -37.21
+      },
+      {
+        "date": "2015-04-23",
+        "eps_estimate": 35.19,
+        "eps_actual": 9.79,
+        "surprise_pct": -72.18
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 24.25,
+        "eps_actual": 43.71,
+        "surprise_pct": 80.23
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 38.67,
+        "eps_actual": 29.82,
+        "surprise_pct": -22.89
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 37.25,
-    "institution_pct": 12.8,
+    "insider_pct": 37.52,
+    "institution_pct": 12.71,
     "major_holders": [
       {
         "label": "",
-        "value": 37.25
+        "value": 37.52
       },
       {
         "label": "",
-        "value": 12.8
+        "value": 12.71
       },
       {
         "label": "",
-        "value": 20.41
+        "value": 20.34
       },
       {
         "label": "",
-        "value": 44.0
+        "value": 42.0
       }
     ],
     "institutional_holders": [],

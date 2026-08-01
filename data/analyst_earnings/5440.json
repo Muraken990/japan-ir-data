@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:36.021741",
+  "fetched_at": "2026-08-01T04:41:03.049978",
   "ticker": "5440",
   "ticker_full": "5440.T",
   "company_name": "KYOEI STEEL LTD",
@@ -18,21 +18,71 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1726.0,
-    "high": 1940.0,
+    "current": 1942.0,
+    "high": 2150.0,
     "low": 1800.0,
-    "mean": 1880.0,
+    "mean": 1950.0,
     "median": 1900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-01-30",
+        "eps_estimate": 66.2,
+        "eps_actual": -11.42,
+        "surprise_pct": -117.25
+      },
+      {
+        "date": "2019-10-31",
+        "eps_estimate": 44.8,
+        "eps_actual": 72.42,
+        "surprise_pct": 61.65
+      },
+      {
+        "date": "2019-01-30",
+        "eps_estimate": 18.2,
+        "eps_actual": 34.94,
+        "surprise_pct": 91.98
+      },
+      {
+        "date": "2017-02-09",
+        "eps_estimate": 31.0,
+        "eps_actual": 17.42,
+        "surprise_pct": -43.81
+      },
+      {
+        "date": "2016-07-28",
+        "eps_estimate": 55.74,
+        "eps_actual": 36.77,
+        "surprise_pct": -34.03
+      }
+    ]
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 55.32,
+    "institution_pct": 10.47,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 55.32
+      },
+      {
+        "label": "",
+        "value": 10.47
+      },
+      {
+        "label": "",
+        "value": 23.44
+      },
+      {
+        "label": "",
+        "value": 60.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

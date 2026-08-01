@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:12:05.662714",
+  "fetched_at": "2026-08-01T04:41:11.425646",
   "ticker": "4180",
   "ticker_full": "4180.T",
   "company_name": "APPIER GROUP INC",
@@ -8,128 +8,166 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
+    "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "total_analysts": 2,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 933.0,
-    "high": 960.0,
-    "low": 800.0,
-    "mean": 880.0,
-    "median": 880.0
+    "current": 953.0,
+    "high": 930.0,
+    "low": 900.0,
+    "mean": 915.0,
+    "median": 915.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-11-12",
+        "eps_estimate": 1.95,
+        "eps_actual": 2.97,
+        "surprise_pct": 52.31
+      },
+      {
+        "date": "2023-05-14",
+        "eps_estimate": 0.78,
+        "eps_actual": -0.33,
+        "surprise_pct": -142.31
+      },
+      {
+        "date": "2023-02-13",
+        "eps_estimate": 0.98,
+        "eps_actual": 3.06,
+        "surprise_pct": 212.24
+      },
+      {
+        "date": "2022-11-14",
+        "eps_estimate": -1.09,
+        "eps_actual": -0.55,
+        "surprise_pct": 49.54
+      },
+      {
+        "date": "2022-08-12",
+        "eps_estimate": -2.73,
+        "eps_actual": -1.84,
+        "surprise_pct": 32.6
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 23.15,
-    "institution_pct": 43.51,
+    "insider_pct": 23.14,
+    "institution_pct": 40.44,
     "major_holders": [
       {
         "label": "",
-        "value": 23.15
+        "value": 23.14
       },
       {
         "label": "",
-        "value": 43.51
+        "value": 40.44
       },
       {
         "label": "",
-        "value": 56.62
+        "value": 52.61
       },
       {
         "label": "",
-        "value": 87.0
+        "value": 79.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "iShares Trust-iShares Future AI & Tech ETF",
-        "shares": 2777700,
-        "date_reported": "2026-04-30",
-        "pct_held": 2.7,
-        "pct_change": 3.18,
-        "value": 2591594100
-      },
-      {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 988700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.96,
         "pct_change": 0.0,
-        "value": 922457100
+        "value": 942231100
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 634100,
-        "date_reported": "2025-12-31",
+        "date_reported": "2026-03-31",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 591615300
+        "value": 604297300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 526700,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.51,
-        "pct_change": 20.64,
-        "value": 491411100
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 273500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.27,
-        "pct_change": 1.48,
-        "value": 255175500
+        "shares": 533200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.52,
+        "pct_change": 0.0,
+        "value": 508139600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 248800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.24,
-        "pct_change": 0.0,
-        "value": 232130400
+        "shares": 284800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 14.47,
+        "value": 271414400
       },
       {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
-        "shares": 236100,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.23,
-        "pct_change": -5.45,
-        "value": 220281300
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 277728,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.27,
+        "pct_change": 1.0,
+        "value": 264674784
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 271900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.26,
+        "pct_change": -0.29,
+        "value": 259120700
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 216800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 1.0,
-        "value": 202274400
+        "shares": 198400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.19,
+        "pct_change": -8.49,
+        "value": 189075200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 177700,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 165794100
+        "value": 169348100
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 143844,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.14,
-        "pct_change": -1.14,
-        "value": 134206452
+        "shares": 150658,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.15,
+        "pct_change": 4.74,
+        "value": 143577074
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 119200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.12,
+        "pct_change": -4.33,
+        "value": 113597600
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:03:55.224659",
+  "fetched_at": "2026-08-01T04:51:37.991686",
   "ticker": "6432",
   "ticker_full": "6432.T",
   "company_name": "TAKEUCHI MFG CO",
@@ -13,12 +13,12 @@
     "sell": 2,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.25
   },
   "target_prices": {
     "has_data": true,
-    "current": 7140.0,
+    "current": 7450.0,
     "high": 9230.0,
     "low": 5400.0,
     "mean": 6957.5,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-10",
-      "eps_estimate": 173.13,
+      "date": "2026-10-09",
+      "eps_estimate": 198.38,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-10",
+        "eps_estimate": 173.13,
+        "eps_actual": 160.84,
+        "surprise_pct": -7.1
+      },
       {
         "date": "2026-04-10",
         "eps_estimate": 135.96,
@@ -57,19 +63,13 @@
         "eps_estimate": 131.45,
         "eps_actual": 160.54,
         "surprise_pct": 22.13
-      },
-      {
-        "date": "2025-04-11",
-        "eps_estimate": 128.06,
-        "eps_actual": 60.67,
-        "surprise_pct": -52.62
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.79,
-    "institution_pct": 36.49,
+    "institution_pct": 39.13,
     "major_holders": [
       {
         "label": "",
@@ -77,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 36.49
+        "value": 39.13
       },
       {
         "label": "",
-        "value": 47.27
+        "value": 50.68
       },
       {
         "label": "",
@@ -90,28 +90,28 @@
     ],
     "institutional_holders": [
       {
-        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 491074,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.0,
-        "pct_change": 0.0,
-        "value": 3506268360
-      },
-      {
         "holder": "Fidelity Central Investment PORT.s LLC-Fidelity Intl Eqy. Central Fd.",
         "shares": 482600,
         "date_reported": "2026-03-31",
         "pct_held": 0.98,
         "pct_change": 16.6,
-        "value": 3445764000
+        "value": 3595370000
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 478774,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.98,
+        "pct_change": -2.5,
+        "value": 3566866300
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
-        "shares": 423576,
-        "date_reported": "2026-04-30",
+        "shares": 423008,
+        "date_reported": "2026-05-31",
         "pct_held": 0.86,
-        "pct_change": -0.44,
-        "value": 3024332640
+        "pct_change": -0.13,
+        "value": 3151409600
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -119,15 +119,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.69,
         "pct_change": 0.0,
-        "value": 2429028000
+        "value": 2534490000
       },
       {
         "holder": "Fidelity Capital Trust-Fidelity Stock Selector Small Cap Fund",
         "shares": 315817,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.64,
-        "pct_change": 2.04,
-        "value": 2254933380
+        "pct_change": 0.0,
+        "value": 2352836650
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -135,23 +135,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.63,
         "pct_change": -3.49,
-        "value": 2193393720
+        "value": 2288625100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 236900,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 1691466000
+        "value": 1764905000
       },
       {
         "holder": "Fidelity Securities Fund-Fidelity Series Small Cap Opportunities Fund",
         "shares": 237583,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.48,
-        "pct_change": -2.66,
-        "value": 1696342620
+        "pct_change": 0.0,
+        "value": 1769993350
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -159,15 +159,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 1425144000
+        "value": 1487020000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 173000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 1235220000
+        "value": 1288850000
       }
     ],
     "mutualfund_holders": []

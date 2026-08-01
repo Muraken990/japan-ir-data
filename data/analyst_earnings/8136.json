@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:27.835275",
+  "fetched_at": "2026-08-01T04:57:53.148697",
   "ticker": "8136",
   "ticker_full": "8136.T",
   "company_name": "SANRIO CO LTD",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 7,
+    "buy": 8,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 11,
+    "total_analysts": 12,
     "recommendation_key": "strong_buy",
     "recommendation_mean": 1.41667
   },
   "target_prices": {
     "has_data": true,
-    "current": 1085.0,
+    "current": 1272.5,
     "high": 1860.0,
     "low": 1200.0,
-    "mean": 1489.0083,
-    "median": 1543.0
+    "mean": 1534.3417,
+    "median": 1600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-10",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 3.89,
+        "eps_actual": 4.65,
+        "surprise_pct": 19.73
+      },
+      {
+        "date": "2023-03-15",
+        "eps_estimate": 1.41,
+        "eps_actual": 3.13,
+        "surprise_pct": 122.18
+      },
+      {
+        "date": "2022-02-09",
+        "eps_estimate": 0.58,
+        "eps_actual": 1.01,
+        "surprise_pct": 74.6
+      },
+      {
+        "date": "2021-02-11",
+        "eps_estimate": -0.67,
+        "eps_actual": 0.37,
+        "surprise_pct": 156.0
+      },
+      {
+        "date": "2020-02-11",
+        "eps_estimate": 1.33,
+        "eps_actual": 0.95,
+        "surprise_pct": -28.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 19.43,
-    "institution_pct": 45.91,
+    "insider_pct": 19.41,
+    "institution_pct": 50.18,
     "major_holders": [
       {
         "label": "",
-        "value": 19.43
+        "value": 19.41
       },
       {
         "label": "",
-        "value": 45.91
+        "value": 50.18
       },
       {
         "label": "",
-        "value": 56.99
+        "value": 62.26
       },
       {
         "label": "",
-        "value": 290.0
+        "value": 295.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": -14.74,
-        "value": 10985625
+        "value": 12884062
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 13934575,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.09,
-        "pct_change": 0.7,
-        "value": 15119013875
+        "shares": 14215775,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.11,
+        "pct_change": 2.02,
+        "value": 18089573687
       },
       {
         "holder": "-Price (T.Rowe) International Growth Equity Trust",
@@ -75,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.87,
         "pct_change": 56.03,
-        "value": 12033843500
+        "value": 14113424750
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
@@ -83,7 +121,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.79,
         "pct_change": 11.76,
-        "value": 10935932000
+        "value": 12825782000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,15 +129,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.74,
         "pct_change": 4.91,
-        "value": 10211293050
+        "value": 11975917425
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 6301000,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.49,
-        "pct_change": 0.57,
-        "value": 6836585000
+        "shares": 7049700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.55,
+        "pct_change": 1.6,
+        "value": 8970743250
       },
       {
         "holder": "MORGAN STANLEY Inst. Fd. INC-Intl Advantage PORT.",
@@ -107,15 +145,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.47,
         "pct_change": -6.34,
-        "value": 6569132500
+        "value": 7704351250
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 5376230,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.42,
-        "pct_change": 52.15,
-        "value": 5833209550
+        "shares": 5627230,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.44,
+        "pct_change": 4.67,
+        "value": 7160650175
       },
       {
         "holder": "MORGAN STANLEY Inst. Fd. INC-Intl Opportunity PORT.",
@@ -123,7 +161,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.34,
         "pct_change": 46.94,
-        "value": 4759895000
+        "value": 5582457500
       },
       {
         "holder": "T. ROWE PRICE COMMUNICATIONS & TECHNOLOGY Fd., INC.-T. Rowe Price Comm",
@@ -131,15 +169,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 4539640000
+        "value": 5324140000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 3989100,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.31,
-        "pct_change": 6.82,
-        "value": 4328173500
+        "shares": 4150500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.33,
+        "pct_change": 12.97,
+        "value": 5281511250
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:32:30.714351",
+  "fetched_at": "2026-08-01T04:22:14.676521",
   "ticker": "6266",
   "ticker_full": "6266.T",
   "company_name": "TAZMO CO LTD",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5110.0,
+    "current": 4005.0,
     "high": 5500.0,
     "low": 5500.0,
     "mean": 5500.0,
     "median": 5500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 34.4,
+        "eps_actual": 7.71,
+        "surprise_pct": -77.59
+      },
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 51.9,
+        "eps_actual": 25.36,
+        "surprise_pct": -51.14
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 48.1,
+        "eps_actual": 105.66,
+        "surprise_pct": 119.67
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 75.6,
+        "eps_actual": 54.59,
+        "surprise_pct": -27.79
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 34.4,
+        "eps_actual": 58.7,
+        "surprise_pct": 70.64
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 20.08,
-    "institution_pct": 35.15,
+    "institution_pct": 32.0,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 35.15
+        "value": 32.0
       },
       {
         "label": "",
-        "value": 43.98
+        "value": 40.04
       },
       {
         "label": "",
@@ -53,43 +86,27 @@
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 230300,
-        "date_reported": "2026-05-31",
-        "pct_held": 1.55,
-        "pct_change": 0.39,
-        "value": 1176833000
+        "shares": 241000,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.62,
+        "pct_change": 4.65,
+        "value": 965205000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 27200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": -19.05,
-        "value": 138992000
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
-        "shares": 11800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.08,
-        "pct_change": 0.0,
-        "value": 60298000
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 11500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.08,
-        "pct_change": 7.48,
-        "value": 58765000
-      },
-      {
-        "holder": "SEI INSTITUTIONAL INTERNATIONAL TRUST-SIT International Equity Fund",
-        "shares": 12200,
+        "shares": 14200,
         "date_reported": "2026-04-30",
-        "pct_held": 0.08,
-        "pct_change": 0.0,
-        "value": 62342000
+        "pct_held": 0.1,
+        "pct_change": -47.79,
+        "value": 56871000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity Market ETF",
+        "shares": 13200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.09,
+        "pct_change": 71.43,
+        "value": 52866000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,39 +114,55 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.08,
         "pct_change": 27.96,
-        "value": 60809000
+        "value": 47659500
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 12300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.08,
+        "pct_change": 6.96,
+        "value": 49261500
+      },
+      {
+        "holder": "SEI INSTITUTIONAL INTERNATIONAL TRUST-SIT International Equity Fund",
+        "shares": 12200,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.08,
+        "pct_change": 0.0,
+        "value": 48861000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
+        "shares": 11800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.08,
+        "pct_change": 0.0,
+        "value": 47259000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
         "shares": 10800,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.07,
         "pct_change": 0.0,
-        "value": 55188000
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional World ex U.S. Core Equity 2 ETF",
-        "shares": 8700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.06,
-        "pct_change": 0.0,
-        "value": 44457000
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Core Equity Market ETF",
-        "shares": 7700,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.05,
-        "pct_change": 0.0,
-        "value": 39347000
+        "value": 43254000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Vector Eqy. PORT.",
         "shares": 7000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 35770000
+        "value": 28035000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional World ex U.S. Core Equity 2 ETF",
+        "shares": 8000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.05,
+        "pct_change": -8.05,
+        "value": 32040000
       }
     ],
     "mutualfund_holders": []

@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:50.424576",
+  "fetched_at": "2026-08-01T04:52:40.999363",
   "ticker": "6005",
   "ticker_full": "6005.T",
   "company_name": "MIURA CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 2,
-    "buy": 2,
-    "hold": 1,
+    "buy": 1,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.2
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3099.0,
+    "current": 3217.0,
     "high": 5000.0,
-    "low": 3210.0,
-    "mean": 3902.0,
-    "median": 3600.0
+    "low": 3120.0,
+    "mean": 3955.0,
+    "median": 3850.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2018-11-04",
+        "eps_estimate": 30.3,
+        "eps_actual": 31.49,
+        "surprise_pct": 3.93
+      },
+      {
+        "date": "2016-01-31",
+        "eps_estimate": 13.41,
+        "eps_actual": 19.09,
+        "surprise_pct": 42.36
+      },
+      {
+        "date": "2015-08-02",
+        "eps_estimate": 8.23,
+        "eps_actual": 9.52,
+        "surprise_pct": 15.63
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 19.0,
+        "eps_actual": 25.97,
+        "surprise_pct": 36.67
+      },
+      {
+        "date": "2015-02-01",
+        "eps_estimate": 12.79,
+        "eps_actual": 14.99,
+        "surprise_pct": 17.19
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 16.26,
-    "institution_pct": 44.15,
+    "insider_pct": 16.23,
+    "institution_pct": 41.47,
     "major_holders": [
       {
         "label": "",
-        "value": 16.26
+        "value": 16.23
       },
       {
         "label": "",
-        "value": 44.15
+        "value": 41.47
       },
       {
         "label": "",
-        "value": 52.73
+        "value": 49.51
       },
       {
         "label": "",
-        "value": 142.0
+        "value": 139.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.01,
         "pct_change": 1.0,
-        "value": 43955721
+        "value": 45658881
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.32,
         "pct_change": 0.0,
-        "value": 5128012600
+        "value": 5326708600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1390944,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.11,
         "pct_change": 0.0,
-        "value": 4307753568
+        "value": 4474666848
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,23 +121,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.73,
         "pct_change": 0.66,
-        "value": 2845721808
+        "value": 2955985488
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 682200,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.54,
-        "pct_change": 0.66,
-        "value": 2112773400
+        "shares": 688700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.55,
+        "pct_change": 0.0,
+        "value": 2215547900
       },
       {
         "holder": "Templeton Global Smaller Companies Fund",
-        "shares": 390500,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.31,
-        "pct_change": 82.56,
-        "value": 1209378500
+        "shares": 572400,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.46,
+        "pct_change": 46.58,
+        "value": 1841410800
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -107,15 +145,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.31,
         "pct_change": -10.89,
-        "value": 1208449400
+        "value": 1255273400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 349100,
-        "date_reported": "2026-04-30",
+        "shares": 353400,
+        "date_reported": "2026-06-30",
         "pct_held": 0.28,
-        "pct_change": 1.16,
-        "value": 1081162700
+        "pct_change": -0.23,
+        "value": 1136887800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -123,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": 1.37,
-        "value": 1010241400
+        "value": 1049385400
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -131,7 +169,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.24,
         "pct_change": 1.7,
-        "value": 924144800
+        "value": 959952800
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
@@ -139,7 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.24,
         "pct_change": -9.67,
-        "value": 919809000
+        "value": 955449000
       }
     ]
   }

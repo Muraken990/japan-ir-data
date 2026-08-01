@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:25:27.748597",
+  "fetched_at": "2026-08-01T04:16:13.805978",
   "ticker": "6445",
   "ticker_full": "6445.T",
   "company_name": "JANOME CORPORATION",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1317.0,
+    "current": 1303.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-02",
+        "eps_estimate": 34.27,
+        "eps_actual": 40.09,
+        "surprise_pct": 16.98
+      },
+      {
+        "date": "2015-08-03",
+        "eps_estimate": 13.62,
+        "eps_actual": 3.8,
+        "surprise_pct": -72.1
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 14.69,
+        "eps_actual": 9.3,
+        "surprise_pct": -36.69
+      },
+      {
+        "date": "2015-02-03",
+        "eps_estimate": 27.03,
+        "eps_actual": 51.4,
+        "surprise_pct": 90.16
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 31.2,
+        "eps_actual": 16.8,
+        "surprise_pct": -46.15
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 26.63,
-    "institution_pct": 18.58,
+    "insider_pct": 26.41,
+    "institution_pct": 16.07,
     "major_holders": [
       {
         "label": "",
-        "value": 26.63
+        "value": 26.41
       },
       {
         "label": "",
-        "value": 18.58
+        "value": 16.07
       },
       {
         "label": "",
-        "value": 25.32
+        "value": 21.83
       },
       {
         "label": "",
-        "value": 26.0
+        "value": 24.0
       }
     ],
     "institutional_holders": [],

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:32:31.374592",
+  "fetched_at": "2026-08-01T04:22:15.436584",
   "ticker": "6547",
   "ticker_full": "6547.T",
   "company_name": "GREENS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 0,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2134.0,
+    "current": 2213.0,
     "high": 3630.0,
     "low": 3630.0,
     "mean": 3630.0,
     "median": 3630.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": -5.3,
+        "eps_actual": 34.93,
+        "surprise_pct": 759.06
+      },
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 117.4,
+        "eps_actual": 141.55,
+        "surprise_pct": 20.57
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 72.8,
+        "eps_actual": 112.02,
+        "surprise_pct": 53.87
+      },
+      {
+        "date": "2025-08-12",
+        "eps_estimate": 49.8,
+        "eps_actual": 80.34,
+        "surprise_pct": 61.33
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": -10.9,
+        "eps_actual": 18.23,
+        "surprise_pct": 267.25
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 44.85,
-    "institution_pct": 10.77,
+    "institution_pct": 10.99,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 10.77
+        "value": 10.99
       },
       {
         "label": "",
-        "value": 19.54
+        "value": 19.93
       },
       {
         "label": "",

@@ -1,53 +1,86 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:38.693631",
+  "fetched_at": "2026-08-01T04:40:04.443833",
   "ticker": "5253",
   "ticker_full": "5253.T",
   "company_name": "COVER CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 2,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "total_analysts": 3,
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 1354.0,
-    "high": 2620.0,
+    "current": 1460.0,
+    "high": 2600.0,
     "low": 1200.0,
-    "mean": 2105.0,
-    "median": 2300.0
+    "mean": 1934.0,
+    "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 20.9,
+        "eps_actual": -13.87,
+        "surprise_pct": -166.36
+      },
+      {
+        "date": "2026-02-11",
+        "eps_estimate": 23.97,
+        "eps_actual": 29.36,
+        "surprise_pct": 22.49
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 28.18,
+        "eps_actual": 19.89,
+        "surprise_pct": -29.42
+      },
+      {
+        "date": "2025-08-11",
+        "eps_estimate": 12.21,
+        "eps_actual": 10.57,
+        "surprise_pct": -13.43
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 36.59,
+        "eps_actual": 27.84,
+        "surprise_pct": -23.91
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 42.51,
-    "institution_pct": 28.68,
+    "insider_pct": 44.03,
+    "institution_pct": 26.27,
     "major_holders": [
       {
         "label": "",
-        "value": 42.51
+        "value": 44.03
       },
       {
         "label": "",
-        "value": 28.68
+        "value": 26.27
       },
       {
         "label": "",
-        "value": 49.88
+        "value": 46.94
       },
       {
         "label": "",
-        "value": 61.0
+        "value": 58.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +90,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 3.98,
         "pct_change": 0.0,
-        "value": 3541387000
+        "value": 3818630000
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -65,23 +98,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.93,
         "pct_change": -4.12,
-        "value": 822961200
+        "value": 887388000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 286000,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 387244000
-      },
-      {
-        "holder": "Japan Smaller Capitalization Fund, Inc.",
-        "shares": 198800,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.3,
-        "pct_change": 0.0,
-        "value": 269175200
+        "value": 417560000
       },
       {
         "holder": "T. ROWE PRICE INTERNATIONAL FUNDS, INC.-T. Rowe Price Japan Fund",
@@ -89,39 +114,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 262269800
+        "value": 282802000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 154800,
-        "date_reported": "2026-04-30",
+        "shares": 154400,
+        "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": -0.26,
-        "value": 209599200
+        "value": 225424000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
         "shares": 58800,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 79615200
+        "value": 85848000
       },
       {
-        "holder": "iShares Trust-iShares Future Metaverse Tech and Communications ETF",
-        "shares": 32100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.05,
-        "pct_change": 0.0,
-        "value": 43463400
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity ETF",
-        "shares": 29400,
+        "holder": "Japan Smaller Capitalization Fund, Inc.",
+        "shares": 48800,
         "date_reported": "2026-05-31",
-        "pct_held": 0.04,
-        "pct_change": 0.0,
-        "value": 39807600
+        "pct_held": 0.07,
+        "pct_change": -75.45,
+        "value": 71248000
       },
       {
         "holder": "Thrivent Series Fund, Inc.-Thrivent International Equity Portfolio",
@@ -129,7 +146,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.04,
         "pct_change": 2.01,
-        "value": 31819000
+        "value": 34310000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Equity ETF",
+        "shares": 29400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.04,
+        "pct_change": 0.0,
+        "value": 42924000
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 22900,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.03,
+        "pct_change": 0.0,
+        "value": 33434000
       }
     ],
     "mutualfund_holders": []

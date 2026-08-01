@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:45.505232",
+  "fetched_at": "2026-08-01T04:52:51.158481",
   "ticker": "9006",
   "ticker_full": "9006.T",
   "company_name": "KEIKYU CORPORATION",
@@ -18,32 +18,70 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1465.5,
+    "current": 1557.0,
     "high": 1620.0,
     "low": 1500.0,
     "mean": 1542.5,
     "median": 1525.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 11.3,
+        "eps_actual": 20.36,
+        "surprise_pct": 80.18
+      },
+      {
+        "date": "2025-02-11",
+        "eps_estimate": 24.0,
+        "eps_actual": 18.32,
+        "surprise_pct": -23.67
+      },
+      {
+        "date": "2024-02-12",
+        "eps_estimate": 18.9,
+        "eps_actual": 22.5,
+        "surprise_pct": 19.05
+      },
+      {
+        "date": "2023-11-10",
+        "eps_estimate": 20.71,
+        "eps_actual": 19.93,
+        "surprise_pct": -3.77
+      },
+      {
+        "date": "2023-05-09",
+        "eps_estimate": 9.17,
+        "eps_actual": 0.51,
+        "surprise_pct": -94.44
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 18.08,
-    "institution_pct": 30.3,
+    "insider_pct": 19.1,
+    "institution_pct": 30.29,
     "major_holders": [
       {
         "label": "",
-        "value": 18.08
+        "value": 19.1
       },
       {
         "label": "",
-        "value": 30.3
+        "value": 30.29
       },
       {
         "label": "",
-        "value": 36.99
+        "value": 37.44
       },
       {
         "label": "",

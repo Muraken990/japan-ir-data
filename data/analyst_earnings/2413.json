@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:15.936145",
+  "fetched_at": "2026-08-01T04:57:56.688351",
   "ticker": "2413",
   "ticker_full": "2413.T",
   "company_name": "M3 INC",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 5,
     "buy": 4,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 13,
+    "total_analysts": 12,
     "recommendation_key": "buy",
     "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 1781.0,
+    "current": 1781.5,
     "high": 3300.0,
     "low": 1600.0,
-    "mean": 2158.3333,
+    "mean": 2179.1667,
     "median": 2070.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": 16.26,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-30",
+        "eps_estimate": 14.8,
+        "eps_actual": 11.11,
+        "surprise_pct": -24.92
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 21.83,
+        "eps_actual": 27.95,
+        "surprise_pct": 28.04
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 14.0,
+        "eps_actual": 16.03,
+        "surprise_pct": 14.52
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 16.26,
+        "eps_actual": 17.44,
+        "surprise_pct": 7.25
+      },
+      {
+        "date": "2025-05-02",
+        "eps_estimate": 15.59,
+        "eps_actual": 11.69,
+        "surprise_pct": -25.0
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 39.78,
-    "institution_pct": 39.22,
+    "institution_pct": 37.84,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 39.22
+        "value": 37.84
       },
       {
         "label": "",
-        "value": 65.13
+        "value": 62.84
       },
       {
         "label": "",
-        "value": 267.0
+        "value": 241.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.0,
         "pct_change": 1.52,
-        "value": 6327893
+        "value": 6329669
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 2.17,
         "pct_change": 1.01,
-        "value": 26289638427
+        "value": 26297019010
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
         "shares": 11509400,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-05-31",
         "pct_held": 1.7,
-        "pct_change": -1.62,
-        "value": 20498241400
+        "pct_change": 0.0,
+        "value": 20503996100
       },
       {
         "holder": "VANGUARD SPECIALIZED FUNDS-Vanguard Health Care Fund",
@@ -83,23 +121,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.39,
         "pct_change": 1.08,
-        "value": 16833393993
+        "value": 16838119819
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6006183,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.88,
-        "pct_change": 0.89,
-        "value": 10697011923
-      },
-      {
-        "holder": "John Hancock Funds III-International Growth Fund",
-        "shares": 5038383,
+        "shares": 6007583,
         "date_reported": "2026-04-30",
-        "pct_held": 0.74,
-        "pct_change": 0.0,
-        "value": 8973360123
+        "pct_held": 0.88,
+        "pct_change": 0.02,
+        "value": 10702509114
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -107,23 +137,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.58,
         "pct_change": 2.53,
-        "value": 7057581167
+        "value": 7059562520
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3152200,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.46,
-        "pct_change": 0.43,
-        "value": 5614068200
+        "shares": 2952400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.43,
+        "pct_change": 0.0,
+        "value": 5259700600
       },
       {
         "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
         "shares": 2284500,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 4068694500
+        "value": 4069836750
       },
       {
         "holder": "PUTNAM FOCUSED INTERNATIONAL EQUITY FUND",
@@ -131,15 +161,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 91.54,
-        "value": 3414355100
+        "value": 3415313650
       },
       {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1642902,
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 1589100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.23,
+        "pct_change": 1.81,
+        "value": 2830981650
+      },
+      {
+        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
+        "shares": 1431600,
         "date_reported": "2026-04-30",
-        "pct_held": 0.24,
-        "pct_change": 1.2,
-        "value": 2926008462
+        "pct_held": 0.21,
+        "pct_change": 8.61,
+        "value": 2550395400
       }
     ]
   }

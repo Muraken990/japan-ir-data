@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:18.619727",
+  "fetched_at": "2026-08-01T04:56:56.731979",
   "ticker": "8439",
   "ticker_full": "8439.T",
   "company_name": "TOKYO CENTURY CORPORATION",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2465.0,
-    "high": 2800.0,
-    "low": 2100.0,
-    "mean": 2555.0,
-    "median": 2690.0
+    "current": 2623.0,
+    "high": 3000.0,
+    "low": 2250.0,
+    "mean": 2705.0,
+    "median": 2800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-03",
+      "eps_estimate": 46.82,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-10",
+        "eps_estimate": -32.68,
+        "eps_actual": -9.47,
+        "surprise_pct": 71.02
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 51.81,
+        "eps_actual": 47.25,
+        "surprise_pct": -8.8
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 152.73,
+        "eps_actual": 144.79,
+        "surprise_pct": -5.2
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 46.82,
+        "eps_actual": 45.25,
+        "surprise_pct": -3.35
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 34.57,
+        "eps_actual": 27.17,
+        "surprise_pct": -21.41
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 66.72,
-    "institution_pct": 14.8,
+    "insider_pct": 66.42,
+    "institution_pct": 14.53,
     "major_holders": [
       {
         "label": "",
-        "value": 66.72
+        "value": 66.42
       },
       {
         "label": "",
-        "value": 14.8
+        "value": 14.53
       },
       {
         "label": "",
-        "value": 44.48
+        "value": 43.25
       },
       {
         "label": "",
-        "value": 129.0
+        "value": 128.0
       }
     ],
     "institutional_holders": [],

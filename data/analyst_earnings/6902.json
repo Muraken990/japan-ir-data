@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:15:19.064344",
+  "fetched_at": "2026-08-01T05:02:09.827951",
   "ticker": "6902",
   "ticker_full": "6902.T",
   "company_name": "DENSO CORP",
@@ -8,32 +8,33 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 5,
-    "hold": 9,
+    "buy": 6,
+    "hold": 8,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 16,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.23529
+    "recommendation_mean": 2.38889
   },
   "target_prices": {
     "has_data": true,
-    "current": 1879.0,
-    "high": 2600.0,
+    "current": 1967.5,
+    "high": 2500.0,
     "low": 1800.0,
-    "mean": 2192.353,
-    "median": 2200.0
+    "mean": 2140.0,
+    "median": 2100.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-31",
-      "eps_estimate": 30.49,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 31.4,
+        "eps_actual": 25.51,
+        "surprise_pct": -18.77
+      },
       {
         "date": "2026-04-27",
         "eps_estimate": 57.05,
@@ -57,19 +58,13 @@
         "eps_estimate": 31.3,
         "eps_actual": 28.5,
         "surprise_pct": -8.96
-      },
-      {
-        "date": "2025-04-24",
-        "eps_estimate": 42.39,
-        "eps_actual": 37.4,
-        "surprise_pct": -11.77
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 27.34,
-    "institution_pct": 31.5,
+    "institution_pct": 31.64,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 31.5
+        "value": 31.64
       },
       {
         "label": "",
-        "value": 43.35
+        "value": 43.54
       },
       {
         "label": "",
-        "value": 388.0
+        "value": 378.0
       }
     ],
     "institutional_holders": [
@@ -95,17 +90,17 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 63.95,
-        "value": 78596691
+        "value": 82298557
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 26087664,
-        "date_reported": "2026-01-31",
+        "shares": 26055564,
+        "date_reported": "2026-04-30",
         "pct_held": 0.9,
-        "pct_change": -1.01,
-        "value": 49018720656
+        "pct_change": -0.12,
+        "value": 51264322170
       },
       {
         "holder": "MFS Series Trust XVII-MFS International Equity Fund",
@@ -113,7 +108,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.76,
         "pct_change": -5.07,
-        "value": 41422930800
+        "value": 43373931000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,39 +116,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.59,
         "pct_change": 2.41,
-        "value": 32389751040
+        "value": 33915292800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 12446500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.43,
-        "pct_change": 1.14,
-        "value": 23386973500
+        "shares": 12301400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.42,
+        "pct_change": 0.0,
+        "value": 24203004500
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 6968200,
-        "date_reported": "2026-05-31",
+        "shares": 6902600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.24,
-        "pct_change": -3.48,
-        "value": 13093247800
+        "pct_change": -3.08,
+        "value": 13580865500
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 6502950,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.22,
-        "pct_change": 1.19,
-        "value": 12219043050
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 6089900,
-        "date_reported": "2026-05-31",
+        "shares": 6165550,
+        "date_reported": "2026-06-30",
         "pct_held": 0.21,
-        "pct_change": 0.0,
-        "value": 11442922100
+        "pct_change": -6.18,
+        "value": 12130719625
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -161,23 +148,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 8.8,
-        "value": 10879034200
+        "value": 11391431500
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE ETF",
+        "shares": 5668700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.19,
+        "pct_change": -6.92,
+        "value": 11153167250
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 5401800,
-        "date_reported": "2026-04-30",
+        "shares": 5617800,
+        "date_reported": "2026-06-30",
         "pct_held": 0.19,
-        "pct_change": 2.64,
-        "value": 10149982200
+        "pct_change": 3.54,
+        "value": 11053021500
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 4419600,
-        "date_reported": "2026-05-31",
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 4235000,
+        "date_reported": "2026-06-30",
         "pct_held": 0.15,
-        "pct_change": -3.81,
-        "value": 8304428400
+        "pct_change": 5.5,
+        "value": 8332362500
       }
     ]
   }

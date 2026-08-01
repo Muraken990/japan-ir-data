@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:14:23.858373",
+  "fetched_at": "2026-08-01T05:01:16.984258",
   "ticker": "6723",
   "ticker_full": "6723.T",
   "company_name": "RENESAS ELECTRONICS CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 4,
+    "strong_buy": 3,
     "buy": 6,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 13,
@@ -18,22 +18,23 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5098.0,
+    "current": 3442.0,
     "high": 6300.0,
     "low": 2000.0,
-    "mean": 4503.846,
-    "median": 5200.0
+    "mean": 4857.6924,
+    "median": 5700.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-22",
-      "eps_estimate": 57.95,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-31",
+        "eps_estimate": 57.45,
+        "eps_actual": 62.16,
+        "surprise_pct": 8.2
+      },
       {
         "date": "2026-04-23",
         "eps_estimate": 60.84,
@@ -57,19 +58,13 @@
         "eps_estimate": 41.12,
         "eps_actual": 43.12,
         "surprise_pct": 4.86
-      },
-      {
-        "date": "2025-04-23",
-        "eps_estimate": 40.3,
-        "eps_actual": 40.81,
-        "surprise_pct": 1.26
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.19,
-    "institution_pct": 52.88,
+    "institution_pct": 52.05,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 52.88
+        "value": 52.05
       },
       {
         "label": "",
-        "value": 58.23
+        "value": 57.31
       },
       {
         "label": "",
-        "value": 408.0
+        "value": 409.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +90,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 519894000
+        "value": 351084000
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -103,7 +98,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 68.03,
-        "value": 178084083
+        "value": 120260038
       }
     ],
     "mutualfund_holders": [
@@ -113,15 +108,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 2.15,
         "pct_change": -0.09,
-        "value": 214311010500
+        "value": 144724053000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 23751006,
-        "date_reported": "2026-01-31",
+        "shares": 23728006,
+        "date_reported": "2026-04-30",
         "pct_held": 1.21,
-        "pct_change": 0.82,
-        "value": 121058877582
+        "pct_change": -0.1,
+        "value": 81671796652
       },
       {
         "holder": "-Price (T.Rowe) International Growth Equity Trust",
@@ -129,7 +124,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.93,
         "pct_change": -8.91,
-        "value": 93138500400
+        "value": 62896354400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -137,7 +132,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 2.25,
-        "value": 79978489839
+        "value": 54009409854
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
@@ -145,23 +140,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.76,
         "pct_change": -8.98,
-        "value": 75852534600
+        "value": 51223155600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 12528000,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.64,
-        "pct_change": 0.54,
-        "value": 63855216000
-      },
-      {
-        "holder": "Columbia Fd.s Series TRT II-Columbia Seligman Technology and Informati",
-        "shares": 12256100,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.63,
+        "shares": 12733500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.65,
         "pct_change": 0.0,
-        "value": 62469341700
+        "value": 43828707000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
@@ -169,7 +156,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.6,
         "pct_change": -0.17,
-        "value": 60330130800
+        "value": 40740888800
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
@@ -177,15 +164,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.6,
         "pct_change": -18.99,
-        "value": 60179259600
+        "value": 40639005600
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Diversified International Fund",
-        "shares": 10935005,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.56,
-        "pct_change": 2.57,
-        "value": 55735720485
+        "shares": 10579405,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.54,
+        "pct_change": -3.25,
+        "value": 36414312010
+      },
+      {
+        "holder": "Franklin Mutual Series Funds-FRANKLIN MUTUAL GLOBAL DISCOVERY FUND",
+        "shares": 8338672,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.43,
+        "pct_change": -23.31,
+        "value": 28701709024
       }
     ]
   }

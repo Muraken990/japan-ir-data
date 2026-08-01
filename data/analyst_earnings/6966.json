@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:44.793200",
+  "fetched_at": "2026-08-01T04:44:09.055350",
   "ticker": "6966",
   "ticker_full": "6966.T",
   "company_name": "MITSUI HIGH TEC INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
-    "buy": 2,
+    "buy": 1,
     "hold": 0,
-    "sell": 0,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1008.0,
+    "current": 903.0,
     "high": 1200.0,
     "low": 720.0,
     "mean": 920.0,
     "median": 840.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-09",
+      "eps_estimate": 5.3,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-06-11",
+        "eps_estimate": 10.4,
+        "eps_actual": 25.09,
+        "surprise_pct": 141.25
+      },
+      {
+        "date": "2026-03-11",
+        "eps_estimate": 10.88,
+        "eps_actual": -23.31,
+        "surprise_pct": -314.25
+      },
+      {
+        "date": "2025-12-11",
+        "eps_estimate": 17.63,
+        "eps_actual": 17.63,
+        "surprise_pct": null
+      },
+      {
+        "date": "2025-09-09",
+        "eps_estimate": 5.3,
+        "eps_actual": 17.63,
+        "surprise_pct": 232.64
+      },
+      {
+        "date": "2025-06-13",
+        "eps_estimate": 17.51,
+        "eps_actual": 5.3,
+        "surprise_pct": -69.73
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 42.37,
-    "institution_pct": 19.69,
+    "institution_pct": 19.66,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 19.69
+        "value": 19.66
       },
       {
         "label": "",
-        "value": 34.16
+        "value": 34.12
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 79.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2028100,
-        "date_reported": "2026-05-31",
-        "pct_held": 1.03,
-        "pct_change": 1.22,
-        "value": 2044324800
+        "shares": 2048500,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.04,
+        "pct_change": 1.55,
+        "value": 1849795500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1452005,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.74,
         "pct_change": 0.0,
-        "value": 1463621040
+        "value": 1311160515
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,63 +111,63 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 907174800
+        "value": 812677425
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 763700,
-        "date_reported": "2026-04-30",
+        "shares": 770200,
+        "date_reported": "2026-06-30",
         "pct_held": 0.39,
-        "pct_change": 0.59,
-        "value": 769809600
+        "pct_change": 0.0,
+        "value": 695490600
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 492300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 24.48,
-        "value": 496238400
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 425000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": -3.47,
-        "value": 428400000
+        "shares": 551800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 12.09,
+        "value": 498275400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 366100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 369028800
+        "shares": 394900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.2,
+        "pct_change": 7.87,
+        "value": 356594700
       },
       {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 365200,
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 378000,
         "date_reported": "2026-04-30",
         "pct_held": 0.19,
-        "pct_change": -18.02,
-        "value": 368121600
+        "pct_change": -11.06,
+        "value": 341334000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 346300,
-        "date_reported": "2026-04-30",
+        "shares": 361000,
+        "date_reported": "2026-06-30",
         "pct_held": 0.18,
-        "pct_change": -0.29,
-        "value": 349070400
+        "pct_change": 4.24,
+        "value": 325983000
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 315000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.16,
+        "pct_change": -13.75,
+        "value": 284445000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 266300,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 268430400
+        "value": 240468900
       }
     ],
     "mutualfund_holders": []

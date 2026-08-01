@@ -1,36 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:48:47.443417",
+  "fetched_at": "2026-08-01T04:37:06.745653",
   "ticker": "6349",
   "ticker_full": "6349.T",
   "company_name": "KOMORI CORP",
   "analyst_recommendations": {
     "has_data": true,
+    "period": "0",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 0,
     "recommendation_key": "none",
-    "recommendation_mean": null,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1511.0,
+    "current": 1865.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-27",
+        "eps_estimate": 40.35,
+        "eps_actual": 32.22,
+        "surprise_pct": -20.14
+      },
+      {
+        "date": "2015-10-28",
+        "eps_estimate": 55.39,
+        "eps_actual": 56.06,
+        "surprise_pct": 1.22
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": 8.07,
+        "eps_actual": 5.95,
+        "surprise_pct": -26.26
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 46.43,
+        "eps_actual": 38.62,
+        "surprise_pct": -16.82
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 40.34,
+        "eps_actual": 41.53,
+        "surprise_pct": 2.94
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.42,
-    "institution_pct": 29.21,
+    "institution_pct": 29.39,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 29.21
+        "value": 29.39
       },
       {
         "label": "",
-        "value": 35.81
+        "value": 36.03
       },
       {
         "label": "",
-        "value": 54.0
+        "value": 52.0
       }
     ],
     "institutional_holders": [
@@ -56,15 +90,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 2.26,
         "pct_change": 0.0,
-        "value": 1826109984
+        "value": 2253934560
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 591794,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.11,
         "pct_change": 0.0,
-        "value": 894200734
+        "value": 1103695810
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -72,15 +106,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.76,
         "pct_change": 0.0,
-        "value": 610368450
+        "value": 753366750
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 389000,
-        "date_reported": "2026-05-31",
+        "shares": 390200,
+        "date_reported": "2026-06-30",
         "pct_held": 0.73,
-        "pct_change": 13.58,
-        "value": 587779000
+        "pct_change": 3.17,
+        "value": 727723000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -88,7 +122,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 326685755
+        "value": 403222325
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -96,39 +130,39 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 314848581
+        "value": 388611915
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 159800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 241457800
+        "value": 298027000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 157613,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 238153243
+        "value": 293948245
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
         "shares": 100700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 152157700
+        "value": 187805500
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 93884,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.18,
-        "pct_change": -1.14,
-        "value": 141858724
+        "shares": 86241,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.16,
+        "pct_change": -8.14,
+        "value": 160839465
       }
     ],
     "mutualfund_holders": []

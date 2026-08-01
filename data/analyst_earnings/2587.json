@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:18.937562",
+  "fetched_at": "2026-08-01T04:58:45.322375",
   "ticker": "2587",
   "ticker_full": "2587.T",
   "company_name": "SUNTORY BEVERAGE & FOOD LIMITED",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4426.0,
+    "current": 4600.0,
     "high": 6250.0,
     "low": 4000.0,
-    "mean": 4748.1816,
-    "median": 4700.0
+    "mean": 4739.091,
+    "median": 4600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": 87.55,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 52.64,
+        "eps_actual": 48.28,
+        "surprise_pct": -8.28
+      },
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 24.83,
+        "eps_actual": 43.23,
+        "surprise_pct": 74.09
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 108.88,
+        "eps_actual": 110.77,
+        "surprise_pct": 1.74
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 80.66,
+        "eps_actual": 83.23,
+        "surprise_pct": 3.19
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 53.42,
+        "eps_actual": 49.9,
+        "surprise_pct": -6.59
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 59.7,
-    "institution_pct": 25.98,
+    "institution_pct": 26.52,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 25.98
+        "value": 26.52
       },
       {
         "label": "",
-        "value": 64.46
+        "value": 65.81
       },
       {
         "label": "",
-        "value": 243.0
+        "value": 245.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 2.72,
-        "value": 4518946
+        "value": 4696600
       }
     ],
     "mutualfund_holders": [
@@ -67,23 +105,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.96,
         "pct_change": 8.69,
-        "value": 13085911600
+        "value": 13600360000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1805431,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.58,
-        "pct_change": -0.18,
-        "value": 7990837606
+        "shares": 1809031,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.59,
+        "pct_change": 0.2,
+        "value": 8321542600
       },
       {
         "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
         "shares": 1541100,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 6820908600
+        "value": 7089060000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -91,23 +129,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.39,
         "pct_change": 2.1,
-        "value": 5337831242
+        "value": 5547678200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 961100,
-        "date_reported": "2026-04-30",
+        "shares": 948900,
+        "date_reported": "2026-06-30",
         "pct_held": 0.31,
-        "pct_change": 0.47,
-        "value": 4253828600
+        "pct_change": 0.0,
+        "value": 4364940000
       },
       {
         "holder": "SEI INSTITUTIONAL INTERNATIONAL TRUST-SIT International Equity Fund",
         "shares": 614830,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 2721237580
+        "value": 2828218000
+      },
+      {
+        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
+        "shares": 629600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.2,
+        "pct_change": 3.18,
+        "value": 2896160000
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Varbl PORT. - Part. Intl Value Fd.",
@@ -115,23 +161,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 2507329000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 515983,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.17,
-        "pct_change": 1.03,
-        "value": 2283740758
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 513600,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.17,
-        "pct_change": -10.63,
-        "value": 2273193600
+        "value": 2605900000
       },
       {
         "holder": "RUSSELL INVESTMENT CO-Tax-Managed International Equity Fund",
@@ -139,7 +169,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.17,
         "pct_change": 5.7,
-        "value": 2256817400
+        "value": 2345540000
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 529500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.17,
+        "pct_change": -6.56,
+        "value": 2435700000
       }
     ]
   }

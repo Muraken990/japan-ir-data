@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:46.850849",
+  "fetched_at": "2026-08-01T04:44:11.916435",
   "ticker": "7685",
   "ticker_full": "7685.T",
   "company_name": "BUYSELL TECHNOLOGIES CO LTD",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3310.0,
+    "current": 2972.0,
     "high": 5000.0,
     "low": 4200.0,
     "mean": 4666.6665,
     "median": 4800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 32.76,
+        "eps_actual": 54.13,
+        "surprise_pct": 65.25
+      },
+      {
+        "date": "2026-02-13",
+        "eps_estimate": 13.29,
+        "eps_actual": 15.13,
+        "surprise_pct": 13.86
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 19.63,
+        "eps_actual": 24.88,
+        "surprise_pct": 26.73
+      },
+      {
+        "date": "2025-08-14",
+        "eps_estimate": 20.34,
+        "eps_actual": 26.29,
+        "surprise_pct": 29.24
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 10.03,
+        "eps_actual": 21.4,
+        "surprise_pct": 113.21
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 55.47,
-    "institution_pct": 14.62,
+    "insider_pct": 55.46,
+    "institution_pct": 15.2,
     "major_holders": [
       {
         "label": "",
-        "value": 55.47
+        "value": 55.46
       },
       {
         "label": "",
-        "value": 14.62
+        "value": 15.2
       },
       {
         "label": "",
-        "value": 32.83
+        "value": 34.13
       },
       {
         "label": "",
-        "value": 61.0
+        "value": 66.0
       }
     ],
     "institutional_holders": [],

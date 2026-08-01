@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:42.201429",
+  "fetched_at": "2026-08-01T04:40:08.323915",
   "ticker": "4216",
   "ticker_full": "4216.T",
   "company_name": "ASAHI YUKIZAI CORPORATION",
@@ -8,46 +8,79 @@
     "has_data": true,
     "period": "1",
     "strong_buy": 0,
-    "buy": 1,
+    "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 1,
+    "total_analysts": 0,
     "recommendation_key": "strong_buy",
     "recommendation_mean": 0.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 7140.0,
+    "current": 6080.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 13.87,
+        "eps_actual": 12.65,
+        "surprise_pct": -8.8
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 5.95,
+        "eps_actual": 14.55,
+        "surprise_pct": 144.54
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 21.37,
+        "eps_actual": 10.6,
+        "surprise_pct": -50.4
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 16.8,
+        "eps_actual": 25.35,
+        "surprise_pct": 50.89
+      },
+      {
+        "date": "2014-10-30",
+        "eps_estimate": 8.07,
+        "eps_actual": 24.25,
+        "surprise_pct": 200.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 30.67,
-    "institution_pct": 27.92,
+    "insider_pct": 29.66,
+    "institution_pct": 25.77,
     "major_holders": [
       {
         "label": "",
-        "value": 30.67
+        "value": 29.66
       },
       {
         "label": "",
-        "value": 27.92
+        "value": 25.77
       },
       {
         "label": "",
-        "value": 40.27
+        "value": 36.63
       },
       {
         "label": "",
-        "value": 64.0
+        "value": 66.0
       }
     ],
     "institutional_holders": [],

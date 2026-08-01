@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:53.941187",
+  "fetched_at": "2026-08-01T04:52:43.760953",
   "ticker": "3309",
   "ticker_full": "3309.T",
   "company_name": "SEKISUI HOUSE REIT INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 0,
     "hold": 5,
@@ -14,24 +14,31 @@
     "strong_sell": 0,
     "total_analysts": 5,
     "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_mean": 3.4
   },
   "target_prices": {
     "has_data": true,
     "current": 75800.0,
-    "high": 95000.0,
-    "low": 76000.0,
-    "mean": 90000.0,
-    "median": 93000.0
+    "high": 93000.0,
+    "low": 72000.0,
+    "mean": 84800.0,
+    "median": 85000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-12-15",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.85,
-    "institution_pct": 51.36,
+    "institution_pct": 51.02,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 51.36
+        "value": 51.02
       },
       {
         "label": "",
-        "value": 57.61
+        "value": 57.23
       },
       {
         "label": "",
-        "value": 140.0
+        "value": 139.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 59485,
-        "date_reported": "2026-01-31",
+        "shares": 59394,
+        "date_reported": "2026-04-30",
         "pct_held": 1.38,
-        "pct_change": 1.91,
-        "value": 4508963000
+        "pct_change": -0.15,
+        "value": 4502065200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -69,11 +76,11 @@
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 31709,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.74,
-        "pct_change": 0.43,
-        "value": 2403542200
+        "shares": 30886,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.72,
+        "pct_change": 0.0,
+        "value": 2341158800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -85,11 +92,11 @@
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 16236,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.38,
+        "shares": 15978,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.37,
         "pct_change": -0.25,
-        "value": 1230688800
+        "value": 1211132400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -117,19 +124,19 @@
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 10194,
-        "date_reported": "2026-04-30",
+        "shares": 10224,
+        "date_reported": "2026-06-30",
         "pct_held": 0.24,
-        "pct_change": -0.29,
-        "value": 772705200
+        "pct_change": 0.45,
+        "value": 774979200
       },
       {
         "holder": "SCHWAB INVESTMENTS-Schwab Global Real Estate Fund",
-        "shares": 9518,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.22,
-        "pct_change": 30.08,
-        "value": 721464400
+        "shares": 8930,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.21,
+        "pct_change": -6.18,
+        "value": 676894000
       }
     ],
     "mutualfund_holders": []

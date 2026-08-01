@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:39:25.339463",
+  "fetched_at": "2026-08-01T04:28:28.527408",
   "ticker": "7071",
   "ticker_full": "7071.T",
   "company_name": "AMVIS HOLDINGS INC",
@@ -9,29 +9,44 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 3,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
+    "total_analysts": 2,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 336.0,
+    "current": 382.0,
     "high": 401.0,
     "low": 370.0,
     "mean": 385.5,
     "median": 385.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2025-10-16",
+        "eps_estimate": 14.58,
+        "eps_actual": 3.18,
+        "surprise_pct": -78.19
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 10.06,
+        "eps_actual": 13.78,
+        "surprise_pct": 36.98
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 61.34,
-    "institution_pct": 18.29,
+    "institution_pct": 18.42,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +54,15 @@
       },
       {
         "label": "",
-        "value": 18.29
+        "value": 18.42
       },
       {
         "label": "",
-        "value": 47.3
+        "value": 47.64
       },
       {
         "label": "",
-        "value": 36.0
+        "value": 32.0
       }
     ],
     "institutional_holders": [],

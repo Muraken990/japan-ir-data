@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:47.595385",
+  "fetched_at": "2026-08-01T04:53:38.890930",
   "ticker": "4194",
   "ticker_full": "4194.T",
   "company_name": "VISIONAL INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 2,
     "buy": 3,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 7379.0,
+    "current": 8713.0,
     "high": 12000.0,
     "low": 8500.0,
     "mean": 10787.5,
     "median": 11100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-10",
+      "eps_estimate": 91.45,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-06-10",
+        "eps_estimate": 139.74,
+        "eps_actual": 119.79,
+        "surprise_pct": -14.28
+      },
+      {
+        "date": "2026-03-17",
+        "eps_estimate": 105.25,
+        "eps_actual": 97.55,
+        "surprise_pct": -7.32
+      },
+      {
+        "date": "2025-09-10",
+        "eps_estimate": 277.47,
+        "eps_actual": 84.55,
+        "surprise_pct": -69.53
+      },
+      {
+        "date": "2025-06-12",
+        "eps_estimate": 106.99,
+        "eps_actual": 126.0,
+        "surprise_pct": 17.77
+      },
+      {
+        "date": "2025-03-13",
+        "eps_estimate": 76.09,
+        "eps_actual": 88.13,
+        "surprise_pct": 15.82
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 34.02,
-    "institution_pct": 47.99,
+    "insider_pct": 34.0,
+    "institution_pct": 48.42,
     "major_holders": [
       {
         "label": "",
-        "value": 34.02
+        "value": 34.0
       },
       {
         "label": "",
-        "value": 47.99
+        "value": 48.42
       },
       {
         "label": "",
-        "value": 72.73
+        "value": 73.36
       },
       {
         "label": "",
-        "value": 118.0
+        "value": 116.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +95,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 5.24,
         "pct_change": 27.32,
-        "value": 15634226734
+        "value": 18460633898
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Discovery Fund",
         "shares": 360594,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.89,
         "pct_change": 0.0,
-        "value": 2660823126
+        "value": 3141855522
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 339835,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.84,
-        "pct_change": -0.21,
-        "value": 2507642465
+        "pct_change": 0.0,
+        "value": 2960982355
       },
       {
         "holder": "HARRIS ASSOCIATES INVESTMENT TRT-Oakmark Intl Small Cap Fd.",
@@ -81,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.66,
         "pct_change": 5.69,
-        "value": 1963551900
+        "value": 2318529300
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -89,23 +127,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.56,
         "pct_change": 1.39,
-        "value": 1664163733
+        "value": 1965016751
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
-        "shares": 200700,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.5,
-        "pct_change": 10.95,
-        "value": 1480965300
+        "shares": 205200,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.51,
+        "pct_change": 2.24,
+        "value": 1787907600
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 185800,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 1371018200
+        "value": 1618875400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -113,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": -5.62,
-        "value": 818331100
+        "value": 966271700
       },
       {
         "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
@@ -121,15 +159,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 776551202
+        "value": 916938694
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
         "shares": 97100,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 716500900
+        "value": 846032300
       }
     ],
     "mutualfund_holders": []

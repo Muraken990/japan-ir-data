@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:25:29.248397",
+  "fetched_at": "2026-08-01T04:16:15.173141",
   "ticker": "5142",
   "ticker_full": "5142.T",
   "company_name": "ACHILLES CORP",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1146.0,
+    "current": 1298.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 50.26,
+        "eps_actual": 29.0,
+        "surprise_pct": -42.3
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 12.8,
+        "eps_actual": 69.6,
+        "surprise_pct": 443.75
+      },
+      {
+        "date": "2015-05-11",
+        "eps_estimate": 14.72,
+        "eps_actual": 6.9,
+        "surprise_pct": -53.12
+      },
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 24.96,
+        "eps_actual": 11.2,
+        "surprise_pct": -55.13
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 26.0,
+        "eps_actual": 46.1,
+        "surprise_pct": 77.31
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.48,
-    "institution_pct": 20.35,
+    "institution_pct": 20.57,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +71,11 @@
       },
       {
         "label": "",
-        "value": 20.35
+        "value": 20.57
       },
       {
         "label": "",
-        "value": 25.92
+        "value": 26.2
       },
       {
         "label": "",

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:45.454813",
+  "fetched_at": "2026-08-01T04:44:10.075043",
   "ticker": "1720",
   "ticker_full": "1720.T",
   "company_name": "TOKYU CONSTRUCTION CO(NEW)",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1177.0,
+    "current": 1166.0,
     "high": 2000.0,
     "low": 2000.0,
     "mean": 2000.0,
     "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-07",
+        "eps_estimate": 10.24,
+        "eps_actual": 53.04,
+        "surprise_pct": 418.07
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 2.39,
+        "eps_actual": 16.96,
+        "surprise_pct": 610.81
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 16.19,
+        "eps_actual": 17.52,
+        "surprise_pct": 8.21
+      },
+      {
+        "date": "2015-02-08",
+        "eps_estimate": 13.3,
+        "eps_actual": 22.53,
+        "surprise_pct": 69.36
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 11.25,
+        "eps_actual": 12.33,
+        "surprise_pct": 9.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 20.19,
-    "institution_pct": 18.0,
+    "insider_pct": 20.18,
+    "institution_pct": 17.96,
     "major_holders": [
       {
         "label": "",
-        "value": 20.19
+        "value": 20.18
       },
       {
         "label": "",
-        "value": 18.0
+        "value": 17.96
       },
       {
         "label": "",
-        "value": 22.56
+        "value": 22.5
       },
       {
         "label": "",
-        "value": 89.0
+        "value": 88.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:00:48.359185",
+  "fetched_at": "2026-08-01T04:48:25.423828",
   "ticker": "8522",
   "ticker_full": "8522.T",
   "company_name": "BANK OF NAGOYA",
@@ -17,36 +17,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 6080.0,
+    "current": 6510.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2016-02-01",
+        "eps_estimate": 18.67,
+        "eps_actual": 41.73,
+        "surprise_pct": 123.53
+      },
+      {
+        "date": "2015-08-04",
+        "eps_estimate": 19.43,
+        "eps_actual": 38.9,
+        "surprise_pct": 100.21
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": 16.58,
+        "eps_actual": 25.3,
+        "surprise_pct": 52.62
+      },
+      {
+        "date": "2015-02-02",
+        "eps_estimate": 23.63,
+        "eps_actual": 28.1,
+        "surprise_pct": 18.92
+      },
+      {
+        "date": "2014-11-10",
+        "eps_estimate": 16.92,
+        "eps_actual": 21.47,
+        "surprise_pct": 26.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 15.27,
-    "institution_pct": 42.81,
+    "insider_pct": 14.97,
+    "institution_pct": 41.88,
     "major_holders": [
       {
         "label": "",
-        "value": 15.27
+        "value": 14.97
       },
       {
         "label": "",
-        "value": 42.81
+        "value": 41.88
       },
       {
         "label": "",
-        "value": 50.53
+        "value": 49.26
       },
       {
         "label": "",
-        "value": 80.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +94,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 1.13,
         "pct_change": 0.0,
-        "value": 1131542720
+        "value": 1211569590
       },
       {
         "holder": "DFA International Small Cap Value Portfolio",
@@ -64,7 +102,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.83,
         "pct_change": 2.25,
-        "value": 829944320
+        "value": 888641040
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -72,7 +110,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.66,
         "pct_change": -0.37,
-        "value": 662379520
+        "value": 709225440
       },
       {
         "holder": "Avantis International Small Cap Value ETF",
@@ -80,7 +118,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.61,
         "pct_change": 0.0,
-        "value": 606784000
+        "value": 649698000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -88,7 +126,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 370454400
+        "value": 396654300
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -96,7 +134,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.35,
         "pct_change": -4.17,
-        "value": 348985920
+        "value": 373667490
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -104,7 +142,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.28,
         "pct_change": -4.55,
-        "value": 280360960
+        "value": 300189120
       },
       {
         "holder": "Dimensional ETF Tr-Dimensional International Small Cap Value ETF",
@@ -112,7 +150,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.22,
         "pct_change": 10.43,
-        "value": 218880000
+        "value": 234360000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -120,7 +158,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 186656000
+        "value": 199857000
       },
       {
         "holder": "Schwab Strategic Tr-Schwab International Small Cap Equity ETF",
@@ -128,7 +166,7 @@
         "date_reported": "2024-08-31",
         "pct_held": 0.15,
         "pct_change": -1.12,
-        "value": 145950400
+        "value": 156272550
       }
     ],
     "mutualfund_holders": []

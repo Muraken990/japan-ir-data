@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:20.133352",
+  "fetched_at": "2026-08-01T04:58:46.332991",
   "ticker": "5016",
   "ticker_full": "5016.T",
   "company_name": "JX ADVANCED METALS CORPORATION",
@@ -8,46 +8,72 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 4,
+    "buy": 5,
     "hold": 5,
     "sell": 0,
-    "strong_sell": 1,
+    "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.90909
+    "recommendation_mean": 1.72727
   },
   "target_prices": {
     "has_data": true,
-    "current": 4242.0,
+    "current": 3797.0,
     "high": 7600.0,
     "low": 1750.0,
-    "mean": 4930.0,
-    "median": 5000.0
+    "mean": 4821.0,
+    "median": 4900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-10",
+        "eps_estimate": 32.97,
+        "eps_actual": 27.06,
+        "surprise_pct": -17.93
+      },
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 24.91,
+        "eps_actual": 39.56,
+        "surprise_pct": 58.81
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 21.89,
+        "eps_actual": 25.97,
+        "surprise_pct": 18.64
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 41.29,
-    "institution_pct": 24.43,
+    "insider_pct": 35.28,
+    "institution_pct": 26.16,
     "major_holders": [
       {
         "label": "",
-        "value": 41.29
+        "value": 35.28
       },
       {
         "label": "",
-        "value": 24.43
+        "value": 26.16
       },
       {
         "label": "",
-        "value": 41.61
+        "value": 40.42
       },
       {
         "label": "",
-        "value": 224.0
+        "value": 246.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +83,17 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.06,
         "pct_change": 8.19,
-        "value": 2429554596
+        "value": 2174686186
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 7805905,
-        "date_reported": "2026-01-31",
+        "shares": 7803305,
+        "date_reported": "2026-04-30",
         "pct_held": 0.82,
-        "pct_change": 1.53,
-        "value": 33112649010
+        "pct_change": -0.03,
+        "value": 29629149085
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +101,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.54,
         "pct_change": 2.17,
-        "value": 21891112488
+        "value": 19594661508
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3962600,
-        "date_reported": "2026-04-30",
+        "shares": 4024300,
+        "date_reported": "2026-06-30",
         "pct_held": 0.42,
-        "pct_change": 1.62,
-        "value": 16809349200
+        "pct_change": 0.0,
+        "value": 15280267100
       },
       {
         "holder": "ACAP Strategic Fund",
@@ -91,31 +117,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": 1.0,
-        "value": 10513372800
+        "value": 9410484800
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2281900,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.24,
-        "pct_change": -0.98,
-        "value": 9679819800
+        "shares": 2367700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.25,
+        "pct_change": 6.11,
+        "value": 8990156900
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2073848,
-        "date_reported": "2026-04-30",
+        "shares": 2110548,
+        "date_reported": "2026-06-30",
         "pct_held": 0.22,
-        "pct_change": 1.17,
-        "value": 8797263216
+        "pct_change": 0.7,
+        "value": 8013750756
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1950900,
-        "date_reported": "2026-05-31",
+        "shares": 1935600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.2,
-        "pct_change": 0.77,
-        "value": 8275717800
+        "pct_change": -0.78,
+        "value": 7349473200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -123,23 +149,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.13,
         "pct_change": 4.26,
-        "value": 5230288434
+        "value": 4681613669
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 1120862,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.12,
-        "pct_change": 0.94,
-        "value": 4754696604
+        "shares": 1194910,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.13,
+        "pct_change": 6.61,
+        "value": 4537073270
       },
       {
         "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
-        "shares": 1058400,
-        "date_reported": "2026-04-30",
+        "shares": 1079300,
+        "date_reported": "2026-06-30",
         "pct_held": 0.11,
-        "pct_change": 5.95,
-        "value": 4489732800
+        "pct_change": 1.06,
+        "value": 4098102100
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:25:37.923267",
+  "fetched_at": "2026-08-01T04:16:24.116725",
   "ticker": "9204",
   "ticker_full": "9204.T",
   "company_name": "SKYMARK AIRLINES INC",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 416.0,
+    "current": 408.0,
     "high": 520.0,
     "low": 340.0,
     "mean": 462.5,
     "median": 495.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2025-05-15",
+        "eps_estimate": -6.0,
+        "eps_actual": -8.93,
+        "surprise_pct": -48.83
+      },
+      {
+        "date": "2025-02-10",
+        "eps_estimate": 26.8,
+        "eps_actual": 55.09,
+        "surprise_pct": 105.56
+      },
+      {
+        "date": "2024-11-11",
+        "eps_estimate": 79.4,
+        "eps_actual": 15.71,
+        "surprise_pct": -80.21
+      },
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 30.17,
+        "eps_actual": 4.52,
+        "surprise_pct": -85.02
+      },
+      {
+        "date": "2023-11-13",
+        "eps_estimate": 91.28,
+        "eps_actual": 71.46,
+        "surprise_pct": -21.71
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 51.2,
-    "institution_pct": 1.42,
+    "insider_pct": 53.09,
+    "institution_pct": 3.98,
     "major_holders": [
       {
         "label": "",
-        "value": 51.2
+        "value": 53.09
       },
       {
         "label": "",
-        "value": 1.42
+        "value": 3.98
       },
       {
         "label": "",
-        "value": 2.92
+        "value": 8.49
       },
       {
         "label": "",
-        "value": 6.0
+        "value": 7.0
       }
     ],
     "institutional_holders": [],

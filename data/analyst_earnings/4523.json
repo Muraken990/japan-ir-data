@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:28.440227",
+  "fetched_at": "2026-08-01T04:57:54.044820",
   "ticker": "4523",
   "ticker_full": "4523.T",
   "company_name": "EISAI CO LTD",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 13,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 4122.0,
+    "current": 4828.0,
     "high": 5500.0,
     "low": 3200.0,
-    "mean": 4519.231,
-    "median": 4600.0
+    "mean": 4482.143,
+    "median": 4450.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-03",
+      "eps_estimate": 39.33,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-15",
+        "eps_estimate": 14.57,
+        "eps_actual": -11.53,
+        "surprise_pct": -179.14
+      },
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 60.51,
+        "eps_actual": 60.94,
+        "surprise_pct": 0.7
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 49.45,
+        "eps_actual": 36.02,
+        "surprise_pct": -27.16
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 39.33,
+        "eps_actual": 51.35,
+        "surprise_pct": 30.55
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 32.72,
+        "eps_actual": 3.37,
+        "surprise_pct": -89.7
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.0,
-    "institution_pct": 56.27,
+    "insider_pct": 2.18,
+    "institution_pct": 55.98,
     "major_holders": [
       {
         "label": "",
-        "value": 6.0
+        "value": 2.18
       },
       {
         "label": "",
-        "value": 56.27
+        "value": 55.98
       },
       {
         "label": "",
-        "value": 59.87
+        "value": 57.23
       },
       {
         "label": "",
-        "value": 280.0
+        "value": 278.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 2.89,
-        "value": 9694944
+        "value": 11355456
       }
     ],
     "mutualfund_holders": [
@@ -67,15 +105,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 2.52,
         "pct_change": -13.8,
-        "value": 30253076874
+        "value": 35434705276
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3887523,
-        "date_reported": "2026-01-31",
+        "shares": 3868323,
+        "date_reported": "2026-04-30",
         "pct_held": 1.33,
-        "pct_change": 1.04,
-        "value": 16024369806
+        "pct_change": -0.49,
+        "value": 18676263444
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.88,
         "pct_change": 2.59,
-        "value": 10556697564
+        "value": 12364807336
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -91,39 +129,39 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.64,
         "pct_change": 10.6,
-        "value": 7730238042
+        "value": 9054242908
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1847600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.63,
-        "pct_change": 0.49,
-        "value": 7615807200
+        "shares": 1860600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.64,
+        "pct_change": 0.0,
+        "value": 8982976800
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1069400,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.37,
-        "pct_change": -1.11,
-        "value": 4408066800
+        "shares": 1114000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.38,
+        "pct_change": 4.56,
+        "value": 5378392000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 977321,
-        "date_reported": "2026-04-30",
+        "shares": 982121,
+        "date_reported": "2026-06-30",
         "pct_held": 0.34,
-        "pct_change": 1.17,
-        "value": 4028517162
+        "pct_change": -0.61,
+        "value": 4741680188
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 917000,
-        "date_reported": "2026-05-31",
+        "shares": 909800,
+        "date_reported": "2026-06-30",
         "pct_held": 0.31,
-        "pct_change": 0.0,
-        "value": 3779874000
+        "pct_change": -0.79,
+        "value": 4392514400
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -131,15 +169,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 9.25,
-        "value": 3577071600
+        "value": 4189738400
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 675300,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.23,
-        "pct_change": -3.32,
-        "value": 2783586600
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 615874,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.21,
+        "pct_change": 5.05,
+        "value": 2973439672
       }
     ]
   }

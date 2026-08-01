@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:00:32.190969",
+  "fetched_at": "2026-08-01T03:55:16.456822",
   "ticker": "7916",
   "ticker_full": "7916.T",
   "company_name": "MITSUMURA PRINTING CO",
@@ -17,15 +17,48 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1815.0,
+    "current": 1865.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2013-02-11",
+        "eps_estimate": 47.8,
+        "eps_actual": 21.6,
+        "surprise_pct": -54.81
+      },
+      {
+        "date": "2012-08-09",
+        "eps_estimate": 32.88,
+        "eps_actual": 32.9,
+        "surprise_pct": 0.06
+      },
+      {
+        "date": "2012-05-10",
+        "eps_estimate": 26.78,
+        "eps_actual": 28.6,
+        "surprise_pct": 6.8
+      },
+      {
+        "date": "2012-02-09",
+        "eps_estimate": 56.73,
+        "eps_actual": 38.7,
+        "surprise_pct": -31.78
+      },
+      {
+        "date": "2011-11-13",
+        "eps_estimate": 55.87,
+        "eps_actual": 70.2,
+        "surprise_pct": 25.65
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

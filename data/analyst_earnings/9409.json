@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:49.715883",
+  "fetched_at": "2026-08-01T04:52:40.222407",
   "ticker": "9409",
   "ticker_full": "9409.T",
   "company_name": "TV ASAHI HOLDINGS CORP",
@@ -13,59 +13,97 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3175.0,
+    "current": 3135.0,
     "high": 4300.0,
     "low": 3100.0,
-    "mean": 3660.0,
-    "median": 3650.0
+    "mean": 3520.0,
+    "median": 3350.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2020-02-05",
+        "eps_estimate": 41.01,
+        "eps_actual": 184.18,
+        "surprise_pct": 349.11
+      },
+      {
+        "date": "2018-02-05",
+        "eps_estimate": 38.2,
+        "eps_actual": 60.56,
+        "surprise_pct": 58.53
+      },
+      {
+        "date": "2017-11-05",
+        "eps_estimate": 5.6,
+        "eps_actual": 16.29,
+        "surprise_pct": 190.89
+      },
+      {
+        "date": "2017-07-30",
+        "eps_estimate": 44.9,
+        "eps_actual": 45.11,
+        "surprise_pct": 0.47
+      },
+      {
+        "date": "2017-05-08",
+        "eps_estimate": 7.2,
+        "eps_actual": 36.77,
+        "surprise_pct": 410.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 49.93,
-    "institution_pct": 14.52,
+    "insider_pct": 50.28,
+    "institution_pct": 13.78,
     "major_holders": [
       {
         "label": "",
-        "value": 49.93
+        "value": 50.28
       },
       {
         "label": "",
-        "value": 14.52
+        "value": 13.78
       },
       {
         "label": "",
-        "value": 29.0
+        "value": 27.71
       },
       {
         "label": "",
-        "value": 82.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [
+      {
+        "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
+        "shares": 1216000,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.12,
+        "pct_change": 4.49,
+        "value": 3812160000
+      },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
         "shares": 1179267,
         "date_reported": "2026-04-30",
         "pct_held": 1.09,
         "pct_change": 0.0,
-        "value": 3744172725
-      },
-      {
-        "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 1163800,
-        "date_reported": "2026-02-28",
-        "pct_held": 1.07,
-        "pct_change": 2.5,
-        "value": 3695065000
+        "value": 3697002045
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -73,23 +111,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.54,
         "pct_change": -35.75,
-        "value": 1877060000
+        "value": 1853412000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 291909,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 926811075
-      },
-      {
-        "holder": "Principal Funds, Inc-International Small Company Fund",
-        "shares": 242400,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.22,
-        "pct_change": -8.42,
-        "value": 769620000
+        "value": 915134715
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -97,7 +127,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.17,
         "pct_change": 5.16,
-        "value": 601672025
+        "value": 594091905
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -105,23 +135,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 535622500
+        "value": 528874500
+      },
+      {
+        "holder": "Principal Funds, Inc-International Small Company Fund",
+        "shares": 162900,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.15,
+        "pct_change": -32.8,
+        "value": 510691500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 138200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": 0.0,
-        "value": 438785000
+        "shares": 147800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": 6.95,
+        "value": 463353000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 141100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.13,
+        "shares": 115400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 447992500
+        "value": 361779000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -129,7 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 311467500
+        "value": 307543500
       }
     ],
     "mutualfund_holders": []

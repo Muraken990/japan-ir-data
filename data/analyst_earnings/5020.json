@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:17.892771",
+  "fetched_at": "2026-08-01T04:56:56.220139",
   "ticker": "5020",
   "ticker_full": "5020.T",
   "company_name": "ENEOS HOLDINGS INC",
@@ -8,46 +8,84 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 3,
+    "buy": 4,
     "hold": 1,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 8,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.625
+    "total_analysts": 9,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1207.0,
+    "current": 1327.5,
     "high": 1700.0,
     "low": 1260.0,
-    "mean": 1512.5,
+    "mean": 1508.75,
     "median": 1530.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": -31.0,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 18.4,
+        "eps_actual": 48.14,
+        "surprise_pct": 161.63
+      },
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 17.1,
+        "eps_actual": 23.97,
+        "surprise_pct": 40.18
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 27.7,
+        "eps_actual": 29.47,
+        "surprise_pct": 6.39
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": -31.0,
+        "eps_actual": -5.4,
+        "surprise_pct": 82.58
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": -19.7,
+        "eps_actual": 20.4,
+        "surprise_pct": 203.55
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 3.62,
-    "institution_pct": 45.59,
+    "insider_pct": 2.62,
+    "institution_pct": 44.35,
     "major_holders": [
       {
         "label": "",
-        "value": 3.62
+        "value": 2.62
       },
       {
         "label": "",
-        "value": 45.59
+        "value": 44.35
       },
       {
         "label": "",
-        "value": 47.3
+        "value": 45.54
       },
       {
         "label": "",
-        "value": 326.0
+        "value": 325.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.1,
         "pct_change": -12.2,
-        "value": 3375056852
+        "value": 3712003290
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 38209996,
-        "date_reported": "2026-01-31",
+        "shares": 38073096,
+        "date_reported": "2026-04-30",
         "pct_held": 1.41,
-        "pct_change": 0.78,
-        "value": 46119465172
+        "pct_change": -0.36,
+        "value": 50542034940
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.93,
         "pct_change": 2.33,
-        "value": 30415101268
+        "value": 33451571610
       },
       {
         "holder": "Bernstein Fund Inc-International Strategic Equities Portfolio",
@@ -83,15 +121,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.78,
         "pct_change": -20.39,
-        "value": 25523342700
+        "value": 28071447750
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 19206150,
-        "date_reported": "2026-04-30",
+        "shares": 19249250,
+        "date_reported": "2026-06-30",
         "pct_held": 0.71,
-        "pct_change": 0.54,
-        "value": 23181823050
+        "pct_change": 0.0,
+        "value": 25553379375
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -99,15 +137,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.42,
         "pct_change": 1.25,
-        "value": 13659602102
+        "value": 15023298915
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 10703395,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.4,
-        "pct_change": -4.29,
-        "value": 12918997765
+        "shares": 11090195,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.41,
+        "pct_change": 0.51,
+        "value": 14722233862
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -115,31 +153,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 12757872921
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 9923982,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.37,
-        "pct_change": 2.33,
-        "value": 11978246274
+        "value": 14031546232
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 10075200,
-        "date_reported": "2026-04-30",
+        "shares": 9903700,
+        "date_reported": "2026-06-30",
         "pct_held": 0.37,
-        "pct_change": 1.19,
-        "value": 12160766400
+        "pct_change": -2.76,
+        "value": 13147161750
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 9478450,
-        "date_reported": "2026-05-31",
+        "shares": 9404250,
+        "date_reported": "2026-06-30",
         "pct_held": 0.35,
-        "pct_change": 0.62,
-        "value": 11440489150
+        "pct_change": -0.78,
+        "value": 12484141875
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 9052336,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.33,
+        "pct_change": -8.78,
+        "value": 12016976040
       }
     ]
   }

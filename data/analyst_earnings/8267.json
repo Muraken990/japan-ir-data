@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:14:26.141959",
+  "fetched_at": "2026-08-01T05:01:18.726830",
   "ticker": "8267",
   "ticker_full": "8267.T",
   "company_name": "AEON CO LTD",
@@ -13,27 +13,33 @@
     "sell": 1,
     "strong_sell": 2,
     "total_analysts": 8,
-    "recommendation_key": "underperform",
-    "recommendation_mean": 3.55556
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1306.0,
+    "current": 1364.0,
     "high": 2300.0,
     "low": 810.0,
-    "mean": 1440.0,
-    "median": 1500.0
+    "mean": 1395.5555,
+    "median": 1400.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-10",
-      "eps_estimate": 3.42,
+      "date": "2026-10-14",
+      "eps_estimate": 9.82,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-10",
+        "eps_estimate": 2.89,
+        "eps_actual": 4.99,
+        "surprise_pct": 72.66
+      },
       {
         "date": "2026-04-09",
         "eps_estimate": 32.6,
@@ -57,45 +63,39 @@
         "eps_estimate": 3.42,
         "eps_actual": -2.54,
         "surprise_pct": -174.37
-      },
-      {
-        "date": "2025-04-11",
-        "eps_estimate": 16.63,
-        "eps_actual": 17.29,
-        "surprise_pct": 4.01
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 11.11,
-    "institution_pct": 37.79,
+    "insider_pct": 11.13,
+    "institution_pct": 37.7,
     "major_holders": [
       {
         "label": "",
-        "value": 11.11
+        "value": 11.13
       },
       {
         "label": "",
-        "value": 37.79
+        "value": 37.7
       },
       {
         "label": "",
-        "value": 42.51
+        "value": 42.42
       },
       {
         "label": "",
-        "value": 302.0
+        "value": 297.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 36013958,
-        "date_reported": "2026-01-31",
+        "shares": 36001658,
+        "date_reported": "2026-04-30",
         "pct_held": 1.29,
-        "pct_change": 0.78,
-        "value": 47034229148
+        "pct_change": -0.03,
+        "value": 49106261512
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,31 +103,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.86,
         "pct_change": 2.45,
-        "value": 31094922292
+        "value": 32475860648
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 15827745,
-        "date_reported": "2026-04-30",
+        "shares": 15883145,
+        "date_reported": "2026-06-30",
         "pct_held": 0.57,
-        "pct_change": 0.57,
-        "value": 20671034970
+        "pct_change": 0.0,
+        "value": 21664609780
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 8981000,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.32,
-        "pct_change": -2.38,
-        "value": 11729186000
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 8291663,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.3,
-        "pct_change": 1.2,
-        "value": 10828911878
+        "shares": 9309700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.33,
+        "pct_change": 2.6,
+        "value": 12698430800
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -135,15 +127,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 8.9,
-        "value": 11029692400
+        "value": 11519525600
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 8305563,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.3,
+        "pct_change": -0.87,
+        "value": 11328787932
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 7763100,
-        "date_reported": "2026-05-31",
+        "shares": 7701900,
+        "date_reported": "2026-06-30",
         "pct_held": 0.28,
-        "pct_change": 0.0,
-        "value": 10138608600
+        "pct_change": -0.79,
+        "value": 10505391600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -151,23 +151,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 4.0,
-        "value": 7417979438
+        "value": 7747414972
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 5279714,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.19,
-        "pct_change": 0.95,
-        "value": 6895306484
+        "shares": 5533368,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.2,
+        "pct_change": 4.8,
+        "value": 7547513952
       },
       {
         "holder": "Fidelity Salem Street Trust-Fidelity Series Global ex U.S. Index Fund",
-        "shares": 4229134,
-        "date_reported": "2026-04-30",
+        "shares": 4242234,
+        "date_reported": "2026-06-30",
         "pct_held": 0.15,
-        "pct_change": 5.91,
-        "value": 5523249004
+        "pct_change": -0.6,
+        "value": 5786407176
       }
     ],
     "mutualfund_holders": []

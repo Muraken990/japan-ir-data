@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:55.392674",
+  "fetched_at": "2026-08-01T04:52:44.723164",
   "ticker": "3249",
   "ticker_full": "3249.T",
   "company_name": "INDUSTRIAL & INFRAST FD INV COR",
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 140500.0,
+    "current": 141300.0,
     "high": 173000.0,
     "low": 148000.0,
     "mean": 159000.0,
     "median": 157500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-10",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.17,
-    "institution_pct": 51.87,
+    "institution_pct": 52.2,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 51.87
+        "value": 52.2
       },
       {
         "label": "",
-        "value": 59.06
+        "value": 59.43
       },
       {
         "label": "",
-        "value": 129.0
+        "value": 130.0
       }
     ],
     "institutional_holders": [],

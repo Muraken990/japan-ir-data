@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:55.441337",
+  "fetched_at": "2026-08-01T04:52:45.605760",
   "ticker": "4205",
   "ticker_full": "4205.T",
   "company_name": "ZEON CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2275.5,
+    "current": 2261.0,
     "high": 3000.0,
-    "low": 1700.0,
-    "mean": 2357.7778,
-    "median": 2360.0
+    "low": 1950.0,
+    "mean": 2478.889,
+    "median": 2560.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 35.84,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 20.58,
+        "eps_actual": 31.59,
+        "surprise_pct": 53.5
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 35.84,
+        "eps_actual": 75.7,
+        "surprise_pct": 111.22
+      },
+      {
+        "date": "2025-04-24",
+        "eps_estimate": 19.04,
+        "eps_actual": 30.69,
+        "surprise_pct": 61.19
+      },
+      {
+        "date": "2025-01-30",
+        "eps_estimate": 21.89,
+        "eps_actual": 38.27,
+        "surprise_pct": 74.83
+      },
+      {
+        "date": "2024-10-27",
+        "eps_estimate": 31.45,
+        "eps_actual": 19.7,
+        "surprise_pct": -37.36
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.48,
-    "institution_pct": 41.5,
+    "institution_pct": 35.81,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 41.5
+        "value": 35.81
       },
       {
         "label": "",
-        "value": 49.69
+        "value": 42.87
       },
       {
         "label": "",
@@ -52,20 +90,20 @@
     ],
     "institutional_holders": [
       {
-        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2163631,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.94,
-        "pct_change": 0.0,
-        "value": 4923342340
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 2339400,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.02,
+        "pct_change": 17.54,
+        "value": 5289383400
       },
       {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2037100,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.89,
-        "pct_change": 33.71,
-        "value": 4635421050
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 2163631,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.94,
+        "pct_change": 0.0,
+        "value": 4891969691
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.63,
         "pct_change": 1.58,
-        "value": 3309580495
+        "value": 3288491101
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -81,15 +119,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.54,
         "pct_change": 1.0,
-        "value": 2831404650
+        "value": 2813362300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1010800,
-        "date_reported": "2026-04-30",
+        "shares": 1017300,
+        "date_reported": "2026-06-30",
         "pct_held": 0.44,
-        "pct_change": 0.45,
-        "value": 2300075400
+        "pct_change": 0.0,
+        "value": 2300115300
       },
       {
         "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
@@ -97,7 +135,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.33,
         "pct_change": 3.46,
-        "value": 1741440150
+        "value": 1730343300
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,15 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 5.35,
-        "value": 1676800021
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 593500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.26,
-        "pct_change": 3.02,
-        "value": 1350509250
+        "value": 1666115073
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -121,15 +151,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 1344592950
+        "value": 1336024900
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 574900,
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 593500,
         "date_reported": "2026-04-30",
-        "pct_held": 0.25,
-        "pct_change": -0.24,
-        "value": 1308184950
+        "pct_held": 0.26,
+        "pct_change": 0.0,
+        "value": 1341903500
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 590500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.26,
+        "pct_change": 32.46,
+        "value": 1335120500
       }
     ],
     "mutualfund_holders": []

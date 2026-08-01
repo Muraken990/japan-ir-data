@@ -1,53 +1,91 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:20:09.227248",
+  "fetched_at": "2026-08-01T04:49:21.718799",
   "ticker": "2270",
   "ticker_full": "2270.T",
   "company_name": "MEGMILK SNOW BRAND CO.LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 3440.0,
-    "high": 4300.0,
+    "current": 3765.0,
+    "high": 4550.0,
     "low": 3500.0,
-    "mean": 3900.0,
-    "median": 3900.0
+    "mean": 3950.0,
+    "median": 3800.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 131.36,
+        "eps_actual": 174.81,
+        "surprise_pct": 33.08
+      },
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 85.07,
+        "eps_actual": 173.82,
+        "surprise_pct": 104.33
+      },
+      {
+        "date": "2025-11-13",
+        "eps_estimate": 166.41,
+        "eps_actual": 38.87,
+        "surprise_pct": -76.64
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 26.99,
+        "eps_actual": 21.13,
+        "surprise_pct": -21.71
+      },
+      {
+        "date": "2025-02-12",
+        "eps_estimate": 58.69,
+        "eps_actual": 49.58,
+        "surprise_pct": -15.52
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 23.21,
-    "institution_pct": 31.58,
+    "insider_pct": 23.09,
+    "institution_pct": 31.97,
     "major_holders": [
       {
         "label": "",
-        "value": 23.21
+        "value": 23.09
       },
       {
         "label": "",
-        "value": 31.58
+        "value": 31.97
       },
       {
         "label": "",
-        "value": 41.13
+        "value": 41.57
       },
       {
         "label": "",
-        "value": 85.0
+        "value": 83.0
       }
     ],
     "institutional_holders": [],

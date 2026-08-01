@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:49.971191",
+  "fetched_at": "2026-08-01T04:53:41.467706",
   "ticker": "2371",
   "ticker_full": "2371.T",
   "company_name": "KAKAKU.COM. INC",
@@ -9,29 +9,67 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 4,
-    "hold": 5,
+    "hold": 6,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 11,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 12,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.44444
   },
   "target_prices": {
     "has_data": true,
-    "current": 3392.0,
+    "current": 3690.0,
     "high": 3400.0,
     "low": 2030.0,
     "mean": 2405.5557,
     "median": 2300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": 22.22,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 29.3,
+        "eps_actual": 22.41,
+        "surprise_pct": -23.52
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 25.52,
+        "eps_actual": 25.28,
+        "surprise_pct": -0.95
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 22.62,
+        "eps_actual": 21.95,
+        "surprise_pct": -2.95
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 22.22,
+        "eps_actual": 25.41,
+        "surprise_pct": 14.35
+      },
+      {
+        "date": "2025-05-07",
+        "eps_estimate": 29.39,
+        "eps_actual": 24.95,
+        "surprise_pct": -15.1
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 38.39,
-    "institution_pct": 44.1,
+    "institution_pct": 45.14,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 44.1
+        "value": 45.14
       },
       {
         "label": "",
-        "value": 71.57
+        "value": 73.26
       },
       {
         "label": "",
-        "value": 155.0
+        "value": 154.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2022-12-31",
         "pct_held": 0.02,
         "pct_change": 15.38,
-        "value": 152640000
+        "value": 166050000
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1762786,
-        "date_reported": "2026-01-31",
+        "shares": 1766786,
+        "date_reported": "2026-04-30",
         "pct_held": 0.89,
-        "pct_change": -0.16,
-        "value": 5979370112
+        "pct_change": 0.23,
+        "value": 6519440340
       },
       {
         "holder": "Brown Capital Mgmt Mutual Fd.s-Brown Capital Mgmt Intl Small Company F",
@@ -75,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.7,
         "pct_change": -32.28,
-        "value": 4723655104
+        "value": 5138646030
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -83,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.61,
         "pct_change": 4.16,
-        "value": 4100609152
+        "value": 4460863140
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -91,15 +129,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 3222060800
+        "value": 3505131000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 927000,
-        "date_reported": "2026-04-30",
+        "shares": 933500,
+        "date_reported": "2026-06-30",
         "pct_held": 0.47,
-        "pct_change": 0.49,
-        "value": 3144384000
+        "pct_change": 0.0,
+        "value": 3444615000
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -107,15 +145,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.45,
         "pct_change": -33.34,
-        "value": 3014131200
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 511300,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.26,
-        "pct_change": 1.37,
-        "value": 1734329600
+        "value": 3278934000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -123,7 +153,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": 23.42,
-        "value": 1743715264
+        "value": 1896907230
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 502500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.25,
+        "pct_change": -0.24,
+        "value": 1854225000
       },
       {
         "holder": "Victory Portfolios-Victory RS Global Fund",
@@ -131,15 +169,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.19,
         "pct_change": -33.55,
-        "value": 1253004800
+        "value": 1363086000
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 366400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.18,
-        "pct_change": -5.86,
-        "value": 1242828800
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 276711,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": 3.02,
+        "value": 1021063590
       }
     ]
   }

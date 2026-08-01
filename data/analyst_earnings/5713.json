@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:22.004587",
+  "fetched_at": "2026-08-01T04:58:49.053429",
   "ticker": "5713",
   "ticker_full": "5713.T",
   "company_name": "SUMITOMO METAL MINING CO",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.375
   },
   "target_prices": {
     "has_data": true,
-    "current": 7410.0,
+    "current": 8185.0,
     "high": 17000.0,
-    "low": 3400.0,
-    "mean": 10583.75,
-    "median": 10700.0
+    "low": 7460.0,
+    "mean": 10576.25,
+    "median": 10100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-10",
+      "eps_estimate": 35.65,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-11",
+        "eps_estimate": 173.37,
+        "eps_actual": 251.34,
+        "surprise_pct": 44.97
+      },
+      {
+        "date": "2026-02-08",
+        "eps_estimate": 74.25,
+        "eps_actual": 200.09,
+        "surprise_pct": 169.5
+      },
+      {
+        "date": "2025-11-10",
+        "eps_estimate": 56.21,
+        "eps_actual": 97.85,
+        "surprise_pct": 74.08
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": 35.65,
+        "eps_actual": 100.27,
+        "surprise_pct": 181.28
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 34.54,
+        "eps_actual": -47.78,
+        "surprise_pct": -238.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 8.26,
-    "institution_pct": 46.88,
+    "insider_pct": 6.98,
+    "institution_pct": 46.07,
     "major_holders": [
       {
         "label": "",
-        "value": 8.26
+        "value": 6.98
       },
       {
         "label": "",
-        "value": 46.88
+        "value": 46.07
       },
       {
         "label": "",
-        "value": 51.11
+        "value": 49.52
       },
       {
         "label": "",
-        "value": 305.0
+        "value": 309.0
       }
     ],
     "institutional_holders": [],

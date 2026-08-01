@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:20:08.266552",
+  "fetched_at": "2026-08-01T04:48:28.107444",
   "ticker": "2201",
   "ticker_full": "2201.T",
   "company_name": "MORINAGA & CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.25
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2507.0,
-    "high": 3600.0,
+    "current": 2641.0,
+    "high": 3100.0,
     "low": 2500.0,
-    "mean": 3100.0,
-    "median": 3150.0
+    "mean": 2850.0,
+    "median": 2900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-10",
+        "eps_estimate": 49.55,
+        "eps_actual": 26.39,
+        "surprise_pct": -46.74
+      },
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 36.82,
+        "eps_actual": 53.86,
+        "surprise_pct": 46.3
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 67.97,
+        "eps_actual": 71.2,
+        "surprise_pct": 4.75
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 10.13,
+        "eps_actual": 47.9,
+        "surprise_pct": 372.69
+      },
+      {
+        "date": "2025-02-09",
+        "eps_estimate": 47.95,
+        "eps_actual": 34.6,
+        "surprise_pct": -27.84
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.79,
-    "institution_pct": 26.51,
+    "institution_pct": 28.23,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 26.51
+        "value": 28.23
       },
       {
         "label": "",
-        "value": 31.49
+        "value": 33.52
       },
       {
         "label": "",
-        "value": 94.0
+        "value": 92.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 1.32,
         "pct_change": 0.0,
-        "value": 2852213900
+        "value": 3004665700
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 1.22,
         "pct_change": 0.0,
-        "value": 2644493908
+        "value": 2785843004
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 1610005428
+        "value": 1696060764
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,7 +119,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.6,
         "pct_change": 0.0,
-        "value": 1302637200
+        "value": 1372263600
       },
       {
         "holder": "Templeton Global Smaller Companies Fund",
@@ -89,7 +127,7 @@
         "date_reported": "2025-11-30",
         "pct_held": 0.54,
         "pct_change": 94.35,
-        "value": 1165002900
+        "value": 1227272700
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,7 +135,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 789203600
+        "value": 831386800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,7 +143,7 @@
         "date_reported": "2025-10-31",
         "pct_held": 0.36,
         "pct_change": -19.97,
-        "value": 775410086
+        "value": 816856018
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -113,7 +151,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 607446100
+        "value": 639914300
       },
       {
         "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
@@ -121,7 +159,7 @@
         "date_reported": "2025-11-30",
         "pct_held": 0.26,
         "pct_change": 7.62,
-        "value": 566832700
+        "value": 597130100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 436468700
+        "value": 459798100
       }
     ],
     "mutualfund_holders": []

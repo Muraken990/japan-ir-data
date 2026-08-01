@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:21:02.684638",
+  "fetched_at": "2026-08-01T04:49:24.441706",
   "ticker": "6590",
   "ticker_full": "6590.T",
   "company_name": "SHIBAURA MECHATRONICS CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5300.0,
+    "current": 4385.0,
     "high": 7000.0,
     "low": 3800.0,
-    "mean": 5833.3335,
-    "median": 6700.0
+    "mean": 5666.6665,
+    "median": 6200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": 97.93,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 26.5,
+        "eps_actual": 35.34,
+        "surprise_pct": 33.36
+      },
+      {
+        "date": "2026-02-05",
+        "eps_estimate": 41.3,
+        "eps_actual": 53.88,
+        "surprise_pct": 30.47
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 69.66,
+        "eps_actual": 37.23,
+        "surprise_pct": -46.55
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 97.93,
+        "eps_actual": 43.83,
+        "surprise_pct": -55.24
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 40.0,
+        "eps_actual": 51.55,
+        "surprise_pct": 28.88
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 6.6,
-    "institution_pct": 43.09,
+    "institution_pct": 53.08,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.09
+        "value": 53.08
       },
       {
         "label": "",
-        "value": 46.13
+        "value": 56.83
       },
       {
         "label": "",
-        "value": 103.0
+        "value": 109.0
       }
     ],
     "institutional_holders": [],

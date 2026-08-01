@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:40:22.429303",
+  "fetched_at": "2026-08-01T04:29:27.250204",
   "ticker": "7914",
   "ticker_full": "7914.T",
   "company_name": "KYODO PRINTING CO",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1564.0,
+    "current": 1639.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 13.89,
+        "eps_actual": 48.15,
+        "surprise_pct": 246.65
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 3.5,
+        "eps_actual": 7.9,
+        "surprise_pct": 126.04
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 14.08,
+        "eps_actual": 6.25,
+        "surprise_pct": -55.62
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 18.1,
+        "eps_actual": 17.88,
+        "surprise_pct": -1.22
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 8.98,
+        "eps_actual": 12.35,
+        "surprise_pct": 37.57
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 22.65,
-    "institution_pct": 16.35,
+    "insider_pct": 21.7,
+    "institution_pct": 16.65,
     "major_holders": [
       {
         "label": "",
-        "value": 22.65
+        "value": 21.7
       },
       {
         "label": "",
-        "value": 16.35
+        "value": 16.65
       },
       {
         "label": "",
-        "value": 21.14
+        "value": 21.26
       },
       {
         "label": "",
-        "value": 29.0
+        "value": 30.0
       }
     ],
     "institutional_holders": [],

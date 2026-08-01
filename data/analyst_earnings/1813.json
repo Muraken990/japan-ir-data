@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:39:26.132038",
+  "fetched_at": "2026-08-01T04:28:29.713521",
   "ticker": "1813",
   "ticker_full": "1813.T",
   "company_name": "FUDO TETRA CORP",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2759.0,
+    "current": 2682.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-07",
+        "eps_estimate": 47.81,
+        "eps_actual": 32.7,
+        "surprise_pct": -31.6
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": -2.09,
+        "eps_actual": 12.1,
+        "surprise_pct": 678.95
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 98.86,
+        "eps_actual": 35.9,
+        "surprise_pct": -63.69
+      },
+      {
+        "date": "2015-02-09",
+        "eps_estimate": 44.07,
+        "eps_actual": 93.3,
+        "surprise_pct": 111.71
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 13.86,
+        "eps_actual": 36.8,
+        "surprise_pct": 165.51
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 9.06,
-    "institution_pct": 58.88,
+    "insider_pct": 7.96,
+    "institution_pct": 50.51,
     "major_holders": [
       {
         "label": "",
-        "value": 9.06
+        "value": 7.96
       },
       {
         "label": "",
-        "value": 58.88
+        "value": 50.51
       },
       {
         "label": "",
-        "value": 64.75
+        "value": 54.88
       },
       {
         "label": "",
-        "value": 35.0
+        "value": 31.0
       }
     ],
     "institutional_holders": [],

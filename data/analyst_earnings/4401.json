@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:57.601529",
+  "fetched_at": "2026-08-01T04:52:47.473452",
   "ticker": "4401",
   "ticker_full": "4401.T",
   "company_name": "ADEKA CORPORATION",
@@ -8,46 +8,53 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 1,
-    "buy": 2,
+    "buy": 3,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 6,
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.83333
   },
   "target_prices": {
     "has_data": true,
-    "current": 4196.0,
+    "current": 3945.0,
     "high": 5490.0,
     "low": 3200.0,
-    "mean": 4648.3335,
-    "median": 4800.0
+    "mean": 4731.6665,
+    "median": 4900.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 15.12,
-    "institution_pct": 48.16,
+    "insider_pct": 16.93,
+    "institution_pct": 44.96,
     "major_holders": [
       {
         "label": "",
-        "value": 15.12
+        "value": 16.93
       },
       {
         "label": "",
-        "value": 48.16
+        "value": 44.96
       },
       {
         "label": "",
-        "value": 56.74
+        "value": 54.11
       },
       {
         "label": "",
-        "value": 106.0
+        "value": 103.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +64,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 1.33,
         "pct_change": 1.03,
-        "value": 5773343536
+        "value": 5427988620
       },
       {
         "holder": "Tweedy Browne Global Value Fund",
@@ -65,7 +72,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.86,
         "pct_change": 0.0,
-        "value": 3742706120
+        "value": 3518821650
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -73,7 +80,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 0.78,
         "pct_change": 1.81,
-        "value": 3394731840
+        "value": 3191662800
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -81,7 +88,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.6,
         "pct_change": 0.0,
-        "value": 2609072800
+        "value": 2453001000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -89,7 +96,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 2074922000
+        "value": 1950802500
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -97,7 +104,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.39,
         "pct_change": -1.23,
-        "value": 1689309600
+        "value": 1588257000
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -105,7 +112,7 @@
         "date_reported": "2024-04-30",
         "pct_held": 0.32,
         "pct_change": -8.64,
-        "value": 1375259980
+        "value": 1292993475
       },
       {
         "holder": "Japan Smaller Capitalization Fund, Inc.",
@@ -113,7 +120,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.26,
         "pct_change": 2.12,
-        "value": 1149704000
+        "value": 1080930000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -121,7 +128,7 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 1129563200
+        "value": 1061994000
       },
       {
         "holder": "Schwab Strategic Tr-Schwab Fundamental Intl Small Company Idx ETF",
@@ -129,7 +136,7 @@
         "date_reported": "2024-05-31",
         "pct_held": 0.22,
         "pct_change": -3.42,
-        "value": 936605944
+        "value": 880579230
       }
     ],
     "mutualfund_holders": []

@@ -1,37 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:33.116021",
+  "fetched_at": "2026-08-01T04:40:59.767884",
   "ticker": "3487",
   "ticker_full": "3487.T",
   "company_name": "CRE LOGISTICS REIT INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 1,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 1,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "total_analysts": 2,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 138600.0,
+    "current": 141000.0,
     "high": 180000.0,
     "low": 161000.0,
     "mean": 170500.0,
     "median": 170500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-18",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.61,
-    "institution_pct": 59.88,
+    "institution_pct": 60.94,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +46,15 @@
       },
       {
         "label": "",
-        "value": 59.88
+        "value": 60.94
       },
       {
         "label": "",
-        "value": 69.31
+        "value": 70.55
       },
       {
         "label": "",
-        "value": 95.0
+        "value": 96.0
       }
     ],
     "institutional_holders": [],

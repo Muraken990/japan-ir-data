@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:00:00.898736",
+  "fetched_at": "2026-08-01T04:48:22.866190",
   "ticker": "4443",
   "ticker_full": "4443.T",
   "company_name": "SANSAN INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 3,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1578.0,
+    "current": 1989.0,
     "high": 3000.0,
-    "low": 1350.0,
-    "mean": 1993.75,
+    "low": 1400.0,
+    "mean": 2062.5,
     "median": 1950.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-13",
-      "eps_estimate": 11.57,
+      "date": "2026-10-09",
+      "eps_estimate": 2.61,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-13",
+        "eps_estimate": 11.57,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
       {
         "date": "2026-04-10",
         "eps_estimate": 16.26,
@@ -57,19 +63,13 @@
         "eps_estimate": 11.57,
         "eps_actual": -10.11,
         "surprise_pct": -187.42
-      },
-      {
-        "date": "2025-04-11",
-        "eps_estimate": 5.69,
-        "eps_actual": 10.93,
-        "surprise_pct": 92.26
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 35.6,
-    "institution_pct": 49.77,
+    "institution_pct": 51.02,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 49.77
+        "value": 51.02
       },
       {
         "label": "",
-        "value": 77.28
+        "value": 79.22
       },
       {
         "label": "",
-        "value": 106.0
+        "value": 101.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1121893,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.88,
-        "pct_change": 0.0,
-        "value": 1770347154
+        "shares": 1183193,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.93,
+        "pct_change": 5.46,
+        "value": 2353370877
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,47 +103,55 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.64,
         "pct_change": 14.57,
-        "value": 1284010710
+        "value": 1618439355
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 793080,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.63,
-        "pct_change": 1.08,
-        "value": 1251480240
+        "shares": 764366,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.6,
+        "pct_change": -3.62,
+        "value": 1520323974
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 572600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.45,
-        "pct_change": 0.79,
-        "value": 903562800
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 282800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
+        "shares": 579100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 446258400
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 277900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.22,
-        "pct_change": -0.29,
-        "value": 438526200
+        "value": 1151829900
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 262800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 9.73,
-        "value": 414698400
+        "shares": 349900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 33.14,
+        "value": 695951100
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 321800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": 13.79,
+        "value": 640060200
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 277100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.22,
+        "pct_change": -0.29,
+        "value": 551151900
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 226900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.18,
+        "pct_change": 87.37,
+        "value": 451304100
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -151,23 +159,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.17,
         "pct_change": -24.99,
-        "value": 339585600
+        "value": 428032800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 186400,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 294139200
-      },
-      {
-        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 180161,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.14,
-        "pct_change": 14.4,
-        "value": 284294058
+        "value": 370749600
       }
     ],
     "mutualfund_holders": []

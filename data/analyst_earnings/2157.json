@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:28.680262",
+  "fetched_at": "2026-08-01T04:40:09.297650",
   "ticker": "2157",
   "ticker_full": "2157.T",
   "company_name": "KOSHIDAKA HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 946.0,
+    "current": 1046.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-07-09",
+        "eps_estimate": 30.04,
+        "eps_actual": -30.67,
+        "surprise_pct": -202.09
+      },
+      {
+        "date": "2020-01-09",
+        "eps_estimate": 10.73,
+        "eps_actual": 8.61,
+        "surprise_pct": -19.74
+      },
+      {
+        "date": "2019-10-09",
+        "eps_estimate": 16.97,
+        "eps_actual": 15.35,
+        "surprise_pct": -9.55
+      },
+      {
+        "date": "2019-07-09",
+        "eps_estimate": 17.49,
+        "eps_actual": 25.17,
+        "surprise_pct": 43.88
+      },
+      {
+        "date": "2019-04-10",
+        "eps_estimate": 24.13,
+        "eps_actual": 23.36,
+        "surprise_pct": -3.18
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 38.92,
-    "institution_pct": 30.78,
+    "insider_pct": 38.16,
+    "institution_pct": 35.29,
     "major_holders": [
       {
         "label": "",
-        "value": 38.92
+        "value": 38.16
       },
       {
         "label": "",
-        "value": 30.78
+        "value": 35.29
       },
       {
         "label": "",
-        "value": 50.4
+        "value": 57.07
       },
       {
         "label": "",
-        "value": 61.0
+        "value": 62.0
       }
     ],
     "institutional_holders": [],

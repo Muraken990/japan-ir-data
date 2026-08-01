@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:07:33.963908",
+  "fetched_at": "2026-08-01T04:00:09.888365",
   "ticker": "9475",
   "ticker_full": "9475.T",
   "company_name": "SHOBUNSHA HOLDINGS INC",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 486.0,
+    "current": 523.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2013-02-04",
+        "eps_estimate": 31.83,
+        "eps_actual": 8.81,
+        "surprise_pct": -72.32
+      },
+      {
+        "date": "2012-07-30",
+        "eps_estimate": 17.51,
+        "eps_actual": -8.65,
+        "surprise_pct": -149.4
+      },
+      {
+        "date": "2012-05-14",
+        "eps_estimate": 25.7,
+        "eps_actual": -4.24,
+        "surprise_pct": -116.5
+      },
+      {
+        "date": "2012-02-02",
+        "eps_estimate": 31.37,
+        "eps_actual": 21.35,
+        "surprise_pct": -31.93
+      },
+      {
+        "date": "2011-10-30",
+        "eps_estimate": 17.74,
+        "eps_actual": 17.34,
+        "surprise_pct": -2.24
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 67.22,
-    "institution_pct": 1.84,
+    "insider_pct": 67.64,
+    "institution_pct": 1.08,
     "major_holders": [
       {
         "label": "",
-        "value": 67.22
+        "value": 67.64
       },
       {
         "label": "",
-        "value": 1.84
+        "value": 1.08
       },
       {
         "label": "",
-        "value": 5.61
+        "value": 3.33
       },
       {
         "label": "",
-        "value": 3.0
+        "value": 2.0
       }
     ],
     "institutional_holders": [],

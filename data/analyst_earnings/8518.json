@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T04:56:08.442424",
+  "fetched_at": "2026-08-01T03:50:37.268355",
   "ticker": "8518",
   "ticker_full": "8518.T",
   "company_name": "JAPAN ASIA INVESTMENT",
@@ -17,32 +17,65 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 125.0,
+    "current": 133.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2014-02-04",
+        "eps_estimate": -80.05,
+        "eps_actual": 99.2,
+        "surprise_pct": 223.92
+      },
+      {
+        "date": "2013-08-04",
+        "eps_estimate": -22.31,
+        "eps_actual": -67.0,
+        "surprise_pct": -200.31
+      },
+      {
+        "date": "2013-02-05",
+        "eps_estimate": -26.32,
+        "eps_actual": 39.4,
+        "surprise_pct": 249.7
+      },
+      {
+        "date": "2012-11-04",
+        "eps_estimate": -113.72,
+        "eps_actual": -84.9,
+        "surprise_pct": 25.34
+      },
+      {
+        "date": "2012-08-05",
+        "eps_estimate": -90.6,
+        "eps_actual": -40.0,
+        "surprise_pct": 55.85
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 49.31,
-    "institution_pct": 1.06,
+    "insider_pct": 48.62,
+    "institution_pct": 1.05,
     "major_holders": [
       {
         "label": "",
-        "value": 49.31
+        "value": 48.62
       },
       {
         "label": "",
-        "value": 1.06
+        "value": 1.05
       },
       {
         "label": "",
-        "value": 2.1
+        "value": 2.04
       },
       {
         "label": "",

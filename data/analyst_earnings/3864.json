@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:31:40.362094",
+  "fetched_at": "2026-08-01T04:22:03.294986",
   "ticker": "3864",
   "ticker_full": "3864.T",
   "company_name": "MITSUBISHI PAPER MILLS",
@@ -16,17 +16,72 @@
     "strong_sell": null
   },
   "target_prices": {
-    "has_data": false
+    "has_data": true,
+    "current": 1123.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2023-02-13",
+        "eps_estimate": 9.0,
+        "eps_actual": -102.51,
+        "surprise_pct": -1239.0
+      },
+      {
+        "date": "2022-08-04",
+        "eps_estimate": -11.2,
+        "eps_actual": -12.53,
+        "surprise_pct": -11.87
+      },
+      {
+        "date": "2022-02-13",
+        "eps_estimate": 11.2,
+        "eps_actual": 4.18,
+        "surprise_pct": -62.68
+      },
+      {
+        "date": "2021-11-09",
+        "eps_estimate": 2.2,
+        "eps_actual": 31.75,
+        "surprise_pct": 1343.18
+      },
+      {
+        "date": "2021-02-09",
+        "eps_estimate": 13.4,
+        "eps_actual": -19.6,
+        "surprise_pct": -246.27
+      }
+    ]
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 60.96,
+    "institution_pct": 4.84,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 60.96
+      },
+      {
+        "label": "",
+        "value": 4.84
+      },
+      {
+        "label": "",
+        "value": 12.41
+      },
+      {
+        "label": "",
+        "value": 14.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

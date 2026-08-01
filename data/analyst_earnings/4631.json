@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:48.982903",
+  "fetched_at": "2026-08-01T04:52:39.509391",
   "ticker": "4631",
   "ticker_full": "4631.T",
   "company_name": "DIC CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 1,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "total_analysts": 2,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4846.0,
+    "current": 4424.0,
     "high": 6000.0,
     "low": 4300.0,
     "mean": 5150.0,
     "median": 5150.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-10",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2014-11-13",
+        "eps_estimate": 46.8,
+        "eps_actual": 63.8,
+        "surprise_pct": 36.32
+      },
+      {
+        "date": "2014-08-14",
+        "eps_estimate": 43.7,
+        "eps_actual": 56.1,
+        "surprise_pct": 28.38
+      },
+      {
+        "date": "2014-04-04",
+        "eps_estimate": 160.7,
+        "eps_actual": 112.1,
+        "surprise_pct": -30.24
+      },
+      {
+        "date": "2013-08-13",
+        "eps_estimate": 32.8,
+        "eps_actual": 50.9,
+        "surprise_pct": 55.18
+      },
+      {
+        "date": "2012-08-06",
+        "eps_estimate": 32.7,
+        "eps_actual": 67.3,
+        "surprise_pct": 105.81
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.93,
-    "institution_pct": 50.41,
+    "institution_pct": 40.58,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 50.41
+        "value": 40.58
       },
       {
         "label": "",
-        "value": 58.57
+        "value": 47.15
       },
       {
         "label": "",
-        "value": 105.0
+        "value": 99.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2059500,
-        "date_reported": "2026-05-31",
-        "pct_held": 2.16,
-        "pct_change": 6.15,
-        "value": 9980337000
+        "shares": 2222700,
+        "date_reported": "2026-06-30",
+        "pct_held": 2.34,
+        "pct_change": 8.88,
+        "value": 9833224800
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1165210,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.22,
-        "pct_change": -0.18,
-        "value": 5646607660
+        "pct_change": 0.0,
+        "value": 5154889040
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -73,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.15,
         "pct_change": 0.0,
-        "value": 5292713972
+        "value": 4831813168
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,23 +119,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.82,
         "pct_change": 1.93,
-        "value": 3779138562
+        "value": 3450043128
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 616600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.65,
-        "pct_change": 0.74,
-        "value": 2988043600
+        "shares": 590500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.62,
+        "pct_change": 0.0,
+        "value": 2612372000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 408300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.43,
-        "pct_change": 1.24,
-        "value": 1978621800
+        "shares": 435200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.46,
+        "pct_change": 6.59,
+        "value": 1925324800
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 357381,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.38,
+        "pct_change": 19.93,
+        "value": 1581053544
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -105,31 +151,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.37,
         "pct_change": 1.91,
-        "value": 1702399800
+        "value": 1554151200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 300600,
-        "date_reported": "2026-04-30",
+        "shares": 300400,
+        "date_reported": "2026-06-30",
         "pct_held": 0.32,
-        "pct_change": -0.27,
-        "value": 1456707600
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 297984,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 13.01,
-        "value": 1444030464
+        "pct_change": 1.08,
+        "value": 1328969600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 227605,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.24,
-        "pct_change": 3.74,
-        "value": 1102973830
+        "shares": 235780,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.25,
+        "pct_change": 3.59,
+        "value": 1043090720
       }
     ],
     "mutualfund_holders": []

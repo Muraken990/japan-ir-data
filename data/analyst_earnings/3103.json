@@ -1,24 +1,23 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:23:24.308564",
+  "fetched_at": "2026-08-01T04:14:18.204004",
   "ticker": "3103",
   "ticker_full": "3103.T",
   "company_name": "UNITIKA LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 0,
-    "buy": 0,
-    "hold": 0,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 0,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 0.0
+    "recommendation_key": "none",
+    "recommendation_mean": null,
+    "total_analysts": null,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 996.0,
+    "current": 830.0,
     "high": null,
     "low": null,
     "mean": null,
@@ -68,50 +67,74 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.43,
-    "institution_pct": 33.65,
+    "insider_pct": 4.25,
+    "institution_pct": 35.03,
     "major_holders": [
       {
         "label": "",
-        "value": 4.43
+        "value": 4.25
       },
       {
         "label": "",
-        "value": 33.65
+        "value": 35.03
       },
       {
         "label": "",
-        "value": 35.21
+        "value": 36.59
       },
       {
         "label": "",
-        "value": 31.0
+        "value": 38.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 2130300,
-        "date_reported": "2026-05-31",
-        "pct_held": 3.69,
-        "pct_change": 20.08,
-        "value": 2121778800
+        "shares": 2146800,
+        "date_reported": "2026-06-30",
+        "pct_held": 3.72,
+        "pct_change": 1.46,
+        "value": 1781844000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 410200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.71,
+        "pct_change": 16.37,
+        "value": 340466000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Pacific Basin Fund",
         "shares": 403900,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.7,
-        "pct_change": -31.65,
-        "value": 402284400
+        "pct_change": 0.0,
+        "value": 335237000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 208300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.36,
+        "pct_change": -0.19,
+        "value": 172889000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
         "shares": 63600,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 63345600
+        "value": 52788000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value Fund",
+        "shares": 64400,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.11,
+        "pct_change": 77.9,
+        "value": 53452000
       },
       {
         "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
@@ -119,15 +142,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.08,
         "pct_change": 1.0,
-        "value": 46812000
+        "value": 39010000
       },
       {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value Fund",
-        "shares": 36200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.06,
+        "holder": "Fidelity Salem Street Trust-Fidelity Total International Index Fund",
+        "shares": 31000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.05,
         "pct_change": 1.0,
-        "value": 36055200
+        "value": 25730000
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Tax-Mnged Eqy. Fd.",
@@ -135,39 +158,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.04,
         "pct_change": 1.0,
-        "value": 21115200
+        "value": 17596000
       },
       {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Equity ETF",
-        "shares": 9400,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.02,
-        "pct_change": 16.05,
-        "value": 9362400
-      },
-      {
-        "holder": "-SSgA SPDR ETFS Europe I-State Street SPDR MSCI World Small Cap UCITS ",
-        "shares": 8900,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.02,
+        "holder": "FlexShares TRT-FlexShares Morningstar Developed Markets ex-US Factor T",
+        "shares": 19800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.03,
         "pct_change": 1.0,
-        "value": 8864400
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Equity Fund",
-        "shares": 5300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.01,
-        "pct_change": 0.0,
-        "value": 5278800
-      },
-      {
-        "holder": "American Century ETF TRT-Avantis Responsible Intl Eqy. ETF",
-        "shares": 7900,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.01,
-        "pct_change": 1.28,
-        "value": 7868400
+        "value": 16434000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:08:08.747149",
+  "fetched_at": "2026-08-01T04:53:54.593166",
   "ticker": "7988",
   "ticker_full": "7988.T",
   "company_name": "NIFCO INC",
@@ -13,27 +13,28 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4930.0,
+    "current": 5209.0,
     "high": 6000.0,
-    "low": 4300.0,
-    "mean": 5364.2856,
-    "median": 5600.0
+    "low": 4800.0,
+    "mean": 5592.857,
+    "median": 5650.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-31",
-      "eps_estimate": null,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 102.04,
+        "eps_actual": 47.73,
+        "surprise_pct": -53.22
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 73.01,
@@ -57,35 +58,29 @@
         "eps_estimate": 55.57,
         "eps_actual": 175.29,
         "surprise_pct": 215.44
-      },
-      {
-        "date": "2025-02-03",
-        "eps_estimate": 72.5,
-        "eps_actual": 129.44,
-        "surprise_pct": 78.54
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 12.03,
-    "institution_pct": 33.74,
+    "insider_pct": 10.76,
+    "institution_pct": 33.07,
     "major_holders": [
       {
         "label": "",
-        "value": 12.03
+        "value": 10.76
       },
       {
         "label": "",
-        "value": 33.74
+        "value": 33.07
       },
       {
         "label": "",
-        "value": 38.36
+        "value": 37.06
       },
       {
         "label": "",
-        "value": 151.0
+        "value": 148.0
       }
     ],
     "institutional_holders": [],

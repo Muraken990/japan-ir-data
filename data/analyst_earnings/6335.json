@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T04:55:18.630582",
+  "fetched_at": "2026-08-01T03:50:32.840742",
   "ticker": "6335",
   "ticker_full": "6335.T",
   "company_name": "TOKYO KIKAI SEISAKUSHO",
@@ -17,15 +17,48 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 671.0,
+    "current": 716.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-09",
+        "eps_estimate": 4.81,
+        "eps_actual": -25.4,
+        "surprise_pct": -628.07
+      },
+      {
+        "date": "2015-08-12",
+        "eps_estimate": 21.39,
+        "eps_actual": -57.1,
+        "surprise_pct": -366.95
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": -69.52,
+        "eps_actual": -87.0,
+        "surprise_pct": -25.14
+      },
+      {
+        "date": "2015-02-11",
+        "eps_estimate": 0.71,
+        "eps_actual": 130.8,
+        "surprise_pct": 18322.54
+      },
+      {
+        "date": "2014-11-12",
+        "eps_estimate": -100.16,
+        "eps_actual": -31.0,
+        "surprise_pct": 69.05
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:45.538031",
+  "fetched_at": "2026-08-01T04:44:10.134047",
   "ticker": "6804",
   "ticker_full": "6804.T",
   "company_name": "HOSIDEN CORP",
@@ -13,41 +13,74 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2733.0,
+    "current": 2868.0,
     "high": 3000.0,
     "low": 3000.0,
     "mean": 3000.0,
     "median": 3000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-02-06",
+        "eps_estimate": 27.4,
+        "eps_actual": 60.95,
+        "surprise_pct": 122.45
+      },
+      {
+        "date": "2018-02-01",
+        "eps_estimate": 25.2,
+        "eps_actual": 69.82,
+        "surprise_pct": 177.06
+      },
+      {
+        "date": "2017-02-02",
+        "eps_estimate": 20.2,
+        "eps_actual": 86.84,
+        "surprise_pct": 329.9
+      },
+      {
+        "date": "2016-11-03",
+        "eps_estimate": -1.3,
+        "eps_actual": -13.4,
+        "surprise_pct": -930.77
+      },
+      {
+        "date": "2016-08-04",
+        "eps_estimate": -35.1,
+        "eps_actual": -44.99,
+        "surprise_pct": -28.18
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.09,
-    "institution_pct": 39.91,
+    "insider_pct": 8.86,
+    "institution_pct": 39.71,
     "major_holders": [
       {
         "label": "",
-        "value": 7.09
+        "value": 8.86
       },
       {
         "label": "",
-        "value": 39.91
+        "value": 39.71
       },
       {
         "label": "",
-        "value": 42.95
+        "value": 43.56
       },
       {
         "label": "",
-        "value": 95.0
+        "value": 94.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +90,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.61,
         "pct_change": 0.0,
-        "value": 2581318500
+        "value": 2708826000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 693826,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.19,
         "pct_change": 0.0,
-        "value": 1896226458
+        "value": 1989892968
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 530400,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.91,
-        "pct_change": 0.86,
-        "value": 1449583200
+        "shares": 536900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.92,
+        "pct_change": 0.0,
+        "value": 1539829200
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 454900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.78,
+        "pct_change": 14.41,
+        "value": 1304653200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,15 +122,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.76,
         "pct_change": -0.25,
-        "value": 1207958670
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 415600,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.71,
-        "pct_change": 15.25,
-        "value": 1135834800
+        "value": 1267627320
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,7 +130,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 741736200
+        "value": 778375200
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -105,31 +138,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.42,
         "pct_change": 2.25,
-        "value": 667945200
+        "value": 700939200
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 235100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 642528300
+        "value": 674266800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 176267,
-        "date_reported": "2026-01-31",
+        "shares": 175067,
+        "date_reported": "2026-04-30",
         "pct_held": 0.3,
-        "pct_change": 0.0,
-        "value": 481737711
+        "pct_change": -0.68,
+        "value": 502092156
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 164900,
-        "date_reported": "2026-04-30",
+        "shares": 164500,
+        "date_reported": "2026-06-30",
         "pct_held": 0.28,
         "pct_change": -0.24,
-        "value": 450671700
+        "value": 471786000
       }
     ],
     "mutualfund_holders": []

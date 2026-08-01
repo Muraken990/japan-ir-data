@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:47.759223",
+  "fetched_at": "2026-08-01T04:53:38.924153",
   "ticker": "7164",
   "ticker_full": "7164.T",
   "company_name": "ZENKOKU HOSHO CO LTD",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3014.0,
+    "current": 3130.0,
     "high": 4700.0,
     "low": 3000.0,
     "mean": 3680.0,
     "median": 3600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-11-05",
+        "eps_estimate": 27.3,
+        "eps_actual": 31.13,
+        "surprise_pct": 14.01
+      },
+      {
+        "date": "2017-02-02",
+        "eps_estimate": 32.05,
+        "eps_actual": 26.65,
+        "surprise_pct": -16.85
+      },
+      {
+        "date": "2016-11-03",
+        "eps_estimate": 25.55,
+        "eps_actual": 29.43,
+        "surprise_pct": 15.19
+      },
+      {
+        "date": "2016-08-04",
+        "eps_estimate": 21.35,
+        "eps_actual": 21.83,
+        "surprise_pct": 2.25
+      },
+      {
+        "date": "2016-05-08",
+        "eps_estimate": 51.65,
+        "eps_actual": 52.96,
+        "surprise_pct": 2.53
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 0.66,
-    "institution_pct": 52.33,
+    "insider_pct": 1.88,
+    "institution_pct": 51.34,
     "major_holders": [
       {
         "label": "",
-        "value": 0.66
+        "value": 1.88
       },
       {
         "label": "",
-        "value": 52.33
+        "value": 51.34
       },
       {
         "label": "",
-        "value": 52.68
+        "value": 52.32
       },
       {
         "label": "",
-        "value": 123.0
+        "value": 118.0
       }
     ],
     "institutional_holders": [],

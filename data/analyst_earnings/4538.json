@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:25:33.890977",
+  "fetched_at": "2026-08-01T04:16:20.021098",
   "ticker": "4538",
   "ticker_full": "4538.T",
   "company_name": "FUSO PHARMACEUTICAL INDUSTRIES",
@@ -17,36 +17,45 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2102.0,
+    "current": 2175.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2013-11-12",
+        "eps_estimate": 51.63,
+        "eps_actual": 47.2,
+        "surprise_pct": -8.58
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 20.5,
-    "institution_pct": 17.1,
+    "insider_pct": 22.28,
+    "institution_pct": 17.06,
     "major_holders": [
       {
         "label": "",
-        "value": 20.5
+        "value": 22.28
       },
       {
         "label": "",
-        "value": 17.1
+        "value": 17.06
       },
       {
         "label": "",
-        "value": 21.51
+        "value": 21.95
       },
       {
         "label": "",
-        "value": 28.0
+        "value": 26.0
       }
     ],
     "institutional_holders": [],

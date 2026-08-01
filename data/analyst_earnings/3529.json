@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:25:28.408183",
+  "fetched_at": "2026-08-01T04:16:14.516132",
   "ticker": "3529",
   "ticker_full": "3529.T",
   "company_name": "ATSUGI CO LTD",
@@ -17,32 +17,65 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1003.0,
+    "current": 1088.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 15.87,
+        "eps_actual": 33.6,
+        "surprise_pct": 111.72
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": 2.28,
+        "eps_actual": 7.1,
+        "surprise_pct": 211.4
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": -9.64,
+        "eps_actual": -6.0,
+        "surprise_pct": 37.76
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 21.2,
+        "eps_actual": 26.9,
+        "surprise_pct": 26.89
+      },
+      {
+        "date": "2014-10-23",
+        "eps_estimate": 11.93,
+        "eps_actual": 17.6,
+        "surprise_pct": 47.53
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 22.43,
-    "institution_pct": 35.54,
+    "insider_pct": 17.58,
+    "institution_pct": 35.5,
     "major_holders": [
       {
         "label": "",
-        "value": 22.43
+        "value": 17.58
       },
       {
         "label": "",
-        "value": 35.54
+        "value": 35.5
       },
       {
         "label": "",
-        "value": 45.82
+        "value": 43.07
       },
       {
         "label": "",

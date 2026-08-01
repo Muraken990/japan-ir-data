@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:54:56.091657",
+  "fetched_at": "2026-08-01T04:43:18.348554",
   "ticker": "8153",
   "ticker_full": "8153.T",
   "company_name": "MOS FOOD SERVICES INC",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3625.0,
+    "current": 3855.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 11.3,
+        "eps_actual": 29.83,
+        "surprise_pct": 163.94
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 3.51,
+        "eps_actual": 3.83,
+        "surprise_pct": 9.02
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 4.28,
+        "eps_actual": 2.25,
+        "surprise_pct": -47.44
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 18.19,
+        "eps_actual": 10.68,
+        "surprise_pct": -41.29
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 23.49,
+        "eps_actual": 10.78,
+        "surprise_pct": -54.12
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 16.06,
-    "institution_pct": 16.96,
+    "insider_pct": 16.07,
+    "institution_pct": 17.12,
     "major_holders": [
       {
         "label": "",
-        "value": 16.06
+        "value": 16.07
       },
       {
         "label": "",
-        "value": 16.96
+        "value": 17.12
       },
       {
         "label": "",
-        "value": 20.21
+        "value": 20.4
       },
       {
         "label": "",
-        "value": 60.0
+        "value": 59.0
       }
     ],
     "institutional_holders": [],

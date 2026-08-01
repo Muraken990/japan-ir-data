@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:26:35.212948",
+  "fetched_at": "2026-08-01T04:18:17.601483",
   "ticker": "9990",
   "ticker_full": "9990.T",
   "company_name": "SACS BAR HOLDINGS INC",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 744.0,
+    "current": 773.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2018-05-08",
+        "eps_estimate": 37.01,
+        "eps_actual": 18.48,
+        "surprise_pct": -50.07
+      },
+      {
+        "date": "2018-01-29",
+        "eps_estimate": 20.21,
+        "eps_actual": 17.25,
+        "surprise_pct": -14.63
+      },
+      {
+        "date": "2017-10-30",
+        "eps_estimate": 25.27,
+        "eps_actual": 21.22,
+        "surprise_pct": -16.02
+      },
+      {
+        "date": "2017-07-27",
+        "eps_estimate": 18.37,
+        "eps_actual": 18.45,
+        "surprise_pct": 0.45
+      },
+      {
+        "date": "2017-05-09",
+        "eps_estimate": 29.29,
+        "eps_actual": 21.45,
+        "surprise_pct": -26.77
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 37.83,
-    "institution_pct": 14.68,
+    "insider_pct": 37.81,
+    "institution_pct": 14.59,
     "major_holders": [
       {
         "label": "",
-        "value": 37.83
+        "value": 37.81
       },
       {
         "label": "",
-        "value": 14.68
+        "value": 14.59
       },
       {
         "label": "",
-        "value": 23.62
+        "value": 23.46
       },
       {
         "label": "",
-        "value": 29.0
+        "value": 28.0
       }
     ],
     "institutional_holders": [],

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:10:25.604205",
+  "fetched_at": "2026-08-01T04:56:49.794001",
   "ticker": "5929",
   "ticker_full": "5929.T",
   "company_name": "SANWA HOLDINGS CORP",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.28571
   },
   "target_prices": {
     "has_data": true,
-    "current": 3739.0,
+    "current": 3442.0,
     "high": 5800.0,
     "low": 3800.0,
     "mean": 4485.7144,
@@ -26,14 +26,15 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-31",
-      "eps_estimate": 31.82,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 24.41,
+        "eps_actual": 23.1,
+        "surprise_pct": -5.35
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": 89.19,
@@ -57,45 +58,39 @@
         "eps_estimate": 31.82,
         "eps_actual": 33.75,
         "surprise_pct": 6.06
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 73.75,
-        "eps_actual": 93.5,
-        "surprise_pct": 26.77
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 3.94,
-    "institution_pct": 55.45,
+    "insider_pct": 2.2,
+    "institution_pct": 55.4,
     "major_holders": [
       {
         "label": "",
-        "value": 3.94
+        "value": 2.2
       },
       {
         "label": "",
-        "value": 55.45
+        "value": 55.4
       },
       {
         "label": "",
-        "value": 57.73
+        "value": 56.65
       },
       {
         "label": "",
-        "value": 189.0
+        "value": 182.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2844162,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.23,
-        "pct_change": 1.34,
-        "value": 10634321718
+        "shares": 2779462,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.2,
+        "pct_change": -2.27,
+        "value": 9566908204
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,23 +98,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 0.89,
-        "value": 6873145709
+        "value": 6327191102
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1356300,
-        "date_reported": "2026-04-30",
+        "shares": 1362800,
+        "date_reported": "2026-06-30",
         "pct_held": 0.59,
-        "pct_change": 0.33,
-        "value": 5071205700
+        "pct_change": 0.0,
+        "value": 4690757600
       },
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
-        "shares": 1086600,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.47,
-        "pct_change": 2.5,
-        "value": 4062797400
+        "shares": 1135300,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.49,
+        "pct_change": 4.48,
+        "value": 3907702600
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -127,7 +122,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.44,
         "pct_change": 15.43,
-        "value": 3801815200
+        "value": 3499825600
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -135,7 +130,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.4,
         "pct_change": -10.2,
-        "value": 3474278800
+        "value": 3198306400
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -143,23 +138,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": -0.06,
-        "value": 3315371300
+        "value": 3052021400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 741700,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.32,
-        "pct_change": -0.24,
-        "value": 2773216300
-      },
-      {
-        "holder": "Victory Portfolios III-Victory International Fund",
-        "shares": 599500,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.26,
-        "pct_change": -1.85,
-        "value": 2241530500
+        "shares": 723300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.31,
+        "pct_change": -0.22,
+        "value": 2489598600
       },
       {
         "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
@@ -167,7 +154,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.24,
         "pct_change": -0.98,
-        "value": 2034763800
+        "value": 1873136400
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 518746,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.22,
+        "pct_change": 1.44,
+        "value": 1785523732
       }
     ],
     "mutualfund_holders": []

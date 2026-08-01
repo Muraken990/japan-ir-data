@@ -1,34 +1,40 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:29:36.460511",
+  "fetched_at": "2026-08-01T04:20:04.133358",
   "ticker": "9158",
   "ticker_full": "9158.T",
   "company_name": "CUC INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 781.0,
-    "high": 1000.0,
-    "low": 1000.0,
-    "mean": 1000.0,
-    "median": 1000.0
+    "current": 790.0,
+    "high": 900.0,
+    "low": 900.0,
+    "mean": 900.0,
+    "median": 900.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 7.28,
+        "eps_actual": -9.6,
+        "surprise_pct": -231.87
+      },
       {
         "date": "2026-04-29",
         "eps_estimate": 46.3,
@@ -52,19 +58,13 @@
         "eps_estimate": 24.64,
         "eps_actual": 7.1,
         "surprise_pct": -71.19
-      },
-      {
-        "date": "2024-10-28",
-        "eps_estimate": 14.3,
-        "eps_actual": 35.57,
-        "surprise_pct": 148.74
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 72.37,
-    "institution_pct": 13.57,
+    "institution_pct": 13.67,
     "major_holders": [
       {
         "label": "",
@@ -72,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 13.57
+        "value": 13.67
       },
       {
         "label": "",
-        "value": 49.11
+        "value": 49.48
       },
       {
         "label": "",

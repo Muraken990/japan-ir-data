@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:23.060950",
+  "fetched_at": "2026-08-01T04:57:47.660656",
   "ticker": "9005",
   "ticker_full": "9005.T",
   "company_name": "TOKYU CORP",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1645.0,
+    "current": 1747.0,
     "high": 2510.0,
     "low": 1780.0,
-    "mean": 2127.1428,
-    "median": 2100.0
+    "mean": 2084.2856,
+    "median": 2000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 13.9,
+        "eps_actual": 19.81,
+        "surprise_pct": 42.52
+      },
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 29.4,
+        "eps_actual": 32.46,
+        "surprise_pct": 10.41
+      },
+      {
+        "date": "2024-11-08",
+        "eps_estimate": 27.9,
+        "eps_actual": 32.73,
+        "surprise_pct": 17.31
+      },
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 22.56,
+        "eps_actual": 25.08,
+        "surprise_pct": 11.17
+      },
+      {
+        "date": "2023-11-08",
+        "eps_estimate": 21.9,
+        "eps_actual": 25.16,
+        "surprise_pct": 14.89
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.13,
-    "institution_pct": 48.38,
+    "insider_pct": 4.14,
+    "institution_pct": 45.81,
     "major_holders": [
       {
         "label": "",
-        "value": 4.13
+        "value": 4.14
       },
       {
         "label": "",
-        "value": 48.38
+        "value": 45.81
       },
       {
         "label": "",
-        "value": 50.46
+        "value": 47.79
       },
       {
         "label": "",
-        "value": 239.0
+        "value": 219.0
       }
     ],
     "institutional_holders": [],

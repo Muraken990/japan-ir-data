@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:09:15.236419",
+  "fetched_at": "2026-08-01T04:55:43.199340",
   "ticker": "3349",
   "ticker_full": "3349.T",
   "company_name": "COSMOS PHARMACEUTICAL CORP",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 6105.0,
-    "high": 9750.0,
-    "low": 6300.0,
-    "mean": 7975.0,
-    "median": 7750.0
+    "current": 6383.0,
+    "high": 9600.0,
+    "low": 6500.0,
+    "mean": 7571.0,
+    "median": 7500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-13",
-      "eps_estimate": 117.37,
+      "date": "2026-10-13",
+      "eps_estimate": 105.98,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-13",
+        "eps_estimate": 117.37,
+        "eps_actual": null,
+        "surprise_pct": null
+      },
       {
         "date": "2026-04-13",
         "eps_estimate": 100.69,
@@ -57,19 +63,13 @@
         "eps_estimate": 112.38,
         "eps_actual": 108.95,
         "surprise_pct": -3.05
-      },
-      {
-        "date": "2025-04-14",
-        "eps_estimate": 76.4,
-        "eps_actual": 99.86,
-        "surprise_pct": 30.71
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 55.27,
-    "institution_pct": 31.98,
+    "institution_pct": 32.51,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 31.98
+        "value": 32.51
       },
       {
         "label": "",
-        "value": 71.5
+        "value": 72.69
       },
       {
         "label": "",
-        "value": 137.0
+        "value": 139.0
       }
     ],
     "institutional_holders": [
@@ -95,17 +95,17 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 41514000
+        "value": 43404400
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 546446,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.68,
-        "pct_change": 0.42,
-        "value": 3336052830
+        "pct_change": 0.0,
+        "value": 3487964818
       },
       {
         "holder": "VANGUARD HORIZON FUNDS-Vanguard Global Equity Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.61,
         "pct_change": 36.06,
-        "value": 2971303500
+        "value": 3106606100
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,31 +121,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.46,
         "pct_change": 1.19,
-        "value": 2229594840
+        "value": 2331122664
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
-        "shares": 356802,
-        "date_reported": "2026-04-30",
+        "shares": 356324,
+        "date_reported": "2026-05-31",
         "pct_held": 0.45,
-        "pct_change": -0.44,
-        "value": 2178276210
+        "pct_change": -0.13,
+        "value": 2274416092
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 272900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.34,
+        "shares": 259200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 1666054500
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 158900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.2,
-        "pct_change": -0.25,
-        "value": 970084500
+        "value": 1654473600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -153,7 +145,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 3.29,
-        "value": 981604635
+        "value": 1026303421
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 158500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.2,
+        "pct_change": -0.25,
+        "value": 1011705500
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -161,23 +161,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 915750000
+        "value": 957450000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 97400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.12,
-        "pct_change": -9.98,
-        "value": 594627000
+        "shares": 116300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.15,
+        "pct_change": 19.4,
+        "value": 742342900
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 86126,
-        "date_reported": "2026-04-30",
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 87573,
+        "date_reported": "2026-05-31",
         "pct_held": 0.11,
-        "pct_change": 2.87,
-        "value": 525799230
+        "pct_change": 2.78,
+        "value": 558978459
       }
     ]
   }

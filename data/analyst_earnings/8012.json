@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:45.464938",
+  "fetched_at": "2026-08-01T04:52:50.097709",
   "ticker": "8012",
   "ticker_full": "8012.T",
   "company_name": "NAGASE & CO",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1172.5,
+    "current": 1138.0,
     "high": 1300.0,
     "low": 1300.0,
     "mean": 1300.0,
     "median": 1300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-04",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2017-02-02",
+        "eps_estimate": 9.52,
+        "eps_actual": 8.27,
+        "surprise_pct": -13.14
+      },
+      {
+        "date": "2016-08-03",
+        "eps_estimate": 6.74,
+        "eps_actual": 4.4,
+        "surprise_pct": -34.67
+      },
+      {
+        "date": "2016-02-01",
+        "eps_estimate": 8.93,
+        "eps_actual": 6.04,
+        "surprise_pct": -32.38
+      },
+      {
+        "date": "2015-08-03",
+        "eps_estimate": 5.73,
+        "eps_actual": 6.69,
+        "surprise_pct": 16.73
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 3.35,
+        "eps_actual": 0.45,
+        "surprise_pct": -86.47
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 13.06,
-    "institution_pct": 34.53,
+    "insider_pct": 13.5,
+    "institution_pct": 33.44,
     "major_holders": [
       {
         "label": "",
-        "value": 13.06
+        "value": 13.5
       },
       {
         "label": "",
-        "value": 34.53
+        "value": 33.44
       },
       {
         "label": "",
-        "value": 39.72
+        "value": 38.66
       },
       {
         "label": "",
-        "value": 111.0
+        "value": 108.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +95,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.34,
         "pct_change": 0.0,
-        "value": 6882921600
+        "value": 6683246400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5388944,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.23,
-        "pct_change": 0.0,
-        "value": 6315842368
+        "shares": 5353744,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.22,
+        "pct_change": -0.65,
+        "value": 6092560672
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +111,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.78,
         "pct_change": 0.45,
-        "value": 4013814032
+        "value": 3897372328
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2864300,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.65,
-        "pct_change": 0.47,
-        "value": 3356959600
+        "shares": 2883800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.66,
+        "pct_change": 0.0,
+        "value": 3281764400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,47 +127,47 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 2343531200
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1854500,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.42,
-        "pct_change": -4.17,
-        "value": 2173474000
+        "value": 2275544800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 1817600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 2130227200
+        "value": 2068428800
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 1494800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.34,
+        "pct_change": -20.16,
+        "value": 1701082400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
         "shares": 1344800,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.31,
-        "pct_change": 1.51,
-        "value": 1576105600
+        "pct_change": 0.0,
+        "value": 1530382400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1220200,
-        "date_reported": "2026-04-30",
+        "shares": 1217200,
+        "date_reported": "2026-06-30",
         "pct_held": 0.28,
         "pct_change": -0.25,
-        "value": 1430074400
+        "value": 1385173600
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 912812,
-        "date_reported": "2026-02-28",
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 913300,
+        "date_reported": "2026-06-30",
         "pct_held": 0.21,
-        "pct_change": 3.76,
-        "value": 1069815664
+        "pct_change": 35.2,
+        "value": 1039335400
       }
     ],
     "mutualfund_holders": []

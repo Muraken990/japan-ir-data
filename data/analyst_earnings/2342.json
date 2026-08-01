@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T04:56:14.641854",
+  "fetched_at": "2026-08-01T03:50:42.749777",
   "ticker": "2342",
   "ticker_full": "2342.T",
   "company_name": "TRANSGENIC GROUP INC",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 209.0,
+    "current": 210.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 13.24,
+        "eps_actual": -1.17,
+        "surprise_pct": -108.84
+      },
+      {
+        "date": "2015-08-05",
+        "eps_estimate": -1.06,
+        "eps_actual": -5.28,
+        "surprise_pct": -399.05
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 9.65,
+        "eps_actual": 10.7,
+        "surprise_pct": 10.89
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": -0.71,
+        "eps_actual": 0.12,
+        "surprise_pct": 116.9
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": -1.34,
+        "eps_actual": -2.16,
+        "surprise_pct": -61.68
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.46,
-    "institution_pct": 0.95,
+    "insider_pct": 8.19,
+    "institution_pct": 2.33,
     "major_holders": [
       {
         "label": "",
-        "value": 5.46
+        "value": 8.19
       },
       {
         "label": "",
-        "value": 0.95
+        "value": 2.33
       },
       {
         "label": "",
-        "value": 1.0
+        "value": 2.54
       },
       {
         "label": "",
-        "value": 1.0
+        "value": 2.0
       }
     ],
     "institutional_holders": [],

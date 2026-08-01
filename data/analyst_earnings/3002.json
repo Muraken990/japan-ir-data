@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:47.685106",
+  "fetched_at": "2026-08-01T04:44:12.876542",
   "ticker": "3002",
   "ticker_full": "3002.T",
   "company_name": "GUNZE LTD",
@@ -9,45 +9,83 @@
     "period": "2",
     "strong_buy": 1,
     "buy": 0,
-    "hold": 3,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
+    "total_analysts": 3,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3850.0,
+    "current": 4020.0,
     "high": 4400.0,
     "low": 4200.0,
     "mean": 4300.0,
     "median": 4300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-05",
+        "eps_estimate": 46.9,
+        "eps_actual": 39.06,
+        "surprise_pct": -16.73
+      },
+      {
+        "date": "2023-11-02",
+        "eps_estimate": 29.35,
+        "eps_actual": 31.4,
+        "surprise_pct": 6.98
+      },
+      {
+        "date": "2023-05-12",
+        "eps_estimate": -8.75,
+        "eps_actual": 18.58,
+        "surprise_pct": 312.29
+      },
+      {
+        "date": "2023-02-02",
+        "eps_estimate": 49.15,
+        "eps_actual": 48.28,
+        "surprise_pct": -1.78
+      },
+      {
+        "date": "2022-11-02",
+        "eps_estimate": 37.65,
+        "eps_actual": 29.94,
+        "surprise_pct": -20.48
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.9,
-    "institution_pct": 31.14,
+    "insider_pct": 7.53,
+    "institution_pct": 27.24,
     "major_holders": [
       {
         "label": "",
-        "value": 6.9
+        "value": 7.53
       },
       {
         "label": "",
-        "value": 31.14
+        "value": 27.24
       },
       {
         "label": "",
-        "value": 33.45
+        "value": 29.46
       },
       {
         "label": "",
-        "value": 68.0
+        "value": 66.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.97,
         "pct_change": 0.0,
-        "value": 2398519200
+        "value": 2504427840
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 1.34,
         "pct_change": 0.0,
-        "value": 1623614300
+        "value": 1695306360
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +111,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.87,
         "pct_change": 2.76,
-        "value": 1059951200
+        "value": 1106754240
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -81,7 +119,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 778855000
+        "value": 813246000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,7 +127,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 629090000
+        "value": 656868000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -97,7 +135,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 568260000
+        "value": 593352000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -105,7 +143,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.38,
         "pct_change": 1.11,
-        "value": 457380000
+        "value": 477576000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -113,7 +151,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.35,
         "pct_change": 0.91,
-        "value": 426633900
+        "value": 445472280
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
@@ -121,7 +159,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 350735000
+        "value": 366222000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -129,7 +167,7 @@
         "date_reported": "2026-01-31",
         "pct_held": 0.24,
         "pct_change": 17.76,
-        "value": 296065000
+        "value": 309138000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:00:49.184800",
+  "fetched_at": "2026-08-01T04:48:26.354912",
   "ticker": "7313",
   "ticker_full": "7313.T",
   "company_name": "TS TECH CO.LTD.",
@@ -13,27 +13,163 @@
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 5,
-    "recommendation_key": "underperform",
-    "recommendation_mean": 3.6
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1735.0,
+    "current": 1838.0,
     "high": 2000.0,
     "low": 1150.0,
     "mean": 1644.0,
     "median": 1670.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-08",
+        "eps_estimate": 38.8,
+        "eps_actual": 49.71,
+        "surprise_pct": 28.12
+      },
+      {
+        "date": "2023-08-10",
+        "eps_estimate": 22.4,
+        "eps_actual": 1.0,
+        "surprise_pct": -95.54
+      },
+      {
+        "date": "2023-05-11",
+        "eps_estimate": 37.25,
+        "eps_actual": 14.63,
+        "surprise_pct": -60.72
+      },
+      {
+        "date": "2020-01-29",
+        "eps_estimate": 41.2,
+        "eps_actual": 33.67,
+        "surprise_pct": -18.26
+      },
+      {
+        "date": "2019-11-07",
+        "eps_estimate": 47.2,
+        "eps_actual": 34.7,
+        "surprise_pct": -26.49
+      }
+    ]
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
-    "institutional_holders": [],
+    "has_data": true,
+    "insider_pct": 29.92,
+    "institution_pct": 28.3,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 29.92
+      },
+      {
+        "label": "",
+        "value": 28.3
+      },
+      {
+        "label": "",
+        "value": 40.39
+      },
+      {
+        "label": "",
+        "value": 88.0
+      }
+    ],
+    "institutional_holders": [
+      {
+        "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
+        "shares": 1434245,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.16,
+        "pct_change": 0.0,
+        "value": 2636142310
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
+        "shares": 1113800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.9,
+        "pct_change": 0.0,
+        "value": 2047164400
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 1022186,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.82,
+        "pct_change": 0.0,
+        "value": 1878777868
+      },
+      {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 962100,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.78,
+        "pct_change": 0.0,
+        "value": 1768339800
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 635400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.51,
+        "pct_change": 0.0,
+        "value": 1167865200
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 623390,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.5,
+        "pct_change": 2.18,
+        "value": 1145790820
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 374700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 7.03,
+        "value": 688698600
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 309486,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": -12.45,
+        "value": 568835268
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 306300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.25,
+        "pct_change": -0.26,
+        "value": 562979400
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 278100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.22,
+        "pct_change": 1.0,
+        "value": 511147800
+      }
+    ],
     "mutualfund_holders": []
   }
 }

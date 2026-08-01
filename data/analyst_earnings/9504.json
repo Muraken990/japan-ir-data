@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:54.698640",
+  "fetched_at": "2026-08-01T04:52:44.661589",
   "ticker": "9504",
   "ticker_full": "9504.T",
   "company_name": "CHUGOKU ELECTRIC POWER CO INC",
@@ -13,25 +13,58 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 898.8,
-    "high": 1140.0,
-    "low": 890.0,
-    "mean": 1017.5,
-    "median": 1020.0
+    "current": 940.6,
+    "high": 1170.0,
+    "low": 910.0,
+    "mean": 1003.3333,
+    "median": 930.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 24.5,
+        "eps_actual": -10.49,
+        "surprise_pct": -142.82
+      },
+      {
+        "date": "2026-04-28",
+        "eps_estimate": 39.6,
+        "eps_actual": -4.63,
+        "surprise_pct": -111.69
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 6.7,
+        "eps_actual": 15.15,
+        "surprise_pct": 126.12
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 88.0,
+        "eps_actual": 105.55,
+        "surprise_pct": 19.94
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 82.7,
+        "eps_actual": 74.54,
+        "surprise_pct": -9.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 11.4,
-    "institution_pct": 20.25,
+    "institution_pct": 19.27,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +72,11 @@
       },
       {
         "label": "",
-        "value": 20.25
+        "value": 19.27
       },
       {
         "label": "",
-        "value": 22.86
+        "value": 21.76
       },
       {
         "label": "",
@@ -57,17 +90,17 @@
         "date_reported": "2022-06-30",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 11670917
+        "value": 12213690
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 4562754,
-        "date_reported": "2026-01-31",
+        "shares": 4550454,
+        "date_reported": "2026-04-30",
         "pct_held": 1.18,
-        "pct_change": 0.52,
-        "value": 4101003239
+        "pct_change": -0.27,
+        "value": 4280156921
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,23 +108,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 3.29,
-        "value": 2767298205
+        "value": 2895995393
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2295000,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.59,
-        "pct_change": 0.39,
-        "value": 2062745971
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1232500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.32,
-        "pct_change": 1.07,
-        "value": 1107770984
+        "shares": 2308000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.6,
+        "pct_change": 0.0,
+        "value": 2170904743
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -99,15 +124,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 1096528794
+        "value": 1147524445
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 1200000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.31,
+        "pct_change": -0.25,
+        "value": 1128719970
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 822915,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.21,
-        "pct_change": 12.3,
-        "value": 739635991
+        "shares": 922232,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.24,
+        "pct_change": 12.07,
+        "value": 867451396
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -115,31 +148,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 2.78,
-        "value": 625500976
+        "value": 654590800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 606467,
-        "date_reported": "2026-02-28",
+        "shares": 624043,
+        "date_reported": "2026-05-31",
         "pct_held": 0.16,
-        "pct_change": 0.94,
-        "value": 545092532
+        "pct_change": 2.9,
+        "value": 586974830
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 499300,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": -12.82,
-        "value": 448770833
+        "shares": 542072,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": 8.57,
+        "value": 509872909
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
         "shares": 450700,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 405089154
+        "value": 423928408
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:55.996025",
+  "fetched_at": "2026-08-01T04:52:45.686155",
   "ticker": "3110",
   "ticker_full": "3110.T",
   "company_name": "NITTO BOSEKI CO",
@@ -14,36 +14,74 @@
     "strong_sell": 0,
     "total_analysts": 10,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 3960.0,
+    "current": 2800.0,
     "high": 6600.0,
     "low": 4400.0,
-    "mean": 5451.1113,
+    "mean": 5391.1113,
     "median": 5480.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 20.19,
+        "eps_actual": 36.58,
+        "surprise_pct": 81.18
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 152.29,
+        "eps_actual": 155.1,
+        "surprise_pct": 1.84
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 15.58,
+        "eps_actual": 18.77,
+        "surprise_pct": 20.48
+      },
+      {
+        "date": "2025-02-05",
+        "eps_estimate": 13.95,
+        "eps_actual": 22.03,
+        "surprise_pct": 57.88
+      },
+      {
+        "date": "2024-10-31",
+        "eps_estimate": 17.03,
+        "eps_actual": 11.86,
+        "surprise_pct": -30.32
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 19.9,
-    "institution_pct": 39.43,
+    "insider_pct": 16.74,
+    "institution_pct": 44.23,
     "major_holders": [
       {
         "label": "",
-        "value": 19.9
+        "value": 16.74
       },
       {
         "label": "",
-        "value": 39.43
+        "value": 44.23
       },
       {
         "label": "",
-        "value": 49.22
+        "value": 53.13
       },
       {
         "label": "",
@@ -53,11 +91,11 @@
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2112330,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.12,
-        "pct_change": 0.81,
-        "value": 8364826800
+        "shares": 2197830,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.17,
+        "pct_change": 4.05,
+        "value": 6153924000
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.86,
         "pct_change": -21.03,
-        "value": 6431040000
+        "value": 4547200000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,63 +111,63 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.77,
         "pct_change": 7.12,
-        "value": 5776115400
+        "value": 4084122000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
-        "shares": 1000000,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.53,
-        "pct_change": 1.0,
-        "value": 3960000000
+        "shares": 1451000,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.77,
+        "pct_change": 45.1,
+        "value": 4062800000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 867500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.46,
-        "pct_change": 1.82,
-        "value": 3435300000
+        "shares": 889500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.47,
+        "pct_change": 0.0,
+        "value": 2490600000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 532555,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": 2.21,
-        "value": 2108917800
+        "shares": 561055,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 5.35,
+        "value": 1570954000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 485500,
-        "date_reported": "2026-04-30",
+        "shares": 497900,
+        "date_reported": "2026-06-30",
         "pct_held": 0.26,
-        "pct_change": -0.21,
-        "value": 1922580000
+        "pct_change": 0.59,
+        "value": 1394120000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 315530,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.17,
+        "pct_change": 1.45,
+        "value": 883484000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
         "shares": 314500,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.17,
-        "pct_change": -7.5,
-        "value": 1245420000
+        "pct_change": 0.0,
+        "value": 880600000
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 311015,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.16,
-        "pct_change": -1.13,
-        "value": 1231619400
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 262000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.14,
-        "pct_change": -47.23,
-        "value": 1037520000
+        "holder": "THORNBURG INVESTMENT TRUST-Thornburg International Growth Fund",
+        "shares": 241500,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.13,
+        "pct_change": 1.0,
+        "value": 676200000
       }
     ],
     "mutualfund_holders": []

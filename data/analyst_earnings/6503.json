@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:15:20.433274",
+  "fetched_at": "2026-08-01T05:02:10.924495",
   "ticker": "6503",
   "ticker_full": "6503.T",
   "company_name": "MITSUBISHI ELECTRIC CORP",
@@ -8,32 +8,33 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 3,
-    "buy": 8,
+    "buy": 7,
     "hold": 3,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 15,
+    "total_analysts": 14,
     "recommendation_key": "buy",
     "recommendation_mean": 1.92857
   },
   "target_prices": {
     "has_data": true,
-    "current": 6019.0,
+    "current": 5912.0,
     "high": 8000.0,
     "low": 3100.0,
-    "mean": 6571.4287,
-    "median": 6750.0
+    "mean": 6785.7144,
+    "median": 6900.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-31",
-      "eps_estimate": 51.26,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-31",
+        "eps_estimate": 51.26,
+        "eps_actual": 53.66,
+        "surprise_pct": 4.68
+      },
       {
         "date": "2026-04-28",
         "eps_estimate": 40.03,
@@ -57,35 +58,29 @@
         "eps_estimate": 30.68,
         "eps_actual": 43.89,
         "surprise_pct": 43.04
-      },
-      {
-        "date": "2025-04-28",
-        "eps_estimate": 31.46,
-        "eps_actual": 36.62,
-        "surprise_pct": 16.38
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 2.95,
-    "institution_pct": 62.59,
+    "insider_pct": 2.77,
+    "institution_pct": 61.58,
     "major_holders": [
       {
         "label": "",
-        "value": 2.95
+        "value": 2.77
       },
       {
         "label": "",
-        "value": 62.59
+        "value": 61.58
       },
       {
         "label": "",
-        "value": 64.49
+        "value": 63.33
       },
       {
         "label": "",
-        "value": 450.0
+        "value": 461.0
       }
     ],
     "institutional_holders": [
@@ -95,15 +90,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 50.49,
-        "value": 198241784
-      },
-      {
-        "holder": "Boston Common Asset Management, LLC",
-        "shares": 8951,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": -18.49,
-        "value": 53876069
+        "value": 194717632
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
@@ -111,17 +98,25 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 312988000
+        "value": 307424000
+      },
+      {
+        "holder": "Boston Common Asset Management, LLC",
+        "shares": 7148,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -20.14,
+        "value": 42258976
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 28893395,
-        "date_reported": "2026-01-31",
+        "shares": 28887895,
+        "date_reported": "2026-04-30",
         "pct_held": 1.37,
-        "pct_change": -0.58,
-        "value": 173909344505
+        "pct_change": -0.02,
+        "value": 170785235240
       },
       {
         "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
@@ -129,7 +124,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.14,
         "pct_change": -1.88,
-        "value": 144984468200
+        "value": 142407073600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -137,7 +132,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.9,
         "pct_change": 2.4,
-        "value": 114954557666
+        "value": 112911005968
       },
       {
         "holder": "MFS Series Trust XVII-MFS International Equity Fund",
@@ -145,23 +140,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.84,
         "pct_change": -5.08,
-        "value": 106837250000
-      },
-      {
-        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
-        "shares": 13640100,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.65,
-        "pct_change": -15.79,
-        "value": 82099761900
+        "value": 104938000000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 13489900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.64,
-        "pct_change": 0.84,
-        "value": 81195708100
+        "shares": 14009900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.66,
+        "pct_change": 0.82,
+        "value": 82826528800
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -169,7 +156,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.63,
         "pct_change": -7.79,
-        "value": 80562509300
+        "value": 79130346400
+      },
+      {
+        "holder": "NEW PERSPECTIVE FUND",
+        "shares": 12716700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.6,
+        "pct_change": 3.82,
+        "value": 75181130400
+      },
+      {
+        "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
+        "shares": 10293500,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.49,
+        "pct_change": -24.54,
+        "value": 60855172000
       },
       {
         "holder": "First Eagle Funds-First Eagle Global Fund",
@@ -177,23 +180,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.4,
         "pct_change": -41.45,
-        "value": 50352546400
+        "value": 49457427200
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 7924300,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.37,
-        "pct_change": 0.96,
-        "value": 47696361700
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 7080376,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.34,
-        "pct_change": 1.19,
-        "value": 42616783144
+        "shares": 8228100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.39,
+        "pct_change": 6.21,
+        "value": 48644527200
       }
     ]
   }

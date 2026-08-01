@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:35.943206",
+  "fetched_at": "2026-08-01T04:40:01.154403",
   "ticker": "5122",
   "ticker_full": "5122.T",
   "company_name": "OKAMOTO INDUSTRIES INC",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5340.0,
+    "current": 6000.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-02-06",
+        "eps_estimate": 50.47,
+        "eps_actual": 146.15,
+        "surprise_pct": 189.58
+      },
+      {
+        "date": "2016-08-02",
+        "eps_estimate": 51.4,
+        "eps_actual": 101.15,
+        "surprise_pct": 96.81
+      },
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 56.66,
+        "eps_actual": 116.05,
+        "surprise_pct": 104.82
+      },
+      {
+        "date": "2015-08-02",
+        "eps_estimate": 51.97,
+        "eps_actual": 128.45,
+        "surprise_pct": 147.16
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 5.33,
+        "eps_actual": -20.5,
+        "surprise_pct": -484.98
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 27.61,
-    "institution_pct": 31.63,
+    "insider_pct": 29.06,
+    "institution_pct": 31.98,
     "major_holders": [
       {
         "label": "",
-        "value": 27.61
+        "value": 29.06
       },
       {
         "label": "",
-        "value": 31.63
+        "value": 31.98
       },
       {
         "label": "",
-        "value": 43.7
+        "value": 45.09
       },
       {
         "label": "",
-        "value": 55.0
+        "value": 54.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +89,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.98,
         "pct_change": 0.29,
-        "value": 934339800
+        "value": 1049820000
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -64,7 +97,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.61,
         "pct_change": 0.0,
-        "value": 580340520
+        "value": 652068000
       },
       {
         "holder": "Tweedy Browne Global Value Fund",
@@ -72,7 +105,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 559765500
+        "value": 628950000
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -80,7 +113,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 370062000
+        "value": 415800000
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -88,7 +121,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.27,
         "pct_change": -6.14,
-        "value": 261126000
+        "value": 293400000
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -96,7 +129,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.25,
         "pct_change": 0.0,
-        "value": 234426000
+        "value": 263400000
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -104,7 +137,7 @@
         "date_reported": "2024-07-31",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 200784000
+        "value": 225600000
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -112,7 +145,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.2,
         "pct_change": -3.05,
-        "value": 186900000
+        "value": 210000000
       },
       {
         "holder": "Tweedy Browne Value Fund",
@@ -120,7 +153,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.16,
         "pct_change": 0.0,
-        "value": 149546700
+        "value": 168030000
       },
       {
         "holder": "iShares Core MSCI Total International Stock ETF",
@@ -128,7 +161,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 140442000
+        "value": 157800000
       }
     ],
     "mutualfund_holders": []

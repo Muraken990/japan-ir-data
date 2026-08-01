@@ -1,119 +1,149 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:48.480813",
+  "fetched_at": "2026-08-01T04:53:39.833160",
   "ticker": "6976",
   "ticker_full": "6976.T",
   "company_name": "TAIYO YUDEN CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 3,
     "buy": 5,
-    "hold": 7,
+    "hold": 6,
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 16,
     "recommendation_key": "hold",
-    "recommendation_mean": 2.8125
+    "recommendation_mean": 2.625
   },
   "target_prices": {
     "has_data": true,
-    "current": 23100.0,
+    "current": 10225.0,
     "high": 27000.0,
-    "low": 2900.0,
-    "mean": 14431.25,
-    "median": 16200.0
+    "low": 3000.0,
+    "mean": 16312.5,
+    "median": 18100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": 36.74,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 12.0,
+        "eps_actual": 17.42,
+        "surprise_pct": 45.12
+      },
+      {
+        "date": "2026-02-06",
+        "eps_estimate": 33.06,
+        "eps_actual": 56.7,
+        "surprise_pct": 71.53
+      },
+      {
+        "date": "2025-11-05",
+        "eps_estimate": 40.19,
+        "eps_actual": 51.39,
+        "surprise_pct": 27.87
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 10.29,
+        "eps_actual": -7.02,
+        "surprise_pct": -168.22
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": -23.09,
+        "eps_actual": -46.82,
+        "surprise_pct": -102.76
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 1.67,
-    "institution_pct": 61.2,
+    "insider_pct": 1.61,
+    "institution_pct": 57.84,
     "major_holders": [
       {
         "label": "",
-        "value": 1.67
+        "value": 1.61
       },
       {
         "label": "",
-        "value": 61.2
+        "value": 57.84
       },
       {
         "label": "",
-        "value": 62.24
+        "value": 58.78
       },
       {
         "label": "",
-        "value": 143.0
+        "value": 141.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1787745,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.37,
-        "pct_change": 1.25,
-        "value": 41305848225
+        "shares": 1794445,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.33,
+        "pct_change": 0.37,
+        "value": 18348200125
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 1184548,
         "date_reported": "2026-03-31",
-        "pct_held": 0.91,
+        "pct_held": 0.87,
         "pct_change": 1.75,
-        "value": 27368981540
+        "value": 12112003300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 903600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.69,
-        "pct_change": 0.5,
-        "value": 20877678000
+        "shares": 890900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.66,
+        "pct_change": 0.0,
+        "value": 9109452500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 761215,
         "date_reported": "2026-04-30",
-        "pct_held": 0.58,
+        "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 17587872575
+        "value": 7783423375
       },
       {
-        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
-        "shares": 574200,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.44,
-        "pct_change": -0.14,
-        "value": 13266891000
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 641299,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.47,
+        "pct_change": 32.58,
+        "value": 6557282275
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 542801,
         "date_reported": "2026-04-30",
-        "pct_held": 0.42,
+        "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 12541417105
+        "value": 5550140225
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 489500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.38,
+        "shares": 489300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.36,
         "pct_change": 0.43,
-        "value": 11309897500
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 483699,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.37,
-        "pct_change": 19.11,
-        "value": 11175865395
+        "value": 5003092500
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -121,15 +151,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.23,
         "pct_change": 4.74,
-        "value": 7070130000
+        "value": 3128850000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
         "shares": 280950,
         "date_reported": "2026-04-30",
-        "pct_held": 0.22,
+        "pct_held": 0.21,
         "pct_change": 3.58,
-        "value": 6491349750
+        "value": 2872713750
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 282159,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.21,
+        "pct_change": 15.21,
+        "value": 2885075775
       }
     ],
     "mutualfund_holders": []

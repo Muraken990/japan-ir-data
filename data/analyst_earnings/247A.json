@@ -1,32 +1,54 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:36.149431",
+  "fetched_at": "2026-08-01T04:41:03.859057",
   "ticker": "247A",
   "ticker_full": "247A.T",
   "company_name": "AI ROBOTICS INC",
   "analyst_recommendations": {
     "has_data": true,
+    "period": "2",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 0,
     "recommendation_key": "none",
-    "recommendation_mean": null,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_mean": null
   },
   "target_prices": {
-    "has_data": false
+    "has_data": true,
+    "current": 862.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": false
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 45.21,
+    "institution_pct": 12.71,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 45.21
+      },
+      {
+        "label": "",
+        "value": 12.71
+      },
+      {
+        "label": "",
+        "value": 23.19
+      },
+      {
+        "label": "",
+        "value": 18.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

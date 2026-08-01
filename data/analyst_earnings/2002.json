@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:08:18.475864",
+  "fetched_at": "2026-08-01T04:54:48.235448",
   "ticker": "2002",
   "ticker_full": "2002.T",
   "company_name": "NISSHIN SEIFUN GROUP INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1950.5,
-    "high": 2200.0,
+    "current": 2012.5,
+    "high": 2150.0,
     "low": 2000.0,
-    "mean": 2110.0,
+    "mean": 2090.0,
     "median": 2100.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-30",
-      "eps_estimate": 31.41,
+      "date": "2026-10-29",
+      "eps_estimate": 29.33,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 31.41,
+        "eps_actual": 33.41,
+        "surprise_pct": 6.37
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 27.11,
@@ -57,19 +63,13 @@
         "eps_estimate": 17.06,
         "eps_actual": 14.64,
         "surprise_pct": -14.19
-      },
-      {
-        "date": "2025-01-28",
-        "eps_estimate": 38.13,
-        "eps_actual": 34.21,
-        "surprise_pct": -10.28
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.1,
-    "institution_pct": 45.06,
+    "institution_pct": 43.3,
     "major_holders": [
       {
         "label": "",
@@ -77,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 45.06
+        "value": 43.3
       },
       {
         "label": "",
-        "value": 54.36
+        "value": 52.24
       },
       {
         "label": "",
@@ -91,11 +91,11 @@
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3576992,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.27,
-        "pct_change": 0.61,
-        "value": 6976922896
+        "shares": 3554692,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.26,
+        "pct_change": -0.62,
+        "value": 7153817650
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,31 +103,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.81,
         "pct_change": 2.72,
-        "value": 4462390959
+        "value": 4604235737
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1543600,
-        "date_reported": "2026-04-30",
+        "shares": 1556600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.55,
-        "pct_change": 0.59,
-        "value": 3010791800
+        "pct_change": 0.0,
+        "value": 3132657500
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 1173100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.42,
-        "pct_change": 4.47,
-        "value": 2288131550
+        "shares": 1242200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.44,
+        "pct_change": 3.17,
+        "value": 2499927500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 797500,
-        "date_reported": "2026-04-30",
+        "shares": 803500,
+        "date_reported": "2026-06-30",
         "pct_held": 0.28,
         "pct_change": -0.25,
-        "value": 1555523750
+        "value": 1617043750
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -135,23 +135,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.21,
         "pct_change": 14.15,
-        "value": 1147089050
+        "value": 1183551250
       },
       {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
-        "shares": 500626,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.18,
-        "pct_change": 11.15,
-        "value": 976471013
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 573600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.2,
+        "pct_change": 34.21,
+        "value": 1154370000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 518631,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.18,
-        "pct_change": 0.93,
-        "value": 1011589765
+        "shares": 533503,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.19,
+        "pct_change": 2.87,
+        "value": 1073674787
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -159,15 +159,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1015633152
+        "value": 1047916800
       },
       {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 444845,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.16,
-        "pct_change": -10.83,
-        "value": 867670172
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
+        "shares": 518725,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.18,
+        "pct_change": 3.62,
+        "value": 1043934062
       }
     ],
     "mutualfund_holders": []

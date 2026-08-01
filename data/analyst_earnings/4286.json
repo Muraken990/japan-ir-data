@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:14:10.518758",
+  "fetched_at": "2026-08-01T04:06:14.233172",
   "ticker": "4286",
   "ticker_full": "4286.T",
   "company_name": "CL HOLDINGS INC",
@@ -17,15 +17,24 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1125.0,
+    "current": 1154.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-10-27",
+        "eps_estimate": 31.9,
+        "eps_actual": 27.61,
+        "surprise_pct": -13.45
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
@@ -42,11 +51,11 @@
       },
       {
         "label": "",
-        "value": 9.16
+        "value": 9.17
       },
       {
         "label": "",
-        "value": 15.0
+        "value": 14.0
       }
     ],
     "institutional_holders": [],

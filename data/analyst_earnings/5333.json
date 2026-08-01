@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:10:30.316403",
+  "fetched_at": "2026-08-01T04:56:53.641884",
   "ticker": "5333",
   "ticker_full": "5333.T",
   "company_name": "NGK CORP",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.85714
   },
   "target_prices": {
     "has_data": true,
-    "current": 7720.0,
-    "high": 7100.0,
-    "low": 4900.0,
-    "mean": 6325.7144,
-    "median": 6500.0
+    "current": 5594.0,
+    "high": 9000.0,
+    "low": 5530.0,
+    "mean": 6940.0,
+    "median": 6800.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-30",
-      "eps_estimate": 88.26,
+      "date": "2026-10-30",
+      "eps_estimate": 99.16,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 64.18,
+        "eps_actual": 103.26,
+        "surprise_pct": 60.89
+      },
       {
         "date": "2026-04-29",
         "eps_estimate": 20.37,
@@ -57,19 +63,13 @@
         "eps_estimate": 88.26,
         "eps_actual": 61.07,
         "surprise_pct": -30.81
-      },
-      {
-        "date": "2025-06-22",
-        "eps_estimate": 51.63,
-        "eps_actual": 47.49,
-        "surprise_pct": -8.02
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.73,
-    "institution_pct": 60.36,
+    "institution_pct": 57.02,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 60.36
+        "value": 57.02
       },
       {
         "label": "",
-        "value": 62.06
+        "value": 58.63
       },
       {
         "label": "",
-        "value": 222.0
+        "value": 228.0
       }
     ],
     "institutional_holders": [
@@ -95,17 +95,17 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.04,
         "pct_change": 7.21,
-        "value": 821369400
+        "value": 595173630
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3811652,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.33,
-        "pct_change": 1.1,
-        "value": 29425953440
+        "shares": 3779252,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.32,
+        "pct_change": -0.85,
+        "value": 21141135688
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.01,
         "pct_change": -10.96,
-        "value": 22252128000
+        "value": 16124145600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,15 +121,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.87,
         "pct_change": 0.67,
-        "value": 19198767640
+        "value": 13911645878
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1628700,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.57,
-        "pct_change": 0.56,
-        "value": 12573564000
+        "shares": 1648700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.58,
+        "pct_change": 0.0,
+        "value": 9222827800
       },
       {
         "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
@@ -137,23 +137,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 10027508000
-      },
-      {
-        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 1174500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.41,
-        "pct_change": 4.47,
-        "value": 9067140000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 925400,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.32,
-        "pct_change": -1.28,
-        "value": 7144088000
+        "value": 7266046600
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -161,7 +145,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 6.94,
-        "value": 7114752000
+        "value": 5155430400
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 894900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.31,
+        "pct_change": -0.22,
+        "value": 5006070600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -169,7 +161,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.24,
         "pct_change": 1.05,
-        "value": 5406316000
+        "value": 3917478200
+      },
+      {
+        "holder": "BlackRock Funds-BlackRock Advantage International Fund",
+        "shares": 690300,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.24,
+        "pct_change": 34.82,
+        "value": 3861538200
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -177,7 +177,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.23,
         "pct_change": -1.64,
-        "value": 5144608000
+        "value": 3727841600
       }
     ]
   }

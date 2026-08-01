@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:49.159614",
+  "fetched_at": "2026-08-01T04:44:14.433381",
   "ticker": "7630",
   "ticker_full": "7630.T",
   "company_name": "ICHIBANYA CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
@@ -18,20 +18,34 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 868.0,
+    "current": 934.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-12-22",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 57.9,
-    "institution_pct": 7.5,
+    "institution_pct": 7.52,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +53,11 @@
       },
       {
         "label": "",
-        "value": 7.5
+        "value": 7.52
       },
       {
         "label": "",
-        "value": 17.82
+        "value": 17.86
       },
       {
         "label": "",
@@ -54,18 +68,10 @@
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1073385,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.67,
         "pct_change": 0.0,
-        "value": 931698180
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 622600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.39,
-        "pct_change": 0.73,
-        "value": 540416800
+        "value": 1002541590
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,23 +79,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 542092040
+        "value": 583311020
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 629100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.39,
+        "pct_change": 0.0,
+        "value": 587579400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 299800,
-        "date_reported": "2026-04-30",
+        "shares": 299000,
+        "date_reported": "2026-06-30",
         "pct_held": 0.19,
         "pct_change": -0.27,
-        "value": 260226400
+        "value": 279266000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 248040,
-        "date_reported": "2026-01-31",
+        "shares": 254740,
+        "date_reported": "2026-04-30",
         "pct_held": 0.16,
-        "pct_change": 0.0,
-        "value": 215298720
+        "pct_change": 2.7,
+        "value": 237927160
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,31 +111,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.14,
         "pct_change": 8.33,
-        "value": 195204520
+        "value": 210047260
       },
       {
         "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
-        "shares": 159100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.1,
-        "pct_change": 0.0,
-        "value": 138098800
+        "shares": 196700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.12,
+        "pct_change": 10.01,
+        "value": 183717800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 133849,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.08,
-        "pct_change": -1.14,
-        "value": 116180932
+        "shares": 140195,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.09,
+        "pct_change": 4.74,
+        "value": 130942130
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 111460,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.07,
-        "pct_change": -26.07,
-        "value": 96747280
+        "shares": 125960,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.08,
+        "pct_change": 13.01,
+        "value": 117646640
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -129,7 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.06,
         "pct_change": 0.0,
-        "value": 77356160
+        "value": 83238080
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:40.806536",
+  "fetched_at": "2026-08-01T04:40:06.761016",
   "ticker": "8392",
   "ticker_full": "8392.T",
   "company_name": "OITA BANK",
@@ -17,46 +17,79 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2453.0,
+    "current": 2565.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-07",
+        "eps_estimate": 34.67,
+        "eps_actual": 37.54,
+        "surprise_pct": 8.28
+      },
+      {
+        "date": "2015-08-09",
+        "eps_estimate": 27.68,
+        "eps_actual": 52.24,
+        "surprise_pct": 88.74
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 21.26,
+        "eps_actual": 7.66,
+        "surprise_pct": -63.96
+      },
+      {
+        "date": "2015-02-08",
+        "eps_estimate": 25.02,
+        "eps_actual": 28.7,
+        "surprise_pct": 14.72
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 18.17,
+        "eps_actual": 41.16,
+        "surprise_pct": 126.48
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.99,
-    "institution_pct": 24.7,
+    "insider_pct": 6.91,
+    "institution_pct": 27.43,
     "major_holders": [
       {
         "label": "",
-        "value": 6.99
+        "value": 6.91
       },
       {
         "label": "",
-        "value": 24.7
+        "value": 27.43
       },
       {
         "label": "",
-        "value": 26.56
+        "value": 29.46
       },
       {
         "label": "",
-        "value": 53.0
+        "value": 59.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1030410,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.31,
         "pct_change": 0.0,
-        "value": 2527595730
+        "value": 2643001650
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -64,7 +97,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.87,
         "pct_change": -0.22,
-        "value": 1679348330
+        "value": 1756024650
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -72,39 +105,47 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": 3.23,
-        "value": 745699735
+        "value": 779747175
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 259335,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.33,
+        "pct_change": 2.29,
+        "value": 665194275
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 255000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.32,
-        "pct_change": -4.32,
-        "value": 625515000
+        "pct_change": 0.0,
+        "value": 654075000
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 253535,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.32,
-        "pct_change": -2.69,
-        "value": 621921355
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 224700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.29,
+        "pct_change": 10.04,
+        "value": 576355500
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 153790,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.2,
-        "pct_change": -1.11,
-        "value": 377246870
+        "shares": 144774,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.18,
+        "pct_change": -5.86,
+        "value": 371345310
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
         "shares": 97700,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.12,
-        "pct_change": 1.14,
-        "value": 239658100
+        "pct_change": 0.0,
+        "value": 250600500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -112,23 +153,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 207634185
+        "value": 217114425
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
         "shares": 76900,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 188635700
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
-        "shares": 70500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.09,
-        "pct_change": 0.0,
-        "value": 172936500
+        "value": 197248500
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:33:17.888549",
+  "fetched_at": "2026-08-01T04:22:16.251576",
   "ticker": "5902",
   "ticker_full": "5902.T",
   "company_name": "HOKKAN HOLDINGS LIMITED",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2345.0,
+    "current": 2386.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2013-02-07",
+        "eps_estimate": 41.74,
+        "eps_actual": 44.1,
+        "surprise_pct": 5.65
+      },
+      {
+        "date": "2012-08-08",
+        "eps_estimate": 69.93,
+        "eps_actual": 88.55,
+        "surprise_pct": 26.63
+      },
+      {
+        "date": "2012-05-10",
+        "eps_estimate": -83.38,
+        "eps_actual": -29.0,
+        "surprise_pct": 65.22
+      },
+      {
+        "date": "2012-02-09",
+        "eps_estimate": 57.81,
+        "eps_actual": 25.75,
+        "surprise_pct": -55.45
+      },
+      {
+        "date": "2011-11-09",
+        "eps_estimate": 47.09,
+        "eps_actual": 40.45,
+        "surprise_pct": -14.09
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 7.47,
-    "institution_pct": 30.6,
+    "institution_pct": 30.48,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 30.6
+        "value": 30.48
       },
       {
         "label": "",
-        "value": 33.07
+        "value": 32.94
       },
       {
         "label": "",
-        "value": 33.0
+        "value": 31.0
       }
     ],
     "institutional_holders": [],

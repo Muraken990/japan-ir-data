@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:30.830743",
+  "fetched_at": "2026-08-01T04:40:57.527886",
   "ticker": "4971",
   "ticker_full": "4971.T",
   "company_name": "MEC COMPANY LTD",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 10740.0,
-    "high": 10000.0,
-    "low": 7800.0,
-    "mean": 8900.0,
-    "median": 8900.0
+    "current": 8520.0,
+    "high": 13000.0,
+    "low": 9500.0,
+    "mean": 11250.0,
+    "median": 11250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-10",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2023-11-10",
+        "eps_estimate": 23.0,
+        "eps_actual": 33.6,
+        "surprise_pct": 46.09
+      },
+      {
+        "date": "2023-08-09",
+        "eps_estimate": 32.2,
+        "eps_actual": 52.47,
+        "surprise_pct": 62.95
+      },
+      {
+        "date": "2009-05-14",
+        "eps_estimate": -12.27,
+        "eps_actual": -22.7,
+        "surprise_pct": -85.0
+      },
+      {
+        "date": "2009-01-30",
+        "eps_estimate": 3.98,
+        "eps_actual": -1.38,
+        "surprise_pct": -134.67
+      },
+      {
+        "date": "2008-10-31",
+        "eps_estimate": 17.34,
+        "eps_actual": 17.07,
+        "surprise_pct": -1.56
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.45,
-    "institution_pct": 53.22,
+    "institution_pct": 51.83,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 53.22
+        "value": 51.83
       },
       {
         "label": "",
-        "value": 65.26
+        "value": 63.55
       },
       {
         "label": "",
-        "value": 79.0
+        "value": 81.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 211970,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.08,
-        "pct_change": 0.0,
-        "value": 2276557800
+        "shares": 209370,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.07,
+        "pct_change": -1.23,
+        "value": 1783832400
       },
       {
         "holder": "Manager Directed Portfolios-Hood River International Opportunity Fund",
@@ -65,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.93,
         "pct_change": 10.94,
-        "value": 1960050000
+        "value": 1554900000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,23 +111,39 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.73,
         "pct_change": 2.72,
-        "value": 1540051560
+        "value": 1221716880
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
         "shares": 128600,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.66,
         "pct_change": 0.0,
-        "value": 1381164000
+        "value": 1095672000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 88900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.45,
+        "pct_change": 35.52,
+        "value": 757428000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 60000,
-        "date_reported": "2026-01-31",
+        "shares": 68800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.35,
+        "pct_change": 14.67,
+        "value": 586176000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 60600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.31,
-        "pct_change": 22.7,
-        "value": 644400000
+        "pct_change": 5.39,
+        "value": 516312000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,39 +151,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 620772000
+        "value": 492456000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 54400,
-        "date_reported": "2026-01-31",
+        "shares": 55200,
+        "date_reported": "2026-04-30",
         "pct_held": 0.28,
-        "pct_change": 0.0,
-        "value": 584256000
+        "pct_change": 1.47,
+        "value": 470304000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 52600,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 564924000
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 30188,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.15,
-        "pct_change": -12.02,
-        "value": 324219120
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
-        "shares": 24200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.12,
-        "pct_change": 21.0,
-        "value": 259908000
+        "value": 448152000
       }
     ],
     "mutualfund_holders": []

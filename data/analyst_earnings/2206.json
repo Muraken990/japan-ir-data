@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:52.531011",
+  "fetched_at": "2026-08-01T04:52:42.029489",
   "ticker": "2206",
   "ticker_full": "2206.T",
   "company_name": "EZAKI GLICO CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5304.0,
+    "current": 5054.0,
     "high": 4600.0,
     "low": 3600.0,
     "mean": 4100.0,
     "median": 4100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 11.26,
+        "eps_actual": 17.94,
+        "surprise_pct": 59.28
+      },
+      {
+        "date": "2023-11-02",
+        "eps_estimate": 58.76,
+        "eps_actual": 81.38,
+        "surprise_pct": 38.49
+      },
+      {
+        "date": "2023-08-03",
+        "eps_estimate": 35.78,
+        "eps_actual": 56.41,
+        "surprise_pct": 57.68
+      },
+      {
+        "date": "2023-05-08",
+        "eps_estimate": 35.46,
+        "eps_actual": 66.52,
+        "surprise_pct": 87.58
+      },
+      {
+        "date": "2023-02-14",
+        "eps_estimate": -6.64,
+        "eps_actual": -35.8,
+        "surprise_pct": -438.87
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.08,
-    "institution_pct": 36.55,
+    "institution_pct": 35.19,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 36.55
+        "value": 35.19
       },
       {
         "label": "",
-        "value": 44.07
+        "value": 42.44
       },
       {
         "label": "",
-        "value": 84.0
+        "value": 82.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
-        "shares": 2515000,
-        "date_reported": "2026-02-28",
-        "pct_held": 3.67,
-        "pct_change": -1.62,
-        "value": 13339560000
+        "shares": 2167600,
+        "date_reported": "2026-05-31",
+        "pct_held": 3.17,
+        "pct_change": -13.81,
+        "value": 10955050400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 742272,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.08,
-        "pct_change": 0.0,
-        "value": 3937010688
+        "shares": 749172,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.09,
+        "pct_change": 0.93,
+        "value": 3786315288
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +111,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.75,
         "pct_change": 4.01,
-        "value": 2709368064
+        "value": 2581664064
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 365000,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 1935960000
+        "value": 1844710000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -89,15 +127,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 1240605600
+        "value": 1182130600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 186500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.27,
+        "shares": 188900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.28,
         "pct_change": -0.21,
-        "value": 989196000
+        "value": 954700600
       },
       {
         "holder": "MFS Varbl INSURANCE TRT II-MFS Intl Intrinsic Value PORT.",
@@ -105,7 +143,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.23,
         "pct_change": -2.97,
-        "value": 849170400
+        "value": 809145400
       },
       {
         "holder": "EQ Advisors Trust-EQ/MFS International Intrinsic Value Portfolio",
@@ -113,7 +151,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.23,
         "pct_change": 2.49,
-        "value": 830606400
+        "value": 791456400
       },
       {
         "holder": "Mercer Funds-Mercer Non-US Core Equity Fund",
@@ -121,15 +159,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.21,
         "pct_change": 1.46,
-        "value": 773323200
+        "value": 736873200
       },
       {
         "holder": "Fidelity Rutland Square Trust II-Strategic Advisers International Fund",
-        "shares": 126800,
-        "date_reported": "2026-04-30",
+        "shares": 126700,
+        "date_reported": "2026-06-30",
         "pct_held": 0.19,
-        "pct_change": -12.37,
-        "value": 672547200
+        "pct_change": 0.0,
+        "value": 640341800
       }
     ],
     "mutualfund_holders": []

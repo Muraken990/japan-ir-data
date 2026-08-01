@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:15:05.983996",
+  "fetched_at": "2026-08-01T04:07:11.245013",
   "ticker": "9399",
   "ticker_full": "9399.T",
   "company_name": "BEAT HOLDINGS LTD",
@@ -17,24 +17,57 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 11.0,
+    "current": 13.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2012-02-17",
+        "eps_estimate": -1515.35,
+        "eps_actual": -1382.2,
+        "surprise_pct": 8.79
+      },
+      {
+        "date": "2011-11-13",
+        "eps_estimate": -1522.42,
+        "eps_actual": -1732.0,
+        "surprise_pct": -13.77
+      },
+      {
+        "date": "2011-08-12",
+        "eps_estimate": -1495.02,
+        "eps_actual": -1453.4,
+        "surprise_pct": 2.78
+      },
+      {
+        "date": "2011-05-13",
+        "eps_estimate": -1359.49,
+        "eps_actual": 1010.8,
+        "surprise_pct": 174.35
+      },
+      {
+        "date": "2011-02-15",
+        "eps_estimate": -3042.6,
+        "eps_actual": -862.99,
+        "surprise_pct": 71.64
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 52.14,
+    "insider_pct": 45.02,
     "institution_pct": 0.0,
     "major_holders": [
       {
         "label": "",
-        "value": 52.14
+        "value": 45.02
       },
       {
         "label": "",

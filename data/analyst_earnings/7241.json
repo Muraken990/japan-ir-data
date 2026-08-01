@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:35.829805",
+  "fetched_at": "2026-08-01T04:40:00.998208",
   "ticker": "7241",
   "ticker_full": "7241.T",
   "company_name": "FUTABA INDUSTRIAL CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 948.0,
+    "current": 1037.0,
     "high": 1280.0,
     "low": 1280.0,
     "mean": 1280.0,
     "median": 1280.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-01",
+        "eps_estimate": 6.57,
+        "eps_actual": 9.37,
+        "surprise_pct": 42.53
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": 2.76,
+        "eps_actual": -24.6,
+        "surprise_pct": -990.98
+      },
+      {
+        "date": "2015-06-29",
+        "eps_estimate": 13.22,
+        "eps_actual": 16.39,
+        "surprise_pct": 24.02
+      },
+      {
+        "date": "2015-06-29",
+        "eps_estimate": 3.24,
+        "eps_actual": 6.23,
+        "surprise_pct": 92.22
+      },
+      {
+        "date": "2015-02-01",
+        "eps_estimate": 11.24,
+        "eps_actual": 0.3,
+        "surprise_pct": -97.33
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 37.61,
-    "institution_pct": 26.38,
+    "insider_pct": 37.84,
+    "institution_pct": 24.47,
     "major_holders": [
       {
         "label": "",
-        "value": 37.61
+        "value": 37.84
       },
       {
         "label": "",
-        "value": 26.38
+        "value": 24.47
       },
       {
         "label": "",
-        "value": 42.28
+        "value": 39.36
       },
       {
         "label": "",
-        "value": 56.0
+        "value": 54.0
       }
     ],
     "institutional_holders": [],

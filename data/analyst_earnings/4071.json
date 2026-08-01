@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:31.572698",
+  "fetched_at": "2026-08-01T04:40:58.252198",
   "ticker": "4071",
   "ticker_full": "4071.T",
   "company_name": "PLUS ALPHA CONSULTING CO LTD",
@@ -13,41 +13,50 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 2622.0,
+    "current": 2288.0,
     "high": 3300.0,
     "low": 2700.0,
     "mean": 3000.0,
     "median": 3000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2022-11-14",
+        "eps_estimate": 11.14,
+        "eps_actual": 15.06,
+        "surprise_pct": 35.19
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 41.5,
-    "institution_pct": 41.12,
+    "insider_pct": 58.66,
+    "institution_pct": 41.02,
     "major_holders": [
       {
         "label": "",
-        "value": 41.5
+        "value": 58.66
       },
       {
         "label": "",
-        "value": 41.12
+        "value": 41.02
       },
       {
         "label": "",
-        "value": 70.3
+        "value": 99.21
       },
       {
         "label": "",
-        "value": 66.0
+        "value": 65.0
       }
     ],
     "institutional_holders": [],

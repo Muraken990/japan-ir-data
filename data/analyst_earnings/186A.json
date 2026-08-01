@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:31.176005",
+  "fetched_at": "2026-08-01T04:39:03.131974",
   "ticker": "186A",
   "ticker_full": "186A.T",
   "company_name": "ASTROSCALE HOLDINGS INC",
@@ -18,36 +18,43 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1151.0,
-    "high": 1200.0,
-    "low": 950.0,
-    "mean": 1075.0,
-    "median": 1075.0
+    "current": 1012.0,
+    "high": 1250.0,
+    "low": 1200.0,
+    "mean": 1225.0,
+    "median": 1225.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 34.72,
-    "institution_pct": 29.76,
+    "insider_pct": 35.58,
+    "institution_pct": 29.64,
     "major_holders": [
       {
         "label": "",
-        "value": 34.72
+        "value": 35.58
       },
       {
         "label": "",
-        "value": 29.76
+        "value": 29.64
       },
       {
         "label": "",
-        "value": 45.59
+        "value": 46.01
       },
       {
         "label": "",
-        "value": 43.0
+        "value": 57.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +64,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 115100
+        "value": 101200
       }
     ],
     "mutualfund_holders": [
@@ -65,25 +72,73 @@
         "holder": "Procure ETF Trust II-Procure Space ETF",
         "shares": 722000,
         "date_reported": "2026-04-30",
-        "pct_held": 0.52,
+        "pct_held": 0.51,
         "pct_change": 65.9,
-        "value": 831022000
+        "value": 730664000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 612800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.43,
+        "pct_change": 5.08,
+        "value": 620153600
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 359500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.25,
+        "pct_change": 1.38,
+        "value": 363814000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+        "shares": 110500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.08,
+        "pct_change": 14.86,
+        "value": 111826000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 100400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.07,
+        "pct_change": 0.0,
+        "value": 101604800
+      },
+      {
+        "holder": "-VanEck Space ETF",
+        "shares": 90600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.06,
+        "pct_change": -53.96,
+        "value": 91687200
       },
       {
         "holder": "-Global X Space Tech ETF",
-        "shares": 75240,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.05,
-        "pct_change": 1.71,
-        "value": 86601240
+        "shares": 84436,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.06,
+        "pct_change": -20.14,
+        "value": 85449232
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 35200,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.03,
-        "pct_change": -2.22,
-        "value": 40515200
+        "shares": 65400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.05,
+        "pct_change": 85.8,
+        "value": 66184800
+      },
+      {
+        "holder": "Fidelity Salem Street Trust-Fidelity Total International Index Fund",
+        "shares": 50900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.04,
+        "pct_change": 1.0,
+        "value": 51510800
       },
       {
         "holder": "-Roundhill Space & Technology ETF",
@@ -91,39 +146,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.02,
         "pct_change": 1.0,
-        "value": 35796100
-      },
-      {
-        "holder": "-WisdomTree Asia Defense Fund",
-        "shares": 9830,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.01,
-        "pct_change": -23.38,
-        "value": 11314330
-      },
-      {
-        "holder": "-SSgA SPDR ETFS Europe I-State Street SPDR MSCI World Small Cap UCITS ",
-        "shares": 15700,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.01,
-        "pct_change": 1.0,
-        "value": 18070700
-      },
-      {
-        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. MSCI Global Stock Marke",
-        "shares": 3100,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.0,
-        "pct_change": 1.0,
-        "value": 3568100
-      },
-      {
-        "holder": "-SSgA SPDR ETFS Europe I-State Street SPDR MSCI All Country World Inve",
-        "shares": 1200,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.0,
-        "pct_change": 1.0,
-        "value": 1381200
+        "value": 31473200
       }
     ]
   }

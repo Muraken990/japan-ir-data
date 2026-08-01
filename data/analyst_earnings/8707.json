@@ -1,53 +1,85 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:35.958172",
+  "fetched_at": "2026-08-01T04:37:55.792312",
   "ticker": "8707",
   "ticker_full": "8707.T",
   "company_name": "IWAICOSMO HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 0,
-    "buy": 0,
-    "hold": 0,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 0,
     "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_mean": null,
+    "total_analysts": null,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4035.0,
+    "current": 4195.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-01-26",
+        "eps_estimate": 53.99,
+        "eps_actual": 33.32,
+        "surprise_pct": -38.28
+      },
+      {
+        "date": "2016-07-25",
+        "eps_estimate": 55.05,
+        "eps_actual": 26.17,
+        "surprise_pct": -52.46
+      },
+      {
+        "date": "2016-01-24",
+        "eps_estimate": 52.67,
+        "eps_actual": 42.63,
+        "surprise_pct": -19.07
+      },
+      {
+        "date": "2015-07-23",
+        "eps_estimate": 54.94,
+        "eps_actual": 57.51,
+        "surprise_pct": 4.67
+      },
+      {
+        "date": "2015-04-26",
+        "eps_estimate": 54.62,
+        "eps_actual": 47.28,
+        "surprise_pct": -13.44
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 17.39,
-    "institution_pct": 16.62,
+    "insider_pct": 17.06,
+    "institution_pct": 16.66,
     "major_holders": [
       {
         "label": "",
-        "value": 17.39
+        "value": 17.06
       },
       {
         "label": "",
-        "value": 16.62
+        "value": 16.66
       },
       {
         "label": "",
-        "value": 20.12
+        "value": 20.08
       },
       {
         "label": "",
-        "value": 39.0
+        "value": 38.0
       }
     ],
     "institutional_holders": [],

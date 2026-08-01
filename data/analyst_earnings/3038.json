@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:20.971300",
+  "fetched_at": "2026-08-01T04:57:45.105030",
   "ticker": "3038",
   "ticker_full": "3038.T",
   "company_name": "KOBE BUSSAN CO LTD",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 1,
+    "buy": 2,
     "hold": 6,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 8,
+    "total_analysts": 9,
     "recommendation_key": "hold",
     "recommendation_mean": 2.55556
   },
   "target_prices": {
     "has_data": true,
-    "current": 2568.5,
+    "current": 2751.0,
     "high": 4900.0,
     "low": 2750.0,
     "mean": 3338.889,
     "median": 3000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-10",
+      "eps_estimate": 33.87,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-06-11",
+        "eps_estimate": 31.62,
+        "eps_actual": 47.75,
+        "surprise_pct": 51.03
+      },
+      {
+        "date": "2026-03-13",
+        "eps_estimate": 27.35,
+        "eps_actual": 26.66,
+        "surprise_pct": -2.52
+      },
+      {
+        "date": "2025-12-12",
+        "eps_estimate": 5.92,
+        "eps_actual": 25.61,
+        "surprise_pct": 332.69
+      },
+      {
+        "date": "2025-09-11",
+        "eps_estimate": 32.21,
+        "eps_actual": 53.89,
+        "surprise_pct": 67.3
+      },
+      {
+        "date": "2025-06-12",
+        "eps_estimate": 28.72,
+        "eps_actual": 16.62,
+        "surprise_pct": -42.13
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 32.88,
-    "institution_pct": 15.0,
+    "institution_pct": 15.15,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 15.0
+        "value": 15.15
       },
       {
         "label": "",
-        "value": 22.34
+        "value": 22.57
       },
       {
         "label": "",
-        "value": 159.0
+        "value": 154.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2024-06-30",
         "pct_held": 0.0,
         "pct_change": -4.54,
-        "value": 3241447
+        "value": 3471762
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1905562,
-        "date_reported": "2026-01-31",
+        "shares": 1915762,
+        "date_reported": "2026-04-30",
         "pct_held": 0.7,
-        "pct_change": 0.0,
-        "value": 4894435997
+        "pct_change": 0.54,
+        "value": 5270261262
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,31 +113,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.47,
         "pct_change": 3.11,
-        "value": 3297116669
+        "value": 3531387174
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1067100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.39,
-        "pct_change": 0.42,
-        "value": 2740846350
-      },
-      {
-        "holder": "AIM Intl Mutual Fd.s -Invesco EQV Intl Eqy. Fd.",
-        "shares": 729500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 64.71,
-        "value": 1873720750
-      },
-      {
-        "holder": "American Century World Mutual Funds, Inc.-International Growth Fund",
-        "shares": 710300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.26,
-        "pct_change": -11.12,
-        "value": 1824405550
+        "shares": 1102000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.4,
+        "pct_change": 0.0,
+        "value": 3031602000
       },
       {
         "holder": "AIM Fd.s Group -Invesco Intl Small Company Fd.",
@@ -107,15 +129,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.25,
         "pct_change": 19.92,
-        "value": 1756854000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 594900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.22,
-        "pct_change": -0.23,
-        "value": 1528000650
+        "value": 1881684000
       },
       {
         "holder": "LAZARD FUNDS INC-Lazard International Strategic Equity Portfolio",
@@ -123,7 +137,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.2,
         "pct_change": -7.01,
-        "value": 1434764100
+        "value": 1536708600
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 556400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.2,
+        "pct_change": -0.14,
+        "value": 1530656400
       },
       {
         "holder": "AIM Varbl Insurance Fd.s -INVESCO V.I. EQV Intl Eqy. Fd.",
@@ -131,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.18,
         "pct_change": 7.14,
-        "value": 1287845900
+        "value": 1379351400
       },
       {
         "holder": "Domini Investment Trust-Domini Impact International Equity Fund",
@@ -139,7 +161,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.16,
         "pct_change": 25.21,
-        "value": 1151972250
+        "value": 1233823500
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 302988,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.11,
+        "pct_change": 4.34,
+        "value": 833519988
+      },
+      {
+        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
+        "shares": 298700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.11,
+        "pct_change": -18.65,
+        "value": 821723700
       }
     ]
   }

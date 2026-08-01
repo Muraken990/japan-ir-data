@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:39:30.310715",
+  "fetched_at": "2026-08-01T04:29:19.742089",
   "ticker": "9726",
   "ticker_full": "9726.T",
   "company_name": "KNT-CT HOLDINGS LIMITED",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1759.0,
+    "current": 1925.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-02-08",
+        "eps_estimate": 22.0,
+        "eps_actual": 26.0,
+        "surprise_pct": 18.18
+      },
+      {
+        "date": "2015-11-08",
+        "eps_estimate": 40.38,
+        "eps_actual": 45.4,
+        "surprise_pct": 12.43
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": -95.09,
+        "eps_actual": -68.1,
+        "surprise_pct": 28.38
+      },
+      {
+        "date": "2015-02-12",
+        "eps_estimate": 55.0,
+        "eps_actual": -29.8,
+        "surprise_pct": -154.18
+      },
+      {
+        "date": "2014-11-09",
+        "eps_estimate": 37.87,
+        "eps_actual": 29.9,
+        "surprise_pct": -21.05
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 68.16,
-    "institution_pct": 4.88,
+    "institution_pct": 4.92,
     "major_holders": [
       {
         "label": "",
@@ -38,15 +71,15 @@
       },
       {
         "label": "",
-        "value": 4.88
+        "value": 4.92
       },
       {
         "label": "",
-        "value": 15.33
+        "value": 15.47
       },
       {
         "label": "",
-        "value": 32.0
+        "value": 31.0
       }
     ],
     "institutional_holders": [],

@@ -1,135 +1,142 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:12:10.342912",
+  "fetched_at": "2026-08-01T04:41:15.276661",
   "ticker": "6490",
   "ticker_full": "6490.T",
   "company_name": "PILLAR CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
     "current": 9490.0,
-    "high": 11000.0,
-    "low": 9130.0,
-    "mean": 10065.0,
-    "median": 10065.0
+    "high": 11400.0,
+    "low": 11000.0,
+    "mean": 11200.0,
+    "median": 11200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 17.59,
-    "institution_pct": 35.31,
+    "insider_pct": 17.49,
+    "institution_pct": 34.07,
     "major_holders": [
       {
         "label": "",
-        "value": 17.59
+        "value": 17.49
       },
       {
         "label": "",
-        "value": 35.31
+        "value": 34.07
       },
       {
         "label": "",
-        "value": 42.84
+        "value": 41.29
       },
       {
         "label": "",
-        "value": 73.0
+        "value": 75.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 265645,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.06,
-        "pct_change": 4.44,
+        "pct_change": 0.0,
         "value": 2520971050
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 166349,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.66,
-        "pct_change": -9.02,
-        "value": 1578652010
+        "shares": 178649,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.71,
+        "pct_change": 7.39,
+        "value": 1695379010
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 110600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.44,
+        "shares": 118800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 1049594000
+        "value": 1127412000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 102700,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.41,
-        "pct_change": -2.65,
+        "pct_change": 0.0,
         "value": 974623000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 97200,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": 0.0,
         "value": 922428000
       },
       {
-        "holder": "-Militia Long/Short Equity ETF",
-        "shares": 82538,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.33,
-        "pct_change": 1.43,
-        "value": 783285620
-      },
-      {
-        "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
-        "shares": 73162,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 1.0,
-        "value": 694307380
+        "holder": "Putnam Investment Funds-Putnam International Small Cap Fund",
+        "shares": 84800,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.34,
+        "pct_change": 93.61,
+        "value": 804752000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 67400,
-        "date_reported": "2026-01-31",
+        "shares": 68800,
+        "date_reported": "2026-04-30",
         "pct_held": 0.27,
-        "pct_change": -2.46,
-        "value": 639626000
+        "pct_change": 2.08,
+        "value": 652912000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 64300,
-        "date_reported": "2026-03-31",
+        "shares": 65600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.26,
-        "pct_change": 1.58,
-        "value": 610207000
+        "pct_change": -0.3,
+        "value": 622544000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 60100,
-        "date_reported": "2026-04-30",
+        "shares": 60200,
+        "date_reported": "2026-06-30",
         "pct_held": 0.24,
-        "pct_change": -8.24,
-        "value": 570349000
+        "pct_change": 0.17,
+        "value": 571298000
+      },
+      {
+        "holder": "Invesco Exch-Trd Fd. TRT II-Invesco S&P Global Water Index ETF",
+        "shares": 56393,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.23,
+        "pct_change": 0.5,
+        "value": 535169570
       }
     ],
     "mutualfund_holders": []

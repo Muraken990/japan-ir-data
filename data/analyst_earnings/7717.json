@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:32:23.474922",
+  "fetched_at": "2026-08-01T04:22:08.915117",
   "ticker": "7717",
   "ticker_full": "7717.T",
   "company_name": "V TECHNOLOGY",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 1,
     "hold": 1,
@@ -18,46 +18,79 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 8840.0,
-    "high": 9000.0,
-    "low": 3200.0,
-    "mean": 6100.0,
-    "median": 6100.0
+    "current": 5460.0,
+    "high": 11000.0,
+    "low": 6650.0,
+    "mean": 8825.0,
+    "median": 8825.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-02-10",
+        "eps_estimate": 51.7,
+        "eps_actual": 163.37,
+        "surprise_pct": 216.0
+      },
+      {
+        "date": "2025-11-12",
+        "eps_estimate": 51.7,
+        "eps_actual": 45.13,
+        "surprise_pct": -12.71
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": -36.2,
+        "eps_actual": -70.46,
+        "surprise_pct": -94.64
+      },
+      {
+        "date": "2025-05-12",
+        "eps_estimate": 101.0,
+        "eps_actual": 78.44,
+        "surprise_pct": -22.34
+      },
+      {
+        "date": "2025-02-10",
+        "eps_estimate": 20.7,
+        "eps_actual": 28.44,
+        "surprise_pct": 37.39
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 12.5,
-    "institution_pct": 15.98,
+    "insider_pct": 12.76,
+    "institution_pct": 14.1,
     "major_holders": [
       {
         "label": "",
-        "value": 12.5
+        "value": 12.76
       },
       {
         "label": "",
-        "value": 15.98
+        "value": 14.1
       },
       {
         "label": "",
-        "value": 18.27
+        "value": 16.16
       },
       {
         "label": "",
-        "value": 45.0
+        "value": 43.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 124471,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.24,
         "pct_change": 0.0,
-        "value": 1100323640
+        "value": 679611660
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,7 +98,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 670540520
+        "value": 414157380
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -73,47 +106,47 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.38,
         "pct_change": -2.83,
-        "value": 334152000
+        "value": 206388000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 31000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 73.18,
-        "value": 274040000
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 30400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.3,
-        "pct_change": 0.0,
-        "value": 268736000
+        "shares": 33200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.33,
+        "pct_change": 7.1,
+        "value": 181272000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 20200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.2,
-        "pct_change": -24.91,
-        "value": 178568000
+        "shares": 28400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 40.59,
+        "value": 155064000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 17100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.17,
-        "pct_change": -5.52,
-        "value": 151164000
+        "shares": 20600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.2,
+        "pct_change": 20.47,
+        "value": 112476000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 16226,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.16,
+        "pct_change": 1.0,
+        "value": 88593960
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
-        "shares": 10000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.1,
-        "pct_change": 0.0,
-        "value": 88400000
+        "shares": 10700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.11,
+        "pct_change": 7.0,
+        "value": 58422000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -121,15 +154,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 83608720
+        "value": 51640680
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional World ex U.S. Core Equity 2 ETF",
         "shares": 8500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.08,
-        "pct_change": 3.66,
-        "value": 75140000
+        "pct_change": 0.0,
+        "value": 46410000
       }
     ],
     "mutualfund_holders": []

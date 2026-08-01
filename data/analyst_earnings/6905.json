@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:38:37.557078",
+  "fetched_at": "2026-08-01T04:28:27.441660",
   "ticker": "6905",
   "ticker_full": "6905.T",
   "company_name": "COSEL CO LTD",
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1547.0,
+    "current": 1248.0,
     "high": 1300.0,
     "low": 1300.0,
     "mean": 1300.0,
     "median": 1300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2024-09-16",
+        "eps_estimate": 21.3,
+        "eps_actual": 8.0,
+        "surprise_pct": -62.44
+      },
+      {
+        "date": "2024-03-21",
+        "eps_estimate": 25.2,
+        "eps_actual": 33.71,
+        "surprise_pct": 33.77
+      },
+      {
+        "date": "2023-12-19",
+        "eps_estimate": 31.4,
+        "eps_actual": 55.97,
+        "surprise_pct": 78.25
+      },
+      {
+        "date": "2023-09-18",
+        "eps_estimate": 30.95,
+        "eps_actual": 50.78,
+        "surprise_pct": 64.07
+      },
+      {
+        "date": "2023-06-18",
+        "eps_estimate": 24.8,
+        "eps_actual": 19.03,
+        "surprise_pct": -23.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 44.14,
-    "institution_pct": 14.93,
+    "institution_pct": 10.93,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 14.93
+        "value": 10.93
       },
       {
         "label": "",
-        "value": 26.72
+        "value": 19.57
       },
       {
         "label": "",
-        "value": 39.0
+        "value": 35.0
       }
     ],
     "institutional_holders": [
@@ -57,15 +90,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.87,
         "pct_change": 0.0,
-        "value": 1193849293
+        "value": 963105312
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 393824,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.96,
         "pct_change": 0.0,
-        "value": 609245728
+        "value": 491492352
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,7 +106,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 315533855
+        "value": 254548320
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -81,15 +114,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 166457200
+        "value": 134284800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 91000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": 0.0,
-        "value": 140777000
+        "shares": 104200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": 14.51,
+        "value": 130041600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,39 +130,39 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": -5.84,
-        "value": 114787400
+        "value": 92601600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 54400,
-        "date_reported": "2026-01-31",
+        "shares": 52000,
+        "date_reported": "2026-04-30",
         "pct_held": 0.13,
-        "pct_change": -21.27,
-        "value": 84156800
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 43399,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.11,
-        "pct_change": -38.0,
-        "value": 67138253
+        "pct_change": -4.41,
+        "value": 64896000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 46606,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.11,
-        "pct_change": -1.14,
-        "value": 72099482
+        "shares": 48808,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.12,
+        "pct_change": 4.72,
+        "value": 60912384
       },
       {
         "holder": "iShares Trust-iShares International Small-Cap Equity Factor ETF",
-        "shares": 42900,
+        "shares": 43400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.11,
+        "pct_change": 0.46,
+        "value": 54163200
+      },
+      {
+        "holder": "HARTFORD MUTUAL FUNDS INC/CT-Hartford International Equity Fund",
+        "shares": 29082,
         "date_reported": "2026-04-30",
-        "pct_held": 0.1,
-        "pct_change": 2.88,
-        "value": 66366300
+        "pct_held": 0.07,
+        "pct_change": -4.03,
+        "value": 36294336
       }
     ],
     "mutualfund_holders": []

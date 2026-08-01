@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:54:55.546700",
+  "fetched_at": "2026-08-01T04:43:17.664529",
   "ticker": "7456",
   "ticker_full": "7456.T",
   "company_name": "MATSUDA SANGYO",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5700.0,
+    "current": 5380.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2011-05-12",
+        "eps_estimate": 33.66,
+        "eps_actual": 29.11,
+        "surprise_pct": -13.52
+      },
+      {
+        "date": "2011-02-06",
+        "eps_estimate": 38.56,
+        "eps_actual": 39.39,
+        "surprise_pct": 2.15
+      },
+      {
+        "date": "2010-11-07",
+        "eps_estimate": 39.6,
+        "eps_actual": 28.8,
+        "surprise_pct": -27.27
+      },
+      {
+        "date": "2010-05-13",
+        "eps_estimate": 27.06,
+        "eps_actual": 18.25,
+        "surprise_pct": -32.56
+      },
+      {
+        "date": "2010-05-13",
+        "eps_estimate": 45.13,
+        "eps_actual": 38.75,
+        "surprise_pct": -14.14
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 39.44,
-    "institution_pct": 17.78,
+    "insider_pct": 39.97,
+    "institution_pct": 18.75,
     "major_holders": [
       {
         "label": "",
-        "value": 39.44
+        "value": 39.97
       },
       {
         "label": "",
-        "value": 17.78
+        "value": 18.75
       },
       {
         "label": "",
-        "value": 29.36
+        "value": 31.23
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 77.0
       }
     ],
     "institutional_holders": [],

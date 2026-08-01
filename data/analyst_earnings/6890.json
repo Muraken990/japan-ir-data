@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:20:09.161866",
+  "fetched_at": "2026-08-01T04:49:21.711133",
   "ticker": "6890",
   "ticker_full": "6890.T",
   "company_name": "FERROTEC CORPORATION",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 8180.0,
-    "high": 8700.0,
-    "low": 7700.0,
-    "mean": 8200.0,
-    "median": 8200.0
+    "current": 8300.0,
+    "high": 13000.0,
+    "low": 10000.0,
+    "mean": 11500.0,
+    "median": 11500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-14",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-02-13",
+        "eps_estimate": 91.8,
+        "eps_actual": 72.8,
+        "surprise_pct": -20.7
+      },
+      {
+        "date": "2024-08-13",
+        "eps_estimate": 82.6,
+        "eps_actual": 103.16,
+        "surprise_pct": 24.89
+      },
+      {
+        "date": "2024-05-14",
+        "eps_estimate": 62.3,
+        "eps_actual": 35.89,
+        "surprise_pct": -42.39
+      },
+      {
+        "date": "2024-02-13",
+        "eps_estimate": 82.3,
+        "eps_actual": 107.98,
+        "surprise_pct": 31.2
+      },
+      {
+        "date": "2023-11-13",
+        "eps_estimate": 85.9,
+        "eps_actual": 86.14,
+        "surprise_pct": 0.28
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 12.19,
-    "institution_pct": 47.89,
+    "insider_pct": 9.55,
+    "institution_pct": 44.32,
     "major_holders": [
       {
         "label": "",
-        "value": 12.19
+        "value": 9.55
       },
       {
         "label": "",
-        "value": 47.89
+        "value": 44.32
       },
       {
         "label": "",
-        "value": 54.53
+        "value": 49.0
       },
       {
         "label": "",
-        "value": 90.0
+        "value": 93.0
       }
     ],
     "institutional_holders": [
@@ -57,89 +95,89 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 1047858000
+        "value": 1063230000
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1169200,
-        "date_reported": "2026-04-30",
-        "pct_held": 2.31,
-        "pct_change": -2.18,
-        "value": 9564056000
+        "shares": 1102300,
+        "date_reported": "2026-06-30",
+        "pct_held": 2.04,
+        "pct_change": -0.44,
+        "value": 9149090000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 593000,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.17,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.1,
         "pct_change": 0.0,
-        "value": 4850740000
+        "value": 4921900000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 466114,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.92,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.86,
         "pct_change": 0.0,
-        "value": 3812812520
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 422800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.83,
-        "pct_change": 0.0,
-        "value": 3458504000
+        "value": 3868746200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 381742,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.75,
-        "pct_change": 4.15,
-        "value": 3122649560
+        "shares": 387242,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.72,
+        "pct_change": 1.44,
+        "value": 3214108600
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
+        "shares": 379400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.7,
+        "pct_change": -10.26,
+        "value": 3149020000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 327700,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.65,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.61,
         "pct_change": 0.0,
-        "value": 2680586000
+        "value": 2719910000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 305100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.6,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 2495718000
+        "value": 2532330000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 226400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.45,
-        "pct_change": -4.43,
-        "value": 1851952000
+        "date_reported": "2026-04-30",
+        "pct_held": 0.42,
+        "pct_change": 0.0,
+        "value": 1879120000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 166800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.33,
-        "pct_change": 1.21,
-        "value": 1364424000
+        "shares": 167800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.31,
+        "pct_change": -0.24,
+        "value": 1392740000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 148153,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 0.0,
-        "value": 1211891540
+        "shares": 150153,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.28,
+        "pct_change": 1.35,
+        "value": 1246269900
       }
     ]
   }

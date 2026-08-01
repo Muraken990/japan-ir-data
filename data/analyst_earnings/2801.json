@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:16.794534",
+  "fetched_at": "2026-08-01T04:57:57.626477",
   "ticker": "2801",
   "ticker_full": "2801.T",
   "company_name": "KIKKOMAN CORP",
@@ -8,30 +8,68 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 2,
-    "hold": 8,
+    "buy": 3,
+    "hold": 7,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 12,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.08333
   },
   "target_prices": {
     "has_data": true,
-    "current": 1608.5,
+    "current": 1647.5,
     "high": 2000.0,
     "low": 1500.0,
-    "mean": 1721.6666,
+    "mean": 1725.8334,
     "median": 1750.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": 17.3,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-23",
+        "eps_estimate": 13.26,
+        "eps_actual": 13.54,
+        "surprise_pct": 2.09
+      },
+      {
+        "date": "2026-02-04",
+        "eps_estimate": 17.89,
+        "eps_actual": 19.11,
+        "surprise_pct": 6.79
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 17.35,
+        "eps_actual": 17.1,
+        "surprise_pct": -1.43
+      },
+      {
+        "date": "2025-08-04",
+        "eps_estimate": 17.5,
+        "eps_actual": 16.24,
+        "surprise_pct": -7.19
+      },
+      {
+        "date": "2025-04-27",
+        "eps_estimate": 11.37,
+        "eps_actual": 11.02,
+        "surprise_pct": -3.04
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 21.6,
-    "institution_pct": 38.98,
+    "institution_pct": 39.02,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 38.98
+        "value": 39.02
       },
       {
         "label": "",
-        "value": 49.72
+        "value": 49.77
       },
       {
         "label": "",
-        "value": 237.0
+        "value": 236.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.0,
         "pct_change": -4.09,
-        "value": 13572523
+        "value": 13901605
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 10786985,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.11,
-        "pct_change": 0.81,
-        "value": 17350865372
+        "shares": 10583785,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.09,
+        "pct_change": -1.88,
+        "value": 17436785787
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,15 +113,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.72,
         "pct_change": 0.54,
-        "value": 11221378550
+        "value": 11493454250
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 4891800,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.5,
-        "pct_change": 0.56,
-        "value": 7868460300
+        "shares": 4930800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.51,
+        "pct_change": 0.0,
+        "value": 8123493000
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Intl Small-Mid Company Fd.",
@@ -91,15 +129,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.45,
         "pct_change": 3.84,
-        "value": 6993114600
+        "value": 7162671000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2783800,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.29,
-        "pct_change": -1.06,
-        "value": 4477742300
+        "shares": 2895800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.3,
+        "pct_change": 4.42,
+        "value": 4770830500
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -107,23 +145,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 8.77,
-        "value": 4488036700
+        "value": 4596854500
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2523228,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.26,
-        "pct_change": 1.12,
-        "value": 4058612238
+        "shares": 2614328,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.27,
+        "pct_change": 2.38,
+        "value": 4307105380
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 2380900,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.25,
-        "pct_change": 0.0,
-        "value": 3829677650
+        "shares": 2361100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.24,
+        "pct_change": -0.83,
+        "value": 3889912250
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -131,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.17,
         "pct_change": 2.78,
-        "value": 2712357252
+        "value": 2778121587
       },
       {
         "holder": "AIM Intl Mutual Fd.s -Invesco Global Opportunities Fd.",
@@ -139,7 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 2697937050
+        "value": 2763351750
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-06-01T05:20:07.379287",
+  "fetched_at": "2026-08-01T04:48:27.366055",
   "ticker": "1979",
   "ticker_full": "1979.T",
   "company_name": "TAIKISHA LTD",
@@ -14,40 +14,78 @@
     "strong_sell": 0,
     "total_analysts": 6,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.5
+    "recommendation_mean": 2.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 4410.0,
-    "high": 4550.0,
-    "low": 2600.0,
-    "mean": 3515.0,
-    "median": 3575.0
+    "current": 4235.0,
+    "high": 5800.0,
+    "low": 4500.0,
+    "mean": 5208.3335,
+    "median": 5300.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": 30.71,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-15",
+        "eps_estimate": 53.46,
+        "eps_actual": 71.32,
+        "surprise_pct": 33.41
+      },
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 48.56,
+        "eps_actual": 57.36,
+        "surprise_pct": 18.13
+      },
+      {
+        "date": "2025-11-09",
+        "eps_estimate": 32.64,
+        "eps_actual": 72.53,
+        "surprise_pct": 122.18
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 30.71,
+        "eps_actual": 43.93,
+        "surprise_pct": 43.06
+      },
+      {
+        "date": "2025-05-14",
+        "eps_estimate": 78.01,
+        "eps_actual": 43.78,
+        "surprise_pct": -43.88
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 26.68,
-    "institution_pct": 29.94,
+    "insider_pct": 26.66,
+    "institution_pct": 27.94,
     "major_holders": [
       {
         "label": "",
-        "value": 26.68
+        "value": 26.66
       },
       {
         "label": "",
-        "value": 29.94
+        "value": 27.94
       },
       {
         "label": "",
-        "value": 40.83
+        "value": 38.1
       },
       {
         "label": "",
-        "value": 86.0
+        "value": 90.0
       }
     ],
     "institutional_holders": [],

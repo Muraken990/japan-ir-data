@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:20.152008",
+  "fetched_at": "2026-08-01T04:57:44.079582",
   "ticker": "2768",
   "ticker_full": "2768.T",
   "company_name": "SOJITZ CORPORATION",
@@ -8,30 +8,63 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 1,
+    "buy": 3,
     "hold": 5,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 7,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.22222
+    "total_analysts": 9,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5176.0,
+    "current": 5381.0,
     "high": 9100.0,
-    "low": 5100.0,
-    "mean": 6576.6665,
+    "low": 5200.0,
+    "mean": 6610.0,
     "median": 6400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-04-30",
+        "eps_estimate": 184.38,
+        "eps_actual": 109.79,
+        "surprise_pct": -40.45
+      },
+      {
+        "date": "2026-02-02",
+        "eps_estimate": 139.07,
+        "eps_actual": 168.71,
+        "surprise_pct": 21.31
+      },
+      {
+        "date": "2020-02-04",
+        "eps_estimate": 62.84,
+        "eps_actual": 32.0,
+        "surprise_pct": -49.08
+      },
+      {
+        "date": "2019-07-31",
+        "eps_estimate": 67.03,
+        "eps_actual": 57.05,
+        "surprise_pct": -14.89
+      },
+      {
+        "date": "2019-02-04",
+        "eps_estimate": 56.95,
+        "eps_actual": 66.3,
+        "surprise_pct": 16.41
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.03,
-    "institution_pct": 38.57,
+    "institution_pct": 37.32,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 38.57
+        "value": 37.32
       },
       {
         "label": "",
-        "value": 40.19
+        "value": 38.89
       },
       {
         "label": "",
-        "value": 164.0
+        "value": 163.0
       }
     ],
     "institutional_holders": [],

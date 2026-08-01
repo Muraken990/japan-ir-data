@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:14:19.418792",
+  "fetched_at": "2026-08-01T04:07:08.974666",
   "ticker": "1873",
   "ticker_full": "1873.T",
   "company_name": "NIHON HOUSE HOLDINGS CO LTD",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 302.0,
+    "current": 310.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-09-04",
+        "eps_estimate": 21.88,
+        "eps_actual": 22.12,
+        "surprise_pct": 1.1
+      },
+      {
+        "date": "2016-04-12",
+        "eps_estimate": -8.98,
+        "eps_actual": -19.72,
+        "surprise_pct": -119.48
+      },
+      {
+        "date": "2015-09-06",
+        "eps_estimate": 36.06,
+        "eps_actual": 13.91,
+        "surprise_pct": -61.43
+      },
+      {
+        "date": "2015-03-08",
+        "eps_estimate": -16.57,
+        "eps_actual": -17.32,
+        "surprise_pct": -4.55
+      },
+      {
+        "date": "2014-12-08",
+        "eps_estimate": 43.76,
+        "eps_actual": 50.17,
+        "surprise_pct": 14.66
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 15.14,
-    "institution_pct": 15.33,
+    "institution_pct": 15.48,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +71,11 @@
       },
       {
         "label": "",
-        "value": 15.33
+        "value": 15.48
       },
       {
         "label": "",
-        "value": 18.06
+        "value": 18.25
       },
       {
         "label": "",

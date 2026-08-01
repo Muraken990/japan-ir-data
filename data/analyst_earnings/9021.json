@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:16.683295",
+  "fetched_at": "2026-08-01T04:57:56.857957",
   "ticker": "9021",
   "ticker_full": "9021.T",
   "company_name": "WEST JAPAN RAILWAY CO",
@@ -13,25 +13,63 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 11,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.63636
   },
   "target_prices": {
     "has_data": true,
-    "current": 2656.5,
+    "current": 3001.0,
     "high": 3500.0,
     "low": 2660.0,
     "mean": 3050.9092,
     "median": 3100.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": 75.11,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 5.05,
+        "eps_actual": 14.9,
+        "surprise_pct": 195.13
+      },
+      {
+        "date": "2026-02-03",
+        "eps_estimate": 92.61,
+        "eps_actual": 75.56,
+        "surprise_pct": -18.41
+      },
+      {
+        "date": "2025-11-04",
+        "eps_estimate": 89.01,
+        "eps_actual": 82.73,
+        "surprise_pct": -7.06
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 85.68,
+        "eps_actual": 104.54,
+        "surprise_pct": 22.01
+      },
+      {
+        "date": "2025-05-02",
+        "eps_estimate": -21.18,
+        "eps_actual": -0.76,
+        "surprise_pct": 96.41
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.29,
-    "institution_pct": 45.01,
+    "institution_pct": 47.95,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 45.01
+        "value": 47.95
       },
       {
         "label": "",
-        "value": 47.02
+        "value": 50.1
       },
       {
         "label": "",
-        "value": 292.0
+        "value": 295.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.0,
         "pct_change": -7.54,
-        "value": 10886337
+        "value": 12298098
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 6397428,
-        "date_reported": "2026-01-31",
+        "shares": 6372328,
+        "date_reported": "2026-04-30",
         "pct_held": 1.4,
-        "pct_change": -0.94,
-        "value": 16994767482
+        "pct_change": -0.39,
+        "value": 19123356328
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,39 +113,47 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.93,
         "pct_change": 2.54,
-        "value": 11225067315
+        "value": 12680755510
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2910000,
-        "date_reported": "2026-04-30",
+        "shares": 2896500,
+        "date_reported": "2026-06-30",
         "pct_held": 0.64,
-        "pct_change": 0.47,
-        "value": 7730415000
+        "pct_change": 3.18,
+        "value": 8692396500
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 2138000,
+        "shares": 2264000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.5,
+        "pct_change": 3.18,
+        "value": 6794264000
+      },
+      {
+        "holder": "ADVISORS' INNER CIRCLE FUND II-KOPERNIK GLOBAL ALL-CAP FUND",
+        "shares": 1818300,
         "date_reported": "2026-04-30",
-        "pct_held": 0.47,
-        "pct_change": 4.48,
-        "value": 5679597000
+        "pct_held": 0.4,
+        "pct_change": 46.97,
+        "value": 5456718300
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1680000,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.37,
-        "pct_change": -1.16,
-        "value": 4462920000
+        "shares": 1743600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.38,
+        "pct_change": 4.16,
+        "value": 5232543600
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1526747,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.34,
-        "pct_change": 1.26,
-        "value": 4055803405
+        "shares": 1578547,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.35,
+        "pct_change": 2.39,
+        "value": 4737219547
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -115,31 +161,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": 9.06,
-        "value": 4006002000
+        "value": 4525508000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1424400,
-        "date_reported": "2026-05-31",
+        "shares": 1412700,
+        "date_reported": "2026-06-30",
         "pct_held": 0.31,
-        "pct_change": 0.0,
-        "value": 3783918600
+        "pct_change": -0.82,
+        "value": 4239512700
       },
       {
-        "holder": "ADVISORS' INNER CIRCLE FUND II-KOPERNIK GLOBAL ALL-CAP FUND",
-        "shares": 1237200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": 9.34,
-        "value": 3286621800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Value ETF",
-        "shares": 1090800,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.24,
-        "pct_change": 0.45,
-        "value": 2897710200
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 1019398,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.22,
+        "pct_change": 4.51,
+        "value": 3059213398
       }
     ]
   }

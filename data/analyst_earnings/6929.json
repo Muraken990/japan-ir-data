@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:41.705027",
+  "fetched_at": "2026-08-01T04:40:07.667125",
   "ticker": "6929",
   "ticker_full": "6929.T",
   "company_name": "NIPPON CERAMIC CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 0,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3760.0,
+    "current": 3735.0,
     "high": 4800.0,
     "low": 3700.0,
     "mean": 4250.0,
     "median": 4250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 53.27,
+        "eps_actual": 63.09,
+        "surprise_pct": 18.43
+      },
+      {
+        "date": "2026-02-06",
+        "eps_estimate": 49.16,
+        "eps_actual": 66.42,
+        "surprise_pct": 35.11
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 44.41,
+        "eps_actual": 65.14,
+        "surprise_pct": 46.68
+      },
+      {
+        "date": "2025-08-01",
+        "eps_estimate": 48.21,
+        "eps_actual": 143.72,
+        "surprise_pct": 198.11
+      },
+      {
+        "date": "2025-02-07",
+        "eps_estimate": 34.23,
+        "eps_actual": 58.63,
+        "surprise_pct": 71.28
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.72,
-    "institution_pct": 23.17,
+    "institution_pct": 22.15,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +72,25 @@
       },
       {
         "label": "",
-        "value": 23.17
+        "value": 22.15
       },
       {
         "label": "",
-        "value": 29.98
+        "value": 28.67
       },
       {
         "label": "",
-        "value": 55.0
+        "value": 52.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 240256,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.88,
         "pct_change": 0.0,
-        "value": 903362560
+        "value": 897356160
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +98,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.58,
         "pct_change": 0.0,
-        "value": 595264400
+        "value": 591306525
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
         "shares": 57400,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 215824000
+        "value": 214389000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 30324,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.11,
-        "pct_change": -1.12,
-        "value": 114018240
-      },
-      {
-        "holder": "GLOBAL X FUNDS-Global X Internet of Things ETF",
-        "shares": 24183,
+        "shares": 31737,
         "date_reported": "2026-05-31",
-        "pct_held": 0.09,
-        "pct_change": -0.2,
-        "value": 90928080
+        "pct_held": 0.12,
+        "pct_change": 4.66,
+        "value": 118537695
       },
       {
         "holder": "SEI Inst. INVESTMENTS TRT-SIIT Global Mnged Volatility Fd.",
@@ -97,7 +122,15 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 95880000
+        "value": 95242500
+      },
+      {
+        "holder": "GLOBAL X FUNDS-Global X Internet of Things ETF",
+        "shares": 23840,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.09,
+        "pct_change": -1.42,
+        "value": 89042400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -105,31 +138,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.07,
         "pct_change": 0.0,
-        "value": 68845600
+        "value": 68387850
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 13600,
-        "date_reported": "2026-05-31",
+        "shares": 13900,
+        "date_reported": "2026-06-30",
         "pct_held": 0.05,
-        "pct_change": -2.86,
-        "value": 51136000
+        "pct_change": 2.21,
+        "value": 51916500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
         "shares": 10900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 40984000
+        "value": 40711500
       },
       {
         "holder": "SEI INSTITUTIONAL MANAGED TRUST-SIMT Global Managed Volatility Fund",
         "shares": 6400,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 24064000
+        "value": 23904000
       }
     ],
     "mutualfund_holders": []

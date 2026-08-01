@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:30:35.349193",
+  "fetched_at": "2026-08-01T04:21:02.100918",
   "ticker": "5909",
   "ticker_full": "5909.T",
   "company_name": "CORONA CORPORATION",
@@ -17,35 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 991.0,
+    "current": 993.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-02",
+        "eps_estimate": 71.22,
+        "eps_actual": 65.02,
+        "surprise_pct": -8.71
+      },
+      {
+        "date": "2015-07-29",
+        "eps_estimate": -22.77,
+        "eps_actual": -32.17,
+        "surprise_pct": -41.28
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": -39.28,
+        "eps_actual": -29.12,
+        "surprise_pct": 25.88
+      },
+      {
+        "date": "2015-02-02",
+        "eps_estimate": 88.05,
+        "eps_actual": 68.89,
+        "surprise_pct": -21.76
+      },
+      {
+        "date": "2014-10-29",
+        "eps_estimate": 23.54,
+        "eps_actual": 18.28,
+        "surprise_pct": -22.34
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 52.62,
-    "institution_pct": 12.23,
+    "insider_pct": 52.55,
+    "institution_pct": 11.9,
     "major_holders": [
       {
         "label": "",
-        "value": 52.62
+        "value": 52.55
       },
       {
         "label": "",
-        "value": 12.23
+        "value": 11.9
       },
       {
         "label": "",
-        "value": 25.81
+        "value": 25.07
       },
       {
         "label": "",
-        "value": 31.0
+        "value": 29.0
       }
     ],
     "institutional_holders": [],

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:45.595523",
+  "fetched_at": "2026-08-01T04:51:44.082904",
   "ticker": "1980",
   "ticker_full": "1980.T",
   "company_name": "DAI-DAN CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2848.0,
+    "current": 2441.0,
     "high": 4000.0,
     "low": 4000.0,
     "mean": 4000.0,
     "median": 4000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2013-02-06",
+        "eps_estimate": 1.71,
+        "eps_actual": 1.15,
+        "surprise_pct": -32.63
+      },
+      {
+        "date": "2012-08-08",
+        "eps_estimate": 2.41,
+        "eps_actual": -3.19,
+        "surprise_pct": -232.08
+      },
+      {
+        "date": "2012-05-08",
+        "eps_estimate": 7.12,
+        "eps_actual": 11.16,
+        "surprise_pct": 56.79
+      },
+      {
+        "date": "2012-02-08",
+        "eps_estimate": 1.83,
+        "eps_actual": -2.4,
+        "surprise_pct": -231.2
+      },
+      {
+        "date": "2011-11-08",
+        "eps_estimate": 3.14,
+        "eps_actual": 3.6,
+        "surprise_pct": 14.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 25.75,
-    "institution_pct": 21.18,
+    "insider_pct": 25.57,
+    "institution_pct": 21.36,
     "major_holders": [
       {
         "label": "",
-        "value": 25.75
+        "value": 25.57
       },
       {
         "label": "",
-        "value": 21.18
+        "value": 21.36
       },
       {
         "label": "",
-        "value": 28.53
+        "value": 28.7
       },
       {
         "label": "",
-        "value": 106.0
+        "value": 105.0
       }
     ],
     "institutional_holders": [],

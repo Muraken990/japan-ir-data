@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:29.522489",
+  "fetched_at": "2026-08-01T04:40:10.806359",
   "ticker": "8016",
   "ticker_full": "8016.T",
   "company_name": "ONWARD HOLDINGS CO LTD",
@@ -13,41 +13,74 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.5
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 730.0,
+    "current": 763.0,
     "high": 920.0,
     "low": 910.0,
     "mean": 915.0,
     "median": 915.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2020-01-09",
+        "eps_estimate": 21.45,
+        "eps_actual": 12.27,
+        "surprise_pct": -42.8
+      },
+      {
+        "date": "2019-10-03",
+        "eps_estimate": -1.56,
+        "eps_actual": -190.73,
+        "surprise_pct": -12126.28
+      },
+      {
+        "date": "2019-07-04",
+        "eps_estimate": 12.73,
+        "eps_actual": 11.8,
+        "surprise_pct": -7.31
+      },
+      {
+        "date": "2019-04-04",
+        "eps_estimate": 1.59,
+        "eps_actual": 2.06,
+        "surprise_pct": 29.56
+      },
+      {
+        "date": "2019-01-10",
+        "eps_estimate": 28.43,
+        "eps_actual": 22.71,
+        "surprise_pct": -20.12
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 17.24,
-    "institution_pct": 22.01,
+    "insider_pct": 17.27,
+    "institution_pct": 22.26,
     "major_holders": [
       {
         "label": "",
-        "value": 17.24
+        "value": 17.27
       },
       {
         "label": "",
-        "value": 22.01
+        "value": 22.26
       },
       {
         "label": "",
-        "value": 26.6
+        "value": 26.9
       },
       {
         "label": "",
-        "value": 61.0
+        "value": 58.0
       }
     ],
     "institutional_holders": [],

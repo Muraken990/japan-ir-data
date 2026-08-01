@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:54:42.848531",
+  "fetched_at": "2026-08-01T04:42:19.392282",
   "ticker": "2678",
   "ticker_full": "2678.T",
   "company_name": "ASKUL CORP",
@@ -9,8 +9,8 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 5,
-    "sell": 1,
+    "hold": 4,
+    "sell": 2,
     "strong_sell": 1,
     "total_analysts": 7,
     "recommendation_key": "underperform",
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1200.0,
+    "current": 1262.0,
     "high": 1400.0,
     "low": 900.0,
-    "mean": 1164.2858,
+    "mean": 1165.7142,
     "median": 1210.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-03",
-      "eps_estimate": -54.36,
+      "date": "2026-09-11",
+      "eps_estimate": -3.13,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-03",
+        "eps_estimate": -54.36,
+        "eps_actual": -90.47,
+        "surprise_pct": -66.42
+      },
       {
         "date": "2026-03-27",
         "eps_estimate": -58.48,
@@ -57,19 +63,13 @@
         "eps_estimate": 31.62,
         "eps_actual": 31.33,
         "surprise_pct": -0.93
-      },
-      {
-        "date": "2025-03-17",
-        "eps_estimate": 34.62,
-        "eps_actual": 25.02,
-        "surprise_pct": -27.72
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 63.13,
-    "institution_pct": 18.09,
+    "institution_pct": 17.71,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 18.09
+        "value": 17.71
       },
       {
         "label": "",
-        "value": 49.06
+        "value": 48.05
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 71.0
       }
     ],
     "institutional_holders": [
@@ -95,23 +95,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.58,
         "pct_change": 0.0,
-        "value": 1701849600
+        "value": 1789778496
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 503316,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 603979200
+        "value": 635184792
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 385115,
+        "shares": 391315,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.44,
+        "pct_change": 1.61,
+        "value": 493839530
+      },
+      {
+        "holder": "Japan Smaller Capitalization Fund, Inc.",
+        "shares": 384100,
         "date_reported": "2026-05-31",
         "pct_held": 0.43,
-        "pct_change": 1.08,
-        "value": 462138000
+        "pct_change": 8.47,
+        "value": 484734200
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
@@ -119,15 +127,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 442264800
-      },
-      {
-        "holder": "Japan Smaller Capitalization Fund, Inc.",
-        "shares": 354100,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.39,
-        "pct_change": 0.0,
-        "value": 424920000
+        "value": 465115148
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -135,31 +135,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 356642400
+        "value": 375068924
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 233300,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 279960000
+        "value": 294424600
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 169230,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.19,
+        "pct_change": 1.11,
+        "value": 213568260
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 116389,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.13,
-        "pct_change": -5.21,
-        "value": 139666800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 107900,
+        "shares": 139389,
         "date_reported": "2026-04-30",
-        "pct_held": 0.12,
-        "pct_change": -0.19,
-        "value": 129480000
+        "pct_held": 0.16,
+        "pct_change": 19.76,
+        "value": 175908918
       },
       {
         "holder": "Nationwide Mutual Funds-Nationwide International Small Cap Fund",
@@ -167,7 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.12,
         "pct_change": 3.07,
-        "value": 133114800
+        "value": 139992398
       }
     ],
     "mutualfund_holders": []

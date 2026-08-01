@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:26.973376",
+  "fetched_at": "2026-08-01T04:57:52.297147",
   "ticker": "9201",
   "ticker_full": "9201.T",
   "company_name": "JAPAN AIRLINES CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 1,
     "buy": 5,
-    "hold": 3,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 1.90909
   },
   "target_prices": {
     "has_data": true,
-    "current": 2866.0,
-    "high": 3600.0,
+    "current": 2943.0,
+    "high": 4000.0,
     "low": 2500.0,
-    "mean": 3027.2727,
-    "median": 3100.0
+    "mean": 3181.818,
+    "median": 3250.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-03",
+      "eps_estimate": 55.16,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-04-29",
+        "eps_estimate": 45.31,
+        "eps_actual": 52.88,
+        "surprise_pct": 16.7
+      },
+      {
+        "date": "2026-02-02",
+        "eps_estimate": 103.21,
+        "eps_actual": 103.97,
+        "surprise_pct": 0.73
+      },
+      {
+        "date": "2025-10-29",
+        "eps_estimate": 103.35,
+        "eps_actual": 90.07,
+        "surprise_pct": -12.85
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 55.16,
+        "eps_actual": 60.04,
+        "surprise_pct": 8.85
+      },
+      {
+        "date": "2025-05-01",
+        "eps_estimate": 21.1,
+        "eps_actual": 36.64,
+        "surprise_pct": 73.69
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.14,
-    "institution_pct": 32.95,
+    "institution_pct": 30.72,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 32.95
+        "value": 30.72
       },
       {
         "label": "",
-        "value": 34.38
+        "value": 32.05
       },
       {
         "label": "",
-        "value": 249.0
+        "value": 225.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.07,
         "pct_change": 7.22,
-        "value": 911468248
+        "value": 935956404
       }
     ],
     "mutualfund_holders": [
@@ -67,7 +105,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.9,
         "pct_change": 1.0,
-        "value": 11263380000
+        "value": 11565990000
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -75,7 +113,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.74,
         "pct_change": 93.99,
-        "value": 9295303532
+        "value": 9545037786
+      },
+      {
+        "holder": "MFS SERIES TRUST I-MFS Research International Fund",
+        "shares": 2312200,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.53,
+        "pct_change": 3.38,
+        "value": 6804804600
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -83,15 +129,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.5,
         "pct_change": 1.79,
-        "value": 6258484200
+        "value": 6426629100
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2108289,
-        "date_reported": "2026-01-31",
+        "shares": 2118289,
+        "date_reported": "2026-04-30",
         "pct_held": 0.48,
-        "pct_change": -0.13,
-        "value": 6042356274
+        "pct_change": 0.47,
+        "value": 6234124527
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -99,7 +145,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.39,
         "pct_change": 53.2,
-        "value": 4916623000
+        "value": 5048716500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -107,39 +153,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.32,
         "pct_change": 2.97,
-        "value": 4048649168
+        "value": 4157423064
+      },
+      {
+        "holder": "MFS SERIES TRUST IV-MFS Blended Research International Equity Fund",
+        "shares": 1156100,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.26,
+        "pct_change": 1.0,
+        "value": 3402402300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1014000,
-        "date_reported": "2026-04-30",
+        "shares": 1020500,
+        "date_reported": "2026-06-30",
         "pct_held": 0.23,
-        "pct_change": 0.45,
-        "value": 2906124000
+        "pct_change": 0.0,
+        "value": 3003331500
       },
       {
         "holder": "Nuveen Investment Trust II-Nuveen International Value Fund",
-        "shares": 986100,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.23,
-        "pct_change": -2.04,
-        "value": 2826162600
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
-        "shares": 885800,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.2,
-        "pct_change": 36.38,
-        "value": 2538702800
-      },
-      {
-        "holder": "AQR Funds-AQR Equity Market Neutral Fund",
-        "shares": 829200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.19,
-        "pct_change": 58.43,
-        "value": 2376487200
+        "shares": 965800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.22,
+        "pct_change": -2.06,
+        "value": 2842349400
       }
     ]
   }

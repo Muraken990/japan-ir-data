@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:44.074481",
+  "fetched_at": "2026-08-01T04:39:00.315367",
   "ticker": "1518",
   "ticker_full": "1518.T",
   "company_name": "MITSUI MATSUSHIMA HOLDINGS CO L",
@@ -17,15 +17,48 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1517.0,
+    "current": 2326.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 7.69,
+        "eps_actual": 1.48,
+        "surprise_pct": -80.74
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 0.23,
+        "eps_actual": 5.5,
+        "surprise_pct": 2270.69
+      },
+      {
+        "date": "2015-05-07",
+        "eps_estimate": 0.06,
+        "eps_actual": 8.22,
+        "surprise_pct": 12743.75
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 7.59,
+        "eps_actual": 10.36,
+        "surprise_pct": 36.53
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 7.83,
+        "eps_actual": -7.78,
+        "surprise_pct": -199.39
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
@@ -46,17 +79,17 @@
       },
       {
         "label": "",
-        "value": 40.0
+        "value": 38.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1034700,
-        "date_reported": "2026-05-31",
-        "pct_held": 1.58,
-        "pct_change": -2.78,
-        "value": 1569639900
+        "shares": 1004200,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.54,
+        "pct_change": -3.39,
+        "value": 2335769200
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -64,31 +97,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 474821000
+        "value": 728038000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 248500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 376974500
+        "value": 578011000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Vector Eqy. PORT.",
         "shares": 77000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 116809000
+        "value": 179102000
       },
       {
         "holder": "iShares Trust-iShares International Small-Cap Equity Factor ETF",
-        "shares": 71500,
-        "date_reported": "2026-04-30",
+        "shares": 72400,
+        "date_reported": "2026-06-30",
         "pct_held": 0.11,
-        "pct_change": 2.88,
-        "value": 108465500
+        "pct_change": 0.56,
+        "value": 168402400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -96,39 +129,39 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 89503000
+        "value": 137234000
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 42000,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.06,
-        "pct_change": -1.87,
-        "value": 63714000
+        "shares": 42600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.07,
+        "pct_change": 1.43,
+        "value": 99087600
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional World ex U.S. Core Equity 2 ETF",
+        "shares": 32300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.05,
+        "pct_change": 87.79,
+        "value": 75129800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-World ex U.S. Core Eqy. PORT.",
         "shares": 21000,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.03,
         "pct_change": 0.0,
-        "value": 31857000
+        "value": 48846000
       },
       {
-        "holder": "Dimensional ETF Trust-Dimensional World ex U.S. Core Equity 2 ETF",
-        "shares": 17200,
-        "date_reported": "2026-01-31",
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity Market ETF",
+        "shares": 17700,
+        "date_reported": "2026-04-30",
         "pct_held": 0.03,
         "pct_change": 1.0,
-        "value": 26092400
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
-        "shares": 14900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.02,
-        "pct_change": -5.1,
-        "value": 22603300
+        "value": 41170200
       }
     ],
     "mutualfund_holders": []

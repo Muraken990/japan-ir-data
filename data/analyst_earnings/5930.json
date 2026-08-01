@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:55:46.292796",
+  "fetched_at": "2026-08-01T04:44:11.101774",
   "ticker": "5930",
   "ticker_full": "5930.T",
   "company_name": "BUNKA SHUTTER CO",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1893.0,
+    "current": 1904.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-03",
+        "eps_estimate": 19.04,
+        "eps_actual": 25.0,
+        "surprise_pct": 31.33
+      },
+      {
+        "date": "2015-08-03",
+        "eps_estimate": 9.59,
+        "eps_actual": 2.35,
+        "surprise_pct": -75.5
+      },
+      {
+        "date": "2015-05-13",
+        "eps_estimate": 57.78,
+        "eps_actual": 36.32,
+        "surprise_pct": -37.14
+      },
+      {
+        "date": "2015-02-04",
+        "eps_estimate": 22.86,
+        "eps_actual": 21.84,
+        "surprise_pct": -4.45
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 19.83,
+        "eps_actual": 23.26,
+        "surprise_pct": 17.32
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 16.75,
-    "institution_pct": 47.08,
+    "insider_pct": 16.8,
+    "institution_pct": 42.07,
     "major_holders": [
       {
         "label": "",
-        "value": 16.75
+        "value": 16.8
       },
       {
         "label": "",
-        "value": 47.08
+        "value": 42.07
       },
       {
         "label": "",
-        "value": 56.55
+        "value": 50.56
       },
       {
         "label": "",
-        "value": 73.0
+        "value": 70.0
       }
     ],
     "institutional_holders": [],

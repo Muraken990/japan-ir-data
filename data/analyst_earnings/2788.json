@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T04:55:17.884490",
+  "fetched_at": "2026-08-01T03:50:32.008035",
   "ticker": "2788",
   "ticker_full": "2788.T",
   "company_name": "APPLE INTERNATIONAL CO LTD",
@@ -17,15 +17,48 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 367.0,
+    "current": 390.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2012-11-13",
+        "eps_estimate": 3.84,
+        "eps_actual": -10.85,
+        "surprise_pct": -382.41
+      },
+      {
+        "date": "2012-08-12",
+        "eps_estimate": 8.2,
+        "eps_actual": -16.19,
+        "surprise_pct": -297.58
+      },
+      {
+        "date": "2012-05-14",
+        "eps_estimate": 2.08,
+        "eps_actual": 11.12,
+        "surprise_pct": 434.25
+      },
+      {
+        "date": "2012-02-16",
+        "eps_estimate": 4.32,
+        "eps_actual": -17.21,
+        "surprise_pct": -498.62
+      },
+      {
+        "date": "2011-11-13",
+        "eps_estimate": 3.65,
+        "eps_actual": -24.79,
+        "surprise_pct": -779.79
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

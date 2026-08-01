@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:57:46.742076",
+  "fetched_at": "2026-08-01T04:45:29.163387",
   "ticker": "8923",
   "ticker_full": "8923.T",
   "company_name": "TOSEI CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 1,
@@ -18,17 +18,23 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1671.0,
-    "high": 2270.0,
+    "current": 1819.0,
+    "high": 2350.0,
     "low": 1725.0,
-    "mean": 1997.5,
-    "median": 1997.5
+    "mean": 2037.5,
+    "median": 2037.5
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-06",
+        "eps_estimate": 34.74,
+        "eps_actual": 37.36,
+        "surprise_pct": 7.54
+      },
       {
         "date": "2026-04-06",
         "eps_estimate": 87.66,
@@ -52,19 +58,13 @@
         "eps_estimate": 27.3,
         "eps_actual": 41.76,
         "surprise_pct": 53.0
-      },
-      {
-        "date": "2025-04-07",
-        "eps_estimate": 50.56,
-        "eps_actual": 84.36,
-        "surprise_pct": 66.87
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 41.92,
-    "institution_pct": 29.02,
+    "institution_pct": 30.28,
     "major_holders": [
       {
         "label": "",
@@ -72,33 +72,25 @@
       },
       {
         "label": "",
-        "value": 29.02
+        "value": 30.28
       },
       {
         "label": "",
-        "value": 49.96
+        "value": 52.13
       },
       {
         "label": "",
-        "value": 87.0
+        "value": 90.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 764666,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.79,
-        "pct_change": 0.0,
-        "value": 1277756886
-      },
-      {
-        "holder": "Fidelity Select Portfolios-Fidelity International Real Estate Fund",
-        "shares": 588300,
+        "shares": 784966,
         "date_reported": "2026-04-30",
-        "pct_held": 0.6,
-        "pct_change": 9.94,
-        "value": 983049300
+        "pct_held": 0.81,
+        "pct_change": 2.65,
+        "value": 1427853154
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,7 +98,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 890983884
+        "value": 969898076
+      },
+      {
+        "holder": "Fidelity Select Portfolios-Fidelity International Real Estate Fund",
+        "shares": 531700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.55,
+        "pct_change": -9.62,
+        "value": 967162300
       },
       {
         "holder": "Third Avenue Trust-Third Avenue International Real Estate Value Fund",
@@ -114,23 +114,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.53,
         "pct_change": 28.29,
-        "value": 857891400
+        "value": 933874600
       },
       {
         "holder": "Manning & Napier Fund, Inc.-Rainier International Discovery Series",
         "shares": 495200,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 827479200
+        "value": 900768800
       },
       {
-        "holder": "GMO TRUST-GMO Implementation Fund",
-        "shares": 368100,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.38,
-        "pct_change": -3.49,
-        "value": 615095100
+        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
+        "shares": 454000,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.47,
+        "pct_change": 35.36,
+        "value": 825826000
       },
       {
         "holder": "Calvert World Values Fd., Inc.-Calvert Intl Opportunities Fd.",
@@ -138,15 +138,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.37,
         "pct_change": 38.53,
-        "value": 605999847
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 348200,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.36,
-        "pct_change": 2.65,
-        "value": 581842200
+        "value": 659673083
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -154,15 +146,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 583847400
+        "value": 635558600
       },
       {
-        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
-        "shares": 335400,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.34,
-        "pct_change": 23.95,
-        "value": 560453400
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 348200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.36,
+        "pct_change": 0.0,
+        "value": 633375800
+      },
+      {
+        "holder": "GMO TRUST-GMO Implementation Fund",
+        "shares": 354600,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.36,
+        "pct_change": -3.67,
+        "value": 645017400
       }
     ],
     "mutualfund_holders": []

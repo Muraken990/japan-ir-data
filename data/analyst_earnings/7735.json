@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:26.193255",
+  "fetched_at": "2026-08-01T04:57:50.524544",
   "ticker": "7735",
   "ticker_full": "7735.T",
   "company_name": "SCREEN HOLDINGS CO LTD",
@@ -14,24 +14,62 @@
     "strong_sell": 0,
     "total_analysts": 15,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.26667
+    "recommendation_mean": 2.3125
   },
   "target_prices": {
     "has_data": true,
-    "current": 19460.0,
-    "high": 20000.0,
-    "low": 9500.0,
-    "mean": 14620.0,
-    "median": 15000.0
+    "current": 12600.0,
+    "high": 26900.0,
+    "low": 11600.0,
+    "mean": 18037.5,
+    "median": 16600.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": 146.4,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 111.18,
+        "eps_actual": 55.47,
+        "surprise_pct": -50.11
+      },
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 173.29,
+        "eps_actual": 196.0,
+        "surprise_pct": 13.1
+      },
+      {
+        "date": "2026-01-30",
+        "eps_estimate": 127.65,
+        "eps_actual": 122.13,
+        "surprise_pct": -4.33
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 139.61,
+        "eps_actual": 80.25,
+        "surprise_pct": -42.52
+      },
+      {
+        "date": "2025-07-25",
+        "eps_estimate": 122.01,
+        "eps_actual": 88.26,
+        "surprise_pct": -27.66
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.64,
-    "institution_pct": 59.46,
+    "institution_pct": 56.75,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 59.46
+        "value": 56.75
       },
       {
         "label": "",
-        "value": 63.02
+        "value": 60.14
       },
       {
         "label": "",
-        "value": 319.0
+        "value": 325.0
       }
     ],
     "institutional_holders": [],

@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:25:31.466558",
+  "fetched_at": "2026-08-01T04:16:17.636009",
   "ticker": "2471",
   "ticker_full": "2471.T",
   "company_name": "S-POOL INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 0.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 258.0,
+    "current": 271.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2023-10-03",
+        "eps_estimate": 7.34,
+        "eps_actual": 4.48,
+        "surprise_pct": -38.96
+      },
+      {
+        "date": "2023-04-03",
+        "eps_estimate": 4.81,
+        "eps_actual": 3.66,
+        "surprise_pct": -23.91
+      },
+      {
+        "date": "2023-01-11",
+        "eps_estimate": 8.94,
+        "eps_actual": 4.61,
+        "surprise_pct": -48.43
+      },
+      {
+        "date": "2022-10-03",
+        "eps_estimate": 6.89,
+        "eps_actual": 5.24,
+        "surprise_pct": -23.95
+      },
+      {
+        "date": "2022-07-04",
+        "eps_estimate": 7.09,
+        "eps_actual": 7.39,
+        "surprise_pct": 4.23
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 43.21,
-    "institution_pct": 6.91,
+    "institution_pct": 6.97,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 6.91
+        "value": 6.97
       },
       {
         "label": "",
-        "value": 12.16
+        "value": 12.26
       },
       {
         "label": "",
-        "value": 28.0
+        "value": 26.0
       }
     ],
     "institutional_holders": [],

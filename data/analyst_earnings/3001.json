@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:28.682373",
+  "fetched_at": "2026-08-01T04:40:10.062069",
   "ticker": "3001",
   "ticker_full": "3001.T",
   "company_name": "KATAKURA INDUSTRIES CO",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2465.0,
+    "current": 2821.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-11-06",
+        "eps_estimate": -5.36,
+        "eps_actual": 4.2,
+        "surprise_pct": 178.33
+      },
+      {
+        "date": "2016-05-11",
+        "eps_estimate": 9.59,
+        "eps_actual": 38.87,
+        "surprise_pct": 305.4
+      },
+      {
+        "date": "2015-11-05",
+        "eps_estimate": -5.42,
+        "eps_actual": -1.72,
+        "surprise_pct": 68.24
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 9.16,
+        "eps_actual": 12.26,
+        "surprise_pct": 33.89
+      },
+      {
+        "date": "2015-02-12",
+        "eps_estimate": 0.84,
+        "eps_actual": -7.2,
+        "surprise_pct": -954.09
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 37.51,
-    "institution_pct": 31.53,
+    "insider_pct": 33.7,
+    "institution_pct": 31.49,
     "major_holders": [
       {
         "label": "",
-        "value": 37.51
+        "value": 33.7
       },
       {
         "label": "",
-        "value": 31.53
+        "value": 31.49
       },
       {
         "label": "",
-        "value": 50.47
+        "value": 47.5
       },
       {
         "label": "",
-        "value": 40.0
+        "value": 38.0
       }
     ],
     "institutional_holders": [
@@ -56,7 +89,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.76,
         "pct_change": 0.0,
-        "value": 662754690
+        "value": 758470986
       },
       {
         "holder": "Vanguard Tax Managed Fund-Vanguard Developed Markets Index Fund",
@@ -64,7 +97,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.52,
         "pct_change": 17.0,
-        "value": 447915150
+        "value": 512603910
       },
       {
         "holder": "DFA International Small Cap Value Portfolio",
@@ -72,7 +105,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 329077500
+        "value": 376603500
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -80,7 +113,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.35,
         "pct_change": -18.94,
-        "value": 302702000
+        "value": 346418800
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -88,7 +121,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.34,
         "pct_change": 16.93,
-        "value": 292842000
+        "value": 335134800
       },
       {
         "holder": "Vanguard Intl Equity Index Fds-FTSE All World ex U.S.Small Cap Index",
@@ -96,7 +129,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 171297780
+        "value": 196036932
       },
       {
         "holder": "SPDR (R) Idx Shares-SPDR (R) S&P (R) International Small Cap ETF",
@@ -104,7 +137,7 @@
         "date_reported": "2024-09-30",
         "pct_held": 0.16,
         "pct_change": -1.59,
-        "value": 137172320
+        "value": 156983008
       },
       {
         "holder": "iShares MSCI EAFE Small Cap ETF",
@@ -112,7 +145,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 134096000
+        "value": 153462400
       },
       {
         "holder": "Schwab Strategic Tr-Schwab International Small Cap Equity ETF",
@@ -120,7 +153,7 @@
         "date_reported": "2024-08-31",
         "pct_held": 0.11,
         "pct_change": -1.14,
-        "value": 91838505
+        "value": 105101997
       },
       {
         "holder": "iShares Core MSCI EAFE ETF",
@@ -128,7 +161,7 @@
         "date_reported": "2024-10-31",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 97614000
+        "value": 111711600
       }
     ],
     "mutualfund_holders": []

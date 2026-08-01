@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T04:51:15.094181",
+  "fetched_at": "2026-08-01T03:46:02.765889",
   "ticker": "6217",
   "ticker_full": "6217.T",
   "company_name": "TSUDAKOMA CORP",
@@ -17,15 +17,48 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 983.0,
+    "current": 699.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-10-11",
+        "eps_estimate": -14.71,
+        "eps_actual": -8.1,
+        "surprise_pct": 44.94
+      },
+      {
+        "date": "2016-04-11",
+        "eps_estimate": -27.42,
+        "eps_actual": 19.4,
+        "surprise_pct": 170.75
+      },
+      {
+        "date": "2015-10-01",
+        "eps_estimate": -16.42,
+        "eps_actual": -11.7,
+        "surprise_pct": 28.75
+      },
+      {
+        "date": "2015-04-12",
+        "eps_estimate": -52.92,
+        "eps_actual": -65.0,
+        "surprise_pct": -22.83
+      },
+      {
+        "date": "2015-01-18",
+        "eps_estimate": -52.79,
+        "eps_actual": -15.7,
+        "surprise_pct": 70.26
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,

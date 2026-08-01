@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:57:36.355649",
+  "fetched_at": "2026-08-01T04:44:31.102973",
   "ticker": "4776",
   "ticker_full": "4776.T",
   "company_name": "CYBOZU INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,36 +18,43 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2276.0,
+    "current": 2695.0,
     "high": 4000.0,
     "low": 4000.0,
     "mean": 4000.0,
     "median": 4000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-13",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 45.83,
-    "institution_pct": 11.06,
+    "insider_pct": 45.85,
+    "institution_pct": 10.44,
     "major_holders": [
       {
         "label": "",
-        "value": 45.83
+        "value": 45.85
       },
       {
         "label": "",
-        "value": 11.06
+        "value": 10.44
       },
       {
         "label": "",
-        "value": 20.42
+        "value": 19.28
       },
       {
         "label": "",
-        "value": 71.0
+        "value": 74.0
       }
     ],
     "institutional_holders": [],

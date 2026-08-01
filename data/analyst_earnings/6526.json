@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:55.312204",
+  "fetched_at": "2026-08-01T04:52:44.709053",
   "ticker": "6526",
   "ticker_full": "6526.T",
   "company_name": "SOCIONEXT INC",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 3,
-    "hold": 1,
+    "buy": 1,
+    "hold": 3,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 5,
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2745.0,
+    "current": 1912.5,
     "high": 3200.0,
-    "low": 1700.0,
-    "mean": 2300.0,
+    "low": 2000.0,
+    "mean": 2400.0,
     "median": 2200.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 1.16,
-    "institution_pct": 50.11,
+    "institution_pct": 47.8,
     "major_holders": [
       {
         "label": "",
@@ -39,25 +46,25 @@
       },
       {
         "label": "",
-        "value": 50.11
+        "value": 47.8
       },
       {
         "label": "",
-        "value": 50.7
+        "value": 48.36
       },
       {
         "label": "",
-        "value": 149.0
+        "value": 137.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 2549845,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.42,
-        "pct_change": 0.39,
-        "value": 6998049602
+        "pct_change": 0.0,
+        "value": 4876578562
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -65,31 +72,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.94,
         "pct_change": 2.6,
-        "value": 4666171455
+        "value": 3251613375
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1284600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.71,
-        "pct_change": 0.35,
-        "value": 3525584700
-      },
-      {
-        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
-        "shares": 716500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.4,
-        "pct_change": 19.66,
-        "value": 1966434250
+        "shares": 1263000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.7,
+        "pct_change": 0.0,
+        "value": 2415487500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 706800,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.39,
-        "pct_change": -0.25,
-        "value": 1939812600
+        "shares": 712900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.4,
+        "pct_change": -0.22,
+        "value": 1363421250
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -97,23 +96,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.38,
         "pct_change": -4.22,
-        "value": 1860982326
+        "value": 1296822262
+      },
+      {
+        "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
+        "shares": 548900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": -23.39,
+        "value": 1049771250
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 557521,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.31,
-        "pct_change": 1.5,
-        "value": 1530116384
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 392275,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.22,
-        "pct_change": 0.93,
-        "value": 1076598737
+        "shares": 463821,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.26,
+        "pct_change": -16.81,
+        "value": 887057662
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -121,15 +120,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.22,
         "pct_change": 4.01,
-        "value": 1109875800
+        "value": 773415000
       },
       {
-        "holder": "GLOBAL X FUNDS-Global X Autonomous & Electric Vehicles ETF",
-        "shares": 269885,
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 403429,
         "date_reported": "2026-05-31",
-        "pct_held": 0.15,
-        "pct_change": 6.82,
-        "value": 740699382
+        "pct_held": 0.22,
+        "pct_change": 2.84,
+        "value": 771557962
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 281800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.16,
+        "pct_change": 12.36,
+        "value": 538942500
       }
     ],
     "mutualfund_holders": []

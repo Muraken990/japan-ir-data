@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:11:26.929479",
+  "fetched_at": "2026-08-01T04:57:52.208396",
   "ticker": "3391",
   "ticker_full": "3391.T",
   "company_name": "TSURUHA HOLDINGS INC",
@@ -13,41 +13,79 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.66667
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.44444
   },
   "target_prices": {
     "has_data": true,
-    "current": 2012.0,
+    "current": 2424.0,
     "high": 3000.0,
-    "low": 2150.0,
-    "mean": 2541.111,
+    "low": 2300.0,
+    "mean": 2585.5557,
     "median": 2500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-09",
+      "eps_estimate": 34.24,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-07-07",
+        "eps_estimate": 24.71,
+        "eps_actual": 29.75,
+        "surprise_pct": 20.42
+      },
+      {
+        "date": "2026-04-08",
+        "eps_estimate": 29.29,
+        "eps_actual": 33.82,
+        "surprise_pct": 15.47
+      },
+      {
+        "date": "2026-01-07",
+        "eps_estimate": 26.57,
+        "eps_actual": 27.09,
+        "surprise_pct": 1.96
+      },
+      {
+        "date": "2025-10-09",
+        "eps_estimate": 23.09,
+        "eps_actual": 37.98,
+        "surprise_pct": 64.51
+      },
+      {
+        "date": "2025-07-09",
+        "eps_estimate": 30.84,
+        "eps_actual": 45.66,
+        "surprise_pct": 48.04
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 54.17,
-    "institution_pct": 23.95,
+    "insider_pct": 54.16,
+    "institution_pct": 27.39,
     "major_holders": [
       {
         "label": "",
-        "value": 54.17
+        "value": 54.16
       },
       {
         "label": "",
-        "value": 23.95
+        "value": 27.39
       },
       {
         "label": "",
-        "value": 52.26
+        "value": 59.76
       },
       {
         "label": "",
-        "value": 188.0
+        "value": 174.0
       }
     ],
     "institutional_holders": [
@@ -57,25 +95,17 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.03,
         "pct_change": 0.0,
-        "value": 27162000
+        "value": 32724000
       }
     ],
     "mutualfund_holders": [
-      {
-        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 3784560,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.83,
-        "pct_change": 64.83,
-        "value": 7614534720
-      },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.",
         "shares": 3623800,
         "date_reported": "2026-04-30",
         "pct_held": 0.8,
         "pct_change": 1.11,
-        "value": 7291085600
+        "value": 8784091200
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -83,7 +113,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.73,
         "pct_change": 33.1,
-        "value": 6696750860
+        "value": 8068053720
+      },
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 3080560,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.68,
+        "pct_change": -18.6,
+        "value": 7467277440
       },
       {
         "holder": "-Price (T.Rowe) International Core Equity Trust",
@@ -91,15 +129,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.59,
         "pct_change": 0.71,
-        "value": 5423547200
+        "value": 6534134400
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 2513430,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.55,
-        "pct_change": -27.82,
-        "value": 5057021160
+        "shares": 2631430,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.58,
+        "pct_change": 4.69,
+        "value": 6378586320
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
@@ -107,7 +145,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.49,
         "pct_change": 1.0,
-        "value": 4486760000
+        "value": 5405520000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -115,31 +153,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.45,
         "pct_change": -17.26,
-        "value": 4079714292
+        "value": 4915122984
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1759100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.39,
-        "pct_change": 0.51,
-        "value": 3539309200
+        "shares": 1669800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.37,
+        "pct_change": 0.0,
+        "value": 4047595200
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
         "shares": 1422500,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 2862070000
+        "value": 3448140000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
         "shares": 1051950,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.23,
-        "pct_change": -50.0,
-        "value": 2116523400
+        "pct_change": 0.0,
+        "value": 2549926800
       }
     ]
   }

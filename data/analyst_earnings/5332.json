@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:09:22.268848",
+  "fetched_at": "2026-08-01T04:55:49.308331",
   "ticker": "5332",
   "ticker_full": "5332.T",
   "company_name": "TOTO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 2,
     "buy": 3,
-    "hold": 4,
+    "hold": 3,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 9,
@@ -18,22 +18,23 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 8302.0,
-    "high": 8500.0,
-    "low": 5430.0,
-    "mean": 6858.8887,
-    "median": 6900.0
+    "current": 7010.0,
+    "high": 11100.0,
+    "low": 5500.0,
+    "mean": 7886.6665,
+    "median": 7900.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": {
-      "date": "2026-07-31",
-      "eps_estimate": 10.23,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    "future_count": 1,
+    "next_earnings": null,
+    "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 45.62,
+        "eps_actual": 42.0,
+        "surprise_pct": -7.94
+      },
       {
         "date": "2026-04-29",
         "eps_estimate": 25.62,
@@ -57,19 +58,13 @@
         "eps_estimate": 10.23,
         "eps_actual": 37.32,
         "surprise_pct": 264.72
-      },
-      {
-        "date": "2025-04-28",
-        "eps_estimate": -56.35,
-        "eps_actual": -142.85,
-        "surprise_pct": -153.5
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.43,
-    "institution_pct": 53.94,
+    "institution_pct": 54.45,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 53.94
+        "value": 54.45
       },
       {
         "label": "",
-        "value": 58.91
+        "value": 59.46
       },
       {
         "label": "",
-        "value": 187.0
+        "value": 188.0
       }
     ],
     "institutional_holders": [
@@ -95,25 +90,25 @@
         "date_reported": "2024-12-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 33208
+        "value": 28040
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "John Hancock Investment Trust-Disciplined Value International Fund",
-        "shares": 2320400,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.39,
-        "pct_change": 0.0,
-        "value": 19263960800
+        "shares": 2332200,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.4,
+        "pct_change": 0.51,
+        "value": 16348722000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2169696,
-        "date_reported": "2026-01-31",
+        "shares": 2156096,
+        "date_reported": "2026-04-30",
         "pct_held": 1.3,
-        "pct_change": 0.42,
-        "value": 18012816192
+        "pct_change": -0.63,
+        "value": 15114232960
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,15 +116,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.86,
         "pct_change": 2.81,
-        "value": 11867916550
+        "value": 10020970250
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 968300,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.58,
-        "pct_change": 0.47,
-        "value": 8038826600
+        "shares": 985700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.59,
+        "pct_change": 1.12,
+        "value": 6909757000
       },
       {
         "holder": "Principal Funds, Inc-Overseas Fund",
@@ -137,23 +132,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 4583534200
+        "value": 3870221000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 524200,
-        "date_reported": "2026-04-30",
+        "shares": 538500,
+        "date_reported": "2026-06-30",
         "pct_held": 0.32,
-        "pct_change": -0.23,
-        "value": 4351908400
-      },
-      {
-        "holder": "Brinker Capital Destinations TRT-Destinations Intl Eqy. Fd.",
-        "shares": 345252,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.21,
-        "pct_change": 0.0,
-        "value": 2866282104
+        "pct_change": 0.71,
+        "value": 3774885000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -161,15 +148,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.21,
         "pct_change": 3.6,
-        "value": 2866614184
-      },
-      {
-        "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
-        "shares": 327100,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.2,
-        "pct_change": 16.41,
-        "value": 2715584200
+        "value": 2420496920
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -177,7 +156,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 2777019000
+        "value": 2344845000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
+        "shares": 322857,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.19,
+        "pct_change": 2.91,
+        "value": 2263227570
+      },
+      {
+        "holder": "Brinker Capital Destinations TRT-Destinations Intl Eqy. Fd.",
+        "shares": 305452,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.18,
+        "pct_change": -11.53,
+        "value": 2141218520
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:51.087039",
+  "fetched_at": "2026-08-01T04:52:41.221699",
   "ticker": "5741",
   "ticker_full": "5741.T",
   "company_name": "UACJ CORPORATION",
@@ -18,20 +18,58 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2488.0,
+    "current": 2355.0,
     "high": 4050.0,
     "low": 2400.0,
-    "mean": 3111.6667,
+    "mean": 3113.3333,
     "median": 2950.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": 27.58,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 21.63,
+        "eps_actual": 77.09,
+        "surprise_pct": 256.35
+      },
+      {
+        "date": "2026-02-12",
+        "eps_estimate": 53.65,
+        "eps_actual": 96.96,
+        "surprise_pct": 80.74
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": 13.43,
+        "eps_actual": 11.72,
+        "surprise_pct": -12.75
+      },
+      {
+        "date": "2025-08-05",
+        "eps_estimate": 27.58,
+        "eps_actual": 7.25,
+        "surprise_pct": -73.74
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": 14.84,
+        "eps_actual": 17.13,
+        "surprise_pct": 15.42
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.84,
-    "institution_pct": 72.52,
+    "institution_pct": 72.56,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 72.52
+        "value": 72.56
       },
       {
         "label": "",
-        "value": 81.34
+        "value": 81.39
       },
       {
         "label": "",
-        "value": 105.0
+        "value": 107.0
       }
     ],
     "institutional_holders": [],

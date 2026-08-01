@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:12:17.385314",
+  "fetched_at": "2026-08-01T04:58:43.496558",
   "ticker": "7912",
   "ticker_full": "7912.T",
   "company_name": "DAI NIPPON PRINTING CO",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2962.0,
+    "current": 2921.5,
     "high": 3700.0,
     "low": 2500.0,
     "mean": 3060.0,
     "median": 3000.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-07",
+      "eps_estimate": 49.09,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 29.69,
+        "eps_actual": 43.18,
+        "surprise_pct": 45.44
+      },
+      {
+        "date": "2013-06-26",
+        "eps_estimate": 6.4,
+        "eps_actual": 14.46,
+        "surprise_pct": 125.94
+      },
+      {
+        "date": "2013-02-06",
+        "eps_estimate": 8.7,
+        "eps_actual": 14.75,
+        "surprise_pct": 69.54
+      },
+      {
+        "date": "2012-11-08",
+        "eps_estimate": 12.7,
+        "eps_actual": 7.16,
+        "surprise_pct": -43.62
+      },
+      {
+        "date": "2012-08-08",
+        "eps_estimate": 5.4,
+        "eps_actual": -6.54,
+        "surprise_pct": -221.11
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.14,
-    "institution_pct": 51.52,
+    "insider_pct": 7.06,
+    "institution_pct": 51.82,
     "major_holders": [
       {
         "label": "",
-        "value": 7.14
+        "value": 7.06
       },
       {
         "label": "",
-        "value": 51.52
+        "value": 51.82
       },
       {
         "label": "",
-        "value": 55.48
+        "value": 55.76
       },
       {
         "label": "",
-        "value": 272.0
+        "value": 275.0
       }
     ],
     "institutional_holders": [],

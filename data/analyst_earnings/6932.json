@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:35:33.402743",
+  "fetched_at": "2026-08-01T04:24:31.228523",
   "ticker": "6932",
   "ticker_full": "6932.T",
   "company_name": "ENDO LIGHTING CORP",
@@ -16,17 +16,72 @@
     "strong_sell": null
   },
   "target_prices": {
-    "has_data": false
+    "has_data": true,
+    "current": 2606.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 22.1,
+        "eps_actual": 3.06,
+        "surprise_pct": -86.15
+      },
+      {
+        "date": "2015-10-29",
+        "eps_estimate": 32.42,
+        "eps_actual": -12.49,
+        "surprise_pct": -138.53
+      },
+      {
+        "date": "2015-07-30",
+        "eps_estimate": -19.29,
+        "eps_actual": -18.34,
+        "surprise_pct": 4.91
+      },
+      {
+        "date": "2015-04-29",
+        "eps_estimate": 31.58,
+        "eps_actual": -29.3,
+        "surprise_pct": -192.79
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 43.89,
+        "eps_actual": 94.01,
+        "surprise_pct": 114.17
+      }
+    ]
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 34.89,
+    "institution_pct": 16.27,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 34.89
+      },
+      {
+        "label": "",
+        "value": 16.27
+      },
+      {
+        "label": "",
+        "value": 24.99
+      },
+      {
+        "label": "",
+        "value": 20.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

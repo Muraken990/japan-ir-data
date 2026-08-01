@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:49.979076",
+  "fetched_at": "2026-08-01T04:53:41.544712",
   "ticker": "3436",
   "ticker_full": "3436.T",
   "company_name": "SUMCO CORPORATION",
@@ -8,9 +8,9 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 7,
+    "buy": 6,
     "hold": 5,
-    "sell": 1,
+    "sell": 2,
     "strong_sell": 1,
     "total_analysts": 16,
     "recommendation_key": "hold",
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4725.0,
-    "high": 5130.0,
+    "current": 3357.0,
+    "high": 6500.0,
     "low": 1300.0,
-    "mean": 3275.625,
+    "mean": 3626.25,
     "median": 3145.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-06",
+      "eps_estimate": -6.13,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-05-12",
+        "eps_estimate": -12.77,
+        "eps_actual": -24.22,
+        "surprise_pct": -89.67
+      },
+      {
+        "date": "2026-02-10",
+        "eps_estimate": -20.28,
+        "eps_actual": -30.75,
+        "surprise_pct": -51.64
+      },
+      {
+        "date": "2025-11-11",
+        "eps_estimate": -5.57,
+        "eps_actual": -11.66,
+        "surprise_pct": -109.4
+      },
+      {
+        "date": "2025-08-06",
+        "eps_estimate": -2.95,
+        "eps_actual": 0.1,
+        "surprise_pct": 103.39
+      },
+      {
+        "date": "2025-05-08",
+        "eps_estimate": 5.22,
+        "eps_actual": 8.71,
+        "surprise_pct": 66.98
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 3.91,
-    "institution_pct": 63.9,
+    "insider_pct": 1.72,
+    "institution_pct": 61.09,
     "major_holders": [
       {
         "label": "",
-        "value": 3.91
+        "value": 1.72
       },
       {
         "label": "",
-        "value": 63.9
+        "value": 61.09
       },
       {
         "label": "",
-        "value": 66.5
+        "value": 62.17
       },
       {
         "label": "",
-        "value": 167.0
+        "value": 166.0
       }
     ],
     "institutional_holders": [
@@ -57,7 +95,7 @@
         "date_reported": "2023-09-30",
         "pct_held": 0.04,
         "pct_change": 5.8,
-        "value": 628897500
+        "value": 446816700
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
@@ -65,25 +103,25 @@
         "date_reported": "2023-09-30",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 8410500
+        "value": 5975460
       }
     ],
     "mutualfund_holders": [
       {
-        "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
-        "shares": 5495521,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.57,
-        "pct_change": -0.44,
-        "value": 25966336725
+        "holder": "MFS SERIES TRUST X-MFS International Growth Fund",
+        "shares": 5929200,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.69,
+        "pct_change": 1.0,
+        "value": 19904324400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5077126,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.45,
-        "pct_change": 1.11,
-        "value": 23989420350
+        "shares": 5046526,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.44,
+        "pct_change": -0.6,
+        "value": 16941187782
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
@@ -91,7 +129,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.43,
         "pct_change": -9.76,
-        "value": 23577750000
+        "value": 16751430000
+      },
+      {
+        "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
+        "shares": 4896928,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.4,
+        "pct_change": -10.89,
+        "value": 16438987296
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -99,23 +145,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.96,
         "pct_change": 2.96,
-        "value": 15824124225
+        "value": 11242663497
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2525000,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.72,
-        "pct_change": 0.54,
-        "value": 11930625000
-      },
-      {
-        "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
-        "shares": 2215030,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.63,
-        "pct_change": 9.07,
-        "value": 10466016750
+        "shares": 2544500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.73,
+        "pct_change": 0.0,
+        "value": 8541886500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -123,7 +161,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.52,
         "pct_change": 69.39,
-        "value": 8570205000
+        "value": 6088926600
+      },
+      {
+        "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
+        "shares": 1597930,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.46,
+        "pct_change": 4.65,
+        "value": 5364251010
       },
       {
         "holder": "VANGUARD SPECIALIZED FUNDS-Vanguard Global Capital Cycles Fund",
@@ -131,23 +177,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 7333861500
+        "value": 5210533980
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1383600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.4,
-        "pct_change": 0.34,
-        "value": 6537510000
-      },
-      {
-        "holder": "Fidelity Rutland Square TRT II-Strategic Advisers U.S. Total Stock Fd.",
-        "shares": 1358220,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.39,
-        "pct_change": 0.0,
-        "value": 6417589500
+        "shares": 1420300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.41,
+        "pct_change": 0.09,
+        "value": 4767947100
       }
     ]
   }

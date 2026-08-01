@@ -1,37 +1,75 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:35.351934",
+  "fetched_at": "2026-08-01T04:41:02.925944",
   "ticker": "9603",
   "ticker_full": "9603.T",
   "company_name": "H.I.S. CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 1,
     "buy": 0,
     "hold": 4,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.75
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 937.0,
+    "current": 1023.0,
     "high": 1300.0,
     "low": 1080.0,
     "mean": 1170.0,
     "median": 1150.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-09-11",
+      "eps_estimate": -55.35,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-06-12",
+        "eps_estimate": 16.3,
+        "eps_actual": -5.72,
+        "surprise_pct": -135.1
+      },
+      {
+        "date": "2026-03-13",
+        "eps_estimate": 48.9,
+        "eps_actual": 45.86,
+        "surprise_pct": -6.22
+      },
+      {
+        "date": "2025-12-12",
+        "eps_estimate": 45.16,
+        "eps_actual": 39.3,
+        "surprise_pct": -12.97
+      },
+      {
+        "date": "2025-09-12",
+        "eps_estimate": -4.29,
+        "eps_actual": -26.98,
+        "surprise_pct": -528.71
+      },
+      {
+        "date": "2025-06-13",
+        "eps_estimate": 21.42,
+        "eps_actual": 3.81,
+        "surprise_pct": -82.21
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.86,
-    "institution_pct": 13.23,
+    "institution_pct": 12.79,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +77,25 @@
       },
       {
         "label": "",
-        "value": 13.23
+        "value": 12.79
       },
       {
         "label": "",
-        "value": 19.13
+        "value": 18.5
       },
       {
         "label": "",
-        "value": 62.0
+        "value": 51.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 718978,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.9,
-        "pct_change": -0.81,
-        "value": 673682386
-      },
-      {
-        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 497700,
         "date_reported": "2026-04-30",
-        "pct_held": 0.62,
-        "pct_change": 0.91,
-        "value": 466344900
+        "pct_held": 0.9,
+        "pct_change": 0.0,
+        "value": 735514494
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,63 +103,71 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.6,
         "pct_change": 4.83,
-        "value": 449801228
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
-        "shares": 264900,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.33,
-        "pct_change": 12.96,
-        "value": 248211300
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 238600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.3,
-        "pct_change": -0.33,
-        "value": 223568200
+        "value": 491085012
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 195793,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": 8.11,
-        "value": 183458041
+        "shares": 296893,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.37,
+        "pct_change": 51.64,
+        "value": 303721539
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 174400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.22,
-        "pct_change": -6.29,
-        "value": 163412800
-      },
-      {
-        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
-        "shares": 126301,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.16,
-        "pct_change": 8.97,
-        "value": 118344037
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 186900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.23,
+        "pct_change": -29.45,
+        "value": 191198700
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 124300,
-        "date_reported": "2026-05-31",
+        "shares": 131100,
+        "date_reported": "2026-06-30",
         "pct_held": 0.16,
-        "pct_change": 0.0,
-        "value": 116469100
+        "pct_change": 5.47,
+        "value": 134115300
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
+        "shares": 108901,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": -13.78,
+        "value": 111405723
       },
       {
         "holder": "Japan Smaller Capitalization Fund, Inc.",
         "shares": 112100,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-05-31",
         "pct_held": 0.14,
-        "pct_change": 1.0,
-        "value": 105037700
+        "pct_change": 0.0,
+        "value": 114678300
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 110873,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.14,
+        "pct_change": 4.75,
+        "value": 113423079
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
+        "shares": 65848,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.08,
+        "pct_change": 0.0,
+        "value": 67362504
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity Market ETF",
+        "shares": 58707,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.07,
+        "pct_change": 14.65,
+        "value": 60057261
       }
     ],
     "mutualfund_holders": []

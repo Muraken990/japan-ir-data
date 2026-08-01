@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:51:34.645637",
+  "fetched_at": "2026-08-01T04:41:01.866283",
   "ticker": "8393",
   "ticker_full": "8393.T",
   "company_name": "MIYAZAKI BANK",
@@ -17,36 +17,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2120.0,
+    "current": 2339.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-04",
+        "eps_estimate": 37.13,
+        "eps_actual": 31.12,
+        "surprise_pct": -16.18
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 26.26,
+        "eps_actual": 35.36,
+        "surprise_pct": 34.63
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 19.23,
+        "eps_actual": 2.2,
+        "surprise_pct": -88.56
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 19.86,
+        "eps_actual": 34.26,
+        "surprise_pct": 72.51
+      },
+      {
+        "date": "2014-11-05",
+        "eps_estimate": 14.1,
+        "eps_actual": 19.04,
+        "surprise_pct": 35.05
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.39,
-    "institution_pct": 32.25,
+    "insider_pct": 5.08,
+    "institution_pct": 30.99,
     "major_holders": [
       {
         "label": "",
-        "value": 5.39
+        "value": 5.08
       },
       {
         "label": "",
-        "value": 32.25
+        "value": 30.99
       },
       {
         "label": "",
-        "value": 34.09
+        "value": 32.65
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 60.0
       }
     ],
     "institutional_holders": [],

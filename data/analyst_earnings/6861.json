@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:15:29.467446",
+  "fetched_at": "2026-08-01T05:02:17.234828",
   "ticker": "6861",
   "ticker_full": "6861.T",
   "company_name": "KEYENCE CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 1,
     "buy": 9,
-    "hold": 5,
+    "hold": 6,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 17,
+    "total_analysts": 16,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.6875
+    "recommendation_mean": 1.625
   },
   "target_prices": {
     "has_data": true,
-    "current": 81690.0,
-    "high": 100200.0,
-    "low": 60000.0,
-    "mean": 84418.75,
-    "median": 86700.0
+    "current": 81150.0,
+    "high": 115000.0,
+    "low": 69000.0,
+    "mean": 92250.0,
+    "median": 91250.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-07-28",
-      "eps_estimate": 391.04,
+      "date": "2026-10-29",
+      "eps_estimate": 438.76,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-28",
+        "eps_estimate": 463.17,
+        "eps_actual": 573.69,
+        "surprise_pct": 23.86
+      },
       {
         "date": "2026-04-24",
         "eps_estimate": 473.07,
@@ -57,19 +63,13 @@
         "eps_estimate": 391.04,
         "eps_actual": 379.82,
         "surprise_pct": -2.87
-      },
-      {
-        "date": "2025-04-25",
-        "eps_estimate": 445.53,
-        "eps_actual": 440.74,
-        "surprise_pct": -1.08
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.76,
-    "institution_pct": 37.55,
+    "institution_pct": 37.67,
     "major_holders": [
       {
         "label": "",
@@ -77,33 +77,25 @@
       },
       {
         "label": "",
-        "value": 37.55
+        "value": 37.67
       },
       {
         "label": "",
-        "value": 48.62
+        "value": 48.78
       },
       {
         "label": "",
-        "value": 617.0
+        "value": 626.0
       }
     ],
     "institutional_holders": [
-      {
-        "holder": "Gamma Investing LLC",
-        "shares": 33,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 0.0,
-        "value": 2695770
-      },
       {
         "holder": "Richardson Financial Services Inc.                          ",
         "shares": 1,
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 81690
+        "value": 81150
       },
       {
         "holder": "Pacer Advisors, Inc.",
@@ -111,33 +103,57 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.0,
         "pct_change": 12.31,
-        "value": 155782830
+        "value": 154753050
+      },
+      {
+        "holder": "Gamma Investing LLC",
+        "shares": 33,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 0.0,
+        "value": 2677950
+      },
+      {
+        "holder": "Diversified Trust Company",
+        "shares": 714,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 57941100
       },
       {
         "holder": "Boston Common Asset Management, LLC",
-        "shares": 1301,
-        "date_reported": "2026-03-31",
+        "shares": 537,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": -5.11,
-        "value": 106278690
+        "pct_change": -58.72,
+        "value": 43577550
+      },
+      {
+        "holder": "Sageworth Trust Company",
+        "shares": 751,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 60943650
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 2734388,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.12,
-        "pct_change": 0.85,
-        "value": 223372155720
+        "shares": 2741588,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.13,
+        "pct_change": 0.26,
+        "value": 222479866200
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 2225900,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.92,
-        "pct_change": 16.46,
-        "value": 181833771000
+        "shares": 1935000,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.8,
+        "pct_change": -13.07,
+        "value": 157025250000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -145,15 +161,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.75,
         "pct_change": 2.38,
-        "value": 148050463050
+        "value": 147071796750
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1381900,
-        "date_reported": "2026-04-30",
+        "shares": 1390300,
+        "date_reported": "2026-06-30",
         "pct_held": 0.57,
-        "pct_change": 1.42,
-        "value": 112887411000
+        "pct_change": 0.29,
+        "value": 112822845000
       },
       {
         "holder": "First Eagle Funds-First Eagle Global Fund",
@@ -161,47 +177,47 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.52,
         "pct_change": 15.39,
-        "value": 102790527000
+        "value": 102111045000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 785404,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.32,
-        "pct_change": -1.98,
-        "value": 64159652760
-      },
-      {
-        "holder": "EuroPacific Growth Fund-EUPAC Fund",
-        "shares": 754351,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.31,
-        "pct_change": 0.0,
-        "value": 61622933190
+        "shares": 814604,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.33,
+        "pct_change": 2.94,
+        "value": 66105114600
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 724385,
-        "date_reported": "2026-04-30",
+        "shares": 725785,
+        "date_reported": "2026-06-30",
         "pct_held": 0.3,
-        "pct_change": 1.19,
-        "value": 59175010650
+        "pct_change": -0.85,
+        "value": 58897452750
       },
       {
         "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
-        "shares": 691745,
-        "date_reported": "2026-05-31",
+        "shares": 690695,
+        "date_reported": "2026-06-30",
         "pct_held": 0.28,
-        "pct_change": 1.92,
-        "value": 56508649050
+        "pct_change": -0.15,
+        "value": 56049899250
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 672992,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.28,
-        "pct_change": -0.52,
-        "value": 54976716480
+        "shares": 668492,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.27,
+        "pct_change": -0.67,
+        "value": 54248125800
+      },
+      {
+        "holder": "NEW PERSPECTIVE FUND",
+        "shares": 633500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.26,
+        "pct_change": 0.0,
+        "value": 51408525000
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:39:26.682060",
+  "fetched_at": "2026-08-01T04:29:15.592202",
   "ticker": "2594",
   "ticker_full": "2594.T",
   "company_name": "KEY COFFEE INC",
@@ -17,20 +17,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1975.0,
+    "current": 2001.0,
     "high": null,
     "low": null,
     "mean": null,
     "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-01-28",
+        "eps_estimate": 19.05,
+        "eps_actual": 31.69,
+        "surprise_pct": 66.33
+      },
+      {
+        "date": "2015-07-26",
+        "eps_estimate": 16.93,
+        "eps_actual": 22.25,
+        "surprise_pct": 31.46
+      },
+      {
+        "date": "2015-05-12",
+        "eps_estimate": -18.81,
+        "eps_actual": -7.67,
+        "surprise_pct": 59.23
+      },
+      {
+        "date": "2015-01-29",
+        "eps_estimate": 23.26,
+        "eps_actual": 21.56,
+        "surprise_pct": -7.3
+      },
+      {
+        "date": "2014-10-26",
+        "eps_estimate": 10.17,
+        "eps_actual": 6.15,
+        "surprise_pct": -39.5
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 20.29,
-    "institution_pct": 10.04,
+    "institution_pct": 10.15,
     "major_holders": [
       {
         "label": "",
@@ -38,11 +71,11 @@
       },
       {
         "label": "",
-        "value": 10.04
+        "value": 10.15
       },
       {
         "label": "",
-        "value": 12.6
+        "value": 12.73
       },
       {
         "label": "",

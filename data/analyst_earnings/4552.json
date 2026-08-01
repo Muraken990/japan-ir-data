@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:50:33.594905",
+  "fetched_at": "2026-08-01T04:39:58.402810",
   "ticker": "4552",
   "ticker_full": "4552.T",
   "company_name": "JCR PHARMACEUTICAL CO",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 0,
-    "buy": 0,
-    "hold": 6,
+    "buy": 1,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
@@ -18,36 +18,74 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 453.0,
+    "current": 479.0,
     "high": 900.0,
     "low": 430.0,
     "mean": 600.0,
     "median": 540.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 18.67,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": -11.27,
+        "eps_actual": -15.64,
+        "surprise_pct": -38.78
+      },
+      {
+        "date": "2026-01-28",
+        "eps_estimate": -1.07,
+        "eps_actual": 0.27,
+        "surprise_pct": 125.23
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 18.67,
+        "eps_actual": 18.51,
+        "surprise_pct": -0.88
+      },
+      {
+        "date": "2025-07-29",
+        "eps_estimate": 4.36,
+        "eps_actual": -4.48,
+        "surprise_pct": -202.76
+      },
+      {
+        "date": "2025-05-13",
+        "eps_estimate": -31.54,
+        "eps_actual": -33.8,
+        "surprise_pct": -7.17
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 41.55,
-    "institution_pct": 11.74,
+    "insider_pct": 41.21,
+    "institution_pct": 9.26,
     "major_holders": [
       {
         "label": "",
-        "value": 41.55
+        "value": 41.21
       },
       {
         "label": "",
-        "value": 11.74
+        "value": 9.26
       },
       {
         "label": "",
-        "value": 20.08
+        "value": 15.75
       },
       {
         "label": "",
-        "value": 39.0
+        "value": 35.0
       }
     ],
     "institutional_holders": [
@@ -57,17 +95,17 @@
         "date_reported": "2022-09-30",
         "pct_held": 0.01,
         "pct_change": 1.0,
-        "value": 4938153
+        "value": 5221579
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 1009775,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.78,
-        "pct_change": 5.97,
-        "value": 457428075
+        "shares": 1066475,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.82,
+        "pct_change": 5.62,
+        "value": 510841525
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -75,23 +113,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 324007797
+        "value": 342604271
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
-        "shares": 272500,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.21,
-        "pct_change": 14.21,
-        "value": 123442500
+        "shares": 303500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.23,
+        "pct_change": 11.38,
+        "value": 145376500
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
-        "shares": 156206,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.12,
-        "pct_change": 14.38,
-        "value": 70761318
+        "shares": 163644,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.13,
+        "pct_change": 4.76,
+        "value": 78385476
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -99,47 +137,47 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.07,
         "pct_change": -5.09,
-        "value": 41418696
+        "value": 43795928
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Total World Stock Index Fd.",
         "shares": 62900,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.05,
-        "pct_change": 97.8,
-        "value": 28493700
+        "pct_change": 0.0,
+        "value": 30129100
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
-        "shares": 67300,
-        "date_reported": "2026-04-30",
+        "shares": 64600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.05,
-        "pct_change": -5.08,
-        "value": 30486900
+        "pct_change": -4.01,
+        "value": 30943400
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
-        "shares": 38400,
-        "date_reported": "2026-05-31",
+        "shares": 39000,
+        "date_reported": "2026-06-30",
         "pct_held": 0.03,
-        "pct_change": -2.04,
-        "value": 17395200
+        "pct_change": 1.56,
+        "value": 18681000
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
         "shares": 24400,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 11053200
+        "value": 11687600
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard ESG International Stock ETF",
         "shares": 12100,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-05-31",
         "pct_held": 0.01,
         "pct_change": 0.0,
-        "value": 5481300
+        "value": 5795900
       }
     ]
   }

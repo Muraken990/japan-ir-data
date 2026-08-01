@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:05:47.108782",
+  "fetched_at": "2026-08-01T04:52:52.967028",
   "ticker": "8955",
   "ticker_full": "8955.T",
   "company_name": "JAPAN PRIME REALTY INVESTMENT C",
@@ -18,20 +18,27 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 92100.0,
+    "current": 98100.0,
     "high": 125000.0,
     "low": 107000.0,
     "mean": 113500.0,
     "median": 110500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-17",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": []
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.19,
-    "institution_pct": 50.33,
+    "institution_pct": 50.9,
     "major_holders": [
       {
         "label": "",
@@ -39,11 +46,11 @@
       },
       {
         "label": "",
-        "value": 50.33
+        "value": 50.9
       },
       {
         "label": "",
-        "value": 56.04
+        "value": 56.68
       },
       {
         "label": "",
@@ -53,11 +60,11 @@
     "institutional_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 52436,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.3,
-        "pct_change": 0.61,
-        "value": 4829355600
+        "shares": 52951,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.31,
+        "pct_change": 0.98,
+        "value": 5194493100
       },
       {
         "holder": "-Price (T.Rowe) Real Assets Trust I",
@@ -65,7 +72,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.96,
         "pct_change": -3.58,
-        "value": 3590334300
+        "value": 3824232300
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -73,15 +80,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.86,
         "pct_change": 3.52,
-        "value": 3208579800
+        "value": 3417607800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 25550,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.63,
-        "pct_change": 0.53,
-        "value": 2353155000
+        "shares": 25745,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.64,
+        "pct_change": 0.0,
+        "value": 2525584500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Real Estate Securities PO",
@@ -89,7 +96,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.57,
         "pct_change": 2.43,
-        "value": 2111024100
+        "value": 2248550100
       },
       {
         "holder": "T. Rowe Price Real Assets Fund, Inc.",
@@ -97,7 +104,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.53,
         "pct_change": -5.35,
-        "value": 1994333400
+        "value": 2124257400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -105,23 +112,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.35,
         "pct_change": 4.87,
-        "value": 1318319400
+        "value": 1404203400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 13403,
-        "date_reported": "2026-04-30",
+        "shares": 13369,
+        "date_reported": "2026-06-30",
         "pct_held": 0.33,
         "pct_change": -0.25,
-        "value": 1234416300
+        "value": 1311498900
       },
       {
         "holder": "iShares Trust-iShares Global REIT ETF",
-        "shares": 9702,
-        "date_reported": "2026-04-30",
+        "shares": 9732,
+        "date_reported": "2026-06-30",
         "pct_held": 0.24,
-        "pct_change": 2.58,
-        "value": 893554200
+        "pct_change": 0.47,
+        "value": 954709200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -129,7 +136,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 4.24,
-        "value": 750246600
+        "value": 799122600
       }
     ],
     "mutualfund_holders": []

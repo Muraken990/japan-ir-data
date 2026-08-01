@@ -1,37 +1,51 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:04:56.762445",
+  "fetched_at": "2026-08-01T04:52:46.568038",
   "ticker": "9336",
   "ticker_full": "9336.T",
   "company_name": "DAIEI KANKYO CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3730.0,
+    "current": 3740.0,
     "high": 4900.0,
     "low": 3400.0,
     "mean": 4150.0,
     "median": 4150.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-08-10",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2025-11-11",
+        "eps_estimate": null,
+        "eps_actual": null,
+        "surprise_pct": null
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 63.1,
-    "institution_pct": 20.24,
+    "institution_pct": 20.3,
     "major_holders": [
       {
         "label": "",
@@ -39,33 +53,33 @@
       },
       {
         "label": "",
-        "value": 20.24
+        "value": 20.3
       },
       {
         "label": "",
-        "value": 54.85
+        "value": 55.01
       },
       {
         "label": "",
-        "value": 105.0
+        "value": 106.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
         "shares": 1845000,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 1.85,
-        "pct_change": 1.93,
-        "value": 6881850000
+        "pct_change": 0.0,
+        "value": 6900300000
       },
       {
         "holder": "Fidelity Investment TRT-Fidelity Intl Small Cap Opportunities Fd.",
         "shares": 941000,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-05-31",
         "pct_held": 0.94,
-        "pct_change": 12.69,
-        "value": 3509930000
+        "pct_change": 0.0,
+        "value": 3519340000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -73,15 +87,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 2781088000
+        "value": 2788544000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 512400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.51,
-        "pct_change": 0.0,
-        "value": 1911252000
+        "shares": 520600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.52,
+        "pct_change": 1.6,
+        "value": 1947044000
       },
       {
         "holder": "AIM Fd.s Group -Invesco Intl Small Company Fd.",
@@ -89,7 +103,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": 7.62,
-        "value": 1432320000
+        "value": 1436160000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -97,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.35,
         "pct_change": 4.21,
-        "value": 1291699000
+        "value": 1295162000
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
@@ -105,15 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.26,
         "pct_change": -6.44,
-        "value": 964205000
-      },
-      {
-        "holder": "Manning & Napier Fund, Inc.-Rainier International Discovery Series",
-        "shares": 186800,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.19,
-        "pct_change": 0.0,
-        "value": 696764000
+        "value": 966790000
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Fund",
@@ -121,7 +127,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.19,
         "pct_change": -10.02,
-        "value": 706462000
+        "value": 708356000
+      },
+      {
+        "holder": "Manning & Napier Fund, Inc.-Rainier International Discovery Series",
+        "shares": 186800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.19,
+        "pct_change": 0.0,
+        "value": 698632000
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -129,7 +143,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.17,
         "pct_change": -13.68,
-        "value": 632981000
+        "value": 634678000
       }
     ],
     "mutualfund_holders": []
