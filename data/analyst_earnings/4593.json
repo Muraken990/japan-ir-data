@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:22:10.729832",
+  "fetched_at": "2026-09-01T05:26:25.806910",
   "ticker": "4593",
   "ticker_full": "4593.T",
   "company_name": "HEALIOS KK",
@@ -13,15 +13,15 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 236.0,
-    "high": 1199.0,
+    "current": 294.0,
+    "high": 1289.0,
     "low": 510.0,
-    "mean": 779.8333,
+    "mean": 794.8333,
     "median": 755.0
   },
   "earnings_dates": {
@@ -29,6 +29,12 @@
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-08-11",
+        "eps_estimate": -10.23,
+        "eps_actual": 10.13,
+        "surprise_pct": 199.02
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": -11.14,
@@ -52,35 +58,29 @@
         "eps_estimate": -6.79,
         "eps_actual": -20.31,
         "surprise_pct": -199.12
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": -29.05,
-        "eps_actual": -26.72,
-        "surprise_pct": 8.02
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 22.1,
-    "institution_pct": 37.04,
+    "insider_pct": 20.99,
+    "institution_pct": 47.62,
     "major_holders": [
       {
         "label": "",
-        "value": 22.1
+        "value": 20.99
       },
       {
         "label": "",
-        "value": 37.04
+        "value": 47.62
       },
       {
         "label": "",
-        "value": 47.55
+        "value": 60.26
       },
       {
         "label": "",
-        "value": 11.0
+        "value": 12.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +90,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": -95.45,
-        "value": 47200
+        "value": 58800
       }
     ],
     "mutualfund_holders": []

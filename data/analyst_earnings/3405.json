@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:53:52.702106",
+  "fetched_at": "2026-09-01T05:56:23.493850",
   "ticker": "3405",
   "ticker_full": "3405.T",
   "company_name": "KURARAY CO",
@@ -8,32 +8,38 @@
     "has_data": true,
     "period": "2",
     "strong_buy": 0,
-    "buy": 3,
-    "hold": 4,
+    "buy": 1,
+    "hold": 6,
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.11111
   },
   "target_prices": {
     "has_data": true,
-    "current": 1840.0,
+    "current": 1893.0,
     "high": 2800.0,
     "low": 1380.0,
-    "mean": 1745.5555,
-    "median": 1600.0
+    "mean": 1766.6666,
+    "median": 1650.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 21.25,
+      "date": "2026-11-11",
+      "eps_estimate": 27.44,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 21.25,
+        "eps_actual": 21.36,
+        "surprise_pct": 0.5
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": 31.07,
@@ -57,35 +63,29 @@
         "eps_estimate": 37.53,
         "eps_actual": 6.43,
         "surprise_pct": -82.87
-      },
-      {
-        "date": "2025-05-14",
-        "eps_estimate": 41.72,
-        "eps_actual": 37.07,
-        "surprise_pct": -11.15
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.25,
-    "institution_pct": 60.54,
+    "insider_pct": 5.3,
+    "institution_pct": 58.92,
     "major_holders": [
       {
         "label": "",
-        "value": 5.25
+        "value": 5.3
       },
       {
         "label": "",
-        "value": 60.54
+        "value": 58.92
       },
       {
         "label": "",
-        "value": 63.9
+        "value": 62.21
       },
       {
         "label": "",
-        "value": 176.0
+        "value": 173.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2025-03-31",
         "pct_held": 0.04,
         "pct_change": -9.38,
-        "value": 259403200
+        "value": 266875140
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.42,
         "pct_change": -0.89,
-        "value": 7867076400
+        "value": 8093682405
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -113,7 +113,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 1.41,
         "pct_change": 24.62,
-        "value": 7851096000
+        "value": 8077241700
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.2,
         "pct_change": 1.0,
-        "value": 6671232800
+        "value": 6863393310
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 1.06,
         "pct_change": 38.13,
-        "value": 5873979200
+        "value": 6043175340
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -137,15 +137,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.94,
         "pct_change": 3.04,
-        "value": 5219472800
-      },
-      {
-        "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
-        "shares": 2029080,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.67,
-        "pct_change": -39.67,
-        "value": 3733507200
+        "value": 5369816310
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -153,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.66,
         "pct_change": 0.0,
-        "value": 3675584000
+        "value": 3781456800
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
@@ -161,7 +153,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.51,
         "pct_change": 3.18,
-        "value": 2816120000
+        "value": 2897236500
+      },
+      {
+        "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
+        "shares": 1427630,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.47,
+        "pct_change": -29.64,
+        "value": 2702503590
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -169,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.4,
         "pct_change": 1.4,
-        "value": 2224532400
+        "value": 2288608605
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -177,7 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": -2.28,
-        "value": 2140530880
+        "value": 2202187476
       }
     ]
   }

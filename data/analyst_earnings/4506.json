@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:56:49.628914",
+  "fetched_at": "2026-09-01T05:59:31.082991",
   "ticker": "4506",
   "ticker_full": "4506.T",
   "company_name": "SUMITOMO PHARMA CO LTD",
@@ -9,25 +9,30 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 1,
-    "hold": 2,
+    "hold": 3,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 6,
+    "total_analysts": 7,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.42857
+    "recommendation_mean": 2.14286
   },
   "target_prices": {
     "has_data": true,
-    "current": 1248.0,
-    "high": 2600.0,
+    "current": 1589.0,
+    "high": 2700.0,
     "low": 1500.0,
-    "mean": 2085.7144,
-    "median": 2200.0
+    "mean": 2071.4285,
+    "median": 2000.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": 18.07,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 48.83,
-    "institution_pct": 20.37,
+    "institution_pct": 21.58,
     "major_holders": [
       {
         "label": "",
@@ -72,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 20.37
+        "value": 21.58
       },
       {
         "label": "",
-        "value": 39.82
+        "value": 42.18
       },
       {
         "label": "",
-        "value": 136.0
+        "value": 134.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Legato Capital Management LLC",
-        "shares": 41081,
-        "date_reported": "2022-09-30",
-        "pct_held": 0.01,
-        "pct_change": 52.5,
-        "value": 51269088
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 274182,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.06,
+        "pct_change": 1.0,
+        "value": 435675198
       }
     ],
     "mutualfund_holders": [
@@ -100,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.61,
         "pct_change": 10.61,
-        "value": 3407298336
+        "value": 4338298923
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -108,7 +113,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 2135827200
+        "value": 2719414600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -116,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.37,
         "pct_change": 2.37,
-        "value": 2050090848
+        "value": 2610251889
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -124,7 +129,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.34,
         "pct_change": 1.0,
-        "value": 1903075200
+        "value": 2423066100
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -132,7 +137,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": -27.37,
-        "value": 1795622400
+        "value": 2286253200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -140,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.21,
         "pct_change": -0.25,
-        "value": 1192838400
+        "value": 1518766200
       },
       {
         "holder": "iShares Trust-iShares International Equity Factor ETF",
@@ -148,15 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.14,
         "pct_change": 44.25,
-        "value": 793728000
-      },
-      {
-        "holder": "Mercer Funds-Mercer Non-US Core Equity Fund",
-        "shares": 430400,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.1,
-        "pct_change": 12.35,
-        "value": 537139200
+        "value": 1010604000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -164,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.1,
         "pct_change": 18.15,
-        "value": 549307200
+        "value": 699398350
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -172,7 +169,15 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.1,
         "pct_change": 28.3,
-        "value": 553074912
+        "value": 704195541
+      },
+      {
+        "holder": "JPMorgan Trust I-JPMorgan Developed International Value Fund",
+        "shares": 404400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.09,
+        "pct_change": 1.0,
+        "value": 642591600
       }
     ]
   }

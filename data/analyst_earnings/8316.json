@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:02:17.308935",
+  "fetched_at": "2026-09-01T06:04:00.774777",
   "ticker": "8316",
   "ticker_full": "8316.T",
   "company_name": "SUMITOMO MITSUI FINANCIAL GROUP",
@@ -14,20 +14,25 @@
     "strong_sell": 0,
     "total_analysts": 12,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.66667
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 6814.0,
+    "current": 7019.0,
     "high": 8400.0,
     "low": 4500.0,
-    "mean": 7115.8335,
-    "median": 7700.0
+    "mean": 7250.8335,
+    "median": 7775.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-11-12",
+      "eps_estimate": 101.3,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-31",
@@ -63,50 +68,50 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.45,
-    "institution_pct": 40.79,
+    "insider_pct": 4.21,
+    "institution_pct": 42.42,
     "major_holders": [
       {
         "label": "",
-        "value": 5.45
+        "value": 4.21
       },
       {
         "label": "",
-        "value": 40.79
+        "value": 42.42
       },
       {
         "label": "",
-        "value": 43.14
+        "value": 44.29
       },
       {
         "label": "",
-        "value": 535.0
+        "value": 548.0
       }
     ],
     "institutional_holders": [
-      {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 30243,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 2.94,
-        "value": 206075802
-      },
-      {
-        "holder": "Paradigm Asset Management Company, LLC",
-        "shares": 61800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 0.0,
-        "value": 421105200
-      },
       {
         "holder": "Gamma Investing LLC",
         "shares": 3886,
         "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 26479204
+        "value": 27275834
+      },
+      {
+        "holder": "Paradigm Asset Management Company, LLC",
+        "shares": 61800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 0.0,
+        "value": 433774200
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 29454,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -2.61,
+        "value": 206737626
       }
     ],
     "mutualfund_holders": [
@@ -114,17 +119,17 @@
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 53438379,
         "date_reported": "2026-04-30",
-        "pct_held": 1.4,
+        "pct_held": 1.41,
         "pct_change": -1.09,
-        "value": 364129114506
+        "value": 375083982201
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 35327994,
         "date_reported": "2026-03-31",
-        "pct_held": 0.92,
+        "pct_held": 0.93,
         "pct_change": 1.21,
-        "value": 240724951116
+        "value": 247967189886
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -132,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.7,
         "pct_change": 0.65,
-        "value": 182286765200
+        "value": 187770884200
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -140,15 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.41,
         "pct_change": 5.4,
-        "value": 107191715400
-      },
-      {
-        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
-        "shares": 14906400,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.39,
-        "pct_change": -5.08,
-        "value": 101572209600
+        "value": 110416590900
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -156,7 +153,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": 1.56,
-        "value": 95402991164
+        "value": 98273201494
+      },
+      {
+        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
+        "shares": 14215600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.37,
+        "pct_change": -4.63,
+        "value": 99779296400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -164,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.34,
         "pct_change": -0.5,
-        "value": 88023252000
+        "value": 90671442000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Value Fund",
@@ -172,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.33,
         "pct_change": 0.2,
-        "value": 84982497686
+        "value": 87539206231
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -180,7 +185,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 7.29,
-        "value": 83155330400
+        "value": 85657068400
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
@@ -188,7 +193,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": 3.84,
-        "value": 81482309422
+        "value": 83933714387
       }
     ]
   }

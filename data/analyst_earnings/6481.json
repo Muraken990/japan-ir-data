@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:53:51.031053",
+  "fetched_at": "2026-09-01T05:56:22.380988",
   "ticker": "6481",
   "ticker_full": "6481.T",
   "company_name": "THK CO LTD",
@@ -9,31 +9,37 @@
     "period": "3",
     "strong_buy": 3,
     "buy": 6,
-    "hold": 2,
-    "sell": 2,
+    "hold": 3,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 13,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.91667
   },
   "target_prices": {
     "has_data": true,
-    "current": 6700.0,
-    "high": 9550.0,
+    "current": 6621.0,
+    "high": 10000.0,
     "low": 3300.0,
-    "mean": 7625.385,
-    "median": 7900.0
+    "mean": 8352.5,
+    "median": 8750.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-05",
-      "eps_estimate": 89.25,
+      "date": "2026-11-11",
+      "eps_estimate": 99.76,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": 89.25,
+        "eps_actual": 261.09,
+        "surprise_pct": 192.55
+      },
       {
         "date": "2026-05-11",
         "eps_estimate": 44.85,
@@ -57,19 +63,13 @@
         "eps_estimate": 40.87,
         "eps_actual": 29.97,
         "surprise_pct": -26.66
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 23.67,
-        "eps_actual": 2.75,
-        "surprise_pct": -88.38
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 5.46,
-    "institution_pct": 51.96,
+    "institution_pct": 47.75,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 51.96
+        "value": 47.75
       },
       {
         "label": "",
-        "value": 54.96
+        "value": 50.51
       },
       {
         "label": "",
-        "value": 130.0
+        "value": 133.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.29,
         "pct_change": 0.59,
-        "value": 10324753600
+        "value": 10203013968
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -103,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.89,
         "pct_change": -7.03,
-        "value": 7106958000
+        "value": 7023159540
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -111,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.87,
         "pct_change": 2.72,
-        "value": 6905596200
+        "value": 6824172006
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -119,7 +119,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 5096020000
+        "value": 5035932600
       },
       {
         "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
@@ -127,15 +127,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.45,
         "pct_change": -18.92,
-        "value": 3591200000
+        "value": 3548856000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 418800,
-        "date_reported": "2026-06-30",
+        "shares": 420800,
+        "date_reported": "2026-07-31",
         "pct_held": 0.35,
-        "pct_change": 11.86,
-        "value": 2805960000
+        "pct_change": 0.48,
+        "value": 2786116800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -143,7 +143,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.34,
         "pct_change": -0.24,
-        "value": 2743650000
+        "value": 2711299500
+      },
+      {
+        "holder": "Matthews International Funds-MATTHEWS JAPAN FUND",
+        "shares": 287300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.24,
+        "pct_change": 1.0,
+        "value": 1902213300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -151,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 4.82,
-        "value": 1632930700
+        "value": 1613676741
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -159,15 +167,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.2,
         "pct_change": 2.8,
-        "value": 1581434500
-      },
-      {
-        "holder": "Japan Smaller Capitalization Fund, Inc.",
-        "shares": 181300,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.15,
-        "pct_change": 0.0,
-        "value": 1214710000
+        "value": 1562787735
       }
     ],
     "mutualfund_holders": []

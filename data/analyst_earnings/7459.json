@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:54:54.507899",
+  "fetched_at": "2026-09-01T05:57:29.142548",
   "ticker": "7459",
   "ticker_full": "7459.T",
   "company_name": "MEDIPAL HOLDINGS CORP",
@@ -13,21 +13,21 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 4,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.25
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2883.0,
-    "high": 3130.0,
+    "current": 2926.0,
+    "high": 3080.0,
     "low": 2820.0,
-    "mean": 2962.5,
+    "mean": 2950.0,
     "median": 2950.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-05",
+      "date": "2026-11-05",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -68,34 +68,44 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 8.55,
-    "institution_pct": 40.78,
+    "insider_pct": 8.01,
+    "institution_pct": 40.63,
     "major_holders": [
       {
         "label": "",
-        "value": 8.55
+        "value": 8.01
       },
       {
         "label": "",
-        "value": 40.78
+        "value": 40.63
       },
       {
         "label": "",
-        "value": 44.6
+        "value": 44.17
       },
       {
         "label": "",
-        "value": 143.0
+        "value": 144.0
       }
     ],
     "institutional_holders": [
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 126,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 368676
+      }
+    ],
+    "mutualfund_holders": [
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
         "shares": 2768100,
         "date_reported": "2026-05-31",
         "pct_held": 1.23,
         "pct_change": 4.48,
-        "value": 7980432300
+        "value": 8099460600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,15 +113,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.21,
         "pct_change": -0.56,
-        "value": 7896450510
+        "value": 8014226220
       },
       {
         "holder": "Datum One Series Trust-BRANDES INTERNATIONAL SMALL CAP EQUITY FUND",
-        "shares": 2134800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.95,
-        "pct_change": 6.94,
-        "value": 6154628400
+        "shares": 2047500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.91,
+        "pct_change": -4.09,
+        "value": 5990985000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -119,7 +129,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.79,
         "pct_change": 1.3,
-        "value": 5130459948
+        "value": 5206980856
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -127,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.57,
         "pct_change": 0.0,
-        "value": 3711862500
+        "value": 3767225000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
@@ -135,7 +145,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.45,
         "pct_change": 3.18,
-        "value": 2908658700
+        "value": 2952041400
+      },
+      {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 985900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.44,
+        "pct_change": 42.68,
+        "value": 2884743400
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
@@ -143,7 +161,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 2248160517
+        "value": 2281691874
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -151,15 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.33,
         "pct_change": 0.6,
-        "value": 2137167900
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 691000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.31,
-        "pct_change": 0.0,
-        "value": 1992153000
+        "value": 2169043800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -167,9 +177,8 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.28,
         "pct_change": -16.77,
-        "value": 1798331793
+        "value": 1825153946
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

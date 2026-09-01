@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:56:56.731979",
+  "fetched_at": "2026-09-01T05:59:40.107777",
   "ticker": "8439",
   "ticker_full": "8439.T",
   "company_name": "TOKYO CENTURY CORPORATION",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2623.0,
+    "current": 2758.0,
     "high": 3000.0,
-    "low": 2250.0,
-    "mean": 2705.0,
-    "median": 2800.0
+    "low": 2600.0,
+    "mean": 2866.6667,
+    "median": 2900.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-03",
-      "eps_estimate": 46.82,
+      "date": "2026-11-06",
+      "eps_estimate": 152.73,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-03",
+        "eps_estimate": 58.42,
+        "eps_actual": 71.85,
+        "surprise_pct": 22.99
+      },
       {
         "date": "2026-05-10",
         "eps_estimate": -32.68,
@@ -57,35 +63,29 @@
         "eps_estimate": 46.82,
         "eps_actual": 45.25,
         "surprise_pct": -3.35
-      },
-      {
-        "date": "2025-05-14",
-        "eps_estimate": 34.57,
-        "eps_actual": 27.17,
-        "surprise_pct": -21.41
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 66.42,
-    "institution_pct": 14.53,
+    "insider_pct": 66.39,
+    "institution_pct": 14.11,
     "major_holders": [
       {
         "label": "",
-        "value": 66.42
+        "value": 66.39
       },
       {
         "label": "",
-        "value": 14.53
+        "value": 14.11
       },
       {
         "label": "",
-        "value": 43.25
+        "value": 41.99
       },
       {
         "label": "",
-        "value": 128.0
+        "value": 130.0
       }
     ],
     "institutional_holders": [],

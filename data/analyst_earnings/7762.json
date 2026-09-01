@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:51:31.931089",
+  "fetched_at": "2026-09-01T05:53:55.073869",
   "ticker": "7762",
   "ticker_full": "7762.T",
   "company_name": "CITIZEN WATCH CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
-    "hold": 3,
+    "hold": 4,
     "sell": 1,
-    "strong_sell": 1,
+    "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 2133.0,
-    "high": 2600.0,
+    "current": 2842.0,
+    "high": 3650.0,
     "low": 1800.0,
-    "mean": 2210.0,
-    "median": 2400.0
+    "mean": 2700.0,
+    "median": 2900.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-14",
-      "eps_estimate": 10.1,
+      "date": "2026-11-12",
+      "eps_estimate": 14.4,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-13",
+        "eps_estimate": 12.7,
+        "eps_actual": 36.56,
+        "surprise_pct": 187.87
+      },
       {
         "date": "2026-05-12",
         "eps_estimate": -1.6,
@@ -57,19 +63,13 @@
         "eps_estimate": 10.1,
         "eps_actual": 37.67,
         "surprise_pct": 272.97
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": -5.1,
-        "eps_actual": 6.84,
-        "surprise_pct": 234.12
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 10.3,
-    "institution_pct": 51.47,
+    "institution_pct": 52.34,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 51.47
+        "value": 52.34
       },
       {
         "label": "",
-        "value": 57.38
+        "value": 58.35
       },
       {
         "label": "",
-        "value": 122.0
+        "value": 128.0
       }
     ],
     "institutional_holders": [],

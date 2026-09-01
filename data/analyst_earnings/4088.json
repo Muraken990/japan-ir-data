@@ -1,39 +1,44 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:54:42.140731",
+  "fetched_at": "2026-09-01T05:57:14.030516",
   "ticker": "4088",
   "ticker_full": "4088.T",
   "company_name": "AIR WATER INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
-    "strong_buy": 1,
+    "period": "2",
+    "strong_buy": 0,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 1,
-    "total_analysts": 4,
+    "total_analysts": 3,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2517.0,
+    "current": 2693.0,
     "high": 3200.0,
-    "low": 1830.0,
-    "mean": 2576.6667,
+    "low": 1770.0,
+    "mean": 2556.6667,
     "median": 2700.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-09-11",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2024-02-08",
         "eps_estimate": 55.9,
-        "eps_actual": 60.27,
-        "surprise_pct": 7.82
+        "eps_actual": 54.82,
+        "surprise_pct": -1.93
       },
       {
         "date": "2022-05-11",
@@ -63,24 +68,24 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 19.23,
-    "institution_pct": 35.33,
+    "insider_pct": 19.33,
+    "institution_pct": 36.43,
     "major_holders": [
       {
         "label": "",
-        "value": 19.23
+        "value": 19.33
       },
       {
         "label": "",
-        "value": 35.33
+        "value": 36.43
       },
       {
         "label": "",
-        "value": 43.74
+        "value": 45.15
       },
       {
         "label": "",
-        "value": 134.0
+        "value": 135.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.2,
         "pct_change": 0.07,
-        "value": 6945291501
+        "value": 7430937629
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -98,7 +103,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.81,
         "pct_change": 61.83,
-        "value": 4683885300
+        "value": 5011403700
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.77,
         "pct_change": 1.13,
-        "value": 4450546815
+        "value": 4761749135
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -114,15 +119,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 3247936800
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 884500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.38,
-        "pct_change": 0.0,
-        "value": 2226286500
+        "value": 3475047200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -130,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": 0.59,
-        "value": 1765675500
+        "value": 1889139500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -138,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": -6.43,
-        "value": 1607607900
+        "value": 1720019100
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -146,7 +143,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": -1.75,
-        "value": 1526429616
+        "value": 1633164464
+      },
+      {
+        "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
+        "shares": 543500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.24,
+        "pct_change": 1.0,
+        "value": 1463645500
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -154,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.19,
         "pct_change": 1.5,
-        "value": 1116500928
+        "value": 1194571712
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -162,7 +167,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.19,
         "pct_change": 3.59,
-        "value": 1082146395
+        "value": 1157814955
       }
     ],
     "mutualfund_holders": []

@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:56:48.870335",
+  "fetched_at": "2026-09-01T05:59:30.131190",
   "ticker": "4324",
   "ticker_full": "4324.T",
   "company_name": "DENTSU GROUP INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 2,
     "buy": 2,
-    "hold": 3,
+    "hold": 4,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.55556
   },
   "target_prices": {
     "has_data": true,
-    "current": 3545.0,
+    "current": 3712.0,
     "high": 4000.0,
     "low": 2500.0,
-    "mean": 3353.3333,
-    "median": 3380.0
+    "mean": 3520.0,
+    "median": 3600.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-14",
-      "eps_estimate": 70.5,
+      "date": "2026-11-13",
+      "eps_estimate": 70.42,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-14",
+        "eps_estimate": 57.34,
+        "eps_actual": 23.59,
+        "surprise_pct": -58.86
+      },
       {
         "date": "2026-05-15",
         "eps_estimate": 137.14,
@@ -57,19 +63,13 @@
         "eps_estimate": 122.95,
         "eps_actual": -740.32,
         "surprise_pct": -702.15
-      },
-      {
-        "date": "2024-11-13",
-        "eps_estimate": 74.12,
-        "eps_actual": -15.35,
-        "surprise_pct": -120.71
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 20.18,
-    "institution_pct": 46.99,
+    "institution_pct": 48.49,
     "major_holders": [
       {
         "label": "",
@@ -77,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 46.99
+        "value": 48.49
       },
       {
         "label": "",
-        "value": 58.87
+        "value": 60.75
       },
       {
         "label": "",
@@ -95,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.11,
         "pct_change": 7.23,
-        "value": 1019939040
+        "value": 1067986944
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.12,
         "pct_change": 0.46,
-        "value": 10551887475
+        "value": 11048972160
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.08,
         "pct_change": 10.65,
-        "value": 10217115400
+        "value": 10698429440
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.75,
         "pct_change": 3.04,
-        "value": 7046368140
+        "value": 7378312704
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 4877920000
+        "value": 5107712000
       },
       {
         "holder": "SEI INSTITUTIONAL INVESTMENTS TRUST-SIIT World Equity EX-US Fund",
@@ -137,7 +137,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.47,
         "pct_change": -5.73,
-        "value": 4387231735
+        "value": 4593908096
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": 1.13,
-        "value": 2843799000
+        "value": 2977766400
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -153,7 +153,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 4.54,
-        "value": 1682527900
+        "value": 1761789440
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -161,7 +161,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.17,
         "pct_change": 2.9,
-        "value": 1615548670
+        "value": 1691654912
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -169,7 +169,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.14,
         "pct_change": 18.73,
-        "value": 1307066315
+        "value": 1368640384
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -177,7 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.13,
         "pct_change": 49.75,
-        "value": 1187621085
+        "value": 1243568256
       }
     ]
   }

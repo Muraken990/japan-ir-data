@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:49:31.636721",
+  "fetched_at": "2026-09-01T05:51:50.279504",
   "ticker": "7014",
   "ticker_full": "7014.T",
   "company_name": "NAMURA SHIPBUILDING CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 4340.0,
-    "high": 5600.0,
-    "low": 5500.0,
-    "mean": 5550.0,
-    "median": 5550.0
+    "current": 4535.0,
+    "high": 6000.0,
+    "low": 5800.0,
+    "mean": 5900.0,
+    "median": 5900.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 85.53,
+      "date": "2026-11-05",
+      "eps_estimate": 86.96,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 72.57,
+        "eps_actual": 105.74,
+        "surprise_pct": 45.71
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": 59.36,
@@ -57,19 +63,13 @@
         "eps_estimate": 55.45,
         "eps_actual": 52.3,
         "surprise_pct": -5.68
-      },
-      {
-        "date": "2025-08-06",
-        "eps_estimate": 55.96,
-        "eps_actual": 65.75,
-        "surprise_pct": 17.49
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 16.13,
-    "institution_pct": 43.58,
+    "institution_pct": 41.49,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 43.58
+        "value": 41.49
       },
       {
         "label": "",
-        "value": 51.96
+        "value": 49.47
       },
       {
         "label": "",
-        "value": 109.0
+        "value": 108.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 2.31,
         "pct_change": -0.17,
-        "value": 6981324000
+        "value": 7295001000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
@@ -103,7 +103,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 1.97,
         "pct_change": 18.35,
-        "value": 5957518000
+        "value": 6225194500
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.15,
         "pct_change": 7.0,
-        "value": 3470264000
+        "value": 3626186000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -119,15 +119,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.9,
         "pct_change": 7.66,
-        "value": 2702084000
-      },
-      {
-        "holder": "Fidelity Central Investment PORT.s LLC-Fidelity Intl Eqy. Central Fd.",
-        "shares": 548400,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.79,
-        "pct_change": 1.0,
-        "value": 2380056000
+        "value": 2823491000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -135,7 +127,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.76,
         "pct_change": 8.25,
-        "value": 2294124000
+        "value": 2397201000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -143,7 +135,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.56,
         "pct_change": 0.0,
-        "value": 1692166000
+        "value": 1768196500
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
@@ -151,7 +143,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 1598856000
+        "value": 1670694000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -159,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 1076441520
+        "value": 1124806980
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Pacific Basin Fund",
@@ -167,7 +159,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 1025108000
+        "value": 1071167000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 211500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.3,
+        "pct_change": -0.19,
+        "value": 959152500
       }
     ],
     "mutualfund_holders": []

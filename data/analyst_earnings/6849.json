@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:50:35.175416",
+  "fetched_at": "2026-09-01T05:52:56.267003",
   "ticker": "6849",
   "ticker_full": "6849.T",
   "company_name": "NIHON KOHDEN CORP",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.25
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1590.5,
+    "current": 1531.5,
     "high": 2200.0,
-    "low": 1500.0,
-    "mean": 1853.75,
-    "median": 1850.0
+    "low": 1400.0,
+    "mean": 1800.0,
+    "median": 1770.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 2.45,
+      "date": "2026-11-10",
+      "eps_estimate": 23.3,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 1.88,
+        "eps_actual": -4.73,
+        "surprise_pct": -352.22
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 33.97,
@@ -57,31 +63,25 @@
         "eps_estimate": 2.45,
         "eps_actual": 0.84,
         "surprise_pct": -65.76
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 44.08,
-        "eps_actual": 36.11,
-        "surprise_pct": -18.08
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 0.82,
-    "institution_pct": 58.99,
+    "insider_pct": 1.47,
+    "institution_pct": 57.89,
     "major_holders": [
       {
         "label": "",
-        "value": 0.82
+        "value": 1.47
       },
       {
         "label": "",
-        "value": 58.99
+        "value": 57.89
       },
       {
         "label": "",
-        "value": 59.48
+        "value": 58.76
       },
       {
         "label": "",
@@ -95,7 +95,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 4.04,
         "pct_change": 0.0,
-        "value": 10803153150
+        "value": 10402407450
       },
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
@@ -103,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.83,
         "pct_change": -1.94,
-        "value": 4893650400
+        "value": 4712119200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.37,
         "pct_change": 0.0,
-        "value": 3666156577
+        "value": 3530159571
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -119,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.91,
         "pct_change": 0.11,
-        "value": 2429180193
+        "value": 2339069139
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -127,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.71,
         "pct_change": 0.0,
-        "value": 1889991150
+        "value": 1819881450
       },
       {
         "holder": "-First Eagle Overseas Equity ETF",
@@ -135,7 +135,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.38,
         "pct_change": 52.61,
-        "value": 1024759150
+        "value": 986745450
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -143,7 +143,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.36,
         "pct_change": -0.26,
-        "value": 961139150
+        "value": 925485450
       },
       {
         "holder": "Columbia Fd.s Series TRT II-Columbia Pyrford Intl Stock Fd.",
@@ -151,7 +151,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.24,
         "pct_change": 16.89,
-        "value": 651627850
+        "value": 627455550
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -159,7 +159,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.23,
         "pct_change": 2.86,
-        "value": 617931517
+        "value": 595009191
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -167,7 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.21,
         "pct_change": 3.09,
-        "value": 567713070
+        "value": 546653610
       }
     ],
     "mutualfund_holders": []

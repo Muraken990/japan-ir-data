@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:53:39.833160",
+  "fetched_at": "2026-09-01T05:56:09.528676",
   "ticker": "6976",
   "ticker_full": "6976.T",
   "company_name": "TAIYO YUDEN CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 2,
     "buy": 5,
-    "hold": 6,
+    "hold": 7,
     "sell": 1,
     "strong_sell": 1,
     "total_analysts": 16,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.625
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 10225.0,
+    "current": 9314.0,
     "high": 27000.0,
     "low": 3000.0,
-    "mean": 16312.5,
+    "mean": 16318.75,
     "median": 18100.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-05",
-      "eps_estimate": 36.74,
+      "date": "2026-11-05",
+      "eps_estimate": 65.15,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 36.74,
+        "eps_actual": 19.82,
+        "surprise_pct": -46.05
+      },
       {
         "date": "2026-05-07",
         "eps_estimate": 12.0,
@@ -57,35 +63,29 @@
         "eps_estimate": 10.29,
         "eps_actual": -7.02,
         "surprise_pct": -168.22
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": -23.09,
-        "eps_actual": -46.82,
-        "surprise_pct": -102.76
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 1.61,
-    "institution_pct": 57.84,
+    "insider_pct": 1.59,
+    "institution_pct": 64.33,
     "major_holders": [
       {
         "label": "",
-        "value": 1.61
+        "value": 1.59
       },
       {
         "label": "",
-        "value": 57.84
+        "value": 64.33
       },
       {
         "label": "",
-        "value": 58.78
+        "value": 65.37
       },
       {
         "label": "",
-        "value": 141.0
+        "value": 159.0
       }
     ],
     "institutional_holders": [
@@ -93,33 +93,33 @@
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1794445,
         "date_reported": "2026-04-30",
-        "pct_held": 1.33,
+        "pct_held": 1.3,
         "pct_change": 0.37,
-        "value": 18348200125
+        "value": 16715255175
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 1184548,
         "date_reported": "2026-03-31",
-        "pct_held": 0.87,
+        "pct_held": 0.86,
         "pct_change": 1.75,
-        "value": 12112003300
+        "value": 11034064620
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 890900,
         "date_reported": "2026-06-30",
-        "pct_held": 0.66,
+        "pct_held": 0.65,
         "pct_change": 0.0,
-        "value": 9109452500
+        "value": 8298733500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 761215,
         "date_reported": "2026-04-30",
-        "pct_held": 0.56,
+        "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 7783423375
+        "value": 7090717725
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -127,15 +127,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.47,
         "pct_change": 32.58,
-        "value": 6557282275
+        "value": 5973700185
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 542801,
         "date_reported": "2026-04-30",
-        "pct_held": 0.4,
+        "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 5550140225
+        "value": 5056191315
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -143,31 +143,31 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.36,
         "pct_change": 0.43,
-        "value": 5003092500
+        "value": 4557829500
+      },
+      {
+        "holder": "-Coatue Innovative Strategies Fund",
+        "shares": 310169,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.23,
+        "pct_change": 1.0,
+        "value": 2889224235
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
         "shares": 306000,
         "date_reported": "2026-04-30",
-        "pct_held": 0.23,
+        "pct_held": 0.22,
         "pct_change": 4.74,
-        "value": 3128850000
+        "value": 2850390000
       },
       {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 280950,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.21,
-        "pct_change": 3.58,
-        "value": 2872713750
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 282159,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.21,
-        "pct_change": 15.21,
-        "value": 2885075775
+        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
+        "shares": 309500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.22,
+        "pct_change": 1.0,
+        "value": 2882992500
       }
     ],
     "mutualfund_holders": []

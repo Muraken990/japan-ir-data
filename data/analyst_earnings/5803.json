@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:14:09.292752",
+  "fetched_at": "2026-09-01T06:01:50.889842",
   "ticker": "5803",
   "ticker_full": "5803.T",
   "company_name": "FUJIKURA",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
-    "buy": 6,
-    "hold": 1,
+    "strong_buy": 1,
+    "buy": 8,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 10,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.45455
+    "total_analysts": 11,
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.54545
   },
   "target_prices": {
     "has_data": true,
-    "current": 5865.0,
+    "current": 5298.0,
     "high": 9300.0,
-    "low": 3500.0,
-    "mean": 6976.6665,
-    "median": 7450.0
+    "low": 4500.0,
+    "mean": 7365.4546,
+    "median": 7600.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 16.04,
+      "date": "2026-11-06",
+      "eps_estimate": 20.02,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 37.63,
+        "eps_actual": 48.58,
+        "surprise_pct": 29.09
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 30.45,
@@ -57,19 +63,13 @@
         "eps_estimate": 16.04,
         "eps_actual": 18.92,
         "surprise_pct": 17.92
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 17.46,
-        "eps_actual": 19.35,
-        "surprise_pct": 10.87
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.77,
-    "institution_pct": 57.3,
+    "institution_pct": 52.63,
     "major_holders": [
       {
         "label": "",
@@ -77,43 +77,43 @@
       },
       {
         "label": "",
-        "value": 57.3
+        "value": 52.63
       },
       {
         "label": "",
-        "value": 57.75
+        "value": 53.04
       },
       {
         "label": "",
-        "value": 409.0
+        "value": 426.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 13350,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 2.87,
-        "value": 78257700
-      },
-      {
         "holder": "Paradigm Asset Management Company, LLC",
         "shares": 60000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 351720000
+        "value": 317880000
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 12820,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -3.97,
+        "value": 67920360
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 23803266,
-        "date_reported": "2026-01-31",
+        "shares": 23748266,
+        "date_reported": "2026-04-30",
         "pct_held": 1.34,
-        "pct_change": 0.77,
-        "value": 139534745292
+        "pct_change": -0.23,
+        "value": 125818313268
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,63 +121,55 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.88,
         "pct_change": 2.45,
-        "value": 92033376552
+        "value": 83178578808
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 10718600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.6,
-        "pct_change": 0.62,
-        "value": 62832433200
-      },
-      {
-        "holder": "Amana Mutual Funds Trust-Amana Growth Fund",
-        "shares": 6600000,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.37,
-        "pct_change": 0.0,
-        "value": 38689200000
+        "shares": 11139700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.63,
+        "pct_change": 0.16,
+        "value": 59018130600
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 6286400,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.35,
-        "pct_change": 0.96,
-        "value": 36850876800
-      },
-      {
-        "holder": "Fidelity Advisor Series VIII-Fidelity Advisor Intl Capital Appreciatio",
-        "shares": 5948907,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.34,
-        "pct_change": -3.86,
-        "value": 34872492834
-      },
-      {
-        "holder": "John Hancock Investment Trust-International Dynamic Growth Fund",
-        "shares": 6121200,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.34,
-        "pct_change": 19.07,
-        "value": 35882474400
+        "shares": 6528100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.37,
+        "pct_change": 6.24,
+        "value": 34585873800
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 5617234,
-        "date_reported": "2026-04-30",
+        "shares": 5810134,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.33,
+        "pct_change": 2.35,
+        "value": 30782089932
+      },
+      {
+        "holder": "John Hancock Investment Trust-International Dynamic Growth Fund",
+        "shares": 5709800,
+        "date_reported": "2026-06-30",
         "pct_held": 0.32,
-        "pct_change": 1.19,
-        "value": 32928225708
+        "pct_change": 0.61,
+        "value": 30250520400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 5280200,
-        "date_reported": "2026-05-31",
+        "shares": 5360700,
+        "date_reported": "2026-06-30",
         "pct_held": 0.3,
-        "pct_change": 0.47,
-        "value": 30952532400
+        "pct_change": 1.52,
+        "value": 28400988600
+      },
+      {
+        "holder": "Amana Mutual Funds Trust-Amana Growth Fund",
+        "shares": 5100000,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.29,
+        "pct_change": -22.73,
+        "value": 27019800000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -185,7 +177,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 9.15,
-        "value": 28979969400
+        "value": 26191722600
+      },
+      {
+        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.",
+        "shares": 4072800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.23,
+        "pct_change": -2.01,
+        "value": 21577694400
       }
     ]
   }

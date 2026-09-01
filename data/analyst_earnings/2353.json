@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:43.258374",
+  "fetched_at": "2026-09-01T05:41:30.923195",
   "ticker": "2353",
   "ticker_full": "2353.T",
   "company_name": "NIPPON PARKING DEVELOPMENT CO.L",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "0",
     "strong_buy": 0,
     "buy": 1,
     "hold": 0,
@@ -18,36 +18,45 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 249.0,
-    "high": 360.0,
-    "low": 360.0,
-    "mean": 360.0,
-    "median": 360.0
+    "current": 271.0,
+    "high": 340.0,
+    "low": 340.0,
+    "mean": 340.0,
+    "median": 340.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-06-06",
+        "eps_estimate": 2.2,
+        "eps_actual": 1.6,
+        "surprise_pct": -27.27
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 35.74,
-    "institution_pct": 13.37,
+    "insider_pct": 35.69,
+    "institution_pct": 12.16,
     "major_holders": [
       {
         "label": "",
-        "value": 35.74
+        "value": 35.69
       },
       {
         "label": "",
-        "value": 13.37
+        "value": 12.16
       },
       {
         "label": "",
-        "value": 20.8
+        "value": 18.9
       },
       {
         "label": "",
-        "value": 42.0
+        "value": 37.0
       }
     ],
     "institutional_holders": [],

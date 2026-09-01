@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:48:20.500989",
+  "fetched_at": "2026-09-01T05:50:35.713341",
   "ticker": "4547",
   "ticker_full": "4547.T",
   "company_name": "KISSEI PHARMACEUTICAL CO",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.16667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4085.0,
+    "current": 4100.0,
     "high": 5500.0,
     "low": 4100.0,
     "mean": 4833.3335,
@@ -26,8 +26,13 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 22.88,
-    "institution_pct": 23.83,
+    "institution_pct": 23.89,
     "major_holders": [
       {
         "label": "",
@@ -72,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 23.83
+        "value": 23.89
       },
       {
         "label": "",
-        "value": 30.9
+        "value": 30.97
       },
       {
         "label": "",
-        "value": 89.0
+        "value": 87.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Datum One Series Trust-BRANDES INTERNATIONAL SMALL CAP EQUITY FUND",
-        "shares": 538100,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.16,
-        "pct_change": 10.4,
-        "value": 2198138500
+        "shares": 606700,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.3,
+        "pct_change": 12.75,
+        "value": 2487470000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -98,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.99,
         "pct_change": 0.0,
-        "value": 1890542085
+        "value": 1897484100
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.65,
         "pct_change": 2.08,
-        "value": 1243302430
+        "value": 1247867800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -114,7 +119,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 674842000
+        "value": 677320000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -122,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.35,
         "pct_change": 0.0,
-        "value": 672391000
+        "value": 674860000
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -130,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 635380900
+        "value": 637714000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -138,7 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 609890500
+        "value": 612130000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -146,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": 3.48,
-        "value": 485298000
+        "value": 487080000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -154,7 +159,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": -0.18,
-        "value": 447307500
+        "value": 448950000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
@@ -162,7 +167,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.17,
         "pct_change": 0.0,
-        "value": 328842500
+        "value": 330050000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:02:19.387196",
+  "fetched_at": "2026-09-01T06:04:03.355111",
   "ticker": "6758",
   "ticker_full": "6758.T",
   "company_name": "SONY GROUP CORPORATION",
@@ -8,26 +8,31 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 4,
-    "buy": 16,
-    "hold": 3,
+    "buy": 17,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 23,
     "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.3913
+    "recommendation_mean": 1.34783
   },
   "target_prices": {
     "has_data": true,
-    "current": 3787.0,
-    "high": 5900.0,
+    "current": 4049.0,
+    "high": 6030.0,
     "low": 3500.0,
-    "mean": 4686.8184,
+    "mean": 4800.0,
     "median": 4700.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-11-05",
+      "eps_estimate": 51.51,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -63,16 +68,16 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 0.07,
-    "institution_pct": 47.99,
+    "insider_pct": 0.05,
+    "institution_pct": 48.0,
     "major_holders": [
       {
         "label": "",
-        "value": 0.07
+        "value": 0.05
       },
       {
         "label": "",
-        "value": 47.99
+        "value": 48.0
       },
       {
         "label": "",
@@ -80,25 +85,25 @@
       },
       {
         "label": "",
-        "value": 693.0
+        "value": 696.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Aristotle Capital Management, LLC",
-        "shares": 4949950,
-        "date_reported": "2026-03-31",
+        "shares": 4616050,
+        "date_reported": "2026-06-30",
         "pct_held": 0.08,
-        "pct_change": -5.1,
-        "value": 18745460650
+        "pct_change": -6.75,
+        "value": 18690386450
       },
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 1163977,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.02,
-        "pct_change": 9.7,
-        "value": 4407980899
+        "shares": 1769342,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.03,
+        "pct_change": 52.01,
+        "value": 7164065758
       },
       {
         "holder": "Gamma Investing LLC",
@@ -106,7 +111,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": -65.95,
-        "value": 4427003
+        "value": 4733281
+      },
+      {
+        "holder": "Meyer Handelman Co",
+        "shares": 11862,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 48029238
       }
     ],
     "mutualfund_holders": [
@@ -116,7 +129,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.47,
         "pct_change": 0.05,
-        "value": 333196373685
+        "value": 356248248495
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -124,7 +137,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.98,
         "pct_change": 2.41,
-        "value": 220282746180
+        "value": 235522798860
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -132,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.72,
         "pct_change": 0.25,
-        "value": 163305286200
+        "value": 174603407400
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -140,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.42,
         "pct_change": 0.9,
-        "value": 95718697200
+        "value": 102340904400
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -148,15 +161,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.35,
         "pct_change": -0.73,
-        "value": 78423089500
-      },
-      {
-        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
-        "shares": 19729400,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.33,
-        "pct_change": -5.08,
-        "value": 74715237800
+        "value": 83848716500
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -164,7 +169,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.32,
         "pct_change": -18.03,
-        "value": 73326438864
+        "value": 78399458928
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -172,7 +177,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 7.89,
-        "value": 72199533700
+        "value": 77194589900
+      },
+      {
+        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
+        "shares": 18815100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.32,
+        "pct_change": -4.63,
+        "value": 76182339900
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.",
@@ -180,7 +193,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.24,
         "pct_change": 1.01,
-        "value": 54213934600
+        "value": 57964674200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -188,7 +201,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.23,
         "pct_change": 4.0,
-        "value": 52553410840
+        "value": 56189268680
       }
     ]
   }

@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:37:55.789176",
+  "fetched_at": "2026-09-01T05:41:20.075695",
   "ticker": "8771",
   "ticker_full": "8771.T",
   "company_name": "EGUARANTEE INC.",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1842.0,
+    "current": 1742.0,
     "high": 2500.0,
     "low": 2000.0,
     "mean": 2250.0,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 18.21,
+      "date": "2026-11-13",
+      "eps_estimate": 17.83,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 20.39,
+        "eps_actual": 21.45,
+        "surprise_pct": 5.18
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 22.8,
@@ -57,19 +63,13 @@
         "eps_estimate": 18.21,
         "eps_actual": 18.09,
         "surprise_pct": -0.64
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 19.39,
-        "eps_actual": 20.43,
-        "surprise_pct": 5.37
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 30.54,
-    "institution_pct": 52.92,
+    "institution_pct": 55.42,
     "major_holders": [
       {
         "label": "",
@@ -77,11 +77,11 @@
       },
       {
         "label": "",
-        "value": 52.92
+        "value": 55.42
       },
       {
         "label": "",
-        "value": 76.19
+        "value": 79.79
       },
       {
         "label": "",
@@ -95,7 +95,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.97,
         "pct_change": -3.45,
-        "value": 808240128
+        "value": 764361728
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,7 +103,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.68,
         "pct_change": 0.0,
-        "value": 568026750
+        "value": 537189250
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -111,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 319485690
+        "value": 302141190
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -119,7 +119,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 9.58,
-        "value": 233934000
+        "value": 221234000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -127,7 +127,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 182726400
+        "value": 172806400
       },
       {
         "holder": "VANGUARD WHITEHALL Fd.S-Vanguard Intl Dividend Appreciation Index Fd.",
@@ -135,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.15,
         "pct_change": 5.74,
-        "value": 128940000
+        "value": 121940000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -143,7 +143,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.14,
         "pct_change": -13.28,
-        "value": 117276456
+        "value": 110909656
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -151,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 110518158
+        "value": 104518258
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
@@ -159,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.11,
         "pct_change": 0.0,
-        "value": 90442200
+        "value": 85532200
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -167,7 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 80863800
+        "value": 76473800
       }
     ],
     "mutualfund_holders": []

@@ -1,39 +1,50 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:42.114587",
+  "fetched_at": "2026-09-01T06:01:47.377416",
   "ticker": "8473",
   "ticker_full": "8473.T",
   "company_name": "SBI HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
-    "buy": 2,
-    "hold": 3,
+    "strong_buy": 3,
+    "buy": 3,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.71429
+    "total_analysts": 7,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3127.0,
-    "high": 4250.0,
-    "low": 3660.0,
-    "mean": 3862.8572,
-    "median": 3800.0
+    "current": 3306.0,
+    "high": 4180.0,
+    "low": 3300.0,
+    "mean": 3725.7144,
+    "median": 3700.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": 47.22,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
-        "date": "2026-05-01",
-        "eps_estimate": 62.92,
-        "eps_actual": null,
-        "surprise_pct": null
+        "date": "2026-07-30",
+        "eps_estimate": 102.71,
+        "eps_actual": 229.07,
+        "surprise_pct": 123.03
+      },
+      {
+        "date": "2026-04-30",
+        "eps_estimate": 82.53,
+        "eps_actual": 120.28,
+        "surprise_pct": 45.75
       },
       {
         "date": "2026-02-03",
@@ -52,19 +63,13 @@
         "eps_estimate": 67.3,
         "eps_actual": 139.6,
         "surprise_pct": 107.44
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 62.92,
-        "eps_actual": 100.72,
-        "surprise_pct": 60.09
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.64,
-    "institution_pct": 39.2,
+    "institution_pct": 45.92,
     "major_holders": [
       {
         "label": "",
@@ -72,107 +77,107 @@
       },
       {
         "label": "",
-        "value": 39.2
+        "value": 45.92
       },
       {
         "label": "",
-        "value": 47.59
+        "value": 55.75
       },
       {
         "label": "",
-        "value": 302.0
+        "value": 310.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 4243,
-        "date_reported": "2025-12-31",
+        "shares": 4161,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": -3.57,
-        "value": 13267861
+        "pct_change": -4.7,
+        "value": 13756266
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
-        "shares": 8530300,
-        "date_reported": "2026-02-28",
-        "pct_held": 1.29,
-        "pct_change": -1.54,
-        "value": 26674248100
+        "shares": 8144900,
+        "date_reported": "2026-05-31",
+        "pct_held": 1.23,
+        "pct_change": -4.52,
+        "value": 26927039400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 7976900,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.21,
-        "pct_change": 0.71,
-        "value": 24943766300
+        "shares": 7870100,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.19,
+        "pct_change": -1.34,
+        "value": 26018550600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 5142612,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.78,
-        "pct_change": 2.07,
-        "value": 16080947724
+        "shares": 5202712,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.79,
+        "pct_change": 1.17,
+        "value": 17200165872
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3962200,
-        "date_reported": "2026-03-31",
+        "shares": 3998100,
+        "date_reported": "2026-06-30",
         "pct_held": 0.6,
-        "pct_change": 1.04,
-        "value": 12389799400
-      },
-      {
-        "holder": "Perpetual Americas Funds Trust-JOHCM International Select Fund",
-        "shares": 2552287,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.39,
-        "pct_change": 1.0,
-        "value": 7981001449
+        "pct_change": 0.0,
+        "value": 13217718600
       },
       {
         "holder": "TRANSAMERICA FUNDS-Transamerica International Equity",
-        "shares": 2547800,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.39,
-        "pct_change": -4.15,
-        "value": 7966970600
+        "shares": 2457000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.37,
+        "pct_change": -3.56,
+        "value": 8122842000
+      },
+      {
+        "holder": "Perpetual Americas Funds Trust-JOHCM International Select Fund",
+        "shares": 2417315,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.37,
+        "pct_change": 0.0,
+        "value": 7991643390
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 2194720,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.33,
-        "pct_change": 0.05,
-        "value": 6862889440
+        "shares": 2279720,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.34,
+        "pct_change": -0.58,
+        "value": 7536754320
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 2137300,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.32,
+        "pct_change": 51.55,
+        "value": 7065913800
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 2047706,
-        "date_reported": "2026-02-28",
+        "shares": 2036239,
+        "date_reported": "2026-06-30",
         "pct_held": 0.31,
-        "pct_change": 1.18,
-        "value": 6403176662
+        "pct_change": -3.64,
+        "value": 6731806134
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1962860,
-        "date_reported": "2026-03-31",
+        "shares": 1971860,
+        "date_reported": "2026-06-30",
         "pct_held": 0.3,
-        "pct_change": 1.39,
-        "value": 6137863220
-      },
-      {
-        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 1768000,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": -3.86,
-        "value": 5528536000
+        "pct_change": -0.83,
+        "value": 6518969160
       }
     ]
   }

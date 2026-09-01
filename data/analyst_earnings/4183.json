@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:55:54.871559",
+  "fetched_at": "2026-09-01T05:58:33.922830",
   "ticker": "4183",
   "ticker_full": "4183.T",
   "company_name": "MITSUI CHEMICALS INC",
@@ -8,9 +8,9 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 5,
+    "buy": 4,
     "hold": 4,
-    "sell": 0,
+    "sell": 1,
     "strong_sell": 1,
     "total_analysts": 11,
     "recommendation_key": "buy",
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2118.5,
+    "current": 2288.0,
     "high": 3600.0,
-    "low": 1790.0,
-    "mean": 2362.5,
+    "low": 1800.0,
+    "mean": 2375.8333,
     "median": 2220.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-03",
-      "eps_estimate": 27.49,
+      "date": "2026-11-10",
+      "eps_estimate": 40.59,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": 63.74,
+        "eps_actual": 88.78,
+        "surprise_pct": 39.29
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": 59.41,
@@ -57,35 +63,29 @@
         "eps_estimate": 27.49,
         "eps_actual": 1.95,
         "surprise_pct": -92.92
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 38.9,
-        "eps_actual": -14.16,
-        "surprise_pct": -136.41
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 8.13,
-    "institution_pct": 46.4,
+    "insider_pct": 4.67,
+    "institution_pct": 48.4,
     "major_holders": [
       {
         "label": "",
-        "value": 8.13
+        "value": 4.67
       },
       {
         "label": "",
-        "value": 46.4
+        "value": 48.4
       },
       {
         "label": "",
-        "value": 50.51
+        "value": 50.77
       },
       {
         "label": "",
-        "value": 181.0
+        "value": 183.0
       }
     ],
     "institutional_holders": [],

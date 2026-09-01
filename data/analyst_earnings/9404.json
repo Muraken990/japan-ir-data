@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:57:44.073358",
+  "fetched_at": "2026-09-01T06:00:28.735126",
   "ticker": "9404",
   "ticker_full": "9404.T",
   "company_name": "NIPPON TELEVISION HOLDINGS INC",
@@ -13,21 +13,26 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2916.0,
+    "current": 3075.0,
     "high": 4300.0,
     "low": 3000.0,
-    "mean": 3656.6667,
-    "median": 3700.0
+    "mean": 3565.0,
+    "median": 3520.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-11-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2020-05-13",
@@ -63,34 +68,34 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 42.5,
-    "institution_pct": 28.46,
+    "insider_pct": 42.26,
+    "institution_pct": 27.81,
     "major_holders": [
       {
         "label": "",
-        "value": 42.5
+        "value": 42.26
       },
       {
         "label": "",
-        "value": 28.46
+        "value": 27.81
       },
       {
         "label": "",
-        "value": 49.5
+        "value": 48.16
       },
       {
         "label": "",
-        "value": 117.0
+        "value": 113.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "SmallCap World Fund Inc",
-        "shares": 18928615,
-        "date_reported": "2026-03-31",
-        "pct_held": 7.25,
-        "pct_change": -6.22,
-        "value": 55195841340
+        "shares": 13589701,
+        "date_reported": "2026-06-30",
+        "pct_held": 5.2,
+        "pct_change": -28.21,
+        "value": 41788330575
       },
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
@@ -98,7 +103,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 1.01,
         "pct_change": 4.49,
-        "value": 7674912000
+        "value": 8093400000
       },
       {
         "holder": "Intl Growth & Income Fd.-Intl Growth and Income Fd.",
@@ -106,7 +111,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.71,
         "pct_change": 0.0,
-        "value": 5398974000
+        "value": 5693362500
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -114,15 +119,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.57,
         "pct_change": 10.38,
-        "value": 4368841596
+        "value": 4607060325
       },
       {
-        "holder": "AMERICAN FUNDS INSURANCE SERIES-Global Small Capitalization Fund",
+        "holder": "AMERICAN FUNDS INSURANCE SERIES-SMALLCAP World Fund",
         "shares": 749000,
         "date_reported": "2026-03-31",
         "pct_held": 0.29,
         "pct_change": -24.09,
-        "value": 2184084000
+        "value": 2303175000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -130,23 +135,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 2159298000
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 711700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.27,
-        "pct_change": 0.0,
-        "value": 2075317200
+        "value": 2277037500
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 614400,
-        "date_reported": "2026-03-31",
+        "shares": 625600,
+        "date_reported": "2026-06-30",
         "pct_held": 0.24,
-        "pct_change": -2.65,
-        "value": 1791590400
+        "pct_change": 1.82,
+        "value": 1923720000
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -154,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.22,
         "pct_change": -26.58,
-        "value": 1671159600
+        "value": 1762282500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -162,7 +159,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.19,
         "pct_change": 3.85,
-        "value": 1417176000
+        "value": 1494450000
+      },
+      {
+        "holder": "HARBOR FUNDS-Harbor International Fund",
+        "shares": 480700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.18,
+        "pct_change": -6.28,
+        "value": 1478152500
       }
     ],
     "mutualfund_holders": []

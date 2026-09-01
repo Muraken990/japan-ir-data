@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:56:50.764492",
+  "fetched_at": "2026-09-01T05:59:33.185930",
   "ticker": "9143",
   "ticker_full": "9143.T",
   "company_name": "SG HOLDINGS CO LTD",
@@ -13,27 +13,33 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.36364
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.54545
   },
   "target_prices": {
     "has_data": true,
-    "current": 1581.5,
+    "current": 1518.0,
     "high": 2000.0,
-    "low": 1400.0,
-    "mean": 1704.5454,
+    "low": 1500.0,
+    "mean": 1709.091,
     "median": 1700.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 18.15,
+      "date": "2026-11-06",
+      "eps_estimate": 22.51,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 18.57,
+        "eps_actual": 20.55,
+        "surprise_pct": 10.65
+      },
       {
         "date": "2026-05-07",
         "eps_estimate": 29.86,
@@ -57,19 +63,13 @@
         "eps_estimate": 18.15,
         "eps_actual": 16.69,
         "surprise_pct": -8.04
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 8.19,
-        "eps_actual": 10.75,
-        "surprise_pct": 31.26
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 38.13,
-    "institution_pct": 24.27,
+    "institution_pct": 23.98,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 24.27
+        "value": 23.98
       },
       {
         "label": "",
-        "value": 39.24
+        "value": 38.76
       },
       {
         "label": "",
-        "value": 148.0
+        "value": 135.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 597,
-        "date_reported": "2026-03-31",
+        "shares": 681,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": -54.15,
-        "value": 944155
+        "pct_change": 14.07,
+        "value": 1033758
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.87,
         "pct_change": 0.25,
-        "value": 8794557024
+        "value": 8441440128
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.58,
         "pct_change": 0.88,
-        "value": 5856564936
+        "value": 5621413578
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -121,15 +121,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 3283194000
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 1178700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.18,
-        "pct_change": 0.0,
-        "value": 1864114050
+        "value": 3151368000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -137,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.18,
         "pct_change": 1.68,
-        "value": 1835647050
+        "value": 1761942600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -145,7 +137,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.15,
         "pct_change": 8.73,
-        "value": 1548747135
+        "value": 1486562220
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -153,7 +145,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.15,
         "pct_change": 20.27,
-        "value": 1469298901
+        "value": 1410303972
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -161,7 +153,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.14,
         "pct_change": 2.56,
-        "value": 1387489487
+        "value": 1331779350
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -169,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.12,
         "pct_change": 19.27,
-        "value": 1226500695
+        "value": 1177254540
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
@@ -177,7 +169,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 1180115300
+        "value": 1132731600
+      },
+      {
+        "holder": "Legg Mason ETF Investment TRT-Franklin Intl Low Volatility High Divide",
+        "shares": 550600,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.09,
+        "pct_change": 4.92,
+        "value": 835810800
       }
     ]
   }

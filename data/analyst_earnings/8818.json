@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:44.019721",
+  "fetched_at": "2026-09-01T05:41:32.713952",
   "ticker": "8818",
   "ticker_full": "8818.T",
   "company_name": "KEIHANSHIN BUILDING CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
@@ -18,20 +18,53 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1069.0,
-    "high": 1070.0,
+    "current": 1119.0,
+    "high": 1120.0,
     "low": 1035.0,
-    "mean": 1052.5,
-    "median": 1052.5
+    "mean": 1077.5,
+    "median": 1077.5
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 8.4,
+        "eps_actual": 12.65,
+        "surprise_pct": 50.6
+      },
+      {
+        "date": "2026-05-12",
+        "eps_estimate": 7.15,
+        "eps_actual": 6.76,
+        "surprise_pct": -5.52
+      },
+      {
+        "date": "2026-01-29",
+        "eps_estimate": 11.7,
+        "eps_actual": 16.52,
+        "surprise_pct": 41.15
+      },
+      {
+        "date": "2025-10-30",
+        "eps_estimate": 6.95,
+        "eps_actual": 14.11,
+        "surprise_pct": 103.02
+      },
+      {
+        "date": "2025-07-30",
+        "eps_estimate": 10.3,
+        "eps_actual": 11.05,
+        "surprise_pct": 7.28
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 31.84,
-    "institution_pct": 32.57,
+    "institution_pct": 37.23,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 32.57
+        "value": 37.23
       },
       {
         "label": "",
-        "value": 47.79
+        "value": 54.62
       },
       {
         "label": "",
-        "value": 66.0
+        "value": 64.0
       }
     ],
     "institutional_holders": [],

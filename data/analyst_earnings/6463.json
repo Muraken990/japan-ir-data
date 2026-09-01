@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:42.638206",
+  "fetched_at": "2026-09-01T05:41:30.074717",
   "ticker": "6463",
   "ticker_full": "6463.T",
   "company_name": "TPR CO LTD",
@@ -18,36 +18,69 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1411.0,
-    "high": 1310.0,
-    "low": 1310.0,
-    "mean": 1310.0,
-    "median": 1310.0
+    "current": 1638.0,
+    "high": 1400.0,
+    "low": 1400.0,
+    "mean": 1400.0,
+    "median": 1400.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2016-02-11",
+        "eps_estimate": 57.6,
+        "eps_actual": 35.75,
+        "surprise_pct": -37.94
+      },
+      {
+        "date": "2015-08-06",
+        "eps_estimate": 50.91,
+        "eps_actual": 36.8,
+        "surprise_pct": -27.71
+      },
+      {
+        "date": "2015-05-14",
+        "eps_estimate": 72.71,
+        "eps_actual": 53.0,
+        "surprise_pct": -27.11
+      },
+      {
+        "date": "2015-02-12",
+        "eps_estimate": 31.81,
+        "eps_actual": 37.06,
+        "surprise_pct": 16.5
+      },
+      {
+        "date": "2014-11-11",
+        "eps_estimate": 29.51,
+        "eps_actual": 48.62,
+        "surprise_pct": 64.77
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 19.44,
-    "institution_pct": 37.12,
+    "insider_pct": 19.38,
+    "institution_pct": 37.02,
     "major_holders": [
       {
         "label": "",
-        "value": 19.44
+        "value": 19.38
       },
       {
         "label": "",
-        "value": 37.12
+        "value": 37.02
       },
       {
         "label": "",
-        "value": 46.08
+        "value": 45.92
       },
       {
         "label": "",
-        "value": 57.0
+        "value": 56.0
       }
     ],
     "institutional_holders": [],

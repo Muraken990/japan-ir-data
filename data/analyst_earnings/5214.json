@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:54:48.132141",
+  "fetched_at": "2026-09-01T05:57:21.314218",
   "ticker": "5214",
   "ticker_full": "5214.T",
   "company_name": "NIPPON ELECTRIC GLASS",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 2,
     "buy": 1,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
@@ -18,16 +18,21 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5323.0,
-    "high": 8000.0,
-    "low": 6430.0,
-    "mean": 7055.0,
-    "median": 6900.0
+    "current": 4887.0,
+    "high": 7300.0,
+    "low": 4780.0,
+    "mean": 5946.6665,
+    "median": 5900.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2022-10-30",
@@ -63,34 +68,34 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.54,
-    "institution_pct": 42.71,
+    "insider_pct": 4.47,
+    "institution_pct": 43.08,
     "major_holders": [
       {
         "label": "",
-        "value": 6.54
+        "value": 4.47
       },
       {
         "label": "",
-        "value": 42.71
+        "value": 43.08
       },
       {
         "label": "",
-        "value": 45.7
+        "value": 45.1
       },
       {
         "label": "",
-        "value": 145.0
+        "value": 148.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Paradigm Asset Management Company, LLC",
         "shares": 35000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 186305000
+        "value": 171045000
       }
     ],
     "mutualfund_holders": [
@@ -100,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.63,
         "pct_change": -1.45,
-        "value": 7779564500
+        "value": 7142350500
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -108,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.32,
         "pct_change": 0.0,
-        "value": 6312545700
+        "value": 5795493300
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -116,7 +121,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.08,
         "pct_change": 0.0,
-        "value": 5159722298
+        "value": 4737096162
+      },
+      {
+        "holder": "SmallCap World Fund Inc",
+        "shares": 845400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.94,
+        "pct_change": 1.0,
+        "value": 4131469800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -124,7 +137,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.71,
         "pct_change": 0.59,
-        "value": 3371960810
+        "value": 3095767890
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -132,15 +145,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.6,
         "pct_change": 0.0,
-        "value": 2843546600
+        "value": 2610635400
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
         "shares": 509200,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.57,
-        "pct_change": -0.08,
-        "value": 2710471600
+        "pct_change": 0.0,
+        "value": 2488460400
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -148,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.41,
         "pct_change": -2.08,
-        "value": 1930311428
+        "value": 1772202132
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -156,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": -0.58,
-        "value": 1721995823
+        "value": 1580949387
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -164,15 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": 1.64,
-        "value": 1453179000
-      },
-      {
-        "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
-        "shares": 215000,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.24,
-        "pct_change": 0.0,
-        "value": 1144445000
+        "value": 1334151000
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:01:21.375275",
+  "fetched_at": "2026-09-01T06:02:57.230796",
   "ticker": "5108",
   "ticker_full": "5108.T",
   "company_name": "BRIDGESTONE CORP",
@@ -14,26 +14,32 @@
     "strong_sell": 0,
     "total_analysts": 13,
     "recommendation_key": "hold",
-    "recommendation_mean": 2.53846
+    "recommendation_mean": 2.69231
   },
   "target_prices": {
     "has_data": true,
-    "current": 3965.0,
-    "high": 4300.0,
+    "current": 4170.0,
+    "high": 4600.0,
     "low": 3400.0,
-    "mean": 3658.4614,
-    "median": 3550.0
+    "mean": 3845.0,
+    "median": 3865.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 67.08,
+      "date": "2026-11-12",
+      "eps_estimate": 74.15,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-07",
+        "eps_estimate": 69.75,
+        "eps_actual": 90.93,
+        "surprise_pct": 30.36
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 61.8,
@@ -57,45 +63,39 @@
         "eps_estimate": 43.78,
         "eps_actual": 29.53,
         "surprise_pct": -32.55
-      },
-      {
-        "date": "2025-05-15",
-        "eps_estimate": 51.0,
-        "eps_actual": 55.58,
-        "surprise_pct": 8.98
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 14.18,
-    "institution_pct": 43.64,
+    "insider_pct": 15.74,
+    "institution_pct": 41.51,
     "major_holders": [
       {
         "label": "",
-        "value": 14.18
+        "value": 15.74
       },
       {
         "label": "",
-        "value": 43.64
+        "value": 41.51
       },
       {
         "label": "",
-        "value": 50.85
+        "value": 49.26
       },
       {
         "label": "",
-        "value": 400.0
+        "value": 403.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 1287946,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.1,
-        "pct_change": 10.1,
-        "value": 5106705890
+        "shares": 1931125,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.14,
+        "pct_change": 49.94,
+        "value": 8052791250
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.2,
         "pct_change": -0.7,
-        "value": 63471204550
+        "value": 66752817900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.79,
         "pct_change": 0.05,
-        "value": 41997517900
+        "value": 44168890200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -121,7 +121,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 31430951500
+        "value": 33056007000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.35,
         "pct_change": -0.68,
-        "value": 18306008500
+        "value": 19252473000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.32,
         "pct_change": 3.18,
-        "value": 16950771500
+        "value": 17827167000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": -4.34,
-        "value": 16299123750
+        "value": 17141827500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -153,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": -0.77,
-        "value": 15714484500
+        "value": 16526961000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -161,15 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.26,
         "pct_change": 8.8,
-        "value": 13874328000
-      },
-      {
-        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 3347200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.25,
-        "pct_change": -1.2,
-        "value": 13271648000
+        "value": 14591664000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
@@ -177,7 +169,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.25,
         "pct_change": 3.54,
-        "value": 13407251000
+        "value": 14100438000
+      },
+      {
+        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
+        "shares": 3302300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.25,
+        "pct_change": -1.34,
+        "value": 13770591000
       }
     ]
   }

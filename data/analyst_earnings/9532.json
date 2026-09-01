@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:41.874368",
+  "fetched_at": "2026-09-01T06:01:46.246208",
   "ticker": "9532",
   "ticker_full": "9532.T",
   "company_name": "OSAKA GAS CO",
@@ -13,27 +13,39 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.66667
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5725.0,
-    "high": 7300.0,
-    "low": 4110.0,
-    "mean": 6182.0,
-    "median": 6500.0
+    "current": 5889.0,
+    "high": 7420.0,
+    "low": 4430.0,
+    "mean": 6291.6665,
+    "median": 6650.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-08",
-      "eps_estimate": 34.1,
+      "date": "2026-10-29",
+      "eps_estimate": 70.9,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-29",
+        "eps_estimate": 85.9,
+        "eps_actual": 93.38,
+        "surprise_pct": 8.71
+      },
+      {
+        "date": "2026-05-07",
+        "eps_estimate": 34.1,
+        "eps_actual": 33.18,
+        "surprise_pct": -2.7
+      },
       {
         "date": "2026-02-02",
         "eps_estimate": 210.9,
@@ -51,41 +63,29 @@
         "eps_estimate": 93.2,
         "eps_actual": 122.59,
         "surprise_pct": 31.53
-      },
-      {
-        "date": "2025-02-03",
-        "eps_estimate": 106.0,
-        "eps_actual": 99.41,
-        "surprise_pct": -6.22
-      },
-      {
-        "date": "2024-10-31",
-        "eps_estimate": 86.2,
-        "eps_actual": 49.53,
-        "surprise_pct": -42.54
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 2.65,
-    "institution_pct": 45.78,
+    "insider_pct": 3.97,
+    "institution_pct": 48.05,
     "major_holders": [
       {
         "label": "",
-        "value": 2.65
+        "value": 3.97
       },
       {
         "label": "",
-        "value": 45.78
+        "value": 48.05
       },
       {
         "label": "",
-        "value": 47.03
+        "value": 50.04
       },
       {
         "label": "",
-        "value": 283.0
+        "value": 293.0
       }
     ],
     "institutional_holders": [],

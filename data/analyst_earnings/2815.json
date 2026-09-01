@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:45:32.273823",
+  "fetched_at": "2026-09-01T05:48:26.781005",
   "ticker": "2815",
   "ticker_full": "2815.T",
   "company_name": "ARIAKE JAPAN CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5370.0,
-    "high": 6700.0,
-    "low": 6000.0,
-    "mean": 6400.0,
+    "current": 5430.0,
+    "high": 6800.0,
+    "low": 5200.0,
+    "mean": 6166.6665,
     "median": 6500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 70.86,
+      "date": "2026-11-06",
+      "eps_estimate": 66.97,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 70.86,
+        "eps_actual": 65.5,
+        "surprise_pct": -7.56
+      },
       {
         "date": "2026-02-05",
         "eps_estimate": 108.86,
@@ -57,35 +63,29 @@
         "eps_estimate": 73.47,
         "eps_actual": 68.96,
         "surprise_pct": -6.14
-      },
-      {
-        "date": "2025-02-06",
-        "eps_estimate": 87.01,
-        "eps_actual": 122.94,
-        "surprise_pct": 41.3
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 43.63,
-    "institution_pct": 26.24,
+    "insider_pct": 42.08,
+    "institution_pct": 26.27,
     "major_holders": [
       {
         "label": "",
-        "value": 43.63
+        "value": 42.08
       },
       {
         "label": "",
-        "value": 26.24
+        "value": 26.27
       },
       {
         "label": "",
-        "value": 46.55
+        "value": 45.35
       },
       {
         "label": "",
-        "value": 76.0
+        "value": 75.0
       }
     ],
     "institutional_holders": [
@@ -95,15 +95,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 3.19,
         "pct_change": -6.6,
-        "value": 5611650000
+        "value": 5674350000
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 835700,
-        "date_reported": "2026-03-31",
-        "pct_held": 2.55,
-        "pct_change": 0.0,
-        "value": 4487709000
+        "shares": 817600,
+        "date_reported": "2026-06-30",
+        "pct_held": 2.49,
+        "pct_change": -2.17,
+        "value": 4439568000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.76,
         "pct_change": -1.74,
-        "value": 1331620380
+        "value": 1346498820
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -119,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.52,
         "pct_change": 3.04,
-        "value": 909839100
+        "value": 920004900
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -127,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 534852000
+        "value": 540828000
       },
       {
         "holder": "HARBOR FUNDS-Harbor International Small Cap Fund",
@@ -135,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.25,
         "pct_change": 6.83,
-        "value": 445366320
+        "value": 450342480
       },
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Small Companies PORT.",
@@ -143,7 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.22,
         "pct_change": -23.8,
-        "value": 392010000
+        "value": 396390000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -151,7 +151,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.22,
         "pct_change": -0.28,
-        "value": 384492000
+        "value": 388788000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -159,15 +159,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 350661000
+        "value": 354579000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 51900,
-        "date_reported": "2026-06-30",
+        "shares": 52300,
+        "date_reported": "2026-07-31",
         "pct_held": 0.16,
-        "pct_change": 11.61,
-        "value": 278703000
+        "pct_change": 0.77,
+        "value": 283989000
       }
     ],
     "mutualfund_holders": []

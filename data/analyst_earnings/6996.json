@@ -1,34 +1,40 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:41:12.314637",
+  "fetched_at": "2026-09-01T05:43:53.213585",
   "ticker": "6996",
   "ticker_full": "6996.T",
   "company_name": "NICHICON CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 2,
     "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.875
   },
   "target_prices": {
     "has_data": true,
-    "current": 2929.0,
-    "high": 5500.0,
-    "low": 2750.0,
-    "mean": 4325.0,
-    "median": 4500.0
+    "current": 2738.0,
+    "high": 4700.0,
+    "low": 3160.0,
+    "mean": 4094.2856,
+    "median": 4400.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": 16.38,
+        "eps_actual": 36.79,
+        "surprise_pct": 124.6
+      },
       {
         "date": "2026-05-07",
         "eps_estimate": 20.19,
@@ -52,31 +58,25 @@
         "eps_estimate": 11.69,
         "eps_actual": 17.68,
         "surprise_pct": 51.24
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 6.48,
-        "eps_actual": -18.58,
-        "surprise_pct": -386.73
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 15.53,
-    "institution_pct": 45.08,
+    "insider_pct": 15.12,
+    "institution_pct": 45.53,
     "major_holders": [
       {
         "label": "",
-        "value": 15.53
+        "value": 15.12
       },
       {
         "label": "",
-        "value": 45.08
+        "value": 45.53
       },
       {
         "label": "",
-        "value": 53.37
+        "value": 53.64
       },
       {
         "label": "",
@@ -90,7 +90,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 2.06,
         "pct_change": 0.0,
-        "value": 4225404690
+        "value": 3949866180
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -98,7 +98,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.2,
         "pct_change": 0.0,
-        "value": 2451127792
+        "value": 2291289824
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,7 +106,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.77,
         "pct_change": 2.93,
-        "value": 1573209835
+        "value": 1470620870
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -114,7 +114,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.68,
         "pct_change": -0.44,
-        "value": 1398597500
+        "value": 1307395000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -122,7 +122,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.65,
         "pct_change": 0.0,
-        "value": 1326251200
+        "value": 1239766400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -130,7 +130,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.5,
         "pct_change": 0.57,
-        "value": 1028371900
+        "value": 961311800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -138,7 +138,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.34,
         "pct_change": 0.0,
-        "value": 687436300
+        "value": 642608600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -146,15 +146,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 2.96,
-        "value": 621776907
+        "value": 581230854
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 172700,
-        "date_reported": "2026-06-30",
+        "shares": 173500,
+        "date_reported": "2026-07-31",
         "pct_held": 0.25,
-        "pct_change": -5.01,
-        "value": 505838300
+        "pct_change": 0.46,
+        "value": 475043000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -162,7 +162,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": -0.24,
-        "value": 493536500
+        "value": 461353000
       }
     ],
     "mutualfund_holders": []

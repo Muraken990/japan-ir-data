@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:55:44.838707",
+  "fetched_at": "2026-09-01T05:58:21.150509",
   "ticker": "5801",
   "ticker_full": "5801.T",
   "company_name": "FURUKAWA ELECTRIC CO",
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 3145.0,
-    "high": 8940.0,
+    "current": 3860.0,
+    "high": 9000.0,
     "low": 4500.0,
-    "mean": 6513.3335,
-    "median": 6500.0
+    "mean": 6368.75,
+    "median": 6450.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 10.05,
+      "date": "2026-11-09",
+      "eps_estimate": 11.96,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 24.27,
+        "eps_actual": 31.6,
+        "surprise_pct": 30.2
+      },
       {
         "date": "2026-05-11",
         "eps_estimate": 25.67,
@@ -57,45 +63,49 @@
         "eps_estimate": 10.05,
         "eps_actual": 7.32,
         "surprise_pct": -27.22
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": 10.17,
-        "eps_actual": 24.13,
-        "surprise_pct": 137.38
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.01,
-    "institution_pct": 50.37,
+    "insider_pct": 2.79,
+    "institution_pct": 53.63,
     "major_holders": [
       {
         "label": "",
-        "value": 5.01
+        "value": 2.79
       },
       {
         "label": "",
-        "value": 50.37
+        "value": 53.63
       },
       {
         "label": "",
-        "value": 53.03
+        "value": 55.17
       },
       {
         "label": "",
-        "value": 254.0
+        "value": 273.0
       }
     ],
     "institutional_holders": [
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 77636,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.01,
+        "pct_change": 1.0,
+        "value": 299597324
+      }
+    ],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 9963800,
         "date_reported": "2026-04-30",
         "pct_held": 1.41,
         "pct_change": 0.45,
-        "value": 31336151000
+        "value": 38450304200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.93,
         "pct_change": 2.46,
-        "value": 20726713650
+        "value": 25432237830
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -111,7 +121,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.68,
         "pct_change": 0.0,
-        "value": 15209220000
+        "value": 18662124000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -119,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.4,
         "pct_change": 1.0,
-        "value": 8996587000
+        "value": 11039055400
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -127,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.36,
         "pct_change": 1.0,
-        "value": 7915965000
+        "value": 9713103000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -135,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.33,
         "pct_change": -0.77,
-        "value": 7283820000
+        "value": 8937444000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -143,7 +153,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": -6.48,
-        "value": 6402842600
+        "value": 7856460920
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -151,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.24,
         "pct_change": 1.0,
-        "value": 5245860000
+        "value": 6436812000
       },
       {
         "holder": "Fidelity Contrafund",
@@ -159,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.23,
         "pct_change": -34.09,
-        "value": 5163461000
+        "value": 6335706200
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
@@ -167,9 +177,8 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 5032000000
+        "value": 6174400000
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

@@ -1,33 +1,136 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:45:58.227842",
+  "fetched_at": "2026-09-01T05:37:13.563506",
   "ticker": "3661",
   "ticker_full": "3661.T",
   "company_name": "M UP HOLDINGS INC",
   "analyst_recommendations": {
     "has_data": true,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 0.0,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "period": "0",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 0,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
-    "has_data": false
+    "has_data": true,
+    "current": 850.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": false
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
-    "institutional_holders": [],
+    "has_data": true,
+    "insider_pct": 14.52,
+    "institution_pct": 50.73,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 14.52
+      },
+      {
+        "label": "",
+        "value": 50.73
+      },
+      {
+        "label": "",
+        "value": 59.34
+      },
+      {
+        "label": "",
+        "value": 70.0
+      }
+    ],
+    "institutional_holders": [
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 864400,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.18,
+        "pct_change": 0.0,
+        "value": 734740000
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 557600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.76,
+        "pct_change": 0.0,
+        "value": 473960000
+      },
+      {
+        "holder": "-Polar Capital International Small Company Fund",
+        "shares": 427600,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.59,
+        "pct_change": -24.4,
+        "value": 363460000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 322600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.44,
+        "pct_change": 0.0,
+        "value": 274210000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 263700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.36,
+        "pct_change": 19.65,
+        "value": 224145000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 223400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.31,
+        "pct_change": 0.0,
+        "value": 189890000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 151700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.21,
+        "pct_change": -35.88,
+        "value": 128945000
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 135997,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.19,
+        "pct_change": 4.76,
+        "value": 115597450
+      },
+      {
+        "holder": "iShares Trust-iShares International Small-Cap Equity Factor ETF",
+        "shares": 130400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.18,
+        "pct_change": 0.62,
+        "value": 110840000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
+        "shares": 100500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": -15.69,
+        "value": 85425000
+      }
+    ],
     "mutualfund_holders": []
   }
 }

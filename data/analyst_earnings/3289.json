@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:57:44.132304",
+  "fetched_at": "2026-09-01T06:00:28.738618",
   "ticker": "3289",
   "ticker_full": "3289.T",
   "company_name": "TOKYU FUDOSAN HOLDINGS CORPORAT",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 2,
-    "hold": 7,
+    "buy": 3,
+    "hold": 6,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1336.5,
+    "current": 1351.5,
     "high": 1770.0,
     "low": 1100.0,
-    "mean": 1535.4546,
+    "mean": 1513.6364,
     "median": 1550.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 22.65,
+      "date": "2026-11-06",
+      "eps_estimate": 35.17,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 32.38,
+        "eps_actual": 35.77,
+        "surprise_pct": 10.46
+      },
       {
         "date": "2026-05-10",
         "eps_estimate": 41.78,
@@ -57,19 +63,13 @@
         "eps_estimate": 22.65,
         "eps_actual": 42.72,
         "surprise_pct": 88.58
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 42.36,
-        "eps_actual": 42.18,
-        "surprise_pct": -0.43
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 18.75,
-    "institution_pct": 39.25,
+    "institution_pct": 36.95,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +77,35 @@
       },
       {
         "label": "",
-        "value": 39.25
+        "value": 36.95
       },
       {
         "label": "",
-        "value": 48.3
+        "value": 45.47
       },
       {
         "label": "",
-        "value": 211.0
+        "value": 213.0
       }
     ],
     "institutional_holders": [
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 294,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 1.0,
+        "value": 397341
+      }
+    ],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 8635590,
         "date_reported": "2026-04-30",
         "pct_held": 1.2,
         "pct_change": -0.27,
-        "value": 11541466035
+        "value": 11670999885
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -103,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.78,
         "pct_change": 2.62,
-        "value": 7536653140
+        "value": 7621239595
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -111,7 +121,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 5300959950
+        "value": 5360454450
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -119,7 +129,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.43,
         "pct_change": 5.85,
-        "value": 4127112000
+        "value": 4173432000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -127,15 +137,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 3561772500
-      },
-      {
-        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 2298500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.32,
-        "pct_change": -0.03,
-        "value": 3071945250
+        "value": 3601747500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -143,7 +145,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.32,
         "pct_change": -0.24,
-        "value": 3044547000
+        "value": 3078717000
+      },
+      {
+        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
+        "shares": 2298500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.32,
+        "pct_change": 0.0,
+        "value": 3106422750
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -151,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 1.99,
-        "value": 2787997806
+        "value": 2819288466
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -159,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 0.37,
-        "value": 2832971031
+        "value": 2864766441
       },
       {
         "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
@@ -167,9 +177,8 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 0.0,
-        "value": 1952893800
+        "value": 1974811800
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:01:21.310219",
+  "fetched_at": "2026-09-01T06:02:57.151660",
   "ticker": "8750",
   "ticker_full": "8750.T",
   "company_name": "DAIICHI LIFE GROUP INC",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 11,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.27273
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1918.5,
+    "current": 1880.0,
     "high": 2180.0,
     "low": 1550.0,
     "mean": 1936.0,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
+      "date": "2026-11-13",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 27.78,
+        "eps_actual": 44.44,
+        "surprise_pct": 59.98
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 13.39,
@@ -57,53 +63,47 @@
         "eps_estimate": 17.17,
         "eps_actual": 22.92,
         "surprise_pct": 33.42
-      },
-      {
-        "date": "2023-08-10",
-        "eps_estimate": 18.66,
-        "eps_actual": 17.12,
-        "surprise_pct": -8.28
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.98,
-    "institution_pct": 54.86,
+    "insider_pct": 6.27,
+    "institution_pct": 55.23,
     "major_holders": [
       {
         "label": "",
-        "value": 5.98
+        "value": 6.27
       },
       {
         "label": "",
-        "value": 54.86
+        "value": 55.23
       },
       {
         "label": "",
-        "value": 58.35
+        "value": 58.93
       },
       {
         "label": "",
-        "value": 376.0
+        "value": 384.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 29851,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 2.94,
-        "value": 57269143
-      },
-      {
         "holder": "Paradigm Asset Management Company, LLC",
         "shares": 9600,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 18417600
+        "value": 18048000
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 28661,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -3.99,
+        "value": 53882680
       }
     ],
     "mutualfund_holders": [
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 5.11,
         "pct_change": 0.02,
-        "value": 96951988398
+        "value": 95006379040
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 3.38,
         "pct_change": 2.43,
-        "value": 64119915150
+        "value": 62833172000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 2.54,
         "pct_change": 0.0,
-        "value": 48288069450
+        "value": 47319036000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 1.5,
         "pct_change": 3.89,
-        "value": 28562436150
+        "value": 27989252000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 1.34,
         "pct_change": 0.16,
-        "value": 25419898617
+        "value": 24909778160
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -153,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 1.23,
         "pct_change": -0.75,
-        "value": 23375019348
+        "value": 22905935040
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -161,15 +161,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.19,
         "pct_change": 8.92,
-        "value": 22580553150
+        "value": 22127412000
       },
       {
         "holder": "JANUS INVESTMENT FUND-Janus Henderson Overseas Fund",
-        "shares": 10803500,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.09,
-        "pct_change": -21.56,
-        "value": 20726514750
+        "shares": 10595200,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.07,
+        "pct_change": -1.93,
+        "value": 19918976000
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
@@ -177,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.92,
         "pct_change": 2.87,
-        "value": 17519550150
+        "value": 17167972000
       },
       {
         "holder": "Columbia Funds Series Trust-Columbia Overseas Value Fund",
@@ -185,7 +185,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.81,
         "pct_change": 4.48,
-        "value": 15349342950
+        "value": 15041316000
       }
     ]
   }

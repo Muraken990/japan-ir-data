@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:55:45.787784",
+  "fetched_at": "2026-09-01T05:58:22.268100",
   "ticker": "5444",
   "ticker_full": "5444.T",
   "company_name": "YAMATO KOGYO CO",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.25
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 13500.0,
+    "current": 12640.0,
     "high": 14700.0,
     "low": 11000.0,
     "mean": 13325.0,
@@ -26,8 +26,13 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2020-05-14",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 40.43,
-    "institution_pct": 37.4,
+    "institution_pct": 39.36,
     "major_holders": [
       {
         "label": "",
@@ -72,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 37.4
+        "value": 39.36
       },
       {
         "label": "",
-        "value": 62.78
+        "value": 66.08
       },
       {
         "label": "",
-        "value": 132.0
+        "value": 135.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "SmallCap World Fund Inc",
-        "shares": 1613000,
-        "date_reported": "2026-03-31",
-        "pct_held": 2.6,
-        "pct_change": 9.0,
-        "value": 21775500000
+        "shares": 1424800,
+        "date_reported": "2026-06-30",
+        "pct_held": 2.3,
+        "pct_change": -11.67,
+        "value": 18009472000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -98,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.79,
         "pct_change": -0.43,
-        "value": 6630187500
+        "value": 6207820000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.51,
         "pct_change": 0.57,
-        "value": 4309929000
+        "value": 4035370560
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -114,7 +119,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 3341250000
+        "value": 3128400000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -122,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.23,
         "pct_change": -0.28,
-        "value": 1930500000
+        "value": 1807520000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -130,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1513350000
+        "value": 1416944000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
@@ -138,15 +143,15 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 1250100000
+        "value": 1170464000
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 80422,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.13,
-        "pct_change": 2.42,
-        "value": 1085697000
+        "shares": 86622,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.14,
+        "pct_change": 7.71,
+        "value": 1094902080
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -154,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.12,
         "pct_change": 0.0,
-        "value": 977400000
+        "value": 915136000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -162,7 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.12,
         "pct_change": 1.74,
-        "value": 1026202500
+        "value": 960829600
       }
     ],
     "mutualfund_holders": []

@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:45:33.800562",
+  "fetched_at": "2026-09-01T05:48:28.749844",
   "ticker": "8616",
   "ticker_full": "8616.T",
   "company_name": "TOKAI TOKYO FINANCIAL HLDG INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 0,
     "buy": 0,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 802.0,
+    "current": 919.0,
     "high": 600.0,
     "low": 600.0,
     "mean": 600.0,
@@ -26,8 +26,13 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2019-04-25",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.54,
-    "institution_pct": 36.49,
+    "institution_pct": 37.51,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 36.49
+        "value": 37.51
       },
       {
         "label": "",
-        "value": 37.44
+        "value": 38.49
       },
       {
         "label": "",
-        "value": 76.0
+        "value": 78.0
       }
     ],
     "institutional_holders": [],

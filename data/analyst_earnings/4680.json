@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:51:32.998612",
+  "fetched_at": "2026-09-01T05:53:56.237313",
   "ticker": "4680",
   "ticker_full": "4680.T",
   "company_name": "ROUND ONE CORP",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.4
   },
   "target_prices": {
     "has_data": true,
-    "current": 1216.0,
-    "high": 1540.0,
+    "current": 1330.5,
+    "high": 1600.0,
     "low": 1450.0,
-    "mean": 1497.5,
+    "mean": 1514.0,
     "median": 1500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-10",
-      "eps_estimate": null,
+      "date": "2026-11-06",
+      "eps_estimate": 23.0,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-09",
+        "eps_estimate": 16.7,
+        "eps_actual": 12.81,
+        "surprise_pct": -23.29
+      },
       {
         "date": "2026-02-09",
         "eps_estimate": 8.1,
@@ -57,19 +63,13 @@
         "eps_estimate": 28.67,
         "eps_actual": 18.16,
         "surprise_pct": -36.65
-      },
-      {
-        "date": "2025-02-09",
-        "eps_estimate": 8.2,
-        "eps_actual": 9.37,
-        "surprise_pct": 14.27
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 32.77,
-    "institution_pct": 27.12,
+    "institution_pct": 26.65,
     "major_holders": [
       {
         "label": "",
@@ -77,33 +77,41 @@
       },
       {
         "label": "",
-        "value": 27.12
+        "value": 26.65
       },
       {
         "label": "",
-        "value": 40.34
+        "value": 39.64
       },
       {
         "label": "",
-        "value": 102.0
+        "value": 103.0
       }
     ],
     "institutional_holders": [
+      {
+        "holder": "THORNBURG INVESTMENT TRUST-Thornburg Global Opportunities Fund",
+        "shares": 5164064,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.79,
+        "pct_change": 89.32,
+        "value": 6870787152
+      },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
         "shares": 4803600,
         "date_reported": "2026-04-30",
         "pct_held": 1.66,
         "pct_change": 0.0,
-        "value": 5841177600
+        "value": 6391189800
       },
       {
-        "holder": "THORNBURG INVESTMENT TRUST-Thornburg Global Opportunities Fund",
-        "shares": 2727683,
-        "date_reported": "2026-03-31",
+        "holder": "THORNBURG INVESTMENT TRUST-Thornburg American Opportunities Fund",
+        "shares": 2718086,
+        "date_reported": "2026-06-30",
         "pct_held": 0.94,
-        "pct_change": 0.0,
-        "value": 3316862528
+        "pct_change": 1.0,
+        "value": 3616413423
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,7 +119,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.84,
         "pct_change": 0.0,
-        "value": 2964688256
+        "value": 3243846813
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -119,7 +127,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.56,
         "pct_change": 1.83,
-        "value": 1968997056
+        "value": 2154400150
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
@@ -127,7 +135,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 1821811200
+        "value": 1993355100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -135,7 +143,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 1618496000
+        "value": 1770895500
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -143,7 +151,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.39,
         "pct_change": 36.54,
-        "value": 1363500800
+        "value": 1491889650
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -151,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 0.0,
-        "value": 1035684224
+        "value": 1133205477
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -159,15 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 937099456
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 702100,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.24,
-        "pct_change": -0.26,
-        "value": 853753600
+        "value": 1025337850
       }
     ],
     "mutualfund_holders": []

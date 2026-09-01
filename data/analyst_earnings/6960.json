@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:50:36.903647",
+  "fetched_at": "2026-09-01T05:52:59.078598",
   "ticker": "6960",
   "ticker_full": "6960.T",
   "company_name": "FUKUDA DENSHI CO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 11330.0,
+    "current": 12400.0,
     "high": 9700.0,
     "low": 8400.0,
     "mean": 9050.0,
@@ -26,8 +26,13 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2018-05-14",
@@ -63,34 +68,34 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 21.75,
-    "institution_pct": 30.31,
+    "insider_pct": 21.88,
+    "institution_pct": 26.49,
     "major_holders": [
       {
         "label": "",
-        "value": 21.75
+        "value": 21.88
       },
       {
         "label": "",
-        "value": 30.31
+        "value": 26.49
       },
       {
         "label": "",
-        "value": 38.73
+        "value": 33.9
       },
       {
         "label": "",
-        "value": 74.0
+        "value": 71.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 561000,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.49,
-        "pct_change": 0.0,
-        "value": 6356130000
+        "shares": 451100,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.2,
+        "pct_change": -19.59,
+        "value": 5593640000
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
@@ -98,7 +103,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 1.14,
         "pct_change": -0.13,
-        "value": 4870007890
+        "value": 5329929200
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -106,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 2334591820
+        "value": 2555069600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -114,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 1541809060
+        "value": 1687416800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -122,7 +127,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 1135266000
+        "value": 1242480000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -130,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.22,
         "pct_change": 2.0,
-        "value": 925661000
+        "value": 1013080000
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock K6 Fund",
@@ -138,7 +143,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.21,
         "pct_change": 0.73,
-        "value": 900610370
+        "value": 985663600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -146,7 +151,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.15,
         "pct_change": -0.35,
-        "value": 641278000
+        "value": 701840000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -154,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.14,
         "pct_change": 1.17,
-        "value": 588004340
+        "value": 643535200
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -162,7 +167,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.08,
         "pct_change": -5.54,
-        "value": 329306450
+        "value": 360406000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:57:54.949972",
+  "fetched_at": "2026-09-01T06:00:42.383705",
   "ticker": "5334",
   "ticker_full": "5334.T",
   "company_name": "NITERRA CO LTD",
@@ -13,21 +13,26 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.3
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 9415.0,
+    "current": 8337.0,
     "high": 13300.0,
     "low": 4425.0,
-    "mean": 9576.5,
-    "median": 10450.0
+    "mean": 10006.5,
+    "median": 10820.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 112.44,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.56,
-    "institution_pct": 53.37,
+    "institution_pct": 54.51,
     "major_holders": [
       {
         "label": "",
@@ -72,25 +77,25 @@
       },
       {
         "label": "",
-        "value": 53.37
+        "value": 54.51
       },
       {
         "label": "",
-        "value": 54.77
+        "value": 55.95
       },
       {
         "label": "",
-        "value": 195.0
+        "value": 207.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 88316,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.04,
-        "pct_change": 7.21,
-        "value": 831495140
+        "shares": 39,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -99.96,
+        "value": 325143
       }
     ],
     "mutualfund_holders": [
@@ -100,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.42,
         "pct_change": 3.33,
-        "value": 26629282435
+        "value": 23580279093
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -108,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.94,
         "pct_change": 5.65,
-        "value": 17622771040
+        "value": 15604996512
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
@@ -116,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.74,
         "pct_change": -9.99,
-        "value": 13857938500
+        "value": 12271230300
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
@@ -124,7 +129,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.59,
         "pct_change": -0.17,
-        "value": 11031555500
+        "value": 9768462900
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -132,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.54,
         "pct_change": 0.76,
-        "value": 10090997000
+        "value": 8935596600
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Small Cap Fund",
@@ -140,7 +145,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.41,
         "pct_change": 8.0,
-        "value": 7626150000
+        "value": 6752970000
       },
       {
         "holder": "Columbia Fd.s Varbl Series TRT II-Columbia Varbl PORT. - Overseas Core",
@@ -148,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.4,
         "pct_change": -35.24,
-        "value": 7448206500
+        "value": 6595400700
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
@@ -156,7 +161,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": 4.75,
-        "value": 6847247050
+        "value": 6063249990
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -164,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 9.4,
-        "value": 5992647500
+        "value": 5306500500
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -172,7 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 5937099000
+        "value": 5257312200
       }
     ]
   }

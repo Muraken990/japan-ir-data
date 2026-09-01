@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:14:10.422881",
+  "fetched_at": "2026-09-01T06:01:52.065109",
   "ticker": "9101",
   "ticker_full": "9101.T",
   "company_name": "NIPPON YUSEN KABUSHIKI KAISHA",
@@ -8,8 +8,8 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 1,
-    "buy": 0,
-    "hold": 9,
+    "buy": 1,
+    "hold": 8,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 11,
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 5100.0,
+    "current": 7100.0,
     "high": 7400.0,
     "low": 3440.0,
-    "mean": 5869.5454,
-    "median": 5900.0
+    "mean": 6069.5454,
+    "median": 6100.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-05",
-      "eps_estimate": 150.61,
+      "date": "2026-11-05",
+      "eps_estimate": 212.43,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": 118.34,
+        "eps_actual": 166.1,
+        "surprise_pct": 40.36
+      },
       {
         "date": "2026-02-03",
         "eps_estimate": 151.52,
@@ -57,35 +63,29 @@
         "eps_estimate": 150.0,
         "eps_actual": 191.86,
         "surprise_pct": 27.91
-      },
-      {
-        "date": "2025-02-04",
-        "eps_estimate": 298.7,
-        "eps_actual": 292.86,
-        "surprise_pct": -1.96
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.98,
-    "institution_pct": 46.58,
+    "insider_pct": 4.34,
+    "institution_pct": 48.53,
     "major_holders": [
       {
         "label": "",
-        "value": 5.98
+        "value": 4.34
       },
       {
         "label": "",
-        "value": 46.58
+        "value": 48.53
       },
       {
         "label": "",
-        "value": 49.54
+        "value": 50.74
       },
       {
         "label": "",
-        "value": 309.0
+        "value": 308.0
       }
     ],
     "institutional_holders": [],

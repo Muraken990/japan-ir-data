@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:49:30.804132",
+  "fetched_at": "2026-09-01T05:51:49.221400",
   "ticker": "6508",
   "ticker_full": "6508.T",
   "company_name": "MEIDENSHA CORP",
@@ -9,25 +9,30 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 3,
-    "hold": 1,
-    "sell": 1,
+    "hold": 2,
+    "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.71429
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 9620.0,
-    "high": 11600.0,
-    "low": 8000.0,
-    "mean": 10183.333,
-    "median": 10600.0
+    "current": 11320.0,
+    "high": 14000.0,
+    "low": 11000.0,
+    "mean": 12820.0,
+    "median": 13000.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 45.48,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.85,
-    "institution_pct": 49.0,
+    "institution_pct": 50.12,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 49.0
+        "value": 50.12
       },
       {
         "label": "",
-        "value": 56.88
+        "value": 58.18
       },
       {
         "label": "",
-        "value": 121.0
+        "value": 119.0
       }
     ],
     "institutional_holders": [],

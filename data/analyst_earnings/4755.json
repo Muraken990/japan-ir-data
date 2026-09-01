@@ -1,39 +1,51 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:40.498797",
+  "fetched_at": "2026-09-01T06:01:43.909157",
   "ticker": "4755",
   "ticker_full": "4755.T",
   "company_name": "RAKUTEN GROUP INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 6,
-    "buy": 1,
-    "hold": 6,
+    "strong_buy": 5,
+    "buy": 2,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 1,
-    "total_analysts": 14,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 13,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 762.8,
-    "high": 1190.0,
+    "current": 760.3,
+    "high": 1400.0,
     "low": 575.0,
-    "mean": 983.5714,
-    "median": 1000.0
+    "mean": 958.6667,
+    "median": 910.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": null,
+      "date": "2026-11-13",
+      "eps_estimate": 1.08,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-10",
+        "eps_estimate": -7.27,
+        "eps_actual": 3.54,
+        "surprise_pct": 148.68
+      },
+      {
+        "date": "2026-05-14",
+        "eps_estimate": -19.32,
+        "eps_actual": -8.59,
+        "surprise_pct": 55.54
+      },
       {
         "date": "2026-02-11",
         "eps_estimate": -42.19,
@@ -51,133 +63,121 @@
         "eps_estimate": 5.2,
         "eps_actual": -23.56,
         "surprise_pct": -553.08
-      },
-      {
-        "date": "2025-05-14",
-        "eps_estimate": 0.45,
-        "eps_actual": -34.08,
-        "surprise_pct": -7673.33
-      },
-      {
-        "date": "2025-02-14",
-        "eps_estimate": 26.15,
-        "eps_actual": -5.6,
-        "surprise_pct": -121.42
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 33.68,
-    "institution_pct": 29.39,
+    "insider_pct": 33.55,
+    "institution_pct": 29.45,
     "major_holders": [
       {
         "label": "",
-        "value": 33.68
+        "value": 33.55
       },
       {
         "label": "",
-        "value": 29.39
+        "value": 29.45
       },
       {
         "label": "",
-        "value": 44.31
+        "value": 44.32
       },
       {
         "label": "",
-        "value": 253.0
+        "value": 262.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 11889,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.0,
-        "pct_change": -3.8,
-        "value": 9068929
+        "shares": 4311483,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.2,
+        "pct_change": 351.33,
+        "value": 3278020472
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 20906859,
-        "date_reported": "2026-01-31",
+        "shares": 20869659,
+        "date_reported": "2026-04-30",
         "pct_held": 0.96,
-        "pct_change": 0.92,
-        "value": 15947751789
+        "pct_change": -0.18,
+        "value": 15867201482
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 13474610,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.62,
-        "pct_change": 1.97,
-        "value": 10278432343
+        "shares": 13845610,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.63,
+        "pct_change": 2.75,
+        "value": 10526817113
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 10812800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.5,
-        "pct_change": 1.24,
-        "value": 8248003708
-      },
-      {
-        "holder": "TRANSAMERICA FUNDS-Transamerica International Equity",
-        "shares": 5963600,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.27,
-        "pct_change": -3.52,
-        "value": 4549034007
+        "shares": 10716300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.49,
+        "pct_change": 0.0,
+        "value": 8147602759
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 5942800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.27,
-        "pct_change": 0.29,
-        "value": 4533167767
-      },
-      {
-        "holder": "HARTFORD MUTUAL Fd.S INC/CT-THE HARTFORD Intl OPPORTUNITIES Fd.",
-        "shares": 5506400,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.25,
-        "pct_change": -4.25,
-        "value": 4200281852
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 5528786,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.25,
-        "pct_change": 1.23,
-        "value": 4217357893
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 5265500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.24,
-        "pct_change": 0.0,
-        "value": 4016523335
-      },
-      {
-        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 4331100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.2,
-        "pct_change": -3.93,
-        "value": 3303763027
+        "shares": 6100900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.28,
+        "pct_change": -1.35,
+        "value": 4638514195
       },
       {
         "holder": "GLOBAL X FUNDS-Global X Artificial Intelligence & Technology ETF",
-        "shares": 4156105,
+        "shares": 5763932,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.26,
+        "pct_change": 35.95,
+        "value": 4382317429
+      },
+      {
+        "holder": "AQR Funds-AQR Long-Short Equity Fund",
+        "shares": 5423500,
         "date_reported": "2026-03-31",
-        "pct_held": 0.19,
-        "pct_change": 0.8,
-        "value": 3170276843
+        "pct_held": 0.25,
+        "pct_change": 4.52,
+        "value": 4123486983
+      },
+      {
+        "holder": "HARTFORD MUTUAL FUNDS INC/CT-Hartford International Opportunites Fund",
+        "shares": 5461200,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.25,
+        "pct_change": -0.82,
+        "value": 4152150293
+      },
+      {
+        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
+        "shares": 5434538,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.25,
+        "pct_change": -4.92,
+        "value": 4131879175
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE ETF",
+        "shares": 5221400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.24,
+        "pct_change": -0.84,
+        "value": 3969830356
+      },
+      {
+        "holder": "TRANSAMERICA FUNDS-Transamerica International Equity",
+        "shares": 5052300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.23,
+        "pct_change": -15.28,
+        "value": 3841263628
       }
     ]
   }

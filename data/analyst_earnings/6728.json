@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:51:37.224881",
+  "fetched_at": "2026-09-01T05:54:00.960458",
   "ticker": "6728",
   "ticker_full": "6728.T",
   "company_name": "ULVAC INC",
@@ -8,32 +8,38 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 6,
-    "hold": 1,
+    "buy": 5,
+    "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 2.1
   },
   "target_prices": {
     "has_data": true,
-    "current": 8648.0,
+    "current": 7405.0,
     "high": 12300.0,
     "low": 7100.0,
-    "mean": 10188.889,
-    "median": 10700.0
+    "mean": 9677.777,
+    "median": 10000.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-14",
-      "eps_estimate": 108.74,
+      "date": "2026-11-10",
+      "eps_estimate": 57.29,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-14",
+        "eps_estimate": 188.34,
+        "eps_actual": 162.24,
+        "surprise_pct": -13.86
+      },
       {
         "date": "2026-05-11",
         "eps_estimate": 113.7,
@@ -57,12 +63,6 @@
         "eps_estimate": 108.74,
         "eps_actual": 72.69,
         "surprise_pct": -33.15
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": 122.92,
-        "eps_actual": 54.72,
-        "surprise_pct": -55.48
       }
     ]
   },
@@ -81,21 +81,29 @@
       },
       {
         "label": "",
-        "value": 71.79
+        "value": 71.8
       },
       {
         "label": "",
-        "value": 150.0
+        "value": 153.0
       }
     ],
     "institutional_holders": [
+      {
+        "holder": "SmallCap World Fund Inc",
+        "shares": 1721800,
+        "date_reported": "2026-06-30",
+        "pct_held": 3.49,
+        "pct_change": 1.0,
+        "value": 12749929000
+      },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 712124,
         "date_reported": "2026-04-30",
         "pct_held": 1.44,
         "pct_change": 0.0,
-        "value": 6158448352
+        "value": 5273278220
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -103,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.05,
         "pct_change": -7.06,
-        "value": 4473610400
+        "value": 3830606500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -111,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.97,
         "pct_change": 1.25,
-        "value": 4121100624
+        "value": 3528763890
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -119,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.62,
         "pct_change": 0.0,
-        "value": 2648017600
+        "value": 2267411000
       },
       {
         "holder": "Old Westbury Funds Inc-Old Westbury Small & Mid Cap Strategies Fund",
@@ -127,15 +135,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.54,
         "pct_change": 2.46,
-        "value": 2308955464
+        "value": 1977083165
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 215773,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.44,
-        "pct_change": 40.13,
-        "value": 1866004904
+        "shares": 259116,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.52,
+        "pct_change": 20.09,
+        "value": 1918753980
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -143,7 +151,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": -0.22,
-        "value": 1579989600
+        "value": 1352893500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -151,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.23,
         "pct_change": 4.29,
-        "value": 966379408
+        "value": 827479130
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
@@ -159,15 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.21,
         "pct_change": 0.0,
-        "value": 907391400
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 98800,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.2,
-        "pct_change": 2.81,
-        "value": 854422400
+        "value": 776969625
       }
     ],
     "mutualfund_holders": []

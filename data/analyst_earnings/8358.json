@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:51:41.491293",
+  "fetched_at": "2026-09-01T05:54:07.808673",
   "ticker": "8358",
   "ticker_full": "8358.T",
   "company_name": "SURUGA BANK",
@@ -9,16 +9,16 @@
     "period": "3",
     "strong_buy": 0,
     "buy": 2,
-    "hold": 2,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
+    "total_analysts": 3,
     "recommendation_key": "none",
     "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2605.0,
+    "current": 2987.0,
     "high": 3100.0,
     "low": 2400.0,
     "mean": 2725.0,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-10",
-      "eps_estimate": 25.29,
+      "date": "2026-11-19",
+      "eps_estimate": 45.33,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-09",
+        "eps_estimate": 44.74,
+        "eps_actual": 82.7,
+        "surprise_pct": 84.85
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 18.63,
@@ -57,35 +63,29 @@
         "eps_estimate": 25.29,
         "eps_actual": 29.88,
         "surprise_pct": 18.15
-      },
-      {
-        "date": "2025-05-11",
-        "eps_estimate": 17.67,
-        "eps_actual": 10.09,
-        "surprise_pct": -42.9
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 26.36,
-    "institution_pct": 38.6,
+    "insider_pct": 26.01,
+    "institution_pct": 38.58,
     "major_holders": [
       {
         "label": "",
-        "value": 26.36
+        "value": 26.01
       },
       {
         "label": "",
-        "value": 38.6
+        "value": 38.58
       },
       {
         "label": "",
-        "value": 52.42
+        "value": 52.14
       },
       {
         "label": "",
-        "value": 80.0
+        "value": 82.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.54,
         "pct_change": 0.0,
-        "value": 6909241500
+        "value": 7922420100
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.08,
         "pct_change": 0.0,
-        "value": 4844338755
+        "value": 5554717797
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -111,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.7,
         "pct_change": 1.36,
-        "value": 3154404920
+        "value": 3616970248
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -119,15 +119,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 2297349500
-      },
-      {
-        "holder": "American Century World Mutual Fd.s, Inc.-Intl OPPORTUNITIES Fd.",
-        "shares": 830400,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.48,
-        "pct_change": 23.31,
-        "value": 2163192000
+        "value": 2634235300
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -135,15 +127,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.47,
         "pct_change": 0.0,
-        "value": 2104579500
+        "value": 2413197300
+      },
+      {
+        "holder": "American Century World Mutual Fd.s, Inc.-Intl OPPORTUNITIES Fd.",
+        "shares": 782700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.45,
+        "pct_change": -5.74,
+        "value": 2337924900
       },
       {
         "holder": "American Century World Mutual Fd.s, Inc.-Intl SMALL-MID CAP Fd.",
         "shares": 666200,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.39,
-        "pct_change": 20.69,
-        "value": 1735451000
+        "pct_change": 0.0,
+        "value": 1989939400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity Market ETF",
@@ -151,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 1460102500
+        "value": 1674213500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -159,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.31,
         "pct_change": 6.34,
-        "value": 1367885500
+        "value": 1568473700
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -167,7 +167,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.27,
         "pct_change": -0.25,
-        "value": 1224871000
+        "value": 1404487400
       }
     ],
     "mutualfund_holders": []

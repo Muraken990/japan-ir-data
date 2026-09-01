@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:01:10.174832",
+  "fetched_at": "2026-09-01T06:02:42.889376",
   "ticker": "4612",
   "ticker_full": "4612.T",
   "company_name": "NIPPON PAINT HOLDINGS CO LTD",
@@ -9,31 +9,37 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 2,
-    "hold": 8,
+    "hold": 7,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 11,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.36364
+    "total_analysts": 10,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 1210.0,
+    "current": 1204.5,
     "high": 1500.0,
     "low": 1080.0,
-    "mean": 1240.909,
-    "median": 1190.0
+    "mean": 1270.909,
+    "median": 1300.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 15.45,
+      "date": "2026-11-13",
+      "eps_estimate": 17.35,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 15.45,
+        "eps_actual": 23.12,
+        "surprise_pct": 49.62
+      },
       {
         "date": "2026-05-15",
         "eps_estimate": 21.61,
@@ -57,55 +63,49 @@
         "eps_estimate": 20.43,
         "eps_actual": 21.48,
         "surprise_pct": 5.14
-      },
-      {
-        "date": "2025-05-14",
-        "eps_estimate": 14.97,
-        "eps_actual": 15.75,
-        "surprise_pct": 5.24
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 59.1,
-    "institution_pct": 21.35,
+    "insider_pct": 58.99,
+    "institution_pct": 19.99,
     "major_holders": [
       {
         "label": "",
-        "value": 59.1
+        "value": 58.99
       },
       {
         "label": "",
-        "value": 21.35
+        "value": 19.99
       },
       {
         "label": "",
-        "value": 52.21
+        "value": 48.76
       },
       {
         "label": "",
-        "value": 244.0
+        "value": 250.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 8611,
-        "date_reported": "2026-03-31",
+        "shares": 8201,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 2.99,
-        "value": 10419310
+        "pct_change": -4.76,
+        "value": 9878104
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "FPA FUNDS TRUST-FPA Crescent Fund",
-        "shares": 15271100,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.64,
-        "pct_change": 19.42,
-        "value": 18478031000
+        "shares": 17432900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.74,
+        "pct_change": 14.16,
+        "value": 20997928050
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.58,
         "pct_change": -0.48,
-        "value": 16727169470
+        "value": 16651136881
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.39,
         "pct_change": 2.5,
-        "value": 11096887010
+        "value": 11046446614
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.29,
         "pct_change": 1.15,
-        "value": 8323590000
+        "value": 8285755500
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.17,
         "pct_change": 4.41,
-        "value": 4899411000
+        "value": 4877140950
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.15,
         "pct_change": 2.36,
-        "value": 4418935730
+        "value": 4398849658
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -153,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.14,
         "pct_change": -0.85,
-        "value": 3998687000
+        "value": 3980511150
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -161,15 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.13,
         "pct_change": 8.98,
-        "value": 3756203000
-      },
-      {
-        "holder": "Baillie Gifford Funds-Baillie Gifford International Alpha Fund",
-        "shares": 2846200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.12,
-        "pct_change": 41.59,
-        "value": 3443902000
+        "value": 3739129350
       },
       {
         "holder": "VANGUARD HORIZON FUNDS-Vanguard Global Equity Fund",
@@ -177,7 +169,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.1,
         "pct_change": -6.31,
-        "value": 2955546000
+        "value": 2942111700
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
+        "shares": 2204221,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.09,
+        "pct_change": 4.5,
+        "value": 2654984194
       }
     ]
   }

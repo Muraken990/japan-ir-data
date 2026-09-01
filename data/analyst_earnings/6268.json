@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:53:43.345671",
+  "fetched_at": "2026-09-01T05:56:13.581214",
   "ticker": "6268",
   "ticker_full": "6268.T",
   "company_name": "NABTESCO CORP",
@@ -10,24 +10,29 @@
     "strong_buy": 0,
     "buy": 5,
     "hold": 4,
-    "sell": 0,
-    "strong_sell": 1,
+    "sell": 1,
+    "strong_sell": 0,
     "total_analysts": 10,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.4
+    "recommendation_mean": 2.44444
   },
   "target_prices": {
     "has_data": true,
-    "current": 4693.0,
-    "high": 6300.0,
-    "low": 3200.0,
-    "mean": 5404.5454,
-    "median": 5700.0
+    "current": 4608.0,
+    "high": 6800.0,
+    "low": 3540.0,
+    "mean": 5429.0,
+    "median": 5500.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": 50.27,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.03,
-    "institution_pct": 46.12,
+    "institution_pct": 45.17,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 46.12
+        "value": 45.17
       },
       {
         "label": "",
-        "value": 50.15
+        "value": 49.12
       },
       {
         "label": "",
-        "value": 143.0
+        "value": 149.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.31,
         "pct_change": -1.13,
-        "value": 7251407722
+        "value": 7120069632
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -98,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.05,
         "pct_change": -25.89,
-        "value": 5808526100
+        "value": 5703321600
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,15 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.86,
         "pct_change": 1.4,
-        "value": 4763967546
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 822700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.7,
-        "pct_change": 0.0,
-        "value": 3860931100
+        "value": 4677682176
       },
       {
         "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
@@ -122,7 +119,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.69,
         "pct_change": 8.11,
-        "value": 3829018700
+        "value": 3759667200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -130,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.66,
         "pct_change": 0.0,
-        "value": 3639421500
+        "value": 3573504000
       },
       {
         "holder": "Principal Funds, Inc-Overseas Fund",
@@ -138,7 +135,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 2553264194
+        "value": 2507019264
+      },
+      {
+        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
+        "shares": 479100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.41,
+        "pct_change": 1.0,
+        "value": 2207692800
+      },
+      {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 458100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.39,
+        "pct_change": -44.32,
+        "value": 2110924800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -146,7 +159,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": -0.23,
-        "value": 2043332200
+        "value": 2006323200
       },
       {
         "holder": "Goldman Sachs Trust-Goldman Sachs International Equity Insights Fund",
@@ -154,15 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 1514900400
-      },
-      {
-        "holder": "Brinker Capital Destinations TRT-Destinations Intl Eqy. Fd.",
-        "shares": 299153,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.25,
-        "pct_change": -11.48,
-        "value": 1403925029
+        "value": 1487462400
       }
     ],
     "mutualfund_holders": []

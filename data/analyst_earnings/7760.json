@@ -1,23 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:26:18.767945",
+  "fetched_at": "2026-09-01T05:30:35.656718",
   "ticker": "7760",
   "ticker_full": "7760.T",
   "company_name": "IMV CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
+    "period": "1",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 0,
     "recommendation_key": "none",
-    "recommendation_mean": null,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": null,
+    "current": 2061.0,
     "high": null,
     "low": null,
     "mean": null,
@@ -27,10 +28,27 @@
     "has_data": false
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 49.42,
+    "institution_pct": 11.55,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 49.42
+      },
+      {
+        "label": "",
+        "value": 11.55
+      },
+      {
+        "label": "",
+        "value": 22.83
+      },
+      {
+        "label": "",
+        "value": 15.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

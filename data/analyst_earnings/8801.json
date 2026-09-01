@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:01:18.531692",
+  "fetched_at": "2026-09-01T06:02:53.658654",
   "ticker": "8801",
   "ticker_full": "8801.T",
   "company_name": "MITSUI FUDOSAN",
@@ -14,26 +14,32 @@
     "strong_sell": 0,
     "total_analysts": 11,
     "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.36364
+    "recommendation_mean": 1.27273
   },
   "target_prices": {
     "has_data": true,
-    "current": 1560.0,
-    "high": 2560.0,
-    "low": 1800.0,
-    "mean": 2114.5454,
+    "current": 1553.5,
+    "high": 2570.0,
+    "low": 1700.0,
+    "mean": 2092.7273,
     "median": 2050.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 31.71,
+      "date": "2026-11-06",
+      "eps_estimate": 18.73,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 31.71,
+        "eps_actual": 28.04,
+        "surprise_pct": -11.57
+      },
       {
         "date": "2026-06-23",
         "eps_estimate": 22.1,
@@ -57,27 +63,21 @@
         "eps_estimate": 21.77,
         "eps_actual": 44.81,
         "surprise_pct": 105.87
-      },
-      {
-        "date": "2025-05-09",
-        "eps_estimate": 43.65,
-        "eps_actual": 37.67,
-        "surprise_pct": -13.69
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.68,
-    "institution_pct": 51.72,
+    "insider_pct": 5.33,
+    "institution_pct": 51.92,
     "major_holders": [
       {
         "label": "",
-        "value": 5.68
+        "value": 5.33
       },
       {
         "label": "",
-        "value": 51.72
+        "value": 51.92
       },
       {
         "label": "",
@@ -85,17 +85,17 @@
       },
       {
         "label": "",
-        "value": 445.0
+        "value": 442.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 22509,
-        "date_reported": "2026-03-31",
+        "shares": 21441,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 2.91,
-        "value": 35114040
+        "pct_change": -4.74,
+        "value": 33308593
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.39,
         "pct_change": -1.2,
-        "value": 58879398240
+        "value": 58634067414
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.92,
         "pct_change": 1.19,
-        "value": 38949292200
+        "value": 38787003482
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -121,7 +121,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.68,
         "pct_change": 0.0,
-        "value": 28744716000
+        "value": 28624946350
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Overseas Stock Fd.",
@@ -129,7 +129,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.45,
         "pct_change": -4.25,
-        "value": 19280820000
+        "value": 19200483250
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -137,15 +137,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.41,
         "pct_change": 5.15,
-        "value": 17345482440
-      },
-      {
-        "holder": "Bernstein Fund Inc-International Strategic Equities Portfolio",
-        "shares": 10615100,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.39,
-        "pct_change": 1.58,
-        "value": 16559556000
+        "value": 17273209596
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -153,7 +145,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.39,
         "pct_change": -0.72,
-        "value": 16683108000
+        "value": 16613595050
+      },
+      {
+        "holder": "Bernstein Fund Inc-International Strategic Equities Portfolio",
+        "shares": 10615100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.39,
+        "pct_change": 0.0,
+        "value": 16490557850
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
@@ -161,7 +161,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.38,
         "pct_change": -10.8,
-        "value": 16192956000
+        "value": 16125485350
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Global ex-U.S. Real Estate Inde",
@@ -169,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 1.99,
-        "value": 15336470760
+        "value": 15272568798
       },
       {
         "holder": "-Price (T.Rowe) International Core Equity Trust",
@@ -177,7 +177,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.35,
         "pct_change": -0.14,
-        "value": 14942616000
+        "value": 14880355100
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:36.437789",
+  "fetched_at": "2026-09-01T06:01:40.488072",
   "ticker": "6383",
   "ticker_full": "6383.T",
   "company_name": "DAIFUKU CO LTD",
@@ -8,32 +8,44 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 9,
-    "hold": 4,
-    "sell": 0,
+    "buy": 10,
+    "hold": 2,
+    "sell": 1,
     "strong_sell": 0,
     "total_analysts": 15,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.6
+    "recommendation_mean": 1.64286
   },
   "target_prices": {
     "has_data": true,
-    "current": 6828.0,
-    "high": 7600.0,
-    "low": 5200.0,
-    "mean": 6956.0,
-    "median": 7000.0
+    "current": 5794.0,
+    "high": 9300.0,
+    "low": 5400.0,
+    "mean": 7576.4287,
+    "median": 7700.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": 53.0,
+      "date": "2026-11-10",
+      "eps_estimate": 61.44,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 58.13,
+        "eps_actual": 64.04,
+        "surprise_pct": 10.16
+      },
+      {
+        "date": "2026-05-13",
+        "eps_estimate": 53.0,
+        "eps_actual": 53.03,
+        "surprise_pct": 0.05
+      },
       {
         "date": "2026-02-11",
         "eps_estimate": 51.98,
@@ -51,133 +63,129 @@
         "eps_estimate": 42.63,
         "eps_actual": 56.46,
         "surprise_pct": 32.44
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 47.24,
-        "eps_actual": 45.86,
-        "surprise_pct": -2.92
-      },
-      {
-        "date": "2024-11-08",
-        "eps_estimate": 33.2,
-        "eps_actual": 45.42,
-        "surprise_pct": 36.81
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 6.69,
-    "institution_pct": 58.03,
+    "insider_pct": 6.47,
+    "institution_pct": 60.97,
     "major_holders": [
       {
         "label": "",
-        "value": 6.69
+        "value": 6.47
       },
       {
         "label": "",
-        "value": 58.03
+        "value": 60.97
       },
       {
         "label": "",
-        "value": 62.18
+        "value": 65.19
       },
       {
         "label": "",
-        "value": 364.0
+        "value": 388.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 1103,
-        "date_reported": "2025-12-31",
+        "holder": "Meyer Handelman Co",
+        "shares": 4886,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": -99.07,
-        "value": 7531284
+        "pct_change": 1.0,
+        "value": 28309484
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 1383,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 50.49,
+        "value": 8013102
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 5031814,
-        "date_reported": "2026-01-31",
+        "shares": 5013514,
+        "date_reported": "2026-04-30",
         "pct_held": 1.32,
-        "pct_change": 0.81,
-        "value": 34357225992
+        "pct_change": -0.36,
+        "value": 29048300116
       },
       {
         "holder": "HARDING LOEVNER Fd.S INC-Harding Loevner Intl Eqy. PORT.",
-        "shares": 4143500,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.09,
-        "pct_change": -9.87,
-        "value": 28291818000
+        "shares": 3973700,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.05,
+        "pct_change": -4.1,
+        "value": 23023617800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 3240463,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.85,
-        "pct_change": 1.98,
-        "value": 22125881364
+        "shares": 3322663,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.87,
+        "pct_change": 2.54,
+        "value": 19251509422
       },
       {
         "holder": "GLOBAL X FUNDS-Global X Robotics & Artificial Intelligence ETF",
-        "shares": 2779069,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.73,
-        "pct_change": -38.15,
-        "value": 18975483132
+        "shares": 2906306,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.77,
+        "pct_change": 1.58,
+        "value": 16839136964
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 2269800,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.6,
-        "pct_change": 0.91,
-        "value": 15498194400
+        "shares": 2303800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.61,
+        "pct_change": 0.0,
+        "value": 13348217200
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 1263300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.33,
-        "pct_change": -0.44,
-        "value": 8625812400
+        "shares": 1365900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.36,
+        "pct_change": 3.97,
+        "value": 7914024600
+      },
+      {
+        "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
+        "shares": 1210230,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.32,
+        "pct_change": 4.56,
+        "value": 7012072620
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1177169,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.31,
-        "pct_change": 1.21,
-        "value": 8037709932
+        "shares": 1206696,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.32,
+        "pct_change": -0.67,
+        "value": 6991596624
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 1127500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.3,
-        "pct_change": 0.0,
-        "value": 7698570000
+        "holder": "Fidelity Investment Trust-Fidelity Series Overseas Fund",
+        "shares": 1182500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.31,
+        "pct_change": -0.45,
+        "value": 6851405000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 1052100,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.28,
-        "pct_change": -3.95,
-        "value": 7183738800
-      },
-      {
-        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
-        "shares": 763796,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.2,
-        "pct_change": 2.18,
-        "value": 5215199088
+        "shares": 1145400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.3,
+        "pct_change": 8.87,
+        "value": 6636447600
       }
     ]
   }

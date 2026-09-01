@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:53:50.146708",
+  "fetched_at": "2026-09-01T05:56:21.316793",
   "ticker": "9065",
   "ticker_full": "9065.T",
   "company_name": "SANKYU INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 3,
     "buy": 2,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.83333
   },
   "target_prices": {
     "has_data": true,
-    "current": 9472.0,
+    "current": 8382.0,
     "high": 11000.0,
     "low": 9500.0,
     "mean": 10233.333,
@@ -26,8 +26,13 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2025-05-12",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 13.18,
-    "institution_pct": 41.45,
+    "institution_pct": 38.61,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 41.45
+        "value": 38.61
       },
       {
         "label": "",
-        "value": 47.74
+        "value": 44.47
       },
       {
         "label": "",
-        "value": 127.0
+        "value": 130.0
       }
     ],
     "institutional_holders": [],

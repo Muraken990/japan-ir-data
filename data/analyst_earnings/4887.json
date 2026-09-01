@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:50:25.649028",
+  "fetched_at": "2026-09-01T05:52:46.022091",
   "ticker": "4887",
   "ticker_full": "4887.T",
   "company_name": "SAWAI GROUP HOLDINGS CO LTD",
@@ -13,27 +13,33 @@
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 1650.5,
+    "current": 1605.5,
     "high": 3200.0,
-    "low": 1750.0,
-    "mean": 2294.4443,
-    "median": 2300.0
+    "low": 1600.0,
+    "mean": 2182.2222,
+    "median": 2100.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-10",
-      "eps_estimate": 83.57,
+      "date": "2026-11-13",
+      "eps_estimate": 35.1,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-10",
+        "eps_estimate": 44.16,
+        "eps_actual": 21.04,
+        "surprise_pct": -52.36
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 25.64,
@@ -57,31 +63,25 @@
         "eps_estimate": 83.57,
         "eps_actual": 42.36,
         "surprise_pct": -49.31
-      },
-      {
-        "date": "2025-05-14",
-        "eps_estimate": 1.28,
-        "eps_actual": -16.28,
-        "surprise_pct": -1375.98
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.55,
-    "institution_pct": 52.4,
+    "insider_pct": 7.54,
+    "institution_pct": 52.41,
     "major_holders": [
       {
         "label": "",
-        "value": 7.55
+        "value": 7.54
       },
       {
         "label": "",
-        "value": 52.4
+        "value": 52.41
       },
       {
         "label": "",
-        "value": 56.68
+        "value": 56.69
       },
       {
         "label": "",
@@ -95,15 +95,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 2.41,
         "pct_change": 0.0,
-        "value": 4595817250
+        "value": 4470514750
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
         "shares": 1590300,
         "date_reported": "2026-03-31",
-        "pct_held": 1.38,
+        "pct_held": 1.37,
         "pct_change": -6.61,
-        "value": 2624790150
+        "value": 2553226650
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,15 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.28,
         "pct_change": 0.0,
-        "value": 2444590210
-      },
-      {
-        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 998200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.86,
-        "pct_change": -0.05,
-        "value": 1647529100
+        "value": 2377939765
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -127,31 +119,23 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.85,
         "pct_change": -0.05,
-        "value": 1625087251
+        "value": 1580780116
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 768700,
         "date_reported": "2026-06-30",
-        "pct_held": 0.67,
+        "pct_held": 0.66,
         "pct_change": 0.0,
-        "value": 1268739350
+        "value": 1234147850
       },
       {
         "holder": "Advisors Series Trust-Pzena International Small Cap Value Fund",
         "shares": 500689,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.43,
-        "pct_change": 48.09,
-        "value": 826387194
-      },
-      {
-        "holder": "Matthews International Funds-MATTHEWS JAPAN FUND",
-        "shares": 464100,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 765997050
+        "value": 803856189
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -159,7 +143,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.38,
         "pct_change": -0.23,
-        "value": 720113150
+        "value": 700479650
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -167,7 +151,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 17.81,
-        "value": 695355650
+        "value": 676397150
+      },
+      {
+        "holder": "Matthews International Funds-Matthews Asia Dividend Fund",
+        "shares": 388800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.34,
+        "pct_change": 0.0,
+        "value": 624218400
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 301500,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.26,
+        "pct_change": 0.0,
+        "value": 484058250
       }
     ],
     "mutualfund_holders": []

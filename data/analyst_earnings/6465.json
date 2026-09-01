@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:55:53.915297",
+  "fetched_at": "2026-09-01T05:58:32.662383",
   "ticker": "6465",
   "ticker_full": "6465.T",
   "company_name": "HOSHIZAKI CORPORATION",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 5704.0,
-    "high": 7450.0,
+    "current": 5682.0,
+    "high": 7620.0,
     "low": 5800.0,
-    "mean": 6573.75,
-    "median": 6500.0
+    "mean": 6666.25,
+    "median": 6905.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 78.68,
+      "date": "2026-11-12",
+      "eps_estimate": 83.29,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 78.68,
+        "eps_actual": 79.65,
+        "surprise_pct": 1.23
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 84.41,
@@ -57,35 +63,29 @@
         "eps_estimate": 72.59,
         "eps_actual": 78.53,
         "surprise_pct": 8.18
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": 85.43,
-        "eps_actual": 76.59,
-        "surprise_pct": -10.35
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 25.54,
-    "institution_pct": 33.94,
+    "insider_pct": 24.26,
+    "institution_pct": 34.99,
     "major_holders": [
       {
         "label": "",
-        "value": 25.54
+        "value": 24.26
       },
       {
         "label": "",
-        "value": 33.94
+        "value": 34.99
       },
       {
         "label": "",
-        "value": 45.58
+        "value": 46.2
       },
       {
         "label": "",
-        "value": 164.0
+        "value": 168.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2025-06-30",
         "pct_held": 0.0,
         "pct_change": 1.0,
-        "value": 17112
+        "value": 17046
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 4.22,
         "pct_change": 0.0,
-        "value": 34838891200
+        "value": 34704519600
       },
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 2.39,
         "pct_change": 0.0,
-        "value": 19740403200
+        "value": 19664265600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.07,
         "pct_change": 0.69,
-        "value": 8847674040
+        "value": 8813549070
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
@@ -129,15 +129,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.97,
         "pct_change": 4.71,
-        "value": 7990277280
+        "value": 7959459240
       },
       {
         "holder": "FPA FUNDS TRUST-FPA Crescent Fund",
-        "shares": 1030420,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.71,
-        "pct_change": 12.12,
-        "value": 5877515680
+        "shares": 1176320,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.81,
+        "pct_change": 14.16,
+        "value": 6683850240
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.71,
         "pct_change": 2.36,
-        "value": 5866706600
+        "value": 5844079050
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -153,7 +153,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.55,
         "pct_change": 1.95,
-        "value": 4562629600
+        "value": 4545031800
+      },
+      {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 720800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.5,
+        "pct_change": 1.0,
+        "value": 4095585600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -161,23 +169,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": 1.2,
-        "value": 2507478400
+        "value": 2497807200
       },
       {
         "holder": "Brown Advisory Funds-Brown Advisory - WMC Japan Equity Fund",
-        "shares": 358635,
-        "date_reported": "2026-06-30",
+        "shares": 356235,
+        "date_reported": "2026-07-31",
         "pct_held": 0.25,
-        "pct_change": 30.75,
-        "value": 2045654040
-      },
-      {
-        "holder": "-First Eagle Overseas Equity ETF",
-        "shares": 259500,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.18,
-        "pct_change": 53.37,
-        "value": 1480188000
+        "pct_change": -0.67,
+        "value": 2024127270
       }
     ]
   }

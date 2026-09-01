@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:46:31.157183",
+  "fetched_at": "2026-09-01T05:49:27.250675",
   "ticker": "6407",
   "ticker_full": "6407.T",
   "company_name": "CKD CORP",
@@ -14,26 +14,32 @@
     "strong_sell": 1,
     "total_analysts": 11,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_mean": 1.88889
   },
   "target_prices": {
     "has_data": true,
-    "current": 6000.0,
+    "current": 5330.0,
     "high": 10000.0,
     "low": 5500.0,
-    "mean": 7568.0,
-    "median": 8035.0
+    "mean": 7704.4443,
+    "median": 8170.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-10",
-      "eps_estimate": 64.97,
+      "date": "2026-11-13",
+      "eps_estimate": 74.07,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-10",
+        "eps_estimate": 66.01,
+        "eps_actual": 85.09,
+        "surprise_pct": 28.91
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 49.93,
@@ -57,19 +63,13 @@
         "eps_estimate": 41.82,
         "eps_actual": 37.09,
         "surprise_pct": -11.31
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 51.61,
-        "eps_actual": 60.57,
-        "surprise_pct": 17.36
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.87,
-    "institution_pct": 46.68,
+    "institution_pct": 45.27,
     "major_holders": [
       {
         "label": "",
@@ -77,18 +77,99 @@
       },
       {
         "label": "",
-        "value": 46.68
+        "value": 45.27
       },
       {
         "label": "",
-        "value": 53.58
+        "value": 51.96
       },
       {
         "label": "",
-        "value": 98.0
+        "value": 97.0
       }
     ],
-    "institutional_holders": [],
+    "institutional_holders": [
+      {
+        "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
+        "shares": 832916,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.23,
+        "pct_change": 1.35,
+        "value": 4439442280
+      },
+      {
+        "holder": "Artisan Partners Funds Inc.-Artisan International Small-Mid Fund",
+        "shares": 717764,
+        "date_reported": "2026-03-31",
+        "pct_held": 1.06,
+        "pct_change": -20.09,
+        "value": 3825682120
+      },
+      {
+        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
+        "shares": 597000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.88,
+        "pct_change": 1.0,
+        "value": 3182010000
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 554452,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.82,
+        "pct_change": 3.16,
+        "value": 2955229160
+      },
+      {
+        "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
+        "shares": 516000,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.76,
+        "pct_change": -42.11,
+        "value": 2750280000
+      },
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 477000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.7,
+        "pct_change": -0.44,
+        "value": 2542410000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
+        "shares": 469200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.69,
+        "pct_change": 0.0,
+        "value": 2500836000
+      },
+      {
+        "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
+        "shares": 381300,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.56,
+        "pct_change": -0.99,
+        "value": 2032329000
+      },
+      {
+        "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
+        "shares": 214800,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.32,
+        "pct_change": 2.78,
+        "value": 1144884000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 209100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.31,
+        "pct_change": -0.19,
+        "value": 1114503000
+      }
+    ],
     "mutualfund_holders": []
   }
 }

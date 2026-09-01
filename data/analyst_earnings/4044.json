@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:49:41.122212",
+  "fetched_at": "2026-09-01T05:41:27.428523",
   "ticker": "4044",
   "ticker_full": "4044.T",
   "company_name": "CENTRAL GLASS CO",
@@ -18,36 +18,50 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 4455.0,
+    "current": 4605.0,
     "high": 4300.0,
     "low": 3920.0,
     "mean": 4110.0,
     "median": 4110.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-11-12",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2010-05-14",
+        "eps_estimate": -3.5,
+        "eps_actual": -9.15,
+        "surprise_pct": -161.43
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.38,
-    "institution_pct": 33.58,
+    "insider_pct": 5.51,
+    "institution_pct": 34.01,
     "major_holders": [
       {
         "label": "",
-        "value": 5.38
+        "value": 5.51
       },
       {
         "label": "",
-        "value": 33.58
+        "value": 34.01
       },
       {
         "label": "",
-        "value": 35.49
+        "value": 35.99
       },
       {
         "label": "",
-        "value": 75.0
+        "value": 77.0
       }
     ],
     "institutional_holders": [
@@ -57,23 +71,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 2.07,
         "pct_change": 0.0,
-        "value": 2401245000
+        "value": 2482095000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 444200,
-        "date_reported": "2026-05-31",
-        "pct_held": 1.71,
-        "pct_change": 5.99,
-        "value": 1978911000
+        "shares": 468800,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.8,
+        "pct_change": 7.28,
+        "value": 2158824000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 320788,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 1.23,
         "pct_change": 0.0,
-        "value": 1429110540
+        "value": 1477228740
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -81,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.86,
         "pct_change": -0.31,
-        "value": 994311450
+        "value": 1027789950
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -89,31 +103,31 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.82,
         "pct_change": 3.56,
-        "value": 945351000
+        "value": 977181000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
         "shares": 137500,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.53,
-        "pct_change": 1.55,
-        "value": 612562500
+        "pct_change": 0.0,
+        "value": 633187500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 129400,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-06-30",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 576477000
+        "value": 595887000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 124100,
-        "date_reported": "2026-01-31",
+        "date_reported": "2026-04-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 552865500
+        "value": 571480500
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -121,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.43,
         "pct_change": 0.0,
-        "value": 499405500
+        "value": 516220500
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -129,7 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.35,
         "pct_change": -4.12,
-        "value": 404068500
+        "value": 417673500
       }
     ],
     "mutualfund_holders": []

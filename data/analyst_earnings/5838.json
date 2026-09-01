@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:57:50.411966",
+  "fetched_at": "2026-09-01T06:00:36.372804",
   "ticker": "5838",
   "ticker_full": "5838.T",
   "company_name": "RAKUTEN BANK LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
-    "strong_buy": 2,
+    "period": "2",
+    "strong_buy": 1,
     "buy": 2,
     "hold": 3,
     "sell": 0,
     "strong_sell": 1,
-    "total_analysts": 8,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.125
+    "total_analysts": 7,
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5473.0,
+    "current": 6447.0,
     "high": 9500.0,
     "low": 5390.0,
-    "mean": 7021.25,
-    "median": 6640.0
+    "mean": 6738.5713,
+    "median": 6330.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 89.0,
+      "date": "2026-11-11",
+      "eps_estimate": 95.44,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 115.42,
+        "eps_actual": 120.14,
+        "surprise_pct": 4.09
+      },
       {
         "date": "2026-05-12",
         "eps_estimate": 100.58,
@@ -57,35 +63,29 @@
         "eps_estimate": 89.0,
         "eps_actual": 96.48,
         "surprise_pct": 8.4
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": 76.86,
-        "eps_actual": 89.4,
-        "surprise_pct": 16.32
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 49.36,
-    "institution_pct": 25.76,
+    "insider_pct": 49.35,
+    "institution_pct": 25.56,
     "major_holders": [
       {
         "label": "",
-        "value": 49.36
+        "value": 49.35
       },
       {
         "label": "",
-        "value": 25.76
+        "value": 25.56
       },
       {
         "label": "",
-        "value": 50.87
+        "value": 50.47
       },
       {
         "label": "",
-        "value": 151.0
+        "value": 149.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.74,
         "pct_change": 0.29,
-        "value": 7092460700
+        "value": 8354667300
       },
       {
         "holder": "-Price (T.Rowe) International Growth Equity Trust",
@@ -103,15 +103,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.72,
         "pct_change": 28.24,
-        "value": 6903642200
-      },
-      {
-        "holder": "Perpetual Americas Funds Trust-JOHCM International Select Fund",
-        "shares": 1122010,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.64,
-        "pct_change": -8.05,
-        "value": 6140760730
+        "value": 8132245800
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
@@ -119,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.58,
         "pct_change": -0.17,
-        "value": 5497628500
+        "value": 6476011500
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -127,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.49,
         "pct_change": 2.3,
-        "value": 4697475900
+        "value": 5533460100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -135,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 3732038700
+        "value": 4396209300
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -143,7 +135,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.2,
         "pct_change": -0.23,
-        "value": 1930874400
+        "value": 2274501600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -151,7 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.12,
         "pct_change": 3.26,
-        "value": 1111019000
+        "value": 1308741000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -159,7 +151,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.12,
         "pct_change": 2.9,
-        "value": 1114456044
+        "value": 1312789716
       },
       {
         "holder": "-Price (T.Rowe) Non-U.S. Equities Trust",
@@ -167,7 +159,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.1,
         "pct_change": 38.77,
-        "value": 940261400
+        "value": 1107594600
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 165600,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.09,
+        "pct_change": 9.45,
+        "value": 1067623200
       }
     ],
     "mutualfund_holders": []

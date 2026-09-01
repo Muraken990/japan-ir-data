@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:22:08.915117",
+  "fetched_at": "2026-09-01T05:26:23.128761",
   "ticker": "7717",
   "ticker_full": "7717.T",
   "company_name": "V TECHNOLOGY",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 5460.0,
+    "current": 5650.0,
     "high": 11000.0,
     "low": 6650.0,
     "mean": 8825.0,
@@ -29,6 +29,12 @@
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": -31.0,
+        "eps_actual": 34.79,
+        "surprise_pct": 212.23
+      },
       {
         "date": "2026-02-10",
         "eps_estimate": 51.7,
@@ -52,19 +58,13 @@
         "eps_estimate": 101.0,
         "eps_actual": 78.44,
         "surprise_pct": -22.34
-      },
-      {
-        "date": "2025-02-10",
-        "eps_estimate": 20.7,
-        "eps_actual": 28.44,
-        "surprise_pct": 37.39
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 12.76,
-    "institution_pct": 14.1,
+    "institution_pct": 13.51,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 14.1
+        "value": 13.51
       },
       {
         "label": "",
-        "value": 16.16
+        "value": 15.48
       },
       {
         "label": "",
-        "value": 43.0
+        "value": 42.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +90,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.24,
         "pct_change": 0.0,
-        "value": 679611660
+        "value": 703261150
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -98,7 +98,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.75,
         "pct_change": 0.0,
-        "value": 414157380
+        "value": 428569450
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -106,7 +106,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.38,
         "pct_change": -2.83,
-        "value": 206388000
+        "value": 213570000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -114,7 +114,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": 7.1,
-        "value": 181272000
+        "value": 187580000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -122,7 +122,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 40.59,
-        "value": 155064000
+        "value": 160460000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -130,7 +130,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 20.47,
-        "value": 112476000
+        "value": 116390000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -138,7 +138,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.16,
         "pct_change": 1.0,
-        "value": 88593960
+        "value": 91676900
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Core Equity 2 ETF",
@@ -146,7 +146,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.11,
         "pct_change": 7.0,
-        "value": 58422000
+        "value": 60455000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard Pacific Stock Index Fd.",
@@ -154,7 +154,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 51640680
+        "value": 53437700
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional World ex U.S. Core Equity 2 ETF",
@@ -162,7 +162,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.08,
         "pct_change": 0.0,
-        "value": 46410000
+        "value": 48025000
       }
     ],
     "mutualfund_holders": []

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:43.599101",
+  "fetched_at": "2026-09-01T06:01:48.792879",
   "ticker": "1801",
   "ticker_full": "1801.T",
   "company_name": "TAISEI CORP",
@@ -9,31 +9,43 @@
     "period": "3",
     "strong_buy": 2,
     "buy": 4,
-    "hold": 1,
+    "hold": 0,
     "sell": 0,
-    "strong_sell": 0,
+    "strong_sell": 1,
     "total_analysts": 7,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.57143
+    "recommendation_mean": 1.71429
   },
   "target_prices": {
     "has_data": true,
-    "current": 16830.0,
-    "high": 22600.0,
-    "low": 13000.0,
-    "mean": 18871.428,
-    "median": 20700.0
+    "current": 12920.0,
+    "high": 22100.0,
+    "low": 10600.0,
+    "mean": 16414.285,
+    "median": 17500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-05-14",
-      "eps_estimate": 139.12,
+      "date": "2026-11-10",
+      "eps_estimate": 93.9,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 170.83,
+        "eps_actual": 189.62,
+        "surprise_pct": 11.0
+      },
+      {
+        "date": "2026-05-14",
+        "eps_estimate": 331.26,
+        "eps_actual": 410.15,
+        "surprise_pct": 23.82
+      },
       {
         "date": "2026-02-05",
         "eps_estimate": 218.41,
@@ -51,41 +63,29 @@
         "eps_estimate": 96.2,
         "eps_actual": 173.42,
         "surprise_pct": 80.27
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 139.12,
-        "eps_actual": 225.61,
-        "surprise_pct": 62.18
-      },
-      {
-        "date": "2025-02-06",
-        "eps_estimate": 88.65,
-        "eps_actual": 213.18,
-        "surprise_pct": 140.47
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 11.15,
-    "institution_pct": 47.43,
+    "insider_pct": 9.96,
+    "institution_pct": 53.7,
     "major_holders": [
       {
         "label": "",
-        "value": 11.15
+        "value": 9.96
       },
       {
         "label": "",
-        "value": 47.43
+        "value": 53.7
       },
       {
         "label": "",
-        "value": 53.39
+        "value": 59.65
       },
       {
         "label": "",
-        "value": 280.0
+        "value": 311.0
       }
     ],
     "institutional_holders": [],

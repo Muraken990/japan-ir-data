@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:57:56.849301",
+  "fetched_at": "2026-09-01T06:00:44.540285",
   "ticker": "5831",
   "ticker_full": "5831.T",
   "company_name": "SHIZUOKA FINANCIAL GROUP INC.",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 7,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.85714
   },
   "target_prices": {
     "has_data": true,
-    "current": 3180.0,
-    "high": 3750.0,
+    "current": 3676.0,
+    "high": 4270.0,
     "low": 2600.0,
-    "mean": 3402.8572,
+    "mean": 3570.0,
     "median": 3500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 38.86,
+      "date": "2026-11-05",
+      "eps_estimate": 43.47,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 43.1,
+        "eps_actual": 61.69,
+        "surprise_pct": 43.13
+      },
       {
         "date": "2026-05-11",
         "eps_estimate": 8.53,
@@ -57,35 +63,29 @@
         "eps_estimate": 38.86,
         "eps_actual": 41.66,
         "surprise_pct": 7.21
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 32.94,
-        "eps_actual": 40.69,
-        "surprise_pct": 23.53
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.92,
-    "institution_pct": 41.33,
+    "insider_pct": 7.6,
+    "institution_pct": 40.97,
     "major_holders": [
       {
         "label": "",
-        "value": 7.92
+        "value": 7.6
       },
       {
         "label": "",
-        "value": 41.33
+        "value": 40.97
       },
       {
         "label": "",
-        "value": 44.88
+        "value": 44.34
       },
       {
         "label": "",
-        "value": 170.0
+        "value": 171.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2023-03-31",
         "pct_held": 0.03,
         "pct_change": -0.12,
-        "value": 508800000
+        "value": 588160000
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.15,
         "pct_change": -0.97,
-        "value": 21166016400
+        "value": 24467382480
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,15 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.76,
         "pct_change": 1.25,
-        "value": 13933688340
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 3071700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.53,
-        "pct_change": 0.0,
-        "value": 9768006000
+        "value": 16106993188
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +121,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.53,
         "pct_change": 0.0,
-        "value": 9808392000
+        "value": 11338254400
+      },
+      {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 2190000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.38,
+        "pct_change": -28.7,
+        "value": 8050440000
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
@@ -137,7 +137,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.29,
         "pct_change": 10.41,
-        "value": 5347806000
+        "value": 6181929200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.29,
         "pct_change": -0.23,
-        "value": 5295654000
+        "value": 6121642800
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -153,7 +153,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 4.05,
-        "value": 3356579040
+        "value": 3880120928
+      },
+      {
+        "holder": "AB Active ETFs, Inc.-AB International Low Volatility Equity ETF",
+        "shares": 1035600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.18,
+        "pct_change": 10.66,
+        "value": 3806865600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -161,15 +169,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.17,
         "pct_change": 2.91,
-        "value": 3154582260
-      },
-      {
-        "holder": "AB Active ETFs, Inc.-AB International Low Volatility Equity ETF",
-        "shares": 935800,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.16,
-        "pct_change": 45.83,
-        "value": 2975844000
+        "value": 3646617732
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -177,7 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.14,
         "pct_change": 0.0,
-        "value": 2619143400
+        "value": 3027663880
       }
     ]
   }

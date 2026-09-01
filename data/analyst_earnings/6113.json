@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:54:55.462790",
+  "fetched_at": "2026-09-01T05:57:30.700024",
   "ticker": "6113",
   "ticker_full": "6113.T",
   "company_name": "AMADA CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 1,
     "buy": 4,
     "hold": 3,
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2787.0,
+    "current": 2591.0,
     "high": 3900.0,
     "low": 2500.0,
-    "mean": 3164.2856,
+    "mean": 3198.5715,
     "median": 3300.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 17.69,
+      "date": "2026-11-12",
+      "eps_estimate": 29.22,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 17.73,
+        "eps_actual": 17.63,
+        "surprise_pct": -0.55
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 57.12,
@@ -57,45 +63,39 @@
         "eps_estimate": 17.69,
         "eps_actual": 8.47,
         "surprise_pct": -52.13
-      },
-      {
-        "date": "2025-05-15",
-        "eps_estimate": 26.23,
-        "eps_actual": 37.04,
-        "surprise_pct": 41.23
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 5.47,
-    "institution_pct": 54.82,
+    "insider_pct": 3.13,
+    "institution_pct": 53.74,
     "major_holders": [
       {
         "label": "",
-        "value": 5.47
+        "value": 3.13
       },
       {
         "label": "",
-        "value": 54.82
+        "value": 53.74
       },
       {
         "label": "",
-        "value": 57.99
+        "value": 55.48
       },
       {
         "label": "",
-        "value": 192.0
+        "value": 195.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 717,
-        "date_reported": "2026-03-31",
+        "shares": 1269,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 74.45,
-        "value": 1998279
+        "pct_change": 76.99,
+        "value": 3287979
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.39,
         "pct_change": -2.31,
-        "value": 12276985830
+        "value": 11413588190
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.91,
         "pct_change": 1.27,
-        "value": 8054310159
+        "value": 7487878587
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -121,7 +121,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.72,
         "pct_change": 0.0,
-        "value": 6358540500
+        "value": 5911366500
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -129,7 +129,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.57,
         "pct_change": -29.03,
-        "value": 5010970260
+        "value": 4658566180
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -137,7 +137,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.43,
         "pct_change": 5.99,
-        "value": 3839070204
+        "value": 3569081772
+      },
+      {
+        "holder": "SmallCap World Fund Inc",
+        "shares": 1355800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.43,
+        "pct_change": 1.0,
+        "value": 3512877800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -145,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.39,
         "pct_change": -0.23,
-        "value": 3429682200
+        "value": 3188484600
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -153,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 2886217200
+        "value": 2683239600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -161,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": 0.0,
-        "value": 2885381100
+        "value": 2682462300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -169,15 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.22,
         "pct_change": 0.71,
-        "value": 1905151395
-      },
-      {
-        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
-        "shares": 678009,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.21,
-        "pct_change": 17.21,
-        "value": 1889611083
+        "value": 1771168735
       }
     ]
   }

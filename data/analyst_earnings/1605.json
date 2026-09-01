@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:01:08.298750",
+  "fetched_at": "2026-09-01T06:02:40.563719",
   "ticker": "1605",
   "ticker_full": "1605.T",
   "company_name": "INPEX CORPORATION",
@@ -10,30 +10,36 @@
     "strong_buy": 2,
     "buy": 3,
     "hold": 5,
-    "sell": 1,
-    "strong_sell": 1,
+    "sell": 0,
+    "strong_sell": 2,
     "total_analysts": 12,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.2
   },
   "target_prices": {
     "has_data": true,
-    "current": 3627.0,
+    "current": 4094.0,
     "high": 4950.0,
-    "low": 2880.0,
-    "mean": 4170.909,
-    "median": 4200.0
+    "low": 3220.0,
+    "mean": 4300.0,
+    "median": 4410.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 125.05,
+      "date": "2026-11-12",
+      "eps_estimate": 93.5,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 125.05,
+        "eps_actual": 132.25,
+        "surprise_pct": 5.76
+      },
       {
         "date": "2026-05-12",
         "eps_estimate": 91.6,
@@ -57,53 +63,47 @@
         "eps_estimate": 73.1,
         "eps_actual": 81.19,
         "surprise_pct": 11.07
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 76.75,
-        "eps_actual": 105.46,
-        "surprise_pct": 37.41
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 27.62,
-    "institution_pct": 34.63,
+    "insider_pct": 25.97,
+    "institution_pct": 35.74,
     "major_holders": [
       {
         "label": "",
-        "value": 27.62
+        "value": 25.97
       },
       {
         "label": "",
-        "value": 34.63
+        "value": 35.74
       },
       {
         "label": "",
-        "value": 47.84
+        "value": 48.28
       },
       {
         "label": "",
-        "value": 351.0
+        "value": 365.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 1247420,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.1,
-        "pct_change": 9.03,
-        "value": 4524392340
+        "shares": 963426,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.08,
+        "pct_change": -22.77,
+        "value": 3944266044
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
         "shares": 6600,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 23938200
+        "value": 27020400
       }
     ],
     "mutualfund_holders": [
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.0,
         "pct_change": -3.0,
-        "value": 45749142738
+        "value": 51639644436
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.66,
         "pct_change": -0.67,
-        "value": 30272621301
+        "value": 34170419522
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.51,
         "pct_change": 0.42,
-        "value": 23346636300
+        "value": 26352668600
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": 0.39,
-        "value": 17045159040
+        "value": 19239834880
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Value Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": -7.77,
-        "value": 14375251800
+        "value": 16226159600
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -153,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": 5.92,
-        "value": 13793481000
+        "value": 15569482000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -161,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 0.67,
-        "value": 13451454900
+        "value": 15183417800
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -169,7 +169,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 12543917841
+        "value": 14159029402
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -177,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.27,
         "pct_change": 2.35,
-        "value": 12310629201
+        "value": 13895703322
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -185,7 +185,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": -0.77,
-        "value": 11061055161
+        "value": 12485238442
       }
     ]
   }

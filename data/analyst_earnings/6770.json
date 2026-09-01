@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:52:49.142620",
+  "fetched_at": "2026-09-01T05:55:17.156465",
   "ticker": "6770",
   "ticker_full": "6770.T",
   "company_name": "ALPS ALPINE CO LTD",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 2,
     "total_analysts": 14,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.78571
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2214.0,
+    "current": 2329.0,
     "high": 3000.0,
     "low": 1350.0,
     "mean": 2297.1428,
@@ -26,8 +26,13 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 34.12,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -63,24 +68,24 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 10.65,
-    "institution_pct": 49.16,
+    "insider_pct": 10.21,
+    "institution_pct": 52.38,
     "major_holders": [
       {
         "label": "",
-        "value": 10.65
+        "value": 10.21
       },
       {
         "label": "",
-        "value": 49.16
+        "value": 52.38
       },
       {
         "label": "",
-        "value": 55.01
+        "value": 58.34
       },
       {
         "label": "",
-        "value": 153.0
+        "value": 162.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 2.42,
         "pct_change": 2.62,
-        "value": 11143504800
+        "value": 11722322800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -98,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.42,
         "pct_change": 0.0,
-        "value": 6521292720
+        "value": 6860022920
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -106,7 +111,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.21,
         "pct_change": 6.9,
-        "value": 5581305810
+        "value": 5871211035
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -114,7 +119,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.93,
         "pct_change": -25.64,
-        "value": 4290953400
+        "value": 4513834900
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -122,7 +127,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 13.43,
-        "value": 3704989518
+        "value": 3897434773
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -130,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.6,
         "pct_change": 1.23,
-        "value": 2751116400
+        "value": 2894015400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -138,7 +143,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 2721395664
+        "value": 2862750904
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -146,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 2191510188
+        "value": 2305342018
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -154,15 +159,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": -0.25,
-        "value": 1425816000
+        "value": 1499876000
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 630800,
-        "date_reported": "2026-06-30",
+        "shares": 634000,
+        "date_reported": "2026-07-31",
         "pct_held": 0.3,
-        "pct_change": 69.25,
-        "value": 1396591200
+        "pct_change": 0.51,
+        "value": 1476586000
       }
     ],
     "mutualfund_holders": []

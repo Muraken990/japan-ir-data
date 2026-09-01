@@ -1,37 +1,70 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T05:26:26.919358",
+  "fetched_at": "2026-09-01T05:22:08.504200",
   "ticker": "6779",
   "ticker_full": "6779.T",
   "company_name": "NIHON DEMPA KOGYO",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 0,
     "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3790.0,
+    "current": 2770.0,
     "high": 4900.0,
-    "low": 1150.0,
-    "mean": 3025.0,
-    "median": 3025.0
+    "low": 4100.0,
+    "mean": 4500.0,
+    "median": 4500.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": null,
+    "future_count": 0,
+    "past_earnings": [
+      {
+        "date": "2017-02-05",
+        "eps_estimate": 13.8,
+        "eps_actual": 1.59,
+        "surprise_pct": -88.48
+      },
+      {
+        "date": "2016-08-04",
+        "eps_estimate": -14.3,
+        "eps_actual": -0.94,
+        "surprise_pct": 93.43
+      },
+      {
+        "date": "2015-05-10",
+        "eps_estimate": 13.5,
+        "eps_actual": -46.08,
+        "surprise_pct": -441.33
+      },
+      {
+        "date": "2015-02-05",
+        "eps_estimate": 29.0,
+        "eps_actual": 15.24,
+        "surprise_pct": -47.45
+      },
+      {
+        "date": "2014-11-06",
+        "eps_estimate": 20.9,
+        "eps_actual": 21.62,
+        "surprise_pct": 3.44
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 4.25,
-    "institution_pct": 39.03,
+    "institution_pct": 39.97,
     "major_holders": [
       {
         "label": "",
@@ -39,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 39.03
+        "value": 39.97
       },
       {
         "label": "",
-        "value": 40.76
+        "value": 41.74
       },
       {
         "label": "",
-        "value": 34.0
+        "value": 33.0
       }
     ],
     "institutional_holders": [],

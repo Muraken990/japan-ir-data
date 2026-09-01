@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:02:16.329204",
+  "fetched_at": "2026-09-01T06:03:58.325397",
   "ticker": "8001",
   "ticker_full": "8001.T",
   "company_name": "ITOCHU CORP",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
+    "strong_buy": 3,
     "buy": 7,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 13,
     "recommendation_key": "buy",
-    "recommendation_mean": 1.69231
+    "recommendation_mean": 1.63636
   },
   "target_prices": {
     "has_data": true,
-    "current": 2014.0,
+    "current": 2167.5,
     "high": 2800.0,
-    "low": 2060.0,
-    "mean": 2396.1538,
+    "low": 2100.0,
+    "mean": 2410.9092,
     "median": 2400.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-03",
-      "eps_estimate": 43.07,
+      "date": "2026-11-04",
+      "eps_estimate": 40.69,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-02",
+        "eps_estimate": 43.07,
+        "eps_actual": 42.02,
+        "surprise_pct": -2.43
+      },
       {
         "date": "2026-05-01",
         "eps_estimate": 29.44,
@@ -57,19 +63,13 @@
         "eps_estimate": 44.16,
         "eps_actual": 40.1,
         "surprise_pct": -9.2
-      },
-      {
-        "date": "2025-05-02",
-        "eps_estimate": 29.12,
-        "eps_actual": 28.76,
-        "surprise_pct": -1.25
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 9.47,
-    "institution_pct": 43.14,
+    "institution_pct": 43.06,
     "major_holders": [
       {
         "label": "",
@@ -77,41 +77,41 @@
       },
       {
         "label": "",
-        "value": 43.14
+        "value": 43.06
       },
       {
         "label": "",
-        "value": 47.65
+        "value": 47.57
       },
       {
         "label": "",
-        "value": 464.0
+        "value": 471.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Aristotle Capital Management, LLC",
-        "shares": 815500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.01,
-        "pct_change": -18.33,
-        "value": 1642417000
-      },
-      {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 56599,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 2.92,
-        "value": 113990386
+        "shares": 1387200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.02,
+        "pct_change": 70.1,
+        "value": 3006756000
       },
       {
         "holder": "Paradigm Asset Management Company, LLC",
-        "shares": 12000,
-        "date_reported": "2026-03-31",
+        "shares": 13000,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 0.0,
-        "value": 24168000
+        "pct_change": 8.33,
+        "value": 28177500
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 53908,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -4.75,
+        "value": 116845590
       }
     ],
     "mutualfund_holders": [
@@ -121,7 +121,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.16,
         "pct_change": -1.16,
-        "value": 185188790360
+        "value": 199303228950
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -129,7 +129,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.77,
         "pct_change": 1.12,
-        "value": 122459447330
+        "value": 131792875912
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.52,
         "pct_change": 0.0,
-        "value": 83062193600
+        "value": 89392902000
       },
       {
         "holder": "Income Fund of America",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.38,
         "pct_change": 0.0,
-        "value": 60420000000
+        "value": 65025000000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -153,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": -0.89,
-        "value": 48332173400
+        "value": 52015881750
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -161,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 8.86,
-        "value": 45107558000
+        "value": 48545497500
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -169,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.27,
         "pct_change": -4.47,
-        "value": 43013926454
+        "value": 46292296717
       },
       {
         "holder": "Capital Income Builder",
@@ -177,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.26,
         "pct_change": -7.09,
-        "value": 42003379800
+        "value": 45204729750
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -185,7 +185,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.25,
         "pct_change": -0.5,
-        "value": 39690300800
+        "value": 42715356000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity International Discovery Fund",
@@ -193,7 +193,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": 0.0,
-        "value": 37716449890
+        "value": 40591065112
       }
     ]
   }

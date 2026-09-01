@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:56:55.534643",
+  "fetched_at": "2026-09-01T05:59:38.757406",
   "ticker": "6326",
   "ticker_full": "6326.T",
   "company_name": "KUBOTA CORP",
@@ -9,31 +9,37 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 5,
-    "hold": 4,
+    "hold": 5,
     "sell": 0,
-    "strong_sell": 1,
+    "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2745.5,
-    "high": 3740.0,
+    "current": 2987.5,
+    "high": 4040.0,
     "low": 2250.0,
-    "mean": 3120.9092,
-    "median": 3100.0
+    "mean": 3222.0,
+    "median": 3185.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-04",
-      "eps_estimate": 57.15,
+      "date": "2026-11-06",
+      "eps_estimate": 63.16,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-04",
+        "eps_estimate": 56.89,
+        "eps_actual": 88.51,
+        "surprise_pct": 55.58
+      },
       {
         "date": "2026-05-08",
         "eps_estimate": 48.43,
@@ -57,45 +63,39 @@
         "eps_estimate": 42.84,
         "eps_actual": 44.63,
         "surprise_pct": 4.18
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 62.73,
-        "eps_actual": 35.97,
-        "surprise_pct": -42.66
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 2.58,
-    "institution_pct": 68.86,
+    "insider_pct": 1.14,
+    "institution_pct": 67.4,
     "major_holders": [
       {
         "label": "",
-        "value": 2.58
+        "value": 1.14
       },
       {
         "label": "",
-        "value": 68.86
+        "value": 67.4
       },
       {
         "label": "",
-        "value": 70.68
+        "value": 68.17
       },
       {
         "label": "",
-        "value": 378.0
+        "value": 387.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 18912,
-        "date_reported": "2026-03-31",
+        "shares": 7810,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 58.74,
-        "value": 51922896
+        "pct_change": -58.7,
+        "value": 23332375
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.22,
         "pct_change": -0.16,
-        "value": 38062110211
+        "value": 41417065837
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 2.37,
-        "value": 25151937325
+        "value": 27368935625
       },
       {
         "holder": "HARTFORD MUTUAL FUNDS INC/CT-The Hartford International Value Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.62,
         "pct_change": 10.65,
-        "value": 19348815157
+        "value": 21054301687
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.62,
         "pct_change": 1.65,
-        "value": 19326123600
+        "value": 21029610000
       },
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
@@ -137,7 +137,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.58,
         "pct_change": -12.55,
-        "value": 18181887056
+        "value": 19784515600
+      },
+      {
+        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
+        "shares": 5244957,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.46,
+        "pct_change": 33.96,
+        "value": 15669309037
       },
       {
         "holder": "-Price (T.Rowe) International Value Equity Trust",
@@ -145,7 +153,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.44,
         "pct_change": 31.77,
-        "value": 13608894400
+        "value": 14808440000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -153,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.37,
         "pct_change": 9.22,
-        "value": 11513026373
+        "value": 12527833287
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -161,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": 5.79,
-        "value": 11468502600
+        "value": 12479385000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Value Eqy. Fd.",
@@ -169,15 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.35,
         "pct_change": -0.17,
-        "value": 10830173850
-      },
-      {
-        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 3915257,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.34,
-        "pct_change": 33.25,
-        "value": 10749338093
+        "value": 11784791250
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:02:09.064166",
+  "fetched_at": "2026-09-01T06:03:46.059700",
   "ticker": "7182",
   "ticker_full": "7182.T",
   "company_name": "JAPAN POST BANK CO LTD",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 10,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3111.0,
+    "current": 3411.0,
     "high": 4100.0,
     "low": 2850.0,
-    "mean": 3478.0,
-    "median": 3550.0
+    "mean": 3480.0,
+    "median": 3560.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 42.47,
+      "date": "2026-11-13",
+      "eps_estimate": 47.0,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-07",
+        "eps_estimate": 42.47,
+        "eps_actual": 49.85,
+        "surprise_pct": 17.37
+      },
       {
         "date": "2026-05-15",
         "eps_estimate": 35.99,
@@ -57,19 +63,13 @@
         "eps_estimate": 28.47,
         "eps_actual": 29.29,
         "surprise_pct": 2.89
-      },
-      {
-        "date": "2025-05-15",
-        "eps_estimate": 26.16,
-        "eps_actual": 29.34,
-        "surprise_pct": 12.14
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 49.7,
-    "institution_pct": 19.07,
+    "institution_pct": 20.08,
     "major_holders": [
       {
         "label": "",
@@ -77,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 19.07
+        "value": 20.08
       },
       {
         "label": "",
-        "value": 37.91
+        "value": 39.91
       },
       {
         "label": "",
-        "value": 336.0
+        "value": 350.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 14422,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 2.93,
-        "value": 44866842
-      },
-      {
         "holder": "Paradigm Asset Management Company, LLC",
         "shares": 6100,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 18977100
+        "value": 20807100
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 13737,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -4.75,
+        "value": 46856907
       }
     ],
     "mutualfund_holders": [
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.73,
         "pct_change": 0.07,
-        "value": 81376368264
+        "value": 89223655464
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.48,
         "pct_change": 2.33,
-        "value": 53789591319
+        "value": 58976630019
       },
       {
         "holder": "Capital Income Builder",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.45,
         "pct_change": 0.0,
-        "value": 49994392200
+        "value": 54815452200
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": 1.14,
-        "value": 40848674400
+        "value": 44787794400
       },
       {
         "holder": "Capital World Growth & Income Fund",
@@ -145,15 +145,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 39999371400
+        "value": 43856591400
       },
       {
         "holder": "Bernstein Fund Inc-International Strategic Equities Portfolio",
         "shares": 10185800,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.28,
-        "pct_change": 1.0,
-        "value": 31688023800
+        "pct_change": 0.0,
+        "value": 34743763800
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -161,7 +161,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.22,
         "pct_change": 6.14,
-        "value": 24062962800
+        "value": 26383402800
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -169,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.19,
         "pct_change": 2.34,
-        "value": 21418382586
+        "value": 23483800386
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -177,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.18,
         "pct_change": 0.99,
-        "value": 19725606600
+        "value": 21627786600
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -185,7 +185,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.16,
         "pct_change": 7.31,
-        "value": 17690701500
+        "value": 19396651500
       }
     ]
   }

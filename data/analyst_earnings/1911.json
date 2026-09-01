@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:56:52.602787",
+  "fetched_at": "2026-09-01T05:59:35.339590",
   "ticker": "1911",
   "ticker_full": "1911.T",
   "company_name": "SUMITOMO FORESTRY CO",
@@ -13,27 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.16667
   },
   "target_prices": {
     "has_data": true,
-    "current": 1347.5,
-    "high": 2140.0,
+    "current": 1342.0,
+    "high": 1920.0,
     "low": 1400.0,
-    "mean": 1706.0,
-    "median": 1700.0
+    "mean": 1662.0,
+    "median": 1740.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 36.3,
+      "date": "2026-10-30",
+      "eps_estimate": 26.3,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 36.3,
+        "eps_actual": 16.52,
+        "surprise_pct": -54.49
+      },
       {
         "date": "2026-05-06",
         "eps_estimate": 31.63,
@@ -57,35 +63,29 @@
         "eps_estimate": 46.93,
         "eps_actual": 46.27,
         "surprise_pct": -1.41
-      },
-      {
-        "date": "2025-04-30",
-        "eps_estimate": 47.85,
-        "eps_actual": 32.86,
-        "surprise_pct": -31.34
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 17.74,
-    "institution_pct": 42.43,
+    "insider_pct": 16.42,
+    "institution_pct": 44.09,
     "major_holders": [
       {
         "label": "",
-        "value": 17.74
+        "value": 16.42
       },
       {
         "label": "",
-        "value": 42.43
+        "value": 44.09
       },
       {
         "label": "",
-        "value": 51.58
+        "value": 52.75
       },
       {
         "label": "",
-        "value": 177.0
+        "value": 182.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2023-03-31",
         "pct_held": 0.02,
         "pct_change": 83.52,
-        "value": 63936180
+        "value": 63675216
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.15,
         "pct_change": -0.43,
-        "value": 9547792100
+        "value": 9508821520
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Value Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 1.05,
         "pct_change": -0.43,
-        "value": 8734090750
+        "value": 8698441400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.76,
         "pct_change": 2.48,
-        "value": 6353412642
+        "value": 6327480346
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 4583656000
+        "value": 4564947200
       },
       {
         "holder": "Fidelity Rutland Square TRT II-Strategic Advisers Fidelity Intl Fd.",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.51,
         "pct_change": 5.06,
-        "value": 4233845000
+        "value": 4216564000
       },
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
@@ -145,7 +145,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.46,
         "pct_change": 1.0,
-        "value": 3831212000
+        "value": 3815574400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -153,7 +153,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.37,
         "pct_change": 20.82,
-        "value": 3112051250
+        "value": 3099349000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -161,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 4.05,
-        "value": 2517938500
+        "value": 2507661200
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -169,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.3,
         "pct_change": 0.41,
-        "value": 2516725750
+        "value": 2506453400
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
@@ -177,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.29,
         "pct_change": 4.05,
-        "value": 2400840750
+        "value": 2391041400
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:48:23.809918",
+  "fetched_at": "2026-09-01T05:50:40.328637",
   "ticker": "7947",
   "ticker_full": "7947.T",
   "company_name": "FP CORP",
@@ -18,16 +18,21 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2523.0,
-    "high": 3650.0,
+    "current": 2845.0,
+    "high": 3550.0,
     "low": 2500.0,
-    "mean": 2985.0,
-    "median": 2895.0
+    "mean": 2995.0,
+    "median": 2965.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": 43.29,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -63,24 +68,24 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 40.88,
-    "institution_pct": 17.99,
+    "insider_pct": 40.86,
+    "institution_pct": 17.96,
     "major_holders": [
       {
         "label": "",
-        "value": 40.88
+        "value": 40.86
       },
       {
         "label": "",
-        "value": 17.99
+        "value": 17.96
       },
       {
         "label": "",
-        "value": 30.43
+        "value": 30.37
       },
       {
         "label": "",
-        "value": 84.0
+        "value": 85.0
       }
     ],
     "institutional_holders": [],

@@ -1,24 +1,23 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:54:46.921311",
+  "fetched_at": "2026-09-01T05:57:20.327370",
   "ticker": "4626",
   "ticker_full": "4626.T",
   "company_name": "TAIYO HLDG CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
-    "strong_buy": 0,
-    "buy": 0,
-    "hold": 2,
-    "sell": 0,
-    "strong_sell": 0,
-    "total_analysts": 2,
     "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_mean": null,
+    "total_analysts": 1,
+    "strong_buy": null,
+    "buy": null,
+    "hold": null,
+    "sell": null,
+    "strong_sell": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 4725.0,
+    "current": 4740.0,
     "high": 5000.0,
     "low": 5000.0,
     "mean": 5000.0,
@@ -26,8 +25,13 @@
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-11-05",
+      "eps_estimate": null,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2024-02-01",
@@ -64,7 +68,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 29.52,
-    "institution_pct": 41.12,
+    "institution_pct": 40.67,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +76,15 @@
       },
       {
         "label": "",
-        "value": 41.12
+        "value": 40.67
       },
       {
         "label": "",
-        "value": 58.33
+        "value": 57.7
       },
       {
         "label": "",
-        "value": 92.0
+        "value": 96.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +94,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.95,
         "pct_change": 0.62,
-        "value": 5249645100
+        "value": 5266310640
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -98,7 +102,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.63,
         "pct_change": 2.73,
-        "value": 3503200050
+        "value": 3514321320
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -106,7 +110,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.51,
         "pct_change": 0.0,
-        "value": 2815155000
+        "value": 2824092000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -114,7 +118,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 2040255000
+        "value": 2046732000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -122,7 +126,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.27,
         "pct_change": -0.26,
-        "value": 1472782500
+        "value": 1477458000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -130,7 +134,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 1218105000
+        "value": 1221972000
       },
       {
         "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
@@ -138,7 +142,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.2,
         "pct_change": 2.2,
-        "value": 1094782500
+        "value": 1098258000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -146,7 +150,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.17,
         "pct_change": -0.85,
-        "value": 933187500
+        "value": 936150000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -154,7 +158,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.16,
         "pct_change": 2.77,
-        "value": 889278075
+        "value": 892101180
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -162,7 +166,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.15,
         "pct_change": 3.58,
-        "value": 819787500
+        "value": 822390000
       }
     ],
     "mutualfund_holders": []

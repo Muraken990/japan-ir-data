@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:44:12.661890",
+  "fetched_at": "2026-09-01T05:47:00.320298",
   "ticker": "6315",
   "ticker_full": "6315.T",
   "company_name": "TOWA CORP",
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2648.0,
+    "current": 2284.0,
     "high": 4000.0,
-    "low": 3100.0,
-    "mean": 3425.0,
+    "low": 2600.0,
+    "mean": 3300.0,
     "median": 3300.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-06",
-      "eps_estimate": 40.0,
+      "date": "2026-11-06",
+      "eps_estimate": 16.0,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 12.0,
+        "eps_actual": 22.09,
+        "surprise_pct": 84.08
+      },
       {
         "date": "2026-05-11",
         "eps_estimate": 90.9,
@@ -57,35 +63,29 @@
         "eps_estimate": 40.0,
         "eps_actual": -7.05,
         "surprise_pct": -117.62
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 33.1,
-        "eps_actual": 39.58,
-        "surprise_pct": 19.58
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 15.43,
-    "institution_pct": 34.94,
+    "insider_pct": 15.42,
+    "institution_pct": 35.22,
     "major_holders": [
       {
         "label": "",
-        "value": 15.43
+        "value": 15.42
       },
       {
         "label": "",
-        "value": 34.94
+        "value": 35.22
       },
       {
         "label": "",
-        "value": 41.31
+        "value": 41.64
       },
       {
         "label": "",
-        "value": 89.0
+        "value": 94.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2024-03-31",
         "pct_held": 1.6,
         "pct_change": 1.0,
-        "value": 1059200000
+        "value": 913600000
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.21,
         "pct_change": 4.97,
-        "value": 2400197512
+        "value": 2070260996
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.81,
         "pct_change": 8.53,
-        "value": 1614604760
+        "value": 1392657580
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -121,7 +121,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.6,
         "pct_change": 0.0,
-        "value": 1196101600
+        "value": 1031682800
+      },
+      {
+        "holder": "Bernstein Fund Inc-International Small Cap Portfolio",
+        "shares": 416000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.55,
+        "pct_change": 1.0,
+        "value": 950144000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -129,7 +137,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 9.3,
-        "value": 628621960
+        "value": 542210180
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -137,7 +145,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.32,
         "pct_change": -0.25,
-        "value": 646641600
+        "value": 557752800
+      },
+      {
+        "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
+        "shares": 197700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.26,
+        "pct_change": 23.49,
+        "value": 451546800
       },
       {
         "holder": "Japan Smaller Capitalization Fund, Inc.",
@@ -145,15 +161,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.22,
         "pct_change": 1.0,
-        "value": 446717600
-      },
-      {
-        "holder": "Hennessy Funds Trust-Hennessy Japan Small Cap Fund",
-        "shares": 160100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.21,
-        "pct_change": 0.0,
-        "value": 423944800
+        "value": 385310800
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -161,7 +169,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.18,
         "pct_change": 4.83,
-        "value": 355719080
+        "value": 306821140
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
@@ -169,15 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 258180000
-      },
-      {
-        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR PORT. Developed World ex-US E",
-        "shares": 91500,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.12,
-        "pct_change": 0.0,
-        "value": 242292000
+        "value": 222690000
       }
     ]
   }

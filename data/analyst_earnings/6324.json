@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:51:39.833639",
+  "fetched_at": "2026-09-01T05:54:04.876483",
   "ticker": "6324",
   "ticker_full": "6324.T",
   "company_name": "HARMONIC DRIVE SYSTEMS",
@@ -10,30 +10,36 @@
     "strong_buy": 0,
     "buy": 7,
     "hold": 2,
-    "sell": 1,
-    "strong_sell": 1,
+    "sell": 2,
+    "strong_sell": 0,
     "total_analysts": 11,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.8
   },
   "target_prices": {
     "has_data": true,
-    "current": 6140.0,
+    "current": 5680.0,
     "high": 11000.0,
-    "low": 2900.0,
-    "mean": 7141.0,
-    "median": 7805.0
+    "low": 3300.0,
+    "mean": 7731.0,
+    "median": 7905.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": null,
+      "date": "2026-11-11",
+      "eps_estimate": 12.7,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 10.6,
+        "eps_actual": 13.46,
+        "surprise_pct": 26.98
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": 7.7,
@@ -57,19 +63,13 @@
         "eps_estimate": 45.8,
         "eps_actual": 40.3,
         "surprise_pct": -12.01
-      },
-      {
-        "date": "2025-02-06",
-        "eps_estimate": 8.15,
-        "eps_actual": 5.22,
-        "surprise_pct": -35.99
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 40.29,
-    "institution_pct": 28.37,
+    "institution_pct": 27.68,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 28.37
+        "value": 27.68
       },
       {
         "label": "",
-        "value": 47.51
+        "value": 46.35
       },
       {
         "label": "",
-        "value": 128.0
+        "value": 133.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.92,
         "pct_change": 0.0,
-        "value": 5462917640
+        "value": 5053643680
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.88,
         "pct_change": 0.97,
-        "value": 5193426900
+        "value": 4804342800
       },
       {
         "holder": "Exch TRADED CONCEPTS TRT-ROBO Global Robotics and Automation Index ETF",
@@ -111,7 +111,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.75,
         "pct_change": -26.99,
-        "value": 4445360000
+        "value": 4112320000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -119,7 +119,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.58,
         "pct_change": 2.77,
-        "value": 3435379120
+        "value": 3178005440
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -127,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.46,
         "pct_change": 0.0,
-        "value": 2712652000
+        "value": 2509424000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -135,7 +135,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": -0.25,
-        "value": 1441058000
+        "value": 1333096000
       },
       {
         "holder": "VANGUARD WHITEHALL FUNDS-Vanguard International Explorer Fund",
@@ -143,7 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.19,
         "pct_change": -13.85,
-        "value": 1126690000
+        "value": 1042280000
       },
       {
         "holder": "CALAMOS INVESTMENT TRUST/IL-Calamos International Growth Fund",
@@ -151,15 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.18,
         "pct_change": 49.29,
-        "value": 1089850000
-      },
-      {
-        "holder": "Driehaus Mutual Funds-Driehaus International Small Cap Growth Fund",
-        "shares": 160000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.17,
-        "pct_change": 0.0,
-        "value": 982400000
+        "value": 1008200000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -167,7 +159,15 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.15,
         "pct_change": 2.87,
-        "value": 893320880
+        "value": 826394560
+      },
+      {
+        "holder": "Calamos Global Dynamic Income Fund",
+        "shares": 136700,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.14,
+        "pct_change": 1.61,
+        "value": 776456000
       }
     ],
     "mutualfund_holders": []

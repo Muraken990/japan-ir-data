@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:02:12.785692",
+  "fetched_at": "2026-09-01T06:03:53.330223",
   "ticker": "7267",
   "ticker_full": "7267.T",
   "company_name": "HONDA MOTOR CO",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 3,
     "buy": 5,
-    "hold": 10,
+    "hold": 9,
     "sell": 0,
-    "strong_sell": 2,
+    "strong_sell": 1,
     "total_analysts": 18,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.23529
+    "recommendation_mean": 2.375
   },
   "target_prices": {
     "has_data": true,
-    "current": 1625.5,
-    "high": 1900.0,
-    "low": 1300.0,
-    "mean": 1606.0553,
+    "current": 1737.0,
+    "high": 2200.0,
+    "low": 1400.0,
+    "mean": 1727.3334,
     "median": 1600.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-05",
-      "eps_estimate": 66.03,
+      "date": "2026-11-05",
+      "eps_estimate": 16.17,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-05",
+        "eps_estimate": 66.03,
+        "eps_actual": 115.84,
+        "surprise_pct": 75.43
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": -285.79,
@@ -57,61 +63,55 @@
         "eps_estimate": 61.42,
         "eps_actual": 46.8,
         "surprise_pct": -23.81
-      },
-      {
-        "date": "2025-05-13",
-        "eps_estimate": 26.1,
-        "eps_actual": 9.24,
-        "surprise_pct": -64.59
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.0,
-    "institution_pct": 44.02,
+    "insider_pct": 3.09,
+    "institution_pct": 43.19,
     "major_holders": [
       {
         "label": "",
-        "value": 4.0
+        "value": 3.09
       },
       {
         "label": "",
-        "value": 44.02
+        "value": 43.19
       },
       {
         "label": "",
-        "value": 45.85
+        "value": 44.57
       },
       {
         "label": "",
-        "value": 366.0
+        "value": 370.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 73828,
-        "date_reported": "2026-03-31",
+        "holder": "Paradigm Asset Management Company, LLC",
+        "shares": 6900,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 57.56,
-        "value": 120007414
+        "pct_change": 0.0,
+        "value": 11985300
       },
       {
         "holder": "Edgar Lomax Co/VA",
         "shares": 15300,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 35.4,
-        "value": 24870150
-      },
-      {
-        "holder": "Paradigm Asset Management Company, LLC",
-        "shares": 6900,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 11215950
+        "value": 26576100
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 131551,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": 78.19,
+        "value": 228504087
       }
     ],
     "mutualfund_holders": [
@@ -121,7 +121,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.21,
         "pct_change": 0.0,
-        "value": 88809714285
+        "value": 94901552577
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -129,7 +129,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 2.45,
-        "value": 58738141465
+        "value": 62767241910
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -137,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.59,
         "pct_change": 0.0,
-        "value": 43168240950
+        "value": 46129335300
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.35,
         "pct_change": 3.93,
-        "value": 25451266250
+        "value": 27197077500
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -153,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": 0.44,
-        "value": 22698135768
+        "value": 24255098019
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -161,7 +161,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.28,
         "pct_change": -0.76,
-        "value": 20832245450
+        "value": 22261218300
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 12495941,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.28,
+        "pct_change": 4.67,
+        "value": 21705449517
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -169,15 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 8.92,
-        "value": 20231623200
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 11938641,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.26,
-        "pct_change": 6.44,
-        "value": 19406260945
+        "value": 21619396800
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
@@ -185,7 +185,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.26,
         "pct_change": 3.54,
-        "value": 19035417750
+        "value": 20341138500
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -193,7 +193,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.25,
         "pct_change": -0.47,
-        "value": 18339055175
+        "value": 19597009437
       }
     ]
   }

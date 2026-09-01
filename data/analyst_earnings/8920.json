@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:22:05.689629",
+  "fetched_at": "2026-09-01T05:26:20.287471",
   "ticker": "8920",
   "ticker_full": "8920.T",
   "company_name": "TOSHO CO LTD",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 2,
-    "recommendation_key": "buy",
-    "recommendation_mean": 2.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 768.0,
+    "current": 731.0,
     "high": 1050.0,
     "low": 850.0,
     "mean": 950.0,
@@ -29,6 +29,12 @@
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-08-02",
+        "eps_estimate": 19.2,
+        "eps_actual": 21.04,
+        "surprise_pct": 9.6
+      },
       {
         "date": "2026-05-12",
         "eps_estimate": -8.74,
@@ -52,19 +58,13 @@
         "eps_estimate": 10.37,
         "eps_actual": 22.96,
         "surprise_pct": 121.31
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": 19.29,
-        "eps_actual": -27.84,
-        "surprise_pct": -244.31
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 60.02,
-    "institution_pct": 12.6,
+    "institution_pct": 12.88,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 12.6
+        "value": 12.88
       },
       {
         "label": "",
-        "value": 31.52
+        "value": 32.23
       },
       {
         "label": "",
-        "value": 43.0
+        "value": 44.0
       }
     ],
     "institutional_holders": [],

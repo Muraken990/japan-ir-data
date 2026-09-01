@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:57:48.606990",
+  "fetched_at": "2026-09-01T06:00:34.116294",
   "ticker": "8729",
   "ticker_full": "8729.T",
   "company_name": "SONY FINANCIAL GROUP INC",
@@ -13,12 +13,12 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 9,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.77778
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 156.3,
+    "current": 161.8,
     "high": 210.0,
     "low": 140.0,
     "mean": 164.77779,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-10",
+      "date": "2026-11-12",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-09",
+        "eps_estimate": -0.29,
+        "eps_actual": 1.37,
+        "surprise_pct": 570.18
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": 3.33,
@@ -57,19 +63,13 @@
         "eps_estimate": 31.17,
         "eps_actual": 44.92,
         "surprise_pct": 44.11
-      },
-      {
-        "date": "2020-02-12",
-        "eps_estimate": 28.94,
-        "eps_actual": 33.19,
-        "surprise_pct": 14.69
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 17.31,
-    "institution_pct": 25.82,
+    "institution_pct": 23.6,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 25.82
+        "value": 23.6
       },
       {
         "label": "",
-        "value": 31.23
+        "value": 28.55
       },
       {
         "label": "",
-        "value": 254.0
+        "value": 239.0
       }
     ],
     "institutional_holders": [],

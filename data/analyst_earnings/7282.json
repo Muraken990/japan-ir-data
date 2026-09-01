@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:54:43.096270",
+  "fetched_at": "2026-09-01T05:57:15.166986",
   "ticker": "7282",
   "ticker_full": "7282.T",
   "company_name": "TOYODA GOSEI",
@@ -14,20 +14,25 @@
     "strong_sell": 0,
     "total_analysts": 7,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.25
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 5562.0,
-    "high": 6300.0,
-    "low": 4600.0,
-    "mean": 5556.25,
-    "median": 5600.0
+    "current": 5587.0,
+    "high": 6600.0,
+    "low": 5120.0,
+    "mean": 5821.25,
+    "median": 5725.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 105.51,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-04-28",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 25.04,
-    "institution_pct": 38.83,
+    "institution_pct": 39.77,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 38.83
+        "value": 39.77
       },
       {
         "label": "",
-        "value": 51.8
+        "value": 53.05
       },
       {
         "label": "",
-        "value": 146.0
+        "value": 153.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 2.17,
         "pct_change": 9.15,
-        "value": 14217584400
+        "value": 14281489400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -98,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.2,
         "pct_change": 7.31,
-        "value": 7852448286
+        "value": 7887743361
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,7 +111,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.8,
         "pct_change": 1.25,
-        "value": 5219236188
+        "value": 5242695538
+      },
+      {
+        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
+        "shares": 714300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.61,
+        "pct_change": 14.01,
+        "value": 3990794100
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -114,15 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.54,
         "pct_change": 0.0,
-        "value": 3527976600
-      },
-      {
-        "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
-        "shares": 626500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.53,
-        "pct_change": -0.05,
-        "value": 3484593000
+        "value": 3543834100
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -130,7 +135,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 30.85,
-        "value": 2337703038
+        "value": 2348210513
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
@@ -138,7 +143,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.34,
         "pct_change": 13.7,
-        "value": 2224800000
+        "value": 2234800000
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
@@ -146,7 +151,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.33,
         "pct_change": -28.92,
-        "value": 2159724600
+        "value": 2169432100
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -154,7 +159,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": -0.22,
-        "value": 2025124200
+        "value": 2034226700
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
@@ -162,7 +167,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 1772058762
+        "value": 1780023787
       }
     ],
     "mutualfund_holders": []

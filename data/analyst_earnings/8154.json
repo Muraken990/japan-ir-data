@@ -1,23 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:47:28.971339",
+  "fetched_at": "2026-09-01T05:50:26.894601",
   "ticker": "8154",
   "ticker_full": "8154.T",
   "company_name": "KAGA ELECTRONICS CO",
   "analyst_recommendations": {
     "has_data": true,
-    "recommendation_key": "none",
-    "recommendation_mean": null,
+    "period": "2",
+    "strong_buy": 0,
+    "buy": 1,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
     "total_analysts": 1,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 4695.0,
+    "current": 5100.0,
     "high": 5400.0,
     "low": 5400.0,
     "mean": 5400.0,
@@ -26,7 +27,7 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-13",
+      "date": "2026-11-12",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -66,10 +67,27 @@
     ]
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
+    "has_data": true,
+    "insider_pct": 19.43,
+    "institution_pct": 25.44,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 19.43
+      },
+      {
+        "label": "",
+        "value": 25.44
+      },
+      {
+        "label": "",
+        "value": 31.57
+      },
+      {
+        "label": "",
+        "value": 103.0
+      }
+    ],
     "institutional_holders": [],
     "mutualfund_holders": []
   }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-05-01T04:32:44.370416",
+  "fetched_at": "2026-09-01T06:01:49.760535",
   "ticker": "9503",
   "ticker_full": "9503.T",
   "company_name": "KANSAI ELECTRIC POWER CO INC",
@@ -13,22 +13,33 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.8
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.4
   },
   "target_prices": {
     "has_data": true,
-    "current": 2415.0,
-    "high": 3250.0,
-    "low": 2500.0,
-    "mean": 2828.0,
-    "median": 2800.0
+    "current": 2939.5,
+    "high": 3100.0,
+    "low": 2220.0,
+    "mean": 2682.0,
+    "median": 2670.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 105.3,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-07-30",
+        "eps_estimate": 114.2,
+        "eps_actual": 123.02,
+        "surprise_pct": 7.72
+      },
       {
         "date": "2026-04-29",
         "eps_estimate": 29.5,
@@ -52,127 +63,121 @@
         "eps_estimate": 89.6,
         "eps_actual": 89.01,
         "surprise_pct": -0.66
-      },
-      {
-        "date": "2025-04-30",
-        "eps_estimate": 2.7,
-        "eps_actual": 39.66,
-        "surprise_pct": 1368.89
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 11.26,
-    "institution_pct": 39.36,
+    "insider_pct": 12.81,
+    "institution_pct": 41.87,
     "major_holders": [
       {
         "label": "",
-        "value": 11.26
+        "value": 12.81
       },
       {
         "label": "",
-        "value": 39.36
+        "value": 41.87
       },
       {
         "label": "",
-        "value": 44.35
+        "value": 48.02
       },
       {
         "label": "",
-        "value": 277.0
+        "value": 300.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 8039,
-        "date_reported": "2025-12-31",
+        "shares": 7883,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": -3.38,
-        "value": 19414185
+        "pct_change": -4.71,
+        "value": 23172078
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 14229015,
-        "date_reported": "2026-01-31",
-        "pct_held": 1.28,
-        "pct_change": 0.88,
-        "value": 34363071225
+        "shares": 14208015,
+        "date_reported": "2026-04-30",
+        "pct_held": 1.27,
+        "pct_change": -0.15,
+        "value": 41764460092
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 9191999,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.82,
-        "pct_change": 2.2,
-        "value": 22198677585
+        "shares": 9414699,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.84,
+        "pct_change": 2.42,
+        "value": 27674507710
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 6710700,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.6,
-        "pct_change": 1.23,
-        "value": 16206340500
+        "shares": 6866500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.62,
+        "pct_change": 1.0,
+        "value": 20184076750
       },
       {
         "holder": "VANGUARD SPECIALIZED FUNDS-Vanguard Energy Fund",
-        "shares": 4937678,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.44,
-        "pct_change": -0.88,
-        "value": 11924492370
+        "shares": 5173078,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.46,
+        "pct_change": 4.77,
+        "value": 15206262781
       },
       {
-        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
-        "shares": 3753600,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.34,
-        "pct_change": -0.18,
-        "value": 9064944000
-      },
-      {
-        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 3707300,
+        "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
+        "shares": 5023200,
         "date_reported": "2026-03-31",
-        "pct_held": 0.33,
-        "pct_change": -0.16,
-        "value": 8953129500
+        "pct_held": 0.45,
+        "pct_change": 38.0,
+        "value": 14765696400
       },
       {
         "holder": "VANGUARD HORIZON FUNDS-Vanguard International Core Stock Fund",
-        "shares": 3570500,
-        "date_reported": "2025-12-31",
-        "pct_held": 0.32,
-        "pct_change": 1.0,
-        "value": 8622757500
+        "shares": 4633400,
+        "date_reported": "2026-03-31",
+        "pct_held": 0.42,
+        "pct_change": 29.77,
+        "value": 13619879300
+      },
+      {
+        "holder": "iShares, Inc.-iShares MSCI Japan ETF",
+        "shares": 4090200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.37,
+        "pct_change": 5.93,
+        "value": 12023142900
+      },
+      {
+        "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
+        "shares": 4153400,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.37,
+        "pct_change": 3.18,
+        "value": 12208919300
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 3456670,
-        "date_reported": "2026-02-28",
-        "pct_held": 0.31,
-        "pct_change": 1.2,
-        "value": 8347858050
+        "shares": 3650019,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.33,
+        "pct_change": 2.38,
+        "value": 10729230850
       },
       {
-        "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 3297600,
-        "date_reported": "2026-03-31",
+        "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
+        "shares": 3289300,
+        "date_reported": "2026-04-30",
         "pct_held": 0.3,
-        "pct_change": 0.96,
-        "value": 7963704000
-      },
-      {
-        "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
-        "shares": 3269068,
-        "date_reported": "2026-01-31",
-        "pct_held": 0.29,
-        "pct_change": 0.0,
-        "value": 7894799220
+        "pct_change": 8.7,
+        "value": 9668897350
       }
     ]
   }

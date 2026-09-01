@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:56:56.220139",
+  "fetched_at": "2026-09-01T05:59:38.962327",
   "ticker": "5020",
   "ticker_full": "5020.T",
   "company_name": "ENEOS HOLDINGS INC",
@@ -10,30 +10,36 @@
     "strong_buy": 3,
     "buy": 4,
     "hold": 1,
-    "sell": 1,
+    "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 9,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "total_analysts": 8,
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.71429
   },
   "target_prices": {
     "has_data": true,
-    "current": 1327.5,
-    "high": 1700.0,
-    "low": 1260.0,
-    "mean": 1508.75,
-    "median": 1530.0
+    "current": 1385.0,
+    "high": 1630.0,
+    "low": 1350.0,
+    "mean": 1546.6666,
+    "median": 1600.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": -31.0,
+      "date": "2026-11-11",
+      "eps_estimate": 27.7,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 33.7,
+        "eps_actual": 154.64,
+        "surprise_pct": 358.87
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 18.4,
@@ -57,19 +63,13 @@
         "eps_estimate": -31.0,
         "eps_actual": -5.4,
         "surprise_pct": 82.58
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": -19.7,
-        "eps_actual": 20.4,
-        "surprise_pct": 203.55
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.62,
-    "institution_pct": 44.35,
+    "institution_pct": 44.81,
     "major_holders": [
       {
         "label": "",
@@ -77,15 +77,15 @@
       },
       {
         "label": "",
-        "value": 44.35
+        "value": 44.81
       },
       {
         "label": "",
-        "value": 45.54
+        "value": 46.02
       },
       {
         "label": "",
-        "value": 325.0
+        "value": 328.0
       }
     ],
     "institutional_holders": [
@@ -95,7 +95,7 @@
         "date_reported": "2025-12-31",
         "pct_held": 0.1,
         "pct_change": -12.2,
-        "value": 3712003290
+        "value": 3872786860
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.41,
         "pct_change": -0.36,
-        "value": 50542034940
+        "value": 52731237960
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -113,15 +113,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.93,
         "pct_change": 2.33,
-        "value": 33451571610
+        "value": 34900509740
       },
       {
         "holder": "Bernstein Fund Inc-International Strategic Equities Portfolio",
         "shares": 21146100,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.78,
-        "pct_change": -20.39,
-        "value": 28071447750
+        "pct_change": 0.0,
+        "value": 29287348500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -129,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.71,
         "pct_change": 0.0,
-        "value": 25553379375
+        "value": 26660211250
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
@@ -137,7 +137,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.42,
         "pct_change": 1.25,
-        "value": 15023298915
+        "value": 15674025610
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.41,
         "pct_change": 0.51,
-        "value": 14722233862
+        "value": 15359920075
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
@@ -153,7 +153,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.39,
         "pct_change": 0.0,
-        "value": 14031546232
+        "value": 14639315655
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -161,7 +161,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.37,
         "pct_change": -2.76,
-        "value": 13147161750
+        "value": 13716624500
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -169,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.35,
         "pct_change": -0.78,
-        "value": 12484141875
+        "value": 13024886250
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -177,7 +177,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.33,
         "pct_change": -8.78,
-        "value": 12016976040
+        "value": 12537485360
       }
     ]
   }

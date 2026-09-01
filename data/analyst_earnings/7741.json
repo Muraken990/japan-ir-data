@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:02:09.907346",
+  "fetched_at": "2026-09-01T06:03:48.215082",
   "ticker": "7741",
   "ticker_full": "7741.T",
   "company_name": "HOYA CORP",
@@ -18,16 +18,21 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 24675.0,
-    "high": 34000.0,
+    "current": 24970.0,
+    "high": 36000.0,
     "low": 23100.0,
-    "mean": 30246.666,
-    "median": 30000.0
+    "mean": 30666.666,
+    "median": 31000.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": 195.76,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.0,
-    "institution_pct": 60.71,
+    "institution_pct": 60.46,
     "major_holders": [
       {
         "label": "",
@@ -72,33 +77,33 @@
       },
       {
         "label": "",
-        "value": 60.71
+        "value": 60.46
       },
       {
         "label": "",
-        "value": 60.71
+        "value": 60.46
       },
       {
         "label": "",
-        "value": 533.0
+        "value": 545.0
       }
     ],
     "institutional_holders": [
       {
-        "holder": "Pacer Advisors, Inc.",
-        "shares": 2878,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 4.69,
-        "value": 71014650
-      },
-      {
         "holder": "Paradigm Asset Management Company, LLC",
         "shares": 10000,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
         "pct_change": 0.0,
-        "value": 246750000
+        "value": 249700000
+      },
+      {
+        "holder": "Pacer Advisors, Inc.",
+        "shares": 2712,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.0,
+        "pct_change": -5.77,
+        "value": 67718640
       }
     ],
     "mutualfund_holders": [
@@ -108,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.45,
         "pct_change": -1.39,
-        "value": 120165646125
+        "value": 121602276950
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -116,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.96,
         "pct_change": 1.01,
-        "value": 79429515900
+        "value": 80379129160
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -124,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.74,
         "pct_change": 0.74,
-        "value": 61514775000
+        "value": 62250210000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series Overseas Fund",
@@ -132,7 +137,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.61,
         "pct_change": 2.33,
-        "value": 50252118000
+        "value": 50852903200
+      },
+      {
+        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
+        "shares": 1571700,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.47,
+        "pct_change": 75.53,
+        "value": 39245349000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -140,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.44,
         "pct_change": 6.12,
-        "value": 36087187500
+        "value": 36518625000
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Series International Growth Fund",
@@ -148,7 +161,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.4,
         "pct_change": -5.07,
-        "value": 32958397500
+        "value": 33352429000
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -156,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.39,
         "pct_change": 2.27,
-        "value": 32129490225
+        "value": 32513611790
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
@@ -164,7 +177,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.38,
         "pct_change": -0.69,
-        "value": 31018942500
+        "value": 31389787000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -172,15 +185,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.36,
         "pct_change": 1.45,
-        "value": 29693895000
-      },
-      {
-        "holder": "Fidelity Investment Trust-Fidelity Diversified International Fund",
-        "shares": 1129472,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.34,
-        "pct_change": -0.62,
-        "value": 27869721600
+        "value": 30048898000
       }
     ]
   }

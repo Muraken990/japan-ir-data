@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:54:49.000407",
+  "fetched_at": "2026-09-01T05:57:22.515737",
   "ticker": "6473",
   "ticker_full": "6473.T",
   "company_name": "JTEKT CORPORATION",
@@ -13,21 +13,26 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 4,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.75
   },
   "target_prices": {
     "has_data": true,
-    "current": 2216.0,
-    "high": 2950.0,
-    "low": 1440.0,
-    "mean": 2492.5,
+    "current": 2186.5,
+    "high": 3080.0,
+    "low": 2300.0,
+    "mean": 2740.0,
     "median": 2790.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-29",
+      "eps_estimate": 9.39,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-30",
@@ -63,24 +68,24 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 30.3,
-    "institution_pct": 39.92,
+    "insider_pct": 29.05,
+    "institution_pct": 41.28,
     "major_holders": [
       {
         "label": "",
-        "value": 30.3
+        "value": 29.05
       },
       {
         "label": "",
-        "value": 39.92
+        "value": 41.28
       },
       {
         "label": "",
-        "value": 57.28
+        "value": 58.18
       },
       {
         "label": "",
-        "value": 138.0
+        "value": 145.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +95,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 1.86,
         "pct_change": -0.12,
-        "value": 13097224800
+        "value": 12922870950
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -98,7 +103,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.04,
         "pct_change": 0.15,
-        "value": 7359482256
+        "value": 7261510809
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -106,7 +111,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.67,
         "pct_change": 1.18,
-        "value": 4728126296
+        "value": 4665184181
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -114,7 +119,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.48,
         "pct_change": 0.0,
-        "value": 3377848800
+        "value": 3332881950
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -122,7 +127,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.27,
         "pct_change": -0.23,
-        "value": 1907311200
+        "value": 1881920550
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -130,7 +135,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.26,
         "pct_change": -5.22,
-        "value": 1853174320
+        "value": 1828504355
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
@@ -138,15 +143,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.25,
         "pct_change": -9.45,
-        "value": 1792650928
+        "value": 1768786667
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 786178,
-        "date_reported": "2026-06-30",
+        "shares": 790178,
+        "date_reported": "2026-07-31",
         "pct_held": 0.25,
-        "pct_change": 26.99,
-        "value": 1742170448
+        "pct_change": 0.51,
+        "value": 1727724197
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
@@ -154,7 +159,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.23,
         "pct_change": 0.0,
-        "value": 1639751360
+        "value": 1617922540
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
@@ -162,7 +167,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.23,
         "pct_change": 5.06,
-        "value": 1597292800
+        "value": 1576029200
       }
     ],
     "mutualfund_holders": []

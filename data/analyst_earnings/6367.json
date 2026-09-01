@@ -1,39 +1,45 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:02:08.124093",
+  "fetched_at": "2026-09-01T06:03:44.772924",
   "ticker": "6367",
   "ticker_full": "6367.T",
   "company_name": "DAIKIN INDUSTRIES",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 3,
+    "strong_buy": 2,
     "buy": 7,
-    "hold": 5,
+    "hold": 6,
     "sell": 1,
     "strong_sell": 0,
     "total_analysts": 16,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.375
+    "recommendation_mean": 2.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 23295.0,
-    "high": 29500.0,
+    "current": 21005.0,
+    "high": 28800.0,
     "low": 16000.0,
-    "mean": 24753.064,
-    "median": 25000.0
+    "mean": 24406.855,
+    "median": 24747.99
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-04",
-      "eps_estimate": 244.95,
+      "date": "2026-11-04",
+      "eps_estimate": 261.84,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-03",
+        "eps_estimate": 290.02,
+        "eps_actual": 280.6,
+        "surprise_pct": -3.25
+      },
       {
         "date": "2026-05-12",
         "eps_estimate": 216.55,
@@ -57,53 +63,47 @@
         "eps_estimate": 244.95,
         "eps_actual": 278.43,
         "surprise_pct": 13.67
-      },
-      {
-        "date": "2025-05-08",
-        "eps_estimate": 232.97,
-        "eps_actual": 266.55,
-        "surprise_pct": 14.41
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.56,
-    "institution_pct": 56.1,
+    "insider_pct": 4.24,
+    "institution_pct": 59.64,
     "major_holders": [
       {
         "label": "",
-        "value": 4.56
+        "value": 4.24
       },
       {
         "label": "",
-        "value": 56.1
+        "value": 59.64
       },
       {
         "label": "",
-        "value": 58.78
+        "value": 62.28
       },
       {
         "label": "",
-        "value": 385.0
+        "value": 390.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Aristotle Capital Management, LLC",
-        "shares": 455900,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.16,
-        "pct_change": -7.02,
-        "value": 10620190500
+        "shares": 417100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.14,
+        "pct_change": -8.51,
+        "value": 8761185500
       },
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 10262,
-        "date_reported": "2026-03-31",
+        "shares": 13464,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 75.84,
-        "value": 239053290
+        "pct_change": 31.2,
+        "value": 282811320
       }
     ],
     "mutualfund_holders": [
@@ -113,7 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.37,
         "pct_change": -0.16,
-        "value": 93691208775
+        "value": 84480954725
       },
       {
         "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
@@ -121,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.21,
         "pct_change": 0.0,
-        "value": 82468959000
+        "value": 74361901000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -129,15 +129,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.91,
         "pct_change": 2.43,
-        "value": 61903317675
-      },
-      {
-        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
-        "shares": 2614000,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.89,
-        "pct_change": -5.08,
-        "value": 60893130000
+        "value": 55817951825
       },
       {
         "holder": "Artisan Partners Funds Inc.-Artisan International Value Fund",
@@ -145,7 +137,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.82,
         "pct_change": 1.0,
-        "value": 55910329500
+        "value": 50414100500
+      },
+      {
+        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
+        "shares": 2222900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.76,
+        "pct_change": -14.96,
+        "value": 46692014500
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -153,7 +153,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.67,
         "pct_change": 0.99,
-        "value": 45408943500
+        "value": 40945046500
       },
       {
         "holder": "NEW PERSPECTIVE FUND",
@@ -161,7 +161,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.62,
         "pct_change": 21.53,
-        "value": 42655474500
+        "value": 38462255500
+      },
+      {
+        "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
+        "shares": 1335300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.46,
+        "pct_change": 37.9,
+        "value": 28047976500
       },
       {
         "holder": "VANGUARD WORLD FUND-Vanguard International Growth Fund",
@@ -169,7 +177,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.45,
         "pct_change": 13.96,
-        "value": 30434917500
+        "value": 27443032500
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -177,15 +185,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.39,
         "pct_change": 6.14,
-        "value": 26558629500
-      },
-      {
-        "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 1015761,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.35,
-        "pct_change": 2.35,
-        "value": 23662152495
+        "value": 23947800500
       }
     ]
   }

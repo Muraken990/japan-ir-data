@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:17:11.426190",
+  "fetched_at": "2026-09-01T05:22:06.175448",
   "ticker": "2491",
   "ticker_full": "2491.T",
   "company_name": "VALUECOMMERCE CO.LTD.",
@@ -16,12 +16,17 @@
     "strong_sell": null
   },
   "target_prices": {
-    "has_data": false
+    "has_data": true,
+    "current": 500.0,
+    "high": null,
+    "low": null,
+    "mean": null,
+    "median": null
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -37,11 +42,109 @@
     ]
   },
   "shareholders": {
-    "has_data": false,
-    "insider_pct": null,
-    "institution_pct": null,
-    "major_holders": [],
-    "institutional_holders": [],
+    "has_data": true,
+    "insider_pct": 1.37,
+    "institution_pct": 22.69,
+    "major_holders": [
+      {
+        "label": "",
+        "value": 1.37
+      },
+      {
+        "label": "",
+        "value": 22.69
+      },
+      {
+        "label": "",
+        "value": 23.0
+      },
+      {
+        "label": "",
+        "value": 32.0
+      }
+    ],
+    "institutional_holders": [
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
+        "shares": 112699,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.33,
+        "pct_change": 1.0,
+        "value": 56349500
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
+        "shares": 107100,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.31,
+        "pct_change": 32.71,
+        "value": 53550000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
+        "shares": 29900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.09,
+        "pct_change": 60.75,
+        "value": 14950000
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Core Equity Market ETF",
+        "shares": 24900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.07,
+        "pct_change": 36.81,
+        "value": 12450000
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Vector Eqy. PORT.",
+        "shares": 23900,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.07,
+        "pct_change": 1.0,
+        "value": 11950000
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
+        "shares": 23200,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.07,
+        "pct_change": 0.0,
+        "value": 11600000
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 22400,
+        "date_reported": "2026-04-30",
+        "pct_held": 0.06,
+        "pct_change": -76.57,
+        "value": 11200000
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Dynamic International Equity Fund",
+        "shares": 20000,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.06,
+        "pct_change": 0.0,
+        "value": 10000000
+      },
+      {
+        "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
+        "shares": 17900,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.05,
+        "pct_change": 1.7,
+        "value": 8950000
+      },
+      {
+        "holder": "Voya Mutual Funds-Voya Multi-Manager International Small Cap Fund",
+        "shares": 17600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.05,
+        "pct_change": 0.0,
+        "value": 8800000
+      }
+    ],
     "mutualfund_holders": []
   }
 }

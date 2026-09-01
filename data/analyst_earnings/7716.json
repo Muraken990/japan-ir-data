@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:46:27.694570",
+  "fetched_at": "2026-09-01T05:49:22.834798",
   "ticker": "7716",
   "ticker_full": "7716.T",
   "company_name": "NAKANISHI INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 2,
     "buy": 2,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 3035.0,
+    "current": 3200.0,
     "high": 3900.0,
     "low": 2500.0,
     "mean": 3416.6667,
@@ -27,13 +27,19 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": 42.54,
+      "date": "2026-11-13",
+      "eps_estimate": 35.05,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 46.16,
+        "eps_actual": 50.14,
+        "surprise_pct": 8.62
+      },
       {
         "date": "2026-05-14",
         "eps_estimate": 31.53,
@@ -57,35 +63,29 @@
         "eps_estimate": 13.13,
         "eps_actual": 14.81,
         "surprise_pct": 12.79
-      },
-      {
-        "date": "2012-02-09",
-        "eps_estimate": 11.16,
-        "eps_actual": 13.71,
-        "surprise_pct": 22.86
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 23.66,
-    "institution_pct": 29.14,
+    "insider_pct": 23.61,
+    "institution_pct": 29.63,
     "major_holders": [
       {
         "label": "",
-        "value": 23.66
+        "value": 23.61
       },
       {
         "label": "",
-        "value": 29.14
+        "value": 29.63
       },
       {
         "label": "",
-        "value": 38.17
+        "value": 38.78
       },
       {
         "label": "",
-        "value": 107.0
+        "value": 108.0
       }
     ],
     "institutional_holders": [
@@ -95,17 +95,17 @@
         "date_reported": "2025-09-30",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 125815925
+        "value": 132656000
       }
     ],
     "mutualfund_holders": [
       {
         "holder": "Tweedy, Browne Fund Inc.-TWEEDY, BROWNE INTERNATIONAL VALUE FUND",
         "shares": 1586635,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 1.72,
         "pct_change": 0.0,
-        "value": 4815437225
+        "value": 5077232000
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Discovery Fd.",
@@ -113,15 +113,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.68,
         "pct_change": 0.0,
-        "value": 4694234500
-      },
-      {
-        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
-        "shares": 950500,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.03,
-        "pct_change": -22.82,
-        "value": 2884767500
+        "value": 4949440000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -129,7 +121,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.98,
         "pct_change": 0.0,
-        "value": 2750480890
+        "value": 2900012800
+      },
+      {
+        "holder": "MFS Series Trust V-MFS International New Discovery Fund",
+        "shares": 787800,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.85,
+        "pct_change": -17.12,
+        "value": 2520960000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -137,7 +137,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.65,
         "pct_change": 2.46,
-        "value": 1805527570
+        "value": 1903686400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -145,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.64,
         "pct_change": 0.0,
-        "value": 1792167500
+        "value": 1889600000
       },
       {
         "holder": "TRANSAMERICA FUNDS-Transamerica International Small Cap Value",
@@ -153,7 +153,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.5,
         "pct_change": -1.0,
-        "value": 1386691500
+        "value": 1462080000
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
@@ -161,7 +161,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.4,
         "pct_change": -0.13,
-        "value": 1128953230
+        "value": 1190329600
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -169,7 +169,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.39,
         "pct_change": -2.22,
-        "value": 1096849000
+        "value": 1156480000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -177,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.27,
         "pct_change": -0.24,
-        "value": 758446500
+        "value": 799680000
       }
     ]
   }

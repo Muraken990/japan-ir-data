@@ -1,33 +1,38 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T05:01:21.264879",
+  "fetched_at": "2026-09-01T06:02:56.251922",
   "ticker": "6981",
   "ticker_full": "6981.T",
   "company_name": "MURATA MANUFACTURING CO",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 5,
-    "buy": 9,
-    "hold": 3,
+    "strong_buy": 4,
+    "buy": 8,
+    "hold": 4,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 17,
-    "recommendation_key": "buy",
-    "recommendation_mean": 1.52941
+    "total_analysts": 16,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.41176
   },
   "target_prices": {
     "has_data": true,
-    "current": 7416.0,
+    "current": 7333.0,
     "high": 15750.0,
     "low": 4200.0,
-    "mean": 11035.294,
-    "median": 12500.0
+    "mean": 10485.294,
+    "median": 10650.0
   },
   "earnings_dates": {
     "has_data": true,
-    "next_earnings": null,
-    "future_count": 0,
+    "next_earnings": {
+      "date": "2026-10-30",
+      "eps_estimate": 32.76,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
     "past_earnings": [
       {
         "date": "2026-07-31",
@@ -64,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 1.83,
-    "institution_pct": 49.97,
+    "institution_pct": 49.73,
     "major_holders": [
       {
         "label": "",
@@ -72,33 +77,25 @@
       },
       {
         "label": "",
-        "value": 49.97
+        "value": 49.73
       },
       {
         "label": "",
-        "value": 50.91
+        "value": 50.66
       },
       {
         "label": "",
-        "value": 493.0
+        "value": 522.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 30937,
-        "date_reported": "2026-03-31",
+        "shares": 49401,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 44.67,
-        "value": 229428792
-      },
-      {
-        "holder": "Atlas Capital Advisors Inc",
-        "shares": 4500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.0,
-        "pct_change": 0.0,
-        "value": 33372000
+        "pct_change": 59.68,
+        "value": 362306934
       }
     ],
     "mutualfund_holders": [
@@ -108,7 +105,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.22,
         "pct_change": -0.08,
-        "value": 177755920920
+        "value": 175790442830
       },
       {
         "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
@@ -116,7 +113,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.1,
         "pct_change": 0.0,
-        "value": 159501844800
+        "value": 157738205200
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -124,7 +121,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.81,
         "pct_change": 2.39,
-        "value": 117560026440
+        "value": 116260144810
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -132,7 +129,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.61,
         "pct_change": 0.18,
-        "value": 88600435200
+        "value": 87620764800
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
@@ -140,7 +137,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.36,
         "pct_change": 3.07,
-        "value": 51959462400
+        "value": 51384937600
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
@@ -148,7 +145,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.32,
         "pct_change": -0.66,
-        "value": 46245345408
+        "value": 45734002592
       },
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
@@ -156,7 +153,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": -24.05,
-        "value": 43162758936
+        "value": 42685500814
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
@@ -164,7 +161,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 8.82,
-        "value": 42821467200
+        "value": 42347982800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
@@ -172,7 +169,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.29,
         "pct_change": -0.73,
-        "value": 42920100000
+        "value": 42445525000
       },
       {
         "holder": "New World Fund Inc",
@@ -180,7 +177,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.2,
         "pct_change": 1.0,
-        "value": 28461866400
+        "value": 28147158600
       }
     ]
   }

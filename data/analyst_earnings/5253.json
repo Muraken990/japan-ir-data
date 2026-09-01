@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-08-01T04:40:04.443833",
+  "fetched_at": "2026-09-01T05:42:42.142203",
   "ticker": "5253",
   "ticker_full": "5253.T",
   "company_name": "COVER CORPORATION",
@@ -8,27 +8,33 @@
     "has_data": true,
     "period": "3",
     "strong_buy": 2,
-    "buy": 0,
+    "buy": 1,
     "hold": 1,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 3,
+    "total_analysts": 4,
     "recommendation_key": "hold",
     "recommendation_mean": 2.6
   },
   "target_prices": {
     "has_data": true,
-    "current": 1460.0,
+    "current": 1610.0,
     "high": 2600.0,
-    "low": 1200.0,
-    "mean": 1934.0,
-    "median": 2000.0
+    "low": 1250.0,
+    "mean": 1964.0,
+    "median": 2100.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": null,
     "future_count": 0,
     "past_earnings": [
+      {
+        "date": "2026-08-11",
+        "eps_estimate": 8.96,
+        "eps_actual": 6.38,
+        "surprise_pct": -28.79
+      },
       {
         "date": "2026-05-13",
         "eps_estimate": 20.9,
@@ -52,19 +58,13 @@
         "eps_estimate": 12.21,
         "eps_actual": 10.57,
         "surprise_pct": -13.43
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": 36.59,
-        "eps_actual": 27.84,
-        "surprise_pct": -23.91
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 44.03,
-    "institution_pct": 26.27,
+    "institution_pct": 26.01,
     "major_holders": [
       {
         "label": "",
@@ -72,15 +72,15 @@
       },
       {
         "label": "",
-        "value": 26.27
+        "value": 26.01
       },
       {
         "label": "",
-        "value": 46.94
+        "value": 46.48
       },
       {
         "label": "",
-        "value": 58.0
+        "value": 59.0
       }
     ],
     "institutional_holders": [
@@ -90,7 +90,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 3.98,
         "pct_change": 0.0,
-        "value": 3818630000
+        "value": 4210955000
       },
       {
         "holder": "-Price (T.Rowe) International Small-Cap Equity Trust",
@@ -98,7 +98,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.93,
         "pct_change": -4.12,
-        "value": 887388000
+        "value": 978558000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
@@ -106,7 +106,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.44,
         "pct_change": 0.0,
-        "value": 417560000
+        "value": 460460000
       },
       {
         "holder": "T. ROWE PRICE INTERNATIONAL FUNDS, INC.-T. Rowe Price Japan Fund",
@@ -114,7 +114,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 282802000
+        "value": 311857000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
@@ -122,7 +122,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.24,
         "pct_change": -0.26,
-        "value": 225424000
+        "value": 248584000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
@@ -130,7 +130,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 85848000
+        "value": 94668000
       },
       {
         "holder": "Japan Smaller Capitalization Fund, Inc.",
@@ -138,15 +138,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.07,
         "pct_change": -75.45,
-        "value": 71248000
-      },
-      {
-        "holder": "Thrivent Series Fund, Inc.-Thrivent International Equity Portfolio",
-        "shares": 23500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.04,
-        "pct_change": 2.01,
-        "value": 34310000
+        "value": 78568000
       },
       {
         "holder": "American Century ETF Trust-Avantis International Equity ETF",
@@ -154,7 +146,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.04,
         "pct_change": 0.0,
-        "value": 42924000
+        "value": 47334000
+      },
+      {
+        "holder": "Thrivent Series Fund, Inc.-Thrivent International Equity Portfolio",
+        "shares": 23500,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.04,
+        "pct_change": 0.0,
+        "value": 37835000
       },
       {
         "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
@@ -162,7 +162,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.03,
         "pct_change": 0.0,
-        "value": 33434000
+        "value": 36869000
       }
     ],
     "mutualfund_holders": []

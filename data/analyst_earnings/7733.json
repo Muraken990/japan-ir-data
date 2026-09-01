@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-07-01T06:14:11.455426",
+  "fetched_at": "2026-09-01T06:01:53.056480",
   "ticker": "7733",
   "ticker_full": "7733.T",
   "company_name": "OLYMPUS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 2,
-    "buy": 2,
-    "hold": 9,
+    "strong_buy": 3,
+    "buy": 3,
+    "hold": 7,
     "sell": 0,
     "strong_sell": 1,
     "total_analysts": 14,
@@ -18,22 +18,28 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 1644.0,
-    "high": 2300.0,
-    "low": 1600.0,
-    "mean": 1897.6923,
-    "median": 1850.0
+    "current": 2143.0,
+    "high": 3300.0,
+    "low": 1750.0,
+    "mean": 2157.6924,
+    "median": 1910.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-08-07",
-      "eps_estimate": null,
+      "date": "2026-11-10",
+      "eps_estimate": 21.42,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 9.62,
+        "eps_actual": 17.76,
+        "surprise_pct": 84.68
+      },
       {
         "date": "2026-05-11",
         "eps_estimate": 9.2,
@@ -57,45 +63,39 @@
         "eps_estimate": 15.82,
         "eps_actual": 7.97,
         "surprise_pct": -49.63
-      },
-      {
-        "date": "2025-05-12",
-        "eps_estimate": 23.09,
-        "eps_actual": 36.56,
-        "surprise_pct": 58.34
       }
     ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 4.27,
-    "institution_pct": 58.85,
+    "insider_pct": 4.22,
+    "institution_pct": 64.86,
     "major_holders": [
       {
         "label": "",
-        "value": 4.27
+        "value": 4.22
       },
       {
         "label": "",
-        "value": 58.85
+        "value": 64.86
       },
       {
         "label": "",
-        "value": 61.47
+        "value": 67.72
       },
       {
         "label": "",
-        "value": 309.0
+        "value": 310.0
       }
     ],
     "institutional_holders": [
       {
         "holder": "Pacer Advisors, Inc.",
-        "shares": 19819,
-        "date_reported": "2026-03-31",
+        "shares": 40830,
+        "date_reported": "2026-06-30",
         "pct_held": 0.0,
-        "pct_change": 54.09,
-        "value": 32582436
+        "pct_change": 1.06,
+        "value": 87498690
       }
     ],
     "mutualfund_holders": [
@@ -105,7 +105,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 3.68,
         "pct_change": 1.0,
-        "value": 67378189200
+        "value": 87829354900
       },
       {
         "holder": "Dodge & Cox Funds-Dodge & Cox International Stock Fund",
@@ -113,23 +113,15 @@
         "date_reported": "2026-03-31",
         "pct_held": 1.92,
         "pct_change": 0.0,
-        "value": 35219412000
+        "value": 45909489000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
-        "shares": 15510601,
-        "date_reported": "2026-01-31",
+        "shares": 15504101,
+        "date_reported": "2026-04-30",
         "pct_held": 1.39,
-        "pct_change": -1.1,
-        "value": 25499428044
-      },
-      {
-        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
-        "shares": 13475600,
-        "date_reported": "2026-03-31",
-        "pct_held": 1.21,
-        "pct_change": -37.22,
-        "value": 22153886400
+        "pct_change": -0.04,
+        "value": 33225288443
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
@@ -137,31 +129,39 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.92,
         "pct_change": 2.61,
-        "value": 16891733388
+        "value": 22018847111
       },
       {
         "holder": "Bridge Builder Trust-Bridge Builder International Equity Fund",
-        "shares": 8796700,
-        "date_reported": "2026-03-31",
+        "shares": 8776100,
+        "date_reported": "2026-06-30",
         "pct_held": 0.79,
-        "pct_change": 12.8,
-        "value": 14461774800
+        "pct_change": -0.23,
+        "value": 18807182300
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 7970600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.72,
-        "pct_change": 1.2,
-        "value": 13103666400
+        "shares": 7806200,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.7,
+        "pct_change": 0.0,
+        "value": 16728686600
       },
       {
         "holder": "MFS SERIES TRUST X-MFS International Intrinsic Value Fund",
         "shares": 7487200,
-        "date_reported": "2026-02-28",
+        "date_reported": "2026-05-31",
         "pct_held": 0.67,
-        "pct_change": -1.62,
-        "value": 12308956800
+        "pct_change": 0.0,
+        "value": 16045069600
+      },
+      {
+        "holder": "MFS Series Trust XVII-MFS International Equity Fund",
+        "shares": 7265100,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.65,
+        "pct_change": -46.09,
+        "value": 15569109300
       },
       {
         "holder": "-Price (T.Rowe) International Growth Equity Trust",
@@ -169,7 +169,7 @@
         "date_reported": "2026-03-31",
         "pct_held": 0.58,
         "pct_change": -11.5,
-        "value": 10564837200
+        "value": 13771560900
       },
       {
         "holder": "T. ROWE PRICE Intl Fd.S, INC.-T. Rowe Price Intl Stock Fd.",
@@ -177,7 +177,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.46,
         "pct_change": -0.17,
-        "value": 8412348000
+        "value": 10965731000
       }
     ]
   }
