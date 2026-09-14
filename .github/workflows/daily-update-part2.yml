@@ -221,7 +221,7 @@ jobs:
           echo "=========================================="
           echo "WordPress更新開始 (2001社〜)"
           echo "=========================================="
-          python scripts/4_wordpress_smart_update.py --skip 2000
+          python scripts/4_wordpress_smart_update.py --skip 2000 --confirmed-delisted-csv data/confirmed_delisted_companies.csv
 
       - name: Generate WordPress summary
         if: always()
