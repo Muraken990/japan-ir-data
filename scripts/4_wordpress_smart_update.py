@@ -563,9 +563,121 @@ def create_company(company_data, status='publish', dry_run=False):
 
     try:
         response = wordpress_request('POST', url, headers=headers, json=data)
-        return response.status_code == 201
+        if response.status_code == 201:
+            result = response.json()
+            ja_post_id = result.get('id')
+
+            en_post_id = create_english_post(ja_post_id, company_data, status, dry_run=False)
+            if en_post_id:
+                link_wpml_via_official_api(ja_post_id, en_post_id)
+
+            return True
+        else:
+            return False
     except Exception as e:
         return False
+
+
+def create_english_post(ja_post_id, company_data, status='publish', dry_run=False):
+    """英語版企業ページ作成（日本語版作成の直後に呼び出す）"""
+    code = company_data.get('code', '')
+
+    if dry_run:
+        return True
+
+    headers = get_auth_headers()
+    url = f"{WP_SITE_URL}/wp-json/wp/v2/company?lang=en"
+
+    # 時価総額変換
+    market_cap = company_data.get('marketCap', 0)
+    if pd.notna(market_cap) and market_cap > 0:
+        market_cap_million = int(market_cap / 1000000)
+    else:
+        market_cap_million = 0
+
+    # 株価
+    stock_price = company_data.get('currentPrice', 0)
+    if pd.isna(stock_price):
+        stock_price = 0
+    else:
+        stock_price = float(stock_price)
+
+    # 企業名（英語）
+    company_name_en = company_data.get('short_name_en', '')
+    if pd.isna(company_name_en) or company_name_en == '':
+        company_name_en = company_data.get('company_name_en', '')
+    if pd.isna(company_name_en):
+        company_name_en = ''
+
+    # 日付
+    date = company_data.get('scrape_date', datetime.now().strftime('%Y-%m-%d'))
+
+    # セクター・業種
+    sector = company_data.get('sector', '')
+    industry = company_data.get('industry', '')
+    if pd.isna(sector):
+        sector = ''
+    if pd.isna(industry):
+        industry = ''
+
+    data = {
+        'title': str(company_name_en) if company_name_en else f"Company {code}",
+        'slug': f'company-{code}',
+        'status': status,
+        'meta': {
+            'Ticker': str(code),
+            'marketCap': market_cap_million,
+            'regularMarketPrice': stock_price,
+            'DATE': str(date),
+            'longName': str(company_name_en),
+            'sector': str(sector),
+            'industry': str(industry),
+        }
+    }
+
+    try:
+        response = wordpress_request('POST', url, headers=headers, json=data)
+        if response.status_code == 201:
+            result = response.json()
+            en_post_id = result.get('id')
+            print(f"   🌐 英語版作成成功 (ID: {en_post_id})")
+            return en_post_id
+        else:
+            print(f"   ❌ 英語版作成失敗: {response.status_code}")
+            print(f"   レスポンス: {response.text[:200]}")
+            return None
+    except Exception as e:
+        print(f"   ❌ 英語版作成例外: {str(e)}")
+        return None
+
+
+def link_wpml_via_official_api(ja_post_id, en_post_id):
+    """WPML正式APIで翻訳リンクを設定"""
+    try:
+        url = f"{WP_SITE_URL}/wp-json/custom/v1/wpml-link"
+        payload = {
+            "ja_post_id": ja_post_id,
+            "en_post_id": en_post_id,
+            "post_type": "company",
+        }
+
+        response = wordpress_request('POST', url, headers=get_auth_headers(), json=payload)
+
+        if response.status_code == 200:
+            result = response.json()
+            if result.get("success"):
+                print(f"   ✅ WPML リンク成功")
+                return True
+            else:
+                print(f"   ❌ WPML リンク失敗: {result.get('message', '不明')}")
+                return False
+        else:
+            print(f"   ❌ WPML API エラー: {response.status_code}")
+            return False
+    except Exception as e:
+        print(f"   ❌ WPML リンク例外: {str(e)}")
+        return False
+
 
 # ============================================================
 # WordPress企業更新
