@@ -288,6 +288,13 @@ def get_translation_by_ticker(ticker, target_lang='en'):
     
     return None
 
+def price_fetched_meta(company_data):
+    """株価の取得時刻メタ。取得元CSVに値が無い（旧形式・空欄）場合は送らない。"""
+    value = company_data.get('price_fetched_at')
+    if value is None or pd.isna(value) or not str(value).strip():
+        return {}
+    return {'price_fetched_at': str(value).strip()}
+
 # ============================================================
 # WordPress企業作成
 # ============================================================
@@ -521,6 +528,7 @@ def create_company(company_data, status='publish', dry_run=False):
             'marketCap': market_cap_million,
             'regularMarketPrice': stock_price,
             'DATE': str(date),
+            **price_fetched_meta(company_data),
             'company_name_ja': str(company_name_ja),
             'longName': str(company_name_en),
             'sector': str(sector),
@@ -772,6 +780,7 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
             'marketCap': market_cap_million,
             'regularMarketPrice': stock_price,
             'DATE': str(date),
+            **price_fetched_meta(company_data),
             'company_name_ja': str(company_name_ja),
             'longName': str(company_name_en),
             'sector': str(sector),

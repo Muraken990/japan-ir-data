@@ -11,7 +11,7 @@ import argparse
 import yfinance as yf
 import pandas as pd
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
@@ -262,8 +262,11 @@ def main(skip=0, limit=None, suffix=""):
             time.sleep(BATCH_DELAY)
 
     scrape_date = datetime.now().strftime('%Y-%m-%d')
+    # 株価の取得時刻（サイト表示用）。実行環境はUTCのためJSTで保存する
+    price_fetched_at = datetime.now(timezone(timedelta(hours=9))).isoformat(timespec='seconds')
     for r in results:
         r["scrape_date"] = scrape_date
+        r["price_fetched_at"] = price_fetched_at
 
     df_results = pd.DataFrame(results)
 

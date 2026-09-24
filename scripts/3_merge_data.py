@@ -189,6 +189,7 @@ def create_integrated_dataframe(merged_df):
         'currency': merged_df.get('currency', 'JPY'),
         'exchange': merged_df.get('exchange', 'JPX'),
         'scrape_date': merged_df.get('scrape_date', datetime.now().strftime('%Y-%m-%d')),
+        'price_fetched_at': merged_df.get('price_fetched_at', ''),
     })
     
     # 統計情報
