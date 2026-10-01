@@ -1,23 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:29:27.824824",
+  "fetched_at": "2026-10-01T06:09:58.291679",
   "ticker": "4771",
   "ticker_full": "4771.T",
   "company_name": "F&M CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "recommendation_key": "none",
-    "recommendation_mean": null,
-    "total_analysts": null,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "period": "0",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 0,
+    "sell": 0,
+    "strong_sell": 0,
+    "total_analysts": 0,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 0.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2651.0,
+    "current": 2681.0,
     "high": null,
     "low": null,
     "mean": null,
@@ -28,34 +29,35 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 67.13,
-    "institution_pct": 1.27,
+    "insider_pct": 67.66,
+    "institution_pct": 1.3,
     "major_holders": [
       {
         "label": "",
-        "value": 67.13
+        "value": 67.66
       },
       {
         "label": "",
-        "value": 1.27
+        "value": 1.3
       },
       {
         "label": "",
-        "value": 3.87
+        "value": 4.02
       },
       {
         "label": "",
-        "value": 13.0
+        "value": 14.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "Financial Investors Tr-Grandeur Peak Global Opportunities Fund",
         "shares": 117000,
         "date_reported": "2024-01-31",
         "pct_held": 0.74,
         "pct_change": 62.27,
-        "value": 310167000
+        "value": 313677000
       },
       {
         "holder": "USAA Mutual Fd Tr-International Fd",
@@ -63,7 +65,7 @@
         "date_reported": "2024-02-29",
         "pct_held": 0.65,
         "pct_change": 0.0,
-        "value": 268811400
+        "value": 271853400
       },
       {
         "holder": "Financial Investors Tr-Grandeur Peak International Opportunities Fund",
@@ -71,7 +73,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.64,
         "pct_change": 70.89,
-        "value": 264569800
+        "value": 267563800
       },
       {
         "holder": "DFA Japanese Small Company Series",
@@ -79,7 +81,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 117704400
+        "value": 119036400
       },
       {
         "holder": "Financial Investors Tr-Grandeur Peak Global Reach Fund",
@@ -87,7 +89,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.21,
         "pct_change": 40.93,
-        "value": 88543400
+        "value": 89545400
       },
       {
         "holder": "DFA International Core Equity Portfolio",
@@ -95,7 +97,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.15,
         "pct_change": 0.0,
-        "value": 61238100
+        "value": 61931100
       },
       {
         "holder": "Financial Investors Tr-Grandeur Peak Global Micro Cap Fund",
@@ -103,7 +105,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.1,
         "pct_change": 55.24,
-        "value": 43211300
+        "value": 43700300
       },
       {
         "holder": "Dimensional ETF Tr-Dimensional World ex U.S. Core Equity 2 ETF",
@@ -111,7 +113,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.03,
         "pct_change": 0.0,
-        "value": 12459700
+        "value": 12600700
       },
       {
         "holder": "DFA International Vector Equity Port",
@@ -119,7 +121,7 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 9808700
+        "value": 9919700
       },
       {
         "holder": "DFA Investment Dimensions-World Ex U.S. Core Equity Port",
@@ -127,9 +129,8 @@
         "date_reported": "2024-01-31",
         "pct_held": 0.02,
         "pct_change": 0.0,
-        "value": 8483200
+        "value": 8579200
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

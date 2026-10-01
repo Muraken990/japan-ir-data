@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:51:43.973757",
+  "fetched_at": "2026-10-01T06:30:57.465200",
   "ticker": "9627",
   "ticker_full": "9627.T",
   "company_name": "AIN HOLDINGS INC",
@@ -9,31 +9,37 @@
     "period": "3",
     "strong_buy": 1,
     "buy": 2,
-    "hold": 2,
+    "hold": 3,
     "sell": 0,
-    "strong_sell": 1,
+    "strong_sell": 0,
     "total_analysts": 6,
     "recommendation_key": "buy",
     "recommendation_mean": 2.16667
   },
   "target_prices": {
     "has_data": true,
-    "current": 6250.0,
-    "high": 9850.0,
-    "low": 5800.0,
-    "mean": 7408.3335,
-    "median": 7050.0
+    "current": 5356.0,
+    "high": 8700.0,
+    "low": 5600.0,
+    "mean": 7000.0,
+    "median": 6550.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-09-14",
-      "eps_estimate": 60.94,
+      "date": "2026-12-10",
+      "eps_estimate": 91.98,
       "eps_actual": null,
       "surprise_pct": null
     },
     "future_count": 1,
     "past_earnings": [
+      {
+        "date": "2026-09-14",
+        "eps_estimate": 60.94,
+        "eps_actual": 56.18,
+        "surprise_pct": -7.81
+      },
       {
         "date": "2026-06-11",
         "eps_estimate": 200.8,
@@ -57,19 +63,13 @@
         "eps_estimate": 61.08,
         "eps_actual": 55.03,
         "surprise_pct": -9.91
-      },
-      {
-        "date": "2025-06-05",
-        "eps_estimate": 100.87,
-        "eps_actual": 54.27,
-        "surprise_pct": -46.2
       }
     ]
   },
   "shareholders": {
     "has_data": true,
     "insider_pct": 23.83,
-    "institution_pct": 56.67,
+    "institution_pct": 55.59,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +77,26 @@
       },
       {
         "label": "",
-        "value": 56.67
+        "value": 55.59
       },
       {
         "label": "",
-        "value": 74.4
+        "value": 72.99
       },
       {
         "label": "",
         "value": 81.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD TRUSTEES' EQUITY FUND-Vanguard International Value Fund",
-        "shares": 576100,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.63,
-        "pct_change": -1.94,
-        "value": 3600625000
+        "shares": 698400,
+        "date_reported": "2026-07-31",
+        "pct_held": 1.97,
+        "pct_change": 21.23,
+        "value": 3740630400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,39 +104,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.1,
         "pct_change": 0.0,
-        "value": 2428562500
+        "value": 2081180920
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 255965,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.72,
-        "pct_change": 1.95,
-        "value": 1599781250
+        "shares": 261865,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.74,
+        "pct_change": 2.31,
+        "value": 1402548940
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 192300,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.54,
-        "pct_change": 8.28,
-        "value": 1201875000
+        "pct_change": 0.0,
+        "value": 1029958800
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 123898,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.35,
-        "pct_change": 37.06,
-        "value": 774362500
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 105400,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.3,
-        "pct_change": -0.19,
-        "value": 658750000
+        "shares": 116298,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.33,
+        "pct_change": -6.13,
+        "value": 622892088
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -143,7 +136,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 2.26,
-        "value": 623125000
+        "value": 533993200
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 97400,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.27,
+        "pct_change": -7.59,
+        "value": 521674400
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
@@ -151,7 +152,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.15,
         "pct_change": -3.99,
-        "value": 341137500
+        "value": 292341192
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
@@ -159,17 +160,16 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.13,
         "pct_change": -21.53,
-        "value": 276831250
+        "value": 237233308
       },
       {
         "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
         "shares": 44300,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.13,
         "pct_change": 0.0,
-        "value": 276875000
+        "value": 237270800
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

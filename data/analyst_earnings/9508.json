@@ -1,28 +1,28 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:58:36.261537",
+  "fetched_at": "2026-10-01T06:37:25.740730",
   "ticker": "9508",
   "ticker_full": "9508.T",
   "company_name": "KYUSHU ELECTRIC POWER CO INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
-    "strong_buy": 1,
-    "buy": 2,
-    "hold": 1,
+    "period": "2",
+    "strong_buy": 2,
+    "buy": 3,
+    "hold": 0,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
-    "recommendation_key": "strong_buy",
-    "recommendation_mean": 1.4
+    "total_analysts": 5,
+    "recommendation_key": "buy",
+    "recommendation_mean": 1.66667
   },
   "target_prices": {
     "has_data": true,
-    "current": 2169.5,
+    "current": 2098.0,
     "high": 3230.0,
     "low": 2150.0,
-    "mean": 2392.0,
-    "median": 2200.0
+    "mean": 2676.6667,
+    "median": 2650.0
   },
   "earnings_dates": {
     "has_data": true,
@@ -68,66 +68,50 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 3.43,
-    "institution_pct": 32.43,
-    "major_holders": [
-      {
-        "label": "",
-        "value": 3.43
-      },
-      {
-        "label": "",
-        "value": 32.43
-      },
-      {
-        "label": "",
-        "value": 33.58
-      },
-      {
-        "label": "",
-        "value": 153.0
-      }
-    ],
-    "institutional_holders": [
+    "insider_pct": null,
+    "institution_pct": null,
+    "major_holders": [],
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 6699670,
         "date_reported": "2026-04-30",
         "pct_held": 1.41,
         "pct_change": -0.04,
-        "value": 14534934065
+        "value": 14055907660
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 4433689,
-        "date_reported": "2026-03-31",
+        "shares": 4467789,
+        "date_reported": "2026-06-30",
         "pct_held": 0.94,
-        "pct_change": 2.69,
-        "value": 9618888285
+        "pct_change": 0.77,
+        "value": 9373421322
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 3137200,
-        "date_reported": "2026-06-30",
+        "shares": 3147100,
+        "date_reported": "2026-07-31",
         "pct_held": 0.66,
-        "pct_change": 0.0,
-        "value": 6806155400
+        "pct_change": 0.32,
+        "value": 6602615800
       },
       {
         "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 2126600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.45,
-        "pct_change": -7.55,
-        "value": 4613658700
+        "shares": 1560600,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.33,
+        "pct_change": -26.62,
+        "value": 3274138800
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 1683800,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.36,
-        "pct_change": -0.24,
-        "value": 3653004100
+        "shares": 1523800,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.32,
+        "pct_change": -9.5,
+        "value": 3196932400
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -135,15 +119,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.31,
         "pct_change": 0.0,
-        "value": 3186778550
+        "value": 3081752200
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Value Index Fd.",
-        "shares": 1365800,
-        "date_reported": "2026-06-30",
+        "shares": 1352800,
+        "date_reported": "2026-07-31",
         "pct_held": 0.29,
-        "pct_change": 3.17,
-        "value": 2963103100
+        "pct_change": -0.95,
+        "value": 2838174400
       },
       {
         "holder": "American Century World Mutual Funds, Inc.-International Growth Fund",
@@ -151,7 +135,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.28,
         "pct_change": 0.0,
-        "value": 2885435000
+        "value": 2790340000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -159,17 +143,16 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.24,
         "pct_change": 3.63,
-        "value": 2426872124
+        "value": 2346889936
       },
       {
         "holder": "AQR Funds-AQR Long-Short Equity Fund",
-        "shares": 1077200,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.23,
-        "pct_change": 36.29,
-        "value": 2336985400
+        "shares": 1149300,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.24,
+        "pct_change": 6.69,
+        "value": 2411231400
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:59:26.834061",
+  "fetched_at": "2026-10-01T06:38:15.060485",
   "ticker": "4676",
   "ticker_full": "4676.T",
   "company_name": "FUJI MEDIA HOLDING",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 1,
     "hold": 4,
@@ -14,20 +14,20 @@
     "strong_sell": 0,
     "total_analysts": 6,
     "recommendation_key": "hold",
-    "recommendation_mean": 2.83333
+    "recommendation_mean": 2.85714
   },
   "target_prices": {
     "has_data": true,
-    "current": 4184.0,
+    "current": 3910.0,
     "high": 4550.0,
     "low": 3600.0,
-    "mean": 4156.6665,
-    "median": 4195.0
+    "mean": 4182.857,
+    "median": 4300.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-11-10",
+      "date": "2026-11-06",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -68,82 +68,67 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 43.93,
-    "institution_pct": 24.39,
+    "insider_pct": 41.57,
+    "institution_pct": 27.06,
     "major_holders": [
       {
         "label": "",
-        "value": 43.93
+        "value": 41.57
       },
       {
         "label": "",
-        "value": 24.39
+        "value": 27.06
       },
       {
         "label": "",
-        "value": 43.51
+        "value": 46.32
       },
       {
         "label": "",
-        "value": 94.0
+        "value": 95.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 607645,
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 0.0,
-        "value": 2542386680
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 400733,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.24,
-        "pct_change": 2.93,
-        "value": 1676666872
+        "value": 2375891950
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 298500,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.18,
         "pct_change": 0.0,
-        "value": 1248924000
+        "value": 1167135000
       },
       {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 250600,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.15,
-        "pct_change": 1.0,
-        "value": 1048510400
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 279333,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.17,
+        "pct_change": -30.29,
+        "value": 1092192030
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 160200,
-        "date_reported": "2026-04-30",
+        "shares": 148000,
+        "date_reported": "2026-07-31",
         "pct_held": 0.09,
-        "pct_change": 0.0,
-        "value": 670276800
+        "pct_change": -7.62,
+        "value": 578680000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 142300,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.08,
-        "pct_change": -0.28,
-        "value": 595383200
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
-        "shares": 108300,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.06,
-        "pct_change": 0.0,
-        "value": 453127200
+        "shares": 126300,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.07,
+        "pct_change": -11.24,
+        "value": 493833000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -151,7 +136,15 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.06,
         "pct_change": 2.88,
-        "value": 404613720
+        "value": 378116550
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The DFA International Value Series",
+        "shares": 108300,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.06,
+        "pct_change": 0.0,
+        "value": 423453000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -159,7 +152,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.05,
         "pct_change": 0.0,
-        "value": 382455256
+        "value": 357409190
       },
       {
         "holder": "SCHWAB STRATEGIC TRT-Schwab Fd.amental Intl Small Eqy. ETF",
@@ -167,9 +160,16 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.05,
         "pct_change": -0.16,
-        "value": 357338704
+        "value": 333937460
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI International Developed Markets ETF",
+        "shares": 48100,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.03,
+        "pct_change": 0.0,
+        "value": 188071000
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

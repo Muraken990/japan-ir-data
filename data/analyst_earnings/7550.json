@@ -1,33 +1,33 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T06:01:33.022849",
+  "fetched_at": "2026-10-01T06:39:25.683305",
   "ticker": "7550",
   "ticker_full": "7550.T",
   "company_name": "ZENSHO HOLDINGS CO LTD",
   "analyst_recommendations": {
     "has_data": true,
     "period": "2",
-    "strong_buy": 2,
-    "buy": 0,
+    "strong_buy": 3,
+    "buy": 1,
     "hold": 2,
     "sell": 0,
     "strong_sell": 0,
-    "total_analysts": 4,
+    "total_analysts": 6,
     "recommendation_key": "buy",
-    "recommendation_mean": 2.33333
+    "recommendation_mean": 2.42857
   },
   "target_prices": {
     "has_data": true,
-    "current": 11745.0,
+    "current": 10815.0,
     "high": 14000.0,
-    "low": 10100.0,
-    "mean": 12480.0,
-    "median": 13000.0
+    "low": 12000.0,
+    "mean": 12933.333,
+    "median": 13150.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-11-10",
+      "date": "2026-11-12",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -68,34 +68,43 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 40.26,
-    "institution_pct": 18.76,
+    "insider_pct": 40.17,
+    "institution_pct": 18.84,
     "major_holders": [
       {
         "label": "",
-        "value": 40.26
+        "value": 40.17
       },
       {
         "label": "",
-        "value": 18.76
+        "value": 18.84
       },
       {
         "label": "",
-        "value": 31.4
+        "value": 31.49
       },
       {
         "label": "",
-        "value": 183.0
+        "value": 187.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
+      {
+        "holder": "EuroPacific Growth Fund-EUPAC Fund",
+        "shares": 3107105,
+        "date_reported": "2026-06-30",
+        "pct_held": 1.93,
+        "pct_change": 36.3,
+        "value": 33603340575
+      },
       {
         "holder": "SmallCap World Fund Inc",
         "shares": 1371600,
         "date_reported": "2026-06-30",
         "pct_held": 0.85,
         "pct_change": 1.0,
-        "value": 16109442000
+        "value": 14833854000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,7 +112,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.83,
         "pct_change": -0.09,
-        "value": 15681559905
+        "value": 14439852735
       },
       {
         "holder": "Capital World Growth & Income Fund",
@@ -111,65 +120,56 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.63,
         "pct_change": 0.0,
-        "value": 11914456860
+        "value": 10971038820
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 887956,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.55,
-        "pct_change": 2.17,
-        "value": 10429043220
+        "shares": 898256,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.56,
+        "pct_change": 1.16,
+        "value": 9714638640
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 703700,
-        "date_reported": "2026-06-30",
+        "shares": 707000,
+        "date_reported": "2026-07-31",
         "pct_held": 0.44,
-        "pct_change": 0.0,
-        "value": 8264956500
+        "pct_change": 0.47,
+        "value": 7646205000
       },
       {
         "holder": "iShares, Inc.-iShares MSCI Japan ETF",
-        "shares": 412600,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.26,
-        "pct_change": 4.4,
-        "value": 4845987000
+        "shares": 397100,
+        "date_reported": "2026-08-31",
+        "pct_held": 0.25,
+        "pct_change": -2.62,
+        "value": 4294636500
       },
       {
         "holder": "Fidelity Concord Street Trust-Fidelity International Index Fund",
-        "shares": 355837,
-        "date_reported": "2026-06-30",
+        "shares": 359537,
+        "date_reported": "2026-07-31",
         "pct_held": 0.22,
-        "pct_change": -2.04,
-        "value": 4179305565
+        "pct_change": 1.04,
+        "value": 3888392655
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE ETF",
-        "shares": 337700,
-        "date_reported": "2026-06-30",
+        "shares": 335600,
+        "date_reported": "2026-08-31",
         "pct_held": 0.21,
-        "pct_change": -0.79,
-        "value": 3966286500
+        "pct_change": 0.0,
+        "value": 3629514000
       },
       {
         "holder": "J.P. Morgan Exchange-Traded Fund Trust-JPMorgan BetaBuilders Japan ETF",
-        "shares": 310500,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.19,
-        "pct_change": 8.15,
-        "value": 3646822500
-      },
-      {
-        "holder": "Goldman Sachs ETF TRT-Goldman Sachs ActiveBeta(R) Intl Eqy. ETF",
-        "shares": 237244,
+        "shares": 321300,
         "date_reported": "2026-07-31",
-        "pct_held": 0.15,
-        "pct_change": 0.24,
-        "value": 2786430780
+        "pct_held": 0.2,
+        "pct_change": 3.48,
+        "value": 3474859500
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

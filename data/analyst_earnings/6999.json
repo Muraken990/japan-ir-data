@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:33:54.961810",
+  "fetched_at": "2026-10-01T06:14:03.283944",
   "ticker": "6999",
   "ticker_full": "6999.T",
   "company_name": "KOA CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 0,
     "buy": 0,
-    "hold": 0,
-    "sell": 1,
+    "hold": 1,
+    "sell": 0,
     "strong_sell": 0,
     "total_analysts": 1,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.0
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 2297.0,
+    "current": 2378.0,
     "high": 3000.0,
     "low": 3000.0,
     "mean": 3000.0,
@@ -64,7 +64,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 2.59,
-    "institution_pct": 51.65,
+    "institution_pct": 51.66,
     "major_holders": [
       {
         "label": "",
@@ -72,73 +72,66 @@
       },
       {
         "label": "",
-        "value": 51.65
+        "value": 51.66
       },
       {
         "label": "",
-        "value": 53.03
+        "value": 53.04
       },
       {
         "label": "",
-        "value": 56.0
+        "value": 53.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
+      {
+        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
+        "shares": 636100,
+        "date_reported": "2026-08-31",
+        "pct_held": 1.7,
+        "pct_change": 0.25,
+        "value": 1512645800
+      },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 482798,
         "date_reported": "2026-04-30",
         "pct_held": 1.29,
         "pct_change": 0.0,
-        "value": 1108987006
-      },
-      {
-        "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 473800,
-        "date_reported": "2026-06-30",
-        "pct_held": 1.26,
-        "pct_change": 7.24,
-        "value": 1088318600
+        "value": 1148093644
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 316107,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.84,
-        "pct_change": -0.57,
-        "value": 726097779
+        "shares": 347507,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.93,
+        "pct_change": 9.93,
+        "value": 826371646
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 196016,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.52,
-        "pct_change": 0.41,
-        "value": 450248752
+        "shares": 188316,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.5,
+        "pct_change": -3.93,
+        "value": 447815448
       },
       {
-        "holder": "Goldman Sachs TRT-Goldman Sachs Intl Small Cap Insights Fd.",
-        "shares": 165100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.44,
-        "pct_change": 1.0,
-        "value": 379234700
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 168200,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.45,
+        "pct_change": 17.62,
+        "value": 399979600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
         "shares": 151678,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.4,
         "pct_change": 0.0,
-        "value": 348404366
-      },
-      {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 143000,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.38,
-        "pct_change": 22.75,
-        "value": 328471000
+        "value": 360690284
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -146,15 +139,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 5.82,
-        "value": 313081100
+        "value": 324121400
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 125121,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.33,
-        "pct_change": 41.51,
-        "value": 287402937
+        "pct_change": 0.0,
+        "value": 297537738
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -162,9 +155,16 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.29,
         "pct_change": 10.66,
-        "value": 245549300
+        "value": 254208200
+      },
+      {
+        "holder": "SCHWAB STRATEGIC TRUST-Schwab International Small-Cap Equity ETF",
+        "shares": 71099,
+        "date_reported": "2026-05-31",
+        "pct_held": 0.19,
+        "pct_change": -11.38,
+        "value": 169073422
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

@@ -1,33 +1,33 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:52:44.926820",
+  "fetched_at": "2026-10-01T06:32:04.606250",
   "ticker": "268A",
   "ticker_full": "268A.T",
   "company_name": "RIGAKU HOLDINGS CORPORATION",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
-    "strong_buy": 0,
-    "buy": 1,
+    "period": "2",
+    "strong_buy": 2,
+    "buy": 2,
     "hold": 1,
     "sell": 1,
     "strong_sell": 0,
-    "total_analysts": 3,
+    "total_analysts": 6,
     "recommendation_key": "buy",
     "recommendation_mean": 2.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 1565.0,
+    "current": 1838.0,
     "high": 3200.0,
-    "low": 2000.0,
-    "mean": 2650.0,
-    "median": 2650.0
+    "low": 1300.0,
+    "mean": 2333.3333,
+    "median": 2500.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-11-05",
+      "date": "2026-11-11",
       "eps_estimate": 10.69,
       "eps_actual": null,
       "surprise_pct": null
@@ -56,42 +56,43 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 39.4,
-    "institution_pct": 37.87,
+    "insider_pct": 39.39,
+    "institution_pct": 39.47,
     "major_holders": [
       {
         "label": "",
-        "value": 39.4
+        "value": 39.39
       },
       {
         "label": "",
-        "value": 37.87
+        "value": 39.47
       },
       {
         "label": "",
-        "value": 62.49
+        "value": 65.11
       },
       {
         "label": "",
-        "value": 92.0
+        "value": 95.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
+      {
+        "holder": "Columbia Fd.s Series TRT II-Columbia Seligman Global Technology Fd.",
+        "shares": 2888200,
+        "date_reported": "2026-07-31",
+        "pct_held": 1.27,
+        "pct_change": 22.42,
+        "value": 5308511600
+      },
       {
         "holder": "SmallCap World Fund Inc",
         "shares": 2718000,
         "date_reported": "2026-06-30",
         "pct_held": 1.2,
         "pct_change": 1.01,
-        "value": 4253670000
-      },
-      {
-        "holder": "Columbia Fd.s Series TRT II-Columbia Seligman Global Technology Fd.",
-        "shares": 2359200,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.04,
-        "pct_change": 17.5,
-        "value": 3692148000
+        "value": 4995684000
       },
       {
         "holder": "Columbia Fd.s Series TRT II-Columbia Seligman Technology and Informati",
@@ -99,7 +100,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.88,
         "pct_change": 1.0,
-        "value": 3113880500
+        "value": 3657068600
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -107,7 +108,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.68,
         "pct_change": 2.24,
-        "value": 2420116000
+        "value": 2842283200
+      },
+      {
+        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
+        "shares": 1349600,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.6,
+        "pct_change": 32.43,
+        "value": 2480564800
       },
       {
         "holder": "LAZARD FUNDS INC-Lazard International Strategic Equity Portfolio",
@@ -115,23 +124,23 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.55,
         "pct_change": 1.0,
-        "value": 1940287000
-      },
-      {
-        "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1019100,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.45,
-        "pct_change": 2.37,
-        "value": 1594891500
+        "value": 2278752400
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 927600,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.41,
-        "pct_change": 22.02,
-        "value": 1451694000
+        "shares": 963900,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.43,
+        "pct_change": 3.91,
+        "value": 1771648200
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
+        "shares": 948390,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.42,
+        "pct_change": -1.17,
+        "value": 1743140820
       },
       {
         "holder": "LAZARD FUNDS INC-Lazard International Equity Portfolio",
@@ -139,25 +148,16 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.32,
         "pct_change": 1.0,
-        "value": 1125548000
+        "value": 1321889600
       },
       {
-        "holder": "Fidelity Investment Trust-Fidelity Series International Small Cap Fund",
-        "shares": 620000,
-        "date_reported": "2026-05-31",
-        "pct_held": 0.27,
-        "pct_change": 0.0,
-        "value": 970300000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 527100,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.23,
-        "pct_change": 33.31,
-        "value": 824911500
+        "holder": "Fidelity Investment TRT-Fidelity Intl Small Cap Opportunities Fd.",
+        "shares": 651200,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.29,
+        "pct_change": 10.86,
+        "value": 1196905600
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

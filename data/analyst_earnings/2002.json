@@ -1,15 +1,15 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:57:21.337917",
+  "fetched_at": "2026-10-01T06:36:18.868767",
   "ticker": "2002",
   "ticker_full": "2002.T",
   "company_name": "NISSHIN SEIFUN GROUP INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "1",
     "strong_buy": 0,
-    "buy": 1,
-    "hold": 4,
+    "buy": 0,
+    "hold": 5,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 5,
@@ -18,7 +18,7 @@
   },
   "target_prices": {
     "has_data": true,
-    "current": 2058.0,
+    "current": 1983.0,
     "high": 2150.0,
     "low": 2000.0,
     "mean": 2090.0,
@@ -27,7 +27,7 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-10-29",
+      "date": "2026-10-28",
       "eps_estimate": 29.33,
       "eps_actual": null,
       "surprise_pct": null
@@ -68,82 +68,75 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 17.2,
-    "institution_pct": 43.66,
+    "insider_pct": 16.87,
+    "institution_pct": 43.72,
     "major_holders": [
       {
         "label": "",
-        "value": 17.2
+        "value": 16.87
       },
       {
         "label": "",
-        "value": 43.66
+        "value": 43.72
       },
       {
         "label": "",
-        "value": 52.73
+        "value": 52.6
       },
       {
         "label": "",
-        "value": 142.0
+        "value": 144.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 3554692,
         "date_reported": "2026-04-30",
         "pct_held": 1.27,
         "pct_change": -0.62,
-        "value": 7317333482
+        "value": 7048954236
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 2287819,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.82,
-        "pct_change": 2.72,
-        "value": 4709475411
+        "shares": 2259919,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.81,
+        "pct_change": -1.22,
+        "value": 4481419377
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1556600,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.55,
-        "pct_change": 0.0,
-        "value": 3204261100
+        "shares": 1563200,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.56,
+        "pct_change": 0.42,
+        "value": 3099825600
       },
       {
         "holder": "Fidelity Salem Street TRT-Fidelity SAI Intl Low Volatility Index Fd.",
         "shares": 1242200,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.44,
-        "pct_change": 3.17,
-        "value": 2557068700
+        "pct_change": 0.0,
+        "value": 2463282600
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 803500,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.29,
-        "pct_change": -0.25,
-        "value": 1654004750
+        "shares": 729800,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.26,
+        "pct_change": -9.17,
+        "value": 1447193400
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Value ETF",
-        "shares": 588100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.21,
-        "pct_change": 14.15,
-        "value": 1210603850
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 576400,
+        "shares": 592100,
         "date_reported": "2026-07-31",
         "pct_held": 0.21,
-        "pct_change": 0.49,
-        "value": 1186519400
+        "pct_change": 0.68,
+        "value": 1174134300
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -151,7 +144,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.19,
         "pct_change": 0.0,
-        "value": 1071869184
+        "value": 1032556032
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -159,7 +152,15 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.19,
         "pct_change": 2.87,
-        "value": 1098215925
+        "value": 1057936449
+      },
+      {
+        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
+        "shares": 543200,
+        "date_reported": "2026-08-31",
+        "pct_held": 0.19,
+        "pct_change": -5.76,
+        "value": 1077165600
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -167,9 +168,8 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.18,
         "pct_change": 3.62,
-        "value": 1067795412
+        "value": 1028631675
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

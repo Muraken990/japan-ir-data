@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:53:02.176437",
+  "fetched_at": "2026-10-01T06:32:16.693854",
   "ticker": "4118",
   "ticker_full": "4118.T",
   "company_name": "KANEKA CORP",
@@ -13,21 +13,21 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 6,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 6302.0,
-    "high": 6000.0,
+    "current": 6048.0,
+    "high": 6300.0,
     "low": 4550.0,
-    "mean": 5391.6665,
-    "median": 5650.0
+    "mean": 5541.6665,
+    "median": 5850.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-11-19",
+      "date": "2026-11-12",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -69,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 8.95,
-    "institution_pct": 42.15,
+    "institution_pct": 42.4,
     "major_holders": [
       {
         "label": "",
@@ -77,33 +77,26 @@
       },
       {
         "label": "",
-        "value": 42.15
+        "value": 42.4
       },
       {
         "label": "",
-        "value": 46.29
+        "value": 46.57
       },
       {
         "label": "",
-        "value": 108.0
+        "value": 109.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "American Century ETF Trust-Avantis International Small Cap Value ETF",
-        "shares": 1124400,
-        "date_reported": "2026-06-30",
-        "pct_held": 1.78,
-        "pct_change": 2.16,
-        "value": 7085968800
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
-        "shares": 680600,
-        "date_reported": "2026-04-30",
-        "pct_held": 1.08,
-        "pct_change": 0.0,
-        "value": 4289141200
+        "shares": 1182000,
+        "date_reported": "2026-08-31",
+        "pct_held": 1.88,
+        "pct_change": 2.4,
+        "value": 7148736000
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -111,15 +104,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.08,
         "pct_change": 0.0,
-        "value": 4284502928
+        "value": 4111817472
+      },
+      {
+        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-DFA Intl Small Cap Value PORT.",
+        "shares": 680600,
+        "date_reported": "2026-07-31",
+        "pct_held": 1.08,
+        "pct_change": 0.0,
+        "value": 4116268800
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 463944,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.74,
-        "pct_change": 2.29,
-        "value": 2923775088
+        "pct_change": 0.0,
+        "value": 2805933312
       },
       {
         "holder": "Victory Portfolios-Victory Trivalent International Small-Cap Fund",
@@ -127,7 +128,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.5,
         "pct_change": 0.0,
-        "value": 1994583000
+        "value": 1914192000
       },
       {
         "holder": "Templeton Global Smaller Companies Fund",
@@ -135,23 +136,31 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.48,
         "pct_change": -15.31,
-        "value": 1906985200
+        "value": 1830124800
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 257500,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.41,
         "pct_change": 0.0,
-        "value": 1622765000
+        "value": 1557360000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 188400,
-        "date_reported": "2026-04-30",
+        "shares": 192600,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.31,
+        "pct_change": 2.23,
+        "value": 1164844800
+      },
+      {
+        "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
+        "shares": 187800,
+        "date_reported": "2026-07-31",
         "pct_held": 0.3,
-        "pct_change": 5.66,
-        "value": 1187296800
+        "pct_change": 17.16,
+        "value": 1135814400
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab Fundamental International Equity ETF",
@@ -159,17 +168,8 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.29,
         "pct_change": -6.79,
-        "value": 1135166656
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 161000,
-        "date_reported": "2026-07-31",
-        "pct_held": 0.26,
-        "pct_change": 0.5,
-        "value": 1014622000
+        "value": 1089414144
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

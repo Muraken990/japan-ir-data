@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:39:15.701305",
+  "fetched_at": "2026-10-01T06:18:18.995624",
   "ticker": "9348",
   "ticker_full": "9348.T",
   "company_name": "ISPACE INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "2",
+    "period": "3",
     "strong_buy": 0,
     "buy": 0,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 0,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "sell",
+    "recommendation_mean": 5.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 425.0,
+    "current": 410.0,
     "high": 350.0,
     "low": 350.0,
     "mean": 350.0,
@@ -29,34 +29,35 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 27.43,
-    "institution_pct": 12.76,
+    "insider_pct": 27.42,
+    "institution_pct": 12.78,
     "major_holders": [
       {
         "label": "",
-        "value": 27.43
+        "value": 27.42
       },
       {
         "label": "",
-        "value": 12.76
+        "value": 12.78
       },
       {
         "label": "",
-        "value": 17.58
+        "value": 17.61
       },
       {
         "label": "",
-        "value": 17.0
+        "value": 19.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "Procure ETF Trust II-Procure Space ETF",
-        "shares": 961051,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.66,
-        "pct_change": 63.54,
-        "value": 408446675
+        "shares": 556351,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.38,
+        "pct_change": -42.11,
+        "value": 228103910
       },
       {
         "holder": "-Roundhill Space & Technology ETF",
@@ -64,15 +65,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.15,
         "pct_change": 4.35,
-        "value": 95497500
+        "value": 92127000
       },
       {
         "holder": "-Global X Space Tech ETF",
-        "shares": 83902,
-        "date_reported": "2026-07-31",
+        "shares": 83794,
+        "date_reported": "2026-08-31",
         "pct_held": 0.06,
-        "pct_change": -21.16,
-        "value": 35658350
+        "pct_change": -0.13,
+        "value": 34355540
       },
       {
         "holder": "SPDR INDEX SHARES Fd.S-State Street SPDR S&P Intl Small Cap ETF",
@@ -80,9 +81,16 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.03,
         "pct_change": 1.27,
-        "value": 20357500
+        "value": 19639000
+      },
+      {
+        "holder": "-WisdomTree Space Economy Fund",
+        "shares": 4400,
+        "date_reported": "2026-08-31",
+        "pct_held": 0.0,
+        "pct_change": -4.35,
+        "value": 1804000
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

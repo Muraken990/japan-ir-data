@@ -1,28 +1,28 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:46:56.145144",
+  "fetched_at": "2026-10-01T06:25:35.562855",
   "ticker": "6523",
   "ticker_full": "6523.T",
   "company_name": "PHC HLDGS CORP",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "3",
+    "period": "2",
     "strong_buy": 1,
     "buy": 1,
-    "hold": 5,
+    "hold": 4,
     "sell": 0,
-    "strong_sell": 0,
+    "strong_sell": 1,
     "total_analysts": 7,
-    "recommendation_key": "hold",
-    "recommendation_mean": 2.71429
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 1589.0,
-    "high": 2100.0,
+    "current": 1685.0,
+    "high": 3000.0,
     "low": 1000.0,
-    "mean": 1357.1428,
-    "median": 1250.0
+    "mean": 1591.6666,
+    "median": 1425.0
   },
   "earnings_dates": {
     "has_data": true,
@@ -68,82 +68,99 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 65.87,
-    "institution_pct": 8.1,
+    "insider_pct": 64.83,
+    "institution_pct": 7.89,
     "major_holders": [
       {
         "label": "",
-        "value": 65.87
+        "value": 64.83
       },
       {
         "label": "",
-        "value": 8.1
+        "value": 7.89
       },
       {
         "label": "",
-        "value": 23.74
+        "value": 22.43
       },
       {
         "label": "",
-        "value": 59.0
+        "value": 62.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 549599,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.43,
+        "pct_change": 25.55,
+        "value": 926074315
+      },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 406289,
         "date_reported": "2026-04-30",
         "pct_held": 0.32,
         "pct_change": 0.0,
-        "value": 645593221
+        "value": 684596965
       },
       {
         "holder": "WisdomTree Trust-WisdomTree Japan Hedged Equity Fund",
-        "shares": 352000,
-        "date_reported": "2026-07-31",
-        "pct_held": 0.28,
-        "pct_change": 0.46,
-        "value": 559328000
+        "shares": 348400,
+        "date_reported": "2026-08-31",
+        "pct_held": 0.27,
+        "pct_change": -1.02,
+        "value": 587054000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 260198,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.2,
-        "pct_change": 11.15,
-        "value": 413454622
+        "shares": 334198,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.26,
+        "pct_change": 28.44,
+        "value": 563123630
       },
       {
-        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
-        "shares": 149496,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.12,
-        "pct_change": 32.53,
-        "value": 237549144
+        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
+        "shares": 263500,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.21,
+        "pct_change": 1.0,
+        "value": 443997500
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap Value ETF",
-        "shares": 149900,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.12,
-        "pct_change": 16.11,
-        "value": 238191100
+        "shares": 219200,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.17,
+        "pct_change": 46.23,
+        "value": 369352000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 131700,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.1,
         "pct_change": 0.0,
-        "value": 209271300
+        "value": 221914500
+      },
+      {
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 131996,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.1,
+        "pct_change": -11.71,
+        "value": 222413260
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
         "shares": 117700,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.09,
         "pct_change": 0.0,
-        "value": 187025300
+        "value": 198324500
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -151,25 +168,8 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.08,
         "pct_change": 0.0,
-        "value": 158741100
-      },
-      {
-        "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
-        "shares": 95100,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.07,
-        "pct_change": -19.61,
-        "value": 151113900
-      },
-      {
-        "holder": "WisdomTree Trust-WisdomTree Japan SmallCap Dividend Fund",
-        "shares": 78300,
-        "date_reported": "2026-07-31",
-        "pct_held": 0.06,
-        "pct_change": 0.0,
-        "value": 124418700
+        "value": 168331500
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

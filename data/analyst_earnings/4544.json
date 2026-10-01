@@ -1,27 +1,27 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:49:30.131065",
+  "fetched_at": "2026-10-01T06:28:52.444589",
   "ticker": "4544",
   "ticker_full": "4544.T",
   "company_name": "H.U. GROUP HLDGS INC",
   "analyst_recommendations": {
     "has_data": true,
     "period": "3",
-    "strong_buy": 1,
+    "strong_buy": 0,
     "buy": 1,
     "hold": 0,
     "sell": 1,
-    "strong_sell": 0,
+    "strong_sell": 1,
     "total_analysts": 3,
-    "recommendation_key": "hold",
-    "recommendation_mean": 3.33333
+    "recommendation_key": "none",
+    "recommendation_mean": null
   },
   "target_prices": {
     "has_data": true,
-    "current": 3636.0,
-    "high": 3820.0,
+    "current": 3522.0,
+    "high": 3690.0,
     "low": 2400.0,
-    "mean": 3190.0,
+    "mean": 3146.6667,
     "median": 3350.0
   },
   "earnings_dates": {
@@ -69,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 0.02,
-    "institution_pct": 61.99,
+    "institution_pct": 61.97,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +77,26 @@
       },
       {
         "label": "",
-        "value": 61.99
+        "value": 61.97
       },
       {
         "label": "",
-        "value": 62.0
+        "value": 61.98
       },
       {
         "label": "",
         "value": 93.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "Datum One Series Trust-BRANDES INTERNATIONAL SMALL CAP EQUITY FUND",
         "shares": 1469200,
         "date_reported": "2026-06-30",
         "pct_held": 2.56,
         "pct_change": -2.29,
-        "value": 5342011200
+        "value": 5174522400
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -103,7 +104,7 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.42,
         "pct_change": 0.0,
-        "value": 2976807744
+        "value": 2883475488
       },
       {
         "holder": "GMO TRUST-GMO-Usonian Japan Value Creation Fund",
@@ -111,23 +112,23 @@
         "date_reported": "2026-05-31",
         "pct_held": 1.04,
         "pct_change": 0.0,
-        "value": 2175055200
+        "value": 2106860400
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 526953,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.92,
-        "pct_change": -0.17,
-        "value": 1916001108
+        "shares": 536853,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.93,
+        "pct_change": 1.88,
+        "value": 1890796266
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
         "shares": 349600,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.61,
         "pct_change": 0.0,
-        "value": 1271145600
+        "value": 1231291200
       },
       {
         "holder": "GMO TRUST-GMO Implementation Fund",
@@ -135,15 +136,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.55,
         "pct_change": 0.0,
-        "value": 1146430800
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 218000,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.38,
-        "pct_change": -0.27,
-        "value": 792648000
+        "value": 1110486600
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -151,15 +144,23 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.36,
         "pct_change": 1.38,
-        "value": 748652400
+        "value": 725179800
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 196800,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.34,
+        "pct_change": -9.72,
+        "value": 693129600
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 192600,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.33,
-        "pct_change": 28.14,
-        "value": 700293600
+        "pct_change": 0.0,
+        "value": 678337200
       },
       {
         "holder": "GMO TRUST-GMO Benchmark-Free Fund",
@@ -167,9 +168,8 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.26,
         "pct_change": 0.0,
-        "value": 543945600
+        "value": 526891200
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

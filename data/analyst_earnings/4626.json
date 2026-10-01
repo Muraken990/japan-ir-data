@@ -1,23 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:57:20.327370",
+  "fetched_at": "2026-10-01T06:36:17.615465",
   "ticker": "4626",
   "ticker_full": "4626.T",
   "company_name": "TAIYO HLDG CO LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "recommendation_key": "none",
-    "recommendation_mean": null,
+    "period": "0",
+    "strong_buy": 0,
+    "buy": 0,
+    "hold": 1,
+    "sell": 0,
+    "strong_sell": 0,
     "total_analysts": 1,
-    "strong_buy": null,
-    "buy": null,
-    "hold": null,
-    "sell": null,
-    "strong_sell": null
+    "recommendation_key": "hold",
+    "recommendation_mean": 3.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 4740.0,
+    "current": 4830.0,
     "high": 5000.0,
     "low": 5000.0,
     "mean": 5000.0,
@@ -26,7 +27,7 @@
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -68,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 29.52,
-    "institution_pct": 40.67,
+    "institution_pct": 40.5,
     "major_holders": [
       {
         "label": "",
@@ -76,81 +77,74 @@
       },
       {
         "label": "",
-        "value": 40.67
+        "value": 40.5
       },
       {
         "label": "",
-        "value": 57.7
+        "value": 57.47
       },
       {
         "label": "",
         "value": 96.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 1111036,
         "date_reported": "2026-04-30",
         "pct_held": 0.95,
         "pct_change": 0.62,
-        "value": 5266310640
+        "value": 5366303880
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 741418,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.63,
-        "pct_change": 2.73,
-        "value": 3514321320
+        "shares": 724318,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.62,
+        "pct_change": -2.31,
+        "value": 3498455940
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 595800,
-        "date_reported": "2026-06-30",
+        "shares": 599100,
+        "date_reported": "2026-07-31",
         "pct_held": 0.51,
-        "pct_change": 0.0,
-        "value": 2824092000
+        "pct_change": 0.55,
+        "value": 2893653000
+      },
+      {
+        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
+        "shares": 577000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.49,
+        "pct_change": 1.92,
+        "value": 2786910000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 431800,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.37,
         "pct_change": 0.0,
-        "value": 2046732000
+        "value": 2085594000
       },
       {
         "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 311700,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.27,
-        "pct_change": -0.26,
-        "value": 1477458000
+        "shares": 279700,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.24,
+        "pct_change": -10.27,
+        "value": 1350951000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 257800,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.22,
         "pct_change": 0.0,
-        "value": 1221972000
-      },
-      {
-        "holder": "TIAA-CREF Funds-Nuveen Quant International Small Cap Equity Fund",
-        "shares": 231700,
-        "date_reported": "2026-04-30",
-        "pct_held": 0.2,
-        "pct_change": 2.2,
-        "value": 1098258000
-      },
-      {
-        "holder": "College Retirement Equities Fd.-College Retirement Equities Fd. - Tota",
-        "shares": 197500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.17,
-        "pct_change": -0.85,
-        "value": 936150000
+        "value": 1245174000
       },
       {
         "holder": "SCHWAB STRATEGIC TRUST-Schwab International Equity ETF",
@@ -158,7 +152,7 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.16,
         "pct_change": 2.77,
-        "value": 892101180
+        "value": 909039810
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Index Fd.",
@@ -166,9 +160,16 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.15,
         "pct_change": 3.58,
-        "value": 822390000
+        "value": 838005000
+      },
+      {
+        "holder": "iShares Trust-iShares Core MSCI Total International Stock ETF",
+        "shares": 124000,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.11,
+        "pct_change": 0.0,
+        "value": 598920000
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

@@ -1,33 +1,33 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:43:35.803046",
+  "fetched_at": "2026-10-01T06:22:22.487723",
   "ticker": "4971",
   "ticker_full": "4971.T",
   "company_name": "MEC COMPANY LTD",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "1",
+    "period": "2",
     "strong_buy": 1,
-    "buy": 2,
-    "hold": 0,
+    "buy": 1,
+    "hold": 1,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.5
   },
   "target_prices": {
     "has_data": true,
-    "current": 6620.0,
-    "high": 13000.0,
-    "low": 9500.0,
-    "mean": 11250.0,
-    "median": 11250.0
+    "current": 7160.0,
+    "high": 9500.0,
+    "low": 7800.0,
+    "mean": 8650.0,
+    "median": 8650.0
   },
   "earnings_dates": {
     "has_data": true,
     "next_earnings": {
-      "date": "2026-11-09",
+      "date": "2026-11-11",
       "eps_estimate": null,
       "eps_actual": null,
       "surprise_pct": null
@@ -69,7 +69,7 @@
   "shareholders": {
     "has_data": true,
     "insider_pct": 14.86,
-    "institution_pct": 46.3,
+    "institution_pct": 43.49,
     "major_holders": [
       {
         "label": "",
@@ -77,25 +77,26 @@
       },
       {
         "label": "",
-        "value": 46.3
+        "value": 43.49
       },
       {
         "label": "",
-        "value": 54.38
+        "value": 51.08
       },
       {
         "label": "",
-        "value": 83.0
+        "value": 82.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
         "shares": 209370,
         "date_reported": "2026-04-30",
         "pct_held": 1.07,
         "pct_change": -1.23,
-        "value": 1386029400
+        "value": 1499089200
       },
       {
         "holder": "Manager Directed Portfolios-Hood River International Opportunity Fund",
@@ -103,31 +104,31 @@
         "date_reported": "2026-07-31",
         "pct_held": 1.02,
         "pct_change": -7.97,
-        "value": 1323338000
+        "value": 1431284000
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
         "shares": 143394,
-        "date_reported": "2026-03-31",
+        "date_reported": "2026-06-30",
         "pct_held": 0.73,
-        "pct_change": 2.72,
-        "value": 949268280
+        "pct_change": 0.0,
+        "value": 1026701040
       },
       {
         "holder": "Fidelity Investment Trust-Fidelity Japan Fund",
         "shares": 128600,
-        "date_reported": "2026-06-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.66,
         "pct_change": 0.0,
-        "value": 851332000
+        "value": 920776000
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 88900,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.45,
-        "pct_change": 35.52,
-        "value": 588518000
+        "shares": 97700,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.5,
+        "pct_change": 9.9,
+        "value": 699532000
       },
       {
         "holder": "Dimensional ETF Trust-Dimensional International Small Cap ETF",
@@ -135,23 +136,15 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.35,
         "pct_change": 14.67,
-        "value": 455456000
-      },
-      {
-        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
-        "shares": 60600,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.31,
-        "pct_change": 5.39,
-        "value": 401172000
+        "value": 492608000
       },
       {
         "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
         "shares": 57800,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.3,
         "pct_change": 0.0,
-        "value": 382636000
+        "value": 413848000
       },
       {
         "holder": "VANGUARD Intl Eqy. INDEX Fd.S-Vanguard FTSE All-World ex-US Small-Cap ",
@@ -159,17 +152,24 @@
         "date_reported": "2026-04-30",
         "pct_held": 0.28,
         "pct_change": 1.47,
-        "value": 365424000
+        "value": 395232000
+      },
+      {
+        "holder": "iShares Trust-iShares MSCI EAFE Small-Cap ETF",
+        "shares": 52600,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.27,
+        "pct_change": -13.2,
+        "value": 376616000
       },
       {
         "holder": "DFA INVESTMENT DIMENSIONS GROUP INC-Intl Core Eqy. 2 PORT.",
         "shares": 52600,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 0.27,
         "pct_change": 0.0,
-        "value": 348212000
+        "value": 376616000
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

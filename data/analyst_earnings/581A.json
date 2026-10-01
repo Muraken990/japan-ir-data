@@ -1,24 +1,24 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T04:42:49.599435",
+  "fetched_at": "2026-10-01T05:25:52.813645",
   "ticker": "581A",
   "ticker_full": "581A.T",
   "company_name": "GO INC",
   "analyst_recommendations": {
     "has_data": true,
-    "period": "0",
+    "period": "1",
     "strong_buy": 1,
     "buy": 2,
     "hold": 0,
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 3,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.33333
   },
   "target_prices": {
     "has_data": true,
-    "current": 4385.0,
+    "current": 3390.0,
     "high": 4200.0,
     "low": 3400.0,
     "mean": 3833.3333,
@@ -29,34 +29,35 @@
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 50.49,
-    "institution_pct": 16.57,
+    "insider_pct": 50.34,
+    "institution_pct": 17.29,
     "major_holders": [
       {
         "label": "",
-        "value": 50.49
+        "value": 50.34
       },
       {
         "label": "",
-        "value": 16.57
+        "value": 17.29
       },
       {
         "label": "",
-        "value": 33.46
+        "value": 34.82
       },
       {
         "label": "",
         "value": 24.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "Matthews International Funds-MATTHEWS JAPAN FUND",
         "shares": 446200,
         "date_reported": "2026-06-30",
         "pct_held": 0.55,
         "pct_change": 1.0,
-        "value": 1956587000
+        "value": 1512618000
       },
       {
         "holder": "MFS Series Trust V-MFS International New Discovery Fund",
@@ -64,7 +65,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.4,
         "pct_change": 1.0,
-        "value": 1429948500
+        "value": 1105479000
       },
       {
         "holder": "THORNBURG INVESTMENT TRUST-Thornburg Better World International Fund",
@@ -72,15 +73,23 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.32,
         "pct_change": 1.0,
-        "value": 1140100000
+        "value": 881400000
       },
       {
         "holder": "Fidelity Rutland Square Trust II-Strategic Advisers International Fund",
-        "shares": 185300,
+        "shares": 181600,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.22,
+        "pct_change": -2.0,
+        "value": 615624000
+      },
+      {
+        "holder": "Fidelity Investment Trust-Fidelity Japan Smaller Companies Fund",
+        "shares": 83000,
         "date_reported": "2026-06-30",
-        "pct_held": 0.23,
+        "pct_held": 0.1,
         "pct_change": 1.0,
-        "value": 812540500
+        "value": 281370000
       },
       {
         "holder": "BlackRock Funds V-BlackRock Strategic Income Opportunities Portfolio",
@@ -88,7 +97,15 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.05,
         "pct_change": 1.0,
-        "value": 171453500
+        "value": 132549000
+      },
+      {
+        "holder": "Guidestone Funds-INTERNATIONAL EQUITY FUND",
+        "shares": 33000,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.04,
+        "pct_change": 1.0,
+        "value": 111870000
       },
       {
         "holder": "Federated Hermes Income Securities TRT-Federated Hermes Muni and Stock",
@@ -96,7 +113,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.02,
         "pct_change": 1.0,
-        "value": 66652000
+        "value": 51528000
       },
       {
         "holder": "-American Century Federated Managed Volatility Fund II",
@@ -104,15 +121,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.01,
         "pct_change": 1.0,
-        "value": 41657500
-      },
-      {
-        "holder": "Federated Hermes Income Securities TRT-Federated Hermes Capital Income",
-        "shares": 7100,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.01,
-        "pct_change": 1.0,
-        "value": 31133500
+        "value": 32205000
       },
       {
         "holder": "Federated Hermes Insurance Series-Federated Hermes Mnged Volatility Fd",
@@ -120,17 +129,8 @@
         "date_reported": "2026-06-30",
         "pct_held": 0.01,
         "pct_change": 1.0,
-        "value": 41657500
-      },
-      {
-        "holder": "Federated Hermes Equity Funds-Federated Hermes Prudent Bear Fund",
-        "shares": 6400,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.01,
-        "pct_change": 1.0,
-        "value": 28064000
+        "value": 32205000
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }

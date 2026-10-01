@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-09-01T05:56:09.198802",
+  "fetched_at": "2026-10-01T06:34:25.895367",
   "ticker": "4613",
   "ticker_full": "4613.T",
   "company_name": "KANSAI PAINT CO LTD",
@@ -13,51 +13,90 @@
     "sell": 0,
     "strong_sell": 0,
     "total_analysts": 8,
-    "recommendation_key": "none",
-    "recommendation_mean": null
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.0
   },
   "target_prices": {
     "has_data": true,
-    "current": 2872.5,
-    "high": 3500.0,
-    "low": 2600.0,
-    "mean": 2938.75,
-    "median": 2850.0
+    "current": 2813.5,
+    "high": 3900.0,
+    "low": 2730.0,
+    "mean": 3203.75,
+    "median": 3050.0
   },
   "earnings_dates": {
-    "has_data": false,
-    "error": "['Earnings Date']"
+    "has_data": true,
+    "next_earnings": {
+      "date": "2026-11-06",
+      "eps_estimate": 41.42,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    "future_count": 1,
+    "past_earnings": [
+      {
+        "date": "2026-08-06",
+        "eps_estimate": 30.67,
+        "eps_actual": 36.82,
+        "surprise_pct": 20.07
+      },
+      {
+        "date": "2026-05-11",
+        "eps_estimate": 0.1,
+        "eps_actual": 9.44,
+        "surprise_pct": 9559.27
+      },
+      {
+        "date": "2026-02-09",
+        "eps_estimate": 40.87,
+        "eps_actual": 78.33,
+        "surprise_pct": 91.68
+      },
+      {
+        "date": "2025-11-06",
+        "eps_estimate": 41.42,
+        "eps_actual": 43.75,
+        "surprise_pct": 5.63
+      },
+      {
+        "date": "2025-08-07",
+        "eps_estimate": 52.25,
+        "eps_actual": 48.13,
+        "surprise_pct": -7.88
+      }
+    ]
   },
   "shareholders": {
     "has_data": true,
-    "insider_pct": 7.36,
-    "institution_pct": 67.28,
+    "insider_pct": 8.05,
+    "institution_pct": 72.51,
     "major_holders": [
       {
         "label": "",
-        "value": 7.36
+        "value": 8.05
       },
       {
         "label": "",
-        "value": 67.28
+        "value": 72.51
       },
       {
         "label": "",
-        "value": 72.62
+        "value": 78.86
       },
       {
         "label": "",
         "value": 154.0
       }
     ],
-    "institutional_holders": [
+    "institutional_holders": [],
+    "mutualfund_holders": [
       {
         "holder": "First Eagle Funds-First Eagle Overseas Fund",
         "shares": 11635930,
-        "date_reported": "2026-04-30",
+        "date_reported": "2026-07-31",
         "pct_held": 6.54,
         "pct_change": 0.0,
-        "value": 33424208925
+        "value": 32737689055
       },
       {
         "holder": "SmallCap World Fund Inc",
@@ -65,7 +104,7 @@
         "date_reported": "2026-06-30",
         "pct_held": 3.62,
         "pct_change": 37.3,
-        "value": 18504932250
+        "value": 18124848350
       },
       {
         "holder": "VANGUARD STAR FUNDS-Vanguard Total International Stock Index Fund",
@@ -73,31 +112,31 @@
         "date_reported": "2026-04-30",
         "pct_held": 1.3,
         "pct_change": 1.19,
-        "value": 6640909770
+        "value": 6504508142
       },
       {
         "holder": "VANGUARD TAX-MANAGED FUNDS-Vanguard Developed Markets Index Fund",
-        "shares": 1548673,
-        "date_reported": "2026-03-31",
+        "shares": 1556473,
+        "date_reported": "2026-06-30",
         "pct_held": 0.87,
-        "pct_change": 3.32,
-        "value": 4448563192
+        "pct_change": 0.5,
+        "value": 4379136785
+      },
+      {
+        "holder": "Artisan Partners Funds Inc.-Artisan International Explorer Fund",
+        "shares": 1476345,
+        "date_reported": "2026-06-30",
+        "pct_held": 0.83,
+        "pct_change": 26.82,
+        "value": 4153696657
       },
       {
         "holder": "Fidelity Puritan Trust-Fidelity Low-Priced Stock Fund",
         "shares": 1431254,
-        "date_reported": "2026-05-31",
+        "date_reported": "2026-07-31",
         "pct_held": 0.8,
-        "pct_change": -0.13,
-        "value": 4111277115
-      },
-      {
-        "holder": "Artisan Partners Funds Inc.-Artisan International Explorer Fund",
-        "shares": 1164145,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.65,
-        "pct_change": 9.67,
-        "value": 3344006512
+        "pct_change": 0.0,
+        "value": 4026833129
       },
       {
         "holder": "-First Eagle Overseas Equity ETF",
@@ -105,33 +144,32 @@
         "date_reported": "2026-05-31",
         "pct_held": 0.6,
         "pct_change": 53.66,
-        "value": 3079607250
+        "value": 3016353350
       },
       {
         "holder": "iShares Trust-iShares Core MSCI EAFE ETF",
-        "shares": 1034600,
-        "date_reported": "2026-06-30",
+        "shares": 1037900,
+        "date_reported": "2026-07-31",
         "pct_held": 0.58,
-        "pct_change": 0.0,
-        "value": 2971888500
+        "pct_change": 0.32,
+        "value": 2920131650
       },
       {
         "holder": "-SSgA SPDR ETFS Europe I-SPDR S&P Glbl Div Aristocrats UCITS ETF",
-        "shares": 868600,
-        "date_reported": "2026-06-30",
-        "pct_held": 0.49,
-        "pct_change": 2.89,
-        "value": 2495053500
+        "shares": 916100,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.51,
+        "pct_change": 5.47,
+        "value": 2577447350
       },
       {
-        "holder": "AMERICAN FUNDS INSURANCE SERIES-SMALLCAP World Fund",
-        "shares": 729500,
-        "date_reported": "2026-03-31",
-        "pct_held": 0.41,
-        "pct_change": 1.0,
-        "value": 2095488750
+        "holder": "DFA INVESTMENT TRUST CO-The Japanese Small Company Series",
+        "shares": 673403,
+        "date_reported": "2026-07-31",
+        "pct_held": 0.38,
+        "pct_change": 14.21,
+        "value": 1894619340
       }
-    ],
-    "mutualfund_holders": []
+    ]
   }
 }
