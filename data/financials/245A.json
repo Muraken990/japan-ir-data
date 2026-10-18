@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-10-11T05:24:21.401156",
+  "fetched_at": "2026-10-18T04:12:30.774761",
   "ticker": "245A",
   "ticker_full": "245A.T",
   "company_name": "INGS INC",
@@ -10,7 +10,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Restaurants",
     "website": "https://ingsinc.co.jp",
-    "employees": 334,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "3rd floor, La Vertie Shinjuku",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2493.8,
-      "deviation": 0.37,
-      "trend": "up"
+      "ma_value": 2506.8,
+      "deviation": -0.67,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2508.16,
-      "deviation": -0.21,
+      "ma_value": 2500.68,
+      "deviation": -0.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2467.15,
-      "deviation": 1.45,
+      "ma_value": 2460.23,
+      "deviation": 1.21,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2604.93,
-      "deviation": -3.91,
+      "ma_value": 2568.53,
+      "deviation": -3.06,
       "trend": "down"
     }
   },
@@ -192,7 +192,13 @@
     "has_data": true
   },
   "dividends": {
-    "history": [],
-    "has_data": false
+    "history": [
+      {
+        "year": 2026,
+        "amount": 31.0
+      }
+    ],
+    "latest": 31.0,
+    "has_data": true
   }
 }
