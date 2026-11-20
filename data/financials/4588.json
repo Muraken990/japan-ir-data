@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:35:58.805242",
+  "fetched_at": "2026-11-20T14:40:20.251576",
   "ticker": "4588",
   "ticker_full": "4588.T",
   "company_name": "ONCOLYS BIOPHARMA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 7718.0,
-      "deviation": 8.97,
-      "trend": "up"
+      "ma_value": 7450.0,
+      "deviation": -6.85,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6677.6,
-      "deviation": 25.94,
-      "trend": "up"
+      "ma_value": 7035.6,
+      "deviation": -1.36,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5177.35,
-      "deviation": 62.44,
+      "ma_value": 5508.07,
+      "deviation": 26.0,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3521.32,
-      "deviation": 138.83,
+      "ma_value": 3661.8,
+      "deviation": 89.52,
       "trend": "up"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2024-12-31",
+      "status": "no_dividend"
+    }
   }
 }

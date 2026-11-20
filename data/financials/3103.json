@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:44.299923",
+  "fetched_at": "2026-11-20T14:27:54.447627",
   "ticker": "3103",
   "ticker_full": "3103.T",
   "company_name": "UNITIKA LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1232.0,
-      "deviation": -1.38,
+      "ma_value": 1047.6,
+      "deviation": -6.83,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1255.64,
-      "deviation": -3.24,
+      "ma_value": 1185.72,
+      "deviation": -17.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1316.87,
-      "deviation": -7.74,
+      "ma_value": 1332.61,
+      "deviation": -26.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1357.19,
-      "deviation": -10.48,
+      "ma_value": 1374.08,
+      "deviation": -28.97,
       "trend": "down"
     }
   },
@@ -192,25 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2005,
-        "amount": 20.0
-      },
-      {
-        "year": 2006,
-        "amount": 20.0
-      },
-      {
-        "year": 2007,
-        "amount": 20.0
-      },
-      {
-        "year": 2008,
-        "amount": 20.0
-      }
-    ],
-    "latest": 20.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

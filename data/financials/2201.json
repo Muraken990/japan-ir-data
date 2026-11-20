@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:18.049900",
+  "fetched_at": "2026-11-20T15:00:47.744227",
   "ticker": "2201",
   "ticker_full": "2201.T",
   "company_name": "MORINAGA & CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2471.1,
-      "deviation": -0.41,
+      "ma_value": 2535.12,
+      "deviation": -1.88,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2433.08,
-      "deviation": 1.15,
+      "ma_value": 2457.58,
+      "deviation": 1.22,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2475.32,
-      "deviation": -0.58,
-      "trend": "down"
+      "ma_value": 2464.35,
+      "deviation": 0.94,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2569.0,
-      "deviation": -4.2,
+      "ma_value": 2564.85,
+      "deviation": -3.02,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 45.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 92.5
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 67.5
+        "amount": 65.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 65.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

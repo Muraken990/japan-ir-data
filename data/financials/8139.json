@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:24.701591",
+  "fetched_at": "2026-11-20T14:38:01.376689",
   "ticker": "8139",
   "ticker_full": "8139.T",
   "company_name": "NAGAHORI CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2314.0,
-      "deviation": -0.22,
-      "trend": "down"
+      "ma_value": 2310.6,
+      "deviation": 1.4,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2325.32,
-      "deviation": -0.7,
-      "trend": "down"
+      "ma_value": 2323.16,
+      "deviation": 0.85,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2249.96,
-      "deviation": 2.62,
+      "ma_value": 2260.52,
+      "deviation": 3.65,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2206.11,
-      "deviation": 4.66,
+      "ma_value": 2209.45,
+      "deviation": 6.04,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

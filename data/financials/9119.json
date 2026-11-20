@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:53:29.950394",
+  "fetched_at": "2026-11-20T14:57:03.168490",
   "ticker": "9119",
   "ticker_full": "9119.T",
   "company_name": "IINO KAIUN KAISHA",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1613.2,
-      "deviation": 0.79,
-      "trend": "up"
+      "ma_value": 1586.0,
+      "deviation": -2.08,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1629.96,
-      "deviation": -0.24,
+      "ma_value": 1616.16,
+      "deviation": -3.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1635.14,
-      "deviation": -0.56,
+      "ma_value": 1641.91,
+      "deviation": -5.42,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1585.76,
-      "deviation": 2.54,
-      "trend": "up"
+      "ma_value": 1588.38,
+      "deviation": -2.23,
+      "trend": "down"
     }
   },
   "financials": {
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥212億",
         "net_income": 18367000000.0,
         "net_income_fmt": "¥184億",
-        "eps": 186.61,
+        "eps": 173.6,
         "operating_margin": 12.05,
         "total_assets": 306431000000.0,
         "total_assets_fmt": "¥3064億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 52.0
-      },
-      {
         "year": 2023,
-        "amount": 38.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 56.0
+        "amount": 31.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 57.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 59.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 59.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

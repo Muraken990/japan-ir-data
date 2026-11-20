@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:42.293833",
+  "fetched_at": "2026-11-20T14:33:34.149532",
   "ticker": "3788",
   "ticker_full": "3788.T",
   "company_name": "GMO GLOBALSIGN HOLDINGS K.K.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1875.4,
-      "deviation": 4.78,
-      "trend": "up"
+      "ma_value": 1915.8,
+      "deviation": -2.65,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2245.64,
-      "deviation": -12.5,
+      "ma_value": 2166.4,
+      "deviation": -13.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2148.23,
-      "deviation": -8.53,
+      "ma_value": 2127.16,
+      "deviation": -12.32,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2074.55,
-      "deviation": -5.28,
+      "ma_value": 2065.28,
+      "deviation": -9.7,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 33.64
+        "amount": 33.64,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 39.06
+        "amount": 39.06,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 38.46
+        "amount": 38.46,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 37.22
+        "amount": 37.22,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 56.91
+        "amount": 56.91,
+        "in_progress": false
       }
     ],
     "latest": 56.91,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 56.91,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

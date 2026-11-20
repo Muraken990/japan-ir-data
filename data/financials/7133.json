@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:41.047154",
+  "fetched_at": "2026-11-20T13:49:44.902351",
   "ticker": "7133",
   "ticker_full": "7133.T",
   "company_name": "HYUGA PRIMARY CARE CO LTD",
@@ -19,22 +19,22 @@
   "price_trend": {
     "ma_5": {
       "ma_value": 2083.2,
-      "deviation": 0.04,
-      "trend": "up"
+      "deviation": -0.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2101.32,
-      "deviation": -0.82,
+      "ma_value": 2096.92,
+      "deviation": -0.71,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1637.65,
-      "deviation": 27.26,
+      "ma_value": 1695.52,
+      "deviation": 22.79,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1290.08,
-      "deviation": 61.54,
+      "ma_value": 1312.8,
+      "deviation": 58.59,
       "trend": "up"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

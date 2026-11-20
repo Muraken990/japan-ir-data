@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:17.574244",
+  "fetched_at": "2026-11-20T14:24:35.228870",
   "ticker": "1431",
   "ticker_full": "1431.T",
   "company_name": "LIB WORK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 612.6,
-      "deviation": 0.23,
-      "trend": "up"
+      "ma_value": 603.6,
+      "deviation": -2.42,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 616.84,
-      "deviation": -0.46,
+      "ma_value": 612.24,
+      "deviation": -3.8,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 637.67,
-      "deviation": -3.71,
+      "ma_value": 634.86,
+      "deviation": -7.22,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 641.55,
-      "deviation": -4.29,
+      "ma_value": 640.65,
+      "deviation": -8.06,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 6.2
-      },
-      {
         "year": 2023,
-        "amount": 6.4
+        "amount": 6.4,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.4
+        "amount": 6.4,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6.4
+        "amount": 6.4,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 4.8
+        "amount": 6.4,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 1.6,
+        "in_progress": true
       }
     ],
     "latest": 1.6,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 6.4,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

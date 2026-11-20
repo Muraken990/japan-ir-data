@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:27.827844",
+  "fetched_at": "2026-11-20T14:51:13.486065",
   "ticker": "4996",
   "ticker_full": "4996.T",
   "company_name": "KUMIAI CHEMICAL INDUSTRY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 635.8,
-      "deviation": 0.35,
-      "trend": "up"
+      "ma_value": 626.8,
+      "deviation": -3.16,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 641.7,
-      "deviation": -0.58,
+      "ma_value": 638.63,
+      "deviation": -4.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 692.01,
-      "deviation": -7.81,
+      "ma_value": 685.84,
+      "deviation": -11.5,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 709.8,
-      "deviation": -10.12,
+      "ma_value": 708.62,
+      "deviation": -14.34,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 24.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:10.947991",
+  "fetched_at": "2026-11-20T14:15:48.693570",
   "ticker": "2764",
   "ticker_full": "2764.T",
   "company_name": "HIRAMATSU INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 151.8,
-      "deviation": -1.19,
+      "ma_value": 145.6,
+      "deviation": -3.16,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 157.64,
-      "deviation": -4.85,
+      "ma_value": 154.16,
+      "deviation": -8.54,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 156.84,
-      "deviation": -4.36,
+      "ma_value": 157.13,
+      "deviation": -10.27,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 148.97,
-      "deviation": 0.69,
-      "trend": "up"
+      "ma_value": 149.32,
+      "deviation": -5.57,
+      "trend": "down"
     }
   },
   "financials": {
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 17.67
-      },
-      {
-        "year": 2017,
-        "amount": 18.0
-      },
-      {
-        "year": 2018,
-        "amount": 6.3
-      },
-      {
-        "year": 2019,
-        "amount": 4.3
-      },
-      {
-        "year": 2020,
-        "amount": 4.3
-      }
-    ],
-    "latest": 4.3,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:16.084790",
+  "fetched_at": "2026-11-20T14:49:04.968353",
   "ticker": "7231",
   "ticker_full": "7231.T",
   "company_name": "TOPY INDUSTRIES",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3177.0,
-      "deviation": 1.2,
-      "trend": "up"
+      "ma_value": 3051.4,
+      "deviation": -4.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3041.88,
-      "deviation": 5.69,
-      "trend": "up"
+      "ma_value": 3053.8,
+      "deviation": -4.38,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2997.02,
-      "deviation": 7.27,
-      "trend": "up"
+      "ma_value": 3010.38,
+      "deviation": -3.0,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2948.67,
-      "deviation": 9.03,
-      "trend": "up"
+      "ma_value": 2947.72,
+      "deviation": -0.94,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.0
-      },
-      {
         "year": 2023,
-        "amount": 98.0
+        "amount": 88.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 103.0
+        "amount": 103.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 113.0
+        "amount": 103.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 155.0
+        "amount": 130.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 65.0,
+        "in_progress": true
       }
     ],
     "latest": 65.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 130.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

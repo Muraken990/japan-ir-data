@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:26.242095",
+  "fetched_at": "2026-11-20T14:44:34.188665",
   "ticker": "6364",
   "ticker_full": "6364.T",
   "company_name": "AIRMAN CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2079.6,
-      "deviation": 0.45,
-      "trend": "up"
+      "ma_value": 1974.8,
+      "deviation": -3.94,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2316.32,
-      "deviation": -9.81,
+      "ma_value": 2222.68,
+      "deviation": -14.65,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2421.26,
-      "deviation": -13.72,
+      "ma_value": 2416.83,
+      "deviation": -21.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2086.27,
-      "deviation": 0.13,
-      "trend": "up"
+      "ma_value": 2091.36,
+      "deviation": -9.29,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 35.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 57.0
+        "amount": 57.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 57.0
+        "amount": 57.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 72.0
+        "amount": 72.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 72.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

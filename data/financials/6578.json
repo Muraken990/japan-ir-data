@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:12.008077",
+  "fetched_at": "2026-11-20T13:58:46.801837",
   "ticker": "6578",
   "ticker_full": "6578.T",
   "company_name": "CORREC HOLDINGS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 478.0,
-      "deviation": 0.42,
-      "trend": "up"
+      "ma_value": 469.6,
+      "deviation": -2.04,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 482.32,
-      "deviation": -0.48,
+      "ma_value": 479.24,
+      "deviation": -4.01,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 484.83,
-      "deviation": -1.0,
+      "ma_value": 482.88,
+      "deviation": -4.74,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 460.87,
-      "deviation": 4.15,
-      "trend": "up"
+      "ma_value": 461.06,
+      "deviation": -0.23,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 5.0
-      },
-      {
-        "year": 2021,
-        "amount": 5.0
-      },
-      {
         "year": 2024,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 9.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

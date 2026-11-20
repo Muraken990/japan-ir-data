@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:01.974327",
+  "fetched_at": "2026-11-20T14:06:11.436696",
   "ticker": "3760",
   "ticker_full": "3760.T",
   "company_name": "CAVE INTERACTIVE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 772.8,
-      "deviation": 1.97,
-      "trend": "up"
+      "ma_value": 822.2,
+      "deviation": -4.65,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 804.36,
-      "deviation": -2.03,
+      "ma_value": 817.4,
+      "deviation": -4.09,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 754.69,
-      "deviation": 4.41,
+      "ma_value": 758.73,
+      "deviation": 3.33,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 684.85,
-      "deviation": 15.06,
+      "ma_value": 688.24,
+      "deviation": 13.91,
       "trend": "up"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "no_dividend"
+    }
   }
 }

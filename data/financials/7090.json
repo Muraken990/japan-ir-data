@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:24.323804",
+  "fetched_at": "2026-11-20T13:52:24.618631",
   "ticker": "7090",
   "ticker_full": "7090.T",
   "company_name": "LIGUA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 867.0,
-      "deviation": 3.81,
-      "trend": "up"
+      "ma_value": 868.8,
+      "deviation": -3.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 867.16,
-      "deviation": 3.79,
-      "trend": "up"
+      "ma_value": 866.04,
+      "deviation": -3.58,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 882.08,
-      "deviation": 2.03,
-      "trend": "up"
+      "ma_value": 885.85,
+      "deviation": -5.74,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 906.36,
-      "deviation": -0.7,
+      "ma_value": 904.88,
+      "deviation": -7.72,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

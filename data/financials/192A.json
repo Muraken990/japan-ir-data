@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:57:03.560100",
+  "fetched_at": "2026-11-20T14:03:16.731709",
   "ticker": "192A",
   "ticker_full": "192A.T",
   "company_name": "INTEGROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1319.6,
-      "deviation": 2.3,
-      "trend": "up"
+      "ma_value": 1334.4,
+      "deviation": -3.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1323.04,
-      "deviation": 2.04,
-      "trend": "up"
+      "ma_value": 1324.16,
+      "deviation": -3.18,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1280.25,
-      "deviation": 5.45,
-      "trend": "up"
+      "ma_value": 1288.79,
+      "deviation": -0.53,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1478.1,
-      "deviation": -8.67,
+      "ma_value": 1462.59,
+      "deviation": -12.35,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

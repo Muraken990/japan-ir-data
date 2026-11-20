@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:21:38.447834",
+  "fetched_at": "2026-11-20T14:26:51.423237",
   "ticker": "2335",
   "ticker_full": "2335.T",
   "company_name": "CUBE SYSTEM INC",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Information Technology Services",
     "website": "https://www.cubesystem.co.jp",
-    "employees": 938,
+    "employees": 955,
     "country": "Japan",
     "city": "Shinagawa",
     "address": "Osaki Wiz Tower",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1013.4,
-      "deviation": 0.85,
-      "trend": "up"
+      "ma_value": 1008.8,
+      "deviation": -0.57,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1022.92,
-      "deviation": -0.09,
+      "ma_value": 1019.96,
+      "deviation": -1.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1049.99,
-      "deviation": -2.67,
+      "ma_value": 1045.75,
+      "deviation": -4.09,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1028.7,
-      "deviation": -0.65,
+      "ma_value": 1027.76,
+      "deviation": -2.41,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 38.0
-      },
-      {
         "year": 2023,
-        "amount": 42.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 48.0
+        "amount": 46.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 22.0,
+        "in_progress": true
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 46.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

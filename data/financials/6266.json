@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:16.030398",
+  "fetched_at": "2026-11-20T14:35:57.066572",
   "ticker": "6266",
   "ticker_full": "6266.T",
   "company_name": "TAZMO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2731.8,
-      "deviation": 3.63,
-      "trend": "up"
+      "ma_value": 2341.6,
+      "deviation": -11.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3375.6,
-      "deviation": -16.13,
+      "ma_value": 2972.52,
+      "deviation": -29.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3631.07,
-      "deviation": -22.03,
+      "ma_value": 3519.04,
+      "deviation": -40.84,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3404.16,
-      "deviation": -16.84,
+      "ma_value": 3394.46,
+      "deviation": -38.66,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥51億",
         "net_income": 3541412000.0,
         "net_income_fmt": "¥35億",
-        "eps": 244.31,
+        "eps": 244.3,
         "operating_margin": 13.46,
         "total_assets": 46893210000.0,
         "total_assets_fmt": "¥469億",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       }
     ],
     "latest": 34.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 34.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

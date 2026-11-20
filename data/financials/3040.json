@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:54.261011",
+  "fetched_at": "2026-11-20T14:39:15.442544",
   "ticker": "3040",
   "ticker_full": "3040.T",
   "company_name": "SOLITON SYSTEMS K.K.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2781.8,
-      "deviation": -6.54,
+      "ma_value": 2492.0,
+      "deviation": -1.57,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3078.52,
-      "deviation": -15.54,
+      "ma_value": 2960.56,
+      "deviation": -17.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2591.05,
-      "deviation": 0.35,
-      "trend": "up"
+      "ma_value": 2626.85,
+      "deviation": -6.62,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2168.77,
-      "deviation": 19.88,
+      "ma_value": 2180.27,
+      "deviation": 12.51,
       "trend": "up"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥29億",
         "net_income": 2298000000.0,
         "net_income_fmt": "¥23億",
-        "eps": 118.21,
+        "eps": 123.97,
         "operating_margin": 14.4,
         "total_assets": 26228000000.0,
         "total_assets_fmt": "¥262億",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 54.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

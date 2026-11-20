@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:44.603215",
+  "fetched_at": "2026-11-20T14:52:28.213694",
   "ticker": "3964",
   "ticker_full": "3964.T",
   "company_name": "AUCNET INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1346.0,
-      "deviation": -4.9,
+      "ma_value": 1249.4,
+      "deviation": -3.87,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1367.84,
-      "deviation": -6.42,
+      "ma_value": 1346.6,
+      "deviation": -10.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1379.59,
-      "deviation": -7.22,
+      "ma_value": 1370.64,
+      "deviation": -12.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1303.0,
-      "deviation": -1.77,
+      "ma_value": 1307.89,
+      "deviation": -8.17,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 13.25
+        "amount": 13.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 19.0
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": true
       }
     ],
     "latest": 21.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

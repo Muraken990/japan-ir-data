@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:39.738460",
+  "fetched_at": "2026-11-20T14:20:04.529183",
   "ticker": "6161",
   "ticker_full": "6161.T",
   "company_name": "ESTIC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 987.8,
-      "deviation": -0.79,
+      "ma_value": 963.0,
+      "deviation": -2.7,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1013.04,
-      "deviation": -3.26,
+      "ma_value": 1000.84,
+      "deviation": -6.38,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1042.09,
-      "deviation": -5.96,
+      "ma_value": 1036.33,
+      "deviation": -9.59,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1032.76,
-      "deviation": -5.11,
+      "ma_value": 1031.96,
+      "deviation": -9.2,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       }
     ],
     "latest": 29.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-03-20",
+      "status": "ok"
+    }
   }
 }

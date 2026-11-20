@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:29:56.405739",
+  "fetched_at": "2026-11-20T14:34:42.203731",
   "ticker": "3548",
   "ticker_full": "3548.T",
   "company_name": "BAROQUE JAPAN LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 488.8,
-      "deviation": -1.19,
+      "ma_value": 473.4,
+      "deviation": -5.37,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 567.6,
-      "deviation": -14.9,
+      "ma_value": 534.28,
+      "deviation": -16.15,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 657.35,
-      "deviation": -26.52,
+      "ma_value": 639.45,
+      "deviation": -29.94,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 710.92,
-      "deviation": -32.06,
+      "ma_value": 703.98,
+      "deviation": -36.36,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       }
     ],
     "latest": 38.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 38.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

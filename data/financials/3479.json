@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:13.398395",
+  "fetched_at": "2026-11-20T14:50:01.804934",
   "ticker": "3479",
   "ticker_full": "3479.T",
   "company_name": "TKP CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2121.8,
-      "deviation": 0.1,
-      "trend": "up"
+      "ma_value": 2063.6,
+      "deviation": -5.94,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1974.92,
-      "deviation": 7.55,
-      "trend": "up"
+      "ma_value": 2016.96,
+      "deviation": -3.77,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1907.92,
-      "deviation": 11.33,
+      "ma_value": 1920.4,
+      "deviation": 1.07,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1887.53,
-      "deviation": 12.53,
+      "ma_value": 1887.36,
+      "deviation": 2.84,
       "trend": "up"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

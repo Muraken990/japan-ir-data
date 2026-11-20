@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:35.711746",
+  "fetched_at": "2026-11-20T14:10:37.157193",
   "ticker": "5491",
   "ticker_full": "5491.T",
   "company_name": "NIPPON KINZOKU CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 826.2,
-      "deviation": 0.1,
-      "trend": "up"
+      "ma_value": 791.8,
+      "deviation": -3.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 855.56,
-      "deviation": -3.34,
+      "ma_value": 838.24,
+      "deviation": -8.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 897.01,
-      "deviation": -7.81,
+      "ma_value": 889.69,
+      "deviation": -13.79,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 918.92,
-      "deviation": -10.0,
+      "ma_value": 913.73,
+      "deviation": -16.06,
       "trend": "down"
     }
   },
@@ -231,27 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 30.0
-      },
-      {
-        "year": 2019,
-        "amount": 30.0
-      },
-      {
-        "year": 2020,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

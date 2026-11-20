@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:17.988005",
+  "fetched_at": "2026-11-20T14:23:37.645179",
   "ticker": "1798",
   "ticker_full": "1798.T",
   "company_name": "MORIYA CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1004.6,
-      "deviation": 0.64,
-      "trend": "up"
+      "ma_value": 1000.8,
+      "deviation": -0.18,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1068.4,
-      "deviation": -5.37,
+      "ma_value": 1049.56,
+      "deviation": -4.82,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1065.51,
-      "deviation": -5.12,
+      "ma_value": 1060.91,
+      "deviation": -5.84,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1140.16,
-      "deviation": -11.33,
+      "ma_value": 1132.38,
+      "deviation": -11.78,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥39億",
         "net_income": 2743675000.0,
         "net_income_fmt": "¥27億",
-        "eps": 251.76,
+        "eps": 251.6,
         "operating_margin": 7.59,
         "total_assets": 38316205000.0,
         "total_assets_fmt": "¥383億",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       }
     ],
     "latest": 36.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

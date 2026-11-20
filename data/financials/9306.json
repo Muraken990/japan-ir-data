@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:21.780351",
+  "fetched_at": "2026-11-20T14:24:39.032165",
   "ticker": "9306",
   "ticker_full": "9306.T",
   "company_name": "TOYO LOGISTICS CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1971.0,
-      "deviation": 0.25,
-      "trend": "up"
+      "ma_value": 1958.6,
+      "deviation": -0.95,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1988.72,
-      "deviation": -0.64,
+      "ma_value": 1981.56,
+      "deviation": -2.1,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1982.09,
-      "deviation": -0.31,
+      "ma_value": 1979.41,
+      "deviation": -1.99,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1996.07,
-      "deviation": -1.01,
+      "ma_value": 1995.09,
+      "deviation": -2.76,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 52.5
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 57.5
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

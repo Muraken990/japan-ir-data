@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:52.838868",
+  "fetched_at": "2026-11-20T14:46:52.945867",
   "ticker": "7613",
   "ticker_full": "7613.T",
   "company_name": "SIIX CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1644.4,
-      "deviation": 0.1,
-      "trend": "up"
+      "ma_value": 1571.4,
+      "deviation": -3.65,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1637.24,
-      "deviation": 0.54,
-      "trend": "up"
+      "ma_value": 1619.2,
+      "deviation": -6.5,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1591.6,
-      "deviation": 3.42,
-      "trend": "up"
+      "ma_value": 1602.27,
+      "deviation": -5.51,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1411.38,
-      "deviation": 16.62,
+      "ma_value": 1418.69,
+      "deviation": 6.72,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 31.0
+        "amount": 31.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 44.0
+        "amount": 44.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 49.0
+        "amount": 49.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 49.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:29:55.186399",
+  "fetched_at": "2026-11-20T14:34:41.497750",
   "ticker": "8789",
   "ticker_full": "8789.T",
   "company_name": "FINTECH GLOBAL INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 111.0,
-      "deviation": 1.8,
-      "trend": "up"
+      "ma_value": 107.8,
+      "deviation": -6.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 145.08,
-      "deviation": -22.11,
+      "ma_value": 134.96,
+      "deviation": -25.16,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 148.48,
-      "deviation": -23.89,
+      "ma_value": 147.18,
+      "deviation": -31.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 136.29,
-      "deviation": -17.09,
+      "ma_value": 135.48,
+      "deviation": -25.45,
       "trend": "down"
     }
   },
@@ -194,27 +194,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2014,
-        "amount": 0.5
-      },
-      {
-        "year": 2015,
-        "amount": 0.6
-      },
-      {
         "year": 2024,
-        "amount": 1.5
+        "amount": 1.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

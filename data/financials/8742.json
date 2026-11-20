@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:23.515850",
+  "fetched_at": "2026-11-20T14:09:27.345721",
   "ticker": "8742",
   "ticker_full": "8742.T",
   "company_name": "KOBAYASHI YOKO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 482.4,
-      "deviation": -2.16,
+      "ma_value": 452.0,
+      "deviation": -3.76,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 501.32,
-      "deviation": -5.85,
+      "ma_value": 482.52,
+      "deviation": -9.85,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 547.99,
-      "deviation": -13.87,
+      "ma_value": 541.45,
+      "deviation": -19.66,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 533.22,
-      "deviation": -11.48,
+      "ma_value": 532.74,
+      "deviation": -18.35,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.5
+        "amount": 3.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 6.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

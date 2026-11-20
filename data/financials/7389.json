@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:21.528489",
+  "fetched_at": "2026-11-20T15:00:50.755922",
   "ticker": "7389",
   "ticker_full": "7389.T",
   "company_name": "AICHI FINANCIAL GROUP INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1711.2,
-      "deviation": 1.22,
-      "trend": "up"
+      "ma_value": 1653.5,
+      "deviation": -8.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1750.08,
-      "deviation": -1.03,
+      "ma_value": 1704.88,
+      "deviation": -11.2,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1825.76,
-      "deviation": -5.14,
+      "ma_value": 1820.41,
+      "deviation": -16.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1535.3,
-      "deviation": 12.81,
-      "trend": "up"
+      "ma_value": 1549.04,
+      "deviation": -2.26,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,22 +195,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 27.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 27.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

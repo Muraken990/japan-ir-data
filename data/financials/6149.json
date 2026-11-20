@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:56.160744",
+  "fetched_at": "2026-11-20T14:22:23.509619",
   "ticker": "6149",
   "ticker_full": "6149.T",
   "company_name": "ODAWARA ENGINEERING CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2051.2,
-      "deviation": 4.13,
-      "trend": "up"
+      "ma_value": 2015.0,
+      "deviation": -2.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2039.0,
-      "deviation": 4.76,
-      "trend": "up"
+      "ma_value": 2028.52,
+      "deviation": -3.13,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2155.07,
-      "deviation": -0.88,
+      "ma_value": 2145.63,
+      "deviation": -8.42,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2097.75,
-      "deviation": 1.82,
-      "trend": "up"
+      "ma_value": 2093.09,
+      "deviation": -6.12,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

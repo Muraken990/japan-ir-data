@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:19.002559",
+  "fetched_at": "2026-11-20T14:31:20.136323",
   "ticker": "4979",
   "ticker_full": "4979.T",
   "company_name": "OAT AGRIO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2767.2,
-      "deviation": -8.57,
+      "ma_value": 2415.8,
+      "deviation": -5.87,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2799.44,
-      "deviation": -9.62,
+      "ma_value": 2717.6,
+      "deviation": -16.32,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2751.23,
-      "deviation": -8.04,
+      "ma_value": 2747.03,
+      "deviation": -17.22,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2617.04,
-      "deviation": -3.33,
+      "ma_value": 2624.14,
+      "deviation": -13.34,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

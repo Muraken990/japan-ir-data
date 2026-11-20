@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:31.412931",
+  "fetched_at": "2026-11-20T13:52:30.640299",
   "ticker": "3634",
   "ticker_full": "3634.T",
   "company_name": "SOCKETS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 579.6,
-      "deviation": -1.48,
+      "ma_value": 549.4,
+      "deviation": -2.44,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 597.44,
-      "deviation": -4.43,
+      "ma_value": 581.44,
+      "deviation": -7.82,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 598.52,
-      "deviation": -4.6,
+      "ma_value": 596.56,
+      "deviation": -10.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 647.1,
-      "deviation": -11.76,
+      "ma_value": 644.94,
+      "deviation": -16.89,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2015-03-31",
+      "status": "unavailable"
+    }
   }
 }

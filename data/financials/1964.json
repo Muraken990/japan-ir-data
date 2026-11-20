@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:10.792243",
+  "fetched_at": "2026-11-20T14:37:50.998245",
   "ticker": "1964",
   "ticker_full": "1964.T",
   "company_name": "CHUGAI RO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3761.0,
-      "deviation": -0.03,
+      "ma_value": 3641.0,
+      "deviation": -1.95,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3729.4,
-      "deviation": 0.82,
-      "trend": "up"
+      "ma_value": 3703.4,
+      "deviation": -3.6,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3882.93,
-      "deviation": -3.17,
+      "ma_value": 3866.47,
+      "deviation": -7.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4153.42,
-      "deviation": -9.47,
+      "ma_value": 4135.86,
+      "deviation": -13.68,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 150.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 166.0
+        "amount": 166.0,
+        "in_progress": false
       }
     ],
     "latest": 166.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 166.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

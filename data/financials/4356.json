@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:39.509386",
+  "fetched_at": "2026-11-20T14:17:07.601971",
   "ticker": "4356",
   "ticker_full": "4356.T",
   "company_name": "APPLIED TECHNOLOGY CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1619.6,
-      "deviation": -0.9,
+      "ma_value": 1602.8,
+      "deviation": -0.24,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1610.36,
-      "deviation": -0.33,
+      "ma_value": 1602.4,
+      "deviation": -0.21,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1631.65,
-      "deviation": -1.63,
+      "ma_value": 1627.72,
+      "deviation": -1.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1676.97,
-      "deviation": -4.29,
+      "ma_value": 1670.8,
+      "deviation": -4.3,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-12-31",
+      "status": "unavailable"
+    }
   }
 }

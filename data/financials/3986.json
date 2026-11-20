@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:53.419626",
+  "fetched_at": "2026-11-20T13:53:44.209035",
   "ticker": "3986",
   "ticker_full": "3986.T",
   "company_name": "BBREAK SYSTEM COMPANY LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 506.8,
-      "deviation": 1.22,
-      "trend": "up"
+      "ma_value": 495.0,
+      "deviation": -3.03,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 499.08,
-      "deviation": 2.79,
-      "trend": "up"
+      "ma_value": 500.28,
+      "deviation": -4.05,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 488.68,
-      "deviation": 4.98,
-      "trend": "up"
+      "ma_value": 489.4,
+      "deviation": -1.92,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 489.03,
-      "deviation": 4.9,
-      "trend": "up"
+      "ma_value": 489.81,
+      "deviation": -2.0,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

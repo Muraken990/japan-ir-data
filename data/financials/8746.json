@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:11.813415",
+  "fetched_at": "2026-11-20T14:06:21.089581",
   "ticker": "8746",
   "ticker_full": "8746.T",
   "company_name": "UNBANKED INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 84.8,
-      "deviation": -4.48,
+      "ma_value": 84.6,
+      "deviation": -3.07,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 96.84,
-      "deviation": -16.36,
+      "ma_value": 93.12,
+      "deviation": -11.94,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 103.31,
-      "deviation": -21.59,
+      "ma_value": 102.36,
+      "deviation": -19.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 212.28,
-      "deviation": -61.84,
+      "ma_value": 201.57,
+      "deviation": -59.32,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2013,
-        "amount": 60.0
-      },
-      {
-        "year": 2014,
-        "amount": 60.0
-      },
-      {
-        "year": 2015,
-        "amount": 60.0
-      },
-      {
-        "year": 2016,
-        "amount": 60.0
-      },
-      {
-        "year": 2020,
-        "amount": 15.0
-      }
-    ],
-    "latest": 15.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

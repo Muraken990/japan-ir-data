@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:37.059012",
+  "fetched_at": "2026-11-20T14:25:51.378123",
   "ticker": "4570",
   "ticker_full": "4570.T",
   "company_name": "IMMUNO-BIOLOGICAL LABORATORIES ",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 946.6,
-      "deviation": -3.13,
+      "ma_value": 890.6,
+      "deviation": -4.56,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1011.16,
-      "deviation": -9.31,
+      "ma_value": 974.64,
+      "deviation": -12.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1051.56,
-      "deviation": -12.8,
+      "ma_value": 1048.23,
+      "deviation": -18.91,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1209.44,
-      "deviation": -24.18,
+      "ma_value": 1193.44,
+      "deviation": -28.78,
       "trend": "down"
     }
   },
@@ -231,15 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2013,
-        "amount": 5.0
-      },
-      {
         "year": 2026,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 6.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

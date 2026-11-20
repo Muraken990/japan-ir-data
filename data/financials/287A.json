@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:36:47.743145",
+  "fetched_at": "2026-11-20T14:41:09.635599",
   "ticker": "287A",
   "ticker_full": "287A.T",
   "company_name": "KURODA GROUP CO  LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1066.4,
-      "deviation": 1.46,
-      "trend": "up"
+      "ma_value": 1057.2,
+      "deviation": -2.86,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1116.16,
-      "deviation": -3.06,
+      "ma_value": 1097.16,
+      "deviation": -6.39,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1124.48,
-      "deviation": -3.78,
+      "ma_value": 1124.22,
+      "deviation": -8.65,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1039.21,
-      "deviation": 4.12,
-      "trend": "up"
+      "ma_value": 1042.63,
+      "deviation": -1.5,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,14 +195,28 @@
     "history": [
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 62.0
+        "amount": 61.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 31.0,
+        "in_progress": true
       }
     ],
     "latest": 31.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 61.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

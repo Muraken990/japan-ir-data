@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:35.566631",
+  "fetched_at": "2026-11-20T14:24:50.702025",
   "ticker": "4299",
   "ticker_full": "4299.T",
   "company_name": "HIMACS LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1110.6,
-      "deviation": 0.31,
-      "trend": "up"
+      "ma_value": 1090.2,
+      "deviation": -0.11,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1142.68,
-      "deviation": -2.51,
+      "ma_value": 1126.12,
+      "deviation": -3.3,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1174.77,
-      "deviation": -5.17,
+      "ma_value": 1167.8,
+      "deviation": -6.75,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1182.64,
-      "deviation": -5.8,
+      "ma_value": 1178.39,
+      "deviation": -7.59,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 43.5
-      },
-      {
         "year": 2023,
-        "amount": 43.5
+        "amount": 43.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 44.0
+        "amount": 43.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 46.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 51.0
+        "amount": 46.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 28.0,
+        "in_progress": true
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 46.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

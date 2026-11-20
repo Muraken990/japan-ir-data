@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:21.284527",
+  "fetched_at": "2026-11-20T14:00:52.713479",
   "ticker": "7983",
   "ticker_full": "7983.T",
   "company_name": "MIROKU CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1102.0,
-      "deviation": 1.36,
-      "trend": "up"
+      "ma_value": 1095.2,
+      "deviation": -1.66,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1126.76,
-      "deviation": -0.87,
+      "ma_value": 1113.59,
+      "deviation": -3.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1131.19,
-      "deviation": -1.25,
+      "ma_value": 1134.85,
+      "deviation": -5.1,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1112.99,
-      "deviation": 0.36,
-      "trend": "up"
+      "ma_value": 1112.19,
+      "deviation": -3.16,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:34.564739",
+  "fetched_at": "2026-11-20T14:00:06.573654",
   "ticker": "6218",
   "ticker_full": "6218.T",
   "company_name": "ENSHU LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 626.2,
-      "deviation": -0.99,
+      "ma_value": 627.8,
+      "deviation": -4.43,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 651.16,
-      "deviation": -4.79,
+      "ma_value": 647.28,
+      "deviation": -7.3,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 647.96,
-      "deviation": -4.32,
+      "ma_value": 648.13,
+      "deviation": -7.43,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 604.1,
-      "deviation": 2.63,
-      "trend": "up"
+      "ma_value": 606.42,
+      "deviation": -1.06,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

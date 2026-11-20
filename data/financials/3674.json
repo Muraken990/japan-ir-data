@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:32.363142",
+  "fetched_at": "2026-11-20T14:00:59.792703",
   "ticker": "3674",
   "ticker_full": "3674.T",
   "company_name": "AUCFAN CO LIMITED",
@@ -10,7 +10,7 @@
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
     "website": "https://www.aucfan.co.jp",
-    "employees": 163,
+    "employees": null,
     "country": "Japan",
     "city": "Shinagawa",
     "address": "Sumitomo Fudosan Osaki Twin Building east",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 311.0,
-      "deviation": 1.93,
-      "trend": "up"
+      "ma_value": 311.6,
+      "deviation": -3.4,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 320.44,
-      "deviation": -1.07,
+      "ma_value": 316.72,
+      "deviation": -4.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 328.37,
-      "deviation": -3.46,
+      "ma_value": 327.31,
+      "deviation": -8.04,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 328.73,
-      "deviation": -3.57,
+      "ma_value": 328.05,
+      "deviation": -8.24,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

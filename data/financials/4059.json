@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:25.513643",
+  "fetched_at": "2026-11-20T13:52:25.848676",
   "ticker": "4059",
   "ticker_full": "4059.T",
   "company_name": "MAGMAG INC",
@@ -10,7 +10,7 @@
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
     "website": "https://www.mag2.co.jp",
-    "employees": 18,
+    "employees": null,
     "country": "Japan",
     "city": "Shinagawa",
     "address": "TOC Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 268.0,
-      "deviation": 0.0,
+      "ma_value": 270.6,
+      "deviation": -0.59,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 309.28,
-      "deviation": -13.35,
+      "ma_value": 291.64,
+      "deviation": -7.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 367.08,
-      "deviation": -26.99,
+      "ma_value": 357.65,
+      "deviation": -24.79,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 418.1,
-      "deviation": -35.9,
+      "ma_value": 411.9,
+      "deviation": -34.69,
       "trend": "down"
     }
   },
@@ -192,13 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2021,
-        "amount": 7.0
-      }
-    ],
-    "latest": 7.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:16.058305",
+  "fetched_at": "2026-11-20T13:59:48.716896",
   "ticker": "4447",
   "ticker_full": "4447.T",
   "company_name": "PBSYSTEMS INC",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Software - Application",
     "website": "https://www.pbsystems.co.jp",
-    "employees": 73,
+    "employees": null,
     "country": "Japan",
     "city": "Fukuoka",
     "address": "3-3-24, Higashihie",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 472.2,
-      "deviation": -0.04,
+      "ma_value": 468.2,
+      "deviation": -2.39,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 495.84,
-      "deviation": -4.81,
+      "ma_value": 491.32,
+      "deviation": -6.99,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 484.25,
-      "deviation": -2.53,
+      "ma_value": 485.06,
+      "deviation": -5.79,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 461.82,
-      "deviation": 2.2,
-      "trend": "up"
+      "ma_value": 461.53,
+      "deviation": -0.98,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 22.5
+        "amount": 22.5,
+        "in_progress": false
       }
     ],
     "latest": 12.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 22.5,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

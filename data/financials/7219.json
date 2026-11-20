@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:31.392488",
+  "fetched_at": "2026-11-20T14:00:59.748876",
   "ticker": "7219",
   "ticker_full": "7219.T",
   "company_name": "HKS LIMITED",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2416.2,
-      "deviation": 0.99,
+      "ma_value": 2420.4,
+      "deviation": 0.4,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2446.88,
-      "deviation": -0.28,
-      "trend": "down"
+      "ma_value": 2429.36,
+      "deviation": 0.03,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2484.76,
-      "deviation": -1.8,
+      "ma_value": 2484.18,
+      "deviation": -2.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2307.79,
-      "deviation": 5.73,
+      "ma_value": 2314.88,
+      "deviation": 4.97,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 107.0
+        "amount": 107.0,
+        "in_progress": false
       }
     ],
     "latest": 107.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 107.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:25.772098",
+  "fetched_at": "2026-11-20T14:08:30.916244",
   "ticker": "7351",
   "ticker_full": "7351.T",
   "company_name": "GOODPATCH INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 417.0,
-      "deviation": 0.24,
-      "trend": "up"
+      "ma_value": 417.2,
+      "deviation": -1.97,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 448.28,
-      "deviation": -6.75,
+      "ma_value": 438.64,
+      "deviation": -6.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 454.29,
-      "deviation": -7.99,
+      "ma_value": 453.7,
+      "deviation": -9.85,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 460.84,
-      "deviation": -9.3,
+      "ma_value": 457.61,
+      "deviation": -10.62,
       "trend": "down"
     }
   },
@@ -195,14 +195,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

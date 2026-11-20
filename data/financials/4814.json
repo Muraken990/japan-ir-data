@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:19.979145",
+  "fetched_at": "2026-11-20T13:57:55.753488",
   "ticker": "4814",
   "ticker_full": "4814.T",
   "company_name": "NEXTWARE",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 152.0,
-      "deviation": -0.66,
+      "ma_value": 145.2,
+      "deviation": -3.58,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 163.28,
-      "deviation": -7.52,
+      "ma_value": 158.72,
+      "deviation": -11.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 163.32,
-      "deviation": -7.54,
+      "ma_value": 162.79,
+      "deviation": -14.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 173.81,
-      "deviation": -13.13,
+      "ma_value": 172.0,
+      "deviation": -18.61,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

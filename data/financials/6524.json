@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:08.222370",
+  "fetched_at": "2026-11-20T14:48:57.933294",
   "ticker": "6524",
   "ticker_full": "6524.T",
   "company_name": "KOHOKU KOGYO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4467.0,
-      "deviation": 0.4,
-      "trend": "up"
+      "ma_value": 4129.0,
+      "deviation": -6.39,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4833.4,
-      "deviation": -7.21,
+      "ma_value": 4499.2,
+      "deviation": -14.1,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4888.07,
-      "deviation": -8.25,
+      "ma_value": 4881.67,
+      "deviation": -20.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4882.12,
-      "deviation": -8.13,
+      "ma_value": 4908.6,
+      "deviation": -21.26,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 18.33
+        "amount": 18.33,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 33.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

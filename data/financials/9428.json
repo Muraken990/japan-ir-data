@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:52.837633",
+  "fetched_at": "2026-11-20T14:22:20.133447",
   "ticker": "9428",
   "ticker_full": "9428.T",
   "company_name": "CROPS CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1369.0,
-      "deviation": 5.7,
-      "trend": "up"
+      "ma_value": 1378.0,
+      "deviation": -3.7,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1383.16,
-      "deviation": 4.62,
-      "trend": "up"
+      "ma_value": 1378.88,
+      "deviation": -3.76,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1424.57,
-      "deviation": 1.57,
-      "trend": "up"
+      "ma_value": 1428.04,
+      "deviation": -7.08,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1389.13,
-      "deviation": 4.17,
-      "trend": "up"
+      "ma_value": 1388.99,
+      "deviation": -4.46,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       }
     ],
     "latest": 29.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

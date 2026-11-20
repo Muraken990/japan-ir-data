@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:44.621172",
+  "fetched_at": "2026-11-20T14:33:35.911286",
   "ticker": "3133",
   "ticker_full": "3133.T",
   "company_name": "KAIHAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 28.4,
-      "deviation": -1.41,
+      "ma_value": 23.8,
+      "deviation": -11.76,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 30.24,
-      "deviation": -7.41,
+      "ma_value": 28.4,
+      "deviation": -26.06,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 54.83,
-      "deviation": -48.93,
+      "ma_value": 50.72,
+      "deviation": -58.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 187.04,
-      "deviation": -85.03,
+      "ma_value": 176.69,
+      "deviation": -88.11,
       "trend": "down"
     }
   },
@@ -192,21 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2017,
-        "amount": 4.0
-      },
-      {
-        "year": 2018,
-        "amount": 4.0
-      },
-      {
-        "year": 2019,
-        "amount": 2.0
-      }
-    ],
-    "latest": 2.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

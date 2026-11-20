@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:57.721863",
+  "fetched_at": "2026-11-20T14:46:57.515112",
   "ticker": "2003",
   "ticker_full": "2003.T",
   "company_name": "NITTO FUJI FLOUR MILLING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2064.6,
-      "deviation": 3.41,
-      "trend": "up"
+      "ma_value": 2066.0,
+      "deviation": -4.36,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1958.68,
-      "deviation": 9.0,
-      "trend": "up"
+      "ma_value": 1996.72,
+      "deviation": -1.04,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1851.8,
-      "deviation": 15.29,
+      "ma_value": 1867.92,
+      "deviation": 5.79,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1774.11,
-      "deviation": 20.34,
+      "ma_value": 1782.92,
+      "deviation": 10.83,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.5
-      },
-      {
         "year": 2023,
-        "amount": 43.25
+        "amount": 43.75,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 63.0
+        "amount": 46.75,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

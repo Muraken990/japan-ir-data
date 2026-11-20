@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:15.416724",
+  "fetched_at": "2026-11-20T13:52:16.724569",
   "ticker": "2926",
   "ticker_full": "2926.T",
   "company_name": "SHINOZAKIYA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 102.4,
-      "deviation": -0.39,
+      "ma_value": 101.0,
+      "deviation": -1.98,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 104.88,
-      "deviation": -2.75,
+      "ma_value": 103.96,
+      "deviation": -4.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 112.88,
-      "deviation": -9.64,
+      "ma_value": 112.27,
+      "deviation": -11.82,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 102.39,
-      "deviation": -0.39,
+      "ma_value": 102.53,
+      "deviation": -3.44,
       "trend": "down"
     }
   },
@@ -194,27 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2014,
-        "amount": 3.5
-      },
-      {
-        "year": 2015,
-        "amount": 2.5
-      },
-      {
-        "year": 2016,
-        "amount": 1.0
-      },
-      {
-        "year": 2017,
-        "amount": 2.5
-      },
-      {
         "year": 2026,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-09-30",
+      "status": "unavailable"
+    }
   }
 }

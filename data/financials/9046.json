@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:04.078050",
+  "fetched_at": "2026-11-20T14:29:06.966061",
   "ticker": "9046",
   "ticker_full": "9046.T",
   "company_name": "KOBE ELECTRIC RAILWAY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2278.4,
-      "deviation": 0.07,
-      "trend": "up"
+      "ma_value": 2249.6,
+      "deviation": -1.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2293.56,
-      "deviation": -0.59,
+      "ma_value": 2277.12,
+      "deviation": -2.68,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2402.45,
-      "deviation": -5.1,
+      "ma_value": 2385.44,
+      "deviation": -7.1,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2426.35,
-      "deviation": -6.03,
+      "ma_value": 2419.69,
+      "deviation": -8.42,
       "trend": "down"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

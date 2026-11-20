@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:39.717339",
+  "fetched_at": "2026-11-20T14:18:07.001314",
   "ticker": "3353",
   "ticker_full": "3353.T",
   "company_name": "MEDICAL IKKOU GP CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2710.2,
-      "deviation": -0.89,
+      "ma_value": 2656.8,
+      "deviation": -1.72,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2760.96,
-      "deviation": -2.71,
+      "ma_value": 2731.4,
+      "deviation": -4.41,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2787.66,
-      "deviation": -3.65,
+      "ma_value": 2779.6,
+      "deviation": -6.07,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2787.35,
-      "deviation": -3.64,
+      "ma_value": 2782.42,
+      "deviation": -6.16,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

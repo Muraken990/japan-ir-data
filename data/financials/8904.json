@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:15:51.795260",
+  "fetched_at": "2026-11-20T14:21:13.439796",
   "ticker": "8904",
   "ticker_full": "8904.T",
   "company_name": "AVANTIA CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 825.0,
-      "deviation": 0.0,
+      "ma_value": 821.2,
+      "deviation": -0.39,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 825.52,
-      "deviation": -0.06,
+      "ma_value": 824.36,
+      "deviation": -0.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 831.26,
-      "deviation": -0.75,
+      "ma_value": 830.2,
+      "deviation": -1.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 822.7,
-      "deviation": 0.28,
-      "trend": "up"
+      "ma_value": 822.4,
+      "deviation": -0.54,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       }
     ],
     "latest": 19.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 38.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

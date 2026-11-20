@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:05.010647",
+  "fetched_at": "2026-11-20T14:21:25.544503",
   "ticker": "6087",
   "ticker_full": "6087.T",
   "company_name": "ABIST CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3336.0,
-      "deviation": 1.17,
-      "trend": "up"
+      "ma_value": 3352.0,
+      "deviation": -0.66,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3330.0,
-      "deviation": 1.35,
-      "trend": "up"
+      "ma_value": 3332.4,
+      "deviation": -0.07,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3381.1,
-      "deviation": -0.18,
+      "ma_value": 3381.61,
+      "deviation": -1.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3332.29,
-      "deviation": 1.28,
-      "trend": "up"
+      "ma_value": 3333.52,
+      "deviation": -0.11,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 102.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 102.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 102.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 102.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 102.0
+        "amount": 102.0,
+        "in_progress": false
       }
     ],
     "latest": 102.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 102.0,
+      "fiscal_year_end": "2025-09-30",
+      "status": "ok"
+    }
   }
 }

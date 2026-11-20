@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:47.410113",
+  "fetched_at": "2026-11-20T14:10:47.530346",
   "ticker": "4012",
   "ticker_full": "4012.T",
   "company_name": "AXIS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1641.8,
-      "deviation": 0.86,
-      "trend": "up"
+      "ma_value": 1628.6,
+      "deviation": -4.21,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1679.36,
-      "deviation": -1.39,
+      "ma_value": 1660.52,
+      "deviation": -6.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1720.03,
-      "deviation": -3.72,
+      "ma_value": 1712.79,
+      "deviation": -8.92,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1639.59,
-      "deviation": 1.0,
-      "trend": "up"
+      "ma_value": 1643.11,
+      "deviation": -5.06,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 46.0
+        "amount": 46.0,
+        "in_progress": false
       }
     ],
     "latest": 46.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 46.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

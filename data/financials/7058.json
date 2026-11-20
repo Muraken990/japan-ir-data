@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:07.787438",
+  "fetched_at": "2026-11-20T14:04:19.321980",
   "ticker": "7058",
   "ticker_full": "7058.T",
   "company_name": "KYOEI SECURITY SERVICE CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2816.6,
-      "deviation": 0.33,
+      "ma_value": 2904.0,
+      "deviation": 4.51,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2925.44,
-      "deviation": -3.4,
-      "trend": "down"
+      "ma_value": 2893.84,
+      "deviation": 4.88,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2969.49,
-      "deviation": -4.83,
-      "trend": "down"
+      "ma_value": 2958.77,
+      "deviation": 2.58,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2937.5,
-      "deviation": -3.8,
-      "trend": "down"
+      "ma_value": 2937.97,
+      "deviation": 3.3,
+      "trend": "up"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 150.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
-        "year": 2026,
-        "amount": 120.0
+        "year": 2027,
+        "amount": 120.0,
+        "in_progress": true
       }
     ],
     "latest": 120.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

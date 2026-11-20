@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:11.021520",
+  "fetched_at": "2026-11-20T14:05:21.320172",
   "ticker": "7918",
   "ticker_full": "7918.T",
   "company_name": "VIA HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 101.2,
-      "deviation": -0.2,
+      "ma_value": 101.0,
+      "deviation": -0.99,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 103.24,
-      "deviation": -2.17,
+      "ma_value": 102.52,
+      "deviation": -2.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 105.05,
-      "deviation": -3.86,
+      "ma_value": 104.67,
+      "deviation": -4.46,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 107.88,
-      "deviation": -6.37,
+      "ma_value": 107.67,
+      "deviation": -7.13,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2015,
-        "amount": 2.5
-      },
-      {
-        "year": 2016,
-        "amount": 5.0
-      },
-      {
-        "year": 2017,
-        "amount": 7.5
-      },
-      {
-        "year": 2018,
-        "amount": 5.0
-      },
-      {
-        "year": 2019,
-        "amount": 5.0
-      }
-    ],
-    "latest": 5.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

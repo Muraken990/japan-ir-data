@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:16.895054",
+  "fetched_at": "2026-11-20T14:14:57.123500",
   "ticker": "9063",
   "ticker_full": "9063.T",
   "company_name": "OKAYAMAKEN FREIGHT TRANSPORTATI",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3884.0,
-      "deviation": 0.28,
-      "trend": "up"
+      "ma_value": 3864.0,
+      "deviation": -2.69,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3962.2,
-      "deviation": -1.7,
+      "ma_value": 3928.6,
+      "deviation": -4.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4089.07,
-      "deviation": -4.75,
+      "ma_value": 4077.07,
+      "deviation": -7.78,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4131.96,
-      "deviation": -5.73,
+      "ma_value": 4124.27,
+      "deviation": -8.83,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       }
     ],
     "latest": 80.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:54.121704",
+  "fetched_at": "2026-11-20T14:28:04.340177",
   "ticker": "5269",
   "ticker_full": "5269.T",
   "company_name": "NIPPON CONCRETE INDUSTRIES CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 346.4,
-      "deviation": -1.56,
+      "ma_value": 332.6,
+      "deviation": -1.68,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 347.4,
-      "deviation": -1.84,
+      "ma_value": 343.72,
+      "deviation": -4.86,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 353.96,
-      "deviation": -3.66,
+      "ma_value": 353.92,
+      "deviation": -7.61,
       "trend": "down"
     },
     "ma_200": {
       "ma_value": 334.74,
-      "deviation": 1.87,
-      "trend": "up"
+      "deviation": -2.31,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4.5
-      },
-      {
-        "year": 2023,
-        "amount": 6.5
+        "amount": 4.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.5
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9.0
+        "amount": 8.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 8.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

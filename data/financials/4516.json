@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:04.393316",
+  "fetched_at": "2026-11-20T15:05:31.619118",
   "ticker": "4516",
   "ticker_full": "4516.T",
   "company_name": "NIPPON SHINYAKU CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3415.4,
-      "deviation": -0.57,
+      "ma_value": 3409.0,
+      "deviation": -3.14,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3406.16,
-      "deviation": -0.3,
+      "ma_value": 3413.33,
+      "deviation": -3.26,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3449.57,
-      "deviation": -1.55,
+      "ma_value": 3431.28,
+      "deviation": -3.77,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4152.06,
-      "deviation": -18.21,
+      "ma_value": 4109.64,
+      "deviation": -19.65,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 116.0
-      },
-      {
         "year": 2023,
-        "amount": 119.0
+        "amount": 114.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 124.0
+        "amount": 124.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 124.0
+        "amount": 124.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 124.0
+        "amount": 124.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 62.0,
+        "in_progress": true
       }
     ],
     "latest": 62.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 124.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

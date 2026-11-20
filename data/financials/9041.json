@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:13.623358",
+  "fetched_at": "2026-11-20T15:07:38.093757",
   "ticker": "9041",
   "ticker_full": "9041.T",
   "company_name": "KINTETSU GROUP HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3569.0,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 3703.5,
+      "deviation": -2.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3491.2,
-      "deviation": 3.23,
+      "ma_value": 3533.33,
+      "deviation": 2.2,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3475.44,
-      "deviation": 3.7,
+      "ma_value": 3484.51,
+      "deviation": 3.63,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3383.08,
-      "deviation": 6.53,
+      "ma_value": 3394.46,
+      "deviation": 6.38,
       "trend": "up"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥942億",
         "net_income": 46716000000.0,
         "net_income_fmt": "¥467億",
-        "eps": 131.46,
+        "eps": 245.65,
         "operating_margin": 4.85,
         "total_assets": 2507255000000.0,
         "total_assets_fmt": "¥2.5T",
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥873億",
         "net_income": 47808000000.0,
         "net_income_fmt": "¥478億",
-        "eps": 252.78,
+        "eps": 251.38,
         "operating_margin": 5.37,
         "total_assets": 2454316000000.0,
         "total_assets_fmt": "¥2.5T",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 25.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 75.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

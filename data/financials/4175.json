@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:35.443853",
+  "fetched_at": "2026-11-20T14:17:03.652441",
   "ticker": "4175",
   "ticker_full": "4175.T",
   "company_name": "COLY INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2308.6,
-      "deviation": 1.79,
-      "trend": "up"
+      "ma_value": 2663.4,
+      "deviation": -5.42,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2684.44,
-      "deviation": -12.46,
+      "ma_value": 2663.2,
+      "deviation": -5.41,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2789.33,
-      "deviation": -15.75,
+      "ma_value": 2787.24,
+      "deviation": -9.62,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2323.59,
-      "deviation": 1.14,
+      "ma_value": 2345.15,
+      "deviation": 7.41,
       "trend": "up"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:48.592532",
+  "fetched_at": "2026-11-20T15:13:00.774759",
   "ticker": "6762",
   "ticker_full": "6762.T",
   "company_name": "TDK CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2276.3,
-      "deviation": 1.48,
-      "trend": "up"
+      "ma_value": 2232.38,
+      "deviation": -5.19,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2675.54,
-      "deviation": -13.66,
+      "ma_value": 2500.35,
+      "deviation": -15.35,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2892.69,
-      "deviation": -20.14,
+      "ma_value": 2857.92,
+      "deviation": -25.94,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2806.53,
-      "deviation": -17.69,
+      "ma_value": 2816.79,
+      "deviation": -24.86,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 19.6
-      },
-      {
         "year": 2023,
-        "amount": 22.2
+        "amount": 21.2,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.6
+        "amount": 23.2,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 32.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 45.0
+        "amount": 36.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

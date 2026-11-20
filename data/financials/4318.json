@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:25.941525",
+  "fetched_at": "2026-11-20T14:43:35.270561",
   "ticker": "4318",
   "ticker_full": "4318.T",
   "company_name": "QUICK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 856.8,
-      "deviation": 1.07,
-      "trend": "up"
+      "ma_value": 846.0,
+      "deviation": -3.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 852.68,
-      "deviation": 1.56,
-      "trend": "up"
+      "ma_value": 852.2,
+      "deviation": -4.01,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 825.84,
-      "deviation": 4.86,
-      "trend": "up"
+      "ma_value": 830.6,
+      "deviation": -1.52,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 803.52,
-      "deviation": 7.78,
+      "ma_value": 802.93,
+      "deviation": 1.88,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 18.0
-      },
-      {
         "year": 2023,
-        "amount": 26.67
+        "amount": 23.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 31.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 37.67,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 19.0,
+        "in_progress": true
       }
     ],
     "latest": 19.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 37.6667,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

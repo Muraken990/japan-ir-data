@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:58.487577",
+  "fetched_at": "2026-11-20T14:22:25.493492",
   "ticker": "2410",
   "ticker_full": "2410.T",
   "company_name": "CAREER DESIGN CENTER CO.LTD.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2392.4,
-      "deviation": -7.75,
+      "ma_value": 2144.2,
+      "deviation": -2.34,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2542.24,
-      "deviation": -13.19,
+      "ma_value": 2464.0,
+      "deviation": -15.02,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2651.02,
-      "deviation": -16.75,
+      "ma_value": 2611.14,
+      "deviation": -19.81,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2503.49,
-      "deviation": -11.84,
+      "ma_value": 2497.87,
+      "deviation": -16.17,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 160.0
+        "amount": 160.0,
+        "in_progress": false
       }
     ],
     "latest": 160.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 160.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

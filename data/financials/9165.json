@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:27.457410",
+  "fetched_at": "2026-11-20T13:59:58.766824",
   "ticker": "9165",
   "ticker_full": "9165.T",
   "company_name": "QUALTEC CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1557.0,
-      "deviation": 2.57,
-      "trend": "up"
+      "ma_value": 1478.6,
+      "deviation": -3.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1622.6,
-      "deviation": -1.58,
+      "ma_value": 1570.92,
+      "deviation": -9.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1700.65,
-      "deviation": -6.09,
+      "ma_value": 1684.99,
+      "deviation": -15.73,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1608.64,
-      "deviation": -0.72,
+      "ma_value": 1610.76,
+      "deviation": -11.84,
       "trend": "down"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 47.0
+        "amount": 47.0,
+        "in_progress": false
       }
     ],
     "latest": 47.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 47.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

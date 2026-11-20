@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:12.335003",
+  "fetched_at": "2026-11-20T14:59:41.225822",
   "ticker": "8154",
   "ticker_full": "8154.T",
   "company_name": "KAGA ELECTRONICS CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4990.0,
-      "deviation": 6.61,
-      "trend": "up"
+      "ma_value": 5051.0,
+      "deviation": -7.84,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5227.6,
-      "deviation": 1.77,
-      "trend": "up"
+      "ma_value": 5157.4,
+      "deviation": -9.74,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5064.27,
-      "deviation": 5.05,
-      "trend": "up"
+      "ma_value": 5109.05,
+      "deviation": -8.89,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4473.24,
-      "deviation": 18.93,
+      "ma_value": 4503.87,
+      "deviation": 3.36,
       "trend": "up"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥290億",
         "net_income": 20345000000.0,
         "net_income_fmt": "¥203億",
-        "eps": 387.31,
+        "eps": 387.3,
         "operating_margin": 4.76,
         "total_assets": 286792000000.0,
         "total_assets_fmt": "¥2868億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 87.5
-      },
-      {
         "year": 2023,
-        "amount": 115.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 115.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 140.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 140.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:38.859991",
+  "fetched_at": "2026-11-20T13:53:33.285914",
   "ticker": "2721",
   "ticker_full": "2721.T",
   "company_name": "J-HOLDINGS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 77.8,
-      "deviation": 2.83,
-      "trend": "up"
+      "ma_value": 77.0,
+      "deviation": -2.6,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 85.4,
-      "deviation": -6.32,
+      "ma_value": 80.84,
+      "deviation": -7.22,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 103.76,
-      "deviation": -22.9,
+      "ma_value": 99.69,
+      "deviation": -24.77,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 125.94,
-      "deviation": -36.48,
+      "ma_value": 123.06,
+      "deviation": -39.06,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

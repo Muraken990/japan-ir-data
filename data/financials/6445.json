@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:03.397445",
+  "fetched_at": "2026-11-20T14:30:02.190907",
   "ticker": "6445",
   "ticker_full": "6445.T",
   "company_name": "JANOME CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1519.4,
-      "deviation": 1.09,
-      "trend": "up"
+      "ma_value": 1512.8,
+      "deviation": -2.1,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1391.96,
-      "deviation": 10.35,
+      "ma_value": 1429.76,
+      "deviation": 3.58,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1367.45,
-      "deviation": 12.33,
+      "ma_value": 1381.53,
+      "deviation": 7.2,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1295.53,
-      "deviation": 18.56,
+      "ma_value": 1304.13,
+      "deviation": 13.56,
       "trend": "up"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥14億",
         "net_income": 590000000.0,
         "net_income_fmt": "¥6億",
-        "eps": 33.39,
+        "eps": 33.37,
         "operating_margin": 4.91,
         "total_assets": 50621000000.0,
         "total_assets_fmt": "¥506億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 25.0
-      },
-      {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

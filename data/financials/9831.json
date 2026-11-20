@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:09.138645",
+  "fetched_at": "2026-11-20T15:06:34.961182",
   "ticker": "9831",
   "ticker_full": "9831.T",
   "company_name": "YAMADA HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 745.32,
-      "deviation": 1.53,
+      "ma_value": 795.57,
+      "deviation": 1.64,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 732.96,
-      "deviation": 3.24,
+      "ma_value": 747.56,
+      "deviation": 8.16,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 716.3,
-      "deviation": 5.64,
+      "ma_value": 719.05,
+      "deviation": 12.45,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 631.51,
-      "deviation": 19.82,
+      "ma_value": 637.45,
+      "deviation": 26.85,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

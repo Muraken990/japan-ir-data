@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:07.083583",
+  "fetched_at": "2026-11-20T14:30:05.583833",
   "ticker": "6157",
   "ticker_full": "6157.T",
   "company_name": "NS TOOL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 721.4,
-      "deviation": -0.19,
+      "ma_value": 720.4,
+      "deviation": -2.97,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 769.28,
-      "deviation": -6.41,
+      "ma_value": 752.88,
+      "deviation": -7.16,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 810.46,
-      "deviation": -11.16,
+      "ma_value": 797.76,
+      "deviation": -12.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 848.79,
-      "deviation": -15.17,
+      "ma_value": 845.56,
+      "deviation": -17.33,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 22.5
-      },
-      {
         "year": 2023,
-        "amount": 27.5
+        "amount": 22.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 27.5
+        "amount": 27.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

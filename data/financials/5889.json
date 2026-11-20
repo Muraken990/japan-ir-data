@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:25.422907",
+  "fetched_at": "2026-11-20T14:42:36.588610",
   "ticker": "5889",
   "ticker_full": "5889.T",
   "company_name": "JAPAN EYEWEAR HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2198.4,
-      "deviation": 0.62,
-      "trend": "up"
+      "ma_value": 2098.4,
+      "deviation": -2.78,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2139.8,
-      "deviation": 3.37,
-      "trend": "up"
+      "ma_value": 2127.56,
+      "deviation": -4.12,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2353.15,
-      "deviation": -6.0,
+      "ma_value": 2329.55,
+      "deviation": -12.43,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2191.73,
-      "deviation": 0.92,
-      "trend": "up"
+      "ma_value": 2195.68,
+      "deviation": -7.09,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,18 +195,33 @@
     "history": [
       {
         "year": 2024,
-        "amount": 41.0
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 86.0
+        "amount": 66.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 85.0
+        "amount": 84.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 43.0,
+        "in_progress": true
       }
     ],
     "latest": 43.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 84.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

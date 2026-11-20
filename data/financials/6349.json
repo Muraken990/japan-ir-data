@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:22.702146",
+  "fetched_at": "2026-11-20T14:50:10.787736",
   "ticker": "6349",
   "ticker_full": "6349.T",
   "company_name": "KOMORI CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1717.4,
-      "deviation": 1.37,
-      "trend": "up"
+      "ma_value": 1669.0,
+      "deviation": -3.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1867.48,
-      "deviation": -6.77,
+      "ma_value": 1805.04,
+      "deviation": -11.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1889.9,
-      "deviation": -7.88,
+      "ma_value": 1889.47,
+      "deviation": -15.11,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1670.79,
-      "deviation": 4.2,
-      "trend": "up"
+      "ma_value": 1673.86,
+      "deviation": -4.17,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 56.0
-      },
-      {
         "year": 2023,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 83.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 85.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

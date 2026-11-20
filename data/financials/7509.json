@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:49.501904",
+  "fetched_at": "2026-11-20T14:11:44.088592",
   "ticker": "7509",
   "ticker_full": "7509.T",
   "company_name": "I.A.GROUP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4338.0,
-      "deviation": 0.28,
-      "trend": "up"
+      "ma_value": 4100.0,
+      "deviation": -5.12,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4534.8,
-      "deviation": -4.08,
+      "ma_value": 4438.0,
+      "deviation": -12.35,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4640.65,
-      "deviation": -6.26,
+      "ma_value": 4605.08,
+      "deviation": -15.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4548.52,
-      "deviation": -4.36,
+      "ma_value": 4549.62,
+      "deviation": -14.5,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 120.0
-      },
-      {
         "year": 2023,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 160.0
+        "amount": 160.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 135.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 155.0
+        "amount": 150.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 80.0,
+        "in_progress": true
       }
     ],
     "latest": 80.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 150.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

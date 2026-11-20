@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:58.835186",
+  "fetched_at": "2026-11-20T15:00:27.483811",
   "ticker": "6013",
   "ticker_full": "6013.T",
   "company_name": "TAKUMA CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2977.2,
-      "deviation": 6.81,
-      "trend": "up"
+      "ma_value": 3002.75,
+      "deviation": -4.42,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2944.48,
-      "deviation": 8.0,
-      "trend": "up"
+      "ma_value": 2951.29,
+      "deviation": -2.75,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3028.1,
-      "deviation": 5.02,
-      "trend": "up"
+      "ma_value": 3005.78,
+      "deviation": -4.52,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2987.6,
-      "deviation": 6.44,
-      "trend": "up"
+      "ma_value": 3001.31,
+      "deviation": -4.37,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 37.0
-      },
-      {
         "year": 2023,
-        "amount": 48.0
+        "amount": 43.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 52.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 78.0
+        "amount": 67.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 113.0
+        "amount": 93.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 59.0,
+        "in_progress": true
       }
     ],
     "latest": 59.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 93.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

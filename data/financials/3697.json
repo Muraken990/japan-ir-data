@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:28.446416",
+  "fetched_at": "2026-11-20T15:03:02.410249",
   "ticker": "3697",
   "ticker_full": "3697.T",
   "company_name": "SHIFT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1117.3,
-      "deviation": -0.38,
+      "ma_value": 1064.25,
+      "deviation": -5.1,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1069.65,
-      "deviation": 4.05,
-      "trend": "up"
+      "ma_value": 1103.02,
+      "deviation": -8.43,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 949.41,
-      "deviation": 17.23,
+      "ma_value": 959.19,
+      "deviation": 5.3,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 779.01,
-      "deviation": 42.87,
+      "ma_value": 783.65,
+      "deviation": 28.88,
       "trend": "up"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 4.53
+        "amount": 4.53,
+        "in_progress": false
       }
     ],
     "latest": 4.53,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 4.53,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

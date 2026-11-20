@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:52.453088",
+  "fetched_at": "2026-11-20T14:39:13.934006",
   "ticker": "7814",
   "ticker_full": "7814.T",
   "company_name": "JAPAN CREATIVE PLATFORM GRP CO ",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 577.0,
-      "deviation": -1.73,
+      "ma_value": 529.0,
+      "deviation": -5.48,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 610.96,
-      "deviation": -7.2,
+      "ma_value": 591.44,
+      "deviation": -15.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 620.04,
-      "deviation": -8.55,
+      "ma_value": 613.04,
+      "deviation": -18.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 619.53,
-      "deviation": -8.48,
+      "ma_value": 614.1,
+      "deviation": -18.58,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.25
+        "amount": 11.25,
+        "in_progress": true
       }
     ],
     "latest": 3.75,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

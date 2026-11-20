@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:17.835472",
+  "fetched_at": "2026-11-20T14:43:28.459716",
   "ticker": "9619",
   "ticker_full": "9619.T",
   "company_name": "ICHINEN HOLDINGS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2635.6,
-      "deviation": 2.48,
-      "trend": "up"
+      "ma_value": 2560.6,
+      "deviation": -3.42,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2702.64,
-      "deviation": -0.06,
+      "ma_value": 2680.4,
+      "deviation": -7.74,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2630.32,
-      "deviation": 2.69,
-      "trend": "up"
+      "ma_value": 2644.02,
+      "deviation": -6.47,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2303.58,
-      "deviation": 17.25,
+      "ma_value": 2316.76,
+      "deviation": 6.74,
       "trend": "up"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥154億",
         "net_income": 12253000000.0,
         "net_income_fmt": "¥123億",
-        "eps": 507.56,
+        "eps": 507.57,
         "operating_margin": 6.55,
         "total_assets": 202606000000.0,
         "total_assets_fmt": "¥2026億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 48.0
-      },
-      {
         "year": 2023,
-        "amount": 55.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 63.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 87.0
+        "amount": 80.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 45.0,
+        "in_progress": true
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

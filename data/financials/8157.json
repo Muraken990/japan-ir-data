@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:52.263963",
+  "fetched_at": "2026-11-20T14:46:52.210988",
   "ticker": "8157",
   "ticker_full": "8157.T",
   "company_name": "TSUZUKI DENKI CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3961.0,
-      "deviation": 1.11,
-      "trend": "up"
+      "ma_value": 3870.0,
+      "deviation": -2.45,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4231.4,
-      "deviation": -5.35,
+      "ma_value": 4143.0,
+      "deviation": -8.88,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4125.17,
-      "deviation": -2.91,
+      "ma_value": 4115.72,
+      "deviation": -8.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3851.92,
-      "deviation": 3.97,
-      "trend": "up"
+      "ma_value": 3865.03,
+      "deviation": -2.33,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 74.0
+        "amount": 61.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 97.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 104.0
+        "amount": 99.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 171.0
+        "amount": 126.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 95.0,
+        "in_progress": true
       }
     ],
     "latest": 95.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 126.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

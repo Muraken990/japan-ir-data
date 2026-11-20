@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:33.473234",
+  "fetched_at": "2026-11-20T14:10:35.276763",
   "ticker": "6546",
   "ticker_full": "6546.T",
   "company_name": "FULLTECH CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1154.8,
-      "deviation": -0.42,
+      "ma_value": 1140.4,
+      "deviation": -0.3,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1165.52,
-      "deviation": -1.33,
+      "ma_value": 1160.76,
+      "deviation": -2.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1158.76,
-      "deviation": -0.76,
+      "ma_value": 1159.59,
+      "deviation": -1.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1140.14,
-      "deviation": 0.86,
-      "trend": "up"
+      "ma_value": 1139.28,
+      "deviation": -0.2,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 31.0
+        "amount": 31.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 32.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

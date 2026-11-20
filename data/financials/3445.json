@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:41.490967",
+  "fetched_at": "2026-11-20T14:51:25.942596",
   "ticker": "3445",
   "ticker_full": "3445.T",
   "company_name": "RS TECHNOLOGIES CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4508.0,
-      "deviation": 1.04,
-      "trend": "up"
+      "ma_value": 4039.0,
+      "deviation": -7.16,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5003.4,
-      "deviation": -8.96,
+      "ma_value": 4644.4,
+      "deviation": -19.26,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5687.0,
-      "deviation": -19.91,
+      "ma_value": 5544.4,
+      "deviation": -32.36,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5526.38,
-      "deviation": -17.58,
+      "ma_value": 5531.45,
+      "deviation": -32.21,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 45.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

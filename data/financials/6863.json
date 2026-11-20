@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:30.924921",
+  "fetched_at": "2026-11-20T14:24:46.987257",
   "ticker": "6863",
   "ticker_full": "6863.T",
   "company_name": "NIRECO CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 981.2,
-      "deviation": 0.69,
-      "trend": "up"
+      "ma_value": 1019.6,
+      "deviation": -2.02,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1029.92,
-      "deviation": -4.07,
+      "ma_value": 1014.52,
+      "deviation": -1.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 997.65,
-      "deviation": -0.97,
+      "ma_value": 1006.39,
+      "deviation": -0.73,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 857.81,
-      "deviation": 15.18,
+      "ma_value": 865.88,
+      "deviation": 15.37,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 14.0
-      },
-      {
         "year": 2023,
-        "amount": 16.33
+        "amount": 15.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 20.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.33
+        "amount": 31.67,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 29.67,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 14.0,
+        "in_progress": true
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.6667,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

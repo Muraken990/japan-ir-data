@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:39.947955",
+  "fetched_at": "2026-11-20T15:09:55.805162",
   "ticker": "6920",
   "ticker_full": "6920.T",
   "company_name": "LASERTEC CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 35436.0,
-      "deviation": 1.96,
-      "trend": "up"
+      "ma_value": 32112.5,
+      "deviation": -5.8,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 39246.4,
-      "deviation": -7.94,
+      "ma_value": 36823.33,
+      "deviation": -17.85,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 38590.67,
-      "deviation": -6.38,
+      "ma_value": 38251.76,
+      "deviation": -20.92,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 39234.17,
-      "deviation": -7.91,
+      "ma_value": 39158.08,
+      "deviation": -22.75,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 117.0
+        "amount": 97.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 201.0
+        "amount": 180.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 272.0
+        "amount": 230.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 346.0
+        "amount": 329.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 197.0
+        "amount": 329.0,
+        "in_progress": false
       }
     ],
     "latest": 197.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 329.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

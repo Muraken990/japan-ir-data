@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:40.397519",
+  "fetched_at": "2026-11-20T15:03:12.722813",
   "ticker": "8967",
   "ticker_full": "8967.T",
   "company_name": "JAPAN LOGISTICS FUND INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 86960.0,
-      "deviation": 0.85,
-      "trend": "up"
+      "ma_value": 88750.0,
+      "deviation": -1.41,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 87672.0,
-      "deviation": 0.03,
-      "trend": "up"
+      "ma_value": 87804.17,
+      "deviation": -0.35,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 92018.84,
-      "deviation": -4.69,
+      "ma_value": 91312.16,
+      "deviation": -4.17,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 94079.04,
-      "deviation": -6.78,
+      "ma_value": 93839.47,
+      "deviation": -6.76,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3275.33
+        "amount": 3275.33,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3462.0
+        "amount": 3462.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3507.67
+        "amount": 3507.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4009.33
+        "amount": 4009.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 4665.0
+        "amount": 4665.0,
+        "in_progress": false
       }
     ],
     "latest": 2365.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 4450.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

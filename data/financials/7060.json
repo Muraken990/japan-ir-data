@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:32.783391",
+  "fetched_at": "2026-11-20T14:08:37.637164",
   "ticker": "7060",
   "ticker_full": "7060.T",
   "company_name": "GEECHS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 569.2,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 543.0,
+      "deviation": -3.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 587.16,
-      "deviation": -2.24,
+      "ma_value": 576.88,
+      "deviation": -9.17,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 584.87,
-      "deviation": -1.86,
+      "ma_value": 581.03,
+      "deviation": -9.81,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 566.32,
-      "deviation": 1.36,
-      "trend": "up"
+      "ma_value": 566.71,
+      "deviation": -7.54,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 30.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

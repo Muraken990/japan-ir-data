@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:08.070136",
+  "fetched_at": "2026-11-20T14:31:07.196838",
   "ticker": "2882",
   "ticker_full": "2882.T",
   "company_name": "EAT&HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2014.6,
-      "deviation": 0.27,
+      "ma_value": 2019.4,
+      "deviation": 0.13,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2002.0,
-      "deviation": 0.9,
+      "ma_value": 2005.52,
+      "deviation": 0.82,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2022.58,
-      "deviation": -0.13,
-      "trend": "down"
+      "ma_value": 2019.92,
+      "deviation": 0.1,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2008.13,
-      "deviation": 0.59,
+      "ma_value": 2007.54,
+      "deviation": 0.72,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.5
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.5
+        "amount": 15.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 7.5,
+        "in_progress": true
       }
     ],
     "latest": 7.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

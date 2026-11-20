@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:53:18.764375",
+  "fetched_at": "2026-11-20T14:56:52.265157",
   "ticker": "8975",
   "ticker_full": "8975.T",
   "company_name": "ICHIGO OFFICE REITINVESTMENT CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 86720.0,
-      "deviation": 0.9,
-      "trend": "up"
+      "ma_value": 88720.0,
+      "deviation": -0.59,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 83226.6,
-      "deviation": 5.13,
+      "ma_value": 84457.36,
+      "deviation": 4.43,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 85519.57,
-      "deviation": 2.32,
+      "ma_value": 85468.16,
+      "deviation": 3.2,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 84882.13,
-      "deviation": 3.08,
+      "ma_value": 84936.26,
+      "deviation": 3.84,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4560.0
+        "amount": 4560.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6339.0
+        "amount": 6339.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 4891.0
+        "amount": 4891.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6045.0
+        "amount": 6045.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9669.0
+        "amount": 9669.0,
+        "in_progress": false
       }
     ],
     "latest": 7293.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 6045.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

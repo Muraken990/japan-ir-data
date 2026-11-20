@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:15:50.573490",
+  "fetched_at": "2026-11-20T14:21:12.435467",
   "ticker": "4627",
   "ticker_full": "4627.T",
   "company_name": "NATOCO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1909.4,
-      "deviation": 1.08,
-      "trend": "up"
+      "ma_value": 1916.4,
+      "deviation": -2.47,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1987.08,
-      "deviation": -2.87,
+      "ma_value": 1960.71,
+      "deviation": -4.68,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1903.75,
-      "deviation": 1.38,
-      "trend": "up"
+      "ma_value": 1916.46,
+      "deviation": -2.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1758.04,
-      "deviation": 9.78,
+      "ma_value": 1767.28,
+      "deviation": 5.76,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 51.0
+        "amount": 51.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       }
     ],
     "latest": 27.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

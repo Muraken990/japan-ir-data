@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:08:02.515152",
+  "fetched_at": "2026-11-20T14:13:46.784744",
   "ticker": "7938",
   "ticker_full": "7938.T",
   "company_name": "REGAL CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1989.8,
-      "deviation": -2.25,
-      "trend": "down"
+      "ma_value": 1917.8,
+      "deviation": 0.01,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2041.6,
-      "deviation": -4.73,
+      "ma_value": 2010.44,
+      "deviation": -4.6,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2122.04,
-      "deviation": -8.34,
+      "ma_value": 2101.08,
+      "deviation": -8.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2192.82,
-      "deviation": -11.3,
+      "ma_value": 2181.11,
+      "deviation": -12.06,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       }
     ],
     "latest": 75.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 75.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

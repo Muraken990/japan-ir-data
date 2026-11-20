@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:35.396693",
+  "fetched_at": "2026-11-20T13:53:31.090178",
   "ticker": "7041",
   "ticker_full": "7041.T",
   "company_name": "CRG HOLDINGS CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Staffing & Employment Services",
     "website": "https://www.crgh.co.jp",
-    "employees": 510,
+    "employees": null,
     "country": "Japan",
     "city": "Shinjuku",
     "address": "Shinjuku Mitsui Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 290.0,
-      "deviation": 0.34,
-      "trend": "up"
+      "ma_value": 289.0,
+      "deviation": -2.77,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 306.92,
-      "deviation": -5.19,
+      "ma_value": 300.84,
+      "deviation": -6.59,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 326.7,
-      "deviation": -10.93,
+      "ma_value": 323.29,
+      "deviation": -13.08,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 309.95,
-      "deviation": -6.11,
+      "ma_value": 309.13,
+      "deviation": -9.1,
       "trend": "down"
     }
   },
@@ -195,14 +195,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 9.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

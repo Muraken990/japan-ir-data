@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:41.725559",
+  "fetched_at": "2026-11-20T15:10:55.601141",
   "ticker": "8136",
   "ticker_full": "8136.T",
   "company_name": "SANRIO CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1130.9,
-      "deviation": -1.89,
+      "ma_value": 1071.25,
+      "deviation": -5.81,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1246.4,
-      "deviation": -10.98,
+      "ma_value": 1217.12,
+      "deviation": -17.1,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1237.36,
-      "deviation": -10.33,
+      "ma_value": 1226.19,
+      "deviation": -17.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1084.3,
-      "deviation": 2.32,
-      "trend": "up"
+      "ma_value": 1088.27,
+      "deviation": -7.28,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 1.53
-      },
-      {
         "year": 2023,
-        "amount": 2.83
+        "amount": 2.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.9
+        "amount": 4.4,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 12.8
+        "amount": 10.6,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.6
+        "amount": 13.8,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 8.0,
+        "in_progress": true
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 13.8,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

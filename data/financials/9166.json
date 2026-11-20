@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:12.866079",
+  "fetched_at": "2026-11-20T14:54:50.359358",
   "ticker": "9166",
   "ticker_full": "9166.T",
   "company_name": "GENDA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 680.8,
-      "deviation": -1.15,
+      "ma_value": 670.4,
+      "deviation": -1.1,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 655.2,
-      "deviation": 2.72,
+      "ma_value": 655.6,
+      "deviation": 1.13,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 675.97,
-      "deviation": -0.44,
+      "ma_value": 681.8,
+      "deviation": -2.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 628.04,
-      "deviation": 7.16,
+      "ma_value": 624.78,
+      "deviation": 6.12,
       "trend": "up"
     }
   },
@@ -194,11 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2026,
-        "amount": 4.0
+        "year": 2027,
+        "amount": 4.0,
+        "in_progress": true
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "no_dividend"
+    }
   }
 }

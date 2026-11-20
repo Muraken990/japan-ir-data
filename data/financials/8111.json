@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:01:57.986229",
+  "fetched_at": "2026-11-20T15:05:26.084751",
   "ticker": "8111",
   "ticker_full": "8111.T",
   "company_name": "GOLDWIN INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2209.7,
-      "deviation": 0.65,
-      "trend": "up"
+      "ma_value": 2237.88,
+      "deviation": -2.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2168.36,
-      "deviation": 2.57,
+      "ma_value": 2180.5,
+      "deviation": 0.07,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2147.09,
-      "deviation": 3.58,
+      "ma_value": 2140.13,
+      "deviation": 1.96,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2205.81,
-      "deviation": 0.82,
-      "trend": "up"
+      "ma_value": 2198.86,
+      "deviation": -0.77,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 38.33
+        "amount": 36.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 57.33
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 69.99
+        "amount": 54.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 64.0
+        "amount": 57.99,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 57.99,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

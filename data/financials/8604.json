@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:47.183600",
+  "fetched_at": "2026-11-20T15:12:59.731379",
   "ticker": "8604",
   "ticker_full": "8604.T",
   "company_name": "NOMURA HOLDINGS INC.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1524.4,
-      "deviation": 1.84,
-      "trend": "up"
+      "ma_value": 1493.38,
+      "deviation": -6.59,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1479.2,
-      "deviation": 4.96,
-      "trend": "up"
+      "ma_value": 1481.06,
+      "deviation": -5.81,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1526.19,
-      "deviation": 1.72,
-      "trend": "up"
+      "ma_value": 1524.2,
+      "deviation": -8.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1393.77,
-      "deviation": 11.39,
-      "trend": "up"
+      "ma_value": 1396.73,
+      "deviation": -0.12,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 19.0
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 61.0
+        "amount": 57.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 59.0
+        "amount": 51.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 51.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

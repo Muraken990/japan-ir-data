@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:02.527578",
+  "fetched_at": "2026-11-20T14:35:42.364972",
   "ticker": "9768",
   "ticker_full": "9768.T",
   "company_name": "IDEA CONSULTANTS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3528.0,
-      "deviation": 0.48,
-      "trend": "up"
+      "ma_value": 3385.0,
+      "deviation": -4.87,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3619.0,
-      "deviation": -2.04,
+      "ma_value": 3568.2,
+      "deviation": -9.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3687.13,
-      "deviation": -3.85,
+      "ma_value": 3679.73,
+      "deviation": -12.49,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3731.53,
-      "deviation": -5.0,
+      "ma_value": 3710.72,
+      "deviation": -13.22,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 118.0
+        "amount": 118.0,
+        "in_progress": false
       }
     ],
     "latest": 118.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 118.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

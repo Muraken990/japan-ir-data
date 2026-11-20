@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:30:03.283529",
+  "fetched_at": "2026-11-20T14:34:48.047487",
   "ticker": "1828",
   "ticker_full": "1828.T",
   "company_name": "TANABE ENGINEERING CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2289.4,
-      "deviation": 0.73,
-      "trend": "up"
+      "ma_value": 2272.0,
+      "deviation": -4.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2309.92,
-      "deviation": -0.17,
+      "ma_value": 2299.12,
+      "deviation": -5.22,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2352.93,
-      "deviation": -1.99,
+      "ma_value": 2350.84,
+      "deviation": -7.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2440.36,
-      "deviation": -5.51,
+      "ma_value": 2431.37,
+      "deviation": -10.38,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 87.0
+        "amount": 87.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       }
     ],
     "latest": 100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:44.026286",
+  "fetched_at": "2026-11-20T14:33:35.259988",
   "ticker": "296A",
   "ticker_full": "296A.T",
   "company_name": "REIWA ACCOUNTING HOLDINGS CO LT",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 935.4,
-      "deviation": -1.22,
+      "ma_value": 879.0,
+      "deviation": -6.48,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1033.92,
-      "deviation": -10.63,
+      "ma_value": 981.92,
+      "deviation": -16.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1037.59,
-      "deviation": -10.95,
+      "ma_value": 1036.39,
+      "deviation": -20.69,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 846.78,
-      "deviation": 9.12,
-      "trend": "up"
+      "ma_value": 851.06,
+      "deviation": -3.41,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,14 +195,28 @@
     "history": [
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 24.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 36.5
+        "amount": 32.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 16.5,
+        "in_progress": true
       }
     ],
     "latest": 16.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 32.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

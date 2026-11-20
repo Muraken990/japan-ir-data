@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:02.950411",
+  "fetched_at": "2026-11-20T14:54:41.810507",
   "ticker": "8074",
   "ticker_full": "8074.T",
   "company_name": "YUASA CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6098.0,
-      "deviation": -1.61,
+      "ma_value": 5952.0,
+      "deviation": -3.06,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6133.6,
-      "deviation": -2.18,
+      "ma_value": 6114.4,
+      "deviation": -5.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6110.77,
-      "deviation": -1.81,
+      "ma_value": 6130.73,
+      "deviation": -5.88,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5832.48,
-      "deviation": 2.87,
-      "trend": "up"
+      "ma_value": 5842.48,
+      "deviation": -1.24,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 134.0
-      },
-      {
         "year": 2023,
-        "amount": 166.0
+        "amount": 140.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 168.0
+        "amount": 182.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 194.0
+        "amount": 190.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 194.0
+        "amount": 190.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 80.0,
+        "in_progress": true
       }
     ],
     "latest": 80.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 190.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:44.349289",
+  "fetched_at": "2026-11-20T14:20:09.134705",
   "ticker": "3633",
   "ticker_full": "3633.T",
   "company_name": "GMO PEPABO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2324.2,
-      "deviation": 0.08,
-      "trend": "up"
+      "ma_value": 2298.4,
+      "deviation": -4.19,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2450.12,
-      "deviation": -5.07,
+      "ma_value": 2382.16,
+      "deviation": -7.56,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2365.37,
-      "deviation": -1.66,
+      "ma_value": 2402.68,
+      "deviation": -8.35,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2045.89,
-      "deviation": 13.69,
+      "ma_value": 2049.34,
+      "deviation": 7.45,
       "trend": "up"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 52.5
-      },
-      {
         "year": 2021,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 57.0
+        "amount": 57.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 111.0
+        "amount": 111.0,
+        "in_progress": false
       }
     ],
     "latest": 111.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 111.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

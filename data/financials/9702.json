@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:57.293978",
+  "fetched_at": "2026-11-20T14:29:02.850591",
   "ticker": "9702",
   "ticker_full": "9702.T",
   "company_name": "ISB CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2549.0,
-      "deviation": -0.9,
-      "trend": "down"
+      "ma_value": 2517.8,
+      "deviation": 0.01,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2493.36,
-      "deviation": 1.31,
+      "ma_value": 2510.56,
+      "deviation": 0.3,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2446.35,
-      "deviation": 3.26,
+      "ma_value": 2458.33,
+      "deviation": 2.43,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2229.43,
-      "deviation": 13.3,
+      "ma_value": 2247.26,
+      "deviation": 12.05,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       }
     ],
     "latest": 55.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

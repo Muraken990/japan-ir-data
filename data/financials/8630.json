@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:10:00.668550",
+  "fetched_at": "2026-11-20T15:13:11.717834",
   "ticker": "8630",
   "ticker_full": "8630.T",
   "company_name": "SOMPO HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 7179.8,
-      "deviation": 1.53,
-      "trend": "up"
+      "ma_value": 7096.25,
+      "deviation": -1.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6980.08,
-      "deviation": 4.44,
-      "trend": "up"
+      "ma_value": 7064.08,
+      "deviation": -0.99,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6838.02,
-      "deviation": 6.61,
+      "ma_value": 6832.48,
+      "deviation": 2.36,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 6249.31,
-      "deviation": 16.65,
+      "ma_value": 6288.32,
+      "deviation": 11.22,
       "trend": "up"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥6307億",
         "net_income": 529655000000.0,
         "net_income_fmt": "¥5297億",
-        "eps": 534.28,
+        "eps": 421.28,
         "operating_margin": 0.0,
         "total_assets": 16459939000000.0,
         "total_assets_fmt": "¥16.5T",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 78.33
-      },
-      {
         "year": 2023,
-        "amount": 93.33
+        "amount": 86.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 106.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 151.0
+        "amount": 132.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 175.0
+        "amount": 150.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 100.0,
+        "in_progress": true
       }
     ],
     "latest": 100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 150.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

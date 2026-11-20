@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:43:54.524536",
+  "fetched_at": "2026-11-20T14:47:53.717812",
   "ticker": "3491",
   "ticker_full": "3491.T",
   "company_name": "GA TECHNOLOGIES CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1502.0,
-      "deviation": -2.4,
+      "ma_value": 1352.2,
+      "deviation": -7.56,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1387.56,
-      "deviation": 5.65,
-      "trend": "up"
+      "ma_value": 1396.76,
+      "deviation": -10.51,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1426.23,
-      "deviation": 2.79,
-      "trend": "up"
+      "ma_value": 1426.52,
+      "deviation": -12.37,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1472.7,
-      "deviation": -0.46,
+      "ma_value": 1466.45,
+      "deviation": -14.76,
       "trend": "down"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 8.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:19.177663",
+  "fetched_at": "2026-11-20T15:06:43.217098",
   "ticker": "8233",
   "ticker_full": "8233.T",
   "company_name": "TAKASHIMAYA CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2247.2,
-      "deviation": 3.08,
-      "trend": "up"
+      "ma_value": 2254.75,
+      "deviation": -7.77,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2159.22,
-      "deviation": 7.28,
-      "trend": "up"
+      "ma_value": 2177.71,
+      "deviation": -4.51,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2203.04,
-      "deviation": 5.15,
-      "trend": "up"
+      "ma_value": 2200.05,
+      "deviation": -5.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2102.5,
-      "deviation": 10.18,
-      "trend": "up"
+      "ma_value": 2111.13,
+      "deviation": -1.5,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 12.0
-      },
-      {
         "year": 2023,
-        "amount": 15.5
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 21.5
+        "amount": 18.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 24.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 39.0
+        "amount": 34.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 22.0,
+        "in_progress": true
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 34.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

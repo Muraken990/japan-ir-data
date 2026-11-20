@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:19.522519",
+  "fetched_at": "2026-11-20T14:24:37.076979",
   "ticker": "6882",
   "ticker_full": "6882.T",
   "company_name": "SANSHA ELECTRIC MANUFACTURING",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 955.8,
-      "deviation": 1.49,
-      "trend": "up"
+      "ma_value": 909.2,
+      "deviation": -3.21,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1050.64,
-      "deviation": -7.68,
+      "ma_value": 1006.08,
+      "deviation": -12.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1121.74,
-      "deviation": -13.53,
+      "ma_value": 1109.82,
+      "deviation": -20.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1122.67,
-      "deviation": -13.6,
+      "ma_value": 1120.59,
+      "deviation": -21.47,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 25.0
-      },
-      {
         "year": 2023,
-        "amount": 32.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

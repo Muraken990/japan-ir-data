@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:00.910220",
+  "fetched_at": "2026-11-20T14:59:31.472359",
   "ticker": "1377",
   "ticker_full": "1377.T",
   "company_name": "SAKATA SEED CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4241.0,
-      "deviation": 0.33,
-      "trend": "up"
+      "ma_value": 4240.0,
+      "deviation": -1.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4216.0,
-      "deviation": 0.93,
-      "trend": "up"
+      "ma_value": 4222.6,
+      "deviation": -1.48,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4321.47,
-      "deviation": -1.54,
+      "ma_value": 4307.2,
+      "deviation": -3.42,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4235.85,
-      "deviation": 0.45,
-      "trend": "up"
+      "ma_value": 4242.42,
+      "deviation": -1.94,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 47.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 80.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 85.0,
+        "in_progress": false
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

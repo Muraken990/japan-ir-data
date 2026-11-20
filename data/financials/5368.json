@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:24.901819",
+  "fetched_at": "2026-11-20T14:15:59.090797",
   "ticker": "5368",
   "ticker_full": "5368.T",
   "company_name": "JAPAN INSULATION CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 953.8,
-      "deviation": -0.08,
+      "ma_value": 910.8,
+      "deviation": -2.39,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 971.64,
-      "deviation": -1.92,
+      "ma_value": 957.32,
+      "deviation": -7.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 998.95,
-      "deviation": -4.6,
+      "ma_value": 992.96,
+      "deviation": -10.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1041.24,
-      "deviation": -8.47,
+      "ma_value": 1036.9,
+      "deviation": -14.26,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

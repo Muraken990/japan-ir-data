@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:50:03.745486",
+  "fetched_at": "2026-11-20T14:53:43.625057",
   "ticker": "9347",
   "ticker_full": "9347.T",
   "company_name": "NIPPON KANZAI HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3056.0,
-      "deviation": 0.62,
+      "ma_value": 3112.0,
+      "deviation": 1.06,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2983.84,
-      "deviation": 3.06,
+      "ma_value": 3031.96,
+      "deviation": 3.73,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2887.92,
-      "deviation": 6.48,
+      "ma_value": 2909.04,
+      "deviation": 8.11,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2814.64,
-      "deviation": 9.25,
+      "ma_value": 2823.67,
+      "deviation": 11.38,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 54.0
-      },
-      {
         "year": 2023,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 57.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 57.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

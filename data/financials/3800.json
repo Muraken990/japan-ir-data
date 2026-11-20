@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:23.890621",
+  "fetched_at": "2026-11-20T14:24:40.786853",
   "ticker": "3800",
   "ticker_full": "3800.T",
   "company_name": "UNIRITA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1954.2,
-      "deviation": 0.3,
+      "ma_value": 1962.0,
+      "deviation": 0.31,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1959.92,
-      "deviation": 0.0,
+      "ma_value": 1959.0,
+      "deviation": 0.46,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1944.74,
-      "deviation": 0.78,
+      "ma_value": 1947.26,
+      "deviation": 1.07,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1915.61,
-      "deviation": 2.32,
+      "ma_value": 1916.94,
+      "deviation": 2.66,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 68.0
-      },
-      {
         "year": 2023,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 69.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 71.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 73.0
+        "amount": 72.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 37.0,
+        "in_progress": true
       }
     ],
     "latest": 37.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 72.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

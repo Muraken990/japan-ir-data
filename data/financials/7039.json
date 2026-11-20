@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:03.271080",
+  "fetched_at": "2026-11-20T14:12:50.614856",
   "ticker": "7039",
   "ticker_full": "7039.T",
   "company_name": "BRIDGE INTERNATIONAL GROUP CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1328.4,
-      "deviation": 0.5,
-      "trend": "up"
+      "ma_value": 1327.0,
+      "deviation": -1.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1353.0,
-      "deviation": -1.33,
+      "ma_value": 1347.52,
+      "deviation": -3.45,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1427.52,
-      "deviation": -6.48,
+      "ma_value": 1400.61,
+      "deviation": -7.11,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1635.59,
-      "deviation": -18.38,
+      "ma_value": 1620.38,
+      "deviation": -19.71,
       "trend": "down"
     }
   },
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.5
+        "amount": 42.5,
+        "in_progress": true
       }
     ],
     "latest": 42.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

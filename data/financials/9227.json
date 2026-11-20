@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:56.087503",
+  "fetched_at": "2026-11-20T14:22:22.861421",
   "ticker": "9227",
   "ticker_full": "9227.T",
   "company_name": "MWCC INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 583.8,
-      "deviation": 1.06,
-      "trend": "up"
+      "ma_value": 527.8,
+      "deviation": -10.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 636.96,
-      "deviation": -7.37,
+      "ma_value": 599.52,
+      "deviation": -21.44,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 789.51,
-      "deviation": -25.27,
+      "ma_value": 768.17,
+      "deviation": -38.69,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 918.29,
-      "deviation": -35.75,
+      "ma_value": 902.46,
+      "deviation": -47.81,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:37.339767",
+  "fetched_at": "2026-11-20T13:49:41.236637",
   "ticker": "4406",
   "ticker_full": "4406.T",
   "company_name": "NEW JAPAN CHEMICAL CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 211.6,
-      "deviation": 1.61,
-      "trend": "up"
-    },
-    "ma_25": {
-      "ma_value": 219.24,
-      "deviation": -1.93,
+      "ma_value": 237.8,
+      "deviation": -4.54,
       "trend": "down"
     },
+    "ma_25": {
+      "ma_value": 221.64,
+      "deviation": 2.42,
+      "trend": "up"
+    },
     "ma_75": {
-      "ma_value": 229.51,
-      "deviation": -6.32,
+      "ma_value": 232.07,
+      "deviation": -2.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 217.09,
-      "deviation": -0.96,
-      "trend": "down"
+      "ma_value": 217.0,
+      "deviation": 4.61,
+      "trend": "up"
     }
   },
   "financials": {
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 3.0
-      },
-      {
-        "year": 2021,
-        "amount": 3.0
-      },
-      {
         "year": 2022,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 4.5
+        "amount": 4.5,
+        "in_progress": false
       }
     ],
     "latest": 4.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 4.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

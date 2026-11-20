@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:38.309849",
+  "fetched_at": "2026-11-20T14:33:31.702031",
   "ticker": "6706",
   "ticker_full": "6706.T",
   "company_name": "DKK CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3201.0,
-      "deviation": -1.12,
-      "trend": "down"
+      "ma_value": 3044.0,
+      "deviation": 1.84,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 3210.92,
-      "deviation": -1.43,
+      "ma_value": 3159.52,
+      "deviation": -1.88,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3222.02,
-      "deviation": -1.77,
+      "ma_value": 3252.31,
+      "deviation": -4.68,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3134.69,
-      "deviation": 0.97,
-      "trend": "up"
+      "ma_value": 3183.4,
+      "deviation": -2.62,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 90.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 100.0,
+        "in_progress": false
       }
     ],
-    "latest": 50.0,
-    "has_data": true
+    "latest": 60.0,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

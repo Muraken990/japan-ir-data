@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:27.751571",
+  "fetched_at": "2026-11-20T14:16:01.096716",
   "ticker": "5888",
   "ticker_full": "5888.T",
   "company_name": "DAIWA CYCLE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2479.8,
-      "deviation": -0.88,
+      "ma_value": 2467.6,
+      "deviation": -3.67,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2576.92,
-      "deviation": -4.61,
+      "ma_value": 2544.0,
+      "deviation": -6.56,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2712.11,
-      "deviation": -9.37,
+      "ma_value": 2694.13,
+      "deviation": -11.77,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3097.36,
-      "deviation": -20.64,
+      "ma_value": 3073.24,
+      "deviation": -22.65,
       "trend": "down"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 49.0
+        "amount": 49.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 66.0
+        "amount": 66.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

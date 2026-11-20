@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:53.856299",
+  "fetched_at": "2026-11-20T14:22:20.913548",
   "ticker": "6030",
   "ticker_full": "6030.T",
   "company_name": "ADVENTURE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1433.6,
-      "deviation": 0.38,
-      "trend": "up"
+      "ma_value": 1342.0,
+      "deviation": -2.91,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1461.16,
-      "deviation": -1.52,
+      "ma_value": 1432.08,
+      "deviation": -9.01,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1542.69,
-      "deviation": -6.72,
+      "ma_value": 1531.76,
+      "deviation": -14.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1546.39,
-      "deviation": -6.94,
+      "ma_value": 1537.16,
+      "deviation": -15.23,
       "trend": "down"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥15億",
         "net_income": 712507000.0,
         "net_income_fmt": "¥7億",
-        "eps": 92.94,
+        "eps": 97.92,
         "operating_margin": 6.65,
         "total_assets": 29705228000.0,
         "total_assets_fmt": "¥297億",
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 10.0
-      },
-      {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:44:08.236598",
+  "fetched_at": "2026-11-20T14:48:02.445709",
   "ticker": "3632",
   "ticker_full": "3632.T",
   "company_name": "GREE HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 487.2,
-      "deviation": 4.27,
-      "trend": "up"
+      "ma_value": 503.0,
+      "deviation": -3.58,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 440.92,
-      "deviation": 15.21,
+      "ma_value": 457.4,
+      "deviation": 6.03,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 423.71,
-      "deviation": 19.89,
+      "ma_value": 430.83,
+      "deviation": 12.57,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 390.36,
-      "deviation": 30.14,
+      "ma_value": 393.19,
+      "deviation": 23.35,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 16.5
+        "amount": 16.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 14.5
+        "amount": 14.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 22.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

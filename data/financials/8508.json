@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:47.417874",
+  "fetched_at": "2026-11-20T14:46:47.847219",
   "ticker": "8508",
   "ticker_full": "8508.T",
   "company_name": "J TRUST CO. LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 742.4,
-      "deviation": -1.67,
+      "ma_value": 676.0,
+      "deviation": -8.43,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 759.28,
-      "deviation": -3.86,
+      "ma_value": 741.84,
+      "deviation": -16.56,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 788.99,
-      "deviation": -7.48,
+      "ma_value": 780.76,
+      "deviation": -20.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 699.7,
-      "deviation": 4.33,
-      "trend": "up"
+      "ma_value": 704.33,
+      "deviation": -12.12,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

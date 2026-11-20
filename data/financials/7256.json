@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:37.130495",
+  "fetched_at": "2026-11-20T14:08:41.338508",
   "ticker": "7256",
   "ticker_full": "7256.T",
   "company_name": "KASAI KOGYO CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 397.0,
-      "deviation": -1.01,
+      "ma_value": 360.8,
+      "deviation": -9.37,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 411.08,
-      "deviation": -4.4,
+      "ma_value": 394.48,
+      "deviation": -17.11,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 436.47,
-      "deviation": -9.96,
+      "ma_value": 433.39,
+      "deviation": -24.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 369.31,
-      "deviation": 6.42,
-      "trend": "up"
+      "ma_value": 374.46,
+      "deviation": -12.68,
+      "trend": "down"
     }
   },
   "financials": {
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 29.0
-      },
-      {
-        "year": 2017,
-        "amount": 34.0
-      },
-      {
-        "year": 2018,
-        "amount": 35.0
-      },
-      {
-        "year": 2019,
-        "amount": 36.0
-      },
-      {
-        "year": 2020,
-        "amount": 9.0
-      }
-    ],
-    "latest": 9.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

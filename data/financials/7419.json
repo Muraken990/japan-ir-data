@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:01:03.044140",
+  "fetched_at": "2026-11-20T15:04:31.661599",
   "ticker": "7419",
   "ticker_full": "7419.T",
   "company_name": "NOJIMA CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1328.4,
-      "deviation": 0.87,
-      "trend": "up"
+      "ma_value": 1359.0,
+      "deviation": -1.32,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1289.6,
-      "deviation": 3.91,
+      "ma_value": 1305.83,
+      "deviation": 2.69,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1283.97,
-      "deviation": 4.36,
+      "ma_value": 1278.43,
+      "deviation": 4.89,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1254.04,
-      "deviation": 6.85,
+      "ma_value": 1257.21,
+      "deviation": 6.66,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 8.67
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 9.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.67
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 16.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 17.67,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 17.6667,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

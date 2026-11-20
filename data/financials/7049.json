@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:12.863825",
+  "fetched_at": "2026-11-20T14:14:53.299061",
   "ticker": "7049",
   "ticker_full": "7049.T",
   "company_name": "SHIKIGAKU CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 712.6,
-      "deviation": 0.2,
-      "trend": "up"
+      "ma_value": 698.6,
+      "deviation": -1.66,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 736.24,
-      "deviation": -3.02,
+      "ma_value": 723.92,
+      "deviation": -5.1,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 791.71,
-      "deviation": -9.82,
+      "ma_value": 781.56,
+      "deviation": -12.1,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 818.36,
-      "deviation": -12.75,
+      "ma_value": 812.47,
+      "deviation": -15.44,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

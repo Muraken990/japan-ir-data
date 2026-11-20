@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:37.091613",
+  "fetched_at": "2026-11-20T15:10:51.849529",
   "ticker": "2875",
   "ticker_full": "2875.T",
   "company_name": "TOYO SUISAN KAISHA",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 10507.0,
-      "deviation": 1.41,
-      "trend": "up"
+      "ma_value": 10745.0,
+      "deviation": -2.75,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 10632.2,
-      "deviation": 0.21,
-      "trend": "up"
+      "ma_value": 10731.67,
+      "deviation": -2.62,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 10364.9,
-      "deviation": 2.8,
+      "ma_value": 10339.83,
+      "deviation": 1.07,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 10631.0,
-      "deviation": 0.23,
-      "trend": "up"
+      "ma_value": 10626.2,
+      "deviation": -1.66,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 90.0
-      },
-      {
         "year": 2023,
-        "amount": 120.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 190.0
+        "amount": 170.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 200.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 220.0
+        "amount": 220.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 80.0,
+        "in_progress": true
       }
     ],
     "latest": 80.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 220.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

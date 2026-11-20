@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:06.104029",
+  "fetched_at": "2026-11-20T14:42:23.948630",
   "ticker": "4658",
   "ticker_full": "4658.T",
   "company_name": "NIPPON AIR CONDITIONING SERVICE",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1425.2,
-      "deviation": 1.25,
-      "trend": "up"
+      "ma_value": 1426.6,
+      "deviation": -2.14,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1498.92,
-      "deviation": -3.73,
+      "ma_value": 1472.24,
+      "deviation": -5.18,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1529.39,
-      "deviation": -5.65,
+      "ma_value": 1519.87,
+      "deviation": -8.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1526.21,
-      "deviation": -5.45,
+      "ma_value": 1526.81,
+      "deviation": -8.57,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 28.0
-      },
-      {
         "year": 2023,
-        "amount": 29.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 44.0
+        "amount": 39.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 48.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 59.5
+        "amount": 54.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 28.5,
+        "in_progress": true
       }
     ],
     "latest": 28.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 54.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

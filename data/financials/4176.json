@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:43:31.714692",
+  "fetched_at": "2026-11-20T13:50:34.536636",
   "ticker": "4176",
   "ticker_full": "4176.T",
   "company_name": "COCONALA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 272.4,
-      "deviation": 0.22,
-      "trend": "up"
+      "ma_value": 263.4,
+      "deviation": -3.95,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 294.08,
-      "deviation": -7.17,
+      "ma_value": 286.72,
+      "deviation": -11.76,
       "trend": "down"
     },
     "ma_75": {
       "ma_value": 280.29,
-      "deviation": -2.6,
+      "deviation": -9.74,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 280.61,
-      "deviation": -2.71,
+      "ma_value": 277.94,
+      "deviation": -8.97,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:56.615239",
+  "fetched_at": "2026-11-20T14:20:19.863030",
   "ticker": "7686",
   "ticker_full": "7686.T",
   "company_name": "HITOMILE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 420.4,
-      "deviation": -0.1,
+      "ma_value": 416.8,
+      "deviation": -0.43,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 422.76,
-      "deviation": -0.65,
+      "ma_value": 420.84,
+      "deviation": -1.39,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 424.86,
-      "deviation": -1.14,
+      "ma_value": 425.11,
+      "deviation": -2.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 415.08,
-      "deviation": 1.18,
+      "ma_value": 414.83,
+      "deviation": 0.04,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 6.67
-      },
-      {
         "year": 2023,
-        "amount": 15.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 18.33
+        "amount": 16.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

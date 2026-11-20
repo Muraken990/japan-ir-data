@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:49.732035",
+  "fetched_at": "2026-11-20T14:11:44.406830",
   "ticker": "3719",
   "ticker_full": "3719.T",
   "company_name": "AI STORM CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 74.4,
-      "deviation": -3.23,
+      "ma_value": 56.4,
+      "deviation": -11.35,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 85.36,
-      "deviation": -15.65,
+      "ma_value": 78.76,
+      "deviation": -36.52,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 110.88,
-      "deviation": -35.06,
+      "ma_value": 104.72,
+      "deviation": -52.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 182.47,
-      "deviation": -60.54,
+      "ma_value": 177.23,
+      "deviation": -71.79,
       "trend": "down"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2021-12-31",
+      "status": "unavailable"
+    }
   }
 }

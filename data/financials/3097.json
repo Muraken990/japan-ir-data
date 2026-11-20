@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:54:57.584914",
+  "fetched_at": "2026-11-20T14:58:29.093164",
   "ticker": "3097",
   "ticker_full": "3097.T",
   "company_name": "MONOGATARI CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6318.0,
-      "deviation": 0.51,
-      "trend": "up"
+      "ma_value": 6196.0,
+      "deviation": -3.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5958.8,
-      "deviation": 6.57,
-      "trend": "up"
+      "ma_value": 6092.4,
+      "deviation": -2.17,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5664.87,
-      "deviation": 12.09,
+      "ma_value": 5730.27,
+      "deviation": 4.01,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 5048.9,
-      "deviation": 25.77,
+      "ma_value": 5095.54,
+      "deviation": 16.96,
       "trend": "up"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥89億",
         "net_income": 6157000000.0,
         "net_income_fmt": "¥62億",
-        "eps": 80.75,
+        "eps": 162.97,
         "operating_margin": 7.46,
         "total_assets": 74026000000.0,
         "total_assets_fmt": "¥740億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 23.33
+        "amount": 21.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 26.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 38.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 23.0
+        "amount": 43.0,
+        "in_progress": false
       }
     ],
     "latest": 23.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 43.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

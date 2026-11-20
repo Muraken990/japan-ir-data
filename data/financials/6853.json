@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:52.828836",
+  "fetched_at": "2026-11-20T14:28:02.444978",
   "ticker": "6853",
   "ticker_full": "6853.T",
   "company_name": "KYOWA ELECTRONIC INSTRUMENTS CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 711.4,
-      "deviation": 3.32,
-      "trend": "up"
+      "ma_value": 646.8,
+      "deviation": -6.62,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 742.96,
-      "deviation": -1.07,
+      "ma_value": 716.76,
+      "deviation": -15.73,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 762.6,
-      "deviation": -3.62,
+      "ma_value": 754.61,
+      "deviation": -19.96,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 774.34,
-      "deviation": -5.08,
+      "ma_value": 772.01,
+      "deviation": -21.76,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 16.5
+        "amount": 16.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.5
+        "amount": 10.5,
+        "in_progress": true
       }
     ],
     "latest": 10.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 21.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

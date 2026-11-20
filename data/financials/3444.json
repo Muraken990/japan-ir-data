@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:04.726842",
+  "fetched_at": "2026-11-20T14:22:32.867247",
   "ticker": "3444",
   "ticker_full": "3444.T",
   "company_name": "KIKUCHI SEISAKUSHO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 803.4,
-      "deviation": -0.17,
+      "ma_value": 735.4,
+      "deviation": -6.45,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 907.84,
-      "deviation": -11.66,
+      "ma_value": 848.28,
+      "deviation": -18.89,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 993.09,
-      "deviation": -19.24,
+      "ma_value": 980.83,
+      "deviation": -29.86,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1004.15,
-      "deviation": -20.13,
+      "ma_value": 997.36,
+      "deviation": -31.02,
       "trend": "down"
     }
   },
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 10.0
-      },
-      {
-        "year": 2021,
-        "amount": 10.0
-      },
-      {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 4,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-04-30",
+      "status": "ok"
+    }
   }
 }

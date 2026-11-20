@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:21:44.281699",
+  "fetched_at": "2026-11-20T14:26:56.287272",
   "ticker": "8542",
   "ticker_full": "8542.T",
   "company_name": "TOMATO BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1715.2,
-      "deviation": -1.12,
+      "ma_value": 1606.0,
+      "deviation": -5.98,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1779.2,
-      "deviation": -4.68,
+      "ma_value": 1732.2,
+      "deviation": -12.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1827.44,
-      "deviation": -7.19,
+      "ma_value": 1826.29,
+      "deviation": -17.32,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1659.09,
-      "deviation": 2.22,
-      "trend": "up"
+      "ma_value": 1660.24,
+      "deviation": -9.05,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

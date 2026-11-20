@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:41:40.756143",
+  "fetched_at": "2026-11-20T14:45:41.370528",
   "ticker": "7745",
   "ticker_full": "7745.T",
   "company_name": "A&D HOLON HOLDINGS COMPANY LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2677.6,
-      "deviation": -1.96,
+      "ma_value": 2512.6,
+      "deviation": -4.16,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2846.16,
-      "deviation": -7.77,
+      "ma_value": 2757.12,
+      "deviation": -12.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2870.72,
-      "deviation": -8.56,
+      "ma_value": 2847.21,
+      "deviation": -15.43,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2759.18,
-      "deviation": -4.86,
+      "ma_value": 2764.91,
+      "deviation": -12.91,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 55.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

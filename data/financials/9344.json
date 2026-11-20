@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:09.009706",
+  "fetched_at": "2026-11-20T14:04:20.487993",
   "ticker": "9344",
   "ticker_full": "9344.T",
   "company_name": "AXIS CONSULTING CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1351.8,
-      "deviation": 0.16,
-      "trend": "up"
+      "ma_value": 1528.4,
+      "deviation": -6.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1416.56,
-      "deviation": -4.42,
+      "ma_value": 1431.76,
+      "deviation": -0.12,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1277.73,
-      "deviation": 5.97,
+      "ma_value": 1317.92,
+      "deviation": 8.5,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1038.4,
-      "deviation": 30.39,
+      "ma_value": 1054.25,
+      "deviation": 35.64,
       "trend": "up"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

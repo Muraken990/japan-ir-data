@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:20.966701",
+  "fetched_at": "2026-11-20T14:37:58.832444",
   "ticker": "7018",
   "ticker_full": "7018.T",
   "company_name": "NAIKAI ZOSEN CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 8800.0,
-      "deviation": -1.14,
+      "ma_value": 7876.0,
+      "deviation": -7.82,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 10474.8,
-      "deviation": -16.94,
+      "ma_value": 9666.0,
+      "deviation": -24.89,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 11711.73,
-      "deviation": -25.72,
+      "ma_value": 11530.4,
+      "deviation": -37.04,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 12330.32,
-      "deviation": -29.44,
+      "ma_value": 12126.37,
+      "deviation": -40.13,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       }
     ],
     "latest": 100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

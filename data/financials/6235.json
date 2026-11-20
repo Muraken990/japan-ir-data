@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:25.946647",
+  "fetched_at": "2026-11-20T14:50:13.151111",
   "ticker": "6235",
   "ticker_full": "6235.T",
   "company_name": "OPTORUN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2137.4,
-      "deviation": 6.16,
-      "trend": "up"
+      "ma_value": 2037.2,
+      "deviation": -7.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2305.36,
-      "deviation": -1.58,
+      "ma_value": 2179.32,
+      "deviation": -13.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2617.45,
-      "deviation": -13.31,
+      "ma_value": 2554.53,
+      "deviation": -26.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3021.74,
-      "deviation": -24.91,
+      "ma_value": 3021.53,
+      "deviation": -37.95,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": true
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 54.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

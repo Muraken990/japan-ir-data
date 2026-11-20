@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:21.792876",
+  "fetched_at": "2026-11-20T13:57:57.586486",
   "ticker": "6166",
   "ticker_full": "6166.T",
   "company_name": "NAKAMURA CHOUKOU CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 435.4,
-      "deviation": -4.46,
+      "ma_value": 390.0,
+      "deviation": -6.92,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 498.2,
-      "deviation": -16.5,
+      "ma_value": 463.56,
+      "deviation": -21.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 593.41,
-      "deviation": -29.9,
+      "ma_value": 578.31,
+      "deviation": -37.23,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 655.04,
-      "deviation": -36.49,
+      "ma_value": 648.55,
+      "deviation": -44.03,
       "trend": "down"
     }
   },
@@ -231,15 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2016,
-        "amount": 10.0
-      },
-      {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

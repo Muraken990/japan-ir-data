@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:28.627265",
+  "fetched_at": "2026-11-20T13:59:01.422806",
   "ticker": "5458",
   "ticker_full": "5458.T",
   "company_name": "TAKASAGO TEKKO KK",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1269.4,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 1264.6,
+      "deviation": -3.92,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1295.4,
-      "deviation": -1.19,
+      "ma_value": 1284.44,
+      "deviation": -5.41,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1330.28,
-      "deviation": -3.78,
+      "ma_value": 1331.03,
+      "deviation": -8.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1200.57,
-      "deviation": 6.62,
+      "ma_value": 1204.67,
+      "deviation": 0.86,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

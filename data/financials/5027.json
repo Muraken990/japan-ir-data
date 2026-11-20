@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:42.667400",
+  "fetched_at": "2026-11-20T14:38:11.364135",
   "ticker": "5027",
   "ticker_full": "5027.T",
   "company_name": "ANYMIND GROUP INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 722.8,
-      "deviation": -0.8,
+      "ma_value": 590.2,
+      "deviation": -9.18,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 760.2,
-      "deviation": -5.68,
+      "ma_value": 716.92,
+      "deviation": -25.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 729.55,
-      "deviation": -1.72,
+      "ma_value": 731.88,
+      "deviation": -26.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 580.49,
-      "deviation": 23.52,
-      "trend": "up"
+      "ma_value": 579.43,
+      "deviation": -7.5,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 2.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

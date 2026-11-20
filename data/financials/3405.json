@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:11.625639",
+  "fetched_at": "2026-11-20T15:06:36.623879",
   "ticker": "3405",
   "ticker_full": "3405.T",
   "company_name": "KURARAY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1912.7,
-      "deviation": 0.15,
-      "trend": "up"
+      "ma_value": 1855.0,
+      "deviation": -5.74,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1863.74,
-      "deviation": 2.78,
-      "trend": "up"
+      "ma_value": 1866.9,
+      "deviation": -6.34,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1841.29,
-      "deviation": 4.03,
-      "trend": "up"
+      "ma_value": 1840.44,
+      "deviation": -5.0,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1731.48,
-      "deviation": 10.63,
+      "ma_value": 1736.42,
+      "deviation": 0.7,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 44.0
+        "amount": 44.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": true
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 54.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

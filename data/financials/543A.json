@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:43:34.708234",
+  "fetched_at": "2026-11-20T13:50:37.293149",
   "ticker": "543A",
   "ticker_full": "543A.T",
   "company_name": "ARCHION CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 297.8,
-      "deviation": 3.09,
-      "trend": "up"
+      "ma_value": 287.4,
+      "deviation": -7.45,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 288.8,
-      "deviation": 6.3,
-      "trend": "up"
+      "ma_value": 289.04,
+      "deviation": -7.97,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 279.24,
-      "deviation": 9.94,
-      "trend": "up"
+      "ma_value": 279.77,
+      "deviation": -4.92,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 333.6,
-      "deviation": -7.97,
+      "ma_value": 330.85,
+      "deviation": -19.6,
       "trend": "down"
     }
   },
@@ -231,27 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 29.0
-      },
-      {
-        "year": 2019,
-        "amount": 28.0
-      },
-      {
-        "year": 2020,
-        "amount": 12.0
-      },
-      {
-        "year": 2021,
-        "amount": 14.0
-      },
-      {
-        "year": 2026,
-        "amount": 4.0
+        "year": 2027,
+        "amount": 4.0,
+        "in_progress": true
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

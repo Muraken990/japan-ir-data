@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:14.974569",
+  "fetched_at": "2026-11-20T13:52:16.355454",
   "ticker": "7689",
   "ticker_full": "7689.T",
   "company_name": "COPA CORP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 278.4,
-      "deviation": 1.65,
-      "trend": "up"
+      "ma_value": 294.2,
+      "deviation": -3.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 299.16,
-      "deviation": -5.4,
+      "ma_value": 294.32,
+      "deviation": -3.85,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 330.05,
-      "deviation": -14.26,
+      "ma_value": 328.91,
+      "deviation": -13.96,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 378.7,
-      "deviation": -25.27,
+      "ma_value": 375.54,
+      "deviation": -24.64,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

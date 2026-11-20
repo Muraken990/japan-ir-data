@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:32.428825",
+  "fetched_at": "2026-11-20T14:44:38.612736",
   "ticker": "409A",
   "ticker_full": "409A.T",
   "company_name": "ORION BREWERIES LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1013.0,
-      "deviation": 0.3,
-      "trend": "up"
+      "ma_value": 1042.4,
+      "deviation": -3.11,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1035.8,
-      "deviation": -1.91,
+      "ma_value": 1031.44,
+      "deviation": -2.08,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1122.91,
-      "deviation": -9.52,
+      "ma_value": 1110.52,
+      "deviation": -9.05,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1194.18,
-      "deviation": -14.92,
+      "ma_value": 1187.28,
+      "deviation": -14.93,
       "trend": "down"
     }
   },
@@ -120,15 +120,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2025,
-        "amount": 20.0
+        "year": 2026,
+        "amount": 44.0,
+        "in_progress": false
       },
       {
-        "year": 2026,
-        "amount": 41.0
+        "year": 2027,
+        "amount": 17.0,
+        "in_progress": true
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

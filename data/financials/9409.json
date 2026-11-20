@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:01:03.458557",
+  "fetched_at": "2026-11-20T15:04:31.642372",
   "ticker": "9409",
   "ticker_full": "9409.T",
   "company_name": "TV ASAHI HOLDINGS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3402.0,
-      "deviation": 4.06,
-      "trend": "up"
+      "ma_value": 3598.75,
+      "deviation": -1.22,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3272.4,
-      "deviation": 8.18,
+      "ma_value": 3387.5,
+      "deviation": 4.94,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3124.48,
-      "deviation": 13.3,
+      "ma_value": 3148.72,
+      "deviation": 12.9,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3197.22,
-      "deviation": 10.72,
+      "ma_value": 3199.91,
+      "deviation": 11.1,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

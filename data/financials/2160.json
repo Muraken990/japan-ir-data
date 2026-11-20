@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:19.339128",
+  "fetched_at": "2026-11-20T14:54:55.081927",
   "ticker": "2160",
   "ticker_full": "2160.T",
   "company_name": "GNI GROUP LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2119.6,
-      "deviation": 0.59,
-      "trend": "up"
+      "ma_value": 2215.6,
+      "deviation": -5.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2640.96,
-      "deviation": -19.27,
+      "ma_value": 2474.0,
+      "deviation": -15.56,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2809.19,
-      "deviation": -24.11,
+      "ma_value": 2793.27,
+      "deviation": -25.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2839.86,
-      "deviation": -24.93,
+      "ma_value": 2829.01,
+      "deviation": -26.16,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

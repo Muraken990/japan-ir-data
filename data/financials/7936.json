@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:58.967814",
+  "fetched_at": "2026-11-20T15:12:12.242934",
   "ticker": "7936",
   "ticker_full": "7936.T",
   "company_name": "ASICS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4881.4,
-      "deviation": -14.37,
+      "ma_value": 4371.0,
+      "deviation": -6.09,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4748.92,
-      "deviation": -11.98,
+      "ma_value": 4730.62,
+      "deviation": -13.22,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4587.01,
-      "deviation": -8.87,
+      "ma_value": 4557.7,
+      "deviation": -9.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4485.21,
-      "deviation": -6.8,
+      "ma_value": 4495.72,
+      "deviation": -8.69,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥1438億",
         "net_income": 98719000000.0,
         "net_income_fmt": "¥987億",
-        "eps": 108.1,
+        "eps": 137.96,
         "operating_margin": 17.58,
         "total_assets": 586480000000.0,
         "total_assets_fmt": "¥5865億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 16.25
+        "amount": 16.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 28.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

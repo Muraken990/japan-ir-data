@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:34.062094",
+  "fetched_at": "2026-11-20T15:08:50.399863",
   "ticker": "9508",
   "ticker_full": "9508.T",
   "company_name": "KYUSHU ELECTRIC POWER CO INC",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2050.2,
-      "deviation": 2.33,
+      "ma_value": 2029.2,
+      "deviation": 3.39,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2006.36,
-      "deviation": 4.57,
+      "ma_value": 2009.66,
+      "deviation": 4.4,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1978.19,
-      "deviation": 6.06,
+      "ma_value": 1989.66,
+      "deviation": 5.45,
       "trend": "up"
     },
     "ma_200": {
@@ -194,11 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2026,
-        "amount": 25.0
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

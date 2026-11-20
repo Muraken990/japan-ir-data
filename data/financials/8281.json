@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:24.733155",
+  "fetched_at": "2026-11-20T14:43:34.137398",
   "ticker": "8281",
   "ticker_full": "8281.T",
   "company_name": "XEBIO HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1097.4,
-      "deviation": -0.86,
-      "trend": "down"
+      "ma_value": 1150.4,
+      "deviation": 0.31,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1087.92,
-      "deviation": 0.01,
+      "ma_value": 1100.48,
+      "deviation": 4.86,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1107.1,
-      "deviation": -1.73,
-      "trend": "down"
+      "ma_value": 1110.45,
+      "deviation": 3.92,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1057.82,
-      "deviation": 2.85,
+      "ma_value": 1060.3,
+      "deviation": 8.84,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 32.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 17.5,
+        "in_progress": true
       }
     ],
     "latest": 17.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

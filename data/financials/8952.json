@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:32.119362",
+  "fetched_at": "2026-11-20T15:09:48.426838",
   "ticker": "8952",
   "ticker_full": "8952.T",
   "company_name": "JAPAN REAL ESTATE INVESTMENT CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 107520.0,
-      "deviation": 0.82,
-      "trend": "up"
+      "ma_value": 109425.0,
+      "deviation": -0.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 107348.0,
-      "deviation": 0.98,
+      "ma_value": 107962.5,
+      "deviation": 0.87,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 111911.07,
-      "deviation": -3.14,
+      "ma_value": 111126.96,
+      "deviation": -2.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 115177.86,
-      "deviation": -5.88,
+      "ma_value": 114905.47,
+      "deviation": -5.23,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4580.0
+        "amount": 4580.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4733.4
+        "amount": 4733.4,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 4913.0
+        "amount": 4913.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4998.0
+        "amount": 4998.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5097.0
+        "amount": 5097.0,
+        "in_progress": false
       }
     ],
     "latest": 2561.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 5097.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

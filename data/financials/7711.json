@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:39.541696",
+  "fetched_at": "2026-11-20T14:39:02.186136",
   "ticker": "7711",
   "ticker_full": "7711.T",
   "company_name": "SUKEGAWA ELECTRIC CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3945.0,
-      "deviation": -0.63,
+      "ma_value": 3634.0,
+      "deviation": -5.89,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4315.2,
-      "deviation": -9.16,
+      "ma_value": 4098.0,
+      "deviation": -16.54,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4675.83,
-      "deviation": -16.16,
+      "ma_value": 4632.92,
+      "deviation": -26.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5620.13,
-      "deviation": -30.25,
+      "ma_value": 5524.87,
+      "deviation": -38.1,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-09-30",
+      "status": "unavailable"
+    }
   }
 }

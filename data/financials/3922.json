@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:51.767373",
+  "fetched_at": "2026-11-20T14:39:13.323295",
   "ticker": "3922",
   "ticker_full": "3922.T",
   "company_name": "PR TIMES CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2267.2,
-      "deviation": 1.36,
-      "trend": "up"
+      "ma_value": 2238.6,
+      "deviation": -2.35,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2307.08,
-      "deviation": -0.39,
+      "ma_value": 2312.44,
+      "deviation": -5.47,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2196.23,
-      "deviation": 4.63,
-      "trend": "up"
+      "ma_value": 2204.96,
+      "deviation": -0.86,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2244.63,
-      "deviation": 2.38,
-      "trend": "up"
+      "ma_value": 2233.46,
+      "deviation": -2.12,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 10.3
+        "amount": 10.3,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 13.8
+        "amount": 13.8,
+        "in_progress": false
       }
     ],
     "latest": 13.8,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 13.8,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

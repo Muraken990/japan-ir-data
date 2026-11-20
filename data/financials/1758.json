@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:51.003777",
+  "fetched_at": "2026-11-20T14:10:50.604412",
   "ticker": "1758",
   "ticker_full": "1758.T",
   "company_name": "TAIYO KISOKOGYO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2111.8,
-      "deviation": 0.34,
-      "trend": "up"
+      "ma_value": 2097.8,
+      "deviation": -3.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2246.96,
-      "deviation": -5.69,
+      "ma_value": 2197.84,
+      "deviation": -7.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2376.67,
-      "deviation": -10.84,
+      "ma_value": 2355.67,
+      "deviation": -13.7,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2465.03,
-      "deviation": -14.04,
+      "ma_value": 2451.44,
+      "deviation": -17.07,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 33.33
+        "amount": 33.33,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 33.33
+        "amount": 33.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

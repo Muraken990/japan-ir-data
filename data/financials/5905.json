@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:30.686250",
+  "fetched_at": "2026-11-20T13:53:28.016828",
   "ticker": "5905",
   "ticker_full": "5905.T",
   "company_name": "NIHON SEIKAN K.K.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1376.4,
-      "deviation": -0.46,
-      "trend": "down"
+      "ma_value": 1379.8,
+      "deviation": 0.01,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1380.76,
-      "deviation": -0.78,
+      "ma_value": 1382.28,
+      "deviation": -0.16,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1371.52,
-      "deviation": -0.11,
-      "trend": "down"
+      "ma_value": 1371.87,
+      "deviation": 0.59,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1336.55,
-      "deviation": 2.5,
+      "ma_value": 1338.47,
+      "deviation": 3.1,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

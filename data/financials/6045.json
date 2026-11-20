@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:01.525514",
+  "fetched_at": "2026-11-20T14:21:21.800356",
   "ticker": "6045",
   "ticker_full": "6045.T",
   "company_name": "RENTRACKS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1942.6,
-      "deviation": 3.47,
-      "trend": "up"
+      "ma_value": 1438.6,
+      "deviation": -9.29,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1977.36,
-      "deviation": 1.65,
-      "trend": "up"
+      "ma_value": 1857.8,
+      "deviation": -29.76,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1992.2,
-      "deviation": 0.89,
-      "trend": "up"
+      "ma_value": 1980.77,
+      "deviation": -34.12,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1756.86,
-      "deviation": 14.41,
-      "trend": "up"
+      "ma_value": 1748.46,
+      "deviation": -25.36,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 12.0,
+        "in_progress": true
       }
     ],
     "latest": 12.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 24.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

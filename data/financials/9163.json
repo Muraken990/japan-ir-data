@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:03.156046",
+  "fetched_at": "2026-11-20T14:29:06.466556",
   "ticker": "9163",
   "ticker_full": "9163.T",
   "company_name": "NARERU GROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2045.0,
-      "deviation": 0.44,
-      "trend": "up"
+      "ma_value": 2027.0,
+      "deviation": -2.12,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2208.53,
-      "deviation": -7.0,
+      "ma_value": 2152.43,
+      "deviation": -7.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2265.25,
-      "deviation": -9.33,
+      "ma_value": 2250.03,
+      "deviation": -11.82,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2230.15,
-      "deviation": -7.9,
+      "ma_value": 2224.53,
+      "deviation": -10.81,
       "trend": "down"
     }
   },
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 95.0
+        "amount": 95.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 115.0
+        "amount": 115.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 115.0
+        "amount": 115.0,
+        "in_progress": false
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 115.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

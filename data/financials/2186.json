@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:06:57.636423",
+  "fetched_at": "2026-11-20T14:12:45.348389",
   "ticker": "2186",
   "ticker_full": "2186.T",
   "company_name": "SOBAL CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 888.0,
-      "deviation": -0.56,
+      "ma_value": 884.4,
+      "deviation": -0.72,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 893.2,
-      "deviation": -1.14,
+      "ma_value": 890.64,
+      "deviation": -1.42,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 898.32,
-      "deviation": -1.71,
+      "ma_value": 897.25,
+      "deviation": -2.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 891.2,
-      "deviation": -0.92,
+      "ma_value": 891.27,
+      "deviation": -1.49,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 33.5
-      },
-      {
         "year": 2023,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 16.5,
+        "in_progress": true
       }
     ],
     "latest": 16.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 33.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

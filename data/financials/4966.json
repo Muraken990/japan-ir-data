@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:58:30.011816",
+  "fetched_at": "2026-11-20T15:02:04.753924",
   "ticker": "4966",
   "ticker_full": "4966.T",
   "company_name": "C. UYEMURA & CO.LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 16642.0,
-      "deviation": -0.07,
+      "ma_value": 15707.5,
+      "deviation": -7.11,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 18151.2,
-      "deviation": -8.38,
+      "ma_value": 17321.25,
+      "deviation": -15.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 19850.53,
-      "deviation": -16.22,
+      "ma_value": 19496.62,
+      "deviation": -25.17,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 21535.18,
-      "deviation": -22.78,
+      "ma_value": 21534.47,
+      "deviation": -32.25,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 180.0
+        "amount": 180.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 200.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 280.0
+        "amount": 280.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 290.0
+        "amount": 290.0,
+        "in_progress": false
       }
     ],
     "latest": 290.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 290.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

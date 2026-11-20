@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:27:26.213542",
+  "fetched_at": "2026-11-20T14:32:28.347871",
   "ticker": "4393",
   "ticker_full": "4393.T",
   "company_name": "BANK OF INNOVATION INC",
@@ -10,7 +10,7 @@
     "sector": "Communication Services",
     "industry": "Electronic Gaming & Multimedia",
     "website": "https://boi.jp",
-    "employees": 247,
+    "employees": null,
     "country": "Japan",
     "city": "Shinjuku",
     "address": "Shinjuku East Side Square",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6420.0,
-      "deviation": 1.09,
-      "trend": "up"
+      "ma_value": 5592.0,
+      "deviation": -8.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6599.2,
-      "deviation": -1.65,
+      "ma_value": 6356.4,
+      "deviation": -19.45,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5879.0,
-      "deviation": 10.39,
-      "trend": "up"
+      "ma_value": 5936.2,
+      "deviation": -13.75,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5476.3,
-      "deviation": 18.51,
-      "trend": "up"
+      "ma_value": 5456.05,
+      "deviation": -6.16,
+      "trend": "down"
     }
   },
   "financials": {
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:49.766610",
+  "fetched_at": "2026-11-20T13:55:35.905961",
   "ticker": "7719",
   "ticker_full": "7719.T",
   "company_name": "TOKYO KOKI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 301.0,
-      "deviation": 0.0,
+      "ma_value": 286.6,
+      "deviation": -5.79,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 361.68,
-      "deviation": -16.78,
+      "ma_value": 324.28,
+      "deviation": -16.74,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 440.43,
-      "deviation": -31.66,
+      "ma_value": 431.79,
+      "deviation": -37.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 479.59,
-      "deviation": -37.24,
+      "ma_value": 478.79,
+      "deviation": -43.61,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

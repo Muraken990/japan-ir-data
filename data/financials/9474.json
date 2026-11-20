@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:41:54.010705",
+  "fetched_at": "2026-11-20T14:45:55.161931",
   "ticker": "9474",
   "ticker_full": "9474.T",
   "company_name": "ZENRIN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 826.0,
-      "deviation": 0.73,
-      "trend": "up"
+      "ma_value": 820.4,
+      "deviation": -1.63,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 871.04,
-      "deviation": -4.48,
+      "ma_value": 854.24,
+      "deviation": -5.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 882.89,
-      "deviation": -5.76,
+      "ma_value": 876.93,
+      "deviation": -7.97,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 903.8,
-      "deviation": -7.94,
+      "ma_value": 898.68,
+      "deviation": -10.2,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 27.0
-      },
-      {
         "year": 2023,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 28.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 41.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 21.0,
+        "in_progress": true
       }
     ],
     "latest": 21.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 42.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:19.737243",
+  "fetched_at": "2026-11-20T14:08:25.688804",
   "ticker": "6325",
   "ticker_full": "6325.T",
   "company_name": "TAKAKITA CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 404.0,
-      "deviation": 1.73,
-      "trend": "up"
+      "ma_value": 403.6,
+      "deviation": -3.12,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 408.8,
-      "deviation": 0.54,
-      "trend": "up"
+      "ma_value": 407.08,
+      "deviation": -3.95,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 408.87,
-      "deviation": 0.52,
-      "trend": "up"
+      "ma_value": 409.12,
+      "deviation": -4.43,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 399.44,
-      "deviation": 2.89,
-      "trend": "up"
+      "ma_value": 399.58,
+      "deviation": -2.15,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

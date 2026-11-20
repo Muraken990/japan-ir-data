@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:41.042541",
+  "fetched_at": "2026-11-20T14:19:07.129390",
   "ticker": "7614",
   "ticker_full": "7614.T",
   "company_name": "OM2 NETWORK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1533.0,
-      "deviation": 0.46,
-      "trend": "up"
+      "ma_value": 1552.8,
+      "deviation": -1.92,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1545.44,
-      "deviation": -0.35,
+      "ma_value": 1547.48,
+      "deviation": -1.58,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1541.95,
-      "deviation": -0.13,
+      "ma_value": 1542.31,
+      "deviation": -1.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1550.98,
-      "deviation": -0.71,
+      "ma_value": 1550.77,
+      "deviation": -1.79,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       }
     ],
     "latest": 36.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

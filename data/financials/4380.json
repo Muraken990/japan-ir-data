@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:36.987841",
+  "fetched_at": "2026-11-20T14:10:38.046119",
   "ticker": "4380",
   "ticker_full": "4380.T",
   "company_name": "M MART INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 630.6,
-      "deviation": 0.7,
-      "trend": "up"
+      "ma_value": 635.8,
+      "deviation": -0.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 654.68,
-      "deviation": -3.01,
+      "ma_value": 649.68,
+      "deviation": -2.26,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 664.55,
-      "deviation": -4.45,
+      "ma_value": 666.6,
+      "deviation": -4.74,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 622.23,
-      "deviation": 2.05,
+      "ma_value": 622.1,
+      "deviation": 2.07,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6.5
+        "amount": 6.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.5
+        "amount": 10.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       }
     ],
     "latest": 12.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 12.5,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

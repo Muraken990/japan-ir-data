@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:06.702535",
+  "fetched_at": "2026-11-20T13:56:45.462933",
   "ticker": "8225",
   "ticker_full": "8225.T",
   "company_name": "TAKACHIHO CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3514.0,
-      "deviation": 0.31,
+      "ma_value": 3633.0,
+      "deviation": 0.74,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 3618.8,
-      "deviation": -2.59,
-      "trend": "down"
+      "ma_value": 3591.8,
+      "deviation": 1.9,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3612.4,
-      "deviation": -2.42,
-      "trend": "down"
+      "ma_value": 3619.47,
+      "deviation": 1.12,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3535.71,
-      "deviation": -0.3,
-      "trend": "down"
+      "ma_value": 3536.49,
+      "deviation": 3.49,
+      "trend": "up"
     }
   },
   "financials": {
@@ -194,27 +194,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 30.0
-      },
-      {
-        "year": 2020,
-        "amount": 15.0
-      },
-      {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       }
     ],
     "latest": 100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

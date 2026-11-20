@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:32.251474",
+  "fetched_at": "2026-11-20T15:10:47.003528",
   "ticker": "5101",
   "ticker_full": "5101.T",
   "company_name": "YOKOHAMA RUBBER CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 7154.0,
-      "deviation": 2.33,
-      "trend": "up"
+      "ma_value": 7329.5,
+      "deviation": -7.03,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6869.44,
-      "deviation": 6.57,
-      "trend": "up"
+      "ma_value": 6866.96,
+      "deviation": -0.77,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 7140.09,
-      "deviation": 2.53,
-      "trend": "up"
+      "ma_value": 7122.34,
+      "deviation": -4.33,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6883.65,
-      "deviation": 6.35,
-      "trend": "up"
+      "ma_value": 6908.98,
+      "deviation": -1.37,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 66.0
+        "amount": 66.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 84.0
+        "amount": 84.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 98.0
+        "amount": 98.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 134.0
+        "amount": 134.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 87.0
+        "amount": 87.0,
+        "in_progress": true
       }
     ],
     "latest": 87.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 134.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

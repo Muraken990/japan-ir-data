@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:46.799222",
+  "fetched_at": "2026-11-20T14:11:42.903155",
   "ticker": "8700",
   "ticker_full": "8700.T",
   "company_name": "MARUHACHI SECURITIES CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1983.2,
-      "deviation": 1.35,
-      "trend": "up"
+      "ma_value": 1973.4,
+      "deviation": -2.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2009.12,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 1998.04,
+      "deviation": -4.16,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2030.05,
-      "deviation": -0.99,
+      "ma_value": 2029.75,
+      "deviation": -5.65,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1847.93,
-      "deviation": 8.77,
+      "ma_value": 1855.9,
+      "deviation": 3.18,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       }
     ],
     "latest": 100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

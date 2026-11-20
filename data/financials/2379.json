@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:05.932642",
+  "fetched_at": "2026-11-20T14:55:41.524603",
   "ticker": "2379",
   "ticker_full": "2379.T",
   "company_name": "DIP CORPORATION",
@@ -19,22 +19,22 @@
   "price_trend": {
     "ma_5": {
       "ma_value": 1527.8,
-      "deviation": 1.13,
-      "trend": "up"
+      "deviation": -0.64,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1557.84,
-      "deviation": -0.82,
+      "ma_value": 1519.12,
+      "deviation": -0.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1725.8,
-      "deviation": -10.48,
+      "ma_value": 1707.19,
+      "deviation": -11.08,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1803.59,
-      "deviation": -14.34,
+      "ma_value": 1791.52,
+      "deviation": -15.27,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 68.0
-      },
-      {
         "year": 2023,
-        "amount": 78.0
+        "amount": 72.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 95.0
+        "amount": 88.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 95.0
+        "amount": 95.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 96.0
+        "amount": 95.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 48.0,
+        "in_progress": true
       }
     ],
     "latest": 48.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 95.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

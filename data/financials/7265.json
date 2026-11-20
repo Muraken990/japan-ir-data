@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:57:53.580630",
+  "fetched_at": "2026-11-20T14:04:06.330505",
   "ticker": "7265",
   "ticker_full": "7265.T",
   "company_name": "EIKEN INDUSTRIES CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2815.4,
-      "deviation": 1.41,
-      "trend": "up"
+      "ma_value": 2880.2,
+      "deviation": -1.36,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3015.94,
-      "deviation": -5.34,
+      "ma_value": 2927.58,
+      "deviation": -2.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3413.02,
-      "deviation": -16.35,
+      "ma_value": 3357.78,
+      "deviation": -15.39,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3497.97,
-      "deviation": -18.38,
+      "ma_value": 3481.47,
+      "deviation": -18.4,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-10-31",
+      "status": "unavailable"
+    }
   }
 }

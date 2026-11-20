@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:10:07.173647",
+  "fetched_at": "2026-11-20T15:13:16.919028",
   "ticker": "7741",
   "ticker_full": "7741.T",
   "company_name": "HOYA CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 23715.0,
-      "deviation": 0.89,
-      "trend": "up"
+      "ma_value": 23428.75,
+      "deviation": -2.32,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 25105.0,
-      "deviation": -4.7,
+      "ma_value": 24816.25,
+      "deviation": -7.78,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 24577.55,
-      "deviation": -2.66,
+      "ma_value": 24557.76,
+      "deviation": -6.81,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 25999.02,
-      "deviation": -7.98,
+      "ma_value": 25978.9,
+      "deviation": -11.91,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 110.0
-      },
-      {
         "year": 2023,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 240.0
+        "amount": 160.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 330.0
+        "amount": 295.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 160.0,
+        "in_progress": true
       }
     ],
     "latest": 160.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 295.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

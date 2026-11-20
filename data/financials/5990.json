@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:56.720090",
+  "fetched_at": "2026-11-20T14:05:07.683102",
   "ticker": "5990",
   "ticker_full": "5990.T",
   "company_name": "SUPER TOOL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1906.8,
-      "deviation": 0.8,
-      "trend": "up"
+      "ma_value": 1902.6,
+      "deviation": -0.14,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1922.44,
-      "deviation": -0.02,
+      "ma_value": 1915.76,
+      "deviation": -0.82,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1928.31,
-      "deviation": -0.33,
+      "ma_value": 1924.68,
+      "deviation": -1.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1938.24,
-      "deviation": -0.84,
+      "ma_value": 1937.68,
+      "deviation": -1.94,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 65.0
-      },
-      {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-15",
+      "status": "ok"
+    }
   }
 }

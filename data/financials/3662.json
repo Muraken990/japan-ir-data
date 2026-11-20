@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:17.784932",
+  "fetched_at": "2026-11-20T14:31:18.108284",
   "ticker": "3662",
   "ticker_full": "3662.T",
   "company_name": "ATEAM HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 861.6,
-      "deviation": 1.21,
-      "trend": "up"
+      "ma_value": 839.8,
+      "deviation": -2.0,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 915.52,
-      "deviation": -4.75,
+      "ma_value": 896.52,
+      "deviation": -8.2,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 936.75,
-      "deviation": -6.91,
+      "ma_value": 927.8,
+      "deviation": -11.3,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 969.85,
-      "deviation": -10.09,
+      "ma_value": 959.83,
+      "deviation": -14.26,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 28.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:37:01.533547",
+  "fetched_at": "2026-11-20T14:41:23.664801",
   "ticker": "3455",
   "ticker_full": "3455.T",
   "company_name": "HEALTHCARE & MEDICAL INV CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 90440.0,
-      "deviation": 1.72,
-      "trend": "up"
+      "ma_value": 91080.0,
+      "deviation": -1.52,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 91652.0,
-      "deviation": 0.38,
-      "trend": "up"
+      "ma_value": 91424.0,
+      "deviation": -1.89,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 96727.25,
-      "deviation": -4.89,
+      "ma_value": 95650.67,
+      "deviation": -6.22,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 107202.86,
-      "deviation": -14.18,
+      "ma_value": 106579.71,
+      "deviation": -15.84,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6611.0
+        "amount": 6611.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6839.0
+        "amount": 6839.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6496.0
+        "amount": 6496.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6347.0
+        "amount": 6347.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 6460.0
+        "amount": 6460.0,
+        "in_progress": false
       }
     ],
     "latest": 3174.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 6450.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

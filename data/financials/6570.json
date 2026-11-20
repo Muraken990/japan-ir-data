@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:03.187227",
+  "fetched_at": "2026-11-20T14:12:50.674756",
   "ticker": "6570",
   "ticker_full": "6570.T",
   "company_name": "KYOWA CORPORATION CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3721.0,
-      "deviation": -18.57,
+      "ma_value": 3032.2,
+      "deviation": -7.62,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4135.8,
-      "deviation": -26.74,
+      "ma_value": 3867.24,
+      "deviation": -27.57,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3622.96,
-      "deviation": -16.37,
+      "ma_value": 3685.55,
+      "deviation": -24.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2266.36,
-      "deviation": 33.69,
+      "ma_value": 2311.63,
+      "deviation": 21.17,
       "trend": "up"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥18億",
         "net_income": 1122536000.0,
         "net_income_fmt": "¥11億",
-        "eps": 187.41,
+        "eps": 188.13,
         "operating_margin": 8.48,
         "total_assets": 18629615000.0,
         "total_assets_fmt": "¥186億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 17.5
-      },
-      {
         "year": 2023,
-        "amount": 19.0
+        "amount": 17.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.5
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.5
+        "amount": 25.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

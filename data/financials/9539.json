@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:46.877370",
+  "fetched_at": "2026-11-20T14:39:09.003948",
   "ticker": "9539",
   "ticker_full": "9539.T",
   "company_name": "KEIYO GAS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1218.0,
-      "deviation": 0.9,
-      "trend": "up"
+      "ma_value": 1232.4,
+      "deviation": -0.19,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1256.56,
-      "deviation": -2.19,
+      "ma_value": 1246.64,
+      "deviation": -1.33,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1334.29,
-      "deviation": -7.89,
+      "ma_value": 1319.11,
+      "deviation": -6.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1335.13,
-      "deviation": -7.95,
+      "ma_value": 1336.64,
+      "deviation": -7.98,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 21.67
+        "amount": 21.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": true
       }
     ],
     "latest": 13.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 26.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

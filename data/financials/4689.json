@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:57.225718",
+  "fetched_at": "2026-11-20T15:13:08.364712",
   "ticker": "4689",
   "ticker_full": "4689.T",
   "company_name": "LY CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 533.14,
-      "deviation": 0.29,
-      "trend": "up"
+      "ma_value": 527.6,
+      "deviation": -5.25,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 520.45,
-      "deviation": 2.74,
-      "trend": "up"
+      "ma_value": 523.27,
+      "deviation": -4.47,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 512.99,
-      "deviation": 4.23,
-      "trend": "up"
+      "ma_value": 517.92,
+      "deviation": -3.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 446.58,
-      "deviation": 19.73,
+      "ma_value": 449.51,
+      "deviation": 11.21,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5.81
+        "amount": 5.81,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.56
+        "amount": 5.56,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.56
+        "amount": 5.56,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.3
+        "amount": 7.3,
+        "in_progress": false
       }
     ],
     "latest": 7.3,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 7.3,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

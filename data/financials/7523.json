@@ -1,12 +1,12 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:20.149228",
+  "fetched_at": "2026-11-20T14:24:37.231024",
   "ticker": "7523",
   "ticker_full": "7523.T",
   "company_name": "ART VIVANT CO LTD",
   "company_info": {
     "name_en": "ART VIVANT CO LTD",
-    "long_name": "Art Vivant Co., Ltd.",
+    "long_name": "Art Vivant Co Ltd",
     "sector": "Consumer Cyclical",
     "industry": "Personal Services",
     "website": "https://www.artvivant.net",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 18540264.0
+        "amount": 9270132.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 27810396.0
+        "amount": 18540264.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 37080528.0
+        "amount": 37080528.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 61800880.0
+        "amount": 61800880.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18540264.0
+        "amount": 37080528.0,
+        "in_progress": false
       }
     ],
     "latest": 18540264.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 37080528.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

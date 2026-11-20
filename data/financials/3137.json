@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:15.231618",
+  "fetched_at": "2026-11-20T13:58:49.683175",
   "ticker": "3137",
   "ticker_full": "3137.T",
   "company_name": "FUNDELY CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 205.8,
-      "deviation": 6.9,
-      "trend": "up"
+      "ma_value": 230.2,
+      "deviation": -0.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 208.24,
-      "deviation": 5.65,
+      "ma_value": 211.16,
+      "deviation": 8.92,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 210.32,
-      "deviation": 4.6,
+      "ma_value": 211.25,
+      "deviation": 8.87,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 218.78,
-      "deviation": 0.56,
+      "ma_value": 218.81,
+      "deviation": 5.11,
       "trend": "up"
     }
   },
@@ -229,17 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2020,
-        "amount": 1.5
-      },
-      {
-        "year": 2021,
-        "amount": 1.5
-      }
-    ],
-    "latest": 1.5,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2013-03-31",
+      "status": "unavailable"
+    }
   }
 }

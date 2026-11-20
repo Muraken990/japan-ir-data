@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:55:52.317934",
+  "fetched_at": "2026-11-20T14:59:23.846429",
   "ticker": "8386",
   "ticker_full": "8386.T",
   "company_name": "HYAKUJUSHI BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2756.4,
-      "deviation": 3.54,
-      "trend": "up"
+      "ma_value": 2575.8,
+      "deviation": -7.64,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2783.92,
-      "deviation": 2.52,
-      "trend": "up"
+      "ma_value": 2703.88,
+      "deviation": -12.02,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2937.48,
-      "deviation": -2.84,
+      "ma_value": 2919.58,
+      "deviation": -18.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2561.23,
-      "deviation": 11.43,
-      "trend": "up"
+      "ma_value": 2576.28,
+      "deviation": -7.66,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 18.75
-      },
-      {
         "year": 2023,
-        "amount": 18.75
+        "amount": 18.75,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 28.75
+        "amount": 22.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 48.25
+        "amount": 36.25,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 76.5
+        "amount": 58.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 45.0,
+        "in_progress": true
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 58.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

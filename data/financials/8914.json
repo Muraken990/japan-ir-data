@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:33.464798",
+  "fetched_at": "2026-11-20T14:43:41.836430",
   "ticker": "8914",
   "ticker_full": "8914.T",
   "company_name": "AREALINK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 785.4,
-      "deviation": 1.22,
-      "trend": "up"
+      "ma_value": 788.6,
+      "deviation": -2.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 810.24,
-      "deviation": -1.88,
+      "ma_value": 799.12,
+      "deviation": -4.27,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 876.52,
-      "deviation": -9.3,
+      "ma_value": 864.6,
+      "deviation": -11.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 969.5,
-      "deviation": -18.0,
+      "ma_value": 962.54,
+      "deviation": -20.52,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 17.25
+        "amount": 17.25,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 19.25
+        "amount": 19.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.25
+        "amount": 22.25,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": true
       }
     ],
     "latest": 13.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 26.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

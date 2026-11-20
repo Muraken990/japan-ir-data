@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:15:46.712217",
+  "fetched_at": "2026-11-20T14:21:09.297648",
   "ticker": "6291",
   "ticker_full": "6291.T",
   "company_name": "AIRTECH JAPAN",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1235.8,
-      "deviation": -0.47,
+      "ma_value": 1270.0,
+      "deviation": -1.26,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1264.8,
-      "deviation": -2.75,
+      "ma_value": 1257.68,
+      "deviation": -0.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1317.4,
-      "deviation": -6.63,
+      "ma_value": 1313.61,
+      "deviation": -4.54,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1285.33,
-      "deviation": -4.3,
+      "ma_value": 1286.65,
+      "deviation": -2.54,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       }
     ],
     "latest": 55.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-12-31",
+      "status": "unavailable"
+    }
   }
 }

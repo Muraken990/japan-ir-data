@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:52.888127",
+  "fetched_at": "2026-11-20T13:55:37.890603",
   "ticker": "5969",
   "ticker_full": "5969.T",
   "company_name": "LOBTEX CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1186.4,
-      "deviation": -0.62,
+      "ma_value": 1180.2,
+      "deviation": -0.44,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1189.84,
-      "deviation": -0.91,
+      "ma_value": 1189.44,
+      "deviation": -1.21,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1198.32,
-      "deviation": -1.61,
+      "ma_value": 1198.16,
+      "deviation": -1.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1216.38,
-      "deviation": -3.07,
+      "ma_value": 1216.08,
+      "deviation": -3.38,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

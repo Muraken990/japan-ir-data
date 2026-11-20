@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:36:56.732990",
+  "fetched_at": "2026-11-20T14:41:18.745158",
   "ticker": "5038",
   "ticker_full": "5038.T",
   "company_name": "EWELL CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2269.4,
-      "deviation": -2.71,
+      "ma_value": 2117.4,
+      "deviation": -4.6,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2299.72,
-      "deviation": -3.99,
+      "ma_value": 2263.44,
+      "deviation": -10.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2203.83,
-      "deviation": 0.19,
-      "trend": "up"
+      "ma_value": 2207.12,
+      "deviation": -8.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2133.07,
-      "deviation": 3.51,
-      "trend": "up"
+      "ma_value": 2116.36,
+      "deviation": -4.55,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       }
     ],
     "latest": 16.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 16.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:13.685850",
+  "fetched_at": "2026-11-20T14:23:34.902068",
   "ticker": "6255",
   "ticker_full": "6255.T",
   "company_name": "NPC INCORPORATED",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 659.4,
-      "deviation": -1.58,
+      "ma_value": 616.0,
+      "deviation": -5.19,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 674.28,
-      "deviation": -3.75,
+      "ma_value": 657.44,
+      "deviation": -11.17,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 676.44,
-      "deviation": -4.06,
+      "ma_value": 678.66,
+      "deviation": -13.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 717.8,
-      "deviation": -9.59,
+      "ma_value": 715.09,
+      "deviation": -18.33,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:10.393813",
+  "fetched_at": "2026-11-20T14:23:32.573107",
   "ticker": "4811",
   "ticker_full": "4811.T",
   "company_name": "DREAMARTS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 867.8,
-      "deviation": 1.98,
-      "trend": "up"
+      "ma_value": 865.4,
+      "deviation": -2.59,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 904.08,
-      "deviation": -2.11,
+      "ma_value": 895.04,
+      "deviation": -5.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 876.49,
-      "deviation": 0.97,
-      "trend": "up"
+      "ma_value": 879.19,
+      "deviation": -4.12,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 852.08,
-      "deviation": 3.86,
+      "ma_value": 842.86,
+      "deviation": 0.02,
       "trend": "up"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2023,
-        "amount": 6.67
+        "amount": 6.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.33
+        "amount": 13.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

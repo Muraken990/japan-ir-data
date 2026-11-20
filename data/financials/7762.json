@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:00:41.538396",
+  "fetched_at": "2026-11-20T15:04:09.629601",
   "ticker": "7762",
   "ticker_full": "7762.T",
   "company_name": "CITIZEN WATCH CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1983.8,
-      "deviation": 1.82,
-      "trend": "up"
+      "ma_value": 1927.12,
+      "deviation": -7.58,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2180.74,
-      "deviation": -7.37,
+      "ma_value": 2106.92,
+      "deviation": -15.47,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2347.09,
-      "deviation": -13.94,
+      "ma_value": 2341.3,
+      "deviation": -23.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2068.7,
-      "deviation": -2.35,
+      "ma_value": 2083.92,
+      "deviation": -14.54,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 24.0
-      },
-      {
         "year": 2023,
-        "amount": 39.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 42.5
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 46.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 47.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 26.5,
+        "in_progress": true
       }
     ],
     "latest": 26.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 47.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

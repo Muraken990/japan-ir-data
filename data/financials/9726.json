@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:04.631508",
+  "fetched_at": "2026-11-20T14:42:23.043032",
   "ticker": "9726",
   "ticker_full": "9726.T",
   "company_name": "KNT-CT HOLDINGS LIMITED",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1967.8,
-      "deviation": -2.02,
+      "ma_value": 1847.6,
+      "deviation": -1.93,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1961.36,
-      "deviation": -1.7,
+      "ma_value": 1928.88,
+      "deviation": -6.06,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1951.17,
-      "deviation": -1.19,
+      "ma_value": 1947.05,
+      "deviation": -6.94,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1866.63,
-      "deviation": 3.29,
-      "trend": "up"
+      "ma_value": 1867.84,
+      "deviation": -2.99,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:30.745871",
+  "fetched_at": "2026-11-20T15:08:48.563865",
   "ticker": "3283",
   "ticker_full": "3283.T",
   "company_name": "NIPPON PROLOGIS REIT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 82460.0,
-      "deviation": 0.29,
-      "trend": "up"
+      "ma_value": 83225.0,
+      "deviation": -1.59,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 80812.0,
-      "deviation": 2.34,
+      "ma_value": 81533.33,
+      "deviation": 0.45,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 84365.33,
-      "deviation": -1.97,
+      "ma_value": 83743.24,
+      "deviation": -2.2,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 86185.8,
-      "deviation": -4.04,
+      "ma_value": 86038.37,
+      "deviation": -4.81,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3277.67
+        "amount": 3277.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3341.67
+        "amount": 3341.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3465.67
+        "amount": 3465.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3857.33
+        "amount": 3857.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 1928.0
+        "amount": 1928.0,
+        "in_progress": true
       }
     ],
     "latest": 1928.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 3848.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

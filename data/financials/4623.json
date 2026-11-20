@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:57.313143",
+  "fetched_at": "2026-11-20T14:13:42.835431",
   "ticker": "4623",
   "ticker_full": "4623.T",
   "company_name": "ASAHIPEN CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1789.6,
-      "deviation": -1.77,
+      "ma_value": 1768.8,
+      "deviation": -0.21,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1840.72,
-      "deviation": -4.49,
+      "ma_value": 1825.48,
+      "deviation": -3.31,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1814.11,
-      "deviation": -3.09,
+      "ma_value": 1819.12,
+      "deviation": -2.97,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1732.67,
-      "deviation": 1.46,
+      "ma_value": 1734.95,
+      "deviation": 1.73,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 55.0
-      },
-      {
         "year": 2023,
-        "amount": 60.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

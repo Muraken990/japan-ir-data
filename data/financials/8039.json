@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:33.510316",
+  "fetched_at": "2026-11-20T13:49:37.908868",
   "ticker": "8039",
   "ticker_full": "8039.T",
   "company_name": "TSUKIJI UOICHIBA CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3587.0,
-      "deviation": -0.61,
+      "ma_value": 3613.0,
+      "deviation": -0.64,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3594.6,
-      "deviation": -0.82,
+      "ma_value": 3615.4,
+      "deviation": -0.7,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3539.73,
-      "deviation": 0.71,
+      "ma_value": 3549.73,
+      "deviation": 1.13,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3737.39,
-      "deviation": -4.61,
+      "ma_value": 3730.4,
+      "deviation": -3.76,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:47.496212",
+  "fetched_at": "2026-11-20T15:11:00.886954",
   "ticker": "2801",
   "ticker_full": "2801.T",
   "company_name": "KIKKOMAN CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1732.6,
-      "deviation": 0.66,
-      "trend": "up"
+      "ma_value": 1810.38,
+      "deviation": -1.51,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1790.9,
-      "deviation": -2.62,
+      "ma_value": 1799.4,
+      "deviation": -0.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1741.9,
-      "deviation": 0.12,
+      "ma_value": 1750.62,
+      "deviation": 1.85,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1571.6,
-      "deviation": 10.97,
+      "ma_value": 1580.26,
+      "deviation": 12.83,
       "trend": "up"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥844億",
         "net_income": 56441000000.0,
         "net_income_fmt": "¥564億",
-        "eps": 11.84,
+        "eps": 59.19,
         "operating_margin": 10.1,
         "total_assets": 667877000000.0,
         "total_assets_fmt": "¥6679億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 13.8
-      },
-      {
         "year": 2023,
-        "amount": 16.4
+        "amount": 15.6,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 20.8,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

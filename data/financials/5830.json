@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:25.746385",
+  "fetched_at": "2026-11-20T15:09:39.845997",
   "ticker": "5830",
   "ticker_full": "5830.T",
   "company_name": "IYOGIN HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3163.2,
-      "deviation": 0.75,
-      "trend": "up"
+      "ma_value": 3082.5,
+      "deviation": -6.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3318.62,
-      "deviation": -3.97,
+      "ma_value": 3217.9,
+      "deviation": -10.9,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3642.75,
-      "deviation": -12.51,
+      "ma_value": 3615.18,
+      "deviation": -20.7,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3286.19,
-      "deviation": -3.02,
+      "ma_value": 3296.13,
+      "deviation": -13.02,
       "trend": "down"
     }
   },
@@ -195,22 +195,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 19.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

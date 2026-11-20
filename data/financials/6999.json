@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:23.798046",
+  "fetched_at": "2026-11-20T14:43:33.282672",
   "ticker": "6999",
   "ticker_full": "6999.T",
   "company_name": "KOA CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1939.0,
-      "deviation": 0.52,
-      "trend": "up"
+      "ma_value": 1791.2,
+      "deviation": -4.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2066.44,
-      "deviation": -5.68,
+      "ma_value": 1952.56,
+      "deviation": -12.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2219.17,
-      "deviation": -12.17,
+      "ma_value": 2184.47,
+      "deviation": -21.9,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2108.32,
-      "deviation": -7.56,
+      "ma_value": 2117.48,
+      "deviation": -19.43,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 45.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 48.5
+        "amount": 32.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 31.5,
+        "in_progress": true
       }
     ],
     "latest": 31.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 32.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

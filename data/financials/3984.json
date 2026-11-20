@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:18.488502",
+  "fetched_at": "2026-11-20T14:35:59.193403",
   "ticker": "3984",
   "ticker_full": "3984.T",
   "company_name": "USER LOCAL INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1337.0,
-      "deviation": 3.22,
-      "trend": "up"
+      "ma_value": 1287.0,
+      "deviation": -6.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1447.12,
-      "deviation": -4.64,
+      "ma_value": 1401.72,
+      "deviation": -14.03,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1548.0,
-      "deviation": -10.85,
+      "ma_value": 1515.08,
+      "deviation": -20.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1618.18,
-      "deviation": -14.72,
+      "ma_value": 1601.11,
+      "deviation": -24.74,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 24.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 14.0
+        "amount": 24.0,
+        "in_progress": false
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 24.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

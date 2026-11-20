@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:06.177406",
+  "fetched_at": "2026-11-20T14:29:08.556887",
   "ticker": "6493",
   "ticker_full": "6493.T",
   "company_name": "NITTAN CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 454.4,
-      "deviation": -0.53,
+      "ma_value": 435.6,
+      "deviation": -4.27,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 461.4,
-      "deviation": -2.04,
+      "ma_value": 452.12,
+      "deviation": -7.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 476.5,
-      "deviation": -5.14,
+      "ma_value": 475.05,
+      "deviation": -12.22,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 540.71,
-      "deviation": -16.41,
+      "ma_value": 532.89,
+      "deviation": -21.75,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 12.0
-      },
-      {
         "year": 2023,
-        "amount": 8.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 23.0
+        "amount": 20.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

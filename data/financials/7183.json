@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:14.756393",
+  "fetched_at": "2026-11-20T13:56:51.924917",
   "ticker": "7183",
   "ticker_full": "7183.T",
   "company_name": "ANSHIN GUARANTOR SERVICE CO LTD",
@@ -229,7 +229,21 @@
     "has_data": true
   },
   "dividends": {
-    "history": [],
-    "has_data": false
+    "history": [
+      {
+        "year": 2027,
+        "amount": 0.0,
+        "in_progress": true
+      }
+    ],
+    "latest": NaN,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

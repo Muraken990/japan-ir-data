@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:20.203604",
+  "fetched_at": "2026-11-20T14:31:20.352663",
   "ticker": "6874",
   "ticker_full": "6874.T",
   "company_name": "KYORITSU ELECTRIC CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2171.4,
-      "deviation": -0.06,
+      "ma_value": 2125.6,
+      "deviation": -1.58,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2247.04,
-      "deviation": -3.43,
+      "ma_value": 2211.2,
+      "deviation": -5.39,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2344.0,
-      "deviation": -7.42,
+      "ma_value": 2317.68,
+      "deviation": -9.74,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2528.75,
-      "deviation": -14.19,
+      "ma_value": 2514.77,
+      "deviation": -16.81,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 27.5
+        "amount": 27.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       }
     ],
     "latest": 90.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 90.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

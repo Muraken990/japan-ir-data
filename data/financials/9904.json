@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:29.794682",
+  "fetched_at": "2026-11-20T14:16:58.612088",
   "ticker": "9904",
   "ticker_full": "9904.T",
   "company_name": "VERITE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 207.2,
-      "deviation": 0.39,
-      "trend": "up"
+      "ma_value": 197.0,
+      "deviation": -4.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 214.6,
-      "deviation": -3.08,
+      "ma_value": 208.52,
+      "deviation": -9.36,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 233.59,
-      "deviation": -10.95,
+      "ma_value": 229.75,
+      "deviation": -17.74,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 294.62,
-      "deviation": -29.4,
+      "ma_value": 289.94,
+      "deviation": -34.82,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 17.1
-      },
-      {
         "year": 2023,
-        "amount": 20.1
+        "amount": 17.1,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 18.5
+        "amount": 20.1,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.98
+        "amount": 18.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3.0
+        "amount": 20.98,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 3.0,
+        "in_progress": true
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

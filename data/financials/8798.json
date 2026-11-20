@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:02.833805",
+  "fetched_at": "2026-11-20T14:14:44.983807",
   "ticker": "8798",
   "ticker_full": "8798.T",
   "company_name": "ADVANCE CREATE CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Financial Services",
     "industry": "Insurance - Diversified",
     "website": "https://www.advancecreate.co.jp",
-    "employees": 229,
+    "employees": null,
     "country": "Japan",
     "city": "Chuo",
     "address": "Nomura Fudosan Midosuji Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 71.0,
-      "deviation": 2.82,
-      "trend": "up"
+      "ma_value": 67.4,
+      "deviation": -3.56,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 71.88,
-      "deviation": 1.56,
-      "trend": "up"
+      "ma_value": 71.04,
+      "deviation": -8.5,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 110.32,
-      "deviation": -33.83,
+      "ma_value": 106.33,
+      "deviation": -38.87,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 147.95,
-      "deviation": -50.66,
+      "ma_value": 144.31,
+      "deviation": -54.96,
       "trend": "down"
     }
   },
@@ -194,27 +194,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 25.0
-      },
-      {
-        "year": 2021,
-        "amount": 30.0
-      },
-      {
         "year": 2022,
-        "amount": 32.5
+        "amount": 32.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.5
+        "amount": 17.5,
+        "in_progress": false
       }
     ],
     "latest": 17.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

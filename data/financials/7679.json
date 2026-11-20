@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:35:45.624551",
+  "fetched_at": "2026-11-20T14:40:07.218459",
   "ticker": "7679",
   "ticker_full": "7679.T",
   "company_name": "YAKUODO HLDGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1513.6,
-      "deviation": 2.14,
-      "trend": "up"
+      "ma_value": 1503.6,
+      "deviation": -4.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1507.08,
-      "deviation": 2.58,
-      "trend": "up"
-    },
-    "ma_75": {
-      "ma_value": 1621.2,
+      "ma_value": 1501.64,
       "deviation": -4.64,
       "trend": "down"
     },
+    "ma_75": {
+      "ma_value": 1603.47,
+      "deviation": -10.69,
+      "trend": "down"
+    },
     "ma_200": {
-      "ma_value": 1758.93,
-      "deviation": -12.11,
+      "ma_value": 1745.35,
+      "deviation": -17.95,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       }
     ],
     "latest": 29.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

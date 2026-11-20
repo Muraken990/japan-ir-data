@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:22.761198",
+  "fetched_at": "2026-11-20T14:38:00.092258",
   "ticker": "6387",
   "ticker_full": "6387.T",
   "company_name": "SAMCO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6450.0,
-      "deviation": 2.95,
-      "trend": "up"
+      "ma_value": 5604.0,
+      "deviation": -9.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 7339.6,
-      "deviation": -9.53,
+      "ma_value": 6677.6,
+      "deviation": -24.37,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 8296.45,
-      "deviation": -19.97,
+      "ma_value": 8108.27,
+      "deviation": -37.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 9056.34,
-      "deviation": -26.68,
+      "ma_value": 9077.01,
+      "deviation": -44.36,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       }
     ],
     "latest": 75.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 75.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

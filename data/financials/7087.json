@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:32.785162",
+  "fetched_at": "2026-11-20T13:49:37.085466",
   "ticker": "7087",
   "ticker_full": "7087.T",
   "company_name": "WILLTEC CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1370.8,
-      "deviation": 4.61,
-      "trend": "up"
+      "ma_value": 1412.8,
+      "deviation": -3.1,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1354.44,
-      "deviation": 5.87,
+      "ma_value": 1362.88,
+      "deviation": 0.45,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1365.68,
-      "deviation": 5.0,
-      "trend": "up"
+      "ma_value": 1371.15,
+      "deviation": -0.16,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1323.2,
-      "deviation": 8.37,
+      "ma_value": 1325.37,
+      "deviation": 3.29,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.0
-      },
-      {
         "year": 2023,
-        "amount": 48.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 44.5
+        "amount": 43.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 21.5,
+        "in_progress": true
       }
     ],
     "latest": 21.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 43.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

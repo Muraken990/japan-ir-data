@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:15:49.215103",
+  "fetched_at": "2026-11-20T14:21:11.299605",
   "ticker": "6955",
   "ticker_full": "6955.T",
   "company_name": "FDK CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 316.4,
-      "deviation": -1.39,
+      "ma_value": 303.4,
+      "deviation": -5.41,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 363.32,
-      "deviation": -14.13,
+      "ma_value": 343.76,
+      "deviation": -16.51,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 392.35,
-      "deviation": -20.48,
+      "ma_value": 386.2,
+      "deviation": -25.69,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 431.05,
-      "deviation": -27.62,
+      "ma_value": 428.31,
+      "deviation": -32.99,
       "trend": "down"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥11億",
         "net_income": 536000000.0,
         "net_income_fmt": "¥5億",
-        "eps": 15.53,
+        "eps": 15.55,
         "operating_margin": 2.21,
         "total_assets": 46340000000.0,
         "total_assets_fmt": "¥463億",
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

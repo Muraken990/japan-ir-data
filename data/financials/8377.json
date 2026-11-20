@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:12.533311",
+  "fetched_at": "2026-11-20T15:07:37.051857",
   "ticker": "8377",
   "ticker_full": "8377.T",
   "company_name": "HOKUHOKU FINANCIAL GROUP INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 752.84,
-      "deviation": 0.7,
-      "trend": "up"
+      "ma_value": 716.65,
+      "deviation": -5.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 753.8,
-      "deviation": 0.57,
-      "trend": "up"
+      "ma_value": 736.57,
+      "deviation": -7.99,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 794.53,
-      "deviation": -4.58,
+      "ma_value": 792.88,
+      "deviation": -14.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 684.89,
-      "deviation": 10.69,
-      "trend": "up"
+      "ma_value": 689.85,
+      "deviation": -1.76,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "N/A",
         "net_income": 58899000000.0,
         "net_income_fmt": "¥589億",
-        "eps": 483.2,
+        "eps": 48.32,
         "operating_margin": 0.0,
         "total_assets": 16963785000000.0,
         "total_assets_fmt": "¥17.0T",
@@ -89,7 +89,7 @@
         "ebit_fmt": "N/A",
         "net_income": 39072000000.0,
         "net_income_fmt": "¥391億",
-        "eps": 310.29,
+        "eps": 31.03,
         "operating_margin": 0.0,
         "total_assets": 16441220000000.0,
         "total_assets_fmt": "¥16.4T",
@@ -126,7 +126,7 @@
         "ebit_fmt": "N/A",
         "net_income": 23048000000.0,
         "net_income_fmt": "¥230億",
-        "eps": 176.28,
+        "eps": 17.63,
         "operating_margin": 0.0,
         "total_assets": 16382886000000.0,
         "total_assets_fmt": "¥16.4T",
@@ -163,7 +163,7 @@
         "ebit_fmt": "N/A",
         "net_income": 21435000000.0,
         "net_income_fmt": "¥214億",
-        "eps": 158.63,
+        "eps": 15.86,
         "operating_margin": 0.0,
         "total_assets": 16172700000000.0,
         "total_assets_fmt": "¥16.2T",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 3.5
-      },
-      {
         "year": 2023,
-        "amount": 3.7
+        "amount": 3.7,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.25
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7.25
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 16.0
+        "amount": 11.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 9.5,
+        "in_progress": true
       }
     ],
     "latest": 9.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 11.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

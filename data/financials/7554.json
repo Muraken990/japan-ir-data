@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:21.510482",
+  "fetched_at": "2026-11-20T14:31:22.531597",
   "ticker": "7554",
   "ticker_full": "7554.T",
   "company_name": "KOURAKUEN CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1227.0,
-      "deviation": -0.08,
-      "trend": "down"
+      "ma_value": 1231.2,
+      "deviation": 0.23,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1198.08,
-      "deviation": 2.33,
+      "ma_value": 1207.84,
+      "deviation": 2.17,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1169.02,
-      "deviation": 4.87,
+      "ma_value": 1174.8,
+      "deviation": 5.04,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1136.79,
-      "deviation": 7.85,
+      "ma_value": 1139.07,
+      "deviation": 8.33,
       "trend": "up"
     }
   },
@@ -231,27 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2017,
-        "amount": 15.0
-      },
-      {
-        "year": 2018,
-        "amount": 5.0
-      },
-      {
-        "year": 2019,
-        "amount": 20.0
-      },
-      {
-        "year": 2020,
-        "amount": 10.0
-      },
-      {
         "year": 2026,
-        "amount": 17.5
+        "amount": 10.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 7.5,
+        "in_progress": true
       }
     ],
     "latest": 7.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2024-03-31",
+      "status": "no_dividend"
+    }
   }
 }

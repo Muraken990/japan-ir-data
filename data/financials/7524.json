@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:51.700680",
+  "fetched_at": "2026-11-20T13:53:43.223942",
   "ticker": "7524",
   "ticker_full": "7524.T",
   "company_name": "MARCHE CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 146.8,
-      "deviation": -1.91,
-      "trend": "down"
+      "ma_value": 146.2,
+      "deviation": 1.23,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 166.48,
-      "deviation": -13.5,
+      "ma_value": 160.2,
+      "deviation": -7.62,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 174.53,
-      "deviation": -17.49,
+      "ma_value": 172.08,
+      "deviation": -13.99,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 176.39,
-      "deviation": -18.36,
+      "ma_value": 175.16,
+      "deviation": -15.51,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 10.0
-      },
-      {
-        "year": 2017,
-        "amount": 10.0
-      },
-      {
-        "year": 2018,
-        "amount": 10.0
-      },
-      {
-        "year": 2019,
-        "amount": 10.0
-      },
-      {
-        "year": 2020,
-        "amount": 5.0
-      }
-    ],
-    "latest": 5.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2011-03-31",
+      "status": "unavailable"
+    }
   }
 }

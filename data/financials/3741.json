@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:32:17.064993",
+  "fetched_at": "2026-11-20T14:36:58.460244",
   "ticker": "3741",
   "ticker_full": "3741.T",
   "company_name": "SYSTEMS ENGINEERING CONSULTANTS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2748.0,
-      "deviation": -2.29,
+      "ma_value": 2567.8,
+      "deviation": -4.7,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2933.56,
-      "deviation": -8.47,
+      "ma_value": 2833.28,
+      "deviation": -13.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3087.61,
-      "deviation": -13.04,
+      "ma_value": 3064.8,
+      "deviation": -20.16,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3272.65,
-      "deviation": -17.96,
+      "ma_value": 3250.02,
+      "deviation": -24.71,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.5
+        "amount": 30.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 34.5
+        "amount": 34.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 43.5
+        "amount": 43.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

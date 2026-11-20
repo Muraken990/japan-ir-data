@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:32.221296",
+  "fetched_at": "2026-11-20T15:10:46.985124",
   "ticker": "6525",
   "ticker_full": "6525.T",
   "company_name": "KOKUSAI ELECTRIC CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5713.2,
-      "deviation": 4.74,
-      "trend": "up"
+      "ma_value": 5458.5,
+      "deviation": -10.29,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 7070.4,
-      "deviation": -15.37,
+      "ma_value": 6372.0,
+      "deviation": -23.15,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 8077.26,
-      "deviation": -25.92,
+      "ma_value": 7983.98,
+      "deviation": -38.66,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 7569.56,
-      "deviation": -20.95,
+      "ma_value": 7555.56,
+      "deviation": -35.19,
       "trend": "down"
     }
   },
@@ -195,18 +195,33 @@
     "history": [
       {
         "year": 2024,
-        "amount": 29.0
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 51.0
+        "amount": 37.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 32.0,
+        "in_progress": true
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 37.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

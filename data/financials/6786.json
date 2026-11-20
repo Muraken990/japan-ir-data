@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:20.976512",
+  "fetched_at": "2026-11-20T13:52:21.169311",
   "ticker": "6786",
   "ticker_full": "6786.T",
   "company_name": "RVH INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 38.4,
-      "deviation": -3.65,
-      "trend": "down"
+      "ma_value": 34.8,
+      "deviation": 0.57,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 40.2,
-      "deviation": -7.96,
+      "ma_value": 38.56,
+      "deviation": -9.23,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 45.55,
-      "deviation": -18.76,
+      "ma_value": 44.65,
+      "deviation": -21.62,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 50.27,
-      "deviation": -26.4,
+      "ma_value": 49.66,
+      "deviation": -29.53,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

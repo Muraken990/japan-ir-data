@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:31.474106",
+  "fetched_at": "2026-11-20T14:18:58.172518",
   "ticker": "3804",
   "ticker_full": "3804.T",
   "company_name": "SYSTEM D INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 439.0,
+      "ma_value": 437.0,
       "deviation": 0.46,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 439.84,
-      "deviation": 0.26,
-      "trend": "up"
+      "ma_value": 439.81,
+      "deviation": -0.18,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 441.03,
-      "deviation": -0.01,
+      "ma_value": 440.93,
+      "deviation": -0.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 475.69,
-      "deviation": -7.29,
+      "ma_value": 472.71,
+      "deviation": -7.13,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6.67
+        "amount": 6.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 7.67
+        "amount": 7.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 9.33
+        "amount": 9.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       }
     ],
     "latest": 11.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 9.3333,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

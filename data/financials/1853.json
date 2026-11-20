@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:35.330038",
+  "fetched_at": "2026-11-20T14:18:02.862064",
   "ticker": "1853",
   "ticker_full": "1853.T",
   "company_name": "MORI-GUMI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 351.2,
-      "deviation": 26.99,
+      "ma_value": 554.0,
+      "deviation": 1.26,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 327.36,
-      "deviation": 36.24,
+      "ma_value": 374.16,
+      "deviation": 49.94,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 327.92,
-      "deviation": 36.01,
+      "ma_value": 342.76,
+      "deviation": 63.67,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 324.71,
-      "deviation": 37.35,
+      "ma_value": 330.29,
+      "deviation": 69.85,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2011-03-31",
+      "status": "unavailable"
+    }
   }
 }

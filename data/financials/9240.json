@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:13.546191",
+  "fetched_at": "2026-11-20T13:56:51.443229",
   "ticker": "9240",
   "ticker_full": "9240.T",
   "company_name": "DELIVERY CONSULTING INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 340.2,
-      "deviation": 7.0,
-      "trend": "up"
+      "ma_value": 351.4,
+      "deviation": -3.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 357.2,
-      "deviation": 1.9,
-      "trend": "up"
+      "ma_value": 354.92,
+      "deviation": -4.77,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 390.16,
-      "deviation": -6.7,
+      "ma_value": 387.03,
+      "deviation": -12.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 436.58,
-      "deviation": -16.62,
+      "ma_value": 431.09,
+      "deviation": -21.59,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "no_dividend"
+    }
   }
 }

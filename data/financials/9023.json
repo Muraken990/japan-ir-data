@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:30.944360",
+  "fetched_at": "2026-11-20T15:09:46.816472",
   "ticker": "9023",
   "ticker_full": "9023.T",
   "company_name": "TOKYO METRO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1474.0,
-      "deviation": 1.12,
-      "trend": "up"
+      "ma_value": 1484.5,
+      "deviation": -1.82,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1455.94,
-      "deviation": 2.37,
-      "trend": "up"
+      "ma_value": 1462.23,
+      "deviation": -0.32,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1460.93,
-      "deviation": 2.02,
-      "trend": "up"
+      "ma_value": 1462.44,
+      "deviation": -0.34,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1499.59,
-      "deviation": -0.61,
+      "ma_value": 1496.17,
+      "deviation": -2.58,
       "trend": "down"
     }
   },
@@ -195,14 +195,28 @@
     "history": [
       {
         "year": 2025,
-        "amount": 61.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 43.0
+        "amount": 42.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 22.0,
+        "in_progress": true
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 42.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

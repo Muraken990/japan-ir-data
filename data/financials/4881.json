@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:21.651926",
+  "fetched_at": "2026-11-20T13:59:53.667711",
   "ticker": "4881",
   "ticker_full": "4881.T",
   "company_name": "FUNPEP COMPANY LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 39.6,
-      "deviation": -1.52,
-      "trend": "down"
+      "ma_value": 39.8,
+      "deviation": 0.5,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 41.6,
-      "deviation": -6.25,
+      "ma_value": 40.76,
+      "deviation": -1.86,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 47.35,
-      "deviation": -17.63,
+      "ma_value": 46.25,
+      "deviation": -13.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 66.36,
-      "deviation": -41.23,
+      "ma_value": 65.06,
+      "deviation": -38.52,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

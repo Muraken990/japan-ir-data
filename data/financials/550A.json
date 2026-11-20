@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:43:34.551114",
+  "fetched_at": "2026-11-20T13:50:37.032111",
   "ticker": "550A",
   "ticker_full": "550A.T",
   "company_name": "SOFTTEX CO LTD",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2274.8,
-      "deviation": 0.23,
-      "trend": "up"
+      "ma_value": 2351.2,
+      "deviation": -2.52,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2239.16,
-      "deviation": 1.82,
+      "ma_value": 2260.68,
+      "deviation": 1.39,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2190.02,
-      "deviation": 4.11,
+      "ma_value": 2201.16,
+      "deviation": 4.13,
       "trend": "up"
     },
     "ma_200": {
@@ -157,11 +157,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2026,
-        "amount": 40.0
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": null,
+      "status": "unavailable"
+    }
   }
 }

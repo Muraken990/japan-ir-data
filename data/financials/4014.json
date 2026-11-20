@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:09.802524",
+  "fetched_at": "2026-11-20T13:58:44.959985",
   "ticker": "4014",
   "ticker_full": "4014.T",
   "company_name": "KARADANOTE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 405.2,
-      "deviation": 2.42,
-      "trend": "up"
+      "ma_value": 425.6,
+      "deviation": -4.14,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 425.28,
-      "deviation": -2.42,
+      "ma_value": 421.6,
+      "deviation": -3.23,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 471.52,
-      "deviation": -11.99,
+      "ma_value": 464.53,
+      "deviation": -12.17,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 452.56,
-      "deviation": -8.3,
+      "ma_value": 451.6,
+      "deviation": -9.65,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "no_dividend"
+    }
   }
 }

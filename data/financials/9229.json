@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:03.144275",
+  "fetched_at": "2026-11-20T14:21:23.814086",
   "ticker": "9229",
   "ticker_full": "9229.T",
   "company_name": "SUNWELS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 109.2,
-      "deviation": 2.56,
-      "trend": "up"
+      "ma_value": 109.8,
+      "deviation": -4.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 113.68,
-      "deviation": -1.48,
+      "ma_value": 113.24,
+      "deviation": -7.28,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 114.55,
-      "deviation": -2.22,
+      "ma_value": 113.45,
+      "deviation": -7.45,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 181.99,
-      "deviation": -38.46,
+      "ma_value": 175.08,
+      "deviation": -40.03,
       "trend": "down"
     }
   },
@@ -231,19 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 4.33
-      },
-      {
         "year": 2023,
-        "amount": 19.0
+        "amount": 17.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 14.0,
+        "in_progress": false
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

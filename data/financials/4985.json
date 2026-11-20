@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:50:01.212263",
+  "fetched_at": "2026-11-20T14:53:42.158172",
   "ticker": "4985",
   "ticker_full": "4985.T",
   "company_name": "EARTH CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4900.0,
+      "ma_value": 4960.0,
+      "deviation": -0.3,
+      "trend": "down"
+    },
+    "ma_25": {
+      "ma_value": 4924.6,
       "deviation": 0.41,
       "trend": "up"
     },
-    "ma_25": {
-      "ma_value": 4885.0,
-      "deviation": 0.72,
-      "trend": "up"
-    },
     "ma_75": {
-      "ma_value": 4799.2,
-      "deviation": 2.52,
+      "ma_value": 4813.07,
+      "deviation": 2.74,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 4781.68,
-      "deviation": 2.89,
+      "ma_value": 4781.0,
+      "deviation": 3.43,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 118.0
+        "amount": 118.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 118.0
+        "amount": 118.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 118.0
+        "amount": 118.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 125.0
+        "amount": 125.0,
+        "in_progress": false
       }
     ],
     "latest": 125.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 125.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

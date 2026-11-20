@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:14.641753",
+  "fetched_at": "2026-11-20T14:05:24.386163",
   "ticker": "7975",
   "ticker_full": "7975.T",
   "company_name": "LIHIT LAB INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1151.6,
-      "deviation": 0.9,
-      "trend": "up"
+      "ma_value": 1146.4,
+      "deviation": -2.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1154.76,
-      "deviation": 0.63,
-      "trend": "up"
+      "ma_value": 1152.32,
+      "deviation": -2.63,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1149.47,
-      "deviation": 1.09,
-      "trend": "up"
+      "ma_value": 1151.88,
+      "deviation": -2.59,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1159.27,
-      "deviation": 0.24,
-      "trend": "up"
+      "ma_value": 1156.2,
+      "deviation": -2.96,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

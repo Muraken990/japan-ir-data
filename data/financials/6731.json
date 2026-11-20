@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:24.150497",
+  "fetched_at": "2026-11-20T14:07:30.992380",
   "ticker": "6731",
   "ticker_full": "6731.T",
   "company_name": "PIXELA CORPORATION",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Computer Hardware",
     "website": "https://www.pixela.co.jp",
-    "employees": 50,
+    "employees": null,
     "country": "Japan",
     "city": "Osaka",
     "address": "Tatsumibori Square",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 65.4,
-      "deviation": -2.14,
+      "ma_value": 52.8,
+      "deviation": -3.41,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 72.84,
-      "deviation": -12.14,
+      "ma_value": 66.0,
+      "deviation": -22.73,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 94.23,
-      "deviation": -32.08,
+      "ma_value": 90.59,
+      "deviation": -43.7,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 193.34,
-      "deviation": -66.9,
+      "ma_value": 181.86,
+      "deviation": -71.96,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

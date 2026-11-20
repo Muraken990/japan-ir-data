@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:36:57.809360",
+  "fetched_at": "2026-11-20T14:41:19.933799",
   "ticker": "2705",
   "ticker_full": "2705.T",
   "company_name": "OOTOYA HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 10480.0,
-      "deviation": 4.01,
-      "trend": "up"
+      "ma_value": 10980.0,
+      "deviation": -0.73,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 9883.2,
-      "deviation": 10.29,
+      "ma_value": 10237.2,
+      "deviation": 6.47,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 9208.53,
-      "deviation": 18.37,
+      "ma_value": 9381.2,
+      "deviation": 16.19,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 7946.27,
-      "deviation": 37.17,
+      "ma_value": 8061.84,
+      "deviation": 35.2,
       "trend": "up"
     }
   },
@@ -194,27 +194,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 25.0
-      },
-      {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

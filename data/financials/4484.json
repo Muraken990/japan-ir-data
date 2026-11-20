@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:12.839287",
+  "fetched_at": "2026-11-20T14:06:21.128174",
   "ticker": "4484",
   "ticker_full": "4484.T",
   "company_name": "LANCERS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 270.0,
-      "deviation": -4.81,
+      "ma_value": 253.6,
+      "deviation": -2.6,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 278.56,
-      "deviation": -7.74,
+      "ma_value": 271.84,
+      "deviation": -9.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 287.32,
-      "deviation": -10.55,
+      "ma_value": 285.15,
+      "deviation": -13.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 287.21,
-      "deviation": -10.52,
+      "ma_value": 285.7,
+      "deviation": -13.55,
       "trend": "down"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 2.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

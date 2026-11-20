@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:41.680719",
+  "fetched_at": "2026-11-20T14:18:08.671062",
   "ticker": "3969",
   "ticker_full": "3969.T",
   "company_name": "ATLED LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1383.8,
-      "deviation": 0.38,
-      "trend": "up"
+      "ma_value": 1386.4,
+      "deviation": -0.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1387.12,
-      "deviation": 0.14,
-      "trend": "up"
+      "ma_value": 1386.16,
+      "deviation": -0.44,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1388.5,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 1389.37,
+      "deviation": -0.67,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1378.66,
-      "deviation": 0.75,
+      "ma_value": 1376.8,
+      "deviation": 0.23,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 23.0
-      },
-      {
         "year": 2023,
-        "amount": 25.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 34.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 18.0,
+        "in_progress": true
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 34.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

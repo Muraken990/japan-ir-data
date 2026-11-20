@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:00:42.554518",
+  "fetched_at": "2026-11-20T15:04:10.607137",
   "ticker": "2607",
   "ticker_full": "2607.T",
   "company_name": "FUJI OIL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4391.4,
-      "deviation": -2.65,
+      "ma_value": 4379.5,
+      "deviation": -6.38,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4508.84,
-      "deviation": -5.19,
+      "ma_value": 4491.96,
+      "deviation": -8.73,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4395.01,
-      "deviation": -2.73,
+      "ma_value": 4422.12,
+      "deviation": -7.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3951.74,
-      "deviation": 8.18,
+      "ma_value": 3958.87,
+      "deviation": 3.56,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 52.0
-      },
-      {
         "year": 2023,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 57.0
+        "amount": 52.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 31.0,
+        "in_progress": true
       }
     ],
     "latest": 31.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 52.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:33.218933",
+  "fetched_at": "2026-11-20T15:09:49.353283",
   "ticker": "4911",
   "ticker_full": "4911.T",
   "company_name": "SHISEIDO COMPANY LIMITED",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4000.0,
-      "deviation": 5.12,
-      "trend": "up"
+      "ma_value": 4297.5,
+      "deviation": -3.69,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3680.04,
-      "deviation": 14.27,
+      "ma_value": 3856.96,
+      "deviation": 7.31,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3528.99,
-      "deviation": 19.16,
+      "ma_value": 3587.14,
+      "deviation": 15.38,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3140.45,
-      "deviation": 33.9,
+      "ma_value": 3175.11,
+      "deviation": 30.36,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

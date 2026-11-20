@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:49:57.797839",
+  "fetched_at": "2026-11-20T14:53:39.213757",
   "ticker": "5161",
   "ticker_full": "5161.T",
   "company_name": "NISHIKAWA RUBBER CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3606.0,
-      "deviation": 1.36,
-      "trend": "up"
+      "ma_value": 3389.0,
+      "deviation": -3.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3596.6,
-      "deviation": 1.62,
-      "trend": "up"
+      "ma_value": 3580.4,
+      "deviation": -8.95,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3470.33,
-      "deviation": 5.32,
-      "trend": "up"
+      "ma_value": 3486.94,
+      "deviation": -6.51,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3398.19,
-      "deviation": 7.56,
-      "trend": "up"
+      "ma_value": 3391.02,
+      "deviation": -3.86,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 182.5
+        "amount": 104.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 184.0
+        "amount": 183.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 93.0,
+        "in_progress": true
       }
     ],
-    "latest": 92.0,
-    "has_data": true
+    "latest": 93.0,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 183.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:38.448142",
+  "fetched_at": "2026-11-20T14:27:49.381439",
   "ticker": "9257",
   "ticker_full": "9257.T",
   "company_name": "YCP HOLDINGS (GLOBAL) LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 432.8,
-      "deviation": -0.18,
+      "ma_value": 422.2,
+      "deviation": -0.99,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 453.48,
-      "deviation": -4.74,
+      "ma_value": 439.0,
+      "deviation": -4.78,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 493.17,
-      "deviation": -12.4,
+      "ma_value": 490.59,
+      "deviation": -14.8,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 650.68,
-      "deviation": -33.61,
+      "ma_value": 640.31,
+      "deviation": -34.72,
       "trend": "down"
     }
   },
@@ -195,14 +195,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 14.37
+        "amount": 14.29,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 6.39
+        "amount": 6.35,
+        "in_progress": true
       }
     ],
-    "latest": 6.39,
-    "has_data": true
+    "latest": 6.35,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 14.2933,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

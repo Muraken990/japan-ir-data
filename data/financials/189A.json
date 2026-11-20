@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:47:49.522966",
+  "fetched_at": "2026-11-20T13:54:39.248677",
   "ticker": "189A",
   "ticker_full": "189A.T",
   "company_name": "D&M COMPANY CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1051.0,
-      "deviation": 1.24,
-      "trend": "up"
+      "ma_value": 1067.6,
+      "deviation": -0.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1059.32,
-      "deviation": 0.44,
-      "trend": "up"
+      "ma_value": 1062.2,
+      "deviation": -0.21,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1034.27,
-      "deviation": 2.87,
+      "ma_value": 1038.45,
+      "deviation": 2.07,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 972.07,
-      "deviation": 9.46,
+      "ma_value": 975.54,
+      "deviation": 8.66,
       "trend": "up"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

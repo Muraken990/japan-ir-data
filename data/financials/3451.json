@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:25.245630",
+  "fetched_at": "2026-11-20T14:44:33.313843",
   "ticker": "3451",
   "ticker_full": "3451.T",
   "company_name": "TOSEI REIT INVESTMENT CORPORATI",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 119000.0,
-      "deviation": 1.51,
-      "trend": "up"
+      "ma_value": 119980.0,
+      "deviation": -0.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 118575.56,
-      "deviation": 1.88,
+      "ma_value": 118845.14,
+      "deviation": 0.47,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 123475.06,
-      "deviation": -2.17,
+      "ma_value": 122739.55,
+      "deviation": -2.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 129311.02,
-      "deviation": -6.58,
+      "ma_value": 128866.77,
+      "deviation": -7.35,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7196.0
+        "amount": 7196.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 7388.0
+        "amount": 7388.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 7443.0
+        "amount": 7443.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7687.0
+        "amount": 7687.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7752.0
+        "amount": 7752.0,
+        "in_progress": false
       }
     ],
     "latest": 3826.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 7687.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

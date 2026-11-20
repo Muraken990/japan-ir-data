@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:04.802288",
+  "fetched_at": "2026-11-20T15:14:14.761299",
   "ticker": "8035",
   "ticker_full": "8035.T",
   "company_name": "TOKYO ELECTRON",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 9107.0,
-      "deviation": 3.89,
-      "trend": "up"
+      "ma_value": 8772.5,
+      "deviation": -5.28,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 9920.04,
-      "deviation": -4.63,
+      "ma_value": 9387.33,
+      "deviation": -11.49,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 10737.16,
-      "deviation": -11.89,
+      "ma_value": 10595.55,
+      "deviation": -21.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 10372.25,
-      "deviation": -8.79,
+      "ma_value": 10395.51,
+      "deviation": -20.07,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 107.8
-      },
-      {
         "year": 2023,
-        "amount": 86.53
+        "amount": 114.07,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 102.0
+        "amount": 78.6,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 118.2
+        "amount": 118.4,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 155.8
+        "amount": 125.6,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 83.0,
+        "in_progress": true
       }
     ],
     "latest": 83.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 125.6,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

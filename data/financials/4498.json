@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:12.011049",
+  "fetched_at": "2026-11-20T14:30:10.177118",
   "ticker": "4498",
   "ticker_full": "4498.T",
   "company_name": "CYBERTRUST JAPAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1761.6,
-      "deviation": -5.43,
+      "ma_value": 1626.8,
+      "deviation": -2.26,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1978.76,
-      "deviation": -15.81,
+      "ma_value": 1981.0,
+      "deviation": -19.74,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1480.67,
-      "deviation": 12.52,
+      "ma_value": 1510.93,
+      "deviation": 5.23,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1294.46,
-      "deviation": 28.7,
+      "ma_value": 1303.43,
+      "deviation": 21.99,
       "trend": "up"
     }
   },
@@ -232,22 +232,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 8.75
+        "amount": 8.75,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.75
+        "amount": 8.75,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 11.5
+        "amount": 11.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       }
     ],
     "latest": 12.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 12.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

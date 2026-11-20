@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:05.614453",
+  "fetched_at": "2026-11-20T14:05:16.181659",
   "ticker": "3490",
   "ticker_full": "3490.T",
   "company_name": "AZPLANNING CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3065.0,
-      "deviation": 0.0,
+      "ma_value": 3097.0,
+      "deviation": -0.06,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3110.4,
-      "deviation": -1.46,
+      "ma_value": 3097.4,
+      "deviation": -0.08,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3107.93,
-      "deviation": -1.38,
+      "ma_value": 3109.93,
+      "deviation": -0.48,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2976.25,
-      "deviation": 2.98,
+      "ma_value": 2978.95,
+      "deviation": 3.9,
       "trend": "up"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

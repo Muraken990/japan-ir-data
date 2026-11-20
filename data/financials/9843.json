@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:38.383245",
+  "fetched_at": "2026-11-20T15:11:51.685001",
   "ticker": "9843",
   "ticker_full": "9843.T",
   "company_name": "NITORI HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3408.2,
-      "deviation": -1.27,
+      "ma_value": 3674.75,
+      "deviation": -0.54,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3330.68,
-      "deviation": 1.03,
+      "ma_value": 3417.58,
+      "deviation": 6.95,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3087.58,
-      "deviation": 8.98,
+      "ma_value": 3154.42,
+      "deviation": 15.87,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2773.01,
-      "deviation": 21.35,
+      "ma_value": 2794.04,
+      "deviation": 30.81,
       "trend": "up"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥1273億",
         "net_income": 90158000000.0,
         "net_income_fmt": "¥902億",
-        "eps": 153.12,
+        "eps": 159.56,
         "operating_margin": 13.63,
         "total_assets": 1411292000000.0,
         "total_assets_fmt": "¥1.4T",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 28.6
-      },
-      {
         "year": 2023,
-        "amount": 29.6
+        "amount": 29.2,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.6
+        "amount": 29.4,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.6
+        "amount": 30.4,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 31.4
+        "amount": 30.8,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 16.0,
+        "in_progress": true
       }
     ],
     "latest": 16.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.8,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:59.714059",
+  "fetched_at": "2026-11-20T14:29:58.805826",
   "ticker": "5922",
   "ticker_full": "5922.T",
   "company_name": "NASU DENKI-TEKKO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 20000.0,
-      "deviation": 0.0,
-      "trend": "down"
+      "ma_value": 20016.0,
+      "deviation": 0.02,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 19988.0,
-      "deviation": 0.06,
+      "ma_value": 19994.0,
+      "deviation": 0.13,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 20020.13,
-      "deviation": -0.1,
+      "ma_value": 20037.73,
+      "deviation": -0.09,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 19054.35,
-      "deviation": 4.96,
+      "ma_value": 19133.88,
+      "deviation": 4.63,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 200.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 200.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 270.0
+        "amount": 270.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 450.0
+        "amount": 450.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 640.0
+        "amount": 640.0,
+        "in_progress": false
       }
     ],
     "latest": 640.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 640.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:37.816990",
+  "fetched_at": "2026-11-20T14:17:05.768798",
   "ticker": "6554",
   "ticker_full": "6554.T",
   "company_name": "SUS CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Conglomerates",
     "website": "https://www.sus-g.co.jp",
-    "employees": 2409,
+    "employees": null,
     "country": "Japan",
     "city": "Kyoto",
     "address": "Kyoto Mitsui Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1064.0,
-      "deviation": 0.56,
-      "trend": "up"
-    },
-    "ma_25": {
-      "ma_value": 1088.2,
-      "deviation": -1.67,
+      "ma_value": 1143.0,
+      "deviation": -2.19,
       "trend": "down"
     },
+    "ma_25": {
+      "ma_value": 1102.44,
+      "deviation": 1.41,
+      "trend": "up"
+    },
     "ma_75": {
-      "ma_value": 1053.75,
-      "deviation": 1.54,
+      "ma_value": 1064.96,
+      "deviation": 4.98,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1011.05,
-      "deviation": 5.83,
+      "ma_value": 1011.58,
+      "deviation": 10.52,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 62.0
+        "amount": 62.0,
+        "in_progress": false
       }
     ],
     "latest": 62.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 62.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

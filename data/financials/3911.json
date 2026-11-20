@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:27.381037",
+  "fetched_at": "2026-11-20T14:17:55.399922",
   "ticker": "3911",
   "ticker_full": "3911.T",
   "company_name": "AIMING INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 233.0,
-      "deviation": -2.15,
+      "ma_value": 204.0,
+      "deviation": -3.43,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 214.64,
-      "deviation": 6.22,
-      "trend": "up"
+      "ma_value": 216.72,
+      "deviation": -9.1,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 190.52,
-      "deviation": 19.67,
+      "ma_value": 190.55,
+      "deviation": 3.39,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 194.62,
-      "deviation": 17.15,
+      "ma_value": 193.93,
+      "deviation": 1.58,
       "trend": "up"
     }
   },
@@ -231,19 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2015,
-        "amount": 5.0
-      },
-      {
         "year": 2021,
-        "amount": 3.5
+        "amount": 3.5,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

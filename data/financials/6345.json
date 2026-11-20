@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:43.422763",
+  "fetched_at": "2026-11-20T14:52:27.127176",
   "ticker": "6345",
   "ticker_full": "6345.T",
   "company_name": "AICHI CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1285.4,
-      "deviation": 1.06,
-      "trend": "up"
+      "ma_value": 1279.2,
+      "deviation": -1.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1362.12,
-      "deviation": -4.63,
+      "ma_value": 1334.2,
+      "deviation": -5.94,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1395.46,
-      "deviation": -6.91,
+      "ma_value": 1387.53,
+      "deviation": -9.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1357.15,
-      "deviation": -4.28,
+      "ma_value": 1355.86,
+      "deviation": -7.44,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 37.0
-      },
-      {
         "year": 2023,
-        "amount": 38.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 41.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 65.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 63.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 33.0,
+        "in_progress": true
       }
     ],
     "latest": 33.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

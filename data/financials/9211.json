@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:51.732861",
+  "fetched_at": "2026-11-20T14:28:02.085124",
   "ticker": "9211",
   "ticker_full": "9211.T",
   "company_name": "F CODE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1113.0,
-      "deviation": 2.07,
-      "trend": "up"
+      "ma_value": 1094.4,
+      "deviation": -7.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1232.96,
-      "deviation": -7.86,
+      "ma_value": 1165.0,
+      "deviation": -13.48,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1383.11,
-      "deviation": -17.87,
+      "ma_value": 1366.87,
+      "deviation": -26.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1453.88,
-      "deviation": -21.86,
+      "ma_value": 1443.04,
+      "deviation": -30.15,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

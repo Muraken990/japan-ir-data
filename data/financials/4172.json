@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:10.980819",
+  "fetched_at": "2026-11-20T14:07:18.429623",
   "ticker": "4172",
   "ticker_full": "4172.T",
   "company_name": "HI-CRATES CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2180.4,
-      "deviation": -0.66,
+      "ma_value": 2157.6,
+      "deviation": -2.67,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2180.04,
-      "deviation": -0.64,
+      "ma_value": 2167.84,
+      "deviation": -3.13,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2246.69,
-      "deviation": -3.59,
+      "ma_value": 2242.82,
+      "deviation": -6.37,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2268.76,
-      "deviation": -4.53,
+      "ma_value": 2264.28,
+      "deviation": -7.26,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 78.0
+        "amount": 78.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 88.0
+        "amount": 88.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 93.0
+        "amount": 93.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 93.0,
+      "fiscal_year_end": "2025-09-30",
+      "status": "ok"
+    }
   }
 }

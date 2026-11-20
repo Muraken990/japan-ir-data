@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:03.863272",
+  "fetched_at": "2026-11-20T14:35:43.525616",
   "ticker": "3452",
   "ticker_full": "3452.T",
   "company_name": "B-LOT COMPANY LIMITED",
@@ -19,22 +19,22 @@
   "price_trend": {
     "ma_5": {
       "ma_value": 1342.4,
-      "deviation": 0.72,
-      "trend": "up"
+      "deviation": -4.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1374.4,
-      "deviation": -1.63,
+      "ma_value": 1366.4,
+      "deviation": -5.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1432.19,
-      "deviation": -5.6,
+      "ma_value": 1424.16,
+      "deviation": -9.63,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1457.88,
-      "deviation": -7.26,
+      "ma_value": 1454.2,
+      "deviation": -11.5,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 51.0
+        "amount": 51.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 61.0
+        "amount": 61.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 73.0
+        "amount": 73.0,
+        "in_progress": false
       }
     ],
     "latest": 73.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 73.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

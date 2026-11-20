@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:43.922662",
+  "fetched_at": "2026-11-20T15:09:59.127536",
   "ticker": "2768",
   "ticker_full": "2768.T",
   "company_name": "SOJITZ CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5178.4,
-      "deviation": 1.96,
-      "trend": "up"
+      "ma_value": 5057.5,
+      "deviation": -6.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5271.68,
-      "deviation": 0.16,
-      "trend": "up"
+      "ma_value": 5214.21,
+      "deviation": -9.31,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5447.88,
-      "deviation": -3.08,
+      "ma_value": 5437.37,
+      "deviation": -13.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5613.72,
-      "deviation": -5.94,
+      "ma_value": 5602.88,
+      "deviation": -15.6,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 126.0
-      },
-      {
         "year": 2023,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 145.0
+        "amount": 135.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 157.5
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 172.5
+        "amount": 165.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 90.0,
+        "in_progress": true
       }
     ],
     "latest": 90.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 165.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

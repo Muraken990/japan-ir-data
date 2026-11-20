@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:16.227481",
+  "fetched_at": "2026-11-20T14:24:34.228783",
   "ticker": "4574",
   "ticker_full": "4574.T",
   "company_name": "TAIKO PHARMACEUTICAL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 261.6,
-      "deviation": 0.54,
-      "trend": "up"
+      "ma_value": 254.0,
+      "deviation": -3.94,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 261.28,
-      "deviation": 0.66,
-      "trend": "up"
+      "ma_value": 259.8,
+      "deviation": -6.08,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 258.75,
-      "deviation": 1.64,
-      "trend": "up"
+      "ma_value": 258.57,
+      "deviation": -5.64,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 273.97,
-      "deviation": -4.0,
+      "ma_value": 273.0,
+      "deviation": -10.62,
       "trend": "down"
     }
   },
@@ -194,27 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2017,
-        "amount": 6.67
-      },
-      {
-        "year": 2018,
-        "amount": 11.67
-      },
-      {
-        "year": 2019,
-        "amount": 11.67
-      },
-      {
-        "year": 2020,
-        "amount": 35.0
-      },
-      {
         "year": 2025,
-        "amount": 3.3
+        "amount": 3.3,
+        "in_progress": false
       }
     ],
     "latest": 3.3,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 3.3,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

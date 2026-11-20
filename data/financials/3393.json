@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:30:11.795679",
+  "fetched_at": "2026-11-20T14:34:53.173372",
   "ticker": "3393",
   "ticker_full": "3393.T",
   "company_name": "STARTIA HLDGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3125.0,
-      "deviation": 2.56,
-      "trend": "up"
+      "ma_value": 3098.0,
+      "deviation": -3.32,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3140.68,
-      "deviation": 2.05,
-      "trend": "up"
+      "ma_value": 3130.88,
+      "deviation": -4.34,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3056.63,
-      "deviation": 4.85,
-      "trend": "up"
+      "ma_value": 3060.98,
+      "deviation": -2.16,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2889.11,
-      "deviation": 10.93,
+      "ma_value": 2897.28,
+      "deviation": 3.37,
       "trend": "up"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥34億",
         "net_income": 2318001000.0,
         "net_income_fmt": "¥23億",
-        "eps": 247.58,
+        "eps": 247.92,
         "operating_margin": 13.63,
         "total_assets": 15547597000.0,
         "total_assets_fmt": "¥155億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.0
-      },
-      {
         "year": 2023,
-        "amount": 57.0
+        "amount": 41.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 94.0
+        "amount": 69.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 122.0
+        "amount": 114.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 158.0
+        "amount": 145.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 67.0,
+        "in_progress": true
       }
     ],
     "latest": 67.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 145.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

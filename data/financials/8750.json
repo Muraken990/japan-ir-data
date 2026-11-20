@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:10:00.984656",
+  "fetched_at": "2026-11-20T15:13:11.741565",
   "ticker": "8750",
   "ticker_full": "8750.T",
   "company_name": "DAIICHI LIFE GROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1814.6,
-      "deviation": -0.2,
+      "ma_value": 1799.25,
+      "deviation": -5.02,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1810.2,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 1809.35,
+      "deviation": -5.55,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1827.23,
-      "deviation": -0.89,
+      "ma_value": 1821.58,
+      "deviation": -6.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1642.1,
-      "deviation": 10.29,
+      "ma_value": 1653.84,
+      "deviation": 3.34,
       "trend": "up"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥6483億",
         "net_income": 458407000000.0,
         "net_income_fmt": "¥4584億",
-        "eps": 116.71,
+        "eps": 124.53,
         "operating_margin": 0.0,
         "total_assets": 69404123000000.0,
         "total_assets_fmt": "¥69.4T",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.75
-      },
-      {
         "year": 2023,
-        "amount": 21.5
+        "amount": 21.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 43.5
+        "amount": 28.25,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 43.0
+        "amount": 34.25,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 66.5
+        "amount": 54.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 36.0,
+        "in_progress": true
       }
     ],
     "latest": 36.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 54.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

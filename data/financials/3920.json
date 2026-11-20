@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:24.660721",
+  "fetched_at": "2026-11-20T14:08:29.937790",
   "ticker": "3920",
   "ticker_full": "3920.T",
   "company_name": "INTERNETWORKING & BROADBAND CON",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1470.8,
-      "deviation": 0.9,
-      "trend": "up"
+      "ma_value": 1484.0,
+      "deviation": 0.0,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1203.16,
-      "deviation": 23.34,
+      "ma_value": 1290.52,
+      "deviation": 14.99,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1059.95,
-      "deviation": 40.01,
+      "ma_value": 1092.57,
+      "deviation": 35.83,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1006.45,
-      "deviation": 47.45,
+      "ma_value": 1019.21,
+      "deviation": 45.6,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       }
     ],
     "latest": 11.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 12.0,
+      "fiscal_year_end": "2025-09-30",
+      "status": "ok"
+    }
   }
 }

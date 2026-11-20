@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:05.427301",
+  "fetched_at": "2026-11-20T14:06:14.504747",
   "ticker": "5699",
   "ticker_full": "5699.T",
   "company_name": "IBOKIN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1405.4,
-      "deviation": -3.59,
+      "ma_value": 1284.8,
+      "deviation": -4.34,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1456.24,
-      "deviation": -6.95,
+      "ma_value": 1407.88,
+      "deviation": -12.71,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1526.44,
-      "deviation": -11.23,
+      "ma_value": 1514.44,
+      "deviation": -18.85,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1583.23,
-      "deviation": -14.42,
+      "ma_value": 1575.18,
+      "deviation": -21.98,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 22.5
+        "amount": 22.5,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 22.5
+        "amount": 22.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 27.5
+        "amount": 27.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 32.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

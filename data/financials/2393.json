@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:44.110501",
+  "fetched_at": "2026-11-20T14:39:06.415727",
   "ticker": "2393",
   "ticker_full": "2393.T",
   "company_name": "NIPPON CARE SUPPLY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3982.0,
-      "deviation": 0.2,
-      "trend": "up"
+      "ma_value": 3913.0,
+      "deviation": -1.1,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4249.6,
-      "deviation": -6.11,
+      "ma_value": 4162.2,
+      "deviation": -7.02,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4250.2,
-      "deviation": -6.12,
+      "ma_value": 4250.27,
+      "deviation": -8.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3369.81,
-      "deviation": 18.4,
+      "ma_value": 3409.56,
+      "deviation": 13.5,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 72.0
+        "amount": 72.0,
+        "in_progress": false
       }
     ],
     "latest": 72.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 72.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

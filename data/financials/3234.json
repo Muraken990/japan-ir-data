@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:39.053992",
+  "fetched_at": "2026-11-20T15:03:10.698020",
   "ticker": "3234",
   "ticker_full": "3234.T",
   "company_name": "MORI HILLS REIT INVESTMENT CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 113060.0,
-      "deviation": 0.3,
-      "trend": "up"
+      "ma_value": 113550.0,
+      "deviation": -2.07,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 116468.0,
-      "deviation": -2.63,
+      "ma_value": 115500.0,
+      "deviation": -3.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 122808.95,
-      "deviation": -7.66,
+      "ma_value": 121720.27,
+      "deviation": -8.64,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 129077.22,
-      "deviation": -12.15,
+      "ma_value": 128456.15,
+      "deviation": -13.43,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5957.0
+        "amount": 5957.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6392.0
+        "amount": 6392.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6592.0
+        "amount": 6592.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6170.0
+        "amount": 6170.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 6200.0
+        "amount": 6200.0,
+        "in_progress": false
       }
     ],
     "latest": 3100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 6190.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

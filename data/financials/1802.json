@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:50.469030",
+  "fetched_at": "2026-11-20T15:12:02.788037",
   "ticker": "1802",
   "ticker_full": "1802.T",
   "company_name": "OBAYASHI CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3172.8,
-      "deviation": 6.72,
-      "trend": "up"
+      "ma_value": 3364.75,
+      "deviation": -4.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2982.58,
-      "deviation": 13.53,
+      "ma_value": 3074.62,
+      "deviation": 3.98,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3003.06,
-      "deviation": 12.75,
+      "ma_value": 3007.6,
+      "deviation": 6.3,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3334.57,
-      "deviation": 1.54,
-      "trend": "up"
+      "ma_value": 3330.87,
+      "deviation": -4.02,
+      "trend": "down"
     }
   },
   "financials": {
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥2146億",
         "net_income": 145355000000.0,
         "net_income_fmt": "¥1454億",
-        "eps": 203.88,
+        "eps": 202.91,
         "operating_margin": 5.5,
         "total_assets": 3042778000000.0,
         "total_assets_fmt": "¥3.0T",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 37.0
-      },
-      {
         "year": 2023,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 94.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 82.0
+        "amount": 81.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 94.0
+        "amount": 88.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 47.0,
+        "in_progress": true
       }
     ],
     "latest": 47.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 88.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

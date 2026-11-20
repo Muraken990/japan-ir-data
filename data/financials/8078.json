@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:49.715463",
+  "fetched_at": "2026-11-20T15:03:19.673861",
   "ticker": "8078",
   "ticker_full": "8078.T",
   "company_name": "HANWA CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1807.8,
-      "deviation": 1.56,
-      "trend": "up"
+      "ma_value": 1747.0,
+      "deviation": -6.07,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1834.72,
-      "deviation": 0.07,
-      "trend": "up"
+      "ma_value": 1813.75,
+      "deviation": -9.52,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1823.82,
-      "deviation": 0.67,
-      "trend": "up"
+      "ma_value": 1829.27,
+      "deviation": -10.29,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1706.51,
-      "deviation": 7.59,
-      "trend": "up"
+      "ma_value": 1712.0,
+      "deviation": -4.15,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 33.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 41.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 49.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 66.0
+        "amount": 58.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 33.0,
+        "in_progress": true
       }
     ],
     "latest": 33.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 58.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

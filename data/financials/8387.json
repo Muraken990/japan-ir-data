@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:21.057982",
+  "fetched_at": "2026-11-20T14:49:09.212508",
   "ticker": "8387",
   "ticker_full": "8387.T",
   "company_name": "SHIKOKU BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3556.0,
-      "deviation": 1.66,
-      "trend": "up"
+      "ma_value": 3293.0,
+      "deviation": -7.68,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3800.4,
-      "deviation": -4.88,
+      "ma_value": 3615.0,
+      "deviation": -15.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3804.36,
-      "deviation": -4.98,
+      "ma_value": 3797.86,
+      "deviation": -19.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3019.83,
-      "deviation": 19.71,
-      "trend": "up"
+      "ma_value": 3053.73,
+      "deviation": -0.45,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 42.5
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 47.5
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 53.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 75.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 43.0,
+        "in_progress": true
       }
     ],
     "latest": 43.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

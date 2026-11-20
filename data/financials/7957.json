@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:59.803093",
+  "fetched_at": "2026-11-20T13:56:39.216756",
   "ticker": "7957",
   "ticker_full": "7957.T",
   "company_name": "FUJICOPIAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2343.0,
-      "deviation": 2.26,
-      "trend": "up"
+      "ma_value": 2153.2,
+      "deviation": -5.91,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2215.36,
-      "deviation": 8.15,
-      "trend": "up"
+      "ma_value": 2233.88,
+      "deviation": -9.31,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2317.59,
-      "deviation": 3.38,
-      "trend": "up"
+      "ma_value": 2327.85,
+      "deviation": -12.97,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1828.06,
-      "deviation": 31.07,
+      "ma_value": 1845.53,
+      "deviation": 9.78,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 97.0
+        "amount": 97.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 78.0
+        "amount": 78.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

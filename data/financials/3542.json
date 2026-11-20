@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:28.348195",
+  "fetched_at": "2026-11-20T14:24:44.138965",
   "ticker": "3542",
   "ticker_full": "3542.T",
   "company_name": "VEGA CORP CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1668.6,
-      "deviation": -2.25,
-      "trend": "down"
+      "ma_value": 1664.8,
+      "deviation": 1.93,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1601.76,
-      "deviation": 1.83,
+      "ma_value": 1632.56,
+      "deviation": 3.95,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1505.47,
-      "deviation": 8.34,
+      "ma_value": 1531.73,
+      "deviation": 10.79,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1549.61,
-      "deviation": 5.25,
+      "ma_value": 1555.53,
+      "deviation": 9.09,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2016-03-31",
+      "status": "unavailable"
+    }
   }
 }

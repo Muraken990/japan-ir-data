@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:33.058636",
+  "fetched_at": "2026-11-20T14:38:04.914669",
   "ticker": "9556",
   "ticker_full": "9556.T",
   "company_name": "INTLOOP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1780.4,
-      "deviation": 0.93,
-      "trend": "up"
+      "ma_value": 1723.6,
+      "deviation": -6.94,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2035.76,
-      "deviation": -11.73,
+      "ma_value": 1930.72,
+      "deviation": -16.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2152.85,
-      "deviation": -16.53,
+      "ma_value": 2142.27,
+      "deviation": -25.13,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2199.01,
-      "deviation": -18.28,
+      "ma_value": 2150.37,
+      "deviation": -25.41,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "no_dividend"
+    }
   }
 }

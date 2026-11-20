@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:02.606452",
+  "fetched_at": "2026-11-20T14:29:06.467805",
   "ticker": "7643",
   "ticker_full": "7643.T",
   "company_name": "DAIICHI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1572.8,
-      "deviation": -1.0,
+      "ma_value": 1592.0,
+      "deviation": -1.07,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1609.56,
-      "deviation": -3.27,
+      "ma_value": 1603.72,
+      "deviation": -1.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1668.2,
-      "deviation": -6.67,
+      "ma_value": 1661.95,
+      "deviation": -5.23,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1677.41,
-      "deviation": -7.18,
+      "ma_value": 1672.84,
+      "deviation": -5.85,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2016-09-30",
+      "status": "unavailable"
+    }
   }
 }

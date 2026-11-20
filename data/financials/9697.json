@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:56.333748",
+  "fetched_at": "2026-11-20T15:12:09.457858",
   "ticker": "9697",
   "ticker_full": "9697.T",
   "company_name": "CAPCOM CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4426.4,
-      "deviation": 1.93,
-      "trend": "up"
+      "ma_value": 4559.5,
+      "deviation": -2.97,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4313.88,
-      "deviation": 4.59,
+      "ma_value": 4332.5,
+      "deviation": 2.11,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 4217.65,
-      "deviation": 6.98,
+      "ma_value": 4269.09,
+      "deviation": 3.63,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3622.16,
-      "deviation": 24.57,
+      "ma_value": 3643.61,
+      "deviation": 21.42,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 25.5
-      },
-      {
         "year": 2023,
-        "amount": 33.5
+        "amount": 31.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 39.5
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 42.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 48.0
+        "amount": 45.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 23.0,
+        "in_progress": true
       }
     ],
     "latest": 23.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 45.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

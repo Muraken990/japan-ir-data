@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:14.862196",
+  "fetched_at": "2026-11-20T13:57:51.233468",
   "ticker": "4884",
   "ticker_full": "4884.T",
   "company_name": "KRINGLE PHARMA INC",
@@ -10,7 +10,7 @@
     "sector": "Healthcare",
     "industry": "Biotechnology",
     "website": "https://www.kringle-pharma.com",
-    "employees": 17,
+    "employees": null,
     "country": "Japan",
     "city": "Kita",
     "address": "Nakanoshima Qross Research & Development Center",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 522.4,
-      "deviation": 6.62,
-      "trend": "up"
+      "ma_value": 548.8,
+      "deviation": -1.42,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 576.44,
-      "deviation": -3.37,
+      "ma_value": 560.4,
+      "deviation": -3.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 477.19,
-      "deviation": 16.73,
+      "ma_value": 492.84,
+      "deviation": 9.77,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 424.15,
-      "deviation": 31.32,
+      "ma_value": 427.84,
+      "deviation": 26.45,
       "trend": "up"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

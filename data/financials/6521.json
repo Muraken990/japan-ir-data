@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:47.227798",
+  "fetched_at": "2026-11-20T14:28:56.860507",
   "ticker": "6521",
   "ticker_full": "6521.T",
   "company_name": "OXIDE CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2945.2,
-      "deviation": 7.8,
-      "trend": "up"
+      "ma_value": 2811.6,
+      "deviation": -7.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3111.76,
-      "deviation": 2.03,
-      "trend": "up"
+      "ma_value": 3012.08,
+      "deviation": -14.11,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3174.23,
-      "deviation": 0.02,
-      "trend": "up"
+      "ma_value": 3163.32,
+      "deviation": -18.22,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3854.19,
-      "deviation": -17.62,
+      "ma_value": 3880.3,
+      "deviation": -33.33,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

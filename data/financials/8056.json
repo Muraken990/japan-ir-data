@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:11.731792",
+  "fetched_at": "2026-11-20T15:07:36.484532",
   "ticker": "8056",
   "ticker_full": "8056.T",
   "company_name": "BIPROGY INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4697.2,
-      "deviation": 3.89,
+      "ma_value": 4782.5,
+      "deviation": 1.31,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 4886.2,
-      "deviation": -0.13,
+      "ma_value": 4885.38,
+      "deviation": -0.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4716.92,
-      "deviation": 3.46,
+      "ma_value": 4712.08,
+      "deviation": 2.82,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 4609.31,
-      "deviation": 5.87,
+      "ma_value": 4600.23,
+      "deviation": 5.32,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 90.0
-      },
-      {
         "year": 2023,
-        "amount": 85.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 105.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 120.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 140.0
+        "amount": 130.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 70.0,
+        "in_progress": true
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 130.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

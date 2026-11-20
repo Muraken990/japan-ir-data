@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:20.446667",
+  "fetched_at": "2026-11-20T13:59:52.681145",
   "ticker": "4068",
   "ticker_full": "4068.T",
   "company_name": "BASIS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1751.4,
-      "deviation": -0.14,
+      "ma_value": 1730.0,
+      "deviation": -1.04,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1803.88,
-      "deviation": -3.04,
+      "ma_value": 1786.44,
+      "deviation": -4.17,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1760.04,
-      "deviation": -0.63,
+      "ma_value": 1765.72,
+      "deviation": -3.04,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1756.45,
-      "deviation": -0.42,
+      "ma_value": 1755.21,
+      "deviation": -2.46,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:29.599554",
+  "fetched_at": "2026-11-20T15:09:44.834278",
   "ticker": "2897",
   "ticker_full": "2897.T",
   "company_name": "NISSIN FOODS HOLDINGS CO. LTD.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3008.5,
-      "deviation": -1.2,
+      "ma_value": 2955.5,
+      "deviation": -4.4,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3020.44,
-      "deviation": -1.59,
+      "ma_value": 3022.06,
+      "deviation": -6.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2950.81,
-      "deviation": 0.74,
-      "trend": "up"
+      "ma_value": 2949.76,
+      "deviation": -4.21,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2903.3,
-      "deviation": 2.38,
-      "trend": "up"
+      "ma_value": 2901.16,
+      "deviation": -2.61,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 41.67
-      },
-      {
         "year": 2023,
-        "amount": 51.67
+        "amount": 46.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 75.0
+        "amount": 66.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

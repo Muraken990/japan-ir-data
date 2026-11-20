@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:00:48.238767",
+  "fetched_at": "2026-11-20T15:04:17.359880",
   "ticker": "6728",
   "ticker_full": "6728.T",
   "company_name": "ULVAC INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 7045.0,
-      "deviation": -0.24,
+      "ma_value": 6655.75,
+      "deviation": -8.0,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 7589.32,
-      "deviation": -7.4,
+      "ma_value": 7265.42,
+      "deviation": -15.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 7815.55,
-      "deviation": -10.08,
+      "ma_value": 7697.93,
+      "deviation": -20.46,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 8789.53,
-      "deviation": -20.04,
+      "ma_value": 8764.06,
+      "deviation": -30.14,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 124.0
+        "amount": 124.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 109.0
+        "amount": 109.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 144.0
+        "amount": 144.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 164.0
+        "amount": 164.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 152.0
+        "amount": 152.0,
+        "in_progress": false
       }
     ],
     "latest": 152.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 152.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:05.252176",
+  "fetched_at": "2026-11-20T14:31:03.916887",
   "ticker": "7481",
   "ticker_full": "7481.T",
   "company_name": "OIE SANGYO CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2477.8,
-      "deviation": 1.5,
-      "trend": "up"
+      "ma_value": 2477.4,
+      "deviation": -1.51,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2502.96,
-      "deviation": 0.48,
-      "trend": "up"
+      "ma_value": 2501.8,
+      "deviation": -2.47,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2518.57,
-      "deviation": -0.14,
+      "ma_value": 2519.09,
+      "deviation": -3.14,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2488.95,
-      "deviation": 1.05,
-      "trend": "up"
+      "ma_value": 2489.01,
+      "deviation": -1.97,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 105.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 104.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 107.0
+        "amount": 102.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 52.0,
+        "in_progress": true
       }
     ],
     "latest": 52.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 102.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:43.256591",
+  "fetched_at": "2026-11-20T14:20:07.990639",
   "ticker": "5255",
   "ticker_full": "5255.T",
   "company_name": "MONSTARLAB INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 60.8,
-      "deviation": 3.62,
-      "trend": "up"
+      "ma_value": 49.6,
+      "deviation": -11.29,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 69.48,
-      "deviation": -9.33,
+      "ma_value": 64.04,
+      "deviation": -31.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 82.53,
-      "deviation": -23.67,
+      "ma_value": 80.0,
+      "deviation": -45.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 98.59,
-      "deviation": -36.1,
+      "ma_value": 95.52,
+      "deviation": -53.94,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

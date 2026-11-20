@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:22.301988",
+  "fetched_at": "2026-11-20T13:59:53.889964",
   "ticker": "3439",
   "ticker_full": "3439.T",
   "company_name": "MITSUCHI CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 633.0,
-      "deviation": 1.74,
-      "trend": "up"
+      "ma_value": 657.4,
+      "deviation": -1.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 670.36,
-      "deviation": -3.93,
+      "ma_value": 662.8,
+      "deviation": -2.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 674.16,
-      "deviation": -4.47,
+      "ma_value": 672.77,
+      "deviation": -4.13,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 668.62,
-      "deviation": -3.68,
+      "ma_value": 669.34,
+      "deviation": -3.64,
       "trend": "down"
     }
   },
@@ -232,26 +232,33 @@
     "history": [
       {
         "year": 2022,
-        "amount": 9.5
-      },
-      {
-        "year": 2023,
-        "amount": 9.5
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 24.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

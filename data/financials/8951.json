@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:38.156217",
+  "fetched_at": "2026-11-20T15:10:52.758631",
   "ticker": "8951",
   "ticker_full": "8951.T",
   "company_name": "NIPPON BUILDING FUND INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 119440.0,
-      "deviation": 0.89,
-      "trend": "up"
+      "ma_value": 122225.0,
+      "deviation": -2.15,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 120152.0,
-      "deviation": 0.29,
-      "trend": "up"
+      "ma_value": 120795.83,
+      "deviation": -0.99,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 124082.67,
-      "deviation": -2.89,
+      "ma_value": 123114.86,
+      "deviation": -2.85,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 128992.26,
-      "deviation": -6.58,
+      "ma_value": 128540.43,
+      "deviation": -6.96,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4995.2
+        "amount": 4995.2,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4600.0
+        "amount": 4600.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5078.4
+        "amount": 5078.4,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4949.0
+        "amount": 4949.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 2489.0
+        "amount": 2489.0,
+        "in_progress": true
       }
     ],
     "latest": 2489.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 4943.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

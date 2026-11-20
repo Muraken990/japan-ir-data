@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:06:51.716867",
+  "fetched_at": "2026-11-20T14:12:40.246257",
   "ticker": "410A",
   "ticker_full": "410A.T",
   "company_name": "GMO COMMERCE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1183.6,
-      "deviation": 11.52,
-      "trend": "up"
+      "ma_value": 1338.4,
+      "deviation": -1.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1243.76,
-      "deviation": 6.13,
+      "ma_value": 1252.32,
+      "deviation": 5.4,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1186.31,
-      "deviation": 11.27,
+      "ma_value": 1200.39,
+      "deviation": 9.96,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1153.28,
-      "deviation": 14.46,
+      "ma_value": 1154.28,
+      "deviation": 14.36,
       "trend": "up"
     }
   },
@@ -158,10 +158,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 40.3
+        "amount": 40.3,
+        "in_progress": false
       }
     ],
     "latest": 40.3,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2025-12-31",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:59.503497",
+  "fetched_at": "2026-11-20T13:55:42.375827",
   "ticker": "7896",
   "ticker_full": "7896.T",
   "company_name": "SEVEN INDUSTRIES CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 495.8,
-      "deviation": 0.44,
-      "trend": "up"
+      "ma_value": 499.8,
+      "deviation": -3.56,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 498.36,
-      "deviation": -0.07,
+      "ma_value": 498.28,
+      "deviation": -3.27,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 498.04,
-      "deviation": -0.01,
+      "ma_value": 498.19,
+      "deviation": -3.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 502.72,
-      "deviation": -0.94,
+      "ma_value": 502.28,
+      "deviation": -4.04,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

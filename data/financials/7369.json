@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:10.206353",
+  "fetched_at": "2026-11-20T13:56:48.750298",
   "ticker": "7369",
   "ticker_full": "7369.T",
   "company_name": "MEIHO HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 356.8,
-      "deviation": 0.9,
-      "trend": "up"
+      "ma_value": 301.0,
+      "deviation": -6.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 367.2,
-      "deviation": -1.96,
+      "ma_value": 351.8,
+      "deviation": -19.84,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 369.64,
-      "deviation": -2.61,
+      "ma_value": 364.56,
+      "deviation": -22.65,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 444.14,
-      "deviation": -18.94,
+      "ma_value": 437.02,
+      "deviation": -35.47,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

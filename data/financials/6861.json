@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:07.328995",
+  "fetched_at": "2026-11-20T15:14:16.958605",
   "ticker": "6861",
   "ticker_full": "6861.T",
   "company_name": "KEYENCE CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 74422.0,
-      "deviation": 0.21,
-      "trend": "up"
+      "ma_value": 14651.0,
+      "deviation": -4.27,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 77474.0,
-      "deviation": -3.74,
+      "ma_value": 15252.17,
+      "deviation": -8.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 79108.51,
-      "deviation": -5.72,
+      "ma_value": 15822.32,
+      "deviation": -11.36,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 71794.42,
-      "deviation": 3.88,
-      "trend": "up"
+      "ma_value": 14429.28,
+      "deviation": -2.8,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 250.0
-      },
-      {
         "year": 2023,
-        "amount": 300.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 325.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 450.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 600.0
+        "amount": 110.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 65.0,
+        "in_progress": true
       }
     ],
-    "latest": 325.0,
-    "has_data": true
+    "latest": 65.0,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 110.0,
+      "fiscal_year_end": "2026-03-20",
+      "status": "ok"
+    }
   }
 }

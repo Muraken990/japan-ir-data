@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:21:36.520762",
+  "fetched_at": "2026-11-20T14:26:49.399769",
   "ticker": "4691",
   "ticker_full": "4691.T",
   "company_name": "WASHINGTON HOTEL CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1777.2,
-      "deviation": -0.24,
+      "ma_value": 1806.0,
+      "deviation": -6.09,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1823.24,
-      "deviation": -2.76,
+      "ma_value": 1799.8,
+      "deviation": -5.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2046.0,
-      "deviation": -13.34,
+      "ma_value": 2021.52,
+      "deviation": -16.1,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1922.69,
-      "deviation": -7.79,
+      "ma_value": 1935.48,
+      "deviation": -12.37,
       "trend": "down"
     }
   },
@@ -194,23 +194,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 21.0
-      },
-      {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2021-03-31",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:03.510476",
+  "fetched_at": "2026-11-20T14:06:12.655453",
   "ticker": "5446",
   "ticker_full": "5446.T",
   "company_name": "HOKUETSU METAL CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1000.2,
-      "deviation": -0.12,
+      "ma_value": 996.4,
+      "deviation": -0.44,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1022.0,
-      "deviation": -2.25,
+      "ma_value": 1010.24,
+      "deviation": -1.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1066.52,
-      "deviation": -6.33,
+      "ma_value": 1059.48,
+      "deviation": -6.37,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1172.56,
-      "deviation": -14.8,
+      "ma_value": 1165.82,
+      "deviation": -14.91,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 10.0
-      },
-      {
         "year": 2022,
-        "amount": 31.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 39.0
+        "amount": 45.0,
+        "in_progress": false
+      },
+      {
+        "year": 2026,
+        "amount": 4.0,
+        "in_progress": false
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 4.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:44:04.064655",
+  "fetched_at": "2026-11-20T14:47:59.367263",
   "ticker": "1815",
   "ticker_full": "1815.T",
   "company_name": "TEKKEN CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2177.6,
-      "deviation": 4.01,
-      "trend": "up"
+      "ma_value": 2144.0,
+      "deviation": -2.43,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2144.56,
-      "deviation": 5.62,
-      "trend": "up"
+      "ma_value": 2141.32,
+      "deviation": -2.3,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2198.69,
-      "deviation": 3.02,
-      "trend": "up"
+      "ma_value": 2193.03,
+      "deviation": -4.61,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2276.92,
-      "deviation": -0.52,
+      "ma_value": 2269.32,
+      "deviation": -7.81,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥87億",
         "net_income": 5029000000.0,
         "net_income_fmt": "¥50億",
-        "eps": 121.38,
+        "eps": 180.51,
         "operating_margin": 3.13,
         "total_assets": 255907000000.0,
         "total_assets_fmt": "¥2559億",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 61.0
+        "amount": 61.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       }
     ],
     "latest": 85.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

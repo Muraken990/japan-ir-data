@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:31.794445",
+  "fetched_at": "2026-11-20T14:24:47.740687",
   "ticker": "2193",
   "ticker_full": "2193.T",
   "company_name": "COOKPAD INC.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 114.6,
-      "deviation": 0.35,
-      "trend": "up"
+      "ma_value": 110.0,
+      "deviation": -1.82,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 120.76,
-      "deviation": -4.77,
+      "ma_value": 118.48,
+      "deviation": -8.85,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 125.21,
-      "deviation": -8.16,
+      "ma_value": 124.64,
+      "deviation": -13.35,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 130.53,
-      "deviation": -11.9,
+      "ma_value": 129.38,
+      "deviation": -16.52,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2013,
-        "amount": 1.67
-      },
-      {
-        "year": 2014,
-        "amount": 8.0
-      },
-      {
-        "year": 2015,
-        "amount": 10.0
-      },
-      {
-        "year": 2016,
-        "amount": 10.0
-      },
-      {
-        "year": 2017,
-        "amount": 8.0
-      }
-    ],
-    "latest": 8.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:58.963348",
+  "fetched_at": "2026-11-20T14:05:09.777986",
   "ticker": "3653",
   "ticker_full": "3653.T",
   "company_name": "MORPHO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 761.0,
-      "deviation": 0.39,
-      "trend": "up"
+      "ma_value": 763.2,
+      "deviation": -4.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 856.08,
-      "deviation": -10.76,
+      "ma_value": 827.12,
+      "deviation": -11.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 893.8,
-      "deviation": -14.52,
+      "ma_value": 901.87,
+      "deviation": -18.84,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 767.95,
-      "deviation": -0.51,
+      "ma_value": 766.18,
+      "deviation": -4.46,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "no_dividend"
+    }
   }
 }

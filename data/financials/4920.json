@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:02.822466",
+  "fetched_at": "2026-11-20T13:55:44.254123",
   "ticker": "4920",
   "ticker_full": "4920.T",
   "company_name": "NIPPON SHIKIZAI",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1057.0,
-      "deviation": -0.19,
+      "ma_value": 1060.4,
+      "deviation": -0.13,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1093.12,
-      "deviation": -3.49,
+      "ma_value": 1082.68,
+      "deviation": -2.19,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1120.23,
-      "deviation": -5.82,
+      "ma_value": 1116.97,
+      "deviation": -5.19,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1126.48,
-      "deviation": -6.35,
+      "ma_value": 1123.6,
+      "deviation": -5.75,
       "trend": "down"
     }
   },
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 25.0
-      },
-      {
-        "year": 2020,
-        "amount": 25.0
-      },
-      {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

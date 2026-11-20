@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:37:03.711986",
+  "fetched_at": "2026-11-20T14:41:25.786089",
   "ticker": "6249",
   "ticker_full": "6249.T",
   "company_name": "GAMECARD HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2630.4,
-      "deviation": -1.54,
+      "ma_value": 2556.0,
+      "deviation": -3.01,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2676.16,
-      "deviation": -3.22,
+      "ma_value": 2646.28,
+      "deviation": -6.32,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2703.69,
-      "deviation": -4.21,
+      "ma_value": 2702.44,
+      "deviation": -8.27,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2631.91,
-      "deviation": -1.59,
+      "ma_value": 2621.48,
+      "deviation": -5.44,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 35.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 87.5
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

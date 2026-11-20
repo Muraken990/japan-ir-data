@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:53:15.635796",
+  "fetched_at": "2026-11-20T14:56:49.532413",
   "ticker": "5930",
   "ticker_full": "5930.T",
   "company_name": "BUNKA SHUTTER CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1872.6,
-      "deviation": 0.72,
-      "trend": "up"
+      "ma_value": 1903.2,
+      "deviation": -0.12,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1876.76,
-      "deviation": 0.49,
+      "ma_value": 1886.48,
+      "deviation": 0.77,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1855.94,
-      "deviation": 1.62,
+      "ma_value": 1854.83,
+      "deviation": 2.49,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1871.77,
-      "deviation": 0.76,
+      "ma_value": 1869.54,
+      "deviation": 1.68,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 41.0
-      },
-      {
         "year": 2023,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 66.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 79.0
+        "amount": 74.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 74.0
+        "amount": 74.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 37.0,
+        "in_progress": true
       }
     ],
     "latest": 37.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 74.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

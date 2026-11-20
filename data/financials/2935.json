@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:30.994750",
+  "fetched_at": "2026-11-20T14:25:45.858936",
   "ticker": "2935",
   "ticker_full": "2935.T",
   "company_name": "PICKLES HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1140.6,
-      "deviation": 1.53,
-      "trend": "up"
+      "ma_value": 1151.0,
+      "deviation": -0.87,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1140.84,
-      "deviation": 1.5,
+      "ma_value": 1139.64,
+      "deviation": 0.12,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1162.64,
-      "deviation": -0.4,
+      "ma_value": 1162.3,
+      "deviation": -1.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1155.9,
-      "deviation": 0.18,
-      "trend": "up"
+      "ma_value": 1153.49,
+      "deviation": -1.08,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,22 +195,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 36.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 29.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:08.650579",
+  "fetched_at": "2026-11-20T14:07:16.426903",
   "ticker": "3747",
   "ticker_full": "3747.T",
   "company_name": "INTERTRADE CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Financial Services",
     "industry": "Capital Markets",
     "website": "https://www.itrade.co.jp",
-    "employees": 91,
+    "employees": null,
     "country": "Japan",
     "city": "Chuo",
     "address": "Kayabacho First Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 377.2,
-      "deviation": -1.11,
+      "ma_value": 328.4,
+      "deviation": -7.73,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 437.24,
-      "deviation": -14.69,
+      "ma_value": 414.16,
+      "deviation": -26.84,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 424.15,
-      "deviation": -12.06,
+      "ma_value": 419.56,
+      "deviation": -27.78,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 504.52,
-      "deviation": -26.07,
+      "ma_value": 493.49,
+      "deviation": -38.6,
       "trend": "down"
     }
   },
@@ -192,21 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2007,
-        "amount": 2.5
-      },
-      {
-        "year": 2012,
-        "amount": 3.0
-      },
-      {
-        "year": 2014,
-        "amount": 3.0
-      }
-    ],
-    "latest": 3.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

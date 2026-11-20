@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:53.960475",
+  "fetched_at": "2026-11-20T14:22:21.353504",
   "ticker": "6165",
   "ticker_full": "6165.T",
   "company_name": "PUNCH INDUSTRY CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 536.4,
-      "deviation": 1.6,
-      "trend": "up"
+      "ma_value": 520.0,
+      "deviation": -3.27,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 561.0,
-      "deviation": -2.85,
+      "ma_value": 547.36,
+      "deviation": -8.1,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 536.45,
-      "deviation": 1.59,
-      "trend": "up"
+      "ma_value": 538.56,
+      "deviation": -6.6,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 507.72,
-      "deviation": 7.34,
-      "trend": "up"
+      "ma_value": 508.81,
+      "deviation": -1.14,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.5
-      },
-      {
         "year": 2023,
-        "amount": 23.0
+        "amount": 19.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 19.2
+        "amount": 19.4,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.89
+        "amount": 19.56,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.48
+        "amount": 19.56,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.05,
+        "in_progress": true
       }
     ],
     "latest": 10.05,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 19.56,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

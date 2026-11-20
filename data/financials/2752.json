@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:35.244674",
+  "fetched_at": "2026-11-20T14:44:39.952983",
   "ticker": "2752",
   "ticker_full": "2752.T",
   "company_name": "FUJIO FOOD GROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1154.2,
-      "deviation": 0.5,
-      "trend": "up"
+      "ma_value": 1171.2,
+      "deviation": -0.27,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1159.04,
-      "deviation": 0.08,
+      "ma_value": 1161.6,
+      "deviation": 0.55,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1143.77,
-      "deviation": 1.42,
+      "ma_value": 1146.41,
+      "deviation": 1.88,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1116.67,
-      "deviation": 3.88,
+      "ma_value": 1119.13,
+      "deviation": 4.37,
       "trend": "up"
     }
   },
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 11.0
-      },
-      {
-        "year": 2020,
-        "amount": 2.5
-      },
-      {
         "year": 2021,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 3.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

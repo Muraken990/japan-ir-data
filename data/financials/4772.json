@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:42.117379",
+  "fetched_at": "2026-11-20T14:20:06.995684",
   "ticker": "4772",
   "ticker_full": "4772.T",
   "company_name": "SM ENTERTAINMENT JAPAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 62.2,
-      "deviation": -3.54,
+      "ma_value": 57.4,
+      "deviation": -4.18,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 70.48,
-      "deviation": -14.87,
+      "ma_value": 67.0,
+      "deviation": -17.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 72.15,
-      "deviation": -16.84,
+      "ma_value": 70.71,
+      "deviation": -22.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 81.92,
-      "deviation": -26.75,
+      "ma_value": 80.73,
+      "deviation": -31.87,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 2.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:17.652135",
+  "fetched_at": "2026-11-20T13:58:51.510516",
   "ticker": "9012",
   "ticker_full": "9012.T",
   "company_name": "CHICHIBU RAILWAY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2071.4,
-      "deviation": -0.45,
+      "ma_value": 2055.0,
+      "deviation": -0.73,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2089.4,
-      "deviation": -1.31,
-      "trend": "down"
-    },
-    "ma_75": {
-      "ma_value": 2099.57,
+      "ma_value": 2077.2,
       "deviation": -1.79,
       "trend": "down"
     },
+    "ma_75": {
+      "ma_value": 2096.51,
+      "deviation": -2.7,
+      "trend": "down"
+    },
     "ma_200": {
-      "ma_value": 2117.62,
-      "deviation": -2.63,
+      "ma_value": 2115.3,
+      "deviation": -3.56,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

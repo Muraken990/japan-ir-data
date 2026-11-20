@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:29:54.877985",
+  "fetched_at": "2026-11-20T14:34:41.056025",
   "ticker": "261A",
   "ticker_full": "261A.T",
   "company_name": "NIHON SUIDO CONSULTANTS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1805.6,
-      "deviation": -1.25,
+      "ma_value": 1735.6,
+      "deviation": -4.24,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1848.16,
-      "deviation": -3.53,
+      "ma_value": 1814.84,
+      "deviation": -8.42,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1944.79,
-      "deviation": -8.32,
+      "ma_value": 1926.08,
+      "deviation": -13.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2108.2,
-      "deviation": -15.43,
+      "ma_value": 2090.91,
+      "deviation": -20.51,
       "trend": "down"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 74.0
+        "amount": 74.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": true
       }
     ],
     "latest": 37.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 74.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:08.990982",
+  "fetched_at": "2026-11-20T13:56:47.255909",
   "ticker": "9423",
   "ticker_full": "9423.T",
   "company_name": "FORVAL REALSTRAIGHT INC.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 101.6,
-      "deviation": 0.39,
-      "trend": "up"
+      "ma_value": 105.0,
+      "deviation": -6.67,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 102.12,
-      "deviation": -0.12,
+      "ma_value": 102.48,
+      "deviation": -4.37,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 103.73,
-      "deviation": -1.67,
+      "ma_value": 103.81,
+      "deviation": -5.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 104.6,
-      "deviation": -2.49,
+      "ma_value": 104.51,
+      "deviation": -6.23,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 2.2
+        "amount": 2.2,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 2.4
+        "amount": 2.4,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 2.6
+        "amount": 2.6,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 2.8
+        "amount": 2.8,
+        "in_progress": false
       }
     ],
     "latest": 2.8,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 2.8,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

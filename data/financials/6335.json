@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:04.299866",
+  "fetched_at": "2026-11-20T14:05:14.868582",
   "ticker": "6335",
   "ticker_full": "6335.T",
   "company_name": "TOKYO KIKAI SEISAKUSHO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 515.6,
-      "deviation": -4.0,
+      "ma_value": 468.2,
+      "deviation": -3.67,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 532.56,
-      "deviation": -7.05,
+      "ma_value": 514.72,
+      "deviation": -12.38,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 588.44,
-      "deviation": -15.88,
+      "ma_value": 574.09,
+      "deviation": -21.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 568.1,
-      "deviation": -12.87,
+      "ma_value": 566.8,
+      "deviation": -20.43,
       "trend": "down"
     }
   },
@@ -192,17 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2019,
-        "amount": 11.0
-      },
-      {
-        "year": 2020,
-        "amount": 11.0
-      }
-    ],
-    "latest": 11.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

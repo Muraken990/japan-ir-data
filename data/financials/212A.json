@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:37:06.281040",
+  "fetched_at": "2026-11-20T14:41:28.654566",
   "ticker": "212A",
   "ticker_full": "212A.T",
   "company_name": "FIT EASY INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2610.4,
-      "deviation": -1.39,
-      "trend": "down"
+      "ma_value": 2547.4,
+      "deviation": 0.97,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2699.4,
-      "deviation": -4.65,
+      "ma_value": 2653.76,
+      "deviation": -3.08,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2799.25,
-      "deviation": -8.05,
+      "ma_value": 2789.24,
+      "deviation": -7.79,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2575.56,
-      "deviation": -0.06,
+      "ma_value": 2575.92,
+      "deviation": -0.15,
       "trend": "down"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 51.0
+        "amount": 51.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

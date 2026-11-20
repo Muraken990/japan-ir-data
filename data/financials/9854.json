@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:03.069687",
+  "fetched_at": "2026-11-20T14:04:15.546142",
   "ticker": "9854",
   "ticker_full": "9854.T",
   "company_name": "AIGAN CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 272.4,
-      "deviation": -3.45,
+      "ma_value": 261.6,
+      "deviation": -2.91,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 274.2,
-      "deviation": -4.08,
+      "ma_value": 273.08,
+      "deviation": -6.99,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 275.95,
-      "deviation": -4.69,
+      "ma_value": 275.92,
+      "deviation": -7.94,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 257.44,
-      "deviation": 2.16,
-      "trend": "up"
+      "ma_value": 258.4,
+      "deviation": -1.7,
+      "trend": "down"
     }
   },
   "financials": {
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2011,
-        "amount": 2.0
-      },
-      {
-        "year": 2012,
-        "amount": 2.0
-      },
-      {
-        "year": 2016,
-        "amount": 2.0
-      },
-      {
-        "year": 2018,
-        "amount": 3.0
-      },
-      {
-        "year": 2019,
-        "amount": 4.0
-      }
-    ],
-    "latest": 4.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

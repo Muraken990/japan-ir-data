@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:55:56.401854",
+  "fetched_at": "2026-11-20T14:59:27.295567",
   "ticker": "4095",
   "ticker_full": "4095.T",
   "company_name": "NIHON PARKERIZING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1717.2,
-      "deviation": 0.34,
-      "trend": "up"
+      "ma_value": 1688.8,
+      "deviation": -2.65,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1766.52,
-      "deviation": -2.46,
+      "ma_value": 1744.4,
+      "deviation": -5.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1733.67,
-      "deviation": -0.62,
+      "ma_value": 1736.37,
+      "deviation": -5.32,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1603.55,
-      "deviation": 7.45,
+      "ma_value": 1609.53,
+      "deviation": 2.14,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 47.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

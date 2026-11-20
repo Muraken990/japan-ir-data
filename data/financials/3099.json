@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:28.400410",
+  "fetched_at": "2026-11-20T15:09:43.251926",
   "ticker": "3099",
   "ticker_full": "3099.T",
   "company_name": "ISETAN MITSUKOSHI HOLDINGS LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1757.2,
-      "deviation": 4.68,
-      "trend": "up"
+      "ma_value": 1857.5,
+      "deviation": -5.73,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1756.4,
-      "deviation": 4.73,
-      "trend": "up"
+      "ma_value": 1778.02,
+      "deviation": -1.52,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1714.23,
-      "deviation": 7.31,
+      "ma_value": 1716.58,
+      "deviation": 2.01,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1638.12,
-      "deviation": 12.29,
+      "ma_value": 1651.1,
+      "deviation": 6.05,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 5.5
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 23.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.0
+        "amount": 35.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 22.0,
+        "in_progress": true
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

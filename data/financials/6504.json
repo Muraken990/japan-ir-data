@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:39.483005",
+  "fetched_at": "2026-11-20T15:11:52.908759",
   "ticker": "6504",
   "ticker_full": "6504.T",
   "company_name": "FUJI ELECTRIC CO. LTD.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 11415.0,
-      "deviation": -0.74,
+      "ma_value": 10845.0,
+      "deviation": -7.7,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 12962.2,
-      "deviation": -12.59,
+      "ma_value": 12258.12,
+      "deviation": -18.34,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 13424.15,
-      "deviation": -15.6,
+      "ma_value": 13346.31,
+      "deviation": -25.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 12936.81,
-      "deviation": -12.42,
+      "ma_value": 12939.25,
+      "deviation": -22.64,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 110.0
-      },
-      {
         "year": 2023,
-        "amount": 120.0
+        "amount": 115.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 150.0
+        "amount": 135.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 176.0
+        "amount": 160.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 219.0
+        "amount": 200.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 110.0,
+        "in_progress": true
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 200.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

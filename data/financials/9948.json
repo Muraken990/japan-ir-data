@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:09.016344",
+  "fetched_at": "2026-11-20T14:59:38.142383",
   "ticker": "9948",
   "ticker_full": "9948.T",
   "company_name": "ARCS COMPANY LIMITED",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3661.0,
-      "deviation": 1.75,
-      "trend": "up"
+      "ma_value": 3745.0,
+      "deviation": -1.07,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3520.2,
-      "deviation": 5.82,
+      "ma_value": 3577.6,
+      "deviation": 3.56,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3600.03,
-      "deviation": 3.47,
+      "ma_value": 3610.05,
+      "deviation": 2.63,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3535.94,
-      "deviation": 5.35,
+      "ma_value": 3543.08,
+      "deviation": 4.57,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 58.0
-      },
-      {
         "year": 2023,
-        "amount": 59.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 73.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 77.0
+        "amount": 74.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 86.0
+        "amount": 82.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 41.0,
+        "in_progress": true
       }
     ],
     "latest": 41.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 82.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

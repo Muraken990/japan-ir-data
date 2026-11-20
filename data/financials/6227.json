@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:37.321022",
+  "fetched_at": "2026-11-20T14:38:59.916009",
   "ticker": "6227",
   "ticker_full": "6227.T",
   "company_name": "AIMECHATEC LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4615.0,
-      "deviation": 4.01,
-      "trend": "up"
+      "ma_value": 4439.0,
+      "deviation": -15.63,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5969.4,
-      "deviation": -19.59,
+      "ma_value": 5208.4,
+      "deviation": -28.1,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6354.87,
-      "deviation": -24.47,
+      "ma_value": 6238.53,
+      "deviation": -39.97,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6248.11,
-      "deviation": -23.18,
+      "ma_value": 6291.2,
+      "deviation": -40.47,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.67
+        "amount": 5.67,
+        "in_progress": false
       }
     ],
     "latest": 5.67,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 5.6667,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

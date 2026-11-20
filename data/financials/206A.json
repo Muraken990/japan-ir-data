@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:45.477559",
+  "fetched_at": "2026-11-20T14:10:45.214936",
   "ticker": "206A",
   "ticker_full": "206A.T",
   "company_name": "PRISM BIOLAB CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Healthcare",
     "industry": "Biotechnology",
     "website": "https://prismbiolab.com",
-    "employees": 35,
+    "employees": null,
     "country": "Japan",
     "city": "Fujisawa",
     "address": "2-26-1, Muraoka-Higashi",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 106.2,
-      "deviation": 0.75,
-      "trend": "up"
+      "ma_value": 85.2,
+      "deviation": -3.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 126.6,
-      "deviation": -15.48,
+      "ma_value": 115.84,
+      "deviation": -29.21,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 151.27,
-      "deviation": -29.26,
+      "ma_value": 147.05,
+      "deviation": -44.24,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 164.62,
-      "deviation": -35.0,
+      "ma_value": 162.03,
+      "deviation": -49.39,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

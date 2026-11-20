@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:54:46.174324",
+  "fetched_at": "2026-11-20T14:58:17.991173",
   "ticker": "6703",
   "ticker_full": "6703.T",
   "company_name": "OKI ELECTRIC INDUSTRY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2480.8,
-      "deviation": -0.52,
+      "ma_value": 2318.2,
+      "deviation": -5.1,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2501.96,
-      "deviation": -1.36,
+      "ma_value": 2439.28,
+      "deviation": -9.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2700.05,
-      "deviation": -8.59,
+      "ma_value": 2644.24,
+      "deviation": -16.8,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2889.62,
-      "deviation": -14.59,
+      "ma_value": 2895.68,
+      "deviation": -24.02,
       "trend": "down"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥205億",
         "net_income": 25649000000.0,
         "net_income_fmt": "¥256億",
-        "eps": 295.93,
+        "eps": 295.61,
         "operating_margin": 4.43,
         "total_assets": 423399000000.0,
         "total_assets_fmt": "¥4234億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       }
     ],
     "latest": 65.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 65.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

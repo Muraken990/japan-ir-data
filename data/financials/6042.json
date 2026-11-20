@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:06.811078",
+  "fetched_at": "2026-11-20T14:12:53.740572",
   "ticker": "6042",
   "ticker_full": "6042.T",
   "company_name": "NIKKI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3696.0,
-      "deviation": -0.43,
+      "ma_value": 3618.0,
+      "deviation": -3.12,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3859.4,
-      "deviation": -4.65,
+      "ma_value": 3806.0,
+      "deviation": -7.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3897.93,
-      "deviation": -5.59,
+      "ma_value": 3877.27,
+      "deviation": -9.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4106.41,
-      "deviation": -10.38,
+      "ma_value": 4104.56,
+      "deviation": -14.61,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       }
     ],
     "latest": 120.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

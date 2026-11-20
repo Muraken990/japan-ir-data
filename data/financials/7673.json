@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:07.533226",
+  "fetched_at": "2026-11-20T14:15:46.316221",
   "ticker": "7673",
   "ticker_full": "7673.T",
   "company_name": "DAIKO TSUSAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1667.8,
-      "deviation": 1.87,
+      "ma_value": 1669.6,
+      "deviation": 0.44,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1711.68,
-      "deviation": -0.74,
+      "ma_value": 1700.4,
+      "deviation": -1.38,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1680.43,
-      "deviation": 1.11,
-      "trend": "up"
+      "ma_value": 1683.32,
+      "deviation": -0.38,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1673.9,
-      "deviation": 1.5,
+      "ma_value": 1674.95,
+      "deviation": 0.12,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 49.0
+        "amount": 49.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 49.0
+        "amount": 49.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

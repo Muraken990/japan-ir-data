@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:10.903466",
+  "fetched_at": "2026-11-20T13:56:49.063280",
   "ticker": "6969",
   "ticker_full": "6969.T",
   "company_name": "MATSUO ELECTRIC CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1141.2,
-      "deviation": 1.38,
-      "trend": "up"
+      "ma_value": 1117.2,
+      "deviation": -3.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1150.48,
-      "deviation": 0.57,
-      "trend": "up"
+      "ma_value": 1121.68,
+      "deviation": -3.45,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1080.15,
-      "deviation": 7.12,
-      "trend": "up"
+      "ma_value": 1088.19,
+      "deviation": -0.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1195.67,
-      "deviation": -3.23,
+      "ma_value": 1203.02,
+      "deviation": -9.98,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2008,
-        "amount": 25.0
-      },
-      {
-        "year": 2011,
-        "amount": 20.0
-      },
-      {
-        "year": 2012,
-        "amount": 15.0
-      },
-      {
-        "year": 2013,
-        "amount": 15.0
-      },
-      {
-        "year": 2014,
-        "amount": 15.0
-      }
-    ],
-    "latest": 15.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2018-03-31",
+      "status": "unavailable"
+    }
   }
 }

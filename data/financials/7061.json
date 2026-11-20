@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:10.680119",
+  "fetched_at": "2026-11-20T14:15:48.621033",
   "ticker": "7061",
   "ticker_full": "7061.T",
   "company_name": "JAPAN HOSPICES HLDGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 432.2,
-      "deviation": -0.97,
+      "ma_value": 366.0,
+      "deviation": -7.92,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 451.28,
-      "deviation": -5.16,
+      "ma_value": 432.32,
+      "deviation": -22.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 489.61,
-      "deviation": -12.58,
+      "ma_value": 476.41,
+      "deviation": -29.26,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 651.89,
-      "deviation": -34.35,
+      "ma_value": 634.1,
+      "deviation": -46.85,
       "trend": "down"
     }
   },
@@ -195,14 +195,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

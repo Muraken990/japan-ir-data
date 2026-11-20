@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:27.093748",
+  "fetched_at": "2026-11-20T14:50:14.923016",
   "ticker": "8550",
   "ticker_full": "8550.T",
   "company_name": "TOCHIGI BANK",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 844.0,
-      "deviation": 2.96,
-      "trend": "up"
+      "ma_value": 787.4,
+      "deviation": -7.29,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 948.08,
-      "deviation": -8.34,
+      "ma_value": 891.68,
+      "deviation": -18.13,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1029.23,
-      "deviation": -15.57,
+      "ma_value": 1016.06,
+      "deviation": -28.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 965.68,
-      "deviation": -10.01,
+      "ma_value": 964.25,
+      "deviation": -24.29,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 6.0
-      },
-      {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.5
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.5
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 29.0
+        "amount": 26.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 26.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

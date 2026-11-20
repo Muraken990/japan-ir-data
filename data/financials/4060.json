@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:31.064916",
+  "fetched_at": "2026-11-20T14:08:35.765421",
   "ticker": "4060",
   "ticker_full": "4060.T",
   "company_name": "RAKUMO INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1136.2,
-      "deviation": 5.09,
-      "trend": "up"
+      "ma_value": 1113.2,
+      "deviation": -4.51,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1154.8,
-      "deviation": 3.39,
-      "trend": "up"
+      "ma_value": 1138.88,
+      "deviation": -6.66,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1170.97,
-      "deviation": 1.97,
-      "trend": "up"
+      "ma_value": 1171.21,
+      "deviation": -9.24,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1123.62,
-      "deviation": 6.26,
-      "trend": "up"
+      "ma_value": 1125.87,
+      "deviation": -5.58,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 9.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:16.261601",
+  "fetched_at": "2026-11-20T14:50:04.270467",
   "ticker": "4997",
   "ticker_full": "4997.T",
   "company_name": "NIHON NOHYAKU CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1073.6,
-      "deviation": 0.78,
-      "trend": "up"
+      "ma_value": 1052.6,
+      "deviation": -3.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1068.88,
-      "deviation": 1.23,
-      "trend": "up"
+      "ma_value": 1062.8,
+      "deviation": -4.69,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1122.92,
-      "deviation": -3.64,
+      "ma_value": 1122.59,
+      "deviation": -9.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1041.83,
-      "deviation": 3.86,
-      "trend": "up"
+      "ma_value": 1043.58,
+      "deviation": -2.93,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.5
-      },
-      {
         "year": 2023,
-        "amount": 17.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 19.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 24.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 38.0
+        "amount": 36.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 14.0,
+        "in_progress": true
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

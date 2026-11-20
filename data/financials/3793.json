@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:47.718012",
+  "fetched_at": "2026-11-20T14:20:12.269950",
   "ticker": "3793",
   "ticker_full": "3793.T",
   "company_name": "DRECOM CO.LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 449.2,
-      "deviation": 1.51,
-      "trend": "up"
+      "ma_value": 427.2,
+      "deviation": -3.56,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 494.88,
-      "deviation": -7.86,
+      "ma_value": 471.92,
+      "deviation": -12.7,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 496.81,
-      "deviation": -8.22,
+      "ma_value": 496.24,
+      "deviation": -16.98,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 443.49,
-      "deviation": 2.82,
-      "trend": "up"
+      "ma_value": 443.62,
+      "deviation": -7.13,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

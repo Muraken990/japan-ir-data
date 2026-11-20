@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:21.349157",
+  "fetched_at": "2026-11-20T14:00:52.622807",
   "ticker": "5858",
   "ticker_full": "5858.T",
   "company_name": "STG CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 992.8,
-      "deviation": -4.01,
+      "ma_value": 877.0,
+      "deviation": -3.08,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1104.28,
-      "deviation": -13.7,
+      "ma_value": 1050.28,
+      "deviation": -19.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1183.76,
-      "deviation": -19.49,
+      "ma_value": 1150.29,
+      "deviation": -26.11,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1325.51,
-      "deviation": -28.1,
+      "ma_value": 1305.34,
+      "deviation": -34.88,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 17.5
+        "amount": 17.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

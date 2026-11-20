@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:27.340593",
+  "fetched_at": "2026-11-20T13:59:58.844946",
   "ticker": "334A",
   "ticker_full": "334A.T",
   "company_name": "VISUAL PROCESSING JAPAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1031.2,
-      "deviation": 2.31,
-      "trend": "up"
+      "ma_value": 1002.0,
+      "deviation": -5.19,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1081.36,
-      "deviation": -2.44,
+      "ma_value": 1055.44,
+      "deviation": -9.99,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1047.55,
-      "deviation": 0.71,
-      "trend": "up"
+      "ma_value": 1054.21,
+      "deviation": -9.89,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 941.16,
-      "deviation": 12.1,
+      "ma_value": 940.61,
+      "deviation": 1.0,
       "trend": "up"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       }
     ],
     "latest": 16.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2025-12-31",
+      "status": "unavailable"
+    }
   }
 }

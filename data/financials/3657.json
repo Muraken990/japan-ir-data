@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:15:45.373382",
+  "fetched_at": "2026-11-20T14:21:08.005518",
   "ticker": "3657",
   "ticker_full": "3657.T",
   "company_name": "POLE TO WIN HOLDINGS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 338.0,
-      "deviation": 2.66,
-      "trend": "up"
+      "ma_value": 336.6,
+      "deviation": -5.23,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 342.08,
-      "deviation": 1.44,
-      "trend": "up"
+      "ma_value": 341.88,
+      "deviation": -6.69,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 349.92,
-      "deviation": -0.83,
+      "ma_value": 350.15,
+      "deviation": -8.9,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 319.49,
-      "deviation": 8.61,
-      "trend": "up"
+      "ma_value": 319.86,
+      "deviation": -0.27,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 14.0
-      },
-      {
         "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 8.0,
+        "in_progress": true
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 16.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

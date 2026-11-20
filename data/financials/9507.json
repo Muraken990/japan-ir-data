@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:00:40.409527",
+  "fetched_at": "2026-11-20T15:04:08.550005",
   "ticker": "9507",
   "ticker_full": "9507.T",
   "company_name": "SHIKOKU ELECTRIC POWER CO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1992.5,
-      "deviation": 1.86,
-      "trend": "up"
+      "ma_value": 1975.0,
+      "deviation": -4.91,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2097.42,
-      "deviation": -3.24,
+      "ma_value": 2056.62,
+      "deviation": -8.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1985.37,
-      "deviation": 2.22,
-      "trend": "up"
+      "ma_value": 2012.93,
+      "deviation": -6.7,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1727.31,
-      "deviation": 17.49,
+      "ma_value": 1737.02,
+      "deviation": 8.12,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
-      },
-      {
-        "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 52.5
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 27.5,
+        "in_progress": true
       }
     ],
     "latest": 27.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

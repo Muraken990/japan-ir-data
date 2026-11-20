@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:50:04.220707",
+  "fetched_at": "2026-11-20T14:53:44.660098",
   "ticker": "7184",
   "ticker_full": "7184.T",
   "company_name": "THE FIRST BANK OF TOYAMA LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3050.8,
-      "deviation": 1.61,
-      "trend": "up"
+      "ma_value": 2822.4,
+      "deviation": -6.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3272.32,
-      "deviation": -5.27,
+      "ma_value": 3128.6,
+      "deviation": -15.62,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3284.68,
-      "deviation": -5.62,
+      "ma_value": 3272.94,
+      "deviation": -19.34,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2796.56,
-      "deviation": 10.85,
-      "trend": "up"
+      "ma_value": 2809.74,
+      "deviation": -6.04,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.0
-      },
-      {
         "year": 2023,
-        "amount": 24.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 28.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 47.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 97.0
+        "amount": 84.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 41.0,
+        "in_progress": true
       }
     ],
     "latest": 41.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 84.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

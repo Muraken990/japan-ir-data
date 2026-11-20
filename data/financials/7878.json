@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:28.507267",
+  "fetched_at": "2026-11-20T13:52:28.019818",
   "ticker": "7878",
   "ticker_full": "7878.T",
   "company_name": "KOHSAI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 896.6,
-      "deviation": -0.51,
+      "ma_value": 1141.4,
+      "deviation": -15.02,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 987.0,
-      "deviation": -9.63,
+      "ma_value": 1011.2,
+      "deviation": -4.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1204.95,
-      "deviation": -25.97,
+      "ma_value": 1190.27,
+      "deviation": -18.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1184.2,
-      "deviation": -24.68,
+      "ma_value": 1187.35,
+      "deviation": -18.31,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2016-01-31",
+      "status": "unavailable"
+    }
   }
 }

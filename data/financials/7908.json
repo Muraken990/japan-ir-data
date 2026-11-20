@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:02.175833",
+  "fetched_at": "2026-11-20T14:23:27.410352",
   "ticker": "7908",
   "ticker_full": "7908.T",
   "company_name": "KIMOTO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 222.8,
-      "deviation": 0.99,
-      "trend": "up"
+      "ma_value": 221.6,
+      "deviation": -1.17,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 230.68,
-      "deviation": -2.46,
+      "ma_value": 226.84,
+      "deviation": -3.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 234.76,
-      "deviation": -4.16,
+      "ma_value": 234.23,
+      "deviation": -6.5,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 243.81,
-      "deviation": -7.71,
+      "ma_value": 242.55,
+      "deviation": -9.71,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 7.0
-      },
-      {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 3.0,
+        "in_progress": true
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 7.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

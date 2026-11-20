@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:14.857437",
+  "fetched_at": "2026-11-20T14:55:50.081114",
   "ticker": "3433",
   "ticker_full": "3433.T",
   "company_name": "TOCALO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2551.6,
-      "deviation": 1.98,
-      "trend": "up"
+      "ma_value": 2450.0,
+      "deviation": -4.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2734.48,
-      "deviation": -4.84,
+      "ma_value": 2609.92,
+      "deviation": -10.23,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2796.29,
-      "deviation": -6.95,
+      "ma_value": 2774.74,
+      "deviation": -15.56,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2850.32,
-      "deviation": -8.71,
+      "ma_value": 2852.31,
+      "deviation": -17.86,
       "trend": "down"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥122億",
         "net_income": 8051000000.0,
         "net_income_fmt": "¥81億",
-        "eps": 1020.04,
+        "eps": 135.44,
         "operating_margin": 22.63,
         "total_assets": 81683000000.0,
         "total_assets_fmt": "¥817億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 47.5
-      },
-      {
         "year": 2023,
-        "amount": 52.5
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 58.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 95.0
+        "amount": 85.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 47.0,
+        "in_progress": true
       }
     ],
     "latest": 47.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

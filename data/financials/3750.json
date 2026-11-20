@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:07.096595",
+  "fetched_at": "2026-11-20T14:12:53.945193",
   "ticker": "3750",
   "ticker_full": "3750.T",
   "company_name": "ADR BIOMEDICAL HOLDINGS INC.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 783.6,
-      "deviation": 2.09,
-      "trend": "up"
+      "ma_value": 766.4,
+      "deviation": -0.97,
+      "trend": "down"
     },
     "ma_25": {
       "ma_value": 772.4,
-      "deviation": 3.57,
-      "trend": "up"
+      "deviation": -1.73,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 793.87,
-      "deviation": 0.77,
-      "trend": "up"
+      "ma_value": 792.44,
+      "deviation": -4.22,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 818.07,
-      "deviation": -2.21,
+      "ma_value": 815.62,
+      "deviation": -6.94,
       "trend": "down"
     }
   },
@@ -229,21 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2018,
-        "amount": 10.0
-      },
-      {
-        "year": 2019,
-        "amount": 20.0
-      },
-      {
-        "year": 2020,
-        "amount": 10.0
-      }
-    ],
-    "latest": 10.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

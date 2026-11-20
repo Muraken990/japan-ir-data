@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:06:58.921805",
+  "fetched_at": "2026-11-20T14:12:47.177556",
   "ticker": "9723",
   "ticker_full": "9723.T",
   "company_name": "KYOTO HOTEL",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 632.6,
-      "deviation": 0.06,
-      "trend": "up"
+      "ma_value": 633.8,
+      "deviation": -0.28,
+      "trend": "down"
     },
     "ma_25": {
       "ma_value": 633.72,
-      "deviation": -0.11,
+      "deviation": -0.27,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 634.52,
-      "deviation": -0.24,
+      "ma_value": 634.25,
+      "deviation": -0.36,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 639.89,
-      "deviation": -1.08,
+      "ma_value": 639.86,
+      "deviation": -1.23,
       "trend": "down"
     }
   },
@@ -194,27 +194,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 3.0
-      },
-      {
-        "year": 2020,
-        "amount": 3.0
-      },
-      {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2011-12-31",
+      "status": "unavailable"
+    }
   }
 }

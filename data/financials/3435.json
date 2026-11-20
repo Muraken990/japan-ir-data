@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:50.603932",
+  "fetched_at": "2026-11-20T14:19:14.817215",
   "ticker": "3435",
   "ticker_full": "3435.T",
   "company_name": "SANKO TECHNO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1402.8,
-      "deviation": -1.2,
+      "ma_value": 1380.4,
+      "deviation": -2.42,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1420.16,
-      "deviation": -2.41,
+      "ma_value": 1397.24,
+      "deviation": -3.6,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1460.37,
-      "deviation": -5.09,
+      "ma_value": 1458.05,
+      "deviation": -7.62,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1401.49,
-      "deviation": -1.11,
+      "ma_value": 1402.64,
+      "deviation": -3.97,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       }
     ],
     "latest": 42.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 42.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

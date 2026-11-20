@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:07.010288",
+  "fetched_at": "2026-11-20T14:55:42.541220",
   "ticker": "8360",
   "ticker_full": "8360.T",
   "company_name": "YAMANASHI CHUO BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1241.6,
-      "deviation": 0.6,
-      "trend": "up"
+      "ma_value": 1150.0,
+      "deviation": -6.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1288.8,
-      "deviation": -3.09,
+      "ma_value": 1238.88,
+      "deviation": -13.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1383.56,
-      "deviation": -9.73,
+      "ma_value": 1370.47,
+      "deviation": -21.92,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1208.87,
-      "deviation": 3.32,
-      "trend": "up"
+      "ma_value": 1214.34,
+      "deviation": -11.89,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 8.5
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.6
+        "amount": 11.2,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.6
+        "amount": 15.2,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.7
+        "amount": 26.2,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 16.3,
+        "in_progress": true
       }
     ],
     "latest": 16.3,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 26.2,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:35:48.845511",
+  "fetched_at": "2026-11-20T14:40:10.548670",
   "ticker": "8624",
   "ticker_full": "8624.T",
   "company_name": "ICHIYOSHI SECURITIES",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1415.6,
-      "deviation": 0.31,
-      "trend": "up"
+      "ma_value": 1371.4,
+      "deviation": -3.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1475.2,
-      "deviation": -3.74,
+      "ma_value": 1438.92,
+      "deviation": -7.64,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1568.11,
-      "deviation": -9.45,
+      "ma_value": 1560.81,
+      "deviation": -14.85,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1414.08,
-      "deviation": 0.42,
-      "trend": "up"
+      "ma_value": 1420.67,
+      "deviation": -6.45,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 36.0
-      },
-      {
         "year": 2023,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 47.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 101.0
+        "amount": 89.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 42.0,
+        "in_progress": true
       }
     ],
     "latest": 42.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 89.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:44.122046",
+  "fetched_at": "2026-11-20T14:39:06.332610",
   "ticker": "4072",
   "ticker_full": "4072.T",
   "company_name": "DENSAN SYSTEM HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3131.0,
-      "deviation": 0.93,
-      "trend": "up"
+      "ma_value": 3040.4,
+      "deviation": -3.4,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3237.4,
-      "deviation": -2.39,
+      "ma_value": 3199.08,
+      "deviation": -8.19,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3126.13,
-      "deviation": 1.08,
-      "trend": "up"
+      "ma_value": 3134.83,
+      "deviation": -6.31,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2996.95,
-      "deviation": 5.44,
-      "trend": "up"
+      "ma_value": 2988.18,
+      "deviation": -1.71,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 90.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

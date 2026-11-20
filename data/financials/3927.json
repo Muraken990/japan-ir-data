@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:10.589276",
+  "fetched_at": "2026-11-20T14:05:20.430982",
   "ticker": "3927",
   "ticker_full": "3927.T",
   "company_name": "FUVA BRAIN LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 896.2,
-      "deviation": -6.61,
+      "ma_value": 802.4,
+      "deviation": -3.41,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1010.2,
-      "deviation": -17.15,
+      "ma_value": 934.68,
+      "deviation": -17.08,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 946.94,
-      "deviation": -11.61,
+      "ma_value": 939.23,
+      "deviation": -17.49,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 962.87,
-      "deviation": -13.07,
+      "ma_value": 961.78,
+      "deviation": -19.42,
       "trend": "down"
     }
   },
@@ -232,10 +232,23 @@
     "history": [
       {
         "year": 2026,
-        "amount": 23.0
+        "amount": 15.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 8.0,
+        "in_progress": true
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

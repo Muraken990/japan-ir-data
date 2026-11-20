@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:31.377424",
+  "fetched_at": "2026-11-20T14:09:34.584511",
   "ticker": "3113",
   "ticker_full": "3113.T",
   "company_name": "UNIVA OAK HOLDINGS LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 75.4,
-      "deviation": -1.86,
+      "ma_value": 71.0,
+      "deviation": -1.41,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 76.76,
-      "deviation": -3.6,
+      "ma_value": 75.08,
+      "deviation": -6.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 78.48,
-      "deviation": -5.71,
+      "ma_value": 78.41,
+      "deviation": -10.73,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 77.05,
-      "deviation": -3.95,
+      "ma_value": 77.0,
+      "deviation": -9.09,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2015,
-        "amount": 5.0
-      },
-      {
-        "year": 2016,
-        "amount": 5.0
-      },
-      {
-        "year": 2017,
-        "amount": 5.0
-      },
-      {
-        "year": 2018,
-        "amount": 10.0
-      },
-      {
-        "year": 2019,
-        "amount": 5.0
-      }
-    ],
-    "latest": 5.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:53.756089",
+  "fetched_at": "2026-11-20T14:20:17.192056",
   "ticker": "4169",
   "ticker_full": "4169.T",
   "company_name": "ENECHANGE LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 278.2,
-      "deviation": 3.16,
-      "trend": "up"
+      "ma_value": 264.8,
+      "deviation": -7.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 266.44,
-      "deviation": 7.72,
-      "trend": "up"
+      "ma_value": 266.68,
+      "deviation": -8.13,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 265.65,
-      "deviation": 8.04,
-      "trend": "up"
+      "ma_value": 268.59,
+      "deviation": -8.78,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 258.95,
-      "deviation": 10.83,
-      "trend": "up"
+      "ma_value": 258.5,
+      "deviation": -5.22,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "-¥1億",
         "net_income": 130918000.0,
         "net_income_fmt": "¥1億",
-        "eps": 3.06,
+        "eps": 2.98,
         "operating_margin": 8.85,
         "total_assets": 7657775000.0,
         "total_assets_fmt": "¥77億",
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

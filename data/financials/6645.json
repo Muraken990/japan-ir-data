@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:37.329271",
+  "fetched_at": "2026-11-20T15:08:53.505654",
   "ticker": "6645",
   "ticker_full": "6645.T",
   "company_name": "OMRON CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4968.0,
-      "deviation": 0.18,
-      "trend": "up"
+      "ma_value": 4634.25,
+      "deviation": -5.85,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5494.88,
-      "deviation": -9.42,
+      "ma_value": 5183.0,
+      "deviation": -15.82,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5962.03,
-      "deviation": -16.52,
+      "ma_value": 5936.32,
+      "deviation": -26.5,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5421.3,
-      "deviation": -8.2,
+      "ma_value": 5444.07,
+      "deviation": -19.86,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 95.0
-      },
-      {
         "year": 2023,
-        "amount": 101.0
+        "amount": 98.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 104.0
+        "amount": 104.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 104.0
+        "amount": 104.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 107.0
+        "amount": 104.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 55.0,
+        "in_progress": true
       }
     ],
     "latest": 55.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 104.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

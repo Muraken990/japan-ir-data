@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:19.061104",
+  "fetched_at": "2026-11-20T14:50:06.598997",
   "ticker": "9729",
   "ticker_full": "9729.T",
   "company_name": "TOKAI CORP(GIFU)",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2726.8,
-      "deviation": 1.22,
-      "trend": "up"
+      "ma_value": 2762.2,
+      "deviation": -1.24,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2735.16,
-      "deviation": 0.91,
-      "trend": "up"
+      "ma_value": 2771.2,
+      "deviation": -1.56,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2561.97,
-      "deviation": 7.73,
+      "ma_value": 2582.9,
+      "deviation": 5.62,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2482.31,
-      "deviation": 11.19,
+      "ma_value": 2489.76,
+      "deviation": 9.57,
       "trend": "up"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥74億",
         "net_income": 4729000000.0,
         "net_income_fmt": "¥47億",
-        "eps": 139.09,
+        "eps": 138.97,
         "operating_margin": 5.48,
         "total_assets": 114289000000.0,
         "total_assets_fmt": "¥1143億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 44.0
-      },
-      {
         "year": 2023,
-        "amount": 64.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 62.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 63.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 74.0
+        "amount": 68.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 68.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

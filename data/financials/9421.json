@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:21.167531",
+  "fetched_at": "2026-11-20T13:58:54.276301",
   "ticker": "9421",
   "ticker_full": "9421.T",
   "company_name": "NJ HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 553.4,
-      "deviation": 4.63,
-      "trend": "up"
+      "ma_value": 566.2,
+      "deviation": -3.21,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 539.04,
-      "deviation": 7.41,
+      "ma_value": 545.88,
+      "deviation": 0.39,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 522.0,
-      "deviation": 10.92,
+      "ma_value": 526.48,
+      "deviation": 4.09,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 581.49,
-      "deviation": -0.43,
+      "ma_value": 580.01,
+      "deviation": -5.52,
       "trend": "down"
     }
   },
@@ -231,27 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 10.0
-      },
-      {
-        "year": 2019,
-        "amount": 10.0
-      },
-      {
-        "year": 2020,
-        "amount": 10.0
-      },
-      {
-        "year": 2021,
-        "amount": 10.0
-      },
-      {
         "year": 2022,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

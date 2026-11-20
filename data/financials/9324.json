@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:56.521734",
+  "fetched_at": "2026-11-20T14:46:56.498091",
   "ticker": "9324",
   "ticker_full": "9324.T",
   "company_name": "YASUDA LOGISTICS CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2533.0,
-      "deviation": 1.54,
-      "trend": "up"
+      "ma_value": 2428.2,
+      "deviation": -5.2,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2589.76,
-      "deviation": -0.69,
+      "ma_value": 2552.36,
+      "deviation": -9.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2564.11,
-      "deviation": 0.31,
-      "trend": "up"
+      "ma_value": 2556.46,
+      "deviation": -9.95,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2411.15,
-      "deviation": 6.67,
-      "trend": "up"
+      "ma_value": 2417.74,
+      "deviation": -4.79,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 25.5
-      },
-      {
         "year": 2023,
-        "amount": 27.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.5
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 49.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 80.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 39.0,
+        "in_progress": true
       }
     ],
     "latest": 39.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

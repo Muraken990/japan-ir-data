@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:30.838422",
+  "fetched_at": "2026-11-20T14:33:26.110232",
   "ticker": "6482",
   "ticker_full": "6482.T",
   "company_name": "YUSHIN CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 644.2,
-      "deviation": 11.3,
-      "trend": "up"
+      "ma_value": 688.0,
+      "deviation": -2.91,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 655.64,
-      "deviation": 9.36,
+      "ma_value": 656.8,
+      "deviation": 1.71,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 686.37,
-      "deviation": 4.46,
-      "trend": "up"
+      "ma_value": 687.63,
+      "deviation": -2.86,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 691.68,
-      "deviation": 3.66,
-      "trend": "up"
+      "ma_value": 690.74,
+      "deviation": -3.29,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:43:56.217567",
+  "fetched_at": "2026-11-20T14:47:54.908625",
   "ticker": "1407",
   "ticker_full": "1407.T",
   "company_name": "WEST HOLDINGS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2016.6,
-      "deviation": -2.86,
+      "ma_value": 1804.6,
+      "deviation": -7.24,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2108.96,
-      "deviation": -7.11,
+      "ma_value": 2033.8,
+      "deviation": -17.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2353.28,
-      "deviation": -16.75,
+      "ma_value": 2298.0,
+      "deviation": -27.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2217.13,
-      "deviation": -11.64,
+      "ma_value": 2222.89,
+      "deviation": -24.69,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

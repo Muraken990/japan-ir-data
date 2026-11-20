@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:35.839071",
+  "fetched_at": "2026-11-20T15:09:52.538255",
   "ticker": "6869",
   "ticker_full": "6869.T",
   "company_name": "SYSMEX CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2099.1,
-      "deviation": -0.86,
+      "ma_value": 2141.25,
+      "deviation": -0.62,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1955.88,
-      "deviation": 6.4,
+      "ma_value": 2007.71,
+      "deviation": 5.99,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1861.84,
-      "deviation": 11.77,
+      "ma_value": 1894.25,
+      "deviation": 12.34,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1581.66,
-      "deviation": 31.57,
+      "ma_value": 1594.6,
+      "deviation": 33.45,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 26.33
-      },
-      {
         "year": 2023,
-        "amount": 28.0
+        "amount": 27.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 39.0
+        "amount": 37.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 37.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

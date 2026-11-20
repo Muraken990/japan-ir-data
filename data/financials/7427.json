@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:29.129335",
+  "fetched_at": "2026-11-20T14:07:35.186399",
   "ticker": "7427",
   "ticker_full": "7427.T",
   "company_name": "ECHO TRADING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 811.6,
-      "deviation": 0.79,
-      "trend": "up"
+      "ma_value": 788.8,
+      "deviation": -0.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 819.04,
-      "deviation": -0.13,
+      "ma_value": 812.24,
+      "deviation": -3.85,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 822.22,
-      "deviation": -0.51,
+      "ma_value": 820.87,
+      "deviation": -4.86,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 842.68,
-      "deviation": -2.93,
+      "ma_value": 839.7,
+      "deviation": -6.99,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 23.0
-      },
-      {
         "year": 2023,
-        "amount": 27.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

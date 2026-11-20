@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:55:34.566502",
+  "fetched_at": "2026-11-20T14:01:55.814751",
   "ticker": "3996",
   "ticker_full": "3996.T",
   "company_name": "SIGNPOST CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 215.0,
-      "deviation": -0.93,
+      "ma_value": 210.4,
+      "deviation": -2.57,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 233.28,
-      "deviation": -8.69,
+      "ma_value": 228.24,
+      "deviation": -10.18,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 213.84,
-      "deviation": -0.39,
+      "ma_value": 214.73,
+      "deviation": -4.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 218.99,
-      "deviation": -2.73,
+      "ma_value": 217.25,
+      "deviation": -5.64,
       "trend": "down"
     }
   },
@@ -229,21 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2018,
-        "amount": 10.0
-      },
-      {
-        "year": 2019,
-        "amount": 2.5
-      },
-      {
-        "year": 2020,
-        "amount": 2.5
-      }
-    ],
-    "latest": 2.5,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

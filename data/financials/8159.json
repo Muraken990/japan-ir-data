@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:20.079699",
+  "fetched_at": "2026-11-20T14:49:08.445706",
   "ticker": "8159",
   "ticker_full": "8159.T",
   "company_name": "TACHIBANA ELETECH CO LTD.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4250.0,
-      "deviation": 2.24,
-      "trend": "up"
+      "ma_value": 4205.0,
+      "deviation": -4.52,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4564.2,
-      "deviation": -4.8,
+      "ma_value": 4494.4,
+      "deviation": -10.67,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4177.54,
-      "deviation": 4.01,
-      "trend": "up"
+      "ma_value": 4236.63,
+      "deviation": -5.23,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3462.94,
-      "deviation": 25.47,
+      "ma_value": 3492.97,
+      "deviation": 14.95,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 70.0
-      },
-      {
         "year": 2023,
-        "amount": 100.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 100.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

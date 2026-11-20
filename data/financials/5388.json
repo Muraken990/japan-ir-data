@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:21:49.679281",
+  "fetched_at": "2026-11-20T14:27:01.291866",
   "ticker": "5388",
   "ticker_full": "5388.T",
   "company_name": "KUNIMINE INDUSTRIES CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1258.8,
-      "deviation": 1.53,
-      "trend": "up"
+      "ma_value": 1241.2,
+      "deviation": -1.63,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1309.24,
-      "deviation": -2.39,
+      "ma_value": 1285.24,
+      "deviation": -5.0,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1309.62,
-      "deviation": -2.41,
+      "ma_value": 1310.31,
+      "deviation": -6.82,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1272.47,
-      "deviation": 0.43,
-      "trend": "up"
+      "ma_value": 1271.41,
+      "deviation": -3.96,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 55.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

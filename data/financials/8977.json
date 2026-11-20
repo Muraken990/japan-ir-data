@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:50:07.445216",
+  "fetched_at": "2026-11-20T14:53:47.180605",
   "ticker": "8977",
   "ticker_full": "8977.T",
   "company_name": "HANKYU HANSHIN REIT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 120540.0,
-      "deviation": 2.12,
+      "ma_value": 125680.0,
+      "deviation": 1.21,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 123392.0,
-      "deviation": -0.24,
-      "trend": "down"
+      "ma_value": 123460.0,
+      "deviation": 3.03,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 131069.33,
-      "deviation": -6.08,
+      "ma_value": 130074.67,
+      "deviation": -2.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 141070.64,
-      "deviation": -12.74,
+      "ma_value": 140188.87,
+      "deviation": -9.27,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5980.0
+        "amount": 5980.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6099.0
+        "amount": 6099.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6185.0
+        "amount": 6185.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6708.0
+        "amount": 6708.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3300.0
+        "amount": 3300.0,
+        "in_progress": true
       }
     ],
     "latest": 3300.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 6708.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:50.735238",
+  "fetched_at": "2026-11-20T14:39:12.074696",
   "ticker": "2498",
   "ticker_full": "2498.T",
   "company_name": "ORIENTAL CONSULTANTS HLDGS CO L",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Specialty Business Services",
     "website": "https://www.oriconhd.jp",
-    "employees": 3635,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "Sumitomo Fudosan Nishi-Shinjuku 6th Building",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2990.4,
-      "deviation": -0.18,
+      "ma_value": 2867.2,
+      "deviation": -2.13,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2986.56,
-      "deviation": -0.05,
+      "ma_value": 2958.12,
+      "deviation": -5.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3028.21,
-      "deviation": -1.43,
+      "ma_value": 3017.37,
+      "deviation": -7.01,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2983.57,
-      "deviation": 0.05,
-      "trend": "up"
+      "ma_value": 2977.37,
+      "deviation": -5.76,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 36.25
+        "amount": 36.25,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 87.5
+        "amount": 87.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": false
       }
     ],
     "latest": 130.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 130.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

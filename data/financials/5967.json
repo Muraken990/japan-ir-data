@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:34.606915",
+  "fetched_at": "2026-11-20T14:19:01.131240",
   "ticker": "5967",
   "ticker_full": "5967.T",
   "company_name": "TONE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 397.2,
-      "deviation": -1.06,
+      "ma_value": 389.8,
+      "deviation": -1.74,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 419.28,
-      "deviation": -6.27,
+      "ma_value": 409.68,
+      "deviation": -6.51,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 448.99,
-      "deviation": -12.47,
+      "ma_value": 443.29,
+      "deviation": -13.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 457.26,
-      "deviation": -14.05,
+      "ma_value": 455.08,
+      "deviation": -15.84,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.25
+        "amount": 10.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.25
+        "amount": 10.25,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       }
     ],
     "latest": 13.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 13.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

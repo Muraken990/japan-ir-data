@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:02.204235",
+  "fetched_at": "2026-11-20T14:12:49.621935",
   "ticker": "7192",
   "ticker_full": "7192.T",
   "company_name": "MORTGAGE SERVICE JAPAN LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 578.8,
-      "deviation": -0.48,
+      "ma_value": 558.2,
+      "deviation": -4.87,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 633.32,
-      "deviation": -9.05,
+      "ma_value": 611.64,
+      "deviation": -13.18,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 646.51,
-      "deviation": -10.91,
+      "ma_value": 643.76,
+      "deviation": -17.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 620.81,
-      "deviation": -7.22,
+      "ma_value": 622.3,
+      "deviation": -14.67,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥16億",
         "net_income": 1089773000.0,
         "net_income_fmt": "¥11億",
-        "eps": 79.04,
+        "eps": 74.12,
         "operating_margin": 19.89,
         "total_assets": 24657340000.0,
         "total_assets_fmt": "¥247億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:32.231546",
+  "fetched_at": "2026-11-20T15:10:47.252954",
   "ticker": "3288",
   "ticker_full": "3288.T",
   "company_name": "OPEN HOUSE GROUP CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 7462.4,
-      "deviation": 2.45,
-      "trend": "up"
+      "ma_value": 7526.5,
+      "deviation": -5.72,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 7679.16,
-      "deviation": -0.44,
+      "ma_value": 7683.33,
+      "deviation": -7.64,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 7783.64,
-      "deviation": -1.78,
+      "ma_value": 7719.95,
+      "deviation": -8.08,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 8700.68,
-      "deviation": -12.13,
+      "ma_value": 8667.19,
+      "deviation": -18.13,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 129.0
+        "amount": 129.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 164.0
+        "amount": 164.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 166.0
+        "amount": 166.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 178.0
+        "amount": 178.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 205.0
+        "amount": 205.0,
+        "in_progress": false
       }
     ],
     "latest": 105.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 205.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

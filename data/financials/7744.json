@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:00.026386",
+  "fetched_at": "2026-11-20T15:00:28.586625",
   "ticker": "7744",
   "ticker_full": "7744.T",
   "company_name": "NORITSU KOKI CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2031.6,
-      "deviation": 0.76,
-      "trend": "up"
+      "ma_value": 1913.25,
+      "deviation": -4.51,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2062.32,
-      "deviation": -0.74,
+      "ma_value": 2037.04,
+      "deviation": -10.31,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2030.25,
-      "deviation": 0.82,
-      "trend": "up"
+      "ma_value": 2028.01,
+      "deviation": -9.91,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2049.34,
-      "deviation": -0.11,
+      "ma_value": 2047.78,
+      "deviation": -10.78,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.67
+        "amount": 50.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 38.33
+        "amount": 38.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.33
+        "amount": 60.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 73.67
+        "amount": 73.67,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": true
       }
     ],
     "latest": 37.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 73.666,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

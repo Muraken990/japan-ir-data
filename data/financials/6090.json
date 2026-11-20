@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:55:59.775179",
+  "fetched_at": "2026-11-20T14:02:14.630906",
   "ticker": "6090",
   "ticker_full": "6090.T",
   "company_name": "HUMAN METABOLOME TECHNOLOGIES I",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 569.4,
-      "deviation": 0.28,
-      "trend": "up"
+      "ma_value": 554.4,
+      "deviation": -2.6,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 586.72,
-      "deviation": -2.68,
+      "ma_value": 577.28,
+      "deviation": -6.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 600.61,
-      "deviation": -4.93,
+      "ma_value": 598.05,
+      "deviation": -9.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 633.96,
-      "deviation": -9.93,
+      "ma_value": 630.78,
+      "deviation": -14.39,
       "trend": "down"
     }
   },
@@ -232,22 +232,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

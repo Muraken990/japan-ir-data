@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:42.939640",
+  "fetched_at": "2026-11-20T15:03:13.889130",
   "ticker": "9934",
   "ticker_full": "9934.T",
   "company_name": "INABA DENKISANGYO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2629.1,
-      "deviation": -0.46,
+      "ma_value": 2564.88,
+      "deviation": -2.67,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2926.02,
-      "deviation": -10.56,
+      "ma_value": 2827.88,
+      "deviation": -11.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2967.43,
-      "deviation": -11.81,
+      "ma_value": 2959.78,
+      "deviation": -15.65,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2770.59,
-      "deviation": -5.54,
+      "ma_value": 2771.48,
+      "deviation": -9.92,
       "trend": "down"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥267億",
         "net_income": 18783000000.0,
         "net_income_fmt": "¥188億",
-        "eps": 164.79,
+        "eps": 164.8,
         "operating_margin": 6.66,
         "total_assets": 278983000000.0,
         "total_assets_fmt": "¥2790億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 55.0
-      },
-      {
         "year": 2023,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 85.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

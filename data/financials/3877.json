@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:41.468005",
+  "fetched_at": "2026-11-20T14:33:33.688652",
   "ticker": "3877",
   "ticker_full": "3877.T",
   "company_name": "CHUETSU PULP & PAPER",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2043.2,
-      "deviation": 1.41,
-      "trend": "up"
+      "ma_value": 2002.6,
+      "deviation": -1.43,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2076.4,
-      "deviation": -0.21,
+      "ma_value": 2055.16,
+      "deviation": -3.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2120.84,
-      "deviation": -2.3,
+      "ma_value": 2116.08,
+      "deviation": -6.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1991.62,
-      "deviation": 4.04,
-      "trend": "up"
+      "ma_value": 1993.89,
+      "deviation": -1.0,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.0
-      },
-      {
         "year": 2023,
-        "amount": 60.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 90.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 90.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

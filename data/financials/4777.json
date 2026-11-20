@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:33.702550",
+  "fetched_at": "2026-11-20T14:08:37.968816",
   "ticker": "4777",
   "ticker_full": "4777.T",
   "company_name": "GALA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 187.4,
-      "deviation": -1.28,
+      "ma_value": 167.4,
+      "deviation": -11.59,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 191.04,
-      "deviation": -3.16,
+      "ma_value": 185.0,
+      "deviation": -20.0,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 196.89,
-      "deviation": -6.04,
+      "ma_value": 194.83,
+      "deviation": -24.04,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 201.68,
-      "deviation": -8.27,
+      "ma_value": 200.57,
+      "deviation": -26.21,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

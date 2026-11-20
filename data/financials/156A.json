@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:32.850905",
+  "fetched_at": "2026-11-20T13:49:36.973816",
   "ticker": "156A",
   "ticker_full": "156A.T",
   "company_name": "MATERIAL GROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 733.2,
-      "deviation": 0.25,
-      "trend": "up"
+      "ma_value": 714.4,
+      "deviation": -3.98,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 761.12,
-      "deviation": -3.43,
+      "ma_value": 734.04,
+      "deviation": -6.54,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 814.68,
-      "deviation": -9.78,
+      "ma_value": 808.0,
+      "deviation": -15.1,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 823.65,
-      "deviation": -10.76,
+      "ma_value": 819.53,
+      "deviation": -16.29,
       "trend": "down"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 25.06
+        "amount": 25.06,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 26.1
+        "amount": 26.1,
+        "in_progress": false
       }
     ],
     "latest": 26.1,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 26.1,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

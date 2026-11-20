@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:23.091781",
+  "fetched_at": "2026-11-20T14:00:54.124455",
   "ticker": "3477",
   "ticker_full": "3477.T",
   "company_name": "FORLIFE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 827.8,
-      "deviation": -5.41,
+      "ma_value": 760.6,
+      "deviation": -5.6,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 846.0,
-      "deviation": -7.45,
+      "ma_value": 823.48,
+      "deviation": -12.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 868.58,
-      "deviation": -9.85,
+      "ma_value": 862.1,
+      "deviation": -16.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 842.79,
-      "deviation": -7.09,
+      "ma_value": 839.81,
+      "deviation": -14.5,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 24.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 17.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 27.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 12.5,
+        "in_progress": true
       }
     ],
     "latest": 12.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

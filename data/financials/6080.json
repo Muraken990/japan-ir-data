@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:49:49.127657",
+  "fetched_at": "2026-11-20T14:53:30.435942",
   "ticker": "6080",
   "ticker_full": "6080.T",
   "company_name": "M&A CAPITAL PARTNERS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4499.0,
-      "deviation": 2.02,
-      "trend": "up"
+      "ma_value": 4332.0,
+      "deviation": -4.2,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4324.8,
-      "deviation": 6.13,
-      "trend": "up"
+      "ma_value": 4313.0,
+      "deviation": -3.78,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4144.56,
-      "deviation": 10.75,
-      "trend": "up"
+      "ma_value": 4186.36,
+      "deviation": -0.87,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3640.63,
-      "deviation": 26.08,
+      "ma_value": 3666.65,
+      "deviation": 13.18,
       "trend": "up"
     }
   },
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 52.1
+        "amount": 52.1,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 74.18
+        "amount": 74.18,
+        "in_progress": false
       }
     ],
     "latest": 74.18,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 74.18,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:26.741184",
+  "fetched_at": "2026-11-20T14:07:33.116481",
   "ticker": "6964",
   "ticker_full": "6964.T",
   "company_name": "SANKO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 714.4,
-      "deviation": 0.92,
-      "trend": "up"
+      "ma_value": 705.6,
+      "deviation": -2.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 690.4,
-      "deviation": 4.43,
-      "trend": "up"
+      "ma_value": 693.28,
+      "deviation": -0.76,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 692.04,
-      "deviation": 4.18,
-      "trend": "up"
+      "ma_value": 693.39,
+      "deviation": -0.78,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 682.42,
-      "deviation": 5.65,
+      "ma_value": 684.46,
+      "deviation": 0.52,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

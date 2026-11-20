@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:35.668919",
+  "fetched_at": "2026-11-20T15:09:52.557353",
   "ticker": "1911",
   "ticker_full": "1911.T",
   "company_name": "SUMITOMO FORESTRY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1278.4,
-      "deviation": -0.58,
+      "ma_value": 1215.88,
+      "deviation": -10.15,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1240.72,
-      "deviation": 2.44,
-      "trend": "up"
+      "ma_value": 1250.96,
+      "deviation": -12.67,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1275.41,
-      "deviation": -0.35,
+      "ma_value": 1265.68,
+      "deviation": -13.68,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1370.71,
-      "deviation": -7.27,
+      "ma_value": 1360.66,
+      "deviation": -19.71,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 41.67
+        "amount": 41.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 41.67
+        "amount": 41.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 48.33
+        "amount": 48.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 53.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 53.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

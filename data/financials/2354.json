@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:21.667696",
+  "fetched_at": "2026-11-20T14:24:39.013607",
   "ticker": "2354",
   "ticker_full": "2354.T",
   "company_name": "YE DIGITAL CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 919.2,
-      "deviation": 0.41,
-      "trend": "up"
+      "ma_value": 882.8,
+      "deviation": -4.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1004.04,
-      "deviation": -8.07,
+      "ma_value": 956.64,
+      "deviation": -11.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1216.33,
-      "deviation": -24.12,
+      "ma_value": 1186.49,
+      "deviation": -28.61,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 992.86,
-      "deviation": -7.04,
+      "ma_value": 994.43,
+      "deviation": -14.83,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 20.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

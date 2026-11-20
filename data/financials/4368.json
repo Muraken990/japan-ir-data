@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:17.006741",
+  "fetched_at": "2026-11-20T15:00:46.609601",
   "ticker": "4368",
   "ticker_full": "4368.T",
   "company_name": "FUSO CHEMICAL CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2917.2,
-      "deviation": -0.9,
+      "ma_value": 2721.5,
+      "deviation": -6.67,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3038.52,
-      "deviation": -4.85,
+      "ma_value": 2918.5,
+      "deviation": -12.97,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3171.74,
-      "deviation": -8.85,
+      "ma_value": 3119.77,
+      "deviation": -18.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3335.69,
-      "deviation": -13.33,
+      "ma_value": 3346.18,
+      "deviation": -24.09,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 22.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.67
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.33
+        "amount": 24.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 27.67
+        "amount": 27.33,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 14.0,
+        "in_progress": true
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 27.3327,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

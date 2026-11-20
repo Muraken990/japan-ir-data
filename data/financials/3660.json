@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:14.228136",
+  "fetched_at": "2026-11-20T14:43:24.707012",
   "ticker": "3660",
   "ticker_full": "3660.T",
   "company_name": "ISTYLE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 401.0,
-      "deviation": -0.25,
+      "ma_value": 373.8,
+      "deviation": -7.17,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 442.28,
-      "deviation": -9.56,
+      "ma_value": 425.4,
+      "deviation": -18.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 471.27,
-      "deviation": -15.12,
+      "ma_value": 467.4,
+      "deviation": -25.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 442.04,
-      "deviation": -9.51,
+      "ma_value": 439.82,
+      "deviation": -21.1,
       "trend": "down"
     }
   },
@@ -231,27 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2016,
-        "amount": 0.5
-      },
-      {
-        "year": 2017,
-        "amount": 0.5
-      },
-      {
-        "year": 2018,
-        "amount": 0.5
-      },
-      {
         "year": 2025,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       }
     ],
     "latest": 1.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 1.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:48.277824",
+  "fetched_at": "2026-11-20T13:53:40.394834",
   "ticker": "6276",
   "ticker_full": "6276.T",
   "company_name": "SIRIUSVISION CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 285.8,
-      "deviation": 2.87,
-      "trend": "up"
+      "ma_value": 286.0,
+      "deviation": -9.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 299.32,
-      "deviation": -1.78,
+      "ma_value": 292.88,
+      "deviation": -11.23,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 333.69,
-      "deviation": -11.9,
+      "ma_value": 332.56,
+      "deviation": -21.82,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 303.01,
-      "deviation": -2.98,
+      "ma_value": 301.82,
+      "deviation": -13.86,
       "trend": "down"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 17.5
-      },
-      {
         "year": 2021,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

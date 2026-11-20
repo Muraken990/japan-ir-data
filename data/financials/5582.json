@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:54.494315",
+  "fetched_at": "2026-11-20T14:20:18.114645",
   "ticker": "5582",
   "ticker_full": "5582.T",
   "company_name": "GRID INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1752.0,
-      "deviation": -0.86,
+      "ma_value": 1404.4,
+      "deviation": -7.08,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1849.04,
-      "deviation": -6.06,
+      "ma_value": 1734.8,
+      "deviation": -24.78,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1963.88,
-      "deviation": -11.55,
+      "ma_value": 1930.95,
+      "deviation": -32.42,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2132.41,
-      "deviation": -18.54,
+      "ma_value": 2104.01,
+      "deviation": -37.98,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

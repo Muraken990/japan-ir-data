@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:44.954772",
+  "fetched_at": "2026-11-20T13:55:33.075900",
   "ticker": "6656",
   "ticker_full": "6656.T",
   "company_name": "INSPEC INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 546.4,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 513.4,
+      "deviation": -4.56,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 638.8,
-      "deviation": -13.74,
+      "ma_value": 587.4,
+      "deviation": -16.58,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 778.2,
-      "deviation": -29.2,
+      "ma_value": 747.07,
+      "deviation": -34.41,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 803.46,
-      "deviation": -31.42,
+      "ma_value": 801.02,
+      "deviation": -38.83,
       "trend": "down"
     }
   },
@@ -231,19 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 3.0
-      },
-      {
         "year": 2022,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 4,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2020-04-30",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:47.189139",
+  "fetched_at": "2026-11-20T14:46:47.613944",
   "ticker": "6480",
   "ticker_full": "6480.T",
   "company_name": "NIPPON THOMPSON CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1365.4,
-      "deviation": 4.22,
-      "trend": "up"
+      "ma_value": 1253.2,
+      "deviation": -7.84,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1538.52,
-      "deviation": -7.51,
+      "ma_value": 1422.32,
+      "deviation": -18.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1690.96,
-      "deviation": -15.85,
+      "ma_value": 1665.27,
+      "deviation": -30.64,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1518.44,
-      "deviation": -6.29,
+      "ma_value": 1527.78,
+      "deviation": -24.4,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 16.0
-      },
-      {
         "year": 2023,
-        "amount": 19.5
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 19.0
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 23.5
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 34.0
+        "amount": 29.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 18.5,
+        "in_progress": true
       }
     ],
     "latest": 18.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

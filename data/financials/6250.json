@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:16.657450",
+  "fetched_at": "2026-11-20T14:54:53.142090",
   "ticker": "6250",
   "ticker_full": "6250.T",
   "company_name": "YAMABIKO CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4188.0,
-      "deviation": -4.73,
+      "ma_value": 3687.0,
+      "deviation": -8.19,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4306.2,
-      "deviation": -7.34,
+      "ma_value": 4167.6,
+      "deviation": -18.78,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4265.2,
-      "deviation": -6.45,
+      "ma_value": 4255.2,
+      "deviation": -20.45,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3881.39,
-      "deviation": 2.8,
-      "trend": "up"
+      "ma_value": 3892.31,
+      "deviation": -13.03,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": true
       }
     ],
     "latest": 55.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 90.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

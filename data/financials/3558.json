@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:33.821982",
+  "fetched_at": "2026-11-20T14:25:48.206282",
   "ticker": "3558",
   "ticker_full": "3558.T",
   "company_name": "JADE GROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1565.6,
-      "deviation": 1.18,
-      "trend": "up"
+      "ma_value": 1459.8,
+      "deviation": -7.73,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1641.04,
-      "deviation": -3.48,
+      "ma_value": 1568.48,
+      "deviation": -14.12,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1739.91,
-      "deviation": -8.96,
+      "ma_value": 1728.08,
+      "deviation": -22.05,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1725.78,
-      "deviation": -8.22,
+      "ma_value": 1719.49,
+      "deviation": -21.66,
       "trend": "down"
     }
   },
@@ -231,15 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 10.0
-      },
-      {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

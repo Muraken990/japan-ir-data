@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:10:59.095895",
+  "fetched_at": "2026-11-20T15:14:09.514669",
   "ticker": "4661",
   "ticker_full": "4661.T",
   "company_name": "ORIENTAL LAND CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3752.4,
-      "deviation": 1.61,
-      "trend": "up"
+      "ma_value": 3891.0,
+      "deviation": -1.05,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3350.38,
-      "deviation": 13.81,
+      "ma_value": 3512.67,
+      "deviation": 9.6,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3100.65,
-      "deviation": 22.97,
+      "ma_value": 3159.31,
+      "deviation": 21.86,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2748.85,
-      "deviation": 38.71,
+      "ma_value": 2770.71,
+      "deviation": 38.95,
       "trend": "up"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥1726億",
         "net_income": 121881000000.0,
         "net_income_fmt": "¥1219億",
-        "eps": 74.33,
+        "eps": 74.34,
         "operating_margin": 23.9,
         "total_assets": 1629076000000.0,
         "total_assets_fmt": "¥1.6T",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 6.6
-      },
-      {
         "year": 2023,
-        "amount": 9.4
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 15.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 9.0,
+        "in_progress": true
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

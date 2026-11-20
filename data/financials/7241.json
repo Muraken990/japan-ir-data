@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:34.944458",
+  "fetched_at": "2026-11-20T14:52:19.436764",
   "ticker": "7241",
   "ticker_full": "7241.T",
   "company_name": "FUTABA INDUSTRIAL CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 953.8,
-      "deviation": 1.38,
-      "trend": "up"
+      "ma_value": 933.4,
+      "deviation": -3.36,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 989.04,
-      "deviation": -2.23,
+      "ma_value": 966.44,
+      "deviation": -6.67,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1037.26,
-      "deviation": -6.77,
+      "ma_value": 1032.59,
+      "deviation": -12.65,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1004.49,
-      "deviation": -3.73,
+      "ma_value": 1001.75,
+      "deviation": -9.96,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 30.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 37.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 41.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 45.0
+        "amount": 43.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 22.0,
+        "in_progress": true
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 43.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:10.885758",
+  "fetched_at": "2026-11-20T14:29:11.249433",
   "ticker": "3157",
   "ticker_full": "3157.T",
   "company_name": "GEOLIVE GROUP CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1351.0,
-      "deviation": -0.67,
-      "trend": "down"
+      "ma_value": 1338.2,
+      "deviation": 0.21,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1374.6,
-      "deviation": -2.37,
+      "ma_value": 1363.84,
+      "deviation": -1.67,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1391.17,
-      "deviation": -3.53,
+      "ma_value": 1388.25,
+      "deviation": -3.4,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1436.71,
-      "deviation": -6.59,
+      "ma_value": 1431.82,
+      "deviation": -6.34,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 47.0
-      },
-      {
         "year": 2023,
-        "amount": 44.0
+        "amount": 44.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.0
+        "amount": 44.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 43.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 56.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

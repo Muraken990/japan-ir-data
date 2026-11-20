@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:32:09.829848",
+  "fetched_at": "2026-11-20T14:36:51.286895",
   "ticker": "7238",
   "ticker_full": "7238.T",
   "company_name": "AKEBONO BRAKE INDUSTRY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 102.8,
-      "deviation": 2.14,
-      "trend": "up"
+      "ma_value": 98.4,
+      "deviation": -5.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 102.4,
-      "deviation": 2.54,
-      "trend": "up"
+      "ma_value": 101.6,
+      "deviation": -8.46,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 105.83,
-      "deviation": -0.78,
+      "ma_value": 105.2,
+      "deviation": -11.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 116.33,
-      "deviation": -9.74,
+      "ma_value": 115.78,
+      "deviation": -19.68,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2011,
-        "amount": 10.0
-      },
-      {
-        "year": 2012,
-        "amount": 10.0
-      },
-      {
-        "year": 2013,
-        "amount": 10.0
-      },
-      {
-        "year": 2014,
-        "amount": 10.0
-      },
-      {
-        "year": 2015,
-        "amount": 5.0
-      }
-    ],
-    "latest": 5.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

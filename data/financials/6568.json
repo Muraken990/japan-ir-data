@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:17.418071",
+  "fetched_at": "2026-11-20T14:14:57.291606",
   "ticker": "6568",
   "ticker_full": "6568.T",
   "company_name": "KNC LABORATORIES CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1175.0,
-      "deviation": 0.6,
-      "trend": "up"
+      "ma_value": 1267.2,
+      "deviation": -3.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1241.8,
-      "deviation": -4.82,
+      "ma_value": 1244.96,
+      "deviation": -1.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1235.51,
-      "deviation": -4.33,
+      "ma_value": 1237.07,
+      "deviation": -1.14,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1237.46,
-      "deviation": -4.48,
+      "ma_value": 1237.93,
+      "deviation": -1.21,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 35.0
-      },
-      {
         "year": 2023,
-        "amount": 33.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 31.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 16.0,
+        "in_progress": true
       }
     ],
     "latest": 16.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2016-03-31",
+      "status": "unavailable"
+    }
   }
 }

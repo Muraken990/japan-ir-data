@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:03.337868",
+  "fetched_at": "2026-11-20T14:23:28.193506",
   "ticker": "3954",
   "ticker_full": "3954.T",
   "company_name": "SHOWA PAXXS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3024.6,
-      "deviation": -0.15,
+      "ma_value": 2983.8,
+      "deviation": -1.1,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3043.48,
-      "deviation": -0.77,
+      "ma_value": 3024.64,
+      "deviation": -2.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3057.9,
-      "deviation": -1.24,
+      "ma_value": 3072.68,
+      "deviation": -3.96,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3023.76,
-      "deviation": -0.12,
+      "ma_value": 3016.85,
+      "deviation": -2.18,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 41.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

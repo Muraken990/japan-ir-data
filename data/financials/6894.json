@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:18.677367",
+  "fetched_at": "2026-11-20T13:57:54.855542",
   "ticker": "6894",
   "ticker_full": "6894.T",
   "company_name": "PULSTEC INDUSTRIAL CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2146.4,
-      "deviation": 2.08,
+      "ma_value": 2118.0,
+      "deviation": 0.57,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2136.8,
-      "deviation": 2.54,
+      "ma_value": 2129.56,
+      "deviation": 0.02,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2146.99,
-      "deviation": 2.05,
-      "trend": "up"
+      "ma_value": 2146.83,
+      "deviation": -0.78,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2152.78,
-      "deviation": 1.78,
-      "trend": "up"
+      "ma_value": 2150.55,
+      "deviation": -0.96,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       }
     ],
     "latest": 85.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

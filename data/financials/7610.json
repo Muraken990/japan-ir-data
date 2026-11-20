@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:29.377545",
+  "fetched_at": "2026-11-20T14:16:58.284789",
   "ticker": "7610",
   "ticker_full": "7610.T",
   "company_name": "TAY TWO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 120.0,
-      "deviation": 0.83,
-      "trend": "up"
+      "ma_value": 118.8,
+      "deviation": -4.04,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 126.24,
-      "deviation": -4.15,
+      "ma_value": 123.28,
+      "deviation": -7.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 135.6,
-      "deviation": -10.77,
+      "ma_value": 133.68,
+      "deviation": -14.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 139.65,
-      "deviation": -13.36,
+      "ma_value": 139.06,
+      "deviation": -18.02,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:05.623750",
+  "fetched_at": "2026-11-20T13:56:44.438055",
   "ticker": "3042",
   "ticker_full": "3042.T",
   "company_name": "SECUAVAIL INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 859.2,
-      "deviation": -14.34,
-      "trend": "down"
+      "ma_value": 767.4,
+      "deviation": 4.51,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 958.12,
-      "deviation": -23.18,
+      "ma_value": 976.56,
+      "deviation": -17.87,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 522.73,
-      "deviation": 40.8,
+      "ma_value": 554.31,
+      "deviation": 44.69,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 385.74,
-      "deviation": 90.8,
+      "ma_value": 395.83,
+      "deviation": 102.61,
       "trend": "up"
     }
   },
@@ -231,19 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 2.5
-      },
-      {
         "year": 2025,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

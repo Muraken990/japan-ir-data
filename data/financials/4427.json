@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:06.516999",
+  "fetched_at": "2026-11-20T13:56:44.537964",
   "ticker": "4427",
   "ticker_full": "4427.T",
   "company_name": "EDULAB INC",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Information Technology Services",
     "website": "https://www.edulab-inc.com",
-    "employees": 232,
+    "employees": null,
     "country": "Japan",
     "city": "Minato",
     "address": "W Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 189.4,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 174.8,
+      "deviation": -5.61,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 197.52,
-      "deviation": -3.3,
+      "ma_value": 191.0,
+      "deviation": -13.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 212.07,
-      "deviation": -9.93,
+      "ma_value": 210.21,
+      "deviation": -21.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 222.42,
-      "deviation": -14.13,
+      "ma_value": 220.06,
+      "deviation": -25.02,
       "trend": "down"
     }
   },
@@ -192,17 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2019,
-        "amount": 23.0
-      },
-      {
-        "year": 2020,
-        "amount": 30.0
-      }
-    ],
-    "latest": 30.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:21.628892",
+  "fetched_at": "2026-11-20T15:00:51.171907",
   "ticker": "8381",
   "ticker_full": "8381.T",
   "company_name": "SAN-IN GODO BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2130.6,
-      "deviation": 0.65,
-      "trend": "up"
+      "ma_value": 2101.25,
+      "deviation": -6.32,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2170.4,
-      "deviation": -1.19,
+      "ma_value": 2111.29,
+      "deviation": -6.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2406.89,
-      "deviation": -10.9,
+      "ma_value": 2388.69,
+      "deviation": -17.59,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2092.73,
-      "deviation": 2.47,
-      "trend": "up"
+      "ma_value": 2106.84,
+      "deviation": -6.57,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 38.0
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.0
+        "amount": 39.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 52.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 66.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 34.0,
+        "in_progress": true
       }
     ],
     "latest": 34.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

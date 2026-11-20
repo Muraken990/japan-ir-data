@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:31.416257",
+  "fetched_at": "2026-11-20T14:43:40.190761",
   "ticker": "6564",
   "ticker_full": "6564.T",
   "company_name": "MIDAC HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1940.8,
-      "deviation": 0.63,
-      "trend": "up"
+      "ma_value": 1854.4,
+      "deviation": -3.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1936.68,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 1914.36,
+      "deviation": -6.97,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2023.71,
-      "deviation": -3.49,
+      "ma_value": 1998.56,
+      "deviation": -10.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2035.94,
-      "deviation": -4.07,
+      "ma_value": 2033.31,
+      "deviation": -12.41,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

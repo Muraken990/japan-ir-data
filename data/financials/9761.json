@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:07.739489",
+  "fetched_at": "2026-11-20T14:14:49.135394",
   "ticker": "9761",
   "ticker_full": "9761.T",
   "company_name": "TOKAI LEASE CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2305.2,
-      "deviation": 6.19,
-      "trend": "up"
+      "ma_value": 2399.8,
+      "deviation": -3.7,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2310.12,
-      "deviation": 5.97,
-      "trend": "up"
+      "ma_value": 2324.24,
+      "deviation": -0.57,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2346.97,
-      "deviation": 4.3,
-      "trend": "up"
+      "ma_value": 2353.05,
+      "deviation": -1.79,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2338.78,
-      "deviation": 4.67,
-      "trend": "up"
+      "ma_value": 2336.76,
+      "deviation": -1.1,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 80.0
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 100.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

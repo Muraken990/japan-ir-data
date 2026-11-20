@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:45.416501",
+  "fetched_at": "2026-11-20T13:53:38.100954",
   "ticker": "2164",
   "ticker_full": "2164.T",
   "company_name": "CHIIKISHINBUNSHA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 95.0,
-      "deviation": 5.26,
-      "trend": "up"
+      "ma_value": 93.2,
+      "deviation": -3.43,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 97.16,
-      "deviation": 2.92,
-      "trend": "up"
+      "ma_value": 95.84,
+      "deviation": -6.09,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 123.09,
-      "deviation": -18.76,
+      "ma_value": 118.45,
+      "deviation": -24.02,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 155.15,
-      "deviation": -35.55,
+      "ma_value": 153.73,
+      "deviation": -41.46,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2015,
-        "amount": 2.78
-      },
-      {
-        "year": 2016,
-        "amount": 0.56
-      },
-      {
-        "year": 2017,
-        "amount": 0.56
-      },
-      {
-        "year": 2018,
-        "amount": 0.56
-      },
-      {
-        "year": 2019,
-        "amount": 0.83
-      }
-    ],
-    "latest": 0.83,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2020-08-31",
+      "status": "unavailable"
+    }
   }
 }

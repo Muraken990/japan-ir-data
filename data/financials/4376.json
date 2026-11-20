@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:27.253610",
+  "fetched_at": "2026-11-20T14:16:00.212926",
   "ticker": "4376",
   "ticker_full": "4376.T",
   "company_name": "KUFU COMPANY HOLDINGS INC",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Specialty Business Services",
     "website": "https://kufu.co.jp",
-    "employees": 549,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "Mita International Building",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 177.4,
-      "deviation": 2.59,
-      "trend": "up"
+      "ma_value": 168.4,
+      "deviation": -4.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 176.48,
-      "deviation": 3.13,
-      "trend": "up"
+      "ma_value": 174.84,
+      "deviation": -8.49,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 170.08,
-      "deviation": 7.01,
-      "trend": "up"
+      "ma_value": 170.95,
+      "deviation": -6.4,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 163.4,
-      "deviation": 11.39,
-      "trend": "up"
+      "ma_value": 163.47,
+      "deviation": -2.12,
+      "trend": "down"
     }
   },
   "financials": {
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

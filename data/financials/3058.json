@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:06.636384",
+  "fetched_at": "2026-11-20T14:06:15.745012",
   "ticker": "3058",
   "ticker_full": "3058.T",
   "company_name": "SANYODO HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 727.6,
-      "deviation": -3.52,
+      "ma_value": 713.4,
+      "deviation": -1.74,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 717.4,
-      "deviation": -2.15,
+      "ma_value": 718.0,
+      "deviation": -2.37,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 711.12,
-      "deviation": -1.28,
+      "ma_value": 711.49,
+      "deviation": -1.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 700.04,
-      "deviation": 0.28,
+      "ma_value": 700.86,
+      "deviation": 0.02,
       "trend": "up"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2012,
-        "amount": 8.5
-      },
-      {
-        "year": 2013,
-        "amount": 8.5
-      },
-      {
-        "year": 2014,
-        "amount": 8.5
-      },
-      {
-        "year": 2015,
-        "amount": 8.5
-      },
-      {
-        "year": 2016,
-        "amount": 8.5
-      }
-    ],
-    "latest": 4.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

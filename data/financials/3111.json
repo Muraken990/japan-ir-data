@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:30.957808",
+  "fetched_at": "2026-11-20T13:52:29.957236",
   "ticker": "3111",
   "ticker_full": "3111.T",
   "company_name": "OMIKENSHI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 167.6,
-      "deviation": -0.95,
+      "ma_value": 162.6,
+      "deviation": -1.6,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 171.6,
-      "deviation": -3.26,
+      "ma_value": 170.08,
+      "deviation": -5.93,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 174.68,
-      "deviation": -4.97,
+      "ma_value": 174.24,
+      "deviation": -8.17,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 197.5,
-      "deviation": -15.95,
+      "ma_value": 195.34,
+      "deviation": -18.09,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2013,
-        "amount": 10.0
-      },
-      {
-        "year": 2014,
-        "amount": 10.0
-      },
-      {
-        "year": 2015,
-        "amount": 10.0
-      },
-      {
-        "year": 2016,
-        "amount": 10.0
-      },
-      {
-        "year": 2018,
-        "amount": 20.0
-      }
-    ],
-    "latest": 20.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

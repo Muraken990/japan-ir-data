@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:25.398834",
+  "fetched_at": "2026-11-20T13:58:58.173233",
   "ticker": "3089",
   "ticker_full": "3089.T",
   "company_name": "TECHNO ALPHA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1000.4,
-      "deviation": -0.14,
+      "ma_value": 981.8,
+      "deviation": -1.71,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1001.12,
-      "deviation": -0.21,
+      "ma_value": 997.28,
+      "deviation": -3.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1038.51,
-      "deviation": -3.8,
+      "ma_value": 1035.69,
+      "deviation": -6.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1105.39,
-      "deviation": -9.62,
+      "ma_value": 1098.58,
+      "deviation": -12.16,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

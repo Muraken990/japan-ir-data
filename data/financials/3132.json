@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:06.704480",
+  "fetched_at": "2026-11-20T15:05:33.730464",
   "ticker": "3132",
   "ticker_full": "3132.T",
   "company_name": "MACNICA HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3133.9,
-      "deviation": -0.03,
+      "ma_value": 2934.62,
+      "deviation": -5.39,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3930.76,
-      "deviation": -20.3,
+      "ma_value": 3602.81,
+      "deviation": -22.94,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3758.07,
-      "deviation": -16.63,
+      "ma_value": 3752.26,
+      "deviation": -26.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3136.95,
-      "deviation": -0.13,
+      "ma_value": 3148.03,
+      "deviation": -11.8,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 41.67
-      },
-      {
         "year": 2023,
-        "amount": 51.67
+        "amount": 46.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 75.0
+        "amount": 66.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 80.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 45.0,
+        "in_progress": true
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

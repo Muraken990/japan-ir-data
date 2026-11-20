@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:23.317474",
+  "fetched_at": "2026-11-20T14:08:28.783342",
   "ticker": "386A",
   "ticker_full": "386A.T",
   "company_name": "MINOYA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1234.0,
-      "deviation": -0.08,
+      "ma_value": 1217.6,
+      "deviation": -1.45,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1245.6,
-      "deviation": -1.01,
+      "ma_value": 1238.76,
+      "deviation": -3.13,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1256.56,
-      "deviation": -1.87,
+      "ma_value": 1252.55,
+      "deviation": -4.2,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1339.95,
-      "deviation": -7.98,
+      "ma_value": 1330.31,
+      "deviation": -9.8,
       "trend": "down"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 24.66
+        "amount": 24.66,
+        "in_progress": false
       }
     ],
     "latest": 24.66,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-06-30",
+      "status": "unavailable"
+    }
   }
 }

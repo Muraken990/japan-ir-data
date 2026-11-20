@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:08.122369",
+  "fetched_at": "2026-11-20T14:35:48.070781",
   "ticker": "6125",
   "ticker_full": "6125.T",
   "company_name": "OKAMOTO MACHINE TOOL WORKS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4162.0,
-      "deviation": 3.2,
-      "trend": "up"
+      "ma_value": 3972.0,
+      "deviation": -6.47,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4463.6,
-      "deviation": -3.78,
+      "ma_value": 4264.6,
+      "deviation": -12.89,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4700.47,
-      "deviation": -8.63,
+      "ma_value": 4649.91,
+      "deviation": -20.11,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4697.03,
-      "deviation": -8.56,
+      "ma_value": 4677.12,
+      "deviation": -20.57,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 160.0
-      },
-      {
         "year": 2023,
-        "amount": 200.0
+        "amount": 180.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 180.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 160.0
+        "amount": 160.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 160.0
+        "amount": 160.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 80.0,
+        "in_progress": true
       }
     ],
     "latest": 80.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 160.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:10:06.377835",
+  "fetched_at": "2026-11-20T15:13:16.352288",
   "ticker": "6902",
   "ticker_full": "6902.T",
   "company_name": "DENSO CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1915.1,
-      "deviation": 1.12,
-      "trend": "up"
+      "ma_value": 1939.75,
+      "deviation": -2.05,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1866.2,
-      "deviation": 3.77,
+      "ma_value": 1884.27,
+      "deviation": 0.83,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1886.79,
-      "deviation": 2.63,
+      "ma_value": 1877.74,
+      "deviation": 1.19,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1912.96,
-      "deviation": 1.23,
-      "trend": "up"
+      "ma_value": 1908.33,
+      "deviation": -0.44,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 43.75
-      },
-      {
         "year": 2023,
-        "amount": 48.75
+        "amount": 46.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 62.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 64.0
+        "amount": 64.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 72.0
+        "amount": 67.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 37.0,
+        "in_progress": true
       }
     ],
     "latest": 37.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 67.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

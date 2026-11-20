@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:57:57.572745",
+  "fetched_at": "2026-11-20T14:04:10.045545",
   "ticker": "6776",
   "ticker_full": "6776.T",
   "company_name": "TENSHO ELECTRIC INDUSTRIES CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 275.0,
-      "deviation": 3.64,
-      "trend": "up"
+      "ma_value": 320.4,
+      "deviation": -1.69,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 280.48,
-      "deviation": 1.61,
+      "ma_value": 287.24,
+      "deviation": 9.66,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 281.15,
-      "deviation": 1.37,
+      "ma_value": 284.8,
+      "deviation": 10.6,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 273.16,
-      "deviation": 4.33,
+      "ma_value": 274.58,
+      "deviation": 14.72,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

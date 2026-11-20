@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:57.361277",
+  "fetched_at": "2026-11-20T13:56:36.090952",
   "ticker": "3985",
   "ticker_full": "3985.T",
   "company_name": "TEMONA INC",
@@ -10,7 +10,7 @@
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
     "website": "https://temona.co.jp",
-    "employees": 115,
+    "employees": null,
     "country": "Japan",
     "city": "Shibuya",
     "address": "Teito Aoyama Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 177.2,
-      "deviation": 1.58,
-      "trend": "up"
-    },
-    "ma_25": {
-      "ma_value": 180.68,
-      "deviation": -0.38,
-      "trend": "down"
-    },
-    "ma_75": {
-      "ma_value": 184.63,
+      "ma_value": 175.4,
       "deviation": -2.51,
       "trend": "down"
     },
+    "ma_25": {
+      "ma_value": 178.84,
+      "deviation": -4.38,
+      "trend": "down"
+    },
+    "ma_75": {
+      "ma_value": 184.33,
+      "deviation": -7.23,
+      "trend": "down"
+    },
     "ma_200": {
-      "ma_value": 190.38,
-      "deviation": -5.45,
+      "ma_value": 189.13,
+      "deviation": -9.59,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:40.026726",
+  "fetched_at": "2026-11-20T13:53:34.123568",
   "ticker": "9215",
   "ticker_full": "9215.T",
   "company_name": "CASY CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 973.8,
-      "deviation": 2.49,
-      "trend": "up"
+      "ma_value": 982.8,
+      "deviation": -2.01,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 982.84,
-      "deviation": 1.54,
-      "trend": "up"
+      "ma_value": 978.52,
+      "deviation": -1.59,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 974.6,
-      "deviation": 2.4,
-      "trend": "up"
+      "ma_value": 977.91,
+      "deviation": -1.52,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 926.88,
-      "deviation": 7.67,
+      "ma_value": 928.43,
+      "deviation": 3.72,
       "trend": "up"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "no_dividend"
+    }
   }
 }

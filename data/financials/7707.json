@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:27.934816",
+  "fetched_at": "2026-11-20T14:09:31.311430",
   "ticker": "7707",
   "ticker_full": "7707.T",
   "company_name": "PRECISION SYSTEM SCIENCE CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 191.6,
-      "deviation": 0.21,
-      "trend": "up"
+      "ma_value": 191.4,
+      "deviation": -2.3,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 204.84,
-      "deviation": -6.27,
+      "ma_value": 198.72,
+      "deviation": -5.9,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 209.59,
-      "deviation": -8.39,
+      "ma_value": 208.81,
+      "deviation": -10.45,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 216.29,
-      "deviation": -11.23,
+      "ma_value": 215.58,
+      "deviation": -13.26,
       "trend": "down"
     }
   },
@@ -231,27 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2010,
-        "amount": 7.5
-      },
-      {
-        "year": 2013,
-        "amount": 11.5
-      },
-      {
-        "year": 2014,
-        "amount": 7.5
-      },
-      {
-        "year": 2021,
-        "amount": 5.0
-      },
-      {
         "year": 2026,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 2.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

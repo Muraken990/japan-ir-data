@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:10.415532",
+  "fetched_at": "2026-11-20T15:06:35.579424",
   "ticker": "6481",
   "ticker_full": "6481.T",
   "company_name": "THK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5393.6,
-      "deviation": 1.45,
-      "trend": "up"
+      "ma_value": 4557.0,
+      "deviation": -6.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5830.72,
-      "deviation": -6.15,
+      "ma_value": 5469.75,
+      "deviation": -22.32,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6374.6,
-      "deviation": -14.16,
+      "ma_value": 6272.12,
+      "deviation": -32.26,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6142.32,
-      "deviation": -10.91,
+      "ma_value": 6158.07,
+      "deviation": -31.0,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 87.0
+        "amount": 87.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 46.0
+        "amount": 46.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 146.5
+        "amount": 146.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 246.0
+        "amount": 246.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 96.0
+        "amount": 96.0,
+        "in_progress": true
       }
     ],
     "latest": 96.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 246.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:16.120677",
+  "fetched_at": "2026-11-20T14:54:52.838026",
   "ticker": "6379",
   "ticker_full": "6379.T",
   "company_name": "RAIZNEXT CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 949.4,
-      "deviation": -1.2,
+      "ma_value": 948.0,
+      "deviation": -4.11,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 991.64,
-      "deviation": -5.41,
+      "ma_value": 984.08,
+      "deviation": -7.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 951.75,
-      "deviation": -1.44,
+      "ma_value": 978.79,
+      "deviation": -7.13,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 818.37,
-      "deviation": 14.62,
+      "ma_value": 848.97,
+      "deviation": 7.07,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 19.33
-      },
-      {
         "year": 2023,
-        "amount": 34.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 46.67
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.67
+        "amount": 30.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 82.0
+        "amount": 39.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 19.33,
+        "in_progress": true
       }
     ],
-    "latest": 58.0,
-    "has_data": true
+    "latest": 19.33,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 39.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

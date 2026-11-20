@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:13.097618",
+  "fetched_at": "2026-11-20T14:43:23.720215",
   "ticker": "7388",
   "ticker_full": "7388.T",
   "company_name": "FP PARTNER INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2282.4,
-      "deviation": -0.28,
+      "ma_value": 2194.0,
+      "deviation": -3.1,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2298.2,
-      "deviation": -0.97,
+      "ma_value": 2280.4,
+      "deviation": -6.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2274.48,
-      "deviation": 0.07,
-      "trend": "up"
+      "ma_value": 2276.0,
+      "deviation": -6.59,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2243.7,
-      "deviation": 1.44,
-      "trend": "up"
+      "ma_value": 2242.07,
+      "deviation": -5.18,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 92.0
+        "amount": 92.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 94.0
+        "amount": 94.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 47.0
+        "amount": 47.0,
+        "in_progress": true
       }
     ],
     "latest": 47.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 94.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:40.158527",
+  "fetched_at": "2026-11-20T14:27:51.263028",
   "ticker": "3903",
   "ticker_full": "3903.T",
   "company_name": "GUMI INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 146.2,
-      "deviation": -5.61,
+      "ma_value": 133.8,
+      "deviation": -6.58,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 176.04,
-      "deviation": -21.61,
+      "ma_value": 164.2,
+      "deviation": -23.87,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 222.07,
-      "deviation": -37.86,
+      "ma_value": 214.63,
+      "deviation": -41.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 274.57,
-      "deviation": -49.74,
+      "ma_value": 268.44,
+      "deviation": -53.44,
       "trend": "down"
     }
   },
@@ -194,19 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 5.0
-      },
-      {
-        "year": 2021,
-        "amount": 5.0
-      },
-      {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 4,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-04-30",
+      "status": "no_dividend"
+    }
   }
 }

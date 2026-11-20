@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:18.434612",
+  "fetched_at": "2026-11-20T15:08:40.897247",
   "ticker": "7649",
   "ticker_full": "7649.T",
   "company_name": "SUGI HOLDINGS CO.LTD.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1372.8,
-      "deviation": 3.18,
-      "trend": "up"
+      "ma_value": 1428.0,
+      "deviation": -1.16,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1295.78,
-      "deviation": 9.32,
+      "ma_value": 1331.04,
+      "deviation": 6.04,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1319.85,
-      "deviation": 7.32,
+      "ma_value": 1316.15,
+      "deviation": 7.24,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1517.1,
-      "deviation": -6.63,
+      "ma_value": 1505.77,
+      "deviation": -6.26,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 13.33
-      },
-      {
         "year": 2023,
-        "amount": 13.33
+        "amount": 13.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 14.17
+        "amount": 13.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 17.5
+        "amount": 17.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.5
+        "amount": 17.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 7.5,
+        "in_progress": true
       }
     ],
     "latest": 7.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 17.5,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

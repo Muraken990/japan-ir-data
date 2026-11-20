@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:56.020141",
+  "fetched_at": "2026-11-20T14:20:19.201526",
   "ticker": "3900",
   "ticker_full": "3900.T",
   "company_name": "CROWDWORKS INC",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Staffing & Employment Services",
     "website": "https://crowdworks.co.jp",
-    "employees": 760,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "Yebisu Garden Place Tower",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 586.6,
-      "deviation": 0.58,
-      "trend": "up"
+      "ma_value": 527.4,
+      "deviation": -14.3,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 671.4,
-      "deviation": -12.12,
+      "ma_value": 626.6,
+      "deviation": -27.86,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 675.27,
-      "deviation": -12.63,
+      "ma_value": 664.71,
+      "deviation": -32.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 661.1,
-      "deviation": -10.75,
+      "ma_value": 654.65,
+      "deviation": -30.96,
       "trend": "down"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2024,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

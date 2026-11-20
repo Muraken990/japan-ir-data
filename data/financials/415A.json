@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:08.180101",
+  "fetched_at": "2026-11-20T14:12:54.886577",
   "ticker": "415A",
   "ticker_full": "415A.T",
   "company_name": "GMO TECH HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4768.0,
-      "deviation": 0.67,
-      "trend": "up"
+      "ma_value": 5000.0,
+      "deviation": -0.7,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5196.2,
-      "deviation": -7.62,
+      "ma_value": 5073.4,
+      "deviation": -2.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5155.07,
-      "deviation": -6.89,
+      "ma_value": 5166.47,
+      "deviation": -3.9,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5055.68,
-      "deviation": -5.06,
+      "ma_value": 5062.9,
+      "deviation": -1.93,
       "trend": "down"
     }
   },
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 30.68
-      },
-      {
-        "year": 2019,
-        "amount": 68.09
-      },
-      {
         "year": 2023,
-        "amount": 184.48
+        "amount": 184.48,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 307.09
+        "amount": 307.09,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 246.6
+        "amount": 246.6,
+        "in_progress": false
       }
     ],
     "latest": 246.6,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 246.6,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

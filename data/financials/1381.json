@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:08.728265",
+  "fetched_at": "2026-11-20T14:31:07.868642",
   "ticker": "1381",
   "ticker_full": "1381.T",
   "company_name": "AXYZ",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2998.0,
-      "deviation": 0.57,
-      "trend": "up"
+      "ma_value": 2993.8,
+      "deviation": -0.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3338.0,
-      "deviation": -9.68,
+      "ma_value": 3232.16,
+      "deviation": -7.8,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3454.8,
-      "deviation": -12.73,
+      "ma_value": 3422.45,
+      "deviation": -12.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3611.78,
-      "deviation": -16.52,
+      "ma_value": 3579.68,
+      "deviation": -16.75,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 95.0
+        "amount": 95.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 96.5
+        "amount": 96.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 98.5
+        "amount": 98.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 112.5
+        "amount": 112.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       }
     ],
     "latest": 120.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

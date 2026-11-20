@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:11.558269",
+  "fetched_at": "2026-11-20T14:49:00.893192",
   "ticker": "7995",
   "ticker_full": "7995.T",
   "company_name": "VALQUA LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6078.0,
-      "deviation": 1.68,
-      "trend": "up"
+      "ma_value": 5762.0,
+      "deviation": -5.24,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6448.0,
-      "deviation": -4.16,
+      "ma_value": 6159.2,
+      "deviation": -11.35,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6560.24,
-      "deviation": -5.8,
+      "ma_value": 6528.78,
+      "deviation": -16.37,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6120.17,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 6156.37,
+      "deviation": -11.31,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 135.0
-      },
-      {
         "year": 2023,
-        "amount": 165.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 150.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 150.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 160.0
+        "amount": 150.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 85.0,
+        "in_progress": true
       }
     ],
     "latest": 85.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 150.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

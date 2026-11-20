@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:54:57.791522",
+  "fetched_at": "2026-11-20T14:58:29.743361",
   "ticker": "2602",
   "ticker_full": "2602.T",
   "company_name": "NISSHIN OILLIO GROUP LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2150.6,
-      "deviation": 1.18,
-      "trend": "up"
+      "ma_value": 2142.8,
+      "deviation": -2.04,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2071.12,
-      "deviation": 5.06,
+      "ma_value": 2095.36,
+      "deviation": 0.17,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2017.71,
-      "deviation": 7.85,
+      "ma_value": 2030.39,
+      "deviation": 3.38,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1902.62,
-      "deviation": 14.37,
+      "ma_value": 1910.71,
+      "deviation": 9.85,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 45.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 66.67
+        "amount": 56.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

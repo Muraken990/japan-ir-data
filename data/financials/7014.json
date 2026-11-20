@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:58:22.241663",
+  "fetched_at": "2026-11-20T15:01:53.725835",
   "ticker": "7014",
   "ticker_full": "7014.T",
   "company_name": "NAMURA SHIPBUILDING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3716.0,
-      "deviation": -1.64,
+      "ma_value": 3391.25,
+      "deviation": -7.41,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4138.4,
-      "deviation": -11.68,
+      "ma_value": 3931.88,
+      "deviation": -20.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4421.62,
-      "deviation": -17.34,
+      "ma_value": 4376.2,
+      "deviation": -28.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4297.47,
-      "deviation": -14.95,
+      "ma_value": 4278.09,
+      "deviation": -26.6,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 3.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

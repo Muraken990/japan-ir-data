@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:12.344364",
+  "fetched_at": "2026-11-20T15:00:41.435341",
   "ticker": "8714",
   "ticker_full": "8714.T",
   "company_name": "SENSHU IKEDA HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 836.6,
-      "deviation": 2.32,
-      "trend": "up"
+      "ma_value": 812.0,
+      "deviation": -7.02,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 943.88,
-      "deviation": -9.31,
+      "ma_value": 895.08,
+      "deviation": -15.65,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1022.99,
-      "deviation": -16.32,
+      "ma_value": 1012.34,
+      "deviation": -25.42,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 953.91,
-      "deviation": -10.26,
+      "ma_value": 954.38,
+      "deviation": -20.89,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 11.25
-      },
-      {
         "year": 2023,
-        "amount": 11.25
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.75
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.5
+        "amount": 15.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.25
+        "amount": 25.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 13.75,
+        "in_progress": true
       }
     ],
     "latest": 13.75,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

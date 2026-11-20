@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:44.188823",
+  "fetched_at": "2026-11-20T14:18:11.010594",
   "ticker": "4651",
   "ticker_full": "4651.T",
   "company_name": "SANIX HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 234.0,
-      "deviation": 0.0,
+      "ma_value": 213.8,
+      "deviation": -5.05,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 230.76,
-      "deviation": 1.4,
-      "trend": "up"
+      "ma_value": 226.48,
+      "deviation": -10.37,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 251.8,
-      "deviation": -7.07,
+      "ma_value": 248.45,
+      "deviation": -18.29,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 237.03,
-      "deviation": -1.28,
+      "ma_value": 236.83,
+      "deviation": -14.28,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥11億",
         "net_income": 421000000.0,
         "net_income_fmt": "¥4億",
-        "eps": 11.24,
+        "eps": 8.82,
         "operating_margin": 2.82,
         "total_assets": 40024000000.0,
         "total_assets_fmt": "¥400億",
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 2.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

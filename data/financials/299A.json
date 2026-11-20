@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:14.327375",
+  "fetched_at": "2026-11-20T14:43:24.938017",
   "ticker": "299A",
   "ticker_full": "299A.T",
   "company_name": "KURASHIRU INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1120.8,
-      "deviation": -1.59,
+      "ma_value": 1007.0,
+      "deviation": -12.21,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1145.48,
-      "deviation": -3.71,
+      "ma_value": 1105.56,
+      "deviation": -20.04,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1186.2,
-      "deviation": -7.01,
+      "ma_value": 1183.63,
+      "deviation": -25.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1079.15,
-      "deviation": 2.21,
-      "trend": "up"
+      "ma_value": 1074.33,
+      "deviation": -17.72,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥35億",
         "net_income": 2461113000.0,
         "net_income_fmt": "¥25億",
-        "eps": 58.67,
+        "eps": 54.84,
         "operating_margin": 20.37,
         "total_assets": 16919698000.0,
         "total_assets_fmt": "¥169億",
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

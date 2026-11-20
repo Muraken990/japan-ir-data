@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:20.796869",
+  "fetched_at": "2026-11-20T14:08:26.632495",
   "ticker": "7075",
   "ticker_full": "7075.T",
   "company_name": "QLS HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 978.2,
-      "deviation": -2.88,
+      "ma_value": 873.4,
+      "deviation": -5.08,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 986.08,
-      "deviation": -3.66,
+      "ma_value": 960.52,
+      "deviation": -13.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 940.83,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 944.95,
+      "deviation": -12.27,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 843.06,
-      "deviation": 12.68,
-      "trend": "up"
+      "ma_value": 845.89,
+      "deviation": -2.0,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:18.097067",
+  "fetched_at": "2026-11-20T14:06:26.070514",
   "ticker": "5542",
   "ticker_full": "5542.T",
   "company_name": "SHINHOKOKU MATERIAL CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1061.4,
-      "deviation": -1.07,
+      "ma_value": 995.6,
+      "deviation": -5.89,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1137.32,
-      "deviation": -7.68,
+      "ma_value": 1092.0,
+      "deviation": -14.19,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1036.0,
-      "deviation": 1.35,
-      "trend": "up"
+      "ma_value": 1049.68,
+      "deviation": -10.73,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 888.81,
-      "deviation": 18.14,
+      "ma_value": 894.67,
+      "deviation": 4.73,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2016-12-31",
+      "status": "unavailable"
+    }
   }
 }

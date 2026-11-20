@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:58.799306",
+  "fetched_at": "2026-11-20T14:23:25.246980",
   "ticker": "7775",
   "ticker_full": "7775.T",
   "company_name": "DAIKEN MEDICAL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 411.0,
-      "deviation": 0.0,
+      "ma_value": 409.2,
+      "deviation": -1.03,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 420.72,
-      "deviation": -2.31,
+      "ma_value": 417.72,
+      "deviation": -3.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 417.8,
-      "deviation": -1.63,
+      "ma_value": 417.24,
+      "deviation": -2.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 427.24,
-      "deviation": -3.8,
+      "ma_value": 426.3,
+      "deviation": -5.0,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 9.0,
+        "in_progress": true
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

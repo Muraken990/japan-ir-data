@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:16.606078",
+  "fetched_at": "2026-11-20T14:23:36.730846",
   "ticker": "9701",
   "ticker_full": "9701.T",
   "company_name": "TOKYO KAIKAN CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4940.0,
-      "deviation": -0.1,
+      "ma_value": 4966.0,
+      "deviation": -0.32,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4772.8,
-      "deviation": 3.4,
+      "ma_value": 4831.6,
+      "deviation": 2.45,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 4487.8,
-      "deviation": 9.96,
+      "ma_value": 4537.73,
+      "deviation": 9.09,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 4420.15,
-      "deviation": 11.65,
+      "ma_value": 4431.3,
+      "deviation": 11.71,
       "trend": "up"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2012-03-31",
+      "status": "unavailable"
+    }
   }
 }

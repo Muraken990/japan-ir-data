@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:40.927173",
+  "fetched_at": "2026-11-20T15:11:53.992663",
   "ticker": "8697",
   "ticker_full": "8697.T",
   "company_name": "JAPAN EXCHANGE GROUP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2172.0,
-      "deviation": 2.05,
-      "trend": "up"
+      "ma_value": 2158.12,
+      "deviation": -5.08,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2175.22,
-      "deviation": 1.9,
-      "trend": "up"
+      "ma_value": 2160.25,
+      "deviation": -5.17,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2198.98,
-      "deviation": 0.8,
-      "trend": "up"
+      "ma_value": 2196.61,
+      "deviation": -6.74,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2010.3,
-      "deviation": 10.26,
+      "ma_value": 2021.19,
+      "deviation": 1.35,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 36.0
-      },
-      {
         "year": 2023,
-        "amount": 34.0
+        "amount": 31.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 46.5
+        "amount": 45.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 45.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 77.0
+        "amount": 61.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 41.0,
+        "in_progress": true
       }
     ],
     "latest": 41.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 61.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:08.168632",
+  "fetched_at": "2026-11-20T15:14:17.347834",
   "ticker": "8316",
   "ticker_full": "8316.T",
   "company_name": "SUMITOMO MITSUI FINANCIAL GROUP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3238.2,
-      "deviation": 1.14,
-      "trend": "up"
+      "ma_value": 3144.0,
+      "deviation": -6.62,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3209.48,
-      "deviation": 2.04,
-      "trend": "up"
+      "ma_value": 3183.58,
+      "deviation": -7.78,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3319.81,
-      "deviation": -1.35,
+      "ma_value": 3302.5,
+      "deviation": -11.1,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3042.55,
-      "deviation": 7.64,
-      "trend": "up"
+      "ma_value": 3054.38,
+      "deviation": -3.88,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "N/A",
         "net_income": 1582973000000.0,
         "net_income_fmt": "¥1.6T",
-        "eps": 411.88,
+        "eps": 205.94,
         "operating_margin": 0.0,
         "total_assets": 328511145000000.0,
         "total_assets_fmt": "¥328.5T",
@@ -89,7 +89,7 @@
         "ebit_fmt": "N/A",
         "net_income": 1177996000000.0,
         "net_income_fmt": "¥1.2T",
-        "eps": 0,
+        "eps": 150.74,
         "operating_margin": 0.0,
         "total_assets": 306282015000000.0,
         "total_assets_fmt": "¥306.3T",
@@ -126,7 +126,7 @@
         "ebit_fmt": "N/A",
         "net_income": 962946000000.0,
         "net_income_fmt": "¥9629億",
-        "eps": 241.45,
+        "eps": 120.72,
         "operating_margin": 0.0,
         "total_assets": 295236701000000.0,
         "total_assets_fmt": "¥295.2T",
@@ -163,7 +163,7 @@
         "ebit_fmt": "N/A",
         "net_income": 805842000000.0,
         "net_income_fmt": "¥8058億",
-        "eps": 196.75,
+        "eps": 98.38,
         "operating_margin": 0.0,
         "total_assets": 270428564000000.0,
         "total_assets_fmt": "¥270.4T",
@@ -200,7 +200,7 @@
         "ebit_fmt": "N/A",
         "net_income": 0,
         "net_income_fmt": "N/A",
-        "eps": 171.77,
+        "eps": 0,
         "operating_margin": 0,
         "total_assets": 0,
         "total_assets_fmt": "N/A",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 36.67
-      },
-      {
         "year": 2023,
-        "amount": 43.33
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 52.5
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 61.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 89.5
+        "amount": 78.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 78.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

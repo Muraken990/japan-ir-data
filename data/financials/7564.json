@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:06.770401",
+  "fetched_at": "2026-11-20T15:07:30.389125",
   "ticker": "7564",
   "ticker_full": "7564.T",
   "company_name": "WORKMAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5334.0,
-      "deviation": 3.67,
-      "trend": "up"
+      "ma_value": 5392.5,
+      "deviation": -3.94,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5196.8,
-      "deviation": 6.41,
-      "trend": "up"
+      "ma_value": 5222.08,
+      "deviation": -0.81,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5638.67,
-      "deviation": -1.93,
+      "ma_value": 5610.0,
+      "deviation": -7.66,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6360.82,
-      "deviation": -13.06,
+      "ma_value": 6337.79,
+      "deviation": -18.27,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 73.0
+        "amount": 73.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 89.0
+        "amount": 89.0,
+        "in_progress": false
       }
     ],
     "latest": 89.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 89.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

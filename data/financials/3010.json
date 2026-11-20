@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:00.086536",
+  "fetched_at": "2026-11-20T14:42:19.801045",
   "ticker": "3010",
   "ticker_full": "3010.T",
   "company_name": "POLARIS HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 191.2,
-      "deviation": -0.63,
+      "ma_value": 183.8,
+      "deviation": -3.16,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 189.6,
-      "deviation": 0.21,
-      "trend": "up"
+      "ma_value": 188.6,
+      "deviation": -5.62,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 191.0,
-      "deviation": -0.52,
+      "ma_value": 190.12,
+      "deviation": -6.37,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 183.84,
-      "deviation": 3.35,
-      "trend": "up"
+      "ma_value": 183.89,
+      "deviation": -3.21,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

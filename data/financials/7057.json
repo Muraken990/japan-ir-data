@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:28.003521",
+  "fetched_at": "2026-11-20T14:00:57.350983",
   "ticker": "7057",
   "ticker_full": "7057.T",
   "company_name": "NEW CONSTRUCTOR'S NETWORK CO LT",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 899.6,
-      "deviation": 1.71,
-      "trend": "up"
+      "ma_value": 906.0,
+      "deviation": -2.98,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 903.08,
-      "deviation": 1.32,
-      "trend": "up"
+      "ma_value": 899.44,
+      "deviation": -2.27,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 916.79,
-      "deviation": -0.19,
+      "ma_value": 914.24,
+      "deviation": -3.85,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 948.25,
-      "deviation": -3.51,
+      "ma_value": 943.04,
+      "deviation": -6.79,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 31.0
+        "amount": 31.0,
+        "in_progress": false
       }
     ],
     "latest": 31.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 31.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

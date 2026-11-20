@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:30:03.889013",
+  "fetched_at": "2026-11-20T14:34:48.220874",
   "ticker": "6835",
   "ticker_full": "6835.T",
   "company_name": "ALLIED TELESIS HOLDINGS KK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 284.0,
-      "deviation": 0.7,
-      "trend": "up"
+      "ma_value": 240.6,
+      "deviation": -5.24,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 294.4,
-      "deviation": -2.85,
+      "ma_value": 284.08,
+      "deviation": -19.74,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 270.04,
-      "deviation": 5.91,
-      "trend": "up"
+      "ma_value": 270.2,
+      "deviation": -15.62,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 270.84,
-      "deviation": 5.6,
-      "trend": "up"
+      "ma_value": 269.42,
+      "deviation": -15.37,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2013,
-        "amount": 3.0
-      },
-      {
         "year": 2023,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": true
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 8.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

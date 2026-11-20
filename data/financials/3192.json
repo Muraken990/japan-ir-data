@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:47:39.836492",
+  "fetched_at": "2026-11-20T13:54:30.152132",
   "ticker": "3192",
   "ticker_full": "3192.T",
   "company_name": "SHIROHATO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 189.6,
-      "deviation": 3.9,
-      "trend": "up"
+      "ma_value": 188.4,
+      "deviation": -6.58,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 200.84,
-      "deviation": -1.91,
+      "ma_value": 195.12,
+      "deviation": -9.8,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 251.63,
-      "deviation": -21.71,
+      "ma_value": 244.71,
+      "deviation": -28.08,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 310.75,
-      "deviation": -36.6,
+      "ma_value": 308.05,
+      "deviation": -42.87,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2014,
-        "amount": 6.0
-      },
-      {
-        "year": 2015,
-        "amount": 7.5
-      },
-      {
-        "year": 2016,
-        "amount": 8.0
-      },
-      {
-        "year": 2017,
-        "amount": 9.0
-      },
-      {
-        "year": 2019,
-        "amount": 3.0
-      }
-    ],
-    "latest": 3.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "no_dividend"
+    }
   }
 }

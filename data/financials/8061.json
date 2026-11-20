@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:19.701543",
+  "fetched_at": "2026-11-20T14:51:06.499393",
   "ticker": "8061",
   "ticker_full": "8061.T",
   "company_name": "SEIKA CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2779.4,
-      "deviation": -0.95,
+      "ma_value": 2608.6,
+      "deviation": -3.93,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2893.84,
-      "deviation": -4.87,
+      "ma_value": 2817.56,
+      "deviation": -11.06,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2927.86,
-      "deviation": -5.97,
+      "ma_value": 2932.81,
+      "deviation": -14.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2802.16,
-      "deviation": -1.75,
+      "ma_value": 2806.79,
+      "deviation": -10.72,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 25.0
-      },
-      {
         "year": 2023,
-        "amount": 38.33
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 79.99
+        "amount": 73.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 91.0
+        "amount": 81.66,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 46.0,
+        "in_progress": true
       }
     ],
     "latest": 46.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 81.66,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

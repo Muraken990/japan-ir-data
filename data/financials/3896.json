@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:21.294106",
+  "fetched_at": "2026-11-20T14:00:52.593594",
   "ticker": "3896",
   "ticker_full": "3896.T",
   "company_name": "AWA PAPER MFG CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 393.4,
-      "deviation": 3.46,
-      "trend": "up"
+      "ma_value": 390.8,
+      "deviation": -7.11,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 394.48,
-      "deviation": 3.17,
-      "trend": "up"
+      "ma_value": 391.64,
+      "deviation": -7.31,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 397.77,
-      "deviation": 2.32,
-      "trend": "up"
+      "ma_value": 399.41,
+      "deviation": -9.11,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 404.97,
-      "deviation": 0.5,
-      "trend": "up"
+      "ma_value": 403.83,
+      "deviation": -10.11,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2017,
-        "amount": 8.0
-      },
-      {
-        "year": 2018,
-        "amount": 7.0
-      },
-      {
-        "year": 2019,
-        "amount": 3.5
-      },
-      {
         "year": 2023,
-        "amount": 5.5
+        "amount": 3.5,
+        "in_progress": false
       },
       {
-        "year": 2026,
-        "amount": 2.0
+        "year": 2024,
+        "amount": 2.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 2.0,
+        "in_progress": true
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

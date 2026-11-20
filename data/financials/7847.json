@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:57:58.081615",
+  "fetched_at": "2026-11-20T14:04:10.338586",
   "ticker": "7847",
   "ticker_full": "7847.T",
   "company_name": "GRAPHITE DESIGN INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 670.8,
-      "deviation": 1.82,
+      "ma_value": 685.6,
+      "deviation": 0.35,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 678.28,
-      "deviation": 0.7,
+      "ma_value": 673.48,
+      "deviation": 2.16,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 663.85,
-      "deviation": 2.88,
+      "ma_value": 667.64,
+      "deviation": 3.05,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 633.39,
-      "deviation": 7.83,
+      "ma_value": 634.54,
+      "deviation": 8.43,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 45.0
-      },
-      {
         "year": 2023,
-        "amount": 60.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2012-02-29",
+      "status": "unavailable"
+    }
   }
 }

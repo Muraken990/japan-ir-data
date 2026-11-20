@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:53:17.900559",
+  "fetched_at": "2026-11-20T14:56:51.651944",
   "ticker": "3287",
   "ticker_full": "3287.T",
   "company_name": "HOSHINO RESORTS REIT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 223260.0,
-      "deviation": 0.33,
-      "trend": "up"
+      "ma_value": 220000.0,
+      "deviation": -2.18,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 222033.44,
-      "deviation": 0.89,
-      "trend": "up"
+      "ma_value": 221828.09,
+      "deviation": -2.99,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 228275.23,
-      "deviation": -1.87,
+      "ma_value": 226996.51,
+      "deviation": -5.2,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 234824.73,
-      "deviation": -4.61,
+      "ma_value": 234262.19,
+      "deviation": -8.14,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7438.0
+        "amount": 7438.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 8471.0
+        "amount": 8471.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 9133.0
+        "amount": 9133.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10692.0
+        "amount": 10692.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 14029.0
+        "amount": 14029.0,
+        "in_progress": false
       }
     ],
     "latest": 7197.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 10692.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

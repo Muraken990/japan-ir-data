@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:44.347997",
+  "fetched_at": "2026-11-20T13:49:47.107535",
   "ticker": "549A",
   "ticker_full": "549A.T",
   "company_name": "HITO-TO-HITO HOLDINGS CO LTD",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 449.6,
-      "deviation": -0.13,
+      "ma_value": 414.6,
+      "deviation": -4.0,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 455.36,
-      "deviation": -1.4,
+      "ma_value": 448.2,
+      "deviation": -11.2,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 471.94,
-      "deviation": -4.86,
+      "ma_value": 469.59,
+      "deviation": -15.25,
       "trend": "down"
     },
     "ma_200": {
@@ -120,11 +120,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2026,
-        "amount": 10.72
+        "year": 2027,
+        "amount": 10.72,
+        "in_progress": true
       }
     ],
     "latest": 10.72,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

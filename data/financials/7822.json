@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:32.883276",
+  "fetched_at": "2026-11-20T14:18:00.705517",
   "ticker": "7822",
   "ticker_full": "7822.T",
   "company_name": "EIDAI CO.LTD.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 240.4,
-      "deviation": 1.08,
-      "trend": "up"
+      "ma_value": 239.4,
+      "deviation": -3.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 241.04,
-      "deviation": 0.81,
-      "trend": "up"
+      "ma_value": 240.04,
+      "deviation": -3.35,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 246.04,
-      "deviation": -1.24,
+      "ma_value": 246.34,
+      "deviation": -5.82,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 238.3,
-      "deviation": 1.97,
-      "trend": "up"
+      "ma_value": 238.5,
+      "deviation": -2.72,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 11.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

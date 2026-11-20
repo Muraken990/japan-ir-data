@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:17.383663",
+  "fetched_at": "2026-11-20T14:24:35.208396",
   "ticker": "5356",
   "ticker_full": "5356.T",
   "company_name": "MINO CERAMIC CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1195.8,
-      "deviation": 1.19,
-      "trend": "up"
+      "ma_value": 1159.2,
+      "deviation": -2.52,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1206.84,
-      "deviation": 0.26,
-      "trend": "up"
+      "ma_value": 1196.6,
+      "deviation": -5.57,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1240.46,
-      "deviation": -2.46,
+      "ma_value": 1235.47,
+      "deviation": -8.54,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1227.28,
-      "deviation": -1.41,
+      "ma_value": 1227.55,
+      "deviation": -7.95,
       "trend": "down"
     }
   },
@@ -232,18 +232,33 @@
     "history": [
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 47.0
+        "amount": 42.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 26.0,
+        "in_progress": true
       }
     ],
     "latest": 26.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 42.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:40.569976",
+  "fetched_at": "2026-11-20T15:03:12.639119",
   "ticker": "429A",
   "ticker_full": "429A.T",
   "company_name": "TEKSCEND PHOTOMASK CORP.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2931.8,
-      "deviation": 2.5,
-      "trend": "up"
+      "ma_value": 2835.25,
+      "deviation": -8.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3220.44,
-      "deviation": -6.69,
+      "ma_value": 3052.58,
+      "deviation": -15.42,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3607.83,
-      "deviation": -16.71,
+      "ma_value": 3550.55,
+      "deviation": -27.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3615.85,
-      "deviation": -16.89,
+      "ma_value": 3617.39,
+      "deviation": -28.62,
       "trend": "down"
     }
   },
@@ -195,10 +195,23 @@
     "history": [
       {
         "year": 2026,
-        "amount": 91.0
+        "amount": 56.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

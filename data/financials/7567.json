@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:06.189073",
+  "fetched_at": "2026-11-20T13:55:46.318512",
   "ticker": "7567",
   "ticker_full": "7567.T",
   "company_name": "SAKAE ELECTRONICS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 609.4,
-      "deviation": 3.22,
-      "trend": "up"
+      "ma_value": 604.4,
+      "deviation": -4.86,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 625.8,
-      "deviation": 0.51,
-      "trend": "up"
+      "ma_value": 616.6,
+      "deviation": -6.75,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 610.27,
-      "deviation": 3.07,
-      "trend": "up"
+      "ma_value": 615.47,
+      "deviation": -6.57,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 550.0,
-      "deviation": 14.36,
+      "ma_value": 552.87,
+      "deviation": 4.0,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       }
     ],
     "latest": 11.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 11.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

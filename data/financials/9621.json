@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:18.983506",
+  "fetched_at": "2026-11-20T14:50:07.233713",
   "ticker": "9621",
   "ticker_full": "9621.T",
   "company_name": "CTI ENGINEERING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3598.0,
-      "deviation": 1.86,
-      "trend": "up"
+      "ma_value": 3471.0,
+      "deviation": -4.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3519.0,
-      "deviation": 4.15,
-      "trend": "up"
+      "ma_value": 3537.8,
+      "deviation": -6.3,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3304.71,
-      "deviation": 10.9,
-      "trend": "up"
+      "ma_value": 3338.67,
+      "deviation": -0.71,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3090.66,
-      "deviation": 18.58,
+      "ma_value": 3101.59,
+      "deviation": 6.88,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       }
     ],
     "latest": 75.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 75.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

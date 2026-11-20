@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:33.769528",
+  "fetched_at": "2026-11-20T14:18:01.647188",
   "ticker": "4389",
   "ticker_full": "4389.T",
   "company_name": "PROPERTY DATA BANK INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1029.6,
-      "deviation": 1.3,
-      "trend": "up"
+      "ma_value": 1015.0,
+      "deviation": -1.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1032.28,
-      "deviation": 1.04,
-      "trend": "up"
+      "ma_value": 1028.8,
+      "deviation": -2.8,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1052.97,
-      "deviation": -0.95,
+      "ma_value": 1050.41,
+      "deviation": -4.8,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 930.23,
-      "deviation": 12.12,
+      "ma_value": 933.5,
+      "deviation": 7.12,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 32.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

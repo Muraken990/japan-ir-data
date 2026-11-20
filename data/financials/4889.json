@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:55.623003",
+  "fetched_at": "2026-11-20T14:29:02.011403",
   "ticker": "4889",
   "ticker_full": "4889.T",
   "company_name": "RENASCIENCE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 869.4,
-      "deviation": 3.06,
-      "trend": "up"
+      "ma_value": 836.0,
+      "deviation": -5.98,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 959.84,
-      "deviation": -6.65,
+      "ma_value": 923.32,
+      "deviation": -14.87,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1168.91,
-      "deviation": -23.35,
+      "ma_value": 1126.59,
+      "deviation": -30.23,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1434.92,
-      "deviation": -37.56,
+      "ma_value": 1417.95,
+      "deviation": -44.57,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

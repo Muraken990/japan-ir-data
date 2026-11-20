@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:08.233291",
+  "fetched_at": "2026-11-20T14:29:09.430336",
   "ticker": "3665",
   "ticker_full": "3665.T",
   "company_name": "ENIGMO INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 406.4,
-      "deviation": 0.39,
-      "trend": "up"
+      "ma_value": 401.0,
+      "deviation": -1.0,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 408.48,
-      "deviation": -0.12,
+      "ma_value": 407.16,
+      "deviation": -2.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 411.89,
-      "deviation": -0.95,
+      "ma_value": 411.33,
+      "deviation": -3.48,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 399.35,
-      "deviation": 2.17,
-      "trend": "up"
+      "ma_value": 397.3,
+      "deviation": -0.08,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

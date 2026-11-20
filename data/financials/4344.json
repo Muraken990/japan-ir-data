@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:48.804897",
+  "fetched_at": "2026-11-20T14:28:57.849812",
   "ticker": "4344",
   "ticker_full": "4344.T",
   "company_name": "SOURCENEXT CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 90.8,
-      "deviation": -1.98,
+      "ma_value": 80.8,
+      "deviation": -2.23,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 101.0,
-      "deviation": -11.88,
+      "ma_value": 95.96,
+      "deviation": -17.67,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 107.08,
-      "deviation": -16.88,
+      "ma_value": 105.08,
+      "deviation": -24.82,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 116.92,
-      "deviation": -23.88,
+      "ma_value": 115.38,
+      "deviation": -31.53,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2017,
-        "amount": 1.55
-      },
-      {
-        "year": 2018,
-        "amount": 1.52
-      },
-      {
-        "year": 2019,
-        "amount": 0.68
-      },
-      {
-        "year": 2020,
-        "amount": 0.25
-      },
-      {
-        "year": 2021,
-        "amount": 0.46
-      }
-    ],
-    "latest": 0.46,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

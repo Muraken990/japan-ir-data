@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:50.583016",
+  "fetched_at": "2026-11-20T14:33:40.053313",
   "ticker": "4092",
   "ticker_full": "4092.T",
   "company_name": "NIPPON CHEMICAL INDUSTRIAL CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4669.0,
-      "deviation": -3.3,
+      "ma_value": 4330.0,
+      "deviation": -7.85,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4916.0,
-      "deviation": -8.16,
+      "ma_value": 4695.6,
+      "deviation": -15.03,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5231.9,
-      "deviation": -13.7,
+      "ma_value": 5174.38,
+      "deviation": -22.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4299.28,
-      "deviation": 5.02,
-      "trend": "up"
+      "ma_value": 4330.77,
+      "deviation": -7.87,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 85.0
-      },
-      {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 81.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 106.0
+        "amount": 92.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 180.0
+        "amount": 120.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 120.0,
+        "in_progress": true
       }
     ],
     "latest": 120.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

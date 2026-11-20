@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:19.586956",
+  "fetched_at": "2026-11-20T14:07:26.973572",
   "ticker": "4270",
   "ticker_full": "4270.T",
   "company_name": "BEEX INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1779.0,
-      "deviation": 1.63,
-      "trend": "up"
+      "ma_value": 1778.2,
+      "deviation": -4.12,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1853.72,
-      "deviation": -2.47,
+      "ma_value": 1829.4,
+      "deviation": -6.8,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1865.65,
-      "deviation": -3.09,
+      "ma_value": 1864.37,
+      "deviation": -8.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1942.7,
-      "deviation": -6.93,
+      "ma_value": 1929.6,
+      "deviation": -11.64,
       "trend": "down"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

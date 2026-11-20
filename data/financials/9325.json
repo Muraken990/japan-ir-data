@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:45.182770",
+  "fetched_at": "2026-11-20T14:20:09.441841",
   "ticker": "9325",
   "ticker_full": "9325.T",
   "company_name": "PHYZ HOLDINGS INC",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Specialty Business Services",
     "website": "https://www.phyz.co.jp",
-    "employees": 812,
+    "employees": 866,
     "country": "Japan",
     "city": "Osaka",
     "address": "Mainichi Intecio",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1007.6,
-      "deviation": 2.42,
-      "trend": "up"
+      "ma_value": 995.6,
+      "deviation": -2.77,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1031.6,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 1023.28,
+      "deviation": -5.4,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1050.26,
-      "deviation": -1.74,
+      "ma_value": 1042.23,
+      "deviation": -7.12,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1109.56,
-      "deviation": -6.99,
+      "ma_value": 1107.24,
+      "deviation": -12.58,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥16億",
         "net_income": 1023874000.0,
         "net_income_fmt": "¥10億",
-        "eps": 95.35,
+        "eps": 95.23,
         "operating_margin": 3.8,
         "total_assets": 13737806000.0,
         "total_assets_fmt": "¥137億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 7.0
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 34.0
+        "amount": 30.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 19.0,
+        "in_progress": true
       }
     ],
     "latest": 19.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

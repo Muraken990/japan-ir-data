@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:55.224989",
+  "fetched_at": "2026-11-20T14:28:05.441835",
   "ticker": "4493",
   "ticker_full": "4493.T",
   "company_name": "CYBER SECURITY CLOUD INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2464.6,
-      "deviation": -8.95,
+      "ma_value": 1810.2,
+      "deviation": -7.14,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3119.56,
-      "deviation": -28.07,
+      "ma_value": 2759.6,
+      "deviation": -39.09,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2317.8,
-      "deviation": -3.18,
+      "ma_value": 2320.04,
+      "deviation": -27.54,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1944.72,
-      "deviation": 15.39,
-      "trend": "up"
+      "ma_value": 1943.01,
+      "deviation": -13.48,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

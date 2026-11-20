@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:55:41.545762",
+  "fetched_at": "2026-11-20T14:02:00.864284",
   "ticker": "7063",
   "ticker_full": "7063.T",
   "company_name": "BIRDMAN INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 37.8,
-      "deviation": 0.53,
-      "trend": "up"
+      "ma_value": 36.8,
+      "deviation": -2.17,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 41.76,
-      "deviation": -9.0,
+      "ma_value": 39.76,
+      "deviation": -9.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 68.79,
-      "deviation": -44.76,
+      "ma_value": 64.75,
+      "deviation": -44.4,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 93.66,
-      "deviation": -59.43,
+      "ma_value": 91.31,
+      "deviation": -60.57,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

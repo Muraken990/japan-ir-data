@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:40.707140",
+  "fetched_at": "2026-11-20T14:33:32.981488",
   "ticker": "5074",
   "ticker_full": "5074.T",
   "company_name": "TESS HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 442.6,
-      "deviation": -0.81,
+      "ma_value": 361.8,
+      "deviation": -9.89,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 466.48,
-      "deviation": -5.89,
+      "ma_value": 438.6,
+      "deviation": -25.67,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 577.21,
-      "deviation": -23.94,
+      "ma_value": 556.56,
+      "deviation": -41.43,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 671.72,
-      "deviation": -34.65,
+      "ma_value": 671.2,
+      "deviation": -51.43,
       "trend": "down"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥45億",
         "net_income": 1185000000.0,
         "net_income_fmt": "¥12億",
-        "eps": 16.8,
+        "eps": 50.88,
         "operating_margin": 7.73,
         "total_assets": 119128000000.0,
         "total_assets_fmt": "¥1191億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.12
+        "amount": 5.12,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9.54
+        "amount": 9.54,
+        "in_progress": false
       }
     ],
     "latest": 9.54,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 9.54,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

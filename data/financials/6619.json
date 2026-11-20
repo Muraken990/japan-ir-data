@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:27.966640",
+  "fetched_at": "2026-11-20T13:49:32.947376",
   "ticker": "6619",
   "ticker_full": "6619.T",
   "company_name": "W-SCOPE CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 94.8,
-      "deviation": 1.27,
-      "trend": "up"
+      "ma_value": 91.4,
+      "deviation": -3.72,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 117.28,
-      "deviation": -18.14,
+      "ma_value": 106.16,
+      "deviation": -17.11,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 141.09,
-      "deviation": -31.96,
+      "ma_value": 137.32,
+      "deviation": -35.92,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 184.42,
-      "deviation": -47.94,
+      "ma_value": 182.62,
+      "deviation": -51.81,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2015,
-        "amount": 5.0
-      },
-      {
-        "year": 2016,
-        "amount": 2.5
-      },
-      {
-        "year": 2017,
-        "amount": 2.5
-      },
-      {
-        "year": 2018,
-        "amount": 2.5
-      },
-      {
-        "year": 2019,
-        "amount": 2.5
-      }
-    ],
-    "latest": 2.5,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "no_dividend"
+    }
   }
 }

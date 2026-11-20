@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:36.161696",
+  "fetched_at": "2026-11-20T14:38:58.748878",
   "ticker": "8622",
   "ticker_full": "8622.T",
   "company_name": "MITO SECURITIES CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 799.2,
-      "deviation": -0.28,
+      "ma_value": 753.2,
+      "deviation": -4.14,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 785.12,
-      "deviation": 1.51,
-      "trend": "up"
+      "ma_value": 770.8,
+      "deviation": -6.33,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 847.74,
-      "deviation": -5.99,
+      "ma_value": 846.52,
+      "deviation": -14.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 721.64,
-      "deviation": 10.44,
-      "trend": "up"
+      "ma_value": 726.6,
+      "deviation": -0.63,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 8.0
-      },
-      {
         "year": 2023,
-        "amount": 30.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 45.0
+        "amount": 43.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 17.0,
+        "in_progress": true
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 43.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:58.926642",
+  "fetched_at": "2026-11-20T14:29:04.049473",
   "ticker": "2477",
   "ticker_full": "2477.T",
   "company_name": "TEMAIRAZU INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3571.0,
-      "deviation": 1.09,
+      "ma_value": 3616.0,
+      "deviation": 0.66,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 3438.2,
-      "deviation": 5.0,
+      "ma_value": 3486.8,
+      "deviation": 4.39,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3154.0,
-      "deviation": 14.46,
+      "ma_value": 3236.08,
+      "deviation": 12.48,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2782.31,
-      "deviation": 29.75,
+      "ma_value": 2794.55,
+      "deviation": 30.25,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 28.0
+        "amount": 27.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 31.5
+        "amount": 30.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 39.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.5
+        "amount": 44.5,
+        "in_progress": false
       }
     ],
     "latest": 28.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2014-06-30",
+      "status": "unavailable"
+    }
   }
 }

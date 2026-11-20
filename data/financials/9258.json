@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:45.430387",
+  "fetched_at": "2026-11-20T13:55:33.187386",
   "ticker": "9258",
   "ticker_full": "9258.T",
   "company_name": "CS C CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 261.8,
-      "deviation": -2.6,
-      "trend": "down"
+      "ma_value": 235.6,
+      "deviation": 3.57,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 289.96,
-      "deviation": -12.06,
+      "ma_value": 277.28,
+      "deviation": -12.0,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 301.12,
-      "deviation": -15.32,
+      "ma_value": 295.77,
+      "deviation": -17.5,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 316.55,
-      "deviation": -19.44,
+      "ma_value": 313.48,
+      "deviation": -22.16,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

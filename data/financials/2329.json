@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:22.731564",
+  "fetched_at": "2026-11-20T14:51:09.185892",
   "ticker": "2329",
   "ticker_full": "2329.T",
   "company_name": "TOHOKUSHINSHA FILM CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 467.4,
-      "deviation": 0.77,
-      "trend": "up"
+      "ma_value": 445.2,
+      "deviation": -1.84,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 470.8,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 465.56,
+      "deviation": -6.13,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 483.99,
-      "deviation": -2.68,
+      "ma_value": 480.85,
+      "deviation": -9.12,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 540.32,
-      "deviation": -12.83,
+      "ma_value": 535.8,
+      "deviation": -18.44,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 6.33
-      },
-      {
         "year": 2023,
-        "amount": 6.33
+        "amount": 6.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.33
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 27.48
+        "amount": 26.52,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.31
+        "amount": 27.06,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 13.54,
+        "in_progress": true
       }
     ],
     "latest": 6.77,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 27.06,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

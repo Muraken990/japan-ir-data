@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:51.559999",
+  "fetched_at": "2026-11-20T14:03:05.345859",
   "ticker": "3672",
   "ticker_full": "3672.T",
   "company_name": "ALTPLUS HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 19.2,
-      "deviation": -27.08,
-      "trend": "down"
+      "ma_value": 15.4,
+      "deviation": 10.39,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 22.08,
-      "deviation": -36.59,
+      "ma_value": 19.96,
+      "deviation": -14.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 26.31,
-      "deviation": -46.78,
+      "ma_value": 25.47,
+      "deviation": -33.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 33.09,
-      "deviation": -57.69,
+      "ma_value": 32.17,
+      "deviation": -47.16,
       "trend": "down"
     }
   },
@@ -192,13 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2013,
-        "amount": 13.75
-      }
-    ],
-    "latest": 13.75,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

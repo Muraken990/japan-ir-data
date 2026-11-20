@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:12.737130",
+  "fetched_at": "2026-11-20T14:14:53.158415",
   "ticker": "9285",
   "ticker_full": "9285.T",
   "company_name": "TOKYO INFRASTRUCTURE ENGY INV C",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 32710.0,
-      "deviation": 0.43,
-      "trend": "up"
+      "ma_value": 32090.0,
+      "deviation": -1.53,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 34772.0,
-      "deviation": -5.53,
+      "ma_value": 33836.0,
+      "deviation": -6.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 39072.0,
-      "deviation": -15.92,
+      "ma_value": 38291.33,
+      "deviation": -17.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 44547.86,
-      "deviation": -26.26,
+      "ma_value": 44145.36,
+      "deviation": -28.42,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6097.0
+        "amount": 6097.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5622.0
+        "amount": 5622.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 7087.0
+        "amount": 7087.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3493.0
+        "amount": 3493.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 1639.0
+        "amount": 1639.0,
+        "in_progress": true
       }
     ],
     "latest": 1639.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": null,
+      "status": "unavailable"
+    }
   }
 }

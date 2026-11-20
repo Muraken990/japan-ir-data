@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:12.445712",
+  "fetched_at": "2026-11-20T14:35:53.494245",
   "ticker": "9441",
   "ticker_full": "9441.T",
   "company_name": "BELL-PARK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2968.8,
-      "deviation": 1.56,
+      "ma_value": 2996.2,
+      "deviation": 0.13,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2989.56,
-      "deviation": 0.85,
+      "ma_value": 2989.08,
+      "deviation": 0.37,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2966.04,
-      "deviation": 1.65,
+      "ma_value": 2983.47,
+      "deviation": 0.55,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2798.35,
-      "deviation": 7.74,
+      "ma_value": 2809.06,
+      "deviation": 6.8,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 41.0
+        "amount": 41.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 43.0
+        "amount": 43.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 102.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 51.0
+        "amount": 51.0,
+        "in_progress": true
       }
     ],
     "latest": 51.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 102.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

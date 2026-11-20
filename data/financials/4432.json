@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:12.773924",
+  "fetched_at": "2026-11-20T14:54:49.960193",
   "ticker": "4432",
   "ticker_full": "4432.T",
   "company_name": "WINGARC1ST INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3520.0,
-      "deviation": 0.71,
-      "trend": "up"
+      "ma_value": 3497.0,
+      "deviation": -1.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3616.2,
-      "deviation": -1.97,
+      "ma_value": 3617.4,
+      "deviation": -4.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3356.69,
-      "deviation": 5.61,
+      "ma_value": 3388.75,
+      "deviation": 1.66,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2900.44,
-      "deviation": 22.22,
+      "ma_value": 2902.53,
+      "deviation": 18.69,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 43.3
-      },
-      {
         "year": 2023,
-        "amount": 55.3
+        "amount": 43.1,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 87.2
+        "amount": 78.7,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 114.0
+        "amount": 104.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 106.0
+        "amount": 104.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 54.0,
+        "in_progress": true
       }
     ],
     "latest": 54.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 104.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

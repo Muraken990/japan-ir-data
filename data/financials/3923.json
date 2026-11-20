@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:01:54.153792",
+  "fetched_at": "2026-11-20T15:05:21.938328",
   "ticker": "3923",
   "ticker_full": "3923.T",
   "company_name": "RAKUS CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Information Technology Services",
     "website": "https://www.rakus.co.jp",
-    "employees": 2396,
+    "employees": 2381,
     "country": "Japan",
     "city": "Shibuya",
     "address": "Link Square Shinjuku",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1136.3,
-      "deviation": 0.55,
-      "trend": "up"
+      "ma_value": 1066.5,
+      "deviation": -12.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1118.78,
-      "deviation": 2.12,
-      "trend": "up"
+      "ma_value": 1108.88,
+      "deviation": -15.45,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1088.03,
-      "deviation": 5.01,
-      "trend": "up"
+      "ma_value": 1089.59,
+      "deviation": -13.95,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 955.92,
-      "deviation": 19.52,
-      "trend": "up"
+      "ma_value": 958.29,
+      "deviation": -2.16,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 0.95
+        "amount": 0.95,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 0.97
+        "amount": 0.97,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 1.18
+        "amount": 1.18,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 2.25
+        "amount": 2.25,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       }
     ],
     "latest": 7.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 7.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:08:02.174358",
+  "fetched_at": "2026-11-20T14:13:46.699770",
   "ticker": "3246",
   "ticker_full": "3246.T",
   "company_name": "KOSE R.E. CO.LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 679.4,
-      "deviation": 0.68,
-      "trend": "up"
+      "ma_value": 673.6,
+      "deviation": -2.32,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 687.84,
-      "deviation": -0.56,
+      "ma_value": 684.0,
+      "deviation": -3.8,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 682.95,
-      "deviation": 0.15,
-      "trend": "up"
+      "ma_value": 683.76,
+      "deviation": -3.77,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 663.8,
-      "deviation": 3.04,
-      "trend": "up"
+      "ma_value": 662.29,
+      "deviation": -0.65,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       }
     ],
     "latest": 24.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 24.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

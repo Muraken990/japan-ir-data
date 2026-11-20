@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:13.683861",
+  "fetched_at": "2026-11-20T14:05:23.380078",
   "ticker": "3169",
   "ticker_full": "3169.T",
   "company_name": "MISAWA & CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 689.2,
-      "deviation": 0.12,
+      "ma_value": 686.0,
+      "deviation": 0.44,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 693.0,
-      "deviation": -0.43,
+      "ma_value": 690.84,
+      "deviation": -0.27,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 678.83,
-      "deviation": 1.65,
+      "ma_value": 681.39,
+      "deviation": 1.12,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 658.34,
-      "deviation": 4.81,
+      "ma_value": 658.27,
+      "deviation": 4.67,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2021-01-31",
+      "status": "unavailable"
+    }
   }
 }

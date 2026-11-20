@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:27.147994",
+  "fetched_at": "2026-11-20T13:49:32.231778",
   "ticker": "505A",
   "ticker_full": "505A.T",
   "company_name": "GEEKLY INC",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1132.2,
-      "deviation": 0.6,
-      "trend": "up"
+      "ma_value": 1096.8,
+      "deviation": -4.27,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1181.0,
-      "deviation": -3.56,
+      "ma_value": 1136.16,
+      "deviation": -7.58,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1302.79,
-      "deviation": -12.57,
+      "ma_value": 1286.32,
+      "deviation": -18.37,
       "trend": "down"
     },
     "ma_200": {
@@ -158,10 +158,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": null,
+      "status": "unavailable"
+    }
   }
 }

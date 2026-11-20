@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:37.136627",
+  "fetched_at": "2026-11-20T14:10:38.952765",
   "ticker": "3241",
   "ticker_full": "3241.T",
   "company_name": "WILL CO.LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 584.0,
-      "deviation": 0.17,
-      "trend": "up"
+      "ma_value": 578.8,
+      "deviation": -1.17,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 592.44,
-      "deviation": -1.26,
+      "ma_value": 588.88,
+      "deviation": -2.87,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 593.73,
-      "deviation": -1.47,
+      "ma_value": 592.91,
+      "deviation": -3.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 586.79,
-      "deviation": -0.31,
+      "ma_value": 587.07,
+      "deviation": -2.57,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 15.5
+        "amount": 15.5,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 15.5
+        "amount": 15.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 19.0
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       }
     ],
     "latest": 21.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 21.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

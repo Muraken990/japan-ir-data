@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:47.641369",
+  "fetched_at": "2026-11-20T15:11:01.365963",
   "ticker": "7911",
   "ticker_full": "7911.T",
   "company_name": "TOPPAN HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2026.1,
-      "deviation": 1.33,
-      "trend": "up"
+      "ma_value": 1819.88,
+      "deviation": -6.72,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2163.72,
-      "deviation": -5.12,
+      "ma_value": 2071.27,
+      "deviation": -18.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2327.87,
-      "deviation": -11.81,
+      "ma_value": 2314.65,
+      "deviation": -26.66,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2346.46,
-      "deviation": -12.51,
+      "ma_value": 2348.44,
+      "deviation": -27.72,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 23.0
-      },
-      {
         "year": 2023,
-        "amount": 24.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 44.0
+        "amount": 29.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 14.5,
+        "in_progress": true
       }
     ],
-    "latest": 29.0,
-    "has_data": true
+    "latest": 14.5,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

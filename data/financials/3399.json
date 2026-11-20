@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:46.220269",
+  "fetched_at": "2026-11-20T14:46:46.721012",
   "ticker": "3399",
   "ticker_full": "3399.T",
   "company_name": "MARUCHIYO YAMAOKA CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5924.0,
-      "deviation": 2.63,
-      "trend": "up"
+      "ma_value": 5618.0,
+      "deviation": -5.66,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5197.4,
-      "deviation": 16.98,
-      "trend": "up"
+      "ma_value": 5418.4,
+      "deviation": -2.19,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4281.4,
-      "deviation": 42.01,
+      "ma_value": 4411.07,
+      "deviation": 20.15,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3717.06,
-      "deviation": 63.57,
+      "ma_value": 3778.79,
+      "deviation": 40.26,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       }
     ],
     "latest": 23.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2011-01-31",
+      "status": "unavailable"
+    }
   }
 }

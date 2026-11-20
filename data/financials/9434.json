@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:03.893454",
+  "fetched_at": "2026-11-20T15:14:13.724053",
   "ticker": "9434",
   "ticker_full": "9434.T",
   "company_name": "SOFTBANK CORP.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 236.72,
-      "deviation": 1.43,
-      "trend": "up"
+      "ma_value": 245.22,
+      "deviation": -0.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 239.17,
-      "deviation": 0.39,
+      "ma_value": 239.55,
+      "deviation": 1.9,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 235.41,
-      "deviation": 1.99,
+      "ma_value": 236.6,
+      "deviation": 3.17,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 219.47,
-      "deviation": 9.4,
+      "ma_value": 220.3,
+      "deviation": 10.8,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 8.6
-      },
-      {
         "year": 2023,
-        "amount": 8.6
+        "amount": 8.6,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.6
+        "amount": 8.6,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8.6
+        "amount": 8.6,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 8.7
+        "amount": 8.6,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 4.4,
+        "in_progress": true
       }
     ],
     "latest": 4.4,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 8.6,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

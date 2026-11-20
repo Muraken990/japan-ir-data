@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:46.221587",
+  "fetched_at": "2026-11-20T14:33:36.984798",
   "ticker": "6994",
   "ticker_full": "6994.T",
   "company_name": "SHIZUKI ELECTRIC CO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 935.8,
-      "deviation": -1.26,
+      "ma_value": 848.8,
+      "deviation": -6.81,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1118.8,
-      "deviation": -17.41,
+      "ma_value": 1018.2,
+      "deviation": -22.31,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1148.5,
-      "deviation": -19.55,
+      "ma_value": 1139.87,
+      "deviation": -30.61,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1087.29,
-      "deviation": -15.02,
+      "ma_value": 1087.13,
+      "deviation": -27.24,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 9.5
-      },
-      {
         "year": 2023,
-        "amount": 8.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.5
+        "amount": 8.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 21.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 26.5
+        "amount": 24.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 12.5,
+        "in_progress": true
       }
     ],
     "latest": 12.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 24.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

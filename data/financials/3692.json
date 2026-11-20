@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:50.505584",
+  "fetched_at": "2026-11-20T14:46:50.508684",
   "ticker": "3692",
   "ticker_full": "3692.T",
   "company_name": "FFRI SECURITY INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 7126.0,
-      "deviation": -7.52,
+      "ma_value": 6250.0,
+      "deviation": -2.4,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 8064.4,
-      "deviation": -18.28,
+      "ma_value": 7495.2,
+      "deviation": -18.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6697.93,
-      "deviation": -1.61,
+      "ma_value": 6789.47,
+      "deviation": -10.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6653.79,
-      "deviation": -0.96,
+      "ma_value": 6583.83,
+      "deviation": -7.35,
       "trend": "down"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

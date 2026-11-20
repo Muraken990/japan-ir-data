@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:19.915537",
+  "fetched_at": "2026-11-20T14:06:27.941339",
   "ticker": "3841",
   "ticker_full": "3841.T",
   "company_name": "JEDAT INC.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1094.6,
-      "deviation": -1.7,
+      "ma_value": 1071.6,
+      "deviation": -3.42,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1213.84,
-      "deviation": -11.36,
+      "ma_value": 1169.76,
+      "deviation": -11.52,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1276.33,
-      "deviation": -15.7,
+      "ma_value": 1265.63,
+      "deviation": -18.22,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1207.86,
-      "deviation": -10.92,
+      "ma_value": 1203.4,
+      "deviation": -13.99,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2016-03-31",
+      "status": "unavailable"
+    }
   }
 }

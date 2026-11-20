@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:45.292551",
+  "fetched_at": "2026-11-20T15:10:00.092611",
   "ticker": "1878",
   "ticker_full": "1878.T",
   "company_name": "DAITO TRUST CONSTRUCTION CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3323.6,
-      "deviation": -0.41,
+      "ma_value": 3361.75,
+      "deviation": -4.19,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3246.6,
-      "deviation": 1.95,
-      "trend": "up"
+      "ma_value": 3284.46,
+      "deviation": -1.93,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3223.45,
-      "deviation": 2.69,
-      "trend": "up"
+      "ma_value": 3223.13,
+      "deviation": -0.07,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3239.43,
-      "deviation": 2.18,
-      "trend": "up"
+      "ma_value": 3249.41,
+      "deviation": -0.87,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 106.4
-      },
-      {
         "year": 2023,
-        "amount": 105.2
+        "amount": 103.2,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 115.0
+        "amount": 111.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 153.8
+        "amount": 142.8,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 163.0
+        "amount": 150.4,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 81.0,
+        "in_progress": true
       }
     ],
     "latest": 81.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 150.4,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

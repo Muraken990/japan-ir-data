@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:23.118302",
+  "fetched_at": "2026-11-20T13:52:23.635454",
   "ticker": "4073",
   "ticker_full": "4073.T",
   "company_name": "GLOBAL COMMUNICATION PLANNING C",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 601.6,
-      "deviation": -1.26,
+      "ma_value": 535.6,
+      "deviation": -4.59,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 656.2,
-      "deviation": -9.48,
+      "ma_value": 634.04,
+      "deviation": -19.41,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 587.59,
-      "deviation": 1.09,
-      "trend": "up"
+      "ma_value": 592.24,
+      "deviation": -13.72,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 532.09,
-      "deviation": 11.64,
-      "trend": "up"
+      "ma_value": 530.88,
+      "deviation": -3.74,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

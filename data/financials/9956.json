@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:55:51.023501",
+  "fetched_at": "2026-11-20T14:59:22.636290",
   "ticker": "9956",
   "ticker_full": "9956.T",
   "company_name": "VALOR HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1647.2,
-      "deviation": -1.23,
+      "ma_value": 1632.8,
+      "deviation": -2.01,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1642.56,
-      "deviation": -0.95,
+      "ma_value": 1656.4,
+      "deviation": -3.4,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1625.95,
-      "deviation": 0.06,
-      "trend": "up"
+      "ma_value": 1625.27,
+      "deviation": -1.55,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1715.22,
-      "deviation": -5.14,
+      "ma_value": 1712.14,
+      "deviation": -6.55,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 28.5
-      },
-      {
         "year": 2023,
-        "amount": 29.5
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 33.0
+        "amount": 32.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 39.5
+        "amount": 37.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 37.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:57.826636",
+  "fetched_at": "2026-11-20T15:12:11.238676",
   "ticker": "4503",
   "ticker_full": "4503.T",
   "company_name": "ASTELLAS PHARMA",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2643.0,
-      "deviation": 2.12,
+      "ma_value": 2742.12,
+      "deviation": 0.34,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2490.92,
-      "deviation": 8.35,
+      "ma_value": 2576.1,
+      "deviation": 6.81,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2348.75,
-      "deviation": 14.91,
+      "ma_value": 2380.03,
+      "deviation": 15.61,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2303.16,
-      "deviation": 17.19,
+      "ma_value": 2315.45,
+      "deviation": 18.83,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 55.0
-      },
-      {
         "year": 2023,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 72.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 76.0
+        "amount": 74.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 79.0
+        "amount": 78.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 78.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:45.505643",
+  "fetched_at": "2026-11-20T14:28:55.630920",
   "ticker": "3417",
   "ticker_full": "3417.T",
   "company_name": "OHKI HEALTHCARE HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 987.6,
-      "deviation": 0.75,
-      "trend": "up"
+      "ma_value": 939.8,
+      "deviation": -0.62,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 979.92,
-      "deviation": 1.54,
-      "trend": "up"
+      "ma_value": 968.44,
+      "deviation": -3.56,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1016.13,
-      "deviation": -2.08,
+      "ma_value": 1007.03,
+      "deviation": -7.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1169.76,
-      "deviation": -14.94,
+      "ma_value": 1158.4,
+      "deviation": -19.37,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

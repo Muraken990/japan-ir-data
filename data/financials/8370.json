@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:11.721989",
+  "fetched_at": "2026-11-20T15:00:40.487752",
   "ticker": "8370",
   "ticker_full": "8370.T",
   "company_name": "KIYO BANK LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1505.4,
-      "deviation": 1.43,
-      "trend": "up"
+      "ma_value": 1439.5,
+      "deviation": -6.43,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1573.56,
-      "deviation": -2.96,
+      "ma_value": 1530.29,
+      "deviation": -11.98,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1631.25,
-      "deviation": -6.39,
+      "ma_value": 1623.02,
+      "deviation": -17.01,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1468.86,
-      "deviation": 3.96,
-      "trend": "up"
+      "ma_value": 1476.03,
+      "deviation": -8.74,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 15.0
+        "amount": 13.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 23.33
+        "amount": 16.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 41.0
+        "amount": 36.67,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 52.33
+        "amount": 45.67,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 26.0,
+        "in_progress": true
       }
     ],
     "latest": 26.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 45.6667,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

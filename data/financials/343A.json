@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:59.222733",
+  "fetched_at": "2026-11-20T14:11:50.382662",
   "ticker": "343A",
   "ticker_full": "343A.T",
   "company_name": "IACE TRAVEL CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1287.6,
-      "deviation": 2.9,
-      "trend": "up"
+      "ma_value": 1206.8,
+      "deviation": -4.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1281.76,
-      "deviation": 3.37,
-      "trend": "up"
+      "ma_value": 1271.56,
+      "deviation": -9.8,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1315.52,
-      "deviation": 0.72,
-      "trend": "up"
+      "ma_value": 1303.23,
+      "deviation": -11.99,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1305.04,
-      "deviation": 1.53,
-      "trend": "up"
+      "ma_value": 1301.52,
+      "deviation": -11.87,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

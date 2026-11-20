@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:57.936997",
+  "fetched_at": "2026-11-20T14:05:08.699972",
   "ticker": "6072",
   "ticker_full": "6072.T",
   "company_name": "ERTH GROUP CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1134.6,
-      "deviation": 8.5,
-      "trend": "up"
+      "ma_value": 1052.2,
+      "deviation": -12.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1060.04,
-      "deviation": 16.13,
-      "trend": "up"
+      "ma_value": 1053.92,
+      "deviation": -12.52,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1049.99,
-      "deviation": 17.24,
-      "trend": "up"
+      "ma_value": 1061.95,
+      "deviation": -13.18,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 996.57,
-      "deviation": 23.52,
-      "trend": "up"
+      "ma_value": 1017.74,
+      "deviation": -9.41,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥2億",
         "net_income": 197013000.0,
         "net_income_fmt": "¥2億",
-        "eps": 0,
+        "eps": 8.82,
         "operating_margin": 1.11,
         "total_assets": 2052385000.0,
         "total_assets_fmt": "¥21億",
@@ -200,7 +200,7 @@
         "ebit_fmt": "N/A",
         "net_income": 0,
         "net_income_fmt": "N/A",
-        "eps": -2.04,
+        "eps": 0,
         "operating_margin": 0,
         "total_assets": 0,
         "total_assets_fmt": "N/A",
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 4.0
-      },
-      {
-        "year": 2017,
-        "amount": 4.0
-      },
-      {
-        "year": 2018,
-        "amount": 4.0
-      },
-      {
-        "year": 2019,
-        "amount": 2.0
-      },
-      {
-        "year": 2020,
-        "amount": 2.0
-      }
-    ],
-    "latest": 2.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

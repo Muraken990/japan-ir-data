@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:52.706017",
+  "fetched_at": "2026-11-20T14:29:00.002983",
   "ticker": "8747",
   "ticker_full": "8747.T",
   "company_name": "YUTAKA TRUSTY SECURITIES CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1652.6,
-      "deviation": 1.66,
-      "trend": "up"
+      "ma_value": 1614.4,
+      "deviation": -4.36,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1932.76,
-      "deviation": -13.08,
+      "ma_value": 1837.68,
+      "deviation": -15.98,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2133.8,
-      "deviation": -21.27,
+      "ma_value": 2084.24,
+      "deviation": -25.92,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2396.54,
-      "deviation": -29.9,
+      "ma_value": 2382.45,
+      "deviation": -35.19,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 53.5
+        "amount": 53.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 53.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 69.5
+        "amount": 69.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 86.0
+        "amount": 86.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 210.0
+        "amount": 210.0,
+        "in_progress": false
       }
     ],
     "latest": 210.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 210.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

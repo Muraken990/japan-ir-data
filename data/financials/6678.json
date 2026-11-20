@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:54.463815",
+  "fetched_at": "2026-11-20T14:28:04.677514",
   "ticker": "6678",
   "ticker_full": "6678.T",
   "company_name": "TECHNO MEDICA CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2161.2,
-      "deviation": 0.27,
-      "trend": "up"
+      "ma_value": 2136.8,
+      "deviation": -0.88,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2092.28,
-      "deviation": 3.57,
-      "trend": "up"
+      "ma_value": 2121.04,
+      "deviation": -0.14,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2066.09,
-      "deviation": 4.88,
+      "ma_value": 2072.41,
+      "deviation": 2.2,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2136.59,
-      "deviation": 1.42,
-      "trend": "up"
+      "ma_value": 2135.93,
+      "deviation": -0.84,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 129.0
+        "amount": 129.0,
+        "in_progress": false
       }
     ],
     "latest": 129.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 129.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

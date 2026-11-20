@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:06:03.802548",
+  "fetched_at": "2026-11-20T14:11:53.225221",
   "ticker": "205A",
   "ticker_full": "205A.T",
   "company_name": "LOGOS HOLDINGS INC.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1380.4,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 1372.6,
+      "deviation": -2.01,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1472.08,
-      "deviation": -6.19,
+      "ma_value": 1429.6,
+      "deviation": -5.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1621.96,
-      "deviation": -14.86,
+      "ma_value": 1587.16,
+      "deviation": -15.26,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1669.06,
-      "deviation": -17.26,
+      "ma_value": 1662.66,
+      "deviation": -19.11,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 45.33
+        "amount": 45.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 63.39
+        "amount": 63.39,
+        "in_progress": false
       }
     ],
     "latest": 63.39,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 63.39,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

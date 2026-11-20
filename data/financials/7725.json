@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:18.314709",
+  "fetched_at": "2026-11-20T14:24:36.117103",
   "ticker": "7725",
   "ticker_full": "7725.T",
   "company_name": "INTER ACTION CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1674.8,
-      "deviation": 0.37,
-      "trend": "up"
+      "ma_value": 1599.8,
+      "deviation": -7.36,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1733.84,
-      "deviation": -3.05,
+      "ma_value": 1704.68,
+      "deviation": -13.06,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1774.13,
-      "deviation": -5.25,
+      "ma_value": 1769.25,
+      "deviation": -16.24,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1701.51,
-      "deviation": -1.21,
+      "ma_value": 1705.92,
+      "deviation": -13.13,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 43.0
+        "amount": 43.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 34.0
+        "amount": 44.0,
+        "in_progress": false
       }
     ],
     "latest": 34.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 44.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

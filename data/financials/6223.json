@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:32:18.857594",
+  "fetched_at": "2026-11-20T14:36:59.744407",
   "ticker": "6223",
   "ticker_full": "6223.T",
   "company_name": "SEIBU GIKEN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1760.4,
-      "deviation": 0.77,
-      "trend": "up"
+      "ma_value": 1682.2,
+      "deviation": -4.65,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1842.48,
-      "deviation": -3.72,
+      "ma_value": 1795.68,
+      "deviation": -10.67,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1923.07,
-      "deviation": -7.75,
+      "ma_value": 1902.92,
+      "deviation": -15.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2075.12,
-      "deviation": -14.51,
+      "ma_value": 2073.79,
+      "deviation": -22.65,
       "trend": "down"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

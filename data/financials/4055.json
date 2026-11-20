@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:45.465519",
+  "fetched_at": "2026-11-20T14:20:10.195139",
   "ticker": "4055",
   "ticker_full": "4055.T",
   "company_name": "T&S GROUP INC",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Information Technology Services",
     "website": "https://www.tecsvc.co.jp",
-    "employees": 368,
+    "employees": null,
     "country": "Japan",
     "city": "Yokohama",
     "address": "MM Park Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1262.6,
-      "deviation": -1.79,
+      "ma_value": 1136.2,
+      "deviation": -7.76,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1414.32,
-      "deviation": -12.33,
+      "ma_value": 1337.24,
+      "deviation": -21.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1532.47,
-      "deviation": -19.08,
+      "ma_value": 1511.87,
+      "deviation": -30.68,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1676.2,
-      "deviation": -26.02,
+      "ma_value": 1658.13,
+      "deviation": -36.8,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6.55
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 14.55,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       }
     ],
     "latest": 11.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 11.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

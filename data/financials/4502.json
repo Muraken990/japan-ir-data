@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:00.297534",
+  "fetched_at": "2026-11-20T15:14:10.724620",
   "ticker": "4502",
   "ticker_full": "4502.T",
   "company_name": "TAKEDA PHARMACEUTICAL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6738.0,
-      "deviation": 2.79,
+      "ma_value": 6921.75,
+      "deviation": 0.74,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 6407.36,
-      "deviation": 8.09,
+      "ma_value": 6590.71,
+      "deviation": 5.8,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 5890.73,
-      "deviation": 17.57,
+      "ma_value": 5962.97,
+      "deviation": 16.94,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 5502.17,
-      "deviation": 25.88,
+      "ma_value": 5546.3,
+      "deviation": 25.72,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 180.0
-      },
-      {
         "year": 2023,
-        "amount": 184.0
+        "amount": 180.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 192.0
+        "amount": 188.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 198.0
+        "amount": 196.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 202.0
+        "amount": 200.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 102.0,
+        "in_progress": true
       }
     ],
     "latest": 102.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 200.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

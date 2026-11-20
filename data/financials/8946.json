@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:47.056584",
+  "fetched_at": "2026-11-20T13:53:40.315026",
   "ticker": "8946",
   "ticker_full": "8946.T",
   "company_name": "ASIAN STAR CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 66.8,
-      "deviation": 0.3,
-      "trend": "up"
+      "ma_value": 61.0,
+      "deviation": -4.92,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 69.28,
-      "deviation": -3.29,
+      "ma_value": 67.2,
+      "deviation": -13.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 73.41,
-      "deviation": -8.74,
+      "ma_value": 72.4,
+      "deviation": -19.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 79.22,
-      "deviation": -15.43,
+      "ma_value": 78.73,
+      "deviation": -26.33,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:29.156102",
+  "fetched_at": "2026-11-20T14:50:16.590099",
   "ticker": "8771",
   "ticker_full": "8771.T",
   "company_name": "EGUARANTEE INC.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1700.8,
-      "deviation": 0.72,
-      "trend": "up"
+      "ma_value": 1696.8,
+      "deviation": -2.35,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1746.44,
-      "deviation": -1.91,
+      "ma_value": 1733.36,
+      "deviation": -4.41,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1752.68,
-      "deviation": -2.26,
+      "ma_value": 1744.67,
+      "deviation": -5.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1706.05,
-      "deviation": 0.41,
-      "trend": "up"
+      "ma_value": 1705.63,
+      "deviation": -2.85,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 26.0
-      },
-      {
         "year": 2023,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 82.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 42.0,
+        "in_progress": true
       }
     ],
     "latest": 42.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

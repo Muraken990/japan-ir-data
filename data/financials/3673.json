@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:44:06.056421",
+  "fetched_at": "2026-11-20T14:48:00.823827",
   "ticker": "3673",
   "ticker_full": "3673.T",
   "company_name": "BROADLEAF CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 433.4,
-      "deviation": -21.32,
+      "ma_value": 321.4,
+      "deviation": -4.17,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 473.96,
-      "deviation": -28.05,
+      "ma_value": 440.2,
+      "deviation": -30.03,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 465.29,
-      "deviation": -26.71,
+      "ma_value": 457.4,
+      "deviation": -32.66,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 433.54,
-      "deviation": -21.35,
+      "ma_value": 432.75,
+      "deviation": -28.83,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 0.5
+        "amount": 0.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 0.5
+        "amount": 0.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3.75
+        "amount": 3.75,
+        "in_progress": true
       }
     ],
     "latest": 3.75,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 3.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

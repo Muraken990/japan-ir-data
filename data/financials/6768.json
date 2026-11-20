@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:21.333235",
+  "fetched_at": "2026-11-20T14:43:31.256658",
   "ticker": "6768",
   "ticker_full": "6768.T",
   "company_name": "TAMURA CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 704.6,
-      "deviation": 0.34,
-      "trend": "up"
+      "ma_value": 659.6,
+      "deviation": -5.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 818.48,
-      "deviation": -13.62,
+      "ma_value": 761.44,
+      "deviation": -17.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 821.47,
-      "deviation": -13.93,
+      "ma_value": 811.22,
+      "deviation": -22.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 807.11,
-      "deviation": -12.4,
+      "ma_value": 808.65,
+      "deviation": -22.59,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 16.0
+        "amount": 13.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 8.0,
+        "in_progress": true
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 13.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

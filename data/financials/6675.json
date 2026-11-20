@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:35:40.807973",
+  "fetched_at": "2026-11-20T14:40:02.570427",
   "ticker": "6675",
   "ticker_full": "6675.T",
   "company_name": "SAXA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1785.0,
-      "deviation": 2.63,
-      "trend": "up"
+      "ma_value": 1740.0,
+      "deviation": -3.22,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1941.8,
-      "deviation": -5.65,
+      "ma_value": 1872.36,
+      "deviation": -10.06,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2028.56,
-      "deviation": -9.69,
+      "ma_value": 2013.0,
+      "deviation": -16.34,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2056.97,
-      "deviation": -10.94,
+      "ma_value": 2050.32,
+      "deviation": -17.87,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 11.67
+        "amount": 11.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 93.33
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 124.33
+        "amount": 101.67,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 61.0,
+        "in_progress": true
       }
     ],
     "latest": 61.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 101.6667,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

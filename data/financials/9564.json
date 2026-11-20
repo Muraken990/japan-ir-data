@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:23.698150",
+  "fetched_at": "2026-11-20T14:24:40.247654",
   "ticker": "9564",
   "ticker_full": "9564.T",
   "company_name": "FCE INC",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Conglomerates",
     "website": "https://www.fce-hd.co.jp",
-    "employees": 264,
+    "employees": null,
     "country": "Japan",
     "city": "Shinjuku",
     "address": "NS Building",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 535.8,
-      "deviation": 1.53,
-      "trend": "up"
+      "ma_value": 522.0,
+      "deviation": -4.6,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 559.32,
-      "deviation": -2.74,
+      "ma_value": 547.48,
+      "deviation": -9.04,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 555.37,
-      "deviation": -2.05,
+      "ma_value": 555.03,
+      "deviation": -10.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 523.97,
-      "deviation": 3.82,
-      "trend": "up"
+      "ma_value": 520.48,
+      "deviation": -4.32,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       }
     ],
     "latest": 11.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 11.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

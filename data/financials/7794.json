@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:38.304445",
+  "fetched_at": "2026-11-20T14:09:40.713857",
   "ticker": "7794",
   "ticker_full": "7794.T",
   "company_name": "EDP CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 754.2,
-      "deviation": -2.68,
+      "ma_value": 662.0,
+      "deviation": -8.46,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 871.36,
-      "deviation": -15.76,
+      "ma_value": 807.96,
+      "deviation": -25.0,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 932.08,
-      "deviation": -21.25,
+      "ma_value": 917.47,
+      "deviation": -33.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1083.06,
-      "deviation": -32.23,
+      "ma_value": 1086.84,
+      "deviation": -44.24,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

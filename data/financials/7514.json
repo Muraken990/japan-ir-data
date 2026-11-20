@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:29.570744",
+  "fetched_at": "2026-11-20T14:17:57.549516",
   "ticker": "7514",
   "ticker_full": "7514.T",
   "company_name": "HIMARAYA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 855.0,
-      "deviation": -0.12,
+      "ma_value": 856.6,
+      "deviation": -0.19,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 854.64,
+      "ma_value": 855.56,
       "deviation": -0.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 857.51,
-      "deviation": -0.41,
+      "ma_value": 857.14,
+      "deviation": -0.25,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 849.04,
-      "deviation": 0.58,
+      "ma_value": 849.07,
+      "deviation": 0.7,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       }
     ],
     "latest": 13.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 26.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

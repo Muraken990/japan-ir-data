@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:59.787431",
+  "fetched_at": "2026-11-20T15:06:25.516587",
   "ticker": "6268",
   "ticker_full": "6268.T",
   "company_name": "NABTESCO CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4127.6,
-      "deviation": 0.52,
-      "trend": "up"
+      "ma_value": 3452.5,
+      "deviation": -10.07,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4323.0,
-      "deviation": -4.02,
+      "ma_value": 4087.58,
+      "deviation": -24.04,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4564.04,
-      "deviation": -9.09,
+      "ma_value": 4503.84,
+      "deviation": -31.06,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4719.16,
-      "deviation": -12.08,
+      "ma_value": 4709.27,
+      "deviation": -34.07,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥228億",
         "net_income": 15695000000.0,
         "net_income_fmt": "¥157億",
-        "eps": 127.87,
+        "eps": 131.55,
         "operating_margin": 6.73,
         "total_assets": 463991000000.0,
         "total_assets_fmt": "¥4640億",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 78.0
+        "amount": 78.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 41.0
+        "amount": 41.0,
+        "in_progress": true
       }
     ],
     "latest": 41.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

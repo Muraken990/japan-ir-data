@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:39.958655",
+  "fetched_at": "2026-11-20T13:49:43.805164",
   "ticker": "8147",
   "ticker_full": "8147.T",
   "company_name": "TOMITA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1358.0,
-      "deviation": -1.33,
+      "ma_value": 1340.2,
+      "deviation": -1.66,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1404.4,
-      "deviation": -4.59,
+      "ma_value": 1384.16,
+      "deviation": -4.78,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1410.91,
-      "deviation": -5.03,
+      "ma_value": 1406.33,
+      "deviation": -6.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1341.49,
-      "deviation": -0.11,
+      "ma_value": 1340.35,
+      "deviation": -1.67,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       }
     ],
     "latest": 24.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 24.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

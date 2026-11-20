@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:02.389891",
+  "fetched_at": "2026-11-20T14:05:12.959404",
   "ticker": "335A",
   "ticker_full": "335A.T",
   "company_name": "MIRAIRO INC",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Software - Application",
     "website": "https://www.mirairo.co.jp",
-    "employees": 50,
+    "employees": null,
     "country": "Japan",
     "city": "Osaka",
     "address": "EPO Shinosaka Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 317.2,
-      "deviation": -1.01,
+      "ma_value": 310.6,
+      "deviation": -1.8,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 319.56,
-      "deviation": -1.74,
+      "ma_value": 317.48,
+      "deviation": -3.93,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 329.07,
-      "deviation": -4.58,
+      "ma_value": 327.56,
+      "deviation": -6.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 364.6,
-      "deviation": -13.88,
+      "ma_value": 361.99,
+      "deviation": -15.74,
       "trend": "down"
     }
   },
@@ -156,6 +156,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

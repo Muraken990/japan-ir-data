@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:01.213429",
+  "fetched_at": "2026-11-20T14:35:41.238674",
   "ticker": "8860",
   "ticker_full": "8860.T",
   "company_name": "FUJI CORPORATION LIMITED",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 687.8,
-      "deviation": 0.47,
-      "trend": "up"
+      "ma_value": 661.8,
+      "deviation": -3.29,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 689.44,
-      "deviation": 0.23,
-      "trend": "up"
+      "ma_value": 682.52,
+      "deviation": -6.23,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 719.99,
-      "deviation": -4.03,
+      "ma_value": 714.12,
+      "deviation": -10.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 754.69,
-      "deviation": -8.44,
+      "ma_value": 751.66,
+      "deviation": -14.86,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 27.0
-      },
-      {
         "year": 2023,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 34.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 16.0,
+        "in_progress": true
       }
     ],
     "latest": 16.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 32.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:02.327576",
+  "fetched_at": "2026-11-20T15:00:31.018966",
   "ticker": "9505",
   "ticker_full": "9505.T",
   "company_name": "HOKURIKU ELECTRIC POWER CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1070.0,
-      "deviation": 1.87,
-      "trend": "up"
+      "ma_value": 1078.88,
+      "deviation": -4.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1068.08,
-      "deviation": 2.05,
-      "trend": "up"
+      "ma_value": 1067.62,
+      "deviation": -3.43,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1034.24,
-      "deviation": 5.39,
-      "trend": "up"
+      "ma_value": 1041.95,
+      "deviation": -1.05,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 983.3,
-      "deviation": 10.85,
+      "ma_value": 985.16,
+      "deviation": 4.65,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 12.5
-      },
-      {
         "year": 2022,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.5
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 27.5
+        "amount": 25.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 12.5,
+        "in_progress": true
       }
     ],
     "latest": 12.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

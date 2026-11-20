@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:33.631635",
+  "fetched_at": "2026-11-20T14:25:48.189032",
   "ticker": "6392",
   "ticker_full": "6392.T",
   "company_name": "YAMADA CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6954.0,
-      "deviation": 1.52,
+      "ma_value": 6886.0,
+      "deviation": 0.64,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 7095.2,
-      "deviation": -0.5,
+      "ma_value": 7017.2,
+      "deviation": -1.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 7459.1,
-      "deviation": -5.35,
+      "ma_value": 7425.65,
+      "deviation": -6.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6994.71,
-      "deviation": 0.93,
-      "trend": "up"
+      "ma_value": 7000.9,
+      "deviation": -1.01,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 106.0
-      },
-      {
         "year": 2023,
-        "amount": 134.0
+        "amount": 130.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 280.0
+        "amount": 230.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 210.0
+        "amount": 210.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 230.0
+        "amount": 220.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 110.0,
+        "in_progress": true
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 220.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

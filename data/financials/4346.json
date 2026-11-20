@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:38.605308",
+  "fetched_at": "2026-11-20T14:18:05.797629",
   "ticker": "4346",
   "ticker_full": "4346.T",
   "company_name": "NEXYZ GROUP CORPORATION",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Specialty Business Services",
     "website": "https://www.nexyzgroup.jp",
-    "employees": 1066,
+    "employees": null,
     "country": "Japan",
     "city": "Shibuya",
     "address": "Nexyz.Square Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 744.6,
-      "deviation": -0.08,
+      "ma_value": 724.6,
+      "deviation": -5.33,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 751.48,
-      "deviation": -1.0,
+      "ma_value": 738.16,
+      "deviation": -7.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 850.2,
-      "deviation": -12.49,
+      "ma_value": 846.98,
+      "deviation": -19.01,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 778.65,
-      "deviation": -4.45,
+      "ma_value": 776.87,
+      "deviation": -11.7,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

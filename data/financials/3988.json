@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:35.922887",
+  "fetched_at": "2026-11-20T14:10:37.539510",
   "ticker": "3988",
   "ticker_full": "3988.T",
   "company_name": "SYS HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 544.8,
-      "deviation": -0.7,
+      "ma_value": 542.6,
+      "deviation": -1.4,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 553.68,
-      "deviation": -2.29,
+      "ma_value": 550.48,
+      "deviation": -2.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 555.22,
-      "deviation": -2.56,
+      "ma_value": 554.95,
+      "deviation": -3.59,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 541.69,
-      "deviation": -0.13,
+      "ma_value": 541.09,
+      "deviation": -1.12,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3.75
+        "amount": 3.75,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 8.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

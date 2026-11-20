@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:56.624165",
+  "fetched_at": "2026-11-20T14:03:10.076778",
   "ticker": "2215",
   "ticker_full": "2215.T",
   "company_name": "FIRST BAKING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 620.8,
-      "deviation": 0.19,
-      "trend": "up"
+      "ma_value": 619.6,
+      "deviation": -0.1,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 619.36,
-      "deviation": 0.43,
-      "trend": "up"
+      "ma_value": 619.84,
+      "deviation": -0.14,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 615.25,
-      "deviation": 1.1,
+      "ma_value": 616.48,
+      "deviation": 0.41,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 609.3,
-      "deviation": 2.08,
+      "ma_value": 609.32,
+      "deviation": 1.59,
       "trend": "up"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

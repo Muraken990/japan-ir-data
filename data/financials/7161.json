@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:40.067218",
+  "fetched_at": "2026-11-20T14:19:06.240399",
   "ticker": "7161",
   "ticker_full": "7161.T",
   "company_name": "JIMOTO HOLDINGS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 537.2,
-      "deviation": -0.22,
+      "ma_value": 493.6,
+      "deviation": -7.21,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 569.72,
-      "deviation": -5.92,
+      "ma_value": 541.24,
+      "deviation": -15.38,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 581.84,
-      "deviation": -7.88,
+      "ma_value": 580.23,
+      "deviation": -21.07,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 533.85,
-      "deviation": 0.4,
-      "trend": "up"
+      "ma_value": 534.64,
+      "deviation": -14.33,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 25.0
-      },
-      {
         "year": 2022,
-        "amount": 17.5
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

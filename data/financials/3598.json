@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:56.349811",
+  "fetched_at": "2026-11-20T13:56:35.112653",
   "ticker": "3598",
   "ticker_full": "3598.T",
   "company_name": "YAMAKI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 153.4,
-      "deviation": -0.26,
+      "ma_value": 151.4,
+      "deviation": -0.92,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 154.6,
-      "deviation": -1.03,
+      "ma_value": 153.88,
+      "deviation": -2.52,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 160.17,
-      "deviation": -4.48,
+      "ma_value": 159.49,
+      "deviation": -5.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 162.9,
-      "deviation": -6.08,
+      "ma_value": 162.41,
+      "deviation": -7.64,
       "trend": "down"
     }
   },
@@ -231,27 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 5.0
-      },
-      {
-        "year": 2019,
-        "amount": 2.0
-      },
-      {
-        "year": 2020,
-        "amount": 2.0
-      },
-      {
         "year": 2024,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

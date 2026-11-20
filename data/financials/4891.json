@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:39.465731",
+  "fetched_at": "2026-11-20T14:10:40.819443",
   "ticker": "4891",
   "ticker_full": "4891.T",
   "company_name": "TMS CO LTD",
@@ -19,23 +19,23 @@
   "price_trend": {
     "ma_5": {
       "ma_value": 134.2,
-      "deviation": -0.15,
+      "deviation": -6.86,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 130.44,
-      "deviation": 2.73,
-      "trend": "up"
+      "ma_value": 133.72,
+      "deviation": -6.52,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 118.37,
-      "deviation": 13.2,
+      "ma_value": 120.96,
+      "deviation": 3.34,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 127.78,
-      "deviation": 4.87,
-      "trend": "up"
+      "ma_value": 127.4,
+      "deviation": -1.88,
+      "trend": "down"
     }
   },
   "financials": {
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:31.005716",
+  "fetched_at": "2026-11-20T14:50:18.301289",
   "ticker": "7917",
   "ticker_full": "7917.T",
   "company_name": "ZACROS CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1323.2,
-      "deviation": 1.19,
-      "trend": "up"
+      "ma_value": 1288.8,
+      "deviation": -3.32,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1249.96,
-      "deviation": 7.12,
-      "trend": "up"
+      "ma_value": 1262.12,
+      "deviation": -1.28,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1258.1,
-      "deviation": 6.43,
-      "trend": "up"
+      "ma_value": 1254.94,
+      "deviation": -0.71,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1287.03,
-      "deviation": 4.04,
-      "trend": "up"
+      "ma_value": 1290.18,
+      "deviation": -3.42,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 21.0
-      },
-      {
         "year": 2023,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.25
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 34.75
+        "amount": 32.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 38.0
+        "amount": 36.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

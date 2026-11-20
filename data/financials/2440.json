@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:27.488479",
+  "fetched_at": "2026-11-20T14:16:00.372383",
   "ticker": "2440",
   "ticker_full": "2440.T",
   "company_name": "GURUNAVI INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 111.0,
-      "deviation": 0.0,
+      "ma_value": 105.0,
+      "deviation": -5.71,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 117.16,
-      "deviation": -5.26,
+      "ma_value": 116.04,
+      "deviation": -14.68,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 121.61,
-      "deviation": -8.73,
+      "ma_value": 120.4,
+      "deviation": -17.77,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 133.31,
-      "deviation": -16.74,
+      "ma_value": 131.69,
+      "deviation": -24.83,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 43.0
-      },
-      {
-        "year": 2017,
-        "amount": 44.0
-      },
-      {
-        "year": 2018,
-        "amount": 27.0
-      },
-      {
-        "year": 2019,
-        "amount": 7.0
-      },
-      {
-        "year": 2020,
-        "amount": 4.0
-      }
-    ],
-    "latest": 4.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

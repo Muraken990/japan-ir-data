@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:09.965664",
+  "fetched_at": "2026-11-20T14:14:51.023943",
   "ticker": "6497",
   "ticker_full": "6497.T",
   "company_name": "HAMAI INDUSTRIES",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1347.2,
-      "deviation": 2.29,
-      "trend": "up"
+      "ma_value": 1304.8,
+      "deviation": -3.05,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1412.68,
-      "deviation": -2.45,
+      "ma_value": 1384.16,
+      "deviation": -8.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1426.09,
-      "deviation": -3.37,
+      "ma_value": 1422.47,
+      "deviation": -11.07,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1359.94,
-      "deviation": 1.33,
-      "trend": "up"
+      "ma_value": 1361.78,
+      "deviation": -7.11,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

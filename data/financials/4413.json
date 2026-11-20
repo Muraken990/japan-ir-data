@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:44:20.205626",
+  "fetched_at": "2026-11-20T14:48:10.165924",
   "ticker": "4413",
   "ticker_full": "4413.T",
   "company_name": "BAUDROIE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2938.2,
-      "deviation": -0.01,
-      "trend": "down"
+      "ma_value": 2939.6,
+      "deviation": 0.15,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2951.28,
-      "deviation": -0.45,
-      "trend": "down"
+      "ma_value": 2941.48,
+      "deviation": 0.09,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2936.36,
-      "deviation": 0.06,
+      "ma_value": 2932.87,
+      "deviation": 0.38,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2487.21,
-      "deviation": 18.12,
+      "ma_value": 2508.56,
+      "deviation": 17.36,
       "trend": "up"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 7.58
+        "amount": 7.58,
+        "in_progress": false
       }
     ],
     "latest": 7.58,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 7.58,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:36.572901",
+  "fetched_at": "2026-11-20T14:51:21.650699",
   "ticker": "6330",
   "ticker_full": "6330.T",
   "company_name": "TOYO ENGINEERING CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2140.8,
-      "deviation": -3.63,
+      "ma_value": 1951.0,
+      "deviation": -7.28,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2204.84,
-      "deviation": -6.43,
+      "ma_value": 2130.24,
+      "deviation": -15.08,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2379.75,
-      "deviation": -13.31,
+      "ma_value": 2379.65,
+      "deviation": -23.98,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2686.47,
-      "deviation": -23.21,
+      "ma_value": 2603.36,
+      "deviation": -30.51,
       "trend": "down"
     }
   },
@@ -194,27 +194,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2016,
-        "amount": 20.0
-      },
-      {
-        "year": 2017,
-        "amount": 10.0
-      },
-      {
-        "year": 2018,
-        "amount": 15.0
-      },
-      {
         "year": 2024,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

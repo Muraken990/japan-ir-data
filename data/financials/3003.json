@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:42.103266",
+  "fetched_at": "2026-11-20T15:10:56.347061",
   "ticker": "3003",
   "ticker_full": "3003.T",
   "company_name": "HULIC CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1945.3,
-      "deviation": 2.14,
-      "trend": "up"
+      "ma_value": 1986.25,
+      "deviation": -1.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1801.78,
-      "deviation": 10.28,
+      "ma_value": 1860.29,
+      "deviation": 4.71,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1769.0,
-      "deviation": 12.32,
+      "ma_value": 1776.62,
+      "deviation": 9.65,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1782.56,
-      "deviation": 11.47,
+      "ma_value": 1787.43,
+      "deviation": 8.98,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 62.0
+        "amount": 62.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.5
+        "amount": 33.5,
+        "in_progress": true
       }
     ],
     "latest": 33.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 62.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

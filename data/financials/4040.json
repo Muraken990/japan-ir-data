@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:01.008623",
+  "fetched_at": "2026-11-20T14:12:48.510417",
   "ticker": "4040",
   "ticker_full": "4040.T",
   "company_name": "NANKAI CHEMICAL COMPANY LIMITED",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4043.0,
-      "deviation": 1.53,
-      "trend": "up"
+      "ma_value": 3754.0,
+      "deviation": -7.57,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4192.4,
-      "deviation": -2.08,
+      "ma_value": 4115.8,
+      "deviation": -15.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3928.64,
-      "deviation": 4.49,
-      "trend": "up"
+      "ma_value": 3948.97,
+      "deviation": -12.13,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3616.35,
-      "deviation": 13.51,
-      "trend": "up"
+      "ma_value": 3630.96,
+      "deviation": -4.43,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,23 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2023,
-        "amount": 15.0
-      },
-      {
         "year": 2024,
-        "amount": 55.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

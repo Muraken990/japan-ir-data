@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:55:47.368577",
+  "fetched_at": "2026-11-20T14:02:05.144930",
   "ticker": "6666",
   "ticker_full": "6666.T",
   "company_name": "RIVER ELETEC CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 560.6,
-      "deviation": -0.11,
+      "ma_value": 514.4,
+      "deviation": -5.91,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 661.48,
-      "deviation": -15.34,
+      "ma_value": 606.8,
+      "deviation": -20.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 751.59,
-      "deviation": -25.49,
+      "ma_value": 739.38,
+      "deviation": -34.54,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 791.27,
-      "deviation": -29.23,
+      "ma_value": 792.89,
+      "deviation": -38.96,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 13.0
-      },
-      {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:58.860271",
+  "fetched_at": "2026-11-20T14:11:50.537467",
   "ticker": "9720",
   "ticker_full": "9720.T",
   "company_name": "HOTEL NEW GRAND CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6198.0,
-      "deviation": 0.03,
+      "ma_value": 6262.0,
+      "deviation": 0.45,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 6367.6,
-      "deviation": -2.63,
+      "ma_value": 6325.6,
+      "deviation": -0.56,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6364.67,
-      "deviation": -2.59,
+      "ma_value": 6374.13,
+      "deviation": -1.32,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5940.85,
-      "deviation": 4.36,
+      "ma_value": 5946.65,
+      "deviation": 5.77,
       "trend": "up"
     }
   },
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2015,
-        "amount": 25.0
-      },
-      {
-        "year": 2016,
-        "amount": 25.0
-      },
-      {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:06.507994",
+  "fetched_at": "2026-11-20T14:59:36.112243",
   "ticker": "8966",
   "ticker_full": "8966.T",
   "company_name": "HEIWA REAL ESTATE REIT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 123660.0,
-      "deviation": 0.92,
-      "trend": "up"
+      "ma_value": 124400.0,
+      "deviation": -2.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 124324.0,
-      "deviation": 0.38,
-      "trend": "up"
+      "ma_value": 124368.0,
+      "deviation": -2.47,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 129005.33,
-      "deviation": -3.26,
+      "ma_value": 128236.0,
+      "deviation": -5.41,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 136901.22,
-      "deviation": -8.84,
+      "ma_value": 136226.5,
+      "deviation": -10.96,
       "trend": "down"
     }
   },
@@ -42,18 +42,18 @@
     "years": [
       {
         "year": 2025,
-        "revenue": 20859131000.0,
-        "revenue_fmt": "¥209億",
-        "gross_profit": 13668912000.0,
-        "gross_profit_fmt": "¥137億",
-        "operating_income": 11541669000.0,
-        "operating_income_fmt": "¥115億",
-        "ebit": 11374214000.0,
-        "ebit_fmt": "¥114億",
-        "net_income": 10088158000.0,
-        "net_income_fmt": "¥101億",
-        "eps": 8245.4,
-        "operating_margin": 55.33,
+        "revenue": 21409402000.0,
+        "revenue_fmt": "¥214億",
+        "gross_profit": 14162512000.0,
+        "gross_profit_fmt": "¥142億",
+        "operating_income": 11970902000.0,
+        "operating_income_fmt": "¥120億",
+        "ebit": 11802642000.0,
+        "ebit_fmt": "¥118億",
+        "net_income": 10413034000.0,
+        "net_income_fmt": "¥104億",
+        "eps": 16.63,
+        "operating_margin": 55.91,
         "total_assets": 272935839000.0,
         "total_assets_fmt": "¥2729億",
         "total_equity": 133158397000.0,
@@ -65,17 +65,17 @@
         "equity_ratio": 48.79,
         "de_ratio": 0.96,
         "current_ratio": 1.02,
-        "operating_cf": 17201220000.0,
-        "operating_cf_fmt": "¥172億",
-        "investing_cf": -26426847000.0,
-        "investing_cf_fmt": "-¥264億",
-        "financing_cf": 12064784000.0,
-        "financing_cf_fmt": "¥121億",
-        "free_cf": -9551620000.0,
-        "free_cf_fmt": "-¥96億",
-        "net_margin": 48.36,
-        "roe": 7.58,
-        "roa": 3.7
+        "operating_cf": 18124400000.0,
+        "operating_cf_fmt": "¥181億",
+        "investing_cf": -26069150000.0,
+        "investing_cf_fmt": "-¥261億",
+        "financing_cf": 9128892000.0,
+        "financing_cf_fmt": "¥91億",
+        "free_cf": -8261472000.0,
+        "free_cf_fmt": "-¥83億",
+        "net_margin": 48.64,
+        "roe": 7.82,
+        "roa": 3.82
       },
       {
         "year": 2024,
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6180.0
+        "amount": 6180.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6460.0
+        "amount": 6460.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 7020.0
+        "amount": 7020.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7800.0
+        "amount": 7800.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3990.0
+        "amount": 3990.0,
+        "in_progress": true
       }
     ],
     "latest": 3990.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 7940.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

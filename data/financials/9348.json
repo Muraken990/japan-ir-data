@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:44:20.796169",
+  "fetched_at": "2026-11-20T14:48:10.733126",
   "ticker": "9348",
   "ticker_full": "9348.T",
   "company_name": "ISPACE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 366.8,
-      "deviation": 0.05,
-      "trend": "up"
+      "ma_value": 348.0,
+      "deviation": -6.03,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 371.24,
-      "deviation": -1.14,
+      "ma_value": 364.08,
+      "deviation": -10.18,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 401.09,
-      "deviation": -8.5,
+      "ma_value": 397.01,
+      "deviation": -17.64,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 477.79,
-      "deviation": -23.19,
+      "ma_value": 472.88,
+      "deviation": -30.85,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

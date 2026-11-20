@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:34.742488",
+  "fetched_at": "2026-11-20T14:09:37.702191",
   "ticker": "5956",
   "ticker_full": "5956.T",
   "company_name": "TOSO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 565.4,
-      "deviation": -0.25,
+      "ma_value": 560.0,
+      "deviation": -0.18,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 572.48,
-      "deviation": -1.48,
+      "ma_value": 567.0,
+      "deviation": -1.41,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 575.03,
-      "deviation": -1.92,
+      "ma_value": 572.65,
+      "deviation": -2.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 592.82,
-      "deviation": -4.86,
+      "ma_value": 590.9,
+      "deviation": -5.4,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 11.5
+        "amount": 11.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.5
+        "amount": 15.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 15.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

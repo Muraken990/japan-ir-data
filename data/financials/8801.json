@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:57.183888",
+  "fetched_at": "2026-11-20T15:13:08.421291",
   "ticker": "8801",
   "ticker_full": "8801.T",
   "company_name": "MITSUI FUDOSAN",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1579.2,
-      "deviation": 2.77,
-      "trend": "up"
+      "ma_value": 1592.38,
+      "deviation": -3.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1553.08,
-      "deviation": 4.5,
-      "trend": "up"
+      "ma_value": 1582.71,
+      "deviation": -2.54,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1505.16,
-      "deviation": 7.83,
+      "ma_value": 1505.18,
+      "deviation": 2.48,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1612.75,
-      "deviation": 0.64,
-      "trend": "up"
+      "ma_value": 1608.52,
+      "deviation": -4.1,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 21.0
-      },
-      {
         "year": 2023,
-        "amount": 22.33
+        "amount": 20.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 31.33
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.0
+        "amount": 31.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 36.5
+        "amount": 35.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 18.5,
+        "in_progress": true
       }
     ],
     "latest": 18.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:37.313414",
+  "fetched_at": "2026-11-20T14:19:03.546625",
   "ticker": "3420",
   "ticker_full": "3420.T",
   "company_name": "KFC LTD (JAPAN)",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1484.8,
-      "deviation": 0.48,
-      "trend": "up"
+      "ma_value": 1477.4,
+      "deviation": -0.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1521.24,
-      "deviation": -1.92,
+      "ma_value": 1507.64,
+      "deviation": -2.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1564.4,
-      "deviation": -4.63,
+      "ma_value": 1555.57,
+      "deviation": -5.5,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1553.39,
-      "deviation": -3.95,
+      "ma_value": 1551.23,
+      "deviation": -5.24,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       }
     ],
     "latest": 65.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 65.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

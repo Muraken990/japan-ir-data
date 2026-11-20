@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:59.182902",
+  "fetched_at": "2026-11-20T14:22:26.210935",
   "ticker": "8918",
   "ticker_full": "8918.T",
   "company_name": "LAND CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 9.0,
-      "deviation": 0.0,
+      "ma_value": 8.6,
+      "deviation": -6.98,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 9.52,
-      "deviation": -5.46,
+      "ma_value": 9.16,
+      "deviation": -12.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 10.08,
-      "deviation": -10.71,
+      "ma_value": 9.97,
+      "deviation": -19.79,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 9.87,
-      "deviation": -8.81,
+      "ma_value": 9.86,
+      "deviation": -18.86,
       "trend": "down"
     }
   },
@@ -232,22 +232,33 @@
     "history": [
       {
         "year": 2022,
-        "amount": 0.1
+        "amount": 0.1,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 0.1
+        "amount": 0.1,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 0.1
+        "amount": 0.1,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 0.1
+        "amount": 0.1,
+        "in_progress": false
       }
     ],
     "latest": 0.1,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

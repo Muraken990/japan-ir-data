@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:36.968703",
+  "fetched_at": "2026-11-20T14:18:04.810168",
   "ticker": "2321",
   "ticker_full": "2321.T",
   "company_name": "SOFTFRONT HOLDINGS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 127.2,
-      "deviation": 1.42,
-      "trend": "up"
+      "ma_value": 124.0,
+      "deviation": -4.03,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 133.56,
-      "deviation": -3.41,
+      "ma_value": 130.96,
+      "deviation": -9.13,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 136.68,
-      "deviation": -5.62,
+      "ma_value": 136.83,
+      "deviation": -13.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 171.41,
-      "deviation": -24.74,
+      "ma_value": 169.15,
+      "deviation": -29.65,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

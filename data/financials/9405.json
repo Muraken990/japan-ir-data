@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:22.096801",
+  "fetched_at": "2026-11-20T14:37:58.834480",
   "ticker": "9405",
   "ticker_full": "9405.T",
   "company_name": "ASAHI BROADCASTING GP HLDGS COR",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 822.4,
-      "deviation": 1.53,
-      "trend": "up"
+      "ma_value": 825.2,
+      "deviation": -2.33,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 801.32,
-      "deviation": 4.2,
-      "trend": "up"
+      "ma_value": 808.92,
+      "deviation": -0.36,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 823.9,
-      "deviation": 1.35,
-      "trend": "up"
+      "ma_value": 823.06,
+      "deviation": -2.07,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 820.41,
-      "deviation": 1.78,
-      "trend": "up"
+      "ma_value": 820.8,
+      "deviation": -1.8,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 27.0
-      },
-      {
         "year": 2023,
-        "amount": 12.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 8.0,
+        "in_progress": true
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 33.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

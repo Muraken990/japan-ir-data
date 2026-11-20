@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:00.033578",
+  "fetched_at": "2026-11-20T15:05:27.399988",
   "ticker": "4401",
   "ticker_full": "4401.T",
   "company_name": "ADEKA CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4333.0,
-      "deviation": 1.15,
-      "trend": "up"
+      "ma_value": 4190.25,
+      "deviation": -7.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4545.04,
-      "deviation": -3.57,
+      "ma_value": 4431.08,
+      "deviation": -12.35,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4466.34,
-      "deviation": -1.87,
+      "ma_value": 4491.04,
+      "deviation": -13.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4227.77,
-      "deviation": 3.67,
-      "trend": "up"
+      "ma_value": 4225.12,
+      "deviation": -8.07,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 77.0
-      },
-      {
         "year": 2023,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 98.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 104.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 126.0
+        "amount": 112.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 66.0,
+        "in_progress": true
       }
     ],
     "latest": 66.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 112.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

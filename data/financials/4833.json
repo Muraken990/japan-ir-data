@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:46.699697",
+  "fetched_at": "2026-11-20T14:11:42.658386",
   "ticker": "4833",
   "ticker_full": "4833.T",
   "company_name": "DEF CONSULTING INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 39.4,
-      "deviation": 1.52,
-      "trend": "up"
+      "ma_value": 34.6,
+      "deviation": -4.62,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 42.52,
-      "deviation": -5.93,
+      "ma_value": 39.72,
+      "deviation": -16.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 48.96,
-      "deviation": -18.3,
+      "ma_value": 48.29,
+      "deviation": -31.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 58.4,
-      "deviation": -31.5,
+      "ma_value": 56.85,
+      "deviation": -41.95,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2020-03-31",
+      "status": "unavailable"
+    }
   }
 }

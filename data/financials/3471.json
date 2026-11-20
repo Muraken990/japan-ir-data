@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:01:58.660625",
+  "fetched_at": "2026-11-20T15:05:26.289063",
   "ticker": "3471",
   "ticker_full": "3471.T",
   "company_name": "MITSUI FUDOSAN LOGISTICS PARK I",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 97280.0,
-      "deviation": 0.53,
-      "trend": "up"
+      "ma_value": 98700.0,
+      "deviation": -0.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 97648.0,
-      "deviation": 0.16,
+      "ma_value": 97862.5,
+      "deviation": 0.14,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 102058.14,
-      "deviation": -4.17,
+      "ma_value": 101320.27,
+      "deviation": -3.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 107182.02,
-      "deviation": -8.75,
+      "ma_value": 106841.46,
+      "deviation": -8.28,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4062.0
+        "amount": 4062.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4301.25
+        "amount": 4301.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5692.25
+        "amount": 4528.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3629.0
+        "amount": 4793.25,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5778.0
+        "amount": 5778.0,
+        "in_progress": false
       }
     ],
     "latest": 2503.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 5778.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

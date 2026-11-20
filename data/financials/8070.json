@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:29:58.193518",
+  "fetched_at": "2026-11-20T14:34:43.825994",
   "ticker": "8070",
   "ticker_full": "8070.T",
   "company_name": "TOKYO SANGYO CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1049.4,
-      "deviation": -3.56,
+      "ma_value": 907.2,
+      "deviation": -2.78,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1086.0,
-      "deviation": -6.81,
+      "ma_value": 1065.28,
+      "deviation": -17.2,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 980.36,
-      "deviation": 3.23,
-      "trend": "up"
+      "ma_value": 986.01,
+      "deviation": -10.55,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 908.44,
-      "deviation": 11.4,
-      "trend": "up"
+      "ma_value": 907.22,
+      "deviation": -2.78,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 28.0
-      },
-      {
         "year": 2023,
-        "amount": 33.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 39.0
+        "amount": 38.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 38.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

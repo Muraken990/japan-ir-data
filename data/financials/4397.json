@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:43:31.760198",
+  "fetched_at": "2026-11-20T13:50:34.523647",
   "ticker": "4397",
   "ticker_full": "4397.T",
   "company_name": "TEAMSPIRIT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 347.6,
-      "deviation": 0.12,
-      "trend": "up"
+      "ma_value": 339.8,
+      "deviation": -3.47,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 362.68,
-      "deviation": -4.05,
+      "ma_value": 356.8,
+      "deviation": -8.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 386.87,
-      "deviation": -10.05,
+      "ma_value": 383.69,
+      "deviation": -14.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 399.94,
-      "deviation": -12.99,
+      "ma_value": 396.31,
+      "deviation": -17.24,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "no_dividend"
+    }
   }
 }

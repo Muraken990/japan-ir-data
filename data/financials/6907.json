@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:36.596583",
+  "fetched_at": "2026-11-20T14:17:04.932930",
   "ticker": "6907",
   "ticker_full": "6907.T",
   "company_name": "GEOMATEC CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 746.8,
-      "deviation": 3.91,
-      "trend": "up"
+      "ma_value": 720.0,
+      "deviation": -9.72,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 800.88,
-      "deviation": -3.11,
+      "ma_value": 774.56,
+      "deviation": -16.08,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 766.23,
-      "deviation": 1.28,
-      "trend": "up"
+      "ma_value": 771.07,
+      "deviation": -15.7,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 869.14,
-      "deviation": -10.72,
+      "ma_value": 854.6,
+      "deviation": -23.94,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 30.0
-      },
-      {
-        "year": 2017,
-        "amount": 30.0
-      },
-      {
-        "year": 2018,
-        "amount": 30.0
-      },
-      {
-        "year": 2019,
-        "amount": 30.0
-      },
-      {
-        "year": 2020,
-        "amount": 15.0
-      }
-    ],
-    "latest": 15.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2022-03-31",
+      "status": "unavailable"
+    }
   }
 }

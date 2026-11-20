@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:41.903230",
+  "fetched_at": "2026-11-20T14:11:39.840699",
   "ticker": "9478",
   "ticker_full": "9478.T",
   "company_name": "SE HOLDINGS AND INCUBATIONS CO ",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 490.0,
-      "deviation": 1.84,
-      "trend": "up"
+      "ma_value": 485.8,
+      "deviation": -0.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 496.32,
-      "deviation": 0.54,
-      "trend": "up"
+      "ma_value": 495.12,
+      "deviation": -2.25,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 510.61,
-      "deviation": -2.27,
+      "ma_value": 508.85,
+      "deviation": -4.88,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 495.74,
-      "deviation": 0.66,
-      "trend": "up"
+      "ma_value": 497.63,
+      "deviation": -2.74,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥10億",
         "net_income": 633000000.0,
         "net_income_fmt": "¥6億",
-        "eps": 39.9,
+        "eps": 39.79,
         "operating_margin": 13.61,
         "total_assets": 18690000000.0,
         "total_assets_fmt": "¥187億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3.5
+        "amount": 3.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.5
+        "amount": 3.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 4.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

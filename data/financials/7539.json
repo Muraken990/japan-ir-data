@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:46.514002",
+  "fetched_at": "2026-11-20T14:25:59.930168",
   "ticker": "7539",
   "ticker_full": "7539.T",
   "company_name": "AINAVO HOLDINGS CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Building Products & Equipment",
     "website": "https://www.ainavo.co.jp",
-    "employees": 1107,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "Tokyo Nissan Taito Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 747.4,
-      "deviation": 0.08,
-      "trend": "up"
+      "ma_value": 736.8,
+      "deviation": -1.47,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 753.56,
-      "deviation": -0.74,
+      "ma_value": 750.24,
+      "deviation": -3.23,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 772.35,
-      "deviation": -3.15,
+      "ma_value": 769.69,
+      "deviation": -5.68,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 768.61,
-      "deviation": -2.68,
+      "ma_value": 768.84,
+      "deviation": -5.57,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

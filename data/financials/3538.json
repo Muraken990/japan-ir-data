@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:32.685376",
+  "fetched_at": "2026-11-20T14:18:00.513300",
   "ticker": "3538",
   "ticker_full": "3538.T",
   "company_name": "WILLPLUS HOLDINGS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 947.4,
-      "deviation": -4.16,
+      "ma_value": 877.2,
+      "deviation": -5.61,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 981.4,
-      "deviation": -7.48,
+      "ma_value": 956.36,
+      "deviation": -13.42,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 993.84,
-      "deviation": -8.64,
+      "ma_value": 989.2,
+      "deviation": -16.3,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 976.93,
-      "deviation": -7.06,
+      "ma_value": 973.28,
+      "deviation": -14.93,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 44.9
+        "amount": 34.9,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 42.17
+        "amount": 41.17,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 44.51
+        "amount": 43.51,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 46.06
+        "amount": 45.06,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.0
+        "amount": 46.0,
+        "in_progress": false
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 46.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

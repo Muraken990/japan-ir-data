@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:04.309694",
+  "fetched_at": "2026-11-20T14:22:32.379687",
   "ticker": "2981",
   "ticker_full": "2981.T",
   "company_name": "LANDIX INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2037.2,
-      "deviation": -2.86,
+      "ma_value": 1861.8,
+      "deviation": -8.58,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2132.68,
-      "deviation": -7.21,
+      "ma_value": 2053.88,
+      "deviation": -17.13,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2153.87,
-      "deviation": -8.12,
+      "ma_value": 2143.38,
+      "deviation": -20.59,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2121.74,
-      "deviation": -6.73,
+      "ma_value": 2111.31,
+      "deviation": -19.39,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 27.5
-      },
-      {
         "year": 2023,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 36.5
+        "amount": 36.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 39.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 53.0
+        "amount": 47.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 27.0,
+        "in_progress": true
       }
     ],
     "latest": 27.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 47.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

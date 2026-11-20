@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:58:12.104889",
+  "fetched_at": "2026-11-20T15:01:40.753027",
   "ticker": "6590",
   "ticker_full": "6590.T",
   "company_name": "SHIBAURA MECHATRONICS CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2833.8,
-      "deviation": 3.18,
-      "trend": "up"
+      "ma_value": 2651.75,
+      "deviation": -11.83,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3279.76,
-      "deviation": -10.85,
+      "ma_value": 3003.17,
+      "deviation": -22.15,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3867.85,
-      "deviation": -24.4,
+      "ma_value": 3753.73,
+      "deviation": -37.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4544.44,
-      "deviation": -35.66,
+      "ma_value": 4488.86,
+      "deviation": -47.92,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.33
+        "amount": 15.33,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 37.33
+        "amount": 37.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.6
+        "amount": 55.6,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

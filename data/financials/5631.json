@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:12.873887",
+  "fetched_at": "2026-11-20T15:07:37.751399",
   "ticker": "5631",
   "ticker_full": "5631.T",
   "company_name": "JAPAN STEEL WORKS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5711.0,
-      "deviation": -5.11,
+      "ma_value": 5041.75,
+      "deviation": -12.09,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6140.76,
-      "deviation": -11.75,
+      "ma_value": 5827.75,
+      "deviation": -23.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6994.49,
-      "deviation": -22.52,
+      "ma_value": 6858.74,
+      "deviation": -35.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 8044.74,
-      "deviation": -32.64,
+      "ma_value": 7956.39,
+      "deviation": -44.3,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 63.5
-      },
-      {
         "year": 2023,
-        "amount": 58.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 68.0
+        "amount": 59.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 92.0
+        "amount": 86.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 98.0
+        "amount": 92.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 92.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

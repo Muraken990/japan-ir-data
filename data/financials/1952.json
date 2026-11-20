@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:53:41.785214",
+  "fetched_at": "2026-11-20T14:57:14.494971",
   "ticker": "1952",
   "ticker_full": "1952.T",
   "company_name": "SHIN NIPPON AIR TECHNOLOGIES CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2924.6,
-      "deviation": 6.68,
-      "trend": "up"
+      "ma_value": 2999.8,
+      "deviation": -4.63,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2956.32,
-      "deviation": 5.54,
-      "trend": "up"
+      "ma_value": 2954.24,
+      "deviation": -3.16,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3067.17,
-      "deviation": 1.72,
-      "trend": "up"
+      "ma_value": 3050.07,
+      "deviation": -6.2,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3322.68,
-      "deviation": -6.1,
+      "ma_value": 3313.77,
+      "deviation": -13.66,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥169億",
         "net_income": 12154000000.0,
         "net_income_fmt": "¥122億",
-        "eps": 0,
+        "eps": 267.13,
         "operating_margin": 9.77,
         "total_assets": 135391000000.0,
         "total_assets_fmt": "¥1354億",
@@ -200,7 +200,7 @@
         "ebit_fmt": "N/A",
         "net_income": 0,
         "net_income_fmt": "N/A",
-        "eps": 115.5,
+        "eps": 0,
         "operating_margin": 0,
         "total_assets": 0,
         "total_assets_fmt": "N/A",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 37.5
-      },
-      {
         "year": 2023,
-        "amount": 45.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 130.0
+        "amount": 110.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 110.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

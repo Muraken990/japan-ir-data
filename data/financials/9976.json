@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:30.553977",
+  "fetched_at": "2026-11-20T14:08:35.310955",
   "ticker": "9976",
   "ticker_full": "9976.T",
   "company_name": "SEKICHU CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1038.4,
-      "deviation": 2.37,
-      "trend": "up"
+      "ma_value": 1063.6,
+      "deviation": -1.65,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1059.04,
-      "deviation": 0.37,
-      "trend": "up"
+      "ma_value": 1060.72,
+      "deviation": -1.39,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1069.65,
-      "deviation": -0.62,
+      "ma_value": 1070.17,
+      "deviation": -2.26,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1052.63,
-      "deviation": 0.99,
-      "trend": "up"
+      "ma_value": 1053.7,
+      "deviation": -0.73,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-02-20",
+      "status": "unavailable"
+    }
   }
 }

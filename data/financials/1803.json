@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:45.036477",
+  "fetched_at": "2026-11-20T15:11:57.782384",
   "ticker": "1803",
   "ticker_full": "1803.T",
   "company_name": "SHIMIZU CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2186.6,
-      "deviation": 2.28,
-      "trend": "up"
+      "ma_value": 2176.88,
+      "deviation": -5.53,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2066.88,
-      "deviation": 8.21,
-      "trend": "up"
+      "ma_value": 2094.6,
+      "deviation": -1.82,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2225.04,
-      "deviation": 0.52,
-      "trend": "up"
+      "ma_value": 2211.7,
+      "deviation": -7.02,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2568.26,
-      "deviation": -12.92,
+      "ma_value": 2557.83,
+      "deviation": -19.6,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 22.0
-      },
-      {
         "year": 2023,
-        "amount": 24.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 42.5
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 94.5
+        "amount": 72.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 44.5,
+        "in_progress": true
       }
     ],
     "latest": 44.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 72.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

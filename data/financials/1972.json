@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:30:03.625166",
+  "fetched_at": "2026-11-20T14:34:48.240634",
   "ticker": "1972",
   "ticker_full": "1972.T",
   "company_name": "SANKO METAL INDUSTRIAL CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1226.8,
-      "deviation": 1.48,
-      "trend": "up"
+      "ma_value": 1211.4,
+      "deviation": -2.18,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1239.4,
-      "deviation": 0.45,
-      "trend": "up"
+      "ma_value": 1230.84,
+      "deviation": -3.72,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1266.25,
-      "deviation": -1.68,
+      "ma_value": 1263.54,
+      "deviation": -6.22,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1276.24,
-      "deviation": -2.45,
+      "ma_value": 1270.34,
+      "deviation": -6.72,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 26.0
-      },
-      {
         "year": 2023,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 110.0
+        "amount": 76.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 66.0
+        "amount": 69.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 31.0,
+        "in_progress": true
       }
     ],
     "latest": 31.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2017-03-31",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:47:39.817755",
+  "fetched_at": "2026-11-20T13:54:30.204062",
   "ticker": "4424",
   "ticker_full": "4424.T",
   "company_name": "AMAZIA INC",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Software - Application",
     "website": "https://www.amazia.co.jp",
-    "employees": 53,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "Shibuya Sakura Stage Central Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 223.2,
-      "deviation": 1.25,
-      "trend": "up"
+      "ma_value": 221.0,
+      "deviation": -6.79,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 267.08,
-      "deviation": -15.38,
+      "ma_value": 252.32,
+      "deviation": -18.36,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 316.17,
-      "deviation": -28.52,
+      "ma_value": 305.13,
+      "deviation": -32.49,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 280.7,
-      "deviation": -19.49,
+      "ma_value": 279.08,
+      "deviation": -26.19,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

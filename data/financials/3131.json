@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:35.920718",
+  "fetched_at": "2026-11-20T14:09:38.675050",
   "ticker": "3131",
   "ticker_full": "3131.T",
   "company_name": "SHINDEN HIGHTEX CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6128.0,
-      "deviation": 15.86,
-      "trend": "up"
+      "ma_value": 6448.0,
+      "deviation": -5.4,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6361.2,
-      "deviation": 11.61,
+      "ma_value": 6040.0,
+      "deviation": 0.99,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 6225.2,
-      "deviation": 14.05,
-      "trend": "up"
+      "ma_value": 6425.47,
+      "deviation": -5.07,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4265.44,
-      "deviation": 66.45,
+      "ma_value": 4356.1,
+      "deviation": 40.03,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 135.0
+        "amount": 135.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 125.0
+        "amount": 125.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": false
       }
     ],
     "latest": 130.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 130.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

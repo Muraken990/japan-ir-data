@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:02.207539",
+  "fetched_at": "2026-11-20T14:22:30.312038",
   "ticker": "8202",
   "ticker_full": "8202.T",
   "company_name": "LAOX HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 141.6,
-      "deviation": -0.42,
+      "ma_value": 139.8,
+      "deviation": -1.29,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 144.64,
-      "deviation": -2.52,
+      "ma_value": 143.24,
+      "deviation": -3.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 146.65,
-      "deviation": -3.85,
+      "ma_value": 146.23,
+      "deviation": -5.63,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 147.5,
-      "deviation": -4.41,
+      "ma_value": 147.28,
+      "deviation": -6.3,
       "trend": "down"
     }
   },
@@ -231,23 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2004,
-        "amount": 50.0
-      },
-      {
-        "year": 2005,
-        "amount": 50.0
-      },
-      {
         "year": 2024,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 3.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

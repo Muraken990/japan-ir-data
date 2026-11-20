@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:12.296662",
+  "fetched_at": "2026-11-20T14:42:27.998438",
   "ticker": "6648",
   "ticker_full": "6648.T",
   "company_name": "KAWADEN CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1427.6,
-      "deviation": 2.27,
-      "trend": "up"
+      "ma_value": 1344.8,
+      "deviation": -4.97,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1513.08,
-      "deviation": -3.51,
+      "ma_value": 1464.2,
+      "deviation": -12.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1619.05,
-      "deviation": -9.82,
+      "ma_value": 1599.15,
+      "deviation": -20.08,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1847.99,
-      "deviation": -21.0,
+      "ma_value": 1828.1,
+      "deviation": -30.09,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥41億",
         "net_income": 2932363000.0,
         "net_income_fmt": "¥29億",
-        "eps": 122.58,
+        "eps": 183.1,
         "operating_margin": 15.54,
         "total_assets": 27735002000.0,
         "total_assets_fmt": "¥277億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 16.0
-      },
-      {
         "year": 2023,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 59.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 69.0
+        "amount": 65.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 33.0,
+        "in_progress": true
       }
     ],
     "latest": 33.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

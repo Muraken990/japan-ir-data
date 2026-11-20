@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:35.947724",
+  "fetched_at": "2026-11-20T13:49:40.206014",
   "ticker": "153A",
   "ticker_full": "153A.T",
   "company_name": "CAULIS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2100.2,
-      "deviation": -1.3,
+      "ma_value": 2402.2,
+      "deviation": -1.34,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2417.76,
-      "deviation": -14.26,
-      "trend": "down"
+      "ma_value": 2360.16,
+      "deviation": 0.42,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1790.15,
-      "deviation": 15.8,
+      "ma_value": 1869.96,
+      "deviation": 26.74,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1505.04,
-      "deviation": 37.74,
+      "ma_value": 1535.1,
+      "deviation": 54.39,
       "trend": "up"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 4.8
+        "amount": 4.8,
+        "in_progress": false
       }
     ],
     "latest": 4.8,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2024-12-31",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:17.240539",
+  "fetched_at": "2026-11-20T14:54:54.045469",
   "ticker": "5975",
   "ticker_full": "5975.T",
   "company_name": "TOPRE CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3283.0,
-      "deviation": -0.85,
+      "ma_value": 2948.0,
+      "deviation": -4.34,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3275.6,
-      "deviation": -0.63,
+      "ma_value": 3190.8,
+      "deviation": -11.62,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3182.43,
-      "deviation": 2.28,
-      "trend": "up"
+      "ma_value": 3199.28,
+      "deviation": -11.86,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2774.49,
-      "deviation": 17.32,
+      "ma_value": 2787.31,
+      "deviation": 1.17,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 45.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 100.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

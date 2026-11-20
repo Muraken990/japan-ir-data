@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:42.022964",
+  "fetched_at": "2026-11-20T15:09:57.494828",
   "ticker": "6305",
   "ticker_full": "6305.T",
   "company_name": "HITACHI CONSTRUCTION MACHINERY",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5112.0,
-      "deviation": -0.29,
+      "ma_value": 4964.25,
+      "deviation": -5.73,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5269.4,
-      "deviation": -3.27,
+      "ma_value": 5168.83,
+      "deviation": -9.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5479.16,
-      "deviation": -6.97,
+      "ma_value": 5453.4,
+      "deviation": -14.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5446.68,
-      "deviation": -6.42,
+      "ma_value": 5448.45,
+      "deviation": -14.1,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 115.0
-      },
-      {
         "year": 2023,
-        "amount": 145.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 130.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 185.0
+        "amount": 175.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 190.0
+        "amount": 175.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 90.0,
+        "in_progress": true
       }
     ],
     "latest": 90.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 175.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

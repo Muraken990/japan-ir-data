@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:21:48.429278",
+  "fetched_at": "2026-11-20T14:26:59.992448",
   "ticker": "9312",
   "ticker_full": "9312.T",
   "company_name": "KEIHIN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2853.8,
-      "deviation": 0.11,
-      "trend": "up"
+      "ma_value": 2812.8,
+      "deviation": -2.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3042.36,
-      "deviation": -6.09,
+      "ma_value": 2971.32,
+      "deviation": -7.35,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2939.48,
-      "deviation": -2.81,
+      "ma_value": 2936.21,
+      "deviation": -6.24,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2937.83,
-      "deviation": -2.75,
+      "ma_value": 2937.45,
+      "deviation": -6.28,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       }
     ],
     "latest": 100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

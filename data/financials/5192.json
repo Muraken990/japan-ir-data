@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:04.311207",
+  "fetched_at": "2026-11-20T14:54:43.015541",
   "ticker": "5192",
   "ticker_full": "5192.T",
   "company_name": "MITSUBOSHI BELTING",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4269.0,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 4210.0,
+      "deviation": -1.54,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4210.8,
-      "deviation": 2.24,
-      "trend": "up"
+      "ma_value": 4218.2,
+      "deviation": -1.74,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4207.45,
-      "deviation": 2.32,
-      "trend": "up"
+      "ma_value": 4219.41,
+      "deviation": -1.76,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4016.02,
-      "deviation": 7.2,
+      "ma_value": 4023.67,
+      "deviation": 3.02,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 230.0
-      },
-      {
         "year": 2023,
-        "amount": 255.0
+        "amount": 250.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 215.0
+        "amount": 250.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 186.0
+        "amount": 186.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 193.0
+        "amount": 191.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 92.0,
+        "in_progress": true
       }
     ],
     "latest": 92.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 191.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

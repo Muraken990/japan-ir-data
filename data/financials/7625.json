@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:53.173986",
+  "fetched_at": "2026-11-20T14:03:06.809027",
   "ticker": "7625",
   "ticker_full": "7625.T",
   "company_name": "GLOBAL-DINING INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 420.6,
-      "deviation": 0.1,
-      "trend": "up"
+      "ma_value": 415.4,
+      "deviation": -1.54,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 435.24,
-      "deviation": -3.27,
+      "ma_value": 430.36,
+      "deviation": -4.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 457.65,
-      "deviation": -8.01,
+      "ma_value": 454.32,
+      "deviation": -9.98,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 459.22,
-      "deviation": -8.32,
+      "ma_value": 459.56,
+      "deviation": -11.0,
       "trend": "down"
     }
   },
@@ -231,27 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2004,
-        "amount": 5.0
-      },
-      {
-        "year": 2005,
-        "amount": 5.0
-      },
-      {
-        "year": 2006,
-        "amount": 5.0
-      },
-      {
-        "year": 2007,
-        "amount": 5.0
-      },
-      {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

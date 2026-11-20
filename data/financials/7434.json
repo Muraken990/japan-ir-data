@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:04.855891",
+  "fetched_at": "2026-11-20T14:14:46.379724",
   "ticker": "7434",
   "ticker_full": "7434.T",
   "company_name": "OTAKE CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1726.8,
-      "deviation": 1.17,
-      "trend": "up"
+      "ma_value": 1713.6,
+      "deviation": -0.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1738.44,
-      "deviation": 0.49,
-      "trend": "up"
+      "ma_value": 1734.84,
+      "deviation": -1.72,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1782.41,
-      "deviation": -1.99,
+      "ma_value": 1776.91,
+      "deviation": -4.05,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1820.18,
-      "deviation": -4.02,
+      "ma_value": 1814.79,
+      "deviation": -6.05,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

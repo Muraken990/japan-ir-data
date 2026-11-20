@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:01:04.789375",
+  "fetched_at": "2026-11-20T15:04:32.944986",
   "ticker": "6592",
   "ticker_full": "6592.T",
   "company_name": "MABUCHI MOTOR CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1800.2,
-      "deviation": 1.52,
-      "trend": "up"
+      "ma_value": 1753.62,
+      "deviation": -3.57,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1760.26,
-      "deviation": 3.82,
-      "trend": "up"
+      "ma_value": 1757.04,
+      "deviation": -3.76,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1728.93,
-      "deviation": 5.7,
-      "trend": "up"
+      "ma_value": 1734.61,
+      "deviation": -2.51,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1630.34,
-      "deviation": 12.09,
+      "ma_value": 1637.47,
+      "deviation": 3.27,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 33.75
+        "amount": 33.75,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 37.5
+        "amount": 37.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 53.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 53.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

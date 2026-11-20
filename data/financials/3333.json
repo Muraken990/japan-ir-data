@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:32:21.910865",
+  "fetched_at": "2026-11-20T14:37:02.727880",
   "ticker": "3333",
   "ticker_full": "3333.T",
   "company_name": "ASAHI CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1265.8,
-      "deviation": 1.52,
-      "trend": "up"
+      "ma_value": 1285.6,
+      "deviation": -1.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1263.92,
-      "deviation": 1.67,
-      "trend": "up"
+      "ma_value": 1270.84,
+      "deviation": -0.62,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1294.35,
-      "deviation": -0.72,
+      "ma_value": 1291.58,
+      "deviation": -2.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1279.51,
-      "deviation": 0.43,
-      "trend": "up"
+      "ma_value": 1280.22,
+      "deviation": -1.35,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 28.0
-      },
-      {
         "year": 2023,
-        "amount": 50.5
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 47.5
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-02-20",
+      "status": "ok"
+    }
   }
 }

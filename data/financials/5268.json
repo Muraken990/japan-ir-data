@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:00.530845",
+  "fetched_at": "2026-11-20T14:22:28.689195",
   "ticker": "5268",
   "ticker_full": "5268.T",
   "company_name": "ASAHI CONCRETE WORKS CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 777.6,
-      "deviation": -1.36,
+      "ma_value": 731.4,
+      "deviation": -5.11,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 800.64,
-      "deviation": -4.2,
+      "ma_value": 781.04,
+      "deviation": -11.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 831.17,
-      "deviation": -7.72,
+      "ma_value": 825.51,
+      "deviation": -15.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 886.69,
-      "deviation": -13.5,
+      "ma_value": 878.91,
+      "deviation": -21.04,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥7億",
         "net_income": 455217000.0,
         "net_income_fmt": "¥5億",
-        "eps": 34.57,
+        "eps": 34.56,
         "operating_margin": 7.99,
         "total_assets": 16766159000.0,
         "total_assets_fmt": "¥168億",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

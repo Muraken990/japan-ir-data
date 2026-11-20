@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:04.909289",
+  "fetched_at": "2026-11-20T15:06:30.320310",
   "ticker": "9533",
   "ticker_full": "9533.T",
   "company_name": "TOHO GAS CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1246.9,
-      "deviation": 1.65,
-      "trend": "up"
+      "ma_value": 1254.25,
+      "deviation": -3.57,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1224.58,
-      "deviation": 3.5,
-      "trend": "up"
+      "ma_value": 1236.25,
+      "deviation": -2.16,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1218.96,
-      "deviation": 3.98,
-      "trend": "up"
+      "ma_value": 1222.07,
+      "deviation": -1.03,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1243.29,
-      "deviation": 1.95,
-      "trend": "up"
+      "ma_value": 1242.37,
+      "deviation": -2.65,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.0
-      },
-      {
         "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 17.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 21.25
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 22.5
+        "amount": 22.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 11.25,
+        "in_progress": true
       }
     ],
     "latest": 11.25,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 22.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

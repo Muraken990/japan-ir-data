@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:19.190014",
+  "fetched_at": "2026-11-20T14:23:37.993194",
   "ticker": "369A",
   "ticker_full": "369A.T",
   "company_name": "A-TIE CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2449.8,
-      "deviation": 1.11,
-      "trend": "up"
+      "ma_value": 2303.2,
+      "deviation": -4.22,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2519.52,
-      "deviation": -1.69,
+      "ma_value": 2454.84,
+      "deviation": -10.14,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2513.73,
-      "deviation": -1.46,
+      "ma_value": 2519.1,
+      "deviation": -12.43,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2429.8,
-      "deviation": 1.94,
-      "trend": "up"
+      "ma_value": 2415.15,
+      "deviation": -8.66,
+      "trend": "down"
     }
   },
   "financials": {
@@ -158,14 +158,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 46.0
+        "amount": 46.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 67.0
+        "amount": 67.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 67.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

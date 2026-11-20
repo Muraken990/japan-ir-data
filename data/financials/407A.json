@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:39.044632",
+  "fetched_at": "2026-11-20T14:19:05.209059",
   "ticker": "407A",
   "ticker_full": "407A.T",
   "company_name": "UNICON HOLDINGS CO. LTD.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 870.8,
-      "deviation": 0.6,
-      "trend": "up"
+      "ma_value": 702.4,
+      "deviation": -1.91,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 885.24,
-      "deviation": -1.04,
+      "ma_value": 847.8,
+      "deviation": -18.73,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 902.91,
-      "deviation": -2.98,
+      "ma_value": 891.01,
+      "deviation": -22.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 942.44,
-      "deviation": -7.05,
+      "ma_value": 931.22,
+      "deviation": -26.01,
       "trend": "down"
     }
   },
@@ -194,15 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2025,
-        "amount": 15.0
-      },
-      {
         "year": 2026,
-        "amount": 30.0
+        "amount": 45.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-06-30",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:08.751118",
+  "fetched_at": "2026-11-20T14:23:31.445257",
   "ticker": "3140",
   "ticker_full": "3140.T",
   "company_name": "BRUNO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1021.2,
-      "deviation": -0.12,
+      "ma_value": 1021.0,
+      "deviation": -0.2,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1023.64,
+      "ma_value": 1022.72,
       "deviation": -0.36,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1017.59,
-      "deviation": 0.24,
+      "ma_value": 1018.83,
+      "deviation": 0.02,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1023.97,
-      "deviation": -0.39,
+      "ma_value": 1024.44,
+      "deviation": -0.53,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.5
+        "amount": 11.5,
+        "in_progress": false
       }
     ],
     "latest": 11.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 11.5,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

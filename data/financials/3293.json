@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:34.554960",
+  "fetched_at": "2026-11-20T14:10:36.517365",
   "ticker": "3293",
   "ticker_full": "3293.T",
   "company_name": "AZUMA HOUSE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 727.6,
-      "deviation": -0.22,
+      "ma_value": 730.6,
+      "deviation": -1.18,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 738.84,
-      "deviation": -1.74,
+      "ma_value": 736.04,
+      "deviation": -1.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 747.79,
-      "deviation": -2.91,
+      "ma_value": 746.46,
+      "deviation": -3.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 749.97,
-      "deviation": -3.2,
+      "ma_value": 749.46,
+      "deviation": -3.66,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 52.5
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 17.5,
+        "in_progress": true
       }
     ],
     "latest": 17.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:54.230458",
+  "fetched_at": "2026-11-20T14:11:47.205741",
   "ticker": "5695",
   "ticker_full": "5695.T",
   "company_name": "POWDERTECH CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2469.6,
-      "deviation": -3.99,
+      "ma_value": 2198.2,
+      "deviation": -7.56,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2561.88,
-      "deviation": -7.45,
+      "ma_value": 2463.0,
+      "deviation": -17.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2816.63,
-      "deviation": -15.82,
+      "ma_value": 2765.12,
+      "deviation": -26.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2681.07,
-      "deviation": -11.57,
+      "ma_value": 2678.0,
+      "deviation": -24.12,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 80.0
-      },
-      {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 150.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 120.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

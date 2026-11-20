@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:18.402580",
+  "fetched_at": "2026-11-20T14:55:53.037740",
   "ticker": "7222",
   "ticker_full": "7222.T",
   "company_name": "NISSAN SHATAI CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 865.2,
-      "deviation": -0.95,
+      "ma_value": 838.0,
+      "deviation": -2.03,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 876.12,
-      "deviation": -2.18,
+      "ma_value": 866.52,
+      "deviation": -5.25,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 913.21,
-      "deviation": -6.15,
+      "ma_value": 904.26,
+      "deviation": -9.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 956.53,
-      "deviation": -10.41,
+      "ma_value": 952.0,
+      "deviation": -13.76,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 13.0
-      },
-      {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 16.75
+        "amount": 15.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 7.75,
+        "in_progress": true
       }
     ],
     "latest": 7.75,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 15.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

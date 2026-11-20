@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:58:17.819713",
+  "fetched_at": "2026-11-20T15:01:47.986236",
   "ticker": "6622",
   "ticker_full": "6622.T",
   "company_name": "DAIHEN CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2089.6,
-      "deviation": -0.56,
+      "ma_value": 1932.75,
+      "deviation": -7.49,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2396.48,
-      "deviation": -13.29,
+      "ma_value": 2220.92,
+      "deviation": -19.49,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2546.99,
-      "deviation": -18.41,
+      "ma_value": 2507.53,
+      "deviation": -28.69,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2753.44,
-      "deviation": -24.53,
+      "ma_value": 2747.8,
+      "deviation": -34.93,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 27.0
-      },
-      {
         "year": 2023,
-        "amount": 33.9
+        "amount": 32.4,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.3
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.2
+        "amount": 36.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 21.0,
+        "in_progress": true
       }
     ],
     "latest": 21.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

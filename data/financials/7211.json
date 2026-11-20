@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:10.343809",
+  "fetched_at": "2026-11-20T15:07:34.999989",
   "ticker": "7211",
   "ticker_full": "7211.T",
   "company_name": "MITSUBISHI MOTOR CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 337.02,
-      "deviation": -1.82,
+      "ma_value": 315.62,
+      "deviation": -5.05,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 346.22,
-      "deviation": -4.42,
+      "ma_value": 340.42,
+      "deviation": -11.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 353.23,
-      "deviation": -6.32,
+      "ma_value": 350.29,
+      "deviation": -14.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 350.66,
-      "deviation": -5.64,
+      "ma_value": 349.21,
+      "deviation": -14.18,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.5
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 12.5
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

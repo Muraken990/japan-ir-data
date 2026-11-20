@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:33.906471",
+  "fetched_at": "2026-11-20T14:17:02.311686",
   "ticker": "4512",
   "ticker_full": "4512.T",
   "company_name": "WAKAMOTO PHARMACEUTICAL CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 285.0,
-      "deviation": 0.7,
-      "trend": "up"
+      "ma_value": 287.8,
+      "deviation": -2.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 296.44,
-      "deviation": -3.18,
+      "ma_value": 294.08,
+      "deviation": -4.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 291.68,
-      "deviation": -1.6,
+      "ma_value": 292.89,
+      "deviation": -4.4,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 302.91,
-      "deviation": -5.25,
+      "ma_value": 302.24,
+      "deviation": -7.36,
       "trend": "down"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 3.0
-      },
-      {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3.5
+        "amount": 3.5,
+        "in_progress": false
       }
     ],
     "latest": 3.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2012-03-31",
+      "status": "unavailable"
+    }
   }
 }

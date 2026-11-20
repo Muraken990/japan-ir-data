@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:42.396081",
+  "fetched_at": "2026-11-20T14:52:26.114411",
   "ticker": "3459",
   "ticker_full": "3459.T",
   "company_name": "SAMTY RESIDENTIAL INVESTMENT CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 76240.0,
-      "deviation": 1.26,
-      "trend": "up"
+      "ma_value": 76520.0,
+      "deviation": -1.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 78924.0,
-      "deviation": -2.18,
+      "ma_value": 78176.0,
+      "deviation": -4.06,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 85210.11,
-      "deviation": -9.4,
+      "ma_value": 84114.67,
+      "deviation": -10.84,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 95977.67,
-      "deviation": -19.56,
+      "ma_value": 95075.72,
+      "deviation": -21.12,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5785.0
+        "amount": 5785.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5541.0
+        "amount": 5541.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5487.0
+        "amount": 5487.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5926.0
+        "amount": 5926.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 6241.0
+        "amount": 6241.0,
+        "in_progress": false
       }
     ],
     "latest": 2637.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 6412.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

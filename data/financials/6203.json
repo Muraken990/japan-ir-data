@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:37.091285",
+  "fetched_at": "2026-11-20T14:25:51.485838",
   "ticker": "6203",
   "ticker_full": "6203.T",
   "company_name": "HOWA MACHINERY LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1914.2,
-      "deviation": -0.38,
+      "ma_value": 1699.8,
+      "deviation": -4.81,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2039.88,
-      "deviation": -6.51,
+      "ma_value": 1943.12,
+      "deviation": -16.73,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1902.2,
-      "deviation": 0.25,
-      "trend": "up"
+      "ma_value": 1923.28,
+      "deviation": -15.87,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1687.39,
-      "deviation": 13.02,
-      "trend": "up"
+      "ma_value": 1695.06,
+      "deviation": -4.55,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

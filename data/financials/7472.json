@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:46.236230",
+  "fetched_at": "2026-11-20T14:27:56.673267",
   "ticker": "7472",
   "ticker_full": "7472.T",
   "company_name": "TOBA INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3859.0,
-      "deviation": 1.19,
-      "trend": "up"
+      "ma_value": 3760.0,
+      "deviation": -2.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3711.6,
-      "deviation": 5.21,
-      "trend": "up"
+      "ma_value": 3720.4,
+      "deviation": -1.09,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3831.73,
-      "deviation": 1.91,
-      "trend": "up"
+      "ma_value": 3821.13,
+      "deviation": -3.69,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3805.89,
-      "deviation": 2.6,
-      "trend": "up"
+      "ma_value": 3802.5,
+      "deviation": -3.22,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 150.0
+        "amount": 150.0,
+        "in_progress": false
       }
     ],
     "latest": 150.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 150.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

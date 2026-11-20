@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:55.637335",
+  "fetched_at": "2026-11-20T15:12:09.145389",
   "ticker": "4091",
   "ticker_full": "4091.T",
   "company_name": "NIPPON SANSO HOLDINGS CORPORATI",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6014.0,
-      "deviation": 2.48,
-      "trend": "up"
+      "ma_value": 5950.0,
+      "deviation": -3.97,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5618.48,
-      "deviation": 9.69,
+      "ma_value": 5701.54,
+      "deviation": 0.22,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 5642.38,
-      "deviation": 9.23,
+      "ma_value": 5644.36,
+      "deviation": 1.23,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 5664.14,
-      "deviation": 8.81,
+      "ma_value": 5696.72,
+      "deviation": 0.3,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 36.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 48.0
+        "amount": 44.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 56.0
+        "amount": 51.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 66.0
+        "amount": 62.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 33.0,
+        "in_progress": true
       }
     ],
     "latest": 33.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 62.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

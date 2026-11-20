@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:08.317971",
+  "fetched_at": "2026-11-20T14:30:06.997772",
   "ticker": "3547",
   "ticker_full": "3547.T",
   "company_name": "UNISIA HOLDINGS CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1934.6,
-      "deviation": 0.64,
-      "trend": "up"
+      "ma_value": 1930.8,
+      "deviation": -1.28,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1946.28,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 1941.52,
+      "deviation": -1.83,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1888.97,
-      "deviation": 3.07,
+      "ma_value": 1898.25,
+      "deviation": 0.41,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1834.64,
-      "deviation": 6.12,
+      "ma_value": 1836.3,
+      "deviation": 3.8,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

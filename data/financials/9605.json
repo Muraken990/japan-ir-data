@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:02.654628",
+  "fetched_at": "2026-11-20T15:05:29.470653",
   "ticker": "9605",
   "ticker_full": "9605.T",
   "company_name": "TOEI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6192.0,
-      "deviation": 0.13,
+      "ma_value": 6175.0,
+      "deviation": 0.08,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 6011.6,
-      "deviation": 3.13,
+      "ma_value": 6078.75,
+      "deviation": 1.67,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 5995.1,
-      "deviation": 3.42,
+      "ma_value": 5997.47,
+      "deviation": 3.04,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 5810.22,
-      "deviation": 6.71,
+      "ma_value": 5823.73,
+      "deviation": 6.12,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 12.0
-      },
-      {
         "year": 2023,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 6.0,
+        "in_progress": true
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

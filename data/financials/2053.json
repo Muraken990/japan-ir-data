@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:31.446011",
+  "fetched_at": "2026-11-20T14:43:39.521748",
   "ticker": "2053",
   "ticker_full": "2053.T",
   "company_name": "CHUBU SHIRYO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2017.8,
-      "deviation": 1.69,
-      "trend": "up"
+      "ma_value": 2002.8,
+      "deviation": -2.79,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2008.76,
-      "deviation": 2.15,
-      "trend": "up"
+      "ma_value": 2018.04,
+      "deviation": -3.52,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1973.13,
-      "deviation": 4.0,
-      "trend": "up"
+      "ma_value": 1977.46,
+      "deviation": -1.54,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1841.77,
-      "deviation": 11.41,
+      "ma_value": 1849.12,
+      "deviation": 5.29,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 34.0
-      },
-      {
         "year": 2023,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 48.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 57.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 73.0
+        "amount": 65.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 38.0,
+        "in_progress": true
       }
     ],
     "latest": 38.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 65.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

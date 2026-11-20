@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:33.248752",
+  "fetched_at": "2026-11-20T14:24:49.004770",
   "ticker": "6405",
   "ticker_full": "6405.T",
   "company_name": "SUZUMO MACHINERY CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1285.8,
-      "deviation": -1.38,
+      "ma_value": 1212.2,
+      "deviation": -3.56,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1293.12,
-      "deviation": -1.94,
+      "ma_value": 1279.48,
+      "deviation": -8.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1210.06,
-      "deviation": 4.79,
-      "trend": "up"
+      "ma_value": 1223.34,
+      "deviation": -4.44,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1174.81,
-      "deviation": 7.93,
-      "trend": "up"
+      "ma_value": 1171.4,
+      "deviation": -0.21,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 35.0
-      },
-      {
         "year": 2023,
-        "amount": 31.0
+        "amount": 31.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.0,
+        "in_progress": true
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:44.647264",
+  "fetched_at": "2026-11-20T14:44:46.205317",
   "ticker": "7860",
   "ticker_full": "7860.T",
   "company_name": "AVEX INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1253.8,
-      "deviation": 6.4,
-      "trend": "up"
+      "ma_value": 1404.4,
+      "deviation": -0.53,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1245.0,
-      "deviation": 7.15,
+      "ma_value": 1279.08,
+      "deviation": 9.22,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1244.0,
-      "deviation": 7.23,
+      "ma_value": 1251.56,
+      "deviation": 11.62,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1197.47,
-      "deviation": 11.4,
+      "ma_value": 1203.44,
+      "deviation": 16.08,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

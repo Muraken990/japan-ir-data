@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:37:05.079445",
+  "fetched_at": "2026-11-20T14:41:26.986750",
   "ticker": "6905",
   "ticker_full": "6905.T",
   "company_name": "COSEL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1215.2,
-      "deviation": 1.71,
-      "trend": "up"
+      "ma_value": 1160.8,
+      "deviation": -3.17,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1298.28,
-      "deviation": -4.8,
+      "ma_value": 1219.43,
+      "deviation": -7.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1330.51,
-      "deviation": -7.1,
+      "ma_value": 1293.77,
+      "deviation": -13.12,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1306.39,
-      "deviation": -5.39,
+      "ma_value": 1274.6,
+      "deviation": -11.82,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 28.0
-      },
-      {
         "year": 2023,
-        "amount": 44.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.0
+        "amount": 55.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
-    "latest": 28.0,
-    "has_data": true
+    "latest": 30.0,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2026-05-20",
+      "status": "ok"
+    }
   }
 }

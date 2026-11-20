@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:35.555330",
+  "fetched_at": "2026-11-20T15:09:52.226434",
   "ticker": "4704",
   "ticker_full": "4704.T",
   "company_name": "TREND MICRO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6796.6,
-      "deviation": 6.14,
+      "ma_value": 7247.5,
+      "deviation": 4.63,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 7121.6,
-      "deviation": 1.3,
+      "ma_value": 7095.5,
+      "deviation": 6.87,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 6528.67,
-      "deviation": 10.5,
+      "ma_value": 6564.39,
+      "deviation": 15.52,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 6059.42,
-      "deviation": 19.05,
+      "ma_value": 6077.3,
+      "deviation": 24.78,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 195.0
+        "amount": 195.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 151.0
+        "amount": 151.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 738.0
+        "amount": 738.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 184.0
+        "amount": 184.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 185.0
+        "amount": 185.0,
+        "in_progress": false
       }
     ],
     "latest": 185.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 185.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

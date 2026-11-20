@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:54.070844",
+  "fetched_at": "2026-11-20T14:46:54.024792",
   "ticker": "6425",
   "ticker_full": "6425.T",
   "company_name": "UNIVERSAL ENTERTAINMENT CORPORA",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 669.4,
-      "deviation": -3.2,
+      "ma_value": 581.6,
+      "deviation": -9.39,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 656.72,
-      "deviation": -1.33,
+      "ma_value": 644.2,
+      "deviation": -18.19,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 692.8,
-      "deviation": -6.47,
+      "ma_value": 688.28,
+      "deviation": -23.43,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 715.8,
-      "deviation": -9.47,
+      "ma_value": 710.21,
+      "deviation": -25.8,
       "trend": "down"
     }
   },
@@ -194,27 +194,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2017,
-        "amount": 40.0
-      },
-      {
-        "year": 2018,
-        "amount": 50.0
-      },
-      {
-        "year": 2019,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

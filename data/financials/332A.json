@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:09.119178",
+  "fetched_at": "2026-11-20T14:22:36.875409",
   "ticker": "332A",
   "ticker_full": "332A.T",
   "company_name": "MEEQ INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1008.4,
-      "deviation": 0.16,
-      "trend": "up"
+      "ma_value": 1013.8,
+      "deviation": -3.53,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1055.16,
-      "deviation": -4.28,
+      "ma_value": 1034.44,
+      "deviation": -5.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1083.51,
-      "deviation": -6.78,
+      "ma_value": 1086.83,
+      "deviation": -10.01,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1147.74,
-      "deviation": -12.0,
+      "ma_value": 1139.06,
+      "deviation": -14.14,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

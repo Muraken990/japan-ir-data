@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:00.957474",
+  "fetched_at": "2026-11-20T14:54:40.629218",
   "ticker": "5449",
   "ticker_full": "5449.T",
   "company_name": "OSAKA STEEL CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2257.0,
-      "deviation": 0.53,
-      "trend": "up"
+      "ma_value": 2244.6,
+      "deviation": -1.59,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2337.64,
-      "deviation": -2.94,
+      "ma_value": 2319.64,
+      "deviation": -4.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2535.77,
-      "deviation": -10.52,
+      "ma_value": 2500.99,
+      "deviation": -11.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2558.08,
-      "deviation": -11.3,
+      "ma_value": 2533.64,
+      "deviation": -12.81,
       "trend": "down"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 14.0
-      },
-      {
         "year": 2022,
-        "amount": 21.5
+        "amount": 13.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 24.5
+        "amount": 22.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.5
+        "amount": 24.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 19.0
+        "amount": 34.0,
+        "in_progress": false
       }
     ],
     "latest": 19.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

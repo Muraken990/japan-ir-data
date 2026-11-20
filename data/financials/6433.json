@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:44.672683",
+  "fetched_at": "2026-11-20T14:10:45.301127",
   "ticker": "6433",
   "ticker_full": "6433.T",
   "company_name": "HEPHAIST CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 894.2,
-      "deviation": 2.1,
-      "trend": "up"
+      "ma_value": 761.0,
+      "deviation": -11.7,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 997.52,
-      "deviation": -8.47,
+      "ma_value": 932.24,
+      "deviation": -27.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1063.91,
-      "deviation": -14.18,
+      "ma_value": 1056.33,
+      "deviation": -36.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1266.46,
-      "deviation": -27.91,
+      "ma_value": 1261.6,
+      "deviation": -46.73,
       "trend": "down"
     }
   },
@@ -194,27 +194,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 1.0
-      },
-      {
         "year": 2022,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       }
     ],
     "latest": 1.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

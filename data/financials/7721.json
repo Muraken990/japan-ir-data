@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:35.585462",
+  "fetched_at": "2026-11-20T14:51:20.840952",
   "ticker": "7721",
   "ticker_full": "7721.T",
   "company_name": "TOKYO KEIKI INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5089.0,
-      "deviation": -5.88,
+      "ma_value": 4389.0,
+      "deviation": -7.15,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5733.0,
-      "deviation": -16.45,
+      "ma_value": 5299.2,
+      "deviation": -23.1,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6674.2,
-      "deviation": -28.23,
+      "ma_value": 6517.73,
+      "deviation": -37.48,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6901.86,
-      "deviation": -30.6,
+      "ma_value": 6841.02,
+      "deviation": -40.43,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 32.5
+        "amount": 32.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:35.648730",
+  "fetched_at": "2026-11-20T14:09:38.412948",
   "ticker": "4440",
   "ticker_full": "4440.T",
   "company_name": "WITZ CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1645.4,
-      "deviation": -1.12,
+      "ma_value": 1530.4,
+      "deviation": -5.38,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1788.6,
-      "deviation": -9.03,
+      "ma_value": 1672.88,
+      "deviation": -13.44,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1729.79,
-      "deviation": -5.94,
+      "ma_value": 1755.62,
+      "deviation": -17.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1469.67,
-      "deviation": 10.7,
-      "trend": "up"
+      "ma_value": 1467.15,
+      "deviation": -1.31,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 3.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

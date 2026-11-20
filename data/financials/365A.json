@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:50.440289",
+  "fetched_at": "2026-11-20T14:10:50.065748",
   "ticker": "365A",
   "ticker_full": "365A.T",
   "company_name": "IZAWA TOWEL CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 713.6,
-      "deviation": 0.62,
-      "trend": "up"
+      "ma_value": 709.8,
+      "deviation": -1.66,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 726.44,
-      "deviation": -1.16,
+      "ma_value": 715.56,
+      "deviation": -2.45,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 761.28,
-      "deviation": -5.69,
+      "ma_value": 757.03,
+      "deviation": -7.8,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 713.79,
-      "deviation": 0.59,
-      "trend": "up"
+      "ma_value": 715.53,
+      "deviation": -2.45,
+      "trend": "down"
     }
   },
   "financials": {
@@ -158,10 +158,23 @@
     "history": [
       {
         "year": 2026,
-        "amount": 61.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 21.0,
+        "in_progress": true
       }
     ],
     "latest": 21.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-02-28",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:41.196569",
+  "fetched_at": "2026-11-20T15:09:56.619236",
   "ticker": "285A",
   "ticker_full": "285A.T",
   "company_name": "KIOXIA HOLDINGS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 9066.4,
-      "deviation": 0.27,
-      "trend": "up"
+      "ma_value": 8163.5,
+      "deviation": -10.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 12393.88,
-      "deviation": -26.65,
+      "ma_value": 11014.42,
+      "deviation": -33.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 15757.11,
-      "deviation": -42.31,
+      "ma_value": 15363.58,
+      "deviation": -52.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 15234.54,
-      "deviation": -40.33,
+      "ma_value": 15334.05,
+      "deviation": -52.35,
       "trend": "down"
     }
   },
@@ -157,11 +157,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2026,
-        "amount": 30.0
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

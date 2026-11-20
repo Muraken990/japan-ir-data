@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:17.971704",
+  "fetched_at": "2026-11-20T14:30:16.424395",
   "ticker": "8118",
   "ticker_full": "8118.T",
   "company_name": "KING CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1149.0,
-      "deviation": 0.09,
-      "trend": "up"
-    },
-    "ma_25": {
-      "ma_value": 1150.4,
-      "deviation": -0.03,
+      "ma_value": 1155.6,
+      "deviation": -0.48,
       "trend": "down"
     },
+    "ma_25": {
+      "ma_value": 1149.4,
+      "deviation": 0.05,
+      "trend": "up"
+    },
     "ma_75": {
-      "ma_value": 1183.48,
-      "deviation": -2.83,
+      "ma_value": 1178.75,
+      "deviation": -2.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1140.43,
-      "deviation": 0.84,
+      "ma_value": 1146.15,
+      "deviation": 0.34,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

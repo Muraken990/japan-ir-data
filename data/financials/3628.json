@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:48.656270",
+  "fetched_at": "2026-11-20T14:10:48.525655",
   "ticker": "3628",
   "ticker_full": "3628.T",
   "company_name": "DATA HORIZON CO.LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 708.8,
-      "deviation": 2.85,
+      "ma_value": 739.2,
+      "deviation": 5.25,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 705.08,
-      "deviation": 3.39,
+      "ma_value": 710.16,
+      "deviation": 9.55,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 660.61,
-      "deviation": 10.35,
+      "ma_value": 669.83,
+      "deviation": 16.15,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 574.97,
-      "deviation": 26.79,
+      "ma_value": 580.49,
+      "deviation": 34.03,
       "trend": "up"
     }
   },
@@ -194,27 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 2.67
-      },
-      {
-        "year": 2019,
-        "amount": 2.67
-      },
-      {
-        "year": 2020,
-        "amount": 4.0
-      },
-      {
-        "year": 2021,
-        "amount": 5.33
-      },
-      {
-        "year": 2022,
-        "amount": 6.67
+        "year": 2023,
+        "amount": 6.67,
+        "in_progress": false
       }
     ],
     "latest": 6.67,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

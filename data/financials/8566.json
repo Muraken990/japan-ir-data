@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:55:01.393097",
+  "fetched_at": "2026-11-20T14:58:33.389461",
   "ticker": "8566",
   "ticker_full": "8566.T",
   "company_name": "RICOH LEASING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6294.0,
-      "deviation": 2.0,
-      "trend": "up"
-    },
-    "ma_25": {
-      "ma_value": 6303.6,
-      "deviation": 1.85,
-      "trend": "up"
-    },
-    "ma_75": {
-      "ma_value": 6511.89,
+      "ma_value": 6380.0,
       "deviation": -1.41,
       "trend": "down"
     },
+    "ma_25": {
+      "ma_value": 6323.2,
+      "deviation": -0.53,
+      "trend": "down"
+    },
+    "ma_75": {
+      "ma_value": 6493.76,
+      "deviation": -3.14,
+      "trend": "down"
+    },
     "ma_200": {
-      "ma_value": 6183.84,
-      "deviation": 3.82,
+      "ma_value": 6197.94,
+      "deviation": 1.49,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 130.0
-      },
-      {
         "year": 2023,
-        "amount": 155.0
+        "amount": 145.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 155.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 190.0
+        "amount": 180.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 223.0
+        "amount": 185.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 128.0,
+        "in_progress": true
       }
     ],
     "latest": 128.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 185.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

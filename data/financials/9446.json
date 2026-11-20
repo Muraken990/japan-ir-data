@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:07:00.308283",
+  "fetched_at": "2026-11-20T14:12:48.139819",
   "ticker": "9446",
   "ticker_full": "9446.T",
   "company_name": "SAKAI HOLDINGS CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Communication Services",
     "industry": "Telecom Services",
     "website": "https://sakai-holdings.co.jp",
-    "employees": 438,
+    "employees": null,
     "country": "Japan",
     "city": "Nagoya",
     "address": "21-20 Chiyoda 5-chome",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 656.2,
-      "deviation": 2.56,
-      "trend": "up"
+      "ma_value": 632.0,
+      "deviation": -3.8,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 663.8,
-      "deviation": 1.39,
-      "trend": "up"
+      "ma_value": 657.24,
+      "deviation": -7.49,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 669.6,
-      "deviation": 0.51,
-      "trend": "up"
+      "ma_value": 667.13,
+      "deviation": -8.86,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 666.65,
-      "deviation": 0.95,
-      "trend": "up"
+      "ma_value": 665.69,
+      "deviation": -8.67,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

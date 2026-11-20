@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:47:54.987819",
+  "fetched_at": "2026-11-20T13:54:45.176614",
   "ticker": "4918",
   "ticker_full": "4918.T",
   "company_name": "IVY COSMETICS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 362.0,
-      "deviation": 32.04,
+      "ma_value": 504.2,
+      "deviation": 2.34,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 317.12,
-      "deviation": 50.73,
+      "ma_value": 355.2,
+      "deviation": 45.27,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 307.08,
-      "deviation": 55.66,
+      "ma_value": 320.25,
+      "deviation": 61.12,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 322.01,
-      "deviation": 48.44,
+      "ma_value": 325.41,
+      "deviation": 58.57,
       "trend": "up"
     }
   },
@@ -231,27 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2016,
-        "amount": 125.0
-      },
-      {
-        "year": 2017,
-        "amount": 225.0
-      },
-      {
-        "year": 2018,
-        "amount": 100.0
-      },
-      {
-        "year": 2019,
-        "amount": 20.0
-      },
-      {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2018-03-31",
+      "status": "unavailable"
+    }
   }
 }

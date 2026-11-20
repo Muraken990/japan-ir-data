@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:02.919216",
+  "fetched_at": "2026-11-20T13:55:44.223267",
   "ticker": "7042",
   "ticker_full": "7042.T",
   "company_name": "ACCESS GROUP HLDGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 631.0,
-      "deviation": -1.58,
+      "ma_value": 562.4,
+      "deviation": -0.6,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 653.12,
-      "deviation": -4.92,
+      "ma_value": 633.28,
+      "deviation": -11.73,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 673.23,
-      "deviation": -7.76,
+      "ma_value": 666.64,
+      "deviation": -16.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 653.77,
-      "deviation": -5.01,
+      "ma_value": 651.0,
+      "deviation": -14.13,
       "trend": "down"
     }
   },
@@ -194,27 +194,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 5.0
-      },
-      {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:10.203832",
+  "fetched_at": "2026-11-20T14:04:21.453605",
   "ticker": "4490",
   "ticker_full": "4490.T",
   "company_name": "VISASQ INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 653.0,
-      "deviation": -0.77,
+      "ma_value": 583.0,
+      "deviation": -13.55,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 711.28,
-      "deviation": -8.9,
+      "ma_value": 692.28,
+      "deviation": -27.2,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 679.03,
-      "deviation": -4.57,
+      "ma_value": 674.41,
+      "deviation": -25.27,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 628.62,
-      "deviation": 3.08,
-      "trend": "up"
+      "ma_value": 627.85,
+      "deviation": -19.73,
+      "trend": "down"
     }
   },
   "financials": {
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

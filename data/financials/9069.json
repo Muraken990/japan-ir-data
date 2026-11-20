@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:00:53.279706",
+  "fetched_at": "2026-11-20T15:04:21.693138",
   "ticker": "9069",
   "ticker_full": "9069.T",
   "company_name": "SENKO GROUP HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2369.6,
-      "deviation": 6.52,
-      "trend": "up"
+      "ma_value": 2421.88,
+      "deviation": -4.12,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2375.38,
-      "deviation": 6.26,
-      "trend": "up"
+      "ma_value": 2382.77,
+      "deviation": -2.55,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2290.38,
-      "deviation": 10.2,
+      "ma_value": 2304.31,
+      "deviation": 0.77,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2043.34,
-      "deviation": 23.52,
+      "ma_value": 2051.94,
+      "deviation": 13.16,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 34.0
-      },
-      {
         "year": 2023,
-        "amount": 36.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 42.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 48.0
+        "amount": 46.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

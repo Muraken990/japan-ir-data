@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:46.635163",
+  "fetched_at": "2026-11-20T15:11:00.213371",
   "ticker": "5831",
   "ticker_full": "5831.T",
   "company_name": "SHIZUOKA FINANCIAL GROUP INC.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3165.8,
-      "deviation": 2.09,
-      "trend": "up"
+      "ma_value": 3102.0,
+      "deviation": -5.77,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3117.22,
-      "deviation": 3.68,
-      "trend": "up"
+      "ma_value": 3073.94,
+      "deviation": -4.91,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3333.91,
-      "deviation": -3.06,
+      "ma_value": 3326.31,
+      "deviation": -12.12,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3012.99,
-      "deviation": 7.27,
-      "trend": "up"
+      "ma_value": 3029.01,
+      "deviation": -3.5,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,22 +195,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 32.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 47.0
+        "amount": 39.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 74.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 95.0
+        "amount": 80.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 54.0,
+        "in_progress": true
       }
     ],
     "latest": 54.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

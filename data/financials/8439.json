@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:41.370430",
+  "fetched_at": "2026-11-20T15:09:56.944991",
   "ticker": "8439",
   "ticker_full": "8439.T",
   "company_name": "TOKYO CENTURY CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2592.9,
-      "deviation": 4.28,
-      "trend": "up"
+      "ma_value": 2658.62,
+      "deviation": -4.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2550.42,
-      "deviation": 6.02,
-      "trend": "up"
+      "ma_value": 2561.1,
+      "deviation": -0.67,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2569.1,
-      "deviation": 5.25,
-      "trend": "up"
+      "ma_value": 2569.72,
+      "deviation": -1.0,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2347.22,
-      "deviation": 15.2,
+      "ma_value": 2360.79,
+      "deviation": 7.76,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 35.75
-      },
-      {
         "year": 2023,
-        "amount": 43.0
+        "amount": 35.75,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 56.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 69.0
+        "amount": 62.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 96.0
+        "amount": 80.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 52.0,
+        "in_progress": true
       }
     ],
     "latest": 52.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:40.820080",
+  "fetched_at": "2026-11-20T14:18:08.064713",
   "ticker": "8365",
   "ticker_full": "8365.T",
   "company_name": "TOYAMA BANK",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1878.2,
-      "deviation": 1.48,
-      "trend": "up"
+      "ma_value": 1828.0,
+      "deviation": -5.03,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2053.28,
-      "deviation": -7.17,
+      "ma_value": 1975.36,
+      "deviation": -12.12,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2240.2,
-      "deviation": -14.92,
+      "ma_value": 2207.16,
+      "deviation": -21.35,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2225.68,
-      "deviation": -14.36,
+      "ma_value": 2218.0,
+      "deviation": -21.73,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 57.5
+        "amount": 55.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 27.5,
+        "in_progress": true
       }
     ],
     "latest": 27.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

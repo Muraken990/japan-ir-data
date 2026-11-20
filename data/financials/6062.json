@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:36:54.429324",
+  "fetched_at": "2026-11-20T14:41:16.708987",
   "ticker": "6062",
   "ticker_full": "6062.T",
   "company_name": "CHARM CARE CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1914.2,
-      "deviation": 2.55,
+      "ma_value": 1963.4,
+      "deviation": 0.03,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1494.8,
-      "deviation": 31.32,
+      "ma_value": 1606.96,
+      "deviation": 22.22,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1433.71,
-      "deviation": 36.92,
+      "ma_value": 1472.92,
+      "deviation": 33.34,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1356.31,
-      "deviation": 44.73,
+      "ma_value": 1373.65,
+      "deviation": 42.98,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 23.0
+        "amount": 43.0,
+        "in_progress": false
       }
     ],
     "latest": 23.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 43.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

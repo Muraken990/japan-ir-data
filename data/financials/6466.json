@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:06:55.054656",
+  "fetched_at": "2026-11-20T14:12:43.066765",
   "ticker": "6466",
   "ticker_full": "6466.T",
   "company_name": "TVE CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Specialty Industrial Machinery",
     "website": "https://www.toavalve.co.jp",
-    "employees": 400,
+    "employees": null,
     "country": "Japan",
     "city": "Amagasaki",
     "address": "5-12-1 Nishitachibana-cho",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3128.8,
-      "deviation": 2.28,
-      "trend": "up"
+      "ma_value": 2997.0,
+      "deviation": -4.17,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3786.76,
-      "deviation": -15.5,
+      "ma_value": 3532.16,
+      "deviation": -18.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3913.28,
-      "deviation": -18.23,
+      "ma_value": 3851.72,
+      "deviation": -25.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4088.85,
-      "deviation": -21.74,
+      "ma_value": 4090.74,
+      "deviation": -29.79,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

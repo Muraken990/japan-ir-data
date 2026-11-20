@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:08.335105",
+  "fetched_at": "2026-11-20T14:14:49.431036",
   "ticker": "4224",
   "ticker_full": "4224.T",
   "company_name": "LONSEAL CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2448.0,
-      "deviation": 1.27,
-      "trend": "up"
+      "ma_value": 2437.8,
+      "deviation": -3.15,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2254.4,
-      "deviation": 9.96,
+      "ma_value": 2319.6,
+      "deviation": 1.78,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2172.65,
-      "deviation": 14.1,
+      "ma_value": 2191.33,
+      "deviation": 7.74,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2058.4,
-      "deviation": 20.43,
+      "ma_value": 2071.34,
+      "deviation": 13.98,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       }
     ],
     "latest": 85.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

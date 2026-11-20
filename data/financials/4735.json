@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:01.280119",
+  "fetched_at": "2026-11-20T13:55:43.327598",
   "ticker": "4735",
   "ticker_full": "4735.T",
   "company_name": "KYOSHIN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 245.4,
-      "deviation": 4.73,
+      "ma_value": 268.8,
+      "deviation": 0.45,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 264.72,
-      "deviation": -2.92,
-      "trend": "down"
+      "ma_value": 261.76,
+      "deviation": 3.15,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 286.83,
-      "deviation": -10.4,
+      "ma_value": 284.63,
+      "deviation": -5.14,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 306.05,
-      "deviation": -16.03,
+      "ma_value": 304.91,
+      "deviation": -11.45,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.54
+        "amount": 7.54,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.47
+        "amount": 5.47,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 19.46
+        "amount": 19.46,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.63
+        "amount": 3.63,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 8.63,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

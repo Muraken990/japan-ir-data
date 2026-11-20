@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:28:47.890590",
+  "fetched_at": "2026-11-20T14:33:38.513097",
   "ticker": "6626",
   "ticker_full": "6626.T",
   "company_name": "SEMITEC CORPORATION",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Electronic Components",
     "website": "https://www.semitec.co.jp",
-    "employees": 3522,
+    "employees": 3602,
     "country": "Japan",
     "city": "Tokyo",
     "address": "7-7, Kinshi 1-Chome",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2275.2,
-      "deviation": 1.05,
-      "trend": "up"
+      "ma_value": 2176.8,
+      "deviation": -4.54,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2379.2,
-      "deviation": -3.37,
+      "ma_value": 2295.56,
+      "deviation": -9.48,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2300.67,
-      "deviation": -0.07,
+      "ma_value": 2313.33,
+      "deviation": -10.17,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2304.46,
-      "deviation": -0.24,
+      "ma_value": 2300.56,
+      "deviation": -9.67,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 47.0
+        "amount": 47.0,
+        "in_progress": false
       }
     ],
     "latest": 47.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 47.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

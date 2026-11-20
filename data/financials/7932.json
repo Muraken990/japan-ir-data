@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:49.275319",
+  "fetched_at": "2026-11-20T14:39:11.104802",
   "ticker": "7932",
   "ticker_full": "7932.T",
   "company_name": "NIPPI INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 11114.0,
-      "deviation": 1.94,
-      "trend": "up"
+      "ma_value": 11070.0,
+      "deviation": -2.26,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 11179.2,
-      "deviation": 1.35,
-      "trend": "up"
+      "ma_value": 11150.8,
+      "deviation": -2.97,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 11533.07,
-      "deviation": -1.76,
+      "ma_value": 11451.73,
+      "deviation": -5.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 12058.35,
-      "deviation": -6.04,
+      "ma_value": 12003.59,
+      "deviation": -9.86,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 220.0
+        "amount": 220.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 600.0
+        "amount": 600.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 696.0
+        "amount": 696.0,
+        "in_progress": false
       }
     ],
     "latest": 696.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 696.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

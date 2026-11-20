@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:50.719423",
+  "fetched_at": "2026-11-20T14:46:50.755301",
   "ticker": "368A",
   "ticker_full": "368A.T",
   "company_name": "KITAZATO CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1282.0,
-      "deviation": -0.31,
+      "ma_value": 1276.8,
+      "deviation": -1.47,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1344.08,
-      "deviation": -4.92,
+      "ma_value": 1315.88,
+      "deviation": -4.4,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1419.09,
-      "deviation": -9.94,
+      "ma_value": 1411.68,
+      "deviation": -10.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1368.02,
-      "deviation": -6.58,
+      "ma_value": 1361.99,
+      "deviation": -7.64,
       "trend": "down"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 41.0
+        "amount": 41.0,
+        "in_progress": false
       }
     ],
     "latest": 41.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

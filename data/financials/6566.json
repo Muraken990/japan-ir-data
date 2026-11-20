@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:07.087544",
+  "fetched_at": "2026-11-20T14:31:06.242097",
   "ticker": "6566",
   "ticker_full": "6566.T",
   "company_name": "KANAME KOGYO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1222.0,
-      "deviation": 0.25,
-      "trend": "up"
+      "ma_value": 1203.6,
+      "deviation": -0.8,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1225.36,
-      "deviation": -0.03,
+      "ma_value": 1220.6,
+      "deviation": -2.18,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1279.0,
-      "deviation": -4.22,
+      "ma_value": 1272.76,
+      "deviation": -6.19,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1337.68,
-      "deviation": -8.42,
+      "ma_value": 1332.2,
+      "deviation": -10.37,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       }
     ],
     "latest": 29.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

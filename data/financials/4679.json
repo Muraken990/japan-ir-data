@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:29.450971",
+  "fetched_at": "2026-11-20T13:52:28.864019",
   "ticker": "4679",
   "ticker_full": "4679.T",
   "company_name": "TAYA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 260.2,
-      "deviation": 1.08,
-      "trend": "up"
+      "ma_value": 258.0,
+      "deviation": -1.16,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 272.12,
-      "deviation": -3.35,
+      "ma_value": 268.72,
+      "deviation": -5.11,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 265.4,
-      "deviation": -0.9,
+      "ma_value": 265.47,
+      "deviation": -3.94,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 284.01,
-      "deviation": -7.4,
+      "ma_value": 282.27,
+      "deviation": -9.66,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2010,
-        "amount": 22.0
-      },
-      {
-        "year": 2011,
-        "amount": 22.0
-      },
-      {
-        "year": 2012,
-        "amount": 22.0
-      },
-      {
-        "year": 2013,
-        "amount": 22.0
-      },
-      {
-        "year": 2014,
-        "amount": 22.0
-      }
-    ],
-    "latest": 22.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

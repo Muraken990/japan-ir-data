@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:24.895151",
+  "fetched_at": "2026-11-20T14:24:41.754177",
   "ticker": "4409",
   "ticker_full": "4409.T",
   "company_name": "TOHO CHEMICAL INDUSTRY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 781.2,
-      "deviation": 1.25,
-      "trend": "up"
+      "ma_value": 804.4,
+      "deviation": -0.8,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 805.36,
-      "deviation": -1.78,
+      "ma_value": 799.28,
+      "deviation": -0.16,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 792.36,
-      "deviation": -0.17,
-      "trend": "down"
+      "ma_value": 796.96,
+      "deviation": 0.13,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 759.9,
-      "deviation": 4.09,
+      "ma_value": 761.73,
+      "deviation": 4.76,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 22.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

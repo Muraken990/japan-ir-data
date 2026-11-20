@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:30.296250",
+  "fetched_at": "2026-11-20T14:43:38.123964",
   "ticker": "2980",
   "ticker_full": "2980.T",
   "company_name": "SRE HLDGS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2099.0,
-      "deviation": -8.48,
+      "ma_value": 1765.2,
+      "deviation": -7.04,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2235.32,
-      "deviation": -14.06,
+      "ma_value": 2120.56,
+      "deviation": -22.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2370.63,
-      "deviation": -18.97,
+      "ma_value": 2316.03,
+      "deviation": -29.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2662.85,
-      "deviation": -27.86,
+      "ma_value": 2629.84,
+      "deviation": -37.6,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

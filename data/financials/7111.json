@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:55:44.811561",
+  "fetched_at": "2026-11-20T14:02:03.109030",
   "ticker": "7111",
   "ticker_full": "7111.T",
   "company_name": "INEST INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 579.0,
-      "deviation": -0.69,
+      "ma_value": 559.0,
+      "deviation": -2.5,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 591.52,
-      "deviation": -2.79,
+      "ma_value": 584.28,
+      "deviation": -6.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 543.68,
-      "deviation": 5.76,
-      "trend": "up"
+      "ma_value": 547.96,
+      "deviation": -0.54,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 498.61,
-      "deviation": 15.32,
+      "ma_value": 499.44,
+      "deviation": 9.12,
       "trend": "up"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥2億",
         "net_income": 42000000.0,
         "net_income_fmt": "¥42.0M",
-        "eps": 24.74,
+        "eps": 5.79,
         "operating_margin": 1.1,
         "total_assets": 11223000000.0,
         "total_assets_fmt": "¥112億",
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:24.621758",
+  "fetched_at": "2026-11-20T14:08:29.959537",
   "ticker": "3815",
   "ticker_full": "3815.T",
   "company_name": "MEDIA KOBO INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 467.4,
-      "deviation": -0.73,
+      "ma_value": 434.4,
+      "deviation": -0.09,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 446.04,
-      "deviation": 4.03,
-      "trend": "up"
+      "ma_value": 447.44,
+      "deviation": -3.0,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 442.79,
-      "deviation": 4.79,
-      "trend": "up"
+      "ma_value": 442.17,
+      "deviation": -1.85,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 455.56,
-      "deviation": 1.85,
-      "trend": "up"
+      "ma_value": 453.48,
+      "deviation": -4.29,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2013,
-        "amount": 12.25
-      },
-      {
-        "year": 2014,
-        "amount": 12.25
-      },
-      {
-        "year": 2015,
-        "amount": 10.0
-      },
-      {
         "year": 2022,
-        "amount": 4.5
+        "amount": 4.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "no_dividend"
+    }
   }
 }

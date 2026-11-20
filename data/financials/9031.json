@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:13.968602",
+  "fetched_at": "2026-11-20T15:00:42.637165",
   "ticker": "9031",
   "ticker_full": "9031.T",
   "company_name": "NISHI-NIPPON RAILROAD CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3049.8,
-      "deviation": 1.68,
-      "trend": "up"
+      "ma_value": 3082.25,
+      "deviation": -1.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2885.46,
-      "deviation": 7.47,
+      "ma_value": 2935.83,
+      "deviation": 2.9,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2974.9,
-      "deviation": 4.24,
+      "ma_value": 2969.97,
+      "deviation": 1.72,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2934.92,
-      "deviation": 5.66,
+      "ma_value": 2940.67,
+      "deviation": 2.73,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 32.5
-      },
-      {
         "year": 2023,
-        "amount": 37.5
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 47.5
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 45.0,
+        "in_progress": true
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

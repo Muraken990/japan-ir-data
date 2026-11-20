@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:15:59.171258",
+  "fetched_at": "2026-11-20T14:21:19.903902",
   "ticker": "8105",
   "ticker_full": "8105.T",
   "company_name": "BITCOIN JPN CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 49.0,
-      "deviation": -4.08,
+      "ma_value": 46.2,
+      "deviation": -6.93,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 58.28,
-      "deviation": -19.35,
+      "ma_value": 54.76,
+      "deviation": -21.48,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 75.77,
-      "deviation": -37.97,
+      "ma_value": 72.63,
+      "deviation": -40.79,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 135.69,
-      "deviation": -65.36,
+      "ma_value": 131.99,
+      "deviation": -67.42,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 4.0
-      },
-      {
-        "year": 2017,
-        "amount": 5.0
-      },
-      {
-        "year": 2018,
-        "amount": 0.35
-      },
-      {
-        "year": 2019,
-        "amount": 0.25
-      },
-      {
-        "year": 2020,
-        "amount": 0.25
-      }
-    ],
-    "latest": 0.25,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:35.266500",
+  "fetched_at": "2026-11-20T14:51:20.542521",
   "ticker": "4293",
   "ticker_full": "4293.T",
   "company_name": "SEPTENI HOLDINGS",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 467.4,
-      "deviation": 0.77,
-      "trend": "up"
+      "ma_value": 447.6,
+      "deviation": -3.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 475.92,
-      "deviation": -1.03,
+      "ma_value": 468.0,
+      "deviation": -7.91,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 498.48,
-      "deviation": -5.51,
+      "ma_value": 494.13,
+      "deviation": -12.78,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 463.19,
-      "deviation": 1.69,
-      "trend": "up"
+      "ma_value": 463.35,
+      "deviation": -6.98,
+      "trend": "down"
     }
   },
   "financials": {
@@ -158,26 +158,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4.6
+        "amount": 4.6,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.2
+        "amount": 5.2,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 31.35
+        "amount": 31.35,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": true
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

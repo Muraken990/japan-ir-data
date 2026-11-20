@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:34.956046",
+  "fetched_at": "2026-11-20T14:52:19.279812",
   "ticker": "2588",
   "ticker_full": "2588.T",
   "company_name": "PREMIUM WATER HLDGS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3669.0,
-      "deviation": 0.57,
-      "trend": "up"
+      "ma_value": 3643.0,
+      "deviation": -1.59,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3701.0,
-      "deviation": -0.3,
+      "ma_value": 3692.8,
+      "deviation": -2.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3666.27,
-      "deviation": 0.65,
-      "trend": "up"
+      "ma_value": 3657.91,
+      "deviation": -1.99,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3607.8,
-      "deviation": 2.28,
-      "trend": "up"
+      "ma_value": 3617.37,
+      "deviation": -0.89,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥135億",
         "net_income": 8450000000.0,
         "net_income_fmt": "¥84億",
-        "eps": 277.46,
+        "eps": 282.8,
         "operating_margin": 15.75,
         "total_assets": 135265000000.0,
         "total_assets_fmt": "¥1353億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 31.0
-      },
-      {
         "year": 2023,
-        "amount": 84.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 90.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 110.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 115.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 115.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

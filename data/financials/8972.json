@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:20.739193",
+  "fetched_at": "2026-11-20T15:08:42.400646",
   "ticker": "8972",
   "ticker_full": "8972.T",
   "company_name": "KDX REALTY INVESTMENT CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 135280.0,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 136825.0,
+      "deviation": -2.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 135622.98,
-      "deviation": 0.72,
-      "trend": "up"
+      "ma_value": 135871.82,
+      "deviation": -1.38,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 141674.69,
-      "deviation": -3.58,
+      "ma_value": 140532.38,
+      "deviation": -4.65,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 150291.38,
-      "deviation": -9.11,
+      "ma_value": 149714.24,
+      "deviation": -10.5,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7122.0
+        "amount": 7122.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 7696.0
+        "amount": 7696.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 7957.0
+        "amount": 7957.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8150.0
+        "amount": 8150.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 8434.0
+        "amount": 8434.0,
+        "in_progress": false
       }
     ],
     "latest": 4268.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 8271.0,
+      "fiscal_year_end": "2026-04-30",
+      "status": "ok"
+    }
   }
 }

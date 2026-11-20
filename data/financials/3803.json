@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:44:18.091093",
+  "fetched_at": "2026-11-20T13:51:20.176893",
   "ticker": "3803",
   "ticker_full": "3803.T",
   "company_name": "IMAGE INFORMATION INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 470.0,
-      "deviation": 1.91,
-      "trend": "up"
+      "ma_value": 446.6,
+      "deviation": -3.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 527.4,
-      "deviation": -9.18,
+      "ma_value": 500.16,
+      "deviation": -13.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 564.16,
-      "deviation": -15.1,
+      "ma_value": 560.89,
+      "deviation": -23.16,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 572.54,
-      "deviation": -16.34,
+      "ma_value": 570.56,
+      "deviation": -24.46,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

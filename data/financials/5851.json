@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:17.514364",
+  "fetched_at": "2026-11-20T14:51:04.650036",
   "ticker": "5851",
   "ticker_full": "5851.T",
   "company_name": "RYOBI LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2536.6,
-      "deviation": 1.87,
-      "trend": "up"
+      "ma_value": 2482.2,
+      "deviation": -5.29,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2603.0,
-      "deviation": -0.73,
+      "ma_value": 2564.44,
+      "deviation": -8.32,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2680.71,
-      "deviation": -3.61,
+      "ma_value": 2678.01,
+      "deviation": -12.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2637.69,
-      "deviation": -2.04,
+      "ma_value": 2630.61,
+      "deviation": -10.63,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": true
       }
     ],
     "latest": 52.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

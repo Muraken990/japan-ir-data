@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:17.161409",
+  "fetched_at": "2026-11-20T14:37:55.429480",
   "ticker": "2669",
   "ticker_full": "2669.T",
   "company_name": "KANEMI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3828.0,
-      "deviation": 0.44,
-      "trend": "up"
+      "ma_value": 3854.0,
+      "deviation": -0.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3842.6,
-      "deviation": 0.06,
-      "trend": "up"
+      "ma_value": 3836.8,
+      "deviation": -0.05,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3908.3,
-      "deviation": -1.62,
+      "ma_value": 3900.11,
+      "deviation": -1.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3765.96,
-      "deviation": 2.1,
+      "ma_value": 3774.68,
+      "deviation": 1.6,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 23.0
-      },
-      {
         "year": 2023,
-        "amount": 41.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 19.0,
+        "in_progress": true
       }
     ],
     "latest": 19.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2013-03-31",
+      "status": "unavailable"
+    }
   }
 }

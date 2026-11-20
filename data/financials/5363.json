@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:29:49.791507",
+  "fetched_at": "2026-11-20T14:34:37.735403",
   "ticker": "5363",
   "ticker_full": "5363.T",
   "company_name": "TYK CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 637.0,
-      "deviation": 0.94,
-      "trend": "up"
+      "ma_value": 630.4,
+      "deviation": -2.6,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 683.48,
-      "deviation": -5.92,
+      "ma_value": 666.12,
+      "deviation": -7.82,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 687.47,
-      "deviation": -6.47,
+      "ma_value": 683.58,
+      "deviation": -10.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 642.08,
-      "deviation": 0.14,
-      "trend": "up"
+      "ma_value": 642.47,
+      "deviation": -4.43,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 14.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 16.7
+        "amount": 16.2,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.0
+        "amount": 21.2,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.3
+        "amount": 25.3,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 9.3,
+        "in_progress": true
       }
     ],
     "latest": 9.3,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.3,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

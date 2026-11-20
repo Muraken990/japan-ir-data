@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:14.699094",
+  "fetched_at": "2026-11-20T15:00:43.610503",
   "ticker": "8522",
   "ticker_full": "8522.T",
   "company_name": "BANK OF NAGOYA",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5756.0,
-      "deviation": 5.11,
-      "trend": "up"
+      "ma_value": 5807.5,
+      "deviation": -8.05,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6026.8,
-      "deviation": 0.38,
-      "trend": "up"
+      "ma_value": 5876.67,
+      "deviation": -9.13,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6594.96,
-      "deviation": -8.26,
+      "ma_value": 6553.15,
+      "deviation": -18.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6004.96,
-      "deviation": 0.75,
-      "trend": "up"
+      "ma_value": 6031.87,
+      "deviation": -11.47,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 46.67
-      },
-      {
         "year": 2023,
-        "amount": 46.67
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 103.33
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 230.0
+        "amount": 170.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 110.0,
+        "in_progress": true
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 170.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

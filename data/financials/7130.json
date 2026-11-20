@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:44:09.202793",
+  "fetched_at": "2026-11-20T14:48:02.836161",
   "ticker": "7130",
   "ticker_full": "7130.T",
   "company_name": "YAMAE GRP HLDGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2645.2,
-      "deviation": 1.62,
-      "trend": "up"
+      "ma_value": 2605.2,
+      "deviation": -3.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2655.68,
-      "deviation": 1.22,
-      "trend": "up"
+      "ma_value": 2645.04,
+      "deviation": -5.26,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2775.28,
-      "deviation": -3.14,
+      "ma_value": 2756.33,
+      "deviation": -9.08,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2858.27,
-      "deviation": -5.96,
+      "ma_value": 2854.93,
+      "deviation": -12.22,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       }
     ],
     "latest": 80.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

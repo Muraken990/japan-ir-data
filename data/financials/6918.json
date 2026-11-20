@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:21:39.908178",
+  "fetched_at": "2026-11-20T14:26:52.716931",
   "ticker": "6918",
   "ticker_full": "6918.T",
   "company_name": "AVAL DATA CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3106.0,
-      "deviation": -8.89,
+      "ma_value": 2746.0,
+      "deviation": -5.43,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3646.04,
-      "deviation": -22.38,
+      "ma_value": 3342.44,
+      "deviation": -22.3,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3610.49,
-      "deviation": -21.62,
+      "ma_value": 3591.88,
+      "deviation": -27.7,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3234.39,
-      "deviation": -12.5,
+      "ma_value": 3232.97,
+      "deviation": -19.67,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 92.0
-      },
-      {
         "year": 2023,
-        "amount": 250.0
+        "amount": 245.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 305.0
+        "amount": 317.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 76.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 106.0
+        "amount": 100.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 51.0,
+        "in_progress": true
       }
     ],
     "latest": 51.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2018-03-31",
+      "status": "unavailable"
+    }
   }
 }

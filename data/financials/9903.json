@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:58.849168",
+  "fetched_at": "2026-11-20T14:11:49.997033",
   "ticker": "9903",
   "ticker_full": "9903.T",
   "company_name": "KANSEKI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 843.8,
-      "deviation": -0.57,
+      "ma_value": 812.8,
+      "deviation": -1.21,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 858.68,
-      "deviation": -2.29,
+      "ma_value": 847.4,
+      "deviation": -5.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 883.11,
-      "deviation": -4.99,
+      "ma_value": 878.12,
+      "deviation": -8.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 910.79,
-      "deviation": -7.88,
+      "ma_value": 909.81,
+      "deviation": -11.74,
       "trend": "down"
     }
   },
@@ -232,26 +232,33 @@
     "history": [
       {
         "year": 2022,
-        "amount": 24.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 12.0
-      },
-      {
-        "year": 2024,
-        "amount": 10.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2022-02-28",
+      "status": "unavailable"
+    }
   }
 }

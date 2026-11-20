@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:18.383709",
+  "fetched_at": "2026-11-20T14:08:24.352973",
   "ticker": "7527",
   "ticker_full": "7527.T",
   "company_name": "SYSTEMSOFT CORPORATION",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Software - Application",
     "website": "https://www.systemsoft.co.jp",
-    "employees": 58,
+    "employees": null,
     "country": "Japan",
     "city": "Chiyoda",
     "address": "Marunouchi Trust Tower North",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 44.8,
-      "deviation": 0.45,
-      "trend": "up"
+      "ma_value": 42.0,
+      "deviation": -4.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 46.32,
-      "deviation": -2.85,
+      "ma_value": 45.16,
+      "deviation": -11.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 49.09,
-      "deviation": -8.34,
+      "ma_value": 48.77,
+      "deviation": -17.99,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 52.1,
-      "deviation": -13.64,
+      "ma_value": 51.44,
+      "deviation": -22.23,
       "trend": "down"
     }
   },
@@ -194,27 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 2.0
-      },
-      {
-        "year": 2019,
-        "amount": 2.0
-      },
-      {
-        "year": 2020,
-        "amount": 2.0
-      },
-      {
-        "year": 2021,
-        "amount": 2.0
-      },
-      {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

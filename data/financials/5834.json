@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:09.136429",
+  "fetched_at": "2026-11-20T14:42:25.129996",
   "ticker": "5834",
   "ticker_full": "5834.T",
   "company_name": "SBI LEASING SERVICES CO. LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2505.8,
-      "deviation": 0.37,
-      "trend": "up"
+      "ma_value": 2407.2,
+      "deviation": -3.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2558.28,
-      "deviation": -1.69,
+      "ma_value": 2507.0,
+      "deviation": -7.3,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2686.11,
-      "deviation": -6.37,
+      "ma_value": 2661.52,
+      "deviation": -12.68,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2685.11,
-      "deviation": -6.34,
+      "ma_value": 2673.3,
+      "deviation": -13.07,
       "trend": "down"
     }
   },
@@ -232,22 +232,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 110.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 115.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 115.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

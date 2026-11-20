@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:58:24.847641",
+  "fetched_at": "2026-11-20T15:01:56.842305",
   "ticker": "7867",
   "ticker_full": "7867.T",
   "company_name": "TOMY COMPANY LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5248.6,
-      "deviation": 1.99,
-      "trend": "up"
+      "ma_value": 5485.0,
+      "deviation": -1.64,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4723.72,
-      "deviation": 13.32,
+      "ma_value": 4934.17,
+      "deviation": 9.34,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 4061.29,
-      "deviation": 31.81,
+      "ma_value": 4171.37,
+      "deviation": 29.33,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3300.17,
-      "deviation": 62.2,
+      "ma_value": 3357.08,
+      "deviation": 60.7,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.0
-      },
-      {
         "year": 2023,
-        "amount": 32.5
+        "amount": 32.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.5
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 68.0
+        "amount": 64.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 72.0
+        "amount": 64.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 64.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

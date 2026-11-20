@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:49:43.959196",
+  "fetched_at": "2026-11-20T14:53:26.164743",
   "ticker": "8057",
   "ticker_full": "8057.T",
   "company_name": "UCHIDA YOKO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2449.4,
-      "deviation": 1.82,
-      "trend": "up"
+      "ma_value": 2455.8,
+      "deviation": -2.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2417.6,
-      "deviation": 3.16,
-      "trend": "up"
+      "ma_value": 2441.72,
+      "deviation": -1.87,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2273.84,
-      "deviation": 9.68,
+      "ma_value": 2292.96,
+      "deviation": 4.49,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2085.92,
-      "deviation": 19.56,
+      "ma_value": 2095.62,
+      "deviation": 14.33,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 44.0
+        "amount": 44.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 76.0
+        "amount": 76.0,
+        "in_progress": false
       }
     ],
     "latest": 76.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 76.0,
+      "fiscal_year_end": "2026-07-20",
+      "status": "ok"
+    }
   }
 }

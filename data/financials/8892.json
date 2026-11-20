@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:49:51.272239",
+  "fetched_at": "2026-11-20T14:53:32.408070",
   "ticker": "8892",
   "ticker_full": "8892.T",
   "company_name": "ES-CON JAPAN LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1085.0,
-      "deviation": 1.2,
-      "trend": "up"
+      "ma_value": 1079.2,
+      "deviation": -1.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1062.88,
-      "deviation": 3.3,
-      "trend": "up"
+      "ma_value": 1067.8,
+      "deviation": -0.45,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1087.37,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 1085.56,
+      "deviation": -2.08,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1099.92,
-      "deviation": -0.17,
+      "ma_value": 1097.68,
+      "deviation": -3.16,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 38.0
+        "year": 2022,
+        "amount": 38.0,
+        "in_progress": false
       },
       {
-        "year": 2022,
-        "amount": 38.0
+        "year": 2023,
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       }
     ],
     "latest": 48.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 48.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

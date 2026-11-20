@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:27:18.041097",
+  "fetched_at": "2026-11-20T14:32:22.711469",
   "ticker": "2814",
   "ticker_full": "2814.T",
   "company_name": "SATO FOODS INDUSTRIES CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1844.0,
-      "deviation": -0.05,
+      "ma_value": 1853.8,
+      "deviation": -1.01,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1827.04,
-      "deviation": 0.87,
-      "trend": "up"
+      "ma_value": 1840.2,
+      "deviation": -0.28,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1780.0,
-      "deviation": 3.54,
+      "ma_value": 1800.94,
+      "deviation": 1.89,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1639.01,
-      "deviation": 12.45,
+      "ma_value": 1646.58,
+      "deviation": 11.44,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 17.5
-      },
-      {
         "year": 2023,
-        "amount": 19.0
+        "amount": 17.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 21.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 27.0
+        "amount": 25.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 13.0,
+        "in_progress": true
       }
     ],
     "latest": 13.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

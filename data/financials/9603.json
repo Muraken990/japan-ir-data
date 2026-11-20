@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:49:43.970877",
+  "fetched_at": "2026-11-20T14:53:26.219398",
   "ticker": "9603",
   "ticker_full": "9603.T",
   "company_name": "H.I.S. CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1097.6,
-      "deviation": 1.22,
-      "trend": "up"
+      "ma_value": 1091.0,
+      "deviation": -3.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1051.99,
-      "deviation": 5.61,
-      "trend": "up"
+      "ma_value": 1062.1,
+      "deviation": -1.14,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1081.47,
-      "deviation": 2.73,
-      "trend": "up"
+      "ma_value": 1085.96,
+      "deviation": -3.31,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1076.53,
-      "deviation": 3.2,
-      "trend": "up"
+      "ma_value": 1071.28,
+      "deviation": -1.99,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2017,
-        "amount": 29.0
-      },
-      {
-        "year": 2018,
-        "amount": 29.0
-      },
-      {
-        "year": 2019,
-        "amount": 33.0
-      },
-      {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

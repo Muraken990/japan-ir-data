@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:43.252889",
+  "fetched_at": "2026-11-20T14:10:43.560689",
   "ticker": "7506",
   "ticker_full": "7506.T",
   "company_name": "HOUSE OF ROSE CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1364.2,
-      "deviation": 0.13,
-      "trend": "up"
-    },
-    "ma_25": {
-      "ma_value": 1366.36,
-      "deviation": -0.03,
+      "ma_value": 1368.6,
+      "deviation": -0.12,
       "trend": "down"
     },
+    "ma_25": {
+      "ma_value": 1366.2,
+      "deviation": 0.06,
+      "trend": "up"
+    },
     "ma_75": {
-      "ma_value": 1370.45,
-      "deviation": -0.32,
+      "ma_value": 1369.8,
+      "deviation": -0.2,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1368.8,
-      "deviation": -0.2,
+      "ma_value": 1368.5,
+      "deviation": -0.11,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 25.0
-      },
-      {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 22.5
+        "amount": 25.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

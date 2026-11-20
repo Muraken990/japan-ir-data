@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:22.346517",
+  "fetched_at": "2026-11-20T14:50:09.738533",
   "ticker": "6866",
   "ticker_full": "6866.T",
   "company_name": "HIOKI E.E. CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 8598.0,
-      "deviation": 0.49,
-      "trend": "up"
+      "ma_value": 8164.0,
+      "deviation": -5.07,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 9261.6,
-      "deviation": -6.71,
+      "ma_value": 8636.4,
+      "deviation": -10.26,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 10404.27,
-      "deviation": -16.96,
+      "ma_value": 10224.0,
+      "deviation": -24.2,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 9894.01,
-      "deviation": -12.67,
+      "ma_value": 9936.56,
+      "deviation": -22.01,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 160.0
+        "amount": 160.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 180.0
+        "amount": 180.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 200.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 200.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": true
       }
     ],
     "latest": 120.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 200.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:07.317734",
+  "fetched_at": "2026-11-20T14:55:42.762239",
   "ticker": "5715",
   "ticker_full": "5715.T",
   "company_name": "FURUKAWA CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3331.0,
-      "deviation": -4.53,
+      "ma_value": 2887.8,
+      "deviation": -8.79,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3572.0,
-      "deviation": -10.97,
+      "ma_value": 3390.36,
+      "deviation": -22.31,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3873.57,
-      "deviation": -17.91,
+      "ma_value": 3834.82,
+      "deviation": -31.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4186.6,
-      "deviation": -24.04,
+      "ma_value": 4145.5,
+      "deviation": -36.46,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 85.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 80.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:57.015162",
+  "fetched_at": "2026-11-20T13:55:40.299950",
   "ticker": "7035",
   "ticker_full": "7035.T",
   "company_name": "AND FACTORY INC",
@@ -19,22 +19,22 @@
   "price_trend": {
     "ma_5": {
       "ma_value": 185.6,
-      "deviation": 0.75,
-      "trend": "up"
+      "deviation": -3.02,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 198.2,
-      "deviation": -5.65,
+      "ma_value": 191.32,
+      "deviation": -5.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 227.6,
-      "deviation": -17.84,
+      "ma_value": 223.69,
+      "deviation": -19.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 227.0,
-      "deviation": -17.62,
+      "ma_value": 226.29,
+      "deviation": -20.46,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "no_dividend"
+    }
   }
 }

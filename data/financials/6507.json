@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:37.318483",
+  "fetched_at": "2026-11-20T15:03:08.856880",
   "ticker": "6507",
   "ticker_full": "6507.T",
   "company_name": "SINFONIA TECHNOLOGY CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 9628.0,
-      "deviation": -5.9,
+      "ma_value": 8040.0,
+      "deviation": -10.07,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 11558.4,
-      "deviation": -21.62,
+      "ma_value": 10454.17,
+      "deviation": -30.84,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 12393.6,
-      "deviation": -26.9,
+      "ma_value": 12119.32,
+      "deviation": -40.34,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 12881.59,
-      "deviation": -29.67,
+      "ma_value": 12838.6,
+      "deviation": -43.69,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 115.0
+        "amount": 115.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 155.0
+        "amount": 155.0,
+        "in_progress": false
       }
     ],
     "latest": 155.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 155.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

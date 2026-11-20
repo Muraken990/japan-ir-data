@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:06:27.027162",
+  "fetched_at": "2026-11-20T15:09:42.021249",
   "ticker": "6963",
   "ticker_full": "6963.T",
   "company_name": "ROHM CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2977.9,
-      "deviation": -2.05,
+      "ma_value": 2780.62,
+      "deviation": -5.76,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3731.62,
-      "deviation": -21.83,
+      "ma_value": 3382.17,
+      "deviation": -22.52,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4401.37,
-      "deviation": -33.73,
+      "ma_value": 4325.49,
+      "deviation": -39.42,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4094.04,
-      "deviation": -28.75,
+      "ma_value": 4105.55,
+      "deviation": -36.17,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 52.5
-      },
-      {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

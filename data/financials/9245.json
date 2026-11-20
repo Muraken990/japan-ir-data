@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:51.210602",
+  "fetched_at": "2026-11-20T14:20:14.947065",
   "ticker": "9245",
   "ticker_full": "9245.T",
   "company_name": "LIVERO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2190.8,
-      "deviation": -1.82,
+      "ma_value": 2102.8,
+      "deviation": -1.56,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2131.12,
-      "deviation": 0.93,
-      "trend": "up"
+      "ma_value": 2138.04,
+      "deviation": -3.18,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2056.56,
-      "deviation": 4.59,
+      "ma_value": 2061.95,
+      "deviation": 0.39,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2069.93,
-      "deviation": 3.92,
+      "ma_value": 2064.87,
+      "deviation": 0.25,
       "trend": "up"
     }
   },
@@ -195,14 +195,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

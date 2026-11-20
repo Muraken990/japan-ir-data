@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:39.081690",
+  "fetched_at": "2026-11-20T14:17:07.359802",
   "ticker": "6870",
   "ticker_full": "6870.T",
   "company_name": "FENWAL CONTROLS OF JAPAN",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1857.4,
-      "deviation": 1.16,
-      "trend": "up"
+      "ma_value": 1816.8,
+      "deviation": -2.14,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1968.2,
-      "deviation": -4.53,
+      "ma_value": 1913.28,
+      "deviation": -7.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2127.21,
-      "deviation": -11.67,
+      "ma_value": 2083.05,
+      "deviation": -14.64,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2153.84,
-      "deviation": -12.76,
+      "ma_value": 2154.16,
+      "deviation": -17.46,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 72.0
+        "amount": 72.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 74.0
+        "amount": 74.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 76.0
+        "amount": 76.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 39.0
+        "amount": 39.0,
+        "in_progress": true
       }
     ],
     "latest": 39.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 76.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

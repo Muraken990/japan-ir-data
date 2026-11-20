@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:27:40.550142",
+  "fetched_at": "2026-11-20T14:32:37.555819",
   "ticker": "8928",
   "ticker_full": "8928.T",
   "company_name": "ANABUKI KOSAN INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2308.4,
-      "deviation": -0.15,
+      "ma_value": 2269.0,
+      "deviation": -2.51,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2323.92,
-      "deviation": -0.81,
+      "ma_value": 2312.28,
+      "deviation": -4.34,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2311.19,
-      "deviation": -0.27,
+      "ma_value": 2312.04,
+      "deviation": -4.33,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2390.12,
-      "deviation": -3.56,
+      "ma_value": 2390.49,
+      "deviation": -7.47,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 61.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 59.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 63.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 46.0
+        "amount": 78.0,
+        "in_progress": false
       }
     ],
     "latest": 46.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 78.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

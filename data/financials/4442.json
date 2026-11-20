@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:18.879220",
+  "fetched_at": "2026-11-20T14:14:59.227772",
   "ticker": "4442",
   "ticker_full": "4442.T",
   "company_name": "VALTES HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 438.6,
-      "deviation": -1.73,
+      "ma_value": 415.0,
+      "deviation": -4.58,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 458.12,
-      "deviation": -5.92,
+      "ma_value": 450.68,
+      "deviation": -12.13,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 423.55,
-      "deviation": 1.76,
-      "trend": "up"
+      "ma_value": 423.96,
+      "deviation": -6.59,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 416.31,
-      "deviation": 3.53,
-      "trend": "up"
+      "ma_value": 416.02,
+      "deviation": -4.81,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 4.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

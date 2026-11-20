@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:07.015438",
+  "fetched_at": "2026-11-20T14:48:56.925324",
   "ticker": "4849",
   "ticker_full": "4849.T",
   "company_name": "EN INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1792.0,
-      "deviation": -3.57,
+      "ma_value": 1682.8,
+      "deviation": -4.21,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1814.28,
-      "deviation": -4.76,
+      "ma_value": 1785.6,
+      "deviation": -9.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1646.37,
-      "deviation": 4.96,
-      "trend": "up"
+      "ma_value": 1671.65,
+      "deviation": -3.57,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1368.64,
-      "deviation": 26.26,
+      "ma_value": 1374.07,
+      "deviation": 17.32,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 70.1
+        "amount": 70.1,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 70.1
+        "amount": 70.1,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.1
+        "amount": 70.1,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.1
+        "amount": 70.1,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.7
+        "amount": 32.7,
+        "in_progress": false
       }
     ],
     "latest": 32.7,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 32.7,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:05.062584",
+  "fetched_at": "2026-11-20T14:59:35.287364",
   "ticker": "8367",
   "ticker_full": "8367.T",
   "company_name": "NANTO BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1743.0,
-      "deviation": 2.24,
-      "trend": "up"
+      "ma_value": 1672.4,
+      "deviation": -5.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1785.84,
-      "deviation": -0.22,
+      "ma_value": 1737.12,
+      "deviation": -9.28,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1863.44,
-      "deviation": -4.37,
+      "ma_value": 1853.85,
+      "deviation": -14.99,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1668.07,
-      "deviation": 6.83,
-      "trend": "up"
+      "ma_value": 1677.44,
+      "deviation": -6.05,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 22.0
-      },
-      {
         "year": 2023,
-        "amount": 22.6
+        "amount": 22.6,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.8
+        "amount": 22.8,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 41.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 56.0
+        "amount": 43.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 32.0,
+        "in_progress": true
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 43.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

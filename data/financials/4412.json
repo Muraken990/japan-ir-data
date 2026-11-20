@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:22:55.495433",
+  "fetched_at": "2026-11-20T14:28:05.698536",
   "ticker": "4412",
   "ticker_full": "4412.T",
   "company_name": "SCIENCE ARTS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1202.0,
-      "deviation": 7.57,
-      "trend": "up"
+      "ma_value": 1230.4,
+      "deviation": -2.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1287.72,
-      "deviation": 0.41,
-      "trend": "up"
+      "ma_value": 1257.84,
+      "deviation": -4.2,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1289.03,
-      "deviation": 0.31,
-      "trend": "up"
+      "ma_value": 1296.2,
+      "deviation": -7.04,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1558.61,
-      "deviation": -17.04,
+      "ma_value": 1535.57,
+      "deviation": -21.53,
       "trend": "down"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       }
     ],
     "latest": 1.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 1.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

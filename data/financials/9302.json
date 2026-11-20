@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:46.524076",
+  "fetched_at": "2026-11-20T15:03:16.769637",
   "ticker": "9302",
   "ticker_full": "9302.T",
   "company_name": "MITSUI-SOKO HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3203.4,
-      "deviation": 0.36,
-      "trend": "up"
+      "ma_value": 3224.25,
+      "deviation": -0.78,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3247.64,
-      "deviation": -1.01,
+      "ma_value": 3229.38,
+      "deviation": -0.94,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3311.65,
-      "deviation": -2.92,
+      "ma_value": 3285.34,
+      "deviation": -2.63,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3600.45,
-      "deviation": -10.71,
+      "ma_value": 3591.02,
+      "deviation": -10.92,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 55.33
-      },
-      {
         "year": 2023,
-        "amount": 61.33
+        "amount": 63.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.67
+        "amount": 48.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 48.83
+        "amount": 48.67,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 49.5
+        "amount": 49.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 49.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

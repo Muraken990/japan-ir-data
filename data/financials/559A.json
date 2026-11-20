@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:43.494991",
+  "fetched_at": "2026-11-20T13:49:46.649841",
   "ticker": "559A",
   "ticker_full": "559A.T",
   "company_name": "UMENOYADO BREWERY CO LTD",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1055.2,
-      "deviation": 0.55,
-      "trend": "up"
+      "ma_value": 1003.6,
+      "deviation": -1.55,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1082.36,
-      "deviation": -1.97,
+      "ma_value": 1058.44,
+      "deviation": -6.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1125.76,
-      "deviation": -5.75,
+      "ma_value": 1116.75,
+      "deviation": -11.53,
       "trend": "down"
     },
     "ma_200": {
@@ -158,10 +158,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 21.44
+        "amount": 21.44,
+        "in_progress": false
       }
     ],
     "latest": 21.44,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": null,
+      "status": "unavailable"
+    }
   }
 }

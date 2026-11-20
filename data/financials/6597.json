@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:43:37.635504",
+  "fetched_at": "2026-11-20T13:50:40.116480",
   "ticker": "6597",
   "ticker_full": "6597.T",
   "company_name": "HPC SYSTEMS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2568.0,
-      "deviation": -2.18,
+      "ma_value": 2298.4,
+      "deviation": -7.72,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3087.16,
-      "deviation": -18.63,
+      "ma_value": 2795.24,
+      "deviation": -24.12,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3412.72,
-      "deviation": -26.39,
+      "ma_value": 3348.28,
+      "deviation": -36.65,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3163.89,
-      "deviation": -20.6,
+      "ma_value": 3171.54,
+      "deviation": -33.12,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 32.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

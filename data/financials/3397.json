@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:01:53.981882",
+  "fetched_at": "2026-11-20T15:05:21.790924",
   "ticker": "3397",
   "ticker_full": "3397.T",
   "company_name": "TORIDOLL HOLDINGS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5045.4,
-      "deviation": 6.61,
-      "trend": "up"
+      "ma_value": 5565.5,
+      "deviation": -2.45,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4692.56,
-      "deviation": 14.63,
+      "ma_value": 4919.96,
+      "deviation": 10.35,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 4411.8,
-      "deviation": 21.92,
+      "ma_value": 4479.62,
+      "deviation": 21.19,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 4203.15,
-      "deviation": 27.98,
+      "ma_value": 4230.11,
+      "deviation": 28.34,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       }
     ],
     "latest": 11.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 11.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

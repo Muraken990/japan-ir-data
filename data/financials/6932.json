@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:42.634171",
+  "fetched_at": "2026-11-20T14:38:11.036460",
   "ticker": "6932",
   "ticker_full": "6932.T",
   "company_name": "ENDO LIGHTING CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2386.2,
-      "deviation": 5.77,
-      "trend": "up"
+      "ma_value": 2482.8,
+      "deviation": -0.84,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2423.32,
-      "deviation": 4.15,
+      "ma_value": 2421.8,
+      "deviation": 1.66,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2500.88,
-      "deviation": 0.92,
-      "trend": "up"
+      "ma_value": 2496.83,
+      "deviation": -1.4,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2512.44,
-      "deviation": 0.46,
-      "trend": "up"
+      "ma_value": 2515.76,
+      "deviation": -2.14,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥60億",
         "net_income": 4342000000.0,
         "net_income_fmt": "¥43億",
-        "eps": 294.0,
+        "eps": 278.83,
         "operating_margin": 10.35,
         "total_assets": 76589000000.0,
         "total_assets_fmt": "¥766億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 32.5
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 42.5
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 88.0
+        "amount": 88.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 88.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

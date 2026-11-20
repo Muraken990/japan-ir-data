@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:15.039070",
+  "fetched_at": "2026-11-20T14:49:04.092176",
   "ticker": "4565",
   "ticker_full": "4565.T",
   "company_name": "NXERA PHARMA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1782.4,
-      "deviation": 1.72,
-      "trend": "up"
+      "ma_value": 1704.8,
+      "deviation": -6.15,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1439.92,
-      "deviation": 25.91,
+      "ma_value": 1538.48,
+      "deviation": 4.0,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1216.96,
-      "deviation": 48.98,
+      "ma_value": 1272.01,
+      "deviation": 25.78,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1055.31,
-      "deviation": 71.8,
+      "ma_value": 1077.29,
+      "deviation": 48.52,
       "trend": "up"
     }
   },
@@ -229,13 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2015,
-        "amount": 2.5
-      }
-    ],
-    "latest": 2.5,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

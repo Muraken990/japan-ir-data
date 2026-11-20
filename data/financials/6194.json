@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:27.066991",
+  "fetched_at": "2026-11-20T14:25:42.202119",
   "ticker": "6194",
   "ticker_full": "6194.T",
   "company_name": "ATRAE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 851.4,
-      "deviation": 1.83,
-      "trend": "up"
+      "ma_value": 837.0,
+      "deviation": -2.63,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 879.6,
-      "deviation": -1.43,
+      "ma_value": 865.21,
+      "deviation": -5.8,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 856.22,
-      "deviation": 1.26,
-      "trend": "up"
+      "ma_value": 858.4,
+      "deviation": -5.06,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 740.25,
-      "deviation": 17.12,
+      "ma_value": 744.28,
+      "deviation": 9.5,
       "trend": "up"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 31.0
+        "amount": 31.0,
+        "in_progress": false
       },
       {
-        "year": 2026,
-        "amount": 39.0
+        "year": 2027,
+        "amount": 39.0,
+        "in_progress": true
       }
     ],
     "latest": 39.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 21.0,
+      "fiscal_year_end": "2024-09-30",
+      "status": "ok"
+    }
   }
 }

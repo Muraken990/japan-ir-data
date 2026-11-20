@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:04.983821",
+  "fetched_at": "2026-11-20T14:21:24.886447",
   "ticker": "7600",
   "ticker_full": "7600.T",
   "company_name": "JAPAN MEDICAL DYNAMIC MARKETING",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 314.4,
-      "deviation": 1.78,
-      "trend": "up"
+      "ma_value": 295.0,
+      "deviation": -11.53,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 530.84,
-      "deviation": -39.72,
+      "ma_value": 464.36,
+      "deviation": -43.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 683.53,
-      "deviation": -53.18,
+      "ma_value": 643.31,
+      "deviation": -59.43,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 669.16,
-      "deviation": -52.18,
+      "ma_value": 664.53,
+      "deviation": -60.72,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

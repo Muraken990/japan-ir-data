@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:39.781221",
+  "fetched_at": "2026-11-20T15:11:52.999748",
   "ticker": "6361",
   "ticker_full": "6361.T",
   "company_name": "EBARA CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3512.6,
-      "deviation": 1.38,
-      "trend": "up"
+      "ma_value": 3399.5,
+      "deviation": -4.66,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3902.52,
-      "deviation": -8.75,
+      "ma_value": 3678.08,
+      "deviation": -11.88,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4587.61,
-      "deviation": -22.38,
+      "ma_value": 4478.0,
+      "deviation": -27.62,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5069.2,
-      "deviation": -29.75,
+      "ma_value": 5040.34,
+      "deviation": -35.7,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 38.6
+        "amount": 38.6,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 45.8
+        "amount": 45.8,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 59.0
+        "amount": 59.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": true
       }
     ],
     "latest": 33.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 59.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:08.336683",
+  "fetched_at": "2026-11-20T14:48:58.297257",
   "ticker": "1939",
   "ticker_full": "1939.T",
   "company_name": "YONDENKO CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2420.0,
-      "deviation": 2.27,
-      "trend": "up"
+      "ma_value": 2338.8,
+      "deviation": -3.33,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2278.2,
-      "deviation": 8.64,
-      "trend": "up"
+      "ma_value": 2305.44,
+      "deviation": -1.93,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2189.33,
-      "deviation": 13.05,
+      "ma_value": 2214.99,
+      "deviation": 2.08,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2003.38,
-      "deviation": 23.54,
+      "ma_value": 2021.11,
+      "deviation": 11.87,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 33.33
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 56.67
+        "amount": 46.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 67.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 95.0
+        "amount": 77.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 77.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

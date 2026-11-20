@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:11.579530",
+  "fetched_at": "2026-11-20T15:06:36.122684",
   "ticker": "4980",
   "ticker_full": "4980.T",
   "company_name": "DEXERIALS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2343.8,
-      "deviation": -11.81,
+      "ma_value": 1953.38,
+      "deviation": -5.29,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2939.96,
-      "deviation": -29.69,
+      "ma_value": 2663.06,
+      "deviation": -30.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3037.1,
-      "deviation": -31.94,
+      "ma_value": 2958.71,
+      "deviation": -37.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3077.85,
-      "deviation": -32.84,
+      "ma_value": 3062.83,
+      "deviation": -39.6,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 23.33
+        "amount": 21.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 47.67
+        "amount": 33.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 61.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 61.0
+        "amount": 58.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 32.0,
+        "in_progress": true
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 58.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:53:40.569318",
+  "fetched_at": "2026-11-20T14:57:13.418146",
   "ticker": "5331",
   "ticker_full": "5331.T",
   "company_name": "NORITAKE COMPANY LIMITED",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2998.6,
-      "deviation": 0.21,
-      "trend": "up"
+      "ma_value": 2834.8,
+      "deviation": -4.86,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3247.24,
-      "deviation": -7.46,
+      "ma_value": 3105.2,
+      "deviation": -13.15,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3450.47,
-      "deviation": -12.91,
+      "ma_value": 3422.85,
+      "deviation": -21.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3436.54,
-      "deviation": -12.56,
+      "ma_value": 3431.5,
+      "deviation": -21.4,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 42.5
-      },
-      {
         "year": 2023,
-        "amount": 58.75
+        "amount": 51.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 65.0
+        "amount": 62.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 67.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 90.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 90.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

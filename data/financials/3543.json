@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:25.481261",
+  "fetched_at": "2026-11-20T14:56:00.265087",
   "ticker": "3543",
   "ticker_full": "3543.T",
   "company_name": "KOMEDA HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3001.4,
-      "deviation": 1.45,
-      "trend": "up"
+      "ma_value": 3092.0,
+      "deviation": -0.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2934.48,
-      "deviation": 3.77,
+      "ma_value": 2991.28,
+      "deviation": 2.63,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2891.64,
-      "deviation": 5.3,
+      "ma_value": 2905.61,
+      "deviation": 5.66,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2871.49,
-      "deviation": 6.04,
+      "ma_value": 2878.11,
+      "deviation": 6.67,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 52.0
-      },
-      {
         "year": 2023,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 57.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 61.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 31.0,
+        "in_progress": true
       }
     ],
     "latest": 31.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

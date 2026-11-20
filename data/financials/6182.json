@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:20.686971",
+  "fetched_at": "2026-11-20T14:06:28.826547",
   "ticker": "6182",
   "ticker_full": "6182.T",
   "company_name": "METAREAL CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 422.0,
-      "deviation": -1.9,
+      "ma_value": 400.0,
+      "deviation": -5.25,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 460.84,
-      "deviation": -10.16,
+      "ma_value": 444.2,
+      "deviation": -14.68,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 481.52,
-      "deviation": -14.02,
+      "ma_value": 479.36,
+      "deviation": -20.94,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 494.66,
-      "deviation": -16.31,
+      "ma_value": 490.88,
+      "deviation": -22.79,
       "trend": "down"
     }
   },
@@ -229,25 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 4.25
-      },
-      {
-        "year": 2017,
-        "amount": 4.5
-      },
-      {
-        "year": 2018,
-        "amount": 5.0
-      },
-      {
-        "year": 2021,
-        "amount": 6.0
-      }
-    ],
-    "latest": 6.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

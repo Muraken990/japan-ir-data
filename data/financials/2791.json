@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:17.839707",
+  "fetched_at": "2026-11-20T14:50:06.157921",
   "ticker": "2791",
   "ticker_full": "2791.T",
   "company_name": "DAIKOKUTENBUSSAN CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3871.0,
-      "deviation": 1.78,
-      "trend": "up"
+      "ma_value": 3945.0,
+      "deviation": -2.15,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3866.8,
-      "deviation": 1.89,
+      "ma_value": 3847.8,
+      "deviation": 0.32,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 4312.0,
-      "deviation": -8.63,
+      "ma_value": 4266.13,
+      "deviation": -9.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4568.54,
-      "deviation": -13.76,
+      "ma_value": 4536.11,
+      "deviation": -14.91,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 33.0
+        "amount": 33.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 39.0
+        "amount": 39.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

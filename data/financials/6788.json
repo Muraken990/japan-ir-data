@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:36:51.219507",
+  "fetched_at": "2026-11-20T14:41:13.540171",
   "ticker": "6788",
   "ticker_full": "6788.T",
   "company_name": "NIHON TRIM CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5356.0,
-      "deviation": -1.79,
+      "ma_value": 5184.0,
+      "deviation": -2.78,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5296.8,
-      "deviation": -0.69,
+      "ma_value": 5279.2,
+      "deviation": -4.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5075.8,
-      "deviation": 3.63,
-      "trend": "up"
+      "ma_value": 5108.87,
+      "deviation": -1.35,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4735.97,
-      "deviation": 11.06,
+      "ma_value": 4744.96,
+      "deviation": 6.22,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 120.0
+        "amount": 120.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": false
       }
     ],
     "latest": 130.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 130.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

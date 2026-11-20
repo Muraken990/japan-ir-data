@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:04.530316",
+  "fetched_at": "2026-11-20T13:56:43.531938",
   "ticker": "4124",
   "ticker_full": "4124.T",
   "company_name": "OSAKA YUKA INDUSTRY LTD",
@@ -10,7 +10,7 @@
     "sector": "Basic Materials",
     "industry": "Chemicals",
     "website": "https://www.osaka-yuka.co.jp",
-    "employees": 52,
+    "employees": null,
     "country": "Japan",
     "city": "Hirakata",
     "address": "KMU Annex2 F7",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2846.8,
-      "deviation": 3.41,
-      "trend": "up"
+      "ma_value": 2855.2,
+      "deviation": -0.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2844.04,
-      "deviation": 3.51,
-      "trend": "up"
+      "ma_value": 2846.72,
+      "deviation": -0.17,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2858.38,
-      "deviation": 3.0,
-      "trend": "up"
+      "ma_value": 2870.98,
+      "deviation": -1.01,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2655.53,
-      "deviation": 10.86,
+      "ma_value": 2666.68,
+      "deviation": 6.57,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 62.0
+        "amount": 62.0,
+        "in_progress": false
       }
     ],
     "latest": 39.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 62.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

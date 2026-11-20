@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:10.514002",
+  "fetched_at": "2026-11-20T13:52:12.380001",
   "ticker": "9941",
   "ticker_full": "9941.T",
   "company_name": "TAIYO BUSSAN KAISHA",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 779.4,
-      "deviation": 0.08,
-      "trend": "up"
+      "ma_value": 760.2,
+      "deviation": -3.58,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 911.96,
-      "deviation": -14.47,
+      "ma_value": 855.96,
+      "deviation": -14.37,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1094.64,
-      "deviation": -28.74,
+      "ma_value": 1060.57,
+      "deviation": -30.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1050.25,
-      "deviation": -25.73,
+      "ma_value": 1052.44,
+      "deviation": -30.35,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-09-30",
+      "status": "no_dividend"
+    }
   }
 }

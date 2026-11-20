@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:27.507300",
+  "fetched_at": "2026-11-20T13:52:27.024473",
   "ticker": "143A",
   "ticker_full": "143A.T",
   "company_name": "ISHIN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 616.0,
-      "deviation": 1.62,
-      "trend": "up"
+      "ma_value": 623.0,
+      "deviation": -1.77,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 661.88,
-      "deviation": -5.42,
+      "ma_value": 647.24,
+      "deviation": -5.44,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 684.39,
-      "deviation": -8.53,
+      "ma_value": 681.15,
+      "deviation": -10.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 721.39,
-      "deviation": -13.22,
+      "ma_value": 716.18,
+      "deviation": -14.55,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

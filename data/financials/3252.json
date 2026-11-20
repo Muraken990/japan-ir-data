@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:43:57.717250",
+  "fetched_at": "2026-11-20T14:47:55.601381",
   "ticker": "3252",
   "ticker_full": "3252.T",
   "company_name": "JINUSHI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2933.6,
-      "deviation": 0.01,
-      "trend": "up"
+      "ma_value": 2850.0,
+      "deviation": -2.95,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2748.6,
-      "deviation": 6.75,
-      "trend": "up"
+      "ma_value": 2782.04,
+      "deviation": -0.58,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2827.63,
-      "deviation": 3.76,
-      "trend": "up"
+      "ma_value": 2822.24,
+      "deviation": -1.99,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3002.83,
-      "deviation": -2.29,
+      "ma_value": 2995.97,
+      "deviation": -7.68,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": true
       }
     ],
     "latest": 65.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 110.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

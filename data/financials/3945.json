@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:59.065233",
+  "fetched_at": "2026-11-20T14:05:09.848465",
   "ticker": "3945",
   "ticker_full": "3945.T",
   "company_name": "SUPERBAG CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1903.4,
-      "deviation": -0.18,
+      "ma_value": 1860.0,
+      "deviation": -1.67,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2083.52,
-      "deviation": -8.81,
+      "ma_value": 2022.04,
+      "deviation": -9.55,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2162.76,
-      "deviation": -12.15,
+      "ma_value": 2136.85,
+      "deviation": -14.41,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2256.6,
-      "deviation": -15.8,
+      "ma_value": 2236.17,
+      "deviation": -18.21,
       "trend": "down"
     }
   },
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 60.0
-      },
-      {
-        "year": 2020,
-        "amount": 60.0
-      },
-      {
         "year": 2024,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 105.0
+        "amount": 105.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 110.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

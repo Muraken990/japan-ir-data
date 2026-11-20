@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:16.111186",
+  "fetched_at": "2026-11-20T13:57:52.225582",
   "ticker": "9363",
   "ticker_full": "9363.T",
   "company_name": "DAIUN CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 500.2,
-      "deviation": 1.36,
+      "ma_value": 514.0,
+      "deviation": 0.19,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 508.84,
-      "deviation": -0.36,
-      "trend": "down"
+      "ma_value": 509.0,
+      "deviation": 1.18,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 523.65,
-      "deviation": -3.18,
+      "ma_value": 523.2,
+      "deviation": -1.57,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 513.33,
-      "deviation": -1.23,
-      "trend": "down"
+      "ma_value": 514.28,
+      "deviation": 0.14,
+      "trend": "up"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

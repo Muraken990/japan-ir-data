@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:58.394298",
+  "fetched_at": "2026-11-20T15:13:09.577800",
   "ticker": "4543",
   "ticker_full": "4543.T",
   "company_name": "TERUMO CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2506.6,
-      "deviation": -4.25,
-      "trend": "down"
+      "ma_value": 2527.5,
+      "deviation": 0.77,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2407.36,
-      "deviation": -0.31,
-      "trend": "down"
+      "ma_value": 2450.67,
+      "deviation": 3.93,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2387.67,
-      "deviation": 0.52,
+      "ma_value": 2402.36,
+      "deviation": 6.02,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2220.28,
-      "deviation": 8.09,
+      "ma_value": 2228.94,
+      "deviation": 14.27,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 18.5
-      },
-      {
         "year": 2023,
-        "amount": 21.5
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.0
+        "amount": 30.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 18.0,
+        "in_progress": true
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:07.048294",
+  "fetched_at": "2026-11-20T14:59:37.038457",
   "ticker": "3481",
   "ticker_full": "3481.T",
   "company_name": "MITSUBISHI ESTATE LOGISTICS REI",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 101360.0,
-      "deviation": 0.63,
-      "trend": "up"
+      "ma_value": 102660.0,
+      "deviation": -1.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 105148.0,
-      "deviation": -2.99,
+      "ma_value": 104096.0,
+      "deviation": -2.49,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 111677.02,
-      "deviation": -8.67,
+      "ma_value": 110369.44,
+      "deviation": -8.04,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 117762.09,
-      "deviation": -13.38,
+      "ma_value": 117145.63,
+      "deviation": -13.36,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4842.33
+        "amount": 4842.33,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5153.33
+        "amount": 5153.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5895.0
+        "amount": 5895.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6002.66
+        "amount": 6002.66,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5952.0
+        "amount": 5952.0,
+        "in_progress": false
       }
     ],
     "latest": 3117.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 5952.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

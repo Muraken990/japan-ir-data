@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:40.561862",
+  "fetched_at": "2026-11-20T14:09:42.671763",
   "ticker": "3940",
   "ticker_full": "3940.T",
   "company_name": "NOMURA SYSTEM CORPORATION CO LT",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 126.6,
-      "deviation": -1.26,
+      "ma_value": 123.0,
+      "deviation": -1.63,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 128.84,
-      "deviation": -2.98,
+      "ma_value": 126.96,
+      "deviation": -4.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 127.65,
-      "deviation": -2.08,
+      "ma_value": 127.99,
+      "deviation": -5.46,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 128.0,
-      "deviation": -2.34,
+      "ma_value": 127.67,
+      "deviation": -5.23,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 3.25
+        "amount": 3.25,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 3.25
+        "amount": 3.25,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 3.25
+        "amount": 3.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3.25
+        "amount": 3.25,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.55
+        "amount": 3.55,
+        "in_progress": false
       }
     ],
     "latest": 3.55,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 3.55,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

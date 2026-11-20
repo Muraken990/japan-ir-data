@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:36.668241",
+  "fetched_at": "2026-11-20T14:01:03.053023",
   "ticker": "7859",
   "ticker_full": "7859.T",
   "company_name": "ALMEDIO INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 253.6,
-      "deviation": -0.63,
-      "trend": "down"
+      "ma_value": 238.6,
+      "deviation": 0.59,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 254.84,
-      "deviation": -1.11,
+      "ma_value": 252.76,
+      "deviation": -5.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 251.21,
-      "deviation": 0.31,
-      "trend": "up"
+      "ma_value": 253.43,
+      "deviation": -5.3,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 250.42,
-      "deviation": 0.63,
-      "trend": "up"
+      "ma_value": 251.84,
+      "deviation": -4.7,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2015,
-        "amount": 2.5
-      },
-      {
-        "year": 2016,
-        "amount": 2.5
-      },
-      {
-        "year": 2017,
-        "amount": 2.5
-      },
-      {
-        "year": 2018,
-        "amount": 2.5
-      },
-      {
         "year": 2026,
-        "amount": 4.5
+        "amount": 4.5,
+        "in_progress": false
       }
     ],
     "latest": 4.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 4.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

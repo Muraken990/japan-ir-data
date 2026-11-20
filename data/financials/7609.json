@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:28.851530",
+  "fetched_at": "2026-11-20T14:43:37.318825",
   "ticker": "7609",
   "ticker_full": "7609.T",
   "company_name": "DAITRON CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3649.0,
-      "deviation": 3.04,
-      "trend": "up"
+      "ma_value": 3603.0,
+      "deviation": -3.55,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4070.2,
-      "deviation": -7.62,
+      "ma_value": 3873.2,
+      "deviation": -10.28,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4073.67,
-      "deviation": -7.7,
+      "ma_value": 4093.67,
+      "deviation": -15.11,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3477.04,
-      "deviation": 8.14,
-      "trend": "up"
+      "ma_value": 3504.22,
+      "deviation": -0.83,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 57.5
+        "amount": 57.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 77.5
+        "amount": 77.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 95.0
+        "amount": 95.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": true
       }
     ],
     "latest": 55.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 95.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

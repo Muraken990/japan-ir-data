@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:44.129132",
+  "fetched_at": "2026-11-20T14:20:08.515628",
   "ticker": "4222",
   "ticker_full": "4222.T",
   "company_name": "KODAMA CHEMICAL INDUSTRY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 529.8,
-      "deviation": 16.27,
-      "trend": "up"
+      "ma_value": 562.4,
+      "deviation": -12.87,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 564.32,
-      "deviation": 9.16,
-      "trend": "up"
+      "ma_value": 552.16,
+      "deviation": -11.26,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 625.09,
-      "deviation": -1.45,
+      "ma_value": 624.45,
+      "deviation": -21.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 811.15,
-      "deviation": -24.06,
+      "ma_value": 803.49,
+      "deviation": -39.02,
       "trend": "down"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

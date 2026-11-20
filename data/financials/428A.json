@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:36.808418",
+  "fetched_at": "2026-11-20T14:17:04.892681",
   "ticker": "428A",
   "ticker_full": "428A.T",
   "company_name": "CYPRESS HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1497.4,
-      "deviation": -0.23,
+      "ma_value": 1368.8,
+      "deviation": -3.27,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1638.4,
-      "deviation": -8.81,
+      "ma_value": 1584.32,
+      "deviation": -16.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1560.09,
-      "deviation": -4.24,
+      "ma_value": 1560.94,
+      "deviation": -15.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1208.04,
-      "deviation": 23.67,
+      "ma_value": 1220.02,
+      "deviation": 8.52,
       "trend": "up"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-08-31",
+      "status": "unavailable"
+    }
   }
 }

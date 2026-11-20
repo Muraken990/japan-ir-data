@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:54.624865",
+  "fetched_at": "2026-11-20T15:13:06.121981",
   "ticker": "6146",
   "ticker_full": "6146.T",
   "company_name": "DISCO CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 46034.0,
-      "deviation": 3.12,
-      "trend": "up"
+      "ma_value": 44217.5,
+      "deviation": -6.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 50756.4,
-      "deviation": -6.47,
+      "ma_value": 48055.0,
+      "deviation": -13.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 55564.48,
-      "deviation": -14.57,
+      "ma_value": 54912.68,
+      "deviation": -24.7,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 65055.7,
-      "deviation": -27.03,
+      "ma_value": 64670.0,
+      "deviation": -36.06,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 297.0
-      },
-      {
         "year": 2023,
-        "amount": 287.33
+        "amount": 305.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 355.0
+        "amount": 307.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 418.0
+        "amount": 413.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 562.0
+        "amount": 505.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 186.0,
+        "in_progress": true
       }
     ],
     "latest": 186.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 505.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

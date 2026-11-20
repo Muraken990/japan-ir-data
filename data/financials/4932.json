@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:52.841169",
+  "fetched_at": "2026-11-20T14:19:16.976462",
   "ticker": "4932",
   "ticker_full": "4932.T",
   "company_name": "ALMADO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 704.8,
-      "deviation": 1.59,
-      "trend": "up"
+      "ma_value": 680.8,
+      "deviation": -5.11,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 727.96,
-      "deviation": -1.64,
+      "ma_value": 711.24,
+      "deviation": -9.17,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 753.4,
-      "deviation": -4.96,
+      "ma_value": 751.63,
+      "deviation": -14.05,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 775.95,
-      "deviation": -7.73,
+      "ma_value": 765.75,
+      "deviation": -15.64,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       }
     ],
     "latest": 42.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 42.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

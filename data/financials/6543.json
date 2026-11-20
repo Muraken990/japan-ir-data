@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:09.831250",
+  "fetched_at": "2026-11-20T14:07:17.379595",
   "ticker": "6543",
   "ticker_full": "6543.T",
   "company_name": "NISSEN INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1150.8,
-      "deviation": -0.16,
+      "ma_value": 1145.6,
+      "deviation": -1.19,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1156.84,
-      "deviation": -0.68,
+      "ma_value": 1150.6,
+      "deviation": -1.62,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1184.66,
-      "deviation": -3.01,
+      "ma_value": 1182.93,
+      "deviation": -4.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1188.34,
-      "deviation": -3.31,
+      "ma_value": 1185.73,
+      "deviation": -4.53,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 21.0
-      },
-      {
         "year": 2023,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 41.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 34.0
+        "amount": 32.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 16.0,
+        "in_progress": true
       }
     ],
     "latest": 16.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 32.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

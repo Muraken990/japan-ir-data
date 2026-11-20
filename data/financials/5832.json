@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:02.095543",
+  "fetched_at": "2026-11-20T15:06:27.840477",
   "ticker": "5832",
   "ticker_full": "5832.T",
   "company_name": "CHUGIN FINANCIAL GROUP INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3509.8,
-      "deviation": 1.8,
-      "trend": "up"
+      "ma_value": 3407.0,
+      "deviation": -7.19,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3479.08,
-      "deviation": 2.7,
-      "trend": "up"
+      "ma_value": 3442.79,
+      "deviation": -8.16,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3480.46,
-      "deviation": 2.66,
-      "trend": "up"
+      "ma_value": 3486.98,
+      "deviation": -9.32,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3161.98,
-      "deviation": 13.0,
-      "trend": "up"
+      "ma_value": 3179.72,
+      "deviation": -0.56,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,22 +195,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 31.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 58.5
+        "amount": 47.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 72.5
+        "amount": 62.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 104.0
+        "amount": 90.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 51.0,
+        "in_progress": true
       }
     ],
     "latest": 51.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 90.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

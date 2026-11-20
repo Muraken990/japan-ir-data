@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:24.283834",
+  "fetched_at": "2026-11-20T15:08:45.127078",
   "ticker": "6724",
   "ticker_full": "6724.T",
   "company_name": "SEIKO EPSON CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2802.2,
-      "deviation": 1.83,
-      "trend": "up"
+      "ma_value": 2736.88,
+      "deviation": -5.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3177.24,
-      "deviation": -10.19,
+      "ma_value": 3065.77,
+      "deviation": -15.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3128.42,
-      "deviation": -8.79,
+      "ma_value": 3119.54,
+      "deviation": -17.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2619.42,
-      "deviation": 8.94,
-      "trend": "up"
+      "ma_value": 2638.22,
+      "deviation": -2.19,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 62.0
-      },
-      {
         "year": 2023,
-        "amount": 78.0
+        "amount": 72.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 74.0
+        "amount": 74.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 74.0
+        "amount": 74.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 77.0
+        "amount": 74.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 74.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:27.117260",
+  "fetched_at": "2026-11-20T14:24:43.064415",
   "ticker": "5284",
   "ticker_full": "5284.T",
   "company_name": "YAMAU HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2101.0,
-      "deviation": 0.29,
-      "trend": "up"
+      "ma_value": 2048.6,
+      "deviation": -3.5,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2168.28,
-      "deviation": -2.83,
+      "ma_value": 2137.36,
+      "deviation": -7.5,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2218.19,
-      "deviation": -5.01,
+      "ma_value": 2204.35,
+      "deviation": -10.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2234.39,
-      "deviation": -5.7,
+      "ma_value": 2225.83,
+      "deviation": -11.18,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 65.0
+        "amount": 65.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 86.0
+        "amount": 86.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 119.0
+        "amount": 119.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 110.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

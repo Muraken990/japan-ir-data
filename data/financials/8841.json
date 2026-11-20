@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:13.300679",
+  "fetched_at": "2026-11-20T14:50:01.847103",
   "ticker": "8841",
   "ticker_full": "8841.T",
   "company_name": "TOC CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 998.8,
-      "deviation": 2.22,
-      "trend": "up"
+      "ma_value": 994.4,
+      "deviation": -1.75,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 960.92,
-      "deviation": 6.25,
+      "ma_value": 970.76,
+      "deviation": 0.64,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 976.97,
-      "deviation": 4.51,
-      "trend": "up"
+      "ma_value": 983.35,
+      "deviation": -0.65,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 944.53,
-      "deviation": 8.1,
+      "ma_value": 948.07,
+      "deviation": 3.05,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.5
+        "amount": 10.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.5,
+        "in_progress": true
       }
     ],
     "latest": 5.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

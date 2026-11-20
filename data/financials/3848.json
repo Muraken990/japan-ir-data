@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:45.150381",
+  "fetched_at": "2026-11-20T14:11:41.555253",
   "ticker": "3848",
   "ticker_full": "3848.T",
   "company_name": "DATA APPLICATIONS COMPANY LIMIT",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 817.6,
-      "deviation": -1.66,
+      "ma_value": 803.0,
+      "deviation": -0.75,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 826.72,
-      "deviation": -2.75,
+      "ma_value": 820.16,
+      "deviation": -2.82,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 832.72,
-      "deviation": -3.45,
+      "ma_value": 831.28,
+      "deviation": -4.12,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 871.46,
-      "deviation": -7.74,
+      "ma_value": 866.54,
+      "deviation": -8.03,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 21.5
+        "amount": 21.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 22.5
+        "amount": 22.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

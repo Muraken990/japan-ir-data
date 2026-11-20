@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:20.354454",
+  "fetched_at": "2026-11-20T14:50:08.547344",
   "ticker": "2737",
   "ticker_full": "2737.T",
   "company_name": "TOMEN DEVICES CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 24532.0,
-      "deviation": 3.62,
-      "trend": "up"
+      "ma_value": 22660.0,
+      "deviation": -5.69,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 30180.0,
-      "deviation": -15.77,
+      "ma_value": 26856.0,
+      "deviation": -20.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 31323.87,
-      "deviation": -18.85,
+      "ma_value": 31772.67,
+      "deviation": -32.74,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 20396.72,
-      "deviation": 24.63,
+      "ma_value": 20624.41,
+      "deviation": 3.62,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 300.0
+        "amount": 300.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 300.0
+        "amount": 300.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 200.0
+        "amount": 200.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 300.0
+        "amount": 300.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 540.0
+        "amount": 540.0,
+        "in_progress": false
       }
     ],
     "latest": 540.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 540.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:47.973769",
+  "fetched_at": "2026-11-20T15:11:01.455497",
   "ticker": "7912",
   "ticker_full": "7912.T",
   "company_name": "DAI NIPPON PRINTING CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2716.2,
-      "deviation": 0.99,
-      "trend": "up"
+      "ma_value": 2665.38,
+      "deviation": -5.3,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2816.32,
-      "deviation": -2.6,
+      "ma_value": 2779.71,
+      "deviation": -9.2,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2971.33,
-      "deviation": -7.68,
+      "ma_value": 2951.14,
+      "deviation": -14.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2931.04,
-      "deviation": -6.42,
+      "ma_value": 2929.61,
+      "deviation": -13.85,
       "trend": "down"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥1696億",
         "net_income": 110682000000.0,
         "net_income_fmt": "¥1107億",
-        "eps": 238.88,
+        "eps": 238.87,
         "operating_margin": 6.42,
         "total_assets": 1917838000000.0,
         "total_assets_fmt": "¥1.9T",
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥1439億",
         "net_income": 110929000000.0,
         "net_income_fmt": "¥1109億",
-        "eps": 221.53,
+        "eps": 221.52,
         "operating_margin": 5.3,
         "total_assets": 1955629000000.0,
         "total_assets_fmt": "¥2.0T",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 32.0
-      },
-      {
         "year": 2023,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 44.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 22.0,
+        "in_progress": true
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

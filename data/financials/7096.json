@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:43.609405",
+  "fetched_at": "2026-11-20T13:49:47.004023",
   "ticker": "7096",
   "ticker_full": "7096.T",
   "company_name": "STEMCELL INSTITUTE",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 655.0,
-      "deviation": -0.61,
+      "ma_value": 636.6,
+      "deviation": -2.61,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 701.08,
-      "deviation": -7.14,
+      "ma_value": 680.6,
+      "deviation": -8.9,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 731.36,
-      "deviation": -10.99,
+      "ma_value": 725.93,
+      "deviation": -14.59,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 752.38,
-      "deviation": -13.47,
+      "ma_value": 747.32,
+      "deviation": -17.04,
       "trend": "down"
     }
   },
@@ -231,11 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2024,
-        "amount": 25.0
+        "year": 2025,
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

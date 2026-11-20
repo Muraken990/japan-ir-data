@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:51.692779",
+  "fetched_at": "2026-11-20T14:11:45.758320",
   "ticker": "5576",
   "ticker_full": "5576.T",
   "company_name": "O.B.SYSTEM INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2945.0,
-      "deviation": 0.65,
-      "trend": "up"
+      "ma_value": 2916.6,
+      "deviation": -3.52,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3057.64,
-      "deviation": -3.06,
+      "ma_value": 3027.36,
+      "deviation": -7.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2971.88,
-      "deviation": -0.27,
+      "ma_value": 2976.17,
+      "deviation": -5.45,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2807.32,
-      "deviation": 5.58,
+      "ma_value": 2806.31,
+      "deviation": 0.27,
       "trend": "up"
     }
   },
@@ -231,23 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2023,
-        "amount": 30.0
-      },
-      {
         "year": 2024,
-        "amount": 80.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 115.0
+        "amount": 105.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 105.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

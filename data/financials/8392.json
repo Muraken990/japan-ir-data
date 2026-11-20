@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:42.655202",
+  "fetched_at": "2026-11-20T14:52:26.855834",
   "ticker": "8392",
   "ticker_full": "8392.T",
   "company_name": "OITA BANK",
@@ -10,7 +10,7 @@
     "sector": "Financial Services",
     "industry": "Banks - Regional",
     "website": "https://www.oitabank.co.jp",
-    "employees": 1626,
+    "employees": 1436,
     "country": "Japan",
     "city": "Oita",
     "address": "3-4-1 Funaicho",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2654.4,
-      "deviation": 0.06,
-      "trend": "up"
+      "ma_value": 2437.6,
+      "deviation": -6.59,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2776.28,
-      "deviation": -4.33,
+      "ma_value": 2664.36,
+      "deviation": -14.54,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2866.72,
-      "deviation": -7.35,
+      "ma_value": 2851.06,
+      "deviation": -20.14,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2378.75,
-      "deviation": 11.66,
-      "trend": "up"
+      "ma_value": 2401.31,
+      "deviation": -5.18,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 16.0
-      },
-      {
         "year": 2023,
-        "amount": 19.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 29.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.0
+        "amount": 34.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 34.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

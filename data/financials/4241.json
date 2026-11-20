@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:47:54.919236",
+  "fetched_at": "2026-11-20T13:54:44.530005",
   "ticker": "4241",
   "ticker_full": "4241.T",
   "company_name": "ATECT CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 567.4,
-      "deviation": 2.22,
-      "trend": "up"
+      "ma_value": 570.6,
+      "deviation": -4.14,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 629.44,
-      "deviation": -7.85,
+      "ma_value": 602.44,
+      "deviation": -9.2,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 655.32,
-      "deviation": -11.49,
+      "ma_value": 651.89,
+      "deviation": -16.09,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 680.59,
-      "deviation": -14.78,
+      "ma_value": 680.4,
+      "deviation": -19.61,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

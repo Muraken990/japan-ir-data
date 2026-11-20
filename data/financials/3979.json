@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:38.538545",
+  "fetched_at": "2026-11-20T14:19:04.460920",
   "ticker": "3979",
   "ticker_full": "3979.T",
   "company_name": "ULURU CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 457.2,
-      "deviation": -0.7,
+      "ma_value": 446.8,
+      "deviation": -2.64,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 465.92,
-      "deviation": -2.56,
+      "ma_value": 459.4,
+      "deviation": -5.31,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 446.01,
-      "deviation": 1.79,
-      "trend": "up"
+      "ma_value": 448.8,
+      "deviation": -3.07,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 405.88,
-      "deviation": 11.85,
+      "ma_value": 406.59,
+      "deviation": 6.99,
       "trend": "up"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 8.75
+        "amount": 8.75,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 4.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

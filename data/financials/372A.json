@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:09.344899",
+  "fetched_at": "2026-11-20T14:31:08.997823",
   "ticker": "372A",
   "ticker_full": "372A.T",
   "company_name": "RENT CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6104.0,
-      "deviation": 1.25,
-      "trend": "up"
+      "ma_value": 5918.0,
+      "deviation": -3.35,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6015.2,
-      "deviation": 2.74,
-      "trend": "up"
+      "ma_value": 6091.2,
+      "deviation": -6.09,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5711.6,
-      "deviation": 8.2,
-      "trend": "up"
+      "ma_value": 5739.2,
+      "deviation": -0.33,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5492.61,
-      "deviation": 12.51,
+      "ma_value": 5500.72,
+      "deviation": 3.99,
       "trend": "up"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 220.0
+        "amount": 220.0,
+        "in_progress": false
       }
     ],
     "latest": 220.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-05-31",
+      "status": "unavailable"
+    }
   }
 }

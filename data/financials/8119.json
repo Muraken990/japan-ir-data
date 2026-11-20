@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:38.893424",
+  "fetched_at": "2026-11-20T13:49:42.911181",
   "ticker": "8119",
   "ticker_full": "8119.T",
   "company_name": "SANYEI CORPORATION NPV",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 751.6,
-      "deviation": 0.05,
-      "trend": "up"
+      "ma_value": 756.0,
+      "deviation": -0.26,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 764.52,
-      "deviation": -1.64,
+      "ma_value": 760.16,
+      "deviation": -0.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 767.66,
-      "deviation": -2.04,
+      "ma_value": 766.41,
+      "deviation": -1.62,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 780.1,
-      "deviation": -3.6,
+      "ma_value": 778.82,
+      "deviation": -3.19,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 5.0
-      },
-      {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 27.5
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 36.5
+        "amount": 31.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 31.0
+        "amount": 31.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 15.5,
+        "in_progress": true
       }
     ],
     "latest": 15.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 31.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

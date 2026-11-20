@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:19.662064",
+  "fetched_at": "2026-11-20T13:57:55.466808",
   "ticker": "3494",
   "ticker_full": "3494.T",
   "company_name": "MULLION CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Real Estate",
     "industry": "Real Estate Services",
     "website": "https://www.mullion.co.jp",
-    "employees": 20,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "9-11",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 377.6,
-      "deviation": -4.4,
+      "ma_value": 353.0,
+      "deviation": -2.83,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 389.68,
-      "deviation": -7.36,
+      "ma_value": 379.12,
+      "deviation": -9.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 419.57,
-      "deviation": -13.96,
+      "ma_value": 414.19,
+      "deviation": -17.19,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 381.2,
-      "deviation": -5.3,
+      "ma_value": 380.76,
+      "deviation": -9.92,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 2.8
+        "amount": 2.8,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.2
+        "amount": 5.2,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       }
     ],
     "latest": 7.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 7.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

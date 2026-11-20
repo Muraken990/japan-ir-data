@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:48.181503",
+  "fetched_at": "2026-11-20T14:46:48.608278",
   "ticker": "2790",
   "ticker_full": "2790.T",
   "company_name": "NAFCO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1936.2,
-      "deviation": 0.61,
-      "trend": "up"
+      "ma_value": 1944.0,
+      "deviation": -1.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1965.0,
-      "deviation": -0.87,
+      "ma_value": 1953.4,
+      "deviation": -1.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2062.48,
-      "deviation": -5.55,
+      "ma_value": 2046.04,
+      "deviation": -6.06,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2116.41,
-      "deviation": -7.96,
+      "ma_value": 2110.4,
+      "deviation": -8.93,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 56.0
-      },
-      {
         "year": 2023,
-        "amount": 57.0
+        "amount": 56.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 58.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 58.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 58.0
+        "amount": 58.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 29.0,
+        "in_progress": true
       }
     ],
     "latest": 29.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 58.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

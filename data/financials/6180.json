@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:30.599869",
+  "fetched_at": "2026-11-20T14:16:59.482666",
   "ticker": "6180",
   "ticker_full": "6180.T",
   "company_name": "GMO MEDIA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3369.0,
-      "deviation": 3.44,
-      "trend": "up"
+      "ma_value": 3424.0,
+      "deviation": -2.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3571.8,
-      "deviation": -2.43,
+      "ma_value": 3508.4,
+      "deviation": -4.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3725.6,
-      "deviation": -6.46,
+      "ma_value": 3701.93,
+      "deviation": -9.64,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4039.43,
-      "deviation": -13.73,
+      "ma_value": 3988.68,
+      "deviation": -16.14,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 2.11
+        "amount": 2.11,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 105.0
+        "amount": 105.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 196.0
+        "amount": 196.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 241.0
+        "amount": 241.0,
+        "in_progress": false
       }
     ],
     "latest": 241.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 241.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:21.727084",
+  "fetched_at": "2026-11-20T14:07:28.351521",
   "ticker": "4372",
   "ticker_full": "4372.T",
   "company_name": "YMIRLINK INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1008.8,
-      "deviation": 0.12,
-      "trend": "up"
+      "ma_value": 991.8,
+      "deviation": -1.79,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1155.32,
-      "deviation": -12.58,
+      "ma_value": 1093.56,
+      "deviation": -10.93,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1259.45,
-      "deviation": -19.81,
+      "ma_value": 1240.99,
+      "deviation": -21.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1226.01,
-      "deviation": -17.62,
+      "ma_value": 1214.99,
+      "deviation": -19.83,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 19.0
+        "amount": 19.0,
+        "in_progress": false
       }
     ],
     "latest": 19.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 19.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

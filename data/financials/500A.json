@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:29.241472",
+  "fetched_at": "2026-11-20T13:49:33.779439",
   "ticker": "500A",
   "ticker_full": "500A.T",
   "company_name": "TO BOOKS INC",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3375.0,
-      "deviation": 1.93,
-      "trend": "up"
+      "ma_value": 3447.0,
+      "deviation": -1.36,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3388.8,
-      "deviation": 1.51,
+      "ma_value": 3395.2,
+      "deviation": 0.14,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3328.23,
-      "deviation": 3.36,
+      "ma_value": 3363.09,
+      "deviation": 1.1,
       "trend": "up"
     },
     "ma_200": {
@@ -158,10 +158,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 76.0
+        "amount": 76.0,
+        "in_progress": false
       }
     ],
     "latest": 76.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 4,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-04-30",
+      "status": "unavailable"
+    }
   }
 }

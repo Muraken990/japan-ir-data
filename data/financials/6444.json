@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:22.878914",
+  "fetched_at": "2026-11-20T14:24:39.992498",
   "ticker": "6444",
   "ticker_full": "6444.T",
   "company_name": "SANDEN CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 170.6,
-      "deviation": 0.23,
-      "trend": "up"
+      "ma_value": 140.0,
+      "deviation": -5.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 170.84,
-      "deviation": 0.09,
-      "trend": "up"
+      "ma_value": 163.04,
+      "deviation": -19.04,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 179.67,
-      "deviation": -4.82,
+      "ma_value": 178.49,
+      "deviation": -26.05,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 167.66,
-      "deviation": 2.0,
-      "trend": "up"
+      "ma_value": 167.56,
+      "deviation": -21.22,
+      "trend": "down"
     }
   },
   "financials": {
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2014,
-        "amount": 50.0
-      },
-      {
-        "year": 2015,
-        "amount": 50.0
-      },
-      {
-        "year": 2016,
-        "amount": 75.0
-      },
-      {
-        "year": 2018,
-        "amount": 8.0
-      },
-      {
-        "year": 2019,
-        "amount": 20.0
-      }
-    ],
-    "latest": 20.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

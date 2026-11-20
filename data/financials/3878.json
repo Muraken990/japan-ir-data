@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:08:14.578447",
+  "fetched_at": "2026-11-20T14:13:56.825330",
   "ticker": "3878",
   "ticker_full": "3878.T",
   "company_name": "TOMOEGAWA CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 823.2,
-      "deviation": -1.36,
+      "ma_value": 779.2,
+      "deviation": -4.39,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 903.4,
-      "deviation": -10.12,
+      "ma_value": 872.68,
+      "deviation": -14.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 880.05,
-      "deviation": -7.73,
+      "ma_value": 877.69,
+      "deviation": -15.12,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 849.56,
-      "deviation": -4.42,
+      "ma_value": 849.49,
+      "deviation": -12.3,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

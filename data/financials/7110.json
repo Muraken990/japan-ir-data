@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:30.976507",
+  "fetched_at": "2026-11-20T14:25:45.427260",
   "ticker": "7110",
   "ticker_full": "7110.T",
   "company_name": "KURASHICOM INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1757.4,
-      "deviation": 0.43,
-      "trend": "up"
+      "ma_value": 1755.2,
+      "deviation": -1.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1757.28,
-      "deviation": 0.44,
-      "trend": "up"
+      "ma_value": 1746.56,
+      "deviation": -1.01,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1906.42,
-      "deviation": -7.42,
+      "ma_value": 1889.73,
+      "deviation": -8.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1957.35,
-      "deviation": -9.83,
+      "ma_value": 1946.4,
+      "deviation": -11.17,
       "trend": "down"
     }
   },
@@ -232,22 +232,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
       }
     ],
     "latest": 55.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

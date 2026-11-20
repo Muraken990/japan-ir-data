@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:38.783372",
+  "fetched_at": "2026-11-20T14:11:37.754297",
   "ticker": "9876",
   "ticker_full": "9876.T",
   "company_name": "COX CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 201.4,
-      "deviation": -0.7,
+      "ma_value": 196.4,
+      "deviation": -5.8,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 210.32,
-      "deviation": -4.91,
+      "ma_value": 205.44,
+      "deviation": -9.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 218.19,
-      "deviation": -8.34,
+      "ma_value": 215.91,
+      "deviation": -14.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 231.99,
-      "deviation": -13.79,
+      "ma_value": 230.52,
+      "deviation": -19.75,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

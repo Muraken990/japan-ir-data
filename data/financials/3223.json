@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:31.744617",
+  "fetched_at": "2026-11-20T13:53:28.978474",
   "ticker": "3223",
   "ticker_full": "3223.T",
   "company_name": "SLD ENTERTAINMENT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 972.6,
-      "deviation": 0.45,
-      "trend": "up"
+      "ma_value": 971.0,
+      "deviation": -1.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 990.6,
-      "deviation": -1.37,
+      "ma_value": 984.92,
+      "deviation": -2.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 962.73,
-      "deviation": 1.48,
-      "trend": "up"
+      "ma_value": 966.09,
+      "deviation": -0.63,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 950.32,
-      "deviation": 2.81,
+      "ma_value": 948.41,
+      "deviation": 1.22,
       "trend": "up"
     }
   },
@@ -229,21 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 20.0
-      },
-      {
-        "year": 2017,
-        "amount": 20.0
-      },
-      {
-        "year": 2018,
-        "amount": 20.0
-      }
-    ],
-    "latest": 20.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:45.031123",
+  "fetched_at": "2026-11-20T14:39:07.492677",
   "ticker": "2268",
   "ticker_full": "2268.T",
   "company_name": "BR 31 ICE CREAM CO.LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4055.0,
-      "deviation": 0.12,
-      "trend": "up"
+      "ma_value": 4064.0,
+      "deviation": -0.34,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4051.2,
-      "deviation": 0.22,
-      "trend": "up"
+      "ma_value": 4054.2,
+      "deviation": -0.1,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4054.73,
-      "deviation": 0.13,
-      "trend": "up"
+      "ma_value": 4053.47,
+      "deviation": -0.09,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4042.37,
-      "deviation": 0.44,
+      "ma_value": 4044.58,
+      "deviation": 0.13,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

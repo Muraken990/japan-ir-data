@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:45.507872",
+  "fetched_at": "2026-11-20T13:55:33.229296",
   "ticker": "9557",
   "ticker_full": "9557.T",
   "company_name": "AIRCLOSET INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 193.4,
-      "deviation": -6.41,
-      "trend": "down"
+      "ma_value": 181.4,
+      "deviation": 0.88,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 227.04,
-      "deviation": -20.28,
+      "ma_value": 213.32,
+      "deviation": -14.21,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 227.63,
-      "deviation": -20.48,
+      "ma_value": 227.25,
+      "deviation": -19.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 219.03,
-      "deviation": -17.36,
+      "ma_value": 216.76,
+      "deviation": -15.57,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "no_dividend"
+    }
   }
 }

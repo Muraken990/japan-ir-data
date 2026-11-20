@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:22.506323",
+  "fetched_at": "2026-11-20T14:16:52.250682",
   "ticker": "2708",
   "ticker_full": "2708.T",
   "company_name": "KUZE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1869.0,
-      "deviation": 2.19,
-      "trend": "up"
+      "ma_value": 1865.2,
+      "deviation": -0.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1887.68,
-      "deviation": 1.18,
-      "trend": "up"
+      "ma_value": 1884.32,
+      "deviation": -1.45,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1913.23,
-      "deviation": -0.17,
+      "ma_value": 1904.68,
+      "deviation": -2.5,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1968.45,
-      "deviation": -2.97,
+      "ma_value": 1962.14,
+      "deviation": -5.36,
       "trend": "down"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 6.0
-      },
-      {
         "year": 2023,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 45.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

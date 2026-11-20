@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:28.131062",
+  "fetched_at": "2026-11-20T14:08:32.834766",
   "ticker": "1438",
   "ticker_full": "1438.T",
   "company_name": "GIFU LANDSCAPE ARCHITECT CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Engineering & Construction",
     "website": "https://www.gifu-zohen.co.jp",
-    "employees": 151,
+    "employees": null,
     "country": "Japan",
     "city": "Gifu City",
     "address": "4-79-1 Akanabe Hishino",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2019.0,
-      "deviation": 4.01,
+      "ma_value": 2726.4,
+      "deviation": 1.16,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2057.36,
-      "deviation": 2.07,
+      "ma_value": 2164.4,
+      "deviation": 27.43,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2152.92,
-      "deviation": -2.46,
-      "trend": "down"
+      "ma_value": 2206.35,
+      "deviation": 25.0,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1951.48,
-      "deviation": 7.61,
+      "ma_value": 1975.69,
+      "deviation": 39.6,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

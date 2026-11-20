@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:08:10.277596",
+  "fetched_at": "2026-11-20T14:13:53.563251",
   "ticker": "3374",
   "ticker_full": "3374.T",
   "company_name": "NAIGAI TEC CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3936.0,
-      "deviation": 2.13,
-      "trend": "up"
+      "ma_value": 3292.0,
+      "deviation": -6.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4540.2,
-      "deviation": -11.46,
+      "ma_value": 4146.6,
+      "deviation": -25.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4242.49,
-      "deviation": -5.24,
+      "ma_value": 4256.6,
+      "deviation": -27.64,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3305.63,
-      "deviation": 21.61,
-      "trend": "up"
+      "ma_value": 3329.64,
+      "deviation": -7.5,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 111.0
+        "amount": 111.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 118.0
+        "amount": 118.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 93.0
+        "amount": 93.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 105.0
+        "amount": 105.0,
+        "in_progress": false
       }
     ],
     "latest": 105.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 105.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

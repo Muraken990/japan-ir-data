@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:12.694886",
+  "fetched_at": "2026-11-20T14:30:11.096520",
   "ticker": "4538",
   "ticker_full": "4538.T",
   "company_name": "FUSO PHARMACEUTICAL INDUSTRIES",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2154.4,
-      "deviation": 2.16,
-      "trend": "up"
+      "ma_value": 2168.2,
+      "deviation": -0.84,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2120.6,
-      "deviation": 3.79,
+      "ma_value": 2130.0,
+      "deviation": 0.94,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2171.03,
-      "deviation": 1.38,
-      "trend": "up"
+      "ma_value": 2170.1,
+      "deviation": -0.93,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2176.4,
-      "deviation": 1.13,
-      "trend": "up"
+      "ma_value": 2174.3,
+      "deviation": -1.12,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 60.0
-      },
-      {
         "year": 2023,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 87.0
+        "amount": 82.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 45.0,
+        "in_progress": true
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 90.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

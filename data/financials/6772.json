@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:34.350536",
+  "fetched_at": "2026-11-20T14:17:02.887331",
   "ticker": "6772",
   "ticker_full": "6772.T",
   "company_name": "TOKYO COSMOS ELECTRIC CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1043.8,
-      "deviation": -0.75,
+      "ma_value": 1054.0,
+      "deviation": -0.38,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1033.0,
-      "deviation": 0.29,
+      "ma_value": 1041.88,
+      "deviation": 0.78,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1051.12,
-      "deviation": -1.44,
+      "ma_value": 1050.32,
+      "deviation": -0.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1156.12,
-      "deviation": -10.39,
+      "ma_value": 1147.88,
+      "deviation": -8.53,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

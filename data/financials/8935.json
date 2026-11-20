@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:22.490769",
+  "fetched_at": "2026-11-20T14:43:32.048695",
   "ticker": "8935",
   "ticker_full": "8935.T",
   "company_name": "FJ NEXT HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1812.2,
-      "deviation": 2.36,
-      "trend": "up"
+      "ma_value": 1794.4,
+      "deviation": -3.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1901.96,
-      "deviation": -2.47,
+      "ma_value": 1876.08,
+      "deviation": -7.31,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1924.81,
-      "deviation": -3.63,
+      "ma_value": 1922.95,
+      "deviation": -9.57,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1758.41,
-      "deviation": 5.49,
-      "trend": "up"
+      "ma_value": 1767.57,
+      "deviation": -1.62,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 48.0
-      },
-      {
         "year": 2023,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 58.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 78.0
+        "amount": 66.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 66.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:12.438115",
+  "fetched_at": "2026-11-20T14:50:00.756756",
   "ticker": "485A",
   "ticker_full": "485A.T",
   "company_name": "POWERX INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1615.6,
-      "deviation": 0.89,
-      "trend": "up"
+      "ma_value": 1587.2,
+      "deviation": -3.35,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1767.04,
-      "deviation": -7.76,
+      "ma_value": 1706.56,
+      "deviation": -10.11,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1860.91,
-      "deviation": -12.41,
+      "ma_value": 1860.43,
+      "deviation": -17.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2051.27,
-      "deviation": -20.54,
+      "ma_value": 2072.16,
+      "deviation": -25.97,
       "trend": "down"
     }
   },
@@ -156,6 +156,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2025-12-31",
+      "status": "unavailable"
+    }
   }
 }

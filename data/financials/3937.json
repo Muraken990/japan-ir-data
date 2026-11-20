@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:15:50.582796",
+  "fetched_at": "2026-11-20T14:21:12.408992",
   "ticker": "3937",
   "ticker_full": "3937.T",
   "company_name": "UBICOM HOLDINGS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1052.8,
-      "deviation": -1.88,
+      "ma_value": 1011.8,
+      "deviation": -2.45,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1092.28,
-      "deviation": -5.43,
+      "ma_value": 1069.08,
+      "deviation": -7.68,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1125.44,
-      "deviation": -8.21,
+      "ma_value": 1125.47,
+      "deviation": -12.3,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1023.02,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 1022.59,
+      "deviation": -3.48,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

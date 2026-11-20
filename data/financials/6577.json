@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:22.565650",
+  "fetched_at": "2026-11-20T13:57:57.796035",
   "ticker": "6577",
   "ticker_full": "6577.T",
   "company_name": "BESTONE.COM CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1111.2,
-      "deviation": -1.28,
+      "ma_value": 1072.6,
+      "deviation": -4.81,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1184.92,
-      "deviation": -7.42,
+      "ma_value": 1152.8,
+      "deviation": -11.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1576.41,
-      "deviation": -30.41,
+      "ma_value": 1497.72,
+      "deviation": -31.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1821.66,
-      "deviation": -39.78,
+      "ma_value": 1799.23,
+      "deviation": -43.25,
       "trend": "down"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

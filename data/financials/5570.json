@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:37.735884",
+  "fetched_at": "2026-11-20T14:17:05.999351",
   "ticker": "5570",
   "ticker_full": "5570.T",
   "company_name": "JENOBA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 533.4,
-      "deviation": -0.64,
+      "ma_value": 515.4,
+      "deviation": -3.38,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 568.32,
-      "deviation": -6.74,
+      "ma_value": 551.64,
+      "deviation": -9.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 598.22,
-      "deviation": -11.4,
+      "ma_value": 592.09,
+      "deviation": -15.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 634.12,
-      "deviation": -16.42,
+      "ma_value": 629.2,
+      "deviation": -20.85,
       "trend": "down"
     }
   },
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       }
     ],
     "latest": 7.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 7.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:43.466082",
+  "fetched_at": "2026-11-20T14:09:45.505395",
   "ticker": "2373",
   "ticker_full": "2373.T",
   "company_name": "CARE TWENTYONE CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 383.6,
-      "deviation": 0.36,
-      "trend": "up"
+      "ma_value": 384.6,
+      "deviation": -0.94,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 397.64,
-      "deviation": -3.18,
+      "ma_value": 392.32,
+      "deviation": -2.88,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 404.4,
-      "deviation": -4.8,
+      "ma_value": 403.77,
+      "deviation": -5.64,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 408.0,
-      "deviation": -5.64,
+      "ma_value": 407.2,
+      "deviation": -6.44,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

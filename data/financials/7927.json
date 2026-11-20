@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:30.621447",
+  "fetched_at": "2026-11-20T14:24:46.891236",
   "ticker": "7927",
   "ticker_full": "7927.T",
   "company_name": "MUTO SEIKO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2141.8,
-      "deviation": -4.01,
+      "ma_value": 1985.6,
+      "deviation": -3.51,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2244.12,
-      "deviation": -8.38,
+      "ma_value": 2168.4,
+      "deviation": -11.64,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2245.39,
-      "deviation": -8.43,
+      "ma_value": 2227.44,
+      "deviation": -13.98,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2161.95,
-      "deviation": -4.9,
+      "ma_value": 2159.27,
+      "deviation": -11.27,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 18.5
-      },
-      {
         "year": 2023,
-        "amount": 77.5
+        "amount": 73.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 108.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 104.5
+        "amount": 94.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 143.0
+        "amount": 115.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 58.0,
+        "in_progress": true
       }
     ],
     "latest": 58.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 115.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

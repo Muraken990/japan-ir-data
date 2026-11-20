@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:21.368216",
+  "fetched_at": "2026-11-20T14:49:10.066825",
   "ticker": "3636",
   "ticker_full": "3636.T",
   "company_name": "MITSUBISHI RESEARCH INSTITUTE I",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5067.0,
-      "deviation": 1.84,
-      "trend": "up"
+      "ma_value": 5116.0,
+      "deviation": -0.51,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5191.8,
-      "deviation": -0.61,
+      "ma_value": 5206.6,
+      "deviation": -2.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4929.83,
-      "deviation": 4.67,
+      "ma_value": 4953.63,
+      "deviation": 2.75,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 4720.17,
-      "deviation": 9.32,
+      "ma_value": 4726.74,
+      "deviation": 7.69,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 140.0
+        "amount": 140.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 150.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 160.0
+        "amount": 160.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 165.0
+        "amount": 165.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 180.0
+        "amount": 180.0,
+        "in_progress": false
       }
     ],
     "latest": 100.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 180.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

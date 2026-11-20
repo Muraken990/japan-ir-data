@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:47.910652",
+  "fetched_at": "2026-11-20T14:39:09.851190",
   "ticker": "9687",
   "ticker_full": "9687.T",
   "company_name": "KSK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1499.6,
-      "deviation": 0.36,
+      "ma_value": 1499.4,
+      "deviation": 0.04,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1540.48,
-      "deviation": -2.3,
+      "ma_value": 1529.96,
+      "deviation": -1.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1524.34,
-      "deviation": -1.27,
+      "ma_value": 1522.92,
+      "deviation": -1.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1474.63,
-      "deviation": 2.06,
+      "ma_value": 1472.88,
+      "deviation": 1.84,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 25.67
+        "amount": 25.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 26.67
+        "amount": 26.67,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 75.33
+        "amount": 75.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 41.33
+        "amount": 41.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.33
+        "amount": 60.33,
+        "in_progress": false
       }
     ],
     "latest": 60.33,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.3333,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

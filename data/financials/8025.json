@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:01:27.536804",
+  "fetched_at": "2026-11-20T14:07:33.287253",
   "ticker": "8025",
   "ticker_full": "8025.T",
   "company_name": "TSUKAMOTO CORPORATION CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1529.0,
-      "deviation": 1.11,
-      "trend": "up"
+      "ma_value": 1541.8,
+      "deviation": -1.41,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1468.36,
-      "deviation": 5.29,
+      "ma_value": 1489.16,
+      "deviation": 2.07,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1377.19,
-      "deviation": 12.26,
+      "ma_value": 1392.85,
+      "deviation": 9.13,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1315.63,
-      "deviation": 17.51,
+      "ma_value": 1320.7,
+      "deviation": 15.09,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

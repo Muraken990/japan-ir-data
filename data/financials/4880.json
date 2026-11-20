@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:04.167356",
+  "fetched_at": "2026-11-20T14:14:45.981138",
   "ticker": "4880",
   "ticker_full": "4880.T",
   "company_name": "CELLSOURCE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 282.2,
-      "deviation": -0.07,
+      "ma_value": 269.6,
+      "deviation": -2.82,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 299.16,
-      "deviation": -5.74,
+      "ma_value": 290.56,
+      "deviation": -9.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 319.75,
-      "deviation": -11.81,
+      "ma_value": 316.48,
+      "deviation": -17.21,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 348.9,
-      "deviation": -19.17,
+      "ma_value": 345.31,
+      "deviation": -24.13,
       "trend": "down"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "ok"
+    }
   }
 }

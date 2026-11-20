@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:00:48.696430",
+  "fetched_at": "2026-11-20T15:04:17.014899",
   "ticker": "141A",
   "ticker_full": "141A.T",
   "company_name": "TRIAL HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4148.0,
-      "deviation": -2.36,
+      "ma_value": 4011.25,
+      "deviation": -6.51,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3842.0,
-      "deviation": 5.41,
-      "trend": "up"
+      "ma_value": 3922.5,
+      "deviation": -4.4,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3743.65,
-      "deviation": 8.18,
-      "trend": "up"
+      "ma_value": 3805.95,
+      "deviation": -1.47,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3620.81,
-      "deviation": 11.85,
+      "ma_value": 3641.89,
+      "deviation": 2.97,
       "trend": "up"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

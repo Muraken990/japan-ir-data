@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:55.944714",
+  "fetched_at": "2026-11-20T14:46:55.471327",
   "ticker": "7868",
   "ticker_full": "7868.T",
   "company_name": "KOSAIDO HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 481.8,
-      "deviation": 0.66,
-      "trend": "up"
+      "ma_value": 469.8,
+      "deviation": -4.64,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 506.52,
-      "deviation": -4.25,
+      "ma_value": 495.12,
+      "deviation": -9.52,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 523.43,
-      "deviation": -7.34,
+      "ma_value": 520.62,
+      "deviation": -13.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 522.04,
-      "deviation": -7.09,
+      "ma_value": 522.03,
+      "deviation": -14.18,
       "trend": "down"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥65億",
         "net_income": 4336000000.0,
         "net_income_fmt": "¥43億",
-        "eps": 32.99,
+        "eps": 29.22,
         "operating_margin": 15.02,
         "total_assets": 77414000000.0,
         "total_assets_fmt": "¥774億",
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 1.55
-      },
-      {
         "year": 2023,
-        "amount": 8.59
+        "amount": 4.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.97
+        "amount": 12.49,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.04
+        "amount": 12.74,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 13.34
+        "amount": 13.34,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 6.67,
+        "in_progress": true
       }
     ],
     "latest": 6.67,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 13.34,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

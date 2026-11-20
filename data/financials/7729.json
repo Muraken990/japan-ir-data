@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:10.300113",
+  "fetched_at": "2026-11-20T15:05:37.201136",
   "ticker": "7729",
   "ticker_full": "7729.T",
   "company_name": "TOKYO SEIMITSU CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 13010.0,
-      "deviation": 1.08,
-      "trend": "up"
+      "ma_value": 12088.75,
+      "deviation": -7.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 15869.6,
-      "deviation": -17.14,
+      "ma_value": 14477.92,
+      "deviation": -22.74,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 16996.08,
-      "deviation": -22.63,
+      "ma_value": 16784.84,
+      "deviation": -33.36,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 16636.7,
-      "deviation": -20.96,
+      "ma_value": 16641.54,
+      "deviation": -32.79,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 210.0
-      },
-      {
         "year": 2023,
-        "amount": 215.0
+        "amount": 235.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 217.0
+        "amount": 192.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 250.0
+        "amount": 253.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 309.0
+        "amount": 262.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 158.0,
+        "in_progress": true
       }
     ],
     "latest": 158.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 262.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

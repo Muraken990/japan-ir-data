@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:09.065245",
+  "fetched_at": "2026-11-20T15:06:33.993576",
   "ticker": "4912",
   "ticker_full": "4912.T",
   "company_name": "LION CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2147.0,
-      "deviation": 1.82,
+      "ma_value": 2248.88,
+      "deviation": 0.54,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1896.8,
-      "deviation": 15.25,
+      "ma_value": 1977.1,
+      "deviation": 14.36,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1826.39,
-      "deviation": 19.69,
+      "ma_value": 1856.43,
+      "deviation": 21.79,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1717.78,
-      "deviation": 27.26,
+      "ma_value": 1729.21,
+      "deviation": 30.75,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": true
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

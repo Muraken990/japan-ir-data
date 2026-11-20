@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:49:40.225524",
+  "fetched_at": "2026-11-20T14:53:22.910805",
   "ticker": "5602",
   "ticker_full": "5602.T",
   "company_name": "KURIMOTO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1431.0,
-      "deviation": 1.82,
-      "trend": "up"
+      "ma_value": 1427.2,
+      "deviation": -2.68,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1586.4,
-      "deviation": -8.16,
+      "ma_value": 1551.8,
+      "deviation": -10.49,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1612.56,
-      "deviation": -9.65,
+      "ma_value": 1609.27,
+      "deviation": -13.69,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1540.12,
-      "deviation": -5.4,
+      "ma_value": 1530.98,
+      "deviation": -9.27,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.0
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 44.8
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 65.0
+        "amount": 57.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 58.8
+        "amount": 57.6,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 57.6,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

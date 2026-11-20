@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:07.963460",
+  "fetched_at": "2026-11-20T14:59:37.909913",
   "ticker": "8987",
   "ticker_full": "8987.T",
   "company_name": "JAPAN EXCELLENT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 122040.0,
-      "deviation": 0.46,
-      "trend": "up"
+      "ma_value": 124100.0,
+      "deviation": -0.4,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 124104.0,
-      "deviation": -1.21,
+      "ma_value": 124004.0,
+      "deviation": -0.33,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 133009.33,
-      "deviation": -7.83,
+      "ma_value": 131568.0,
+      "deviation": -6.06,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 138526.04,
-      "deviation": -11.5,
+      "ma_value": 137936.63,
+      "deviation": -10.39,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5600.0
+        "amount": 5600.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5600.0
+        "amount": 5600.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5632.0
+        "amount": 5632.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6142.0
+        "amount": 6142.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3070.0
+        "amount": 3070.0,
+        "in_progress": true
       }
     ],
     "latest": 3070.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 6142.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

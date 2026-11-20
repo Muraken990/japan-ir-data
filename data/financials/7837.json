@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:27.794550",
+  "fetched_at": "2026-11-20T13:53:25.858133",
   "ticker": "7837",
   "ticker_full": "7837.T",
   "company_name": "R. C. CORE CO.LTD.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 337.0,
-      "deviation": 0.89,
-      "trend": "up"
+      "ma_value": 333.2,
+      "deviation": -1.56,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 344.4,
-      "deviation": -1.28,
+      "ma_value": 341.48,
+      "deviation": -3.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 342.97,
-      "deviation": -0.87,
+      "ma_value": 342.37,
+      "deviation": -4.2,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 335.31,
-      "deviation": 1.4,
-      "trend": "up"
+      "ma_value": 334.12,
+      "deviation": -1.83,
+      "trend": "down"
     }
   },
   "financials": {
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2017,
-        "amount": 48.0
-      },
-      {
-        "year": 2018,
-        "amount": 49.0
-      },
-      {
-        "year": 2019,
-        "amount": 50.0
-      },
-      {
-        "year": 2020,
-        "amount": 35.0
-      },
-      {
-        "year": 2021,
-        "amount": 25.0
-      }
-    ],
-    "latest": 15.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

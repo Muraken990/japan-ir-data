@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:18.805132",
+  "fetched_at": "2026-11-20T13:58:52.451516",
   "ticker": "3372",
   "ticker_full": "3372.T",
   "company_name": "KANMONKAI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 211.2,
-      "deviation": 0.38,
-      "trend": "up"
+      "ma_value": 210.8,
+      "deviation": -0.85,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 212.92,
-      "deviation": -0.43,
+      "ma_value": 212.16,
+      "deviation": -1.49,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 217.33,
-      "deviation": -2.45,
+      "ma_value": 216.72,
+      "deviation": -3.56,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 221.14,
-      "deviation": -4.13,
+      "ma_value": 220.64,
+      "deviation": -5.28,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:51.170857",
+  "fetched_at": "2026-11-20T15:03:20.062563",
   "ticker": "4927",
   "ticker_full": "4927.T",
   "company_name": "POLA ORBIS HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1439.1,
-      "deviation": 0.83,
-      "trend": "up"
+      "ma_value": 1473.38,
+      "deviation": -1.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1420.76,
-      "deviation": 2.13,
+      "ma_value": 1434.54,
+      "deviation": 1.18,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1387.07,
-      "deviation": 4.61,
+      "ma_value": 1393.54,
+      "deviation": 4.16,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1328.79,
-      "deviation": 9.2,
+      "ma_value": 1331.08,
+      "deviation": 9.05,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": true
       }
     ],
     "latest": 21.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 52.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

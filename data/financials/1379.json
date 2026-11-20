@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:57.203661",
+  "fetched_at": "2026-11-20T14:46:56.574457",
   "ticker": "1379",
   "ticker_full": "1379.T",
   "company_name": "HOKUTO CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2103.6,
-      "deviation": 2.02,
-      "trend": "up"
+      "ma_value": 2157.8,
+      "deviation": -0.41,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2074.36,
-      "deviation": 3.45,
+      "ma_value": 2098.12,
+      "deviation": 2.43,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2049.86,
-      "deviation": 4.69,
+      "ma_value": 2063.06,
+      "deviation": 4.17,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1951.45,
-      "deviation": 9.97,
+      "ma_value": 1956.55,
+      "deviation": 9.84,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 60.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 55.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 55.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

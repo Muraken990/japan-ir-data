@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:24.805668",
+  "fetched_at": "2026-11-20T14:00:54.843873",
   "ticker": "7992",
   "ticker_full": "7992.T",
   "company_name": "SAILOR PEN CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 89.8,
-      "deviation": -3.12,
+      "ma_value": 89.4,
+      "deviation": -2.68,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 96.4,
-      "deviation": -9.75,
+      "ma_value": 94.16,
+      "deviation": -7.6,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 100.83,
-      "deviation": -13.71,
+      "ma_value": 100.0,
+      "deviation": -13.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 105.78,
-      "deviation": -17.76,
+      "ma_value": 105.15,
+      "deviation": -17.26,
       "trend": "down"
     }
   },
@@ -229,13 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2004,
-        "amount": 25.0
-      }
-    ],
-    "latest": 25.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:41:34.130961",
+  "fetched_at": "2026-11-20T14:45:34.675995",
   "ticker": "4343",
   "ticker_full": "4343.T",
   "company_name": "AEON FANTASY CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2868.4,
-      "deviation": 1.17,
+      "ma_value": 3009.0,
+      "deviation": 1.86,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2771.04,
-      "deviation": 4.73,
+      "ma_value": 2821.2,
+      "deviation": 8.64,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2768.38,
-      "deviation": 4.83,
+      "ma_value": 2787.38,
+      "deviation": 9.96,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2640.88,
-      "deviation": 9.89,
+      "ma_value": 2642.18,
+      "deviation": 16.0,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2021,
-        "amount": 30.0
-      },
-      {
-        "year": 2022,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
+      },
+      {
+        "year": 2025,
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 15.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

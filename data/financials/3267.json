@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:28.135127",
+  "fetched_at": "2026-11-20T14:09:31.645699",
   "ticker": "3267",
   "ticker_full": "3267.T",
   "company_name": "PHIL COMPANY LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 595.0,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 579.4,
+      "deviation": -2.83,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 609.52,
-      "deviation": -1.56,
+      "ma_value": 601.04,
+      "deviation": -6.33,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 625.23,
-      "deviation": -4.03,
+      "ma_value": 623.01,
+      "deviation": -9.63,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 787.57,
-      "deviation": -23.82,
+      "ma_value": 774.66,
+      "deviation": -27.32,
       "trend": "down"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 5.0
-      },
-      {
         "year": 2021,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

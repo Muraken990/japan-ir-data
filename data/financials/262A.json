@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:46.655926",
+  "fetched_at": "2026-11-20T14:44:48.350414",
   "ticker": "262A",
   "ticker_full": "262A.T",
   "company_name": "INTERMESTIC INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1635.6,
-      "deviation": 0.64,
-      "trend": "up"
+      "ma_value": 1550.0,
+      "deviation": -6.0,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1607.16,
-      "deviation": 2.42,
-      "trend": "up"
+      "ma_value": 1589.4,
+      "deviation": -8.33,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1744.11,
-      "deviation": -5.63,
+      "ma_value": 1722.96,
+      "deviation": -15.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1891.3,
-      "deviation": -12.97,
+      "ma_value": 1884.16,
+      "deviation": -22.67,
       "trend": "down"
     }
   },
@@ -195,14 +195,23 @@
     "history": [
       {
         "year": 2024,
-        "amount": 40.2
+        "amount": 40.2,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 44.0
+        "amount": 44.0,
+        "in_progress": false
       }
     ],
     "latest": 44.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 44.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

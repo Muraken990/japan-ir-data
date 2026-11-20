@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:30.906681",
+  "fetched_at": "2026-11-20T14:44:37.350271",
   "ticker": "6143",
   "ticker_full": "6143.T",
   "company_name": "SODICK CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1408.2,
-      "deviation": 0.13,
-      "trend": "up"
+      "ma_value": 1282.6,
+      "deviation": -6.91,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1485.0,
-      "deviation": -5.05,
+      "ma_value": 1409.64,
+      "deviation": -15.3,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1639.23,
-      "deviation": -13.98,
+      "ma_value": 1617.09,
+      "deviation": -26.16,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1582.77,
-      "deviation": -10.92,
+      "ma_value": 1588.37,
+      "deviation": -24.83,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

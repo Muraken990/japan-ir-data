@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:43.722471",
+  "fetched_at": "2026-11-20T13:55:32.202349",
   "ticker": "3667",
   "ticker_full": "3667.T",
   "company_name": "ENISH INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 18.8,
-      "deviation": 1.06,
-      "trend": "up"
+      "ma_value": 17.6,
+      "deviation": -3.41,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 20.6,
-      "deviation": -7.77,
+      "ma_value": 19.2,
+      "deviation": -11.46,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 25.16,
-      "deviation": -24.48,
+      "ma_value": 24.53,
+      "deviation": -30.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 38.78,
-      "deviation": -51.01,
+      "ma_value": 37.61,
+      "deviation": -54.8,
       "trend": "down"
     }
   },
@@ -229,13 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2013,
-        "amount": 22.0
-      }
-    ],
-    "latest": 22.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

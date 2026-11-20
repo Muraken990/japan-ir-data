@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:58.719769",
+  "fetched_at": "2026-11-20T14:03:12.132570",
   "ticker": "4615",
   "ticker_full": "4615.T",
   "company_name": "SHINTO PAINT CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 144.0,
-      "deviation": -1.39,
+      "ma_value": 141.8,
+      "deviation": -2.68,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 140.96,
-      "deviation": 0.74,
-      "trend": "up"
+      "ma_value": 142.24,
+      "deviation": -2.98,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 134.67,
-      "deviation": 5.45,
+      "ma_value": 135.48,
+      "deviation": 1.86,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 129.5,
-      "deviation": 9.66,
+      "ma_value": 129.88,
+      "deviation": 6.25,
       "trend": "up"
     }
   },
@@ -194,27 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2018,
-        "amount": 5.0
-      },
-      {
-        "year": 2019,
-        "amount": 5.0
-      },
-      {
-        "year": 2020,
-        "amount": 5.0
-      },
-      {
-        "year": 2021,
-        "amount": 5.0
-      },
-      {
         "year": 2022,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       }
     ],
     "latest": 2.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

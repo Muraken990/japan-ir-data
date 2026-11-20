@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:10.278296",
+  "fetched_at": "2026-11-20T15:05:36.692122",
   "ticker": "9072",
   "ticker_full": "9072.T",
   "company_name": "NIKKON HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4211.8,
-      "deviation": -0.07,
+      "ma_value": 4154.0,
+      "deviation": -3.47,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4326.08,
-      "deviation": -2.71,
+      "ma_value": 4243.12,
+      "deviation": -5.49,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4856.1,
-      "deviation": -13.33,
+      "ma_value": 4807.14,
+      "deviation": -16.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4856.19,
-      "deviation": -13.33,
+      "ma_value": 4874.37,
+      "deviation": -17.73,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 41.5
-      },
-      {
         "year": 2023,
-        "amount": 50.5
+        "amount": 49.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.5
+        "amount": 52.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 64.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 94.0
+        "amount": 75.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 56.0,
+        "in_progress": true
       }
     ],
     "latest": 56.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 75.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

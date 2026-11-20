@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:35:43.162576",
+  "fetched_at": "2026-11-20T14:40:05.087550",
   "ticker": "8551",
   "ticker_full": "8551.T",
   "company_name": "KITA-NIPPON BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2244.2,
-      "deviation": 0.3,
-      "trend": "up"
+      "ma_value": 2074.4,
+      "deviation": -7.15,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2442.24,
-      "deviation": -7.83,
+      "ma_value": 2307.8,
+      "deviation": -16.54,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2530.72,
-      "deviation": -11.05,
+      "ma_value": 2520.28,
+      "deviation": -23.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1999.52,
-      "deviation": 12.58,
-      "trend": "up"
+      "ma_value": 2011.51,
+      "deviation": -4.25,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 21.67
-      },
-      {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 26.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 48.0
+        "amount": 33.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.33
+        "amount": 61.33,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 32.0,
+        "in_progress": true
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 61.3333,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

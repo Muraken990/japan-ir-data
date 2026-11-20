@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:34.692696",
+  "fetched_at": "2026-11-20T14:43:43.069503",
   "ticker": "197A",
   "ticker_full": "197A.T",
   "company_name": "TAUNS LABORATORIES INC.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 498.6,
-      "deviation": 2.49,
-      "trend": "up"
+      "ma_value": 492.2,
+      "deviation": -0.65,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 500.24,
-      "deviation": 2.15,
-      "trend": "up"
+      "ma_value": 495.12,
+      "deviation": -1.24,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 499.41,
-      "deviation": 2.32,
-      "trend": "up"
+      "ma_value": 500.47,
+      "deviation": -2.29,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 495.9,
-      "deviation": 3.04,
-      "trend": "up"
+      "ma_value": 495.46,
+      "deviation": -1.3,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 27.75
+        "amount": 21.75,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 36.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 14.0
+        "amount": 28.0,
+        "in_progress": false
       }
     ],
     "latest": 14.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 28.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:01.313819",
+  "fetched_at": "2026-11-20T13:56:40.446445",
   "ticker": "7810",
   "ticker_full": "7810.T",
   "company_name": "CROSSFOR CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 144.0,
-      "deviation": 0.69,
-      "trend": "up"
+      "ma_value": 144.2,
+      "deviation": -2.22,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 143.68,
-      "deviation": 0.92,
-      "trend": "up"
+      "ma_value": 143.52,
+      "deviation": -1.76,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 150.81,
-      "deviation": -3.85,
+      "ma_value": 150.31,
+      "deviation": -6.19,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 169.25,
-      "deviation": -14.33,
+      "ma_value": 169.17,
+      "deviation": -16.65,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 3.5
+        "amount": 3.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 0.75
+        "amount": 0.75,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 0.35
+        "amount": 0.35,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 0.35
+        "amount": 0.35,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 0.63
+        "amount": 0.63,
+        "in_progress": false
       }
     ],
     "latest": 0.63,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": 0.63,
+      "fiscal_year_end": "2026-07-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:23.679107",
+  "fetched_at": "2026-11-20T14:23:42.947731",
   "ticker": "8908",
   "ticker_full": "8908.T",
   "company_name": "MAINICHI COMNET CO.LTD.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 863.6,
-      "deviation": -0.42,
+      "ma_value": 861.0,
+      "deviation": -0.81,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 869.92,
-      "deviation": -1.14,
+      "ma_value": 867.32,
+      "deviation": -1.54,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 874.29,
-      "deviation": -1.63,
+      "ma_value": 873.71,
+      "deviation": -2.26,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 863.76,
-      "deviation": -0.44,
+      "ma_value": 864.27,
+      "deviation": -1.19,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 31.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 33.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.0
+        "amount": 38.0,
+        "in_progress": false
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 38.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

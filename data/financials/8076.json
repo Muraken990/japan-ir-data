@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:18.427710",
+  "fetched_at": "2026-11-20T14:30:17.155690",
   "ticker": "8076",
   "ticker_full": "8076.T",
   "company_name": "CANOX CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1975.0,
-      "deviation": 0.66,
-      "trend": "up"
+      "ma_value": 1966.0,
+      "deviation": -1.68,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2005.84,
-      "deviation": -0.89,
+      "ma_value": 1993.2,
+      "deviation": -3.02,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2036.22,
-      "deviation": -2.37,
+      "ma_value": 2032.46,
+      "deviation": -4.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2003.19,
-      "deviation": -0.76,
+      "ma_value": 2002.27,
+      "deviation": -3.46,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥33億",
         "net_income": 2104979000.0,
         "net_income_fmt": "¥21億",
-        "eps": 218.05,
+        "eps": 219.82,
         "operating_margin": 1.58,
         "total_assets": 83641644000.0,
         "total_assets_fmt": "¥836億",
@@ -232,22 +232,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 99.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 100.0
+        "amount": 101.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 106.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 105.0
+        "amount": 104.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 53.0,
+        "in_progress": true
       }
     ],
     "latest": 53.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 104.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

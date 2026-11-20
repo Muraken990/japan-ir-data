@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:22.321867",
+  "fetched_at": "2026-11-20T14:15:56.957736",
   "ticker": "7022",
   "ticker_full": "7022.T",
   "company_name": "SANOYAS HOLDINGS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 271.2,
-      "deviation": 1.4,
-      "trend": "up"
+      "ma_value": 257.6,
+      "deviation": -6.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 303.64,
-      "deviation": -9.43,
+      "ma_value": 289.24,
+      "deviation": -16.33,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 320.11,
-      "deviation": -14.09,
+      "ma_value": 316.75,
+      "deviation": -23.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 321.52,
-      "deviation": -14.47,
+      "ma_value": 320.82,
+      "deviation": -24.57,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       }
     ],
     "latest": 7.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 7.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

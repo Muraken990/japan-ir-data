@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:52.783322",
+  "fetched_at": "2026-11-20T14:03:06.543307",
   "ticker": "3851",
   "ticker_full": "3851.T",
   "company_name": "NIPPON ICHI SOFTWARE INC.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1144.8,
-      "deviation": -1.73,
+      "ma_value": 887.6,
+      "deviation": -7.62,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1277.56,
-      "deviation": -11.94,
+      "ma_value": 1176.96,
+      "deviation": -30.33,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1270.4,
-      "deviation": -11.45,
+      "ma_value": 1264.6,
+      "deviation": -35.16,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 996.9,
-      "deviation": 12.85,
-      "trend": "up"
+      "ma_value": 998.67,
+      "deviation": -17.89,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

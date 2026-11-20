@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:01.181250",
+  "fetched_at": "2026-11-20T15:14:11.499520",
   "ticker": "6702",
   "ticker_full": "6702.T",
   "company_name": "FUJITSU",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3475.8,
-      "deviation": -0.6,
+      "ma_value": 3441.5,
+      "deviation": -3.18,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4004.2,
-      "deviation": -13.72,
+      "ma_value": 3863.54,
+      "deviation": -13.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3853.44,
-      "deviation": -10.34,
+      "ma_value": 3847.04,
+      "deviation": -13.39,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3621.36,
-      "deviation": -4.59,
+      "ma_value": 3602.42,
+      "deviation": -7.51,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 23.0
-      },
-      {
         "year": 2023,
-        "amount": 25.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 27.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 29.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

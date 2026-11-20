@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:07.996089",
+  "fetched_at": "2026-11-20T14:05:18.423633",
   "ticker": "3521",
   "ticker_full": "3521.T",
   "company_name": "THERMAE-YU HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 152.2,
-      "deviation": -0.13,
+      "ma_value": 151.2,
+      "deviation": -0.79,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 155.56,
-      "deviation": -2.29,
+      "ma_value": 154.28,
+      "deviation": -2.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 155.71,
-      "deviation": -2.38,
+      "ma_value": 155.65,
+      "deviation": -3.63,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 157.73,
-      "deviation": -3.63,
+      "ma_value": 157.1,
+      "deviation": -4.52,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

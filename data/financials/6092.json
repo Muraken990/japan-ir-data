@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:19.451213",
+  "fetched_at": "2026-11-20T14:06:27.754926",
   "ticker": "6092",
   "ticker_full": "6092.T",
   "company_name": "ENBIO HOLDINGS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 746.2,
-      "deviation": 1.72,
-      "trend": "up"
+      "ma_value": 610.6,
+      "deviation": -8.61,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 761.52,
-      "deviation": -0.33,
+      "ma_value": 730.68,
+      "deviation": -23.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 787.24,
-      "deviation": -3.59,
+      "ma_value": 780.4,
+      "deviation": -28.5,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 755.08,
-      "deviation": 0.52,
-      "trend": "up"
+      "ma_value": 755.07,
+      "deviation": -26.1,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 9.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

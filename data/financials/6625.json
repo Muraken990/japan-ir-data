@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:23.825891",
+  "fetched_at": "2026-11-20T14:42:35.559044",
   "ticker": "6625",
   "ticker_full": "6625.T",
   "company_name": "JALCO HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 308.4,
-      "deviation": -0.78,
+      "ma_value": 292.8,
+      "deviation": -4.71,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 322.12,
-      "deviation": -5.0,
+      "ma_value": 313.72,
+      "deviation": -11.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 350.0,
-      "deviation": -12.57,
+      "ma_value": 346.72,
+      "deviation": -19.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 358.89,
-      "deviation": -14.74,
+      "ma_value": 356.53,
+      "deviation": -21.75,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

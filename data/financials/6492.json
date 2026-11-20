@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:56.770122",
+  "fetched_at": "2026-11-20T14:23:24.236081",
   "ticker": "6492",
   "ticker_full": "6492.T",
   "company_name": "OKANO VALVE MFG.CO.LTD.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 10050.0,
-      "deviation": -2.19,
+      "ma_value": 8586.0,
+      "deviation": -10.32,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 11974.0,
-      "deviation": -17.91,
+      "ma_value": 10903.6,
+      "deviation": -29.38,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 13524.94,
-      "deviation": -27.32,
+      "ma_value": 13237.51,
+      "deviation": -41.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 13281.92,
-      "deviation": -25.99,
+      "ma_value": 13312.92,
+      "deviation": -42.16,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 130.0
+        "amount": 130.0,
+        "in_progress": true
       }
     ],
     "latest": 90.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 130.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

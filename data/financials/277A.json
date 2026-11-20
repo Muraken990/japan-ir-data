@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:46:15.623248",
+  "fetched_at": "2026-11-20T14:50:04.076823",
   "ticker": "277A",
   "ticker_full": "277A.T",
   "company_name": "GLOBE-ING INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2088.8,
-      "deviation": -1.91,
+      "ma_value": 1810.6,
+      "deviation": -8.26,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1987.8,
-      "deviation": 3.08,
-      "trend": "up"
+      "ma_value": 1987.52,
+      "deviation": -16.43,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1856.11,
-      "deviation": 10.39,
-      "trend": "up"
+      "ma_value": 1868.69,
+      "deviation": -11.11,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2118.95,
-      "deviation": -3.3,
+      "ma_value": 2096.12,
+      "deviation": -20.76,
       "trend": "down"
     }
   },
@@ -158,10 +158,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 16.1
+        "amount": 16.1,
+        "in_progress": false
       }
     ],
     "latest": 16.1,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 16.1,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

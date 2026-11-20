@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:43:36.743928",
+  "fetched_at": "2026-11-20T13:50:39.228410",
   "ticker": "544A",
   "ticker_full": "544A.T",
   "company_name": "GMS GROUP CO LTD",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 278.4,
-      "deviation": -2.3,
+      "ma_value": 254.8,
+      "deviation": -5.02,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 308.92,
-      "deviation": -11.95,
+      "ma_value": 295.6,
+      "deviation": -18.13,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 329.11,
-      "deviation": -17.35,
+      "ma_value": 322.56,
+      "deviation": -24.98,
       "trend": "down"
     },
     "ma_200": {
@@ -46,10 +46,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "calendar_year",
+    "fiscal_year_end_month": null,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": null,
+      "status": "unavailable"
+    }
   }
 }

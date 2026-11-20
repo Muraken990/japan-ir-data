@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:44:13.920550",
+  "fetched_at": "2026-11-20T13:51:15.886427",
   "ticker": "593A",
   "ticker_full": "593A.T",
   "company_name": "TIER IV INC",
@@ -18,19 +18,19 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2121.6,
-      "deviation": -4.18,
+      "ma_value": 1896.6,
+      "deviation": -11.16,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2205.48,
-      "deviation": -7.82,
+      "ma_value": 2128.36,
+      "deviation": -20.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1844.73,
-      "deviation": 10.21,
-      "trend": "up"
+      "ma_value": 1901.41,
+      "deviation": -11.38,
+      "trend": "down"
     },
     "ma_200": {
       "ma_value": 0,
@@ -119,6 +119,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-09-30",
+      "status": "unavailable"
+    }
   }
 }

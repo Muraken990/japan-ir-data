@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:54:42.939010",
+  "fetched_at": "2026-11-20T14:58:14.745033",
   "ticker": "8968",
   "ticker_full": "8968.T",
   "company_name": "FUKUOKA REIT CORP",
@@ -18,22 +18,22 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 166380.0,
-      "deviation": 0.97,
-      "trend": "up"
+      "ma_value": 168360.0,
+      "deviation": -0.39,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 167488.0,
-      "deviation": 0.31,
-      "trend": "up"
+      "ma_value": 167816.0,
+      "deviation": -0.07,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 171268.32,
-      "deviation": -1.91,
+      "ma_value": 170611.91,
+      "deviation": -1.71,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 172583.77,
+      "ma_value": 172283.78,
       "deviation": -2.66,
       "trend": "down"
     }
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7059.0
+        "amount": 7059.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 7333.0
+        "amount": 7333.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 7657.0
+        "amount": 7657.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8299.0
+        "amount": 8299.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 8226.0
+        "amount": 8226.0,
+        "in_progress": false
       }
     ],
     "latest": 4075.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 8226.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

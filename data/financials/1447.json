@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:06:52.678212",
+  "fetched_at": "2026-11-20T14:12:41.042601",
   "ticker": "1447",
   "ticker_full": "1447.T",
   "company_name": "SAAF HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 286.2,
-      "deviation": -3.91,
+      "ma_value": 268.8,
+      "deviation": -2.16,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 314.36,
-      "deviation": -12.52,
+      "ma_value": 300.08,
+      "deviation": -12.36,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 348.93,
-      "deviation": -21.19,
+      "ma_value": 342.23,
+      "deviation": -23.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 348.38,
-      "deviation": -21.06,
+      "ma_value": 346.97,
+      "deviation": -24.2,
       "trend": "down"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 4.5
+        "amount": 4.5,
+        "in_progress": false
       }
     ],
     "latest": 4.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 4.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

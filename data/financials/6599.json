@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:57:56.666489",
+  "fetched_at": "2026-11-20T14:04:09.186070",
   "ticker": "6599",
   "ticker_full": "6599.T",
   "company_name": "EBRAINS INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3215.2,
-      "deviation": 9.95,
-      "trend": "up"
+      "ma_value": 3253.0,
+      "deviation": -6.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3619.12,
-      "deviation": -2.32,
+      "ma_value": 3439.92,
+      "deviation": -11.19,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3616.01,
-      "deviation": -2.24,
+      "ma_value": 3638.05,
+      "deviation": -16.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3353.05,
-      "deviation": 5.43,
-      "trend": "up"
+      "ma_value": 3362.57,
+      "deviation": -9.15,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       }
     ],
     "latest": 48.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 48.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

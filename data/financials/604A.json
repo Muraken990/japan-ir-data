@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:44:11.651490",
+  "fetched_at": "2026-11-20T13:51:13.870230",
   "ticker": "604A",
   "ticker_full": "604A.T",
   "company_name": "BEABLE CO LTD",
@@ -18,19 +18,19 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1109.4,
-      "deviation": -0.67,
+      "ma_value": 1032.6,
+      "deviation": -4.42,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1298.4,
-      "deviation": -15.13,
+      "ma_value": 1181.36,
+      "deviation": -16.45,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 0,
-      "deviation": 0,
-      "trend": "neutral"
+      "ma_value": 1224.84,
+      "deviation": -19.42,
+      "trend": "down"
     },
     "ma_200": {
       "ma_value": 0,
@@ -158,10 +158,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 7,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": null,
+      "status": "unavailable"
+    }
   }
 }

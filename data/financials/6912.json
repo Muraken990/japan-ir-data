@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:34.601021",
+  "fetched_at": "2026-11-20T14:24:49.951842",
   "ticker": "6912",
   "ticker_full": "6912.T",
   "company_name": "KIKUSUI HOLDINGS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2012.4,
-      "deviation": 0.28,
-      "trend": "up"
+      "ma_value": 1884.6,
+      "deviation": -5.92,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2489.88,
-      "deviation": -18.95,
+      "ma_value": 2302.04,
+      "deviation": -22.98,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2463.92,
-      "deviation": -18.1,
+      "ma_value": 2465.44,
+      "deviation": -28.09,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2229.12,
-      "deviation": -9.47,
+      "ma_value": 2230.89,
+      "deviation": -20.53,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 47.0
+        "amount": 47.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 53.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 69.0
+        "amount": 69.0,
+        "in_progress": false
       }
     ],
     "latest": 69.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 69.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

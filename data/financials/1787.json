@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:18:07.030491",
+  "fetched_at": "2026-11-20T14:23:30.500757",
   "ticker": "1787",
   "ticker_full": "1787.T",
   "company_name": "NAKABOHTEC CORROSION PROTECTING",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5464.0,
-      "deviation": -0.07,
+      "ma_value": 5534.0,
+      "deviation": -0.98,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5555.6,
-      "deviation": -1.72,
+      "ma_value": 5526.4,
+      "deviation": -0.84,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5704.4,
-      "deviation": -4.28,
+      "ma_value": 5684.4,
+      "deviation": -3.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5658.57,
-      "deviation": -3.51,
+      "ma_value": 5659.67,
+      "deviation": -3.17,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥13億",
         "net_income": 1186206000.0,
         "net_income_fmt": "¥12億",
-        "eps": 425.54,
+        "eps": 483.77,
         "operating_margin": 8.8,
         "total_assets": 12168769000.0,
         "total_assets_fmt": "¥122億",
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 220.0
+        "amount": 220.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 255.0
+        "amount": 255.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 240.0
+        "amount": 240.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 300.0
+        "amount": 300.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 335.0
+        "amount": 335.0,
+        "in_progress": false
       }
     ],
     "latest": 335.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 335.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

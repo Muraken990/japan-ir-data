@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:33.286118",
+  "fetched_at": "2026-11-20T14:19:00.198949",
   "ticker": "9193",
   "ticker_full": "9193.T",
   "company_name": "TOKYO KISEN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 815.2,
-      "deviation": 0.96,
-      "trend": "up"
+      "ma_value": 802.2,
+      "deviation": -2.52,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 829.8,
-      "deviation": -0.82,
+      "ma_value": 820.96,
+      "deviation": -4.75,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 860.47,
-      "deviation": -4.35,
+      "ma_value": 856.27,
+      "deviation": -8.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 975.86,
-      "deviation": -15.66,
+      "ma_value": 967.32,
+      "deviation": -19.16,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

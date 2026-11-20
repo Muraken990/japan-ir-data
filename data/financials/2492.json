@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:52.636572",
+  "fetched_at": "2026-11-20T14:52:35.670479",
   "ticker": "2492",
   "ticker_full": "2492.T",
   "company_name": "INFOMART CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 736.0,
-      "deviation": 1.49,
-      "trend": "up"
+      "ma_value": 706.0,
+      "deviation": -1.56,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 752.4,
-      "deviation": -0.72,
+      "ma_value": 748.0,
+      "deviation": -7.09,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 679.15,
-      "deviation": 9.99,
+      "ma_value": 689.55,
+      "deviation": 0.79,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 514.41,
-      "deviation": 45.21,
+      "ma_value": 520.83,
+      "deviation": 33.44,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 0.72
+        "amount": 0.72,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 0.97
+        "amount": 0.97,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 1.74
+        "amount": 1.74,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.44
+        "amount": 5.44,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3.29
+        "amount": 3.29,
+        "in_progress": true
       }
     ],
     "latest": 3.29,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 5.44,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

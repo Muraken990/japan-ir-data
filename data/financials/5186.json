@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:08.663000",
+  "fetched_at": "2026-11-20T14:54:46.965231",
   "ticker": "5186",
   "ticker_full": "5186.T",
   "company_name": "NITTA CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6362.0,
-      "deviation": 1.23,
-      "trend": "up"
+      "ma_value": 6090.0,
+      "deviation": -1.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6779.2,
-      "deviation": -5.0,
+      "ma_value": 6572.8,
+      "deviation": -8.71,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6682.62,
-      "deviation": -3.63,
+      "ma_value": 6669.21,
+      "deviation": -10.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5629.01,
-      "deviation": 14.41,
+      "ma_value": 5679.06,
+      "deviation": 5.65,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 115.0
-      },
-      {
         "year": 2023,
-        "amount": 115.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 133.0
+        "amount": 122.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 146.0
+        "amount": 140.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 173.0
+        "amount": 160.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 85.0,
+        "in_progress": true
       }
     ],
     "latest": 85.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 160.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

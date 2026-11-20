@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:29.365900",
+  "fetched_at": "2026-11-20T13:49:34.082217",
   "ticker": "7371",
   "ticker_full": "7371.T",
   "company_name": "ZENKEN CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 725.6,
-      "deviation": -0.08,
+      "ma_value": 698.8,
+      "deviation": -0.26,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 752.24,
-      "deviation": -3.62,
+      "ma_value": 735.12,
+      "deviation": -5.19,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 767.17,
-      "deviation": -5.5,
+      "ma_value": 764.76,
+      "deviation": -8.86,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 715.11,
-      "deviation": 1.38,
-      "trend": "up"
+      "ma_value": 715.62,
+      "deviation": -2.6,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       }
     ],
     "latest": 27.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 27.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

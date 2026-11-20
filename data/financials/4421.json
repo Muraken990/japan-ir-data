@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:17.418838",
+  "fetched_at": "2026-11-20T13:57:53.790006",
   "ticker": "4421",
   "ticker_full": "4421.T",
   "company_name": "D I SYSTEM CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Information Technology Services",
     "website": "https://www.di-system.co.jp",
-    "employees": 739,
+    "employees": null,
     "country": "Japan",
     "city": "Chiyoda",
     "address": "Meiji Yasuda Life Building",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 889.8,
-      "deviation": 4.52,
-      "trend": "up"
+      "ma_value": 788.2,
+      "deviation": -1.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 911.08,
-      "deviation": 2.08,
-      "trend": "up"
+      "ma_value": 880.84,
+      "deviation": -12.24,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 909.27,
-      "deviation": 2.28,
-      "trend": "up"
+      "ma_value": 902.19,
+      "deviation": -14.32,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 903.41,
-      "deviation": 2.94,
-      "trend": "up"
+      "ma_value": 899.4,
+      "deviation": -14.05,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 28.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

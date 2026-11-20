@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:25.755556",
+  "fetched_at": "2026-11-20T14:09:29.350993",
   "ticker": "5571",
   "ticker_full": "5571.T",
   "company_name": "EXCITE HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 969.0,
-      "deviation": -1.44,
+      "ma_value": 948.0,
+      "deviation": -0.95,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1011.52,
-      "deviation": -5.59,
+      "ma_value": 992.96,
+      "deviation": -5.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1010.85,
-      "deviation": -5.53,
+      "ma_value": 1006.91,
+      "deviation": -6.74,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1047.69,
-      "deviation": -8.85,
+      "ma_value": 1040.55,
+      "deviation": -9.76,
       "trend": "down"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 31.5
+        "amount": 31.5,
+        "in_progress": false
       }
     ],
     "latest": 31.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 31.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

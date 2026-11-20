@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:20:43.323679",
+  "fetched_at": "2026-11-20T14:25:57.126018",
   "ticker": "5078",
   "ticker_full": "5078.T",
   "company_name": "CEL CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4393.0,
-      "deviation": -0.3,
-      "trend": "down"
+      "ma_value": 4312.0,
+      "deviation": 1.92,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 4478.6,
-      "deviation": -2.2,
+      "ma_value": 4425.8,
+      "deviation": -0.7,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4660.13,
-      "deviation": -6.01,
+      "ma_value": 4625.67,
+      "deviation": -4.99,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4779.37,
-      "deviation": -8.36,
+      "ma_value": 4768.87,
+      "deviation": -7.84,
       "trend": "down"
     }
   },
@@ -232,22 +232,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 105.0
+        "amount": 105.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 135.0
+        "amount": 135.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 135.0
+        "amount": 135.0,
+        "in_progress": false
       }
     ],
     "latest": 135.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 135.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

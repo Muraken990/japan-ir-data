@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:48.380316",
+  "fetched_at": "2026-11-20T14:19:12.577393",
   "ticker": "423A",
   "ticker_full": "423A.T",
   "company_name": "LION OFFICE PRODUCTS CORP",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Business Equipment & Supplies",
     "website": "https://www.lion-jimuki.co.jp",
-    "employees": 487,
+    "employees": null,
     "country": "Japan",
     "city": "Higashiosaka",
     "address": "3-5-44 Nagatanaka",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 299.6,
-      "deviation": 0.13,
-      "trend": "up"
+      "ma_value": 294.2,
+      "deviation": -1.43,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 302.08,
-      "deviation": -0.69,
+      "ma_value": 299.72,
+      "deviation": -3.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 308.81,
-      "deviation": -2.85,
+      "ma_value": 308.29,
+      "deviation": -5.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 309.33,
-      "deviation": -3.02,
+      "ma_value": 307.98,
+      "deviation": -5.84,
       "trend": "down"
     }
   },
@@ -158,10 +158,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 7.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-09-30",
+      "status": "unavailable"
+    }
   }
 }

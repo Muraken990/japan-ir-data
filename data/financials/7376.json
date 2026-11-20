@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:02.315047",
+  "fetched_at": "2026-11-20T13:56:41.459125",
   "ticker": "7376",
   "ticker_full": "7376.T",
   "company_name": "BCC CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Specialty Business Services",
     "website": "https://www.e-bcc.jp",
-    "employees": 242,
+    "employees": null,
     "country": "Japan",
     "city": "Osaka",
     "address": "Trade Pier Yodoyabashi",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 386.2,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 380.0,
+      "deviation": -8.95,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 582.76,
-      "deviation": -33.08,
+      "ma_value": 518.16,
+      "deviation": -33.23,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 787.68,
-      "deviation": -50.49,
+      "ma_value": 735.41,
+      "deviation": -52.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 841.25,
-      "deviation": -53.64,
+      "ma_value": 835.5,
+      "deviation": -58.59,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

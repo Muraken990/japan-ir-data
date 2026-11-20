@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:01.545258",
+  "fetched_at": "2026-11-20T14:22:29.566912",
   "ticker": "5578",
   "ticker_full": "5578.T",
   "company_name": "AR ADVANCED TECHNOLOGY INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 677.2,
-      "deviation": -0.32,
+      "ma_value": 645.6,
+      "deviation": -3.81,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 790.44,
-      "deviation": -14.6,
+      "ma_value": 740.76,
+      "deviation": -16.17,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 835.4,
-      "deviation": -19.2,
+      "ma_value": 826.27,
+      "deviation": -24.84,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 893.53,
-      "deviation": -24.46,
+      "ma_value": 879.32,
+      "deviation": -29.38,
       "trend": "down"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2023,
-        "amount": 6.67
+        "amount": 6.67,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6.67
+        "amount": 6.67,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

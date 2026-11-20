@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:37:00.213542",
+  "fetched_at": "2026-11-20T14:41:22.192956",
   "ticker": "5721",
   "ticker_full": "5721.T",
   "company_name": "S CRYPTO ENERGY INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 35.8,
-      "deviation": 0.56,
+      "ma_value": 36.2,
+      "deviation": 4.97,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 38.12,
-      "deviation": -5.56,
-      "trend": "down"
+      "ma_value": 36.52,
+      "deviation": 4.05,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 50.12,
-      "deviation": -28.17,
+      "ma_value": 48.81,
+      "deviation": -22.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 79.53,
-      "deviation": -54.73,
+      "ma_value": 76.42,
+      "deviation": -50.27,
       "trend": "down"
     }
   },
@@ -229,13 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2017,
-        "amount": 0.5
-      }
-    ],
-    "latest": 0.5,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2024-03-31",
+      "status": "no_dividend"
+    }
   }
 }

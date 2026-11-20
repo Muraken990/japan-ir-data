@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:53:29.438045",
+  "fetched_at": "2026-11-20T14:00:01.395239",
   "ticker": "4882",
   "ticker_full": "4882.T",
   "company_name": "PERSEUS PROTEOMICS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 125.6,
-      "deviation": 0.32,
-      "trend": "up"
+      "ma_value": 111.4,
+      "deviation": -9.34,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 139.32,
-      "deviation": -9.56,
+      "ma_value": 131.32,
+      "deviation": -23.09,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 148.81,
-      "deviation": -15.33,
+      "ma_value": 146.61,
+      "deviation": -31.11,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 182.76,
-      "deviation": -31.06,
+      "ma_value": 179.18,
+      "deviation": -43.63,
       "trend": "down"
     }
   },
@@ -230,6 +230,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

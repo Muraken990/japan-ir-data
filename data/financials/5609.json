@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:49.341241",
+  "fetched_at": "2026-11-20T14:03:03.325775",
   "ticker": "5609",
   "ticker_full": "5609.T",
   "company_name": "NIPPON CHUZO KK",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 964.4,
-      "deviation": 0.68,
-      "trend": "up"
+      "ma_value": 948.6,
+      "deviation": -4.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 968.4,
-      "deviation": 0.27,
-      "trend": "up"
+      "ma_value": 970.68,
+      "deviation": -6.97,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 940.11,
-      "deviation": 3.29,
-      "trend": "up"
+      "ma_value": 939.45,
+      "deviation": -3.88,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 895.36,
-      "deviation": 8.45,
+      "ma_value": 898.28,
+      "deviation": 0.53,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2025-03-31",
+      "status": "ok"
+    }
   }
 }

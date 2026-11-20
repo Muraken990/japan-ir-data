@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:17.635636",
+  "fetched_at": "2026-11-20T14:37:56.398901",
   "ticker": "3139",
   "ticker_full": "3139.T",
   "company_name": "LACTO JAPAN CO.LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3473.0,
-      "deviation": 1.07,
-      "trend": "up"
+      "ma_value": 3464.0,
+      "deviation": -1.7,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3468.4,
-      "deviation": 1.2,
-      "trend": "up"
+      "ma_value": 3468.6,
+      "deviation": -1.83,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3427.73,
-      "deviation": 2.4,
-      "trend": "up"
+      "ma_value": 3427.6,
+      "deviation": -0.66,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3416.37,
-      "deviation": 2.74,
-      "trend": "up"
+      "ma_value": 3416.97,
+      "deviation": -0.35,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 132.0
+        "amount": 132.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 66.0
+        "amount": 66.0,
+        "in_progress": true
       }
     ],
     "latest": 66.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 132.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

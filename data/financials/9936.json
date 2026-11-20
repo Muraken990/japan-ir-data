@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:06.092120",
+  "fetched_at": "2026-11-20T15:00:35.728808",
   "ticker": "9936",
   "ticker_full": "9936.T",
   "company_name": "OHSHO FOOD SERVICE CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2941.6,
-      "deviation": 1.07,
+      "ma_value": 2987.75,
+      "deviation": 0.58,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2934.2,
-      "deviation": 1.32,
+      "ma_value": 2949.12,
+      "deviation": 1.89,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2915.57,
-      "deviation": 1.97,
+      "ma_value": 2913.55,
+      "deviation": 3.14,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2932.26,
-      "deviation": 1.39,
+      "ma_value": 2927.23,
+      "deviation": 2.66,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 43.33
-      },
-      {
         "year": 2023,
-        "amount": 48.33
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 48.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 56.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 56.0
+        "amount": 56.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 28.0,
+        "in_progress": true
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 56.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

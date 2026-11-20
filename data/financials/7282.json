@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:19.019101",
+  "fetched_at": "2026-11-20T15:06:43.131053",
   "ticker": "7282",
   "ticker_full": "7282.T",
   "company_name": "TOYODA GOSEI",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1068.4,
-      "deviation": 0.24,
-      "trend": "up"
+      "ma_value": 1033.62,
+      "deviation": -6.79,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1032.02,
-      "deviation": 3.78,
-      "trend": "up"
+      "ma_value": 1028.0,
+      "deviation": -6.28,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 995.63,
-      "deviation": 7.57,
-      "trend": "up"
+      "ma_value": 1035.85,
+      "deviation": -6.99,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 902.98,
-      "deviation": 18.61,
+      "ma_value": 959.63,
+      "deviation": 0.39,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 11.0
-      },
-      {
         "year": 2023,
-        "amount": 13.6
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 21.4
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 102.6
+        "amount": 27.6,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 17.0,
+        "in_progress": true
       }
     ],
-    "latest": 85.0,
-    "has_data": true
+    "latest": 17.0,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 27.6,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

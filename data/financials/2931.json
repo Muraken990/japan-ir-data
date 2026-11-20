@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:27.740606",
+  "fetched_at": "2026-11-20T14:44:35.254549",
   "ticker": "2931",
   "ticker_full": "2931.T",
   "company_name": "EUGLENA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 314.8,
-      "deviation": -0.25,
+      "ma_value": 307.0,
+      "deviation": -4.89,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 326.0,
-      "deviation": -3.68,
+      "ma_value": 320.72,
+      "deviation": -8.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 340.16,
-      "deviation": -7.69,
+      "ma_value": 337.68,
+      "deviation": -13.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 363.06,
-      "deviation": -13.51,
+      "ma_value": 360.43,
+      "deviation": -18.99,
       "trend": "down"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       }
     ],
     "latest": 2.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 2.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

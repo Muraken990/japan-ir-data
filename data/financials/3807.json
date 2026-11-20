@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:02:23.971384",
+  "fetched_at": "2026-11-20T14:08:29.558416",
   "ticker": "3807",
   "ticker_full": "3807.T",
   "company_name": "FISCO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 71.6,
-      "deviation": -2.23,
+      "ma_value": 61.8,
+      "deviation": -7.77,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 78.92,
-      "deviation": -11.3,
+      "ma_value": 74.6,
+      "deviation": -23.59,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 84.65,
-      "deviation": -17.31,
+      "ma_value": 83.17,
+      "deviation": -31.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 97.36,
-      "deviation": -28.1,
+      "ma_value": 95.76,
+      "deviation": -40.48,
       "trend": "down"
     }
   },
@@ -231,27 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2017,
-        "amount": 3.0
-      },
-      {
-        "year": 2019,
-        "amount": 0.5
-      },
-      {
-        "year": 2020,
-        "amount": 3.0
-      },
-      {
         "year": 2021,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 3.0,
+      "fiscal_year_end": "2022-12-31",
+      "status": "ok"
+    }
   }
 }

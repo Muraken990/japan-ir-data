@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:56:06.616988",
+  "fetched_at": "2026-11-20T14:59:36.946986",
   "ticker": "7956",
   "ticker_full": "7956.T",
   "company_name": "PIGEON CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2305.5,
-      "deviation": 1.76,
-      "trend": "up"
+      "ma_value": 2364.6,
+      "deviation": -1.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2150.02,
-      "deviation": 9.12,
+      "ma_value": 2199.44,
+      "deviation": 5.62,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2082.14,
-      "deviation": 12.67,
+      "ma_value": 2105.31,
+      "deviation": 10.34,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1874.11,
-      "deviation": 25.18,
+      "ma_value": 1893.01,
+      "deviation": 22.71,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 76.0
+        "amount": 76.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 76.0
+        "amount": 76.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 76.0
+        "amount": 76.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 76.0
+        "amount": 76.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": true
       }
     ],
     "latest": 38.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 76.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

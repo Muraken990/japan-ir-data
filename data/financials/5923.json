@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:08:05.211319",
+  "fetched_at": "2026-11-20T14:13:49.069402",
   "ticker": "5923",
   "ticker_full": "5923.T",
   "company_name": "TAKADA KIKO STEEL CONSTRUCTION ",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1059.4,
-      "deviation": 0.53,
-      "trend": "up"
+      "ma_value": 1042.0,
+      "deviation": -1.82,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1131.68,
-      "deviation": -5.89,
+      "ma_value": 1106.32,
+      "deviation": -7.53,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1142.99,
-      "deviation": -6.82,
+      "ma_value": 1136.35,
+      "deviation": -9.97,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1154.94,
-      "deviation": -7.79,
+      "ma_value": 1151.85,
+      "deviation": -11.19,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 36.67
-      },
-      {
         "year": 2023,
-        "amount": 33.33
+        "amount": 33.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 58.33
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

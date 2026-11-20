@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:24:07.501238",
+  "fetched_at": "2026-11-20T14:29:09.028525",
   "ticker": "3810",
   "ticker_full": "3810.T",
   "company_name": "CYBERSTEP HLDGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 152.4,
-      "deviation": -2.89,
+      "ma_value": 138.0,
+      "deviation": -6.52,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 160.44,
-      "deviation": -7.75,
+      "ma_value": 153.36,
+      "deviation": -15.88,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 177.56,
-      "deviation": -16.65,
+      "ma_value": 176.4,
+      "deviation": -26.87,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 217.62,
-      "deviation": -31.99,
+      "ma_value": 213.13,
+      "deviation": -39.47,
       "trend": "down"
     }
   },
@@ -192,13 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2020,
-        "amount": 10.0
-      }
-    ],
-    "latest": 10.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "no_dividend"
+    }
   }
 }

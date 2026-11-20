@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:13.641829",
+  "fetched_at": "2026-11-20T15:07:38.728784",
   "ticker": "9513",
   "ticker_full": "9513.T",
   "company_name": "ELECTRIC POWER DEVELOPMENT",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4031.2,
-      "deviation": 2.28,
-      "trend": "up"
+      "ma_value": 4038.0,
+      "deviation": -4.09,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4015.72,
-      "deviation": 2.67,
-      "trend": "up"
+      "ma_value": 4027.67,
+      "deviation": -3.84,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3982.33,
-      "deviation": 3.53,
-      "trend": "up"
+      "ma_value": 3998.72,
+      "deviation": -3.14,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3841.47,
-      "deviation": 7.33,
+      "ma_value": 3859.73,
+      "deviation": 0.34,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 80.0
-      },
-      {
         "year": 2023,
-        "amount": 95.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 105.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 100.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

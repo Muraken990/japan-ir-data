@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:04:46.352140",
+  "fetched_at": "2026-11-20T14:10:46.313173",
   "ticker": "5533",
   "ticker_full": "5533.T",
   "company_name": "ELITZ HOLDINGS CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Real Estate",
     "industry": "Real Estate Services",
     "website": "https://www.elitz-holdings.co.jp",
-    "employees": 405,
+    "employees": null,
     "country": "Japan",
     "city": "Kyoto",
     "address": "55-1, Elitz Oike Building",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1972.4,
-      "deviation": -1.29,
+      "ma_value": 1936.4,
+      "deviation": -0.69,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2014.68,
-      "deviation": -3.36,
+      "ma_value": 1993.96,
+      "deviation": -3.56,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2007.53,
-      "deviation": -3.02,
+      "ma_value": 2006.28,
+      "deviation": -4.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1939.9,
-      "deviation": 0.37,
-      "trend": "up"
+      "ma_value": 1940.79,
+      "deviation": -0.92,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 71.0
+        "amount": 71.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 58.0
+        "amount": 58.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

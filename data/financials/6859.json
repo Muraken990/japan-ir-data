@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:17.807249",
+  "fetched_at": "2026-11-20T14:49:06.827643",
   "ticker": "6859",
   "ticker_full": "6859.T",
   "company_name": "ESPEC CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3730.0,
-      "deviation": -0.27,
+      "ma_value": 3519.0,
+      "deviation": -3.52,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4207.6,
-      "deviation": -11.59,
+      "ma_value": 4005.6,
+      "deviation": -15.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4052.24,
-      "deviation": -8.2,
+      "ma_value": 4026.0,
+      "deviation": -15.67,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3783.53,
-      "deviation": -1.68,
+      "ma_value": 3787.34,
+      "deviation": -10.36,
       "trend": "down"
     }
   },
@@ -46,14 +46,14 @@
         "revenue_fmt": "¥700億",
         "gross_profit": 24295000000.0,
         "gross_profit_fmt": "¥243億",
-        "operating_income": 7088000000.0,
-        "operating_income_fmt": "¥71億",
+        "operating_income": 7339000000.0,
+        "operating_income_fmt": "¥73億",
         "ebit": 8106000000.0,
         "ebit_fmt": "¥81億",
         "net_income": 5879000000.0,
         "net_income_fmt": "¥59億",
         "eps": 270.39,
-        "operating_margin": 10.12,
+        "operating_margin": 10.48,
         "total_assets": 82922000000.0,
         "total_assets_fmt": "¥829億",
         "total_equity": 61400000000.0,
@@ -83,14 +83,14 @@
         "revenue_fmt": "¥673億",
         "gross_profit": 23987000000.0,
         "gross_profit_fmt": "¥240億",
-        "operating_income": 7529000000.0,
-        "operating_income_fmt": "¥75億",
+        "operating_income": 7782000000.0,
+        "operating_income_fmt": "¥78億",
         "ebit": 8150000000.0,
         "ebit_fmt": "¥82億",
         "net_income": 6003000000.0,
         "net_income_fmt": "¥60億",
         "eps": 274.97,
-        "operating_margin": 11.19,
+        "operating_margin": 11.57,
         "total_assets": 75847000000.0,
         "total_assets_fmt": "¥758億",
         "total_equity": 56692000000.0,
@@ -120,14 +120,14 @@
         "revenue_fmt": "¥621億",
         "gross_profit": 21994000000.0,
         "gross_profit_fmt": "¥220億",
-        "operating_income": 6591000000.0,
-        "operating_income_fmt": "¥66億",
+        "operating_income": 6789000000.0,
+        "operating_income_fmt": "¥68億",
         "ebit": 6941000000.0,
         "ebit_fmt": "¥69億",
         "net_income": 4969000000.0,
         "net_income_fmt": "¥50億",
         "eps": 227.61,
-        "operating_margin": 10.61,
+        "operating_margin": 10.93,
         "total_assets": 78235000000.0,
         "total_assets_fmt": "¥782億",
         "total_equity": 52714000000.0,
@@ -157,14 +157,14 @@
         "revenue_fmt": "¥529億",
         "gross_profit": 17957000000.0,
         "gross_profit_fmt": "¥180億",
-        "operating_income": 4371000000.0,
-        "operating_income_fmt": "¥44億",
+        "operating_income": 4494000000.0,
+        "operating_income_fmt": "¥45億",
         "ebit": 4704000000.0,
         "ebit_fmt": "¥47億",
         "net_income": 3330000000.0,
         "net_income_fmt": "¥33億",
         "eps": 150.34,
-        "operating_margin": 8.26,
+        "operating_margin": 8.5,
         "total_assets": 67176000000.0,
         "total_assets_fmt": "¥672億",
         "total_equity": 46952000000.0,
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 66.0
-      },
-      {
         "year": 2023,
-        "amount": 70.0
+        "amount": 69.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 85.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 105.0
+        "amount": 95.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 115.0
+        "amount": 115.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 45.0,
+        "in_progress": true
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 115.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

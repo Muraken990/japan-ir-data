@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:01.520532",
+  "fetched_at": "2026-11-20T15:14:11.635373",
   "ticker": "7267",
   "ticker_full": "7267.T",
   "company_name": "HONDA MOTOR CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1831.7,
-      "deviation": 0.54,
-      "trend": "up"
+      "ma_value": 1808.0,
+      "deviation": -3.95,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1799.06,
-      "deviation": 2.36,
-      "trend": "up"
+      "ma_value": 1810.98,
+      "deviation": -4.11,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1695.72,
-      "deviation": 8.6,
+      "ma_value": 1709.27,
+      "deviation": 1.59,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1504.96,
-      "deviation": 22.36,
+      "ma_value": 1510.37,
+      "deviation": 14.97,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 41.67
-      },
-      {
         "year": 2023,
-        "amount": 49.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 73.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 69.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

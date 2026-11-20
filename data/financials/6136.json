@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:10.885702",
+  "fetched_at": "2026-11-20T15:00:40.142022",
   "ticker": "6136",
   "ticker_full": "6136.T",
   "company_name": "OSG CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3480.4,
-      "deviation": 0.48,
-      "trend": "up"
+      "ma_value": 3345.0,
+      "deviation": -6.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3583.88,
-      "deviation": -2.42,
+      "ma_value": 3502.54,
+      "deviation": -10.66,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3645.25,
-      "deviation": -4.07,
+      "ma_value": 3621.72,
+      "deviation": -13.6,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3298.78,
-      "deviation": 6.01,
-      "trend": "up"
+      "ma_value": 3318.99,
+      "deviation": -5.72,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 39.0
+        "amount": 39.0,
+        "in_progress": true
       }
     ],
     "latest": 39.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

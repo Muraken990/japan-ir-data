@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:15.198998",
+  "fetched_at": "2026-11-20T13:57:51.671392",
   "ticker": "9419",
   "ticker_full": "9419.T",
   "company_name": "WIRELESSGATE INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 298.4,
-      "deviation": 0.54,
-      "trend": "up"
+      "ma_value": 296.4,
+      "deviation": -0.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 297.64,
-      "deviation": 0.79,
-      "trend": "up"
+      "ma_value": 297.36,
+      "deviation": -1.13,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 294.72,
-      "deviation": 1.79,
-      "trend": "up"
+      "ma_value": 295.31,
+      "deviation": -0.44,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 294.83,
-      "deviation": 1.75,
-      "trend": "up"
+      "ma_value": 295.55,
+      "deviation": -0.52,
+      "trend": "down"
     }
   },
   "financials": {
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2014,
-        "amount": 25.0
-      },
-      {
-        "year": 2015,
-        "amount": 26.0
-      },
-      {
-        "year": 2016,
-        "amount": 27.0
-      },
-      {
-        "year": 2017,
-        "amount": 28.0
-      },
-      {
-        "year": 2018,
-        "amount": 1.0
-      }
-    ],
-    "latest": 1.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

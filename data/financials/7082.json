@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:30.894787",
+  "fetched_at": "2026-11-20T14:16:03.189577",
   "ticker": "7082",
   "ticker_full": "7082.T",
   "company_name": "JIMOTY INC",
@@ -192,7 +192,21 @@
     "has_data": true
   },
   "dividends": {
-    "history": [],
-    "has_data": false
+    "history": [
+      {
+        "year": 2026,
+        "amount": 0.0,
+        "in_progress": true
+      }
+    ],
+    "latest": NaN,
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2025-12-31",
+      "status": "unavailable"
+    }
   }
 }

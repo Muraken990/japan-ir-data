@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:06.544598",
+  "fetched_at": "2026-11-20T15:06:32.211528",
   "ticker": "6923",
   "ticker_full": "6923.T",
   "company_name": "STANLEY ELECTRIC CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3222.2,
-      "deviation": 0.61,
-      "trend": "up"
+      "ma_value": 3213.75,
+      "deviation": -6.18,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3384.64,
-      "deviation": -4.21,
+      "ma_value": 3319.33,
+      "deviation": -9.17,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3462.72,
-      "deviation": -6.37,
+      "ma_value": 3447.63,
+      "deviation": -12.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3283.92,
-      "deviation": -1.28,
+      "ma_value": 3289.11,
+      "deviation": -8.33,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 52.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 89.0
+        "amount": 72.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 104.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 55.0,
+        "in_progress": true
       }
     ],
     "latest": 55.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 104.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

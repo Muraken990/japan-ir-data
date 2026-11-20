@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:47.039274",
+  "fetched_at": "2026-11-20T14:46:47.738391",
   "ticker": "3496",
   "ticker_full": "3496.T",
   "company_name": "AZOOM CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Real Estate",
     "industry": "Real Estate Services",
     "website": "https://www.azoom.jp",
-    "employees": 455,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "Shinjuku Mines Tower",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4910.0,
-      "deviation": -17.11,
+      "ma_value": 3710.0,
+      "deviation": -2.7,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4830.2,
-      "deviation": -15.74,
+      "ma_value": 4645.6,
+      "deviation": -22.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4733.27,
-      "deviation": -14.01,
+      "ma_value": 4679.29,
+      "deviation": -22.85,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4460.24,
-      "deviation": -8.75,
+      "ma_value": 4433.97,
+      "deviation": -18.58,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 106.0
+        "amount": 106.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 126.0
+        "amount": 126.0,
+        "in_progress": false
       }
     ],
     "latest": 63.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 126.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

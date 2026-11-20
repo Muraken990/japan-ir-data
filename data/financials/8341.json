@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:17.075858",
+  "fetched_at": "2026-11-20T15:07:42.145659",
   "ticker": "8341",
   "ticker_full": "8341.T",
   "company_name": "77TH BANK",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3503.8,
-      "deviation": 0.29,
-      "trend": "up"
+      "ma_value": 3349.0,
+      "deviation": -7.79,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3598.04,
-      "deviation": -2.34,
+      "ma_value": 3499.38,
+      "deviation": -11.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3752.45,
-      "deviation": -6.35,
+      "ma_value": 3747.27,
+      "deviation": -17.59,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3352.62,
-      "deviation": 4.81,
-      "trend": "up"
+      "ma_value": 3367.48,
+      "deviation": -8.3,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 26.67
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 48.33
+        "amount": 40.83,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 70.17
+        "amount": 58.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 109.0
+        "amount": 86.67,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 86.6667,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

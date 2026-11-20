@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:19.547812",
+  "fetched_at": "2026-11-20T14:24:37.176310",
   "ticker": "2484",
   "ticker_full": "2484.T",
   "company_name": "DEMAE-CAN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 159.8,
-      "deviation": 1.38,
-      "trend": "up"
+      "ma_value": 152.8,
+      "deviation": -10.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 142.52,
-      "deviation": 13.67,
-      "trend": "up"
+      "ma_value": 144.6,
+      "deviation": -5.95,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 148.95,
-      "deviation": 8.76,
-      "trend": "up"
+      "ma_value": 150.24,
+      "deviation": -9.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 135.26,
-      "deviation": 19.77,
+      "ma_value": 135.59,
+      "deviation": 0.3,
       "trend": "up"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2015,
-        "amount": 1.75
-      },
-      {
-        "year": 2016,
-        "amount": 2.5
-      },
-      {
-        "year": 2017,
-        "amount": 3.3
-      },
-      {
-        "year": 2018,
-        "amount": 3.6
-      },
-      {
-        "year": 2019,
-        "amount": 3.6
-      }
-    ],
-    "latest": 3.6,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "no_dividend"
+    }
   }
 }

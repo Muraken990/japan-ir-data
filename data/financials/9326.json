@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:59:09.350019",
+  "fetched_at": "2026-11-20T14:05:19.418707",
   "ticker": "9326",
   "ticker_full": "9326.T",
   "company_name": "KANTSU HD CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 391.8,
-      "deviation": 0.56,
-      "trend": "up"
+      "ma_value": 391.2,
+      "deviation": -0.82,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 422.48,
-      "deviation": -6.74,
+      "ma_value": 405.12,
+      "deviation": -4.23,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 466.24,
-      "deviation": -15.49,
+      "ma_value": 459.63,
+      "deviation": -15.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 449.55,
-      "deviation": -12.36,
+      "ma_value": 447.95,
+      "deviation": -13.38,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:41:38.675433",
+  "fetched_at": "2026-11-20T14:45:39.190545",
   "ticker": "3245",
   "ticker_full": "3245.T",
   "company_name": "DEAR LIFE CO.LTD",
@@ -10,7 +10,7 @@
     "sector": "Real Estate",
     "industry": "Real Estate Services",
     "website": "https://www.dear-life.co.jp",
-    "employees": 639,
+    "employees": null,
     "country": "Japan",
     "city": "Chiyoda",
     "address": "Hulic Kudan Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 892.6,
-      "deviation": 2.96,
-      "trend": "up"
+      "ma_value": 899.6,
+      "deviation": -3.18,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 918.6,
-      "deviation": 0.04,
-      "trend": "up"
+      "ma_value": 910.76,
+      "deviation": -4.37,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 990.95,
-      "deviation": -7.26,
+      "ma_value": 982.32,
+      "deviation": -11.33,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 994.14,
-      "deviation": -7.56,
+      "ma_value": 989.17,
+      "deviation": -11.95,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 44.0
+        "amount": 44.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 41.0
+        "amount": 41.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 47.0
+        "amount": 47.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 63.0
+        "amount": 63.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 64.0
+        "amount": 64.0,
+        "in_progress": false
       }
     ],
     "latest": 64.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 64.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:21.774703",
+  "fetched_at": "2026-11-20T14:55:56.176443",
   "ticker": "3191",
   "ticker_full": "3191.T",
   "company_name": "JOYFUL HONDA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2266.0,
-      "deviation": -0.26,
-      "trend": "down"
+      "ma_value": 2327.4,
+      "deviation": 0.8,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 2284.56,
-      "deviation": -1.08,
-      "trend": "down"
+      "ma_value": 2303.96,
+      "deviation": 1.82,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2283.37,
-      "deviation": -1.02,
-      "trend": "down"
+      "ma_value": 2275.87,
+      "deviation": 3.08,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2192.28,
-      "deviation": 3.09,
+      "ma_value": 2197.87,
+      "deviation": 6.74,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 44.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 48.0
+        "amount": 46.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 57.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 74.0
+        "amount": 64.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.0
+        "amount": 84.0,
+        "in_progress": false
       }
     ],
     "latest": 42.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 84.0,
+      "fiscal_year_end": "2026-06-20",
+      "status": "ok"
+    }
   }
 }

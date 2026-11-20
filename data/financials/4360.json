@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:03:25.958727",
+  "fetched_at": "2026-11-20T14:09:29.474843",
   "ticker": "4360",
   "ticker_full": "4360.T",
   "company_name": "MANAC CHEMICAL PARTNERS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 976.6,
-      "deviation": 4.24,
-      "trend": "up"
+      "ma_value": 915.4,
+      "deviation": -2.77,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 982.44,
-      "deviation": 3.62,
-      "trend": "up"
+      "ma_value": 966.56,
+      "deviation": -7.92,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 939.99,
-      "deviation": 8.3,
-      "trend": "up"
+      "ma_value": 948.38,
+      "deviation": -6.16,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 903.52,
-      "deviation": 12.67,
-      "trend": "up"
+      "ma_value": 905.86,
+      "deviation": -1.75,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.0
-      },
-      {
         "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 12.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 7.5,
+        "in_progress": true
       }
     ],
     "latest": 7.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 12.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

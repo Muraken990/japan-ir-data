@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:48:49.093598",
+  "fetched_at": "2026-11-20T14:52:32.466145",
   "ticker": "2760",
   "ticker_full": "2760.T",
   "company_name": "TOKYO ELECTRON DEVICE",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3873.0,
-      "deviation": 4.31,
-      "trend": "up"
+      "ma_value": 3799.0,
+      "deviation": -4.45,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4381.4,
-      "deviation": -7.79,
+      "ma_value": 4151.4,
+      "deviation": -12.56,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4226.2,
-      "deviation": -4.41,
+      "ma_value": 4234.44,
+      "deviation": -14.27,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3815.2,
-      "deviation": 5.89,
-      "trend": "up"
+      "ma_value": 3824.65,
+      "deviation": -5.09,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 81.67
-      },
-      {
         "year": 2023,
-        "amount": 131.0
+        "amount": 118.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 126.0
+        "amount": 135.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 102.0
+        "amount": 119.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 141.0
+        "amount": 107.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 69.0,
+        "in_progress": true
       }
     ],
     "latest": 69.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 107.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

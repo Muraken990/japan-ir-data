@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:43:59.506340",
+  "fetched_at": "2026-11-20T14:47:56.599127",
   "ticker": "6574",
   "ticker_full": "6574.T",
   "company_name": "CONVANO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 956.6,
-      "deviation": 3.49,
-      "trend": "up"
+      "ma_value": 960.0,
+      "deviation": -12.4,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1094.4,
-      "deviation": -9.54,
+      "ma_value": 1025.6,
+      "deviation": -18.0,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1100.93,
-      "deviation": -10.08,
+      "ma_value": 1107.6,
+      "deviation": -24.07,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1081.6,
-      "deviation": -8.47,
+      "ma_value": 1073.48,
+      "deviation": -21.66,
       "trend": "down"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

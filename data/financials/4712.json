@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:16:06.250382",
+  "fetched_at": "2026-11-20T14:21:26.720219",
   "ticker": "4712",
   "ticker_full": "4712.T",
   "company_name": "KEYHOLDER INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1077.0,
-      "deviation": 0.28,
+      "ma_value": 1069.4,
+      "deviation": 0.43,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 930.96,
-      "deviation": 16.01,
+      "ma_value": 983.0,
+      "deviation": 9.26,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 838.32,
-      "deviation": 28.83,
+      "ma_value": 860.32,
+      "deviation": 24.84,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 795.51,
-      "deviation": 35.76,
+      "ma_value": 803.86,
+      "deviation": 33.61,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:05:46.402672",
+  "fetched_at": "2026-11-20T14:11:42.110066",
   "ticker": "7175",
   "ticker_full": "7175.T",
   "company_name": "IMAMURA SECURITIES CO LTD(THE)",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1602.6,
-      "deviation": 1.02,
-      "trend": "up"
+      "ma_value": 1605.6,
+      "deviation": -4.21,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1720.68,
-      "deviation": -5.91,
+      "ma_value": 1661.08,
+      "deviation": -7.41,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1811.4,
-      "deviation": -10.62,
+      "ma_value": 1806.54,
+      "deviation": -14.87,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1502.07,
-      "deviation": 7.78,
+      "ma_value": 1511.86,
+      "deviation": 1.73,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 35.0
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 95.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 90.0
+        "amount": 73.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 37.0,
+        "in_progress": true
       }
     ],
     "latest": 37.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 73.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

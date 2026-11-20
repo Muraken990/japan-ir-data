@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:35:47.545170",
+  "fetched_at": "2026-11-20T14:40:08.947246",
   "ticker": "7522",
   "ticker_full": "7522.T",
   "company_name": "WATAMI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 880.4,
-      "deviation": 14.49,
-      "trend": "up"
+      "ma_value": 1280.6,
+      "deviation": -0.05,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 859.16,
-      "deviation": 17.32,
+      "ma_value": 945.48,
+      "deviation": 35.38,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 908.73,
-      "deviation": 10.92,
+      "ma_value": 930.15,
+      "deviation": 37.61,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 932.01,
-      "deviation": 8.15,
+      "ma_value": 940.35,
+      "deviation": 36.12,
       "trend": "up"
     }
   },
@@ -194,27 +194,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 2.5
-      },
-      {
         "year": 2023,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

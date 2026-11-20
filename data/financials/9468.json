@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:03:05.345841",
+  "fetched_at": "2026-11-20T15:06:31.061942",
   "ticker": "9468",
   "ticker_full": "9468.T",
   "company_name": "KADOKAWA CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3545.0,
-      "deviation": -3.3,
+      "ma_value": 3442.75,
+      "deviation": -1.13,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3681.64,
-      "deviation": -6.89,
+      "ma_value": 3633.25,
+      "deviation": -6.31,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3637.29,
-      "deviation": -5.75,
+      "ma_value": 3632.47,
+      "deviation": -6.29,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3459.56,
-      "deviation": -0.91,
+      "ma_value": 3465.41,
+      "deviation": -1.77,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥100億",
         "net_income": 1278000000.0,
         "net_income_fmt": "¥13億",
-        "eps": 8.7,
+        "eps": 7.86,
         "operating_margin": 2.86,
         "total_assets": 394864000000.0,
         "total_assets_fmt": "¥3949億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

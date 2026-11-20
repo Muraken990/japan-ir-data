@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:13.494288",
+  "fetched_at": "2026-11-20T13:56:51.292253",
   "ticker": "2693",
   "ticker_full": "2693.T",
   "company_name": "YKT CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 266.8,
-      "deviation": 4.95,
-      "trend": "up"
+      "ma_value": 259.8,
+      "deviation": -4.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 265.32,
-      "deviation": 5.53,
-      "trend": "up"
+      "ma_value": 262.28,
+      "deviation": -5.83,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 285.83,
-      "deviation": -2.04,
+      "ma_value": 281.12,
+      "deviation": -12.14,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 293.12,
-      "deviation": -4.48,
+      "ma_value": 293.8,
+      "deviation": -15.93,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

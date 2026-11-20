@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:27:26.394861",
+  "fetched_at": "2026-11-20T14:32:28.381104",
   "ticker": "2120",
   "ticker_full": "2120.T",
   "company_name": "LIFULL CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Communication Services",
     "industry": "Internet Content & Information",
     "website": "https://www.lifull.com",
-    "employees": 667,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "1-4-4 Kojimachi",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 253.0,
-      "deviation": 6.32,
-      "trend": "up"
+      "ma_value": 261.2,
+      "deviation": -2.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 246.72,
-      "deviation": 9.03,
+      "ma_value": 250.32,
+      "deviation": 1.47,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 229.13,
-      "deviation": 17.4,
+      "ma_value": 233.72,
+      "deviation": 8.68,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 204.04,
-      "deviation": 31.84,
+      "ma_value": 206.25,
+      "deviation": 23.15,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.25
+        "amount": 2.25,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4.26
+        "amount": 4.26,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 0.73
+        "amount": 0.73,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.41
+        "amount": 10.41,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.47
+        "amount": 7.47,
+        "in_progress": false
       }
     ],
     "latest": 7.47,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 7.47,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

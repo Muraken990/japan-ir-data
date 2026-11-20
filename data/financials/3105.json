@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:57:11.128480",
+  "fetched_at": "2026-11-20T15:00:40.539314",
   "ticker": "3105",
   "ticker_full": "3105.T",
   "company_name": "NISSHINBO HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1963.4,
-      "deviation": -1.14,
+      "ma_value": 1866.62,
+      "deviation": -6.62,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2286.96,
-      "deviation": -15.13,
+      "ma_value": 2144.29,
+      "deviation": -18.71,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2325.0,
-      "deviation": -16.52,
+      "ma_value": 2311.07,
+      "deviation": -24.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2069.3,
-      "deviation": -6.2,
+      "ma_value": 2082.22,
+      "deviation": -16.29,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 36.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": true
       }
     ],
     "latest": 18.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 36.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

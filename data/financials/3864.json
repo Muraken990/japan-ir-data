@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:00.298634",
+  "fetched_at": "2026-11-20T14:35:40.229008",
   "ticker": "3864",
   "ticker_full": "3864.T",
   "company_name": "MITSUBISHI PAPER MILLS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1199.2,
-      "deviation": 6.49,
-      "trend": "up"
+      "ma_value": 1244.8,
+      "deviation": -1.75,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1216.52,
-      "deviation": 4.97,
+      "ma_value": 1218.44,
+      "deviation": 0.37,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1188.14,
-      "deviation": 7.48,
+      "ma_value": 1196.7,
+      "deviation": 2.2,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1012.84,
-      "deviation": 26.08,
+      "ma_value": 1027.44,
+      "deviation": 19.03,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 5.0
-      },
-      {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 22.0
+        "amount": 15.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 7.0,
+        "in_progress": true
       }
     ],
     "latest": 7.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

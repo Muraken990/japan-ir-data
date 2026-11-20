@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:36.974625",
+  "fetched_at": "2026-11-20T15:10:51.574447",
   "ticker": "6506",
   "ticker_full": "6506.T",
   "company_name": "YASKAWA ELECTRIC CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3770.4,
-      "deviation": 0.55,
-      "trend": "up"
+      "ma_value": 3503.25,
+      "deviation": -9.23,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4116.2,
-      "deviation": -7.9,
+      "ma_value": 3896.67,
+      "deviation": -18.39,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4573.63,
-      "deviation": -17.11,
+      "ma_value": 4498.8,
+      "deviation": -29.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5244.84,
-      "deviation": -27.72,
+      "ma_value": 5214.6,
+      "deviation": -39.02,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 58.0
-      },
-      {
         "year": 2023,
-        "amount": 64.0
+        "amount": 64.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 66.0
+        "amount": 64.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 68.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 36.0,
+        "in_progress": true
       }
     ],
     "latest": 36.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 68.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

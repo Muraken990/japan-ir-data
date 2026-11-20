@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:21.910560",
+  "fetched_at": "2026-11-20T14:06:29.937607",
   "ticker": "1994",
   "ticker_full": "1994.T",
   "company_name": "TAKAHASHI CURTAIN WALL CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 579.2,
-      "deviation": -0.9,
+      "ma_value": 570.2,
+      "deviation": -1.61,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 596.8,
-      "deviation": -3.82,
+      "ma_value": 590.6,
+      "deviation": -5.01,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 594.56,
-      "deviation": -3.46,
+      "ma_value": 596.21,
+      "deviation": -5.91,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 567.83,
-      "deviation": 1.09,
-      "trend": "up"
+      "ma_value": 568.96,
+      "deviation": -1.4,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 11.0
+        "amount": 11.0,
+        "in_progress": true
       }
     ],
     "latest": 11.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

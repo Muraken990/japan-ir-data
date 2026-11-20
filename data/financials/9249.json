@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:00.295234",
+  "fetched_at": "2026-11-20T14:22:28.139807",
   "ticker": "9249",
   "ticker_full": "9249.T",
   "company_name": "JAPAN ECOSYSTEM CO LTD",
@@ -10,7 +10,7 @@
     "sector": "Communication Services",
     "industry": "Entertainment",
     "website": "https://www.jp-eco.co.jp",
-    "employees": 429,
+    "employees": null,
     "country": "Japan",
     "city": "Ichinomiya",
     "address": "JES Ichinomiya Building 11F",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1595.6,
-      "deviation": 1.47,
-      "trend": "up"
+      "ma_value": 1614.2,
+      "deviation": -1.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1602.68,
-      "deviation": 1.02,
-      "trend": "up"
+      "ma_value": 1607.48,
+      "deviation": -1.59,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1624.28,
-      "deviation": -0.32,
+      "ma_value": 1623.94,
+      "deviation": -2.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1594.94,
-      "deviation": 1.51,
-      "trend": "up"
+      "ma_value": 1596.02,
+      "deviation": -0.88,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 16.67
+        "amount": 16.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.33
+        "amount": 17.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 17.67
+        "amount": 17.67,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

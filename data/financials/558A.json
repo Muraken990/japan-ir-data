@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:27.122861",
+  "fetched_at": "2026-11-20T13:49:32.241127",
   "ticker": "558A",
   "ticker_full": "558A.T",
   "company_name": "SQUEEZE INC",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 5778.0,
-      "deviation": 5.57,
-      "trend": "up"
+      "ma_value": 6096.0,
+      "deviation": -1.74,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5746.8,
-      "deviation": 6.15,
+      "ma_value": 5771.2,
+      "deviation": 3.79,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 5560.53,
-      "deviation": 9.7,
+      "ma_value": 5671.07,
+      "deviation": 5.62,
       "trend": "up"
     },
     "ma_200": {
@@ -119,6 +119,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2025-12-31",
+      "status": "unavailable"
+    }
   }
 }

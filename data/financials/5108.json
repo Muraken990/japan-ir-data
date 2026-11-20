@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:10:01.899029",
+  "fetched_at": "2026-11-20T15:13:12.644684",
   "ticker": "5108",
   "ticker_full": "5108.T",
   "company_name": "BRIDGESTONE CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4277.0,
-      "deviation": 2.92,
-      "trend": "up"
+      "ma_value": 4388.75,
+      "deviation": -3.43,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4059.76,
-      "deviation": 8.43,
+      "ma_value": 4138.5,
+      "deviation": 2.4,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3990.24,
-      "deviation": 10.32,
+      "ma_value": 4016.23,
+      "deviation": 5.52,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3629.22,
-      "deviation": 21.29,
+      "ma_value": 3648.98,
+      "deviation": 16.14,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 87.5
+        "amount": 87.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 105.0
+        "amount": 105.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 115.0
+        "amount": 115.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": true
       }
     ],
     "latest": 60.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 115.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

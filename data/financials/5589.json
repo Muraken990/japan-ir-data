@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:21:47.283135",
+  "fetched_at": "2026-11-20T14:26:58.996125",
   "ticker": "5589",
   "ticker_full": "5589.T",
   "company_name": "AUTOSERVER CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2839.8,
-      "deviation": 0.36,
-      "trend": "up"
+      "ma_value": 2832.4,
+      "deviation": -2.87,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2888.08,
-      "deviation": -1.32,
+      "ma_value": 2860.4,
+      "deviation": -3.82,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2867.63,
-      "deviation": -0.61,
+      "ma_value": 2876.77,
+      "deviation": -4.37,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2737.64,
-      "deviation": 4.1,
+      "ma_value": 2743.67,
+      "deviation": 0.27,
       "trend": "up"
     }
   },
@@ -195,18 +195,28 @@
     "history": [
       {
         "year": 2023,
-        "amount": 61.0
+        "amount": 61.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 66.0
+        "amount": 66.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 66.0
+        "amount": 66.0,
+        "in_progress": false
       }
     ],
     "latest": 66.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 66.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

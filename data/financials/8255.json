@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:49:42.661701",
+  "fetched_at": "2026-11-20T14:53:25.174237",
   "ticker": "8255",
   "ticker_full": "8255.T",
   "company_name": "AXIAL RETAILING INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1541.0,
-      "deviation": 0.91,
-      "trend": "up"
+      "ma_value": 1545.2,
+      "deviation": -0.47,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1365.36,
-      "deviation": 13.89,
+      "ma_value": 1423.72,
+      "deviation": 8.03,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1292.87,
-      "deviation": 20.28,
+      "ma_value": 1313.63,
+      "deviation": 17.08,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1202.26,
-      "deviation": 29.34,
+      "ma_value": 1211.4,
+      "deviation": 26.96,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.0
-      },
-      {
         "year": 2023,
-        "amount": 21.25
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 24.75
+        "amount": 21.25,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 29.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 29.0
+        "amount": 29.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 13.0,
+        "in_progress": true
       }
     ],
     "latest": 13.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:02:03.306651",
+  "fetched_at": "2026-11-20T15:05:30.593859",
   "ticker": "9706",
   "ticker_full": "9706.T",
   "company_name": "JAPAN AIRPORT TERMINAL CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6294.4,
-      "deviation": 2.65,
-      "trend": "up"
+      "ma_value": 6756.75,
+      "deviation": -1.0,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5791.32,
-      "deviation": 11.56,
+      "ma_value": 6003.04,
+      "deviation": 11.43,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 5653.94,
-      "deviation": 14.27,
+      "ma_value": 5719.77,
+      "deviation": 16.95,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 5268.6,
-      "deviation": 22.63,
+      "ma_value": 5311.44,
+      "deviation": 25.94,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 41.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 77.0
+        "amount": 67.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 98.0
+        "amount": 95.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 48.0,
+        "in_progress": true
       }
     ],
     "latest": 48.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 95.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

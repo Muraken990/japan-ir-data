@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:44:14.223292",
+  "fetched_at": "2026-11-20T14:48:06.278501",
   "ticker": "6200",
   "ticker_full": "6200.T",
   "company_name": "INSOURCE CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 683.0,
-      "deviation": -0.73,
+      "ma_value": 665.6,
+      "deviation": -4.45,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 689.88,
-      "deviation": -1.72,
+      "ma_value": 685.0,
+      "deviation": -7.15,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 688.02,
-      "deviation": -1.46,
+      "ma_value": 684.52,
+      "deviation": -7.09,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 655.33,
-      "deviation": 3.46,
-      "trend": "up"
+      "ma_value": 652.45,
+      "deviation": -2.52,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.75
+        "amount": 10.75,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

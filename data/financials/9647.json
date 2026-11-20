@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:16.451341",
+  "fetched_at": "2026-11-20T14:06:24.953710",
   "ticker": "9647",
   "ticker_full": "9647.T",
   "company_name": "KYOWA ENGINEERING CONSULTANTS C",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6398.0,
-      "deviation": 1.28,
-      "trend": "up"
+      "ma_value": 6134.0,
+      "deviation": -9.03,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 6546.0,
-      "deviation": -1.01,
+      "ma_value": 6433.6,
+      "deviation": -13.27,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 6575.87,
-      "deviation": -1.46,
+      "ma_value": 6564.8,
+      "deviation": -15.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 7339.75,
-      "deviation": -11.71,
+      "ma_value": 7260.65,
+      "deviation": -23.15,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

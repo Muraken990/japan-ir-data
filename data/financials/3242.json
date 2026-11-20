@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:10.112688",
+  "fetched_at": "2026-11-20T14:30:08.847166",
   "ticker": "3242",
   "ticker_full": "3242.T",
   "company_name": "URBANET CORPORATION CO. LTD.",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 526.4,
-      "deviation": 0.68,
-      "trend": "up"
+      "ma_value": 526.2,
+      "deviation": -1.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 534.24,
-      "deviation": -0.79,
+      "ma_value": 532.04,
+      "deviation": -2.45,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 525.33,
-      "deviation": 0.89,
-      "trend": "up"
+      "ma_value": 526.79,
+      "deviation": -1.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 527.35,
-      "deviation": 0.5,
-      "trend": "up"
+      "ma_value": 526.44,
+      "deviation": -1.41,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 18.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 19.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 23.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 13.0
+        "amount": 24.0,
+        "in_progress": false
       }
     ],
     "latest": 13.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 24.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

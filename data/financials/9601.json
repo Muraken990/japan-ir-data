@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:54:40.641067",
+  "fetched_at": "2026-11-20T14:58:12.757475",
   "ticker": "9601",
   "ticker_full": "9601.T",
   "company_name": "SHOCHIKU CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 11984.0,
-      "deviation": 1.47,
+      "ma_value": 12304.0,
+      "deviation": 0.37,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 11576.4,
-      "deviation": 5.04,
+      "ma_value": 11877.2,
+      "deviation": 3.98,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 11150.53,
-      "deviation": 9.05,
+      "ma_value": 11198.8,
+      "deviation": 10.28,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 11043.7,
-      "deviation": 10.11,
+      "ma_value": 11056.67,
+      "deviation": 11.7,
       "trend": "up"
     }
   },
@@ -194,27 +194,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

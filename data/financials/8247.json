@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:47:56.725019",
+  "fetched_at": "2026-11-20T13:54:46.299676",
   "ticker": "8247",
   "ticker_full": "8247.T",
   "company_name": "DAIWA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 340.6,
-      "deviation": 0.7,
-      "trend": "up"
+      "ma_value": 347.2,
+      "deviation": -0.92,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 356.24,
-      "deviation": -3.72,
+      "ma_value": 357.48,
+      "deviation": -3.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 331.39,
-      "deviation": 3.5,
+      "ma_value": 334.61,
+      "deviation": 2.81,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 331.73,
-      "deviation": 3.4,
+      "ma_value": 330.65,
+      "deviation": 4.04,
       "trend": "up"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2008,
-        "amount": 15.0
-      },
-      {
-        "year": 2015,
-        "amount": 15.0
-      },
-      {
-        "year": 2016,
-        "amount": 15.0
-      },
-      {
-        "year": 2017,
-        "amount": 15.0
-      },
-      {
-        "year": 2018,
-        "amount": 15.0
-      }
-    ],
-    "latest": 15.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "no_dividend"
+    }
   }
 }

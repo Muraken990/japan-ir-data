@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:55.314288",
+  "fetched_at": "2026-11-20T14:03:09.010573",
   "ticker": "2345",
   "ticker_full": "2345.T",
   "company_name": "HODL1 INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 102.0,
-      "deviation": -5.88,
-      "trend": "down"
+      "ma_value": 96.2,
+      "deviation": 1.87,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 92.36,
-      "deviation": 3.94,
+      "ma_value": 95.48,
+      "deviation": 2.64,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 97.73,
-      "deviation": -1.77,
-      "trend": "down"
+      "ma_value": 97.83,
+      "deviation": 0.18,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 166.0,
-      "deviation": -42.17,
+      "ma_value": 162.15,
+      "deviation": -39.56,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 5.0
-      },
-      {
-        "year": 2017,
-        "amount": 2.5
-      },
-      {
-        "year": 2018,
-        "amount": 3.5
-      },
-      {
-        "year": 2019,
-        "amount": 3.5
-      },
-      {
-        "year": 2020,
-        "amount": 7.0
-      }
-    ],
-    "latest": 7.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "no_dividend"
+    }
   }
 }

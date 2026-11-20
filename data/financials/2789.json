@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:51:14.898220",
+  "fetched_at": "2026-11-20T13:57:51.267473",
   "ticker": "2789",
   "ticker_full": "2789.T",
   "company_name": "KARULA CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 485.2,
-      "deviation": 0.37,
-      "trend": "up"
+      "ma_value": 486.6,
+      "deviation": -0.33,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 482.4,
-      "deviation": 0.95,
+      "ma_value": 484.24,
+      "deviation": 0.16,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 478.76,
-      "deviation": 1.72,
+      "ma_value": 480.0,
+      "deviation": 1.04,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 470.82,
-      "deviation": 3.44,
+      "ma_value": 470.77,
+      "deviation": 3.02,
       "trend": "up"
     }
   },
@@ -231,27 +231,29 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 10.0
-      },
-      {
-        "year": 2020,
-        "amount": 10.0
-      },
-      {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 5.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

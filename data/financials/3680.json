@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:57.066782",
+  "fetched_at": "2026-11-20T14:03:10.721082",
   "ticker": "3680",
   "ticker_full": "3680.T",
   "company_name": "HOTTO LINK INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 170.0,
-      "deviation": -2.35,
+      "ma_value": 168.2,
+      "deviation": -3.69,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 196.92,
-      "deviation": -15.7,
+      "ma_value": 189.88,
+      "deviation": -14.68,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 204.56,
-      "deviation": -18.85,
+      "ma_value": 201.56,
+      "deviation": -19.63,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 216.94,
-      "deviation": -23.48,
+      "ma_value": 214.46,
+      "deviation": -24.46,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 3.1
+        "amount": 3.1,
+        "in_progress": true
       }
     ],
     "latest": 3.1,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 6.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

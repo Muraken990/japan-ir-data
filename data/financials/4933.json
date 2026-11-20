@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:21.427315",
+  "fetched_at": "2026-11-20T14:31:22.234572",
   "ticker": "4933",
   "ticker_full": "4933.T",
   "company_name": "I-NE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2457.8,
-      "deviation": -2.23,
+      "ma_value": 2485.2,
+      "deviation": -0.77,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2381.96,
-      "deviation": 0.88,
+      "ma_value": 2420.44,
+      "deviation": 1.88,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1865.08,
-      "deviation": 28.84,
+      "ma_value": 1946.68,
+      "deviation": 26.68,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1443.35,
-      "deviation": 66.49,
+      "ma_value": 1471.73,
+      "deviation": 67.56,
       "trend": "up"
     }
   },
@@ -195,22 +195,33 @@
     "history": [
       {
         "year": 2023,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": true
       }
     ],
     "latest": 7.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

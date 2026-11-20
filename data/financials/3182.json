@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:40:43.126933",
+  "fetched_at": "2026-11-20T14:44:45.168965",
   "ticker": "3182",
   "ticker_full": "3182.T",
   "company_name": "OISIX INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1677.8,
-      "deviation": 11.22,
-      "trend": "up"
+      "ma_value": 1824.4,
+      "deviation": -4.46,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1661.24,
-      "deviation": 12.33,
+      "ma_value": 1695.92,
+      "deviation": 2.78,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1657.31,
-      "deviation": 12.59,
+      "ma_value": 1669.65,
+      "deviation": 4.39,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1523.87,
-      "deviation": 22.45,
+      "ma_value": 1531.52,
+      "deviation": 13.81,
       "trend": "up"
     }
   },
@@ -126,7 +126,7 @@
         "ebit_fmt": "¥66億",
         "net_income": 4108000000.0,
         "net_income_fmt": "¥41億",
-        "eps": 112.72,
+        "eps": 112.38,
         "operating_margin": 3.45,
         "total_assets": 143709000000.0,
         "total_assets_fmt": "¥1437億",
@@ -231,15 +231,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2025,
-        "amount": 8.0
-      },
-      {
         "year": 2026,
-        "amount": 12.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 12.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

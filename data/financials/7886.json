@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:45:17.929694",
+  "fetched_at": "2026-11-20T13:52:18.706977",
   "ticker": "7886",
   "ticker_full": "7886.T",
   "company_name": "YAMATO MOBILITY & MFG CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 436.4,
-      "deviation": -10.86,
+      "ma_value": 291.4,
+      "deviation": -2.2,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 529.36,
-      "deviation": -26.52,
+      "ma_value": 474.68,
+      "deviation": -39.96,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 608.41,
-      "deviation": -36.06,
+      "ma_value": 579.65,
+      "deviation": -50.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 666.62,
-      "deviation": -41.65,
+      "ma_value": 651.01,
+      "deviation": -56.22,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2003,
-        "amount": 80.0
-      },
-      {
-        "year": 2004,
-        "amount": 100.0
-      },
-      {
-        "year": 2005,
-        "amount": 20.0
-      },
-      {
-        "year": 2007,
-        "amount": 50.0
-      },
-      {
-        "year": 2015,
-        "amount": 10.0
-      }
-    ],
-    "latest": 10.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

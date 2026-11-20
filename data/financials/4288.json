@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:01.137528",
+  "fetched_at": "2026-11-20T13:56:40.384963",
   "ticker": "4288",
   "ticker_full": "4288.T",
   "company_name": "ASGENT INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 496.4,
-      "deviation": -7.74,
+      "ma_value": 434.4,
+      "deviation": -5.16,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 586.28,
-      "deviation": -21.88,
+      "ma_value": 561.44,
+      "deviation": -26.62,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 503.85,
-      "deviation": -9.1,
+      "ma_value": 505.63,
+      "deviation": -18.52,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 529.32,
-      "deviation": -13.47,
+      "ma_value": 524.0,
+      "deviation": -21.37,
       "trend": "down"
     }
   },
@@ -192,29 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2015,
-        "amount": 5.0
-      },
-      {
-        "year": 2017,
-        "amount": 5.0
-      },
-      {
-        "year": 2018,
-        "amount": 2.5
-      },
-      {
-        "year": 2019,
-        "amount": 5.0
-      },
-      {
-        "year": 2020,
-        "amount": 5.0
-      }
-    ],
-    "latest": 5.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

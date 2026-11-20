@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:05.301634",
+  "fetched_at": "2026-11-20T14:14:47.189868",
   "ticker": "3123",
   "ticker_full": "3123.T",
   "company_name": "SAIBO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 622.6,
-      "deviation": 0.22,
-      "trend": "up"
+      "ma_value": 614.0,
+      "deviation": -2.28,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 626.68,
-      "deviation": -0.43,
+      "ma_value": 623.2,
+      "deviation": -3.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 634.11,
-      "deviation": -1.59,
+      "ma_value": 632.92,
+      "deviation": -5.2,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 633.47,
-      "deviation": -1.5,
+      "ma_value": 633.68,
+      "deviation": -5.32,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 14.0
-      },
-      {
         "year": 2023,
-        "amount": 16.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 17.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 9.0,
+        "in_progress": true
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 17.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:44.955798",
+  "fetched_at": "2026-11-20T14:01:08.821492",
   "ticker": "9353",
   "ticker_full": "9353.T",
   "company_name": "SAKURAJIMA FUTO KAISHA",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2698.0,
-      "deviation": 0.44,
-      "trend": "up"
+      "ma_value": 2652.2,
+      "deviation": -4.61,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2850.48,
-      "deviation": -4.93,
+      "ma_value": 2783.92,
+      "deviation": -9.12,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2921.63,
-      "deviation": -7.24,
+      "ma_value": 2900.24,
+      "deviation": -12.77,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2679.51,
-      "deviation": 1.14,
-      "trend": "up"
+      "ma_value": 2678.82,
+      "deviation": -5.56,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       }
     ],
     "latest": 54.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 54.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

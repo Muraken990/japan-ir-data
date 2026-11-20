@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:08.665402",
+  "fetched_at": "2026-11-20T13:56:46.854375",
   "ticker": "4197",
   "ticker_full": "4197.T",
   "company_name": "ASMARQ CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2435.0,
-      "deviation": 0.25,
-      "trend": "up"
+      "ma_value": 2437.0,
+      "deviation": -0.04,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2429.68,
-      "deviation": 0.47,
+      "ma_value": 2424.92,
+      "deviation": 0.46,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2379.51,
-      "deviation": 2.58,
+      "ma_value": 2388.16,
+      "deviation": 2.0,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2331.47,
-      "deviation": 4.7,
+      "ma_value": 2334.56,
+      "deviation": 4.35,
       "trend": "up"
     }
   },
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2024,
-        "amount": 72.0
+        "amount": 72.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 77.0
+        "amount": 77.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 38.0
+        "amount": 38.0,
+        "in_progress": true
       }
     ],
     "latest": 38.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 77.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

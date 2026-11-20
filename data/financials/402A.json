@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:32:18.027171",
+  "fetched_at": "2026-11-20T14:36:59.205795",
   "ticker": "402A",
   "ticker_full": "402A.T",
   "company_name": "AXELSPACE HOLDINGS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 201.8,
-      "deviation": 3.57,
-      "trend": "up"
+      "ma_value": 185.8,
+      "deviation": -7.97,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 230.2,
-      "deviation": -9.21,
+      "ma_value": 212.96,
+      "deviation": -19.7,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 405.31,
-      "deviation": -48.43,
+      "ma_value": 387.67,
+      "deviation": -55.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 539.0,
-      "deviation": -61.22,
+      "ma_value": 529.13,
+      "deviation": -67.68,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-05-31",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:17.691513",
+  "fetched_at": "2026-11-20T14:43:27.928506",
   "ticker": "6824",
   "ticker_full": "6824.T",
   "company_name": "NEW COSMOS ELECTRONIC CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3435.0,
-      "deviation": -0.73,
+      "ma_value": 3455.0,
+      "deviation": -2.32,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3542.8,
-      "deviation": -3.75,
+      "ma_value": 3489.8,
+      "deviation": -3.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 4065.2,
-      "deviation": -16.12,
+      "ma_value": 3977.07,
+      "deviation": -15.14,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 4517.8,
-      "deviation": -24.52,
+      "ma_value": 4495.21,
+      "deviation": -24.92,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 37.0
+        "amount": 37.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 47.0
+        "amount": 47.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 48.0
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 95.0
+        "amount": 95.0,
+        "in_progress": false
       }
     ],
     "latest": 95.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 95.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

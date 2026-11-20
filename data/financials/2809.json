@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:22.044661",
+  "fetched_at": "2026-11-20T15:07:46.813381",
   "ticker": "2809",
   "ticker_full": "2809.T",
   "company_name": "KEWPIE CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4780.0,
-      "deviation": 1.59,
-      "trend": "up"
+      "ma_value": 4903.5,
+      "deviation": -0.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4553.2,
-      "deviation": 6.65,
+      "ma_value": 4659.42,
+      "deviation": 4.26,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 4578.93,
-      "deviation": 6.05,
+      "ma_value": 4591.66,
+      "deviation": 5.8,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 4361.92,
-      "deviation": 11.33,
+      "ma_value": 4373.01,
+      "deviation": 11.09,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 47.0
+        "amount": 47.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 64.0
+        "amount": 64.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 32.0
+        "amount": 32.0,
+        "in_progress": true
       }
     ],
     "latest": 32.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 64.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

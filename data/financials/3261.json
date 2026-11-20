@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:49.815763",
+  "fetched_at": "2026-11-20T13:55:35.928750",
   "ticker": "3261",
   "ticker_full": "3261.T",
   "company_name": "GRANDES INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 424.0,
-      "deviation": 0.47,
-      "trend": "up"
+      "ma_value": 413.0,
+      "deviation": -3.15,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 432.16,
-      "deviation": -1.43,
+      "ma_value": 425.68,
+      "deviation": -6.03,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 422.49,
-      "deviation": 0.83,
-      "trend": "up"
+      "ma_value": 423.41,
+      "deviation": -5.53,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 441.35,
-      "deviation": -3.48,
+      "ma_value": 437.72,
+      "deviation": -8.62,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

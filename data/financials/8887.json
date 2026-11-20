@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:19:32.984918",
+  "fetched_at": "2026-11-20T14:24:48.654870",
   "ticker": "8887",
   "ticker_full": "8887.T",
   "company_name": "SYLA HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 313.6,
-      "deviation": 1.72,
-      "trend": "up"
+      "ma_value": 313.4,
+      "deviation": -2.04,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 331.68,
-      "deviation": -3.82,
+      "ma_value": 325.2,
+      "deviation": -5.6,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 358.35,
-      "deviation": -10.98,
+      "ma_value": 354.24,
+      "deviation": -13.34,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 370.19,
-      "deviation": -13.83,
+      "ma_value": 368.03,
+      "deviation": -16.58,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7.5
+        "amount": 3.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 7.0
+        "amount": 13.0,
+        "in_progress": false
       }
     ],
     "latest": 7.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 12.0,
+      "fiscal_year_end": "2024-12-31",
+      "status": "ok"
+    }
   }
 }

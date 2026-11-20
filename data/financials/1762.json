@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:22.953922",
+  "fetched_at": "2026-11-20T14:55:57.326336",
   "ticker": "1762",
   "ticker_full": "1762.T",
   "company_name": "TAKAMATSU CONSTRUCTION GROUP CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4225.0,
-      "deviation": 6.39,
-      "trend": "up"
+      "ma_value": 4374.0,
+      "deviation": -2.38,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 4080.6,
-      "deviation": 10.16,
+      "ma_value": 4174.4,
+      "deviation": 2.29,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3995.82,
-      "deviation": 12.49,
+      "ma_value": 4037.43,
+      "deviation": 5.76,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3738.38,
-      "deviation": 20.24,
+      "ma_value": 3750.05,
+      "deviation": 13.87,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 63.0
-      },
-      {
         "year": 2023,
-        "amount": 74.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 96.0
+        "amount": 82.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 86.0
+        "amount": 82.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 157.0
+        "amount": 130.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 72.0,
+        "in_progress": true
       }
     ],
     "latest": 72.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 130.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:30.807823",
+  "fetched_at": "2026-11-20T15:08:49.383898",
   "ticker": "4183",
   "ticker_full": "4183.T",
   "company_name": "MITSUI CHEMICALS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1729.3,
-      "deviation": 4.96,
-      "trend": "up"
+      "ma_value": 1705.25,
+      "deviation": -7.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1982.5,
-      "deviation": -8.45,
+      "ma_value": 1914.21,
+      "deviation": -17.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2078.42,
-      "deviation": -12.67,
+      "ma_value": 2055.97,
+      "deviation": -23.49,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2061.02,
-      "deviation": -11.94,
+      "ma_value": 2052.24,
+      "deviation": -23.35,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 62.5
-      },
-      {
         "year": 2023,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 72.5
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 37.5,
+        "in_progress": true
       }
     ],
     "latest": 37.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 75.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

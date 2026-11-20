@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:26.285366",
+  "fetched_at": "2026-11-20T13:58:59.106046",
   "ticker": "3237",
   "ticker_full": "3237.T",
   "company_name": "INTRANCE CO.LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 69.8,
-      "deviation": -1.15,
+      "ma_value": 58.6,
+      "deviation": -11.26,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 74.64,
-      "deviation": -7.56,
+      "ma_value": 67.76,
+      "deviation": -23.26,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 89.2,
-      "deviation": -22.65,
+      "ma_value": 86.85,
+      "deviation": -40.13,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 79.52,
-      "deviation": -13.23,
+      "ma_value": 79.3,
+      "deviation": -34.42,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2007,
-        "amount": 4.0
-      },
-      {
-        "year": 2015,
-        "amount": 7.0
-      },
-      {
-        "year": 2016,
-        "amount": 2.0
-      },
-      {
-        "year": 2017,
-        "amount": 2.0
-      },
-      {
-        "year": 2018,
-        "amount": 2.0
-      }
-    ],
-    "latest": 2.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

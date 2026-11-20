@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:52:26.619194",
+  "fetched_at": "2026-11-20T14:56:00.478131",
   "ticker": "6966",
   "ticker_full": "6966.T",
   "company_name": "MITSUI HIGH TEC INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 840.0,
-      "deviation": 0.0,
+      "ma_value": 752.4,
+      "deviation": -9.76,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 853.8,
-      "deviation": -1.62,
+      "ma_value": 824.08,
+      "deviation": -17.61,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 896.07,
-      "deviation": -6.26,
+      "ma_value": 888.04,
+      "deviation": -23.54,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 832.16,
-      "deviation": 0.94,
-      "trend": "up"
+      "ma_value": 831.96,
+      "deviation": -18.39,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 15.2
-      },
-      {
         "year": 2023,
-        "amount": 13.6
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.2
+        "amount": 14.4,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.0
+        "amount": 17.6,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 6.0,
+        "in_progress": true
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

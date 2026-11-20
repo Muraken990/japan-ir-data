@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:38:23.706927",
+  "fetched_at": "2026-11-20T14:42:35.489572",
   "ticker": "8081",
   "ticker_full": "8081.T",
   "company_name": "KANADEN CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2460.4,
-      "deviation": 1.81,
-      "trend": "up"
+      "ma_value": 2413.0,
+      "deviation": -2.94,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2575.36,
-      "deviation": -2.73,
+      "ma_value": 2526.28,
+      "deviation": -7.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2513.5,
-      "deviation": -0.34,
+      "ma_value": 2511.76,
+      "deviation": -6.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2370.74,
-      "deviation": 5.66,
-      "trend": "up"
+      "ma_value": 2378.67,
+      "deviation": -1.54,
+      "trend": "down"
     }
   },
   "financials": {
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥60億",
         "net_income": 3966000000.0,
         "net_income_fmt": "¥40億",
-        "eps": 2153.8,
+        "eps": 177.94,
         "operating_margin": 3.66,
         "total_assets": 97962000000.0,
         "total_assets_fmt": "¥980億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 27.0
-      },
-      {
         "year": 2023,
-        "amount": 46.0
+        "amount": 39.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 53.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 75.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 86.0
+        "amount": 72.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 72.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

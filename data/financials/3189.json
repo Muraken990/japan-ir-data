@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:12:34.057554",
+  "fetched_at": "2026-11-20T14:18:01.802349",
   "ticker": "3189",
   "ticker_full": "3189.T",
   "company_name": "ANAP HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 51.6,
-      "deviation": -3.1,
+      "ma_value": 48.4,
+      "deviation": -4.96,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 62.56,
-      "deviation": -20.08,
+      "ma_value": 56.24,
+      "deviation": -18.21,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 93.35,
-      "deviation": -46.44,
+      "ma_value": 90.01,
+      "deviation": -48.9,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 143.75,
-      "deviation": -65.22,
+      "ma_value": 138.0,
+      "deviation": -66.67,
       "trend": "down"
     }
   },
@@ -192,25 +192,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2017,
-        "amount": 5.0
-      },
-      {
-        "year": 2018,
-        "amount": 6.0
-      },
-      {
-        "year": 2019,
-        "amount": 6.0
-      },
-      {
-        "year": 2020,
-        "amount": 3.0
-      }
-    ],
-    "latest": 3.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "no_dividend"
+    }
   }
 }

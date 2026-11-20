@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:07.567253",
+  "fetched_at": "2026-11-20T14:15:46.375098",
   "ticker": "4392",
   "ticker_full": "4392.T",
   "company_name": "FUTURE INNOVATION GROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 709.4,
-      "deviation": 4.17,
-      "trend": "up"
+      "ma_value": 579.0,
+      "deviation": -10.02,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 765.64,
-      "deviation": -3.48,
+      "ma_value": 704.76,
+      "deviation": -26.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 921.76,
-      "deviation": -19.83,
+      "ma_value": 900.11,
+      "deviation": -42.12,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 814.48,
-      "deviation": -9.27,
+      "ma_value": 820.22,
+      "deviation": -36.48,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

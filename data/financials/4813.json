@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:18.869219",
+  "fetched_at": "2026-11-20T14:31:19.232645",
   "ticker": "4813",
   "ticker_full": "4813.T",
   "company_name": "ACCESS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 310.0,
-      "deviation": -0.32,
+      "ma_value": 289.6,
+      "deviation": -8.15,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 353.08,
-      "deviation": -12.48,
+      "ma_value": 336.92,
+      "deviation": -21.05,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 388.69,
-      "deviation": -20.5,
+      "ma_value": 385.24,
+      "deviation": -30.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 467.94,
-      "deviation": -33.97,
+      "ma_value": 459.95,
+      "deviation": -42.17,
       "trend": "down"
     }
   },
@@ -229,17 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2019,
-        "amount": 3.0
-      },
-      {
-        "year": 2020,
-        "amount": 3.0
-      }
-    ],
-    "latest": 3.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "no_dividend"
+    }
   }
 }

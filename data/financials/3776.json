@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:35.818609",
+  "fetched_at": "2026-11-20T14:19:02.211590",
   "ticker": "3776",
   "ticker_full": "3776.T",
   "company_name": "BROADBAND TOWER INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 221.2,
-      "deviation": 3.53,
-      "trend": "up"
+      "ma_value": 216.4,
+      "deviation": -8.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 241.16,
-      "deviation": -5.04,
+      "ma_value": 230.2,
+      "deviation": -14.42,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 245.71,
-      "deviation": -6.8,
+      "ma_value": 244.8,
+      "deviation": -19.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 242.17,
-      "deviation": -5.44,
+      "ma_value": 243.07,
+      "deviation": -18.95,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 2.0
+        "amount": 2.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": true
       }
     ],
     "latest": 1.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 3.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

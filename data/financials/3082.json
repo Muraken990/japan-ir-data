@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:35.020725",
+  "fetched_at": "2026-11-20T14:17:03.433896",
   "ticker": "3082",
   "ticker_full": "3082.T",
   "company_name": "KICHIRI HOLDINGS & CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 987.2,
-      "deviation": 0.18,
-      "trend": "up"
+      "ma_value": 988.2,
+      "deviation": -0.22,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 987.4,
-      "deviation": 0.16,
-      "trend": "up"
+      "ma_value": 987.04,
+      "deviation": -0.11,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 978.09,
-      "deviation": 1.12,
+      "ma_value": 980.53,
+      "deviation": 0.56,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 959.47,
-      "deviation": 3.08,
+      "ma_value": 960.84,
+      "deviation": 2.62,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.5
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 7.5
+        "amount": 7.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 5.0
+        "amount": 7.5,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 7.5,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

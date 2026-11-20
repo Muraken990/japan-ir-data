@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:19.327414",
+  "fetched_at": "2026-11-20T14:14:59.344830",
   "ticker": "4234",
   "ticker_full": "4234.T",
   "company_name": "SUN A. KAKEN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1001.0,
-      "deviation": 13.99,
-      "trend": "up"
+      "ma_value": 1153.4,
+      "deviation": -6.1,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 996.8,
-      "deviation": 14.47,
+      "ma_value": 1026.68,
+      "deviation": 5.49,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 950.78,
-      "deviation": 20.01,
+      "ma_value": 982.22,
+      "deviation": 10.26,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 817.56,
-      "deviation": 39.56,
+      "ma_value": 826.17,
+      "deviation": 31.09,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 23.0
-      },
-      {
         "year": 2023,
-        "amount": 18.0
+        "amount": 20.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 21.0
+        "amount": 18.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 12.0,
+        "in_progress": true
       }
     ],
     "latest": 12.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 18.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

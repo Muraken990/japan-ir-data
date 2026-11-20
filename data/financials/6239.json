@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:36.261657",
+  "fetched_at": "2026-11-20T14:17:04.464528",
   "ticker": "6239",
   "ticker_full": "6239.T",
   "company_name": "NAGAOKA INTERNATIONAL CORPORATI",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1241.0,
-      "deviation": 0.32,
+      "ma_value": 1261.4,
+      "deviation": 0.29,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1316.4,
-      "deviation": -5.42,
+      "ma_value": 1290.12,
+      "deviation": -1.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1376.24,
-      "deviation": -9.54,
+      "ma_value": 1373.4,
+      "deviation": -7.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1398.62,
-      "deviation": -10.98,
+      "ma_value": 1395.09,
+      "deviation": -9.33,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 35.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

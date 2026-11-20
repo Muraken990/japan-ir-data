@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:41:52.757339",
+  "fetched_at": "2026-11-20T14:45:54.123233",
   "ticker": "3371",
   "ticker_full": "3371.T",
   "company_name": "SOFTCREATE HOLDINGS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2025.8,
-      "deviation": 1.24,
-      "trend": "up"
+      "ma_value": 2006.6,
+      "deviation": -1.23,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2136.0,
-      "deviation": -3.98,
+      "ma_value": 2091.88,
+      "deviation": -5.25,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2086.91,
-      "deviation": -1.72,
+      "ma_value": 2084.27,
+      "deviation": -4.91,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1933.16,
-      "deviation": 6.1,
+      "ma_value": 1931.97,
+      "deviation": 2.59,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 22.5
-      },
-      {
         "year": 2023,
-        "amount": 36.5
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 51.5
+        "amount": 48.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 58.5
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 62.0
+        "amount": 62.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 31.0,
+        "in_progress": true
       }
     ],
     "latest": 31.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 62.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

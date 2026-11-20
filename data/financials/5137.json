@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:05.432562",
+  "fetched_at": "2026-11-20T14:22:33.435849",
   "ticker": "5137",
   "ticker_full": "5137.T",
   "company_name": "SMARTDRIVE INC",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Software - Infrastructure",
     "website": "https://www.smartdrive.co.jp",
-    "employees": 111,
+    "employees": null,
     "country": "Japan",
     "city": "Chiyoda",
     "address": "Hibiya Park Front",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 302.0,
-      "deviation": -2.98,
+      "ma_value": 302.6,
+      "deviation": -5.82,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 305.84,
-      "deviation": -4.2,
+      "ma_value": 305.04,
+      "deviation": -6.57,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 287.87,
-      "deviation": 1.78,
-      "trend": "up"
+      "ma_value": 293.69,
+      "deviation": -2.96,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 278.2,
-      "deviation": 5.32,
+      "ma_value": 276.07,
+      "deviation": 3.23,
       "trend": "up"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

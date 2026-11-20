@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:25.751276",
+  "fetched_at": "2026-11-20T14:31:30.085373",
   "ticker": "4563",
   "ticker_full": "4563.T",
   "company_name": "ANGES INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 26.6,
-      "deviation": 1.5,
-      "trend": "up"
+      "ma_value": 24.6,
+      "deviation": -2.44,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 29.0,
-      "deviation": -6.9,
+      "ma_value": 27.28,
+      "deviation": -12.02,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 37.07,
-      "deviation": -27.16,
+      "ma_value": 35.57,
+      "deviation": -32.53,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 47.51,
-      "deviation": -43.16,
+      "ma_value": 46.62,
+      "deviation": -48.51,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:09.050932",
+  "fetched_at": "2026-11-20T14:22:36.470229",
   "ticker": "366A",
   "ticker_full": "366A.T",
   "company_name": "WELLNESS COMMUNICATIONS CORPORA",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1098.4,
-      "deviation": 0.15,
-      "trend": "up"
+      "ma_value": 1054.0,
+      "deviation": -5.31,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1153.72,
-      "deviation": -4.66,
+      "ma_value": 1121.84,
+      "deviation": -11.04,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1132.01,
-      "deviation": -2.83,
+      "ma_value": 1134.12,
+      "deviation": -12.0,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1055.6,
-      "deviation": 4.21,
-      "trend": "up"
+      "ma_value": 1055.55,
+      "deviation": -5.45,
+      "trend": "down"
     }
   },
   "financials": {
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 34.4
+        "amount": 34.4,
+        "in_progress": false
       }
     ],
     "latest": 34.4,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

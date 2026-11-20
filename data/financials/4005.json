@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:22.463744",
+  "fetched_at": "2026-11-20T15:08:43.865153",
   "ticker": "4005",
   "ticker_full": "4005.T",
   "company_name": "SUMITOMO CHEMICAL COMPANY",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 506.26,
-      "deviation": 1.13,
-      "trend": "up"
+      "ma_value": 496.18,
+      "deviation": -7.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 555.81,
-      "deviation": -7.88,
+      "ma_value": 540.6,
+      "deviation": -14.98,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 551.57,
-      "deviation": -7.17,
+      "ma_value": 550.49,
+      "deviation": -16.51,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 534.38,
-      "deviation": -4.19,
+      "ma_value": 535.44,
+      "deviation": -14.16,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 26.0
-      },
-      {
         "year": 2023,
-        "amount": 12.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 12.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.5
+        "amount": 13.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 8.0,
+        "in_progress": true
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 13.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

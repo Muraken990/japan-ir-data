@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:55:55.797511",
+  "fetched_at": "2026-11-20T14:02:11.793886",
   "ticker": "7044",
   "ticker_full": "7044.T",
   "company_name": "PIALA INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 576.8,
-      "deviation": -0.31,
+      "ma_value": 567.2,
+      "deviation": -7.26,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 590.48,
-      "deviation": -2.62,
+      "ma_value": 584.4,
+      "deviation": -9.99,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 545.23,
-      "deviation": 5.46,
-      "trend": "up"
+      "ma_value": 550.65,
+      "deviation": -4.48,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 529.01,
-      "deviation": 8.69,
-      "trend": "up"
+      "ma_value": 529.43,
+      "deviation": -0.65,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,15 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 5.0
-      },
-      {
         "year": 2021,
-        "amount": 5.0
+        "amount": 5.0,
+        "in_progress": false
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:19.087190",
+  "fetched_at": "2026-11-20T14:30:17.596092",
   "ticker": "6199",
   "ticker_full": "6199.T",
   "company_name": "SERAKU CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1514.4,
-      "deviation": 0.24,
-      "trend": "up"
+      "ma_value": 1446.8,
+      "deviation": -1.3,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1484.76,
-      "deviation": 2.24,
-      "trend": "up"
+      "ma_value": 1503.36,
+      "deviation": -5.01,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1398.23,
-      "deviation": 8.57,
+      "ma_value": 1408.35,
+      "deviation": 1.4,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1377.84,
-      "deviation": 10.17,
+      "ma_value": 1373.1,
+      "deviation": 4.0,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 8.6
+        "amount": 8.6,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.4
+        "amount": 10.4,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 13.0
+        "amount": 13.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 13.2
+        "amount": 13.2,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.4
+        "amount": 17.4,
+        "in_progress": false
       }
     ],
     "latest": 17.4,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 17.4,
+      "fiscal_year_end": "2026-08-31",
+      "status": "ok"
+    }
   }
 }

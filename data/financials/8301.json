@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:27:20.627862",
+  "fetched_at": "2026-11-20T14:32:24.126583",
   "ticker": "8301",
   "ticker_full": "8301.T",
   "company_name": "BANK OF JAPAN NPV",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 19974.0,
-      "deviation": 0.13,
-      "trend": "up"
+      "ma_value": 18842.0,
+      "deviation": -3.88,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 20392.8,
-      "deviation": -1.93,
+      "ma_value": 19891.2,
+      "deviation": -8.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 21672.8,
-      "deviation": -7.72,
+      "ma_value": 21452.27,
+      "deviation": -15.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 23489.8,
-      "deviation": -14.86,
+      "ma_value": 23311.85,
+      "deviation": -22.31,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

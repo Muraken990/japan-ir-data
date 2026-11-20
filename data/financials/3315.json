@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:32:19.545572",
+  "fetched_at": "2026-11-20T14:37:00.637051",
   "ticker": "3315",
   "ticker_full": "3315.T",
   "company_name": "NIPPON COKE & ENGINEERING CO LT",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 92.6,
-      "deviation": -0.65,
+      "ma_value": 90.8,
+      "deviation": -1.98,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 87.84,
-      "deviation": 4.74,
+      "ma_value": 87.64,
+      "deviation": 1.55,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 95.43,
-      "deviation": -3.59,
+      "ma_value": 95.24,
+      "deviation": -6.55,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 102.82,
-      "deviation": -10.52,
+      "ma_value": 102.45,
+      "deviation": -13.13,
       "trend": "down"
     }
   },
@@ -231,27 +231,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 3.0
-      },
-      {
-        "year": 2020,
-        "amount": 1.0
-      },
-      {
-        "year": 2021,
-        "amount": 4.0
-      },
-      {
         "year": 2022,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

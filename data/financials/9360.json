@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:19.590930",
+  "fetched_at": "2026-11-20T14:14:59.405079",
   "ticker": "9360",
   "ticker_full": "9360.T",
   "company_name": "SUZUYO SHINWART CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2666.8,
-      "deviation": -1.42,
+      "ma_value": 2550.8,
+      "deviation": -2.19,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2734.4,
-      "deviation": -3.85,
+      "ma_value": 2694.12,
+      "deviation": -7.39,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2786.99,
-      "deviation": -5.67,
+      "ma_value": 2759.28,
+      "deviation": -9.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2852.07,
-      "deviation": -7.82,
+      "ma_value": 2839.87,
+      "deviation": -12.14,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 90.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 110.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

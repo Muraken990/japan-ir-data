@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:13.114740",
+  "fetched_at": "2026-11-20T14:31:14.459996",
   "ticker": "3696",
   "ticker_full": "3696.T",
   "company_name": "CERES INC.",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2093.6,
-      "deviation": 3.03,
-      "trend": "up"
+      "ma_value": 2064.6,
+      "deviation": -4.1,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2206.32,
-      "deviation": -2.24,
+      "ma_value": 2167.04,
+      "deviation": -8.63,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2180.01,
-      "deviation": -1.06,
+      "ma_value": 2176.28,
+      "deviation": -9.02,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1911.57,
-      "deviation": 12.84,
+      "ma_value": 1915.64,
+      "deviation": 3.36,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       }
     ],
     "latest": 80.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

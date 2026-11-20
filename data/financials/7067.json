@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:41.414901",
+  "fetched_at": "2026-11-20T13:53:35.118772",
   "ticker": "7067",
   "ticker_full": "7067.T",
   "company_name": "BRANDING TECHNOLOGY INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1014.4,
-      "deviation": 2.03,
-      "trend": "up"
+      "ma_value": 975.2,
+      "deviation": -0.53,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1047.32,
-      "deviation": -1.18,
+      "ma_value": 1028.8,
+      "deviation": -5.72,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1043.15,
-      "deviation": -0.78,
+      "ma_value": 1041.43,
+      "deviation": -6.86,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1011.04,
-      "deviation": 2.37,
-      "trend": "up"
+      "ma_value": 1008.57,
+      "deviation": -3.82,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

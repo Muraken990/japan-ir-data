@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:58:04.304251",
+  "fetched_at": "2026-11-20T14:04:15.625717",
   "ticker": "5138",
   "ticker_full": "5138.T",
   "company_name": "REBASE INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 400.0,
-      "deviation": 3.25,
-      "trend": "up"
+      "ma_value": 615.0,
+      "deviation": -3.58,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 417.16,
-      "deviation": -1.0,
-      "trend": "down"
+      "ma_value": 452.0,
+      "deviation": 31.19,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 438.27,
-      "deviation": -5.77,
-      "trend": "down"
+      "ma_value": 451.85,
+      "deviation": 31.24,
+      "trend": "up"
     },
     "ma_200": {
-      "ma_value": 519.64,
-      "deviation": -20.52,
-      "trend": "down"
+      "ma_value": 513.63,
+      "deviation": 15.45,
+      "trend": "up"
     }
   },
   "financials": {
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

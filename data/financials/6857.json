@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:00.129913",
+  "fetched_at": "2026-11-20T15:14:10.568850",
   "ticker": "6857",
   "ticker_full": "6857.T",
   "company_name": "ADVANTEST CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 30020.0,
-      "deviation": 1.97,
-      "trend": "up"
+      "ma_value": 26863.75,
+      "deviation": -9.71,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 33974.0,
-      "deviation": -9.9,
+      "ma_value": 31631.04,
+      "deviation": -23.32,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 33702.91,
-      "deviation": -9.18,
+      "ma_value": 33775.68,
+      "deviation": -28.19,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 29347.62,
-      "deviation": 4.3,
-      "trend": "up"
+      "ma_value": 29467.77,
+      "deviation": -17.69,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 33.75
-      },
-      {
         "year": 2023,
-        "amount": 33.75
+        "amount": 33.75,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 37.0
+        "amount": 34.25,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 49.0
+        "amount": 39.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 79.0
+        "amount": 59.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 49.0,
+        "in_progress": true
       }
     ],
     "latest": 49.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 59.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:08:00.851563",
+  "fetched_at": "2026-11-20T14:13:45.757099",
   "ticker": "9514",
   "ticker_full": "9514.T",
   "company_name": "EF-ON INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 296.4,
-      "deviation": -0.13,
+      "ma_value": 281.6,
+      "deviation": -6.61,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 326.68,
-      "deviation": -9.39,
+      "ma_value": 315.36,
+      "deviation": -16.6,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 335.6,
-      "deviation": -11.8,
+      "ma_value": 332.35,
+      "deviation": -20.87,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 345.17,
-      "deviation": -14.25,
+      "ma_value": 343.01,
+      "deviation": -23.33,
       "trend": "down"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥20億",
         "net_income": 1198000000.0,
         "net_income_fmt": "¥12億",
-        "eps": 0,
+        "eps": 56.67,
         "operating_margin": 2.03,
         "total_assets": 44621000000.0,
         "total_assets_fmt": "¥446億",
@@ -200,7 +200,7 @@
         "ebit_fmt": "¥15億",
         "net_income": 893000000.0,
         "net_income_fmt": "¥9億",
-        "eps": 41.46,
+        "eps": 0,
         "operating_margin": 9.8,
         "total_assets": 47241000000.0,
         "total_assets_fmt": "¥472億",
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 8.0
+        "amount": 8.0,
+        "in_progress": false
       }
     ],
     "latest": 8.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 8.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

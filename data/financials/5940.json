@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:13:49.400063",
+  "fetched_at": "2026-11-20T14:19:13.768381",
   "ticker": "5940",
   "ticker_full": "5940.T",
   "company_name": "FUJISASH CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 658.4,
-      "deviation": 1.76,
-      "trend": "up"
+      "ma_value": 673.0,
+      "deviation": -1.04,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 703.72,
-      "deviation": -4.79,
+      "ma_value": 692.04,
+      "deviation": -3.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 732.43,
-      "deviation": -8.52,
+      "ma_value": 728.53,
+      "deviation": -8.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 794.45,
-      "deviation": -15.66,
+      "ma_value": 788.41,
+      "deviation": -15.53,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 30.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

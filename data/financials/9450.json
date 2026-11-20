@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:17:05.726836",
+  "fetched_at": "2026-11-20T14:22:33.835019",
   "ticker": "9450",
   "ticker_full": "9450.T",
   "company_name": "FIBERGATE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 722.2,
-      "deviation": 0.25,
+      "ma_value": 715.2,
+      "deviation": 0.11,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 750.12,
-      "deviation": -3.48,
+      "ma_value": 740.32,
+      "deviation": -3.29,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 766.71,
-      "deviation": -5.57,
+      "ma_value": 762.88,
+      "deviation": -6.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 727.39,
-      "deviation": -0.47,
+      "ma_value": 728.54,
+      "deviation": -1.72,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 4.5
+        "amount": 4.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 15.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 26.0
+        "amount": 17.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 27.0
+        "amount": 27.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 13.5
+        "amount": 27.0,
+        "in_progress": false
       }
     ],
     "latest": 13.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 27.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:57:58.646575",
+  "fetched_at": "2026-11-20T14:04:11.302213",
   "ticker": "6926",
   "ticker_full": "6926.T",
   "company_name": "OKAYA ELECTRIC INDUSTRIES CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 183.6,
-      "deviation": -3.05,
+      "ma_value": 179.8,
+      "deviation": -1.56,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 188.12,
-      "deviation": -5.38,
+      "ma_value": 185.64,
+      "deviation": -4.65,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 189.24,
-      "deviation": -5.94,
+      "ma_value": 188.85,
+      "deviation": -6.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 192.24,
-      "deviation": -7.4,
+      "ma_value": 191.78,
+      "deviation": -7.71,
       "trend": "down"
     }
   },
@@ -194,27 +194,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2019,
-        "amount": 5.0
-      },
-      {
-        "year": 2020,
-        "amount": 4.0
-      },
-      {
-        "year": 2021,
-        "amount": 4.0
-      },
-      {
         "year": 2023,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

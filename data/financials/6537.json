@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:04.061353",
+  "fetched_at": "2026-11-20T13:56:42.568239",
   "ticker": "6537",
   "ticker_full": "6537.T",
   "company_name": "WASHHOUSE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 228.2,
-      "deviation": -6.22,
+      "ma_value": 210.6,
+      "deviation": -5.03,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 255.24,
-      "deviation": -16.16,
+      "ma_value": 241.04,
+      "deviation": -17.03,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 285.09,
-      "deviation": -24.94,
+      "ma_value": 278.87,
+      "deviation": -28.28,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 327.23,
-      "deviation": -34.6,
+      "ma_value": 323.38,
+      "deviation": -38.15,
       "trend": "down"
     }
   },
@@ -229,25 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2016,
-        "amount": 8.0
-      },
-      {
-        "year": 2017,
-        "amount": 8.0
-      },
-      {
-        "year": 2018,
-        "amount": 8.0
-      },
-      {
-        "year": 2019,
-        "amount": 8.0
-      }
-    ],
-    "latest": 8.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

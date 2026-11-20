@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:56:00.359682",
+  "fetched_at": "2026-11-20T14:02:15.267602",
   "ticker": "7443",
   "ticker_full": "7443.T",
   "company_name": "YOKOHAMA GYORUI CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 695.0,
-      "deviation": 0.72,
+      "ma_value": 704.6,
+      "deviation": 0.62,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 686.72,
-      "deviation": 1.93,
+      "ma_value": 692.6,
+      "deviation": 2.37,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 667.23,
-      "deviation": 4.91,
+      "ma_value": 671.77,
+      "deviation": 5.54,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 651.28,
-      "deviation": 7.48,
+      "ma_value": 652.87,
+      "deviation": 8.6,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 3.0
-      },
-      {
         "year": 2023,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 3.0
+        "amount": 3.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 12.0
+        "amount": 8.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 4.0,
+        "in_progress": true
       }
     ],
     "latest": 4.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-03-31",
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:10.922217",
+  "fetched_at": "2026-11-20T14:49:00.344813",
   "ticker": "3950",
   "ticker_full": "3950.T",
   "company_name": "THE PACK CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1515.2,
-      "deviation": 0.25,
+      "ma_value": 1528.6,
+      "deviation": 1.01,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 1489.56,
-      "deviation": 1.98,
+      "ma_value": 1502.8,
+      "deviation": 2.74,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1472.97,
-      "deviation": 3.12,
+      "ma_value": 1477.21,
+      "deviation": 4.52,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1373.85,
-      "deviation": 10.57,
+      "ma_value": 1380.03,
+      "deviation": 11.88,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 21.67
+        "amount": 21.67,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 39.33
+        "amount": 39.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 41.33
+        "amount": 41.33,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": true
       }
     ],
     "latest": 17.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 41.3333,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

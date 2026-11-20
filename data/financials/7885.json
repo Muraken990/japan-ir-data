@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:14:54.391133",
+  "fetched_at": "2026-11-20T14:20:17.901875",
   "ticker": "7885",
   "ticker_full": "7885.T",
   "company_name": "TAKANO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1007.0,
-      "deviation": 0.5,
-      "trend": "up"
+      "ma_value": 983.6,
+      "deviation": -3.62,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1026.52,
-      "deviation": -1.41,
+      "ma_value": 1014.48,
+      "deviation": -6.55,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1083.11,
-      "deviation": -6.57,
+      "ma_value": 1076.37,
+      "deviation": -11.93,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1067.44,
-      "deviation": -5.19,
+      "ma_value": 1071.9,
+      "deviation": -11.56,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

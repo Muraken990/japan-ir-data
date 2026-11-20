@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:19.532526",
+  "fetched_at": "2026-11-20T15:07:44.526175",
   "ticker": "3086",
   "ticker_full": "3086.T",
   "company_name": "J FRONT RETAILING CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3030.5,
-      "deviation": 2.52,
-      "trend": "up"
+      "ma_value": 3136.0,
+      "deviation": -1.85,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2834.84,
-      "deviation": 9.6,
+      "ma_value": 2908.92,
+      "deviation": 5.81,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2826.78,
-      "deviation": 9.91,
+      "ma_value": 2830.91,
+      "deviation": 8.73,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2638.04,
-      "deviation": 17.78,
+      "ma_value": 2657.43,
+      "deviation": 15.83,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 30.0
-      },
-      {
         "year": 2023,
-        "amount": 32.0
+        "amount": 31.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 42.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 57.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 55.0
+        "amount": 54.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 28.0,
+        "in_progress": true
       }
     ],
     "latest": 28.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 54.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

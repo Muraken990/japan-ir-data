@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:42:56.467879",
+  "fetched_at": "2026-11-20T14:46:55.670428",
   "ticker": "1945",
   "ticker_full": "1945.T",
   "company_name": "TOKYO ENERGY & SYSTEMS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1865.0,
-      "deviation": 0.91,
-      "trend": "up"
+      "ma_value": 1796.0,
+      "deviation": -4.45,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1952.64,
-      "deviation": -3.62,
+      "ma_value": 1902.28,
+      "deviation": -9.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2014.62,
-      "deviation": -6.58,
+      "ma_value": 2004.97,
+      "deviation": -14.41,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1980.05,
-      "deviation": -4.95,
+      "ma_value": 1978.5,
+      "deviation": -13.27,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 35.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 51.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 52.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 73.0
+        "amount": 63.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 38.0,
+        "in_progress": true
       }
     ],
     "latest": 38.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 63.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

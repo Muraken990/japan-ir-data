@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:05:25.928490",
+  "fetched_at": "2026-11-20T15:08:45.513490",
   "ticker": "8060",
   "ticker_full": "8060.T",
   "company_name": "CANON MARKETING JAPAN INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3893.2,
-      "deviation": 3.28,
-      "trend": "up"
+      "ma_value": 3983.25,
+      "deviation": -0.26,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3977.52,
-      "deviation": 1.09,
-      "trend": "up"
+      "ma_value": 3991.21,
+      "deviation": -0.46,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3756.81,
-      "deviation": 7.03,
+      "ma_value": 3780.62,
+      "deviation": 5.09,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 3579.42,
-      "deviation": 12.34,
+      "ma_value": 3592.79,
+      "deviation": 10.58,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": true
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 85.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:11.072424",
+  "fetched_at": "2026-11-20T14:54:48.561721",
   "ticker": "9842",
   "ticker_full": "9842.T",
   "company_name": "ARCLANDS CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1916.4,
-      "deviation": 0.97,
-      "trend": "up"
+      "ma_value": 1950.0,
+      "deviation": -1.13,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1898.2,
-      "deviation": 1.94,
+      "ma_value": 1914.28,
+      "deviation": 0.72,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 1885.52,
-      "deviation": 2.62,
+      "ma_value": 1886.87,
+      "deviation": 2.18,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1862.59,
-      "deviation": 3.89,
+      "ma_value": 1864.72,
+      "deviation": 3.39,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

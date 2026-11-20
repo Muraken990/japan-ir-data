@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:03.196409",
+  "fetched_at": "2026-11-20T14:06:12.311668",
   "ticker": "2795",
   "ticker_full": "2795.T",
   "company_name": "NIPPON PRIMEX INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 954.2,
-      "deviation": -1.7,
-      "trend": "down"
+      "ma_value": 956.8,
+      "deviation": 0.54,
+      "trend": "up"
     },
     "ma_25": {
-      "ma_value": 975.6,
-      "deviation": -3.85,
+      "ma_value": 970.04,
+      "deviation": -0.83,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 971.48,
-      "deviation": -3.45,
+      "ma_value": 970.85,
+      "deviation": -0.91,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 934.75,
-      "deviation": 0.35,
+      "ma_value": 936.07,
+      "deviation": 2.77,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

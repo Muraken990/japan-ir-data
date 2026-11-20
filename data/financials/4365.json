@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:18.893868",
+  "fetched_at": "2026-11-20T14:51:05.969001",
   "ticker": "4365",
   "ticker_full": "4365.T",
   "company_name": "MATSUMOTO YUSHI SEIYAKU CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 22346.0,
-      "deviation": 0.42,
-      "trend": "up"
+      "ma_value": 22828.0,
+      "deviation": -1.79,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 23719.2,
-      "deviation": -5.39,
+      "ma_value": 23423.6,
+      "deviation": -4.28,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 22741.33,
-      "deviation": -1.33,
+      "ma_value": 22952.0,
+      "deviation": -2.32,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 20841.75,
-      "deviation": 7.67,
+      "ma_value": 20931.2,
+      "deviation": 7.11,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 350.0
+        "amount": 350.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 350.0
+        "amount": 350.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 400.0
+        "amount": 400.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 400.0
+        "amount": 400.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 450.0
+        "amount": 450.0,
+        "in_progress": false
       }
     ],
     "latest": 450.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 450.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

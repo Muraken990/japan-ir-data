@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:45.468542",
+  "fetched_at": "2026-11-20T13:49:48.530562",
   "ticker": "2323",
   "ticker_full": "2323.T",
   "company_name": "FONFUN CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 262.6,
-      "deviation": -4.04,
+      "ma_value": 242.8,
+      "deviation": -1.57,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 303.56,
-      "deviation": -16.99,
+      "ma_value": 284.76,
+      "deviation": -16.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 314.47,
-      "deviation": -19.86,
+      "ma_value": 312.76,
+      "deviation": -23.58,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 335.94,
-      "deviation": -24.99,
+      "ma_value": 331.63,
+      "deviation": -27.93,
       "trend": "down"
     }
   },
@@ -232,10 +232,18 @@
     "history": [
       {
         "year": 2025,
-        "amount": 1.0
+        "amount": 1.0,
+        "in_progress": false
       }
     ],
     "latest": 1.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

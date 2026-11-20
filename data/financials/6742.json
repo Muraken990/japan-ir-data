@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:46.771494",
+  "fetched_at": "2026-11-20T14:39:08.682365",
   "ticker": "6742",
   "ticker_full": "6742.T",
   "company_name": "KYOSAN ELECTRIC MANUFACTURING C",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 955.0,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 841.4,
+      "deviation": -6.35,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1060.76,
-      "deviation": -9.22,
+      "ma_value": 992.68,
+      "deviation": -20.62,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1031.25,
-      "deviation": -6.62,
+      "ma_value": 1029.9,
+      "deviation": -23.49,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 859.7,
-      "deviation": 12.02,
-      "trend": "up"
+      "ma_value": 865.4,
+      "deviation": -8.94,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 18.0
-      },
-      {
         "year": 2023,
-        "amount": 18.0
+        "amount": 18.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

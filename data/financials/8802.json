@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:53.260784",
+  "fetched_at": "2026-11-20T15:13:04.591068",
   "ticker": "8802",
   "ticker_full": "8802.T",
   "company_name": "MITSUBISHI ESTATE CO",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4054.6,
-      "deviation": 1.66,
-      "trend": "up"
+      "ma_value": 4057.5,
+      "deviation": -3.39,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3806.76,
-      "deviation": 8.28,
+      "ma_value": 3917.33,
+      "deviation": 0.07,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 3729.73,
-      "deviation": 10.52,
+      "ma_value": 3726.69,
+      "deviation": 5.19,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 4107.51,
-      "deviation": 0.35,
-      "trend": "up"
+      "ma_value": 4112.35,
+      "deviation": -4.68,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 39.0
-      },
-      {
         "year": 2023,
-        "amount": 39.0
+        "amount": 38.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 41.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 45.0
+        "amount": 43.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 47.0
+        "amount": 46.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 24.0,
+        "in_progress": true
       }
     ],
     "latest": 24.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 46.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

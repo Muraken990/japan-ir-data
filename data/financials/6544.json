@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:54.060034",
+  "fetched_at": "2026-11-20T15:03:22.389767",
   "ticker": "6544",
   "ticker_full": "6544.T",
   "company_name": "JAPAN ELEVATOR SERVICE HLDGS CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1420.4,
-      "deviation": -12.28,
+      "ma_value": 1248.25,
+      "deviation": -2.22,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1499.24,
-      "deviation": -16.89,
+      "ma_value": 1461.56,
+      "deviation": -16.49,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1525.89,
-      "deviation": -18.34,
+      "ma_value": 1499.66,
+      "deviation": -18.61,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1617.7,
-      "deviation": -22.98,
+      "ma_value": 1609.45,
+      "deviation": -24.17,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 7.0
+        "amount": 7.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 8.5
+        "amount": 8.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 12.5
+        "amount": 12.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.5
+        "amount": 15.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 21.0
+        "amount": 21.0,
+        "in_progress": false
       }
     ],
     "latest": 21.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 21.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

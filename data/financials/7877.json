@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:50:05.395643",
+  "fetched_at": "2026-11-20T13:56:44.560014",
   "ticker": "7877",
   "ticker_full": "7877.T",
   "company_name": "EIDAI KAKO CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2124.0,
-      "deviation": 10.55,
-      "trend": "up"
+      "ma_value": 2286.8,
+      "deviation": -4.8,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2102.08,
-      "deviation": 11.7,
+      "ma_value": 2122.04,
+      "deviation": 2.59,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2159.83,
-      "deviation": 8.71,
+      "ma_value": 2166.21,
+      "deviation": 0.5,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2058.32,
-      "deviation": 14.07,
+      "ma_value": 2067.49,
+      "deviation": 5.3,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 67.5
+        "amount": 67.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 60.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

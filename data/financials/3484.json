@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:06.060644",
+  "fetched_at": "2026-11-20T14:30:04.554591",
   "ticker": "3484",
   "ticker_full": "3484.T",
   "company_name": "INNOVATION HOLDINGS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1226.8,
-      "deviation": 1.32,
-      "trend": "up"
+      "ma_value": 1231.0,
+      "deviation": -2.52,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1217.52,
-      "deviation": 2.09,
-      "trend": "up"
+      "ma_value": 1222.2,
+      "deviation": -1.82,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1166.49,
-      "deviation": 6.56,
+      "ma_value": 1176.0,
+      "deviation": 2.04,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 1165.83,
-      "deviation": 6.62,
+      "ma_value": 1164.89,
+      "deviation": 3.01,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 16.0
+        "amount": 16.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       }
     ],
     "latest": 34.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 34.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

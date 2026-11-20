@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:45:17.430589",
+  "fetched_at": "2026-11-20T14:49:06.229473",
   "ticker": "8715",
   "ticker_full": "8715.T",
   "company_name": "ANICOM HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1044.8,
-      "deviation": -0.56,
+      "ma_value": 1016.8,
+      "deviation": -1.55,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1080.12,
-      "deviation": -3.81,
+      "ma_value": 1069.16,
+      "deviation": -6.38,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1094.29,
-      "deviation": -5.05,
+      "ma_value": 1081.88,
+      "deviation": -7.48,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1209.32,
-      "deviation": -14.08,
+      "ma_value": 1208.34,
+      "deviation": -17.16,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 4.0
+        "amount": 4.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 5.5
+        "amount": 5.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 8.5
+        "amount": 8.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       }
     ],
     "latest": 9.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 9.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

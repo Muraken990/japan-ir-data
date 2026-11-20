@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:38.406791",
+  "fetched_at": "2026-11-20T14:01:03.965502",
   "ticker": "5028",
   "ticker_full": "5028.T",
   "company_name": "SECONDXIGHT ANALYTICA INC.",
@@ -10,7 +10,7 @@
     "sector": "Technology",
     "industry": "Software - Infrastructure",
     "website": "https://www.sxi.co.jp",
-    "employees": 60,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "RBM Kanda Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 339.2,
-      "deviation": 2.0,
-      "trend": "up"
+      "ma_value": 333.4,
+      "deviation": -6.72,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 366.44,
-      "deviation": -5.58,
+      "ma_value": 360.76,
+      "deviation": -13.79,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 362.24,
-      "deviation": -4.48,
+      "ma_value": 360.65,
+      "deviation": -13.77,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 370.8,
-      "deviation": -6.69,
+      "ma_value": 368.74,
+      "deviation": -15.66,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "no_dividend"
+    }
   }
 }

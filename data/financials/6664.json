@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:14.442800",
+  "fetched_at": "2026-11-20T14:06:22.828759",
   "ticker": "6664",
   "ticker_full": "6664.T",
   "company_name": "OPTOELECTRONICS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 219.0,
-      "deviation": 0.91,
-      "trend": "up"
+      "ma_value": 213.0,
+      "deviation": -3.76,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 238.4,
-      "deviation": -7.3,
+      "ma_value": 230.64,
+      "deviation": -11.12,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 247.37,
-      "deviation": -10.66,
+      "ma_value": 245.43,
+      "deviation": -16.47,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 268.31,
-      "deviation": -17.63,
+      "ma_value": 265.44,
+      "deviation": -22.77,
       "trend": "down"
     }
   },
@@ -229,29 +229,14 @@
     "has_data": true
   },
   "dividends": {
-    "history": [
-      {
-        "year": 2012,
-        "amount": 5.0
-      },
-      {
-        "year": 2013,
-        "amount": 5.0
-      },
-      {
-        "year": 2014,
-        "amount": 5.0
-      },
-      {
-        "year": 2015,
-        "amount": 5.0
-      },
-      {
-        "year": 2016,
-        "amount": 5.0
-      }
-    ],
-    "latest": 5.0,
-    "has_data": true
+    "history": [],
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "no_dividend"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:37.247332",
+  "fetched_at": "2026-11-20T14:38:06.834965",
   "ticker": "1847",
   "ticker_full": "1847.T",
   "company_name": "ICHIKEN CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3203.0,
-      "deviation": 2.09,
-      "trend": "up"
+      "ma_value": 3162.0,
+      "deviation": -3.86,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3281.0,
-      "deviation": -0.34,
+      "ma_value": 3251.8,
+      "deviation": -6.51,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3235.05,
-      "deviation": 1.08,
-      "trend": "up"
+      "ma_value": 3268.72,
+      "deviation": -7.0,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2857.69,
-      "deviation": 14.43,
+      "ma_value": 2877.42,
+      "deviation": 5.65,
       "trend": "up"
     }
   },
@@ -52,7 +52,7 @@
         "ebit_fmt": "¥92億",
         "net_income": 6408000000.0,
         "net_income_fmt": "¥64億",
-        "eps": 441.4,
+        "eps": 439.83,
         "operating_margin": 8.51,
         "total_assets": 74436000000.0,
         "total_assets_fmt": "¥744億",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 70.0
-      },
-      {
         "year": 2023,
-        "amount": 52.5
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 57.5
+        "amount": 55.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 77.5
+        "amount": 70.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 147.5
+        "amount": 115.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 65.0,
+        "in_progress": true
       }
     ],
     "latest": 65.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 115.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

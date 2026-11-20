@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:54.313216",
+  "fetched_at": "2026-11-20T15:13:05.670681",
   "ticker": "6273",
   "ticker_full": "6273.T",
   "company_name": "SMC CORP",
@@ -10,7 +10,7 @@
     "sector": "Industrials",
     "industry": "Specialty Industrial Machinery",
     "website": "https://www.smcworld.com",
-    "employees": 24773,
+    "employees": 26924,
     "country": "Japan",
     "city": "Chuo",
     "address": "1-5-5, Kyobashi",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 60226.0,
-      "deviation": 3.48,
-      "trend": "up"
+      "ma_value": 59085.0,
+      "deviation": -6.41,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 64316.8,
-      "deviation": -3.1,
+      "ma_value": 61976.67,
+      "deviation": -10.77,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 68468.22,
-      "deviation": -8.98,
+      "ma_value": 68038.28,
+      "deviation": -18.72,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 68424.38,
-      "deviation": -8.92,
+      "ma_value": 68394.72,
+      "deviation": -19.15,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 900.0
-      },
-      {
         "year": 2023,
-        "amount": 900.0
+        "amount": 900.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 1000.0
+        "amount": 950.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 1000.0
+        "amount": 1000.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 1000.0
+        "amount": 1000.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 500.0,
+        "in_progress": true
       }
     ],
     "latest": 500.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 1000.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

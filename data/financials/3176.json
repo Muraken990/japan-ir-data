@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:37:04.810772",
+  "fetched_at": "2026-11-20T14:41:26.663996",
   "ticker": "3176",
   "ticker_full": "3176.T",
   "company_name": "SANYO TRADING CO LIMITED",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1071.2,
-      "deviation": -2.26,
+      "ma_value": 1013.6,
+      "deviation": -3.22,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1147.84,
-      "deviation": -8.79,
+      "ma_value": 1112.4,
+      "deviation": -11.81,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1102.72,
-      "deviation": -5.05,
+      "ma_value": 1114.42,
+      "deviation": -11.97,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 908.52,
-      "deviation": 15.24,
+      "ma_value": 915.24,
+      "deviation": 7.19,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 21.5
+        "amount": 21.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 27.5
+        "amount": 27.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.5
+        "amount": 28.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

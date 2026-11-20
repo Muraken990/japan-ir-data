@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:33:15.858035",
+  "fetched_at": "2026-11-20T14:37:55.058115",
   "ticker": "8285",
   "ticker_full": "8285.T",
   "company_name": "MITANI SANGYO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 667.6,
-      "deviation": 1.41,
-      "trend": "up"
+      "ma_value": 667.4,
+      "deviation": -0.96,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 721.0,
-      "deviation": -6.1,
+      "ma_value": 704.64,
+      "deviation": -6.19,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 753.8,
-      "deviation": -10.19,
+      "ma_value": 752.6,
+      "deviation": -12.17,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 711.67,
-      "deviation": -4.87,
+      "ma_value": 713.19,
+      "deviation": -7.32,
       "trend": "down"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 9.0
-      },
-      {
         "year": 2023,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.5
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 14.0
+        "amount": 13.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 6.0,
+        "in_progress": true
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 13.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

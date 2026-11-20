@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:41:36.338774",
+  "fetched_at": "2026-11-20T14:45:36.733827",
   "ticker": "6627",
   "ticker_full": "6627.T",
   "company_name": "TERA PROBE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1542.8,
-      "deviation": 3.51,
-      "trend": "up"
+      "ma_value": 1318.2,
+      "deviation": -9.88,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1888.88,
-      "deviation": -15.45,
+      "ma_value": 1657.0,
+      "deviation": -28.3,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2128.95,
-      "deviation": -24.99,
+      "ma_value": 2085.09,
+      "deviation": -43.02,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2057.68,
-      "deviation": -22.39,
+      "ma_value": 2054.36,
+      "deviation": -42.17,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 3.4
+        "amount": 3.4,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 10.8
+        "amount": 10.8,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       }
     ],
     "latest": 22.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 22.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

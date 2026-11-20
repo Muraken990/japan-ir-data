@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:35.745483",
+  "fetched_at": "2026-11-20T14:01:02.352831",
   "ticker": "7640",
   "ticker_full": "7640.T",
   "company_name": "TOP CULTURE CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 144.6,
-      "deviation": -0.41,
+      "ma_value": 141.8,
+      "deviation": -4.09,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 172.92,
-      "deviation": -16.72,
+      "ma_value": 161.8,
+      "deviation": -15.95,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 182.19,
-      "deviation": -20.96,
+      "ma_value": 180.0,
+      "deviation": -24.44,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 187.78,
-      "deviation": -23.32,
+      "ma_value": 186.16,
+      "deviation": -26.94,
       "trend": "down"
     }
   },
@@ -194,27 +194,24 @@
   "dividends": {
     "history": [
       {
-        "year": 2016,
-        "amount": 15.0
-      },
-      {
-        "year": 2017,
-        "amount": 15.0
-      },
-      {
-        "year": 2018,
-        "amount": 15.0
-      },
-      {
         "year": 2022,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       }
     ],
     "latest": 3.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 10,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2025-10-31",
+      "status": "no_dividend"
+    }
   }
 }

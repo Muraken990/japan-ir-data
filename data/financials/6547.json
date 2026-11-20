@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:16.885505",
+  "fetched_at": "2026-11-20T14:35:57.951386",
   "ticker": "6547",
   "ticker_full": "6547.T",
   "company_name": "GREENS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2098.6,
-      "deviation": 8.12,
-      "trend": "up"
+      "ma_value": 2205.4,
+      "deviation": -4.92,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2049.84,
-      "deviation": 10.69,
+      "ma_value": 2083.0,
+      "deviation": 0.67,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2096.75,
-      "deviation": 8.22,
-      "trend": "up"
+      "ma_value": 2098.45,
+      "deviation": -0.07,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2091.55,
-      "deviation": 8.48,
+      "ma_value": 2093.04,
+      "deviation": 0.19,
       "trend": "up"
     }
   },
@@ -231,27 +231,34 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 10.0
-      },
-      {
         "year": 2023,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 52.0
+        "amount": 52.0,
+        "in_progress": false
       }
     ],
     "latest": 52.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 52.0,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

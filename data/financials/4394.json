@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:48:55.700504",
+  "fetched_at": "2026-11-20T13:55:39.250362",
   "ticker": "4394",
   "ticker_full": "4394.T",
   "company_name": "EXMOTION CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 732.2,
-      "deviation": 1.2,
-      "trend": "up"
+      "ma_value": 734.6,
+      "deviation": -3.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 691.2,
-      "deviation": 7.2,
+      "ma_value": 693.44,
+      "deviation": 1.81,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 646.23,
-      "deviation": 14.67,
+      "ma_value": 658.77,
+      "deviation": 7.17,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 504.39,
-      "deviation": 46.91,
+      "ma_value": 512.96,
+      "deviation": 37.63,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 8.5
+        "amount": 8.5,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 9.0
+        "amount": 9.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 9.5
+        "amount": 9.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": true
       }
     ],
     "latest": 2.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 10.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

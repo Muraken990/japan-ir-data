@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:37:56.862717",
+  "fetched_at": "2026-11-20T14:42:17.912119",
   "ticker": "8151",
   "ticker_full": "8151.T",
   "company_name": "TOYO CORPORATION (TOKYO)",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1759.8,
-      "deviation": 2.97,
-      "trend": "up"
+      "ma_value": 1757.6,
+      "deviation": -2.37,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1842.96,
-      "deviation": -1.68,
+      "ma_value": 1815.28,
+      "deviation": -5.47,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1882.53,
-      "deviation": -3.75,
+      "ma_value": 1872.92,
+      "deviation": -8.38,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1842.36,
-      "deviation": -1.65,
+      "ma_value": 1842.77,
+      "deviation": -6.88,
       "trend": "down"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 68.0
+        "amount": 68.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 69.0
+        "amount": 69.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 70.0
+        "amount": 70.0,
+        "in_progress": false
       }
     ],
     "latest": 40.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 70.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "ok"
+    }
   }
 }

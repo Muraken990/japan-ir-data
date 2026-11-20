@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:12.477965",
+  "fetched_at": "2026-11-20T14:15:49.632176",
   "ticker": "4237",
   "ticker_full": "4237.T",
   "company_name": "FUJIPREAM CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 319.8,
-      "deviation": 3.5,
-      "trend": "up"
+      "ma_value": 312.2,
+      "deviation": -3.91,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 320.44,
-      "deviation": 3.3,
-      "trend": "up"
+      "ma_value": 316.72,
+      "deviation": -5.28,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 333.88,
-      "deviation": -0.86,
+      "ma_value": 332.72,
+      "deviation": -9.83,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 357.69,
-      "deviation": -7.46,
+      "ma_value": 356.0,
+      "deviation": -15.73,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 6.0
+        "amount": 6.0,
+        "in_progress": false
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 6.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

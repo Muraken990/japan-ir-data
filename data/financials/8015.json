@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:51.879079",
+  "fetched_at": "2026-11-20T15:13:03.441852",
   "ticker": "8015",
   "ticker_full": "8015.T",
   "company_name": "TOYOTA TSUSHO CORP",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 6693.0,
-      "deviation": -0.25,
+      "ma_value": 6347.0,
+      "deviation": -9.09,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 7066.44,
-      "deviation": -5.53,
+      "ma_value": 6904.58,
+      "deviation": -16.43,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 7172.87,
-      "deviation": -6.93,
+      "ma_value": 7175.37,
+      "deviation": -19.59,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 6623.46,
-      "deviation": 0.79,
-      "trend": "up"
+      "ma_value": 6643.09,
+      "deviation": -13.14,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 62.0
-      },
-      {
         "year": 2023,
-        "amount": 77.0
+        "amount": 67.33,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 101.67
+        "amount": 93.33,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 113.0
+        "amount": 105.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 124.0
+        "amount": 120.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 62.0,
+        "in_progress": true
       }
     ],
     "latest": 62.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 120.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

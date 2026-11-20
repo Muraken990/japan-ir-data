@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:42:44.557751",
+  "fetched_at": "2026-11-20T13:49:47.818279",
   "ticker": "520A",
   "ticker_full": "520A.T",
   "company_name": "J-PHARMACEUTICALS CO LTD",
@@ -18,18 +18,18 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 354.6,
-      "deviation": 0.68,
-      "trend": "up"
+      "ma_value": 333.2,
+      "deviation": -4.86,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 392.76,
-      "deviation": -9.1,
+      "ma_value": 379.28,
+      "deviation": -16.42,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 360.81,
-      "deviation": -1.06,
+      "ma_value": 364.99,
+      "deviation": -13.15,
       "trend": "down"
     },
     "ma_200": {
@@ -119,6 +119,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-03-31",
+      "status": "unavailable"
+    }
   }
 }

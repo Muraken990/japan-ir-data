@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:39:33.697644",
+  "fetched_at": "2026-11-20T14:43:42.206145",
   "ticker": "9305",
   "ticker_full": "9305.T",
   "company_name": "YAMATANE CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1919.2,
-      "deviation": 1.66,
-      "trend": "up"
+      "ma_value": 1917.0,
+      "deviation": -0.99,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2011.2,
-      "deviation": -2.99,
+      "ma_value": 1987.72,
+      "deviation": -4.51,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2036.42,
-      "deviation": -4.19,
+      "ma_value": 2023.23,
+      "deviation": -6.19,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2063.41,
-      "deviation": -5.45,
+      "ma_value": 2055.88,
+      "deviation": -7.68,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 27.5
-      },
-      {
         "year": 2023,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 40.0
+        "amount": 32.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 67.5
+        "amount": 52.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 75.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:49:58.542138",
+  "fetched_at": "2026-11-20T13:56:37.024008",
   "ticker": "5199",
   "ticker_full": "5199.T",
   "company_name": "FUJI LATEX CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1948.8,
-      "deviation": -0.5,
+      "ma_value": 1914.6,
+      "deviation": -1.55,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1974.76,
-      "deviation": -1.81,
+      "ma_value": 1960.84,
+      "deviation": -3.87,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1989.24,
-      "deviation": -2.53,
+      "ma_value": 1983.08,
+      "deviation": -4.95,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1971.39,
-      "deviation": -1.64,
+      "ma_value": 1970.97,
+      "deviation": -4.36,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 78.0
+        "amount": 78.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 81.0
+        "amount": 81.0,
+        "in_progress": false
       }
     ],
     "latest": 81.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 81.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

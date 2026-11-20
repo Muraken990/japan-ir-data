@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:23:50.531801",
+  "fetched_at": "2026-11-20T14:28:58.774624",
   "ticker": "5932",
   "ticker_full": "5932.T",
   "company_name": "SANKYO TATEYAMA INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 715.8,
-      "deviation": 1.84,
+      "ma_value": 733.4,
+      "deviation": 0.9,
       "trend": "up"
     },
     "ma_25": {
-      "ma_value": 741.4,
-      "deviation": -1.67,
-      "trend": "down"
+      "ma_value": 739.4,
+      "deviation": 0.08,
+      "trend": "up"
     },
     "ma_75": {
-      "ma_value": 684.63,
-      "deviation": 6.48,
+      "ma_value": 690.11,
+      "deviation": 7.23,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 663.09,
-      "deviation": 9.94,
+      "ma_value": 665.34,
+      "deviation": 11.22,
       "trend": "up"
     }
   },
@@ -195,26 +195,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.5
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 12.5
+        "amount": 25.0,
+        "in_progress": false
       }
     ],
     "latest": 12.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 5,
+    "trailing_fiscal": {
+      "amount": 25.0,
+      "fiscal_year_end": "2026-05-31",
+      "status": "ok"
+    }
   }
 }

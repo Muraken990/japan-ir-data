@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:41:55.388099",
+  "fetched_at": "2026-11-20T14:45:56.342414",
   "ticker": "5461",
   "ticker_full": "5461.T",
   "company_name": "CHUBU STEEL PLATE CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2216.8,
-      "deviation": 1.95,
-      "trend": "up"
+      "ma_value": 2257.4,
+      "deviation": -1.21,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2176.6,
-      "deviation": 3.83,
+      "ma_value": 2203.12,
+      "deviation": 1.22,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2104.14,
-      "deviation": 7.41,
+      "ma_value": 2116.86,
+      "deviation": 5.34,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2128.99,
-      "deviation": 6.15,
+      "ma_value": 2130.71,
+      "deviation": 4.66,
       "trend": "up"
     }
   },
@@ -195,22 +195,38 @@
     "history": [
       {
         "year": 2023,
-        "amount": 114.0
+        "amount": 84.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 111.0
+        "amount": 91.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 101.0
+        "amount": 101.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 104.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 56.0,
+        "in_progress": true
       }
     ],
     "latest": 56.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 104.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:09:49.401962",
+  "fetched_at": "2026-11-20T15:13:01.399560",
   "ticker": "8308",
   "ticker_full": "8308.T",
   "company_name": "RESONA HOLDINGS",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2263.9,
-      "deviation": -0.37,
+      "ma_value": 2155.38,
+      "deviation": -8.72,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2265.5,
-      "deviation": -0.44,
+      "ma_value": 2223.6,
+      "deviation": -11.52,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2364.81,
-      "deviation": -4.62,
+      "ma_value": 2359.69,
+      "deviation": -16.62,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2117.88,
-      "deviation": 6.5,
-      "trend": "up"
+      "ma_value": 2128.06,
+      "deviation": -7.54,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 21.0
-      },
-      {
         "year": 2023,
-        "amount": 21.5
+        "amount": 21.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.5
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.0
+        "amount": 29.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 18.5,
+        "in_progress": true
       }
     ],
     "latest": 18.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 29.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

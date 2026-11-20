@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:51:13.922758",
+  "fetched_at": "2026-11-20T14:54:51.178720",
   "ticker": "7287",
   "ticker_full": "7287.T",
   "company_name": "NIPPON SEIKI CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2362.2,
-      "deviation": -0.64,
+      "ma_value": 2258.6,
+      "deviation": -2.95,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2391.32,
-      "deviation": -1.85,
+      "ma_value": 2338.0,
+      "deviation": -6.24,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2532.26,
-      "deviation": -7.32,
+      "ma_value": 2527.31,
+      "deviation": -13.27,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2509.85,
-      "deviation": -6.49,
+      "ma_value": 2503.19,
+      "deviation": -12.43,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 40.0
-      },
-      {
         "year": 2023,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 50.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 65.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 85.0
+        "amount": 80.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 45.0,
+        "in_progress": true
       }
     ],
     "latest": 45.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 80.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

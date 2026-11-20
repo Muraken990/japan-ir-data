@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:09:03.959812",
+  "fetched_at": "2026-11-20T14:14:46.052377",
   "ticker": "9679",
   "ticker_full": "9679.T",
   "company_name": "HORAI CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2028.6,
-      "deviation": 0.07,
-      "trend": "up"
+      "ma_value": 2012.6,
+      "deviation": -0.48,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2082.32,
-      "deviation": -2.51,
+      "ma_value": 2073.4,
+      "deviation": -3.4,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2226.34,
-      "deviation": -8.82,
+      "ma_value": 2203.67,
+      "deviation": -9.11,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2187.18,
-      "deviation": -7.19,
+      "ma_value": 2187.76,
+      "deviation": -8.44,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 18.33
+        "amount": 18.33,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 22.0
+        "amount": 22.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 26.0
+        "amount": 26.0,
+        "in_progress": false
       }
     ],
     "latest": 26.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2010-09-30",
+      "status": "unavailable"
+    }
   }
 }

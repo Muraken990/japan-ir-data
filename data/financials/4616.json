@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:46:49.981511",
+  "fetched_at": "2026-11-20T13:53:41.407371",
   "ticker": "4616",
   "ticker_full": "4616.T",
   "company_name": "KAWAKAMI PAINT MFG CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4100.0,
-      "deviation": 5.98,
-      "trend": "up"
+      "ma_value": 4204.0,
+      "deviation": -2.47,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3794.2,
-      "deviation": 14.52,
+      "ma_value": 4036.6,
+      "deviation": 1.57,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2812.03,
-      "deviation": 54.51,
+      "ma_value": 2958.27,
+      "deviation": 38.59,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2235.01,
-      "deviation": 94.41,
+      "ma_value": 2290.38,
+      "deviation": 79.01,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2021,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2022,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 44.0
+        "amount": 44.0,
+        "in_progress": false
       }
     ],
     "latest": 44.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 11,
+    "trailing_fiscal": {
+      "amount": 44.0,
+      "fiscal_year_end": "2025-11-30",
+      "status": "ok"
+    }
   }
 }

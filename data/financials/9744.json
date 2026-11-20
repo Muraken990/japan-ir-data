@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:59:34.492172",
+  "fetched_at": "2026-11-20T15:03:06.395329",
   "ticker": "9744",
   "ticker_full": "9744.T",
   "company_name": "MEITEC GROUP HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3261.0,
-      "deviation": 0.98,
-      "trend": "up"
+      "ma_value": 3306.5,
+      "deviation": -0.89,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3313.96,
-      "deviation": -0.63,
+      "ma_value": 3313.75,
+      "deviation": -1.11,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3287.15,
-      "deviation": 0.18,
-      "trend": "up"
+      "ma_value": 3289.89,
+      "deviation": -0.39,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3181.94,
-      "deviation": 3.49,
+      "ma_value": 3178.08,
+      "deviation": 3.11,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 85.33
-      },
-      {
         "year": 2023,
-        "amount": 107.0
+        "amount": 102.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 158.0
+        "amount": 114.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 200.0
+        "amount": 198.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 191.0
+        "amount": 196.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 85.0,
+        "in_progress": true
       }
     ],
     "latest": 85.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 196.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

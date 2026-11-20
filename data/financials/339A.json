@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:10:15.699200",
+  "fetched_at": "2026-11-20T14:15:51.672621",
   "ticker": "339A",
   "ticker_full": "339A.T",
   "company_name": "PROGRESS TECHNOLOGIES GROUP INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 743.4,
-      "deviation": -0.73,
+      "ma_value": 707.0,
+      "deviation": -3.25,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 807.76,
-      "deviation": -8.64,
+      "ma_value": 769.16,
+      "deviation": -11.07,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 877.48,
-      "deviation": -15.9,
+      "ma_value": 866.2,
+      "deviation": -21.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1068.32,
-      "deviation": -30.92,
+      "ma_value": 1049.69,
+      "deviation": -34.84,
       "trend": "down"
     }
   },
@@ -195,10 +195,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 30.0
+        "amount": 30.0,
+        "in_progress": false
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": "2026-02-28",
+      "status": "unavailable"
+    }
   }
 }

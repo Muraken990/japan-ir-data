@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:35:54.463081",
+  "fetched_at": "2026-11-20T14:40:15.700167",
   "ticker": "7803",
   "ticker_full": "7803.T",
   "company_name": "BUSHIROAD INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 511.0,
-      "deviation": -6.07,
+      "ma_value": 442.8,
+      "deviation": -6.28,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 515.6,
-      "deviation": -6.9,
+      "ma_value": 506.36,
+      "deviation": -18.04,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 454.27,
-      "deviation": 5.66,
-      "trend": "up"
+      "ma_value": 457.75,
+      "deviation": -9.34,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 342.45,
-      "deviation": 40.17,
+      "ma_value": 346.1,
+      "deviation": 19.91,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 2.25
+        "amount": 2.25,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 2.25
+        "amount": 2.25,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 2.25
+        "amount": 2.25,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 2.25
+        "amount": 2.25,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 2.5
+        "amount": 2.5,
+        "in_progress": false
       }
     ],
     "latest": 2.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 6,
+    "trailing_fiscal": {
+      "amount": 2.5,
+      "fiscal_year_end": "2026-06-30",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:36:49.761880",
+  "fetched_at": "2026-11-20T14:41:11.827407",
   "ticker": "5261",
   "ticker_full": "5261.T",
   "company_name": "RESOL HOLDINGS CO LTD",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 7606.0,
-      "deviation": 0.84,
-      "trend": "up"
+      "ma_value": 7562.0,
+      "deviation": -1.22,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 7673.6,
-      "deviation": -0.05,
+      "ma_value": 7676.4,
+      "deviation": -2.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 7680.53,
-      "deviation": -0.14,
+      "ma_value": 7654.53,
+      "deviation": -2.41,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 7604.37,
-      "deviation": 0.86,
-      "trend": "up"
+      "ma_value": 7605.46,
+      "deviation": -1.78,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 100.0
+        "amount": 100.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 110.0
+        "amount": 110.0,
+        "in_progress": false
       }
     ],
     "latest": 110.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 110.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:11:00.269322",
+  "fetched_at": "2026-11-20T15:14:10.599760",
   "ticker": "4568",
   "ticker_full": "4568.T",
   "company_name": "DAIICHI SANKYO COMPANY LIMITED",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2826.3,
-      "deviation": 0.93,
-      "trend": "up"
+      "ma_value": 2797.5,
+      "deviation": -3.24,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2765.16,
-      "deviation": 3.16,
-      "trend": "up"
+      "ma_value": 2798.1,
+      "deviation": -3.26,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2751.87,
-      "deviation": 3.66,
-      "trend": "up"
+      "ma_value": 2750.62,
+      "deviation": -1.59,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2727.85,
-      "deviation": 4.57,
-      "trend": "up"
+      "ma_value": 2720.87,
+      "deviation": -0.51,
+      "trend": "down"
     }
   },
   "financials": {
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 28.5
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 60.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 69.0
+        "amount": 60.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 89.0
+        "amount": 78.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 50.0,
+        "in_progress": true
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 78.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

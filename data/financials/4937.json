@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:00:16.102897",
+  "fetched_at": "2026-11-20T14:06:24.006328",
   "ticker": "4937",
   "ticker_full": "4937.T",
   "company_name": "WAQOO INC",
@@ -10,7 +10,7 @@
     "sector": "Consumer Cyclical",
     "industry": "Internet Retail",
     "website": "https://waqoo.jp",
-    "employees": 93,
+    "employees": null,
     "country": "Japan",
     "city": "Tokyo",
     "address": "Yokomizo Building",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2251.2,
-      "deviation": -6.05,
+      "ma_value": 1977.2,
+      "deviation": -6.23,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2296.56,
-      "deviation": -7.91,
+      "ma_value": 2227.28,
+      "deviation": -16.76,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2203.81,
-      "deviation": -4.03,
+      "ma_value": 2234.64,
+      "deviation": -17.03,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1732.96,
-      "deviation": 22.05,
+      "ma_value": 1747.56,
+      "deviation": 6.09,
       "trend": "up"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 9,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-09-30",
+      "status": "no_dividend"
+    }
   }
 }

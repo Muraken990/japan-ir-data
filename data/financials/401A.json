@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:31:05.977181",
+  "fetched_at": "2026-11-20T14:35:45.777506",
   "ticker": "401A",
   "ticker_full": "401A.T",
   "company_name": "KASUMIGASEKI HOTEL REIT INVESTM",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 91000.0,
-      "deviation": 0.88,
-      "trend": "up"
+      "ma_value": 90860.0,
+      "deviation": -1.06,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 92512.0,
-      "deviation": -0.77,
+      "ma_value": 92084.0,
+      "deviation": -2.37,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 94955.44,
-      "deviation": -3.32,
+      "ma_value": 94684.0,
+      "deviation": -5.05,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 95862.85,
-      "deviation": -4.24,
+      "ma_value": 95635.29,
+      "deviation": -6.0,
       "trend": "down"
     }
   },
@@ -46,10 +46,18 @@
     "history": [
       {
         "year": 2026,
-        "amount": 6124.0
+        "amount": 6124.0,
+        "in_progress": true
       }
     ],
     "latest": 3146.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "calendar_year",
+    "fiscal_year_end_month": null,
+    "trailing_fiscal": {
+      "amount": null,
+      "fiscal_year_end": null,
+      "status": "unavailable"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:47:54.665124",
+  "fetched_at": "2026-11-20T13:54:44.335192",
   "ticker": "6867",
   "ticker_full": "6867.T",
   "company_name": "LEADER ELECTRONICS CORP",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 374.8,
-      "deviation": 0.32,
-      "trend": "up"
+      "ma_value": 352.8,
+      "deviation": -1.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 397.4,
-      "deviation": -5.39,
+      "ma_value": 386.32,
+      "deviation": -10.44,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 406.88,
-      "deviation": -7.59,
+      "ma_value": 402.61,
+      "deviation": -14.06,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 419.89,
-      "deviation": -10.45,
+      "ma_value": 416.57,
+      "deviation": -16.94,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 15.0
+        "amount": 15.0,
+        "in_progress": false
       }
     ],
     "latest": 15.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 15.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

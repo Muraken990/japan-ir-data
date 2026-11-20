@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:43.098341",
+  "fetched_at": "2026-11-20T14:01:06.947618",
   "ticker": "6195",
   "ticker_full": "6195.T",
   "company_name": "HOPE INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 195.4,
-      "deviation": -0.72,
+      "ma_value": 190.2,
+      "deviation": -1.16,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 198.64,
-      "deviation": -2.34,
+      "ma_value": 196.4,
+      "deviation": -4.28,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 200.54,
-      "deviation": -3.26,
+      "ma_value": 199.5,
+      "deviation": -5.76,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 208.65,
-      "deviation": -7.02,
+      "ma_value": 207.51,
+      "deviation": -9.4,
       "trend": "down"
     }
   },
@@ -194,15 +194,19 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 15.0
-      },
-      {
-        "year": 2026,
-        "amount": 3.85
+        "year": 2027,
+        "amount": 3.85,
+        "in_progress": true
       }
     ],
     "latest": 3.85,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "no_dividend"
+    }
   }
 }

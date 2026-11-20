@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:57:03.165850",
+  "fetched_at": "2026-11-20T14:03:16.128189",
   "ticker": "6424",
   "ticker_full": "6424.T",
   "company_name": "TAKAMISAWA CYBERNETICS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 847.6,
-      "deviation": 3.59,
-      "trend": "up"
+      "ma_value": 840.0,
+      "deviation": -2.62,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 865.04,
-      "deviation": 1.5,
-      "trend": "up"
+      "ma_value": 856.64,
+      "deviation": -4.51,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 885.25,
-      "deviation": -0.82,
+      "ma_value": 881.28,
+      "deviation": -7.18,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 895.46,
-      "deviation": -1.95,
+      "ma_value": 893.15,
+      "deviation": -8.41,
       "trend": "down"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 14.0
+        "amount": 14.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 23.0
+        "amount": 23.0,
+        "in_progress": false
       }
     ],
     "latest": 23.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 23.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

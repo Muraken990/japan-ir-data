@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:34:42.853188",
+  "fetched_at": "2026-11-20T14:39:05.291372",
   "ticker": "8103",
   "ticker_full": "8103.T",
   "company_name": "MEIWA CORPORATION",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 940.6,
-      "deviation": 1.11,
-      "trend": "up"
+      "ma_value": 926.8,
+      "deviation": -2.24,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 970.48,
-      "deviation": -2.01,
+      "ma_value": 955.92,
+      "deviation": -5.22,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 964.72,
-      "deviation": -1.42,
+      "ma_value": 965.35,
+      "deviation": -6.15,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 899.78,
-      "deviation": 5.69,
+      "ma_value": 899.02,
+      "deviation": 0.78,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 72.0
+        "amount": 72.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 34.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 42.0
+        "amount": 42.0,
+        "in_progress": false
       }
     ],
     "latest": 42.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 42.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

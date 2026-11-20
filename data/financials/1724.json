@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:54:26.053155",
+  "fetched_at": "2026-11-20T14:00:55.609822",
   "ticker": "1724",
   "ticker_full": "1724.T",
   "company_name": "SYNCLAYER INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 719.8,
-      "deviation": 2.39,
-      "trend": "up"
+      "ma_value": 713.8,
+      "deviation": -1.93,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 713.88,
-      "deviation": 3.24,
-      "trend": "up"
+      "ma_value": 713.28,
+      "deviation": -1.86,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 711.85,
-      "deviation": 3.53,
-      "trend": "up"
+      "ma_value": 713.81,
+      "deviation": -1.94,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 706.9,
-      "deviation": 4.26,
-      "trend": "up"
+      "ma_value": 706.61,
+      "deviation": -0.94,
+      "trend": "down"
     }
   },
   "financials": {
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 17.0
+        "amount": 17.0,
+        "in_progress": false
       },
       {
         "year": 2023,
-        "amount": 25.0
+        "amount": 25.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 28.0
+        "amount": 28.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": true
       }
     ],
     "latest": 10.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 28.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

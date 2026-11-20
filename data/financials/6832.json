@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:29:58.687265",
+  "fetched_at": "2026-11-20T14:34:44.849338",
   "ticker": "6832",
   "ticker_full": "6832.T",
   "company_name": "AOI ELECTRONICS",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2226.0,
-      "deviation": 2.2,
-      "trend": "up"
+      "ma_value": 2161.4,
+      "deviation": -7.51,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2513.24,
-      "deviation": -9.48,
+      "ma_value": 2377.6,
+      "deviation": -15.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2408.97,
-      "deviation": -5.56,
+      "ma_value": 2404.23,
+      "deviation": -16.85,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2543.9,
-      "deviation": -10.57,
+      "ma_value": 2533.15,
+      "deviation": -21.09,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 56.0
-      },
-      {
         "year": 2023,
-        "amount": 54.0
+        "amount": 56.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 54.0
+        "amount": 54.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 54.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

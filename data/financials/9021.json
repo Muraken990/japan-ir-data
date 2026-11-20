@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:07:46.813084",
+  "fetched_at": "2026-11-20T15:11:00.412567",
   "ticker": "9021",
   "ticker_full": "9021.T",
   "company_name": "WEST JAPAN RAILWAY CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 3315.2,
-      "deviation": 2.05,
-      "trend": "up"
+      "ma_value": 3373.75,
+      "deviation": -2.19,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 3106.72,
-      "deviation": 8.89,
+      "ma_value": 3187.94,
+      "deviation": 3.52,
       "trend": "up"
     },
     "ma_75": {
-      "ma_value": 2989.9,
-      "deviation": 13.15,
+      "ma_value": 3006.08,
+      "deviation": 9.78,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2946.51,
-      "deviation": 14.81,
+      "ma_value": 2952.14,
+      "deviation": 11.78,
       "trend": "up"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 50.0
-      },
-      {
         "year": 2023,
-        "amount": 66.25
+        "amount": 62.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 79.25
+        "amount": 71.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 92.5
+        "amount": 84.5,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 101.0
+        "amount": 97.5,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 48.5,
+        "in_progress": true
       }
     ],
     "latest": 48.5,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 97.5,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

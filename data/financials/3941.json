@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:00:42.766567",
+  "fetched_at": "2026-11-20T15:04:10.852085",
   "ticker": "3941",
   "ticker_full": "3941.T",
   "company_name": "RENGO CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1520.0,
-      "deviation": 2.27,
-      "trend": "up"
+      "ma_value": 1534.5,
+      "deviation": -5.28,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1551.36,
-      "deviation": 0.2,
-      "trend": "up"
+      "ma_value": 1553.54,
+      "deviation": -6.44,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1536.12,
-      "deviation": 1.2,
-      "trend": "up"
+      "ma_value": 1539.3,
+      "deviation": -5.57,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1411.97,
-      "deviation": 10.09,
+      "ma_value": 1418.87,
+      "deviation": 2.44,
       "trend": "up"
     }
   },
@@ -46,14 +46,14 @@
         "revenue_fmt": "¥1.0T",
         "gross_profit": 188022000000.0,
         "gross_profit_fmt": "¥1880億",
-        "operating_income": 37093000000.0,
-        "operating_income_fmt": "¥371億",
+        "operating_income": 40864000000.0,
+        "operating_income_fmt": "¥409億",
         "ebit": 47967000000.0,
         "ebit_fmt": "¥480億",
         "net_income": 21005000000.0,
         "net_income_fmt": "¥210億",
         "eps": 84.7,
-        "operating_margin": 3.68,
+        "operating_margin": 4.05,
         "total_assets": 1313086000000.0,
         "total_assets_fmt": "¥1.3T",
         "total_equity": 489299000000.0,
@@ -83,14 +83,14 @@
         "revenue_fmt": "¥9933億",
         "gross_profit": 181790000000.0,
         "gross_profit_fmt": "¥1818億",
-        "operating_income": 37410000000.0,
-        "operating_income_fmt": "¥374億",
+        "operating_income": 41095000000.0,
+        "operating_income_fmt": "¥411億",
         "ebit": 47122000000.0,
         "ebit_fmt": "¥471億",
         "net_income": 28979000000.0,
         "net_income_fmt": "¥290億",
         "eps": 133.33,
-        "operating_margin": 3.77,
+        "operating_margin": 4.14,
         "total_assets": 1243116000000.0,
         "total_assets_fmt": "¥1.2T",
         "total_equity": 463968000000.0,
@@ -120,14 +120,14 @@
         "revenue_fmt": "¥9008億",
         "gross_profit": 175381000000.0,
         "gross_profit_fmt": "¥1754億",
-        "operating_income": 48857000000.0,
-        "operating_income_fmt": "¥489億",
+        "operating_income": 52294000000.0,
+        "operating_income_fmt": "¥523億",
         "ebit": 53544000000.0,
         "ebit_fmt": "¥535億",
         "net_income": 33025000000.0,
         "net_income_fmt": "¥330億",
         "eps": 82.47,
-        "operating_margin": 5.42,
+        "operating_margin": 5.81,
         "total_assets": 1172515000000.0,
         "total_assets_fmt": "¥1.2T",
         "total_equity": 425291000000.0,
@@ -157,14 +157,14 @@
         "revenue_fmt": "¥8461億",
         "gross_profit": 141918000000.0,
         "gross_profit_fmt": "¥1419億",
-        "operating_income": 25960000000.0,
-        "operating_income_fmt": "¥260億",
+        "operating_income": 28713000000.0,
+        "operating_income_fmt": "¥287億",
         "ebit": 32935000000.0,
         "ebit_fmt": "¥329億",
         "net_income": 20425000000.0,
         "net_income_fmt": "¥204億",
         "eps": 82.47,
-        "operating_margin": 3.07,
+        "operating_margin": 3.39,
         "total_assets": 1053138000000.0,
         "total_assets_fmt": "¥1.1T",
         "total_equity": 372794000000.0,
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 24.0
-      },
-      {
         "year": 2023,
-        "amount": 24.0
+        "amount": 24.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 33.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 35.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 45.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 25.0,
+        "in_progress": true
       }
     ],
     "latest": 25.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

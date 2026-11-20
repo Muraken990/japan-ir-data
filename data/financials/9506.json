@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:14.840347",
+  "fetched_at": "2026-11-20T15:07:39.843365",
   "ticker": "9506",
   "ticker_full": "9506.T",
   "company_name": "TOHOKU ELECTRIC POWER CO INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1291.2,
-      "deviation": 1.46,
-      "trend": "up"
+      "ma_value": 1278.12,
+      "deviation": -4.86,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1283.74,
-      "deviation": 2.05,
-      "trend": "up"
+      "ma_value": 1281.62,
+      "deviation": -5.12,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1280.37,
-      "deviation": 2.31,
-      "trend": "up"
+      "ma_value": 1288.82,
+      "deviation": -5.65,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1164.46,
-      "deviation": 12.5,
+      "ma_value": 1167.45,
+      "deviation": 4.16,
       "trend": "up"
     }
   },
@@ -232,26 +232,38 @@
     "history": [
       {
         "year": 2022,
-        "amount": 15.0
-      },
-      {
-        "year": 2023,
-        "amount": 5.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 25.0
+        "amount": 15.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 35.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 40.0
+        "amount": 40.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 20.0,
+        "in_progress": true
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 40.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

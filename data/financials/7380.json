@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:58:23.852229",
+  "fetched_at": "2026-11-20T15:01:55.749409",
   "ticker": "7380",
   "ticker_full": "7380.T",
   "company_name": "JUROKU FINANCIAL GROUP INC",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2258.2,
-      "deviation": 4.6,
-      "trend": "up"
+      "ma_value": 2219.5,
+      "deviation": -8.02,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2395.02,
-      "deviation": -1.38,
+      "ma_value": 2311.85,
+      "deviation": -11.69,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2529.28,
-      "deviation": -6.61,
+      "ma_value": 2517.28,
+      "deviation": -18.9,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 2213.46,
-      "deviation": 6.71,
-      "trend": "up"
+      "ma_value": 2228.46,
+      "deviation": -8.39,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 26.0
-      },
-      {
         "year": 2023,
-        "amount": 28.0
+        "amount": 26.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 34.0
+        "amount": 32.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 40.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 33.0
+        "amount": 48.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 5.0,
+        "in_progress": true
       }
     ],
     "latest": 5.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 48.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

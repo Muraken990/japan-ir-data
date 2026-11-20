@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:26:12.315587",
+  "fetched_at": "2026-11-20T14:31:12.279979",
   "ticker": "2163",
   "ticker_full": "2163.T",
   "company_name": "ARTNER CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 934.8,
-      "deviation": 0.66,
-      "trend": "up"
+      "ma_value": 940.0,
+      "deviation": -1.38,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 935.52,
-      "deviation": 0.59,
-      "trend": "up"
+      "ma_value": 936.84,
+      "deviation": -1.05,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 950.19,
-      "deviation": -0.97,
+      "ma_value": 948.88,
+      "deviation": -2.31,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 946.22,
-      "deviation": -0.55,
+      "ma_value": 944.33,
+      "deviation": -1.84,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 20.25
-      },
-      {
         "year": 2023,
-        "amount": 38.75
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 38.75
+        "amount": 37.5,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 42.0
+        "amount": 41.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 64.0
+        "amount": 42.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 43.0,
+        "in_progress": true
       }
     ],
     "latest": 43.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 1,
+    "trailing_fiscal": {
+      "amount": 42.0,
+      "fiscal_year_end": "2026-01-31",
+      "status": "ok"
+    }
   }
 }

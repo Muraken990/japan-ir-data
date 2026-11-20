@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:11:25.097276",
+  "fetched_at": "2026-11-20T14:16:54.324012",
   "ticker": "6208",
   "ticker_full": "6208.T",
   "company_name": "ISHIKAWA SEISAKUSHO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1586.0,
-      "deviation": 0.38,
-      "trend": "up"
+      "ma_value": 1486.2,
+      "deviation": -6.0,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1604.72,
-      "deviation": -0.79,
+      "ma_value": 1571.04,
+      "deviation": -11.08,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1664.25,
-      "deviation": -4.34,
+      "ma_value": 1657.11,
+      "deviation": -15.7,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1878.03,
-      "deviation": -15.23,
+      "ma_value": 1874.76,
+      "deviation": -25.48,
       "trend": "down"
     }
   },
@@ -232,14 +232,23 @@
     "history": [
       {
         "year": 2025,
-        "amount": 10.0
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 20.0
+        "amount": 20.0,
+        "in_progress": false
       }
     ],
     "latest": 20.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 20.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

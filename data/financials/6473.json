@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:04:12.372208",
+  "fetched_at": "2026-11-20T15:07:36.956528",
   "ticker": "6473",
   "ticker_full": "6473.T",
   "company_name": "JTEKT CORPORATION",
@@ -18,24 +18,24 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2056.1,
-      "deviation": 1.58,
-      "trend": "up"
+      "ma_value": 1966.38,
+      "deviation": -5.49,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2063.64,
-      "deviation": 1.2,
-      "trend": "up"
+      "ma_value": 2033.08,
+      "deviation": -8.59,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2073.15,
-      "deviation": 0.74,
-      "trend": "up"
+      "ma_value": 2069.55,
+      "deviation": -10.2,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1954.25,
-      "deviation": 6.87,
-      "trend": "up"
+      "ma_value": 1957.91,
+      "deviation": -5.08,
+      "trend": "down"
     }
   },
   "financials": {
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 21.0
-      },
-      {
         "year": 2023,
-        "amount": 35.0
+        "amount": 30.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.0
+        "amount": 36.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 55.0
+        "amount": 50.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 65.0
+        "amount": 60.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 35.0,
+        "in_progress": true
       }
     ],
     "latest": 35.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 60.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

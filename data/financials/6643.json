@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:25:00.879184",
+  "fetched_at": "2026-11-20T14:29:59.853838",
   "ticker": "6643",
   "ticker_full": "6643.T",
   "company_name": "TOGAMI ELECTRIC MFG CO",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 4672.0,
-      "deviation": 0.71,
-      "trend": "up"
+      "ma_value": 4537.0,
+      "deviation": -2.69,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 5082.4,
-      "deviation": -7.43,
+      "ma_value": 4901.0,
+      "deviation": -9.92,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 5411.53,
-      "deviation": -13.06,
+      "ma_value": 5376.81,
+      "deviation": -17.89,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 5443.1,
-      "deviation": -13.56,
+      "ma_value": 5444.29,
+      "deviation": -18.91,
       "trend": "down"
     }
   },
@@ -194,27 +194,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 80.0
-      },
-      {
         "year": 2023,
-        "amount": 85.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 130.0
+        "amount": 110.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 150.0
+        "amount": 150.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 150.0
+        "amount": 140.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 70.0,
+        "in_progress": true
       }
     ],
     "latest": 70.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 140.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

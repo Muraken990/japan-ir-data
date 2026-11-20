@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T06:47:40.426132",
+  "fetched_at": "2026-11-20T14:51:24.938170",
   "ticker": "8237",
   "ticker_full": "8237.T",
   "company_name": "MATSUYA CO (TOKYO)",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2715.0,
-      "deviation": 0.59,
-      "trend": "up"
+      "ma_value": 2624.0,
+      "deviation": -3.81,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2498.16,
-      "deviation": 9.32,
-      "trend": "up"
+      "ma_value": 2580.36,
+      "deviation": -2.18,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 2298.16,
-      "deviation": 18.83,
+      "ma_value": 2355.35,
+      "deviation": 7.16,
       "trend": "up"
     },
     "ma_200": {
-      "ma_value": 2014.93,
-      "deviation": 35.54,
+      "ma_value": 2033.61,
+      "deviation": 24.11,
       "trend": "up"
     }
   },
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2020,
-        "amount": 4.5
-      },
-      {
         "year": 2023,
-        "amount": 5.0
+        "amount": 2.5,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 10.5
+        "amount": 10.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 15.0
+        "amount": 12.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 12.0
+        "amount": 12.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 6.0,
+        "in_progress": true
       }
     ],
     "latest": 6.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 2,
+    "trailing_fiscal": {
+      "amount": 12.0,
+      "fiscal_year_end": "2026-02-28",
+      "status": "ok"
+    }
   }
 }

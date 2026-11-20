@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:55:56.720150",
+  "fetched_at": "2026-11-20T14:02:12.531055",
   "ticker": "5867",
   "ticker_full": "5867.T",
   "company_name": "ES NETWORKS CO LTD",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 1342.0,
-      "deviation": -1.27,
+      "ma_value": 1291.4,
+      "deviation": -0.81,
       "trend": "down"
     },
     "ma_25": {
-      "ma_value": 1375.92,
-      "deviation": -3.7,
+      "ma_value": 1361.08,
+      "deviation": -5.88,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1302.93,
-      "deviation": 1.69,
-      "trend": "up"
+      "ma_value": 1309.57,
+      "deviation": -2.18,
+      "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1237.51,
-      "deviation": 7.07,
+      "ma_value": 1238.01,
+      "deviation": 3.47,
       "trend": "up"
     }
   },
@@ -46,14 +46,14 @@
         "revenue_fmt": "¥34億",
         "gross_profit": 1517766000.0,
         "gross_profit_fmt": "¥15億",
-        "operating_income": 306286000.0,
-        "operating_income_fmt": "¥3億",
+        "operating_income": 1507532000.0,
+        "operating_income_fmt": "¥15億",
         "ebit": 354514000.0,
         "ebit_fmt": "¥4億",
         "net_income": 217536000.0,
         "net_income_fmt": "¥2億",
         "eps": 71.78,
-        "operating_margin": 8.96,
+        "operating_margin": 44.1,
         "total_assets": 2686445000.0,
         "total_assets_fmt": "¥27億",
         "total_equity": 1751795000.0,
@@ -83,14 +83,14 @@
         "revenue_fmt": "¥30億",
         "gross_profit": 1342542000.0,
         "gross_profit_fmt": "¥13億",
-        "operating_income": 302095000.0,
-        "operating_income_fmt": "¥3億",
+        "operating_income": 1331746000.0,
+        "operating_income_fmt": "¥13億",
         "ebit": 418866000.0,
         "ebit_fmt": "¥4億",
         "net_income": 301663000.0,
         "net_income_fmt": "¥3億",
         "eps": 100.25,
-        "operating_margin": 10.24,
+        "operating_margin": 45.13,
         "total_assets": 2281921000.0,
         "total_assets_fmt": "¥23億",
         "total_equity": 1504164000.0,
@@ -120,14 +120,14 @@
         "revenue_fmt": "¥27億",
         "gross_profit": 1256698000.0,
         "gross_profit_fmt": "¥13億",
-        "operating_income": 269344000.0,
-        "operating_income_fmt": "¥3億",
+        "operating_income": 1254794000.0,
+        "operating_income_fmt": "¥13億",
         "ebit": 193554000.0,
         "ebit_fmt": "¥2億",
         "net_income": 136800000.0,
         "net_income_fmt": "¥1億",
         "eps": 46.43,
-        "operating_margin": 9.93,
+        "operating_margin": 46.28,
         "total_assets": 2218179000.0,
         "total_assets_fmt": "¥22億",
         "total_equity": 1334629000.0,
@@ -157,14 +157,14 @@
         "revenue_fmt": "¥26億",
         "gross_profit": 1237448000.0,
         "gross_profit_fmt": "¥12億",
-        "operating_income": 198768000.0,
-        "operating_income_fmt": "¥2億",
+        "operating_income": 1225618000.0,
+        "operating_income_fmt": "¥12億",
         "ebit": 220500000.0,
         "ebit_fmt": "¥2億",
         "net_income": 143149000.0,
         "net_income_fmt": "¥1億",
-        "eps": 47.8,
-        "operating_margin": 7.5,
+        "eps": 49.41,
+        "operating_margin": 46.25,
         "total_assets": 2379947000.0,
         "total_assets_fmt": "¥24億",
         "total_equity": 1214073000.0,
@@ -232,18 +232,28 @@
     "history": [
       {
         "year": 2023,
-        "amount": 41.0
+        "amount": 41.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 45.0
+        "amount": 45.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 50.0
+        "amount": 50.0,
+        "in_progress": false
       }
     ],
     "latest": 50.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 12,
+    "trailing_fiscal": {
+      "amount": 50.0,
+      "fiscal_year_end": "2025-12-31",
+      "status": "ok"
+    }
   }
 }

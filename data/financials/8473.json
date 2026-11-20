@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T07:08:49.549632",
+  "fetched_at": "2026-11-20T15:12:02.268437",
   "ticker": "8473",
   "ticker_full": "8473.T",
   "company_name": "SBI HOLDINGS INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 2891.0,
-      "deviation": 1.92,
-      "trend": "up"
+      "ma_value": 2856.38,
+      "deviation": -8.28,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 2930.08,
-      "deviation": 0.56,
-      "trend": "up"
+      "ma_value": 2896.54,
+      "deviation": -9.55,
+      "trend": "down"
     },
     "ma_75": {
-      "ma_value": 3060.2,
-      "deviation": -3.72,
+      "ma_value": 3065.84,
+      "deviation": -14.54,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 3021.6,
-      "deviation": -2.49,
+      "ma_value": 3008.3,
+      "deviation": -12.91,
       "trend": "down"
     }
   },
@@ -89,7 +89,7 @@
         "ebit_fmt": "¥2926億",
         "net_income": 162120000000.0,
         "net_income_fmt": "¥1621億",
-        "eps": 256.33,
+        "eps": 256.34,
         "operating_margin": 20.26,
         "total_assets": 32113430000000.0,
         "total_assets_fmt": "¥32.1T",
@@ -231,27 +231,39 @@
   "dividends": {
     "history": [
       {
-        "year": 2022,
-        "amount": 75.0
-      },
-      {
         "year": 2023,
-        "amount": 75.0
+        "amount": 75.0,
+        "in_progress": false
       },
       {
         "year": 2024,
-        "amount": 80.0
+        "amount": 80.0,
+        "in_progress": false
       },
       {
         "year": 2025,
-        "amount": 90.0
+        "amount": 85.0,
+        "in_progress": false
       },
       {
         "year": 2026,
-        "amount": 105.0
+        "amount": 95.0,
+        "in_progress": false
+      },
+      {
+        "year": 2027,
+        "amount": 30.0,
+        "in_progress": true
       }
     ],
     "latest": 30.0,
-    "has_data": true
+    "has_data": true,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 3,
+    "trailing_fiscal": {
+      "amount": 95.0,
+      "fiscal_year_end": "2026-03-31",
+      "status": "ok"
+    }
   }
 }

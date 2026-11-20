@@ -1,6 +1,6 @@
 {
   "success": true,
-  "fetched_at": "2026-11-15T05:52:10.792008",
+  "fetched_at": "2026-11-20T13:58:45.770899",
   "ticker": "6522",
   "ticker_full": "6522.T",
   "company_name": "ASTERISK INC",
@@ -18,23 +18,23 @@
   },
   "price_trend": {
     "ma_5": {
-      "ma_value": 693.2,
-      "deviation": 0.26,
-      "trend": "up"
+      "ma_value": 624.2,
+      "deviation": -7.56,
+      "trend": "down"
     },
     "ma_25": {
-      "ma_value": 829.12,
-      "deviation": -16.18,
+      "ma_value": 744.0,
+      "deviation": -22.45,
       "trend": "down"
     },
     "ma_75": {
-      "ma_value": 1377.57,
-      "deviation": -49.55,
+      "ma_value": 1313.77,
+      "deviation": -56.08,
       "trend": "down"
     },
     "ma_200": {
-      "ma_value": 1095.34,
-      "deviation": -36.55,
+      "ma_value": 1100.38,
+      "deviation": -47.56,
       "trend": "down"
     }
   },
@@ -193,6 +193,13 @@
   },
   "dividends": {
     "history": [],
-    "has_data": false
+    "has_data": false,
+    "aggregation_basis": "fiscal_year",
+    "fiscal_year_end_month": 8,
+    "trailing_fiscal": {
+      "amount": 0.0,
+      "fiscal_year_end": "2026-08-31",
+      "status": "no_dividend"
+    }
   }
 }
