@@ -22,6 +22,10 @@ YFINANCE_CSV = os.getenv('YFINANCE_CSV', 'output/yfinance_all_fields_latest.csv'
 OUTPUT_DIR = os.getenv('OUTPUT_DIR', 'data')
 OUTPUT_FILENAME = 'integrated_company_data.csv'
 
+# 週次キャッシュ（fetch_financials.pyが生成、weekly-financials.ymlでcommit）
+# 前期配当額（円）はここから読み、利回り(%)は当日の株価で毎回計算し直す
+FINANCIALS_DIR = os.getenv('FINANCIALS_DIR', 'data/financials')
+
 # ============================================================
 # 関数定義
 # ============================================================
@@ -166,6 +170,8 @@ def create_integrated_dataframe(merged_df):
         
         # 配当
         'dividendRate': merged_df.get('dividendRate', None),
+        # dividendYieldはyfinanceの生値をいったん入れておくが、
+        # apply_trailing_fiscal_dividend_yield()で前期実績ベースに上書きする
         'dividendYield': merged_df.get('dividendYield', None),
 
         # 成長性（バブルチャート用）
@@ -202,6 +208,60 @@ def create_integrated_dataframe(merged_df):
     print(f"   株価データあり: {has_price_data}社 ({has_price_data/total_rows*100:.1f}%)")
     
     return integrated
+
+
+def load_trailing_fiscal_dividends(codes, financials_dir):
+    """週次キャッシュ(data/financials/{code}.json)から前期配当実額(円)を読み込む。
+
+    戻り値は {code: amount} の辞書。amountは None(取得不可) / 0.0(無配) / 円。
+    キャッシュファイルが存在しない銘柄（新規追加直後で週次取得が未実行など）は含めない。
+    """
+    import json
+
+    amounts = {}
+    for code in codes:
+        path = os.path.join(financials_dir, f"{code}.json")
+        if not os.path.exists(path):
+            continue
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            trailing = (data.get('dividends') or {}).get('trailing_fiscal') or {}
+            amounts[code] = trailing.get('amount')
+        except (json.JSONDecodeError, OSError):
+            continue
+    return amounts
+
+
+def apply_trailing_fiscal_dividend_yield(integrated_df, financials_dir):
+    """dividendYieldを「前期実績配当額 ÷ 当日株価 × 100」で上書きする。
+
+    yfinanceの生の予想/会計期混在のdividendYieldをそのまま使うと
+    利回りが実態より大きく出る問題への対応（前期実績方式に統一）。
+    無配（前期実績0円）は0%として表示し、「取得不可（-）」とは区別する。
+    取得不可（-）になるのは、週次キャッシュが存在しない／lastFiscalYearEndが
+    取れない／当日の株価が取れない、のいずれかの場合のみ。
+    """
+    print("\n💰 配当利回りを前期実績方式で再計算中...")
+    codes = integrated_df['code'].astype(str).tolist()
+    amounts = load_trailing_fiscal_dividends(codes, financials_dir)
+
+    def compute(row):
+        amount = amounts.get(str(row['code']))
+        price = row['currentPrice']
+        if amount is None or pd.isna(price) or not price or price <= 0:
+            return None
+        return round(amount / price * 100, 4)
+
+    integrated_df['dividendYield'] = integrated_df.apply(compute, axis=1)
+
+    cached = len(amounts)
+    computed = integrated_df['dividendYield'].notna().sum()
+    no_dividend = (integrated_df['dividendYield'] == 0).sum()
+    print(f"   週次キャッシュあり: {cached}社")
+    print(f"   利回り算出済み: {computed}社（うち無配0%: {no_dividend}社）")
+
+    return integrated_df
 
 
 def save_integrated_data(df, output_dir, filename):
@@ -289,7 +349,10 @@ def main():
     
     # ステップ4: 最終データ構造作成
     integrated_df = create_integrated_dataframe(merged_df)
-    
+
+    # ステップ4.5: 配当利回りを前期実績方式で再計算（週次キャッシュ×当日株価）
+    integrated_df = apply_trailing_fiscal_dividend_yield(integrated_df, FINANCIALS_DIR)
+
     # ステップ5: データ品質チェック
     validate_data(integrated_df)
     

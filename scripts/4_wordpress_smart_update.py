@@ -410,7 +410,12 @@ def create_company(company_data, status='publish', dry_run=False):
     else:
         price_to_book = float(price_to_book)
     if pd.isna(dividend_yield):
-        dividend_yield = 0
+        # 配当利回りは「取得不可」と「無配(0%)」を区別する必要があるため、
+        # 他の指標と違い0にはしない。Noneを送るとWordPress REST側でそのメタが
+        # 削除され（register_meta型が'number'のため空文字だと400エラーになる）、
+        # get_post_meta()は未設定時に''を返すので、PHP側のis_numeric()判定で
+        # 正しく「-」(取得不可)表示になる。
+        dividend_yield = None
     else:
         dividend_yield = float(dividend_yield)
 
@@ -778,7 +783,12 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
     else:
         price_to_book = float(price_to_book)
     if pd.isna(dividend_yield):
-        dividend_yield = 0
+        # 配当利回りは「取得不可」と「無配(0%)」を区別する必要があるため、
+        # 他の指標と違い0にはしない。Noneを送るとWordPress REST側でそのメタが
+        # 削除され（register_meta型が'number'のため空文字だと400エラーになる）、
+        # get_post_meta()は未設定時に''を返すので、PHP側のis_numeric()判定で
+        # 正しく「-」(取得不可)表示になる。
+        dividend_yield = None
     else:
         dividend_yield = float(dividend_yield)
 
