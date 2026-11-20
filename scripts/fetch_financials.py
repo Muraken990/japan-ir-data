@@ -14,12 +14,13 @@ Japan IR - 財務データ取得スクリプト（並列処理版）
 
 import yfinance as yf
 import pandas as pd
+import calendar
 import json
 import os
 import sys
 import time
 import argparse
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
@@ -49,6 +50,7 @@ class FinancialDataFetcher:
         self.ticker = yf.Ticker(self.ticker_full)
         self.info = {}
         self.verbose = verbose
+        self.fiscal_year_end_month = None
 
     def fetch(self):
         """財務データを取得"""
@@ -59,8 +61,12 @@ class FinancialDataFetcher:
                 if not self.info or len(self.info) <= 1:
                     raise Exception("Empty response from yfinance")
 
-                # 履歴データ取得（MA計算用）
-                hist_1y = self.ticker.history(period="1y", interval="1d")
+                # 履歴データ取得（MA計算用・配当抽出用を1回のリクエストで兼用）
+                # period=5y: MA計算（最大200日）にも、配当履歴（直近5年）・前期実績配当の
+                # 算出にも十分な長さ。actions=TrueがデフォルトでDividends列を含むため、
+                # 別途 ticker.dividends を呼ぶ（内部でperiod="max"の再リクエストが発生する）
+                # 必要がなくなる。
+                hist = self.ticker.history(period="5y", interval="1d")
 
                 result = {
                     "success": True,
@@ -69,9 +75,9 @@ class FinancialDataFetcher:
                     "ticker_full": self.ticker_full,
                     "company_name": self.info.get("shortName", ""),
                     "company_info": self._get_company_info(),
-                    "price_trend": self._calculate_ma_deviation(hist_1y),
+                    "price_trend": self._calculate_ma_deviation(hist),
                     "financials": self._get_financials(),
-                    "dividends": self._get_dividends(),
+                    "dividends": self._get_dividends(hist),
                 }
 
                 return result
@@ -176,6 +182,7 @@ class FinancialDataFetcher:
             years_data = []
 
             if not income_stmt.empty:
+                self._detect_fiscal_year_end_month(income_stmt)
                 for col in income_stmt.columns[:5]:
                     year = col.year if hasattr(col, 'year') else str(col)[:4]
 
@@ -278,29 +285,127 @@ class FinancialDataFetcher:
                 "error": str(e)
             }
 
-    def _get_dividends(self):
-        """配当情報"""
+    def _get_trailing_fiscal_dividend(self, dividends, hist):
+        """前期（直近の決算期）1年分の配当合計（前期実績）を計算する。
+
+        無配（0円、履歴はあるが前期に支払いがない/配当履歴が空）と
+        取得不可（lastFiscalYearEndが取れない、取得時にエラー、
+        価格履歴の取得範囲が対象期間の開始日より浅い）を区別する。
+        amount: None=取得不可 / 0.0=無配 / >0=前期実績配当額
+        """
         try:
-            dividends = self.ticker.dividends
+            fye_ts = self.info.get('lastFiscalYearEnd')
+            if not fye_ts:
+                return {"amount": None, "fiscal_year_end": None, "status": "unavailable"}
+
+            fye = pd.Timestamp.fromtimestamp(int(fye_ts), tz='Asia/Tokyo').normalize()
+            fye_str = fye.strftime('%Y-%m-%d')
+            window_start = fye - pd.DateOffset(years=1) + pd.Timedelta(days=1)
+
+            # 価格履歴の取得範囲が対象期間の開始日をカバーしていない場合、
+            # 「無配」と「データ不足」を区別できないため取得不可にする
+            # （例: yfinance側の都合で該当銘柄の履歴が直近数ヶ月分しか返らないケース）
+            if hist is None or hist.empty or hist.index.min() > window_start:
+                return {"amount": None, "fiscal_year_end": fye_str, "status": "unavailable"}
+
+            if dividends is None:
+                return {"amount": None, "fiscal_year_end": fye_str, "status": "unavailable"}
+
+            if dividends.empty:
+                # 配当履歴が空＝一度も配当していない会社 → 無配（0円）。取得不可にはしない。
+                return {"amount": 0.0, "fiscal_year_end": fye_str, "status": "no_dividend"}
+
+            mask = (dividends.index >= window_start) & (dividends.index <= fye)
+            total = float(dividends[mask].sum())
+            status = "ok" if total > 0 else "no_dividend"
+            return {"amount": round(total, 4), "fiscal_year_end": fye_str, "status": status}
+
+        except Exception as e:
+            return {"amount": None, "fiscal_year_end": None, "status": "unavailable", "error": str(e)}
+
+    def _get_dividends(self, hist):
+        """配当情報（history()のDividends列から抽出、追加リクエストなし）"""
+        try:
+            if hist is not None and not hist.empty and 'Dividends' in hist.columns:
+                dividends = hist['Dividends']
+                dividends = dividends[dividends != 0]
+            else:
+                dividends = pd.Series(dtype=float)
+            fiscal_year_end_month = self._detect_fiscal_year_end_month()
+            aggregation_basis = "fiscal_year" if fiscal_year_end_month else "calendar_year"
+            trailing_fiscal = self._get_trailing_fiscal_dividend(dividends, hist)
 
             if dividends is None or dividends.empty:
-                return {"history": [], "has_data": False}
+                return {
+                    "history": [],
+                    "has_data": False,
+                    "aggregation_basis": aggregation_basis,
+                    "fiscal_year_end_month": fiscal_year_end_month,
+                    "trailing_fiscal": trailing_fiscal,
+                }
 
             dividends_df = dividends.to_frame(name='dividend')
-            dividends_df['year'] = dividends_df.index.year
+            if fiscal_year_end_month:
+                dividends_df['year'] = [
+                    dividend_date.year
+                    if dividend_date.month <= fiscal_year_end_month
+                    else dividend_date.year + 1
+                    for dividend_date in dividends_df.index
+                ]
+            else:
+                dividends_df['year'] = dividends_df.index.year
             yearly = dividends_df.groupby('year')['dividend'].sum().tail(5)
+            today = date.today()
+
+            history = []
+            for year, total in yearly.items():
+                period_end_month = fiscal_year_end_month or 12
+                period_end = date(
+                    int(year),
+                    period_end_month,
+                    calendar.monthrange(int(year), period_end_month)[1],
+                )
+                history.append({
+                    "year": int(year),
+                    "amount": round(float(total), 2),
+                    "in_progress": period_end > today,
+                })
 
             return {
-                "history": [
-                    {"year": int(year), "amount": round(float(total), 2)}
-                    for year, total in yearly.items()
-                ],
+                "history": history,
                 "latest": round(float(dividends.iloc[-1]), 2) if len(dividends) > 0 else 0,
-                "has_data": True
+                "has_data": True,
+                "aggregation_basis": aggregation_basis,
+                "fiscal_year_end_month": fiscal_year_end_month,
+                "trailing_fiscal": trailing_fiscal,
             }
 
         except Exception as e:
-            return {"history": [], "has_data": False, "error": str(e)}
+            return {
+                "history": [],
+                "has_data": False,
+                "error": str(e),
+                "trailing_fiscal": {"amount": None, "fiscal_year_end": None, "status": "unavailable", "error": str(e)},
+            }
+
+    def _detect_fiscal_year_end_month(self, income_stmt=None):
+        """最新の年次財務諸表から決算期末月を取得する。"""
+        if self.fiscal_year_end_month is not None:
+            return self.fiscal_year_end_month
+
+        try:
+            if income_stmt is None:
+                income_stmt = self.ticker.financials
+            if income_stmt is None or income_stmt.empty or len(income_stmt.columns) == 0:
+                return None
+
+            month = int(getattr(income_stmt.columns[0], 'month', 0))
+            if 1 <= month <= 12:
+                self.fiscal_year_end_month = month
+        except (TypeError, ValueError, AttributeError):
+            return None
+
+        return self.fiscal_year_end_month
 
     def _safe_get(self, df, row_name, col):
         """DataFrameから安全に値を取得"""
