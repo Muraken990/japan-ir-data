@@ -85,6 +85,16 @@ def get_auth_headers():
     }
 
 
+def _is_rest_invalid_stored_value(response):
+    """500応答がrest_invalid_stored_value（既存メタ値のスキーマ検証失敗）かを判定する。
+    このエラーは既存メタが既に削除済みの状態で発生し、リトライしても
+    同じ500が再発するだけなので、呼び出し側でリトライを止めるために使う。"""
+    try:
+        return response.json().get('code') == 'rest_invalid_stored_value'
+    except ValueError:
+        return False
+
+
 def wordpress_request(method, url, **kwargs):
     """WordPress REST APIリクエスト（リトライ付き）"""
     timeout = kwargs.pop('timeout', WP_REQUEST_TIMEOUT)
@@ -93,6 +103,13 @@ def wordpress_request(method, url, **kwargs):
     for attempt in range(1, WP_MAX_RETRIES + 1):
         try:
             response = requests.request(method, url, timeout=timeout, **kwargs)
+
+            if response.status_code == 500 and _is_rest_invalid_stored_value(response):
+                print(
+                    f"   ⏭️  WordPress API 500 (rest_invalid_stored_value) "
+                    f"({method} {url}) → リトライしても再発するためスキップ"
+                )
+                return response
 
             if response.status_code in WP_RETRY_STATUS_CODES and attempt < WP_MAX_RETRIES:
                 wait_seconds = get_retry_delay(attempt)
@@ -241,9 +258,12 @@ def fetch_company_posts_by_status(wp_url, lang, statuses=ALL_STATUSES):
 def get_existing_companies_all_langs(wp_url, languages=None):
     """全言語・全ステータスの企業投稿を取得し、証券コード×言語単位のグループにまとめる。
 
-    戻り値: {code: {lang: [{'id','slug','status'}, ...], ...}}
+    戻り値: {code: {lang: [{'id','slug','status','dividend_yield_existing'}, ...], ...}}
     同一コード・同一言語に複数投稿があっても1件に上書きせず、全件をリストで保持する
     （重複投稿を見落とさないため）。
+    dividend_yield_existing はWordPress側に現在保存されているdividendYieldメタの値
+    （未設定時は0または欠落）。取得済みの一覧レスポンスに含まれる値をそのまま使うため
+    追加リクエストは発生しない。
     """
     if languages is None:
         languages = WPML_LANGUAGES
@@ -256,7 +276,12 @@ def get_existing_companies_all_langs(wp_url, languages=None):
             if not code:
                 continue
             clean_code = str(code).replace('.T', '')
-            entry = {'id': c['id'], 'slug': c.get('slug', clean_code), 'status': c.get('status', '')}
+            entry = {
+                'id': c['id'],
+                'slug': c.get('slug', clean_code),
+                'status': c.get('status', ''),
+                'dividend_yield_existing': c.get('meta', {}).get('dividendYield'),
+            }
             groups.setdefault(clean_code, {}).setdefault(lang, []).append(entry)
 
     total = sum(len(entries) for langs in groups.values() for entries in langs.values())
@@ -264,29 +289,34 @@ def get_existing_companies_all_langs(wp_url, languages=None):
     return groups
 
 def get_translation_by_ticker(ticker, target_lang='en'):
-    """証券コードから翻訳投稿を検索"""
+    """証券コードから翻訳投稿を検索。
+
+    戻り値: (post_id, dividend_yield_existing) のタプル。見つからない場合は (None, None)。
+    dividend_yield_existingはこの検索レスポンスに既に含まれているmeta.dividendYieldを
+    そのまま使うため、追加リクエストは発生しない。
+    """
     url = f"{WP_SITE_URL}/wp-json/wp/v2/company"
     params = {
         'lang': target_lang,
         'stock_code': ticker,
         'per_page': 100
     }
-    
+
     try:
         response = wordpress_request('GET', url, params=params, headers=get_auth_headers())
         if response.status_code != 200:
-            return None
-            
+            return None, None
+
         companies = response.json()
-        
+
         # stock_codeが完全一致するものを探す
         for company in companies:
             if company.get('stock_code') == ticker:
-                return company['id']
+                return company['id'], company.get('meta', {}).get('dividendYield')
     except:
-        return None
-    
-    return None
+        return None, None
+
+    return None, None
 
 def price_fetched_meta(company_data):
     """株価の取得時刻メタ。取得元CSVに値が無い（旧形式・空欄）場合は送らない。"""
@@ -411,10 +441,10 @@ def create_company(company_data, status='publish', dry_run=False):
         price_to_book = float(price_to_book)
     if pd.isna(dividend_yield):
         # 配当利回りは「取得不可」と「無配(0%)」を区別する必要があるため、
-        # 他の指標と違い0にはしない。Noneを送るとWordPress REST側でそのメタが
-        # 削除され（register_meta型が'number'のため空文字だと400エラーになる）、
-        # get_post_meta()は未設定時に''を返すので、PHP側のis_numeric()判定で
-        # 正しく「-」(取得不可)表示になる。
+        # 他の指標と違い0にはしない。Noneのときは下流でpayloadにdividendYieldキー自体を
+        # 含めない（新規作成時は既存メタが存在しないため、nullを送ってもWordPress REST側の
+        # スキーマ検証が未設定値（空文字）を'number'型として拒否し500 rest_invalid_stored_value
+        # になるだけで削除対象がない）。
         dividend_yield = None
     else:
         dividend_yield = float(dividend_yield)
@@ -574,6 +604,11 @@ def create_company(company_data, status='publish', dry_run=False):
         }
     }
 
+    if dividend_yield is None:
+        # 新規作成時は既存メタが存在しないため、nullを送っても削除対象がなく
+        # 500 rest_invalid_stored_valueになるだけ。キー自体を省略する。
+        del data['meta']['dividendYield']
+
     try:
         response = wordpress_request('POST', url, headers=headers, json=data)
         if response.status_code == 201:
@@ -696,8 +731,12 @@ def link_wpml_via_official_api(ja_post_id, en_post_id):
 # WordPress企業更新
 # ============================================================
 
-def update_single_post(post_id, company_data, lang='ja', dry_run=False):
-    """単一投稿を更新（言語指定可能）"""
+def update_single_post(post_id, company_data, lang='ja', dry_run=False, existing_dividend_yield=None):
+    """単一投稿を更新（言語指定可能）
+
+    existing_dividend_yield: WordPress側に現在保存されているdividendYieldメタの値。
+    dividend_yieldがNone（取得不可）の場合、この既存値を見てpayloadの組み立て方を分岐する。
+    """
     headers = get_auth_headers()
     url = f"{WP_SITE_URL}/wp-json/wp/v2/company/{post_id}"
 
@@ -784,10 +823,9 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
         price_to_book = float(price_to_book)
     if pd.isna(dividend_yield):
         # 配当利回りは「取得不可」と「無配(0%)」を区別する必要があるため、
-        # 他の指標と違い0にはしない。Noneを送るとWordPress REST側でそのメタが
-        # 削除され（register_meta型が'number'のため空文字だと400エラーになる）、
-        # get_post_meta()は未設定時に''を返すので、PHP側のis_numeric()判定で
-        # 正しく「-」(取得不可)表示になる。
+        # 他の指標と違い0にはしない。Noneのときは下流でpayloadの組み立て方を分岐する
+        # （既存メタが実在する非0値なら削除のためnullを送る、0または未設定なら
+        # dividendYieldキー自体を省略する。詳細はdividendYieldペイロード組み立て箇所のコメント参照）。
         dividend_yield = None
     else:
         dividend_yield = float(dividend_yield)
@@ -943,6 +981,12 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
         }
     }
 
+    if dividend_yield is None:
+        if existing_dividend_yield in (None, 0, 0.0, '', '0', '0.0'):
+            del data['meta']['dividendYield']
+        else:
+            data['meta']['dividendYield'] = None
+
     try:
         response = wordpress_request('POST', url, headers=headers, json=data)
         return response.status_code == 200
@@ -950,7 +994,7 @@ def update_single_post(post_id, company_data, lang='ja', dry_run=False):
         return False
 
 
-def update_company(post_id, company_data, existing_slug='', dry_run=False):
+def update_company(post_id, company_data, existing_slug='', dry_run=False, existing_dividend_yield=None):
     """既存企業ページ更新（多言語対応）"""
     code = company_data.get('code', '')
 
@@ -972,7 +1016,7 @@ def update_company(post_id, company_data, existing_slug='', dry_run=False):
         print(f"      URL: {WP_SITE_URL}/company/{existing_slug}/")
 
         # 英語版も確認
-        en_post_id = get_translation_by_ticker(code, 'en')
+        en_post_id, _ = get_translation_by_ticker(code, 'en')
         if en_post_id:
             print(f"   🌐 英語版:")
             print(f"      ID: {en_post_id}")
@@ -989,14 +1033,20 @@ def update_company(post_id, company_data, existing_slug='', dry_run=False):
 
     # 実際の更新処理
     # 1. 日本語版を更新
-    success_ja = update_single_post(post_id, company_data, 'ja', dry_run)
+    success_ja = update_single_post(
+        post_id, company_data, 'ja', dry_run,
+        existing_dividend_yield=existing_dividend_yield
+    )
 
     # 2. 英語版を更新
-    en_post_id = get_translation_by_ticker(code, 'en')
+    en_post_id, en_existing_dividend_yield = get_translation_by_ticker(code, 'en')
     success_en = True
 
     if en_post_id:
-        success_en = update_single_post(en_post_id, company_data, 'en', dry_run)
+        success_en = update_single_post(
+            en_post_id, company_data, 'en', dry_run,
+            existing_dividend_yield=en_existing_dividend_yield
+        )
 
     return success_ja and success_en
 
@@ -1474,10 +1524,14 @@ def process_companies(integrated_csv, errors_csv, existing_companies, confirmed_
             else:
                 post_id = ja_posts[0]['id']
                 existing_slug = ja_posts[0].get('slug', '')
+                existing_dividend_yield = ja_posts[0].get('dividend_yield_existing')
                 prefix = "[Dry Run] 更新予定" if dry_run else "[更新]"
                 print(f"\n{prefix}: {company_name} ({ticker})")
 
-                if update_company(post_id, row, existing_slug=existing_slug, dry_run=dry_run):
+                if update_company(
+                    post_id, row, existing_slug=existing_slug, dry_run=dry_run,
+                    existing_dividend_yield=existing_dividend_yield
+                ):
                     stats['updated'] += 1
                     if not dry_run:
                         print(f"   ✅ 更新成功")
